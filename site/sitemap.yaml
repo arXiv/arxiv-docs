@@ -1,0 +1,6 @@
+title: "arXiv Help & Documentation"
+content_path: pages/index.md
+pages:
+  submission:
+    title: "Submission Policy"
+    content_path: pages/submission-policy.md
