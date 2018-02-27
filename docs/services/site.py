@@ -3,6 +3,7 @@ import copy
 from flask import url_for
 from typing import List
 from docs.domain import Page
+from docs.context import get_application_config
 
 import markdown
 import yaml
@@ -28,19 +29,24 @@ def _unpack(path: str, elem: dict):
 
 
 def _load_sitemap() -> None:
-    with open('site/sitemap.yaml') as f:
+    config = get_application_config()
+    site_path = config.get('SITE_PATH', 'site')
+    sitemap_path = os.path.join(site_path, 'sitemap.yaml')
+    with open(sitemap_path) as f:
         _unpack('', yaml.safe_load(f))
 
 
 def _full_path(local_path: str) -> str:
     """Generate the full path (including app and blueprint root) to a page."""
-    base_path = url_for('docs.from_sitemap').rstrip('/')
+    try:
+        base_path = url_for('docs.from_sitemap').rstrip('/')
+    except RuntimeError:
+        base_path = '/'
     local_path = local_path.lstrip('/')
     return f'{base_path}/{local_path}'
 
 
 _load_sitemap()
-print(SITEMAP)
 
 
 def _find_page(path: str) -> dict:

@@ -13,6 +13,7 @@ arxiv-base = "*"
 pyyaml = "*"
 whoosh = "*"
 bleach = "*"
+uwsgi = "*"
 
 
 [dev-packages]

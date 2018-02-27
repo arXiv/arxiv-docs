@@ -21,12 +21,12 @@ def search():
 @blueprint.route('/<path:path>')
 def from_sitemap(path: str):
     """Route the request dynamically, based on the site map."""
-    # try:
-    page = site.load_page(path)
-    # except site.PageNotFound as e:
-    #     raise NotFound('Nope') from e
-    # except site.PageLoadFailed as e:
-    #     raise InternalServerError('Nope') from e
+    try:
+        page = site.load_page(path)
+    except site.PageNotFound as e:
+        raise NotFound('Nope') from e
+    except site.PageLoadFailed as e:
+        raise InternalServerError('Nope') from e
     context = dict(page=page, content=Markup(page.markdown),
                    pagetitle=page.title)
     return render_template('docs/page.html', **context)

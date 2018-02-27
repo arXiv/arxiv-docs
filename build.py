@@ -3,14 +3,17 @@
 import os
 from typing import List
 
+from docs.factory import create_web_app
 from docs.domain import IndexablePage, Page
-from docsservices import site, index
+from docs.services import site, index
 
 import bleach
 
 
 def index_site() -> None:
     """Index the entire site."""
+    app = create_web_app()
+    app.app_context().push()
     index.create_index()
 
     indexable: List[IndexablePage] = []
