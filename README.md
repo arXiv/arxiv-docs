@@ -5,7 +5,7 @@ documentation.
 
 ## Site map and pages
 
-The site content and structure are defined in ``site/``.
+The site content and structure are defined in [``site/``](site/).
 
 The overall structure of the site is defined by a [YAML](http://yaml.org/)
 file, [``site/sitemap.yaml``](site/sitemap.yaml).
