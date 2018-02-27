@@ -46,7 +46,7 @@ this way.
 
 ## Document rendering app
 
-The application that serves the site is located in ``docs/``.
+The application that serves the site is located in [``docs/``](docs/).
 
 The easiest way to build and run the site is via
 [Docker](https://www.docker.com/).
