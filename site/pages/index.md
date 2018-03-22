@@ -24,7 +24,7 @@
 
 ## Submission and Revision
 - To Submit an Article
-- [terms_of_submission](Terms of submission)
+- [Terms of submission](terms_of_submission)
 - To Replace an Article
 - To Withdraw an Article
 - To Add a Journal Reference, DOI or Report Number to an Article
