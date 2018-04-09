@@ -1,6 +1,6 @@
 # arXiv Submission Policies
 
-Submitters to arXiv agree to the following policy statements:
+## Submitters to arXiv agree to the following policy statements:
 
 - I confirm that I have the rights to agree to the license designated for this
   submission.
