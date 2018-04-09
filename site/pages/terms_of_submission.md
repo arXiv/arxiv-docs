@@ -10,15 +10,13 @@
 - I understand that submissions will be automatically compared with other arXiv
   articles and detected text overlap may be noted.
 - I understand that metadata may be corrected to conform to arXiv standards.
-
-For third-party submissions, I have obtained pre-authorization from arXiv to
+- For third-party submissions, I have obtained pre-authorization from arXiv to
 submit as a third-party submitter.
 
 For more information regarding the above policies, please see:
-
-- https://arxiv.org/help/license
-- https://arxiv.org/help/moderation
-- https://arxiv.org/help/overlap
-- https://arxiv.org/help/submit
-- https://arxiv.org/help/prep
-- https://arxiv.org/help/third_party_submission
+- [License](https://arxiv.org/help/license)
+- [Moderation](https://arxiv.org/help/moderation)
+- [Overlap](https://arxiv.org/help/overlap)
+- [Submitting an article](https://arxiv.org/help/submit)
+- [Metadata](https://arxiv.org/help/prep)
+- [Third party submission](https://arxiv.org/help/third_party_submission)
