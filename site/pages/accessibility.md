@@ -12,61 +12,15 @@ Valid XHTML and CSS allow arXiv.org web pages to render well on modern browsers 
 
 As of December, 2005, almost all arXiv.org readers used browsers that support XHTML and CSS. Browser usage was as follows:
 
-<table border="1" cellpadding="3" cellspacing="0" summary="Usage percentages by browser">
 
-<tbody>
+|Browser   |Percentage of users|
+|----------|-------------------|
+|Internet Explorer 5.0 and later|40%|
+|Firefox 1.0 and later|22%|
+|Mozilla and Netscape 5.0 and later|14%|
+|Safari|10%|
+|Other browsers and RSS readers|14%|
 
-<tr>
-
-<th style="text-align:left;">Browser</th>
-
-<th style="text-align:left;">Percentage of users</th>
-
-</tr>
-
-<tr>
-
-<td>Internet Explorer 5.0 and later</td>
-
-<td>40%</td>
-
-</tr>
-
-<tr>
-
-<td>Firefox 1.0 and later</td>
-
-<td>22%</td>
-
-</tr>
-
-<tr>
-
-<td>Mozilla and Netscape 5.0 and later</td>
-
-<td>14%</td>
-
-</tr>
-
-<tr>
-
-<td>Safari</td>
-
-<td>10%</td>
-
-</tr>
-
-<tr>
-
-<td>Other browsers and RSS readers</td>
-
-<td>14%</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 Our goals in the redesign were to increase the usability and aesthetics of arXiv.org, and for the main site to comply with [Cornell Visual Identity guidelines](https://brand.cornell.edu/).
 
