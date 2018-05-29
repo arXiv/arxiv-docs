@@ -19,10 +19,10 @@ The `00README.XXX` file is read line-by-line before files are processed by AutoT
 
 Include lines such as:
 
-<pre>
+```
 filename1.ext1 ignore
 filename2.ext2 ignore
-</pre>
+```
 
 This is useful if you have included other files which are not necessary for processing and don't belong into a subdirectory for ancillary material either.
 
@@ -32,10 +32,10 @@ This is useful if you have included other files which are not necessary for proc
 
 Include lines such as:
 
-<pre>
+```
 filename1.whatever include
 filename2.whatever include
-</pre>
+```
 
 This will stop detection of unknown file type and will thus stop the file being given to AutoTeX. This can be used to include extra files linked from an HTML submission.
 
@@ -47,9 +47,9 @@ It is very rarely necessary to do this explicitly because arXiv employs a series
 
 If it is necessary, however, include a line that says:
 
-<pre>
+```
 myMainTexFile.tex toplevelfile
-</pre>
+```
 
 where `myMainTexFile.tex` is the name of the parent TeX file.
 
@@ -59,9 +59,9 @@ where `myMainTexFile.tex` is the name of the parent TeX file.
 
 It is possible to tell AutoTeX to send a flag to `dvips` requesting landscape mode. This sometimes results in upside-down output, but there is currently no facility to fix this. The command is:
 
-<pre>
+```
 filename.dvi landscape
-</pre>
+```
 
 where `filename.dvi` is the name of the DVI file that TeX will produce when processing the submission, and `filename` is the main TeX file without the `.tex` extension. Also, we have an extensive help library on setting the [landscape environment](faq/landscape "arXiv landscape help page").
 
@@ -71,8 +71,9 @@ where `filename.dvi` is the name of the DVI file that TeX will produce when proc
 
 See also: [Disabling hypertex](faq/mistakes#nohypertex).
 
-<pre>nohypertex
-</pre>
+```
+nohypertex
+```
 
 This stops any attempt by arXiv to automatically augment a paper with hyperlinks. However, it does not affect any facilities explicitly used within the paper's source. There is no filename associated with this switch.
 
@@ -82,9 +83,9 @@ This stops any attempt by arXiv to automatically augment a paper with hyperlinks
 
 This is mostly needed when receiving a [`PS BAD` warning](faq/mistakes#psbad)
 
-<pre>
+```
 filename.dvi keepcomments
-</pre>
+```
 
 Sends the `-K0` flag to `dvips`, telling it not to strip comments. This is needed when PS/EPS figures (included in the DVI) contain binary data having '`%`' characters at the beginning of lines (by default, our `dvips` processor interprets these lines as comments), or if the comments are required for some other reason (e.g., Adobe Illustrator output).
 
@@ -96,8 +97,9 @@ Also note that it may be necessary to rename your `.TEX` files to `.tex` for thi
 
 ## Stopping the addition of the arXiv stamp
 
-<pre>nostamp
-</pre>
+```
+nostamp
+```
 
 This tells AutoTeX not to add the arXiv stamp to the left-hand edge of the page. No filename is specified.
 
@@ -111,7 +113,8 @@ You can bundle non-standard or custom fonts with your submission and instruct `d
 
 by adding a file called 00README.XXX to your submission with the directive:
 
-<pre>myfonts.map fontmap
-</pre>
+```
+myfonts.map fontmap
+```
 
 which identifies your private font map file as a `dvips` fontmap. For map file syntax consult the dvips info pages. Many font bundles from [CTAN](http://www.ctan.org/) come with their custom font map files, and you can use these as is with this directive. The file name of the font map file must have extension "`.map`" and it must consist of letters `A-Z, a-z` only.
