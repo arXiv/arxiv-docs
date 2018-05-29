@@ -4,7 +4,7 @@
 
 Our web pages are valid [XHTML 1.0 Transitional](http://validator.w3.org/check?uri=http%3A%2F%2Farxiv.org%2F) and valid [CSS 2.0](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Farxiv.org%2F&usermedium=all). We are working to generate XHTML _Strict_, which will provide some usability improvements over XTHML Transitional. Note that we do not correct or validate HTML submissions, so they may contain malformed HTML expressions.
 
-[![Valid XHTML 1.0!](/icons/valid-xhtml10.png)](http://validator.w3.org/check?uri=http%3A%2F%2Farxiv.org%2F) [![Valid CSS!](/icons/valid-css.png)](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Farxiv.org%2F&usermedium=all)
+[![Valid XHTML 1.0!](https://arxiv.org/icons/valid-xhtml10.png)](http://validator.w3.org/check?uri=http%3A%2F%2Farxiv.org%2F) [![Valid CSS!](https://arxiv.org/icons/valid-css.png)](http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Farxiv.org%2F&usermedium=all)
 
 Valid XHTML and CSS allow arXiv.org web pages to render well on modern browsers and degrade gracefully in older and less robust browsers. Furthermore, we follow the W3C's [Web Content Accessibility Guidelines](http://www.w3.org/TR/1999/WAI-WEBCONTENT-19990505/) and comply with [Section 508](http://www.section508.gov) of the US Rehabilitation Act of 1973 to be accessible to user with disabilities.
 
