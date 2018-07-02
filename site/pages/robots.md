@@ -44,4 +44,4 @@ If some specific application requires relaxation of the above
 guidelines, [contact the arXiv administrators](/help/contact) *in
 advance* of any attempted download.
 
-![icon](/icons/smullnb.gif)
+![icon](https://arxiv.org/icons/smullnb.gif)

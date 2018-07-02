@@ -9,7 +9,7 @@ arXiv, and [social bookmarking](/help/social_bookmarking).
 If you are the owner of one or more papers, you have the option of
 annotating your articles with ScienceWISE from your main [account
 page](/user), by clicking on the respective icon:
-<img src="/icons/sciencewise45x32.png" alt="ScienceWISE icon" width="32" height="23" />
+<img src="https://arxiv.org/icons/sciencewise45x32.png" alt="ScienceWISE icon" width="32" height="23" />
 
 You can bookmark interesting abstracts on ScienceWISE via the icon in
 the bookmark section that is present on all abstract pages. Please note
