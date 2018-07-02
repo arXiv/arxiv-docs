@@ -51,7 +51,7 @@ withdrawal has been submitted.
 intended submission appears in the format you desire, and you have
 finalized all of the [metadata](/help/prep), this is the final status it
 will pass through before it is announced. On your [user page](/user).
-You may select the Unsubmit icon (![Unsubmit](/images/unsubmit.png)) to
+You may select the Unsubmit icon (![Unsubmit](https://arxiv.org/images/unsubmit.png)) to
 remove it from this status, and return it to
 [incomplete](submit_status#incomplete) status.
 
