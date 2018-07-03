@@ -16,12 +16,9 @@ administrators](/help/contact) to ask for an exception (be sure to quote
 the automatic rejection identifier and to explain the large size).
 
 Please think about the time it will take people to download your papers.
-arXiv is a resource used throughout the world and many users do have the
+arXiv is a resource used throughout the world and many users do not have the
 fast reliable network connections, fast computers, and printers with
-large memory that are common in large universities. Access logs (June
-2008) for arXiv show that the median download speed is about 70kB/s,
-with 10% of downloads running at \<6kB/s. At 6kB/s a 1MB PDF will take
-almost 3 minutes to download.
+large memory that are common in large universities. 
 
 Making Submissions Smaller
 --------------------------
