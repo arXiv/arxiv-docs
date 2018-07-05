@@ -17,6 +17,7 @@ class Page(NamedTuple):
     parents: Optional[List]
     pages: Optional[dict]
     markdown: Optional[markdown.markdown]
+    slug: Optional[str] = None
 
 
 class SearchResult(NamedTuple):

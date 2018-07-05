@@ -1,21 +1,15 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
 flask = "*"
 markdown = "*"
-arxiv-base = "*"
 pyyaml = "*"
 whoosh = "*"
 bleach = "*"
 uwsgi = "*"
-"17e504d" = {path = "./../arxiv-base-ui"}
-
+arxiv-base = "==0.7.2"
 
 [dev-packages]
-

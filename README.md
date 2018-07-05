@@ -17,32 +17,61 @@ the sitemap) to a
 [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 document containing the content of the page.
 
-The root of the sitemap is a single page. For example:
-
 ```
-title: "arXiv Help & Documentation"
-content_path: pages/index.md
-pages:
-  submission:
-    title: "Submission Policy"
-    content_path: pages/submission-policy.md
-  moderation:
-    title: "Moderation"
-    content_path: pages/moderation.md
-    pages:
-      ...
+help:   # Here's the page at /help
+  title: "arXiv Help & Documentation"
+  content_path: pages/index.md
+  pages:
+    submission:     # Here's the page at /help/submission
+      title: "Submission Policy"
+      slug: submission-policy
+      content_path: pages/submission-policy.md
+    moderation:     # This one is /help/moderation
+      title: "Moderation"
+      slug: moderation
+      content_path: pages/moderation.md
+      pages:
+        ...
+contact:    # Here's the page at /contact
+  title: "Contact arXiv staff"
+  ...
 ```
 
 The ``pages`` property defines all of the child pages. Each key in ``pages``
 is the URL sub-path (relative to its parent) for that page. In the example
 above, a page with the title "Submission policy" will be served at
-``/submission``, using content from the document
+``/help/submission``, using content from the document
 ``pages/submission-policy.md``.
 
 There is no limit to the number of levels into which pages can be nested in
 this way.
 
 **Note:** the path ``/search`` is reserved for the search interface.
+
+## Persistent links to pages
+
+Sometimes you will need to move a page to a different part of the site map.
+Updating all of the links to a page that is moved can be an ordeal. To avoid
+that kind of pain and suffering, use the ``slug`` key on each page element
+to give it a unique name.
+
+When writing links in markdown, you can use the slug ``submission-policy``
+instead of the relative URL for the page and it will be automagically converted
+to the URL of that page wherever it might reside.
+
+E.g. this markdown...
+
+```
+Be sure to read about our [submission policies](submission-policy) before
+submitting a paper.
+```
+
+Will generate this HTML:
+
+```
+Be sure to read about our <a href="/help/submission">submission policies</a>
+before submitting a paper.
+```
 
 ## Document rendering app
 

@@ -9,9 +9,12 @@ from docs import routes
 
 
 def create_web_app() -> Flask:
-    """Initialize an instance of the extractor backend service."""
+    """Initialize an instance of the static pages application."""
     app = Flask('docs')
     app.config.from_pyfile('config.py')
+
     Base(app)
+
     app.register_blueprint(routes.blueprint)
+
     return app

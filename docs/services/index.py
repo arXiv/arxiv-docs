@@ -1,7 +1,7 @@
 import os
 
 from docs.domain import IndexablePage, SearchResults, SearchResult
-from docs.context import get_application_config
+from arxiv.base.globals import get_application_config
 
 from whoosh import fields, index
 from whoosh.qparser import QueryParser
@@ -17,7 +17,7 @@ SCHEMA = fields.Schema(
 def _get_index_path() -> str:
     """Get the index path from the current application."""
     config = get_application_config()
-    return config.get('INDEX_NAME', 'help')
+    return config.get('INDEX_NAME', 'idx')
 
 
 def _get_index(index_path: str) -> index.Index:
