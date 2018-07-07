@@ -1,11 +1,14 @@
 """Index the site."""
 
 import os
+import shutil
 from typing import List
 
+from arxiv.base.globals import get_application_config
 from docs.factory import create_web_app
 from docs.domain import IndexablePage, Page
 from docs.services import site, index
+from docs.render import render
 
 import bleach
 
@@ -13,19 +16,39 @@ import bleach
 def index_site() -> None:
     """Index the entire site."""
     app = create_web_app()
-    app.app_context().push()
-    index.create_index()
+    with app.app_context():
+        config = get_application_config()
+        site_path = config.get('SITE_PATH', 'site')
+        index.create_index()
 
-    indexable: List[IndexablePage] = []
-    for path in site.list_paths():
-        page: Page = site.load_page(path)
-        content = bleach.clean(page.markdown, strip=True, tags=[])
-        indexable.append(IndexablePage(
-            title=page.title,
-            path=page.path,
-            content=content
+        # Load all markdown files, and index them.
+        indexable: List[IndexablePage] = []
+        # for page in site.load_all(site_path):
+        #     # We want markup/down-free content to index.
+        #     content = bleach.clean(render(page.content), strip=True, tags=[])
+        #     indexable.append((page, content))
+        index.add_documents((
+            (page, bleach.clean(render(page.content), strip=True, tags=[]))
+            for page in site.load_all(site_path)
         ))
-    index.add_documents(*indexable)
+
+        # Copy static files into Flask's static directory. If we're deploying
+        # to a CDN, this should happen first so that Flask knows what it's
+        # working with.
+        static_root = app.blueprints['docs'].static_folder
+        for path, source_path in site.load_static(site_path):
+            target_path = os.path.abspath(os.path.join(static_root, path))
+
+            # Make sure that the directory into which we're putting this static
+            # file actually exists.
+            target_dir, _ = os.path.split(target_path)
+            try:
+                os.makedirs(target_dir)
+            except FileExistsError:     # Already exists; move along.
+                continue
+            # This will overwrite whatever is already there.
+            shutil.copy(os.path.abspath(source_path), target_path),
+
 
 
 if __name__ == '__main__':

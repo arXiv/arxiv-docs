@@ -11,5 +11,7 @@ whoosh = "*"
 bleach = "*"
 uwsgi = "*"
 arxiv-base = "==0.7.2"
+python-frontmatter = "*"
+python-slugify = "*"
 
 [dev-packages]

@@ -4,12 +4,17 @@
 <nav class="breadcrumb" aria-label="breadcrumbs">
   <ul>
     {% for parent in page.parents %}
-    <li {% if loop.counter == page.parents|length - 1 %}class="is-active"{% endif %}>
-      <a href="{{ parent.path }}" {% if loop.counter == page.parents|length - 1 %}aria-current="page"{% endif %}>
+    <li>
+      <a href="{{ url_for('docs.from_sitemap', path=parent.path) }}">
         {{ parent.title }}
       </a>
     </li>
     {% endfor %}
+    <li class="is-active">
+      <a href="{{ url_for('docs.from_sitemap', path=page.path) }}" aria-current="page">
+        {{ page.title }}
+      </a>
+    </li>
   </ul>
 </nav>
 
