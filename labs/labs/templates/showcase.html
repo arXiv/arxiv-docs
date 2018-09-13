@@ -13,9 +13,9 @@
         </div>
         <div class="column is-one-third-desktop is-one-half-tablet">
           <h2>{{ title }}</h2>
+          <span class="label">Collaborator{%- if collaborators > 1 -%}s{%- endif -%}: </span>
           {% for collaborator in collaborators %}
-          <p><span class="label">Collaborator{%- if loop.index > 1 -%}s{%- endif -%}: </span>{{ collaborator.name }}
-          <br />
+          <p>{{ collaborator.name }}<br />
           <em>{{ collaborator.association }}</em></p>
           {% endfor %}
         </div>
