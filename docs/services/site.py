@@ -1,7 +1,7 @@
 import os
 from collections import defaultdict
 from typing import List, Tuple, Dict, Callable, Iterable
-from ..domain import Page
+from ..domain import Page, Component
 
 import frontmatter
 
@@ -21,17 +21,19 @@ def content(page: Page) -> str:
 
 def load_all(site_path: str) -> Iterable[Page]:
     pages_path = os.path.join(site_path, 'pages')
-    pages = {}
-
-    def get_parents(path: str) -> List[Page]:
-        return [pages[p] for p in path.split('/') if p in pages]
 
     for dirpath, dirnames, filenames in os.walk(pages_path):
         for filename in filenames:
             if filename.endswith('.md'):
-                page = _load_page(pages_path, dirpath, filename, get_parents)
-                pages[page.path] = page
-                yield page
+                yield _load_page(pages_path, dirpath, filename)
+
+
+def load_components(site_path: str) -> Iterable[Component]:
+    components_path = os.path.join(site_path, 'components')
+    for dirpath, dirnames, filenames in os.walk(components_path):
+        for filename in filenames:
+            if filename.endswith('.md'):
+                yield _load_component(components_path, dirpath, filename)
 
 
 def load_static(site_path: str) -> dict:
@@ -47,8 +49,7 @@ def load_static(site_path: str) -> dict:
     return files
 
 
-def _load_page(rootpath: str, dirpath: str, filename: str,
-               get_parents: Callable) -> Page:
+def _load_page(rootpath: str, dirpath: str, filename: str) -> Page:
     content_path = os.path.join(dirpath, filename)
     path = content_path[len(rootpath):].strip('/')
     if path.endswith('.md'):
@@ -69,6 +70,24 @@ def _load_page(rootpath: str, dirpath: str, filename: str,
         # children=[]
     )
     return page
+
+
+def _load_component(rootpath: str, dirpath: str, filename: str) -> Component:
+    content_path = os.path.join(dirpath, filename)
+    path = content_path[len(rootpath):].strip('/')
+    if path.endswith('.md'):
+        path = path[:-3]
+    page_data = frontmatter.load(content_path)
+    component = Component(
+        title=_get_title(page_data, filename),
+        path=path,
+        content_path=content_path,
+        slug=page_data.get('slug', slugify(path)),
+        content=page_data.content,
+        data=page_data.to_dict()
+    )
+    print(component.path)
+    return component
 
 
 def _get_title(page_data: dict, filename: str) -> str:

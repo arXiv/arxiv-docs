@@ -45,3 +45,12 @@ class SearchResults(NamedTuple):
 class IndexablePage(NamedTuple):
     page: Page
     indexable_content: str
+
+
+class Component(NamedTuple):
+    title: str
+    path: str
+    content_path: str
+    slug: str
+    data: dict
+    content: Optional[str] = None

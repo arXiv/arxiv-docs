@@ -1,13 +1,26 @@
 """Site index."""
 
 import os
-
+import json
 from typing import List, Iterable
-from docs.domain import IndexablePage, SearchResults, SearchResult, Page
+from docs.domain import IndexablePage, SearchResults, SearchResult, Page, \
+    Component
 from arxiv.base.globals import get_application_config
 
 from whoosh import fields, index
 from whoosh.qparser import QueryParser
+from whoosh.system import emptybytes
+
+class JSON(fields.TEXT):
+    def to_bytes(self, value: dict) -> bytes:
+        return super(JSON, self).to_bytes(json.dumps(value))
+
+    def from_bytes(self, bs: bytes) -> dict:
+        return json.loads(super(JSON, self).from_bytes(bs))
+
+    def index(self, value: dict, **kwargs) -> Iterable:
+        yield (self.to_bytes(value), 1, 1.0, emptybytes)
+        return
 
 
 SCHEMA = fields.Schema(
@@ -19,9 +32,22 @@ SCHEMA = fields.Schema(
     content_path=fields.TEXT(stored=True)
 )
 
+COMPONENT_SCHEMA = fields.Schema(
+    title=fields.TEXT(stored=True),
+    path=fields.ID(stored=True),
+    data=JSON(stored=True),
+    slug=fields.ID(stored=True),
+    content=fields.TEXT(stored=True),
+    content_path=fields.TEXT(stored=True)
+)
+
 
 class PageDoesNotExist(Exception):
-    """Page does not exist."""
+    """A requested :class:`Page` does not exist."""
+
+
+class ComponentDoesNotExist(Exception):
+    """A requested :class:`Component` does not exist."""
 
 
 class DuplicateSlug(Exception):
@@ -31,9 +57,28 @@ class DuplicateSlug(Exception):
 def create_index() -> index.Index:
     """Initialize the index."""
     index_path = _get_index_path()
+    components_index_path = f'{index_path}_components'
     if not os.path.exists(index_path):
         os.mkdir(index_path)
+    if not os.path.exists(components_index_path):
+        os.mkdir(components_index_path)
     index.create_in(index_path, SCHEMA)
+    index.create_in(components_index_path, COMPONENT_SCHEMA)
+
+
+def add_components(components: Iterable[Component]) -> None:
+    idx = _get_index(_get_component_index_path())
+    writer = idx.writer()
+    for component in components:
+        writer.add_document(
+            title=component.title,
+            path=component.path,
+            slug=component.slug,
+            content=component.content,
+            content_path=component.content_path,
+            data=component.data
+        )
+    writer.commit()
 
 
 def add_documents(pages: Iterable[IndexablePage]) -> None:
@@ -105,6 +150,33 @@ def get_by_path(path: str, get_parents: bool = True,
         slug=result['slug'],
         parents=_get_parents(result) if get_parents else None,
         children=_get_children(result) if get_children else None,
+    )
+
+
+def get_component_by_path(path: str) -> Component:
+    """
+    Load a :class:`.Component` by its path.
+
+    Parameters
+    ----------
+    path : str
+        The relative path of the component.
+
+    Returns
+    -------
+    :class:`.Component`
+    """
+    idx = _get_index(_get_component_index_path())
+    with idx.searcher() as searcher:
+        result = searcher.document(path=path)
+    if result is None:
+        raise ComponentDoesNotExist('No such component')
+    return Component(
+        title=result['title'],
+        path=result['path'],
+        content_path=result['content_path'],
+        slug=result['slug'],
+        data=result['data']
     )
 
 
@@ -202,6 +274,13 @@ def _get_index_path() -> str:
     """Get the index path from the current application."""
     config = get_application_config()
     return config.get('INDEX_NAME', 'idx')
+
+
+def _get_component_index_path() -> str:
+    """Get the index path from the current application."""
+    config = get_application_config()
+    _path = config.get('INDEX_NAME', 'idx')
+    return f'{_path}_components'
 
 
 def _get_index(index_path: str) -> index.Index:

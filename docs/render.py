@@ -1,10 +1,37 @@
 """Responsible for rendering markdown content to HTML."""
 
-from typing import Callable, Optional, Mapping
+from typing import Callable, Optional, Mapping, Union
 import xml.etree.ElementTree as ET
 from markdown import markdown, Markdown
 from markdown.extensions import Extension
 from markdown.treeprocessors import Treeprocessor
+
+from flask import render_template_string
+import jinja2
+
+from arxiv.base import logging
+
+from .domain import Component
+from .services import index
+
+logger = logging.getLogger(__name__)
+
+
+class ComponentLoader(object):
+    def __init__(self, key: str) -> None:
+        """Initialize a loader with a key (path partial)."""
+        self._key = key
+
+    def __getattr__(self, key: str) -> Union['ComponentLoader', Component]:
+        """Attempt to load a component by path."""
+        path = '/'.join([self._key, key]).lstrip('/')
+        try:
+            component = index.get_component_by_path(path)
+        except index.ComponentDoesNotExist:
+            logger.debug(f'Could not load component at {path}')
+            return ComponentLoader(path)
+        logger.debug(f'Loaded component at {path}')
+        return component
 
 
 def render(content: str, dereferencer: Optional[Callable] = None,
@@ -36,7 +63,12 @@ def render(content: str, dereferencer: Optional[Callable] = None,
         extensions.append(
             ReferenceExtension('img', 'src', static_dereferencer)
         )
-    return markdown(content, extensions=extensions)
+    rendered = markdown(content, extensions=extensions)
+    try:
+        return render_template_string(rendered, components=ComponentLoader(''))
+    except jinja2.exceptions.TemplateSyntaxError:
+        logger.error('Could not render content as Jinja2; falling back')
+        return rendered
 
 
 class ReferenceProcessor(Treeprocessor):

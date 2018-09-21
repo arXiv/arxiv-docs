@@ -21,8 +21,8 @@ def index_site() -> None:
         site_path = config.get('SITE_PATH', 'site')
         index.create_index()
 
-        # Load all markdown files, and index them.
-        indexable: List[IndexablePage] = []
+        index.add_components(site.load_components(site_path))
+        
         # for page in site.load_all(site_path):
         #     # We want markup/down-free content to index.
         #     content = bleach.clean(render(page.content), strip=True, tags=[])

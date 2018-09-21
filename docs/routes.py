@@ -1,30 +1,44 @@
 """UI routes for the documents service."""
 
 import os
-from typing import Callable
+from typing import Callable, Union, Dict
 from flask import Blueprint, render_template, Markup, request, url_for
 from werkzeug.exceptions import HTTPException, NotFound, InternalServerError
 
+from arxiv.base import logging
+
 from docs.services import index, site
-from docs.render import render
-from .domain import Page
+from . import render
+from .domain import Page, Component
+
+
+logger = logging.getLogger(__name__)
 
 
 blueprint = Blueprint('docs', __name__, url_prefix='', static_folder='static')
 
 
-def link_dereferencer(href: str) -> str:
-    """Link dereferencer for use during HTML rendering."""
-    if not href or href.startswith('http'):
-        return href
-    try:
-        path = index.get_by_slug(href).path
-    except index.PageDoesNotExist:
-        try:
-            path = index.get_by_path(href).path
-        except index.PageDoesNotExist:
+def get_link_dereferencer(page: Page) -> Callable:
+    """Generate a dereferencer function for paths relative to a page."""
+
+    def link_dereferencer(href: str) -> str:
+        """Link dereferencer for use during HTML rendering."""
+        if not href or href.startswith('http'):
+            logger.debug('not an internal link: %s', href)
             return href
-    return url_for('docs.from_sitemap', path=path)
+        try:
+            path = index.get_by_slug(href).path
+            logger.debug('got path by slug: %s', href)
+        except index.PageDoesNotExist:
+            abspath = '/'.join([page.path, href])
+            try:
+                path = index.get_by_path(abspath).path
+                logger.debug('got path by abspath: %s', href)
+            except index.PageDoesNotExist:
+                logger.debug('could not dereference path: %s', href)
+                return href
+        return url_for('docs.from_sitemap', path=path)
+    return link_dereferencer
 
 
 def get_static_dereferencer(page: Page) -> Callable:
@@ -65,7 +79,13 @@ def from_sitemap(path: str):
         raise InternalServerError('Could not load page') from e
 
     static_dereferencer = get_static_dereferencer(page)
-    rendered = render(content, link_dereferencer, static_dereferencer)
+    link_dereferencer = get_link_dereferencer(page)
+    rendered = render.render(content, link_dereferencer, static_dereferencer)
 
     context = dict(page=page, content=Markup(rendered), pagetitle=page.title)
     return render_template('docs/page.html', **context)
+
+
+@blueprint.context_processor
+def inject_components() -> Dict[str, render.ComponentLoader]:
+    return {'components': render.ComponentLoader('')}
