@@ -2,5 +2,8 @@ title: "arXiv Help & Documentation"
 content_path: pages/index.md
 pages:
   submission:
-    title: "Terms of Submission"
-    content_path: pages/terms_of_submission.md
+    title: "Submission Policy"
+    content_path: pages/submission-policy.md
+  accessibility:
+    title: "Accessibility"
+    content_path: pages/accessibility.md
