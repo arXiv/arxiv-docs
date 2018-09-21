@@ -1,4 +1,4 @@
-"""Index the site."""
+"""Build a site."""
 
 import os
 import shutil
@@ -18,25 +18,26 @@ def index_site() -> None:
     app = create_web_app()
     with app.app_context():
         config = get_application_config()
-        site_path = config.get('SITE_PATH', 'site')
+        site_path = config['SITE_PATH']
+        site_name = config['SITE_NAME']
+        print(f'Building site from {site_path}')
         index.create_index()
+        print('Created index')
 
         index.add_components(site.load_components(site_path))
+        print('Added components')
 
-        # for page in site.load_all(site_path):
-        #     # We want markup/down-free content to index.
-        #     content = bleach.clean(render(page.content), strip=True, tags=[])
-        #     indexable.append((page, content))
         index.add_documents((
             (page, bleach.clean(render(page.content), strip=True, tags=[]))
             for page in site.load_all(site_path)
         ))
+        print('Added pages')
 
         # Copy static files into Flask's static directory. If we're deploying
         # to a CDN, this should happen first so that Flask knows what it's
         # working with.
         static_root = app.blueprints['docs'].static_folder
-        print('static_root', static_root)
+
         for path, source_path in site.load_static(site_path):
             target_path = os.path.abspath(os.path.join(static_root, path))
 
@@ -48,13 +49,16 @@ def index_site() -> None:
 
             # This will overwrite whatever is already there.
             shutil.copy(os.path.abspath(source_path), target_path)
+        print('Added static files')
 
-        temp_root, _ = os.path.split(app.blueprints['docs'].template_folder)
-        print('temp_root', temp_root)
+        temp_root = os.path.join(
+            app.root_path,
+            os.path.split(app.blueprints['docs'].template_folder)[0]
+        )
+        print(f'Copy templates to {temp_root}')
         for path, source_path in site.load_templates(site_path):
-            target_path = os.path.abspath(
-                os.path.join(temp_root, site_path, path)
-            )
+            target_path = os.path.join(temp_root, site_name, path)
+            print(temp_root, site_name, path, target_path)
 
             # Make sure that the directory into which we're putting this
             # template actually exists.
@@ -64,6 +68,7 @@ def index_site() -> None:
             print(path, target_path)
             # This will overwrite whatever is already there.
             shutil.copy(os.path.abspath(source_path), target_path)
+        print('Added templates')
 
 
 if __name__ == '__main__':

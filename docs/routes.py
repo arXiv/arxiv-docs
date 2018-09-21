@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 
 
 blueprint = Blueprint('docs', __name__, url_prefix='', static_folder='static',
-                      template_folder='docs/templates/docs')
+                      template_folder='templates/docs')
 
 
 def get_link_dereferencer(page: Page) -> Callable:
@@ -71,9 +71,11 @@ def search():
 @blueprint.route('/<path:path>')
 def from_sitemap(path: str):
     """Route the request dynamically, based on the indexed site map."""
+    logger.debug('Request for path: %s', path)
     try:
         page = index.get_by_path(path)
     except index.PageDoesNotExist as e:
+        logger.debug('Page does not exist')
         raise NotFound('Page does not exist') from e
 
     try:
@@ -81,15 +83,13 @@ def from_sitemap(path: str):
     except site.PageLoadFailed as e:
         raise InternalServerError('Could not load page') from e
 
-    site_path = current_app.config['SITE_PATH']
-
     static_dereferencer = get_static_dereferencer(page)
     link_dereferencer = get_link_dereferencer(page)
     rendered = render.render(content, link_dereferencer, static_dereferencer)
     rendered = render_template_string(rendered)
     context = dict(page=page, content=Markup(rendered), pagetitle=page.title)
     if page.template is not None:
-        template = f'{site_path}/{page.template}'
+        template = page.template
     else:
         template = 'docs/page.html'
     return render_template(template, **context)

@@ -1,4 +1,9 @@
-"""Site index."""
+"""
+Site index.
+
+This module is responsible for loading site content at request time, using a
+Whoosh document index.
+"""
 
 import os
 import json
@@ -10,6 +15,12 @@ from arxiv.base.globals import get_application_config
 from whoosh import fields, index
 from whoosh.qparser import QueryParser
 from whoosh.system import emptybytes
+
+from arxiv.base import logging
+
+
+logger = logging.getLogger(__name__)
+
 
 class JSON(fields.TEXT):
     def to_bytes(self, value: dict) -> bytes:
@@ -79,6 +90,7 @@ def add_components(components: Iterable[Component]) -> None:
             content_path=component.content_path,
             data=component.data
         )
+        logger.debug('Added component %s', component.path)
     writer.commit()
 
 
@@ -119,6 +131,7 @@ def add_documents(pages: Iterable[IndexablePage]) -> None:
             parents=page.parent_paths,
             template=page.template
         )
+        logger.debug('Added page %s', page.path)
     writer.commit()
 
 

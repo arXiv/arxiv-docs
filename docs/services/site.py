@@ -1,9 +1,16 @@
+"""
+Site loader.
+
+This module is responsible for loading site content at build time.
+"""
+
 import os
 from collections import defaultdict
 from typing import List, Tuple, Dict, Callable, Iterable
 from ..domain import Page, Component
 
 import frontmatter
+from flask import current_app
 
 from slugify import slugify
 
@@ -73,6 +80,11 @@ def _load_page(rootpath: str, dirpath: str, filename: str) -> Page:
     page_data = frontmatter.load(content_path)
     parents = path.split('/')[:-1]
     title = _get_title(page_data, filename)
+    template = page_data.get('template')
+
+    site_name = current_app.config['SITE_NAME']
+    if template is not None:
+        template = f'{site_name}/{template}'
     page = Page(
         title=title,
         path=path,
@@ -80,7 +92,7 @@ def _load_page(rootpath: str, dirpath: str, filename: str) -> Page:
         slug=page_data.get('slug', slugify(path)),
         content=page_data.content,
         parents=parents,
-        template=page_data.get('template')
+        template=template
     )
     return page
 

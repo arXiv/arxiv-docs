@@ -1,0 +1,15 @@
+{%- extends "base/base.html" %}
+
+{% block content %}
+
+  {% block page_content %}
+
+  {% endblock %}
+
+  <div class="content has-text-centered">
+    <p class="is-size-7 has-text-grey">
+    Version {{ config.VERSION }} built on {{ config.BUILD_TIME }}.
+    </p>
+  </div>
+
+{% endblock %}
