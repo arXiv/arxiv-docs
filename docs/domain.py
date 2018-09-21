@@ -13,6 +13,7 @@ class Page(NamedTuple):
     parents: Optional[List] = None
     children: Optional[List] = None
     content: Optional[str] = None
+    template: Optional[str] = None
 
     @property
     def parent_paths(self) -> Optional[List[str]]:

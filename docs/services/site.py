@@ -36,12 +36,25 @@ def load_components(site_path: str) -> Iterable[Component]:
                 yield _load_component(components_path, dirpath, filename)
 
 
-def load_static(site_path: str) -> dict:
+def load_static(site_path: str) -> List[Tuple[str, str]]:
     files = []
     pages_path = os.path.join(site_path, 'pages')
     for dirpath, dirnames, filenames in os.walk(pages_path):
         for filename in filenames:
             if filename.endswith('.md') or filename.startswith('.'):
+                continue
+            content_path = os.path.join(dirpath, filename)
+            path = content_path[len(pages_path):].strip('/')
+            files.append((path, content_path))
+    return files
+
+
+def load_templates(site_path: str) -> List[Tuple[str, str]]:
+    files = []
+    pages_path = os.path.join(site_path, 'templates')
+    for dirpath, dirnames, filenames in os.walk(pages_path):
+        for filename in filenames:
+            if not filename.endswith('.html') or filename.startswith('.'):
                 continue
             content_path = os.path.join(dirpath, filename)
             path = content_path[len(pages_path):].strip('/')
@@ -67,7 +80,7 @@ def _load_page(rootpath: str, dirpath: str, filename: str) -> Page:
         slug=page_data.get('slug', slugify(path)),
         content=page_data.content,
         parents=parents,
-        # children=[]
+        template=page_data.get('template')
     )
     return page
 

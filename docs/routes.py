@@ -6,6 +6,8 @@ from flask import Blueprint, render_template, Markup, request, url_for
 from werkzeug.exceptions import HTTPException, NotFound, InternalServerError
 
 from arxiv.base import logging
+from flask import render_template_string, current_app
+import jinja2
 
 from docs.services import index, site
 from . import render
@@ -15,7 +17,8 @@ from .domain import Page, Component
 logger = logging.getLogger(__name__)
 
 
-blueprint = Blueprint('docs', __name__, url_prefix='', static_folder='static')
+blueprint = Blueprint('docs', __name__, url_prefix='', static_folder='static',
+                      template_folder='docs/templates/docs')
 
 
 def get_link_dereferencer(page: Page) -> Callable:
@@ -50,7 +53,7 @@ def get_static_dereferencer(page: Page) -> Callable:
         if page.is_index_page:
             path_parts = page.path.split('/')
         else:
-            page.path.split('/')[:-1]
+            path_parts = page.path.split('/')[:-1]
         filename = "/".join(path_parts + [src])
         return url_for('static', filename=filename)
     return static_deferencer
@@ -78,14 +81,37 @@ def from_sitemap(path: str):
     except site.PageLoadFailed as e:
         raise InternalServerError('Could not load page') from e
 
+    site_path = current_app.config['SITE_PATH']
+
     static_dereferencer = get_static_dereferencer(page)
     link_dereferencer = get_link_dereferencer(page)
     rendered = render.render(content, link_dereferencer, static_dereferencer)
-
+    rendered = render_template_string(rendered)
     context = dict(page=page, content=Markup(rendered), pagetitle=page.title)
-    return render_template('docs/page.html', **context)
+    if page.template is not None:
+        template = f'{site_path}/{page.template}'
+    else:
+        template = 'docs/page.html'
+    return render_template(template, **context)
+
+
+class ComponentLoader(object):
+    def __init__(self, key: str) -> None:
+        """Initialize a loader with a key (path partial)."""
+        self._key = key
+
+    def __getattr__(self, key: str) -> Union['ComponentLoader', Component]:
+        """Attempt to load a component by path."""
+        path = '/'.join([self._key, key]).lstrip('/')
+        try:
+            component = index.get_component_by_path(path)
+        except index.ComponentDoesNotExist:
+            logger.debug(f'Could not load component at {path}')
+            return ComponentLoader(path)
+        logger.debug(f'Loaded component at {path}')
+        return component
 
 
 @blueprint.context_processor
-def inject_components() -> Dict[str, render.ComponentLoader]:
-    return {'components': render.ComponentLoader('')}
+def inject_components() -> Dict[str, ComponentLoader]:
+    return {'components': ComponentLoader('')}

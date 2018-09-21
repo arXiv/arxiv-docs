@@ -29,7 +29,8 @@ SCHEMA = fields.Schema(
     parents=fields.IDLIST(stored=True),
     slug=fields.ID(stored=True),
     content=fields.TEXT(stored=True),
-    content_path=fields.TEXT(stored=True)
+    content_path=fields.TEXT(stored=True),
+    template=fields.TEXT(stored=True)
 )
 
 COMPONENT_SCHEMA = fields.Schema(
@@ -116,6 +117,7 @@ def add_documents(pages: Iterable[IndexablePage]) -> None:
             content=content,
             content_path=page.content_path,
             parents=page.parent_paths,
+            template=page.template
         )
     writer.commit()
 
@@ -147,6 +149,7 @@ def get_by_path(path: str, get_parents: bool = True,
         title=result['title'],
         path=result['path'],
         content_path=result['content_path'],
+        template=result.get('template'),
         slug=result['slug'],
         parents=_get_parents(result) if get_parents else None,
         children=_get_children(result) if get_children else None,
