@@ -18,13 +18,17 @@ class Page(NamedTuple):
     def parent_paths(self) -> Optional[List[str]]:
         if self.parents is None:
             return None
-        return [parent.path for parent in self.parents]
+        return [parent for parent in self.parents]
 
     @property
     def child_paths(self) -> Optional[List[str]]:
         if self.children is None:
             return None
         return [child.path for child in self.children]
+
+    @property
+    def is_index_page(self):
+        return self.content_path.endswith('/index.md')
 
 
 class SearchResult(NamedTuple):

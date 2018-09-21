@@ -69,7 +69,8 @@ class ReferenceProcessor(Treeprocessor):
 class ReferenceExtension(Extension):
     """Adds :class:`.ReferenceProcessor` to the markdown processor."""
 
-    def __init__(self, tag: str, attr: str, dereferencer: Optional[Callable]) -> None:
+    def __init__(self, tag: str, attr: str, dereferencer: Optional[Callable]) \
+            -> None:
         """Set the link dereferencer for use during processing."""
         self.tag = tag
         self.attr = attr

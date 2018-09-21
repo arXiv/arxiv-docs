@@ -5,6 +5,8 @@ Data for 1991 through 2014, updated 31 December 2014.
 
 <img src="newsubs.png" alt="New submissions by year by subject area" width="850" />
 
+![](newsubs.png)
+
 Left: number of new submissions/year as a function of calendar year for
 "hep" = High Energy Physics (hep-th+hep-ph+hep-lat+hep-ex), "cond-mat" =
 Condensed Matter Physics, "astro-ph" = Astrophysics, "math" =

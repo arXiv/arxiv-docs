@@ -50,15 +50,20 @@ def load_static(site_path: str) -> dict:
 def _load_page(rootpath: str, dirpath: str, filename: str,
                get_parents: Callable) -> Page:
     content_path = os.path.join(dirpath, filename)
-    path = content_path[len(rootpath):].rstrip('.md').strip('/')
+    path = content_path[len(rootpath):].strip('/')
+    if path.endswith('.md'):
+        path = path[:-3]
+    if path.split('/')[-1] == 'index':
+        path = '/'.join(path.split('/')[:-1])
+
     page_data = frontmatter.load(content_path)
-    parents = get_parents(path)
+    parents = path.split('/')[:-1]
     title = _get_title(page_data, filename)
     page = Page(
         title=title,
         path=path,
         content_path=content_path,
-        slug=page_data.get('slug', slugify(title)),
+        slug=page_data.get('slug', slugify(path)),
         content=page_data.content,
         parents=parents,
         # children=[]

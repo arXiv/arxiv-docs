@@ -42,13 +42,11 @@ def index_site() -> None:
             # Make sure that the directory into which we're putting this static
             # file actually exists.
             target_dir, _ = os.path.split(target_path)
-            try:
+            if not os.path.exists(target_dir):
                 os.makedirs(target_dir)
-            except FileExistsError:     # Already exists; move along.
-                continue
+
             # This will overwrite whatever is already there.
             shutil.copy(os.path.abspath(source_path), target_path),
-
 
 
 if __name__ == '__main__':

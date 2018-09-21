@@ -58,7 +58,10 @@ def add_documents(pages: Iterable[IndexablePage]) -> None:
         # Slugs must be unique, so we want to complain as early as possible
         # if that does not appear to be the case.
         if page.slug in slugs:
-            raise DuplicateSlug('More than one page has slug `%s`' % page.slug)
+            raise DuplicateSlug(
+                'More than one page has slug `%s`; check the page at %s'
+                % (page.slug, page.path)
+            )
         slugs.add(page.slug)
 
         writer.add_document(
@@ -95,7 +98,6 @@ def get_by_path(path: str, get_parents: bool = True,
         result = searcher.document(path=path)
     if result is None:
         raise PageDoesNotExist('No such page')
-
     return Page(
         title=result['title'],
         path=result['path'],
@@ -178,7 +180,8 @@ def find(query: str) -> SearchResults:
 
 
 def _get_parents(result: dict) -> List[Page]:
-    return [get_by_path(parent, False, False) for parent in result['parents']]
+    return [get_by_path('/'.join(result['parents'][:i+1]), False, False)
+            for i in range(len(result['parents']))]
 
 
 def _get_children(result: dict) -> List[Page]:

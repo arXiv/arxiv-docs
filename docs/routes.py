@@ -33,7 +33,11 @@ def get_static_dereferencer(page: Page) -> Callable:
         """Static URL dereferencer for use during HTML rendering."""
         if not src or src.startswith('http'):
             return src
-        filename = "/".join(page.path.split('/')[:-1] + [src])
+        if page.is_index_page:
+            path_parts = page.path.split('/')
+        else:
+            page.path.split('/')[:-1]
+        filename = "/".join(path_parts + [src])
         return url_for('static', filename=filename)
     return static_deferencer
 
@@ -54,6 +58,7 @@ def from_sitemap(path: str):
         page = index.get_by_path(path)
     except index.PageDoesNotExist as e:
         raise NotFound('Page does not exist') from e
+
     try:
         content = site.content(page)
     except site.PageLoadFailed as e:

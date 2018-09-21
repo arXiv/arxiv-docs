@@ -1,5 +1,5 @@
 ---
-slug: foo
+slug: nfoo
 ---
 
 # Some other policy!
