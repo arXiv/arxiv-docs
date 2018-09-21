@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c3d0d9e832c981dff01cc27d01f7a2a4d9235d01c63b47d8bd0ee2036534b4be"
+            "sha256": "22c489a0815ce79456e7a01dcb69ba08e3f16e5fd229e94d3626ba0f78aa9069"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -27,6 +27,9 @@
         ]
     },
     "default": {
+        "17e504d": {
+            "path": "./../arxiv-base-ui"
+        },
         "arxiv-base": {
             "hashes": [
                 "sha256:fd48133c85c8a765884c0478f5463845bc14f9b9819b72f9a0bfd830429f1d71"
