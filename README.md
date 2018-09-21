@@ -142,6 +142,7 @@ make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site IMAGE_NAME=somecoolsite
 - ``SOURCE_REF=0.1`` This is the tag that you're building.
 - ``IMAGE_NAME=arxiv/somecoolsite`` The name of the image that you're building.
 - ``SOURCE_DIR=site`` The directory in the repo that contains the site.
+- ``TARGET_DIR=site`` You should make this the same as the directory that contains your site. I know it's confusing, I'll fix it.
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
