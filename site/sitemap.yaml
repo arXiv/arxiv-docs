@@ -1,16 +1,17 @@
+
 help:
   title: "arXiv Help & Documentation"
-  slug: help
   content_path: pages/index.md
+  slug: help
   pages:
     submission:
       title: "Submission Policy"
+      content_path: pages/submission-policy.md
       slug: submission-policy
-      content_path: pages/submission-policy/submission-policy.md
-    contact:
-      title: "Contact"
+    accessibility:
+      title: "Accessibility"
+      content_path: pages/accessibility.md
       slug: contact
-      content_path: pages/contact.md
 
 foo:
   title: "The other help!"

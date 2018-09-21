@@ -27,7 +27,8 @@ slug: foo
 - To Subscribe to E-Mail Listings
 
 ## Submission and Revision
-- [To Submit an Article](submission-policy)
+- To Submit an Article
+- [Terms of submission](terms_of_submission)
 - To Replace an Article
 - To Withdraw an Article
 - To Add a Journal Reference, DOI or Report Number to an Article
