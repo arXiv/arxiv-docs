@@ -48,7 +48,7 @@ Inside of your ``.md`` files, you can add some front-matter. For example,
 if you want the title in the browser tab and breadcrumbs to be different from
 whatever is in the content of the page, you could do:
 
-```
+```markdown
 ---
 title: This is the title that I like in the browser tab
 slug: persistent-slug-for-this-page
@@ -68,7 +68,7 @@ Components are bits of content and data that you want to use in various places.
 They look a lot like pages, for example the file
 ``components/my/component.md``:
 
-```
+```markdown
 ---
 arbitrary: data
 ---
@@ -77,7 +77,7 @@ Some content that I'd like to use again and again and again.
 
 You can use this in your pages and templates like:
 
-```
+```markdown
 The arbitrary value is: {{ components.my.component.data.arbitrary }}
 
 And here is some content: {{ components.my.component.data.content }}
@@ -94,8 +94,10 @@ You can add custom templates (otherwise a generic arXiv template gets used,
 with nice breadcrumbs). For example, in one of your pages you could choose to
 use the template at ``templates/custom.html`` by setting the frontmatter:
 
-```
+```markdown
+---
 template: custom.html
+---
 ```
 
 ## Persistent links to pages
@@ -111,14 +113,14 @@ to the URL of that page wherever it might reside.
 
 E.g. this markdown...
 
-```
+```markdown
 Be sure to read about our [submission policies](submission-policy) before
 submitting a paper.
 ```
 
 Will generate this HTML:
 
-```
+```html
 Be sure to read about our <a href="/help/submission">submission policies</a>
 before submitting a paper.
 ```
@@ -135,7 +137,7 @@ this.
 
 To build a site from a local directory, you can do something like:
 
-```
+```bash
 make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site IMAGE_NAME=somecoolsite
 ```
 
@@ -147,7 +149,7 @@ make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site IMAGE_NAME=somecoolsite
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
 
-```
+```bash
 Successfully built 297b169df71f
 Successfully tagged arxiv/somecoolsite:0.1
 ```
@@ -156,7 +158,7 @@ Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
 
 You can then run the site by doing:
 
-```
+```bash
 docker run -it -p 8000:8000 arxiv/somecoolsite:0.1
 ```
 
@@ -171,7 +173,7 @@ You can also build a site that is on GitHub, using a specific [tag](https://help
 You will need to pick a place on your computer to do the building. Preferably
 something in ``/tmp``.
 
-```
+```bash
 make remote SOURCE_REF=0.1 BUILD_DIR=/tmp/build-it IMAGE_NAME=somecoolsite REPO_ORG=cul-it  REPO_NAME=arxiv-docs SOURCE_DIR=site
 ```
 
