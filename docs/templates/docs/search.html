@@ -1,10 +1,10 @@
 {%- extends "docs/base.html" %}
 
 {% block page_content %}
-  {% for result in results.results %}
+  {% for page, highlights in results.results %}
     <li>
-      <a href="/{{ result.path }}">{{ result.title }}</a>
-      <p>{{ result.highlights|safe }}</p>
+      <a href="{{ url_for('docs.from_sitemap', path=page.path) }}">{{ page.title }}</a>
+      <p>{{ highlights|safe }}</p>
     </li>
   {% endfor %}
 

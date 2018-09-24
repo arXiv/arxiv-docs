@@ -1,3 +1,7 @@
+---
+slug: foo
+---
+
 # arXiv Help Contents
 
 ## General Information

@@ -1,3 +1,6 @@
+---
+title: 'Advanced Bitmapping'
+---
 Advanced Bitmapping
 ===================
 

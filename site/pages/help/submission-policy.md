@@ -16,9 +16,12 @@ submit as a third-party submitter.
 
 For more information regarding the above policies, please see:
 
-- https://arxiv.org/help/license
+- [license](https://arxiv.org/help/license)
 - https://arxiv.org/help/moderation
 - https://arxiv.org/help/overlap
 - https://arxiv.org/help/submit
 - https://arxiv.org/help/prep
 - https://arxiv.org/help/third_party_submission
+
+
+[Contact us!](contact)

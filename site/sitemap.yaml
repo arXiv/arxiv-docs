@@ -1,9 +1,18 @@
-title: "arXiv Help & Documentation"
-content_path: pages/index.md
-pages:
-  submission:
-    title: "Submission Policy"
-    content_path: pages/submission-policy.md
-  accessibility:
-    title: "Accessibility"
-    content_path: pages/accessibility.md
+
+help:
+  title: "arXiv Help & Documentation"
+  content_path: pages/index.md
+  slug: help
+  pages:
+    submission:
+      title: "Submission Policy"
+      content_path: pages/submission-policy.md
+      slug: submission-policy
+    accessibility:
+      title: "Accessibility"
+      content_path: pages/accessibility.md
+      slug: contact
+
+foo:
+  title: "The other help!"
+  content_path: pages/index.md
