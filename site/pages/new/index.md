@@ -817,7 +817,7 @@ To restore stability, we reverted to the software used prior to 18 Sep 05. We si
 
 **Scheduled outage:** At 4:00 p.m. EDT on Saturday, 24 Sep 2005, we expect an outage for improvements to Cornell University infrastructure. The outage is scheduled to last 18 hours.
 
-All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our [mirror sites](/servers.html) to view papers during the outage.
+All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our [mirror sites](/servers) to view papers during the outage.
 
 16 Sep 2005
 
@@ -827,13 +827,13 @@ In addition, papers received before 4 PM EST on 16 Sep will be announced at 8 PM
 
 7 Sep 2005
 
-**Physics reorganization:** The physics section of arXiv will be undergoing an extensive reorganization. Over the last few months, the physics advisory committee members and section moderators have been extensively discussing [a new organization and classification scheme](http://arxiv.org/new/physics.html), which would hopefully be implemented within the next several months.
+**Physics reorganization:** The physics section of arXiv will be undergoing an extensive reorganization. Over the last few months, the physics advisory committee members and section moderators have been extensively discussing [a new organization and classification scheme](http://arxiv.org/new/physics), which would hopefully be implemented within the next several months.
 
 #### Jul 2005
 
 25 Jul 2005
 
-**BitTorrent version of [hep-th](/list/hep-th/recent):** From cartan.harvard.edu [torrent.rutgers.edu](http://torrent.rutgers.edu/) you may download PDFs and text abstracts of the entire hep-th archive. The download is facilitated by [BitTorrent technology](http://www.bittorrent.com/introduction.html) to distribute bandwidth. Monthly updates are also available.
+**BitTorrent version of [hep-th](/list/hep-th/recent):** From cartan.harvard.edu [torrent.rutgers.edu](http://torrent.rutgers.edu/) you may download PDFs and text abstracts of the entire hep-th archive. The download is facilitated by [BitTorrent technology](http://www.bittorrent.com/introduction) to distribute bandwidth. Monthly updates are also available.
 
 Software for downloading torrents is available for Windows, Mac OS, and Linux at [BitTorrent.com](http://www.bittorrent.com/).  
 Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/) for creating the BitTorrents, and Harvard for hosting them. _Note_: The BitTorrents are not supported by arXiv.org: send comments to Joanna Karczmarek.
@@ -842,7 +842,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 11 Nov 2004
 
-**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro.html)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to [www-admin@arxiv.org](mailto:www-admin@arxiv.org).
+**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to [www-admin@arxiv.org](mailto:www-admin@arxiv.org).
 
 4 Nov 2004 _\[Modified 24 Nov 2004\]_
 
@@ -865,7 +865,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 **Scheduled outage:**At noon EST on Sunday, 1 Aug 2004, we expect a scheduled outage for a planned hardware upgrade. Because we need to synchronize the database and other files between the two machines, we will need to disable incoming submissions for several hours. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday.
 
-If all goes as planned, it should be possible to browse papers on arXiv during most of the upgrade. If you do have problems, we recommend that you use one of our [mirror sites.](http://arxiv.org/servers.html)
+If all goes as planned, it should be possible to browse papers on arXiv during most of the upgrade. If you do have problems, we recommend that you use one of our [mirror sites.](http://arxiv.org/servers)
 
 Features that require user login, such as viewing the e-mail addresses of paper authors, will be disabled during the upgrade.
 
@@ -892,7 +892,7 @@ Articles received from 16:00 EST Wed 24 Dec 2003 through 16:00 EST Mon 29 Dec 20
 
 15 Sep 2003
 
-A new "Quantitative Biology" archive, q-bio@arXiv.org, has been opened up for submissions. For more info, see this [announcement](/new/q-bio_announce.html). It is partitioned into [10 subject classes](/new/q-bio.html) and e-mail subscriptions can be made to any combination of subject classes. It has been "preseeded" with roughly 2000 relevant cross-listings from existing subject areas.
+A new "Quantitative Biology" archive, q-bio@arXiv.org, has been opened up for submissions. For more info, see this [announcement](/new/q-bio_announce). It is partitioned into [10 subject classes](/new/q-bio) and e-mail subscriptions can be made to any combination of subject classes. It has been "preseeded" with roughly 2000 relevant cross-listings from existing subject areas.
 
 #### Jul 2003
 
@@ -900,7 +900,7 @@ A new "Quantitative Biology" archive, q-bio@arXiv.org, has been opened up for su
 
 A new and more sophisticated author registration system has been put on-line. It provides greater administrative flexibility and better user support, including user ability to maintain past submissions. See [register help](/help/registerhelp) for updated information.
 
-In order to improve the quality of the user-provided data, the legacy support for e-mail submissions has been phased out, in favor of exclusive support for web submissions. (The [percentage](http://arXiv.org/Stats/hcamonthly.html#upper) of non-web submissions had decreased continuously in the past seven years to under 16%.)
+In order to improve the quality of the user-provided data, the legacy support for e-mail submissions has been phased out, in favor of exclusive support for web submissions. (The [percentage](http://arXiv.org/Stats/hcamonthly#upper) of non-web submissions had decreased continuously in the past seven years to under 16%.)
 
 #### Dec 2001
 
@@ -936,11 +936,11 @@ South Africa users: note new South Africa mirror at [http://za.arXiv.org/](http:
 
 6 Jan 2000
 
-The nlin-sys archives have been reorganized starting 1 January, 2000. The archives adap-org, chao-dyn, comp-gas, patt-sol, and solv-int have been subsumed as subject classes in the new " [nlin](/archive/nlin)" archive (see [nlin info](http://arXiv.org/new/nlin.html) for more information). The intent is to bring these archives into conformity with the format of the newer archives, and to facilitate further expansion or reorganization. (Note that this also means these archives will now be updated -- and abstract mailings issued -- every weekday, rather than just once per week.) Beginning 1 Jan 2000, chao-dyn submissions for example should be sent To: nlin@arXiv.org with the added line (i.e. following Title:, Author:, etc.):
+The nlin-sys archives have been reorganized starting 1 January, 2000. The archives adap-org, chao-dyn, comp-gas, patt-sol, and solv-int have been subsumed as subject classes in the new " [nlin](/archive/nlin)" archive (see [nlin info](http://arXiv.org/new/nlin) for more information). The intent is to bring these archives into conformity with the format of the newer archives, and to facilitate further expansion or reorganization. (Note that this also means these archives will now be updated -- and abstract mailings issued -- every weekday, rather than just once per week.) Beginning 1 Jan 2000, chao-dyn submissions for example should be sent To: nlin@arXiv.org with the added line (i.e. following Title:, Author:, etc.):
 
 **Subj-class:** Chaotic Dynamics
 
-and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub.html) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to [www-admin@arXiv.org](mailto:www-admin@arXiv.org).
+and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to [www-admin@arXiv.org](mailto:www-admin@arXiv.org).
 
 1 Jan 2000
 
@@ -961,7 +961,7 @@ US users: note new US mirror at [http://aps.arXiv.org/](http://aps.arXiv.org/), 
 
 22 Sep 1999
 
-New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the [mirror](/servers.html) network.
+New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the [mirror](/servers) network.
 
 #### Jul 1999
 
@@ -977,7 +977,7 @@ The xxx Announcements Forum is no longer accepting new registrations, and will s
 
 17 Jun 1999
 
-Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](interruption.html)."
+Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](interruption)."
 
 #### Apr 1999
 
@@ -995,7 +995,7 @@ New domain name arXiv.org registered. All of archive.org, archives.org, thearchi
 
 15 Sep 1998
 
-A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](/archive/cs/intro.html). It is partitioned by Subject Classes (along the lines of the [math](/new/math.html) archive, inititated in Jan '98), with 32 [Subject Classes](/archive/cs/subj.html). E-mail [subscriptions](/archive/cs/cssub.html) can be made to any combination of Subject Classes.
+A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](/archive/cs/intro). It is partitioned by Subject Classes (along the lines of the [math](/new/math) archive, inititated in Jan '98), with 32 [Subject Classes](/archive/cs/subj). E-mail [subscriptions](/archive/cs/cssub) can be made to any combination of Subject Classes.
 
 The "Computation and Language" archive (cmp-lg) has been subsumed as one of the Subject Classes of the new cs archive. New submissions will be automatically directed to the new Subject Class (cs.CL), and e-mail subscribers have been automatically transferred to the new archive.
 
@@ -1036,15 +1036,15 @@ Note that not all PDF viewers support the font compression format (e.g. under Ne
 
 27 Dec 1997
 
-The math archives will be reorganized starting 1 January, 1998. The archives alg-geom, dg-ga, funct-an, and q-alg will be subsumed as subject classes in the new "math" archive (started 12/97 -- see [math info](http://xxx.lanl.gov/new/math.html) for more information). The intent is to provide a better organized framework for coverage of additional mathematical subject areas. Beginning 1 Jan 1998, q-alg submissions for example should be sent to math@xxx.lanl.gov with the added line (i.e. following Title:, Author:, etc.):
+The math archives will be reorganized starting 1 January, 1998. The archives alg-geom, dg-ga, funct-an, and q-alg will be subsumed as subject classes in the new "math" archive (started 12/97 -- see [math info](http://xxx.lanl.gov/new/math) for more information). The intent is to provide a better organized framework for coverage of additional mathematical subject areas. Beginning 1 Jan 1998, q-alg submissions for example should be sent to math@xxx.lanl.gov with the added line (i.e. following Title:, Author:, etc.):
 
 **Subj-class:** Quantum Algebra  
-(the AMS Mathematical Subject Classification(s) should now appear on an **MSC-class:** line). Submissions to q-alg@xxx.lanl.gov will be automatically rerouted as above, and assigned numbers beginning with math.QA/9801001. As a replacement for the cross-listing mechanism (between math archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the math subject classes (see [math subscribe](http://xxx.lanl.gov/new/mathsub.html) -- current e-mail subscribers will be automatically transferred).  
+(the AMS Mathematical Subject Classification(s) should now appear on an **MSC-class:** line). Submissions to q-alg@xxx.lanl.gov will be automatically rerouted as above, and assigned numbers beginning with math.QA/9801001. As a replacement for the cross-listing mechanism (between math archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the math subject classes (see [math subscribe](http://xxx.lanl.gov/new/mathsub) -- current e-mail subscribers will be automatically transferred).  
 An external "front end" can be found at [UC Davis front](http://front.math.ucdavis.edu/).
 
 5 Dec 1997
 
-Due to the healthy growth of the astro-ph archive, we are considering a Subj-class: organization similar to that which exists for the cond-mat and and physics archives. Suggested subject classes include: Cosmology and Large Scale Structure, Extra-Galactic Astronomy, Galactic Astronomy, Stars and the Interstellar Medium, Compact Objects, Planetary Systems, Stellar and Galactic Dynamics, High Energy Astrophysics, Instrumentation and Methods, History and Education. (The subject classes function effectively as separate "archives", though the collective astro-ph archive will of course continue to exist as well.) Please read [astroreorg](http://xxx.lanl.gov/new/astroreorg.html) before sending comments.
+Due to the healthy growth of the astro-ph archive, we are considering a Subj-class: organization similar to that which exists for the cond-mat and and physics archives. Suggested subject classes include: Cosmology and Large Scale Structure, Extra-Galactic Astronomy, Galactic Astronomy, Stars and the Interstellar Medium, Compact Objects, Planetary Systems, Stellar and Galactic Dynamics, High Energy Astrophysics, Instrumentation and Methods, History and Education. (The subject classes function effectively as separate "archives", though the collective astro-ph archive will of course continue to exist as well.) Please read [astroreorg](http://xxx.lanl.gov/new/astroreorg) before sending comments.
 
 #### Nov 1997
 
@@ -1090,7 +1090,7 @@ Important news for Windows users: the latest version of GSview can now read comp
 
 30 Jun
 
-Frequent complaints re multipart and gzipped files, see [nota bene](/x-eprint.html).
+Frequent complaints re multipart and gzipped files, see [nota bene](/x-eprint).
 
 30 Jun
 
@@ -1126,7 +1126,7 @@ Japan users: note the new upgraded mirror in Kyoto, [xxx.yukawa.kyoto-u.ac.jp](h
 
 11 May
 
-Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](/servers.html).
+Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](/servers).
 
 Updated information on [Macintosh postscript viewers](/help/psmacs) and added some info on a [Mac shortcut to getting a bitmap version of any figure](/help/bitmap#shortcuts)
 
@@ -1187,11 +1187,11 @@ For general information on the new physics archive (partitioned by keyword subje
 
 **1 Oct '96 Reorganization** -- Information on the following three topics is available:
 
-*   [The physics archive](physics.html)
-*   [Cond-mat archive reorganization](condreorg.html)
-*   [Mailings from the physics archive](physsub.html)
+*   [The physics archive](physics)
+*   [Cond-mat archive reorganization](condreorg)
+*   [Mailings from the physics archive](physsub)
 
-as well as a brief philosophical [synopsis](/blurb/sep96news.html).
+as well as a brief philosophical [synopsis](/blurb/sep96news).
 
 #### September 1996
 
@@ -1201,7 +1201,7 @@ Experimental mirror sites are now operating in France, [http://xxx.lpthe.jussieu
 
 24 Sep
 
-On 1 Oct '96, a new "physics" archive will go on-line, and is intended to facilitate growth into areas not currently covered. Submissions will be required to have a Subj-class: field that will effectively keyword partition the archive (for subscriptions, listings, and searches). Existing archives will for the most part remain unaffected. A very provisional list of canonical subject-classes be found at http://xxx.lanl.gov/new/physics.html , and can be modified as needed. Constructive suggestions solicited.
+On 1 Oct '96, a new "physics" archive will go on-line, and is intended to facilitate growth into areas not currently covered. Submissions will be required to have a Subj-class: field that will effectively keyword partition the archive (for subscriptions, listings, and searches). Existing archives will for the most part remain unaffected. A very provisional list of canonical subject-classes be found at http://xxx.lanl.gov/new/physics , and can be modified as needed. Constructive suggestions solicited.
 
 2 Sep
 
@@ -1213,4 +1213,4 @@ nlin-sys archives (adap-org chao-dyn comp-gas patt-sol solv-int) consolidated fr
 
 Minor policy change: the deadline for submissions to appear in the daily mailings has been moved six hours earlier to 18:00 US Mountain time (i.e., currently 00:00 GMT, and 01:00 GMT during the winter) Sunday through Thursday. The mailings will continue to commence (and web interface updated) shortly after midnight on those days (i.e., currently 06:00 GMT Mon-Fri, and 07:00 GMT during winter). Those few submissions received between 18:00 and midnight mountain time will appear in the next day's mailing. For the most part, this change will be invisible (and will primarily affect late night submissions from the US east coast, sparing us all the 2 a.m. typos...).
 
-(See also messages from [1994-1996](/new/94-96.html) and [1991-1994](/new/91-94.html).)
+(See also messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
