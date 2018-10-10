@@ -1,18 +1,15 @@
 Contacting arXiv administrators
 ===============================
 
-Before contacting us, please review our [help](/help) and
-[FAQ](/help/faq) pages to see if your problem is explained there.
+Before contacting us, please review our [help](/help) and [FAQ](/help/faq) pages to see if your problem is explained there.
 
-If you would like further assistance, please submit your questions via
-email. You may contact arXiv administrators at one of the addresses
-listed below. Please include a detailed description of your problem.
+If you would like further assistance, please submit your questions via email. You may contact arXiv administrators at one of the addresses listed below. Please include a detailed description of your problem. Note that arXiv help and moderation 
+email addresses are monitored between 0900-1700 Eastern time, Monday through Friday, subject to
+administrator availability and the holiday schedule.
 
-For **technical queries** (including account or paper submission
-problems):
+For **technical queries** (including account or paper submission problems):
 
--   Send a precise email, including all relevant details (especially
-    paper ids, rejection ids, URLs, etc.) to <help@arxiv.org>.
+-   Send a precise email, including all relevant details (especially paper ids, rejection ids, URLs, etc.) to <help@arxiv.org>.
 -   If you receive an automated response to your email, please read all
     instructions carefully.
     -   If there is no other identifying information in your message
