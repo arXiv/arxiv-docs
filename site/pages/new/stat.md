@@ -1,7 +1,7 @@
 Statistics archive (April 2007)
 ===============================
 
-The Statistics archive was [introduced](stat_announce.html) 1 April 2007.
+The Statistics archive was [introduced](stat_announce) 1 April 2007.
 
 Subject categories of the **stat** archive are:
 
