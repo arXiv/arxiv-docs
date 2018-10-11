@@ -31,7 +31,6 @@ that they are easier for your readers to download:
     -   [What is a reasonable size for figures?](faq#size)
     -   [What are the best formats for image types?](faq#format)
     -   [What about other formats?](faq#other)
-    -   [How can readers view JPEG/GIF/PNG images?](faq#view)
 -   [Basic bitmapping procedure](procedure)
     -   [ImageMagick](procedure#shortImageM) (most platforms)
     -   [XV](procedure#shortXV) (unix/linux)
