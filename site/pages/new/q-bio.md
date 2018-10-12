@@ -3,7 +3,7 @@ Quantitative Biology archive
 The Quantitative Biology archive
 ================================
 
-The Quantitative Biology archive ([q-bio](/archive/q-bio)) was [introduced](q-bio_announce.html) 15 Sep 2003.
+The Quantitative Biology archive ([q-bio](/archive/q-bio)) was [introduced](q-bio_announce) 15 Sep 2003.
 
 Subject categories of the **q-bio** archive:
 
