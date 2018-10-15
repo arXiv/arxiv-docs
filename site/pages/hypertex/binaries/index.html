@@ -1,0 +1,43 @@
+<header><title>xhdvi precompiled binaries</title></header>
+<body>
+<h1>xhdvi precompiled binaries</h1>
+
+xhdvi binaries precompiled for the following machines:
+<ul>
+<li> for Sun OS 4.1: <a href="xhdvi_sun_4.1.tar.gz">xhdvi_sun_4.1.tar.gz</a>
+<li> for HPUX 9.05: <a href="xhdvi_hpux_9.05.tar.gz">xhdvi_hpux_9.05.tar.gz</a>
+<li> for SGI: <a href="xhdvi_iris_5.2.tar.gz">xhdvi_iris_5.2.tar.gz</a>
+<li> for ibm risc 6000: 
+<a href="ftp://snorri.chem.washington.edu/pub/hypertex/xhdvi.RS6000">xhdvi.RS6000</a>
+<li> X on nExtstep (see also the nExtstep native 
+<a href="../HyperTeXview.tar.gz">HyperTeXview</a>):
+   <ul>
+   <li>
+<a href="ftp://snorri.chem.washington.edu/pub/hypertex/xhdvi.NextIntel">xhdvi.NextIntel</a>
+   <li>
+<a href="ftp://snorri.chem.washington.edu/pub/hypertex/xhdvi.NextNext">xhdvi.NextNext</a>
+(not currently available)
+   </ul>
+</ul>
+<b>Warning:</b> These have been compiled with the following font paths:<br>
+<blockquote>
+DEFAULT_FONT_PATH=/usr/local/lib/tex/fonts/pk<br>
+DEFAULT_SUBDIR_PATH=/usr/local/lib/tex/fonts/**<br>
+DEFAULT_VF_PATH=/usr/local/lib/tex/fonts/vf
+</blockquote>
+If your fonts reside in a different location, you either need to install a
+symbolic link, e.g.<br>
+<blockquote>
+ln -s /some/font/directory /usr/local/lib/tex/fonts/pk
+</blockquote>
+or set the environment variables, e.g.<br>
+<blockquote>
+setenv XDVIFONTS /some/font/directory
+</blockquote>
+(The environment variables corresponding to the other two above precompiled
+options are TEXFONTS_SUBDIR and XDVIVFS )
+<p>
+If all else fails, return to the <a href="../#xhdvisource">xhdvi source</a>
+<p>
+<h3>Return to <a href="../">HyperTeX</a></h3>
+</body>
