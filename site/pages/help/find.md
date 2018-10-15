@@ -32,7 +32,7 @@ Advanced search
 
 Using the web interface, you can search for articles based on archive
 subject area, title, author, keywords in the full abstracts, etc. You
-are encouraged to [try it out](/find).
+are encouraged to [try it out](/search).
 
 #### Historical note
 
