@@ -120,7 +120,7 @@ sent a paper to read, you should treat that content as privileged
 information and respect its confidentiality as you would if you were
 asked to review it for a journal.
 
-If an author asks you for endorsement, he or she will send you a
+If an author asks you for endorsement, they will send you a
 six-character alphanumeric *endorsement code*. After you enter this code
 on the [endorsement form](/auth/endorse.php), you can tell us that you
 **do** or **do not** wish to endorse a person. If you wish to abstain
