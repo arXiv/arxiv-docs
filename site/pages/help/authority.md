@@ -2,7 +2,7 @@ Authority Records
 =================
 
 Since 2005 arXiv has maintained *authority records* that link a person's
-arXiv account with the papers that he or she has written. We currently
+arXiv account with the papers that they have written. We currently
 use authority records to support the [endorsement system](endorsement.md),
 [ORCID iDs](orcid.md), and our public [arXiv author
 identifiers](author_identifiers.md).
