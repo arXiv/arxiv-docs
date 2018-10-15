@@ -13,9 +13,9 @@ either:
 -   grant arXiv.org a [non-exclusive and irrevocable license to
     distribute the
     article](http://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html),
-    and certify that he/she has the right to grant this license;
+    and certify that the submitter has the right to grant this license;
 -   certify that the work is available under one of the following
-    Creative Commons licenses and that he/she has the right to assign
+    Creative Commons licenses and that the submitter has the right to assign
     this license:
     -   [Creative Commons Attribution license (CC BY
         4.0)](http://creativecommons.org/licenses/by/4.0/)
