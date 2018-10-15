@@ -87,7 +87,7 @@ arXiv policies in some way. Potential reasons for removal are:
     refereeable quality, and there is a practical limit to the rate at
     which appropriate, independent submissions can be produced by any
     one person. Moderators may request that a particular author limit
-    his or her submission rate if this author has a history of many
+    their submission rate if this author has a history of many
     submissions to inappropriate areas or of doubtful refereeability.
 
 Can I appeal a moderation decision?
