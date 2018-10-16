@@ -1,6 +1,4 @@
-# HyperTeX FAQ 
-
-HyperTeX FAQ
+# HyperTeX FAQ
 ============
 
 maintained by [Kasper Peeters](http://maths.dur.ac.uk/users/kasper.peeters/index.html) <kasper.peeters@durham.ac.uk>
