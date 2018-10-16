@@ -36,8 +36,6 @@ Most DVI previewers, such as [xdvi](http://math.berkeley.edu/~vojta/xdvi.html), 
 
 The same is true for most PDF previewers, such as [Adobe Reader](http://www.adobe.com/products/acrobat/readstep2.html), recent versions of [Evince](http://www.gnome.org/projects/evince/) and [Xpdf](http://www.foolabs.com/xpdf/).
 
-Finally, there exist a few Postscript previewers which can handle the hypertex links. These include [GSview](http://pages.cs.wisc.edu/~ghost/gsview/) and [HyperHacked Ghostview](http://arXiv.org/hypertex/sources/hyper-gs/).
-
 Using BibTeX with hyperlinks
 ----------------------------
 
