@@ -98,7 +98,7 @@ HyperTeX adds five new "\\special" commands to the menagerie. These are:
 \special{html:<img src="hrefstring">}
 \special{html:<base href="hrefstring">}
 ```
-These are identified as HyperTeX specials by the first 4 characters, "html". The first three commands establish links between sections of documents in a manner exactly analogous to the HTML of the WWW. The "img" command is intended to place an image of arbitrary graphical format on the page, although this is not very widely supported by current viewers. The "hrefstring" values are arbitrary URLs. If you want to use a fragment indicator in the URL (the \`#' hash mark), make sure to change its catcode to \`letter' first: 
+These are identified as HyperTeX specials by the first 4 characters, "html". The first three commands establish links between sections of documents in a manner exactly analogous to the HTML of the Web. The "img" command is intended to place an image of arbitrary graphical format on the page, although this is not very widely supported by current viewers. The "hrefstring" values are arbitrary URLs. If you want to use a fragment indicator in the URL (the \`#' hash mark), make sure to change its catcode to \`letter' first: 
 ```LaTeX
 {\catcode`\#=11
  \special{html:<a href="http://www.foo.org/bar#foobar"}}
