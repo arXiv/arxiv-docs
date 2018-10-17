@@ -1,8 +1,8 @@
 # HyperTeX FAQ
 
-maintained by [Kasper Peeters](http://maths.dur.ac.uk/users/kasper.peeters/index.html) <kasper.peeters@durham.ac.uk>
+This historical FAQ maintained by [Kasper Peeters](http://maths.dur.ac.uk/users/kasper.peeters/index.html) <kasper.peeters@durham.ac.uk>, with contributions from Tanmoy Bhattacharya, David Carlisle, Mark Doyle, Paul Ginsparg, Alan Jeffrey, Hiroshi Kubo, Sebastian Rahtz and Arthur Smith. 
 
-with contributions from Tanmoy Bhattacharya, David Carlisle, Mark Doyle, Paul Ginsparg, Alan Jeffrey, Hiroshi Kubo, Sebastian Rahtz and Arthur Smith.
+###### For detailed information on the current `hypertex`, please refer to the [CTAN website](https://ctan.org/pkg/hyperref).
 
 April 13th, 2008.
 
@@ -12,7 +12,7 @@ Adding hyperlinks to a LaTeX document
 -------------------------------------
 
 The simplest way to add hyperlinks to a LaTeX document is to make use of the [hyperref](ftp://ftp.tex.ac.uk/tex-archive/macros/latex2e/contrib/hyperref/) package written by Sebastian Rahtz. It provides macros for constructing hyperlinks by hand, and it can also automatically construct hyperlinks for all the '\\cite' and '\\ref' commands. Hyperref is part of most modern TeX distributions. To use it, simply add 
-```
+```LaTeX
 \usepackage{hyperref}
 ``` 
 to the top of your LaTeX file. See below for a [more detailed example](#example). You will also want to read the section below in order to find out how to make the PDF, Postscript or DVI file.
@@ -68,12 +68,12 @@ This is the first page, with a
 \newpage
 
 This is the \hypertarget{page2}{second} page, with a link to an
-\href{http://www.arxiv.org}{external document}.
+\href{https://arxiv.org}{external document}.
 
 \end{document}
 ```
 If you now run
-```bash
+```
 latex link.tex
 dvips -z link.dvi -o link.ps
 ps2pdf link.ps link.pdf
