@@ -1,0 +1,246 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% This file is written by Tanmoy Bhattacharya <tanmoy@qcd.lanl.gov> and   %
+% is in the public domain for what it is worth. It inserts \specials that %
+% are interpreted by (a) the xhdvi hypertex dvi previewer, (b) nextstep   %
+% HyperTeXview.app dvi previewer, and (c) the dvipdf driver               %
+% For more info, see http://xxx.lanl.gov/hypertex/                        %
+%                or  ftp://xxx.lanl.gov/pub/hypertex/index.html           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                         %
+% Only \hyperdef, \hyperref , \href , and \hname are user callable.       %
+% Usage: \hyperdef\TeXcs{category}{name}{text}                            %
+% Usage: \href{url}{text}                                                 %
+% Usage: \hyperref{filename}{category}{name}{text}                        %
+%   or   \hyperref\TeXcs{text}                                            %
+%             where \TeXcs has been defined by a hyperdef.                %
+%                                                                         %
+%        Note: The token following \hyperref is expanded completely first.%
+%              Really perverse forms like                                 %
+%                \csname perverse\endcsname                               %
+%              will give an error                                         %
+%                                                                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The following might be useful to other macros interfacing in.           %
+% Usage: \hyper@nchor{name="#myname" href="#refer"}{text}                 %
+% Usage: \hyperlink{target_name}{text}                                    %
+% Usage: \hypertarget{myname}{text}                                       %
+% In cases where there is a possibility of premature expansion use        %
+%     \hyper@\hyperpr@ref instead of \hyperref                            %
+% and \hyper@\hyperpr@def instead of \hyperdef                            %
+% These macros increase enormously in size when expanded, but the expanded%
+% token sequence always ends in \hyperpr@ref and \hyperpr@def respectively%
+% Macro writers might want to make use of the macro \hyperv@rsion         %
+% which is undefined in version 0 and is the version number otherwise     %
+% \hyper@nique is exactly like \hyperdef except no special are written    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Save the current catcode of @ and redefine @ to be a letter
+%
+\expandafter\edef\csname hypers\string @fe\endcsname{\catcode
+                                             `\noexpand @=\the\catcode`\@}%
+\catcode`\@=11
+%
+% Check if the file is already included
+%
+% hack to allow \allowoncemore
+\ifx\hyper@utoprocess\hyper@ndefined
+\else
+ \expandafter\hyper@utoprocess\fi
+\ifx\hyperd@ne\hyper@ndefined
+ \global\let\hyperd@ne=\relax
+\else
+ \hypers@fe
+ \errhelp{hyperbasics.tex needs to be included only once outside
+          of any {...} or \begingroup...\endgroup. You have tried to
+          include it more than once. If the previous include was indeed
+          outside any groupings, continue and all will be well.}%
+ \errmessage{Input this file only once!}%
+ \expandafter\endinput\fi
+%
+% Version number
+%
+\def\hyperv@rsion{12}%
+%
+% Check and input a previous .hrf file if it exists
+%
+\newread\hyperf@le
+\def\hyperf@lename{\jobname.hrf}%
+\immediate\openin\hyperf@le\hyperf@lename\relax
+\ifeof\hyperf@le\relax
+ \immediate\closein\hyperf@le\relax
+\else
+ \immediate\closein\hyperf@le\relax
+ \input \hyperf@lename
+\fi
+%
+% Open a new .hrf file
+%
+\newwrite\hyperf@le
+\immediate\openout\hyperf@le\hyperf@lename
+%%%%
+% MAIN SECTION
+%%%%
+%
+% define a token register
+%
+\newtoks\hypert@ks
+%
+% Define a convenient macro to hold the character #
+%
+\edef\hypert@mp{\catcode`\noexpand\%=\the\catcode`\%}
+\catcode`\%=12
+\def\hyperp@rcent{%}
+\hypert@mp
+\edef\hypert@mp{\catcode`\noexpand\#=\the\catcode`\#}%
+\catcode`\#=12
+\def\hyperh@sh{#}%
+\hypert@mp
+\let\hypert@mp=\relax
+\let\hyper@nd=\relax
+\def\hyperbl@nk{ }
+\def\hyperstr@pquote#1"#2\hyper@nd{% Call \hyperstr@pquote..."\hyper@nd
+   #1% #1 can not contain "
+   \ifx\hyper@nd#2\hyper@nd% #2 cannot contain \hyper@nd and
+                           % must end in " if non-empty
+   \else\hyperp@rcent22\hyperstr@pquote#2\hyper@nd\fi}%
+\def\hyperstr@pblank#1 #2\hyper@nd{% Call \hyperstr@pblank... \hyper@nd
+   #1% #1 cannot contain a space
+   \ifx\hyper@nd#2\hyper@nd% #2 canot contain \hyper@nd and
+                           % and must end in blank if nonempty
+   \else\hyperp@rcent20\hyperstr@pblank#2\hyper@nd\fi}
+%
+\long\def\hyper@nchor#1#2{\edef\hyperm@cro{html:<A #1>}%
+                          \special\expandafter{\hyperm@cro}%
+                          {#2}\special{html:</A>}}%
+%
+\def\hyper@atm@ning#1->#2\hyper@nd{#2}
+\def\hyperlink{\protect\hyperlink@}
+\def\hyperlink@{{\catcode\expandafter`\noexpand\#=12 
+                 \catcode\expandafter`\noexpand\%=12 
+                 \catcode\expandafter`\noexpand\~=12
+                \expandafter}\hyperlink@@}
+\def\hyperlink@@#1{\protect\hyperlink@@@{#1}}
+\def\hyperlink@@@#1{\edef\hypert@mp{#1}%
+               \edef\hypert@mp{\expandafter\hyper@atm@ning\meaning\hypert@mp
+                               \hyper@nd}%
+               \edef\hypert@mp{\expandafter\hyperstr@pquote%
+                               \hypert@mp"\hyper@nd}%
+               \edef\hypert@mp{\expandafter\expandafter\expandafter
+                               \hyperstr@pblank\expandafter%
+                               \hypert@mp\hyperbl@nk\hyper@nd}%
+               \hyper@nchor{href=\expandafter"\hypert@mp"}}%
+%
+\def\hypertarget#1{\edef\hypert@mp{#1}%
+               \edef\hypert@mp{\expandafter\hyper@atm@ning\meaning\hypert@mp
+                               \hyper@nd}%
+               \edef\hypert@mp{\expandafter\hyperstr@pquote%
+                               \hypert@mp"\hyper@nd}%
+               \edef\hypert@mp{\expandafter\expandafter\expandafter
+                               \hyperstr@pblank\expandafter%
+                               \hypert@mp\hyperbl@nk\hyper@nd}%
+               \hyper@nchor{name=\expandafter"\hypert@mp"}}%
+%
+\def\hyperref{\afterassignment\hyperr@f\let\hyperp@ram}
+\def\hyperr@f{\ifx\hyperp@ram{\iffalse}\fi
+               \expandafter\expandafter\expandafter\hyperr@@
+               \expandafter{%
+              \else
+               \iffalse}\fi
+               \ifx\hyperp@ram\hyper@ndefined
+                 \message{Undefined reference}%
+                 \def\hyperp@r@m{{}{undefined}{}}%
+               \else
+                 \edef\hyperp@r@m{\hyperp@ram}%
+               \fi
+               \expandafter\expandafter\expandafter\hyperr@@
+               \expandafter\hyperp@r@m
+              \fi}%
+% refer to #1, \hyperh@sh#2.#3 or #1\hyperh@sh#2.#3
+% depending on what is blank/nonblank
+\def\hyperr@@#1#2#3{\ifx\hyper@ndefined#1\hyper@ndefined
+                    \hypert@ks\expandafter{\hyperh@sh#2.#3}%
+                    \else
+                     \ifx\hyper@ndefined#2#3\hyper@ndefined
+                      \hypert@ks{#1}%
+                     \else
+                      \def\hypert@mp{#1}%
+                      \hypert@ks\expandafter\expandafter\expandafter
+                      {\expandafter\hypert@mp\hyperh@sh#2.#3}%
+                     \fi
+                    \fi
+                    \expandafter\hyperlink\expandafter{\the\hypert@ks}}%
+%
+% \def\hyperREF#1{\hyperlink{#1}}% % Disabled as per pg's suggestion
+%
+\def\hyperdef#1#2#3{{\escapechar=`\\\relax
+                     \edef\hyper@t@mp@{\hyperstr@pquote#2.#3"\hyper@nd}%
+                     \expandafter\ifx\csname hyperd@\meaning\hyper@t@mp@
+                     \endcsname
+                     \relax
+                     \expandafter\gdef\csname hyperd@\meaning\hyper@t@mp@
+                     \endcsname{}%
+                     \gdef#1{{}{\hyperstr@pquote#2"\hyper@nd}%
+                               {\hyperstr@pquote#3"\hyper@nd}}%
+                     \immediate\write\hyperf@le{\def\noexpand#1{{}%
+                        {\noexpand\hyperstr@pquote#2"\noexpand\hyper@nd}%
+                        {\noexpand\hyperstr@pquote#3"\noexpand\hyper@nd}}}%
+                     \xdef\hyper@t@mp@{\global\let\noexpand\hyper@t@mp@=\relax
+                                       \noexpand\hypertarget{\hyper@t@mp@}}%
+                     \global\hypert@ks={\hyper@t@mp@}%
+                     \else
+                     \message\expandafter{\expandafter'\hyper@t@mp@' duplicate}%
+		     \def\hyper@@tmp@{\hyperdef{#1}{#2}}%
+		     \edef\hyper@@tmp@@{{#3@}}%
+                     \global\let\hyper@t@mp@=\relax
+                     \global\hypert@ks=\expandafter\expandafter
+		     \expandafter{\expandafter\hyper@@tmp@\hyper@@tmp@@}%
+                     \fi}\the\hypert@ks}%
+
+\def\hyper@nique#1#2#3#4{{\escapechar=`\\\relax
+                     \edef\hyper@t@mp@{\hyperstr@pquote#2.#3"\hyper@nd}%
+                     \expandafter\ifx\csname hyperd@\meaning\hyper@t@mp@
+                     \endcsname
+                     \relax
+                     \gdef#1{{}{\hyperstr@pquote#2"\hyper@nd}%
+                               {\hyperstr@pquote#3"\hyper@nd}}%
+                     \global\let\hyper@t@mp@=\relax
+                     #4%
+                     \else
+		     \def\hyper@@tmp@{\hyper@nique{#1}{#2}}%
+		     \edef\hyper@@tmp@@{{#3@}}%
+                     \global\let\hyper@t@mp@=\relax
+   		     \expandafter\hyper@@tmp@\hyper@@tmp@@{#4}%
+                     \fi}}%
+
+%%% 
+% protection macros
+%%%
+\ifx\protect\hyper@ndefined\let\protect=\relax\fi
+\let\hyper@@@@=\relax
+\def\hyper@@{\let\hyper@@@=\relax}%
+\hyper@@
+\def\hyper@{\relax\let\hyper@@@\noexpand\hyper@\noexpand}%
+\def\hyperpr@ref{\hyper@@\hyperref}
+\def\hyperpr@link{\hyper@@\hyperlink}
+\def\hyperpr@def{\hyper@@\hyperdef}
+\let\hyper@marker=\relax
+\def\hyper@@tokenize#1\hyper@marker{#1}
+\def\hyper@tokenize{\expandafter\endgroup\hyper@@tokenize}
+\def\hyperpr@tokenize{\hyper@@\hyper@tokenize}
+
+% As per pg's suggestion
+\edef\href{\begingroup\catcode`\string @=11
+            \hyper@\hyperpr@tokenize\hyper@\hyperpr@link
+            \hyper@marker}
+\let\hname\hypertarget
+% Hack to allow auto-processing
+\def\allowoncemore{\def\hyper@utoprocess{\let\hyper@utoprocess=\hyper@ndefined
+                                         \hypers@fe\endinput}}%
+%
+% Restore the catcode of @
+%
+\hypers@fe
+\endinput
+% A line after endinput to avoid both msdos gremlins and an incomplete
+% last line

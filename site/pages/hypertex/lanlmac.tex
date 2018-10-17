@@ -1,0 +1,402 @@
+%%%%%%%%%%%%%%%%%%  tex macros for preprints, cm version %%%%%%%%%%%%%%
+%         (P. Ginsparg <ginsparg@lanl.gov>, last updated 7/94)
+%                if confused, type `b' in response to query 
+%           hypertex extensions (still provisional), 7/26/94
+%
+%---------------------------------------------------------------------%
+\input hyperbasics %comment out this line to restore non-hyper functionality
+%
+%% site dependent options:
+%% \unredoffs and \redoffs define horizontal and vertical offsets
+%% respectively for unreduced and reduced modes. \speclscape defines
+%% the \special{} call that sets printer to landscape (sideways) mode.
+%% from standard set below, leave uncommented as appropriate or redefine
+%
+%%% next 400dpi
+\def\unredoffs{} \def\redoffs{\voffset=-.31truein\hoffset=-.48truein}
+\def\speclscape{\special{landscape}}
+%\def\speclscape{\special{papersize=11in,8.5in}}
+%
+%%% apple lw
+%\def\unredoffs{} \def\redoffs{\voffset=-.31truein\hoffset=-.59truein}
+%\def\speclscape{\special{ps: landscape}}
+%
+%%% qms lasergrafix:
+%\def\unredoffs{} \def\redoffs{\voffset=-.4truein\hoffset=.125truein}
+%\def\speclscape{\special{qms: landscape}}
+%
+%%% saclay A4 paper:
+%\def\unredoffs{\hoffset-.14truein\voffset-.2truein}
+%\def\redoffs{\voffset=-.45truein\hoffset=-.21truein}
+%\def\speclscape{\special{landscape}}
+%
+%---------------------------------------------------------------------%
+%
+\newbox\leftpage \newdimen\fullhsize \newdimen\hstitle \newdimen\hsbody
+\tolerance=1000\hfuzz=2pt\def\fontflag{cm}
+%
+\catcode`\@=11 % This allows us to modify PLAIN macros.
+\ifx\hyperdef\UNd@FiNeD\def\hyperdef#1#2#3#4{#4}\def\hyperref#1#2#3#4{#4}\fi
+%
+\def\bigans{b }
+\message{ big or little (b/l)? }\read-1 to\answ
+%
+\ifx\answ\bigans\message{(This will come out unreduced.}
+\magnification=1200\unredoffs\baselineskip=16pt plus 2pt minus 1pt
+\hsbody=\hsize \hstitle=\hsize %take default values for unreduced format
+%
+\else\message{(This will be reduced.} \let\l@r=L
+\magnification=1000\baselineskip=16pt plus 2pt minus 1pt \vsize=7truein
+\redoffs \hstitle=8truein\hsbody=4.75truein\fullhsize=10truein\hsize=\hsbody
+%
+\output={\ifnum\pageno=0 %%% This is the HUTP version
+  \shipout\vbox{\speclscape{\hsize\fullhsize\makeheadline}
+    \hbox to \fullhsize{\hfill\pagebody\hfill}}\advancepageno
+  \else
+  \almostshipout{\leftline{\vbox{\pagebody\makefootline}}}\advancepageno
+  \fi}
+\def\almostshipout#1{\if L\l@r \count1=1 \message{[\the\count0.\the\count1]}
+      \global\setbox\leftpage=#1 \global\let\l@r=R
+ \else \count1=2
+  \shipout\vbox{\speclscape{\hsize\fullhsize\makeheadline}
+      \hbox to\fullhsize{\box\leftpage\hfil#1}}  \global\let\l@r=L\fi}
+\fi
+%---------------------------------------------------------------------
+%
+\newcount\yearltd\yearltd=\year\advance\yearltd by -1900
+\def\HUTP#1#2{\Title{HUTP-\number\yearltd/A#1}{#2}}
+\def\Title#1#2{\nopagenumbers\abstractfont\hsize=\hstitle\rightline{#1}%
+\vskip 1in\centerline{\titlefont #2}\abstractfont\vskip .5in\pageno=0}
+%
+\def\Date#1{\vfill\leftline{#1}\tenpoint\supereject\global\hsize=\hsbody%
+\footline={\hss\tenrm\hyperdef\hypernoname{page}\folio\folio\hss}}%
+% (restores pagenumbers)
+%
+%       use following instead of \Date on the preliminary draft,
+%       puts date/time on each page in big mode, writes labels in margins
+\def\draft{\draftmode\Date{\draftdate}}
+\def\draftmode{\message{ DRAFTMODE }\def\draftdate{{\rm preliminary draft:
+\number\month/\number\day/\number\yearltd\ \ \hourmin}}%
+\headline={\hfil\draftdate}\writelabels\baselineskip=20pt plus 2pt minus 2pt
+ {\count255=\time\divide\count255 by 60 \xdef\hourmin{\number\count255}
+  \multiply\count255 by-60\advance\count255 by\time
+  \xdef\hourmin{\hourmin:\ifnum\count255<10 0\fi\the\count255}}}
+%       use \nolabels to get rid of eqn, ref, and fig labels in draft mode
+\def\nolabels{\def\wrlabeL##1{}\def\eqlabeL##1{}\def\reflabeL##1{}}
+\def\writelabels{\def\wrlabeL##1{\leavevmode\vadjust{\rlap{\smash%
+{\line{{\escapechar=` \hfill\rlap{\sevenrm\hskip.03in\string##1}}}}}}}%
+\def\eqlabeL##1{{\escapechar-1\rlap{\sevenrm\hskip.05in\string##1}}}%
+\def\reflabeL##1{\noexpand\llap{\noexpand\sevenrm\string\string\string##1}}}
+\nolabels
+%
+% tagged sec numbers
+\global\newcount\secno \global\secno=0
+\global\newcount\meqno \global\meqno=1
+%
+\def\newsec#1{\global\advance\secno by1\message{(\the\secno. #1)}
+%\ifx\answ\bigans \vfill\eject \else \bigbreak\bigskip \fi  %if desired
+\global\subsecno=0\eqnres@t\noindent
+{\bf\hyperdef\hypernoname{section}{\the\secno}{\the\secno.} #1}%
+\writetoca{{\string\hyperref{}{section}{\the\secno}{\secsym}} {#1}}%
+\par\nobreak\medskip\nobreak}
+\def\eqnres@t{\xdef\secsym{\the\secno.}\global\meqno=1\bigbreak\bigskip}
+\def\sequentialequations{\def\eqnres@t{\bigbreak}}\xdef\secsym{}
+%
+\global\newcount\subsecno \global\subsecno=0
+\def\subsec#1{\global\advance\subsecno by1\message{(\secsym\the\subsecno. #1)}
+\ifnum\lastpenalty>9000\else\bigbreak\fi
+\noindent{\it\hyperdef\hypernoname{subsection}{\secsym\the\subsecno}%
+{\secsym\the\subsecno.} #1}\writetoca{\string\quad
+{\string\hyperref{}{subsection}{\secsym\the\subsecno}{\secsym\the\subsecno.}}
+{#1}}\par\nobreak\medskip\nobreak}
+%
+\def\appendix#1#2{\global\meqno=1\global\subsecno=0\xdef\secsym{\hbox{#1.}}%
+\bigbreak\bigskip\noindent{\bf Appendix \hyperdef\hypernoname{appendix}{#1}%
+{#1.} #2}\message{(#1. #2)}\xdef\appsym{#1}%
+\writetoca{\string\hyperref{}{appendix}{#1}{Appendix {#1.}} {#2}}%
+\par\nobreak\medskip\nobreak}
+%
+%       \eqn\label{a+b=c}	gives displayed equation, numbered
+%				consecutively within sections.
+%     \eqnn and \eqna define labels in advance (of eqalign?)
+%
+\def\checkm@de#1#2{\ifmmode{\def\f@rst##1{##1}\hyperdef\hypernoname{equation}%
+{#1}{#2}}\else\hyperref{}{equation}{#1}{#2}\fi}
+%
+\def\eqnn#1{\DefWarn#1\xdef #1{(\noexpand\relax\noexpand\checkm@de%
+{\secsym\the\meqno}{\secsym\the\meqno})}%
+\wrlabeL#1\writedef{#1\leftbracket#1}\global\advance\meqno by1}
+%
+\def\f@rst#1{\c@t#1a\em@ark}\def\c@t#1#2\em@ark{#1}
+\def\eqna#1{\DefWarn#1\wrlabeL{#1$\{\}$}%
+\xdef #1##1{(\noexpand\relax\noexpand\checkm@de%
+{\secsym\the\meqno\noexpand\f@rst{##1}}{\hbox{$\secsym\the\meqno##1$}})}
+\writedef{#1\numbersign1\leftbracket#1{\numbersign1}}\global\advance\meqno by1}
+%
+\def\eqn#1#2{\DefWarn#1%
+\xdef #1{(\noexpand\hyperref{}{equation}{\secsym\the\meqno}%
+{\secsym\the\meqno})}$$#2\eqno(\hyperdef\hypernoname{equation}%
+{\secsym\the\meqno}{\secsym\the\meqno})\eqlabeL#1$$%
+\writedef{#1\leftbracket#1}\global\advance\meqno by1}
+%
+\def\xeqn{\expandafter\xe@n}\def\xe@n(#1){#1}
+\def\xeqna#1{\expandafter\xe@n#1}
+\def\eqns#1{(\e@ns #1{\hbox{}})}
+\def\e@ns#1{\ifx\UNd@FiNeD#1\message{eqnlabel \string#1 is undefined.}%
+\xdef#1{(?.?)}\fi{\let\hyperref=\relax\xdef\next{#1}}%
+\ifx\next\em@rk\def\next{}\else%
+\ifx\next#1\xeqn#1\else\def\n@xt{#1}\ifx\n@xt\next#1\else\xeqna#1\fi
+\fi\let\next=\e@ns\fi\next}
+%
+\def\etag#1{\eqnn#1\eqno#1}\def\etaga#1{\eqna#1\eqno#1}
+\def\DefWarn#1{\ifx\UNd@FiNeD#1\else
+\immediate\write16{*** WARNING: the label \string#1 is already defined ***}\fi}
+%
+%			 footnotes
+\newskip\footskip\footskip14pt plus 1pt minus 1pt %sets footnote baselineskip
+\def\footnotefont{\ninepoint}\def\f@t#1{\footnotefont #1\@foot}
+\def\f@@t{\baselineskip\footskip\bgroup\footnotefont\aftergroup\@foot\let\next}
+\setbox\strutbox=\hbox{\vrule height9.5pt depth4.5pt width0pt}
+%
+\global\newcount\ftno \global\ftno=0
+%\def\foot{\global\advance\ftno by1\footnote{$^{\the\ftno}$}}
+\def\foot{\global\advance\ftno by1\def\foot@rg{\hyperref{}{footnote}%
+{\the\ftno}{\the\ftno}\xdef\foot@rg{\noexpand\hyperdef\noexpand\hypernoname%
+{footnote}{\the\ftno}{\the\ftno}}}\footnote{$^{\foot@rg}$}}
+%
+%say \footend to put footnotes at end
+%will cause problems if \ref used inside \foot, instead use \nref before
+\newwrite\ftfile
+\def\footend{\def\foot{\global\advance\ftno by1\chardef\wfile=\ftfile
+%%$^{\the\ftno}$\ifnum\ftno=1\immediate\openout\ftfile=\jobname.fts\fi%
+\hyperref{}{footnote}{\the\ftno}{$^{\the\ftno}$}%
+\ifnum\ftno=1\immediate\openout\ftfile=\jobname.fts\fi%
+\immediate\write\ftfile{\noexpand\smallskip%
+%%\noexpand\item{f\the\ftno:\ }\pctsign}\findarg}%
+\noexpand\item{\noexpand\hyperdef\noexpand\hypernoname{footnote}
+{\the\ftno}{f\the\ftno}:\ }\pctsign}\findarg}%
+\def\footatend{\vfill\eject\immediate\closeout\ftfile{\parindent=20pt
+\centerline{\bf Footnotes}\nobreak\bigskip\input \jobname.fts }}}
+\def\footatend{}
+%
+%     \ref\label{text}
+% generates a number, assigns it to \label, generates an entry.
+% To list the refs on a separate page,  \listrefs
+%
+\global\newcount\refno \global\refno=1
+\newwrite\rfile
+%
+\def\ref{[\hyperref{}{reference}{\the\refno}{\the\refno}]\nref}
+\def\nref#1{\DefWarn#1%
+\xdef#1{[\noexpand\hyperref{}{reference}{\the\refno}{\the\refno}]}%
+\writedef{#1\leftbracket#1}%
+\ifnum\refno=1\immediate\openout\rfile=\jobname.refs\fi
+\chardef\wfile=\rfile\immediate\write\rfile{\noexpand\item{[\noexpand\hyperdef%
+\noexpand\hypernoname{reference}{\the\refno}{\the\refno}]\ }%
+\reflabeL{#1\hskip.31in}\pctsign}\global\advance\refno by1\findarg}
+%	horrible hack to sidestep tex \write limitation
+\def\findarg#1#{\begingroup\obeylines\newlinechar=`\^^M\pass@rg}
+{\obeylines\gdef\pass@rg#1{\writ@line\relax #1^^M\hbox{}^^M}%
+\gdef\writ@line#1^^M{\expandafter\toks0\expandafter{\striprel@x #1}%
+\edef\next{\the\toks0}\ifx\next\em@rk\let\next=\endgroup\else\ifx\next\empty%
+\else\immediate\write\wfile{\the\toks0}\fi\let\next=\writ@line\fi\next\relax}}
+\def\striprel@x#1{} \def\em@rk{\hbox{}}
+%
+\def\lref{\begingroup\obeylines\lr@f}
+\def\lr@f#1#2{\DefWarn#1\gdef#1{\let#1=\UNd@FiNeD\ref#1{#2}}\endgroup\unskip}
+%
+\def\semi{;\hfil\break}
+\def\addref#1{\immediate\write\rfile{\noexpand\item{}#1}} %now unnecessary
+%
+\def\listrefs{\footatend\vfill\supereject\immediate\closeout\rfile\writestoppt
+\baselineskip=\footskip\centerline{{\bf References}}\bigskip{\parindent=20pt%
+\frenchspacing\escapechar=` \input \jobname.refs\vfill\eject}\nonfrenchspacing}
+%
+\def\startrefs#1{\immediate\openout\rfile=\jobname.refs\refno=#1}
+%
+\def\xref{\expandafter\xr@f}\def\xr@f[#1]{#1}
+\def\refs#1{\count255=1[\r@fs #1{\hbox{}}]}
+\def\r@fs#1{\ifx\UNd@FiNeD#1\message{reflabel \string#1 is undefined.}%
+\nref#1{need to supply reference \string#1.}\fi%
+\vphantom{\hphantom{#1}}{\let\hyperref=\relax\xdef\next{#1}}%
+\ifx\next\em@rk\def\next{}%
+\else\ifx\next#1\ifodd\count255\relax\xref#1\count255=0\fi%
+\else#1\count255=1\fi\let\next=\r@fs\fi\next}
+%
+\def\figures{\centerline{{\bf Figure Captions}}\medskip\parindent=40pt%
+\def\fig##1##2{\medskip\item{Fig.~\hyperdef\hypernoname{figure}{##1}{##1}.  }%
+##2}}
+%
+% this is ugly, but moore insists
+\newwrite\ffile\global\newcount\figno \global\figno=1
+%
+\def\fig{fig.~\hyperref{}{figure}{\the\figno}{\the\figno}\nfig}
+\def\nfig#1{\DefWarn#1%
+\xdef#1{fig.~\noexpand\hyperref{}{figure}{\the\figno}{\the\figno}}%
+\writedef{#1\leftbracket fig.\noexpand~\xfig#1}%
+\ifnum\figno=1\immediate\openout\ffile=\jobname.figs\fi\chardef\wfile=\ffile%
+{\let\hyperref=\relax
+\immediate\write\ffile{\noexpand\medskip\noexpand\item{Fig.\ %
+\noexpand\hyperdef\noexpand\hypernoname{figure}{\the\figno}{\the\figno}. }
+\reflabeL{#1\hskip.55in}\pctsign}}\global\advance\figno by1\findarg}
+%
+\def\listfigs{\vfill\eject\immediate\closeout\ffile{\parindent40pt
+\baselineskip14pt\centerline{{\bf Figure Captions}}\nobreak\medskip
+\escapechar=` \input \jobname.figs\vfill\eject}}
+%
+\def\xfig{\expandafter\xf@g}\def\xf@g fig.\penalty\@M\ {}
+\def\figs#1{figs.~\f@gs #1{\hbox{}}}
+\def\f@gs#1{{\let\hyperref=\relax\xdef\next{#1}}\ifx\next\em@rk\def\next{}\else
+\ifx\next#1\xfig #1\else#1\fi\let\next=\f@gs\fi\next}
+%
+\def\figin{\epsfcheck\figin}\def\figins{\epsfcheck\figins}
+\def\epsfcheck{\ifx\epsfbox\UNd@FiNeD
+\message{(NO epsf.tex, FIGURES WILL BE IGNORED)}
+\gdef\figin##1{\vskip2in}\gdef\figins##1{\hskip.5in}% blank space instead
+\else\message{(FIGURES WILL BE INCLUDED)}%
+\gdef\figin##1{##1}\gdef\figins##1{##1}\fi}
+\def\DefWarn#1{}
+\def\figinsert{\goodbreak\midinsert}
+\def\ifig#1#2#3{\DefWarn#1\xdef#1{fig.~\noexpand\hyperref{}{figure}%
+{\the\figno}{\the\figno}}\writedef{#1\leftbracket fig.\noexpand~\xfig#1}%
+\figinsert\figin{\centerline{#3}}\medskip\centerline{\vbox{\baselineskip12pt
+\advance\hsize by -1truein\noindent\wrlabeL{#1=#1}\footnotefont%
+{\bf Fig.~\hyperdef\hypernoname{figure}{\the\figno}{\the\figno}:} #2}}
+\bigskip\endinsert\global\advance\figno by1}
+%
+\newwrite\lfile
+{\escapechar-1\xdef\pctsign{\string\%}\xdef\leftbracket{\string\{}
+\xdef\rightbracket{\string\}}\xdef\numbersign{\string\#}}
+\def\writedefs{\immediate\openout\lfile=\jobname.defs \def\writedef##1{%
+{\let\hyperref=\relax\let\hyperdef=\relax\let\hypernoname=\relax
+ \immediate\write\lfile{\string\def\string##1\rightbracket}}}}%
+\def\writestop{\def\writestoppt{\immediate\write\lfile{\string\pageno%
+\the\pageno\string\startrefs\leftbracket\the\refno\rightbracket%
+\string\def\string\secsym\leftbracket\secsym\rightbracket%
+\string\secno\the\secno\string\meqno\the\meqno}\immediate\closeout\lfile}}
+%
+\def\writestoppt{}\def\writedef#1{}
+%
+\def\seclab#1{\DefWarn#1%
+\xdef #1{\noexpand\hyperref{}{section}{\the\secno}{\the\secno}}%
+\writedef{#1\leftbracket#1}\wrlabeL{#1=#1}}
+\def\subseclab#1{\DefWarn#1%
+\xdef #1{\noexpand\hyperref{}{subsection}{\secsym\the\subsecno}%
+{\secsym\the\subsecno}}\writedef{#1\leftbracket#1}\wrlabeL{#1=#1}}
+\def\applab#1{\DefWarn#1%
+\xdef #1{\noexpand\hyperref{}{appendix}{\appsym}{\appsym}}%
+\writedef{#1\leftbracket#1}\wrlabeL{#1=#1}}
+%
+\newwrite\tfile \def\writetoca#1{}
+\def\leaderfill{\leaders\hbox to 1em{\hss.\hss}\hfill}
+%	use this to write file with table of contents
+\def\writetoc{\immediate\openout\tfile=\jobname.toc
+   \def\writetoca##1{{\edef\next{\write\tfile{\noindent ##1
+   \string\leaderfill {\string\hyperref{}{page}{\noexpand\number\pageno}%
+                       {\noexpand\number\pageno}} \par}}\next}}}
+%       and this lists table of contents on second pass
+\newread\ch@ckfile
+\def\listtoc{\immediate\closeout\tfile\immediate\openin\ch@ckfile=\jobname.toc
+\ifeof\ch@ckfile\message{no file \jobname.toc, no table of contents this pass}%
+\else\closein\ch@ckfile\centerline{\bf Contents}\nobreak\medskip%
+{\baselineskip=12pt\footnotefont\parskip=0pt\catcode`\@=11\input\jobname.toc
+\catcode`\@=12\bigbreak\bigskip}\fi}
+%
+\catcode`\@=12 % at signs are no longer letters
+%
+%	Unpleasantness in calling in abstract and title fonts
+\edef\tfontsize{\ifx\answ\bigans scaled\magstep3\else scaled\magstep4\fi}
+\font\titlerm=cmr10 \tfontsize \font\titlerms=cmr7 \tfontsize
+\font\titlermss=cmr5 \tfontsize \font\titlei=cmmi10 \tfontsize
+\font\titleis=cmmi7 \tfontsize \font\titleiss=cmmi5 \tfontsize
+\font\titlesy=cmsy10 \tfontsize \font\titlesys=cmsy7 \tfontsize
+\font\titlesyss=cmsy5 \tfontsize \font\titleit=cmti10 \tfontsize
+\skewchar\titlei='177 \skewchar\titleis='177 \skewchar\titleiss='177
+\skewchar\titlesy='60 \skewchar\titlesys='60 \skewchar\titlesyss='60
+%
+\def\titlefont{\def\rm{\fam0\titlerm}% switch to title font
+\textfont0=\titlerm \scriptfont0=\titlerms \scriptscriptfont0=\titlermss
+\textfont1=\titlei \scriptfont1=\titleis \scriptscriptfont1=\titleiss
+\textfont2=\titlesy \scriptfont2=\titlesys \scriptscriptfont2=\titlesyss
+\textfont\itfam=\titleit \def\it{\fam\itfam\titleit}\rm}
+%
+\font\authorfont=cmcsc10 \ifx\answ\bigans\else scaled\magstep1\fi
+%
+\ifx\answ\bigans\def\abstractfont{\tenpoint}\else
+\font\absit=cmti10 scaled \magstep1
+\font\abssl=cmsl10 scaled \magstep1
+\font\absrm=cmr10 scaled\magstep1 \font\absrms=cmr7 scaled\magstep1
+\font\absrmss=cmr5 scaled\magstep1 \font\absi=cmmi10 scaled\magstep1
+\font\absis=cmmi7 scaled\magstep1 \font\absiss=cmmi5 scaled\magstep1
+\font\abssy=cmsy10 scaled\magstep1 \font\abssys=cmsy7 scaled\magstep1
+\font\abssyss=cmsy5 scaled\magstep1 \font\absbf=cmbx10 scaled\magstep1
+\skewchar\absi='177 \skewchar\absis='177 \skewchar\absiss='177
+\skewchar\abssy='60 \skewchar\abssys='60 \skewchar\abssyss='60
+%
+\def\abstractfont{\def\rm{\fam0\absrm}% switch to abstract font
+\textfont0=\absrm \scriptfont0=\absrms \scriptscriptfont0=\absrmss
+\textfont1=\absi \scriptfont1=\absis \scriptscriptfont1=\absiss
+\textfont2=\abssy \scriptfont2=\abssys \scriptscriptfont2=\abssyss
+\textfont\itfam=\absit \def\it{\fam\itfam\absit}\def\footnotefont{\tenpoint}%
+\textfont\slfam=\abssl \def\sl{\fam\slfam\abssl}%
+\textfont\bffam=\absbf \def\bf{\fam\bffam\absbf}\rm}\fi
+%
+\def\tenpoint{\def\rm{\fam0\tenrm}% switch back to 10-point type
+\textfont0=\tenrm \scriptfont0=\sevenrm \scriptscriptfont0=\fiverm
+\textfont1=\teni  \scriptfont1=\seveni  \scriptscriptfont1=\fivei
+\textfont2=\tensy \scriptfont2=\sevensy \scriptscriptfont2=\fivesy
+\textfont\itfam=\tenit \def\it{\fam\itfam\tenit}\def\footnotefont{\ninepoint}%
+\textfont\bffam=\tenbf \def\bf{\fam\bffam\tenbf}\def\sl{\fam\slfam\tensl}\rm}
+%
+\font\ninerm=cmr9 \font\sixrm=cmr6 \font\ninei=cmmi9 \font\sixi=cmmi6
+\font\ninesy=cmsy9 \font\sixsy=cmsy6 \font\ninebf=cmbx9
+\font\nineit=cmti9 \font\ninesl=cmsl9 \skewchar\ninei='177
+\skewchar\sixi='177 \skewchar\ninesy='60 \skewchar\sixsy='60
+%
+\def\ninepoint{\def\rm{\fam0\ninerm}% switch to footnote font
+\textfont0=\ninerm \scriptfont0=\sixrm \scriptscriptfont0=\fiverm
+\textfont1=\ninei \scriptfont1=\sixi \scriptscriptfont1=\fivei
+\textfont2=\ninesy \scriptfont2=\sixsy \scriptscriptfont2=\fivesy
+\textfont\itfam=\ninei \def\it{\fam\itfam\nineit}\def\sl{\fam\slfam\ninesl}%
+\textfont\bffam=\ninebf \def\bf{\fam\bffam\ninebf}\rm}
+%
+%---------------------------------------------------------------------
+%
+\def\noblackbox{\overfullrule=0pt}
+\hyphenation{anom-aly anom-alies coun-ter-term coun-ter-terms}
+%
+\def\inv{^{\raise.15ex\hbox{${\scriptscriptstyle -}$}\kern-.05em 1}}
+\def\dup{^{\vphantom{1}}}
+\def\Dsl{\,\raise.15ex\hbox{/}\mkern-13.5mu D} %this one can be subscripted
+\def\dsl{\raise.15ex\hbox{/}\kern-.57em\partial}
+\def\del{\partial}
+\def\Psl{\dsl}
+\def\tr{{\rm tr}} \def\Tr{{\rm Tr}}
+\def\biglie{\font\bigit=cmti10 scaled\magstep1\hbox{\bigit\$}} %pound sterling
+\def\lspace{\ifx\answ\bigans{}\else\qquad\fi}
+\def\lbspace{\ifx\answ\bigans{}\else\hskip-.2in\fi} % $$\lbspace...$$
+\def\boxeqn#1{\vcenter{\vbox{\hrule\hbox{\vrule\kern3pt\vbox{\kern3pt
+	\hbox{${\displaystyle #1}$}\kern3pt}\kern3pt\vrule}\hrule}}}
+\def\mbox#1#2{\vcenter{\hrule \hbox{\vrule height#2in
+		\kern#1in \vrule} \hrule}}  %e.g. \mbox{.1}{.1}
+%	matters of taste
+%\def\tilde{\widetilde} \def\bar{\overline} \def\hat{\widehat}
+%
+% some sample definitions
+\def\CAG{{\cal A/\cal G}} \def\CO{{\cal O}} %     curly letters
+\def\CA{{\cal A}} \def\CC{{\cal C}} \def\CF{{\cal F}} \def\CG{{\cal G}}
+\def\CL{{\cal L}} \def\CH{{\cal H}} \def\CI{{\cal I}} \def\CU{{\cal U}}
+\def\CB{{\cal B}} \def\CR{{\cal R}} \def\CD{{\cal D}} \def\CT{{\cal T}}
+\def\e#1{{\rm e}^{^{\textstyle#1}}}
+\def\grad#1{\,\nabla\!_{{#1}}\,}
+\def\gradgrad#1#2{\,\nabla\!_{{#1}}\nabla\!_{{#2}}\,}
+\def\ph{\varphi}
+\def\psibar{\overline\psi}
+\def\om#1#2{\omega^{#1}{}_{#2}}
+\def\vev#1{\langle #1 \rangle}
+\def\lform{\hbox{$\sqcup$}\llap{\hbox{$\sqcap$}}}
+\def\darr#1{\raise1.5ex\hbox{$\leftrightarrow$}\mkern-16.5mu #1}
+\def\lie{\hbox{\it\$}} %pound sterling
+\def\ha{{1\over2}}
+\def\half{{\textstyle{1\over2}}} %puts a small half in a displayed eqn
+\def\roughly#1{\raise.3ex\hbox{$#1$\kern-.75em\lower1ex\hbox{$\sim$}}}

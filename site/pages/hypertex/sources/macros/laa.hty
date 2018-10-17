@@ -1,0 +1,66 @@
+\def\enddocument{\par\typeset
+\@checkend{document}\clearpage\begingroup
+\if@filesw \immediate\closeout\@mainaux
+\def\global\@namedef##1##2{}\def\newlabel{\@testdef r}%
+\def\bibcite{\@testdef {hyperb}}\@tempswafalse\makeatletter\input \jobname.aux
+\if@tempswa \@warning{Label(s) may have changed.  Rerun to get
+cross-references right}\fi\fi\endgroup\deadcycles\z@\@@end}
+\def\equation{\bgroup\let\hyper@n@=\hyperdef
+\let\hyperdef=\hyper@nique\refstepcounter{equation}%
+\let\hyperdef=\hyper@n@
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+\def\theequation{\hyper@eqmod
+\hyperdef\hypernoname{equation}{\hyper@qn@}{\hyper@qn@}}%
+\trivlist \item[]\leavevmode
+\hbox to\linewidth\bgroup $ \displaystyle \hskip\mathindent}
+\def\endequation{$\hfil \displaywidth\linewidth\@eqnnum\egroup
+\endtrivlist\egroup}
+\def\eqnarray{\stepcounter{equation}
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+\hyper@nique\hypernoname{equation}{\hyper@qn@}{}%
+\edef\@currentlabel{%
+\hyper@\hyperpr@ref\hypernoname{\theequation}}%
+\global\@eqnswtrue \global\@eqcnt\z@\tabskip\mathindent\let\\=\@eqncr
+\abovedisplayskip\topsep\ifvmode\advance\abovedisplayskip\partopsep\fi
+\belowdisplayskip\abovedisplayskip
+\belowdisplayshortskip\abovedisplayskip
+\abovedisplayshortskip\abovedisplayskip $$%
+\def\theequation{\hyper@eqmod
+\hyperdef\hypernoname{equation}{\hyper@qn@}{\hyper@qn@}}%
+\halign to
+\linewidth\bgroup\@eqnsel\hskip\@centering$\displaystyle\tabskip\z@
+{##}$&\global\@eqcnt\@ne \hskip 2\arraycolsep \hfil${##}$\hfil
+&\global\@eqcnt\tw@ \hskip 2\arraycolsep $\displaystyle{##}$\hfil
+\tabskip\@centering&\llap{##}\tabskip\z@\cr}
+\def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+     \def\@svsec{}\else
+     \let\hyper@n@=\hyperdef
+     \let\hyperdef=\hyper@nique
+     \refstepcounter{#1}%
+     \let\hyperdef=\relax\let\hypernoname=\relax
+     \edef\@svsec{\hyperdef\hypernoname{#1}%
+       {\csname the#1\endcsname}{\csname the#1\endcsname.\ }}%
+     \let\hyperdef=\hyper@n@\fi
+     \@tempskipa #5\relax
+      \ifdim \@tempskipa>\z@
+ \begingroup #6\relax
+   \@hangfrom{\hskip #3\relax\@svsec}{\interlinepenalty \@M #8\par}
+ \endgroup
+       \csname #1mark\endcsname{#7}\addcontentsline
+  {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+        \protect\numberline{\hyper@\hyperpr@ref\hypernoname
+	{\csname the#1\endcsname.}}\fi
+      #7}\else
+ \def\@svsechd{#6\hskip #3\@svsec #8\csname #1mark\endcsname
+        {#7}\addcontentsline
+      {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+        \protect\numberline{\hyper@\hyperpr@ref\hypernoname
+	{\csname the#1\endcsname.}}\fi
+         #7}}\fi
+     \@xsect{#5}}
+\endinput
+%% Leave this line in.

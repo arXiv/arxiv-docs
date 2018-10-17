@@ -1,0 +1,8 @@
+\expandafter\everyjob\expandafter{\the\everyjob\input hyperlatex\relax}%
+\def\usepackage#1#{\csname @usepackage\endcsname{#1}}%
+\expandafter\def\csname @usepackage\endcsname#1#2{\message
+ {\string\usepackage#1{#2} ignored.}}%
+\def\RequirePackage#1#{\csname @RequirePackage\endcsname{#1}}%
+\expandafter\def\csname @RequirePackage\endcsname#1#2{\message
+ {\string\RequirePackage#1{#2} ignored.}}%
+\dump
