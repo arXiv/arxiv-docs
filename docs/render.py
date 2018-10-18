@@ -33,7 +33,7 @@ def render(content: str, dereferencer: Optional[Callable] = None,
         Rendered HTML.
 
     """
-    extensions = []
+    extensions = ['fenced_code','codehilite']
     if dereferencer is not None:
         extensions.append(ReferenceExtension('a', 'href', dereferencer))
     if static_dereferencer is not None:
