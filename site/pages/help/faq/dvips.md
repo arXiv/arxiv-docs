@@ -6,15 +6,15 @@ parameters of the TeX installation, badly adjusted printer offsets, etc.
 
 The most common cause, however, is due to the differences in
 **papersize**. The standard papersize in the US is **US letter**, which
-is shorter and wider than **(European) DIN A4** paper.
+is shorter and wider than **(European) DIN A4** paper, as shown in the
+table below:
 
-US Letter
-- 8.5x 11y inches
-- 21.59x 27.94y cm
 
-Din A4
-- 8.26x 11.69y inches
-- 20.99x 29.70y cm
+| Tables        | Inches       | Inches       | Cm          | Cm  |
+| ------------- | ------------- | ------------- |:-------------:| -----:|
+|	Tables			| x				| y	       		| x			    | y     |
+| US Letter | 8.5    | 11    | 21.59 | 27.94 |
+| Din A4    | 8.26   | 11.69 | 20.99 | 29.70 |
 
 In order for your submission to print well for most interested readers,
 you need to tune the layout to fit on both papersizes. This mainly
