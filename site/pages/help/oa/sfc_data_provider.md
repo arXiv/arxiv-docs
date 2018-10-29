@@ -79,15 +79,15 @@ Open Archives / Santa Fe Convention: information about this data provider
         <li><i>Metadata format 2: RFC1807</i> 
           <ul>
             <li>Identifier: rfc1807</li>
-            <li>Syntax: <a href="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt">http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt</a> (<i><a href="rfc1807.html">local copy</a></i>)</li>
+            <li>Syntax: <a href="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt">http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt</a> (<i><a href="rfc1807">local copy</a></i>)</li>
             <li>XML transport: <i>taken from Dienst 5.0 example (Version 0.3 2000-01-20)</i></li>
           </ul>
         </li>
         <li><i>Metadata format 3: arXiv internal format</i> 
           <ul>
             <li>Identifier: arXiv</li>
-            <li>Syntax: <a href="arXiv_meta_format.html">http://arXiv.org/help/oa/arXiv_meta_format.html</a></li>
-            <li>XML transport: <a href="arXiv_meta_format.html">http://arXiv.org/help/oa/arXiv_meta_format.html</a></li>
+            <li>Syntax: <a href="arXiv_meta_format">http://arXiv.org/help/oa/arXiv_meta_format</a></li>
+            <li>XML transport: <a href="arXiv_meta_format">http://arXiv.org/help/oa/arXiv_meta_format</a></li>
           </ul>
         </li>
       </ul>
