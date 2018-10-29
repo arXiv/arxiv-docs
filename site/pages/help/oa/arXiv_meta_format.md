@@ -5,7 +5,7 @@ arXiv meta-data format
 
 The arXiv Dienst interface implements this format in addition to other, standard formats to allow users to access unparsed and uninterpreted meta-data stored for arXiv records. We have adopted a simple XML transport similar to that used for OAMS meta-data.
 
-For more details of Dienst and the Open Archives Initiative, see: [Open Archives Initiative and arXiv](/index).
+For more details of Dienst and the Open Archives Initiative, see: [Open Archives Initiative and arXiv](/help/oa).
 
 Syntax/Fields
 -------------
