@@ -1,4 +1,4 @@
-`arXiv` meta-data format
+arXiv meta-data format
 ========================
 
 **The Santa Fe Convention is discontinued. Please use the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/OAI/openarchivesprotocol.htm) instead.**
