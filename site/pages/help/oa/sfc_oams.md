@@ -86,7 +86,7 @@ XML DTD for the Open Archives Metadata Set
 ------------------------------------------
 
 The plain text DTD file can be retrieved [here](http://www.openarchives.org/sfc/oams.dtd). The OAMS DTD can be embedded in a larger DTD.
-
+```xml
 <!-- Open Archives Metadata Set (OAMS) -->
 <!-- This DTD can be used to represent the elements of the
 Open Archives Metadata Set-->
@@ -163,14 +163,14 @@ abstract?,subject\*,comment\*,discovery)>
 <!ENTITY % ent-mmlextra SYSTEM "mmlextra.ent" >
 %ent-mmlextra;
 <!-- end of ENTITY sets --> 
-
+```
 * * *
 
 A sample record expressed according to the Open Archives Metadata Set XML DTD
 -----------------------------------------------------------------------------
 
 The plain text sample record can be retrieved [here](http://www.openarchives.org/sfc/oams_rec.txt).
-
+```xml
 <?xml version="1.0"?>
 <!DOCTYPE oams SYSTEM "oams.dtd">
 <oams xmlns='http://www.openarchives.org/sfc/sfc\_oams.htm'>
@@ -186,7 +186,7 @@ dilaton as the first variation of string coupling breaks down when other dilaton
 <comment>Journal-ref: Nucl. Phys. B381 (1992) 158-200</comment>
 <discovery date="1999-12-06"/>
 </oams> 
-
+```
 * * *
 
 ### Supporting information is available at:
