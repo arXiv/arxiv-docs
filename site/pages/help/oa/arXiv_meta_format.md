@@ -52,7 +52,7 @@ XML Transport
 -------------
 
 The general reply format is:
-
+```xml
 Content-type: text/xml
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -63,11 +63,11 @@ Content-type: text/xml
     ...
   </arXiv:arXiv>
  </Disseminate>
-
+```
 Where `_FIELD#_` is the field name and `_DATA#_` is the value of that field. The fields are described above.
 
-Example [http://arXiv.org/dienst/Repository/1.0/Disseminate/arXiv:math.CO/9901016/%23arXiv/xml](http://arXiv.org/dienst/Repository/1.0/Disseminate/arXiv:math.CO/9901016/%23arXiv/xml):  
-
+Example [https://arxiv.org/dienst/Repository/1.0/Disseminate/arXiv:math.CO/9901016/%23arXiv/xml](https://arxiv.org/dienst/Repository/1.0/Disseminate/arXiv:math.CO/9901016/%23arXiv/xml):  
+```xml
 Content-type: text/xml
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -97,3 +97,4 @@ Content-type: text/xml
    columns.</arXiv:Abstract>
   </arXiv:arXiv>
  </Disseminate>
+```
