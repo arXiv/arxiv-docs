@@ -8,7 +8,7 @@ Notes for harvesters
 
 **Base URL**
 
-arXiv supports [OAI\_PMH v2.0](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) at the baseURL [http://export.arxiv.org/oai2?verb=Identify)](http://export.arxiv.org/oai2?verb=Identify).
+arXiv supports [OAI\_PMH v2.0](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) at the baseURL [http://export.arxiv.org/oai2?verb=Identify](http://export.arxiv.org/oai2?verb=Identify).
 
 **Identify response and policies**
 
