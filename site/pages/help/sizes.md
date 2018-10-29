@@ -11,7 +11,7 @@ submissions with omitted figures, see policy information below.
 
 If you have trouble submitting a *very* long paper, such as a long
 review article with many small figures, or a thesis, AND you are sure
-that you have efficient figures, then [contact the archive
+that you have efficient figures, then [contact the arXiv
 administrators](/help/contact) to ask for an exception (be sure to quote
 the automatic rejection identifier and to explain the large size).
 
@@ -32,12 +32,9 @@ in inefficient and unnecessarily large formats. Most oversized figures
 can easily be shrunk by appropriate choice of format or resolution.
 
 Photographic images should usually use JPEG encoding. Diagrams and line
-drawings should preferably use a scalable format like PDF or PostScript.
-Depending on tools available, conversion to a PNG, GIF or PostScript
-bitmap may be an option for smaller filesizes. For a discussion on
+drawings should preferably use PDF, PNG, GIF or PostScript. For a discussion on
 shrinking figures, see our [help on bitmapping](bitmap).
 
-All submissions are examined automatically using a number of heuristics.
 It is possible that you will receive a notification message asking you
 to take a few simple steps to convert your biggest files into more
 suitable formats before resubmitting.
@@ -45,21 +42,13 @@ suitable formats before resubmitting.
 Additional Policy Information
 -----------------------------
 
-If you include reduced size figures with your submission you are free to
+If you include reduced size figures with your submission you are free to include
+larger figures as [ancillary files](/help/ancillary_files) or 
 provide links to larger alternative versions of figures stored at your
-local site, e.g. at higher resolution, in color, or with special screen
-formatting, if desired. Note that readers regularly report their
-preference for readily available figures from the archive, even if they
-do not provide the highest quality rendering; by examining such a
-figure, readers can decide whether or not it is useful for them to
-retrieve the highest quality rendering from your local site.
+website.
 
-We do not accept submissions with omitted figures. In addition to user
-preference noted above, omitting figures greatly reduces the archival
-value of your submission. Are you sure that your local web or ftp site
-will still be serving the figures from the same URL in 1, 5 or 10 years
-time? One only need look at old submissions in the archive to see how
-many broken links there are to authors' web sites.
+We do not accept submissions with omitted figures. 
+
 
 Quickly Reducing File Size
 --------------------------

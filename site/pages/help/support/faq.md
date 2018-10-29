@@ -794,8 +794,7 @@ as ancillary files (see
 more information).
 
 Ancillary files are still accepted. These may include raw data for
-tables or plots, program code, workbooks or spreadsheets, and they must
-be of modest size (up to a few MB). More information can be found here:
+tables or plots, program code, workbooks or spreadsheets. More information can be found here:
 [http://arxiv.org/help/ancillary\_files](/help/ancillary_files).
 
  

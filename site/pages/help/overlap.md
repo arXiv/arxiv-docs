@@ -56,5 +56,5 @@ example, "this article draws heavily from arXiv:x, arXiv:y," or "this
 article supersedes arXiv:z."
 
 A submitter who believes that an admin note indicating text overlap has
-been incorrectly applied to his or her article should [contact](contact.md)
+been incorrectly applied to their article should [contact](contact.md)
 arXiv moderation with a detailed explanation or justification.

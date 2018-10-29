@@ -3,7 +3,7 @@ Ancillary files
 
 arXiv is primarily an [archive and distribution service for research
 articles](primer.md). There are limited facilities for including ancillary
-files of modest size (up to a few MB) with articles. Such ancillary
+files with articles. Such ancillary
 files might include:
 
 -   Raw data for tables and plots in the article
