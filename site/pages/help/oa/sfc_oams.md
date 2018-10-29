@@ -11,6 +11,7 @@
 *   [XML DTD for the Open Archives Metadata Set](#oamsdtd)
 *   [A sample record expressed according to the Open Archives Metadata Set XML DTD](#oamsrec)
 
+<a name="oamsintro"></a>
 Introduction
 ------------
 
@@ -32,6 +33,7 @@ Notes on the remainder of this document:
 *   Elements that are optional are annotated with a \[O\]. 
 *   Elements that are repeatable are annotated with a \[R\].  Note that the fact that an element may be repeated implies that multiple values should not be associated with a single element (e.g.,  associating multiple authors with a single Author tag).
 
+<a name="oamsseman"></a>
 Description of the semantics of the Open Archives Metadata Set
 --------------------------------------------------------------
 
@@ -81,7 +83,7 @@ A free-text value that contains information outside the scope of other defined e
 A date relevant to the record that may aid the user trying to find the document.  A common example of such a date would be an original publication date of a record that was placed in an archive at a later time (i.e., its date of accession is later than its date of publication).  
 
 * * *
-
+<a name=oamsdtd"></a>
 XML DTD for the Open Archives Metadata Set
 ------------------------------------------
 
@@ -165,7 +167,7 @@ abstract?,subject\*,comment\*,discovery)>
 <!-- end of ENTITY sets --> 
 ```
 * * *
-
+<a name="oamsrec"></a>
 A sample record expressed according to the Open Archives Metadata Set XML DTD
 -----------------------------------------------------------------------------
 
