@@ -31,7 +31,7 @@ Bad character(s)
 ----------------
 
 Our metadata fields only accept ASCII input. Unicode charcters should be
-conveted to its $\\TeX$ equivalent (either through
+conveted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
 [MathJax](/help/mathjax) entry or for proper names use the appropriate
 [accents](#accents)).
 
@@ -54,11 +54,11 @@ Information Fields
 
 -   Do not use all uppercase letters.
 -   Do not use unicode characters.
--   Some La$\\TeX$ is supported through [MathJax](/help/mathjax).
--   Expand out $\\TeX$ macros that are mystifying, e.g. "Nonlinear Sigma
+-   Some <span class="mathjax>La$\\TeX$</span> is supported through [MathJax](/help/mathjax).
+-   Expand out <span class="mathjax">$\\TeX$</span> macros that are mystifying, e.g. "Nonlinear Sigma
     Models" instead of "\\nlsm".
 -   Check your spelling.
--   Certain [$\\TeX$ accent commands](#accents) may be used in this
+-   Certain [<class span="mathjax">$\\TeX$</span> accent commands](#accents) may be used in this
     field.
 -   References to other articles in other archives should be given in
     the standard `arXiv:arch-ive/YYMMNNN` or `arXiv:YYMM.NNNN(N)` format
@@ -137,7 +137,7 @@ Information Fields
         Comments: Appendix by Author Two
              
 
--   Certain [$\\TeX$ accent commands](#accents) may be used in this
+-   Certain [<span class="mathjax">$\\TeX$</span> accent commands](#accents) may be used in this
     field.
 
 ### <span id="abstracts"></span>Abstract: *required*
@@ -150,13 +150,13 @@ after the carriage return. When the abstracts is formatted for email
 announcement, it will be wrapped to 80 characters.
 
 -   Do not include the word "Abstract".
--   Some $\\TeX$ commands are supported via [MathJax](/help/mathjax).
--   As with the title, expand out opaque $\\TeX$ macros. Including
-    $\\TeX$ formatting commands such as
+-   Some <span class="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax).
+-   As with the title, expand out opaque <span class="mathjax">$\\TeX$</span> macros. Including
+    <span class="mathjax">$\\TeX$</span> formatting commands such as
     `~ \, (backslash comma) and \ (backslash  space)` makes it difficult
     for people to read. Please omit these TeX-isms. Also omit font
     commands such as `\em` or `\it`, as these will not be processed into
-    the display. Additionally, $\\TeX$ formtting commands for names will
+    the display. Additionally, <span class="mathjax">$\\TeX$</span> formtting commands for names will
     not be processed, and unicode character entry is not supported.
 -   Do not start lines with whitespace (spaces, tabs, etc.) unless you
     are trying to prevent our automatic line wrapping. You might choose
@@ -172,8 +172,8 @@ announcement, it will be wrapped to 80 characters.
 ### <span id="comments"></span>Comments:
 
 -   Indicate number of pages and number of figures. If desired, include
-    $\\TeX$ flavor or related comments.
--   Some $\\TeX$ commands are supported via [MathJax](/help/mathjax).
+    <span class="mathjax>$\\TeX$</span> flavor or related comments.
+-   Some <span clas="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax).
 -   <span id="URL">Anonymous FTP and World Wide Web</span> locations
     should be given in the standard Uniform Resource Locator (URL)
     format. We automatically convert these into an active link reading
@@ -331,16 +331,16 @@ granularity:
 -   Select *yes* if you are a listed author of the article you are
     submitting and *no* otherwise.
 
-### <span id="accents"></span>Note on La$\\TeX$ accent commands:
+### <span id="accents"></span>Note on <span class="mathjax">La$\\TeX$</span> accent commands:
 
 Two methods are supported for entering accented characters into arXiv.
 
 1.  If your browser supports Unicode and you have the appropriate input
     method enabled on your computer, you can type them directly, and
-    they will be converted into their $\\TeX$ syntax.
-2.  You can enter accented characters using a subset of $\\TeX$ syntax.
-    arXiv's subset of $\\TeX$ supports many of the ways accented
-    characters can be written in $\\TeX$, however, it only accepts
+    they will be converted into their <span class="mathjax">$\\TeX$</span> syntax.
+2.  You can enter accented characters using a subset of <span class="mathjax">$\\TeX$</span> syntax.
+    arXiv's subset of <span class="mathjax">$\\TeX$</span> supports many of the ways accented
+    characters can be written in <span class="mathjax">$\\TeX$</span>, however, it only accepts
     characters from ISO Latin 1 (which is a subset of Unicode that can
     be represented as a single byte in UTF-8).
 
