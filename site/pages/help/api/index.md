@@ -290,6 +290,8 @@ The following projects use the arXiv API:
   - [biblio.el - Download BibTeX entries from arXiv and others in
     Emacs](https://github.com/cpitclaudel/biblio.el)
 
+  - [arxivist.com](http://arxivist.com)
+
 ### Helping Out
 
 We love to hear from you. If you have changes to the documentation, code
