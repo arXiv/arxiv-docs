@@ -58,7 +58,7 @@ Information Fields
 -   Expand out <span class="mathjax">$\\TeX$</span> macros that are mystifying, e.g. "Nonlinear Sigma
     Models" instead of "\\nlsm".
 -   Check your spelling.
--   Certain <class span="mathjax">[$\\TeX$ accent commands](#accents) may be used in this</span>
+-   Certain [<span class="mathjax">$\\TeX$ accent commands](#accents) may be used in this</span>
     field.
 -   References to other articles in other archives should be given in
     the standard `arXiv:arch-ive/YYMMNNN` or `arXiv:YYMM.NNNN(N)` format
