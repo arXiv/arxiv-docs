@@ -42,7 +42,7 @@ characters being copied from your pdf viewer and then pasted as such
 during this step, rather than being entered as ASCII text. The most
 common culprits are the curved quotation marks (for example “ and ”
 instead of keyboard entry), long-hyphens (— or –), and fi/ff copied as a
-single character).  
+single character.  
 *If you can't figure it out, type it out.*
 
 <span id="infofields"></span>
