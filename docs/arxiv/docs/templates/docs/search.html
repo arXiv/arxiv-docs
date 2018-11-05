@@ -3,7 +3,7 @@
 {% block page_content %}
   {% for page, highlights in results.results %}
     <li>
-      <a href="{{ url_for('docs.from_sitemap', path=page.path) }}">{{ page.title }}</a>
+      <a href="{{ url_for(site_name + '.from_sitemap', path=page.path) }}">{{ page.title }}</a>
       <p>{{ highlights|safe }}</p>
     </li>
   {% endfor %}

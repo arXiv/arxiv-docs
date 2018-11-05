@@ -184,7 +184,7 @@ def get_by_path(path: str, get_parents: bool = True,
     idx = _get_index(_get_index_path())
     logger.debug('Searching with index %s', idx)
     with idx.searcher() as searcher:
-        logger.debug('Searching with path=%s}', path)
+        logger.debug('Searching with path=%s', path)
         result = searcher.document(path=path)
     if result is None:
         logger.debug('Result is None')

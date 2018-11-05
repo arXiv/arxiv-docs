@@ -19,44 +19,7 @@ logger = logging.getLogger(__name__)
 
 docs = Blueprint('docs', __name__, url_prefix='/_docs',
                  static_folder='static',
-                 template_folder='templates/docs')
-
-
-def get_link_dereferencer(page: Page) -> Callable:
-    """Generate a dereferencer function for paths relative to a page."""
-    def link_dereferencer(href: str) -> str:
-        """Link dereferencer for use during HTML rendering."""
-        if not href or href.startswith('http'):
-            logger.debug('not an internal link: %s', href)
-            return href
-        try:
-            path = index.get_by_slug(href).path
-            logger.debug('got path by slug: %s', href)
-        except index.PageDoesNotExist:
-            abspath = '/'.join([page.path, href])
-            try:
-                path = index.get_by_path(abspath).path
-                logger.debug('got path by abspath: %s', href)
-            except index.PageDoesNotExist:
-                logger.debug('could not dereference path: %s', href)
-                return href
-        return url_for('docs.from_sitemap', path=path)
-    return link_dereferencer
-
-
-def get_static_dereferencer(page: Page) -> Callable:
-    """Generate a dereferencer function for static files relative to a page."""
-    def static_deferencer(src: str) -> str:
-        """Static URL dereferencer for use during HTML rendering."""
-        if not src or src.startswith('http'):
-            return src
-        if page.is_index_page:
-            path_parts = page.path.split('/')
-        else:
-            path_parts = page.path.split('/')[:-1]
-        filename = "/".join(path_parts + [src])
-        return url_for('static', filename=filename)
-    return static_deferencer
+                 template_folder='templates')
 
 
 class ComponentLoader(object):
@@ -116,6 +79,41 @@ def get_blueprint(app: Flask) -> Blueprint:
                           template_folder=app.config['TEMPLATE_ROOT'],
                           static_url_path=static_url_path)
 
+    def get_link_dereferencer(page: Page) -> Callable:
+        """Generate a dereferencer function for paths relative to a page."""
+        def link_dereferencer(href: str) -> str:
+            """Link dereferencer for use during HTML rendering."""
+            if not href or href.startswith('http'):
+                logger.debug('not an internal link: %s', href)
+                return href
+            try:
+                path = index.get_by_slug(href).path
+                logger.debug('got path by slug: %s', href)
+            except index.PageDoesNotExist:
+                abspath = '/'.join([page.path, href])
+                try:
+                    path = index.get_by_path(abspath).path
+                    logger.debug('got path by abspath: %s', href)
+                except index.PageDoesNotExist:
+                    logger.debug('could not dereference path: %s', href)
+                    return href
+            return url_for(f'{site_name}.from_sitemap', path=path)
+        return link_dereferencer
+
+    def get_static_dereferencer(page: Page) -> Callable:
+        """Generate a dereferencer for static files relative to a page."""
+        def static_deferencer(src: str) -> str:
+            """Static URL dereferencer for use during HTML rendering."""
+            if not src or src.startswith('http'):
+                return src
+            if page.is_index_page:
+                path_parts = page.path.split('/')
+            else:
+                path_parts = page.path.split('/')[:-1]
+            filename = "/".join(path_parts + [src])
+            return url_for(f'{site_name}.static', filename=filename)
+        return static_deferencer
+
     @blueprint.route('/search', methods=['GET'])
     def search():
         """Handle a search request."""
@@ -123,7 +121,9 @@ def get_blueprint(app: Flask) -> Blueprint:
         results = index.find(q)
         try:
             return render_template(f'{site_name}/search.html',
-                                   results=results, q=q)
+                                   results=results,
+                                   q=q,
+                                   site_name=site_name)
         except jinja2.exceptions.TemplateNotFound:
             return render_template('docs/search.html', results=results, q=q)
 
@@ -152,7 +152,8 @@ def get_blueprint(app: Flask) -> Blueprint:
         context = {
             'page': page,
             'pagetitle': page.title,
-            'render_markdown': _render_markdown
+            'render_markdown': _render_markdown,
+            'site_name': site_name
         }
         rendered = render_template_string(_render_markdown(content), **context)
 

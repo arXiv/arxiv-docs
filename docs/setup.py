@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='arxiv-docs',
-    version='0.1.0',
+    version='0.1.1',
     packages=[f'arxiv.{package}' for package
               in find_packages('./arxiv', exclude=['*test*'])],
     install_requires=[

@@ -5,13 +5,13 @@
   <ul>
     {% for parent in page.parents %}
     <li>
-      <a href="{{ url_for('docs.from_sitemap', path=parent.path) }}">
+      <a href="{{ url_for(site_name + '.from_sitemap', path=parent.path) }}">
         {{ parent.title }}
       </a>
     </li>
     {% endfor %}
     <li class="is-active">
-      <a href="{{ url_for('docs.from_sitemap', path=page.path) }}" aria-current="page">
+      <a href="{{ url_for(site_name + '.from_sitemap', path=page.path) }}" aria-current="page">
         {{ page.title }}
       </a>
     </li>
