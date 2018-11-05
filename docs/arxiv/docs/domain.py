@@ -55,3 +55,11 @@ class Component(NamedTuple):
     slug: str
     data: dict
     content: Optional[str] = None
+
+
+class Schema(NamedTuple):
+    title: str
+    path: str
+    content_path: str
+    slug: str
+    data: dict

@@ -15,3 +15,6 @@ LOGLEVEL = os.environ.get('LOGLEVEL', 10)
 VERSION = os.environ.get('VERSION')
 SOURCE = os.environ.get('SOURCE')
 BUILD_TIME = os.environ.get('BUILD_TIME')
+
+STATIC_ROOT = os.environ.get('STATIC_ROOT', 'static')
+TEMPLATE_ROOT = os.environ.get('TEMPLATE_ROOT', 'templates')

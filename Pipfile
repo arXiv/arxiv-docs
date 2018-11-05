@@ -14,5 +14,7 @@ arxiv-base = "==0.11.1rc5"
 python-frontmatter = "*"
 python-slugify = "*"
 Pygments = "*"
+prance = "*"
+openapi-spec-validator = "*"
 
 [dev-packages]

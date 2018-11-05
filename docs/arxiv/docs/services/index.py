@@ -8,8 +8,8 @@ Whoosh document index.
 import os
 import json
 from typing import List, Iterable
-from docs.domain import IndexablePage, SearchResults, SearchResult, Page, \
-    Component
+from ..domain import IndexablePage, SearchResults, SearchResult, Page, \
+    Component, Schema
 from arxiv.base.globals import get_application_config
 
 from whoosh import fields, index
@@ -53,6 +53,14 @@ COMPONENT_SCHEMA = fields.Schema(
     content_path=fields.TEXT(stored=True)
 )
 
+SCHEMA_SCHEMA = fields.Schema(
+    title=fields.TEXT(stored=True),
+    path=fields.ID(stored=True),
+    data=JSON(stored=True),
+    slug=fields.ID(stored=True),
+    content_path=fields.TEXT(stored=True)
+)
+
 
 class PageDoesNotExist(Exception):
     """A requested :class:`Page` does not exist."""
@@ -62,6 +70,10 @@ class ComponentDoesNotExist(Exception):
     """A requested :class:`Component` does not exist."""
 
 
+class SchemaDoesNotExist(Exception):
+    """A requested :class:`Schema` does not exist."""
+
+
 class DuplicateSlug(Exception):
     """Two pages with the same slug were encountered!."""
 
@@ -69,13 +81,14 @@ class DuplicateSlug(Exception):
 def create_index() -> index.Index:
     """Initialize the index."""
     index_path = _get_index_path()
-    components_index_path = f'{index_path}_components'
-    if not os.path.exists(index_path):
-        os.mkdir(index_path)
-    if not os.path.exists(components_index_path):
-        os.mkdir(components_index_path)
+    components_index_path = _get_component_index_path()
+    schema_index_path = _get_schema_index_path()
+    for path in [index_path, components_index_path, schema_index_path]:
+        if not os.path.exists(path):
+            os.mkdir(path)
     index.create_in(index_path, SCHEMA)
     index.create_in(components_index_path, COMPONENT_SCHEMA)
+    index.create_in(schema_index_path, SCHEMA_SCHEMA)
 
 
 def add_components(components: Iterable[Component]) -> None:
@@ -91,6 +104,21 @@ def add_components(components: Iterable[Component]) -> None:
             data=component.data
         )
         logger.debug('Added component %s', component.path)
+    writer.commit()
+
+
+def add_schemas(schemas: Iterable[Schema]) -> None:
+    idx = _get_index(_get_schema_index_path())
+    writer = idx.writer()
+    for schema in schemas:
+        writer.add_document(
+            title=schema.title,
+            path=schema.path,
+            slug=schema.slug,
+            content_path=schema.content_path,
+            data=schema.data
+        )
+        logger.debug('Added schema %s', schema.path)
     writer.commit()
 
 
@@ -154,9 +182,12 @@ def get_by_path(path: str, get_parents: bool = True,
     :class:`.Page`
     """
     idx = _get_index(_get_index_path())
+    logger.debug('Searching with index %s', idx)
     with idx.searcher() as searcher:
+        logger.debug('Searching with path=%s}', path)
         result = searcher.document(path=path)
     if result is None:
+        logger.debug('Result is None')
         raise PageDoesNotExist('No such page')
     return Page(
         title=result['title'],
@@ -188,6 +219,33 @@ def get_component_by_path(path: str) -> Component:
     if result is None:
         raise ComponentDoesNotExist('No such component')
     return Component(
+        title=result['title'],
+        path=result['path'],
+        content_path=result['content_path'],
+        slug=result['slug'],
+        data=result['data']
+    )
+
+
+def get_schema_by_path(path: str) -> Schema:
+    """
+    Load a :class:`.Schema` by its path.
+
+    Parameters
+    ----------
+    path : str
+        The relative path of the schema.
+
+    Returns
+    -------
+    :class:`.Schema`
+    """
+    idx = _get_index(_get_schema_index_path())
+    with idx.searcher() as searcher:
+        result = searcher.document(path=path)
+    if result is None:
+        raise SchemaDoesNotExist('No such schema')
+    return Schema(
         title=result['title'],
         path=result['path'],
         content_path=result['content_path'],
@@ -297,6 +355,13 @@ def _get_component_index_path() -> str:
     config = get_application_config()
     _path = config.get('INDEX_NAME', 'idx')
     return f'{_path}_components'
+
+
+def _get_schema_index_path() -> str:
+    """Get the schema index path from the current application."""
+    config = get_application_config()
+    _path = config.get('INDEX_NAME', 'idx')
+    return f'{_path}_schemas'
 
 
 def _get_index(index_path: str) -> index.Index:
