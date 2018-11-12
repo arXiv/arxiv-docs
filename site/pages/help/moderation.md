@@ -24,7 +24,7 @@ policy is:
 
 Moderation helps to ensure that arXiv content is relevant to current
 research at much [lower
-cost](http://people.ccmr.cornell.edu/~ginsparg/blurb/pg02pr.html) than
+cost](http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg02pr.html) than
 conventional peer-reviewed journals, so we can continue to offer free
 access to the scientific community and the general public. Although our
 system may be imperfect, submissions that are determined to be
