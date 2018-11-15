@@ -5,11 +5,6 @@ In addition to the [main site](http://arxiv.org) at Cornell University
 Library, there are several mirror sites for arXiv content. These are
 updated daily but have fewer features than the main site:
 
-[![China](https://arxiv.org/icons/mirrors/cn.png)](http://cn.arxiv.org/)
-[![Germany](https://arxiv.org/icons/mirrors/de.png)](http://de.arxiv.org/)
-[![India](https://arxiv.org/icons/mirrors/in.png)](http://in.arxiv.org/)
-[![USA mirror hosted by LANL](https://arxiv.org/icons/mirrors/lanl.png)](http://lanl.arxiv.org/)
-
 -   [cn.arXiv.org](http://cn.arxiv.org/) (China)
 -   [de.arXiv.org](http://de.arxiv.org/) (Germany)
 -   [in.arXiv.org](http://in.arxiv.org/) (India)
