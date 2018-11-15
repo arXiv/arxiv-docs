@@ -8,16 +8,14 @@ updated daily but have fewer features than the main site:
 [![China](https://arxiv.org/icons/mirrors/cn.png)](http://cn.arxiv.org/)
 [![Germany](https://arxiv.org/icons/mirrors/de.png)](http://de.arxiv.org/)
 [![India](https://arxiv.org/icons/mirrors/in.png)](http://in.arxiv.org/)
-[![Spain](https://arxiv.org/icons/mirrors/es.png)](http://es.arxiv.org/) [![USA mirror
-hosted by LANL](https://arxiv.org/icons/mirrors/lanl.png)](http://lanl.arxiv.org/)
+[![USA mirror hosted by LANL](https://arxiv.org/icons/mirrors/lanl.png)](http://lanl.arxiv.org/)
 
 -   [cn.arXiv.org](http://cn.arxiv.org/) (China)
 -   [de.arXiv.org](http://de.arxiv.org/) (Germany)
 -   [in.arXiv.org](http://in.arxiv.org/) (India)
--   [es.arXiv.org](http://es.arxiv.org/) (Spain)
 -   [lanl.arXiv.org](http://lanl.arxiv.org/) (née xxx.lanl.gov, U.S.
     mirror at Los Alamos)
--   [arXiv.org](http://arxiv.org/) (U.S. primary site at Cornell
+-   [arXiv.org](https://arxiv.org/) (U.S. primary site at Cornell
     University)
 
 *2015-11: We are in the process of discontinuing the arXiv mirror
@@ -29,7 +27,6 @@ parties to develop services over arXiv.*
 
 2018-03: The Spanish mirror (formerly es.arxiv.org) has been taken
 offline temporarily due to system problems.  
-
 2016-04: The French mirror (formerly fr.arxiv.org) has been
 discontinued.  
 2015-12: The Japan mirror (formerly jp.arxiv.org) has been
