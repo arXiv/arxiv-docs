@@ -39,8 +39,8 @@ versions](versions).
 Example Withdrawal
 --------------------------
 
-The withdrawan version
-- In this example the withdrawal has created a new version (version 2). 
+The withdrawn version
+- In the example below the withdrawal has created a new version (version 2). 
 - The new withdrawan v2 becomes the default view of the paper. 
 - The reason for the withdrawal is displayed in the Comments field. 
 - Under the Download options on the right there is no option to download the PDF or TeX. Clicking on "Source" downloads an empty file.
@@ -48,7 +48,8 @@ The withdrawan version
 ![withdarawal version 2](withdrawal-examplev2.png "withdarawal version 2")
 
 Previous version remains accessible
-- Please note that when you click on the v1 option you can still access the previous version of the paper
+- From the v2 above, when you click on "v1" you can still access the previous version of the paper
+- Below is version 1 for the withdrawn paper
 - The full text can be accessed under the Download options
 
 ![withdarawal version 1](withdrawal-examplev1.png "withdarawal version 1")
