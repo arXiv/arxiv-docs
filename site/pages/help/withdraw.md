@@ -50,4 +50,5 @@ The withdrawan version
 Previous version remains accessible
 - Please note that when you click on the v1 option you can still access the previous version of the paper
 - The full text can be accessed under the Download options
+
 ![withdarawal version 1](withdrawal-examplev1.png "withdarawal version 1")
