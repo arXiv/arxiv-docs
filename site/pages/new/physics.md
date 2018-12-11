@@ -15,7 +15,6 @@ The physics archives include astro-ph, cond-mat, gr-qc, hep-ex, hep-lat, hep-ph,
 
 The advisory committee members serve as consultants to the Cornell University Library and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University Library.
 
-*   [Andrew Connolly](http://www.astro.washington.edu/users/ajc/) (Washington): astrophysics
 *   [Jacques Distler](http://www.ph.utexas.edu/person/distler_jacques) (Texas): high-energy theory
 *   [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
 *   [Paul Ginsparg](http://www.physics.cornell.edu/professorspeople/professors/?page=website/faculty&action=show/id=17) (Cornell): high-energy theory
