@@ -26,7 +26,7 @@ Subject categories of the **stat** archive are:
 
 ### arXiv:stat advisory committee:
 
-The advisory committee members serve as consultants to the Cornell University Library and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University Library.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
 *   [David Banks](http://www.stat.duke.edu/~banks/)
