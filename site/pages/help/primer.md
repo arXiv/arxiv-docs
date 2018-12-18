@@ -1,15 +1,15 @@
 arXiv Primer
 ============
 
-Started in August 1991, arXiv.org (formerly xxx.lanl.gov) is a
+Started in August 1991, arXiv.org is a
 highly-automated electronic archive and distribution server for research
 articles. Covered areas include physics, [mathematics](/archive/math),
 [computer science](/archive/cs), [nonlinear sciences](/archive/nlin),
 [quantitative biology](/archive/q-bio), [quantitative
 finance](/archive/q-fin), [statistics](/archive/stat), [electrical
 engineering and systems science](/archive/eess), and
-[economics](/archive/econ). arXiv is maintained and operated by the
-[Cornell University Library](http://www.library.cornell.edu/) with
+[economics](/archive/econ). arXiv is maintained and operated by 
+[Cornell University](https://www.cornell.edu/) with
 guidance from the [arXiv Scientific Advisory
 Board](/help/scientific_ad_board) and the [arXiv Sustainability Advisory
 Group](/help/support/sustainability_advisory_group), and with the help
