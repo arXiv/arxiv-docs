@@ -1,8 +1,7 @@
 arXiv mirror sites
 ==================
 
-In addition to the [main site](http://arxiv.org) at Cornell University
-Library, there are several mirror sites for arXiv content. These are
+In addition to the [main site](http://arxiv.org) at Cornell University, there are several mirror sites for arXiv content. These are
 updated daily but have fewer features than the main site:
 
 -   [cn.arXiv.org](http://cn.arxiv.org/) (China)
