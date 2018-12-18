@@ -22,7 +22,7 @@ Important areas may have been overlooked and the best names may not have been ch
 
 ### arXiv:math advisory committee
 
-The advisory committee members serve as consultants to the Cornell University Library and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University Library.
+The advisory committee members serve as consultants to Cornell University Library and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 - [Doug Arnold](http://www.ima.umn.edu/~arnold/)
 - [Ioana Dumitriu](http://www.math.washington.edu/~dumitriu/)
