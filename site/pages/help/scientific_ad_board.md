@@ -57,7 +57,7 @@ officio* members of the arXiv Scientific Advisory Board.
 Former Members of the arXiv Scientific Advisory Board
 -----------------------------------------------------
 
-The current Board, and Cornell University Library, would like to express
+The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
