@@ -33,7 +33,7 @@ current updates and discussions regarding the API.
 
 ## About the arXiv API
 
-The Cornell University Library e-print arXiv, hosted at
+The Cornell University e-print arXiv, hosted at
 [arXiv.org](http://arxiv.org), is a document submission and retrieval
 system that is heavily used by the physics, mathematics and computer
 science communities. It has become the primary means of communicating
