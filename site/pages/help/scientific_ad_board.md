@@ -17,6 +17,7 @@ Current Board members are:
 -   Ralf Bundschuh, Professor of Physics and Biochemistry, Ohio State
     University (*ex officio*, as chair of Quantitative Biology Advisory
     Committee)
+-   Mark Doyle, Chief Information Officer, American Physical Society (APS Physics)
 -   David Eppstein, Chancellor's Professor of Computer Science,
     University of California, Irvine
 -   Gregory Gabadadze, Professor of Physics, New York University \|
