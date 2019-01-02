@@ -19,6 +19,7 @@ arXiv -- GENERAL QUESTIONS
 -   [Where can I find out more about arXiv submission and
     moderation?](#1C)
 -   [What is arXiv's history and impact?](#1D)
+-   [Who is arXiv's organizational steward?](#steward)
 -   [Will arXiv be expanded to other subjects?](#1E)
 -   [What is arXiv Next Generation (arXiv-NG)?](#1I)
 -   [What is the relationship between arXiv and SCOAP3?](#1F)
@@ -189,6 +190,10 @@ Submissions.](https://www.library.cornell.edu/about/news/press-releases/arxiv-hi
 
 Founder Paul Ginsparg on the early days of arXiv: [It was twenty years
 ago today...](https://arxiv.org/abs/1108.2700v2)
+
+<span id="steward"></span>
+### Who is arXiv's organizational steward?
+In January 2019, the administrative and operational responsibilities for the IT infrastructure and user support collaboration for arXiv is moving from Cornell University Library (CUL) to Cornell Computing and Information Science (CIS). Cornell has hosted arXiv since 2001 when its founder, Paul Ginsparg, left the Los Alamos National Laboratory and joined the Cornell faculty in the Physics and Information Science departments. Running the service has always involved a collaboration with CIS as Professor Ginsparg and other CIS faculty lead R&D efforts through several NSF grants and other funding sources, and contribute to the development of moderation policies. This transition is a natural stage in the evolution of arXiv, required for optimum service delivery and infrastructure sustainability. For more information, see: [transition FAQ](https://confluence.cornell.edu/display/arxivpub/Transition+FAQ%3A+Move+to+Cornell+Computing+and+Information+Science).
 
 <span id="1E"></span>
 
