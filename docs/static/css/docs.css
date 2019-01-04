@@ -1,0 +1,15 @@
+.hidden-label {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 0;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute; }
+
+.match {
+  color: #287916 !important;
+  background-color: #EEFFE8 !important;
+  font-weight: bold;
+}
