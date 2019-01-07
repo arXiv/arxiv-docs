@@ -35,7 +35,7 @@ FLASKS3_BUCKET_NAME = os.environ.get('FLASKS3_BUCKET_NAME', 'some_bucket')
 # FLASKS3_CDN_DOMAIN = os.environ.get('FLASKS3_CDN_DOMAIN', 'static.arxiv.org')
 FLASKS3_USE_HTTPS = os.environ.get('FLASKS3_USE_HTTPS', 1)
 FLASKS3_FORCE_MIMETYPE = os.environ.get('FLASKS3_FORCE_MIMETYPE', 1)
-FLASKS3_ACTIVE = int(os.environ.get('FLASKS3_ACTIVE', 0))
+FLASKS3_ACTIVE = bool(int(os.environ.get('FLASKS3_ACTIVE', 0)))
 
 # AWS credentials.
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID', 'nope')

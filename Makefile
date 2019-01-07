@@ -15,6 +15,7 @@ export NOCACHE=`date +%s`
 
 remote: Makefile
 	./bin/make_remote.sh && \
+		rm -rf ./source && mkdir ./source && mkdir ./source/${SOURCE_DIR} && \
 		cp -R ${TMP_DIR}/${SOURCE_DIR}/* ./source/${SOURCE_DIR} && \
 		docker build ./ \
 			--build-arg NOCACHE=${NOCACHE} \
@@ -23,12 +24,12 @@ remote: Makefile
 			--build-arg SOURCE=${REPO_ORG}/${REPO_NAME} \
 			--build-arg SITE_NAME=${SITE_NAME} \
 			--build-arg SITE_HUMAN_NAME=${SITE_HUMAN_NAME} \
-		 	-f ./Dockerfile -t ${IMAGE_NAME}:${SOURCE_REF}
+		 	-f ./Dockerfile -t ${IMAGE_NAME}:${SOURCE_REF} && \
+		rm -rf ./source
 
 local: Makefile
 	echo "Build locally at "${BUILD_TIME} && \
-	rm -rf ./source && \
-	mkdir ./source && mkdir ./source/${SOURCE_DIR} && \
+	rm -rf ./source && mkdir ./source && mkdir ./source/${SOURCE_DIR} && \
 	cp -R ${SOURCE_DIR}/* ./source/${SOURCE_DIR} && \
 	ls -la ./source && \
 	docker build ./ \
@@ -38,4 +39,5 @@ local: Makefile
 		--build-arg SOURCE=${REPO_ORG}/${REPO_NAME} \
 		--build-arg SITE_NAME=${SITE_NAME} \
 		--build-arg SITE_HUMAN_NAME=${SITE_HUMAN_NAME} \
-		-f ./Dockerfile -t ${IMAGE_NAME}:${SOURCE_REF}
+		-f ./Dockerfile -t ${IMAGE_NAME}:${SOURCE_REF}&& \
+	rm -rf ./source

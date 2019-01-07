@@ -15,7 +15,6 @@ ARG NOCACHE=1
 
 ADD docs/ /opt/arxiv/docs/
 ADD bin/start.sh /opt/arxiv/
-RUN pipenv install /opt/arxiv/docs/
 
 ENV PATH "/opt/arxiv:${PATH}"
 

@@ -2,9 +2,9 @@ from typing import Dict, Callable
 from urllib.parse import urljoin, urlparse, parse_qs, urlencode, urlunparse
 from werkzeug.urls import Href, url_encode, url_parse, url_unparse, url_encode
 
-from flask_s3 import url_for
+from flask_s3 import url_for as s3_url_for
 from flask import Blueprint, render_template_string, request, \
-    render_template, Response
+    render_template, Response, current_app
 import jinja2
 from werkzeug.exceptions import NotFound
 
@@ -16,11 +16,15 @@ def from_sitemap(page_path: str = ''):
         page = site.load_page(page_path)
     except site.PageNotFound:
         raise NotFound('No such page')
-    return render_template_string(page.content, url_for=url_for,
-                                  page_path=page_path,
-                                  page=page,
-                                  site_name=site.get_site_name(),
-                                  **page.metadata)
+    context = dict(page.metadata)
+    context.update({
+        'page_path': page_path,
+        'page': page,
+        'site_name': site.get_site_name()
+    })
+    if current_app.config['FLASKS3_ACTIVE']:
+        context['url_for'] = s3_url_for
+    return render_template_string(page.content, **context)
 
 
 def search():
