@@ -16,5 +16,7 @@ python-slugify = "*"
 Pygments = "*"
 prance = "*"
 openapi-spec-validator = "*"
+arxiv-auth = "==0.2.3"
+"flask-s3" = "*"
 
 [dev-packages]

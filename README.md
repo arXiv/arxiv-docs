@@ -5,37 +5,34 @@ documentation.
 
 ## Site structure
 
-Each site should be contained in a single directory, with subdirectories for
-content, templates, and reusable components. For example:
+Each site should be contained in a single directory. For example:
 
 ```
 mysite/
-├── pages
-|   ├── index.md
-|   └── specifics/
-|       ├── impressive.png
-|       └── coolstory.md
-|
-├── components
-|   └── my
-|       └── component.md
-└── templates
-    └── custom.html
+├── index.md
+├── specifics/
+|   ├── impressive.png
+|   └── coolstory.md
+└── _templates
+    └── mysite
+        └── custom.html
 ```
+
+Custom templates go in ``_templates/<SITE NAME>``.
 
 ### Pages
 
-The directory structure in the ``pages/`` directory determines the site map. A
-file at ``pages/foo/baz/bat.md`` will be served at
+The directory structure in the site directory determines the site map. A
+file at ``foo/baz/bat.md`` will be served at
 ``https://some.site/foo/baz/bat``. But note that the file
-``pages/foo/baz/index.md`` will be served at ``https://some.site/foo/baz``.
+``foo/baz/index.md`` will be served at ``https://some.site/foo/baz``.
 
-Everything is relative. You can add a link in ``pages/foo/baz/index.md``
+Everything is relative. You can add a link in ``foo/baz/index.md``
 like ``[click here for cool](bat)``, and the link will be rendered as
 ``https://some.site/foo/baz/bat``.
 
 You can put static files in the same directory structure. If the page
-``pages/specifics/coolstory.md`` has an image tag like
+``specifics/coolstory.md`` has an image tag like
 ``![my alt text](impressive.png)``, this will get rendered as
 ``https://some.site/specifics/impressive.png``. In other words, it will just
 work.
@@ -51,107 +48,60 @@ whatever is in the content of the page, you could do:
 ```markdown
 ---
 title: This is the title that I like in the browser tab
-slug: persistent-slug-for-this-page
 ---
 # This is the title that gets displayed as an H1 on the page.
 
 Bacon ipsum dolor sit amet...
 ```
 
-Note: you don't have to set a slug, but it may be useful for persistent links.
-See below.
-
-
-### Components
-
-Components are bits of content and data that you want to use in various places.
-They look a lot like pages, for example the file
-``components/my/component.md``:
-
-```markdown
----
-arbitrary: data
----
-Some content that I'd like to use again and again and again.
-```
-
-You can use this in your pages and templates like:
-
-```markdown
-The arbitrary value is: {{ components.my.component.data.arbitrary }}
-
-And here is some content: {{ components.my.component.data.content }}
-```
-
-At some point we'll make these transportable outside of a site. Right now they
-only work within a site.
-
-That should work in both ``.md`` files and templates, by the way.
-
 ### Templates
 
 You can add custom templates (otherwise a generic arXiv template gets used,
 with nice breadcrumbs). For example, in one of your pages you could choose to
-use the template at ``templates/custom.html`` by setting the frontmatter:
+use the template at ``_templates/mysite/custom.html`` by setting the
+frontmatter:
 
 ```markdown
 ---
-template: custom.html
+template: mysite/custom.html
 ---
-```
-
-## Persistent links to pages
-
-Sometimes you will need to move a page to a different part of the site map.
-Updating all of the links to a page that is moved can be an ordeal. To avoid
-that kind of pain and suffering, use the ``slug`` key on each page element
-to give it a unique name.
-
-When writing links in markdown, you can use the slug ``submission-policy``
-instead of the relative URL for the page and it will be automagically converted
-to the URL of that page wherever it might reside.
-
-E.g. this markdown...
-
-```markdown
-Be sure to read about our [submission policies](submission-policy) before
-submitting a paper.
-```
-
-Will generate this HTML:
-
-```html
-Be sure to read about our <a href="/help/submission">submission policies</a>
-before submitting a paper.
 ```
 
 ## Building a site
+
+### Building a local site with Flask
+
+To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
+
+```bash
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
+```
+
+You can serve the site with Flask, using:
+
+```bash
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv FLASK_APP=app.py pipenv run flask run
+```
+
+### Building a local site with Docker
 
 You can use the ``Makefile`` in the root of this repo to build a site.
 
 You'll need [Docker](https://www.docker.com/products/docker-desktop) to do
 this.
 
-
-### Building a local site
-
 To build a site from a local directory, you can do something like:
 
 ```bash
-make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site IMAGE_NAME=somecoolsite
+make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
 ```
-
-- ``SOURCE_REF=0.1`` This is the tag that you're building.
-- ``IMAGE_NAME=arxiv/somecoolsite`` The name of the image that you're building.
-- ``SOURCE_DIR=site`` The directory in the repo that contains the site.
-- ``TARGET_DIR=site`` You should make this the same as the directory that contains your site. I know it's confusing, I'll fix it.
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
 
 ```bash
 Successfully built 297b169df71f
-Successfully tagged arxiv/somecoolsite:0.1
+Successfully tagged arxiv/mysite:0.1
 ```
 
 Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
@@ -159,12 +109,11 @@ Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
 You can then run the site by doing:
 
 ```bash
-docker run -it -p 8000:8000 arxiv/somecoolsite:0.1
+docker run -it -p 8000:8000 arxiv/mysite:0.1
 ```
 
-In your browser, go to http://localhost:8000/specifics/coolstory (or whatever
+In your browser, go to http://localhost:8000/mysite (or whatever
 page you want).
-
 
 ### Building a remote site
 
@@ -174,15 +123,29 @@ You will need to pick a place on your computer to do the building. Preferably
 something in ``/tmp``.
 
 ```bash
-make remote SOURCE_REF=0.1 BUILD_DIR=/tmp/build-it IMAGE_NAME=somecoolsite REPO_ORG=cul-it  REPO_NAME=arxiv-docs SOURCE_DIR=site
+make remote SOURCE_REF=0.1 IMAGE_NAME=arxiv/mysite REPO_ORG=arxiv REPO_NAME=arxiv-docs SOURCE_DIR=help
 ```
 
 - ``SOURCE_REF=0.1`` This is the tag that you're building.
-- ``BUILD_DIR=/tmp/build-it`` Make sure that you can write here.
-- ``IMAGE_NAME=somecoolsite`` The name of the image that you're building.
-- ``REPO_ORG=cul-it`` The organization that owns the repo.
+- ``IMAGE_NAME=arxiv/mysite`` The name of the image that you're building.
+- ``REPO_ORG=arxiv`` The organization that owns the repo.
 - ``REPO_NAME=arxiv-docs`` The name of the repo.
-- ``SOURCE_DIR=site`` The directory in the repo that contains the site.
+- ``SOURCE_DIR=help`` The directory in the repo that contains the site.
 
 This should work just like the local build, except that it might take a bit
 longer because it has to download things.
+
+### Configuration
+
+| Parameter | Used in Build | Used at Runtime | Description |
+| --- | :---: | :---: | --- |
+| SITE_NAME | Yes | Yes | Name of the site, used for building links. Must be lowercase alphanumeric. |
+| SOURCE_PATH | Yes | No | Path to the markdown source directory for the site. |
+| BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
+| SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
+| SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
+
+
+## Search
+
+You can access the search page at ``<SITE_URL_PREFIX>/search``.

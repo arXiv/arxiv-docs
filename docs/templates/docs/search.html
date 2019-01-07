@@ -1,0 +1,54 @@
+{%- extends "docs/base.html" %}
+
+{% block search_bar %}
+{% endblock %}
+
+{% block page_content %}
+<form action="{{ url_for(site_name + '.search')}}" method="GET" class="form">
+  <div class="field has-addons-tablet">
+    <div class="control is-expanded">
+      <label for="q" class="hidden-label">Query</label>
+      <input
+        class="input is-small"
+        type="text"
+        name="q"
+        placeholder="Search {{ site_human_name }}"
+        {% if q %}value="{{ q }}"{% endif %}
+      />
+    </div>
+    <button class="button is-link is-small">Search</button>
+  </div>
+</form>
+
+{% if results %}
+<nav class="pagination is-small is-centered breathe-horizontal" role="navigation" aria-label="pagination">
+    {% if results.previous_page is not none %}
+    <a href="{{ url_for_page(results.previous_page) }}" class="pagination-previous">Previous</a>
+    {% else %}
+    <a href="" class="pagination-previous is-invisible">Previous</a>
+    {% endif %}
+    {% if results.next_page is not none %}
+    <a href="{{ url_for_page(results.next_page) }}" class="pagination-next">Next</a>
+    {% else %}
+    <a href="" class="pagination-next is-invisible">Next</a>
+    {% endif %}
+    <ul class="pagination-list">
+      Showing results {{ results.start }}&ndash;{{ results.end }} of {{ results.total }}
+    </ul>
+</nav>
+
+<ol class="breathe-horizontal" start="{{ (results.current_page - 1) * results.limit + 1}}">
+  {% for title, page_path, highlights in results.results %}
+  <li class="li">
+      <div class="title is-size-6" style="margin-bottom: 0em;">
+        <a href="{{ url_for(site_name + '.from_sitemap', page_path=page_path) }}">{{ title }}</a>
+      </div>
+      <div class="is-size-6">
+        {{ highlights|safe }}
+      </div>
+  </li>
+  {% endfor %}
+</ol>
+{% endif %}
+
+{% endblock page_content %}
