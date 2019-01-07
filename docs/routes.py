@@ -4,7 +4,7 @@ from werkzeug.urls import Href, url_encode, url_parse, url_unparse, url_encode
 
 from flask_s3 import url_for as s3_url_for
 from flask import Blueprint, render_template_string, request, \
-    render_template, Response, current_app
+    render_template, Response, current_app, url_for
 import jinja2
 from werkzeug.exceptions import NotFound
 

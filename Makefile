@@ -15,8 +15,8 @@ export NOCACHE=`date +%s`
 
 remote: Makefile
 	./bin/make_remote.sh && \
-		rm -rf ./source && mkdir ./source && mkdir ./source/${SOURCE_DIR} && \
-		cp -R ${TMP_DIR}/${SOURCE_DIR}/* ./source/${SOURCE_DIR} && \
+		rm -rf ./source && mkdir ./source &&  \
+		cp -R ${TMP_DIR}/${SOURCE_DIR}/* ./source && \
 		docker build ./ \
 			--build-arg NOCACHE=${NOCACHE} \
 			--build-arg VERSION=${SOURCE_REF} \
@@ -29,8 +29,8 @@ remote: Makefile
 
 local: Makefile
 	echo "Build locally at "${BUILD_TIME} && \
-	rm -rf ./source && mkdir ./source && mkdir ./source/${SOURCE_DIR} && \
-	cp -R ${SOURCE_DIR}/* ./source/${SOURCE_DIR} && \
+	rm -rf ./source && mkdir ./source &&  \
+	cp -R ${SOURCE_DIR}/* ./source && \
 	ls -la ./source && \
 	docker build ./ \
 		--build-arg NOCACHE=${NOCACHE} \

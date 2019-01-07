@@ -73,33 +73,35 @@ template: mysite/custom.html
 
 To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
 
+```bash
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
+```
 
+You can serve the site with Flask, using:
+
+```bash
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv FLASK_APP=app.py pipenv run flask run
+```
+
+### Building a local site with Docker
 
 You can use the ``Makefile`` in the root of this repo to build a site.
 
 You'll need [Docker](https://www.docker.com/products/docker-desktop) to do
 this.
 
-
-### Building a local site
-
 To build a site from a local directory, you can do something like:
 
 ```bash
-make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site IMAGE_NAME=somecoolsite
+make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
 ```
-
-- ``SOURCE_REF=0.1`` This is the tag that you're building.
-- ``IMAGE_NAME=arxiv/somecoolsite`` The name of the image that you're building.
-- ``SOURCE_DIR=site`` The directory in the repo that contains the site.
-- ``TARGET_DIR=site`` You should make this the same as the directory that contains your site. I know it's confusing, I'll fix it.
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
 
 ```bash
 Successfully built 297b169df71f
-Successfully tagged arxiv/somecoolsite:0.1
+Successfully tagged arxiv/mysite:0.1
 ```
 
 Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
@@ -107,12 +109,11 @@ Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
 You can then run the site by doing:
 
 ```bash
-docker run -it -p 8000:8000 arxiv/somecoolsite:0.1
+docker run -it -p 8000:8000 arxiv/mysite:0.1
 ```
 
-In your browser, go to http://localhost:8000/specifics/coolstory (or whatever
+In your browser, go to http://localhost:8000/mysite (or whatever
 page you want).
-
 
 ### Building a remote site
 
@@ -122,19 +123,17 @@ You will need to pick a place on your computer to do the building. Preferably
 something in ``/tmp``.
 
 ```bash
-make remote SOURCE_REF=0.1 BUILD_DIR=/tmp/build-it IMAGE_NAME=somecoolsite REPO_ORG=cul-it  REPO_NAME=arxiv-docs SOURCE_DIR=site
+make remote SOURCE_REF=0.1 IMAGE_NAME=arxiv/mysite REPO_ORG=arxiv REPO_NAME=arxiv-docs SOURCE_DIR=help
 ```
 
 - ``SOURCE_REF=0.1`` This is the tag that you're building.
-- ``BUILD_DIR=/tmp/build-it`` Make sure that you can write here.
-- ``IMAGE_NAME=somecoolsite`` The name of the image that you're building.
-- ``REPO_ORG=cul-it`` The organization that owns the repo.
+- ``IMAGE_NAME=arxiv/mysite`` The name of the image that you're building.
+- ``REPO_ORG=arxiv`` The organization that owns the repo.
 - ``REPO_NAME=arxiv-docs`` The name of the repo.
-- ``SOURCE_DIR=site`` The directory in the repo that contains the site.
+- ``SOURCE_DIR=help`` The directory in the repo that contains the site.
 
 This should work just like the local build, except that it might take a bit
 longer because it has to download things.
-
 
 ### Configuration
 
@@ -144,3 +143,9 @@ longer because it has to download things.
 | SOURCE_PATH | Yes | No | Path to the markdown source directory for the site. |
 | BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
 | SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
+| SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
+
+
+## Search
+
+You can access the search page at ``<SITE_URL_PREFIX>/search``.
