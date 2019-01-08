@@ -8,7 +8,4 @@ if __name__ == '__main__':
     app = create_web_app()
     with app.app_context():
         config = get_application_config()
-        build_site()
-        # index_site(config['SITE_PATH'], config['SITE_NAME'], app.root_path,
-        #            app.blueprints['docs'].static_folder,
-        #            app.blueprints['docs'].template_folder)
+        build_site(app.config.get('SITE_SEARCH_ENABLED', True))

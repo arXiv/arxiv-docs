@@ -144,6 +144,7 @@ longer because it has to download things.
 | BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
 | SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
 | SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
+| SITE_SEARCH_ENABLED | Yes | Yes | If set to 0, the search feature is excluded (default: 1). |
 
 
 ## Search
