@@ -80,7 +80,7 @@ SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run p
 You can serve the site with Flask, using:
 
 ```bash
-SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv FLASK_APP=app.py pipenv run flask run
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite  FLASK_APP=app.py pipenv run flask run
 ```
 
 ### Building a local site with Docker
