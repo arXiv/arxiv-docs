@@ -58,7 +58,7 @@ def url_for_page_builder() -> Dict[str, Callable]:
     return dict(url_for_page=url_for_page)
 
 
-def get_blueprint(site_path: str) -> Blueprint:
+def get_blueprint(site_path: str, with_search: bool = True) -> Blueprint:
     blueprint = Blueprint(site.get_site_name(), __name__,
                           url_prefix=site.get_url_prefix(),
                           static_folder=site.get_static_path(),
@@ -66,7 +66,8 @@ def get_blueprint(site_path: str) -> Blueprint:
                           static_url_path=f'{site.get_site_name()}_static')
     blueprint.route('/')(from_sitemap)
     blueprint.route('/<path:page_path>')(from_sitemap)
-    blueprint.route('/search', methods=['GET'])(search)
+    if with_search:
+        blueprint.route('/search', methods=['GET'])(search)
     blueprint.context_processor(url_for_page_builder)
     blueprint.context_processor(
         lambda: {'site_human_name': site.get_site_human_name()}

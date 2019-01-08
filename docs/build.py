@@ -23,11 +23,8 @@ def generate_template(source_page: SourcePage, rendered_content: str) -> str:
     ])
 
 
-def build_site() -> None:
+def build_site(with_search: bool = True) -> None:
     """Index the entire site."""
-    index.create_index()
-    print('Created index')
-
     to_index = []
     for source_page in source.load_pages():
         dereferencer = render.get_deferencer(source_page, site.get_site_name())
@@ -38,8 +35,11 @@ def build_site() -> None:
         site.store_page_content(source_page.page_path, template_content)
         site.store_metadata(source_page.page_path, source_page.metadata)
 
-    index.add_documents(to_index)
-    print('Added pages')
+    if with_search:
+        index.create_index()
+        print('Created index')
+        index.add_documents(to_index)
+        print('Added pages')
 
     # Copy static files into Flask's static directory. If we're deploying
     # to a CDN, this should happen first so that Flask knows what it's
@@ -56,7 +56,8 @@ def build_site() -> None:
         # This will overwrite whatever is already there.
         print(f"Static: copy {static_path} to {target_path}")
         shutil.copy(source_path, target_path)
-        index.add_static_file(static_path)
+        if with_search:
+            index.add_static_file(static_path)
     print('Added static files')
 
     for template_path, source_path in source.load_template_paths():
