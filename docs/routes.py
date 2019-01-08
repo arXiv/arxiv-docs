@@ -46,11 +46,7 @@ def from_sitemap(page_path: str = ''):
         'site_name': site.get_site_name(),
         'url_for': this_url_for
     })
-
-    if deleted:
-        content = render_template('docs/deleted.html', **context)
-    else:
-        content = render_template_string(page.content, **context)
+    content = render_template_string(page.content, **context)
     return content, code, headers
 
 
