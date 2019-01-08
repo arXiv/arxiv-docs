@@ -2,16 +2,25 @@
 
 {% macro render_person(person) %}
     <article class="tile is-child is-6 staff">
+      <p class="image is-128x128" style="border-radius: 50%"><img src="{{ url_for('.static', filename=person.thumbnail) }}" alt="" /></p>
       <h2 class="is-6">{{ person.name }}</h2>
       <p class="subtitle">{{ person.position }}</p>
       <p>{{ person.bio }}</p>
+      {% if person.twitter %}
+        <p class="twit"><span class="icon is-link"><i class="fa fa-twitter" role="presentation"></i></span>{{ person.twitter }}</p>
+      {% endif %}
+      {% if person.orcid %}
+        <p class="orcid">{{ person.orcid }}</p>
+      {% endif %}
     </article>
 {% endmacro %}
 
-{% block page_content %}
+{% macro render_tiles_open() -%}
   <div class="tile is-ancestor">
     <div class="tile is-parent">
-      {{ content }}
+{%- endmacro %}
+
+{% macro render_tiles_closed() -%}
     </div>
   </div>
-  {% endblock page_content %}
+{%- endmacro %}
