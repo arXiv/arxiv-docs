@@ -63,7 +63,7 @@ def get_blueprint(site_path: str) -> Blueprint:
                           url_prefix=site.get_url_prefix(),
                           static_folder=site.get_static_path(),
                           template_folder=site.get_templates_path(),
-                          static_url_path='static')
+                          static_url_path=f'{site.get_site_name()}_static')
     blueprint.route('/')(from_sitemap)
     blueprint.route('/<path:page_path>')(from_sitemap)
     blueprint.route('/search', methods=['GET'])(search)
