@@ -149,3 +149,35 @@ longer because it has to download things.
 ## Search
 
 You can access the search page at ``<SITE_URL_PREFIX>/search``.
+
+## Controlling the HTTP response (deletion, redirects)
+
+You can control the HTTP response to the user's agent using the ``response``
+key in the frontmatter. The following parameters are supported:
+
+| Parameter | Type | Default | Description |
+| :--- | :---: | :---: | :--- |
+| ``response.status`` | int | ``200`` | The HTTP status code for the response. |
+| ``response.location`` | str | None | Sets the ``Location`` header; this can be used to redirect the user. |
+| ``response.deleted`` | bool | ``false`` | If ``true``, a status code of ``404`` will be returned, and a special "deleted" template will be rendered. |
+
+### Example of a deleted page
+
+```
+---
+response:
+  deleted: true
+---
+This page was deleted because it was not that great.
+```
+
+
+### Example of a redirect
+
+```
+---
+response:
+  status: 301
+  location: the/new/location
+---
+```

@@ -1,6 +1,6 @@
 """Responsible for rendering markdown content to HTML."""
 
-from typing import Callable, Optional, Mapping, Union
+from typing import Callable, Optional, Mapping, Union, Tuple
 import xml.etree.ElementTree as ET
 from markdown import markdown, Markdown
 from markdown.extensions import Extension
@@ -84,8 +84,8 @@ class ReferenceExtension(Extension):
         md.treeprocessors[f'{self.tag}_{self.attr}_reference_processor'] = inst
 
 
-def get_deferencer(page: SourcePage, site_name: str) -> Callable:
-    def link_dereferencer(href: str) -> str:
+def get_linker(page: SourcePage, site_name: str) -> Callable:
+    def linker(href: str) -> Tuple[str, str, str]:
         if not href or '://' in href or href.startswith('/') \
                 or href.startswith('#'):
             return href
@@ -104,5 +104,12 @@ def get_deferencer(page: SourcePage, site_name: str) -> Callable:
             kwarg = 'filename'
         base_path = '/'.join(page.page_path.split('/')[:-1])
         target_path = '/'.join([base_path, path.rstrip('/')]).lstrip('/')
+        return route, kwarg, target_path
+    return linker
+
+
+def get_deferencer(page: SourcePage, site_name: str) -> Callable:
+    def link_dereferencer(href: str) -> str:
+        route, kwarg, target_path = get_linker(page, site_name)(href)
         return "{{ url_for('%s', %s='%s') }}" % (route, kwarg, target_path)
     return link_dereferencer
