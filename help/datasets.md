@@ -2,7 +2,7 @@ Support for data sets associated with arXiv articles
 ====================================================
 
 arXiv is primarily an [archive and distribution service for research
-articles](primer.md). arXiv provides support for data sets and other
+articles](primer). arXiv provides support for data sets and other
 ancillary materials only in direct connection with research articles
 submitted.
 
@@ -11,7 +11,7 @@ of modest size with articles. The ancillary files are stored in the
 source package on arXiv and facilities are available to download either
 the entire source package or individual files. The ability to add
 ancillary files is available as part of the normal arXiv [submission
-process](submit.md).
+process](submit).
 
 *(arXiv formerly operated a pilot service to support remote data deposit
 in the [Data Conservancy data repository](data_conservancy.md) as part of
