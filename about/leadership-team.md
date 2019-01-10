@@ -6,7 +6,7 @@ people:
     name: Erick Peirson
     position: Lead Software Architect
     orcid: https://orcid.org/0000-0002-0564-9939
-    twitter: undercaffienatd
+    twitter: undercaffeinatd
     thumbnail: images/erick.jpg
     bio: |
       Erick is responsible for high-level technical decisions, planning, and collaboration related to the arXiv software system. His main focus is the arXiv-NG project, which moves the arXiv.org software system into a modern, cloud-native architectural paradigm. Erick’s background is in software development for information systems and computational research, and he also holds a PhD in History & Philosophy of Science.
@@ -26,7 +26,7 @@ people:
     name: Oya Y. Rieger
     position: Program Director
     orcid: https://orcid.org/0000-0001-6175-5157
-    twitter: Oya.Rieger
+    twitter: OyaRieger
     thumbnail: images/oya.jpg
     bio: |
       Oya has been leading the arXiv operation and spearheaded the development of the governance and sustainability model since 2010. She has provided leadership in several national and international scholarly communication and digital preservation initiatives and holds a Ph.D. in Human-Computer Interaction (Cornell University).
@@ -43,14 +43,14 @@ people:
 arXiv Leadership Team
 =====================
 
-{{ render_tiles_open() }}
+{{ render_columns_open() }}
 {{ render_person(people.oya) }}
 {{ render_person(people.steinn) }}
-{{ render_tiles_closed() }}
-{{ render_tiles_open() }}
+{{ render_columns_closed() }}
+{{ render_columns_open() }}
 {{ render_person(people.martin) }}
 {{ render_person(people.erick) }}
-{{ render_tiles_closed() }}
-{{ render_tiles_open() }}
+{{ render_columns_closed() }}
+{{ render_columns_open() }}
 {{ render_person(people.jim) }}
-{{ render_tiles_closed() }}
+{{ render_columns_closed() }}
