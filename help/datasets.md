@@ -12,9 +12,3 @@ source package on arXiv and facilities are available to download either
 the entire source package or individual files. The ability to add
 ancillary files is available as part of the normal arXiv [submission
 process](submit).
-
-*(arXiv formerly operated a pilot service to support remote data deposit
-in the [Data Conservancy data repository](data_conservancy.md) as part of
-the submission process. Data uploaded via this mechanism remains linked
-with the arXiv articles, the ability to upload new data was discontinued
-in 2013-03.)*
