@@ -114,7 +114,7 @@ docker run -it -p 8000:8000 arxiv/mysite:0.1
 ```
 
 In your browser, go to http://localhost:8000/mysite (or whatever
-page you want).
+page you want). Note http://localhost:8000 is what works in Ubuntu.
 
 ### Building a remote site
 
