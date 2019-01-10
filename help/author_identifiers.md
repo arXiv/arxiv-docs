@@ -9,9 +9,9 @@ done only approximately with text-based searches. It would also permit
 construction of an author-article graph which is useful for relevance
 assessment and bibliometric analysis.
 
-Since 2005 arXiv has used [authority records](authority.md) that associate
+Since 2005 arXiv has used [authority records](authority) that associate
 user accounts with articles authored by that user. These records support
-the [endorsement system](endorsement.md). The use of public author
+the [endorsement system](endorsement). The use of public author
 identifiers as a way to build services upon this data is new in 2009.
 Initially, users must opt-in to have a public author identifier and to
 expose the record of their articles on arXiv for use in other services.
@@ -29,10 +29,10 @@ The services we offer based on author identifiers are:
     current feed readers; and <https://arxiv.org/a/warner_s_1.atom> —
     authors in separate atom:author elements)
 -   a way to dynamically include the list of your publications in your
-    own home page using the JavaScript [`myarticles` widget](myarticles.md)
+    own home page using the JavaScript [`myarticles` widget](myarticles)
 
-The above pages and [`myarticles` widget](myarticles.md) are now also
-accessible via an [ORCID identifier](orcid.md), if you have [linked
+The above pages and [`myarticles` widget](myarticles) are now also
+accessible via an [ORCID identifier](orcid), if you have [linked
 an ORCID identifier to your arXiv user account](/user/confirm_orcid_id),
 e.g.:
 
