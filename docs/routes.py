@@ -34,7 +34,11 @@ def from_sitemap(page_path: str = ''):
         if 'location' in page.metadata['response']:
             linker = render.get_linker(page, site.get_site_name())
             route, kwarg, name = linker(page.metadata['response']['location'])
-            headers['Location'] = this_url_for(route, **{kwarg: name})
+            if kwarg is None:
+                location = route
+            else:
+                location = this_url_for(route, **{kwarg: name})
+            headers['Location'] = location
         deleted = page.metadata['response'].get('deleted', False)
         if deleted:
             code = status.HTTP_404_NOT_FOUND

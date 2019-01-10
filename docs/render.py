@@ -88,7 +88,7 @@ def get_linker(page: SourcePage, site_name: str) -> Callable:
     def linker(href: str) -> Tuple[str, str, str]:
         if not href or '://' in href or href.startswith('/') \
                 or href.startswith('#'):
-            return href
+            return href, None, None
 
         if href.endswith('.md'):
             path = href[:-3]
@@ -111,5 +111,7 @@ def get_linker(page: SourcePage, site_name: str) -> Callable:
 def get_deferencer(page: SourcePage, site_name: str) -> Callable:
     def link_dereferencer(href: str) -> str:
         route, kwarg, target_path = get_linker(page, site_name)(href)
+        if kwarg is None:
+            return route
         return "{{ url_for('%s', %s='%s') }}" % (route, kwarg, target_path)
     return link_dereferencer
