@@ -28,7 +28,7 @@ year and page number(s)**. An example looks like:
 
 > **Nucl.Phys.Proc.Suppl. 109 (2002) 3-9**
 
-See also [journal reference](prep.md#journal) formatting details.
+See also [journal reference](prep#journal) formatting details.
 
 DOI
 ---
@@ -40,7 +40,7 @@ prefix such as `doi:`. For example:
 
 > **10.1016/S0550-3213(01)00405-9**
 
-See also [DOI](prep.md#doi) formatting details.
+See also [DOI](prep#doi) formatting details.
 
 Report number
 -------------
@@ -56,4 +56,4 @@ space:
 
 > **SU-4240-720; LAUR-01-2140**
 
-See also [report number](prep.md#report) formatting details.
+See also [report number](prep#report) formatting details.
