@@ -90,7 +90,7 @@ from the article identifier.
 
 See [arXiv identifier scheme - information for interacting
 services](arxiv_identifier_for_services) and [Media types
-delivered by arXiv](mimetypes.md) for further technical details.
+delivered by arXiv](mimetypes) for further technical details.
 
 If you want to download just a few articles then there should be no
 problem provided a useful [User-Agent
@@ -99,7 +99,7 @@ the HTTP requests, or if requests are made manually through a normal web
 browser. If you would like to download a significant number of articles
 then accesses should be spaced by at least 3 seconds to avoid our
 denial-of-service attack detector cutting off access, please contact
-[arXiv support](support.md) if you intend to download more than a
+[arXiv support](support) if you intend to download more than a
 thousand articles.
 
 Identifying articles by your institution's researchers
