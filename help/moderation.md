@@ -118,14 +118,14 @@ submission, but repeated appeals with no additional information cannot
 be considered. If you send an appeal and the moderators reach the same
 decision as they did initially, no further appeal should be submitted.
 Extreme cases may be addressed to the appropriate [advisory
-committee](scientific_ad_board.md) chair only.
+committee](scientific_ad_board) chair only.
 
 Who are the arXiv moderators?
 -----------------------------
 
 [arXiv moderators](/moderators) are volunteer subject specialists who
 have been approved by their discipline-level [advisory
-committees](scientific_ad_board.md) and by arXiv staff.
+committees](scientific_ad_board) and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is very
 inappropriate to contact any moderator directly regarding your
