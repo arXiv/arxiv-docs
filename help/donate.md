@@ -10,7 +10,7 @@ FAQ](/help/support/faq#personal) for more information. We thank you for
 your support.
 
 For questions related to donation or the [sustainability
-initiative](support.md), please contact arXiv at <support@arxiv.org>.
+initiative](support), please contact arXiv at <support@arxiv.org>.
 For technical or moderation queries please [contact arXiv
-administrators](contact.md) and do not send email to the support
+administrators](contact) and do not send email to the support
 address.
