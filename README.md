@@ -80,7 +80,7 @@ SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run p
 You can serve the site with Flask, using:
 
 ```bash
-SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv FLASK_APP=app.py pipenv run flask run
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite  FLASK_APP=app.py pipenv run flask run
 ```
 
 ### Building a local site with Docker
@@ -95,6 +95,7 @@ To build a site from a local directory, you can do something like:
 ```bash
 make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
 ```
+Note that as each folder in the root directory is served separately SOURCE_DIR needs to include the specific folder (ex 'help', 'about').
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
@@ -113,7 +114,7 @@ docker run -it -p 8000:8000 arxiv/mysite:0.1
 ```
 
 In your browser, go to http://localhost:8000/mysite (or whatever
-page you want).
+page you want). Note http://localhost:8000 is what works in Ubuntu.
 
 ### Building a remote site
 
@@ -144,6 +145,7 @@ longer because it has to download things.
 | BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
 | SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
 | SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
+| SITE_SEARCH_ENABLED | Yes | Yes | If set to 0, the search feature is excluded (default: 1). |
 
 
 ## Search

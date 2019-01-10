@@ -1,0 +1,34 @@
+{%- extends "docs/base.html" -%}
+
+{% macro render_person(person) %}
+    <article class="column is-half">
+      <div class="media">
+        <div class="media-left is-hidden-mobile">
+          <p class="image is-96x96"><img style="border-radius: 50%" src="{{ url_for('.static', filename=person.thumbnail) }}" alt="" /></p>
+        </div>
+        <div class="media-content">
+          <p class="image is-48x48 is-hidden-tablet is-pulled-left" style=" margin-right: .5em; margin-top: 1.5em;"><img style="border-radius: 50%;" src="{{ url_for('.static', filename=person.thumbnail) }}" alt="" /></p>
+          <h2 class="title">{{ person.name }}</h2>
+          <p class="subtitle">{{ person.position }}</p>
+          <p>{{ person.bio }}</p>
+          <ul class="is-marginless">
+          {% if person.orcid %}
+            <li class="orcid" style="list-style: none"><span class="icon is-small" style="vertical-align: middle"><img src="{{ url_for('.static', filename='images/orcid_32x32.png') }}" alt="" /></span> <a href="{{ person.orcid }}">{{ person.orcid }}</a></li>
+          {% endif %}
+          {% if person.twitter %}
+            <li class="twit" style="list-style: none"><span class="icon is-small"><i class="fa fa-twitter has-text-link" role="presentation"></i></span><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></li>
+          {% endif %}
+          </ul>
+        </div>
+      </div>
+
+    </article>
+{% endmacro %}
+
+{% macro render_columns_open() -%}
+  <div class="columns">
+{%- endmacro %}
+
+{% macro render_columns_closed() -%}
+  </div>
+{%- endmacro %}

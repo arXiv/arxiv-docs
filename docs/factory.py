@@ -21,5 +21,10 @@ def create_web_app() -> Flask:
     s3.init_app(app)
 
     app.register_blueprint(routes.docs)     # Provides base templates.
-    app.register_blueprint(routes.get_blueprint(app.config['BUILD_PATH']))
+    app.register_blueprint(
+        routes.get_blueprint(
+            app.config['BUILD_PATH'],
+            with_search=app.config.get('SITE_SEARCH_ENABLED', True)
+        )
+    )
     return app

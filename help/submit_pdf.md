@@ -20,11 +20,10 @@ guidelines:
     viewing the PDF provided by arXiv, see our [PDF browsing
     help](/help/pdf).
 
-While PDF can be very useful, it has some of the same limitations as
-PostScript. Including large PostScript figures in PDF can hamper the
+While PDF can be very useful, it has some limitations. Including large figures in PDF can hamper the
 display of the document so that it is unusable. Authors should keep in
 mind that not everyone will have a high-end machine, and they should
-compose their documents accordingly.
+compose their documents accordingly with efficient figures.
 
 Creating PDF
 ------------
@@ -59,12 +58,10 @@ suggest other free tools that are better.)
 ------------------------------------------------
 
 Copyright statements of the author are permitted within the pdf, however
-submissions containing journal copyright will be rejected, regardless of
-the policies stated on the journal in question's website. Copyright
+submissions containing journal copyright will be rejected. Copyright
 statements which prohibit or impair arXiv's [redistribution
 license](/help/license) will also be rejected. If explicit permission is
-given for open access redistribution, these are permissible, though the
-prior rule regarding TeX/LaTeX submissions will be enforced.
+given for open access redistribution, these are permissible.
 
 Note on IEEE submissions. Please note arXiv will currently take the
 'Accepted' IEEE version but not the 'Published' IEEE version. For more
