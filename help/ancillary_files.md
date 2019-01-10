@@ -18,8 +18,8 @@ Submission of ancillary files
 -----------------------------
 
 Ancillary files are included with an arXiv submission by placing them in
-a directory `anc` at the root of the submission package. For example, if
-the submission has one TeX file, one image, and C++ program the
+a directory `anc` at the root of your .tar.gz or .zip submission package. For example, if
+the submission has one TeX file, one image, and C++ program the tar/zip
 submission package might be:
 ```
     /article.tex
@@ -29,7 +29,7 @@ submission package might be:
 Ancillary files are stored with a particular version of an article and
 thus cannot be changed independently from the article. Different
 ancillary files may appear with each version. Please note that ancillary
-files are not supported with [PDF submissions](submit_pdf.md) at this
+files are not supported with [PDF submissions](submit_pdf) at this
 time.
 
 Display and download
