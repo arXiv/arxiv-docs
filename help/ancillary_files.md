@@ -2,7 +2,7 @@ Ancillary files
 ===============
 
 arXiv is primarily an [archive and distribution service for research
-articles](primer.md). There are limited facilities for including ancillary
+articles](primer). There are limited facilities for including ancillary
 files with articles. Such ancillary
 files might include:
 
