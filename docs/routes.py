@@ -8,6 +8,8 @@ from flask import Blueprint, render_template_string, request, \
 import jinja2
 from werkzeug.exceptions import NotFound
 
+from arxiv import status
+from . import render
 from .services import site, index
 
 
@@ -16,15 +18,40 @@ def from_sitemap(page_path: str = ''):
         page = site.load_page(page_path)
     except site.PageNotFound:
         raise NotFound('No such page')
+
+    if current_app.config['FLASKS3_ACTIVE']:
+        this_url_for = s3_url_for
+    else:
+        this_url_for = url_for
+
+    # Support for response parameters in page frontmatter. This is to support
+    # stubs for deleted/moved pages (ARXIVNG-1545).
+    code: int = status.HTTP_200_OK
+    deleted: bool = False
+    headers = {}
+    if 'response' in page.metadata:
+        code = page.metadata['response'].get('status', status.HTTP_200_OK)
+        if 'location' in page.metadata['response']:
+            linker = render.get_linker(page, site.get_site_name())
+            route, kwarg, name = linker(page.metadata['response']['location'])
+            if kwarg is None:
+                location = route
+            else:
+                location = this_url_for(route, **{kwarg: name})
+            headers['Location'] = location
+        deleted = page.metadata['response'].get('deleted', False)
+        if deleted:
+            code = status.HTTP_404_NOT_FOUND
+
     context = dict(page.metadata)
     context.update({
         'page_path': page_path,
         'page': page,
-        'site_name': site.get_site_name()
+        'site_name': site.get_site_name(),
+        'url_for': this_url_for
     })
-    if current_app.config['FLASKS3_ACTIVE']:
-        context['url_for'] = s3_url_for
-    return render_template_string(page.content, **context)
+    content = render_template_string(page.content, **context)
+    return content, code, headers
 
 
 def search():

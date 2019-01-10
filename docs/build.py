@@ -12,12 +12,17 @@ from arxiv.base.globals import get_application_config as config
 def generate_template(source_page: SourcePage, rendered_content: str) -> str:
     if source_page.template:
         page_template = source_page.template
+
+    # Support for deleted slug (ARXIVNG-1545).
+    elif 'response' in source_page.metadata \
+            and source_page.metadata['response'].get('deleted', False):
+        page_template = 'docs/deleted.html'
     else:
         page_template = 'docs/page.html'
 
     return '\n'.join([
         '{%- extends "' + page_template + '" %}',
-        '{% block page_content %}',
+        '{% block markdown_content %}',
         rendered_content,
         '{% endblock %}'
     ])
