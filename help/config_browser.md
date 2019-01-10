@@ -5,7 +5,7 @@ In order to seamlessly download and view documents from arXiv, you may
 have to configure your web browser. It must be told what types of files
 to expect and what to do with them when it gets them. In some cases, you
 may need to know the [appropriate MIME types delivered by
-arXiv](mimetypes.md).
+arXiv](mimetypes).
 
 Delivery of Compressed Formats (PostScript, DVI, source)
 --------------------------------------------------------
@@ -15,7 +15,7 @@ compressed format (a standard compression method). Submissions
 consisting of several files are bundled together in a single tar file
 **before** being gzipped. Downloaded PS, DVI, and source files must
 therefore first be gunzipped, and then possibly untarred. See our
-[unpacking notes](unpack.md) for more information.
+[unpacking notes](unpack) for more information.
 
 Depending on how your web browser is configured, it may uncompress the
 downloaded file(s) automatically. This may present a problem if the
