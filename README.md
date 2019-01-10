@@ -95,6 +95,7 @@ To build a site from a local directory, you can do something like:
 ```bash
 make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
 ```
+Note that as each folder in the root directory is served separately SOURCE_DIR needs to include the specific folder (ex 'help', 'about').
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
