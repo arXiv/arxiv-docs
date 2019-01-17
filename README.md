@@ -73,6 +73,18 @@ template: mysite/custom.html
 
 To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
 
+The application for building and serving the site is located in ``markdown/`` (a submodule, pointing at https://github.com/arxiv/arxiv-markdown).
+
+If you're using this for the first time, you may need to do:
+
+```bash
+git submodule update --init
+cd markdown
+pipenv install
+```
+
+Then you can build with (from inside `./markdown`):
+
 ```bash
 SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
 ```
@@ -81,6 +93,13 @@ You can serve the site with Flask, using:
 
 ```bash
 SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite  FLASK_APP=app.py pipenv run flask run
+```
+
+Note that if you're trying to serve stuff in this repo, you can use a relative
+path like:
+
+```bash
+SOURCE_PATH=../help
 ```
 
 ### Building a local site with Docker
