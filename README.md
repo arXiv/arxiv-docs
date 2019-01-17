@@ -73,7 +73,10 @@ template: mysite/custom.html
 
 To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
 
+The application for building and serving the site is located in ``markdown/`` (a submodule, pointing at https://github.com/arxiv/arxiv-markdown).
+
 ```bash
+cd markdown
 SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
 ```
 
