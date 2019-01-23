@@ -32,13 +32,13 @@ Current Board members are:
 -   Tara Holm, Professor of Mathematics, Cornell University
 -   Greg Kuperberg, Professor of Mathematics, University of California,
     Davis (*ex officio*, as chair of Mathematics Advisory Committee)
--   David Morrison (**Chair**), Professor of Mathematics and Physics,
+-   David Morrison, Professor of Mathematics and Physics,
     University of California, Santa Barbara
 -   Nicholas Read, Henry Ford II Professor of Physics, and Professor of
     Applied Physics and Mathematics, Yale University (*ex officio*, as
     chair of Physics Advisory Committee)
 -   Sumati Surya, Professor, Raman Research Institute
--   Licia Verde, ICREA Research Professor, Universitat de Barcelona \|
+-   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona \|
     University of Oslo
 
 Subject Advisory Committees
