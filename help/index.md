@@ -1,41 +1,39 @@
 ---
-slug: foo
+slug: Help
 ---
 
 # arXiv Help Contents
 
 ## General Information
-- About arXiv
-- arXiv Primer
-- arXiv Business Support and Governance Model
-- arXiv Users' Frequently Asked Questions
+- [arXiv Primer](primer)
+- [arXiv Help Frequently Asked Questions](faq/index)
 
 ## Searching and Browsing
-- To Find an Article
-- Viewing Articles
-- Configuring Your Browser for Downloads
-- Cookie Configuration
-- Utilities (tar, gzip, etc.)
-- Gzipped files
+- [To Find an Article](find)
+- [Viewing Articles](view)
+- [Configuring Your Browser for Downloads](config_browser)
+- [Cookie Configuration](../cookies)
+- [Utilities (tar, gzip, etc.)](utilities)
+- [Gzipped files](gzip)
 
 ## User Accounts
-- To Register
-- The Endorsement System
-- Protecting your Privacy
-- Authority Records
-- The User-ID/Password System
-- To Subscribe to E-Mail Listings
+- [To Register](registerhelp)
+- [The Endorsement System](endorsement)
+- [Protecting your Privacy](email-protection)
+- [Authority Records](authority)
+- [The User-ID/Password System](passwords)
+- [To Subscribe to E-Mail Listings](subscribe)
 
 ## Submission and Revision
-- To Submit an Article
-- [Terms of submission](terms_of_submission.md)
-- To Replace an Article
-- To Withdraw an Article
-- To Add a Journal Reference, DOI or Report Number to an Article
-- To Crosslist an Article
-- The Moderation System
-- Oversized Submissions
-- Text Overlap Detection
+- [To Submit an Article](submit)
+- [Terms of submission](terms_of_submission)
+- [To Replace an Article](replace)
+- [To Withdraw an Article](withdraw)
+- [To Add a Journal Reference, DOI or Report Number to an Article](jref)
+- [To Crosslist an Article](cross)
+- [The Moderation System](moderation)
+- [Oversized Submissions](sizes)
+- [Text Overlap Detection](overlap)
 
 ## Miscellaneous
 - Understanding the arXiv Identifier
