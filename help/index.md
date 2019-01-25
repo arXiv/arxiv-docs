@@ -36,17 +36,16 @@ slug: Help
 - [Text Overlap Detection](overlap)
 
 ## Miscellaneous
-- Understanding the arXiv Identifier
-- Understanding the ORCID iD
-- Institutional Repository (IR) Interoperability
-- Bulk data access (please do NOT crawl arXiv)
-- DOI and journal reference updates to arXiv from publishers
-- ScienceWISE annotation and bookmarking
-- Usage statistics
-- Obsolete Macros
-- Accessibility
-- MathJax
-- SSL Support in arXiv
+- [Understanding the arXiv Identifier](arxiv_identifier)
+- [Understanding the ORCID iD](orcid)
+- [Institutional Repository (IR) Interoperability](ir)
+- [Bulk data access](bulk_data)
+- [DOI and journal reference updates to arXiv from publishers](bib_feed)
+- [ScienceWISE annotation and bookmarking](sciencewise)
+- [Usage statistics](stats)
+- [Obsolete Macros](macro_list)
+- [MathJax](mathjax)
+- [SSL Support in arXiv](ssl)
 
 If you could not find an answer to your question, please [contact arXiv
 administrators](contact).
