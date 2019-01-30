@@ -6,7 +6,7 @@ Please see the [description of the subject catories](subjectclasses) for details
 
 ### CoRR Advisory Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv advisory board](help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Krzysztof Apt, CWI, Amsterdam  
 - Ron Boisvert, NIST  
