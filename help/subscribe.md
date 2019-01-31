@@ -1,5 +1,3 @@
-<span id="subscribe"></span>
-
 To Subscribe to the E-Mail Alerting Service
 ===========================================
 
