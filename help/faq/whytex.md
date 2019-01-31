@@ -9,7 +9,7 @@ Why Submit the TeX/LaTeX Source?
 4.  There is no single Postscript standard! We provide Postscript in many formats; this is not possible if the author submits a single Postscript file. For a historical example, Preview.app under NeXTstep displayed bitmapped fonts poorly, and for historical reasons (TeX predated common use of Postscript) these fonts are still most commonly used by TeX and dvips. By requesting type 1 fonts from the "More options" page, screen readability is improved.
 5.  Cross-referencing within arXiv is added automatically with hyperlinked Postscript. Authors should specify [**arXiv:YYMM.NNNNN**](/help/arxiv_identifier) or the older format of **arch-ive/papernum** (e.g., hep-ph/9503456) references whenever available, and these strings will be pattern-matched and replaced with suitable hyperlinks back to arXiv. Similarly, any occurrences of **http://...** or **ftp://...** url's are detected and converted to hyperlinks.
 
-* * *
+
 <span id="contextual"></span>
 What is "Contextual" Information, and Why is it Important?
 ----------------------------------------------------------
