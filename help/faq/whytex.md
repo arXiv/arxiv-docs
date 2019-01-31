@@ -16,7 +16,6 @@ What is "Contextual" Information, and Why is it Important?
 
 We mean by this the relationship between equations and their labels, references and their numbers, subsection headings and their entries in the table of contents, and so on. While ordinarily readily available in TeX/LaTex source, conversion to Postscript irretrievably loses this structural information. The loss is unfortunate because with new formats such as PDF, the information can be used to provide active hyperlinks: e.g., in a PDF viewer you can click on an equation number and jump back to the specified equation. Moreover TeX itself can be processed as HyperTeX and, with the proper dvi previewer, clicking on equation numbers will bring up the desired equation in a separate window, or even retrieve other papers specified by their proper arch-ive/papernum identifier. HyperTeX works by redefining the standard macros and works retroactively for pre-existing TeX/LaTeX source -- HyperTeX conversion is accomplished by merely re-TeXing with the modified macros. Since information is ordinarily lost in each stage of processing, TeX source contains (close to) the maximal amount of contextual information that can be retroactively processed into any future format which can take advantage of it. For more information, see [hypertex help](../hypertex/).
 
-* * *
 
 Why doesn't arXiv Accept Preprocessed Postscript Submissions?
 -------------------------------------------------------------
@@ -26,7 +25,7 @@ Why doesn't arXiv Accept Preprocessed Postscript Submissions?
 3.  Postscript loses contextual information that is implicit in the TeX. This information is required to provide hyperlinked overlays to papers (so that users with the proper viewers can, for example, click on a reference number and jump to the reference \[which can also include a web URL which can be automatically passed off to a web browser\]). To do the hyperlinking, we use HyperTeX macros. The Postscript we produce is HyperPostscript which can be distilled into Adobe's Portable Document Format (PDF). Our software makes web URL's out of all references of the form YYMM.NNNNN or arch-ive/yymmnnn (e.g., 1510.00322 will be converted to a hyperlink for https://arxiv.org/abs/1510.00322, hep-th/9511053 will be converted to a hyperlink for https://arxiv.org/abs/hep-th/9511053).
 4.  TeX source is more compact and space-efficient.
 
-* * *
+
 
 Frequent Red Herring Concerns:
 ------------------------------
