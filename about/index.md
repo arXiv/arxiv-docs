@@ -17,7 +17,7 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 - [Membership Program FAQ](/help/support/faq)
 
 ## Who we are
-- [Leadership team](leadership-team)
+- [Leadership team](people/leadership_team)
 - [Scientific Advisory Board](/help/scientific_ad_board)
 - [Member Advisory Board](https://confluence.cornell.edu/display/arxivpub/Member+Advisory+Board)
 - [Volunteer Moderators](/moderators)
