@@ -10,7 +10,7 @@ systems. It will help with the ongoing challenge of distinguishing your
 research activities from those of others with similar names.
 
 We encourage all arXiv authors to link their ORCID iD with arXiv. If you
-don't already have an ORCID iD, you can create one as part of this
+do not already have an ORCID iD, you can create one as part of this
 process. Once completed you will see your ORCID iD on your [user
 page](/user).
 
