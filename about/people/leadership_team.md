@@ -43,14 +43,14 @@ people:
 arXiv Leadership Team
 =====================
 
-{{ render_columns_open() }}
-{{ render_person(people.oya) }}
-{{ render_person(people.steinn) }}
-{{ render_columns_closed() }}
-{{ render_columns_open() }}
-{{ render_person(people.martin) }}
-{{ render_person(people.erick) }}
-{{ render_columns_closed() }}
-{{ render_columns_open() }}
-{{ render_person(people.jim) }}
-{{ render_columns_closed() }}
+$jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.oya) }} jinja$
+$jinja {{ render_person(people.steinn) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.martin) }} jinja$
+$jinja {{ render_person(people.erick) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.jim) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
