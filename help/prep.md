@@ -95,7 +95,7 @@ Information Fields
     be separated from the main name by a comma, enter simply
     `Bill Gates Jr` or `Fred Bloggs IV`. Names such as
     `John von Neumann` are entered exactly as illustrated.
--   Affiliations must be placed within parantheses. Do not enter full
+-   Affiliations must be placed within parentheses. Do not enter full
     mailing address, as these are not needed in our metadata. If
     desired, at most, include a city and country (no zip codes, postal
     codes, or street addresses). If you have several authors from the
@@ -150,7 +150,7 @@ Abstracts are automatically processed into the mailings, so it is
 important to adhere to the formatting rules. Carriage returns will be
 stripped unless they are followed by leading white spaces. So if you
 want a new paragraph or a table of contents, be sure to indent the lines
-after the carriage return. When the abstracts is formatted for email
+after the carriage return. When the abstract is formatted for email
 announcement, it will be wrapped to 80 characters.
 
 -   Do not include the word "Abstract".
@@ -160,7 +160,7 @@ announcement, it will be wrapped to 80 characters.
     `~ \, (backslash comma) and \ (backslash  space)` makes it difficult
     for people to read. Please omit these TeX-isms. Also omit font
     commands such as `\em` or `\it`, as these will not be processed into
-    the display. Additionally, <span class="mathjax">$\\TeX$</span> formtting commands for names will
+    the display. Additionally, <span class="mathjax">$\\TeX$</span> formatting commands for names will
     not be processed, and unicode character entry is not supported.
 -   Do not start lines with whitespace (spaces, tabs, etc.) unless you
     are trying to prevent our automatic line wrapping. You might choose
