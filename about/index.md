@@ -6,12 +6,13 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 
 - [About arXiv](/help/general)
 - [arXiv Support and Governance Model](/help/support)
+- [Public Wiki](https://confluence.cornell.edu/x/m4NRF)
 
 
 ## News
 
-- [2018 Annual Report]()
-- [2019 Roadmap]()
+- [2018 Annual Report](https://confluence.cornell.edu/x/rIzLFQ)
+- [2019 Roadmap](https://confluence.cornell.edu/x/WJfLFQ)
 - [Usage Stats](/help/stats)
 - [News and Announcements](/new)
 - [Blog](https://blogs.cornell.edu/arxiv)
