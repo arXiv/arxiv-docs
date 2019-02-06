@@ -20,8 +20,8 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 
 ## Membership & Giving
 
-- Donate to arXiv(/help/donate)
-- Membership Program FAQ(/help/support/faq)
+- [Donate to arXiv](/help/donate)
+- [Membership Program FAQ](/help/support/faq)
 - [Our Members and Supporters](https://confluence.cornell.edu/x/ALlRF)
 
 
