@@ -85,7 +85,7 @@ Slack is used for email communication of submission and moderator emails that ma
 
 Amazon Web Services is used for server infrastructure for components of the arXiv system.
 
-[Astrophyiscs Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools. 
+[Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools. 
 
 _Info we share with moderators as part of submission and moderation:_
 
