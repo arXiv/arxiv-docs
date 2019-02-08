@@ -36,7 +36,7 @@ Bad character(s)
 
 Our metadata fields only accept ASCII input. Unicode characters should be
 conveted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
-[MathJax](/help/mathjax) entry or for proper names use the appropriate
+[MathJax](mathjax) entry or for proper names use the appropriate
 [accents](#accents)).
 
 A common problem experienced during submission, *Bad character(s) in
@@ -58,7 +58,7 @@ Information Fields
 
 -   Do not use all uppercase letters.
 -   Do not use unicode characters.
--   Some <span class="mathjax>La$\\TeX$</span> is supported through [MathJax](/help/mathjax).
+-   Some <span class="mathjax>La$\\TeX$</span> is supported through [MathJax](mathjax).
 -   Expand out <span class="mathjax">$\\TeX$</span> macros that are mystifying, e.g. "Nonlinear Sigma
     Models" instead of "\\nlsm".
 -   Check your spelling.
@@ -154,7 +154,7 @@ after the carriage return. When the abstract is formatted for email
 announcement, it will be wrapped to 80 characters.
 
 -   Do not include the word "Abstract".
--   Some <span class="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax).
+-   Some <span class="mathjax">$\\TeX$</span> commands are supported via [MathJax](mathjax).
 -   As with the title, expand out opaque <span class="mathjax">$\\TeX$</span> macros. Including
     <span class="mathjax">$\\TeX$</span> formatting commands such as
     `~ \, (backslash comma) and \ (backslash  space)` makes it difficult
@@ -177,7 +177,7 @@ announcement, it will be wrapped to 80 characters.
 
 -   Indicate number of pages and number of figures. If desired, include
     <span class="mathjax>$\\TeX$</span> flavor or related comments.
--   Some <span clas="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax).
+-   Some <span clas="mathjax">$\\TeX$</span> commands are supported via [MathJax](mathjax).
 -   <span id="URL">Anonymous FTP and World Wide Web</span> locations
     should be given in the standard Uniform Resource Locator (URL)
     format. We automatically convert these into an active link reading
@@ -201,7 +201,7 @@ announcement, it will be wrapped to 80 characters.
 -   This is the proper field for "to be published in" or "submitted to"
     information, including inclusion in conference proceedings. Please
     note that such entries will be frozen into this version, and is [not
-    editable](/help/replace#minorchanges) after announcement.
+    editable](replace#minorchanges) after announcement.
 -   This is the proper field for author roles, such as "Appendix by" or
     "Editor" information.
 -   If this is a replacement, indicate the nature of the replacement and
@@ -212,7 +212,7 @@ announcement, it will be wrapped to 80 characters.
     front page of the article.** Even there, do not put any copyright or
     license statement that contradicts the license you grant arXiv on
     submission! For more information see our [descriptions of available
-    licenses](/help/license).
+    licenses](license).
 
 ### <span id="report"></span>Report-no: *required only when supplied by author's institution*
 
@@ -317,17 +317,17 @@ granularity:
 
 -   Although arXiv encourages authors to submit their own articles, some
     articles may be submitted by [third
-    parties](/help/third_party_submission) (co-workers, administrative
+    parties](third_party_submission) (co-workers, administrative
     assistants, overlay journals, etc.). Prior authorization is required
     for such submissions. If you are not the author this work you must
-    [contact](/help/contact) arXiv administrators for permission.
+    [contact](contact) arXiv administrators for permission.
     Submissions without prior authorization will be removed.
 -   The submitter of an article is automatically registered as an
     *owner* of the article, someone who has authorization to make
     changes to the article, such as replacing it or adding a
     cross-reference. Other people can become owners if they supply the
     paper password, or request ownership. See our [authority
-    records](/help/authority) help page for more information.
+    records](authority) help page for more information.
 -   When someone is registered as an *owner* of an article, they have a
     chance to specify if they are also an *author* — to get all of their
     rights and privileges, authors of arXiv articles should take

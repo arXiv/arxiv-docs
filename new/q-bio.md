@@ -9,33 +9,33 @@ Subject categories of the **q-bio** archive:
 
 *   **BM - Biomolecules**  
     DNA, RNA, proteins, lipids, etc.; molecular structures and folding kinetics; molecular interactions; single-molecule manipulation.  
-    Moderators: Dave Thirumalai <thirum@glue.umd.edu>
+    Moderators: Dave Thirumalai
 *   **GN - Genomics**  
     DNA sequencing and assembly; gene and motif finding; RNA editing and alternative splicing; genomic structure and processes (replication, transcription, methylation, etc); mutational processes.  
-    Moderators: Ralf Bundschuh <bundschuh@mps.ohio-state.edu>
+    Moderators: Ralf Bundschuh 
 *   **MN - Molecular Networks**  
     gene regulation, signal transduction, proteomics, metabolomics, gene and enzymatic networks.  
     Moderator: Members of the subject area advisory board
 *   **SC - Subcellular Processes**  
     assembly and control of subcellular structures (channels, organelles, cytoskeletons, capsules, etc.); molecular motors, transport, subcellular localization; mitosis and meiosis.  
-    Moderator: Ned Wingreen <wingreen@princeton.edu>
+    Moderator: Ned Wingreen 
 *   **CB - Cell Behavior**  
     cell-cell signaling and interaction; morphogenesis and development; apoptosis; bacterial conjugation; viral-host interaction; immunology.  
-    Moderator: Herbert Levine <hlevine@ucsd.edu>
+    Moderator: Herbert Levine
 *   **NC - Neurons and Cognition**  
     synapse, cortex, neuronal dynamics, neural network, sensorimotor control, behavior, attention.  
-    Moderators: Gonzalo Polavieja <gonzalo.polavieja@cajal.csic.es> and Carson Chow <ccchow@pitt.edu>
+    Moderators: Gonzalo Polavieja and Carson Chow
 *   **TO - Tissues and Organs**  
     blood flow in vessels, biomechanics of bones, electrical waves, endocrine system, tumor growth.  
-    Moderator: Carson Chow <ccchow@pitt.edu>
+    Moderator: Carson Chow
 *   **PE - Populations and Evolution**  
     population dynamics, spatio-temporal and epidemiological models, dynamic speciation, co-evolution, biodiversity, foodwebs, aging; molecular evolution and phylogeny; directed evolution; origin of life.  
-    Moderators: Luca Peliti <Luca.Peliti@na.infn.it> and Richard Neher <richard.neher@tuebingen.mpg.de>
+    Moderators: Luca Peliti and Richard Neher
 *   **QM - Quantitative Methods**  
     all experimental, numerical, statistical and mathematical contributions of value to biology.  
-    Moderators: Ralf Bundschuh <bundschuh@mps.ohio-state.edu> and Eberhart Bodenschatz <eb22@cornell.edu>
+    Moderators: Ralf Bundschuh and Eberhart Bodenschatz
 *   **OT - Other**  
-    Moderators: Ralf Bundschuh <bundschuh@mps.ohio-state.edu>
+    Moderators: Ralf Bundschuh
 
 ### arXiv:q-bio advisory committee
 
