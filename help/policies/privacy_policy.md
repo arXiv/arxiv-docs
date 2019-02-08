@@ -11,7 +11,7 @@ The privacy notice was last revised on 2019-02-08.
 
 _Information we gather for anonymous browsing:_
 
-We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent) No attempt is made to deanonymize information we collect. 
+We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent). No attempt is made to deanonymize information we collect. 
 
 _Information you may provide as registered user:_
 
