@@ -28,4 +28,5 @@ For more information regarding the above policies, please see:
 
 ### Revision history
 
-2018-02-26 - Current version 1 created.
+- 2018-02-26 - Current version 1 created.
+$jinja {{ render_history(history) }} jinja$
