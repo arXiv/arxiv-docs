@@ -1,4 +1,4 @@
-The arXiv moderation system
+arXiv moderation
 ===========================
 
 arXiv is a forum for professional members of the scientific community.
