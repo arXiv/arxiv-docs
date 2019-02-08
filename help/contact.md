@@ -1,4 +1,4 @@
-Contacting arXiv administrators
+Contacting arXiv
 ===============================
 
 ## Technical queries
