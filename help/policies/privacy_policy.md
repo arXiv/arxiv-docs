@@ -5,7 +5,7 @@ The following privacy notice describes what information we collect from you when
 
 ## Effective Date of Privacy Notice
 
-The privacy notice was last revised on [date goes here].
+The privacy notice was last revised on 2019-02-08.
 
 ## What information we gather during your visit
 
