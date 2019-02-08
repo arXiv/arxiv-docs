@@ -1,13 +1,17 @@
 Contacting arXiv administrators
 ===============================
 
+## Technical queries
+
+For paper submission problems, accounts, etc.
+
 Before contacting us, please review our [help](/help) and [FAQ](/help/faq) pages to see if your problem is explained there.
 
 If you would like further assistance, please submit your questions via email. You may contact arXiv administrators at one of the addresses listed below. Please include a detailed description of your problem. Note that arXiv help and moderation 
 email addresses are monitored between 0900-1700 Eastern time, Monday through Friday, subject to
 administrator availability and the holiday schedule.
 
-For **technical queries** (including account or paper submission problems):
+For **technical queries** 
 
 -   Send a precise email, including all relevant details (especially paper ids, rejection ids, URLs, etc.) to <help@arxiv.org>.
 -   If you receive an automated response to your email, please read all
@@ -19,13 +23,15 @@ For **technical queries** (including account or paper submission problems):
     -   If your submission has failed, quote the rejection identifier in
         your email.
     -   If you need to correct files in your submission, [make a
-        replacement](replace.md).
+        replacement](replace).
     -   If you feel that a file is necessary to explain your problem,
         first send an email with as many details as possible and ask if
         the attachment is truly necessary.
 -   *Always* contact arXiv administrators before your submission is
-    [announced](versions.md) if there is a technical problem that
+    [announced](versions) if there is a technical problem that
     prevents processing.
+
+## Moderation queries
 
 For **moderation queries** (including questions about account status or
 submission modifications):
@@ -42,11 +48,12 @@ submission modifications):
 -   Please be *patient*, as moderation appeals are complicated and may
     take some time.
 
-For questions related to institutional contributions or other funding
-please see [arXiv funding support](support.md).
+## Membership and Giving
 
-If you are unsure as to where to direct your question, please send it to
-<help@arxiv.org> only.
+For questions related to institutional contributions or other funding
+please see [arXiv funding support](support).
+
+## Copyright infringement
 
 To contact Cornell University's designated agent for alleged copyright
 infringement, in accordance with the Digital Millennium Copyright Act,
