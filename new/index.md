@@ -1,3 +1,7 @@
+---
+title: arXiv News and Announcements
+---
+
 What's been New on the [arXiv.org](/) e-print archives
 ======================================================
 
