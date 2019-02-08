@@ -22,6 +22,14 @@ people:
     thumbnail: images/martin.jpg
     bio: |
       Martin is responsible for overseeing the day-to-day technical operations of the arXiv services and is supervisor to the members of the development team. He works closely with our Lead Software Architect in planning and executing the migration of arXiv’s legacy software system to the next generation architecture. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science (Cornell University).
+  janelle:
+    name: Janelle Morano
+    position: Community Engagement and Development Coordinator
+    orcid: https://orcid.org/0000-0001-5950-3313
+    twitter: janellelmorano
+    thumbnail:
+    bio: |
+      Janelle is responsible for the outreach and marketing program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Her background is in animal communication and ecology, with an M.S. in biology.
   oya:
     name: Oya Y. Rieger
     position: Program Director
@@ -53,4 +61,5 @@ $jinja {{ render_person(people.erick) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.jim) }} jinja$
+$jinja {{ render_person(people.janelle) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
