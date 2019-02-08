@@ -2,6 +2,8 @@
 slug: People
 ---
 
+# Who We Are
+
 arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by a small team of staff at Cornell University.
 
 For more information about who is arXiv please see:
