@@ -351,7 +351,7 @@ Two methods are supported for entering accented characters into arXiv.
 Here are the <span class="mathjax">La$\\TeX$</span> accents commands that can be used in the Title and
 Authors fields.
 
-<table border="1" cellpadding="3">
+<table class="table is-striped">
 <tr><td ><b>&#196;</b>&nbsp;&nbsp;&nbsp;\"A</td><td ><b>&#228;</b>&nbsp;&nbsp;&nbsp;\"a</td><td ><b>&#193;</b>&nbsp;&nbsp;&nbsp;\'A</td><td ><b>&#225;</b>&nbsp;&nbsp;&nbsp;\'a</td><td ><b>&#550;</b>&nbsp;&nbsp;&nbsp;\.A</td><td ><b>&#551;</b>&nbsp;&nbsp;&nbsp;\.a</td><td ><b>&#256;</b>&nbsp;&nbsp;&nbsp;\=A</td></tr>
 <tr><td ><b>&#257;</b>&nbsp;&nbsp;&nbsp;\=a</td><td ><b>&#194;</b>&nbsp;&nbsp;&nbsp;\^A</td><td ><b>&#226;</b>&nbsp;&nbsp;&nbsp;\^a</td><td ><b>&#192;</b>&nbsp;&nbsp;&nbsp;\`A</td><td ><b>&#224;</b>&nbsp;&nbsp;&nbsp;\`a</td><td ><b>&#260;</b>&nbsp;&nbsp;&nbsp;\k{A}</td><td ><b>&#261;</b>&nbsp;&nbsp;&nbsp;\k{a}</td></tr>
 <tr><td ><b>&#197;</b>&nbsp;&nbsp;&nbsp;\r{A}</td><td ><b>&#229;</b>&nbsp;&nbsp;&nbsp;\r{a}</td><td ><b>&#258;</b>&nbsp;&nbsp;&nbsp;\u{A}</td><td ><b>&#259;</b>&nbsp;&nbsp;&nbsp;\u{a}</td><td ><b>&#461;</b>&nbsp;&nbsp;&nbsp;\v{A}</td><td ><b>&#462;</b>&nbsp;&nbsp;&nbsp;\v{a}</td><td ><b>&#195;</b>&nbsp;&nbsp;&nbsp;\~A</td></tr>
