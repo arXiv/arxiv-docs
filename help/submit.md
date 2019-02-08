@@ -136,7 +136,7 @@ and the processed files. If you see any errors or are unhappy with the
 formatting then correct them or [contact arXiv
 administrators](/help/contact) if there are problems you cannot resolve.
 
-If discover an error after submission but before public announcement
+If you discover an error after submission but before public announcement
 then select the Unsubmit (![unsubmit icon](/images/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user) to
 return it to the [incomplete status](submit_status#incomplete) allowing
