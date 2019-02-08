@@ -56,7 +56,7 @@ In the content submission and moderation process we link user accounts, authorsh
 Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API. 
 
 
-The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users contact eligible arXiv endorsers in order to make their own submissions.
+The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users [contact eligible arXiv endorsers](https://arxiv.org/help/endorsement#request) in order to make their own submissions.
 
 _Fundraising:_ 
 
