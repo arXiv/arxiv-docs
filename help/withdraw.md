@@ -23,6 +23,7 @@ Article has been announced
 Articles that have been announced and made public cannot be completely removed.  A withdrawal creates a new version of the paper marked as withdrawn. That new version displays the reason for the withdrawal and does not link directly to the full text. Previous [versions](versions) will still be accessible, including the full text. Please see the example below.
 
 To submit a withdrawal
+
 - From your [user page](/user) select the Withdraw icon (![withdraw
 icon](/images/withdraw.png)) for the appropriate article in the
 "Articles You Own".
@@ -30,6 +31,7 @@ icon](/images/withdraw.png)) for the appropriate article in the
 **Comments** field. 
 
 Withdrawal reasons must be appropriate for the withdrawal to be accepted.
+
 - Withdrawal reasons will be displayed publicly so when writing the withdrawal reason please keep in mind that you are explaining the withdrawal to the readers of arXiv
 - It is not appropriate to withdraw a paper because it is published or submitted to a journal. Instead you could submit a [journal-ref](jref).
 - It is not appropriate to withdraw a paper because it is being updated. Instead you could submit a [replacement](replace).

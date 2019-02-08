@@ -2,11 +2,12 @@ To Subscribe to the E-Mail Alerting Service
 ===========================================
 
 If you would like to receive regular daily listings of the abstracts of
-new submissions by e-mail, then you can subscribe to this service as
-follows.
+new submissions by email, then you can subscribe to this service as
+follows. Note that the email must be sent as **plain text**. Richtext format 
+emails will be ignored by the system.
 
 1.  Determine which archive is of interest to you, and obtain its e-mail
-    address from the [list of available archives](archive_list).
+    address from the [list of available archives](/help/archive_list).
 
 2.  **For archives divided into subject classes:**  
     If the archive to which you are subscribing requires distinct
