@@ -11,8 +11,8 @@ engineering and systems science](/archive/eess), and
 [economics](/archive/econ). arXiv is maintained and operated by 
 [Cornell University](https://www.cornell.edu/) with
 guidance from the [arXiv Scientific Advisory
-Board](/help/scientific_ad_board) and the [arXiv Sustainability Advisory
-Group](/help/support/sustainability_advisory_group), and with the help
+Board](/help/scientific_ad_board) and the [arXiv Member Advisory
+Group](https://confluence.cornell.edu/display/arxivpub/Member+Advisory+Board), and with the help
 of numerous subject moderators.
 
 This page outlines the purpose of this resource and the general
