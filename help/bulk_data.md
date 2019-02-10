@@ -57,6 +57,6 @@ dataset also includes extracted citation data.
 
 #### Amazon S3
 
-For all articles the [processed PDF and source files available from
+For all articles the [processed PDF and source files are available from
 Amazon S3](bulk_data_s3.md). We recommend this method for bulk access to
 the full-text of arXiv articles.
