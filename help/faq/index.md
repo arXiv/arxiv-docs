@@ -66,9 +66,6 @@
 
   - [References to and in arXiv documents](references)
   - [Trackbacks - Links to blogs](../trackback)
-  - [Social Bookmarking](../social_bookmarking)
   - [Why don't you release statistics about paper
     retrieval?](statfaq)
-  - [Why the change to arXiv.org?](arxiv)
-
-![](doublesubscript.png)
+ 
