@@ -7,6 +7,48 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+
+
+#### January 2019
+
+<span id="jan14_2019" name="jan14_2019"></span>
+14 January 2019
+
+**arXiv Update:** A project update, including a brief summary of activities in 2018, has been <a href="https://confluence.cornell.edu/x/rIzLFQ">posted</a>.
+
+<span id="jan03_2019" name="jan03_2019"></span>
+3 January 2019
+
+**21 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 21 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 18 January 2019 and before 14:00 ET Tuesday, 22 January 2019 will be announced at 20:00 ET Tuesday, 22 January 2019.
+  
+  
+#### Dec 2018
+
+<span id="dec03_2018"></span>
+3 Dec 2018</a></dt>
+
+December 2018 Holiday Schedule:</b> The mailings and the public availability of new submissions will be deferred for 24 December, 25 December, and 27 December 2018, as well as 1 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
+
+- Articles received at or after 14:00 ET Thursday, 20 December 2018 and before 14:00 ET Friday, 21 December 2018 will be announced at 20:00 ET Sunday, 23 December 2018.
+- Articles received at or after 14:00 ET Friday, 21 December 2018 and before 14:00 ET Wednesday, 26 December 2018 will be announced at 20:00 ET Wednesday, 26 December 2018.
+- Articles received at or after 14:00 ET Wednesday, 26 December 2018 and before 14:00 ET Friday, 28 December 2018 will be announced at 20:00 ET Sunday, 30 December 2018.
+- Articles received at or after 14:00 ET Friday, 28 December 2018 and before 14:00 ET Monday, 31 December 2018 will be announced at 20:00 ET Monday, 31 December 2018.
+- Articles received at or after 14:00 ET Monday, 31 December 2018 and before 14:00 ET  Wednesday, 2 January 2019 will be announced at 20:00 ET Wednesday, 2 January 2019.
+...*Note:* articles submitted at or after 14:00 ET Monday, 31 December 2018 will receive arXiv:1901.nnnnn identifiers.
+  
+  
+  
+#### Nov 2018
+
+<span id="nov06_2018"></span>
+6 Nov 2018
+
+**Thanksgiving Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 22 November 2018. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during this periods. 
+
+- Articles received at or after 14:00 ET Wednesday, 21 November 2018 and before 14:00 ET Friday, 23 November 2018 will be announced at 20:00 ET Sunday, 25 November 2018.
+
 #### Sept 2018
 
 5 Sept 2018
