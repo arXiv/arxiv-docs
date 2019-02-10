@@ -44,12 +44,12 @@ Current Board members are:
 Subject Advisory Committees
 ---------------------------
 
-The [physics](/new/physics.html#advisory_committee),
-[mathematics](/new/math.html#advisory_committee), [computer science
-(CoRR)](http://arxiv.org/corr/advisorycommittee), [quantitative
-biology](/new/q-bio.html#advisory_committee), [quantitative
-finance](/new/q-fin.html#advisory_committee), and
-[statistics](/new/stat.html#advisory_committee) archives each have
+The [physics](/new/physics#advisory_committee),
+[mathematics](/new/math#advisory_committee), [computer science
+(CoRR)](/corr/advisorycommittee), [quantitative
+biology](/new/q-bio#advisory_committee), [quantitative
+finance](/new/q-fin#advisory_committee), and
+[statistics](/new/stat#advisory_committee) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as *ex
