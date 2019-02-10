@@ -36,6 +36,7 @@ December 2018 Holiday Schedule:</b> The mailings and the public availability of 
 - Articles received at or after 14:00 ET Wednesday, 26 December 2018 and before 14:00 ET Friday, 28 December 2018 will be announced at 20:00 ET Sunday, 30 December 2018.
 - Articles received at or after 14:00 ET Friday, 28 December 2018 and before 14:00 ET Monday, 31 December 2018 will be announced at 20:00 ET Monday, 31 December 2018.
 - Articles received at or after 14:00 ET Monday, 31 December 2018 and before 14:00 ET  Wednesday, 2 January 2019 will be announced at 20:00 ET Wednesday, 2 January 2019.
+
 ...*Note:* articles submitted at or after 14:00 ET Monday, 31 December 2018 will receive arXiv:1901.nnnnn identifiers.
   
   
