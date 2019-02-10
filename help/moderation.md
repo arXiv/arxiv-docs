@@ -125,7 +125,7 @@ Who are the arXiv moderators?
 
 [arXiv moderators](/moderators) are volunteer subject specialists who
 have been approved by their discipline-level [advisory
-committees](scientific_ad_board) and by arXiv staff.
+committees](scientific_ad_board#advisory_committees and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is very
 inappropriate to contact any moderator directly regarding your
