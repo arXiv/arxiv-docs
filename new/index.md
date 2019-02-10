@@ -11,12 +11,12 @@ What's been New on the [arXiv.org](/) e-print archives
 
 #### January 2019
 
-<span id="jan14_2019" name="jan14_2019"></span>
+<span id="jan14_2019"></span>
 14 January 2019
 
 **arXiv Update:** A project update, including a brief summary of activities in 2018, has been <a href="https://confluence.cornell.edu/x/rIzLFQ">posted</a>.
 
-<span id="jan03_2019" name="jan03_2019"></span>
+<span id="jan03_2019"></span>
 3 January 2019
 
 **21 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 21 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
@@ -27,7 +27,7 @@ What's been New on the [arXiv.org](/) e-print archives
 #### Dec 2018
 
 <span id="dec03_2018"></span>
-3 Dec 2018</a></dt>
+3 Dec 2018
 
 December 2018 Holiday Schedule:</b> The mailings and the public availability of new submissions will be deferred for 24 December, 25 December, and 27 December 2018, as well as 1 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
 
