@@ -41,8 +41,9 @@ Current Board members are:
 -   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona \|
     University of Oslo
 
-Subject Advisory Committees
----------------------------
+<span id="advisory_committees"></span>
+
+## Subject Advisory Committees
 
 The [physics](/new/physics#advisory_committee),
 [mathematics](/new/math#advisory_committee), [computer science
@@ -55,8 +56,7 @@ Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as *ex
 officio* members of the arXiv Scientific Advisory Board.
 
-Former Members of the arXiv Scientific Advisory Board
------------------------------------------------------
+## Former Members of the arXiv Scientific Advisory Board
 
 The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
