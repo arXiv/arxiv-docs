@@ -27,6 +27,7 @@ people:
     position: Community Engagement and Development Coordinator
     orcid: https://orcid.org/0000-0001-5950-3313
     twitter: janellelmorano
+    thumbnail: images/janelle.jpg
     bio: |
       Janelle is responsible for the outreach and marketing program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Her background is in animal communication and ecology, with an M.S. in biology.
   oya:
