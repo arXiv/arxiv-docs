@@ -1,3 +1,7 @@
+---
+title: Downloaded .gz Files that are not Gzipped
+---
+
 # Downloaded `.gz` Files that are not Gzipped
 
 PostScript and source files are always supplied [gzip
