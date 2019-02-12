@@ -1,6 +1,6 @@
 # About arXiv
 
-arXiv® is an e-print service in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Submissions to arXiv should conform to Cornell University academic standards. arXiv is owned and operated by [Cornell University](https://www.cornell.edu/), a private not-for-profit educational institution. arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/) and by the member institutions.
+arXiv® is an e-print service in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Submissions to arXiv should conform to Cornell University academic standards. arXiv is owned and operated by [Cornell University](https://www.cornell.edu/), a private not-for-profit educational institution. arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/) and by the [member institutions](https://confluence.cornell.edu/x/ALlRF).
 
 ## General Information
 
