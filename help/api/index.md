@@ -137,7 +137,7 @@ All of the simple examples produce an output which looks like:
 **Example: A Typical Atom Response (wrapped for ease of reading, [issue
 query
 now](http://export.arxiv.org/api/query?search_query=all:electron&id_list=&start=0&max_results=1))**
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom"
           xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"
@@ -183,6 +183,7 @@ now](http://export.arxiv.org/api/query?search_query=all:electron&id_list=&start=
         <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
       </entry>
     </feed>
+```
 
 ### Perl
 
@@ -192,6 +193,7 @@ and installed from
 [CPAN](http://search.cpan.org/~gaas/libwww-perl-5.836/lib/LWP.pm).
 Sample code to produce the above output is:
 
+```perl
     use LWP;
     use strict;
 
@@ -199,6 +201,7 @@ Sample code to produce the above output is:
     my $browser = LWP::UserAgent->new();
     my $response = $browser->get($url);
     print $response->content();
+```
 
 ### Python
 
@@ -208,11 +211,12 @@ library](http://docs.python.org/lib/lib.html), and is included in any
 default installation of python. Sample code to produce the above output
 is:
 
+```python
     import urllib
     url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1'
     data = urllib.urlopen(url).read()
     print data
-
+```
 ### Ruby
 
 The
@@ -222,21 +226,25 @@ part of the [ruby standard library](http://www.ruby-doc.org/stdlib/),
 and are included in any default installation of ruby. Sample code to
 produce the above output is:
 
+```ruby
     require 'net/http'
     require 'uri'
     url = URI.parse('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1')
     res = Net::HTTP.get_response(url)
     print res.body
+```
 
 #### PHP
 
 The file\_get\_contents() function is part of the PHP core language:
 
+```php
     <?php
     $url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1';
     $response = file_get_contents($url);
     print_r($response);
     ?>
+```
 
 ## arXiv API documentation
 
