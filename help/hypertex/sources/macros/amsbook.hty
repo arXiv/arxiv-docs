@@ -1,0 +1,7 @@
+{\catcode`\@=11
+\global\let\hyper@@@small\small
+\gdef\small{\protect\hyper@@@small}%
+\global\let\hyper@@@defaultfont\defaultfont
+\gdef\defaultfont{\protect\hyper@@@defaultfont}%
+}%
+

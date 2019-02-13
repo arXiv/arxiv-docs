@@ -3,65 +3,202 @@
 This project implements a markdown-driven static site for arXiv help
 documentation.
 
-## Site map and pages
+## Site structure
 
-The site content and structure are defined in [``site/``](site/).
-
-The overall structure of the site is defined by a [YAML](http://yaml.org/)
-file, [``site/sitemap.yaml``](site/sitemap.yaml).
-
-Each page should have at minimum the ``title`` and ``content_path`` properties.
-The ``title`` is used to generate the human-readable title in navigation,
-search, browser window, etc. The ``content_path`` is the path (relative to
-the sitemap) to a
-[markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-document containing the content of the page.
-
-The root of the sitemap is a single page. For example:
+Each site should be contained in a single directory. For example:
 
 ```
-title: "arXiv Help & Documentation"
-content_path: pages/index.md
-pages:
-  submission:
-    title: "Submission Policy"
-    content_path: pages/submission-policy.md
-  moderation:
-    title: "Moderation"
-    content_path: pages/moderation.md
-    pages:
-      ...
+mysite/
+├── index.md
+├── specifics/
+|   ├── impressive.png
+|   └── coolstory.md
+└── _templates
+    └── mysite
+        └── custom.html
 ```
 
-The ``pages`` property defines all of the child pages. Each key in ``pages``
-is the URL sub-path (relative to its parent) for that page. In the example
-above, a page with the title "Submission policy" will be served at
-``/submission``, using content from the document
-``pages/submission-policy.md``.
+Custom templates go in ``_templates/<SITE NAME>``.
 
-There is no limit to the number of levels into which pages can be nested in
-this way.
+### Pages
 
-**Note:** the path ``/search`` is reserved for the search interface.
+The directory structure in the site directory determines the site map. A
+file at ``foo/baz/bat.md`` will be served at
+``https://some.site/foo/baz/bat``. But note that the file
+``foo/baz/index.md`` will be served at ``https://some.site/foo/baz``.
 
-## Document rendering app
+Everything is relative. You can add a link in ``foo/baz/index.md``
+like ``[click here for cool](bat)``, and the link will be rendered as
+``https://some.site/foo/baz/bat``.
 
-The application that serves the site is located in [``docs/``](docs/).
+You can put static files in the same directory structure. If the page
+``specifics/coolstory.md`` has an image tag like
+``![my alt text](impressive.png)``, this will get rendered as
+``https://some.site/specifics/impressive.png``. In other words, it will just
+work.
 
-The easiest way to build and run the site is via
-[Docker](https://www.docker.com/).
+Only ``.md`` (markdown) files will be treated like pages. Everything else is
+general static content and won't get rendered like a page (fancy headers,
+etc).
 
-To build the site (from the root of this repository):
+Inside of your ``.md`` files, you can add some front-matter. For example,
+if you want the title in the browser tab and breadcrumbs to be different from
+whatever is in the content of the page, you could do:
+
+```markdown
+---
+title: This is the title that I like in the browser tab
+---
+# This is the title that gets displayed as an H1 on the page.
+
+Bacon ipsum dolor sit amet...
+```
+
+### Templates
+
+You can add custom templates (otherwise a generic arXiv template gets used,
+with nice breadcrumbs). For example, in one of your pages you could choose to
+use the template at ``_templates/mysite/custom.html`` by setting the
+frontmatter:
+
+```markdown
+---
+template: mysite/custom.html
+---
+```
+
+## Building a site
+
+### Building a local site with Flask
+
+To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
+
+The application for building and serving the site is located in ``markdown/`` (a submodule, pointing at https://github.com/arxiv/arxiv-markdown).
+
+If you're using this for the first time, you may need to do:
 
 ```bash
-$ docker build ./ -t arxiv/docs
+git submodule update --init
+cd markdown
+pipenv install
 ```
 
-To run the site:
+Then you can build with (from inside `./markdown`):
 
 ```bash
-$ docker run -it -p 8000:8000 arxiv/docs
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
 ```
 
-Point your browser at http://127.0.0.1:8000 ; you should see the root page of
-the site.
+You can serve the site with Flask, using:
+
+```bash
+SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite  FLASK_APP=app.py pipenv run flask run
+```
+
+Note that if you're trying to serve stuff in this repo, you can use a relative
+path like:
+
+```bash
+SOURCE_PATH=../help
+```
+
+### Building a local site with Docker
+
+You can use the ``Makefile`` in the root of this repo to build a site.
+
+You'll need [Docker](https://www.docker.com/products/docker-desktop) to do
+this.
+
+To build a site from a local directory, you can do something like:
+
+```bash
+make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
+```
+Note that as each folder in the root directory is served separately SOURCE_DIR needs to include the specific folder (ex 'help', 'about').
+
+You should see lots of things happening, and maybe this will take a few minutes
+if you have a big site. At the end, you should see something like:
+
+```bash
+Successfully built 297b169df71f
+Successfully tagged arxiv/mysite:0.1
+```
+
+Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
+
+You can then run the site by doing:
+
+```bash
+docker run -it -p 8000:8000 arxiv/mysite:0.1
+```
+
+In your browser, go to http://localhost:8000/mysite (or whatever
+page you want). Note http://localhost:8000 is what works in Ubuntu.
+
+### Building a remote site
+
+You can also build a site that is on GitHub, using a specific [tag](https://help.github.com/articles/working-with-tags/).
+
+You will need to pick a place on your computer to do the building. Preferably
+something in ``/tmp``.
+
+```bash
+make remote SOURCE_REF=0.1 IMAGE_NAME=arxiv/mysite REPO_ORG=arxiv REPO_NAME=arxiv-docs SOURCE_DIR=help
+```
+
+- ``SOURCE_REF=0.1`` This is the tag that you're building.
+- ``IMAGE_NAME=arxiv/mysite`` The name of the image that you're building.
+- ``REPO_ORG=arxiv`` The organization that owns the repo.
+- ``REPO_NAME=arxiv-docs`` The name of the repo.
+- ``SOURCE_DIR=help`` The directory in the repo that contains the site.
+
+This should work just like the local build, except that it might take a bit
+longer because it has to download things.
+
+### Configuration
+
+| Parameter | Used in Build | Used at Runtime | Description |
+| --- | :---: | :---: | --- |
+| SITE_NAME | Yes | Yes | Name of the site, used for building links. Must be lowercase alphanumeric. |
+| SOURCE_PATH | Yes | No | Path to the markdown source directory for the site. |
+| BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
+| SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
+| SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
+| SITE_SEARCH_ENABLED | Yes | Yes | If set to 0, the search feature is excluded (default: 1). |
+
+
+## Search
+
+You can access the search page at ``<SITE_URL_PREFIX>/search``.
+
+## Controlling the HTTP response (deletion, redirects)
+
+You can control the HTTP response to the user's agent using the ``response``
+key in the frontmatter. The following parameters are supported:
+
+| Parameter | Type | Default | Description |
+| :--- | :---: | :---: | :--- |
+| ``response.status`` | int | ``200`` | The HTTP status code for the response. |
+| ``response.location`` | str | None | Sets the ``Location`` header; this can be used to redirect the user. |
+| ``response.deleted`` | bool | ``false`` | If ``true``, a status code of ``404`` will be returned, and a special "deleted" template will be rendered. |
+
+### Example of a deleted page
+
+```
+---
+response:
+  deleted: true
+---
+This page was deleted because it was not that great.
+```
+
+
+### Example of a redirect
+
+```
+---
+response:
+  status: 301
+  location: the/new/location
+---
+```

@@ -103,3 +103,6 @@ src/
 temp/
 .DS_Store
 
+idx/
+idx_components/
+idx_static/
