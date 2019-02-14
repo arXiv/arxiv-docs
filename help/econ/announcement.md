@@ -10,7 +10,7 @@ The Economics arXiv will start with a single subject area of Econometrics, but a
 
 *   **econ.EM (econometrics)**: Econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data
 
-The arXiv allows to upload a new version of a paper anytime, while also maintaining all previous versions. This helps clarify academic priority of ideas, while at the same time always making the latest version of papers available.
+The arXiv allows authors to upload a new version of a paper anytime, while also maintaining all previous versions. This helps clarify academic priority of ideas, while at the same time always making the latest version of papers available.
 
 Manuscripts can be submitted in different formats. Latex files are preferred, but pdf files printed from a word processor other than TeX or LaTeX are also possible. Before submitting an article one needs to create a user account and in some cases an endorsement from an existing user may be necessary, but this should be unproblematic.
 
