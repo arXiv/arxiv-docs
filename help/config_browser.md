@@ -53,7 +53,7 @@ PDF
 The most common programs used to view PDF are:
 
 -   [Adobe's free Acrobat
-    Reader](http://www.adobe.com/products/acrobat/readermain.html) (also
+    Reader](https://acrobat.adobe.com/us/en/acrobat/pdf-reader.html) (also
     known as "acroread" on Linux/Unix systems), available on most
     platforms
 -   Apple's Preview, which comes preinstalled on Mac systems and
@@ -76,7 +76,7 @@ The source files for a paper are sent as a single compressed file. For
 papers without figures, this file is just the gzipped TeX/LaTeX source
 file. If the paper has several parts (e.g., LaTeX plus multiple
 figures), they will be bundled together in a single gzipped tar file for
-downloading. See our [unpacking notes](unpack.md).
+downloading. See our [unpacking notes](unpack).
 
 Most Unix/Linux web browsers will uncompress gzipped files but not untar
 them. Thus for multi-part files you need to use the **tar** command to
@@ -88,4 +88,4 @@ not uncompress automatically.
 <span class="note">Note:</span> You can recognize a tar file by the
 binary headers (\^@ characters) at the top of the file, followed by
 ordinary text. For info on unpacking tar files, see our [unpacking help
-page](unpack.md).
+page](unpack).

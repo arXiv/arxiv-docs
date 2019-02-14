@@ -1,7 +1,7 @@
 Why isn't a Person "Registered as an Author?"
 =============================================
 
-arXiv now maintains [authority records](authority.md), which link a
+arXiv now maintains [authority records](authority), which link a
 person's arXiv account with the papers that they have written. We say
 that a person is "registered as an author" if there is an authority
 record that links that person's account to a paper. Just as arXiv
@@ -31,15 +31,15 @@ author:
     owners who have the right to make changes to papers they submit.
     Currently, most people who are "registered as author(s)" are
     submitters, but co-authors can claim ownership of papers by using
-    the [paper password](passwords.md#twotypes) given to the submitters.
+    the [paper password](passwords#twotypes) given to the submitters.
 
     Submitters should share the paper password with their co-authors so
     that we can correctly register all of the authors of a paper. You
     can [claim ownership of a
-    paper](http://arxiv.org/auth/need-paper-password.php) immediately if
+    paper](http://arxiv.org/auth/need-paper-password) immediately if
     you have the paper password. If you cannot find the paper password,
     you can [request that our administrators grant you ownership of a
-    paper](http://arxiv.org/auth/request-ownership.php). Because it may
+    paper](http://arxiv.org/auth/request-ownership). Because it may
     take several days for administrators to get around to your request,
     this procedure should only be a last resort if you absolutely cannot
     get the paper password.
@@ -68,5 +68,5 @@ author:
 
     If you *own* a paper but are incorrectly registered as an author or
     non author, you can [change the authorship
-    status](http://arxiv.org/auth/change-author-status.php) of your
+    status](http://arxiv.org/auth/change-author-status) of your
     papers.
