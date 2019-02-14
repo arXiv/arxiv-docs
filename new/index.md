@@ -12,7 +12,7 @@ What's been New on the [arXiv.org](/) e-print archives
 <span id="feb13_2019"></span>
 13 February 2019
 
-**Help and About Pages Updated:** We have begun the process of updating our Help and About pages in a new template as part of the Next Gen rebuild. For more information please see [our blog post](https://blogs.cornell.edu/arxiv/2019/02/13/help-pages-update/).
+**Help and About Pages Updated:** We have begun the process of updating our Help and About pages in a new template as part of the Next Gen rebuild. For more information please see [our blog post](https://blogs.cornell.edu/arxiv/2019/02/14/help-pages-update/).
 
 
 #### January 2019
