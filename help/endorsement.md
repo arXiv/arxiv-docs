@@ -86,9 +86,9 @@ Who can endorse?
 Endorsers must have authored a certain number of papers within the
 *endorsement domain* of a subject area. The number of papers depends on
 the particular subject area, but has been set so that any active
-scientist who has been working in her field for a few years should be
-able to endorse if her work has been submitted to arXiv and if she is
-registered as an author of her papers. **Endorsement domains** have been
+scientist who has been working in their field for a few years should be
+able to endorse if their work has been submitted to arXiv and if they are
+registered as an author of their papers. **Endorsement domains** have been
 chosen to reflect related subject areas and ensure that it will be easy
 for people to find endorsements: most high-level subject areas (e.g.,
 hep-th, cond-mat, q-bio) are currently endorsement domains, with the
