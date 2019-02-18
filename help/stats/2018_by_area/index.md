@@ -55,29 +55,42 @@ Graphs of yearly submission rates by subject areas
 --------------------------------------------------
 
 ![all physics submissions by year](phys_yearly.png)
+
 <span id="cs_yearly"></span>
 ![cs submissions by year](cs_yearly.png)
+
 <span id="math_yearly"></span>
 ![math submissions by year](math_yearly.png)
+
 <span id="cond-mat_yearly"></span>
 ![cond-mat submissions by year](cond-mat_yearly.png)
+
 <span id="astro-ph_yearly"></span>
 ![astro-ph submissions by year](astro-ph_yearly.png)
+
 <span id="physics_yearly"></span>
 ![physics submissions by year](physics_yearly.png)
+
 <span id="hep_yearly"></span>
 ![HEP submissions by year](hep_yearly.png)
+
 <span id="quant-ph_gr-q_yearly"></span>
 ![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)    ![nucl-* submissions by year](nucl_yearly.png)
+
 <span id="stat_yearly"></span>
 ![stat submissions by year](stat_yearly.png)
+
 <span id="eess_yearly"></span>
 ![eess submissions by year](eess_yearly.png)
+
 <span id="q-bio_yearly"></span>
 ![q-bio submissions by year](q-bio_yearly.png)
+
 <span id="nlin_yearly"></span>
 ![nlin submissions by year](nlin_yearly.png)
+
 <span id="q-fin_yearly"></span>
 ![q-fin submissions by year](q-fin_yearly.png)
+
 <span id="econ_yearly"></span>
 ![econ submissions by year](econ_yearly.png)
