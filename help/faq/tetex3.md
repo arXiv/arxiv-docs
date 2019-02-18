@@ -49,4 +49,4 @@ There follows an incomplete list of common symptoms, errors and fixes:
     
     fix: don't use or include JHEP.cls, use latest JHEP3.cls or rely on arXiv's version.
     
-7.  mn.sty and mn2e.cls (Monthly Notices of the Royal Society) will not work. We don't have a fix yet, comments or suggestions to www-admin.
+7.  mn.sty and mn2e.cls (Monthly Notices of the Royal Society) will not work. We don't have a fix yet.
