@@ -1,3 +1,7 @@
+---
+title: Why do my user defined symbols display incorrectly
+---
+
 # Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.) display incorrectly in the processed document?
 
 By default, our system processes documents using
