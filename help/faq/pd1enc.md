@@ -1,3 +1,7 @@
+---
+title: Why do my user defined symbols display incorrectly
+---
+
 # Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.) display incorrectly in the processed document?
 
 By default, our system processes documents using
@@ -29,4 +33,4 @@ definitions using `\i, \l, \o, \ae,` and some common composites:
 
 To circumvent this problem, you should either avoid using the
 abbreviations above, or [disable
-HyperTeX](http://arxiv.org/help/faq/mistakes#nohypertex).
+HyperTeX](mistakes#nohypertex).

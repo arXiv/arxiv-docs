@@ -2,7 +2,7 @@ Economics archive (September 2017)
 ==================================
 
 The Economics archive ([econ](/archive/econ)) was
-[introduced](/help/econ/announcement) 26 September 2017.
+[introduced](announcement) 26 September 2017.
 
 The Economics archive currently only contains the single subject of
 Econometrics, but according to demand we expect to add more subject

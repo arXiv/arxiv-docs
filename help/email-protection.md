@@ -1,6 +1,14 @@
 Protecting your Privacy
 =======================
 
+Privacy Policy
+---------------------------------------
+
+Please see our [privacy policy](policies/privacy_policy). The information below is specific to display of submitter and author email.
+
+Submitter Email
+---------------------------------------
+
 Over the years, arXiv has occasionally received complaints from
 submitters regarding unsolicited physics-related e-mails apparently
 prompted by their submissions. Recently, spammers targeting more general
@@ -14,7 +22,7 @@ submitters from abuse. For example, submitter addresses are no longer
 visible on the abstract page of a paper; the submitter's address is
 instead available on a link that says **\[view email\]**. Access to this
 link requires one to logon, or first to
-[register](http://arxiv.org/user/register). For this function, users of
+[register](/user/register). For this function, users of
 mirror sites will be redirected to the main site, since only the main
 site currently supports authentication. The intent of this and other
 technical measures now in place is to make it difficult or impossible to
@@ -30,7 +38,7 @@ upload each submission to arXiv. There are two intended purposes:
 -   to give users the ability to send feedback on papers to the
     submitter
 -   to help users [contact eligible arXiv
-    endorsers](endorsement.md#request) in order to make their own
+    endorsers](endorsement#request) in order to make their own
     submissions
 
 arXiv monitors each user's requests to view email addresses. If a large
