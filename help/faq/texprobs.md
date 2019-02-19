@@ -11,8 +11,8 @@ There are a number of common reasons why the processed version of TeX submission
 *   [Why does my paper give the wrong date?](today)
 *   [Why do my citations appear in long form \[1,2,3,4\] instead of short form \[1-4\]?](citelinks)
 *   [Why do my user defined symbols (e.g., \\i, \\l, \\L, \\o, \\ae, etc.) display incorrectly in the processed document?](pd1enc)
-*   [Why are there problems with my postscript file?](/help/faq/psbad)
-*   [Why are some pages in the generated PDF file rotated and how do I avoid this?](/help/faq/pdfrotate)
+*   [Why are there problems with my postscript file?](psbad)
+*   [Why are some pages in the generated PDF file rotated and how do I avoid this?](pdfrotate)
 
 * * *
 
@@ -85,4 +85,4 @@ either in a particular PostScript figure or via a literal PostScript \\special i
 
 ## Extra white space around figures covers up some of the text
 
-These problems are characteristic of PostScript figures that have been created from PowerPoint. Microsoft PowerPoint does not generate appropriate PostScript code. If you must use PowerPoint to generate figures, you should export the figure to another format such as JPEG. JPEG figures can be included directly using [PDFLaTeX](http://arxiv.org/help/submit_tex#pdflatex), or they can be converted back to PostScript using a program such as '`[jpeg2ps](http://arxiv.org/help/bitmap/software#jpeg2ps)`'. The '`jpeg2ps`' program is freely available for all platforms.
+These problems are characteristic of PostScript figures that have been created from PowerPoint. Microsoft PowerPoint does not generate appropriate PostScript code. If you must use PowerPoint to generate figures, you should export the figure to another format such as JPEG. JPEG figures can be included directly using [PDFLaTeX](/help/submit_tex#pdflatex), or they can be converted back to PostScript using a program such as '`[jpeg2ps](/help/bitmap/software#jpeg2ps)`'. The '`jpeg2ps`' program is freely available for all platforms.
