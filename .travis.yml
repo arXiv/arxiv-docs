@@ -1,0 +1,118 @@
+language: python
+sudo: required
+services:
+- docker
+cache: pip
+os:
+- linux
+python:
+- '3.6'
+script:
+- pip install pipenv
+- pipenv install arxiv-marxdown
+
+deploy:
+# Deploy commits on working branches to development, named based on the branch
+# name.
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
+    ./deploy.sh marxdown development help
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
+- provider: script
+  script:
+    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
+    ./deploy.sh marxdown development corr
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
+- provider: script
+  script:
+    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
+    ./deploy.sh marxdown development hypertex
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
+- provider: script
+  script:
+    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
+    ./deploy.sh marxdown development about
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
+    ./deploy.sh marxdown development labs
+  on:
+    all_branches: true
+    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
+
+# Deploy tagged commits to staging.
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
+    ./deploy.sh marxdown staging help
+  on:
+    tags: true
+- provider: script
+  script:
+    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
+    ./deploy.sh marxdown staging corr
+  on:
+    tags: true
+- provider: script
+  script:
+    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
+    ./deploy.sh marxdown staging hypertex
+  on:
+    tags: true
+- provider: script
+  script:
+    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
+    ./deploy.sh marxdown staging about
+  on:
+    tags: true
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
+    ./deploy.sh marxdown staging labs
+  on:
+    tags: true
+
+
+# Deploy the develop branch to development.
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
+    ./deploy.sh marxdown development help
+  on:
+    branch: development
+- provider: script
+  script:
+    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
+    ./deploy.sh marxdown development corr
+  on:
+    branch: development
+
+- provider: script
+  script:
+    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
+    ./deploy.sh marxdown development hypertex
+  on:
+    branch: development
+
+- provider: script
+  script:
+    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
+    ./deploy.sh marxdown development about
+  on:
+    branch: development
+- provider: script
+  script:
+    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
+    ./deploy.sh marxdown development labs
+  on:
+    branch: development

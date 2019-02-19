@@ -1,3 +1,7 @@
+---
+title: Why do my citations appear in long form
+---
+
 # Why do my citations appear in long form [1,2,3,4] instead of short form [1-4]?
 
 Some latex packages such as the `cite` package normally show citations
