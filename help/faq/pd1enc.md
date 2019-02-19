@@ -33,4 +33,4 @@ definitions using `\i, \l, \o, \ae,` and some common composites:
 
 To circumvent this problem, you should either avoid using the
 abbreviations above, or [disable
-HyperTeX](http://arxiv.org/help/faq/mistakes#nohypertex).
+HyperTeX](mistakes#nohypertex).
