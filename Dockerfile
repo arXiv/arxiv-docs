@@ -43,12 +43,11 @@ RUN pipenv run python -m arxiv.marxdown.build
 ENTRYPOINT ["pipenv", "run", "uwsgi"]
 CMD ["--http-socket", ":8000", \
      "-M", \
+     "-T", \
      "-t 3000", \
      "--manage-script-name", \
      "--processes", "8", \
-     "--threads", "1", \
-     "--async", "100", \
-     "--ugreen", \
+     "--threads", "4", \
      "--mount", "/=arxiv.marxdown.wsgi:application", \
      "--static-map", "/static=${BUILD_PATH}/static", \
      "--static-map", "/_docs/static=/opt/arxiv/docs/static", \
