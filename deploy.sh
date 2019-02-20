@@ -111,7 +111,7 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
         --set=namespace=$ENVIRONMENT \
         --set=sub_path="/"$SITE_NAME \
         --tiller-namespace $ENVIRONMENT \
-        --namespace $ENVIRONMENT > 2> /dev/null
+        --namespace $ENVIRONMENT 2> /dev/null
 DEPLOY_EXIT=$?
 
 # Send the result back to GitHub.
