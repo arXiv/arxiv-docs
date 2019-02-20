@@ -36,6 +36,8 @@ USER_SA=${!SA_NAME}
 HELM_RELEASE=${CHART_NAME}-${SITE_NAME}-${ENVIRONMENT}
 DEPLOYMENT_HOSTNAME=${!DEPLOYMENT_HOSTNAME_VAR}
 
+if [ -z "$SITE_SEARCH_ENABLED" ]; then SITE_SEARCH_ENABLED="1"; fi
+
 if [ -z "${TRAVIS_TAG}" ]; then
     IMAGE_TAG=${TRAVIS_COMMIT}
 else
@@ -47,7 +49,6 @@ if [[ ! $TRAVIS_BRANCH =~ "^develop|master$" ]]; then
     SLUG_BRANCHNAME=$(echo $TRAVIS_BRANCH | iconv -t ascii//TRANSLIT | sed -E 's/[~\^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+\|-+$//g' | sed -E 's/^-+//g' | sed -E 's/-+$//g' | tr A-Z a-z);
     HELM_RELEASE=$CHART_NAME"-"$SITE_NAME"-"$SLUG_BRANCHNAME
     DEPLOYMENT_HOSTNAME=$CHART_NAME"-"$SLUG_BRANCHNAME"."$DEPLOYMENT_HOSTNAME
-
 else
     DEPLOYMENT_HOSTNAME=$CHART_NAME"."$DEPLOYMENT_HOSTNAME
 fi
@@ -97,6 +98,7 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
         --set=sub_path="/"$SITE_NAME \
+        --set=siteSearchEnabled=$SITE_SEARCH_ENABLED \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null \
     || helm install arxiv/$CHART_NAME \
@@ -110,6 +112,7 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
         --set=sub_path="/"$SITE_NAME \
+        --set=siteSearchEnabled=$SITE_SEARCH_ENABLED \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null
 DEPLOY_EXIT=$?
