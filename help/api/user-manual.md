@@ -283,6 +283,8 @@ A sample query using these new parameters looks like:
 
     http://export.arxiv.org/api/query?search_query=ti:"electron thermal conductivity"&sortBy=lastUpdatedDate&sortOrder=ascending
 
+<span id="api_response"></span>
+
 ### 3.2. The API Response
 
 Everything returned by the API in the body of the HTTP responses is Atom
@@ -292,6 +294,8 @@ for this purpose. Typically web sites with dynamic content such as news
 sites and blogs will publish their content as Atom or RSS feeds.
 However, Atom is a general format that embodies the concept of a list of
 items, and thus is well-suited to returning the arXiv search results.
+
+<span id="atom_feed_outline"></span>
 
 ### 3.3. Outline of an Atom feed
 
@@ -308,6 +312,8 @@ discussion on the [sample results feed](#response_example) discussed in
 the examples section.
 
 <sup> You may notice that the results from the API are ordered differently that the results given by the [HTML arXiv search interface](http://arxiv.org/find). The HTML interface automatically sorts results in descending order based on the date of their submission, while the API returns results according to relevancy from the internal search engine. Thus when debugging a search query, we encourage you to use the API within a web browser, rather than the HTML search interface. If you want sorting by date, you can always do this within your programs by reading the `<published>` tag for each entry as explained [below](#title_id_published_updated). </sup>
+
+<span id="_feed_metadata"></span>
 
 #### 3.3.1. Feed Metadata {#_feed_metadata}
 
@@ -326,6 +332,8 @@ Atom feed:
 You will notice that three XML namespaces are defined. The default
 namespace signifies that we are dealing with Atom 1.0. The other two
 namespaces define extensions to Atom that we describe below.
+
+<span id="_lt_title_gt_lt_id_gt_lt_link_gt_and_lt_updated_gt"></span>
 
 ##### 3.3.1.1. &lt;title&gt;, &lt;id&gt;, &lt;link&gt; and &lt;updated&gt;
 
@@ -368,6 +376,8 @@ were last updated:
 
 <sup>Because the arXiv submission process works on a 24 hour submission cycle, new articles are only available to the API on the midnight *after* the articles were processed. The `<updated>` tag thus reflects the midnight of the day that you are calling the API. **This is very important** - search results do not change until new articles are added. Therefore there is no need to call the API more than once in a day for the same query. Please cache your results. This primarily applies to production systems, and of course you are free to play around with the API while you are developing your program!</sup>
 
+<span id="_opensearch_extension_elements"></span>
+
 ##### 3.3.1.2. OpenSearch Extension Elements
 
 There are several extension elements defined in the OpenSearch namespace
@@ -401,6 +411,8 @@ results](#paging). The other two elements `<opensearch:startIndex>`, and
        1
     </opensearch:itemsPerPage>
 
+<span id="_entry_metadata"></span>
+
 #### 3.3.2. Entry Metadata {#_entry_metadata}
 
 If there are no errors, the `<feed>` element contains 0 or more child
@@ -410,7 +422,9 @@ there are errors, a single `<entry>` element representing the error is
 returned. Below the element description describes the elements for
 `<entry>`'s representing arXiv articles. For a general discussion of
 arXiv metadata, see the [arXiv metadata
-explanation](http://arxiv.org/help/prep).
+explanation](/help/prep).
+
+<span id="title_id_published_updated"></span>
 
 ##### 3.3.2.1. &lt;title&gt;, &lt;id&gt;, &lt;published&gt;, and &lt;updated&gt;
 
@@ -445,6 +459,8 @@ query](http://export.arxiv.org/api/query?id_list=cond-mat/0702661v2)).
     <updated xmlns="http://www.w3.org/2005/Atom">
         2007-06-25T17:09:59-04:00
     </updated>
+
+<span id="_lt_summary_gt_lt_author_gt_and_lt_category_gt"></span>
 
 ##### 3.3.2.2. &lt;summary&gt;, &lt;author&gt; and &lt;category&gt;
 
@@ -493,6 +509,8 @@ to an ACM category. See [&lt;arxiv&gt; extension
 elements](#extension_elements) below for information on how to identify
 the arXiv primary category.
 
+<span id="entry_links"></span>
+
 ##### 3.3.2.3. &lt;link&gt;'s
 
 For each entry, there are up to three `<link>` elements, distinguished
@@ -511,6 +529,8 @@ For example:
     <link xmlns="http://www.w3.org/2005/Atom" href="http://arxiv.org/abs/hep-ex/0307015v1" rel="alternate" type="text/html"/>
     <link xmlns="http://www.w3.org/2005/Atom" title="pdf" href="http://arxiv.org/pdf/hep-ex/0307015v1" rel="related" type="application/pdf"/>
     <link xmlns="http://www.w3.org/2005/Atom" title="doi" href="http://dx.doi.org/10.1529/biophysj.104.047340" rel="related"/>
+
+<span id="extension_elements"></span>
 
 ##### 3.3.2.4. &lt;arxiv&gt; extension elements
 
@@ -562,6 +582,8 @@ If the author has provided a DOI for the article, then there will be a
     <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">
        10.1529/biophysj.104.047340
     </arxiv:doi>
+
+<span id="errors"></span>
 
 ### 3.4. Errors
 
