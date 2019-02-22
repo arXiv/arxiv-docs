@@ -46,6 +46,8 @@ Elements](#_opensearch_extension_elements)
 Returned](#_details_of_atom_results_returned)  
   [5.3. Subject Classifications](#subject_classifications)  
 
+<span id="_preface"></span>
+
 ## 1. Preface
 
 The arXiv API allows programmatic access to the hundreds of thousands of
@@ -62,6 +64,8 @@ including perl, python and ruby, see the [Examples](#Examples) section.
 
 Finally, the [Appendices](#Appendices) contain an explanation of all
 input parameters to the API, as well as the output format.
+
+<span id="Quickstart"></span>
 
 ## 2. API QuickStart
 
@@ -123,6 +127,8 @@ on [the API response](#api_response). To learn more about writing
 programs to call the API, and digest the responses, we suggest starting
 with the section on [Structure of the API](#Architecture).
 
+<span id="Architecture"></span>
+
 ## 3. Structure of the API {#Architecture}
 
 In this section, we'll go over some of the details of interacting with
@@ -150,6 +156,8 @@ the API. A diagram of a typical API call is shown below:
     response body will contain the Atom response content as shown in the
     [example response](#response_example).
 
+<span id="_calling_the_api"></span>
+
 ### 3.1. Calling the API {#_calling_the_api}
 
 As mentioned above, the API can be called with an HTTP request of type
@@ -162,6 +170,8 @@ The parameters for each of the API methods are explained below. For each
 method, the base url is
 
     http://export.arxiv.org/api/{method_name}?{parameters}
+
+<span id="_query_interface"></span>
 
 #### 3.1.1. Query Interface {#_query_interface}
 
@@ -177,6 +187,8 @@ Parameters are separated with the `&` sign in the constructed url's.
 |       | `id_list`      | comma-delimited string | None         | No           |
 |       | `start`        | int                    | 0            | No           |
 |       | `max_results`  | int                    | 10           | No           |
+
+<span id="search_query_and_id_list"></span>
 
 ##### 3.1.1.1. search\_query and id\_list logic
 
@@ -209,6 +221,8 @@ This is summarized in the following table:
 | no                         | yes                   | articles that are in `id_list`                       |
 | yes                        | yes                   | articles in `id_list` that also match `search_query` |
 
+<span id="paging"><span>
+    
 ##### 3.1.1.2. start and max\_results paging
 
 Many times there are hundreds of results for an API query. Rather than
@@ -253,6 +267,8 @@ metadata harvesting or set information, etc., the
 appropriate explanation. A request for 30000 results will typically take
 a little over 2 minutes to return a response of over 15MB. Requests for
 fewer results are much faster and correspondingly smaller.
+
+<span id="sort"></span>
 
 ##### 3.1.1.3. sort order for return results
 
