@@ -631,6 +631,8 @@ The following table gives information on errors that might occur.
 | <http://export.arxiv.org/api/query?id_list=1234.1234>                                                                     | malformed id - see [arxiv identifier explanation](http://arxiv.org/help/arxiv_identifier#new) |
 | [http://export.arxiv.org/api/query?id\_list=cond—mat/0709123](http://export.arxiv.org/api/query?id_list=cond—mat/0709123) | malformed id - see [arxiv identifier explanation](http://arxiv.org/help/arxiv_identifier#new) |
 
+<span id="Examples"></span>
+
 ## 4. Examples
 
 Once you have familiarized yourself with the API, you should be able to
@@ -657,6 +659,8 @@ include:
 
 -   [PHP](http://www.php.net) (via file\_get\_contents())
     ([example](#php_simple_example))
+    
+<span id="_simple_examples"></span>
 
 ### 4.1. Simple Examples
 
@@ -706,6 +710,8 @@ Example: A Typical Atom Response
       </entry>
     </feed>
 
+<span id="perl_simple_example"></span>
+
 #### 4.1.1. Perl
 
 [LWP](http://search.cpan.org/%3Csub%3Egaas/libwww-perl-5.808/lib/LWP.pm)
@@ -722,6 +728,8 @@ Sample code to produce the above output is:
     my $response = $browser->get($url);
     print $response->content();
 
+<span id="python_simple_example"></span>
+
 #### 4.1.2. Python
 
 The [urllib](http://docs.python.org/lib/module-urllib.html) module is
@@ -734,6 +742,8 @@ is:
     url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1'
     data = urllib.urlopen(url).read()
     print data
+
+<span id="ruby_simple_example"></span>
 
 #### 4.1.3. Ruby
 
@@ -750,6 +760,8 @@ produce the above output is:
     res = Net::HTTP.get_response(url)
     print res.body
 
+<span id="php_simple_example"></span>
+
 #### 4.1.4. PHP
 
 The file\_get\_contents() function is part of the PHP core language:
@@ -759,6 +771,8 @@ The file\_get\_contents() function is part of the PHP core language:
     $response = file_get_contents($url);
     print_r($response);
     ?>
+
+<span id="detailed_examples"></span>
 
 ### 4.2. Detailed Parsing Examples
 
@@ -777,7 +791,11 @@ languages above, as well as to the libraries used to parse Atom.
 | Ruby     | [feedtools](http://sporkmonger.com/2005/08/11/tutorial)      | [parsing](examples/ruby_arXiv_parsing_example.txt)   | [paging](examples/ruby_arXiv_paging_example.txt)   |
 | PHP      | [SimplePie](http://simplepie.org/)                           | [parsing](examples/php_arXiv_parsing_example.txt)    | [paging](examples/php_arXiv_paging_example.txt)    |
 
+<span id="Appendices"></span>
+
 ## 5. Appendices
+
+<span id="query_details"></span>
 
 ### 5.1. Details of Query Construction
 
@@ -886,6 +904,8 @@ grouping operators used in the API.
 | double quotes | %22 %22      | Used to group multiple words into phrases to search a particular field. |
 | space         | \+           | Used to extend a `search_query` to include multiple fields.             |
 
+<span id="_a_note_on_article_versions"></span>
+
 #### 5.1.1. A Note on Article Versions {#_a_note_on_article_versions}
 
 Each arXiv article has a version associated with it. The first time an
@@ -905,6 +925,8 @@ could use the query
 <http://export.arxiv.org/api/query?id_list=cond-mat/0207270>. To
 retrieve the very first version of this article, you could use the query
 <http://export.arxiv.org/api/query?id_list=cond-mat/0207270v1>
+
+<span id="_details_of_atom_results_returned"></span>
 
 ### 5.2. Details of Atom Results Returned
 
@@ -937,6 +959,7 @@ Feed](#atom_feed_outline).
 | `<arxiv:affiliation>`       | The author's affiliation included as a subelement of `<author>` if present.                                                    |
 | `<arxiv:journal_ref>`       | A journal reference if present.                                                                                                |
 | `<arxiv:doi>`               | A url for the resolved DOI to an external resource if present.                                                                 |
+<span id="subject_classifications"></span>
 
 ### 5.3. Subject Classifications
 
