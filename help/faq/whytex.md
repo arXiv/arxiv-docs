@@ -54,8 +54,10 @@ Frequent Red Herring Concerns:
 ```
     
 or use the one line command
-    
-    > `perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex`
+
+```bash    
+  perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
+```
     
 *   **I use the Textures program. Won't the archive destroy my paper's beautiful formatting?**
     
