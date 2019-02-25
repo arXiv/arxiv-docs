@@ -53,7 +53,7 @@ Frequent Red Herring Concerns:
   exit(0);  
 ```
     
-    or use the one line command
+or use the one line command
     
     > `perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex`
     
