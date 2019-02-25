@@ -11,6 +11,7 @@ Why Submit the TeX/LaTeX Source?
 
 
 <span id="contextual"></span>
+
 What is "Contextual" Information, and Why is it Important?
 ----------------------------------------------------------
 
@@ -42,18 +43,23 @@ Frequent Red Herring Concerns:
     
     As with the above question, it is quite easy for someone with a little knowledge to extract anything they like from the output PDF or Posctript file. Furthermore, unauthorized or un-attributed use of figures counts as plagiarism, just as above, so the rest of the above discussion applies here as well.
     
+<span id="comments"></span>
+
 *   **What if my TeX source has potentially embarrassing self-comments in it?**
     
     Well... you should probably take them out. It is easy to strip these out in advance of submitting. Here is a Perl filter to do it. Please, please do not hurt yourself with this script; save your file and do not write over the backup copy... just in case.
+
+```perl  
+  #!/usr/local/bin/perl  
+  while(<STDIN>){ s/^\%.*$/\%/; s/([^\\])\%.*$/\1\%/g; print; }  
+  exit(0);  
+```
     
-    > `#!/usr/local/bin/perl  
-    > while(<STDIN>){ s/^\%.*$/\%/; s/([^\\])\%.*$/\1\%/g; print; }  
-    > exit(0);  
-    > `
-    
-    or use the one line command
-    
-    > `perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex`
+or use the one line command
+
+```bash    
+  perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
+```
     
 *   **I use the Textures program. Won't the archive destroy my paper's beautiful formatting?**
     
