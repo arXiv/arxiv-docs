@@ -275,31 +275,25 @@ over XXXX million downloads in 2018
 |	248	|	univ-paris-diderot.fr	|	0.10%	|	26052	|
 |	249	|	upc.es	|	0.09%	|	25961	|
 |	250	|	au.dk	|	0.09%	|	25957	|
-|	251	|	uvic.ca	|	0.09%	|	25617	|
-|	252	|	ifpan.edu.pl	|	0.09%	|	25460	|
-|	253	|	ucd.ie	|	0.09%	|	25446	|
-|	254	|	wits.ac.za	|	0.09%	|	25164	|
 
 
 (*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:
-<ul> <li>desy.de includes downloads from ifh.de.</li>
-<li>illinois.edu includes downloads from uiuc.edu.</li>
-<li>inaf.it includes downloads from astro.it.</li>
-<li>manchester.ac.uk includes downloads from man.ac.uk.</li>
-<li>mpg.de includes downloads from aei.mpg.de, age.mpg.de, bgc-jena.mpg.de, biochem.mpg.de, biophys.mpg.de, brain.mpg.de, cbs.mpg.de, cec.mpg.de, coll.mpg.de, cpfs.mpg.de, demogr.mpg.de, ds.mpg.de, em.mpg.de, enzyme-halle.mpg.de, eva.mpg.de, fhi-berlin.mpg.de, fkf.mpg.de, gwdg.de, hll.mpg.de, ice.mpg.de, ie-freiburg.mpg.de, ip.mpg.de, ipp.mpg.de, is.mpg.de, mis.mpg.de, mmg.mpg.de, molgen.mpg.de, mpa-garching.mpg.de, mpcdf.mpg.de, mpdl.mpg.de, mpe-garching.mpg.de, mpe.mpg.de, mpi-dortmund.mpg.de, mpi-fg-koeln.mpg.de, mpi-halle.mpg.de, mpi-hd.mpg.de, mpi-inf.mpg.de, mpi-klsb.mpg.de, mpi-magdeburg.mpg.de, mpi-muelheim.mpg.de, mpi-sb.mpg.de, mpi-stuttgart.mpg.de, mpia-hd.mpg.de, mpib-berlin.mpg.de, mpibpc.mpg.de, mpie-duesseldorf.mpg.de, mpifr-bonn.mpg.de, mpih-frankfurt.mpg.de, mpiib-berlin.mpg.de, mpikg.mpg.de, mpim-bonn.mpg.de, mpimet.mpg.de, mpimp-golm.mpg.de, mpip-mainz.mpg.de, mpipks-dresden.mpg.de, mpipriv-hh.mpg.de, mpipz.mpg.de, mpiwg-berlin.mpg.de, mppmu.mpg.de, mpq.mpg.de, mps.mpg.de, neuro.mpg.de, nf.mpg.de, orn.mpg.de, psych.mpg.de, rz-berlin.mpg.de, rzg.mpg.de, sf.mpg.de, shh.mpg.de, tuebingen.mpg.de, vw.mpg.de.</li>
-<li>riken.jp includes downloads from riken.go.jp.</li>
-<li>stonybrook.edu includes downloads from sunysb.edu.</li>
-<li>sydney.edu.au includes downloads from usyd.edu.au.</li>
-<li>tkk.fi includes downloads from aalto.fi, hut.fi.</li>
-<li>tu-dortmund.de includes downloads from uni-dortmund.de.</li>
-<li>tu-graz.ac.at includes downloads from tugraz.at.</li>
-<li>tudelft.nl includes downloads from tudelft.net.</li>
-<li>tum.de includes downloads from tu-muenchen.de.</li>
-<li>ucsd.edu includes downloads from sdsc.edu.</li>
-<li>uni-karlsruhe.de includes downloads from fzk.de, kit.edu.</li>
-<li>uni-saarland.de includes downloads from uni-sb.de.</li>
-<li>upmc.fr includes downloads from jussieu.fr.</li></ul>
+  *desy.de includes downloads from ifh.de.
+  *illinois.edu includes downloads from uiuc.edu.
+  *inaf.it includes downloads from astro.it.
+  *manchester.ac.uk includes downloads from man.ac.uk.
+  *mpg.de includes downloads from aei.mpg.de, age.mpg.de, bgc-jena.mpg.de, biochem.mpg.de, biophys.mpg.de, brain.mpg.de, cbs.mpg.de, cec.mpg.de, coll.mpg.de, cpfs.mpg.de, demogr.mpg.de, ds.mpg.de, em.mpg.de, enzyme-halle.mpg.de, eva.mpg.de, fhi-berlin.mpg.de, fkf.mpg.de, gwdg.de, hll.mpg.de, ice.mpg.de, ie-freiburg.mpg.de, ip.mpg.de, ipp.mpg.de, is.mpg.de, mis.mpg.de, mmg.mpg.de, molgen.mpg.de, mpa-garching.mpg.de, mpcdf.mpg.de, mpdl.mpg.de, mpe-garching.mpg.de, mpe.mpg.de, mpi-dortmund.mpg.de, mpi-fg-koeln.mpg.de, mpi-halle.mpg.de, mpi-hd.mpg.de, mpi-inf.mpg.de, mpi-klsb.mpg.de, mpi-magdeburg.mpg.de, mpi-muelheim.mpg.de, mpi-sb.mpg.de, mpi-stuttgart.mpg.de, mpia-hd.mpg.de, mpib-berlin.mpg.de, mpibpc.mpg.de, mpie-duesseldorf.mpg.de, mpifr-bonn.mpg.de, mpih-frankfurt.mpg.de, mpiib-berlin.mpg.de, mpikg.mpg.de, mpim-bonn.mpg.de, mpimet.mpg.de, mpimp-golm.mpg.de, mpip-mainz.mpg.de, mpipks-dresden.mpg.de, mpipriv-hh.mpg.de, mpipz.mpg.de, mpiwg-berlin.mpg.de, mppmu.mpg.de, mpq.mpg.de, mps.mpg.de, neuro.mpg.de, nf.mpg.de, orn.mpg.de, psych.mpg.de, rz-berlin.mpg.de, rzg.mpg.de, sf.mpg.de, shh.mpg.de, tuebingen.mpg.de, vw.mpg.de.
+  *riken.jp includes downloads from riken.go.jp.
+  *stonybrook.edu includes downloads from sunysb.edu.
+  *sydney.edu.au includes downloads from usyd.edu.au.
+  *tkk.fi includes downloads from aalto.fi, hut.fi.
+  *tu-dortmund.de includes downloads from uni-dortmund.de.
+  *tu-graz.ac.at includes downloads from tugraz.at.
+  *tudelft.nl includes downloads from tudelft.net.
+  *tum.de includes downloads from tu-muenchen.de.
+  *ucsd.edu includes downloads from sdsc.edu.
+  *uni-karlsruhe.de includes downloads from fzk.de, kit.edu.
+  *uni-saarland.de includes downloads from uni-sb.de.
+ *upmc.fr includes downloads from jussieu.fr.
 
 (na) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
-
-
