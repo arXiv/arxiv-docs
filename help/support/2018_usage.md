@@ -20,8 +20,8 @@ commercial ISPs which are not included. Clients with host names that
 don't resolve or off-campus accesses will lead to undercounting, failure
 to recognize institutional domain names will exclude those institutions
 and undercount the total institutional downloads.) We have identified
-XXXX million downloads from institutional domain names out of a total of
-over XXXX million downloads in 2018
+27 million downloads from institutional domain names out of a total of
+over 228 million downloads in 2018
 
 |	Rank	|	Institutional Domain	|	Percentage of Total	|	Number of Article Downloads	|
 |	:----:	|	--------------	|	----:	|	----:	|
