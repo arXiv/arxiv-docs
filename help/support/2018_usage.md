@@ -2,7 +2,7 @@
 ===================================
 
 The following table is a compilation of arXiv downloads for calendar
-year 2018 for the 200 heaviest user institutions. See also [arXiv
+year 2018 for the 250 heaviest user institutions. See also [arXiv
 Support](../support).
 
 **Caveats:** While we have taken considerable effort to extract reliable
