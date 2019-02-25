@@ -28,7 +28,7 @@ over XXXX million downloads in 2018
 |	1	|	cam.ac.uk	|	1.70%	|	464575	|
 |	2	|	mit.edu	|	1.68%	|	459752	|
 |	3	|	berkeley.edu	|	1.66%	|	454036	|
-|	4	|	(*)mpg.de	|	1.57%	|	428290	|
+|	4	|	(\*)mpg.de	|	1.57%	|	428290	|
 |	5	|	stanford.edu	|	1.41%	|	386310	|
 |	6	|	ethz.ch	|	1.30%	|	354636	|
 |	7	|	ox.ac.uk	|	1.20%	|	328173	|
@@ -37,7 +37,7 @@ over XXXX million downloads in 2018
 |	10	|	princeton.edu	|	1.12%	|	305632	|
 |	11	|	ic.ac.uk	|	1.03%	|	282060	|
 |	12	|	columbia.edu	|	1.01%	|	276197	|
-|	13	|	(*)illinois.edu	|	0.95%	|	260051	|
+|	13	|	(\*)illinois.edu	|	0.95%	|	260051	|
 |	(14)	|	jhu.edu	|	na	|	250224	|
 |	15	|	kyoto-u.ac.jp	|	0.90%	|	245725	|
 |	16	|	epfl.ch	|	0.84%	|	229977	|
@@ -48,7 +48,7 @@ over XXXX million downloads in 2018
 |	21	|	ucl.ac.uk	|	0.78%	|	213641	|
 |	22	|	hku.hk	|	0.77%	|	211541	|
 |	23	|	gatech.edu	|	0.76%	|	208509	|
-|	24	|	uchicago.edu	|	na	|	207211	|
+|	(24)	|	uchicago.edu	|	na	|	207211	|
 |	25	|	nyu.edu	|	0.75%	|	205567	|
 |	26	|	utexas.edu	|	0.71%	|	193789	|
 |	27	|	ed.ac.uk	|	0.70%	|	192425	|
@@ -57,17 +57,17 @@ over XXXX million downloads in 2018
 |	30	|	uwaterloo.ca	|	0.70%	|	190366	|
 |	31	|	ucsb.edu	|	0.68%	|	186441	|
 |	32	|	utoronto.ca	|	0.66%	|	181534	|
-|	33	|	washington.edu	|	na	|	176737	|
+|	(33)	|	washington.edu	|	na	|	176737	|
 |	34	|	umn.edu	|	0.64%	|	174422	|
 |	35	|	ucla.edu	|	0.63%	|	173072	|
 |	36	|	upenn.edu	|	0.61%	|	167661	|
 |	37	|	harvard.edu	|	0.61%	|	165866	|
 |	38	|	ust.hk	|	0.60%	|	164279	|
-|	39	|	(*)desy.de	|	0.55%	|	151599	|
-|	40	|	(*)stonybrook.edu	|	0.55%	|	151512	|
+|	39	|	(\*)desy.de	|	0.55%	|	151599	|
+|	40	|	(\*)stonybrook.edu	|	0.55%	|	151512	|
 |	41	|	uni-heidelberg.de	|	0.54%	|	148463	|
 |	42	|	cmu.edu	|	0.54%	|	147836	|
-|	43	|	(*)uni-karlsruhe.de	|	0.52%	|	142841	|
+|	43	|	(\*)uni-karlsruhe.de	|	0.52%	|	142841	|
 |	44	|	rutgers.edu	|	0.52%	|	141123	|
 |	45	|	yale.edu	|	0.51%	|	138451	|
 |	46	|	ntu.edu.tw	|	0.50%	|	137695	|
@@ -75,10 +75,10 @@ over XXXX million downloads in 2018
 |	48	|	uni-bonn.de	|	0.50%	|	136752	|
 |	49	|	purdue.edu	|	0.50%	|	136477	|
 |	50	|	ubc.ca	|	0.48%	|	130127	|
-|	51	|	(*)tudelft.nl	|	0.47%	|	127375	|
-|	52	|	(*)sydney.edu.au	|	0.42%	|	114884	|
+|	51	|	(\*)tudelft.nl	|	0.47%	|	127375	|
+|	52	|	(\*)sydney.edu.au	|	0.42%	|	114884	|
 |	53	|	colorado.edu	|	0.42%	|	114226	|
-|	54	|	(*)tum.de	|	0.41%	|	111392	|
+|	54	|	(\*)tum.de	|	0.41%	|	111392	|
 |	55	|	nthu.edu.tw	|	0.41%	|	111375	|
 |	56	|	rwth-aachen.de	|	0.41%	|	110973	|
 |	57	|	tohoku.ac.jp	|	0.40%	|	109852	|
@@ -88,7 +88,7 @@ over XXXX million downloads in 2018
 |	61	|	northwestern.edu	|	0.38%	|	104900	|
 |	62	|	uni-freiburg.de	|	0.38%	|	104487	|
 |	63	|	bu.edu	|	0.37%	|	101267	|
-|	64	|	(*)ucsd.edu	|	0.36%	|	98226	|
+|	64	|	(\*)ucsd.edu	|	0.36%	|	98226	|
 |	65	|	uni-mainz.de	|	0.35%	|	96034	|
 |	66	|	univie.ac.at	|	0.34%	|	94249	|
 |	67	|	ufl.edu	|	0.34%	|	93197	|
@@ -102,7 +102,7 @@ over XXXX million downloads in 2018
 |	75	|	nagoya-u.ac.jp	|	0.31%	|	85888	|
 |	76	|	uzh.ch	|	0.31%	|	84925	|
 |	77	|	tu-darmstadt.de	|	0.31%	|	84858	|
-|	78	|	(*)riken.jp	|	0.31%	|	84857	|
+|	78	|	(\*)riken.jp	|	0.31%	|	84857	|
 |	79	|	vt.edu	|	0.30%	|	82587	|
 |	80	|	tu-berlin.de	|	0.30%	|	81911	|
 |	81	|	warwick.ac.uk	|	0.30%	|	81838	|
@@ -121,15 +121,15 @@ over XXXX million downloads in 2018
 |	94	|	umontreal.ca	|	0.27%	|	72653	|
 |	95	|	postech.ac.kr	|	0.25%	|	69347	|
 |	96	|	su.se	|	0.25%	|	68828	|
-|	97	|	(*)manchester.ac.uk	|	0.25%	|	68419	|
+|	97	|	(\*)manchester.ac.uk	|	0.25%	|	68419	|
 |	98	|	uu.se	|	0.25%	|	68391	|
 |	99	|	rug.nl	|	0.25%	|	67064	|
 |	100	|	uni-hannover.de	|	0.24%	|	66702	|
 |	101	|	unimelb.edu.au	|	0.24%	|	66328	|
 |	102	|	fraunhofer.de	|	0.24%	|	65569	|
 |	103	|	tamu.edu	|	0.24%	|	65313	|
-|	104	|	(*)inaf.it	|	0.24%	|	65127	|
-|	105	|	(*)upmc.fr	|	0.24%	|	65054	|
+|	104	|	(\*)inaf.it	|	0.24%	|	65127	|
+|	105	|	(\*)upmc.fr	|	0.24%	|	65054	|
 |	106	|	qmul.ac.uk	|	0.23%	|	62697	|
 |	107	|	helsinki.fi	|	0.23%	|	62361	|
 |	108	|	unibe.ch	|	0.23%	|	61846	|
@@ -191,7 +191,7 @@ over XXXX million downloads in 2018
 |	164	|	uni-ulm.de	|	0.16%	|	44514	|
 |	165	|	slac.stanford.edu	|	0.16%	|	43748	|
 |	166	|	rochester.edu	|	0.16%	|	42878	|
-|	167	|	(*)tkk.fi	|	0.16%	|	42494	|
+|	167	|	(\*)tkk.fi	|	0.16%	|	42494	|
 |	168	|	psu.edu	|	0.15%	|	41991	|
 |	169	|	anl.gov	|	0.15%	|	41715	|
 |	170	|	lancs.ac.uk	|	0.15%	|	41635	|
@@ -212,7 +212,7 @@ over XXXX million downloads in 2018
 |	185	|	cf.ac.uk	|	0.14%	|	37504	|
 |	186	|	gla.ac.uk	|	0.14%	|	37451	|
 |	(187)	|	uq.edu.au	|	na	|	37368	|
-|	188	|	(*)snl.gov	|	0.14%	|	37014	|
+|	188	|	(\*)snl.gov	|	0.14%	|	37014	|
 |	189	|	nao.ac.jp	|	0.14%	|	36978	|
 |	190	|	fsu.edu	|	0.13%	|	36667	|
 |	191	|	mcgill.ca	|	0.13%	|	36417	|
@@ -244,9 +244,9 @@ over XXXX million downloads in 2018
 |	217	|	cwru.edu	|	0.12%	|	31714	|
 |	218	|	utwente.nl	|	0.12%	|	31548	|
 |	219	|	unifi.it	|	0.12%	|	31516	|
-|	220	|	(*)ku.dk	|	0.12%	|	31484	|
+|	220	|	(\*)ku.dk	|	0.12%	|	31484	|
 |	221	|	roma1.infn.it	|	0.11%	|	31250	|
-|	222	|	(*)cnrs.fr	|	0.11%	|	31166	|
+|	222	|	(\*)cnrs.fr	|	0.11%	|	31166	|
 |	223	|	obspm.fr	|	0.11%	|	30542	|
 |	224	|	qut.edu.au	|	0.11%	|	30326	|
 |	225	|	tcd.ie	|	0.11%	|	30133	|
@@ -255,7 +255,7 @@ over XXXX million downloads in 2018
 |	228	|	pitt.edu	|	0.11%	|	29025	|
 |	229	|	mcmaster.ca	|	0.11%	|	28829	|
 |	230	|	unam.mx	|	0.11%	|	28775	|
-|	231	|	(*)tu-dortmund.de	|	0.11%	|	28763	|
+|	231	|	(\*)tu-dortmund.de	|	0.11%	|	28763	|
 |	232	|	ehu.es	|	0.10%	|	28627	|
 |	233	|	to.infn.it	|	0.10%	|	28392	|
 |	234	|	polytechnique.fr	|	0.10%	|	28358	|
@@ -277,23 +277,24 @@ over XXXX million downloads in 2018
 |	250	|	au.dk	|	0.09%	|	25957	|
 
 
-(*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:
-  *desy.de includes downloads from ifh.de.
-  *illinois.edu includes downloads from uiuc.edu.
-  *inaf.it includes downloads from astro.it.
-  *manchester.ac.uk includes downloads from man.ac.uk.
-  *mpg.de includes downloads from aei.mpg.de, age.mpg.de, bgc-jena.mpg.de, biochem.mpg.de, biophys.mpg.de, brain.mpg.de, cbs.mpg.de, cec.mpg.de, coll.mpg.de, cpfs.mpg.de, demogr.mpg.de, ds.mpg.de, em.mpg.de, enzyme-halle.mpg.de, eva.mpg.de, fhi-berlin.mpg.de, fkf.mpg.de, gwdg.de, hll.mpg.de, ice.mpg.de, ie-freiburg.mpg.de, ip.mpg.de, ipp.mpg.de, is.mpg.de, mis.mpg.de, mmg.mpg.de, molgen.mpg.de, mpa-garching.mpg.de, mpcdf.mpg.de, mpdl.mpg.de, mpe-garching.mpg.de, mpe.mpg.de, mpi-dortmund.mpg.de, mpi-fg-koeln.mpg.de, mpi-halle.mpg.de, mpi-hd.mpg.de, mpi-inf.mpg.de, mpi-klsb.mpg.de, mpi-magdeburg.mpg.de, mpi-muelheim.mpg.de, mpi-sb.mpg.de, mpi-stuttgart.mpg.de, mpia-hd.mpg.de, mpib-berlin.mpg.de, mpibpc.mpg.de, mpie-duesseldorf.mpg.de, mpifr-bonn.mpg.de, mpih-frankfurt.mpg.de, mpiib-berlin.mpg.de, mpikg.mpg.de, mpim-bonn.mpg.de, mpimet.mpg.de, mpimp-golm.mpg.de, mpip-mainz.mpg.de, mpipks-dresden.mpg.de, mpipriv-hh.mpg.de, mpipz.mpg.de, mpiwg-berlin.mpg.de, mppmu.mpg.de, mpq.mpg.de, mps.mpg.de, neuro.mpg.de, nf.mpg.de, orn.mpg.de, psych.mpg.de, rz-berlin.mpg.de, rzg.mpg.de, sf.mpg.de, shh.mpg.de, tuebingen.mpg.de, vw.mpg.de.
-  *riken.jp includes downloads from riken.go.jp.
-  *stonybrook.edu includes downloads from sunysb.edu.
-  *sydney.edu.au includes downloads from usyd.edu.au.
-  *tkk.fi includes downloads from aalto.fi, hut.fi.
-  *tu-dortmund.de includes downloads from uni-dortmund.de.
-  *tu-graz.ac.at includes downloads from tugraz.at.
-  *tudelft.nl includes downloads from tudelft.net.
-  *tum.de includes downloads from tu-muenchen.de.
-  *ucsd.edu includes downloads from sdsc.edu.
-  *uni-karlsruhe.de includes downloads from fzk.de, kit.edu.
-  *uni-saarland.de includes downloads from uni-sb.de.
- *upmc.fr includes downloads from jussieu.fr.
+(\*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:
 
-(na) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
+- desy.de includes downloads from ifh.de.
+- illinois.edu includes downloads from uiuc.edu.
+- inaf.it includes downloads from astro.it.
+- manchester.ac.uk includes downloads from man.ac.uk.
+- mpg.de includes downloads from aei.mpg.de, age.mpg.de, bgc-jena.mpg.de, biochem.mpg.de, biophys.mpg.de, brain.mpg.de, cbs.mpg.de, cec.mpg.de, coll.mpg.de, cpfs.mpg.de, demogr.mpg.de, ds.mpg.de, em.mpg.de, enzyme-halle.mpg.de, eva.mpg.de, fhi-berlin.mpg.de, fkf.mpg.de, gwdg.de, hll.mpg.de, ice.mpg.de, ie-freiburg.mpg.de, ip.mpg.de, ipp.mpg.de, is.mpg.de, mis.mpg.de, mmg.mpg.de, molgen.mpg.de, mpa-garching.mpg.de, mpcdf.mpg.de, mpdl.mpg.de, mpe-garching.mpg.de, mpe.mpg.de, mpi-dortmund.mpg.de, mpi-fg-koeln.mpg.de, mpi-halle.mpg.de, mpi-hd.mpg.de, mpi-inf.mpg.de, mpi-klsb.mpg.de, mpi-magdeburg.mpg.de, mpi-muelheim.mpg.de, mpi-sb.mpg.de, mpi-stuttgart.mpg.de, mpia-hd.mpg.de, mpib-berlin.mpg.de, mpibpc.mpg.de, mpie-duesseldorf.mpg.de, mpifr-bonn.mpg.de, mpih-frankfurt.mpg.de, mpiib-berlin.mpg.de, mpikg.mpg.de, mpim-bonn.mpg.de, mpimet.mpg.de, mpimp-golm.mpg.de, mpip-mainz.mpg.de, mpipks-dresden.mpg.de, mpipriv-hh.mpg.de, mpipz.mpg.de, mpiwg-berlin.mpg.de, mppmu.mpg.de, mpq.mpg.de, mps.mpg.de, neuro.mpg.de, nf.mpg.de, orn.mpg.de, psych.mpg.de, rz-berlin.mpg.de, rzg.mpg.de, sf.mpg.de, shh.mpg.de, tuebingen.mpg.de, vw.mpg.de.
+- riken.jp includes downloads from riken.go.jp.
+- stonybrook.edu includes downloads from sunysb.edu.
+- sydney.edu.au includes downloads from usyd.edu.au.
+- tkk.fi includes downloads from aalto.fi, hut.fi.
+- tu-dortmund.de includes downloads from uni-dortmund.de.
+- tu-graz.ac.at includes downloads from tugraz.at.
+- tudelft.nl includes downloads from tudelft.net.
+- tum.de includes downloads from tu-muenchen.de.
+- ucsd.edu includes downloads from sdsc.edu.
+- uni-karlsruhe.de includes downloads from fzk.de, kit.edu.
+- uni-saarland.de includes downloads from uni-sb.de.
+- upmc.fr includes downloads from jussieu.fr.
+
+(\*) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
