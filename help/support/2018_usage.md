@@ -23,239 +23,263 @@ and undercount the total institutional downloads.) We have identified
 XXXX million downloads from institutional domain names out of a total of
 over XXXX million downloads in 2018
 
-<table>
-<thead>
-<tr class="header">
-<th>Rank</th>
-<th>Institional domain</th>
-<th>Percentage of total<br />
-institutional downloads</th>
-<th>Number of article downloads</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>mit.edu</td>
-<td>1.77%</td>
-<td>412356</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>berkeley.edu</td>
-<td>1.65%</td>
-<td>385295</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>mpg.de(*)</td>
-<td>1.65%</td>
-<td>385275</td>
-</tr>
+|	Rank	|	Institutional Domain	|	Percentage of Total	|	Number of Article Downloads	|
+|	:----:	|	--------------	|	----:	|	----:	|
+|	1	|	cam.ac.uk	|	1.70%	|	464575	|
+|	2	|	mit.edu	|	1.68%	|	459752	|
+|	3	|	berkeley.edu	|	1.66%	|	454036	|
+|	4	|	(*)mpg.de	|	1.57%	|	428290	|
+|	5	|	stanford.edu	|	1.41%	|	386310	|
+|	6	|	ethz.ch	|	1.30%	|	354636	|
+|	7	|	ox.ac.uk	|	1.20%	|	328173	|
+|	8	|	in2p3.fr	|	1.19%	|	325756	|
+|	(9)	|	cern.ch	|	na	|	315032	|
+|	10	|	princeton.edu	|	1.12%	|	305632	|
+|	11	|	ic.ac.uk	|	1.03%	|	282060	|
+|	12	|	columbia.edu	|	1.01%	|	276197	|
+|	13	|	(*)illinois.edu	|	0.95%	|	260051	|
+|	(14)	|	jhu.edu	|	na	|	250224	|
+|	15	|	kyoto-u.ac.jp	|	0.90%	|	245725	|
+|	16	|	epfl.ch	|	0.84%	|	229977	|
+|	17	|	u-tokyo.ac.jp	|	0.84%	|	229004	|
+|	18	|	cornell.edu	|	0.82%	|	223908	|
+|	19	|	caltech.edu	|	0.81%	|	222356	|
+|	20	|	umd.edu	|	0.78%	|	213664	|
+|	21	|	ucl.ac.uk	|	0.78%	|	213641	|
+|	22	|	hku.hk	|	0.77%	|	211541	|
+|	23	|	gatech.edu	|	0.76%	|	208509	|
+|	24	|	uchicago.edu	|	na	|	207211	|
+|	25	|	nyu.edu	|	0.75%	|	205567	|
+|	26	|	utexas.edu	|	0.71%	|	193789	|
+|	27	|	ed.ac.uk	|	0.70%	|	192425	|
+|	28	|	cuhk.edu.hk	|	0.70%	|	190498	|
+|	29	|	uva.nl	|	0.70%	|	190424	|
+|	30	|	uwaterloo.ca	|	0.70%	|	190366	|
+|	31	|	ucsb.edu	|	0.68%	|	186441	|
+|	32	|	utoronto.ca	|	0.66%	|	181534	|
+|	33	|	washington.edu	|	na	|	176737	|
+|	34	|	umn.edu	|	0.64%	|	174422	|
+|	35	|	ucla.edu	|	0.63%	|	173072	|
+|	36	|	upenn.edu	|	0.61%	|	167661	|
+|	37	|	harvard.edu	|	0.61%	|	165866	|
+|	38	|	ust.hk	|	0.60%	|	164279	|
+|	39	|	(*)desy.de	|	0.55%	|	151599	|
+|	40	|	(*)stonybrook.edu	|	0.55%	|	151512	|
+|	41	|	uni-heidelberg.de	|	0.54%	|	148463	|
+|	42	|	cmu.edu	|	0.54%	|	147836	|
+|	43	|	(*)uni-karlsruhe.de	|	0.52%	|	142841	|
+|	44	|	rutgers.edu	|	0.52%	|	141123	|
+|	45	|	yale.edu	|	0.51%	|	138451	|
+|	46	|	ntu.edu.tw	|	0.50%	|	137695	|
+|	47	|	wisc.edu	|	0.50%	|	137221	|
+|	48	|	uni-bonn.de	|	0.50%	|	136752	|
+|	49	|	purdue.edu	|	0.50%	|	136477	|
+|	50	|	ubc.ca	|	0.48%	|	130127	|
+|	51	|	(*)tudelft.nl	|	0.47%	|	127375	|
+|	52	|	(*)sydney.edu.au	|	0.42%	|	114884	|
+|	53	|	colorado.edu	|	0.42%	|	114226	|
+|	54	|	(*)tum.de	|	0.41%	|	111392	|
+|	55	|	nthu.edu.tw	|	0.41%	|	111375	|
+|	56	|	rwth-aachen.de	|	0.41%	|	110973	|
+|	57	|	tohoku.ac.jp	|	0.40%	|	109852	|
+|	58	|	usc.edu	|	0.40%	|	109375	|
+|	59	|	uci.edu	|	0.39%	|	107288	|
+|	60	|	dur.ac.uk	|	0.39%	|	105246	|
+|	61	|	northwestern.edu	|	0.38%	|	104900	|
+|	62	|	uni-freiburg.de	|	0.38%	|	104487	|
+|	63	|	bu.edu	|	0.37%	|	101267	|
+|	64	|	(*)ucsd.edu	|	0.36%	|	98226	|
+|	65	|	uni-mainz.de	|	0.35%	|	96034	|
+|	66	|	univie.ac.at	|	0.34%	|	94249	|
+|	67	|	ufl.edu	|	0.34%	|	93197	|
+|	68	|	ias.edu	|	0.34%	|	92567	|
+|	69	|	nctu.edu.tw	|	0.33%	|	90517	|
+|	70	|	osaka-u.ac.jp	|	0.32%	|	88728	|
+|	71	|	bris.ac.uk	|	0.32%	|	88170	|
+|	72	|	umass.edu	|	0.32%	|	87377	|
+|	73	|	tu-dresden.de	|	0.32%	|	86346	|
+|	74	|	sissa.it	|	0.31%	|	86017	|
+|	75	|	nagoya-u.ac.jp	|	0.31%	|	85888	|
+|	76	|	uzh.ch	|	0.31%	|	84925	|
+|	77	|	tu-darmstadt.de	|	0.31%	|	84858	|
+|	78	|	(*)riken.jp	|	0.31%	|	84857	|
+|	79	|	vt.edu	|	0.30%	|	82587	|
+|	80	|	tu-berlin.de	|	0.30%	|	81911	|
+|	81	|	warwick.ac.uk	|	0.30%	|	81838	|
+|	82	|	monash.edu.au	|	0.29%	|	80261	|
+|	83	|	cea.fr	|	0.29%	|	80211	|
+|	84	|	ucdavis.edu	|	0.29%	|	79782	|
+|	85	|	kuleuven.be	|	0.29%	|	79767	|
+|	86	|	kth.se	|	0.28%	|	77514	|
+|	87	|	ictp.it	|	0.28%	|	77170	|
+|	88	|	indiana.edu	|	0.27%	|	75152	|
+|	89	|	usp.br	|	0.27%	|	75151	|
+|	90	|	umich.edu	|	0.27%	|	74693	|
+|	91	|	ualberta.ca	|	0.27%	|	73428	|
+|	92	|	uni-hamburg.de	|	0.27%	|	73311	|
+|	93	|	chalmers.se	|	0.27%	|	72764	|
+|	94	|	umontreal.ca	|	0.27%	|	72653	|
+|	95	|	postech.ac.kr	|	0.25%	|	69347	|
+|	96	|	su.se	|	0.25%	|	68828	|
+|	97	|	(*)manchester.ac.uk	|	0.25%	|	68419	|
+|	98	|	uu.se	|	0.25%	|	68391	|
+|	99	|	rug.nl	|	0.25%	|	67064	|
+|	100	|	uni-hannover.de	|	0.24%	|	66702	|
+|	101	|	unimelb.edu.au	|	0.24%	|	66328	|
+|	102	|	fraunhofer.de	|	0.24%	|	65569	|
+|	103	|	tamu.edu	|	0.24%	|	65313	|
+|	104	|	(*)inaf.it	|	0.24%	|	65127	|
+|	105	|	(*)upmc.fr	|	0.24%	|	65054	|
+|	106	|	qmul.ac.uk	|	0.23%	|	62697	|
+|	107	|	helsinki.fi	|	0.23%	|	62361	|
+|	108	|	unibe.ch	|	0.23%	|	61846	|
+|	109	|	lanl.gov	|	0.22%	|	61426	|
+|	110	|	tuwien.ac.at	|	0.22%	|	61083	|
+|	111	|	uv.es	|	0.22%	|	60810	|
+|	112	|	kek.jp	|	0.22%	|	60341	|
+|	113	|	soton.ac.uk	|	0.22%	|	59812	|
+|	114	|	sinica.edu.tw	|	0.22%	|	59635	|
+|	115	|	huji.ac.il	|	0.22%	|	59345	|
+|	116	|	inria.fr	|	0.22%	|	59040	|
+|	117	|	uni-stuttgart.de	|	0.21%	|	58243	|
+|	118	|	sfu.ca	|	0.21%	|	57680	|
+|	119	|	tau.ac.il	|	0.21%	|	57399	|
+|	120	|	uni-frankfurt.de	|	0.21%	|	57038	|
+|	121	|	nbi.dk	|	0.21%	|	56545	|
+|	122	|	u-psud.fr	|	0.21%	|	56507	|
+|	123	|	unc.edu	|	0.21%	|	56435	|
+|	124	|	uni-koeln.de	|	0.21%	|	56355	|
+|	125	|	ntnu.no	|	0.21%	|	56296	|
+|	126	|	ucsc.edu	|	0.21%	|	56258	|
+|	127	|	lu.se	|	0.20%	|	56000	|
+|	128	|	buffalo.edu	|	0.20%	|	55940	|
+|	129	|	ens.fr	|	0.20%	|	55237	|
+|	130	|	prl.res.in	|	0.20%	|	54016	|
+|	131	|	unsw.edu.au	|	0.20%	|	53852	|
+|	132	|	iastate.edu	|	0.20%	|	53419	|
+|	133	|	uni-erlangen.de	|	0.19%	|	53301	|
+|	134	|	ru.nl	|	0.19%	|	52768	|
+|	135	|	uibk.ac.at	|	0.19%	|	52067	|
+|	136	|	shef.ac.uk	|	0.19%	|	51790	|
+|	137	|	uni-kl.de	|	0.19%	|	51720	|
+|	138	|	uni-regensburg.de	|	0.19%	|	51309	|
+|	139	|	unibas.ch	|	0.19%	|	51143	|
+|	140	|	fu-berlin.de	|	0.19%	|	51097	|
+|	141	|	csic.es	|	0.19%	|	51047	|
+|	142	|	susx.ac.uk	|	0.18%	|	50532	|
+|	143	|	utdallas.edu	|	0.18%	|	50185	|
+|	144	|	washington.edu	|	0.18%	|	49998	|
+|	145	|	uio.no	|	0.18%	|	49852	|
+|	146	|	ugent.be	|	0.18%	|	48581	|
+|	147	|	hu-berlin.de	|	0.18%	|	48456	|
+|	148	|	titech.ac.jp	|	0.18%	|	48425	|
+|	149	|	kcl.ac.uk	|	0.17%	|	47571	|
+|	150	|	ulb.ac.be	|	0.17%	|	47488	|
+|	151	|	anu.edu.au	|	0.17%	|	47335	|
+|	152	|	asu.edu	|	0.17%	|	47302	|
+|	153	|	keio.ac.jp	|	0.17%	|	47145	|
+|	154	|	jinr.ru	|	0.17%	|	46964	|
+|	155	|	jhmi.edu	|	0.17%	|	46462	|
+|	156	|	wustl.edu	|	0.17%	|	46135	|
+|	157	|	uni-tuebingen.de	|	0.17%	|	45853	|
+|	158	|	leeds.ac.uk	|	0.17%	|	45827	|
+|	159	|	dtu.dk	|	0.17%	|	45807	|
+|	160	|	leidenuniv.nl	|	0.17%	|	45645	|
+|	161	|	(*)uni-saarland.de	|	0.17%	|	45560	|
+|	162	|	cuni.cz	|	0.17%	|	45130	|
+|	163	|	uni-wuerzburg.de	|	0.16%	|	45083	|
+|	164	|	uni-ulm.de	|	0.16%	|	44514	|
+|	165	|	slac.stanford.edu	|	0.16%	|	43748	|
+|	166	|	rochester.edu	|	0.16%	|	42878	|
+|	167	|	(*)tkk.fi	|	0.16%	|	42494	|
+|	168	|	psu.edu	|	0.15%	|	41991	|
+|	169	|	anl.gov	|	0.15%	|	41715	|
+|	170	|	lancs.ac.uk	|	0.15%	|	41635	|
+|	171	|	tue.nl	|	0.15%	|	41303	|
+|	172	|	uni-muenster.de	|	0.15%	|	41183	|
+|	173	|	uni-bielefeld.de	|	0.15%	|	40816	|
+|	174	|	adelaide.edu.au	|	0.15%	|	40234	|
+|	175	|	unicamp.br	|	0.15%	|	40205	|
+|	176	|	ens-lyon.fr	|	0.15%	|	40003	|
+|	177	|	ucm.es	|	0.15%	|	39764	|
+|	178	|	uni-bochum.de	|	0.14%	|	39556	|
+|	179	|	navy.mil	|	0.14%	|	39367	|
+|	180	|	uic.edu	|	0.14%	|	39298	|
+|	181	|	bnl.gov	|	0.14%	|	39053	|
+|	182	|	(*)tu-graz.ac.at	|	0.14%	|	38953	|
+|	183	|	uni-jena.de	|	0.14%	|	37682	|
+|	184	|	pd.infn.it	|	0.14%	|	37552	|
+|	185	|	cf.ac.uk	|	0.14%	|	37504	|
+|	186	|	gla.ac.uk	|	0.14%	|	37451	|
+|	(187)	|	uq.edu.au	|	na	|	37368	|
+|	188	|	(*)snl.gov	|	0.14%	|	37014	|
+|	189	|	nao.ac.jp	|	0.14%	|	36978	|
+|	190	|	fsu.edu	|	0.13%	|	36667	|
+|	191	|	mcgill.ca	|	0.13%	|	36417	|
+|	192	|	toronto.edu	|	0.13%	|	36368	|
+|	193	|	u-strasbg.fr	|	0.13%	|	36056	|
+|	194	|	kyushu-u.ac.jp	|	0.13%	|	36031	|
+|	195	|	kfa-juelich.de	|	0.13%	|	35867	|
+|	196	|	cvut.cz	|	0.13%	|	35753	|
+|	197	|	tus.ac.jp	|	0.13%	|	35225	|
+|	198	|	waseda.ac.jp	|	0.13%	|	34640	|
+|	199	|	hawaii.edu	|	0.13%	|	34540	|
+|	200	|	hokudai.ac.jp	|	0.13%	|	34477	|
+|	201	|	ub.es	|	0.13%	|	34466	|
+|	202	|	bath.ac.uk	|	0.13%	|	34443	|
+|	203	|	ucf.edu	|	0.12%	|	33838	|
+|	204	|	metu.edu.tr	|	0.12%	|	33791	|
+|	205	|	utah.edu	|	0.12%	|	33538	|
+|	206	|	bham.ac.uk	|	0.12%	|	33482	|
+|	207	|	utl.pt	|	0.12%	|	33286	|
+|	208	|	jyu.fi	|	0.12%	|	33271	|
+|	209	|	univ-lyon1.fr	|	0.12%	|	33117	|
+|	210	|	uam.es	|	0.12%	|	32936	|
+|	211	|	hiroshima-u.ac.jp	|	0.12%	|	32887	|
+|	212	|	llnl.gov	|	0.12%	|	32297	|
+|	213	|	tsukuba.ac.jp	|	0.12%	|	32226	|
+|	214	|	unitn.it	|	0.12%	|	32131	|
+|	215	|	york.ac.uk	|	0.12%	|	32020	|
+|	216	|	oregonstate.edu	|	0.12%	|	31900	|
+|	217	|	cwru.edu	|	0.12%	|	31714	|
+|	218	|	utwente.nl	|	0.12%	|	31548	|
+|	219	|	unifi.it	|	0.12%	|	31516	|
+|	220	|	(*)ku.dk	|	0.12%	|	31484	|
+|	221	|	roma1.infn.it	|	0.11%	|	31250	|
+|	222	|	(*)cnrs.fr	|	0.11%	|	31166	|
+|	223	|	obspm.fr	|	0.11%	|	30542	|
+|	224	|	qut.edu.au	|	0.11%	|	30326	|
+|	225	|	tcd.ie	|	0.11%	|	30133	|
+|	226	|	iap.fr	|	0.11%	|	29658	|
+|	227	|	uchicago.edu	|	0.11%	|	29160	|
+|	228	|	pitt.edu	|	0.11%	|	29025	|
+|	229	|	mcmaster.ca	|	0.11%	|	28829	|
+|	230	|	unam.mx	|	0.11%	|	28775	|
+|	231	|	(*)tu-dortmund.de	|	0.11%	|	28763	|
+|	232	|	ehu.es	|	0.10%	|	28627	|
+|	233	|	to.infn.it	|	0.10%	|	28392	|
+|	234	|	polytechnique.fr	|	0.10%	|	28358	|
+|	235	|	nikhef.nl	|	0.10%	|	28103	|
+|	236	|	unipd.it	|	0.10%	|	28040	|
+|	237	|	rpi.edu	|	0.10%	|	28029	|
+|	238	|	tifr.res.in	|	0.10%	|	27549	|
+|	239	|	yorku.ca	|	0.10%	|	26916	|
+|	240	|	ucl.ac.be	|	0.10%	|	26888	|
+|	241	|	st-andrews.ac.uk	|	0.10%	|	26629	|
+|	242	|	kobe-u.ac.jp	|	0.10%	|	26592	|
+|	243	|	duke.edu	|	0.10%	|	26390	|
+|	244	|	bose.res.in	|	0.10%	|	26302	|
+|	245	|	dlr.de	|	0.10%	|	26213	|
+|	246	|	uoregon.edu	|	0.10%	|	26173	|
+|	247	|	msu.edu	|	0.10%	|	26158	|
+|	248	|	univ-paris-diderot.fr	|	0.10%	|	26052	|
+|	249	|	upc.es	|	0.09%	|	25961	|
+|	250	|	au.dk	|	0.09%	|	25957	|
+|	251	|	uvic.ca	|	0.09%	|	25617	|
+|	252	|	ifpan.edu.pl	|	0.09%	|	25460	|
+|	253	|	ucd.ie	|	0.09%	|	25446	|
+|	254	|	wits.ac.za	|	0.09%	|	25164	|
 
-<td>	1	</td>	<td>	cam.ac.uk	</td>	<td>	1.70%	</td>	<td>	464575	</td>	</tr>	<tr class="odd">
-<td>	2	</td>	<td>	mit.edu	</td>	<td>	1.68%	</td>	<td>	459752	</td>	</tr>	<tr class="even">
-<td>	3	</td>	<td>	berkeley.edu	</td>	<td>	1.66%	</td>	<td>	454036	</td>	</tr>	<tr class="odd">
-<td>	4	</td>	<td>	(*)mpg.de	</td>	<td>	1.57%	</td>	<td>	428290	</td>	</tr>	<tr class="even">
-<td>	5	</td>	<td>	stanford.edu	</td>	<td>	1.41%	</td>	<td>	386310	</td>	</tr>	<tr class="odd">
-<td>	6	</td>	<td>	ethz.ch	</td>	<td>	1.30%	</td>	<td>	354636	</td>	</tr>	<tr class="even">
-<td>	7	</td>	<td>	ox.ac.uk	</td>	<td>	1.20%	</td>	<td>	328173	</td>	</tr>	<tr class="odd">
-<td>	8	</td>	<td>	in2p3.fr	</td>	<td>	1.19%	</td>	<td>	325756	</td>	</tr>	<tr class="even">
-<td>	9	</td>	<td>	(cern.ch)	</td>	<td>	na	</td>	<td>	315032	</td>	</tr>	<tr class="even">
-<td>	10	</td>	<td>	princeton.edu	</td>	<td>	1.12%	</td>	<td>	305632	</td>	</tr>	<tr class="odd">
-<td>	11	</td>	<td>	ic.ac.uk	</td>	<td>	1.03%	</td>	<td>	282060	</td>	</tr>	<tr class="even">
-<td>	12	</td>	<td>	columbia.edu	</td>	<td>	1.01%	</td>	<td>	276197	</td>	</tr>	<tr class="odd">
-<td>	13	</td>	<td>	(*)illinois.edu	</td>	<td>	0.95%	</td>	<td>	260051	</td>	</tr>	<tr class="even">
-<td>	(14)	</td>	<td>	jhu.edu	</td>	<td>		</td>	<td>	250224	</td>	</tr>	<tr class="odd">
-<td>	15	</td>	<td>	kyoto-u.ac.jp	</td>	<td>	0.90%	</td>	<td>	245725	</td>	</tr>	<tr class="odd">
-<td>	16	</td>	<td>	epfl.ch	</td>	<td>	0.84%	</td>	<td>	229977	</td>	</tr>	<tr class="even">
-<td>	17	</td>	<td>	u-tokyo.ac.jp	</td>	<td>	0.84%	</td>	<td>	229004	</td>	</tr>	<tr class="odd">
-<td>	18	</td>	<td>	cornell.edu	</td>	<td>	0.82%	</td>	<td>	223908	</td>	</tr>	<tr class="even">
-<td>	19	</td>	<td>	caltech.edu	</td>	<td>	0.81%	</td>	<td>	222356	</td>	</tr>	<tr class="odd">
-<td>	20	</td>	<td>	umd.edu	</td>	<td>	0.78%	</td>	<td>	213664	</td>	</tr>	<tr class="even">
-<td>	21	</td>	<td>	ucl.ac.uk	</td>	<td>	0.78%	</td>	<td>	213641	</td>	</tr>	<tr class="odd">
-<td>	22	</td>	<td>	hku.hk	</td>	<td>	0.77%	</td>	<td>	211541	</td>	</tr>	<tr class="even">
-<td>	23	</td>	<td>	gatech.edu	</td>	<td>	0.76%	</td>	<td>	208509	</td>	</tr>	<tr class="odd">
-<td>	(24)	</td>	<td>	uchicago.edu	</td>	<td>		</td>	<td>	207211	</td>	</tr>	<tr class="even">
-<td>	25	</td>	<td>	nyu.edu	</td>	<td>	0.75%	</td>	<td>	205567	</td>	</tr>	<tr class="even">
-<td>	26	</td>	<td>	utexas.edu	</td>	<td>	0.71%	</td>	<td>	193789	</td>	</tr>	<tr class="odd">
-<td>	27	</td>	<td>	ed.ac.uk	</td>	<td>	0.70%	</td>	<td>	192425	</td>	</tr>	<tr class="even">
-<td>	28	</td>	<td>	cuhk.edu.hk	</td>	<td>	0.70%	</td>	<td>	190498	</td>	</tr>	<tr class="odd">
-<td>	29	</td>	<td>	uva.nl	</td>	<td>	0.70%	</td>	<td>	190424	</td>	</tr>	<tr class="even">
-<td>	30	</td>	<td>	uwaterloo.ca	</td>	<td>	0.70%	</td>	<td>	190366	</td>	</tr>	<tr class="odd">
-<td>	31	</td>	<td>	ucsb.edu	</td>	<td>	0.68%	</td>	<td>	186441	</td>	</tr>	<tr class="even">
-<td>	32	</td>	<td>	utoronto.ca	</td>	<td>	0.66%	</td>	<td>	181534	</td>	</tr>	<tr class="odd">
-<td>	(33)	</td>	<td>	washington.edu	</td>	<td>		</td>	<td>	176737	</td>	</tr>	<tr class="odd">
-<td>	34	</td>	<td>	umn.edu	</td>	<td>	0.64%	</td>	<td>	174422	</td>	</tr>	<tr class="odd">
-<td>	35	</td>	<td>	ucla.edu	</td>	<td>	0.63%	</td>	<td>	173072	</td>	</tr>	<tr class="even">
-<td>	36	</td>	<td>	upenn.edu	</td>	<td>	0.61%	</td>	<td>	167661	</td>	</tr>	<tr class="odd">
-<td>	37	</td>	<td>	harvard.edu	</td>	<td>	0.61%	</td>	<td>	165866	</td>	</tr>	<tr class="even">
-<td>	38	</td>	<td>	ust.hk	</td>	<td>	0.60%	</td>	<td>	164279	</td>	</tr>	<tr class="odd">
-<td>	39	</td>	<td>	(*)desy.de	</td>	<td>	0.55%	</td>	<td>	151599	</td>	</tr>	<tr class="even">
-<td>	40	</td>	<td>	(*)stonybrook.edu	</td>	<td>	0.55%	</td>	<td>	151512	</td>	</tr>	<tr class="odd">
-<td>	41	</td>	<td>	uni-heidelberg.de	</td>	<td>	0.54%	</td>	<td>	148463	</td>	</tr>	<tr class="even">
-<td>	42	</td>	<td>	cmu.edu	</td>	<td>	0.54%	</td>	<td>	147836	</td>	</tr>	<tr class="odd">
-<td>	43	</td>	<td>	(*)uni-karlsruhe.de	</td>	<td>	0.52%	</td>	<td>	142841	</td>	</tr>	<tr class="even">
-<td>	44	</td>	<td>	rutgers.edu	</td>	<td>	0.52%	</td>	<td>	141123	</td>	</tr>	<tr class="odd">
-<td>	45	</td>	<td>	yale.edu	</td>	<td>	0.51%	</td>	<td>	138451	</td>	</tr>	<tr class="even">
-<td>	46	</td>	<td>	ntu.edu.tw	</td>	<td>	0.50%	</td>	<td>	137695	</td>	</tr>	<tr class="odd">
-<td>	47	</td>	<td>	wisc.edu	</td>	<td>	0.50%	</td>	<td>	137221	</td>	</tr>	<tr class="even">
-<td>	48	</td>	<td>	uni-bonn.de	</td>	<td>	0.50%	</td>	<td>	136752	</td>	</tr>	<tr class="odd">
-<td>	49	</td>	<td>	purdue.edu	</td>	<td>	0.50%	</td>	<td>	136477	</td>	</tr>	<tr class="even">
-<td>	50	</td>	<td>	ubc.ca	</td>	<td>	0.48%	</td>	<td>	130127	</td>	</tr>	<tr class="odd">
-<td>	51	</td>	<td>	(*)tudelft.nl	</td>	<td>	0.47%	</td>	<td>	127375	</td>	</tr>	<tr class="even">
-<td>	52	</td>	<td>	(*)sydney.edu.au	</td>	<td>	0.42%	</td>	<td>	114884	</td>	</tr>	<tr class="odd">
-<td>	53	</td>	<td>	colorado.edu	</td>	<td>	0.42%	</td>	<td>	114226	</td>	</tr>	<tr class="even">
-<td>	54	</td>	<td>	(*)tum.de	</td>	<td>	0.41%	</td>	<td>	111392	</td>	</tr>	<tr class="odd">
-<td>	55	</td>	<td>	nthu.edu.tw	</td>	<td>	0.41%	</td>	<td>	111375	</td>	</tr>	<tr class="even">
-<td>	56	</td>	<td>	rwth-aachen.de	</td>	<td>	0.41%	</td>	<td>	110973	</td>	</tr>	<tr class="odd">
-<td>	57	</td>	<td>	tohoku.ac.jp	</td>	<td>	0.40%	</td>	<td>	109852	</td>	</tr>	<tr class="even">
-<td>	58	</td>	<td>	usc.edu	</td>	<td>	0.40%	</td>	<td>	109375	</td>	</tr>	<tr class="odd">
-<td>	59	</td>	<td>	uci.edu	</td>	<td>	0.39%	</td>	<td>	107288	</td>	</tr>	<tr class="even">
-<td>	60	</td>	<td>	dur.ac.uk	</td>	<td>	0.39%	</td>	<td>	105246	</td>	</tr>	<tr class="odd">
-<td>	61	</td>	<td>	northwestern.edu	</td>	<td>	0.38%	</td>	<td>	104900	</td>	</tr>	<tr class="even">
-<td>	62	</td>	<td>	uni-freiburg.de	</td>	<td>	0.38%	</td>	<td>	104487	</td>	</tr>	<tr class="odd">
-<td>	63	</td>	<td>	bu.edu	</td>	<td>	0.37%	</td>	<td>	101267	</td>	</tr>	<tr class="even">
-<td>	64	</td>	<td>	(*)ucsd.edu	</td>	<td>	0.36%	</td>	<td>	98226	</td>	</tr>	<tr class="odd">
-<td>	65	</td>	<td>	uni-mainz.de	</td>	<td>	0.35%	</td>	<td>	96034	</td>	</tr>	<tr class="even">
-<td>	66	</td>	<td>	univie.ac.at	</td>	<td>	0.34%	</td>	<td>	94249	</td>	</tr>	<tr class="odd">
-<td>	67	</td>	<td>	ufl.edu	</td>	<td>	0.34%	</td>	<td>	93197	</td>	</tr>	<tr class="even">
-<td>	68	</td>	<td>	ias.edu	</td>	<td>	0.34%	</td>	<td>	92567	</td>	</tr>	<tr class="odd">
-<td>	69	</td>	<td>	nctu.edu.tw	</td>	<td>	0.33%	</td>	<td>	90517	</td>	</tr>	<tr class="even">
-<td>	70	</td>	<td>	osaka-u.ac.jp	</td>	<td>	0.32%	</td>	<td>	88728	</td>	</tr>	<tr class="odd">
-<td>	71	</td>	<td>	bris.ac.uk	</td>	<td>	0.32%	</td>	<td>	88170	</td>	</tr>	<tr class="even">
-<td>	72	</td>	<td>	umass.edu	</td>	<td>	0.32%	</td>	<td>	87377	</td>	</tr>	<tr class="odd">
-<td>	73	</td>	<td>	tu-dresden.de	</td>	<td>	0.32%	</td>	<td>	86346	</td>	</tr>	<tr class="even">
-<td>	74	</td>	<td>	sissa.it	</td>	<td>	0.31%	</td>	<td>	86017	</td>	</tr>	<tr class="odd">
-<td>	75	</td>	<td>	nagoya-u.ac.jp	</td>	<td>	0.31%	</td>	<td>	85888	</td>	</tr>	<tr class="even">
-<td>	76	</td>	<td>	uzh.ch	</td>	<td>	0.31%	</td>	<td>	84925	</td>	</tr>	<tr class="odd">
-<td>	77	</td>	<td>	tu-darmstadt.de	</td>	<td>	0.31%	</td>	<td>	84858	</td>	</tr>	<tr class="even">
-<td>	78	</td>	<td>	(*)riken.jp	</td>	<td>	0.31%	</td>	<td>	84857	</td>	</tr>	<tr class="odd">
-<td>	79	</td>	<td>	vt.edu	</td>	<td>	0.30%	</td>	<td>	82587	</td>	</tr>	<tr class="even">
-<td>	80	</td>	<td>	tu-berlin.de	</td>	<td>	0.30%	</td>	<td>	81911	</td>	</tr>	<tr class="odd">
-<td>	81	</td>	<td>	warwick.ac.uk	</td>	<td>	0.30%	</td>	<td>	81838	</td>	</tr>	<tr class="even">
-<td>	82	</td>	<td>	monash.edu.au	</td>	<td>	0.29%	</td>	<td>	80261	</td>	</tr>	<tr class="odd">
-<td>	83	</td>	<td>	cea.fr	</td>	<td>	0.29%	</td>	<td>	80211	</td>	</tr>	<tr class="even">
-<td>	84	</td>	<td>	ucdavis.edu	</td>	<td>	0.29%	</td>	<td>	79782	</td>	</tr>	<tr class="odd">
-<td>	85	</td>	<td>	kuleuven.be	</td>	<td>	0.29%	</td>	<td>	79767	</td>	</tr>	<tr class="even">
-<td>	86	</td>	<td>	kth.se	</td>	<td>	0.28%	</td>	<td>	77514	</td>	</tr>	<tr class="odd">
-<td>	87	</td>	<td>	ictp.it	</td>	<td>	0.28%	</td>	<td>	77170	</td>	</tr>	<tr class="even">
-<td>	88	</td>	<td>	indiana.edu	</td>	<td>	0.27%	</td>	<td>	75152	</td>	</tr>	<tr class="odd">
-<td>	89	</td>	<td>	usp.br	</td>	<td>	0.27%	</td>	<td>	75151	</td>	</tr>	<tr class="even">
-<td>	90	</td>	<td>	umich.edu	</td>	<td>	0.27%	</td>	<td>	74693	</td>	</tr>	<tr class="odd">
-<td>	91	</td>	<td>	ualberta.ca	</td>	<td>	0.27%	</td>	<td>	73428	</td>	</tr>	<tr class="even">
-<td>	92	</td>	<td>	uni-hamburg.de	</td>	<td>	0.27%	</td>	<td>	73311	</td>	</tr>	<tr class="odd">
-<td>	93	</td>	<td>	chalmers.se	</td>	<td>	0.27%	</td>	<td>	72764	</td>	</tr>	<tr class="even">
-<td>	94	</td>	<td>	umontreal.ca	</td>	<td>	0.27%	</td>	<td>	72653	</td>	</tr>	<tr class="odd">
-<td>	95	</td>	<td>	postech.ac.kr	</td>	<td>	0.25%	</td>	<td>	69347	</td>	</tr>	<tr class="even">
-<td>	96	</td>	<td>	su.se	</td>	<td>	0.25%	</td>	<td>	68828	</td>	</tr>	<tr class="odd">
-<td>	97	</td>	<td>	(*)manchester.ac.uk	</td>	<td>	0.25%	</td>	<td>	68419	</td>	</tr>	<tr class="even">
-<td>	98	</td>	<td>	uu.se	</td>	<td>	0.25%	</td>	<td>	68391	</td>	</tr>	<tr class="odd">
-<td>	99	</td>	<td>	rug.nl	</td>	<td>	0.25%	</td>	<td>	67064	</td>	</tr>	<tr class="even">
-<td>	100	</td>	<td>	uni-hannover.de	</td>	<td>	0.24%	</td>	<td>	66702	</td>	</tr>	<tr class="odd">
-<td>	101	</td>	<td>	unimelb.edu.au	</td>	<td>	0.24%	</td>	<td>	66328	</td>	</tr>	<tr class="even">
-<td>	102	</td>	<td>	fraunhofer.de	</td>	<td>	0.24%	</td>	<td>	65569	</td>	</tr>	<tr class="odd">
-<td>	103	</td>	<td>	tamu.edu	</td>	<td>	0.24%	</td>	<td>	65313	</td>	</tr>	<tr class="even">
-<td>	104	</td>	<td>	(*)inaf.it	</td>	<td>	0.24%	</td>	<td>	65127	</td>	</tr>	<tr class="odd">
-<td>	105	</td>	<td>	(*)upmc.fr	</td>	<td>	0.24%	</td>	<td>	65054	</td>	</tr>	<tr class="even">
-<td>	106	</td>	<td>	qmul.ac.uk	</td>	<td>	0.23%	</td>	<td>	62697	</td>	</tr>	<tr class="odd">
-<td>	107	</td>	<td>	helsinki.fi	</td>	<td>	0.23%	</td>	<td>	62361	</td>	</tr>	<tr class="even">
-<td>	108	</td>	<td>	unibe.ch	</td>	<td>	0.23%	</td>	<td>	61846	</td>	</tr>	<tr class="odd">
-<td>	109	</td>	<td>	lanl.gov	</td>	<td>	0.22%	</td>	<td>	61426	</td>	</tr>	<tr class="even">
-<td>	110	</td>	<td>	tuwien.ac.at	</td>	<td>	0.22%	</td>	<td>	61083	</td>	</tr>	<tr class="odd">
-<td>	111	</td>	<td>	uv.es	</td>	<td>	0.22%	</td>	<td>	60810	</td>	</tr>	<tr class="even">
-<td>	112	</td>	<td>	kek.jp	</td>	<td>	0.22%	</td>	<td>	60341	</td>	</tr>	<tr class="odd">
-<td>	113	</td>	<td>	soton.ac.uk	</td>	<td>	0.22%	</td>	<td>	59812	</td>	</tr>	<tr class="even">
-<td>	114	</td>	<td>	sinica.edu.tw	</td>	<td>	0.22%	</td>	<td>	59635	</td>	</tr>	<tr class="odd">
-<td>	115	</td>	<td>	huji.ac.il	</td>	<td>	0.22%	</td>	<td>	59345	</td>	</tr>	<tr class="even">
-<td>	116	</td>	<td>	inria.fr	</td>	<td>	0.22%	</td>	<td>	59040	</td>	</tr>	<tr class="odd">
-<td>	117	</td>	<td>	uni-stuttgart.de	</td>	<td>	0.21%	</td>	<td>	58243	</td>	</tr>	<tr class="even">
-<td>	118	</td>	<td>	sfu.ca	</td>	<td>	0.21%	</td>	<td>	57680	</td>	</tr>	<tr class="odd">
-<td>	119	</td>	<td>	tau.ac.il	</td>	<td>	0.21%	</td>	<td>	57399	</td>	</tr>	<tr class="even">
-<td>	120	</td>	<td>	uni-frankfurt.de	</td>	<td>	0.21%	</td>	<td>	57038	</td>	</tr>	<tr class="odd">
-<td>	121	</td>	<td>	nbi.dk	</td>	<td>	0.21%	</td>	<td>	56545	</td>	</tr>	<tr class="even">
-<td>	122	</td>	<td>	u-psud.fr	</td>	<td>	0.21%	</td>	<td>	56507	</td>	</tr>	<tr class="odd">
-<td>	123	</td>	<td>	unc.edu	</td>	<td>	0.21%	</td>	<td>	56435	</td>	</tr>	<tr class="even">
-<td>	124	</td>	<td>	uni-koeln.de	</td>	<td>	0.21%	</td>	<td>	56355	</td>	</tr>	<tr class="odd">
-<td>	125	</td>	<td>	ntnu.no	</td>	<td>	0.21%	</td>	<td>	56296	</td>	</tr>	<tr class="even">
-<td>	126	</td>	<td>	ucsc.edu	</td>	<td>	0.21%	</td>	<td>	56258	</td>	</tr>	<tr class="odd">
-<td>	127	</td>	<td>	lu.se	</td>	<td>	0.20%	</td>	<td>	56000	</td>	</tr>	<tr class="even">
-<td>	128	</td>	<td>	buffalo.edu	</td>	<td>	0.20%	</td>	<td>	55940	</td>	</tr>	<tr class="odd">
-<td>	129	</td>	<td>	ens.fr	</td>	<td>	0.20%	</td>	<td>	55237	</td>	</tr>	<tr class="even">
-<td>	130	</td>	<td>	prl.res.in	</td>	<td>	0.20%	</td>	<td>	54016	</td>	</tr>	<tr class="odd">
-<td>	131	</td>	<td>	unsw.edu.au	</td>	<td>	0.20%	</td>	<td>	53852	</td>	</tr>	<tr class="even">
-<td>	132	</td>	<td>	iastate.edu	</td>	<td>	0.20%	</td>	<td>	53419	</td>	</tr>	<tr class="odd">
-<td>	133	</td>	<td>	uni-erlangen.de	</td>	<td>	0.19%	</td>	<td>	53301	</td>	</tr>	<tr class="even">
-<td>	134	</td>	<td>	ru.nl	</td>	<td>	0.19%	</td>	<td>	52768	</td>	</tr>	<tr class="odd">
-<td>	135	</td>	<td>	uibk.ac.at	</td>	<td>	0.19%	</td>	<td>	52067	</td>	</tr>	<tr class="even">
-<td>	136	</td>	<td>	shef.ac.uk	</td>	<td>	0.19%	</td>	<td>	51790	</td>	</tr>	<tr class="odd">
-<td>	137	</td>	<td>	uni-kl.de	</td>	<td>	0.19%	</td>	<td>	51720	</td>	</tr>	<tr class="even">
-<td>	138	</td>	<td>	uni-regensburg.de	</td>	<td>	0.19%	</td>	<td>	51309	</td>	</tr>	<tr class="odd">
-<td>	139	</td>	<td>	unibas.ch	</td>	<td>	0.19%	</td>	<td>	51143	</td>	</tr>	<tr class="even">
-<td>	140	</td>	<td>	fu-berlin.de	</td>	<td>	0.19%	</td>	<td>	51097	</td>	</tr>	<tr class="odd">
-<td>	141	</td>	<td>	csic.es	</td>	<td>	0.19%	</td>	<td>	51047	</td>	</tr>	<tr class="even">
-<td>	142	</td>	<td>	susx.ac.uk	</td>	<td>	0.18%	</td>	<td>	50532	</td>	</tr>	<tr class="odd">
-<td>	143	</td>	<td>	utdallas.edu	</td>	<td>	0.18%	</td>	<td>	50185	</td>	</tr>	<tr class="even">
-<td>	144	</td>	<td>	washington.edu	</td>	<td>	0.18%	</td>	<td>	49998	</td>	</tr>	<tr class="odd">
-<td>	145	</td>	<td>	uio.no	</td>	<td>	0.18%	</td>	<td>	49852	</td>	</tr>	<tr class="even">
-<td>	146	</td>	<td>	ugent.be	</td>	<td>	0.18%	</td>	<td>	48581	</td>	</tr>	<tr class="odd">
-<td>	147	</td>	<td>	hu-berlin.de	</td>	<td>	0.18%	</td>	<td>	48456	</td>	</tr>	<tr class="even">
-<td>	148	</td>	<td>	titech.ac.jp	</td>	<td>	0.18%	</td>	<td>	48425	</td>	</tr>	<tr class="odd">
-<td>	149	</td>	<td>	kcl.ac.uk	</td>	<td>	0.17%	</td>	<td>	47571	</td>	</tr>	<tr class="even">
-<td>	150	</td>	<td>	ulb.ac.be	</td>	<td>	0.17%	</td>	<td>	47488	</td>	</tr>	<tr class="odd">
-<td>	151	</td>	<td>	anu.edu.au	</td>	<td>	0.17%	</td>	<td>	47335	</td>	</tr>	<tr class="even">
-<td>	152	</td>	<td>	asu.edu	</td>	<td>	0.17%	</td>	<td>	47302	</td>	</tr>	<tr class="odd">
-<td>	153	</td>	<td>	keio.ac.jp	</td>	<td>	0.17%	</td>	<td>	47145	</td>	</tr>	<tr class="even">
-<td>	154	</td>	<td>	jinr.ru	</td>	<td>	0.17%	</td>	<td>	46964	</td>	</tr>	<tr class="odd">
-<td>	155	</td>	<td>	jhmi.edu	</td>	<td>	0.17%	</td>	<td>	46462	</td>	</tr>	<tr class="even">
-<td>	156	</td>	<td>	wustl.edu	</td>	<td>	0.17%	</td>	<td>	46135	</td>	</tr>	<tr class="odd">
-<td>	157	</td>	<td>	uni-tuebingen.de	</td>	<td>	0.17%	</td>	<td>	45853	</td>	</tr>	<tr class="even">
-<td>	158	</td>	<td>	leeds.ac.uk	</td>	<td>	0.17%	</td>	<td>	45827	</td>	</tr>	<tr class="odd">
-<td>	159	</td>	<td>	dtu.dk	</td>	<td>	0.17%	</td>	<td>	45807	</td>	</tr>	<tr class="even">
-<td>	160	</td>	<td>	leidenuniv.nl	</td>	<td>	0.17%	</td>	<td>	45645	</td>	</tr>	<tr class="odd">
-<td>	161	</td>	<td>	(*)uni-saarland.de	</td>	<td>	0.17%	</td>	<td>	45560	</td>	</tr>	<tr class="even">
-<td>	162	</td>	<td>	cuni.cz	</td>	<td>	0.17%	</td>	<td>	45130	</td>	</tr>	<tr class="odd">
-<td>	163	</td>	<td>	uni-wuerzburg.de	</td>	<td>	0.16%	</td>	<td>	45083	</td>	</tr>	<tr class="even">
-<td>	164	</td>	<td>	uni-ulm.de	</td>	<td>	0.16%	</td>	<td>	44514	</td>	</tr>	<tr class="odd">
-<td>	165	</td>	<td>	slac.stanford.edu	</td>	<td>	0.16%	</td>	<td>	43748	</td>	</tr>	<tr class="even">
-<td>	166	</td>	<td>	rochester.edu	</td>	<td>	0.16%	</td>	<td>	42878	</td>	</tr>	<tr class="odd">
-<td>	167	</td>	<td>	(*)tkk.fi	</td>	<td>	0.16%	</td>	<td>	42494	</td>	</tr>	<tr class="even">
-<td>	168	</td>	<td>	psu.edu	</td>	<td>	0.15%	</td>	<td>	41991	</td>	</tr>	<tr class="odd">
-<td>	169	</td>	<td>	anl.gov	</td>	<td>	0.15%	</td>	<td>	41715	</td>	</tr>	<tr class="even">
-<td>	170	</td>	<td>	lancs.ac.uk	</td>	<td>	0.15%	</td>	<td>	41635	</td>	</tr>	<tr class="odd">
-<td>	171	</td>	<td>	tue.nl	</td>	<td>	0.15%	</td>	<td>	41303	</td>	</tr>	<tr class="even">
-<td>	172	</td>	<td>	uni-muenster.de	</td>	<td>	0.15%	</td>	<td>	41183	</td>	</tr>	<tr class="odd">
-<td>	173	</td>	<td>	uni-bielefeld.de	</td>	<td>	0.15%	</td>	<td>	40816	</td>	</tr>	<tr class="even">
-<td>	174	</td>	<td>	adelaide.edu.au	</td>	<td>	0.15%	</td>	<td>	40234	</td>	</tr>	<tr class="odd">
-<td>	175	</td>	<td>	unicamp.br	</td>	<td>	0.15%	</td>	<td>	40205	</td>	</tr>	<tr class="even">
-<td>	176	</td>	<td>	ens-lyon.fr	</td>	<td>	0.15%	</td>	<td>	40003	</td>	</tr>	<tr class="odd">
-<td>	177	</td>	<td>	ucm.es	</td>	<td>	0.15%	</td>	<td>	39764	</td>	</tr>	<tr class="even">
-<td>	178	</td>	<td>	uni-bochum.de	</td>	<td>	0.14%	</td>	<td>	39556	</td>	</tr>	<tr class="odd">
-<td>	179	</td>	<td>	navy.mil	</td>	<td>	0.14%	</td>	<td>	39367	</td>	</tr>	<tr class="even">
-<td>	180	</td>	<td>	uic.edu	</td>	<td>	0.14%	</td>	<td>	39298	</td>	</tr>	<tr class="odd">
-<td>	181	</td>	<td>	bnl.gov	</td>	<td>	0.14%	</td>	<td>	39053	</td>	</tr>	<tr class="even">
-<td>	182	</td>	<td>	(*)tu-graz.ac.at	</td>	<td>	0.14%	</td>	<td>	38953	</td>	</tr>	<tr class="odd">
-<td>	183	</td>	<td>	uni-jena.de	</td>	<td>	0.14%	</td>	<td>	37682	</td>	</tr>	<tr class="even">
-<td>	184	</td>	<td>	pd.infn.it	</td>	<td>	0.14%	</td>	<td>	37552	</td>	</tr>	<tr class="odd">
-<td>	185	</td>	<td>	cf.ac.uk	</td>	<td>	0.14%	</td>	<td>	37504	</td>	</tr>	<tr class="even">
-<td>	186	</td>	<td>	gla.ac.uk	</td>	<td>	0.14%	</td>	<td>	37451	</td>	</tr>	<tr class="odd">
-<td>	(187)	</td>	<td>	uq.edu.au	</td>	<td>		</td>	<td>	37368	</td>	</tr>	<tr class="even">
-<td>	188	</td>	<td>	(*)snl.gov	</td>	<td>	0.14%	</td>	<td>	37014	</td>	</tr>	<tr class="even">
-<td>	189	</td>	<td>	nao.ac.jp	</td>	<td>	0.14%	</td>	<td>	36978	</td>	</tr>	<tr class="odd">
-<td>	190	</td>	<td>	fsu.edu	</td>	<td>	0.13%	</td>	<td>	36667	</td>	</tr>	<tr class="even">
-<td>	191	</td>	<td>	mcgill.ca	</td>	<td>	0.13%	</td>	<td>	36417	</td>	</tr>	<tr class="odd">
-<td>	192	</td>	<td>	toronto.edu	</td>	<td>	0.13%	</td>	<td>	36368	</td>	</tr>	<tr class="even">
-<td>	193	</td>	<td>	u-strasbg.fr	</td>	<td>	0.13%	</td>	<td>	36056	</td>	</tr>	<tr class="odd">
-<td>	194	</td>	<td>	kyushu-u.ac.jp	</td>	<td>	0.13%	</td>	<td>	36031	</td>	</tr>	<tr class="even">
-<td>	195	</td>	<td>	kfa-juelich.de	</td>	<td>	0.13%	</td>	<td>	35867	</td>	</tr>	<tr class="odd">
-<td>	196	</td>	<td>	cvut.cz	</td>	<td>	0.13%	</td>	<td>	35753	</td>	</tr>	<tr class="even">
-<td>	197	</td>	<td>	tus.ac.jp	</td>	<td>	0.13%	</td>	<td>	35225	</td>	</tr>	<tr class="odd">
-<td>	198	</td>	<td>	waseda.ac.jp	</td>	<td>	0.13%	</td>	<td>	34640	</td>	</tr>	<tr class="even">
-<td>	199	</td>	<td>	hawaii.edu	</td>	<td>	0.13%	</td>	<td>	34540	</td>	</tr>	<tr class="odd">
-<td>	200	</td>	<td>	hokudai.ac.jp	</td>	<td>	0.13%	</td>	<td>	34477	</td>	</tr>	<tr class="even">
-</tr>
-</tbody>
-</table>
 
 (*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:
 <ul> <li>desy.de includes downloads from ifh.de.</li>
@@ -276,6 +300,6 @@ institutional downloads</th>
 <li>uni-saarland.de includes downloads from uni-sb.de.</li>
 <li>upmc.fr includes downloads from jussieu.fr.</li></ul>
 
-(**) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
+(na) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
 
 
