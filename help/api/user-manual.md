@@ -46,6 +46,8 @@ Elements](#_opensearch_extension_elements)
 Returned](#_details_of_atom_results_returned)  
   [5.3. Subject Classifications](#subject_classifications)  
 
+<span id="_preface"></span>
+
 ## 1. Preface
 
 The arXiv API allows programmatic access to the hundreds of thousands of
@@ -62,6 +64,8 @@ including perl, python and ruby, see the [Examples](#Examples) section.
 
 Finally, the [Appendices](#Appendices) contain an explanation of all
 input parameters to the API, as well as the output format.
+
+<span id="Quickstart"></span>
 
 ## 2. API QuickStart
 
@@ -123,6 +127,8 @@ on [the API response](#api_response). To learn more about writing
 programs to call the API, and digest the responses, we suggest starting
 with the section on [Structure of the API](#Architecture).
 
+<span id="Architecture"></span>
+
 ## 3. Structure of the API {#Architecture}
 
 In this section, we'll go over some of the details of interacting with
@@ -150,6 +156,8 @@ the API. A diagram of a typical API call is shown below:
     response body will contain the Atom response content as shown in the
     [example response](#response_example).
 
+<span id="_calling_the_api"></span>
+
 ### 3.1. Calling the API {#_calling_the_api}
 
 As mentioned above, the API can be called with an HTTP request of type
@@ -162,6 +170,8 @@ The parameters for each of the API methods are explained below. For each
 method, the base url is
 
     http://export.arxiv.org/api/{method_name}?{parameters}
+
+<span id="_query_interface"></span>
 
 #### 3.1.1. Query Interface {#_query_interface}
 
@@ -177,6 +187,8 @@ Parameters are separated with the `&` sign in the constructed url's.
 |       | `id_list`      | comma-delimited string | None         | No           |
 |       | `start`        | int                    | 0            | No           |
 |       | `max_results`  | int                    | 10           | No           |
+
+<span id="search_query_and_id_list"></span>
 
 ##### 3.1.1.1. search\_query and id\_list logic
 
@@ -209,6 +221,8 @@ This is summarized in the following table:
 | no                         | yes                   | articles that are in `id_list`                       |
 | yes                        | yes                   | articles in `id_list` that also match `search_query` |
 
+<span id="paging"><span>
+    
 ##### 3.1.1.2. start and max\_results paging
 
 Many times there are hundreds of results for an API query. Rather than
@@ -254,6 +268,8 @@ appropriate explanation. A request for 30000 results will typically take
 a little over 2 minutes to return a response of over 15MB. Requests for
 fewer results are much faster and correspondingly smaller.
 
+<span id="sort"></span>
+
 ##### 3.1.1.3. sort order for return results
 
 There are two options for for the result set to the API search, `sortBy`
@@ -267,6 +283,8 @@ A sample query using these new parameters looks like:
 
     http://export.arxiv.org/api/query?search_query=ti:"electron thermal conductivity"&sortBy=lastUpdatedDate&sortOrder=ascending
 
+<span id="api_response"></span>
+
 ### 3.2. The API Response
 
 Everything returned by the API in the body of the HTTP responses is Atom
@@ -276,6 +294,8 @@ for this purpose. Typically web sites with dynamic content such as news
 sites and blogs will publish their content as Atom or RSS feeds.
 However, Atom is a general format that embodies the concept of a list of
 items, and thus is well-suited to returning the arXiv search results.
+
+<span id="atom_feed_outline"></span>
 
 ### 3.3. Outline of an Atom feed
 
@@ -292,6 +312,8 @@ discussion on the [sample results feed](#response_example) discussed in
 the examples section.
 
 <sup> You may notice that the results from the API are ordered differently that the results given by the [HTML arXiv search interface](http://arxiv.org/find). The HTML interface automatically sorts results in descending order based on the date of their submission, while the API returns results according to relevancy from the internal search engine. Thus when debugging a search query, we encourage you to use the API within a web browser, rather than the HTML search interface. If you want sorting by date, you can always do this within your programs by reading the `<published>` tag for each entry as explained [below](#title_id_published_updated). </sup>
+
+<span id="_feed_metadata"></span>
 
 #### 3.3.1. Feed Metadata {#_feed_metadata}
 
@@ -310,6 +332,8 @@ Atom feed:
 You will notice that three XML namespaces are defined. The default
 namespace signifies that we are dealing with Atom 1.0. The other two
 namespaces define extensions to Atom that we describe below.
+
+<span id="_lt_title_gt_lt_id_gt_lt_link_gt_and_lt_updated_gt"></span>
 
 ##### 3.3.1.1. &lt;title&gt;, &lt;id&gt;, &lt;link&gt; and &lt;updated&gt;
 
@@ -352,6 +376,8 @@ were last updated:
 
 <sup>Because the arXiv submission process works on a 24 hour submission cycle, new articles are only available to the API on the midnight *after* the articles were processed. The `<updated>` tag thus reflects the midnight of the day that you are calling the API. **This is very important** - search results do not change until new articles are added. Therefore there is no need to call the API more than once in a day for the same query. Please cache your results. This primarily applies to production systems, and of course you are free to play around with the API while you are developing your program!</sup>
 
+<span id="_opensearch_extension_elements"></span>
+
 ##### 3.3.1.2. OpenSearch Extension Elements
 
 There are several extension elements defined in the OpenSearch namespace
@@ -385,6 +411,8 @@ results](#paging). The other two elements `<opensearch:startIndex>`, and
        1
     </opensearch:itemsPerPage>
 
+<span id="_entry_metadata"></span>
+
 #### 3.3.2. Entry Metadata {#_entry_metadata}
 
 If there are no errors, the `<feed>` element contains 0 or more child
@@ -394,7 +422,9 @@ there are errors, a single `<entry>` element representing the error is
 returned. Below the element description describes the elements for
 `<entry>`'s representing arXiv articles. For a general discussion of
 arXiv metadata, see the [arXiv metadata
-explanation](http://arxiv.org/help/prep).
+explanation](/help/prep).
+
+<span id="title_id_published_updated"></span>
 
 ##### 3.3.2.1. &lt;title&gt;, &lt;id&gt;, &lt;published&gt;, and &lt;updated&gt;
 
@@ -429,6 +459,8 @@ query](http://export.arxiv.org/api/query?id_list=cond-mat/0702661v2)).
     <updated xmlns="http://www.w3.org/2005/Atom">
         2007-06-25T17:09:59-04:00
     </updated>
+
+<span id="_lt_summary_gt_lt_author_gt_and_lt_category_gt"></span>
 
 ##### 3.3.2.2. &lt;summary&gt;, &lt;author&gt; and &lt;category&gt;
 
@@ -477,6 +509,8 @@ to an ACM category. See [&lt;arxiv&gt; extension
 elements](#extension_elements) below for information on how to identify
 the arXiv primary category.
 
+<span id="entry_links"></span>
+
 ##### 3.3.2.3. &lt;link&gt;'s
 
 For each entry, there are up to three `<link>` elements, distinguished
@@ -495,6 +529,8 @@ For example:
     <link xmlns="http://www.w3.org/2005/Atom" href="http://arxiv.org/abs/hep-ex/0307015v1" rel="alternate" type="text/html"/>
     <link xmlns="http://www.w3.org/2005/Atom" title="pdf" href="http://arxiv.org/pdf/hep-ex/0307015v1" rel="related" type="application/pdf"/>
     <link xmlns="http://www.w3.org/2005/Atom" title="doi" href="http://dx.doi.org/10.1529/biophysj.104.047340" rel="related"/>
+
+<span id="extension_elements"></span>
 
 ##### 3.3.2.4. &lt;arxiv&gt; extension elements
 
@@ -547,6 +583,8 @@ If the author has provided a DOI for the article, then there will be a
        10.1529/biophysj.104.047340
     </arxiv:doi>
 
+<span id="errors"></span>
+
 ### 3.4. Errors
 
 Errors are returned as Atom feeds with a single entry representing the
@@ -593,6 +631,8 @@ The following table gives information on errors that might occur.
 | <http://export.arxiv.org/api/query?id_list=1234.1234>                                                                     | malformed id - see [arxiv identifier explanation](http://arxiv.org/help/arxiv_identifier#new) |
 | [http://export.arxiv.org/api/query?id\_list=cond—mat/0709123](http://export.arxiv.org/api/query?id_list=cond—mat/0709123) | malformed id - see [arxiv identifier explanation](http://arxiv.org/help/arxiv_identifier#new) |
 
+<span id="Examples"></span>
+
 ## 4. Examples
 
 Once you have familiarized yourself with the API, you should be able to
@@ -619,6 +659,8 @@ include:
 
 -   [PHP](http://www.php.net) (via file\_get\_contents())
     ([example](#php_simple_example))
+    
+<span id="_simple_examples"></span>
 
 ### 4.1. Simple Examples
 
@@ -668,6 +710,8 @@ Example: A Typical Atom Response
       </entry>
     </feed>
 
+<span id="perl_simple_example"></span>
+
 #### 4.1.1. Perl
 
 [LWP](http://search.cpan.org/%3Csub%3Egaas/libwww-perl-5.808/lib/LWP.pm)
@@ -684,6 +728,8 @@ Sample code to produce the above output is:
     my $response = $browser->get($url);
     print $response->content();
 
+<span id="python_simple_example"></span>
+
 #### 4.1.2. Python
 
 The [urllib](http://docs.python.org/lib/module-urllib.html) module is
@@ -696,6 +742,8 @@ is:
     url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1'
     data = urllib.urlopen(url).read()
     print data
+
+<span id="ruby_simple_example"></span>
 
 #### 4.1.3. Ruby
 
@@ -712,6 +760,8 @@ produce the above output is:
     res = Net::HTTP.get_response(url)
     print res.body
 
+<span id="php_simple_example"></span>
+
 #### 4.1.4. PHP
 
 The file\_get\_contents() function is part of the PHP core language:
@@ -721,6 +771,8 @@ The file\_get\_contents() function is part of the PHP core language:
     $response = file_get_contents($url);
     print_r($response);
     ?>
+
+<span id="detailed_examples"></span>
 
 ### 4.2. Detailed Parsing Examples
 
@@ -739,7 +791,11 @@ languages above, as well as to the libraries used to parse Atom.
 | Ruby     | [feedtools](http://sporkmonger.com/2005/08/11/tutorial)      | [parsing](examples/ruby_arXiv_parsing_example.txt)   | [paging](examples/ruby_arXiv_paging_example.txt)   |
 | PHP      | [SimplePie](http://simplepie.org/)                           | [parsing](examples/php_arXiv_parsing_example.txt)    | [paging](examples/php_arXiv_paging_example.txt)    |
 
+<span id="Appendices"></span>
+
 ## 5. Appendices
+
+<span id="query_details"></span>
 
 ### 5.1. Details of Query Construction
 
@@ -848,6 +904,8 @@ grouping operators used in the API.
 | double quotes | %22 %22      | Used to group multiple words into phrases to search a particular field. |
 | space         | \+           | Used to extend a `search_query` to include multiple fields.             |
 
+<span id="_a_note_on_article_versions"></span>
+
 #### 5.1.1. A Note on Article Versions {#_a_note_on_article_versions}
 
 Each arXiv article has a version associated with it. The first time an
@@ -867,6 +925,8 @@ could use the query
 <http://export.arxiv.org/api/query?id_list=cond-mat/0207270>. To
 retrieve the very first version of this article, you could use the query
 <http://export.arxiv.org/api/query?id_list=cond-mat/0207270v1>
+
+<span id="_details_of_atom_results_returned"></span>
 
 ### 5.2. Details of Atom Results Returned
 
@@ -899,6 +959,7 @@ Feed](#atom_feed_outline).
 | `<arxiv:affiliation>`       | The author's affiliation included as a subelement of `<author>` if present.                                                    |
 | `<arxiv:journal_ref>`       | A journal reference if present.                                                                                                |
 | `<arxiv:doi>`               | A url for the resolved DOI to an external resource if present.                                                                 |
+<span id="subject_classifications"></span>
 
 ### 5.3. Subject Classifications
 
