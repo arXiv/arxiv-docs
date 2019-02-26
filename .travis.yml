@@ -95,24 +95,24 @@ deploy:
     SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
     SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development corr
   on:
-    branch: development
+    branch: develop
 
 - provider: script
   script:
     SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
     SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development hypertex
   on:
-    branch: development
+    branch: develop
 
 - provider: script
   script:
     SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
     SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development about
   on:
-    branch: development
+    branch: develop
 - provider: script
   script:
     SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
     SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development labs
   on:
-    branch: development
+    branch: develop
