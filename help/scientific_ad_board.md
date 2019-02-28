@@ -38,8 +38,7 @@ Current Board members are:
     Applied Physics and Mathematics, Yale University (*ex officio*, as
     chair of Physics Advisory Committee)
 -   Sumati Surya, Professor, Raman Research Institute
--   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona \|
-    University of Oslo
+-   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona
 
 <span id="advisory_committees"></span>
 
