@@ -96,7 +96,7 @@ We strongly encourage you to include arXiv's `YYMM.NNNNN`, [identifiers](/help/a
 If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0512, arXiv:0901.0512, hep-ph/9409201 or arXiv:hep-ph/9409201, they can be easily harvested by automatic software. For example,
 
 > `\bedim{upsilon}  
-> C.T.H. Davies {\em et al.}, Phys. Rev {\bf D} 50 (1994) 6963, **hep-lat/9406017**.`
+> C.T.H. Davies {\em et al.}, Phys. Rev {\bf D} 50 (1994) 6963, hep-lat/9406017.`
 
 Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](/help/faq/references) and [collection of references at INSPIRE](http://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
 
@@ -134,12 +134,13 @@ Similar to [index](#makeindex) files, we do not process `.glo` into the resultan
 
 TeX-based supplemntal material should be included in the main document root direcotry, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the toplevel file, or they will be assembled in alphanumeric order. For example, given the following files:  
 
+```
   ./ms.tex
   ./ms.bbl
   ./myfig.eps
   ./supplement.tex
   ./supplement.bbl
-
+```
   
 contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillaryry_files) directory, as these are not indexed for discovery and access.
 
