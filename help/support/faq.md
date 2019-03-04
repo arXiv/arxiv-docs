@@ -452,7 +452,7 @@ Membership fees are based on a 3-year rolling average of institutional
 ranking calculated according to the number of articles downloaded. Usage
 statistics and institutional rankings are calculated annually (usually
 in January). The usage statistics for the top 200 institutional users
-for 2009-2016 are available online at [arXiv
+for 2009-2018 are available online at [arXiv
 Support.](https://confluence.cornell.edu/x/k7BRF)
 
 <table>

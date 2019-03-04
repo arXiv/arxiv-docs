@@ -1,3 +1,0 @@
-[submodule "markdown"]
-	path = markdown
-	url = git@github.com:arXiv/arxiv-markdown.git
