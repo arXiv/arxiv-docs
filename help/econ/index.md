@@ -1,5 +1,4 @@
-Economics archive
-==================================
+# Economics archive
 
 The Economics archive ([econ](/archive/econ)) was
 [introduced](announcement) 26 September 2017.
