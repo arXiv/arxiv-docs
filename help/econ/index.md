@@ -4,11 +4,17 @@ Economics archive
 The Economics archive ([econ](/archive/econ)) was
 [introduced](announcement) 26 September 2017.
 
-The arXiv Economics Advisory Committee:
+## The arXiv Economics Advisory Committee
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
-Subject categories of the **econ** archive are:
+- Drew Fudenberg (Massachusetts Institute of Technology)
+- Adam Guren (Boston University)
+- Fabien Postel-Vinay (University College London)
+- Joerg Stoye (Cornell University)
+- Martin Weidner, Chair, (University College London)
+
+## Subject categories of the **econ** archive are:
 
 -   **Econometrics (econ.EM)**
     Econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data.
