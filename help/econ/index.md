@@ -1,20 +1,25 @@
-Economics archive (September 2017)
-==================================
+# Economics archive
 
 The Economics archive ([econ](/archive/econ)) was
 [introduced](announcement) 26 September 2017.
 
-The Economics archive currently only contains the single subject of
-Econometrics, but according to demand we expect to add more subject
-areas in the future, and the Econometrics subject can also be subdivided
-further. Econometrics is a field, at the intersection of Economics and
-Mathematical Statistics, which focuses on providing statistical methods
-for the quantitative analysis of economic phenomena.
+## The arXiv Economics Advisory Committee
 
-Subject categories of the **econ** archive are:
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
--   **econ.EM - Econometrics**  
-    Econometric Theory, Micro-Econometrics, Macro-Econometrics,
-    Empirical Content of Economic Relations discovered via New Methods,
-    Methodological Aspects of the Application of Statistical Inference
-    to Economic Data
+- Drew Fudenberg (Massachusetts Institute of Technology)
+- Adam Guren (Boston University)
+- Fabien Postel-Vinay (University College London)
+- Joerg Stoye (Cornell University)
+- Martin Weidner, Chair, (University College London)
+
+## Subject categories of the **econ** archive are:
+
+-   **Econometrics (econ.EM)**
+    Econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data.
+
+-   **General Economics (econ.GN)**
+    General methodological and applied contributions to economics.
+
+-   **Theoretical Economics (econ.TH)**
+    Includes theoretical contributions to Contract Theory, Decision Theory, Game Theory, General Equilibrium, Growth, Learning and Evolution, Macroeconomics, Market and Mechanism Design, and Social Choice.
