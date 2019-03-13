@@ -3,11 +3,11 @@ Contacting arXiv
 
 ## Membership and Giving
 
-Information about institutional membership or contributions to arXiv can be found at [arXiv funding support](support), or contact [support@arxiv.org](mailto:support@arxiv.org).
+Information about institutional membership or contributions to arXiv can be found at [arXiv funding support](support), or contact support@arxiv.org.
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us at [help@arxiv.org](mailto:help@arxiv.org). 
+If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us at help@arxiv.org. 
 
 Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and the holiday schedule.
 
@@ -21,7 +21,7 @@ Note that arXiv help and moderation email addresses are monitored between 0900-1
 
 ## Moderation queries
 
-If you have questions about the status of your submission, contact us at [moderation@arxiv.org](mailto:moderation@arxiv.org).
+If you have questions about the status of your submission, contact us at moderation@arxiv.org.
  
 -   Send a precise email, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
 -   If you receive an automated response to your email, please read all instructions carefully.

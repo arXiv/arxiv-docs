@@ -4,7 +4,7 @@ arXiv Business Model White Paper
 Cornell University Library  
 January 15, 2010; last updated August 5, 2010  
 See also: [arXiv Support](/help/support) and [FAQ](/help/support/faq)  
-Contact: <support@arxiv.org>
+Contact: support@arxiv.org
 
 ## 1. Introduction
 
@@ -138,7 +138,7 @@ approximately 20% of all institutional downloads from arXiv.
 
 Institutions wishing to support arXiv should contact their consortia
 representatives or the arXiv office at Cornell University Library at
-[support@arxiv.org](mail:support@arxiv.org)
+support@arxiv.org.
 
 We anticipate that it will take time to attract sufficient support to
 meet arXiv's budget needs. If strong support results in a surplus then

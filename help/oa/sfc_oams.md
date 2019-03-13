@@ -209,7 +209,7 @@ dilaton as the first variation of string coupling breaks down when other dilaton
 
 [![the Open Archives home page](http://www.openarchives.org/images/OA50.gif)](http://www.openarchives.org)
 
-_get in touch with the Open Archives initiative by contacting [openarchives@openarchives.org](mailto:openarchives@openarchives.org)_
+_get in touch with the Open Archives initiative by contacting openarchives@openarchives.org_
 
  
 

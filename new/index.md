@@ -895,7 +895,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 11 Nov 2004
 
-**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to [www-admin@arxiv.org](mailto:www-admin@arxiv.org).
+**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
 
 4 Nov 2004 _\[Modified 24 Nov 2004\]_
 
@@ -993,7 +993,7 @@ The nlin-sys archives have been reorganized starting 1 January, 2000. The archiv
 
 **Subj-class:** Chaotic Dynamics
 
-and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to [www-admin@arXiv.org](mailto:www-admin@arXiv.org).
+and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to www-admin@arxiv.org.
 
 1 Jan 2000
 
