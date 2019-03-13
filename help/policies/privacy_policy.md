@@ -146,11 +146,11 @@ These rights may include:
 6. Right to object to automated decision-making and profiling, where applicable
 7. Right to complain to a supervisory authority in your jurisdiction within the EU
 
-Please contact us with any questions, concerns, or if you wish to exercise any of these rights: <gdpr@cornell.edu>
+Please contact us with any questions, concerns, or if you wish to exercise any of these rights: gdpr@cornell.edu
 
 
 ## Contact Information
 
-For questions about arXiv privacy policies or technical support please contact: <help@arxiv.org>. 
+For questions about arXiv privacy policies or technical support please contact: help@arxiv.org 
 
-If you have general questions about Cornell University privacy practices, please contact: <privacy@cornell.edu> or visit https://privacy.cornell.edu.
+If you have general questions about Cornell University privacy practices, please contact: privacy@cornell.edu or visit https://privacy.cornell.edu.
