@@ -165,5 +165,5 @@ Open Archives / Santa Fe Convention: information about this data provider
 
 * * *
 
- [![[Open Archives icon]](http://www.openarchives.org/images/OA50.gif)](http://www.openarchives.org) _Open Archives contact: [openarchives@openarchives.org](mailto:openarchives@openarchives.org)  
+ [![[Open Archives icon]](http://www.openarchives.org/images/OA50.gif)](http://www.openarchives.org) _Open Archives contact: openarchives@openarchives.org  
 Last updated 8th February 2000_

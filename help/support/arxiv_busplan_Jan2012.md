@@ -99,7 +99,7 @@ of the February planning meetings, we expect to announce a model for
 The arXiv sustainability initiative's website is
 [http://arxiv.org/help/support](/help/support/), including the quarterly
 updates. You are also welcome to send your questions and input to
-[support@arxiv.org](). We have an email list for sharing updates about
+support@arxiv.org. We have an email list for sharing updates about
 arXiv support efforts. If you received this update directly, you are
 already subscribed. Others wishing to receive quarterly updates via
 email are encouraged to join the list. Instructions are included below
@@ -130,9 +130,9 @@ This is an announcement-only list. We anticipate 4-6 posting per year.
 To join:
 
 > Send an email message to:
-> <arxiv-support-updates-L-request@cornell.edu>  
+> arxiv-support-updates-L-request@cornell.edu 
 > Leave the subject line blank. The body of the message should be a
 > single word: **join**
 
 To ask questions about arXiv support issues or to send comments, please
-address email to <support@arxiv.org>
+address email to support@arxiv.org.

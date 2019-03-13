@@ -534,7 +534,7 @@ found online for [2009](http://arxiv.org/help/support/2009_usage),
 [2015](https://arxiv.org/help/support/2015_usage),
 [2016](https://arxiv.org/help/support/2016_usage) and
 [2017](https://arxiv.org/help/support/2017_usage). If your institution
-is not listed, please email us at <support@arxiv.org> for usage
+is not listed, please email us at support@arxiv.org for usage
 statistics. If you are an arXiv member, your institutional statistics
 will be sent to you annually with your invoice.
 
@@ -570,7 +570,7 @@ is not seen as a lump-sum payment or a legally binding contract.
 arXiv runs on a Calendar Year billing cycle (Jan-Dec), and generally
 invoices in February or March. Timelines are flexible, and we are
 willing to delay billing until fall at an institution’s request. Please
-contact us at <support@arxiv.org> to request alternative invoice date.
+contact us at support@arxiv.org to request alternative invoice date.
 
 <span id="3J"></span>
 
@@ -588,7 +588,7 @@ acknowledge support from other libraries and research laboratories.
 
 ### Our institution is not listed in the Top 250, but we would like to become a supporting member. What is the process?
 
-Please email us at <support@arxiv.org>. We are always happy to have new
+Please email us at support@arxiv.org. We are always happy to have new
 members!
 
 <span id="3L"></span>
@@ -928,7 +928,7 @@ individual and the institution.
 
 Please have in mind an eligible institution or criteria for your
 sponsorship (eg: your alma mater, or the heaviest-using institution in a
-specific country), and contact us at <support@arXiv.org> to get the ball
+specific country), and contact us at support@arxiv.org to get the ball
 rolling. We request that sponsors make the same pledge that an
 institution would (a good-faith five year commitment, annual invoicing).
 We then contact the institution to confirm that a sponsored membership
@@ -951,7 +951,7 @@ join
 
 ### I have other questions and want to talk with someone from the arXiv team.
 
-You can contact us at [support@arXiv.org](mailto:support@arxiv.org). We
+You can contact us at support@arxiv.org. We
 welcome your questions and comments (though if your questions or
 comments are about submissions or moderation, please find the
 appropriate contact [here](https://arxiv.org/help/contact)).
