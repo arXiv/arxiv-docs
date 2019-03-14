@@ -25,8 +25,8 @@ arXiv is an openly accessible, moderated repository for scholarly
 articles in specific scientific disciplines. Material submitted to arXiv
 is expected to be of interest, relevance, and value to those
 disciplines. arXiv reserves the right to reject or reclassify any
-submission. Submissions are reviewed by expert moderators to verify that
-they are topical and refereeable scientific contributions that follow
+submission. Our expert moderators verify that submissions
+are topical and refereeable scientific contributions that follow
 accepted standards of scholarly communication (as exemplified by
 conventional journal articles).
 
