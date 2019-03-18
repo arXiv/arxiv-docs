@@ -72,7 +72,8 @@ authors submitting LaTeX to use the [LaTeX or BibTeX output from
 INSPIRE](http://inspirehep.net/info/faq/references_citations?ln=en#ensure_full_reference_extraction).
 This not only provides a quick and convenient way to get the citation
 information, but ensures that the references in your article can be
-extracted cleanly by INSPIRE.
+extracted cleanly by INSPIRE. For an explicit listing of the fields 
+covered by INSPIRE, please see [their info page](http://inspirehep.net/info/hep/collection-policy) on this topic. 
 
 See also the notes in our [TeX submission help](/help/submit_tex#refs).
 
