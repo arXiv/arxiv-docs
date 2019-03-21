@@ -4,7 +4,7 @@ Donate to arXiv
 Donations to arXiv are made through the Cornell University Alumni & Friends website. **100% of your contribution will fund improvements and new initiatives that will benefit arXiv's global scientific community.**
 
 ---
-Donate
+[Donate](https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=276&bledit=1&appealcode=UNXX0OLL1 )
 ---
 
 
