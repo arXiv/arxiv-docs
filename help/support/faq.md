@@ -1,15 +1,9 @@
 arXiv Membership Program FAQ
 ============================
 
-Last updated: 31 January 2018  
-See also: [arXiv Sustainability Initiative](/help/support) main page
+Last updated: March 2019  
+See also: [Membership & Giving](https://arxiv.org/About/give)
 
-Please note:
-------------
-
-arXiv has a new business model as of 1 January 2018! The governance
-model is unchanged, but member tiers and fees are different than last
-year. Please let us know if you have any questions or comments!
 
 arXiv -- GENERAL QUESTIONS
 --------------------------
@@ -130,7 +124,7 @@ arXiv -- GENERAL QUESTIONS
 arXiv.org is widely acknowledged as one of the most successful open
 access digital archives. In August 1991, Paul Ginsparg created arXiv as
 a mechanism repository for preprint exchanges in high energy physics; in
-2001, it moved to Cornell University Library (CUL). Now, it has
+2001, it moved to Cornell University Library (CUL) and in 2018 is moved to Computing and Information Sciences (CIS) at Cornell University. Now, it has
 transformed scholarly communication in multiple fields of physics and
 plays an increasingly prominent role in mathematics, computer science,
 quantitative biology, quantitative finance, and statistics. It is
