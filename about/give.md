@@ -1,14 +1,16 @@
 Membership & Giving
 ====================
 
-arXiv is committed to providing free open access through its sustainable support model, which is a collaboratively governed, community-supported resource. Learn more about arXiv’s financial support and governance model.
+arXiv is committed to providing free open access through its sustainable support model, which is a collaboratively governed, community-supported resource. Learn more about arXiv’s [financial support and governance model](https://confluence.cornell.edu/x/M8JRF).
 
-arXiv is funded by Cornell University, the Simons Foundation, member institutions, and individuals.
+arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/), [member institutions](https://confluence.cornell.edu/x/ALlRF), and individuals.
 
-**Donate to arXiv.**
+[Donate to arXiv (make this a large button)](https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=276&bledit=1&appealcode=UNXX0OLL1)
+---------------
 We thank you for your support.
-large button
+
 
 Institutional Membership
-Worldwide libraries and research laboratories support arXiv through membership. We thank our member institutions[link to members].
-Learn more.
+------------------------
+Worldwide libraries and research laboratories support arXiv through membership. We thank our [member institutions](https://confluence.cornell.edu/x/ALlRF).
+Learn more about [Membership](https://arxiv.org/help/membership).
