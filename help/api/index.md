@@ -12,11 +12,8 @@ provides links to developer documentation, and gives instructions for
 how to join the mailing list and contact other developers and
 maintainers.
 
-For more information about the arXiv API, please see our [arxiv-api
-group](http://groups.google.com/group/arxiv-api) or look at the [API
-FAQ](faq).
-
-  - [API News](#news)
+For more news and questions about the arXiv API, please see our [arxiv-api
+group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](faq).
 
   - [About the arXiv API](#about)
 
@@ -28,11 +25,6 @@ FAQ](faq).
 
   - [Community](#community)
 
-## API News
-
-Please [subscribe to the API Blog
-feed](http://feeds.feedburner.com/ArxivApiDevelopments) for the most
-current updates and discussions regarding the API.
 
 ## About the arXiv API
 
