@@ -11,15 +11,11 @@ composition, and operation as well as the election of its members.
 
 Current Board members are:
 
--   Eberhard Bodenschatz, Professor, Max-Planck-Institut für Dynamik und
-    Selbstorganisation, Göttingen \| Professor of Physics, Cornell
-    University
+-   Eberhard Bodenschatz, Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
 -   Ralf Bundschuh, Professor of Physics and Biochemistry, Ohio State
     University (*ex officio*, as chair of Quantitative Biology Advisory
     Committee)
 -   Mark Doyle, Chief Information Officer, American Physical Society (APS Physics)
--   David Eppstein, Chancellor's Professor of Computer Science,
-    University of California, Irvine
 -   Gregory Gabadadze, Professor of Physics, New York University \|
     Associate Director of the Mathematics and Physical Sciences
     Division, Simons Foundation
@@ -48,8 +44,8 @@ The [physics](/new/physics#advisory_committee),
 [mathematics](/new/math#advisory_committee), [computer science
 (CoRR)](/corr/advisorycommittee), [quantitative
 biology](/new/q-bio#advisory_committee), [quantitative
-finance](/new/q-fin#advisory_committee), and
-[statistics](/new/stat#advisory_committee) archives each have
+finance](/new/q-fin#advisory_committee), 
+[statistics](/new/stat#advisory_committee), [economics](help/econ) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as *ex
@@ -61,6 +57,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   David Eppstein, University of California, Irvine
 -   Jennifer Ross, University of Massachusetts, Amherst
 -   Shude Mao, Tsinghua University \| National Astronomical
     Observatories of China \| Jodrell Bank Centre for Astrophysics,
