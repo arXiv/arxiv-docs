@@ -72,10 +72,10 @@ shortcut for <span class="mathjax">$\\mathbf{R}\^2$</span>, then MathJax will no
 this expression. Submitters should use only standard <span class="mathjax">La$\\TeX$</span> and
 AMS-La<span class="mathjax">$\\TeX$</span> macros in paper titles and abstracts.
 
-Also, since '\<' is a reserved character in HTML, special care must be
+Also, since '<' is a reserved character in HTML, special care must be
 taken in its use. Usually just adding a space after it will suffice for
-it not to be interpreted as the start of an element name (e.g., 'x \<
-y', not 'x\<y'); but if in doubt, use the entity reference '&lt;'.
+it not to be interpreted as the start of an element name (e.g., 'x <
+y', not 'x<y'); but if in doubt, use the entity reference '&lt;'.
 
 ### Where can I get help regarding MathJax?
 
