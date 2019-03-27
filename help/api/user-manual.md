@@ -672,7 +672,7 @@ example, and we'll be glad to post it!
 All of the simple examples produce an output which looks like:
 
 Example: A Typical Atom Response
-
+```atom
     <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
       <link xmlns="http://www.w3.org/2005/Atom" href="http://arxiv.org/api/query?search_query=all:electron&amp;id_list=&amp;start=0&amp;max_results=1" rel="self" type="application/atom+xml"/>
@@ -709,7 +709,7 @@ Example: A Typical Atom Response
         <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
       </entry>
     </feed>
-
+```
 <span id="perl_simple_example"></span>
 
 #### 4.1.1. Perl
@@ -719,7 +719,7 @@ is in the default perl installation on most platforms. It can be
 downloaded and installed from
 [CPAN](http://search.cpan.org/%3C/sub%3Egaas/libwww-perl-5.808/lib/LWP.pm).
 Sample code to produce the above output is:
-
+```perl
     use LWP;
     use strict;
 
@@ -727,7 +727,7 @@ Sample code to produce the above output is:
     my $browser = LWP::UserAgent->new();
     my $response = $browser->get($url);
     print $response->content();
-
+```
 <span id="python_simple_example"></span>
 
 #### 4.1.2. Python
@@ -746,10 +746,10 @@ is:
 
 wheras in Python 3 an example would be:
 ```python
-import urllib.request as ulr
-with ulr.urlopen('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1') as url:
-  r = url.read()
-print(r)
+    import urllib.request as libreq
+    with libreq.urlopen('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1') as url:
+      r = url.read()
+    print(r)
 ```
 
 <span id="ruby_simple_example"></span>
@@ -762,25 +762,25 @@ and [uri](http://www.ruby-doc.org/stdlib/libdoc/uri/rdoc/) modules are
 part of the [ruby standard library](http://www.ruby-doc.org/stdlib/),
 and are included in any default installation of ruby. Sample code to
 produce the above output is:
-
+```ruby
     require 'net/http'
     require 'uri'
     url = URI.parse('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1')
     res = Net::HTTP.get_response(url)
     print res.body
-
+```
 <span id="php_simple_example"></span>
 
 #### 4.1.4. PHP
 
 The file\_get\_contents() function is part of the PHP core language:
-
+```php
     <?php
     $url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1';
     $response = file_get_contents($url);
     print_r($response);
     ?>
-
+```
 <span id="detailed_examples"></span>
 
 ### 4.2. Detailed Parsing Examples
