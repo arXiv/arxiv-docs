@@ -735,13 +735,22 @@ Sample code to produce the above output is:
 The [urllib](http://docs.python.org/lib/module-urllib.html) module is
 part of the [python standard
 library](http://docs.python.org/lib/lib.html), and is included in any
-default installation of python. Sample code to produce the above output
+default installation of python. Sample code to produce the above output in Python 2.7
 is:
-
+```python
     import urllib
     url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1'
     data = urllib.urlopen(url).read()
     print data
+```
+
+wheras in Python 3 an example would be:
+```python
+import urllib.request as ulr
+with ulr.urlopen('http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1') as url:
+  r = url.read()
+print(r)
+```
 
 <span id="ruby_simple_example"></span>
 
