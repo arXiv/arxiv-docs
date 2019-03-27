@@ -15,8 +15,8 @@ submission replaced to correct the problems.
     Feynmf?](feynmf#nolabel)
   - [Why are the margins different? Why is my text truncated?](dvips)
   - [Why does my paper give the wrong date?](today)
-  - [Why do my citations appear in long form [1,2,3,4] instead of
-    short form [1-4]?](citelinks)
+  - [Why do my citations appear in long form `[1,2,3,4]` instead of
+    short form `[1-4]`?](citelinks)
   - [Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.)
     display incorrectly in the processed document?](pd1enc)
   - [Why are there problems with my postscript file?](/help/faq/psbad)
