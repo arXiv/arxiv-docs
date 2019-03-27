@@ -132,7 +132,7 @@ Similar to [index](#makeindex) files, we do not process `.glo` into the resultan
 
 ### How to include supplemental material
 
-TeX-based supplemntal material should be included in the main document root direcotry, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the toplevel file, or they will be assembled in alphanumeric order. For example, given the following files:  
+TeX-based supplemental material should be included in the main document root directory, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the top-level file, or they will be assembled in alphanumeric order. For example, given the following files:  
 
 ```
   ./ms.tex
