@@ -45,7 +45,7 @@ format you want from the `Format` sub-menu.
 Then select the `Show Source` menu item to get a pop-up that allows you to copy the math
 source into another application.
 
-To try this feature, visit<https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html>.
+To try this feature, visit <https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html>.
 
 Alternatively, MathJax can be disabled entirely (see below).
 
