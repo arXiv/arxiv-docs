@@ -132,7 +132,7 @@ Similar to [index](#makeindex) files, we do not process `.glo` into the resultan
 
 ### How to include supplemental material
 
-TeX-based supplemntal material should be included in the main document root direcotry, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the toplevel file, or they will be assembled in alphanumeric order. For example, given the following files:  
+TeX-based supplemental material should be included in the main document root directory, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the top-level file, or they will be assembled in alphanumeric order. For example, given the following files:  
 
 ```
   ./ms.tex
@@ -142,7 +142,7 @@ TeX-based supplemntal material should be included in the main document root dire
   ./supplement.bbl
 ```
   
-contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillaryry_files) directory, as these are not indexed for discovery and access.
+contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillary_files) directory, as these are not indexed for discovery and access.
 
 We highly recommend that if you plan to include any non-TeX files with your source package that you include them as [ancillary files](/help/ancillary_files) inside their own `/anc` directory off your document's root directory. For additional information please see that [help page](/help/ancillary_files). For legacy reasons, we still support individual file inclusion, as follows.
 
