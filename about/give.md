@@ -6,9 +6,9 @@ arXiv is committed to providing free open access through its sustainable support
 arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/), [member institutions](https://confluence.cornell.edu/x/ALlRF), and individuals.
 
 
-<a class="button is-large is-link" href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&amp;gid=2&amp;pgid=403&amp;cid=1031&amp;dids=276&amp;bledit=1&amp;appealcode=UNXX0OLL1">Donate to arXiv</a>
+<a class="button is-link" href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&amp;gid=2&amp;pgid=403&amp;cid=1031&amp;dids=276&amp;bledit=1&amp;appealcode=UNXX0OLL1">Donate to arXiv</a>
 
-<p align="center">
+<p>
   Thank you for your support!
 </p>
 
