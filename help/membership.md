@@ -1,7 +1,7 @@
 Institutional Membership
 ========================
 
-To support arXiv, we request membership from institutions responsible for the top 75% of downloads. Since 2016, it is the top 250 (add link). 
+To support arXiv, we request membership from [institutions responsible for the top 75% of downloads](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics). Since 2016, it is the top 250. 
 
 Aside from the knowledge that you are part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
 
@@ -9,10 +9,14 @@ Aside from the knowledge that you are part of a shared investment in a culturall
    - Access to enhanced institutional use statistics;
    - Public acknowledgement of members' role in financial support listed on arXiv.org and locally to the institution via an IP generated banner.
 
----
-**Membership Tiers**
 
-Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually (usually in January). The usage statistics for the top 200 institutional users for 2009-2018 are available online at arXiv Support.
+### Membership Tiers
+
+Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually (usually in January). 
+
+[Download Statistics of Top Institutional Users](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics)
+-- the usage statistics for the top 200+ institutional users since 2009
+
 
 |3-Year Average Usage Rank   |Annual Membership Fees
 |-----------------------------|:--------------------|
@@ -28,5 +32,5 @@ Membership fees are based on a 3-year rolling average of institutional ranking c
 Please join the arXiv support announcement email list by sending an email message to arxiv-support-updates-L-request@cornell.edu. Leave the subject line blank. The body of the message should be a single word: join
 
 ---
-For questions related to donation, membership, or the [business sustainability
+For questions related to donation, membership, sponsoring an institution, or the [business sustainability
 model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <support@arxiv.org>**.
