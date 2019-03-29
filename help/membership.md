@@ -26,3 +26,7 @@ Membership fees are based on a 3-year rolling average of institutional ranking c
 ---
 **How can I stay informed about arXiv sustainability and membership initiatives?**
 Please join the arXiv support announcement email list by sending an email message to arxiv-support-updates-L-request@cornell.edu. Leave the subject line blank. The body of the message should be a single word: join
+
+---
+For questions related to donation, membership, or the [business sustainability
+model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <support@arxiv.org>**.
