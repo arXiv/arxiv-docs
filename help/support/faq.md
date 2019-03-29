@@ -75,12 +75,11 @@ STAFFING AND EXPENSES
 -   [What are arXiv's operating costs?](#5A)
 -   [How is arXiv staffed?](#5B)
 
-arXiv @ CUL
+arXiv @ CIS
 -----------
 
--   [What is the relationship between arXiv.org and Cornell University
-    Library (CUL)?](#6A)
--   [What are CUL's preservation strategies for arXiv.org?](#6B)
+-   [What is the relationship between arXiv.org and Computing and Information Sciences (CIS)?](#6A)
+-   [What are arXiv's preservation strategies for arXiv.org?](#6B)
 -   [Is there an automated way to download the arXiv papers of the
     authors from my institution to our IR?](#6C)
 -   [Does arXiv accept research data?](#6D)
