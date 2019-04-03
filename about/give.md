@@ -15,7 +15,7 @@ arXiv is funded by Cornell University, the [Simons Foundation](https://www.simon
 
 Institutional Membership
 ------------------------
-Worldwide libraries and research laboratories support arXiv through membership. We thank our [member institutions](https://confluence.cornell.edu/x/ALlRF).
+Worldwide libraries, universities, research organizations and institutions support arXiv through membership. We thank our [member institutions](https://confluence.cornell.edu/x/ALlRF).
 Learn more about [Membership](https://arxiv.org/help/membership).
 
 
