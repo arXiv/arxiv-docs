@@ -5,16 +5,16 @@ To support arXiv, we request membership from libraries, universities, research o
 
 [We thank our members for supporting us!](https://arxiv.org/about/ourmembers) 
 
-Aside from the knowledge that you are part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
+In addition to being a part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
 
    - Participation in arXiv's ongoing governance through the Member Advisory Board, which provides input for project prioritization, new service offerings, financial planning, use of discretionary funds, future technical developments, and policy decisions;
    - Access to enhanced institutional use statistics;
-   - Public acknowledgement of members' role in financial support listed on arXiv.org and locally to the institution via an IP generated banner.
+   - Public acknowledgement of financial support listed on arXiv.org and locally to the institution via an IP generated banner.
 
 
 ### Membership Tiers
 
-Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually (usually in January). 
+Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually at the beginning of the calendar year. 
 
 [Download Statistics of Top Institutional Users](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics)
 -- the usage statistics for the top 200+ institutional users since 2009
