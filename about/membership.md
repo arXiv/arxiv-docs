@@ -35,4 +35,4 @@ Please join the arXiv support announcement email list by sending an email messag
 
 ---
 For questions related to donation, membership, sponsoring an institution, or the [business sustainability
-model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <support@arxiv.org>**.
+model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
