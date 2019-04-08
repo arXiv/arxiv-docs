@@ -24,9 +24,9 @@ Subject: subscribe John Smith
 add Biophysics 
 del Plasma Physics
 ```
-    You may alternatively use the short subject class codes, for example
-    to subscribe to the Risk Management category (`q-fin.RM`) in
-    Quantitative Finance:
+You may alternatively use the short subject class codes, for example
+to subscribe to the Risk Management category (`q-fin.RM`) in
+Quantitative Finance:
 ```
 To: q-fin@arxiv.org 
 Subject: subscribe John Smith 
@@ -42,16 +42,16 @@ To: arch-ive@arxiv.org
 Subject: subscribe Your Full Name
 ```
 
-    You should give your name as you wish it to appear on the
-    distribution list. Here is an example:
+You should give your name as you wish it to appear on the
+distribution list. Here is an example:
 
 ```
 To: quant-ph@arxiv.org 
 Subject: subscribe John Smith
 ```
 
-    (note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
-    subject classes within that archive.)
+(note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
+subject classes within that archive.)
 
 4.  **<span id="physics">Handling subscriptions to all physics archives
     through `physics`</span>**  
@@ -70,11 +70,10 @@ Subject: subscribe John Smith
 add Soft Condensed Matter 
 add Superconductivity
 ```
-
-    If you want to change from, say, subscribing to all of `astro-ph` to
-    subscribing to just `astro-ph.EP` then you must first
-    [cancel](#cancel) the subscription to `astro-ph`, and then subscribe
-    to `EP` through the `physics` archive.
+If you want to change from, say, subscribing to all of `astro-ph` to
+subscribing to just `astro-ph.EP` then you must first
+[cancel](#cancel) the subscription to `astro-ph`, and then subscribe
+to `EP` through the `physics` archive.
 
 ------------------------------------------------------------------------
 
@@ -93,16 +92,14 @@ so as follows.
 To: arch-ive@arxiv.org 
 Subject: cancel
 ```
-
-    Here is an example:
+Here is an example:
 ```
 To: quant-ph@arxiv.org 
 Subject: cancel
 ```
-
-    If you want to cancel your subscription to a particular subject
-    class in an archive that supports subject classes, then see the
-    example use of **`del`** in the **`subscribe`** command above.
+If you want to cancel your subscription to a particular subject
+class in an archive that supports subject classes, then see the
+example use of **`del`** in the **`subscribe`** command above.
 
 Note that you may be subscribed through a remote listserv, or through
 some local preprint distribution list at your end. You can determine the
