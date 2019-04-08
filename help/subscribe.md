@@ -44,10 +44,12 @@ Subject: subscribe Your Full Name
 
     You should give your name as you wish it to appear on the
     distribution list. Here is an example:
+
 ```
 To: quant-ph@arxiv.org 
 Subject: subscribe John Smith
 ```
+
     (note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
     subject classes within that archive.)
 
