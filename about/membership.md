@@ -1,7 +1,7 @@
 Institutional Membership
 ========================
 
-To support arXiv, we request membership from libraries, universities, research organizations and institutions that are arXiv's heaviest users, which represents the [top 75% of downloads](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics). Since 2016, it is the top 250 institutions. 
+To support arXiv, the membership program aims to engage libraries and research laboratories worldwide that represent arXiv's heaviest institutional users, which represents the [top 75% of downloads](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics). 
 
 [We thank our members for supporting us!](https://arxiv.org/about/ourmembers) 
 
