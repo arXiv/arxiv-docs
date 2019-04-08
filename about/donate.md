@@ -1,7 +1,7 @@
 Donate to arXiv
 ======
 
-<p style="margin-bottom: 2em;">arXiv is funded by individuals like YOU! 100% of your contribution will fund improvements and new initiatives that will benefit arXiv's global scientific community.</p>
+<p style="margin-bottom: 2em;">arXiv is funded by individuals like you! 100% of your contribution will fund improvements and new initiatives that will benefit arXiv's global scientific community.</p>
 
 <p style="float: left; margin-right: 2em; margin-bottom: 2em;"><a class="button is-large is-link" href="https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&amp;gid=2&amp;pgid=403&amp;cid=1031&amp;dids=276&amp;bledit=1&amp;appealcode=UNXX0OLL1">Donate</a></p>
 
