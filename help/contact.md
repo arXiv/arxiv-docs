@@ -30,7 +30,7 @@ If you have questions about the status of your submission, contact us at moderat
 
 ## Membership and Giving
 
-Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](https://arxiv.org/about/give), or contact membership@arxiv.org.
+Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](/help/support), or contact membership@arxiv.org.
 
 ## Copyright infringement
 
