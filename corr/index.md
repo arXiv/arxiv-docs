@@ -16,7 +16,6 @@ The advisory committee members serve as consultants to Cornell University and to
 - Ed Fox, Virginia Tech  
 - Lee Giles, Penn State  
 - Joseph Halpern, Cornell (chair)  
-- Carl Lagoze, Cornell  
 - Bernard Lang, INRIA  
 - Michael Lesk, Rutgers  
 - Andrew McCallum, U. Massachusetts  
@@ -27,5 +26,4 @@ The advisory committee members serve as consultants to Cornell University and to
 - Erik Sandewall, Linkoping, Sweden  
 - Stuart Shieber, Harvard  
 - Jeff Ullman, Stanford  
-- Ian Witten, Waikato, New Zealand
 
