@@ -3,7 +3,7 @@ Membership & Giving
 
 arXiv is committed to providing free open access through its sustainable support model. It is a collaboratively governed, community-supported resource. Learn more about arXiv’s [financial support and governance model](https://confluence.cornell.edu/x/M8JRF).
 
-arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/), [member institutions](https://arxiv.org/about/ourmembers), and individuals-- like you!
+arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/), [member institutions](https://arxiv.org/about/ourmembers), and individuals- like you!
 
 
 <a class="button is-link" href="https://arxiv.org/about/donate">Donate to arXiv</a>
