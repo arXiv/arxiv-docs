@@ -1,15 +1,9 @@
 arXiv Membership Program FAQ
 ============================
 
-Last updated: 31 January 2018  
-See also: [arXiv Sustainability Initiative](/help/support) main page
+Last updated: March 2019  
+See also: [Membership & Giving](https://arxiv.org/About/give)
 
-Please note:
-------------
-
-arXiv has a new business model as of 1 January 2018! The governance
-model is unchanged, but member tiers and fees are different than last
-year. Please let us know if you have any questions or comments!
 
 arXiv -- GENERAL QUESTIONS
 --------------------------
@@ -81,12 +75,11 @@ STAFFING AND EXPENSES
 -   [What are arXiv's operating costs?](#5A)
 -   [How is arXiv staffed?](#5B)
 
-arXiv @ CUL
+arXiv @ CIS
 -----------
 
--   [What is the relationship between arXiv.org and Cornell University
-    Library (CUL)?](#6A)
--   [What are CUL's preservation strategies for arXiv.org?](#6B)
+-   [What is the relationship between arXiv.org and Computing and Information Sciences (CIS)?](#6A)
+-   [What are arXiv's preservation strategies for arXiv.org?](#6B)
 -   [Is there an automated way to download the arXiv papers of the
     authors from my institution to our IR?](#6C)
 -   [Does arXiv accept research data?](#6D)
@@ -130,7 +123,7 @@ arXiv -- GENERAL QUESTIONS
 arXiv.org is widely acknowledged as one of the most successful open
 access digital archives. In August 1991, Paul Ginsparg created arXiv as
 a mechanism repository for preprint exchanges in high energy physics; in
-2001, it moved to Cornell University Library (CUL). Now, it has
+2001, it moved to Cornell University Library (CUL) and in January 2019 it moved to Computing and Information Sciences (CIS) at Cornell University. Now, it has
 transformed scholarly communication in multiple fields of physics and
 plays an increasingly prominent role in mathematics, computer science,
 quantitative biology, quantitative finance, and statistics. It is
@@ -193,7 +186,7 @@ ago today...](https://arxiv.org/abs/1108.2700v2)
 
 <span id="steward"></span>
 ### Who is arXiv's organizational steward?
-In January 2019, the administrative and operational responsibilities for the IT infrastructure and user support collaboration for arXiv is moving from Cornell University Library (CUL) to Cornell Computing and Information Science (CIS). Cornell has hosted arXiv since 2001 when its founder, Paul Ginsparg, left the Los Alamos National Laboratory and joined the Cornell faculty in the Physics and Information Science departments. Running the service has always involved a collaboration with CIS as Professor Ginsparg and other CIS faculty lead R&D efforts through several NSF grants and other funding sources, and contribute to the development of moderation policies. This transition is a natural stage in the evolution of arXiv, required for optimum service delivery and infrastructure sustainability. For more information, see: [transition FAQ](https://confluence.cornell.edu/display/arxivpub/Transition+FAQ%3A+Move+to+Cornell+Computing+and+Information+Science).
+In January 2019, the administrative and operational responsibilities for the IT infrastructure and user support collaboration for arXiv moved from Cornell University Library (CUL) to Cornell Computing and Information Science (CIS). Cornell has hosted arXiv since 2001 when its founder, Paul Ginsparg, left the Los Alamos National Laboratory and joined the Cornell faculty in the Physics and Information Science departments. Running the service has always involved a collaboration with CIS as Professor Ginsparg and other CIS faculty lead R&D efforts through several NSF grants and other funding sources, and contribute to the development of moderation policies. This transition is a natural stage in the evolution of arXiv, required for optimum service delivery and infrastructure sustainability. For more information, see: [transition FAQ](https://confluence.cornell.edu/display/arxivpub/Transition+FAQ%3A+Move+to+Cornell+Computing+and+Information+Science).
 
 <span id="1E"></span>
 
@@ -226,8 +219,8 @@ of arXiv.org and to improve some portions of the user interface
 (including the moderation interface and search capabilities). arXiv-NG
 is funded both with Grants (so far from the Sloan Foundation, Allen
 Institute for Artificial Intelligence and the Heising-Simons Foundation)
-and with development reserves from arXiv.org. Beginning in 2018,
-arXiv-NG funding and expenses will be included on the arXiv.org budget.
+and with development reserves from arXiv.org. Since 2018,
+arXiv-NG funding and expenses is included on the arXiv.org budget.
 For more information on this ongoing project, please see the [arXiv-NG
 wiki](https://confluence.cornell.edu/x/QsJRF).
 
@@ -280,9 +273,9 @@ or arXiv.
 
 ### Who are arXiv's members?
 
-arXiv.org is glad to count over 210 institutions from around the world
+arXiv.org is glad to count over 220 institutions from around the world
 amongst its members, for a full list please see [arXiv
-members](https://confluence.cornell.edu/x/ALlRF).
+members](https://confluence.cornell.edu/x/ALlRF). Learn more about [membership](https://arxiv.org/help/membership).
 
  
 
@@ -305,7 +298,7 @@ the [arXiv Operating
 Principles](https://confluence.cornell.edu/download/attachments/340902451/arXivPrinciplesMarch12.pdf).
 Cornell University Library (CUL), the [Simons
 Foundation](https://www.simonsfoundation.org/), and a global collective
-of 210+ institutional members from 25 countries support arXiv
+of 220+ institutional members from 25 countries support arXiv
 financially. The [financial
 model](https://confluence.cornell.edu/x/mJx0F) for 2018-22 entails four
 sources of revenues:
@@ -328,7 +321,7 @@ Foundation direct contributions) was around $1,046,000. For full budget
 information, please see our [current and past year
 budgets.](https://confluence.cornell.edu/x/BKpRF)
 
-Beginning in 2018, arXiv will also show grants and expenses for arXiv-NG
+Beginning in 2018, arXiv also shows grants and expenses for arXiv-NG
 on its budgets. Funding sources for this 3-year project include:
 
 -   The Sloan Foundation contributes $445,000 for partnerships and
@@ -368,7 +361,7 @@ the [arXiv Reserve Policy](https://confluence.cornell.edu/x/BKpRF)
 
 ### Are there plans to identify additional revenue sources to diversify arXiv's funding?
 
-In the process of investigating business models, CUL considered many
+In the process of investigating business models, arXiv considered many
 options and ruled out article-processing charges and submission fees.
 Barrier-free submission and use is one of the founding principles of
 arXiv. The conclusion of the Scientific Advisory Board (SAB) and the
@@ -384,20 +377,20 @@ In addition to our institutional membership program, arXiv accepts both
 
 ### How did arXiv develop this Business and Governance Model?
 
-Since 2010, Cornell University Library (CUL)'s sustainability planning
+Since 2010, arXiv's sustainability planning
 initiative has aimed to reduce arXiv's financial burden and dependence
 on a single institution, instead creating a broad-based,
 community-supported resource. To keep an open access academic resource
 like arXiv sustainable, administrators must continue to enhance its
 value based on the needs of all its user communities, as well as cover
-the associated operating costs. Cornell's initiative strives to
+the associated operating costs. arXiv's initiative strives to
 strengthen arXiv's technical, service, financial, and policy
 infrastructure.
 
-As an interim strategy, CUL initially established a voluntary
+As an interim strategy, arXiv initially established a voluntary
 institutional contribution model, inviting pledges from 200 libraries
 and research laboratories worldwide that represent arXiv's heaviest
-institutional users. During this 2010-12 planning process, CUL sought
+institutional users. During this 2010-12 planning process, arXiv sought
 input from a wide range of stakeholders to position arXiv as a
 collaboratively governed, community-supported resource. The planning
 effort also included a meeting with representatives of several
@@ -451,8 +444,8 @@ is the top 250.
 Membership fees are based on a 3-year rolling average of institutional
 ranking calculated according to the number of articles downloaded. Usage
 statistics and institutional rankings are calculated annually (usually
-in January). The usage statistics for the top 200 institutional users
-for 2009-2018 are available online at [arXiv
+in January). The usage statistics for the top 200+ institutional users
+since 2009 are available online at [arXiv
 Support.](https://confluence.cornell.edu/x/k7BRF)
 
 <table>
@@ -510,11 +503,8 @@ organizations include:
 
 ### How are the member institutions acknowledged?
 
-arXiv members are listed on the [arXiv Public
-Wiki](https://confluence.cornell.edu/x/m4NRF) page under [arXiv
-Five-Year Member Pledges](https://confluence.cornell.edu/x/ALlRF).
-
-Through IP identification, the users of these institutions see an
+arXiv members are [acknowledged online](https://confluence.cornell.edu/x/m4NRF).
+Additionally, through IP identification, the users of these institutions see an
 acknowledgement banner to indicate support from their home institutions.
 It is critical to raise awareness about the resource needs for running
 scientific repositories and the roles of member libraries in securing
@@ -524,17 +514,10 @@ arXiv's future.
 
 ### How can I find information about my institution's usage statistics for arXiv?
 
-arXiv's basic institutional statistics for the Top 200 users can be
-found online for [2009](http://arxiv.org/help/support/2009_usage),
-[2010](http://arxiv.org/help/support/2010_usage),
-[2011](https://arxiv.org/help/support/2011_usage),
-[2012](https://arxiv.org/help/support/2012_usage),
-[2013](https://arxiv.org/help/support/2013_usage),
-[2014](https://arxiv.org/help/support/2014_usage),
-[2015](https://arxiv.org/help/support/2015_usage),
-[2016](https://arxiv.org/help/support/2016_usage) and
-[2017](https://arxiv.org/help/support/2017_usage). If your institution
-is not listed, please email us at support@arxiv.org for usage
+The usage statistics for the top 200+ institutional users
+since 2009 are available online at [arXiv
+Support.](https://confluence.cornell.edu/x/k7BRF). If your institution
+is not listed, please contact us at <support@arxiv.org> for usage
 statistics. If you are an arXiv member, your institutional statistics
 will be sent to you annually with your invoice.
 
@@ -559,9 +542,9 @@ identity linking using [ORCID](http://www.orcid.org) author identifiers.
 
 ### Do supporting institutions sign an agreement for five-year pledges of support?
 
-No. Cornell University Library (CUL) envisions the five-year commitment
-as a good-faith intention to support arXiv for the next five years. It
-is not seen as a lump-sum payment or a legally binding contract.
+No, member institutions only commit on an annual basis. The initial five-year commitment in 2013
+was a good-faith intention to support arXiv for the next five years. It
+was not a lump-sum payment or a legally binding contract.
 
 <span id="3I"></span>
 
@@ -576,7 +559,7 @@ contact us at support@arxiv.org to request alternative invoice date.
 
 ### How are the usage tiers calculated and why focus on the top 250 institutional users?
 
-Use is measured by article downloads. CUL focuses on the top 250
+Use is measured by article downloads. arXiv focuses on the top 250
 institutions because they account for about 75% of institutionally
 identifiable downloads (top 200 institutions prior to 2016). This is not
 a mandatory fee-based funding model that would force anyone to support
@@ -633,7 +616,7 @@ arXiv GOVERNANCE
 
 ### How does the arXiv Governance Model work?
 
-Cornell University Library (CUL) holds the overall administrative and
+Computing and Information Science (CIS) at Cornell University holds the overall administrative and
 financial responsibility for arXiv's operation and development, with
 guidance from its Member Advisory Board (MAB) and its Scientific
 Advisory Board (SAB). CUL manages the moderation of submissions and user
@@ -665,7 +648,7 @@ moderation processing.
 
 The MAB is made up of elected representatives from arXiv's membership
 and serves as a consultative body. The board represents participating
-institutions' interests and advises CUL on issues related to repository
+institutions' interests and advises arXiv on issues related to repository
 management and development, standards implementation, interoperability,
 development priorities, business planning, financial planning, and
 outreach and advocacy. Membership in arXiv and representation on the MAB
@@ -741,23 +724,23 @@ arXiv @ CUL
 
 <span id="6A"></span>
 
-### What is the relationship between arXiv.org and Cornell University Library (CUL)?
+### What is the relationship between arXiv.org and Computing and Information Sciences (CIS)?
 
-Cornell University Library (CUL) has been the physical home of arXiv.org
-since 2001. CUL holds the overall administrative and financial
+Computing and Information Sciences (CIS) at Cornell University holds the overall administrative and financial
 responsibility for arXiv's operation and development, with guidance from
 its Member Advisory Board (MAB) and its Scientific Advisory Board (SAB).
-CUL manages the moderation of submissions and user support, including
+CIS manages the moderation of submissions and user support, including
 the development and implementation of policies and procedures; operates
 arXiv's technical infrastructure; assumes responsibility for archiving
 to ensure long-term access; oversees arXiv mirror sites; and establishes
 and maintains collaborations with related initiatives to improve
 services for the scientific community through interoperability and
 tool-sharing.
+From 2001 until January 2019, Cornell University Library (CUL) was the steward of arXiv.org.
 
 <span id="6B"></span>
 
-### What are CUL's preservation strategies for arXiv.org?
+### What are arXiv's preservation strategies?
 
 For arXiv, digital preservation refers to a range of managed activities
 to support the long-term maintenance of bitstreams. These activities
@@ -770,13 +753,12 @@ is actively monitored. The underlying bits are protected by standard
 backup procedures at the Cornell campus. Off-site backup facilities in
 New York City provide geographic redundancy. The complete content is
 replicated at arXiv's mirror sites around the world, and additional
-managed tape backups are taken at Los Alamos National Laboratory. CUL
+managed tape backups are taken at Los Alamos National Laboratory. CIS
 has a distinct archival repository to support preservation of critical
 content from its institutional resources, including arXiv. We anticipate
 storing all arXiv documents, both in source and processed form, with
-incremental ingest of new material. We expect that CUL will bear the
-preservation costs for arXiv, leveraging the archival infrastructure
-developed for the library system.
+incremental ingest of new material. We expect that CIS will bear the
+preservation costs for arXiv.
 
 <span id="6C"></span>
 
@@ -829,7 +811,7 @@ do not allow corporate supporters to be voting members.
 ### PERSONAL DONATIONS / How can I donate to arXiv?
 
 You may [donate to
-arXiv](https://securelb.imodules.com/s/1717/alumni/index.aspx?sid=1717&gid=2&pgid=403&cid=1031&dids=276&bledit=1&appealcode=UNXX0OLL1)
+arXiv](https://arxiv.org/help/donate)
 through the Cornell University Alumni & Friends website. 100% of your
 contribution will fund improvements and new initiatives that will
 benefit arXiv's global scientific community.
@@ -851,7 +833,8 @@ Yes!
 ### PERSONAL DONATIONS / Can I contribute from outside the U.S.?
 
 Yes, Cornell accepts international credit cards, and arXiv welcomes
-support from around the world!
+support from around the world! [Donate to
+arXiv](https://arxiv.org/help/donate)
 
 <span id="7G"></span>
 
@@ -873,28 +856,29 @@ functionality requirements that are beyond the routine operational work.
 ### PERSONAL DONATIONS / My institution currently supports arXiv. Why should I?
 
 Our member organizations give generously to support our current
-operating budget. The current 5-year business plan represents a baseline
-maintenance scenario, with additional funding from grants and reserves
+operating budget. arXiv's business plan expects baseline
+maintenance, with additional funding from grants and reserves
 for arXiv-NG redevelopment. We are actively fundraising for this
 project, and welcome support from those who are able to give. Your gift
 will help fund innovation and enhancements so arXiv can remain a vital,
-global open access resource.
+global open access resource. [Donate to
+arXiv](https://arxiv.org/help/donate)
 
 <span id="7I"></span>
 
 ### ONLINE GIVING / Why does a payment page from Cornell University appear?
 
-arXiv is managed by Cornell University Library. The workflow for
+arXiv is managed by Cornell University. The workflow for
 processing our online donations is managed by Cornell Alumni Affairs and
-Development. Your gift will support arXiv and only arXiv.
+Development. Your gift will support arXiv and only arXiv. [Donate to
+arXiv](https://arxiv.org/help/donate)
 
 <span id="7J"></span>
 
 ### ONLINE GIVING / What is arXiv going to do with my personal information?
 
-Your address and phone number will be used solely to verify your credit
-card information, and will not be added to any contact lists. Neither
-arXiv.org nor Cornell retains this information.
+Your address and phone number will be used to verify your credit
+card information. Donors to arXiv may receive future fundraising emails from arXiv and Cornell University and contain options to unsubscribe. Your information is never shared with any third party marketing services.
 
 <span id="7K"></span>
 
