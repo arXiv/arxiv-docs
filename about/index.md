@@ -18,8 +18,9 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 - [Blog](https://blogs.cornell.edu/arxiv)
 
 
-## [Membership & Giving](/about/give)
+## Membership & Giving
 
+- [Membership & Giving](about/give)
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
 - [Our Members and Supporters](/about/ourmembers)
