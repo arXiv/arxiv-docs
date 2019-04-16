@@ -16,7 +16,7 @@ User account passwords:
 -   If you forgot your user account password, please see the [lost
     password form](/user/lost_password).
 -   If you need help recovering an arXiv user account, please email
-    [help@arxiv.org](mailto:mailto:help@arxiv.org).
+    help@arxiv.org.
 
 Paper passwords:
 ----------------

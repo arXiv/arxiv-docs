@@ -2,12 +2,11 @@ Gzipped Files
 =============
 
 In order to save network bandwidth and disk space, submissions are
-compressed. The archive uses the [GNU](http://www.gnu.ai.mit.edu/)
+compressed. The archive uses the [GNU](https://www.gzip.org/)
 *gzip* utility, which is free software.
 
-Therefore, you or your system administrator should obtain and install
-gzip, and start using it for all your compression needs. See our
-[detailed utilities help](utilities.md#taretc) for instructions on
+See our
+[detailed utilities help](utilities#taretc) for instructions on
 obtaining gzip.
 
 Along with gzip you will always find *gunzip*, which decompresses

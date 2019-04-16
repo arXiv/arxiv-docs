@@ -7,7 +7,7 @@ right of this paragraph you should see an example of what this provides
 for arXiv user [Simeon Warner](https://arxiv.org/a/0000-0002-7970-7855).
 If you would like to use this functionality, you will need to [link an
 ORCID identifier](/user/confirm_orcid_id) to your arXiv user account
-**or** create an arXiv public [author identifier](author_identifiers.md)
+**or** create an arXiv public [author identifier](author_identifiers)
 The quickstart section below will get you up and running rapidly;
 complete details follow the quickstart.
 
@@ -115,7 +115,7 @@ several fields may be turned on and off using the `includeTitle`,
 `includeSummary`, `includeJournalRef` and `includeDOI` variables. This
 display will fill the provided space. If you want to limit the width of
 the display, apply a `width` style to the `div.arxivfeed` element in
-your HTML page. A second [`myarticles` example page](myarticles_ex2.md)
+your HTML page. A second [`myarticles` example page](myarticles_ex2)
 shows the use of this format.
 
 How does the widget get the data?

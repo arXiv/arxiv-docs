@@ -29,7 +29,7 @@ the Atom XML format for easy integration with web services and toolkits.
 
 #### RSS
 
-arXiv provides [RSS feeds of new updates](rss.md) each day. These are
+arXiv provides [RSS feeds of new updates](rss) each day. These are
 intended primarily for human consumption but do use well defined XML
 formats and thus might be useful to machine applications.
 
@@ -45,7 +45,7 @@ right to grant any specific rights to others. We are thus unable to
 grant others the right to distribute arXiv articles. If you build
 indexes or tools based on the full-text, you must link back to arXiv for
 downloads. A small fraction of submissions are made with [other
-licenses](license.md) and this information is available in the
+licenses](license) and this information is available in the
 OAI-PMH metadata.*
 
 #### KDD cup dataset
@@ -57,6 +57,6 @@ dataset also includes extracted citation data.
 
 #### Amazon S3
 
-For all articles the [processed PDF and source files available from
+For all articles the [processed PDF and source files are available from
 Amazon S3](bulk_data_s3.md). We recommend this method for bulk access to
 the full-text of arXiv articles.

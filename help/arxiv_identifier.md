@@ -12,7 +12,7 @@ scheme](#new). As of January 2015, the number of digits used in the
 second part of the new identifier, the sequence number within the month,
 is increased from 4 to 5. This will allow arXiv to handle more than 9999
 submissions per month (see [monthly submission
-rates](http://arxiv.org/stats/monthly_submissions)).
+rates](/stats/monthly_submissions)).
 
 <span id="new"></span>
 
@@ -65,7 +65,7 @@ of the article. We recommend that in citations the specific version
 number, the subject classification and the date information be included
 in the same way that it is in the stamp on the side of the PDF. See also
 [References to and in arXiv
-Documents](http://arxiv.org/help/faq/references).
+Documents](/help/faq/references).
 
 <span id="old"></span>
 
@@ -137,6 +137,6 @@ Further information for interacting services
 --------------------------------------------
 
 There are additional (gruesome) details of [arXiv identifiers for
-interacting services](arxiv_identifier_for_services.md). These are unlikely
+interacting services](arxiv_identifier_for_services). These are unlikely
 to be of interest/use unless you are handling internal data distributed
 by arXiv.

@@ -11,8 +11,8 @@ engineering and systems science](/archive/eess), and
 [economics](/archive/econ). arXiv is maintained and operated by 
 [Cornell University](https://www.cornell.edu/) with
 guidance from the [arXiv Scientific Advisory
-Board](/help/scientific_ad_board) and the [arXiv Sustainability Advisory
-Group](/help/support/sustainability_advisory_group), and with the help
+Board](/help/scientific_ad_board) and the [arXiv Member Advisory
+Group](https://confluence.cornell.edu/display/arxivpub/Member+Advisory+Board), and with the help
 of numerous subject moderators.
 
 This page outlines the purpose of this resource and the general
@@ -25,8 +25,8 @@ arXiv is an openly accessible, moderated repository for scholarly
 articles in specific scientific disciplines. Material submitted to arXiv
 is expected to be of interest, relevance, and value to those
 disciplines. arXiv reserves the right to reject or reclassify any
-submission. Submissions are reviewed by expert moderators to verify that
-they are topical and refereeable scientific contributions that follow
+submission. Our expert moderators verify that submissions
+are topical and refereeable scientific contributions that follow
 accepted standards of scholarly communication (as exemplified by
 conventional journal articles).
 

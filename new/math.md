@@ -2,9 +2,9 @@
 
 The math archive was introduced on Dec 1 1997 with the following announcement:
 
-> _We are introducing the **math archive**. The idea is to facilitate growth to areas of mathematics not covered by the current archive structure. The math archive has the same features as the current archives (searching, subscribing, web downloading and so on) with one important addition: Authors must include a **Subj-class** header, chosen from a canonical list. This is most easily done with a select menu for [web submission](help/submit), but the header can alternatively be included in e-mail submissions; see our [abstract preparation help](/help/prep). You may subscribe to any subset of classifications; see our [subscription help](/help/subscribe). In this sense, each subject class functions as a new archive. This also makes it very easy to expand the archive by adding new subject classifications. _ [12/97]
+> _We are introducing the **math archive**. The idea is to facilitate growth to areas of mathematics not covered by the current archive structure. The math archive has the same features as the current archives (searching, subscribing, web downloading and so on) with one important addition: Authors must include a **Subj-class** header, chosen from a canonical list. This is most easily done with a select menu for [web submission](/help/submit), but the header can alternatively be included in e-mail submissions; see our [abstract preparation help](/help/prep). You may subscribe to any subset of classifications; see our [subscription help](/help/subscribe). In this sense, each subject class functions as a new archive. This also makes it very easy to expand the archive by adding new subject classifications. _ [12/97]
 
-_Note:_ For more information about submissions, see our [submission help](help/submit) page.
+_Note:_ For more information about submissions, see our [submission help](/help/submit) page.
 
 Constructive comments are solicited concerning the proper subject classes. (See below for why we are not using directly the Math Subject Classification used by Math Reviews and Zentralblatt für Mathematik.) The current list has been created by a committee of interested mathematicians and is available at the [math archive](/archive/math) page.
 

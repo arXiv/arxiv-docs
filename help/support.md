@@ -24,5 +24,3 @@ arXiv support and governance model
 
 For questions related to institutional contributions or the
 sustainability initiative, please contact arXiv at <support@arxiv.org>.
-For technical or moderation queries please [contact arXiv
-administrators](/help/contact) .

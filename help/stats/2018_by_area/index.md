@@ -11,6 +11,8 @@ The numbers indicate the extent to which communities deposit their ouput at arXi
 
 Going further back, in calendar year 2005 the [astro-ph](#astro-ph_yearly) and [cond-mat](#cond-mat_yearly) submission rates each grew to exceed the [hep](#hep_yearly) rate (which appears to have flattened out in the late 1990s, suggesting 100% participation from that community, fluctuating about a mean of roughly 8800/year for 2000-2010, but then with a bit of a superluminal+higgs bump in 2011, plus another higgs bump in 2012, to over 9600/year for each of those two years, and staying at the 2011 level through 2018). A diminished cond-mat growth rate in 2004-2007 was due in part to the shift of biologically related submissions from cond-mat.soft to q-bio, and network/complex systems submissions from cond-mat.stat-mech to physics.soc-ph. The decreased rate for cond-mat.mes-hall in 2017 was due to the creation of physics.app-ph. [math(+math-ph](#math_yearly)) started growing very quickly in 2002 as arXiv was adopted an increasing percentage of the mathematics community. The [cs](#cs_yearly) rate started as well to ramp up in 2007, grew to exceed the hep rate in calendar year 2012, continued on a very fast growth rate 2011-2015, and on an even faster growth rate since 2015 (driven largely by the computer vision, machine learning, and computational linguistics communities).
 
+Submission data is available in bulk [via OAI](../../oa).
+
 The current submission rates (i.e., averaged over calendar year 2018) as percentages of the average 2018 [overall](http://arxiv.org/stats/monthly_submissions) average rate of 11718/month (140,616 total for 2018) are roughly:
 
 *   [cs](#cs_yearly) (35890): 25.5%
@@ -53,29 +55,42 @@ Graphs of yearly submission rates by subject areas
 --------------------------------------------------
 
 ![all physics submissions by year](phys_yearly.png)
+
 <span id="cs_yearly"></span>
 ![cs submissions by year](cs_yearly.png)
+
 <span id="math_yearly"></span>
 ![math submissions by year](math_yearly.png)
+
 <span id="cond-mat_yearly"></span>
 ![cond-mat submissions by year](cond-mat_yearly.png)
+
 <span id="astro-ph_yearly"></span>
 ![astro-ph submissions by year](astro-ph_yearly.png)
+
 <span id="physics_yearly"></span>
 ![physics submissions by year](physics_yearly.png)
+
 <span id="hep_yearly"></span>
 ![HEP submissions by year](hep_yearly.png)
+
 <span id="quant-ph_gr-q_yearly"></span>
 ![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)    ![nucl-* submissions by year](nucl_yearly.png)
+
 <span id="stat_yearly"></span>
 ![stat submissions by year](stat_yearly.png)
+
 <span id="eess_yearly"></span>
 ![eess submissions by year](eess_yearly.png)
+
 <span id="q-bio_yearly"></span>
 ![q-bio submissions by year](q-bio_yearly.png)
+
 <span id="nlin_yearly"></span>
 ![nlin submissions by year](nlin_yearly.png)
+
 <span id="q-fin_yearly"></span>
 ![q-fin submissions by year](q-fin_yearly.png)
+
 <span id="econ_yearly"></span>
 ![econ submissions by year](econ_yearly.png)

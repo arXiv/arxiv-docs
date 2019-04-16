@@ -1,4 +1,4 @@
-The arXiv moderation system
+arXiv moderation
 ===========================
 
 arXiv is a forum for professional members of the scientific community.
@@ -98,7 +98,7 @@ that explains clearly and succinctly what your arguments are.
 
 -   Send a precise email, including all relevant details (especially
     paper ids, former correspondence, submission summaries, etc.) to
-    <moderation@arxiv.org>.
+    moderation@arxiv.org.
 -   If you receive an automated response to your email, please read all
     instructions carefully.  
     If there is no other identifying information in your message (e.g.
@@ -118,18 +118,18 @@ submission, but repeated appeals with no additional information cannot
 be considered. If you send an appeal and the moderators reach the same
 decision as they did initially, no further appeal should be submitted.
 Extreme cases may be addressed to the appropriate [advisory
-committee](scientific_ad_board.md) chair only.
+committee](scientific_ad_board) chair only.
 
 Who are the arXiv moderators?
 -----------------------------
 
 [arXiv moderators](/moderators) are volunteer subject specialists who
 have been approved by their discipline-level [advisory
-committees](scientific_ad_board.md) and by arXiv staff.
+committees](scientific_ad_board#advisory_committees) and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is very
 inappropriate to contact any moderator directly regarding your
 submission. All communication about moderation decisions should be
-addressed to <moderation@arxiv.org> or, in extreme cases, the
+addressed to moderation@arxiv.org or, in extreme cases, the
 appropriate advisory committee chair. Moderators are encouraged not to
 reply to personal correspondence regarding arXiv submissions.

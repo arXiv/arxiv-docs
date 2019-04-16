@@ -48,7 +48,6 @@ Your submission to the archive must be in one of the following formats
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](submit_tex)
 -   [PDF](submit_pdf)
--   [PostScript](submit_ps)
 -   [HTML with JPEG/PNG/GIF images](submit_html)
 
 Our goal is to store articles in formats which are highly portable and
@@ -67,15 +66,12 @@ Formats for figures
 Figures for a submission can be in a number of common formats. These
 include:
 
--   PostScript (PS/EPS, most common for line drawings, plots, etc.)
--   JPEG (ideal for photographic images)
--   GIF or PNG (best for non-photographic images, bitmaps)
--   PDF figures (only with PDFLaTeX)
+-   PostScript, PS, EPS - requires [LaTeX processing](submit_tex#latex)
+-   JPEG, GIF, PNG or PDF figures - requires [PDFLaTeX processing](submit_tex#pdflatex) 
 
 If figure files are too large, then readers with poor network
 connections will not be able to download them. Remember that arXiv has
-many users with poor network connections (such as users in some
-developing nations). If your submission has a large figure, be sure to
+many users with poor network connections. If your submission has a large figure, be sure to
 include it, but make all possible efforts to reduce its size. Note that
 we do not accept submissions with omitted figures, even if you provide a
 link to another server. See our [information on submission sizes](sizes)
@@ -111,12 +107,12 @@ inclusion commands match case exactly.
 
 <span id="datasets"></span>
 
-Inclusion of data sets and ancillary files
+Inclusion of ancillary files
 ------------------------------------------
 
 There are limited facilities for including data sets and ancillary files
 (data, programs, etc.) which are associated with articles submitted to
-arXiv. See [separate instructions](datasets) about including data sets
+arXiv. See [separate instructions](ancillary_files) about including data sets
 and ancillary files.
 
 <span id="prep"></span>
@@ -140,7 +136,7 @@ and the processed files. If you see any errors or are unhappy with the
 formatting then correct them or [contact arXiv
 administrators](/help/contact) if there are problems you cannot resolve.
 
-If discover an error after submission but before public announcement
+If you discover an error after submission but before public announcement
 then select the Unsubmit (![unsubmit icon](/images/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user) to
 return it to the [incomplete status](submit_status#incomplete) allowing
@@ -190,48 +186,18 @@ The following information is also required for submission:
 Availability of submissions and announcement order
 --------------------------------------------------
 
-*Note: policy change 2017-01 regarding announcement order and the effect
-of edits.*
-
 Submissions to arXiv are normally made public on Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the "freeze".
 
-Submissions Received Between  
-(all times Eastern US)
 
-Will Be Announced  
-(all times Eastern US)
 
-Mailed to Subscribers
+| Submissions Received Between<br />(all times Eastern US) | Will Be Announced<br />(all times Eastern US) | Mailed to Subscribers |
+|:---:|:---:|:---:|
+| Monday 14:00 - Tuesday 14:00 | Tuesday 20:00 | Tuesday Night / Wednesday Morning |
+| Tuesday 14:00 - Wednesday 14:00 | Wednesday 20:00 | Wednesday Night / Thursday Morning | 
+| Wednesday 14:00 - Thursday 14:00 | Thursday 20:00 | Thursday Night / Friday Morning |
+| Thursday 14:00 - Friday 14:00 | Sunday 20:00 | Sunday Night / Monday Morning |
+| Friday 14:00 - Monday 14:00 | Monday 20:00 | Monday Night / Tuesday Morning |
 
-Monday 14:00 - Tuesday 14:00
-
-Tuesday 20:00
-
-Tuesday Night / Wednesday Morning
-
-Tuesday 14:00 - Wednesday 14:00
-
-Wednesday 20:00
-
-Wednesday Night / Thursday Morning
-
-Wednesday 14:00 - Thursday 14:00
-
-Thursday 20:00
-
-Thursday Night / Friday Morning
-
-Thursday 14:00 - Friday 14:00
-
-Sunday 20:00
-
-Sunday Night / Monday Morning
-
-Friday 14:00 - Monday 14:00
-
-Monday 20:00
-
-Monday Night / Tuesday Morning

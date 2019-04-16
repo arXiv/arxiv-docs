@@ -69,20 +69,6 @@ template: mysite/custom.html
 
 ## Building a site
 
-### Building a local site with Flask
-
-To build a site from markdown sources, you will need to specify the ``SITE_NAME``, ``SOURCE_PATH``, and ``BUILD_PATH`` (see [configuration](#configuration), below).
-
-```bash
-SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite pipenv run python build.py
-```
-
-You can serve the site with Flask, using:
-
-```bash
-SITE_NAME=mysite SOURCE_PATH=/path/to/mysite BUILD_PATH=/tmp/mysite  FLASK_APP=app.py pipenv run flask run
-```
-
 ### Building a local site with Docker
 
 You can use the ``Makefile`` in the root of this repo to build a site.
@@ -95,7 +81,9 @@ To build a site from a local directory, you can do something like:
 ```bash
 make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
 ```
-Note that as each folder in the root directory is served separately SOURCE_DIR needs to include the specific folder (ex 'help', 'about').
+
+Note that as each folder in the root directory is served separately SOURCE_DIR
+needs to include the specific folder (ex 'help', 'about').
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
@@ -115,26 +103,6 @@ docker run -it -p 8000:8000 arxiv/mysite:0.1
 
 In your browser, go to http://localhost:8000/mysite (or whatever
 page you want). Note http://localhost:8000 is what works in Ubuntu.
-
-### Building a remote site
-
-You can also build a site that is on GitHub, using a specific [tag](https://help.github.com/articles/working-with-tags/).
-
-You will need to pick a place on your computer to do the building. Preferably
-something in ``/tmp``.
-
-```bash
-make remote SOURCE_REF=0.1 IMAGE_NAME=arxiv/mysite REPO_ORG=arxiv REPO_NAME=arxiv-docs SOURCE_DIR=help
-```
-
-- ``SOURCE_REF=0.1`` This is the tag that you're building.
-- ``IMAGE_NAME=arxiv/mysite`` The name of the image that you're building.
-- ``REPO_ORG=arxiv`` The organization that owns the repo.
-- ``REPO_NAME=arxiv-docs`` The name of the repo.
-- ``SOURCE_DIR=help`` The directory in the repo that contains the site.
-
-This should work just like the local build, except that it might take a bit
-longer because it has to download things.
 
 ### Configuration
 

@@ -1,7 +1,60 @@
+---
+title: arXiv News and Announcements
+---
+
 What's been New on the [arXiv.org](/) e-print archives
 ======================================================
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
+
+#### February 2019
+
+<span id="feb13_2019"></span>
+13 February 2019
+
+**Help and About Pages Updated:** We have begun the process of updating our Help and About pages in a new template as part of the Next Gen rebuild. For more information please see [our blog post](https://blogs.cornell.edu/arxiv/2019/02/14/help-pages-update/).
+
+
+#### January 2019
+
+<span id="jan14_2019"></span>
+14 January 2019
+
+**arXiv Update:** A project update, including a brief summary of activities in 2018, has been <a href="https://confluence.cornell.edu/x/rIzLFQ">posted</a>.
+
+<span id="jan03_2019"></span>
+3 January 2019
+
+**21 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 21 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 18 January 2019 and before 14:00 ET Tuesday, 22 January 2019 will be announced at 20:00 ET Tuesday, 22 January 2019.
+  
+  
+#### Dec 2018
+
+<span id="dec03_2018"></span>
+3 Dec 2018
+
+December 2018 Holiday Schedule:</b> The mailings and the public availability of new submissions will be deferred for 24 December, 25 December, and 27 December 2018, as well as 1 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
+
+- Articles received at or after 14:00 ET Thursday, 20 December 2018 and before 14:00 ET Friday, 21 December 2018 will be announced at 20:00 ET Sunday, 23 December 2018.
+- Articles received at or after 14:00 ET Friday, 21 December 2018 and before 14:00 ET Wednesday, 26 December 2018 will be announced at 20:00 ET Wednesday, 26 December 2018.
+- Articles received at or after 14:00 ET Wednesday, 26 December 2018 and before 14:00 ET Friday, 28 December 2018 will be announced at 20:00 ET Sunday, 30 December 2018.
+- Articles received at or after 14:00 ET Friday, 28 December 2018 and before 14:00 ET Monday, 31 December 2018 will be announced at 20:00 ET Monday, 31 December 2018.
+- Articles received at or after 14:00 ET Monday, 31 December 2018 and before 14:00 ET  Wednesday, 2 January 2019 will be announced at 20:00 ET Wednesday, 2 January 2019.
+
+   *Note:* articles submitted at or after 14:00 ET Monday, 31 December 2018 will receive arXiv:1901.nnnnn identifiers.
+  
+  
+  
+#### Nov 2018
+
+<span id="nov06_2018"></span>
+6 Nov 2018
+
+**Thanksgiving Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 22 November 2018. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during this periods. 
+
+- Articles received at or after 14:00 ET Wednesday, 21 November 2018 and before 14:00 ET Friday, 23 November 2018 will be announced at 20:00 ET Sunday, 25 November 2018.
 
 #### Sept 2018
 
@@ -842,7 +895,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 11 Nov 2004
 
-**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to [www-admin@arxiv.org](mailto:www-admin@arxiv.org).
+**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
 
 4 Nov 2004 _\[Modified 24 Nov 2004\]_
 
@@ -940,7 +993,7 @@ The nlin-sys archives have been reorganized starting 1 January, 2000. The archiv
 
 **Subj-class:** Chaotic Dynamics
 
-and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to [www-admin@arXiv.org](mailto:www-admin@arXiv.org).
+and analogously for the other above subsumed archives. Submissions to chao-dyn@arXiv.org will be automatically rerouted as above, and assigned numbers beginning with nlin.CD/0001001. As a replacement for the cross-listing mechanism (between nlin archives), use multiple Subj-class: entries separated by ;'s (the first is the primary). It is also possible to subscribe to receive daily abstract notifications for any subset of the nlin-sys subject classes (see [nlin subscribe](http://arXiv.org/new/nlinsub) -- current e-mail subscribers have been automatically transferred). Comments or suggestions for possible reorganization of the subject classes can be sent to www-admin@arxiv.org.
 
 1 Jan 2000
 
