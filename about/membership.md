@@ -3,7 +3,7 @@ Institutional Membership
 
 To support arXiv, the membership program aims to engage libraries and research laboratories worldwide that represent arXiv's heaviest institutional users, which represents the [top 75% of downloads](https://confluence.cornell.edu/display/arxivpub/Institutional+Usage+Statistics). 
 
-[We thank our members for supporting us!](https://arxiv.org/about/ourmembers) 
+[We thank our members for supporting us!](/about/ourmembers) 
 
 In addition to being a part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
 
@@ -35,4 +35,4 @@ Please join the arXiv support announcement email list by sending an email messag
 
 ---
 For questions related to donation, membership, sponsoring an institution, or the [business sustainability
-model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
+model](/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
