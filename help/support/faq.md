@@ -571,7 +571,7 @@ acknowledge support from other libraries and research laboratories.
 
 ### Our institution is not listed in the Top 250, but we would like to become a supporting member. What is the process?
 
-Please email us at support@arxiv.org. We are always happy to have new
+Please email us at membership@arxiv.org. We are always happy to have new
 members!
 
 <span id="3L"></span>
