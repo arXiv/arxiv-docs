@@ -1,5 +1,5 @@
 We gratefully acknowledge the support of the following 232 member institutions.
-Learn more about [membership](https://arxiv.org/about/membership).
+Learn more about [membership](/about/membership).
 
 
 # Platinum Members

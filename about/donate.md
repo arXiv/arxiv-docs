@@ -13,5 +13,5 @@ Corporate Employer Matching Funds can be made through [Benevity](https://causes.
 
 ---
 
-For questions related to donation, [institutional membership](https://arxiv.org/about/membership), or the [business sustainability
-model](https://arxiv.org/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
+For questions related to donation, [institutional membership](/about/membership), or the [business sustainability
+model](/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
