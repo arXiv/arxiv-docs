@@ -912,7 +912,7 @@ individual and the institution.
 
 Please have in mind an eligible institution or criteria for your
 sponsorship (eg: your alma mater, or the heaviest-using institution in a
-specific country), and contact us at support@arxiv.org to get the ball
+specific country), and contact us at membership@arxiv.org to get the ball
 rolling. We request that sponsors make the same pledge that an
 institution would (a good-faith five year commitment, annual invoicing).
 We then contact the institution to confirm that a sponsored membership
