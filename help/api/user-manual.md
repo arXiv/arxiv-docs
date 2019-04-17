@@ -1,10 +1,13 @@
 ---
-title: arXiv API User's Manual 
+title: arXiv API User's Manual
 ---
 <span style="float: right">![API logo](arXiv_api_xml.png)</span>
 
 arXiv API User's Manual
 =======================
+
+Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
+API.
 
 ### Table of Contents
 
@@ -222,7 +225,7 @@ This is summarized in the following table:
 | yes                        | yes                   | articles in `id_list` that also match `search_query` |
 
 <span id="paging"><span>
-    
+
 ##### 3.1.1.2. start and max\_results paging
 
 Many times there are hundreds of results for an API query. Rather than
@@ -659,7 +662,7 @@ include:
 
 -   [PHP](http://www.php.net) (via file\_get\_contents())
     ([example](#php_simple_example))
-    
+
 <span id="_simple_examples"></span>
 
 ### 4.1. Simple Examples
