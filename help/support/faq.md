@@ -517,7 +517,7 @@ arXiv's future.
 The usage statistics for the top 200+ institutional users
 since 2009 are available online at [arXiv
 Support.](https://confluence.cornell.edu/x/k7BRF). If your institution
-is not listed, please contact us at <support@arxiv.org> for usage
+is not listed, please contact us at membership@arxiv.org for usage
 statistics. If you are an arXiv member, your institutional statistics
 will be sent to you annually with your invoice.
 
