@@ -98,7 +98,7 @@ that explains clearly and succinctly what your arguments are.
 
 -   Send a precise email, including all relevant details (especially
     paper ids, former correspondence, submission summaries, etc.) to
-    <moderation@arxiv.org>.
+    moderation@arxiv.org.
 -   If you receive an automated response to your email, please read all
     instructions carefully.  
     If there is no other identifying information in your message (e.g.
@@ -130,6 +130,6 @@ committees](scientific_ad_board#advisory_committees) and by arXiv staff.
 Although the moderators may be publicly acknowledged, it is very
 inappropriate to contact any moderator directly regarding your
 submission. All communication about moderation decisions should be
-addressed to <moderation@arxiv.org> or, in extreme cases, the
+addressed to moderation@arxiv.org or, in extreme cases, the
 appropriate advisory committee chair. Moderators are encouraged not to
 reply to personal correspondence regarding arXiv submissions.

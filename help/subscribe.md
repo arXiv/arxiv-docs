@@ -17,28 +17,39 @@ emails will be ignored by the system.
     physics](#physics) below), then you (un)subscribe to a specific
     category, indicating the categories in the body of the message. Here
     is an example
+```
+To: physics@arxiv.org 
+Subject: subscribe John Smith 
+    
+add Biophysics 
+del Plasma Physics
+```
+You may alternatively use the short subject class codes, for example
+to subscribe to the Risk Management category (`q-fin.RM`) in
+Quantitative Finance:
+```
+To: q-fin@arxiv.org 
+Subject: subscribe John Smith 
 
-    > ` To: physics@arxiv.org Subject: subscribe John Smith add Biophysics del Plasma Physics`
-
-    You may alternatively use the short subject class codes, for example
-    to subscribe to the Risk Management category (`q-fin.RM`) in
-    Quantitative Finance:
-
-    > ` To: q-fin@arxiv.org Subject: subscribe John Smith add RM`
+add RM
+```
 
 3.  **For archives not divided into subject classes:**  
     Send an e-mail message to the archive(s) of interest, in the
     following form
+```
+To: arch-ive@arxiv.org 
+Subject: subscribe Your Full Name
+```
 
-    > ` To: arch-ive@arxiv.org Subject: subscribe Your Full Name`
-
-    You should give your name as you wish it to appear on the
-    distribution list. Here is an example:
-
-    > ` To: quant-ph@arxiv.org Subject: subscribe John Smith`
-
-    (Subscribing to `cond-mat` in this way will subscribe you to all
-    `cond-mat` subject classes.)
+You should give your name as you wish it to appear on the
+distribution list. Here is an example:
+```
+To: quant-ph@arxiv.org 
+Subject: subscribe John Smith
+```
+(note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
+subject classes within that archive.)
 
 4.  **<span id="physics">Handling subscriptions to all physics archives
     through `physics`</span>**  
@@ -50,13 +61,17 @@ emails will be ignored by the system.
     archives. For example, to subscribe only to the `cond-mat` subject
     classes \`Soft Condensed Matter' and \`Superconductivity', the email
     would read:
+```
+To: physics@arxiv.org 
+Subject: subscribe John Smith 
 
-    > ` To: physics@arxiv.org Subject: subscribe John Smith add Soft Condensed Matter add Superconductivity`
-
-    If you want to change from, say, subscribing to all of `astro-ph` to
-    subscribing to just `astro-ph.EP` then you must first
-    [cancel](#cancel) the subscription to `astro-ph`, and then subscribe
-    to `EP` through the `physics` archive.
+add Soft Condensed Matter 
+add Superconductivity
+```
+If you want to change from, say, subscribing to all of `astro-ph` to
+subscribing to just `astro-ph.EP` then you must first
+[cancel](#cancel) the subscription to `astro-ph`, and then subscribe
+to `EP` through the `physics` archive.
 
 ------------------------------------------------------------------------
 
@@ -71,16 +86,18 @@ so as follows.
 1.  Find the e-mail address of the archive for which you are receiving
     the listings.
 2.  Send an e-mail message to the archive, in the following form
-
-    > ` To: arch-ive@arxiv.org Subject: cancel`
-
-    Here is an example:
-
-    > ` To: quant-ph@arxiv.org Subject: cancel`
-
-    If you want to cancel your subscription to a particular subject
-    class in an archive that supports subject classes, then see the
-    example use of **`del`** in the **`subscribe`** command above.
+```
+To: arch-ive@arxiv.org 
+Subject: cancel
+```
+Here is an example:
+```
+To: quant-ph@arxiv.org 
+Subject: cancel
+```
+If you want to cancel your subscription to a particular subject
+class in an archive that supports subject classes, then see the
+example use of **`del`** in the **`subscribe`** command above.
 
 Note that you may be subscribed through a remote listserv, or through
 some local preprint distribution list at your end. You can determine the

@@ -30,7 +30,7 @@ Covers image processing, computer vision, pattern recognition, and scene underst
 
 Covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education. Roughly includes material in ACM Subject Classes K.0, K.2, K.3, K.4, K.5, and K.7.
 
-**[CR - Cryptography and Security](/list/cs.CR/recent)** - Stanislaw Jarecki
+**[CR - Cryptography and Security](/list/cs.CR/recent)** - Stanislaw Jarecki, Jeremiah Blocki
 
 Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.
 
