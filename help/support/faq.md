@@ -553,7 +553,7 @@ was not a lump-sum payment or a legally binding contract.
 arXiv runs on a Calendar Year billing cycle (Jan-Dec), and generally
 invoices in February or March. Timelines are flexible, and we are
 willing to delay billing until fall at an institution’s request. Please
-contact us at support@arxiv.org to request alternative invoice date.
+contact us at membership@arxiv.org to request alternative invoice date.
 
 <span id="3J"></span>
 
