@@ -21,4 +21,4 @@ Learn more about [Membership](/about/membership).
 
 ---
 For questions related to donation, membership, or the [business sustainability
-model](/help/support), please contact arXiv **Membership & Giving at <membership@arxiv.org>**.
+model](/help/support), please contact arXiv **Membership & Giving at membership@arxiv.org**.
