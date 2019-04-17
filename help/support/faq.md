@@ -935,7 +935,7 @@ join
 
 ### I have other questions and want to talk with someone from the arXiv team.
 
-You can contact us at support@arxiv.org. We
+You can contact us at membership@arxiv.org. We
 welcome your questions and comments (though if your questions or
 comments are about submissions or moderation, please find the
 appropriate contact [here](https://arxiv.org/help/contact)).
