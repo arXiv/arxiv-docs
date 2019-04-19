@@ -2,7 +2,7 @@
 
 Papers in the [Computing Research Repository (CoRR)](./) are classified in two ways: by subject area from a list of subjects listed below and by using the 1998 ACM Computing Classification System. The ACM classification scheme provides us with a relatively stable scheme that covers all of computer science. The subject areas are not mutually exclusive, nor do they (yet) provide complete coverage of the field. On the other hand, we hope that they better reflect the active areas of research in CS. We expect to add more subject areas and subdivide current subject areas according to demand. Authors who cannot find an appropriate subject area should use subject area Other. We welcome constructive [comments and suggestions](/help/contact).
 
-**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Giuseppe de Giacomo and Fabio Patrizi
+**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Diego Calvanese, Julien Corman, Fabio Patrizi, and Ognjen Savkovic
 
 Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.
 
