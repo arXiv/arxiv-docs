@@ -7,6 +7,14 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+#### April 2019
+
+<span id="apr22_2019"></span>
+22 April 2019
+
+**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](/about/donate) during our giving campaign April 22–26.
+
+
 #### February 2019
 
 <span id="feb13_2019"></span>

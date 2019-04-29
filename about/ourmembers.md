@@ -1,8 +1,9 @@
+# Our Members
 We gratefully acknowledge the support of the following 232 member institutions.
 Learn more about [membership](/about/membership).
 
 
-# Platinum Members
+## Platinum Members
 
 California Institute of Technology (US) 
 
@@ -12,7 +13,7 @@ Massachusetts Institute of Technology (MIT) (US)
 
 University of Cambridge (UK) _JISC_
 
-# Tier 1
+## Tier 1
 
 CERN-European Organization for Nuclear Research (Switzerland) 
 
@@ -50,7 +51,7 @@ University of Tokyo  (Japan) _NII Japan Consortium_
 
 University of Van Amsterdam  (Netherlands) 
 
-# Tier 2
+## Tier 2
 
 Boston University (US) 
 
@@ -98,7 +99,7 @@ University of Wisconsin, Madison (US) _BTAA_
 
 Yale University (US) 
 
-# Tier 3
+## Tier 3
 
 Brookhaven National Laboratory (US) 
 
@@ -190,7 +191,7 @@ UPMC (Universite Pierre and Marie Curie) (France) _CCSD_
 
 Uppsala University (Sweden) 
 
-# Tier 4
+## Tier 4
 
 Australian National University (Australia) 
 
@@ -264,7 +265,7 @@ Virginia Tech (US)
 
 Waseda University (Japan) _NII Japan Consortium_
 
-# Tier 5
+## Tier 5
 
 Arizona State University (US)
 
@@ -318,7 +319,7 @@ University of Utah (US)
 
 Universität des Saarlandes (Germany) _arXiv-DH and HGF_ 
 
-# Tier 6
+## Tier 6
 
 Argonne National Lab (US) 
 
@@ -458,7 +459,7 @@ Western University (Canada)
 
 Raman Research Institute (India) 
 
-# Contributors as non-voting members
+## Contributors as non-voting members
 
 American Mathematical Society (AMS) (US) 
 
