@@ -20,7 +20,8 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 
 ## Membership & Giving
 
-- [Membership & Giving](about/give)
+- [Membership & Giving](/about/give)
+  - [Membership & Giving FAQ](/help/support/faq)
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
 - [Our Members and Supporters](/about/ourmembers)
