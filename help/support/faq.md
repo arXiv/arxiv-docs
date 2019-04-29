@@ -719,7 +719,7 @@ world, whose diligence is greatly appreciated.
 
  
 
-arXiv @ CUL
+arXiv @ CIS
 -----------
 
 <span id="6A"></span>
@@ -811,7 +811,7 @@ do not allow corporate supporters to be voting members.
 ### PERSONAL DONATIONS / How can I donate to arXiv?
 
 You may [donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](https://arxiv.org/about/donate)
 through the Cornell University Alumni & Friends website. 100% of your
 contribution will fund improvements and new initiatives that will
 benefit arXiv's global scientific community.
@@ -834,7 +834,7 @@ Yes!
 
 Yes, Cornell accepts international credit cards, and arXiv welcomes
 support from around the world! [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](https://arxiv.org/about/donate)
 
 <span id="7G"></span>
 
@@ -862,7 +862,7 @@ for arXiv-NG redevelopment. We are actively fundraising for this
 project, and welcome support from those who are able to give. Your gift
 will help fund innovation and enhancements so arXiv can remain a vital,
 global open access resource. [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](https://arxiv.org/about/donate)
 
 <span id="7I"></span>
 
@@ -871,7 +871,7 @@ arXiv](https://arxiv.org/help/donate)
 arXiv is managed by Cornell University. The workflow for
 processing our online donations is managed by Cornell Alumni Affairs and
 Development. Your gift will support arXiv and only arXiv. [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](https://arxiv.org/about/donate)
 
 <span id="7J"></span>
 
