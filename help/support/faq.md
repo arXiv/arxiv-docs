@@ -136,7 +136,7 @@ community, arXiv has significantly expanded both its subject coverage
 and user base. During 2015, the repository saw 105,000 new submissions
 and over 139 million downloads from all over the world. arXiv is
 international in scope, with [mirror
-sites](https://arxiv.org/help/mirrors) in five countries and
+sites](/help/mirrors) in five countries and
 collaborations with U.S. and foreign research facilities, libraries,
 universities and other international organizations.
 
@@ -330,7 +330,7 @@ on its budgets. Funding sources for this 3-year project include:
     development.
 -   The Allen Institute for Artificial Intelligence (AI2) contributes
     $200,000 to support a 12-month pilot implementation of [Semantic
-    Scholar](https://arxiv.org/help/semanticscholar).
+    Scholar](/help/semanticscholar).
 
 <span id="2C"></span>
 
@@ -678,7 +678,7 @@ bylaws](https://confluence.cornell.edu/x/NKlRF).
 
 The current roster of the [Member Advisory
 Board](https://confluence.cornell.edu/x/NqlRF) and [Scientific Advisory
-Board](https://arxiv.org/help/scientific_ad_board) are on their
+Board](/help/scientific_ad_board) are on their
 respective websites.
 
  
@@ -719,7 +719,7 @@ world, whose diligence is greatly appreciated.
 
  
 
-arXiv @ CUL
+arXiv @ CIS
 -----------
 
 <span id="6A"></span>
@@ -777,7 +777,7 @@ for arXiv submissions. This pilot was initially funded by the [US
 National Science Foundation](https://nsf.gov/). The pilot data
 repository was discontinued in 2015, and datasets were merged into arXiv
 as ancillary files (see
-[http://arxiv.org/help/data\_conservancy](/help/data_conservancy) for
+[http://arxiv.org/help/data_conservancy](/help/data_conservancy) for
 more information).
 
 Ancillary files are still accepted. These may include raw data for
@@ -811,7 +811,7 @@ do not allow corporate supporters to be voting members.
 ### PERSONAL DONATIONS / How can I donate to arXiv?
 
 You may [donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](/about/donate)
 through the Cornell University Alumni & Friends website. 100% of your
 contribution will fund improvements and new initiatives that will
 benefit arXiv's global scientific community.
@@ -834,14 +834,14 @@ Yes!
 
 Yes, Cornell accepts international credit cards, and arXiv welcomes
 support from around the world! [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](/about/donate)
 
 <span id="7G"></span>
 
 ### PERSONAL DONATIONS / What initiatives will my contribution help support?
 
 In addition to helping arXiv robustly fulfill its open access
-[mission](https://arxiv.org/help/primer), contributions help fund
+[mission](/help/primer), contributions help fund
 special projects; see the Special Projects section in the [arXiv
 roadmap](https://confluence.cornell.edu/x/GaZRF). As we described in our
 last [annual update](https://confluence.cornell.edu/x/LMlRF), the
@@ -862,7 +862,7 @@ for arXiv-NG redevelopment. We are actively fundraising for this
 project, and welcome support from those who are able to give. Your gift
 will help fund innovation and enhancements so arXiv can remain a vital,
 global open access resource. [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](/about/donate)
 
 <span id="7I"></span>
 
@@ -871,7 +871,7 @@ arXiv](https://arxiv.org/help/donate)
 arXiv is managed by Cornell University. The workflow for
 processing our online donations is managed by Cornell Alumni Affairs and
 Development. Your gift will support arXiv and only arXiv. [Donate to
-arXiv](https://arxiv.org/help/donate)
+arXiv](/about/donate)
 
 <span id="7J"></span>
 
@@ -938,4 +938,4 @@ join
 You can contact us at membership@arxiv.org. We
 welcome your questions and comments (though if your questions or
 comments are about submissions or moderation, please find the
-appropriate contact [here](https://arxiv.org/help/contact)).
+appropriate contact [here](/help/contact)).
