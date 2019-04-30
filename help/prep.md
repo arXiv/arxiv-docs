@@ -304,7 +304,7 @@ granularity:
 
 -   For submissions to the cs archive, this field is used to indicate
     the classification code according to the [ACM Computing
-    Classification System](http://www.acm.org/about/class/ccs98-html)
+    Classification System](https://www.acm.org/publications/computing-classification-system/1998)
     (or see this
     [overview](http://www.acm.org/about-acm/class/how-to-use)). Here is
     an example
