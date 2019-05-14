@@ -146,7 +146,7 @@ Roughly includes material in ACM Subject Class I.2.9.
 
 Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.
 
-**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse
+**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse and Nicolas Anquetil
 
 Covers design tools, software metrics, testing and debugging, programming environments, etc. Roughly includes material in all of ACM Subject Classes D.2, except that D.2.4 (program verification) should probably have Logics in Computer Science as the primary subject area.
 
