@@ -18,9 +18,9 @@ Please see the [arXiv public
 wiki](https://confluence.cornell.edu/x/m4NRF) for details about the
 arXiv support and governance model
 
-[arXiv Membership Program - FAQ](/help/support/faq)
+[arXiv Membership & Giving](/about/give)
 
-[Donations to arXiv](/help/donate)
+[Donations to arXiv](/about/donate)
 
 For questions related to institutional contributions or the
-sustainability initiative, please contact arXiv at <support@arxiv.org>.
+sustainability initiative, please contact arXiv at membership@arxiv.org.
