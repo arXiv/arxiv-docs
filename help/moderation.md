@@ -39,7 +39,7 @@ The appeals process allows moderators additional time to reconsider a submission
 
 arXiv moderators are volunteers who are experts in their fields and in the types of submissions that are appropriate for their subject classifications. They evaluate based on the content of the submission and the policies of arXiv. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal.
 
-[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/help/scientific_ad_board) and by arXiv staff.
+[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/help/scientific_ad_board#advisory_committees) and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or, in extreme cases, the appropriate advisory committee chair. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions.
 
