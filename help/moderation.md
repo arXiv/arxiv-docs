@@ -1,4 +1,4 @@
-# The arXiv moderation system
+# arXiv moderation
 
 arXiv is a forum for professional members of the scientific community. While arXiv prides itself on maintaining a permanent collection of scientific work that is made available to the public quickly and without cost, submissions to arXiv do require a minimal amount of moderation.
 
