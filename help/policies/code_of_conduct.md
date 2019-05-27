@@ -32,11 +32,12 @@ We expect members of the arXiv community to foster a safe environment for commun
 ## Code of Conduct Contact
 
 If you have questions or concerns regarding the arXiv CoC, please contact:
-[Oya Rieger](mailto:oyr1@cornell.edu), arXiv Program Director, or
-[Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
-[Licia Verde](mailto:liciaverde@icc.ub.edu), Chair of arXiv Scientific Advisory Board, or
-[Greg Morrisett](mailto:jgm19@cornell.edu), Dean of the Faculty of Computing and Information Science at Cornell University, or
-[Cornell University Ombudsman](https://www.ombudsman.cornell.edu/)
+
+- [Oya Rieger](mailto:oyr1@cornell.edu), arXiv Program Director, or
+- [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
+- [Licia Verde](mailto:liciaverde@icc.ub.edu), Chair of arXiv Scientific Advisory Board, or
+- [Greg Morrisett](mailto:jgm19@cornell.edu), Dean of the Faculty of Computing and Information Science at Cornell University, or
+- [Cornell University Ombudsman](https://www.ombudsman.cornell.edu/)
 
 ## Related Policies
 
