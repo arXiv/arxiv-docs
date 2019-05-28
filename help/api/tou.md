@@ -25,9 +25,9 @@ this page.
   of e-prints are submitted under the [arXiv.org non-exclusive right to
   distribute](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html).
   For more information about licenses, see https://arxiv.org/help/license.
-- You are free to use descriptive [metadata](https://arxiv.org/help/prep)<sup>1</sup> about arXiv e-prints for
-  non-commercial purposes, under the terms of the [Creative Commons Universal
-  (CC0 1.0) Public Domain
+- You are free to use descriptive
+  [metadata](https://arxiv.org/help/prep)<sup>1</sup> about arXiv e-prints
+  under the terms of the [Creative Commons Universal (CC0 1.0) Public Domain
   Declaration](https://creativecommons.org/publicdomain/zero/1.0/). Metadata
   are provided by authors, volunteer moderators, arXiv staff, and external
   partners.
