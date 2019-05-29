@@ -1,5 +1,13 @@
 # arXiv Code of Conduct
 
+<div class="code">
+## Seeking Feedback on Beta Version
+  
+Below is the beta version of arXiv's Code of Conduct. We would like to get your feedback! Please let us know what you think [here](https://cornell.qualtrics.com/jfe/form/SV_eQDZib6K66o6gD3). We will be collecting feedback through 18 June 2019.
+</div>
+
+---
+
 ## Opening Statement 
 
 arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our core values outlined here.
@@ -16,7 +24,7 @@ arXiv looks to the needs of the international scientific community when we set p
 
 arXiv community members should uphold intellectual honesty and ethics based on community and academic standards when writing and handling scholarly works. We strive to be objective and transparent in our decisions about policies, standards, and practices.
 
-Community members assume responsibility to represent themselves and their work honestly, to be accountable for their own decisions, and to follow arXiv policies [add link to policy anchor below]. Community members should respect the boundary between personal privacy and scholarly openness.
+Community members assume responsibility to represent themselves and their work honestly, to be accountable for their own decisions, and to follow arXiv (policies)[#policies]. Community members should respect the boundary between personal privacy and scholarly openness.
 
 ### Engagement
 
@@ -38,6 +46,8 @@ If you have questions or concerns regarding the arXiv CoC, please contact:
 - [Licia Verde](mailto:liciaverde@icc.ub.edu), Chair of arXiv Scientific Advisory Board, or
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean of the Faculty of Computing and Information Science at Cornell University, or
 - [Cornell University Ombudsman](https://www.ombudsman.cornell.edu/)
+
+<span id="policies"></span>
 
 ## Related Policies
 
