@@ -58,7 +58,7 @@ Policies related to authors:
 
 Policies related to moderators:
 
-- All of the above plus the moderator guidelines and policies link from moderator user accounts.
+- All of the above, plus the moderator guidelines and policies linked from moderator user accounts.
 
 Policies related to arXiv staff:
 
