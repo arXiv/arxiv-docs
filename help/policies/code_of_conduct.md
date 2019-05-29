@@ -22,7 +22,7 @@ arXiv looks to the needs of the international scientific community when we set p
 
 arXiv community members should uphold intellectual honesty and ethics based on community and academic standards when writing and handling scholarly works. We strive to be objective and transparent in our decisions about policies, standards, and practices.
 
-Community members assume responsibility to represent themselves and their work honestly, to be accountable for their own decisions, and to follow arXiv (policies)[#policies]. Community members should respect the boundary between personal privacy and scholarly openness.
+Community members assume responsibility to represent themselves and their work honestly, to be accountable for their own decisions, and to follow arXiv [policies](#policies). Community members should respect the boundary between personal privacy and scholarly openness.
 
 ### Engagement
 
