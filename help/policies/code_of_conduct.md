@@ -14,7 +14,7 @@ Failure to comply with this Code of Conduct may result in a warning or suspensio
 
 ### Stewardship
 
-arXiv is an open access resource. We are dedicated to the permanent custodial preservation of the scholarly record and to the continued dissemination of scholarly scientific research. We are sustained by a robust community of scientists from around the world who trust us with their work and ideas, and by the financial support of individuals and organizations. 
+arXiv is an open access resource. We are dedicated to the permanent custodial preservation of the scholarly record and to the rapid dissemination of scholarly scientific research. We are sustained by a robust community of scientists from around the world who trust us with their work and ideas, and by the financial support of individuals and organizations. 
 
 arXiv looks to the needs of the international scientific community when we set priorities and while we engage in continual development. We are a partner in ongoing open access development and pleased to share our 30 years of experience.
 
@@ -62,8 +62,8 @@ Policies related to moderators:
 
 Policies related to arXiv staff:
 
-- All policies of Cornell University, including the Cornell Code of Conduct http://www.dfa.cornell.edu/policy/policies/campus-code-conduct
+- All of the above, plus all policies of Cornell University, including the Cornell Code of Conduct http://www.dfa.cornell.edu/policy/policies/campus-code-conduct
 
 Policies related to advisory boards and groups:
 
-- Each advisory board and team is recommended to develop their own response plan to the arXiv Code of Conduct.
+- Each advisory board and team is recommended to develop their own response plan detailing how they will implement the arXiv Code of Conduct.
