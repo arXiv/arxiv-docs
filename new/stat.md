@@ -32,10 +32,10 @@ Subject categories of the **stat** archive are:
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
-*   [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
-*   [David Banks](http://www.stat.duke.edu/~banks/)
-*   [Chad Schafer](http://www.stat.cmu.edu/~cschafer/)
-*   Dave Higdon
-*   Rob Strawderman
-*   [Susan Holmes](http://www-stat.stanford.edu/~susan/)
-*   [Jim Pitman](http://www.stat.berkeley.edu/~pitman/)
+*  [Robert B. Gramacy](http://bobby.gramacy.com/)
+*  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
+*  [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
+*  [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/)
+*  [Jon Wakefield](http://faculty.washington.edu/jonno/cv.html)
+*  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
+*  Martin Wells
