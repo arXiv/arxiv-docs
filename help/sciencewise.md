@@ -4,7 +4,7 @@ ScienceWISE
 arXiv has partnered with [ScienceWISE](http://sciencewise.info) as part
 of a pilot program to provide additional services to arXiv users. These
 services include user annotation of papers which are then linked from
-arXiv, and [social bookmarking](/help/social_bookmarking).
+arXiv and other social bookmarking sites.
 
 If you are the owner of one or more papers, you have the option of
 annotating your articles with ScienceWISE from your main [account
