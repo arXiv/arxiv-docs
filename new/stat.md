@@ -34,8 +34,10 @@ The advisory committee members serve as consultants to Cornell University and to
 
 *   [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
 *   [David Banks](http://www.stat.duke.edu/~banks/)
-*   [Chad Schafer](http://www.stat.cmu.edu/~cschafer/)
-*   Dave Higdon
-*   Rob Strawderman
+*   [Robert B. Gramacy](http://bobby.gramacy.com/)
+*   [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
 *   [Susan Holmes](http://www-stat.stanford.edu/~susan/)
 *   [Jim Pitman](http://www.stat.berkeley.edu/~pitman/)
+*   [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/)
+*   [Jon Wakefield](http://faculty.washington.edu/jonno/cv.html)
+*   Martin Wells
