@@ -2,54 +2,42 @@
 We gratefully acknowledge the support of the following 232 member institutions.
 Learn more about [membership](/about/membership).
 
-
 ## Platinum Members
 
-California Institute of Technology (US) 
+<div class="row">
+  <div class="column"></div>
+    California Institute of Technology (US) 
+    Imperial College London (UK) _JISC_
+  <div class="column"></div>
+    Massachusetts Institute of Technology (MIT) (US) 
+    University of Cambridge (UK) _JISC_
+</div>
 
-Imperial College London (UK) _JISC_
-
-Massachusetts Institute of Technology (MIT) (US) 
-
-University of Cambridge (UK) _JISC_
 
 ## Tier 1
 
-CERN-European Organization for Nuclear Research (Switzerland) 
-
-Columbia University (US) 
-
-DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_ 
-
-Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland) 
-
-ETH Zurich (Switzerland) 
-
-Harvard University (US) 
-
-Kyoto University  (Japan) __NII Japan Consortium__
-
-Max Planck Digital Library (Germany) 
-
-New York University (US) 
-
-Princeton University (US) 
-
-Stanford University, and SLAC (US) 
-
-University College London  (UK) _JISC_
-
-University of California, Berkeley (US) _CDL_
-
-University of California, Santa Barbara (US) _CDL_
-
-University of Illinois at Urbana-Champaign  (US) _BTAA_
-
-University of Oxford  (UK) _JISC_
-
-University of Tokyo  (Japan) _NII Japan Consortium_
-
-University of Van Amsterdam  (Netherlands) 
+<div class="row">
+  <div class="column"></div>
+    CERN-European Organization for Nuclear Research (Switzerland) 
+    Columbia University (US) 
+    DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_ 
+    Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland) 
+    ETH Zurich (Switzerland) 
+    Harvard University (US)
+    Kyoto University  (Japan) _NII Japan Consortium_
+    Max Planck Digital Library (Germany) 
+    New York University (US) 
+   <div class="column"></div>
+    Princeton University (US) 
+    Stanford University, and SLAC (US) 
+    University College London  (UK) _JISC_
+    University of California, Berkeley (US) _CDL_
+    University of California, Santa Barbara (US) _CDL_
+    University of Illinois at Urbana-Champaign  (US) _BTAA_
+    University of Oxford  (UK) _JISC_
+    University of Tokyo  (Japan) _NII Japan Consortium_
+    University of Van Amsterdam  (Netherlands) 
+</div>
 
 ## Tier 2
 
