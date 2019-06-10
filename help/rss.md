@@ -33,3 +33,6 @@ parameter may be used to specify alternate RSS versions. Versions
 parameter may be combined with the `mirror` parameter. For example,
 `http://arxiv.org/rss/cs?mirror=fr&version=0.91` requests RSS version
 0.91 output with links to the French mirror.
+
+Looking for search results in an *RSS-like* format? See the [arXiv search 
+API](/help/api/index) for more information and usage instructions.

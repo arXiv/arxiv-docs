@@ -4,10 +4,13 @@ Submission of indexes for conference proceedings
 We encourage conference organizers to use arXiv as a way to distribute
 and archive conference papers. Conference proceedings may be made as a
 single submission (which is handled in the normal way), or as a set of
-individual papers with an index submission. We prefer arrangements where
-the respective authors submit the individual papers. We provide two ways
-of partially automating the process of creating HTML index submissions
-which are best suited to two different scenarios:
+individual papers with an index submission. **Note** individual papers 
+within a proceedings must still conform to arXiv content polices and are
+moderated, as usual. 
+In general, we prefer arrangements where the respective authors submit 
+the individual papers. We provide two ways of partially automating the 
+process of creating HTML index submissions which are best suited to two 
+different scenarios:
 
 -   [Index submitted after the individual papers](#index_after). We have
     support for the automatic extraction of metadata from the individual
