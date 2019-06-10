@@ -12,13 +12,15 @@ What's been New on the [arXiv.org](/) e-print archives
 <span id="june11_2019"></span>
 11 June 2019
 
-**arXiv created a Systems and Control category eess.SY that will merge with cs.SY. We have also merged the existing Numerical Analysis categories math.NA/cs.NA**
+**arXiv created a Systems and Control category eess.SY that will merge with cs.SY. We also merged the existing Numerical Analysis categories math.NA/cs.NA**
 
-Two changes to arXiv categories were made today. Thank you to arXiv moderators, subject advisory committees, and scientific advisory board members who provided leadership and input on these changes. 
+Two changes to arXiv categories were made today. 
 
 The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at https://arxiv.org/archive/eess.
 
-arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA. Special thanks to our math.NA and cs.NA moderators for putting in extra effort over the past two month to pilot this move.
+arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA. 
+
+Thank you to arXiv moderators, subject advisory committees, and scientific advisory board members who provided leadership and input on these changes. Special thanks to our math.NA and cs.NA moderators for putting in extra effort over the past two month to pilot this move.
 
 #### April 2019
 
