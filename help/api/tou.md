@@ -31,10 +31,10 @@ this page.
   Declaration](https://creativecommons.org/publicdomain/zero/1.0/). Metadata
   are provided by authors, volunteer moderators, arXiv staff, and external
   partners.
-- You agree to abide by the arXiv Code of Conduct [add link] in all of your
-  interactions with arXiv staff and those involved in its operation, and
-  understand that if you violate the CoC we may prohibit you from using arXiv
-  APIs.
+- You agree to abide by the arXiv [Code of
+  Conduct](../policies/code_of_conduct) in all of your interactions with arXiv
+  staff and those involved in its operation, and understand that if you violate
+  the CoC we may prohibit you from using arXiv APIs.
 - You agree to respect limitations on use of arXiv APIs, including rate limits
   and authorization mechanisms. If we think that you are attempting to
   circumvent those limitations, that your use of arXiv APIs threatens normal
