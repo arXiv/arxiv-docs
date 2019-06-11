@@ -2,7 +2,7 @@
 
 ## Seeking Feedback on Beta Version of Code of Conduct
   
-Below is the beta version of arXiv's Code of Conduct. We would like to get your feedback! Please let us know what you think [here](https://cornell.qualtrics.com/jfe/form/SV_eQDZib6K66o6gD3). We will be collecting feedback through 18 June 2019.
+Below is the beta version of arXiv's Code of Conduct. We would like to get your feedback! Please let us know what you think [here](https://cornell.qualtrics.com/jfe/form/SV_eQDZib6K66o6gD3). We will be collecting feedback through 25 June 2019.
 
 ---
 
