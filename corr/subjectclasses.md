@@ -2,7 +2,7 @@
 
 Papers in the [Computing Research Repository (CoRR)](./) are classified in two ways: by subject area from a list of subjects listed below and by using the 1998 ACM Computing Classification System. The ACM classification scheme provides us with a relatively stable scheme that covers all of computer science. The subject areas are not mutually exclusive, nor do they (yet) provide complete coverage of the field. On the other hand, we hope that they better reflect the active areas of research in CS. We expect to add more subject areas and subdivide current subject areas according to demand. Authors who cannot find an appropriate subject area should use subject area Other. We welcome constructive [comments and suggestions](/help/contact).
 
-**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Diego Calvanese, Julien Corman, Fabio Patrizi, and Ognjen Savkovic
+**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Diego Calvanese, Julien Corman, and Ognjen Savkovic
 
 Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.
 
@@ -30,7 +30,7 @@ Covers image processing, computer vision, pattern recognition, and scene underst
 
 Covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education. Roughly includes material in ACM Subject Classes K.0, K.2, K.3, K.4, K.5, and K.7.
 
-**[CR - Cryptography and Security](/list/cs.CR/recent)** - Stanislaw Jarecki, Jeremiah Blocki
+**[CR - Cryptography and Security](/list/cs.CR/recent)** - Jeremiah Blocki
 
 Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.
 
@@ -146,7 +146,7 @@ Roughly includes material in ACM Subject Class I.2.9.
 
 Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.
 
-**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse
+**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse and Nicolas Anquetil
 
 Covers design tools, software metrics, testing and debugging, programming environments, etc. Roughly includes material in all of ACM Subject Classes D.2, except that D.2.4 (program verification) should probably have Logics in Computer Science as the primary subject area.
 
