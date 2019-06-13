@@ -11,6 +11,9 @@ development based on the arXiv collection against these constraints.
 Access mechanisms provided are grouped into metadata and full-text
 services below.
 
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using any of
+the access options below.
+
 Bulk Metadata Access
 --------------------
 
