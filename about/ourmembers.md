@@ -347,6 +347,8 @@ Johns Hopkins University (US)
 
 Kansas State University (US)
 
+King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
+
 Kobe University (Japan) _NII Japan Consortium_
 
 Lawrence Berkeley National Laboratory (US) _CDL_
