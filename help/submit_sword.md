@@ -27,6 +27,9 @@ This manual provides detailed documentation of SWORD transactions with
 arXiv, mandatory extension elements, error conditions, and usage
 examples.
 
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
+SWORD Deposit API.
+
 Sample code in Perl is presented to demonstrate individual steps.
 
 2. Overview and Control Flow [Overview]

@@ -5,7 +5,7 @@ projects:
   bibliographic_overlay:
     title: arXiv Bibliographic Explorer
     repo: https://github.com/mattbierbaum/arxiv-bib-overlay
-    thumbnail: labs/images/bib-explorer.png
+    thumbnail: images/bib-explorer.png
     collaborators:
     - name: Matt Bierbaum
       association: Cornell Computing and Information Science
@@ -18,7 +18,7 @@ projects:
   HTML5_readability:
     title: arXiv HTML5 & Readability
     repo: https://github.com/cul-it/arxiv-readability
-    thumbnail: labs/images/readability.png
+    thumbnail: images/readability.png
     collaborators:
     - name: Michael Kohlhase
       association: Friedrich-Alexander Universität Erlangen-Nürnberg
@@ -44,5 +44,5 @@ that add value for our stakeholders and advance research.
 
 Here are some of the projects that our collaborators are working on right now.
 
-{{ render_project(projects.bibliographic_overlay) }}
-{{ render_project(projects.HTML5_readability) }}
+$jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
+$jinja {{ render_project(projects.HTML5_readability) }}  jinja$

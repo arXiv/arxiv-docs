@@ -13,6 +13,9 @@ appending a period (.) and the subject class letters to the URL. For
 example, the URL for the RSS page for Mathematics -- Quantum Algebra is
 `http://arxiv.org/rss/math.QA`.
 
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
+arXiv RSS feeds.
+
 ### Customization
 
 By default arXiv links within the RSS pages are to the main site. You

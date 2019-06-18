@@ -16,7 +16,6 @@ The advisory committee members serve as consultants to Cornell University and to
 - Ed Fox, Virginia Tech  
 - Lee Giles, Penn State  
 - Joseph Halpern, Cornell (chair)  
-- Bernard Lang, INRIA  
 - Michael Lesk, Rutgers  
 - Andrew McCallum, U. Massachusetts  
 - Steve Minton, ISI  

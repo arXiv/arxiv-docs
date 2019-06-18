@@ -5,6 +5,9 @@ This page describes arXiv bulk data available from Amazon S3. See also
 [details of other bulk data feeds from arXiv](bulk_data). Note that
 arXiv's S3 buckets are located in the Eastern US (N. Virginia) region.
 
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
+arXiv bulk data buckets.
+
 *Note: Most articles submitted to arXiv are submitted with the [default
 arXiv
 license](http://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html),
@@ -174,7 +177,7 @@ and secret key. Note that you will be charged for the requests and
 bandwidth when you issue requester pays requests by specifying the
 `--requester-pays` flag.
 
-    # s3cmd ls --requester-pays s3://arxiv/pdf 
+    # s3cmd ls --requester-pays s3://arxiv/pdf
                            DIR   s3://arxiv/pdf/
     # s3cmd ls --requester-pays s3://arxiv/pdf/\*
     2010-07-29 19:56 526202880   s3://arxiv/pdf/arXiv_pdf_0001_001.tar
@@ -193,5 +196,5 @@ bandwidth when you issue requester pays requests by specifying the
     # s3cmd get --requester-pays s3://arxiv/pdf/arXiv_pdf_manifest.xml
     s3://arxiv/pdf/arXiv_pdf_manifest.xml -> ./arXiv_pdf_manifest.xml  [1 of 1]
      246144 of 246144   100% in    0s   377.85 kB/s  done
-    #ls -l arXiv_pdf_manifest.xml 
+    #ls -l arXiv_pdf_manifest.xml
     -rw-r--r-- 1 user   user   246144 Mar 30 13:44 arXiv_pdf_manifest.xml

@@ -12,6 +12,9 @@ provides links to developer documentation, and gives instructions for
 how to join the mailing list and contact other developers and
 maintainers.
 
+Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
+API.
+
 For more news and questions about the arXiv API, please see our [arxiv-api
 group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](faq).
 
