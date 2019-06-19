@@ -3,6 +3,7 @@
 Please note this page is a work in progress. We are working towards a comprehensieve list of policies but at this time the list below is incomplete. 
 
 ## User Policies
+- [Code of conduct](code_of_conduct)
 - [Privacy policy](privacy_policy)
 - [Identity, affiliation, and registration](/help/registerhelp)
 - [Paper ownership](/help/authority)
