@@ -16,7 +16,7 @@ Failure to comply with this Code of Conduct may result in a warning or suspensio
 
 arXiv is an open access resource. We are dedicated to the permanent custodial preservation of the scholarly record and to the rapid dissemination of scholarly scientific research. We are sustained by a robust community of scientists from around the world who trust us with their work and ideas, and by the financial support of individuals and organizations. 
 
-arXiv looks to the needs of the international scientific community when we set priorities and while we engage in continual development. We are a partner in ongoing open access development and pleased to share our 30 years of experience.
+arXiv looks to the needs of the international scientific community when setting priorities and engaging in development. We are a partner in ongoing open access development and are pleased to share our 30 years of experience.
 
 ### Ethics and Responsibility
 
