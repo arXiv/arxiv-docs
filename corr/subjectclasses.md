@@ -78,7 +78,7 @@ Covers all aspects of computer graphics. Roughly includes material in all of ACM
 
 Covers systems organization and architecture. Roughly includes material in ACM Subject Classes C.0, C.1, and C.5.
 
-**[HC - Human-Computer Interaction](/list/cs.HC/recent)** - Terry Winograd
+**[HC - Human-Computer Interaction](/list/cs.HC/recent)** - Terry Winograd and Michael Bernstein
 
 Covers human factors, user interfaces, and collaborative computing. Roughly includes material in ACM Subject Classes H.1.2 and all of H.5, except for H.5.1, which is more likely to have Multimedia as the primary subject area.
 
