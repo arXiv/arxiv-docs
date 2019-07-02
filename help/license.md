@@ -50,7 +50,7 @@ agreements.
 Metadata license
 -----------------------------------------
 
-To the extent that the depositor or arxiv has a copyright interest in metadata accompanying the submission, a Creative Commons CC0 1.0 Universal Public Domain Dedication will apply.
+To the extent that the depositor or arxiv has a copyright interest in metadata accompanying the submission, a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) will apply.
 
 Authority to submit, publisher PDFs, etc.
 -----------------------------------------
