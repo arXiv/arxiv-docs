@@ -33,10 +33,7 @@ In the most common case, authors have the right to grant these licenses
 because they hold copyright in their own work.
 
 We currently support three of the [Creative Commons
-licenses](http://creativecommons.org/licenses/). If you wish to use a
-different CC license, then select arXiv's non-exclusive license to
-distribute in the arXiv submission process and indicate the desired
-Creative Commons license in the actual article.
+licenses](http://creativecommons.org/licenses/). If you wish to use a different CC license, then select arXiv's non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article.
 
 *Note:* if you intend to submit, or have submitted, your article to a
 journal then you should verify that the license you select during arXiv
@@ -49,6 +46,11 @@ BY](http://creativecommons.org/licenses/by/4.0/) and [CC
 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) licenses permit
 commercial reuse and may therefore conflict with some journal
 agreements.
+
+Metadata license
+-----------------------------------------
+
+To the extent that the depositor or arxiv has a copyright interest in metadata accompanying the submission, a Creative Commons CC0 1.0 Universal Public Domain Dedication will apply.
 
 Authority to submit, publisher PDFs, etc.
 -----------------------------------------
