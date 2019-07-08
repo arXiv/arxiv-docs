@@ -13,6 +13,19 @@ Learn more about [membership](/about/membership).
     University of Cambridge (UK) _JISC_
 </div>
 
+## Societies
+American Astronomical Society
+
+American Institute of Physics Publishing
+
+American Mathematical Society
+
+American Physical Society
+
+Association for Computing Machinery
+
+Deutsche Physikalische Gesellschaft
+
 
 ## Tier 1
 
@@ -356,6 +369,8 @@ Lawrence Berkeley National Laboratory (US) _CDL_
 Macquarie University (Australia) 
 
 Michigan State University (US) _BTAA_
+
+National University of Singapore (Singapore)
 
 Nikhef (Netherlands) 
 
