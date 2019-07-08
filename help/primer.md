@@ -75,7 +75,7 @@ documentation.
 It may be tempting attempt to download a local copy of arXiv or to build
 a dataset of articles for research. The system, however, is not designed
 to withstand automated downloads. Accesses are thus monitored and the
-system will [block sites](../RobotsBeware.html) attempting large
+system will [block sites](robots) attempting large
 downloads or making rapid-fire requests in order to protect access for
 other users. Access blocks can also be triggered by [PDF
 plug-ins](pdf#plugin) sending accelerated requests to our server. To
