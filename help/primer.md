@@ -105,7 +105,7 @@ has high technical standards for the files that are submitted. The
 submission process begins with the preparation of [valid metadata](prep)
 for the paper and continues through a verification process whereby the
 files uploaded are checked for certain problems. Valid upload formats
-for the primary text file include **(La)TeX**, **PostScript**, **PDF**,
+for the primary text file include **(La)TeX**, **PDF**,
 and **HTML**. There are specific restrictions for each of the primary
 file types and only certain other supplementary file types are
 acceptable; please consult the [submission instructions](submit) for
