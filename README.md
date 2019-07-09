@@ -151,3 +151,5 @@ response:
   location: the/new/location
 ---
 ```
+
+.
