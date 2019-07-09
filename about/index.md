@@ -33,4 +33,4 @@ arXiv® is an e-print service in the fields of physics, mathematics, computer sc
 - [Scientific Advisory Board](/help/scientific_ad_board)
 - [Member Advisory Board](https://confluence.cornell.edu/display/arxivpub/Member+Advisory+Board)
 - [Volunteer Moderators](/moderators)
-- [Developers](developers)
+- [Volunteer Developers](people/developers)
