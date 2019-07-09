@@ -11,7 +11,8 @@ technology, nor the evolving needs of 21st century science, without the help of
 dedicated arXiv users who contribute to the open source software that powers
 the arXiv platform.
 
-We are grateful to the following external developers for their contributions to the arXiv codebase:
+We are grateful to the following external developers for their contributions to
+the arXiv codebase:
 
 - Takeo Imai ([bonotake](https://github.com/bonotake))
 - Warren Price ([warpri81](https://github.com/warpri81))
