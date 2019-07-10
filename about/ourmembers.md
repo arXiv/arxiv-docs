@@ -470,22 +470,22 @@ Raman Research Institute (India)
 
 ## Societies
 
-American Astronomical Society
+American Astronomical Society (US)
 
-American Institute of Physics Publishing
+American Institute of Physics Publishing (US)
 
-American Mathematical Society
+American Mathematical Society (US)
 
-American Physical Society
+American Physical Society (US)
 
-Association for Computing Machinery
+Association for Computing Machinery (US)
 
-Deutsche Physikalische Gesellschaft
+Deutsche Physikalische Gesellschaft (Germany)
+
+Institute of Physics Publishing (UK)
 
 
 ## Contributors as non-voting members
-
-American Mathematical Society (AMS) (US) 
 
 Arm Research (UK) 
 
@@ -495,11 +495,7 @@ Computer Vision Foundation (CVF) (US)
 
 Cornell University (US) 
 
-craigslist Charitable Fund (US) 
-
 Denmark Electronic Research Library (DEFF) (Denmark) 
-
-European Research Council (EU) 
 
 Google Deep Mind (US) 
 
