@@ -14,6 +14,8 @@ the arXiv platform.
 We are grateful to the following volunteer developers for their contributions to
 the arXiv codebase:
 
+- Ben Firshman ([bfirsh](https://github.com/bfirsh))
+- Deyan Ginev ([dginev](https://github.com/dginev))
 - Takeo Imai ([bonotake](https://github.com/bonotake))
 - Warren Price ([warpri81](https://github.com/warpri81))
 - John Cook ([johncookds](https://github.com/johncookds))
