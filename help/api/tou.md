@@ -59,7 +59,7 @@ this page.
 ### Rate limits
 
 Please note that the following rate limits apply to all of the machines under
-your control as a whole. You should not attempt to overcomes these limits by
+your control as a whole. You should not attempt to overcome these limits by
 increasing the number of machines used to make requests. If your use-case
 requires a higher request rate, please contact our support team at
 help@arxiv.org.

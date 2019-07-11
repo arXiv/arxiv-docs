@@ -1,7 +1,6 @@
 # Our Members
-We gratefully acknowledge the support of the following 232 member institutions.
+We gratefully acknowledge the support of the following 239 member institutions.
 Learn more about [membership](/about/membership).
-
 
 ## Platinum Members
 
@@ -9,9 +8,10 @@ California Institute of Technology (US)
 
 Imperial College London (UK) _JISC_
 
-Massachusetts Institute of Technology (MIT) (US) 
+Massachusetts Institute of Technology (MIT) (US)
 
 University of Cambridge (UK) _JISC_
+
 
 ## Tier 1
 
@@ -25,9 +25,9 @@ Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
 
 ETH Zurich (Switzerland) 
 
-Harvard University (US) 
+Harvard University (US)
 
-Kyoto University  (Japan) __NII Japan Consortium__
+Kyoto University  (Japan) _NII Japan Consortium_
 
 Max Planck Digital Library (Germany) 
 
@@ -49,7 +49,7 @@ University of Oxford  (UK) _JISC_
 
 University of Tokyo  (Japan) _NII Japan Consortium_
 
-University of Van Amsterdam  (Netherlands) 
+University of Van Amsterdam  (Netherlands)
 
 ## Tier 2
 
@@ -124,6 +124,8 @@ Joint Institute for Nuclear Research (JINR)  (Russia)
 Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_ 
 
 KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
+
+Monash University (Australia)
 
 National Taiwan University (Taiwan) 
 
@@ -357,6 +359,8 @@ Johns Hopkins University (US)
 
 Kansas State University (US)
 
+King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
+
 Kobe University (Japan) _NII Japan Consortium_
 
 Lawrence Berkeley National Laboratory (US) _CDL_
@@ -364,6 +368,8 @@ Lawrence Berkeley National Laboratory (US) _CDL_
 Macquarie University (Australia) 
 
 Michigan State University (US) _BTAA_
+
+National University of Singapore (Singapore)
 
 Nikhef (Netherlands) 
 
@@ -425,6 +431,8 @@ University of Nebraska (US) _BTAA_
 
 University of New Hampshire (US) 
 
+University of North Texas (US)
+
 University of Notre Dame (US) 
 
 University of Nottingham (UK) _JISC_
@@ -459,9 +467,25 @@ Western University (Canada)
 
 Raman Research Institute (India) 
 
-## Contributors as non-voting members
 
-American Mathematical Society (AMS) (US) 
+## Societies
+
+American Astronomical Society (US)
+
+American Institute of Physics Publishing (US)
+
+American Mathematical Society (US)
+
+American Physical Society (US)
+
+Association for Computing Machinery (US)
+
+Deutsche Physikalische Gesellschaft (Germany)
+
+Institute of Physics Publishing (UK)
+
+
+## Contributors as non-voting members
 
 Arm Research (UK) 
 
@@ -471,11 +495,7 @@ Computer Vision Foundation (CVF) (US)
 
 Cornell University (US) 
 
-craigslist Charitable Fund (US) 
-
 Denmark Electronic Research Library (DEFF) (Denmark) 
-
-European Research Council (EU) 
 
 Google Deep Mind (US) 
 

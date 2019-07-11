@@ -18,7 +18,7 @@ Subject categories of the **stat** archive are:
     
 *   **stat.ML - Machine Learning**  
     Classification, Graphical Models, High Dimensional Inference  
-    Moderator: [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/)
+    Moderator: [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/), [Bharath Sriperumbudur](http://www.personal.psu.edu/bks18/)
 
 *   **stat.OT - Other Statistics**  
     Work in statistics that does not fit into the other stat classifications  

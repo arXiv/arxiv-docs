@@ -26,7 +26,7 @@ version](http://www.adobe.com/).**
 
 **Do not install Acroread as a plug-in**. Bugs in this arrangement mean
 that the browser will sometimes generate multiple rapid-fire requests,
-which may trigger one of our [robot-tripwires](/RobotsBeware.html) and
+which may trigger one of our [robot-tripwires](robots) and
 block your access. Please download all PDFs to your local machine and
 open them with the full Adobe Acrobat Reader application.
 

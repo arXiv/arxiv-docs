@@ -22,6 +22,7 @@ likely to submit to. We will then verify the email for your account.
     attempting to register a new account and are unsure if you already
     have an account please [email us for
     assistance](mailto:help@arxiv.org).
+-   Users must comply with arXiv's [Code of conduct](/help/policies/code_of_conduct).
 
 #### Password
 

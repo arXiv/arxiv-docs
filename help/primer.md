@@ -75,7 +75,7 @@ documentation.
 It may be tempting attempt to download a local copy of arXiv or to build
 a dataset of articles for research. The system, however, is not designed
 to withstand automated downloads. Accesses are thus monitored and the
-system will [block sites](../RobotsBeware.html) attempting large
+system will [block sites](robots) attempting large
 downloads or making rapid-fire requests in order to protect access for
 other users. Access blocks can also be triggered by [PDF
 plug-ins](pdf#plugin) sending accelerated requests to our server. To
@@ -105,7 +105,7 @@ has high technical standards for the files that are submitted. The
 submission process begins with the preparation of [valid metadata](prep)
 for the paper and continues through a verification process whereby the
 files uploaded are checked for certain problems. Valid upload formats
-for the primary text file include **(La)TeX**, **PostScript**, **PDF**,
+for the primary text file include **(La)TeX**, **PDF**,
 and **HTML**. There are specific restrictions for each of the primary
 file types and only certain other supplementary file types are
 acceptable; please consult the [submission instructions](submit) for
