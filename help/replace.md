@@ -63,7 +63,7 @@ Some typical reasons for replacing an article:
 Example comments upon replacement:
 
 -   `Comments: 32 pages harvmac; added references for section 5`
--   `Comments: 8 pages, LaTeX; typos added, references removed`
+-   `Comments: 8 pages, LaTeX; typos corrected, references added`
 
 Remember to merge your original comments with the new ones. If you do
 not, then the old comments will be lost. For instance, in the examples
