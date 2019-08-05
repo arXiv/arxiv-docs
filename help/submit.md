@@ -3,8 +3,8 @@ Submission Guidelines
 
 <span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication:
 
--   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find[endorsements](/help/endorsement).
--   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and relevant. Material that contains ffensive language, non-scientific content, or is plagarized may be removed.  
+-   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement).
+-   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and relevant. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
 -   Authors must grant arXiv.org a [non-exclusive and irrevocable
     license to distribute](license) or certify that the work is
     available under another license that conveys these rights.
@@ -150,7 +150,7 @@ Availability of submissions and announcement order
 Submissions to arXiv are normally made public on Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
-amount of time remaining before the "freeze".
+amount of time remaining before the deadline.
 
 
 
