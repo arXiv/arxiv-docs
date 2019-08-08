@@ -45,7 +45,7 @@ Note that TeX/LaTeX can only include (encapsulated) PostScript (**.ps** or **.ep
 
 The most flexible and robust figure inclusion is provided by the `graphics` and `graphicx` packages and the `\includegraphics` command defined therein. We highly recommend you use them for your figure inclusion. arXiv does not provide the `psfig` package any longer. You must include your own `psfig.sty` if you use it. In general, if things go wrong or don't look as desired you may have to include your version of [older macros](/help/faq/mistakes#old_style).
 
-Note that some software will permit you to include a mix of PostScript and PDFLaTeX-comptible figures and will perform the conversions to the appropriate format for you on the fly. arXiv does not permit such software to run during the AutoTeX processing. Why? It is possible for conversion issues to arise that can alter the scientific meaning or interpretation of your figure. Rather than invite such possibilities, we require that you use a unified figure format.
+Note that some software will permit you to include a mix of PostScript and PDFLaTeX-compatible figures and will perform the conversions to the appropriate format for you on the fly. arXiv does not permit such software to run during the AutoTeX processing. Why? It is possible for conversion issues to arise that can alter the scientific meaning or interpretation of your figure. Rather than invite such possibilities, we require that you use a unified figure format.
 
 #### Separate figures with LaTeX submissions
 
@@ -63,7 +63,7 @@ arXiv does not presently support PDFTeX.
 
 ### Considerations for PDFLaTeX submissions
 
-arXiv fully supports and auotmatically recognizes PDFLaTeX. You can ensure pdflatex processing by setting the flag **\\pdfoutput=1** within the first 5 lines of the preamble of the main `.tex` file. You should not need any other special flag.
+arXiv fully supports and automatically recognizes PDFLaTeX. You can ensure pdflatex processing by setting the flag **\\pdfoutput=1** within the first 5 lines of the preamble of the main `.tex` file. You should not need any other special flag.
 
 *   Should you need conditional branching in your source, use the [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) package. Do not re-invent the wheel. [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) provides a robust and well tested mechanism to distinguish between pdflatex in pdf mode and other modes or engines.
 *   Some packages may require a particular back-end driver, in the form of a package option, e.g. `\usepackage[pdftex]{...}`. However, the graphics and hyperref packages determine the proper driver automatically; you don't have to make this explicit choice and should not do so to avoid conflicts.
@@ -95,7 +95,7 @@ We strongly encourage you to include arXiv's `YYMM.NNNNN`, [identifiers](/help/a
 
 If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0512, arXiv:0901.0512, hep-ph/9409201 or arXiv:hep-ph/9409201, they can be easily harvested by automatic software. For example,
 
-> `\bedim{upsilon}  
+> `\bedim{upsilon}
 > C.T.H. Davies {\em et al.}, Phys. Rev {\bf D} 50 (1994) 6963, hep-lat/9406017.`
 
 Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](/help/faq/references) and [collection of references at INSPIRE](http://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
@@ -132,7 +132,7 @@ Similar to [index](#makeindex) files, we do not process `.glo` into the resultan
 
 ### How to include supplemental material
 
-TeX-based supplemental material should be included in the main document root directory, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the top-level file, or they will be assembled in alphanumeric order. For example, given the following files:  
+TeX-based supplemental material should be included in the main document root directory, and will be compiled into the final output pdf. Both files must use the same TeX-engine (either both latex, both pdflatex, or both plain tex). You may either create a [`00README.XXX` file](/help/00README) which specifies the top-level file, or they will be assembled in alphanumeric order. For example, given the following files:
 
 ```
   ./ms.tex
@@ -141,12 +141,12 @@ TeX-based supplemental material should be included in the main document root dir
   ./supplement.tex
   ./supplement.bbl
 ```
-  
+
 contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillary_files) directory, as these are not indexed for discovery and access.
 
 We highly recommend that if you plan to include any non-TeX files with your source package that you include them as [ancillary files](/help/ancillary_files) inside their own `/anc` directory off your document's root directory. For additional information please see that [help page](/help/ancillary_files). For legacy reasons, we still support individual file inclusion, as follows.
 
-If your submission includes any plain text files which should not be processed (e.g. Fortran source code, data files), and you don't want them availalbe for seperate download as [ancillary files](/help/ancillary_files) then make the first line of those files
+If your submission includes any plain text files which should not be processed (e.g. Fortran source code, data files), and you don't want them available for separate download as [ancillary files](/help/ancillary_files) then make the first line of those files
 
 > `%auto-ignore`
 
@@ -162,7 +162,7 @@ Common mistakes can be avoided by following some simple [guidelines](faq/mistake
 
 ### Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls
 
-If hyperlinks for URLs containing '#' appear as '\\#' in arXiv generated PDF, the macro package being used to generate these hyperlinks does not properly escape special characters in pdf strings. Either use the [hyperref package](/hypertex/) or define the URLs with the following workaround:  
+If hyperlinks for URLs containing '#' appear as '\\#' in arXiv generated PDF, the macro package being used to generate these hyperlinks does not properly escape special characters in pdf strings. Either use the [hyperref package](/hypertex/) or define the URLs with the following workaround:
 instead of _e.g._:
 
 > `\href{http://example.com/some-page.html\#destination}{destination}`
@@ -171,7 +171,7 @@ use:
 
 > `\href{http://example.com/some-page.html\string#destination}{destination}`
 
-  
+
 If you use macros like:
 
 > `\newcommand{\link}[2]{\href{http://example.com/some-page.html\##1}{#2}`
