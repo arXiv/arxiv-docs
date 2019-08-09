@@ -34,35 +34,33 @@ To submit an article, use the [Submit form](http://arxiv.org/submit)
 Formats for text of submission
 ------------------------------
 
-Your submission to the archive must be in one of the following formats
-(listed in order of preference):
+Accepted submission formats
+(in order of preference):
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](submit_tex)
 -   [PDF](submit_pdf)
 -   [HTML with JPEG/PNG/GIF images](submit_html)
 
-Our goal is to store articles in formats which are highly portable and
-stable over time. Currently, the best choice is TeX/LaTeX, because this
-open format does not hide information. Note that for this, and other
-[reasons](/help/faq/whytex), we will not accept dvi, PS, or PDF created
-from TeX/LaTeX source. Note also that we
-will not accept scanned documents, regardless of format.
+Our goal is to store articles in formats that are highly portable and
+stable over time. Currently, the best choice is TeX/LaTeX. 
+
+We do not accept [dvi, PS, or PDF created
+from TeX/LaTeX source](/help/faq/whytex), and we
+do not accept scanned documents, regardless of format.
 
 <span id="figures"></span>
 
 Formats for figures
 -------------------
 
-Accepted figure formats include:
+Accepted figure formats:
 
 -   PostScript, PS, EPS - requires [LaTeX processing](submit_tex#latex)
 -   JPEG, GIF, PNG or PDF figures - requires [PDFLaTeX processing](submit_tex#pdflatex) 
 
-Figure files should not exceed XX size. Note that
-we do not accept submissions with omitted figures, even if links to view figures externally are provided. See our [information on submission sizes](sizes)
-and our [bitmapping help](bitmap) for more information. If you have
-problems with a large submission, [contact arXiv
-administrators](/help/contact).
+Figure files should not exceed XX size. 
+See our [information on submission sizes](sizes)
+and our [bitmapping help](bitmap) for more information. We do not accept submissions with omitted figures, even if you provide links to view figures externally. 
 
 If you submit figures with your (La)TeX source, use standard macro
 packages (e.g., the `graphics` and `graphicx` packages) to have
@@ -78,9 +76,8 @@ arXiv will accept only the following characters in file names:
 
 > `a-z A-Z 0-9 _ + - . , = `
 
-The presence of any other character (e.g., spaces, question marks,
-asterisks) will cause the system to reject the file upload or
-submission. These restrictions ensure maximum portability of the stored
+File names that contain other characters (e.g., spaces, question marks,
+asterisks) will be rejected. These restrictions ensure maximum portability of the stored
 files and minimize archival risk.
 
 File names and extensions are also case sensitive on our system. The
@@ -95,7 +92,7 @@ Inclusion of ancillary files
 ------------------------------------------
 
 There are limited facilities for including data sets and ancillary files
-(data, programs, etc.) which are associated with articles submitted to
+(data, programs, etc.) that are associated with articles submitted to
 arXiv. See [separate instructions](ancillary_files) about including data sets
 and ancillary files.
 
@@ -147,7 +144,7 @@ for an erratum. Rather [replace](replace) the original submission.
 Availability of submissions and announcement order
 --------------------------------------------------
 
-Submissions to arXiv are normally made public on Sunday through
+Submissions to arXiv are typically made public on Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the deadline.
