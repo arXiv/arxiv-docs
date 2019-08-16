@@ -138,7 +138,7 @@ Covers performance measurement and evaluation, queueing, and simulation. Roughly
 
 Covers programming language semantics, language features, programming approaches (such as object-oriented programming, functional programming, logic programming). Also includes material on compilers oriented towards programming languages; other material on compilers may be more appropriate in Architecture (AR). Roughly includes material in ACM Subject Classes D.1 and D.3.
 
-**[RO - Robotics](/list/cs.RO/recent)** - Mark Moll
+**[RO - Robotics](/list/cs.RO/recent)** - Mark Moll and Damien Chablat
 
 Roughly includes material in ACM Subject Class I.2.9.
 
