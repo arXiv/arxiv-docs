@@ -7,6 +7,17 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+#### August 2019
+
+<span id="august20_2019"></span>
+19 August 2019
+
+**2 September - Labor Day Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 2 September 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 30 August 2019 and before 14:00 ET Tuesday, 3 September 2019 will be announced at 20:00 ET Tuesday, 3 September 2019.
+  
+
+
 #### June 2019
 
 <span id="june11_2019"></span>
