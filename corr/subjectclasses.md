@@ -90,9 +90,10 @@ Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes
 
 Covers theoretical and experimental aspects of information theory and coding. Includes material in ACM Subject Class E.4 and intersects with H.1.1.
 
-**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich
+**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich, Sebastian Raschka and Luis Lamb
 
-Covers machine learning and computational (PAC) learning. Roughly includes material in ACM Subject Class I.2.6.
+Papers on all aspects of machine learning research (supervised, unsupervised, reinforcement learning, bandit problems, and so on) including also robustness, explanation, fairness, and methodology. cs.LG is also an appropriate primary category for applications of machine learning methods.
+
 
 **[LO - Logic in Computer Science](/list/cs.LO/recent)** - Gopalan Nadathur
 
