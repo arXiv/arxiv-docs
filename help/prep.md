@@ -386,7 +386,7 @@ Authors fields.
 <td ><b>&#305;</b>&nbsp;&nbsp;&nbsp;{\i}</td>
 </tr>
 <tr>
-<td ><b>&#322;</b>&nbsp;&nbsp;&nbsp;{\I}</td>
+<td ><b>&#322;</b>&nbsp;&nbsp;&nbsp;{\l}</td>
 <td ><b>&#321;</b>&nbsp;&nbsp;&nbsp;{\L}</td>
 <td ><b>&#331;</b>&nbsp;&nbsp;&nbsp;{\ng}</td>
 <td ><b>&#330;</b>&nbsp;&nbsp;&nbsp;{\NG}</td>

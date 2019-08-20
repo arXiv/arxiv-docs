@@ -296,6 +296,8 @@ The following projects use the arXiv API:
   - [biblio.el - Download BibTeX entries from arXiv and others in
     Emacs](https://github.com/cpitclaudel/biblio.el)
 
+  - [Lib arXiv - arXiv app for iOS devices](http://www.naru.jpn.com/lib_arxiv/en/)
+
   - [arxivist.com](http://arxivist.com)
 
 ### Helping Out
