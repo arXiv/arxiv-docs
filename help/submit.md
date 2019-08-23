@@ -1,7 +1,7 @@
 Submission Guidelines
 ====================
 
-<span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication:
+<span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
 
 -   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement).
 -   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
@@ -11,7 +11,7 @@ Submission Guidelines
 -   Authors must agree to [arXiv terms of
     submission](terms_of_submission).
 -   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
--   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions) at 20:00 (Eastern), but are subject to delays in the moderation process (see the [schedule for details](#availability).) 
+-   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions) at 20:00 (Eastern) but are subject to delays in the moderation process (see the [schedule for details](#availability).) 
 
 Submission Preparation
 ====================
@@ -20,12 +20,12 @@ Submission Preparation
 -   [File names and case sensitivity](#files)
 -   [Inclusion of data sets and ancillary files (data, programs,
     etc.)](#datasets)
--   [Title and Abstract preparation](#prep)
+-   [Title and abstract preparation](#prep)
 -   [Verify and correct your submission](#correct)
 -   [Edit or replace your submission](#replace)
 
 
-To submit an article, use the [Submit form](http://arxiv.org/submit)
+To submit an article, use the [submit form](http://arxiv.org/submit)
     or select "START NEW SUBMISSION" from your [user
     page](http://arxiv.org/user).
 
@@ -55,8 +55,8 @@ Formats for figures
 
 Accepted figure formats:
 
--   PostScript (PS, EPS) - requires [LaTeX processing](submit_tex#latex)
--   JPEG, GIF, PNG or PDF figures - requires [PDFLaTeX processing](submit_tex#pdflatex) 
+-   PostScript (PS, EPS) &mdash; requires [LaTeX processing](submit_tex#latex)
+-   JPEG, GIF, PNG or PDF figures &mdash; requires [PDFLaTeX processing](submit_tex#pdflatex) 
 
 We do not accept submissions with omitted figures, even if you provide links to view figures externally. 
 
@@ -81,8 +81,8 @@ files and minimize archival risk.
 File names and extensions are also case sensitive on our system. The
 file names `Figure1.PDF` and `figure1.pdf` are not the same. Whether
 your local system is case sensitive (e.g., Unix) or not (e.g., Windows)
-you must ensure that internal file references such as LaTeX figure
-inclusion commands match case exactly.
+you must ensure that internal file references, such as LaTeX figure
+inclusion commands, match case exactly.
 
 <span id="datasets"></span>
 
@@ -110,13 +110,13 @@ Verify and correct your submission
 
 Before you make the final "Submit Article" step in the submission
 process, be sure to carefully check the title and abstract (metadata)
-and the processed files and correct any errors. [Contact arXiv
+and the processed files, and correct any errors. [Contact arXiv
 administrators](/help/contact) for help.
 
 If you discover an error after submission but before public announcement,
-select the Unsubmit (![unsubmit icon](/images/unsubmit.png)) icon
+select the "Unsubmit" (![unsubmit icon](/images/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user). This will
-return it to the [incomplete status](submit_status#incomplete) and allow you to 
+return it to [incomplete status](submit_status#incomplete) and allow you to 
 modify your files and resubmit.
 
 Unsubmitting an article takes the article out of the processing queue, and announcement will be scheduled based on the later resubmission time. See the schedule of [availability](#availability).
@@ -131,29 +131,29 @@ The date stamp associated with the submission will
 be the time that the final "Submit Article" step is completed. Edits and
 final submission before 14:00 US Eastern Time (EDT/EST) Monday through
 Friday will not delay announcement. You may wish to check [current local
-time](http://arXiv.org/localtime) at main site.
+time](http://arXiv.org/localtime) at the main site.
 
-We encourage authors to update and to make corrections in their
+We encourage authors to update and to make corrections to their
 articles. **DO NOT** make a new submission for a corrected article or
-for an erratum. Rather [replace](replace) the original submission.
+for an erratum. Instead, [replace](replace) the original submission.
 
 <span id="availability"></span>
 
 Availability of submissions and announcement order
 --------------------------------------------------
 
-Submissions to arXiv are typically made public on Sunday through
+Submissions to arXiv are typically made public Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the deadline.
 
 
 
-| Submissions Received Between<br />(all times Eastern US) | Will Be Announced<br />(all times Eastern US) | Mailed to Subscribers |
+| Submissions received between<br />(all times Eastern US) | Will be announced<br />(all times Eastern US) | Mailed to subscribers |
 |:---:|:---:|:---:|
-| Monday 14:00 - Tuesday 14:00 | Tuesday 20:00 | Tuesday Night / Wednesday Morning |
-| Tuesday 14:00 - Wednesday 14:00 | Wednesday 20:00 | Wednesday Night / Thursday Morning | 
-| Wednesday 14:00 - Thursday 14:00 | Thursday 20:00 | Thursday Night / Friday Morning |
-| Thursday 14:00 - Friday 14:00 | Sunday 20:00 | Sunday Night / Monday Morning |
-| Friday 14:00 - Monday 14:00 | Monday 20:00 | Monday Night / Tuesday Morning |
+| Monday 14:00 &ndash; Tuesday 14:00 | Tuesday 20:00 | Tuesday night / Wednesday morning |
+| Tuesday 14:00 &ndash; Wednesday 14:00 | Wednesday 20:00 | Wednesday night / Thursday morning | 
+| Wednesday 14:00 &ndash; Thursday 14:00 | Thursday 20:00 | Thursday night / Friday morning |
+| Thursday 14:00 &ndash; Friday 14:00 | Sunday 20:00 | Sunday night / Monday morning |
+| Friday 14:00 &ndash; Monday 14:00 | Monday 20:00 | Monday night / Tuesday morning |
 
