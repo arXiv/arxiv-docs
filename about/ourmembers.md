@@ -55,6 +55,8 @@ University of Van Amsterdam  (Netherlands)
 
 Boston University (US) 
 
+The Chinese University of Hong Kong (Hong Kong)
+
 Durham University (UK) _JISC_
 
 Georgia Institute of Technology (US) 
