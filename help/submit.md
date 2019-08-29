@@ -131,7 +131,7 @@ The date stamp associated with the submission will
 be the time that the final "Submit Article" step is completed. Edits and
 final submission before 14:00 US Eastern Time (EDT/EST) Monday through
 Friday will not delay announcement. You may wish to check [current local
-time](http://arXiv.org/localtime) at the main site.
+time](http://arXiv.org/localtime).
 
 We encourage authors to update and to make corrections to their
 articles. **DO NOT** make a new submission for a corrected article or
