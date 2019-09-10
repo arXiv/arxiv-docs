@@ -24,11 +24,11 @@ group](http://groups.google.com/group/arxiv-api). Additional information is also
 
   - [Using the arXiv API](#using)
 
-  - [arXiv API documentation](#documentation)
+  - [arXiv API documentation](./user-manual)
 
   - [Community](#community)
 
-
+<a name="about"></a>
 ## About the arXiv API
 
 The Cornell University e-print arXiv, hosted at
@@ -68,6 +68,7 @@ be able to use the api.
 Please see [Using the arXiv API](#using), or the [User's
 Manual](user-manual) for more information.
 
+<a name="using"></a>
 ## Using the arXiv API
 
 Since the arXiv API is based on the now ubiquitous HTTP, using it should
