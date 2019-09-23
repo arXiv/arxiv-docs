@@ -1,12 +1,17 @@
 # About arXiv
 
-arXiv® is an e-print service in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Submissions to arXiv should conform to Cornell University academic standards. arXiv is owned and operated by [Cornell University](https://www.cornell.edu/), a private not-for-profit educational institution. arXiv is funded by Cornell University, the [Simons Foundation](https://www.simonsfoundation.org/) and by [member institutions](https://confluence.cornell.edu/x/ALlRF).
+arXiv.org is e-print service in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. arXiv is collaboratively governed, community-supported resource maintained and operated by [Cornell University](https://www.cornell.edu/).  
+
+Operations are maintained by the arXiv Leadership Team and staff at Cornell, with the help of numerous subject moderators. Governance of arXiv is led by the Leadership Team with guidance from the arXiv Scientific Advisory Board and the arXiv Member Advisory Board. arXiv is funded by the [Simons Foundation](https://www.simonsfoundation.org/), [member institutions](https://confluence.cornell.edu/x/ALlRF), and donors.
+
 
 ## General Information
 
-- [About arXiv](/help/general)
 - [arXiv Support and Governance Model](/help/support)
 - [Public Wiki](https://confluence.cornell.edu/x/m4NRF)
+- [Browse Articles](/arxiv.org)
+- [Submit Articles, user login required]
+- [A guide for submitting articles](/help/submit)
 
 
 ## News
