@@ -152,6 +152,8 @@ If your submission includes any plain text files which should not be processed (
 
 This ensures that they will be ignored by the auto-postscript generator.
 
+**NOTE**: `pdflatex` users who submit using the above formatting recommendations will have any final hyperlinking removed due to a [known issue](http://mirrors.ctan.org/macros/latex/contrib/pdfpages/pdfpages.pdf#page=2) in the `pdfpages.sty` package. 
+
 <span id="mistakes"></span>
 
 ### Avoid mistakes in the text
