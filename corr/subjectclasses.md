@@ -10,7 +10,7 @@ Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Sys
 
 Covers models of computation, complexity classes, structural complexity, complexity tradeoffs, upper and lower bounds. Roughly includes material in ACM Subject Classes F.1 (computation by abstract devices), F.2.3 (tradeoffs among complexity measures), and F.4.3 (formal languages), although some material in formal languages may be more appropriate for Logic in Computer Science. Some material in F.2.1 and F.2.2, may also be appropriate here, but is more likely to have Data Structures and Algorithms as the primary subject area.
 
-**[CG - Computational Geometry](/list/cs.CG/recent)** - Jeff Erickson
+**[CG - Computational Geometry](/list/cs.CG/recent)** - Kevin Buchin, Jeff Erickson
 
 Roughly includes material in ACM Subject Classes I.3.5 and F.2.2.
 
@@ -46,7 +46,7 @@ Covers data structures and analysis of algorithms. Roughly includes material in 
 
 Covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area). Roughly includes material in ACM Subject Classes H.3.5, H.3.6, H.3.7, I.7.
 
-**[DM - Discrete Mathematics](/list/cs.DM/recent)** - Jeff Erickson
+**[DM - Discrete Mathematics](/list/cs.DM/recent)** - Jeff Erickson, Marcin Pilipczuk
 
 Covers combinatorics, graph theory, applications of probability. Roughly includes material in ACM Subject Classes G.2 and G.3.
 
