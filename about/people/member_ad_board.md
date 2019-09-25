@@ -1,3 +1,5 @@
+# Member Advisory Board (MAB)
+
 The Member Advisory Board (MAB) represents participating institutions’ interests and advises Cornell University on issues 
 related to repository management and development, standards implementation, interoperability, development priorities, 
 business planning, and outreach and advocacy. Representation on MAB is reserved for libraries, research institutions, 
@@ -6,8 +8,6 @@ laboratories, and foundations that are members of arXiv and that contribute to t
 The MAB has voting members in three categories: contributing organizations (at least 7), high-contributing organizations (up to 5), Simons Foundation (1). Representatives from contributing organizations are elected. High-contributin organizations represent each consortia or national organization member that contributes 5% or more of arXiv’s annual income generated through membership fees. Additionally, there are five non-voting ex-officio members.
 
 The MAB bylaws detail the goals, composition, operation, and election of the Board.
-
-# MAB Members
 
 ## Contributing Organizations
 
@@ -70,7 +70,7 @@ _Yuri Tschinkel, Director of Mathematics and the Physical Sciences, Simons Found
 Yuri Tschinkel received his doctorate in mathematics from the Massachusetts Institute of Technology in 1992. From 1992-95 he was Junior Fellow of the Harvard Society of Fellows, and from 1995-96 he was a Leibniz fellow at the École Normale Supérieure in Paris. Prior to joining the Simons Foundation in 2012, Tschinkel was a faculty member at the University of Illinois at Chicago, a visiting associate professor at Princeton University, the Gauss chair of mathematics at the University of Göttingen, and professor and chair of the mathematics department at the Courant Institute, New York University. He was also a member of the Institute for Advanced Study in Princeton and held visiting fellowships at the Isaac Newton Institute for Mathematical Sciences in Cambridge, University of Tokyo, Max Planck Institute in Bonn, Institut des Hautes Études Scientifiques in Paris, Eidgenössische Technische Hochschule Zürich, and Research Institute for Mathematical Sciences at Kyoto University. He serves on the editorial boards of Experimental Mathematics, the Bulletin of the American Mathematical Society, the Central European Journal of Mathematics, and the Progress in Mathematics series from Birkhäuser. Yuri Tschinkel studies higher-dimensional algebraic varieties, their hidden symmetries and rational points. He is an author of about 100 publications (most of them available on arXiv) and editor of 15 books.
 
 ## Ex Officio Members
-**Cornell University (5 non-voting seats)**, _Oya Y. Rieger, Program Director; Steinn Sigurdsson, Scientific Director; Martin Lessmeister, Lead Programmer; Jim Entwood, Operations Manager; Erick Peirson, Lead System Architect
+**Cornell University (5 non-voting seats)**, _Oya Y. Rieger, Program Director; Steinn Sigurdsson, Scientific Director; Martin Lessmeister, Lead Programmer; Jim Entwood, Operations Manager; Erick Peirson, Lead System Architect_
 
 **Scientific Advisory Board (SAB) Representative**, _Dr. Sumati Surya, Professor, Raman Research Institute, India_
 
