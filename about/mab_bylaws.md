@@ -6,11 +6,11 @@ The arXiv Bylaws were established in 2012 and may be amended, or new articles ad
 
 **1. Member Advisory Board**
 
-1.1 Cornell University Library (CUL) holds the overall responsibility for arXiv’s operation and development, with strategic and operational guidance from its Member Advisory Board (MAB) and its Scientific Advisory Board (SAB).
+1.1 Cornell University (CU) holds the overall responsibility for arXiv’s operation and development, with strategic and operational guidance from its Member Advisory Board (MAB) and its Scientific Advisory Board (SAB).
 
-1.2 The arXiv principles delineate the respective roles of CUL, SAB, and MAB.  See the arXiv Governance Model for a summary of each group's role.
+1.2 The arXiv principles delineate the respective roles of CU, SAB, and MAB.  See the arXiv Governance Model for a summary of each group's role.
 
-1.3 Representation on MAB is reserved for libraries, research institutions, laboratories, and foundations that are members of arXiv and contribute to the financial support of the service (“Contributing ­Organizations”).
+1.3 Representation on MAB is reserved for libraries, research institutions, laboratories, and foundations that are members of arXiv and contribute to the financial support of the service (“Contributing Organizations”).
 
 1.4 MAB is elected from arXiv’s membership and serves as a consultative body.
 
@@ -27,8 +27,8 @@ One voting member from the Simons Foundation.
 2.1.2   MAB will have five non-voting ex officio members in three categories:
 
 The arXiv Program Director & Scientific Director
-Other leads from the CUL arXiv team as appointed by Cornell’s University Librarian. The role of these members is to provide information and participate in Board discussions.
-Two SAB representatives. The SAB and MAB operate in parallel, complementing each other and providing essential input for CUL. To this end, the SAB appoints two members to serve as non-voting ex officio members of MAB; MAB appoints two members to serve as non-voting ex officio members of the SAB.
+Other leads from the CU arXiv team as appointed by Cornell’s University Librarian. The role of these members is to provide information and participate in Board discussions.
+Two SAB representatives. The SAB and MAB operate in parallel, complementing each other and providing essential input for CU. To this end, the SAB appoints two members to serve as non-voting ex officio members of MAB; MAB appoints two members to serve as non-voting ex officio members of the SAB.
 
 2.1.3 Board Officers
 
@@ -54,15 +54,15 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 **3. MAB Operation**
 
-3.1 MAB represents participating institutions’ interests and advises CUL on issues related to repository management and development, standards implementation, interoperability, development priorities, business planning, and outreach and advocacy. MAB also reviews and comments on arXiv budgets proposed by CUL. For agenda items that require decisions, MAB will review and comment on proposals submitted by CUL and may request additional information in support of their deliberations. MAB members can propose agenda items for discussion on topics within the scope of the group’s role. Some topics will require open discussion, and some matters with action items will necessitate decision-making.
+3.1 MAB represents participating institutions’ interests and advises CU on issues related to repository management and development, standards implementation, interoperability, development priorities, business planning, and outreach and advocacy. MAB also reviews and comments on arXiv budgets proposed by CU. For agenda items that require decisions, MAB will review and comment on proposals submitted by CU and may request additional information in support of their deliberations. MAB members can propose agenda items for discussion on topics within the scope of the group’s role. Some topics will require open discussion, and some matters with action items will necessitate decision-making.
 
 3.2 A quorum requires the participation of a minimum eight voting Board members out of 13 (not including ex officio members). 
 
 3.3 When the Board considers any matter that requires a decision, the opinion of any Board member who wishes to express an opinion will be considered by the Board. As deemed useful and needed, Roberts’ Rules will be used in running meetings, moderating discussions, and approving decisions.
 
-3.4 If the Board cannot agree on a decision, either the previous policy remains unchanged or no decision will be reached on the new business. Depending on the urgency of the matter, CUL reserves the right to make a decision or leave the issue unsolved to be reconsidered in a future Board meeting. If there is a deadlock, either within MAB or in deliberations between MAB and the SAB, Cornell’s University Librarian bears responsibility for dispute resolution.
+3.4 If the Board cannot agree on a decision, either the previous policy remains unchanged or no decision will be reached on the new business. Depending on the urgency of the matter, CU reserves the right to make a decision or leave the issue unsolved to be reconsidered in a future Board meeting. If there is a deadlock, either within MAB or in deliberations between MAB and the SAB, Cornell’s University Librarian bears responsibility for dispute resolution.
 
-3.5 The Board will have authority to adopt policies and procedures governing Board activities. The Board may form subcommittees as needed and delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CUL or to any other members.
+3.5 The Board will have authority to adopt policies and procedures governing Board activities. The Board may form subcommittees as needed and delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CU or to any other members.
 
 3.6 With regard to MAB and SAB communication, Board agendas and discussion outcomes will be shared with the SAB for their review and comments. The SAB representatives in MAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
 
@@ -88,7 +88,7 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 4.2.5 The Chair will preside at all meetings of the Board and will exercise general charge and supervision of MAB’s affairs. The Chair will facilitate open and inclusive discussion and decision making. 
 
-4.2.6 CUL will assign a staff member as Secretary to take notes during meetings and prepare meeting minutes. MAB members will review and approve the minutes. The Board agendas and discussion outcomes will be shared with the SAB for their review and comments. A synopsis of the meeting outcomes will be shared with the arXiv members.
+4.2.6 CU will assign a staff member as Secretary to take notes during meetings and prepare meeting minutes. MAB members will review and approve the minutes. The Board agendas and discussion outcomes will be shared with the SAB for their review and comments. A synopsis of the meeting outcomes will be shared with the arXiv members.
 
 4.3 Designating Alternates
 If an MAB member is unable to attend a meeting, he or she may designate an alternate to act as a Board member. The alternate must be an employee or officer of a Contributing or High-Contributing Organization. An alternate may attend Board meetings and will be deemed a member of the Board for all purposes for the duration of the designation. 
