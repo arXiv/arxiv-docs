@@ -14,6 +14,8 @@ else
     export SOURCE_REF=${TRAVIS_TAG}
 fi
 
+echo "Building ${IMAGE_NAME}:${SOURCE_REF}"
+
 git fetch --unshallow || echo "Repository is already complete"
 docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
 docker build . -t ${IMAGE_NAME}:${SOURCE_REF} --build-arg BUILD_TIME=$(date) --build-arg VERSION=${SOURCE_REF}
