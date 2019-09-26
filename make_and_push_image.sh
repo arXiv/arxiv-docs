@@ -7,7 +7,7 @@ set -o nounset
 # Used to deploy
 
 export LOGLEVEL=40
-export IMAGE_NAME=arxiv/docs
+export IMAGE_NAME="arxiv/docs"
 if [ -z "${TRAVIS_TAG}" ]; then
     export SOURCE_REF=${TRAVIS_COMMIT}
 else
