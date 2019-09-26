@@ -1,6 +1,6 @@
 # arXiv Scientific Advisory Board Bylaws
 
-_Revisions adopted on 6 October 2014_
+_Revisions adopted on 20 August 2019_
 
 *Article 1. Definitions*
 1.1	The name of the organization is the arXiv Scientific Advisory Board, hereinafter referred to as SAB and the Board. SAB is a consultative body advising the Cornell University, hereinafter referred to as CU.
@@ -77,4 +77,4 @@ d)	_Other Officers._ Other officers elected by the Board shall have the authorit
 Document Revision History
 2013-09-16	Initial adoption of bylaws
 2014-10-06	Revisions approved and adopted
-2019-09-26	Replaced Cornell University Library (CUL) with Cornell University (CU); revised 2.1.1 c) as approved by SAB.
+2019-08-20	Replaced Cornell University Library (CUL) with Cornell University (CU); revised 2.1.1 c) as approved by SAB.
