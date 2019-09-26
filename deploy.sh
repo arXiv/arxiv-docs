@@ -122,7 +122,7 @@ fi
 
 if [ "$TRAVIS_PULL_REQUEST_SHA" = "" ];  then SHA=$TRAVIS_COMMIT; else SHA=$TRAVIS_PULL_REQUEST_SHA; fi
 curl -u $USERNAME:$GITHUB_TOKEN \
-    -d '{"state": "'$DEPLOY_STATE'", "target_url": "https://'$DEPLOYMENT_HOSTNAME'/'$SITE_NAME'", "description": "Deploy '$DEPLOY_STATE' for '$DEPLOYMENT_HOSTNAME'/'$SITE_NAME'", "context": "deploy/'$SITE_NAME'"}' \
+    -d '{"state": "'$DEPLOY_STATE'", "target_url": "https://'$DEPLOYMENT_HOSTNAME'", "description": "Deploy '$DEPLOY_STATE' for '$DEPLOYMENT_HOSTNAME'/'$SITE_NAME'", "context": "deploy/'$SITE_NAME'"}' \
     -XPOST https://api.github.com/repos/$TRAVIS_REPO_SLUG/statuses/$SHA > /dev/null 2>&1 && \
     echo "Sent result to GitHub"
 
