@@ -21,35 +21,31 @@ ENV VERSION=$VERSION \
     LOGLEVEL=40 \
     PATH="/opt/arxiv:${PATH}" \
     LC_ALL=en_US.utf-8 \
-    LANG=en_US.utf-8
+    LANG=en_US.utf-8 \
+    UWSGI_PROCESSES=4
 
 # Add the /about site.
-COPY ./deploy/about.cfg /opt/arxiv/about/instance/application.cfg
-ADD ./deploy/about.wsgi.py /opt/arxiv/about/wsgi.py
+ADD ./deploy/about /opt/arxiv/about/
 COPY ./about /opt/arxiv/about/source/
 COPY ./.git /opt/arxiv/about/source/.git/
 
 # Add the /corr site.
-COPY ./deploy/corr.cfg /opt/arxiv/corr/instance/application.cfg
-ADD ./deploy/corr.wsgi.py /opt/arxiv/corr/wsgi.py
+ADD ./deploy/corr /opt/arxiv/corr/
 COPY ./corr /opt/arxiv/corr/source/
 COPY ./.git /opt/arxiv/corr/source/.git/
 
 # Add the /help site.
-COPY ./deploy/help.cfg /opt/arxiv/help/instance/application.cfg
-ADD ./deploy/help.wsgi.py /opt/arxiv/help/wsgi.py
+ADD ./deploy/help /opt/arxiv/help/
 COPY ./help /opt/arxiv/help/source/
 COPY ./.git /opt/arxiv/help/source/.git/
 
 # Add the /hypertex site.
-COPY ./deploy/hypertex.cfg /opt/arxiv/hypertex/instance/application.cfg
-ADD ./deploy/hypertex.wsgi.py /opt/arxiv/hypertex/wsgi.py
+ADD ./deploy/hypertex /opt/arxiv/hypertex/
 COPY ./hypertex /opt/arxiv/hypertex/source/
 COPY ./.git /opt/arxiv/hypertex/source/.git/
 
 # Add the /labs site.
-COPY ./deploy/labs.cfg /opt/arxiv/labs/instance/application.cfg
-ADD ./deploy/labs.wsgi.py /opt/arxiv/labs/wsgi.py
+ADD ./deploy/labs /opt/arxiv/labs/
 COPY ./labs /opt/arxiv/labs/source/
 COPY ./.git /opt/arxiv/labs/source/.git/
 

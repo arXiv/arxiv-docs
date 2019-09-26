@@ -1,0 +1,23 @@
+ingressPaths:
+  - "/about"
+  - "/corr"
+  - "/help"
+  - "/hypertex"
+  - "/labs"
+
+# These values are suitable for dev/staging purposes. It may be advisable to
+# increase these as needed, especially if increasing ``UWSGI_PROCESSES`` env
+# var, below.
+resources:
+  memory:
+    max: 256Mi
+    min: 128Mi
+  cpu:
+    max: 250m
+    min: 100m
+
+env:
+  # Controls the number of processes that uWSGI runs to handle requests. This
+  # is set fairly low for dev/staging purposes, but should probably be higher
+  # in production (e.g. 8).
+  UWSGI_PROCESSES: 2

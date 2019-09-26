@@ -148,10 +148,11 @@ configuration) which means that we need a custom WSGI entrypoint for each app.
 
 Places where relevant paths and parameters are defined:
 
-- ``deploy/[site].wsgi.py`` is the custom WSGI entrypoint for the site/app.
+- ``deploy/[site]/wsgi.py`` is the custom WSGI entrypoint for the site/app.
   This gets added at ``/opt/arxiv/[site]/wsgi.py`` in the Docker image.
-- ``deploy/[site].cfg`` is a Python script with config parameters. This gets
-  added at ``/opt/arxiv/[site]/instance/application.cfg`` in the Docker image.
+- ``deploy/[site]/instance/application.cfg`` is a Python script with config
+  parameters. This gets added at ``/opt/arxiv/[site]/instance/application.cfg``
+  in the Docker image.
 - ``Dockerfile`` is where all of the above gets added to the Docker image, and
   the build script for each site/app is invoked.
 
