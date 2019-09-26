@@ -94,7 +94,7 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
         --set=ingressName=$HELM_RELEASE \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
-        --set=ingressPaths={/about,/corr,/help,/hypertex,/labs} \
+        --values=deploy/values.yaml \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null \
     || helm install arxiv/$CHART_NAME \
@@ -106,7 +106,7 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
         --set=ingressName=$HELM_RELEASE \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
-        --set=ingressPaths={/about,/corr,/help,/hypertex,/labs} \
+        --values=deploy/values.yaml \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null
 DEPLOY_EXIT=$?
