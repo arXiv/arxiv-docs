@@ -10,8 +10,8 @@ ingressPaths:
 # var, below.
 resources:
   memory:
-    max: 256Mi
-    min: 128Mi
+    max: 128Mi
+    min: 64Mi
   cpu:
     max: 250m
     min: 100m
