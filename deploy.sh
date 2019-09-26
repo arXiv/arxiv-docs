@@ -27,7 +27,7 @@
 
 CHART_NAME=$1
 ENVIRONMENT=$2
-SITE_NAME=$3
+SITE_NAME="docs"
 TOKEN_NAME=USER_TOKEN_$(echo $ENVIRONMENT | awk '{print toupper($0)}')
 SA_NAME=USER_SA_$(echo $ENVIRONMENT | awk '{print toupper($0)}')
 DEPLOYMENT_HOSTNAME_VAR=DEPLOYMENT_DOMAIN_$(echo $ENVIRONMENT | awk '{print toupper($0)}')
@@ -35,8 +35,6 @@ USER_TOKEN=${!TOKEN_NAME}
 USER_SA=${!SA_NAME}
 HELM_RELEASE=${CHART_NAME}-${SITE_NAME}-${ENVIRONMENT}
 DEPLOYMENT_HOSTNAME=${!DEPLOYMENT_HOSTNAME_VAR}
-
-if [ -z "$SITE_SEARCH_ENABLED" ]; then SITE_SEARCH_ENABLED="1"; fi
 
 if [ -z "${TRAVIS_TAG}" ]; then
     IMAGE_TAG=${TRAVIS_COMMIT}
@@ -91,28 +89,24 @@ helm get $HELM_RELEASE --tiller-namespace $ENVIRONMENT 2> /dev/null \
     && helm upgrade $HELM_RELEASE arxiv/$CHART_NAME \
         --set=imageName=$IMAGE_NAME \
         --set=imageTag=$TRAVIS_COMMIT \
-        --set=siteName=$SITE_NAME \
         --set=deploymentName=$HELM_RELEASE \
         --set=serviceName=$HELM_RELEASE \
         --set=ingressName=$HELM_RELEASE \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
-        --set=sub_path="/"$SITE_NAME \
-        --set=siteSearchEnabled=$SITE_SEARCH_ENABLED \
+        --set=ingressPaths={/about,/corr,/help,/hypertex,/labs} \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null \
     || helm install arxiv/$CHART_NAME \
         --name=$HELM_RELEASE \
         --set=imageName=$IMAGE_NAME \
         --set=imageTag=$TRAVIS_COMMIT \
-        --set=siteName=$SITE_NAME \
         --set=deploymentName=$HELM_RELEASE \
         --set=serviceName=$HELM_RELEASE \
         --set=ingressName=$HELM_RELEASE \
         --set=host=$DEPLOYMENT_HOSTNAME \
         --set=namespace=$ENVIRONMENT \
-        --set=sub_path="/"$SITE_NAME \
-        --set=siteSearchEnabled=$SITE_SEARCH_ENABLED \
+        --set=ingressPaths={/about,/corr,/help,/hypertex,/labs} \
         --tiller-namespace $ENVIRONMENT \
         --namespace $ENVIRONMENT 2> /dev/null
 DEPLOY_EXIT=$?

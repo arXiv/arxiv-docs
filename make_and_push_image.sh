@@ -6,10 +6,8 @@ set -o nounset
 
 # Used to deploy
 
-export SOURCE_DIR=$1
 export LOGLEVEL=40
-export SITE_NAME=$SOURCE_DIR
-export IMAGE_NAME=arxiv/${SOURCE_DIR}
+export IMAGE_NAME=arxiv/docs
 if [ -z "${TRAVIS_TAG}" ]; then
     export SOURCE_REF=${TRAVIS_COMMIT}
 else
@@ -18,5 +16,5 @@ fi
 
 git fetch --unshallow || echo "Repository is already complete"
 docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
-make local
+docker build . -t ${IMAGE_NAME}:${SOURCE_REF} --build-arg BUILD_TIME=$(date) --build-arg VERSION=${SOURCE_REF}
 docker push ${IMAGE_NAME}:${SOURCE_REF}
