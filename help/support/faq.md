@@ -296,19 +296,19 @@ budgets.](https://confluence.cornell.edu/x/BKpRF)
 arXiv's revenue model is based upon the Economic Principles, outlined in
 the [arXiv Operating
 Principles](https://confluence.cornell.edu/download/attachments/340902451/arXivPrinciplesMarch12.pdf).
-Cornell University Library (CUL), the [Simons
+Cornell University, the [Simons
 Foundation](https://www.simonsfoundation.org/), and a global collective
 of 220+ institutional members from 25 countries support arXiv
 financially. The [financial
 model](https://confluence.cornell.edu/x/mJx0F) for 2018-22 entails four
 sources of revenues:
 
--   CUL provides a cash subsidy of $170,000 per year in support of
-    arXiv's operational costs. In addition, CUL makes an in-kind
+-   Cornell provides a cash subsidy of $170,000 per year in support of
+    arXiv's operational costs. In addition, Cornell makes an in-kind
     contribution of all indirect costs, which currently represents 37%
     of total operating expenses.
 -   The Simons Foundation contributes $100,000 per year in recognition
-    of CUL's stewardship of arXiv.
+    of Cornell's stewardship of arXiv.
 -   The Simons Foundation matches $300,000 per year of the funds
     generated through arXiv membership fees.
 -   Each member institution pledges a five-year funding commitment to
@@ -316,7 +316,7 @@ sources of revenues:
     are set in four tiers from $1,000-$4,400.
 
 In 2016, Cornell raised approximately $530,000 through membership fees
-from 200+ institutions and the total revenue (including CUL and Simons
+from 200+ institutions and the total revenue (including Cornell and Simons
 Foundation direct contributions) was around $1,046,000. For full budget
 information, please see our [current and past year
 budgets.](https://confluence.cornell.edu/x/BKpRF)
@@ -594,7 +594,7 @@ exclusive benefits in recognition of their contributions to arXiv.
 ### Why does arXiv ask for institutional IP addresses from supporting institutions?
 
 Members are openly acknowledged on the arXiv.org website, and for
-institutions that provide IP address information, CUL can customize the
+institutions that provide IP address information, Cornell can customize the
 message in the upper right of the arXiv banner to read, "We gratefully
 acknowledge support from \[member institution\]."
 
@@ -619,7 +619,7 @@ arXiv GOVERNANCE
 Computing and Information Science (CIS) at Cornell University holds the overall administrative and
 financial responsibility for arXiv's operation and development, with
 guidance from its Member Advisory Board (MAB) and its Scientific
-Advisory Board (SAB). CUL manages the moderation of submissions and user
+Advisory Board (SAB). Cornell manages the moderation of submissions and user
 support, including the development and implementation of policies and
 procedures; operates arXiv's technical infrastructure; assumes
 responsibility for archiving to ensure long-term access; oversees arXiv
@@ -656,7 +656,7 @@ is reserved for libraries, research institutions, laboratories, and
 foundations that contribute to the financial support of the service.
 Voting for representatives to the MAB is open to all eligible member
 institutions, which each hold one vote. The [MAB
-bylaws](https://confluence.cornell.edu/x/NKlRF) specify the board's
+bylaws](/about/mab_bylaws) specify the board's
 operations, including composition, member appointment methods, and term
 of office.
 
@@ -670,15 +670,15 @@ Committee or nominated by any member institution. All nominations must
 have the approval of the nominee and be submitted in writing at least 30
 days prior to the annual Meeting of the Board. For more information on
 roles and responsibilities of MAB members, please see the [MAB
-bylaws](https://confluence.cornell.edu/x/NKlRF).
+bylaws](/about/mab_bylaws).
 
 <span id="4F"></span>
 
 ### Who is on arXiv's Advisory Boards?
 
 The current roster of the [Member Advisory
-Board](https://confluence.cornell.edu/x/NqlRF) and [Scientific Advisory
-Board](/help/scientific_ad_board) are on their
+Board](/about/people/member_ad_board) and [Scientific Advisory
+Board](/about/people/scientific_ad_board) are on their
 respective websites.
 
  
