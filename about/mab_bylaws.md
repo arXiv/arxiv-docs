@@ -2,9 +2,9 @@
 
 The arXiv Bylaws were established in 2012 and may be amended, or new articles adopted, by the consensual agreement of the Board members.
 
-**Current composition of MAB: Member Advisory Board**
+## Current composition of MAB: Member Advisory Board
 
-**1. Member Advisory Board**
+## 1. Member Advisory Board
 
 1.1 Cornell University (CU) holds the overall responsibility for arXiv’s operation and development, with strategic and operational guidance from its Member Advisory Board (MAB) and its Scientific Advisory Board (SAB).
 
@@ -14,7 +14,7 @@ The arXiv Bylaws were established in 2012 and may be amended, or new articles ad
 
 1.4 MAB is elected from arXiv’s membership and serves as a consultative body.
 
-**2. MAB Membership**
+## 2. MAB Membership
 
 2.1   Board Composition
 
@@ -52,7 +52,7 @@ a) Chair. The Chair shall preside at all meetings of the Board to exercise gener
 
 b) Other Officers. Other officers elected by the Board shall have the authority prescribed to them by the Board.  
 
-**3. MAB Operation**
+## 3. MAB Operation
 
 3.1 MAB represents participating institutions’ interests and advises CU on issues related to repository management and development, standards implementation, interoperability, development priorities, business planning, and outreach and advocacy. MAB also reviews and comments on arXiv budgets proposed by CU. For agenda items that require decisions, MAB will review and comment on proposals submitted by CU and may request additional information in support of their deliberations. MAB members can propose agenda items for discussion on topics within the scope of the group’s role. Some topics will require open discussion, and some matters with action items will necessitate decision-making.
 
@@ -66,7 +66,7 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 3.6 With regard to MAB and SAB communication, Board agendas and discussion outcomes will be shared with the SAB for their review and comments. The SAB representatives in MAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
 
-**4. MAB Meetings**
+## 4. MAB Meetings
 
 4.1 Meeting Frequency
 4.1.1 Meeting dates, times, and places will be designated by the Board’s Chair. The frequency and duration of meetings will be based on agenda items and their urgency.
@@ -93,7 +93,7 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 4.3 Designating Alternates
 If an MAB member is unable to attend a meeting, he or she may designate an alternate to act as a Board member. The alternate must be an employee or officer of a Contributing or High-Contributing Organization. An alternate may attend Board meetings and will be deemed a member of the Board for all purposes for the duration of the designation. 
 
-**5. Committees**
+## 5. Committees
 
 5.1  Elections Committee
 
@@ -113,7 +113,7 @@ If an MAB member is unable to attend a meeting, he or she may designate an alter
 5.3 Vacancies and Rules
 The Board Chair may fill vacancies on committees. Each committee and task force may adopt rules for its meetings that are consistent with these Bylaws or with any rules adopted by the Board.
 
-**6. MAB Member Election**
+## 6. MAB Member Election
 
 6.1 Board members representing Contributing Organizations and High-Contributing Organizations will be selected through an election by a majority vote of the member organizations.
 
@@ -126,7 +126,7 @@ The Board Chair may fill vacancies on committees. Each committee and task force 
 They may delegate their representation to a consortium or other proxy, with the voting representation of such proxies being equal to the number of members represented.
 A High-Contributing Organization may opt to ask each member cast a vote during an election. This process needs to be coordinated by the consortia liaison and each member organization will have one vote.
 
-**7. Resignation, Removal, or Replacement of a Board Member**
+## 7. Resignation, Removal, or Replacement of a Board Member
 
 7.1 Any Board member or designated alternate may resign at any time by giving written notice to the Board. If any Board member or designated alternate ceases to be employed by or affiliated with the Contributing or High-Contributing Organization that he or she represented at the time of his or her election, that member will be deemed to have resigned from the Board. The Board vacancy created will be filled in accordance with the provisions of Clause 7.2, below. If the Contributing or High-Contributing Organization that a Board member represents ceases to be a member of arXiv, then that Board Member will be deemed to have resigned from the Board, and the Board vacancy created will be filled in accordance with the provisions of Clause 7.3, below.
 
@@ -134,11 +134,11 @@ A High-Contributing Organization may opt to ask each member cast a vote during a
 
 7.3 A vacancy on the Board not filled in accordance with the procedures for a deemed resignation (Clause 7.2) may be filled by the consensual agreement of the Board at any meeting where a quorum is present. A Board member elected to fill a vacancy will be eligible to serve full, consecutive four-year terms.
 
-**8. Annual Fees**
+## 8. Annual Fees
 
 To be considered a Contributing or High-Contributing Organization, organizations must pay annual membership fees by July 1 of each calendar year. Budgetary inability to meet a single year’s membership fees will not terminate membership, provided that the member commits to making up the deficit within an agreed upon period not to exceed two years. 
 
-**9. Amendments**
+## 9. Amendments
 
 Within the confinement of arXiv principles, these Bylaws may be amended, or new articles adopted, by the consent of two-thirds of the Voting Members of the Board then in office. Depending on the assessment of the arXiv Program Director, the changes may need to be reviewed by the SAB, Cornell’s University Librarian, or the Cornell Counsel.   
 
