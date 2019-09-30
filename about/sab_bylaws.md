@@ -2,7 +2,7 @@
 
 _Revisions adopted on 20 August 2019_
 
-**Article 1. Definitions**
+## Article 1. Definitions
 
 1.1	The name of the organization is the arXiv Scientific Advisory Board, hereinafter referred to as SAB and the Board. SAB is a consultative body advising the Cornell University, hereinafter referred to as CU.
 
@@ -10,7 +10,7 @@ _Revisions adopted on 20 August 2019_
 
 1.3	The SAB is composed of scientists and researchers in areas covered by arXiv. Among other duties, the SAB provides advice and guidance pertaining to the intellectual oversight of arXiv, with particular focus on the policies and operation of arXiv’s moderation system. The complete role of the SAB is described in the arXiv Operating Principles.
 
-**Article 2. Scientific Advisory Board Membership**
+## Article 2. Scientific Advisory Board Membership
 
 2.1	_Classes of Members_
 	The SAB shall have two classes of members: 1) Voting Members, and 2) Non-Voting Members.
@@ -45,7 +45,7 @@ b)	_Removal._  Any Voting SAB Member may be removed from the Board, with or with
 
 c)	_Vacancies._ A vacancy on the SAB shall be filled by a majority vote of the Voting Board Members then in office. The term of office of a Board member elected to fill a vacancy shall be the remaining term of the member being replaced.
 
-**Article 3. Officers**
+## Article 3. Officers
 
 3.1	_Board Officers_
 
@@ -69,7 +69,7 @@ d)	_Removal._ Any elected officer may be removed, with or without cause, by a ma
 
 e)	_Vacancies._ A vacancy in any elected office shall be filled for the unexpired term by a majority vote of the Voting Board Members then in office.
 
-**3.3	Powers and Duties**
+## 3.3	Powers and Duties
 
 a)	_Chair._ The Chair shall preside at all meetings of the Board and shall exercise general charge and supervision of the affairs of the SAB. The Chair shall see that all notices are duly given in accordance with the provisions of these Bylaws. The Chair shall facilitate open and inclusive discussion and decision making and shall attempt to state clearly the “sense of the Board” when he or she determines that all Voting Board Members are generally united in their judgment (in mutual concordance). The Chair shall perform such other duties as may be assigned by the Board.
 
@@ -91,7 +91,7 @@ In the case of the election of Board members, Board Chair, or Board officers, a 
 
 4.3	_SAB and MAB communication._ The Board meeting agendas and minutes will be shared with the MAB for their review and comments. The MAB representatives on the SAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
 
-**Article 5. Meetings.**
+## Article 5. Meetings
 
 5.1	_Annual Meeting._ The Annual Meeting of the SAB shall be held at a date, time, and place designated by the Board’s Chair. Notice of the date, time, and place of the Annual Meeting shall be given to all Board members in such form as the Board may determine.
 
@@ -113,7 +113,7 @@ In the case of the election of Board members, Board Chair, or Board officers, a 
 
 5.10	_Travel Support._ For Board members who need assistance with their travel expenses to attend in-person meetings, CU will reimburse applicable travel expenses up to a cap communicated to Board members prior to every meeting.
 
-**Article 6. Committees**
+## Article 6. Committees
 
 6.1	_Standing Board Committees._ The SAB may, by a resolution adopted by a decision of the Board, designate and appoint one or more committees, each consisting of two or more Board members, which committees shall have and exercise the authority of the Board. However, no committee shall have the authority to amend or repeal these Bylaws, elect or remove any officer or SAB member, or authorize the dissolution of the Board.
 
@@ -127,13 +127,13 @@ In the case of the election of Board members, Board Chair, or Board officers, a 
 
 6.6	_Vacancies and Rules._ Vacancies in the membership of committees may be filled by the SAB Chair. Each committee and task force may adopt rules for its meetings not inconsistent with these Bylaws or with any rules adopted by the SAB. Unless otherwise specified herein, all committee members shall serve at the pleasure of the Board.
 
-**Article 7. Amendments**
+## Article 7. Amendments
 
 7.1	Within the confinement of arXiv principles, these Bylaws may be amended, or new articles adopted, by the consent of two-thirds of the Voting Members of the Board then in office. Depending on the assessment of the Board Chair, the changes may need to be reviewed by the MAB or Cornell’s General Counsel.
 
 
 
-_**Document Revision History**_
+### Document Revision History
 
 2013-09-16	Initial adoption of bylaws
 
