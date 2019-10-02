@@ -34,7 +34,7 @@
     
     In addition, it is impossible to distinguish between actual reading
     and browsing or other spurious requests. For example, many
-    author use these papers as a substitute for memory --
+    authors use these papers as a substitute for memory --
     i.e. they know a paper with a particular equation, so get it just
     for that equation (should that count as reading?).
     
