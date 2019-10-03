@@ -7,4 +7,4 @@ Operations are maintained by the arXiv Leadership Team and arXiv staff at Cornel
 The arXiv team, consisting of the [arXiv Leadership Team](/people/leadership_team) and arXiv staff, is responsible for the operations and sustainability of arXiv.
 
 ![Image of organizational chart of arXiv team](images/arxiv_org_chart.jpeg)
-![Image of roles and responsibilities of arXiv team](images/arxiv_roles-respons.jpeg)
+![Image of roles and responsibilities of arXiv team](images/arxiv_roles-respns.jpeg)
