@@ -9,7 +9,7 @@ system. The Board is governed by
 [bylaws](/about/arXiv_SAB_bylaws.pdf) that detail its duties,
 composition, and operation as well as the election of its members.
 
-Current Board members are:
+## Current Board Members
 
 -   Eberhard Bodenschatz, Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
 -   Ralf Bundschuh, Professor of Physics and Biochemistry, Ohio State
