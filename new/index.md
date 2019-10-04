@@ -7,6 +7,33 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+#### October 2019
+<span id="SomeDate"><!-- fix me before deployment!--></span>
+
+DD October 2019
+
+
+**November Holiday Schedule:** The mailings and the public availability of new submissions will be deferred
+for 28 November 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide 
+limited service in response to queries during this period.
+
+- Articles received at or after 14:00 ET Wednesday, 27 November 2019 and before 14:00 ET Friday, 29 November 2019
+ will be announced at 20:00 ET Sunday, 1 December 2019. 
+   - **Note:** that these submissions will receive `arXiv:1912.NNNNN` identifiers.
+
+**December Holiday Schedule** The mailings and the public availability of new submissions will be deferred for 
+25 December, 26 December, and 30 December 2019, as well as 1 January 2020. The arXiv servers will otherwise remain 
+in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
+
+- Articles received at or after 14:00 ET Tuesday, 24 December 2019 and before 14:00 ET Friday, 27 December 2019 
+  will be announced at 20:00 ET Sunday, 29 December 2019.
+- Articles received at or after 14:00 ET Friday, 27 December 2019 and before 14:00 ET Tuesday, 31 December 2019 
+  will be announced at 20:00 ET Tuesday, 31 December 2019.
+- Articles received at or after 14:00 ET Tuesday, 31 December 2018 and before 14:00 ET Thursday, 2 January 2020
+  will be announced at 20:00 ET 2 January 2020.
+  -  *Note:* articles submitted at or after 14:00 ET Tuesday, 31 December 2019 will receive arXiv:2001.nnnnn identifiers.
+
+
 #### September 2019
 <span id="sep23_2019"></span>
 23 September 2019
