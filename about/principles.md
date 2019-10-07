@@ -28,12 +28,13 @@ practices.
 
 ## 2. Governance Principles
 
-Role of Cornell University Library
+### 2. Role of Cornell University
+
 2.1. CUL holds the overall responsibility for arXiv’s operation and development, with strategic
 and operational guidance from its Member Advisory Board (MAB) and its Scientific
 Advisory Board (SAB).
 
-2.2. Cornell University Library:
+2.2. Cornell University:
 
 2.2.a. Manages the moderation of submissions and user support, including the development
 and implementation of policies and procedures;
@@ -42,64 +43,62 @@ and implementation of policies and procedures;
 implementation, and development initiatives for incorporating new features and
 services.
 
-2.2.c.Coordinates and facilitates the meetings and deliberations of Member and Scientific
+2.2.c. Coordinates and facilitates the meetings and deliberations of Member and Scientific
 Advisory boards.
 
-2.2.d.Provides interfaces and data access to support open reuse of arXiv data.
-2.2.e.Assumes responsibility for archiving to ensure long-term access and maintains arXiv
+2.2.d. Provides interfaces and data access to support open reuse of arXiv data.
+
+2.2.e. Assumes responsibility for archiving to ensure long-term access and maintains arXiv
 mirror sites.
 
 2.2.f. Establishes and maintains collaborations with related initiatives to improve services
 for the scientific community through interoperability and through sharing tools and
 software.
 
-2.2.g.Administers the arXiv membership program and assumes ultimate financial
+2.2.g. Administers the arXiv membership program and assumes ultimate financial
 responsibility for running arXiv.
 
-2.2.h.Maintains a transparent and open communication strategy to engage and inform
+2.2.h. Maintains a transparent and open communication strategy to engage and inform
 arXiv’s key stakeholders.
 
 2.2.i. Bears responsibility for developing a succession plan in the event it can no longer host
 the service.
 
-## 3. Role of the Member Advisory Board
+### 3. Role of the Member Advisory Board
 
-3.1.A Member Advisory Board is elected from arXiv’s membership and serves as a consultative
+3.1. A Member Advisory Board is elected from arXiv’s membership and serves as a consultative
 body.
 
-3.2.The board represents participating institutions’ interests and advises CUL on issues related to
+3.2. The board represents participating institutions’ interests and advises CUL on issues related to
 repository management and development, standards implementation, interoperability,
 development priorities, business planning, and outreach and advocacy.
 
-3.3.Membership in arXiv and representation on the MAB is reserved for libraries, research
+3.3. Membership in arXiv and representation on the MAB is reserved for libraries, research
 institutions, laboratories, and foundations that contribute to the financial support of the
 service.
 
-3.4.Voting for representatives to the MAB is open to all eligible member institutions, each of
+3.4. Voting for representatives to the MAB is open to all eligible member institutions, each of
 which shall have one vote. Member institutions may delegate their representation to a
-consortium or other proxy,1 with the voting representation of such proxies being equal to the
+consortium or other proxy<sup>1</sup> with the voting representation of such proxies being equal to the
 number of members represented.
 
-3.5.The MAB is chaired by the arXiv Program Director from CUL and includes two members of
+3.5. The MAB is chaired by the arXiv Program Director from CUL and includes two members of
 the Scientific Advisory Board as non-voting ex officio members. The CUL IT and usersupport leads attend meetings as non-voting members to participate in discussions and
 provide background information.
 
-3.6.The MAB reviews and comments on arXiv budgets proposed by CUL.
+3.6. The MAB reviews and comments on arXiv budgets proposed by CUL.
 
- 1 Funders may make their payment of membership fees for individual institutions conditional on those institutions
-designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
+### 4. Role of the Scientific Advisory Board
 
-4.Role of the Scientific Advisory Board
-
-4.1.The Scientific Advisory Board is composed of scientists and researchers in areas covered by
-arXiv. Chairs of subject Advisory Committees serve as ex officio members of the board. The
+4.1. The Scientific Advisory Board is composed of scientists and researchers in areas covered by
+arXiv. Chairs of subject Advisory Committees serve as _ex officio_ members of the board. The
 selection process for the remaining members will be delineated in arXiv board bylaws.
 
-4.2.The SAB selects a Chair from among its members. The Chair works with the arXiv director
+4.2. The SAB selects a Chair from among its members. The Chair works with the arXiv director
 of user support to coordinate SAB activities. The roles of the Chair and the arXiv director of
 user support, with respect to the SAB, will be specified in arXiv board bylaws.
 
-4.3.The SAB:
+4.3. The SAB:
 
 4.3.a. Provides advice and guidance pertaining to the intellectual oversight of arXiv, with
 particular focus on the policies and operation of arXiv's moderation system.
@@ -116,64 +115,63 @@ proposals for such domains.
 about improvements to the systems that support submission and moderation
 processing.
 
-4.4.Two members of the MAB serve as non-voting ex officio members of the SAB.
+4.4. Two members of the MAB serve as non-voting ex officio members of the SAB.
 
-4.5.The CUL IT and user support leads attend SAB meetings as non-voting members to
+4.5. The CU IT and user support leads attend SAB meetings as non-voting members to
 participate in discussions and provide background information.
 
-## 5.General Governance Principles
+## 5. General Governance Principles
 
-5.1.To ensure transparency and accountability, arXiv provides annual operational and financial
+5.1. To ensure transparency and accountability, arXiv provides annual operational and financial
 reports to member institutions.
 
-5.2.The SAB and the MAB operate in parallel, complementing each other and providing
-essential input for CUL.
-2
- To this end, the SAB appoints two members to serve as non-voting
-ex officio members of the MAB; the MAB appoints two members to serve as non-voting ex
-officio members of the SAB.
+5.2. The SAB and the MAB operate in parallel, complementing each other and providing
+essential input for CU<sup>2</sup>. To this end, the SAB appoints two members to serve as non-voting
+_ex officio_ members of the MAB; the MAB appoints two members to serve as non-voting _ex
+officio_ members of the SAB.
 
-5.3.Members acknowledge that the host institution’s legal obligations and fiduciary
-responsibilities place practical constraints on the formal governance structure and terms.
-
- 2 Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
-Advisory Board will be articulated in the groups’ bylaws (to be developed). 
-Within these constraints, arXiv is committed to adhering to the stated governance principles,
+5.3. Members acknowledge that the host institution’s legal obligations and fiduciary
+responsibilities place practical constraints on the formal governance structure and terms. Within these constraints, arXiv is committed to adhering to the stated governance principles,
 and to review periodically these principles.
 
-## 6.Economic Principles
+## 6. Economic Principles
 
-6.1.arXiv is supported financially by Cornell University Library and a global collective of
+6.1. arXiv is supported financially by Cornell University Library and a global collective of
 institutional members, potentially supplemented by foundation grants.
 
-6.2.CUL has committed to contribute a cash subsidy of $75,000 per year in support of arXiv’s
+6.2. CU has committed to contribute a cash subsidy of $75,000 per year in support of arXiv’s
 operational costs and an in-kind contribution of all indirect costs, which currently represents
-37% of total arXiv operating costs.3
+37% of total arXiv operating costs<sup>3</sup>.
 
-6.3.Each member institution pledges a five-year initial funding commitment to support arXiv.4
+6.3. Each member institution pledges a five-year initial funding commitment to support arXiv<sup>4</sup>. Membership fees may be adjusted annually to ensure that arXiv is sustained at an acceptable level of service, as determined by Cornell University in consultation with the MAB and the SAB.
 
+6.4. Membership fees are equitable and based on an explicit fee structure.
 
-Membership fees may be adjusted annually to ensure that arXiv is sustained at an acceptable
-level of service, as determined by Cornell University in consultation with the MAB and the
-SAB.
-
-6.4.Membership fees are equitable and based on an explicit fee structure.
-
-6.5.Board proposals to CUL for service upgrades or development projects that require
+6.5. Board proposals to CUL for service upgrades or development projects that require
 supplemental funding (that is, costs additional to the costs incurred for operating and
 maintaining the service) must identify the source of such funding prior to the upgrade being
 implemented.
 
-6.6.Any fees for value-added services will be set at a level sufficient to recover the cost of
+6.6. Any fees for value-added services will be set at a level sufficient to recover the cost of
 providing the service and to contribute to arXiv operating costs. Supplemental services need
 to be provided on transparent and non-discriminatory terms, avoiding exclusive partnerships.
 
-6.7.After a successful initial membership offering, if members’ financial support falls below the
+6.7. After a successful initial membership offering, if members’ financial support falls below the
 level Cornell deems adequate to maintain arXiv at an acceptable level of quality, reserve
 funds will be used for two years to allow time for Cornell to secure sufficient funding
 support. Failure to do so may result in the development of an exit strategy, including the
 transition of arXiv to another institution.
 
-Revisions:
-minor reformatting on July 10, 2012, oyr
-deleted a footnote on October 1, 2012, oyr
+<sup>1</sup>Funders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
+
+<sup>2</sup>Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
+Advisory Board will be articulated in the groups’ bylaws (to be developed). 
+
+<sup>3</sup>CUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building. 
+
+<sup>4</sup>See the arXiv Membership Program section about the specifics of the five-year commitment. 
+
+_Revisions:_
+minor reformatting on July 10, 2012, OYR
+
+deleted a footnote on October 1, 2012, OYR
