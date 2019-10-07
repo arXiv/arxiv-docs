@@ -17,7 +17,7 @@ arXiv’s sustainability planning creates a broad-based, community-supported res
 ## Expenses and Revenue Sources
 
 
-| **REVENUE**        | **2019 BUDGET**          |  |  **CY19 PROJECTIONS** |
+| **REVENUE**        |    | **2019 BUDGET**        |  **CY19 PROJECTIONS** |
 | :------------- | :---------- |:-------------:| -----:|
 | Member Contributions      |  | $550,000 | $551,625 |
 | Simons Foundation Annual Commitment      |  | $100,000      |   $100,000 |
@@ -25,7 +25,7 @@ arXiv’s sustainability planning creates a broad-based, community-supported res
 | Cornell University (Direct + Leadership) |  | $170,000  | $138,179 |
 | Heising-Simons Foundation  |  | $161,000  | $121,400 |
 | Gifts |  | $120,000  | $180,000  |
-| Funding from Development Reserves |  | $100,000   | $95,238  |
+| Funding from Development Reserves<sup>1</sup> |  | $100,000   | $95,238  |
 |  **Total Revenue** |  | **$1,501,000**   | **$1,486,442**   |
 |  **EXPENSES**  |   |   |  |
 |  PERSONNEL|   |  SALARY & BENEFITS  | SALARY & BENEFITS |
@@ -40,12 +40,14 @@ arXiv’s sustainability planning creates a broad-based, community-supported res
 | Subtotal Non-Personnel |   | $135,000 | $129,336 |
 | **Total Direct Expenses** |  | **$1,494,396** | **$1,486,442** |
 | **CONTRIBUTED INDIRECT EXPENSES** |  |  |  |
-|Contributed Indirect expenses by Cornell (37% of Modified total direct costs) |   | $552,927 | $549,984 |
+|Contributed Indirect expenses by Cornell (37% of Modified total direct costs)<sup>2</sup> |   | $552,927 | $549,984 |
 | Heising-Simons Foundation (15% of Foundations program support) |   |  | $18,210 |
-|Substotal Indirect Costs |  | $552,927 | $568,194 |
-|**TOTAL EXPENSES (DIRECT + INDIRECT) |  | $2,047,323 |  $2,054,636** |
+|**Subtotal Indirect Costs** |  | **$552,927** | **$568,194** |
+|**TOTAL EXPENSES (DIRECT + INDIRECT)** |  | **$2,047,323** |  **$2,054,636** |
 | **RESERVE BALANCE** |  |  |  |
 |Operating Reserves |  | $300,000 | $300,000 |
 |Development Reserves |  | $929,231 | $833,993 |
 
-Indirect costs covered by Cornell include those for Administration, Staff Support (Finance/Budget, HR, Facility, and Staff IT), Facilities (utility and other facility related cost for building), maintenance, custodial, utility and other facility related costs for the building.
+<sup>1</sup> Anticipated drawing of funds from developmental reserves.
+
+<sup>2</sup> Indirect costs covered by Cornell include those for Administration, Staff Support (Finance/Budget, HR, Facility, and Staff IT), Facilities (utility and other facility related cost for building), maintenance, custodial, utility and other facility related costs for the building.
