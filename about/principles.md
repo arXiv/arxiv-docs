@@ -162,6 +162,7 @@ funds will be used for two years to allow time for Cornell to secure sufficient 
 support. Failure to do so may result in the development of an exit strategy, including the
 transition of arXiv to another institution.
 
+***
 <sup>1</sup>Funders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
 
 <sup>2</sup>Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
@@ -171,7 +172,9 @@ Advisory Board will be articulated in the groups’ bylaws (to be developed).
 
 <sup>4</sup>See the arXiv Membership Program section about the specifics of the five-year commitment. 
 
+***
 _Revisions:_
+
 minor reformatting on July 10, 2012, OYR
 
 deleted a footnote on October 1, 2012, OYR
