@@ -9,8 +9,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## General Information
 
-- [arXiv Support and Governance Model](/help/support)
-    - Our [Public Wiki](https://confluence.cornell.edu/x/m4NRF) has more detailed information about our support and governance model
+- [arXiv Governance and Business](/about/governance)
 
 
 ## News
