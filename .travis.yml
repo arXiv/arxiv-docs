@@ -16,36 +16,8 @@ deploy:
 # name.
 - provider: script
   script:
-    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
-    SITE_SEARCH_ENABLED=1 ./deploy.sh marxdown development help
-  on:
-    all_branches: true
-    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
-- provider: script
-  script:
-    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development corr
-  on:
-    all_branches: true
-    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
-- provider: script
-  script:
-    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development hypertex
-  on:
-    all_branches: true
-    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
-- provider: script
-  script:
-    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development about
-  on:
-    all_branches: true
-    condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
-- provider: script
-  script:
-    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development labs
+    ./make_and_push_image.sh &&
+    ./deploy.sh marxdown development
   on:
     all_branches: true
     condition: $TRAVIS_BRANCH != master && $TRAVIS_BRANCH != develop
@@ -53,32 +25,8 @@ deploy:
 # Deploy tagged commits to staging.
 - provider: script
   script:
-    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
-    SITE_SEARCH_ENABLED=1 ./deploy.sh marxdown staging help
-  on:
-    tags: true
-- provider: script
-  script:
-    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown staging corr
-  on:
-    tags: true
-- provider: script
-  script:
-    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown staging hypertex
-  on:
-    tags: true
-- provider: script
-  script:
-    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown staging about
-  on:
-    tags: true
-- provider: script
-  script:
-    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown staging labs
+    ./make_and_push_image.sh &&
+    ./deploy.sh marxdown staging
   on:
     tags: true
 
@@ -86,33 +34,7 @@ deploy:
 # Deploy the develop branch to development.
 - provider: script
   script:
-    SITE_HUMAN_NAME="arXiv Help Pages" SITE_HUMAN_SHORT_NAME=Help SITE_SEARCH_ENABLED=1 ./make_and_push_image.sh help &&
-    SITE_SEARCH_ENABLED=1 ./deploy.sh marxdown development help
+    ./make_and_push_image.sh &&
+    ./deploy.sh marxdown development
   on:
     branch: development
-- provider: script
-  script:
-    SITE_HUMAN_NAME="Computing Research Repository" SITE_HUMAN_SHORT_NAME=CoRR SITE_SEARCH_ENABLED=0 ./make_and_push_image.sh corr &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development corr
-  on:
-    branch: develop
-
-- provider: script
-  script:
-    SITE_HUMAN_NAME="HyperTeX Documentation" SITE_HUMAN_SHORT_NAME=HyperTeX ./make_and_push_image.sh hypertex &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development hypertex
-  on:
-    branch: develop
-
-- provider: script
-  script:
-    SITE_HUMAN_NAME="About arXiv" SITE_HUMAN_SHORT_NAME=About ./make_and_push_image.sh about &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development about
-  on:
-    branch: develop
-- provider: script
-  script:
-    SITE_HUMAN_NAME="arXiv Labs" SITE_HUMAN_SHORT_NAME=Labs ./make_and_push_image.sh labs &&
-    SITE_SEARCH_ENABLED=0 ./deploy.sh marxdown development labs
-  on:
-    branch: develop

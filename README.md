@@ -71,50 +71,31 @@ template: mysite/custom.html
 
 ### Building a local site with Docker
 
-You can use the ``Makefile`` in the root of this repo to build a site.
-
 You'll need [Docker](https://www.docker.com/products/docker-desktop) to do
 this.
 
-To build a site from a local directory, you can do something like:
+To build the arXiv docs site, run:
 
 ```bash
-make local SOURCE_REF=0.1 SOURCE_DIR=/path/to/my/site SITE_NAME=mysite IMAGE_NAME=arxiv/mysite
+docker build . -t arxiv/docs:mytag
 ```
-
-Note that as each folder in the root directory is served separately SOURCE_DIR
-needs to include the specific folder (ex 'help', 'about').
 
 You should see lots of things happening, and maybe this will take a few minutes
 if you have a big site. At the end, you should see something like:
 
 ```bash
 Successfully built 297b169df71f
-Successfully tagged arxiv/mysite:0.1
+Successfully tagged arxiv/docs:mytag
 ```
-
-Note that the tag is `${IMAGE_NAME}:${SOURCE_REF}``.
 
 You can then run the site by doing:
 
 ```bash
-docker run -it -p 8000:8000 arxiv/mysite:0.1
+docker run -it -p 8000:8000 arxiv/docs:mytag
 ```
 
-In your browser, go to http://localhost:8000/mysite (or whatever
-page you want). Note http://localhost:8000 is what works in Ubuntu.
-
-### Configuration
-
-| Parameter | Used in Build | Used at Runtime | Description |
-| --- | :---: | :---: | --- |
-| SITE_NAME | Yes | Yes | Name of the site, used for building links. Must be lowercase alphanumeric. |
-| SOURCE_PATH | Yes | No | Path to the markdown source directory for the site. |
-| BUILD_PATH | Yes | Yes | Path where the built site is/should be stored. |
-| SITE_HUMAN_NAME | No | Yes | Human-readable name of the site. |
-| SITE_URL_PREFIX | No | Yes | Path where the site should be served. Must start with ``/`` (default: ``/``). |
-| SITE_SEARCH_ENABLED | Yes | Yes | If set to 0, the search feature is excluded (default: 1). |
-
+In your browser, go to http://localhost:8000/about (or whatever
+page you want).
 
 ## Search
 
@@ -151,3 +132,28 @@ response:
   location: the/new/location
 ---
 ```
+
+
+## Deployment & configuration
+
+As of marXdown 0.2.1, multiple sites can be served in the same uWSGI process,
+and therefore in a single Docker container with a single entrypoint. This
+saves a lot of resources on overhead, especially for low-traffic sites.
+
+Since marXdown relies heavily on start-up configuration, however, the trade-off
+is that (a) we need to use configuration files to keep configs separate for
+each app rather than using environment variables, and (b) that means we need to
+be able to define the Flask "instance path" at app creation time (i.e. before
+configuration) which means that we need a custom WSGI entrypoint for each app.
+
+Places where relevant paths and parameters are defined:
+
+- ``deploy/[site]/wsgi.py`` is the custom WSGI entrypoint for the site/app.
+  This gets added at ``/opt/arxiv/[site]/wsgi.py`` in the Docker image.
+- ``deploy/[site]/instance/application.cfg`` is a Python script with config
+  parameters. This gets added at ``/opt/arxiv/[site]/instance/application.cfg``
+  in the Docker image.
+- ``Dockerfile`` is where all of the above gets added to the Docker image, and
+  the build script for each site/app is invoked.
+
+We use the ``arxiv/marxdown`` Helm chart to deploy to Kubernetes. See
