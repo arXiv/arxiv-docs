@@ -1,5 +1,5 @@
 # Our Members
-We gratefully acknowledge the support of the following 239 member institutions.
+We gratefully acknowledge the support of the following 242 member institutions.
 Learn more about [membership](/about/membership).
 
 ## Platinum Members
@@ -226,6 +226,8 @@ Radboud University (Netherlands)
 Stockholm University (Sweden) 
 
 Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
+
+TU Wien (Austria)
 
 Universität Basel (Switzerland) 
 
