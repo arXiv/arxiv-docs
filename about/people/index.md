@@ -4,9 +4,30 @@ slug: People
 
 # Who We Are
 
-arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by a small team of staff at Cornell University.
+arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by our staff at Cornell University.
 
-For more information about who is arXiv please see:
+
+
+Amanda Bartley, arXiv Administrator
+
+Shamsi Brinn, arXiv User Experience Specialist
+
+Brian Caruso, Senior arXiv Developer
+
+David Fielding, Senior arXiv Developer
+
+Janelle Morano, Community Engagement and Development Coordinator
+
+Jim Entwood, Interim Executive Director and Operations Manager
+
+Martin Lessmeister, IT Lead
+
+Rebecca Goldweber, Associate arXiv Administrator
+
+Jake Weiskoff, Senior arXiv Administrator
+
+
+## For more information about who is arXiv:
 
 - [Staff Leadership Team](leadership_team)
 - [Moderators](/moderators/)
