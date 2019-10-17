@@ -34,4 +34,4 @@ Jake Weiskoff, Senior arXiv Administrator
 - [Volunteer Developers](developers)
 - [Scientific Advisory Board and Subject Advisory Committees](/about/scientific_ad_board)
 - [Member Advisory Board](/about/member_ad_board)
-- [Org Chart](/about/governance)
+- [Organizational Chart](/about/governance)
