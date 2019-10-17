@@ -14,8 +14,8 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## News
 
-- [2018 Annual Report](https://confluence.cornell.edu/x/rIzLFQ)
-- [2019 Roadmap](https://confluence.cornell.edu/x/WJfLFQ)
+- [2018 Annual Report](/about/annualreport)
+- [2019 Roadmap](/about/2019roadmap)
 - [Usage Stats](/help/stats)
 - [News and Announcements](/new)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
@@ -32,8 +32,9 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## Who We Are
 
+- [Who We Are](/people)
 - [Leadership Team](people/leadership_team)
-- [Scientific Advisory Board](/help/scientific_ad_board)
+- [Scientific Advisory Board](/people/scientific_ad_board)
 - [Member Advisory Board](/people/member_ad_board)
 - [Technical Advisory Group](/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
