@@ -62,10 +62,10 @@ arXiv relies on a wide network of individual scientists who contribute their exp
 
 Oya Y. Rieger (Program Director), Steinn Sigurdsson (Scientific Director), Jim Entwood (Operations Manager), Martin Lessmeister (IT Lead), Janelle Morano (Community Engagement & Development), Erick Peirson (Lead Software Architect)
 
-**Website**: arXiv Public Wiki
+**Website**: [arXiv Public Wiki](https://confluence.cornell.edu/display/arxivpub/arXiv+Public+Wiki)
 
 **Contact email**:  support@arXiv.org 
 
-**Twitter**: @arXiv
+**Twitter**: [@arXiv](https://twitter.com/arxiv)
 
-**Updates**: If you are interested in getting updates from the arXiv team and have not yet signed up for the mailing list, send an email message to:  arxiv-support-updates-L-request@cornell.edu . Leave the subject line blank and the body of the message should be a single word: join
+**Updates**: If you are interested in getting updates from the arXiv team and have not yet signed up for the mailing list, send an email message to:  arxiv-support-updates-L-request@cornell.edu. Leave the subject line blank and the body of the message should be a single word: join
