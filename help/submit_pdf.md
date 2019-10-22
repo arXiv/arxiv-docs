@@ -57,7 +57,7 @@ suggest other free tools that are better.)
 <span id="readable"></span>PDF must be machine readable 
 -------------------------------------------------------
 
-arXiv relies on our submitters to provide PDF which would be **machine readable**
+arXiv relies on our submitters to provide PDF which are **machine readable**
 i.e. that the PDF is not encrypted, bitmapped, or otherwise altered to prevent
 text extraction. Providing a machine readable PDF facilitates *discovery and access*. 
 This means that we can build tools around your work to provide
