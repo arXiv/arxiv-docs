@@ -104,8 +104,8 @@ that category would be the main audience, that category should be
 primary. Examples include applications to computer vision (cs.CV),
 natural language processing (cs.CL), speech recognition (eess.AS),
 information retrieval (cs.IR; includes document classification and
-topic modeling), crowdsourcing (cs.HC), quantitative finance (Q-FIN),
-and quantitative biology (Q-BIO). Papers discussing the foundations of
+topic modeling), crowdsourcing (cs.HC), quantitative finance ([q-fin](/archive/q-fin)),
+and quantitative biology ([q-bio](/archive/q-bio)). Papers discussing the foundations of
 neural network architectures (activation functions, spiking neurons,
 etc.) should list cs.NE as primary, as should papers applying
 biologically-inspired optimization techniques such as evolutionary
