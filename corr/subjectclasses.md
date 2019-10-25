@@ -92,8 +92,30 @@ Covers theoretical and experimental aspects of information theory and coding. In
 
 **[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich, Sebastian Raschka and Luis Lamb
 
-Papers on all aspects of machine learning research (supervised, unsupervised, reinforcement learning, bandit problems, and so on) including also robustness, explanation, fairness, and methodology. cs.LG is also an appropriate primary category for applications of machine learning methods.
+Papers on all aspects of machine learning research (supervised,
+unsupervised, reinforcement learning, bandit problems, and so on)
+including also robustness, explanation, fairness, and
+methodology. cs.LG is also an appropriate primary category for
+applications of machine learning methods. 
 
+*Relationship to other categories*: If the primary domain of the
+application is available as another category in arXiv and readers of
+that category would be the main audience, that category should be
+primary. Examples include applications to computer vision (cs.CV),
+natural language processing (cs.CL), speech recognition (eess.AS),
+information retrieval (cs.IR; includes document classification and
+topic modeling), crowdsourcing (cs.HC), quantitative finance ([q-fin](/archive/q-fin)),
+and quantitative biology ([q-bio](/archive/q-bio)). Papers discussing the foundations of
+neural network architectures (activation functions, spiking neurons,
+etc.) should list cs.NE as primary, as should papers applying
+biologically-inspired optimization techniques such as evolutionary
+methods. Papers working with the properties of specific signal types
+(e.g., sound, EEG, hyperspectral, ultrasound) should consider cs.SD
+(sound, including music), eess.IV (images and video), or eess.SP as
+primary. cs.LG is not appropriate for papers studying human learning
+such as computer-aided instruction, where cs.CY is a better
+fit. Papers categorized with cs.LG as primary are automatically
+cross-listed as stat.ML and vice versa.
 
 **[LO - Logic in Computer Science](/list/cs.LO/recent)** - Gopalan Nadathur
 
