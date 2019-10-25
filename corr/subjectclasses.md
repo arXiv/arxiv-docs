@@ -96,8 +96,7 @@ Papers on all aspects of machine learning research (supervised,
 unsupervised, reinforcement learning, bandit problems, and so on)
 including also robustness, explanation, fairness, and
 methodology. CS.LG is also an appropriate primary category for
-applications of machine learning methods.
-**Relationship to other categories**: If the primary domain of the
+applications of machine learning methods. Relationship to other categories: If the primary domain of the
 application is available as another category in arXiv and readers of
 that category would be the main audience, that category should be
 primary. Examples include applications to computer vision (cs.CV),
