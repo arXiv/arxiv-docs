@@ -8,9 +8,9 @@ What's been New on the [arXiv.org](/) e-print archives
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
 #### October 2019
-<span id="SomeDate"><!-- fix me before deployment!--></span>
+<span id="2019Oct31"></span>
 
-DD October 2019
+31 October 2019
 
 
 **November Holiday Schedule:** The mailings and the public availability of new submissions will be deferred
