@@ -100,7 +100,7 @@ If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0
 
 Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](/help/faq/references) and [collection of references at INSPIRE](http://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
 
-If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [https://arxiv.org/hypertex/bibstyles](/hypertex/bibstyles)).
+If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](/help/hypertex/bibstyles)).
 
 If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file.
 
