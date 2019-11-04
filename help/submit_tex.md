@@ -13,6 +13,7 @@ Considerations for TeX Submissions
 *   [Supplemental material](#autoignore)
 *   [Avoid mistakes in the text](#mistakes)
 *   [Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls](#jhep3)
+*   [Hidden files will be deleted upon announcement](#hidden)
 
 * * *
 <span id="autoproc"></span>
