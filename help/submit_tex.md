@@ -183,3 +183,9 @@ define:
 > ``\bgroup\catcode`\#=12\gdef\hash{#}\egroup \newcommand{\link}[2]{\href{http://example.com/some-page.html\hash #1}{#2}``
 
 instead.
+
+<span id="hidden"></span>
+
+### Hidden files will be deleted upon announcement
+
+Please do not use hidden files or directories in your source package. These hidden files (i.e. files or directories beginning with a period character, such as `.cache/`) will be deleted upon announcement, but *may* work at _Process_ step in arXiv. The rationale being that such files may cruft from version control systems, etc. and should not be a part of an archival version of your source. This means that any packages that allow for or rely upon these structures (e.g. `minted.sty`) may function on your machine, but will fail once announced. 
