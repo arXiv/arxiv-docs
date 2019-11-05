@@ -2,9 +2,7 @@
 
 arXiv’s sustainability planning creates a broad-based, community-supported resource, ensuring that the ultimate responsibility for sustaining arXiv remains with the research communities and institutions that benefit from the service most directly. arXiv’s sources of revenue are from 1) Cornell University, which provides a cash subsidy in support of arXiv’s operational costs and an in-kind contribution of all indirect costs, which currently represents 37% of total operating expenses, 2) The Simons Foundation, 3) [member institutions](about/membership), 4) [gifts](/about/give), and 5) grants from foundations and agencies.
 
-## Annual Reports
-
-2018 Annual Report
+[2018 Annual Report](/about/reports/2018report)
 
 ## Expenses and Revenue Sources
 arXiv maintains an operating **Reserve Fund** to support one-time program enhancement costs, unforeseen expenses and ensure a sound business model. The reserve funds are structured in two categories of expenses: Operating Funds & Development Funds. Operating Funds can be used to cover short-term revenue shortages, emergencies expenses (e.g., equipment failure) support arXiv closing and transitioning the service to another institution. Development Funds can be used for special projects that the arXiv team develops, proposes and considers funding with SAB and MAB.
@@ -46,5 +44,5 @@ arXiv maintains an operating **Reserve Fund** to support one-time program enhanc
 
 <sup>2</sup> Indirect costs covered by Cornell include those for Administration, Staff Support (Finance/Budget, HR, Facility, and Staff IT), Facilities (utility and other facility related cost for building), maintenance, custodial, utility and other facility related costs for the building.
 
-## All Reports and Financials
+## [All Reports and Financials](/about/reports/index)
 
