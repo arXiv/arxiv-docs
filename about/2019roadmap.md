@@ -1,6 +1,6 @@
 # 2019 Roadmap
 
-The arXiv roadmap is a living document for the arXiv team to communicate our annual priorities to the community. Items are listed in approximate priority order, and are subject to change based upon consideration of input from the arXiv advisory boards and other stakeholders, assessment of new opportunities and initiatives as they arise, and progress on next generation arXiv development.
+The arXiv roadmap is a living document for the arXiv team to communicate our annual priorities and aspirations to the community. Items are listed in approximate priority order, and are subject to change based upon consideration of input from the arXiv advisory boards and other stakeholders, assessment of new opportunities and initiatives as they arise, and progress on next generation arXiv development. 
 
 Our overall goal of 2019 is to continue with the [Next Gen arXiv](https://confluence.cornell.edu/display/arxivpub/Next+Generation+arXiv) (arXiv- NG) development plan to migrate from the existing arXiv system (“Classic Renewal”). We aim to progressively evolve arXiv into a modern and architecturally sound software system while maintaining the level of consistency and availability of the system as a whole.  
 
