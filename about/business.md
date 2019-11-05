@@ -46,5 +46,5 @@ arXiv maintains an operating **Reserve Fund** to support one-time program enhanc
 
 <sup>2</sup> Indirect costs covered by Cornell include those for Administration, Staff Support (Finance/Budget, HR, Facility, and Staff IT), Facilities (utility and other facility related cost for building), maintenance, custodial, utility and other facility related costs for the building.
 
-##All Reports and Financials
+## All Reports and Financials
 
