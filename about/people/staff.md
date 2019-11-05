@@ -1,7 +1,9 @@
-## arXiv Staff
+# arXiv Staff
 Amanda Bartley, arXiv Administrator
 
 Shamsi Brinn, arXiv User Experience Specialist
+
+Bob Carozzoni, Associate arXiv Administrator
 
 Brian Caruso, Senior arXiv Developer
 
