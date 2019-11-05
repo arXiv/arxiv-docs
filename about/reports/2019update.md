@@ -1,4 +1,4 @@
-# arXiv Annual Report for 2018
+# arXiv Annual Update, January 2019
 
 _Published January 29, 2019_
 
