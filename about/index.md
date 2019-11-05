@@ -8,7 +8,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## News
 
-- [2018 Annual Report](/about/reports/2018report)
+- [Annual Update, January 2019](/about/reports/2019update)
 - [2019 Roadmap](/about/reports/2019roadmap)
 - [Usage Stats](/help/stats)
 - [News and Announcements](/new)
