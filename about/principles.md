@@ -2,6 +2,8 @@
 
 March 28, 2012
 
+_Note: This document has not been revised since 2012; thus, is out of date and needs be revised to reflect the current organization._
+
 ## 1. General & Editorial Principles
 
 1.1. arXiv provides an open-access repository of scientific research to authors and researchers
