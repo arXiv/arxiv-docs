@@ -6,12 +6,6 @@ Operations are maintained by the [arXiv Leadership Team](/about/people/leadershi
 
 Registered users may [submit articles](/help/submit) to be announced by arXiv. Submissions to arXiv are subject to a [moderation process](/help/moderation) that verifies material is topical to subject areas and has scholarly value. Material is not peer-reviewed by arXiv.
 
-
-## General Information
-
-- [arXiv Governance and Business](/about/governance)
-
-
 ## News
 
 - [2018 Annual Report](/about/annualreport)
@@ -39,3 +33,9 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 - [Technical Advisory Group](/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
 - [Volunteer Developers](people/developers)
+
+
+## General Information
+
+- [Governance](/about/governance)
+- [Annual Reports and Financials](/about/financials)
