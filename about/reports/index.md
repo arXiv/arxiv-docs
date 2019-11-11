@@ -47,4 +47,17 @@
 [2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
+[2019 Roadmap](/about/reports/2019roadmap)
+
+[2018 Roadmap](/about/reports/2018roadmap.pdf)
+
+[2017 Roadmap](/about/reports/2017roadmap.pdf)
+
+[2016 Roadmap](/about/reports/2016roadmap.pdf)
+
+[2015 Roadmap](/about/reports/2015roadmap.pdf)
+
+[2014 Roadmap](/about/reports/2014roadmap.pdf)
+
+[2013 Roadmap](/about/reports/2013roadmap.pdf)
 
