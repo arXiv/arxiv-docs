@@ -61,3 +61,5 @@
 
 [2013 Roadmap](/about/reports/2013roadmap.pdf)
 
+## Other Reports
+[arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
