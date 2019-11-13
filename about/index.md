@@ -26,11 +26,11 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## Who We Are
 
-- [arXiv Staff](/people/staff)
-- [Leadership Team](people/leadership_team)
-- [Scientific Advisory Board](/people/scientific_ad_board)
-- [Member Advisory Board](/people/member_ad_board)
-- [Technical Advisory Group](/people/technical_ad_group)
+- [arXiv Staff](/about/people/staff)
+- [Leadership Team](/people/leadership_team)
+- [Scientific Advisory Board](/about/people/scientific_ad_board)
+- [Member Advisory Board](/about/people/member_ad_board)
+- [Technical Advisory Group](/about/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
 - [Volunteer Developers](people/developers)
 
@@ -39,4 +39,4 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 - [Governance](/about/governance)
 - [Business Model](/about/reports-financials)
-- [Annual Reports and Financials](/about/reports/index)
+- [Annual Updates and Financials](/about/reports/index)
