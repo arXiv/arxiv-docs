@@ -29,7 +29,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 - [arXiv Staff](/about/people/staff)
 - [Leadership Team](/people/leadership_team)
 - [Scientific Advisory Board](people/scientific_ad_board)
-- [Member Advisory Board](/about/people/member_ad_board)
+- [Member Advisory Board](people/member_ad_board)
 - [Technical Advisory Group](/about/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
 - [Volunteer Developers](people/developers)
