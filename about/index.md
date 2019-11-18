@@ -26,7 +26,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## Who We Are
 
-- [arXiv Staff](/about/people/staff)
+- [arXiv Staff](people/staff)
 - [Leadership Team](/people/leadership_team)
 - [Scientific Advisory Board](people/scientific_ad_board)
 - [Member Advisory Board](people/member_ad_board)
