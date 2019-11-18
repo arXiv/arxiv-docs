@@ -39,4 +39,4 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 - [Governance](/about/governance)
 - [Business Model](/about/reports-financials)
-- [Annual Updates and Financials](/about/reports/index)
+- [Annual Updates and Financials](/about/reports)
