@@ -10,7 +10,7 @@ The IT AG is composed of a handful of experts who are actively involved in devel
 
 ## Current members
 
-- Daina Bouquin, Center for Astrophysics, Harvard University
+- Daina Bouquin, Center for Astrophysics, Harvard & Smithsonian
 - Mark Doyle, American Physical Society
 - Alberto Accomazzi, Astrophysics Data System
 - Thorsten Schwander, SLAC National Accelerator Laboratory, Stanford University
