@@ -13,6 +13,7 @@ Considerations for TeX Submissions
 *   [Supplemental material](#autoignore)
 *   [Avoid mistakes in the text](#mistakes)
 *   [Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls](#jhep3)
+*   [Hidden files will be deleted upon announcement](#hidden)
 
 * * *
 <span id="autoproc"></span>
@@ -100,7 +101,7 @@ If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0
 
 Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](/help/faq/references) and [collection of references at INSPIRE](http://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
 
-If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [https://arxiv.org/hypertex/bibstyles](/hypertex/bibstyles)).
+If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](/help/hypertex/bibstyles)).
 
 If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file.
 
@@ -183,3 +184,9 @@ define:
 > ``\bgroup\catcode`\#=12\gdef\hash{#}\egroup \newcommand{\link}[2]{\href{http://example.com/some-page.html\hash #1}{#2}``
 
 instead.
+
+<span id="hidden"></span>
+
+### Hidden files will be deleted upon announcement
+
+Please do not use hidden files or directories in your source package. These hidden files (i.e. files or directories beginning with a period character, such as `.cache/`) will be deleted upon announcement, but *may* work at the _Process_ or _Preview_ submission stages. The rationale being that such files may cruft from version control systems, etc. and should not be a part of an archival version of your source. This means that any packages that allow for or rely upon these structures (e.g. `minted.sty`) may function on your machine, but will fail once announced. 

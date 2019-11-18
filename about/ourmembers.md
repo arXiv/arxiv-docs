@@ -1,5 +1,5 @@
 # Our Members
-We gratefully acknowledge the support of the following 242 member institutions.
+We gratefully acknowledge the support of the following 243 member institutions.
 Learn more about [membership](/about/membership).
 
 ## Platinum Members
@@ -218,6 +218,8 @@ Los Alamos National Laboratory  (US)
 McGill University (Canada) 
 
 National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
+
+Niels Bohr Institute (Denmark)
 
 Ohio State University (US) _BTAA_
 
