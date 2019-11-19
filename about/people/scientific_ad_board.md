@@ -6,10 +6,10 @@ researchers in disciplines covered by arXiv. The Board provides advice
 and guidance pertaining to the repository's intellectual oversight, with
 a particular focus on the policies and operation of arXiv's moderation
 system. The Board is governed by
-[bylaws](/about/arXiv_SAB_bylaws.pdf) that detail its duties,
+[bylaws](/about/sab_bylaws) that detail its duties,
 composition, and operation as well as the election of its members.
 
-Current Board members are:
+## Current Board Members
 
 -   Eberhard Bodenschatz, Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
 -   Ralf Bundschuh, Professor of Physics and Biochemistry, Ohio State

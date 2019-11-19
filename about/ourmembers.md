@@ -229,6 +229,8 @@ Stockholm University (Sweden)
 
 Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 
+TU Wien (Austria)
+
 Universität Basel (Switzerland) 
 
 Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_ 
@@ -358,6 +360,8 @@ Hiroshima University (Japan) _NII Japan Consortium_
 IHEP, National Science Library, CAS (China) 
 
 Institute of Math Sciences (India) 
+
+Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 
 IST Austria (Austria) 
 

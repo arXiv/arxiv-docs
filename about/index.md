@@ -6,17 +6,10 @@ Operations are maintained by the [arXiv Leadership Team](/about/people/leadershi
 
 Registered users may [submit articles](/help/submit) to be announced by arXiv. Submissions to arXiv are subject to a [moderation process](/help/moderation) that verifies material is topical to subject areas and has scholarly value. Material is not peer-reviewed by arXiv.
 
-
-## General Information
-
-- [arXiv Support and Governance Model](/help/support)
-    - Our [Public Wiki](https://confluence.cornell.edu/x/m4NRF) has more detailed information about our support and governance model
-
-
 ## News
 
-- [2018 Annual Report](https://confluence.cornell.edu/x/rIzLFQ)
-- [2019 Roadmap](https://confluence.cornell.edu/x/WJfLFQ)
+- [Annual Update, January 2019](/about/reports/2019update)
+- [2019 Roadmap](/about/reports/2019roadmap)
 - [Usage Stats](/help/stats)
 - [News and Announcements](/new)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
@@ -33,8 +26,17 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## Who We Are
 
+- [arXiv Staff](people/staff)
 - [Leadership Team](people/leadership_team)
-- [Scientific Advisory Board](/help/scientific_ad_board)
+- [Scientific Advisory Board](people/scientific_ad_board)
 - [Member Advisory Board](people/member_ad_board)
+- [Technical Advisory Group](/about/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
 - [Volunteer Developers](people/developers)
+
+
+## General Information
+
+- [Governance](/about/governance)
+- [Business Model](/about/reports-financials)
+- [Annual Updates and Financials](/about/reports)

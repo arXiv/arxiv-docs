@@ -4,13 +4,14 @@ slug: People
 
 # Who We Are
 
-arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by a small team of staff at Cornell University.
+arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by our staff at Cornell University.
 
-For more information about who is arXiv please see:
+## For more information about who is arXiv:
 
-- [Staff Leadership Team](leadership_team)
+- [arXiv Leadership Team](leadership_team)
+- [arXiv staff](/about/people/staff)
 - [Moderators](/moderators/)
 - [Volunteer Developers](developers)
-- [Scientific Advisory Board and Subject Advisory Committees](/help/scientific_ad_board)
-- [Member Advisory Board](https://confluence.cornell.edu/display/arxivpub/Member+Advisory+Board)
-- [Org Chart](https://confluence.cornell.edu/download/attachments/340886427/arXiv-org-January2019.pdf?version=1&modificationDate=1546891957674&api=v2)
+- [Scientific Advisory Board and Subject Advisory Committees](/about/people/scientific_ad_board)
+- [Member Advisory Board](/about/people/member_ad_board)
+- [Organizational Chart](/about/governance)
