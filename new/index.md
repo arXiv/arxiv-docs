@@ -19,7 +19,6 @@ limited service in response to queries during this period.
 
 - Articles received at or after 14:00 ET Wednesday, 27 November 2019 and before 14:00 ET Friday, 29 November 2019
  will be announced at 20:00 ET Sunday, 1 December 2019. 
-   - **Note:** articles submitted at or after 14:00 ET Wednesday 27 November 2019 will receive `arXiv:1912.NNNNN` identifiers.
 
 **December Holiday Schedule** The mailings and the public availability of new submissions will be deferred for 
 25 December, 26 December, and 30 December 2019, as well as 1 January 2020. The arXiv servers will otherwise remain 
