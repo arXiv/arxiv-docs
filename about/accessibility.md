@@ -1,16 +1,18 @@
 Accessibility at arXiv
 ======================
 
-arXiv is committed to creating an accessible experience for the entire arXiv community. Below is our thinking behind this commitment and our roadmap for reaching and sustainably maintaining an accessible platform for all users.
+arXiv is committed to creating an accessible experience for all users. Below is our thinking behind this commitment and our roadmap for reaching and sustainably maintaining an accessible platform for the entire arXiv community.
 
-##Table of contents
+## Table of contents
+
 - [Important Terms](#terms)
 - [Accessible arXiv](#business-case)
 - [Roadmap to Accessibility](#roadmap)
 - [How the arXiv community can help](#help)
 
 <span id="terms"></span>
-##Important terms
+## Important terms
+
 **Accessibility** = The practice of making a website functional for as many people as possible, including those using assistive technologies.
 
 **ADA** = The Americans with Disabilities Act of 1990 is established federal law. It was written two years before the first website was launched, but multiple courts and the Department of Justice have clarified that the ADA does apply to the websites of &quot;covered entities&quot; such as Cornell University and arXiv.
@@ -18,7 +20,8 @@ arXiv is committed to creating an accessible experience for the entire arXiv com
 **WCAG** = The Web Content Accessibility Guidelines are developed and maintained by the W3C, who also develop international web standards for HTML, CSS, and more. The WCAG, while not law, are the most widely recognized set of guidelines to address web access for people with disabilities, and WCAG level 2.0 compliance is mandated by Cornell University.
 
 <span id="business-case"></span>
-##Accessible arXiv
+## Accessible arXiv
+
 The arXiv community is diverse in every way and includes users with visual or other impairments, those who use assistive technology, and many other factors that can affect one's ability navigate the internet. Maintaining, expanding, and improving access for all users is our prime directive and must necessarily include accessibility.
 
 The reasons for prioritizing accessibility are endless but below are the top ten we have identified for our platform and users:
@@ -34,13 +37,16 @@ The reasons for prioritizing accessibility are endless but below are the top ten
 9. Last but not least avoiding legal risk is critical to all organizations. Legal action continues to rise and New York State, where arXiv and Cornell University are based, has the highest number of website accessibility lawsuits ([ADA Title III 2018 report](https://www.adatitleiii.com/2019/01/number-of-federal-website-accessibility-lawsuits-nearly-triple-exceeding-2250-in-2018/)). Accessibility is not just a great business practice and the right thing to do, it is a legal requirement and an important protective measure.
 
 <span id="roadmap"></span>
-##Roadmap to accessibility
+## Roadmap to accessibility
+
 arXiv classic's codebase is not fully compliant with WCAG 2.0 guidelines, but we are currently making significant strides to improve browsing access for those using assistive technologies. The new arXiv NG platform is "born accessible"&mdash;built with accessibility in mind from the ground up&mdash;and deploying arXiv NG is our top accessibility goal. Accessible browsing is the initial priority of the NG platform, and accessible moderator and administrative interfaces will follow. </span>In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
 
 <span id="help"></span>
-##How the arXiv community can help
+## How the arXiv community can help
+
 A fully accessible arXiv is important, meaningful, and ambitious. Significant development resources and user testing are needed to reach our targets and the arXiv community may wish to help in the following ways:
 
 - Making user uploaded research accessible, including TeX, is an ambitious and exciting goal that benefits users of assistive technology, mobile devices, those on slow internet connections, and translation services. Learn more about how you or your team can contribute development time to making arXiv TeX research papers accessible by emailing <nextgen@arxiv.org>.
+
 - [Donate](https://arxiv.org/about/give) and support creation of an accessible arXiv.
 - Additional opportunities for contributing to cutting edge projects and for user testing volunteers and are coming soon.
