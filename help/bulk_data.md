@@ -64,7 +64,34 @@ For all articles the [processed PDF and source files are available from
 Amazon S3](bulk_data_s3.md). We recommend this method for bulk access to
 the full-text of arXiv articles.
 
-### Programmatic harvesting 
+<span id="harvest"></span>
+Custom Programmatic Harvesting 
+------------------------------
 
-As stated on our [robots](/help/robots) page, arXiv has limited server capacity and our first priority is to support
-interactive use by human users. That said, we are plainly aware that our corpus 
+As stated on our [robots](/help/robots) page, arXiv has limited server capacity 
+and our first priority is to support interactive use by human users. That said, 
+we are plainly aware that interested parties will want to make use of our corpus.
+
+### Play nice
+
+We ask that users intent on harvesting use the dedicated pages of `export.arxiv.org` 
+for these purposes. This will mitigate impact on readers who are using the site
+interactively. 
+
+There are hundreds (if not thousands) of users who want to make use of our data,
+and millions of distinct URL behind our site. If everyone were to crawl the site 
+at once without regard for a reasonable throttle, the site could be dragged down
+and unusable. For these purposes we suggest that a *reasonable rate* to be bursts
+at 4 requests per second with a 1 second `sleep` per burst.
+
+### Consider the impact
+
+arXiv already operates with limited resources, and mindlessly downloading 
+all of the urls of this site will return terabytes of data. This represents
+both a [financial burden](/about/give) to arXiv, as well as a practical 
+problem for the unwary. 
+
+*Please do not attempt to download the complete corpus programmatically.* 
+The [Amazon S3](/help/bulk_data_s3) buckets are the accepted mechanism to download 
+the complete corpus, but you are welcome to "play catch-up" programmatically.
+
