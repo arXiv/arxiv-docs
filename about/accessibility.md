@@ -48,6 +48,5 @@ arXiv classic's codebase is not fully compliant with WCAG 2.0 guidelines, but we
 A fully accessible arXiv is important, meaningful, and ambitious. Significant development resources and user testing are needed to reach our targets and the arXiv community may wish to help in the following ways:
 
 - Making user uploaded research accessible, including TeX, is an ambitious and exciting goal that benefits users of assistive technology, mobile devices, those on slow internet connections, and translation services. Learn more about how you or your team can contribute development time to making arXiv TeX research papers accessible by emailing nextgen@arxiv.org.
-
 - [Donate](https://arxiv.org/about/give) and support creation of an accessible arXiv.
 - Additional opportunities for contributing to cutting edge projects and for user testing volunteers and are coming soon.
