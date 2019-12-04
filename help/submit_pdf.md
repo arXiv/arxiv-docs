@@ -72,11 +72,11 @@ requirements.
 <span id="copyright"></span>Copyright within PDF
 ------------------------------------------------
 
-Copyright statements of the author are permitted within the pdf, however
-submissions containing journal copyright will be rejected. Copyright
+Copyright statements of the author are permitted within the pdf. Copyright
 statements which prohibit or impair arXiv's [redistribution
-license](/help/license) will also be rejected. If explicit permission is
+license](/help/license) will be rejected. If explicit permission is
 given for open access redistribution, these are permissible.
+Users should contact arXiv administrators at help@arxiv.org if they have questions.
 
 Note on IEEE submissions. Please note arXiv will currently take the
 'Accepted' IEEE version but not the 'Published' IEEE version. For more
