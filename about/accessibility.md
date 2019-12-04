@@ -35,7 +35,7 @@ The reasons for prioritizing accessibility are endless but below are the top ten
 7. arXiv's user base is international and accessibility laws in countries besides the USA will become increasingly relevant and urgent in the future. Compliance with existing guidelines and a firm commitment to clean semantic markup will limit risk for arXiv and provide the best foundation for future accessibility compliance.
 8. arXiv has an established history of being in compliance with international HTML standards. Current semantic HTML5 standards are the next logical step in maintaining a compliant codebase, and are closely linked to accessibility.
 9. Studies have shown that an [accessibility-focused development mindset leads to more innovation](https://habengirma.com/2017/09/13/people-with-disabilities-drive-innovation/) and higher levels of satisfaction for all users. When we shift our thinking away from the minimum legal compliance to focus instead on the opportunity and creative challenge of building better experiences for everyone, we create a more sustainable, user experience-oriented approach to development. Accessible thinking - which emphasizes clarity of content and meaning - has far-reaching positive impacts on the overall user experience.
-10. Last but not least avoiding legal risk is critical to all organizations. Accessibility is not just a great business practice and the right thing to do, it is a legal requirement and an important protective measure.
+10. Last but not least accessibility is not just a great business practice and the right thing to do, it is a legal requirement and an important protective measure.
 
 <span id="roadmap"></span>
 ## Roadmap to accessibility
