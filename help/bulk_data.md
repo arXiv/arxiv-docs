@@ -63,3 +63,8 @@ dataset also includes extracted citation data.
 For all articles the [processed PDF and source files are available from
 Amazon S3](bulk_data_s3.md). We recommend this method for bulk access to
 the full-text of arXiv articles.
+
+### Programmatic harvesting 
+
+As stated on our [robots](/help/robots) page, arXiv has limited server capacity and our first priority is to support
+interactive use by human users. That said, we are plainly aware that our corpus 

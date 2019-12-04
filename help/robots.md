@@ -1,7 +1,8 @@
 Robots Beware
 =============
 
-*Indiscriminate automated downloads from this site are *not* permitted.*
+*Indiscriminate* automated downloads from this site are *not* permitted.
+
 We have limited server capacity and our first priority is to support
 interactive use by our many human users. Several interfaces designed to
 provide machine access to arXiv are provided. See our
