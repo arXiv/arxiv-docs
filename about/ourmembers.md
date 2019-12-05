@@ -1,5 +1,5 @@
 # Our Members
-We gratefully acknowledge the support of the following 239 member institutions.
+We gratefully acknowledge the support of the following 243 member institutions.
 Learn more about [membership](/about/membership).
 
 ## Platinum Members
@@ -219,6 +219,8 @@ McGill University (Canada)
 
 National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 
+Niels Bohr Institute (Denmark)
+
 Ohio State University (US) _BTAA_
 
 Radboud University (Netherlands) 
@@ -226,6 +228,8 @@ Radboud University (Netherlands)
 Stockholm University (Sweden) 
 
 Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
+
+TU Wien (Austria)
 
 Universität Basel (Switzerland) 
 
@@ -356,6 +360,8 @@ Hiroshima University (Japan) _NII Japan Consortium_
 IHEP, National Science Library, CAS (China) 
 
 Institute of Math Sciences (India) 
+
+Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 
 IST Austria (Austria) 
 

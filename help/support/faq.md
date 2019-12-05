@@ -841,7 +841,7 @@ arXiv](/about/donate)
 ### PERSONAL DONATIONS / What initiatives will my contribution help support?
 
 In addition to helping arXiv robustly fulfill its open access
-[mission](/help/primer), contributions help fund
+[mission](/about), contributions help fund
 special projects; see the Special Projects section in the [arXiv
 roadmap](https://confluence.cornell.edu/x/GaZRF). As we described in our
 last [annual update](https://confluence.cornell.edu/x/LMlRF), the

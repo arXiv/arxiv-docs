@@ -41,7 +41,7 @@ In general, the form is `arXiv:YYMM.number{vV}`, where
 -   `number` is a zero-padded sequence number of 4- or 5-digits. From
     0704 through 1412 it is 4-digits, starting at `0001`. From 1501 on
     it is 5-digits, starting at `00001`. 5-digits permits up to `99999`
-    submissions per month. We cannot currently anticipate more then
+    submissions per month. We cannot currently anticipate more than
     99999 submissions per month although extension to 6-digits would be
     possible.
 -   `vV` is a literal `v` followed by a version number of 1 or more
