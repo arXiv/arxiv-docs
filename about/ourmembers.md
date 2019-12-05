@@ -1,3 +1,7 @@
+# Our Members
+We gratefully acknowledge the support of the following 243 member institutions.
+Learn more about [membership](/about/membership).
+
 <style>
 ol {
 list-style:none;
@@ -18,18 +22,18 @@ ol li:last-child::after {
 content: "";
 margin: 0;
 }
-ol:first-of-type {
+ol:first-of-type, blockquote ol {
 list-style:none;
 margin:0;
 padding:0;
 }
-ol:first-of-type li {
+ol:first-of-type li , blockquote ol li {
 margin-bottom: 1em;
 display: block;
 float: left;
 width: calc(50% - 10px);
 border: 1px solid #cecece;
-padding: 1em 0;
+padding: 1em;
 text-align: center;
 border-radius: 5px;
 margin-right: 10px;
@@ -37,49 +41,43 @@ margin-right: 10px;
 -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
 box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
 }
-ol:first-of-type li:after {
+ol:first-of-type li:after, blockquote ol li:after {
 content: "";
 margin:0;
-} 
-
+}
 @media only screen and (max-width: 600px) {
-ol:first-of-type li {
+ol:first-of-type li, blockquote ol li {
 width:100%;
 }
 }
-h2 { clear:both; }
+h2, h2, h4, h5 { clear:both; }
 </style>
-
-
-# Our Members
-We gratefully acknowledge the support of the following 243 member institutions.
-Learn more about [membership](/about/membership).
 
 ## Platinum Members
 
-1. California Institute of Technology (US) 
+>1. California Institute of Technology (US) 
 
-1. Imperial College London (UK) _JISC_
+>1. Imperial College London (UK) _JISC_
 
-1. Massachusetts Institute of Technology (MIT) (US)
+>1. Massachusetts Institute of Technology (MIT) (US)
 
-1. University of Cambridge (UK) _JISC_
+>1. University of Cambridge (UK) _JISC_
 
 ## Societies
 
-1. American Astronomical Society (US)
+>1. American Astronomical Society (US)
 
-1. American Institute of Physics Publishing (US)
+>1. American Institute of Physics Publishing (US)
 
-1. American Mathematical Society (US)
+>1. American Mathematical Society (US)
 
-1. American Physical Society (US)
+>1. American Physical Society (US)
 
-1. Association for Computing Machinery (US)
+>1. Association for Computing Machinery (US)
 
-1. Deutsche Physikalische Gesellschaft (Germany)
+>1. Deutsche Physikalische Gesellschaft (Germany)
 
-1. Institute of Physics Publishing (UK)
+>1. Institute of Physics Publishing (UK)
 
 ## Tier 1
 
@@ -547,16 +545,16 @@ Learn more about [membership](/about/membership).
 
 ## Contributors as non-voting members
 
-1. Arm Research (UK) 
+>1. Arm Research (UK) 
 
-1. Austrian Science Fund (Austria) 
+>1. Austrian Science Fund (Austria) 
 
-1. Computer Vision Foundation (CVF) (US) 
+>1. Computer Vision Foundation (CVF) (US) 
 
-1. Cornell University (US) 
+>1. Cornell University (US) 
 
-1. Denmark Electronic Research Library (DEFF) (Denmark) 
+>1. Denmark Electronic Research Library (DEFF) (Denmark) 
 
-1. Google Deep Mind (US) 
+>1. Google Deep Mind (US) 
 
-1. Microsoft Corporation (US)
+>1. Microsoft Corporation (US)
