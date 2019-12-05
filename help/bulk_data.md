@@ -19,7 +19,7 @@ Bulk Metadata Access
 
 #### OAI-PMH
 
-arXiv supports the [OAI protocol for metadata harvesting](/help/oa)
+arXiv supports the [OAI protocol for metadata harvesting](oa/index)
 (OAI-PMH) to provide access to metadata for all articles, updated daily
 with new articles. This is the preferred way to bulk-download or keep an
 up-to-date copy of arXiv metadata.
@@ -27,7 +27,7 @@ up-to-date copy of arXiv metadata.
 #### API
 
 arXiv supports real-time programmatic access to metadata and our search
-engine via the [arXiv API](/help/api/index). Results are returned using
+engine via the [arXiv API](api/index). Results are returned using
 the Atom XML format for easy integration with web services and toolkits.
 
 #### RSS
@@ -61,37 +61,39 @@ dataset also includes extracted citation data.
 #### Amazon S3
 
 For all articles the [processed PDF and source files are available from
-Amazon S3](bulk_data_s3.md). We recommend this method for bulk access to
+Amazon S3](bulk_data_s3). We recommend this method for bulk access to
 the full-text of arXiv articles.
 
 <span id="harvest"></span>
 Custom Programmatic Harvesting 
 ------------------------------
 
-As stated on our [robots](/help/robots) page, arXiv has limited server capacity 
+As stated on our [robots](robots) page, arXiv has limited server capacity 
 and our first priority is to support interactive use by human users. That said, 
 we are plainly aware that interested parties will want to make use of our corpus.
 
 ### Play nice
 
-We ask that users intent on harvesting use the dedicated pages of `export.arxiv.org` 
-for these purposes. This will mitigate impact on readers who are using the site
-interactively. 
+We ask that users intent on harvesting use the dedicated site `export.arxiv.org` 
+for these purposes, which contains an up-to-date copy of the corpus and is specifically 
+set aside for programmatic access. This will mitigate impact on readers who are
+using the main site interactively.  
 
-There are hundreds (if not thousands) of users who want to make use of our data,
-and millions of distinct URL behind our site. If everyone were to crawl the site 
-at once without regard for a reasonable throttle, the site could be dragged down
-and unusable. For these purposes we suggest that a *reasonable rate* to be bursts
-at 4 requests per second with a 1 second `sleep` per burst.
+There are many users who want to make use of our data, and millions of distinct 
+URLs behind our site. If everyone were to crawl the site at once without regard
+to a reasonable request rate, the site could be dragged down and unusable. 
+For these purposes we suggest that a *reasonable rate* to be bursts
+at 4 requests per second with a 1 second `sleep`, per burst.
 
 ### Consider the impact
 
 arXiv already operates with limited resources, and mindlessly downloading 
-all of the urls of this site will return terabytes of data. This represents
+all of the URLs of this site will return terabytes of data. This represents
 both a [financial burden](/about/give) to arXiv, as well as a practical 
 problem for the unwary. 
 
 *Please do not attempt to download the complete corpus programmatically.* 
-The [Amazon S3](/help/bulk_data_s3) buckets are the accepted mechanism to download 
-the complete corpus, but you are welcome to "play catch-up" programmatically.
+The [Amazon S3](bulk_data_s3) buckets are the accepted mechanism to download 
+the complete corpus, but you are welcome to "play catch-up" programmatically
+between updates of the buckets.
 
