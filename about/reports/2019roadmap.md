@@ -30,11 +30,11 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/disp
 
 **Continued Improvements to Search**: We will continue to improve our search interfaces, and introduce new features throughout the year. For example, we plan to include full text search as part of the native search interface.
 
-  > Status: In progress; full text is ongoing, search not yet start
+  > Status: In progress
 
 **Better Support for External Links**: Users expect to be able to link to relevant source code, datasets, and other resources from their arXiv e-prints. We currently support limited linking from e-print abstracts and submission comments. We plan to release an interface that allows users to curate external links to their e-prints in a more organized fashion without requiring replacement submissions.
 
-  > Status: Not started
+  > Status: Deferred until 2020
 
 **Archiving arXiv**: In order to ensure that we have a broad network of preservation strategies, in 2018 we began assessing several archival service providers with the intent to establish a third-party dark archive for our core e-print metadata and content. The dark archive will help to ensure perpetual long-term access to arXiv content in the event of a sustained outage to the arXiv.org platform. In 2019, we will begin working with one or more providers to implement this dark archive solution.
 
@@ -42,7 +42,7 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/disp
 
 **Maintenance and Operational Support**: A significant amount of developer effort is devoted to a range of activities that ensure that the service continues to run smoothly. Activities include (but are not limited to) to server maintenance and troubleshooting, service monitoring, analytics, internal support requests, bug fixes, and ad hoc meetings and conferences
 
-  > Status: Ongoing
+  > Status: Ongoing with additional allocation of effort in Q4
 
 ## Moderation and User Support
 
@@ -62,7 +62,7 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/disp
 
 **arXiv Strategic Vision Planning**: We will develop a strategic plan to articulate arXiv's mission, vision, and values. Based on this scope, we will start creating a 5-year plan to identify priorities, new development areas, and set strategic directions to create a framework for our fundraising, collaboration, and communication processes.
 
-  > Status: Initial assessment then deferred until after Executive Director is hired
+  > Status: Initial assessment, then deferred until after Executive Director is hired
 
 **arXiv vis-à-vis Scholarly Communication Ecology**: arXiv is a part of the broader scientific communication ecology and needs to monitor developments in related areas (e.g., public access domains such as Plan S, implementation of standards such as DOI & Orcid, ets.) and assess implications to ensure that arXiv will continue to meet the users’ needs.
 
@@ -70,11 +70,11 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/disp
 
 **Society-arXiv Collaboration Pilot**: arXiv and scientific societies have a shared mission to serve the scientific community, and they hold a common interest in working together to ensure that arXiv has a sustainable future that is well positioned to create an even stronger value proposition for researchers. We will implement a [pilot Society membership tier](https://docs.google.com/document/d/1Gc1B4si5v6tckVZiP7JeIw--PrP8BP4Ip3rJsEsKjNc/edit) and develop an assessment process and success criteria to help us assess the outcomes.
 
-  > Status: In progress; established society membership tier
+  > Status: Completed
 
 **Fundraising**: We will strengthen and further diversify our fundraising strategies to support arXiv NG plan and align with the development of a 5-year Vision (see above), including inviting additional arXiv users (libraries, research organizations, and corporations) to become members and increase individual and corporation giving.
 
-  > Status: In progress; increased members and giving; major diversification deferred until after Executive Director is hired
+  > Status: Ongoing
 
 **arXiv Labs**: In 2018 we created an R&D environment in arXiv Labs to explore new arXiv features and understand technical, policy, maintenance and user support needs prior to integration with the production system. We will continue our exploration and look into identifying alternative revenue sources in support of arXiv Labs.
 
