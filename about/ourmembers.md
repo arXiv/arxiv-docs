@@ -4,11 +4,11 @@ Learn more about [membership](/about/membership).
 
 ## Platinum Members
 
-California Institute of Technology (US) 
+California Institute of Technology (USA) 
 
 Imperial College London (UK) _JISC_
 
-Massachusetts Institute of Technology (MIT) (US)
+Massachusetts Institute of Technology (MIT) (USA)
 
 University of Cambridge (UK) _JISC_
 
@@ -17,7 +17,7 @@ University of Cambridge (UK) _JISC_
 
 CERN-European Organization for Nuclear Research (Switzerland) 
 
-Columbia University (US) 
+Columbia University (USA) 
 
 DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_ 
 
@@ -25,7 +25,7 @@ Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
 
 ETH Zurich (Switzerland) 
 
-Harvard University (US)
+Harvard University (USA)
 
 Kyoto University  (Japan) _NII Japan Consortium_
 
@@ -33,17 +33,17 @@ Max Planck Digital Library (Germany)
 
 New York University (US) 
 
-Princeton University (US) 
+Princeton University (USA) 
 
-Stanford University, and SLAC (US) 
+Stanford University, and SLAC (USA) 
 
 University College London  (UK) _JISC_
 
-University of California, Berkeley (US) _CDL_
+University of California, Berkeley (USA) _CDL_
 
-University of California, Santa Barbara (US) _CDL_
+University of California, Santa Barbara (USA) _CDL_
 
-University of Illinois at Urbana-Champaign  (US) _BTAA_
+University of Illinois at Urbana-Champaign  (USA) _BTAA_
 
 University of Oxford  (UK) _JISC_
 
@@ -53,13 +53,13 @@ University of Van Amsterdam  (Netherlands)
 
 ## Tier 2
 
-Boston University (US) 
+Boston University (USA) 
 
 The Chinese University of Hong Kong (Hong Kong)
 
 Durham University (UK) _JISC_
 
-Georgia Institute of Technology (US) 
+Georgia Institute of Technology (USA) 
 
 Italian Institute for Astrophysics (INAF) (Italy) 
 
@@ -67,9 +67,9 @@ Nagoya University  (Japan) _NII Japan Consortium_
 
 Perimeter Institute for Theoretical Physics  (Canada) 
 
-Rutgers University (US) _BTAA_
+Rutgers University (USA) _BTAA_
 
-Stony Brook University  (US) 
+Stony Brook University  (USA) 
 
 Tohoku University (Japan) _NII Japan Consortium_
 
@@ -79,33 +79,33 @@ Universität Heidelberg (Germany) _arXiv-DH and HGF_
 
 Universität Mainz (Germany) _arXiv-DH and HGF_ 
 
-University of California, Los Angeles (US) _CDL_
+University of California, Los Angeles (USA) _CDL_
 
-University of Colorado (US) 
+University of Colorado (USA) 
 
 University of Edinburgh (UK) _JISC_
 
-University of Maryland (US) _BTAA_
+University of Maryland (USA) _BTAA_
 
-University of Minnesota (US) _BTAA_
+University of Minnesota (USA) _BTAA_
 
-University of Pennsylvania (US) 
+University of Pennsylvania (USA) 
 
-University of Texas at Austin (US) 
+University of Texas at Austin (USA) 
 
 University of Toronto (Canada) 
 
 University of Waterloo  (Canada) 
 
-University of Wisconsin, Madison (US) _BTAA_
+University of Wisconsin, Madison (USA) _BTAA_
 
-Yale University (US) 
+Yale University (USA) 
 
 ## Tier 3
 
-Brookhaven National Laboratory (US) 
+Brookhaven National Laboratory (USA) 
 
-Carnegie Mellon University (US) 
+Carnegie Mellon University (USA) 
 
 Chalmers University of Technology  (Sweden) 
 
@@ -117,7 +117,7 @@ Delft University of Technology  (Netherlands)
 
 Humboldt-Universität zu Berlin  (Germany) _arXiv-DH and HGF_ 
 
-Institute for Advanced Study (US) 
+Institute for Advanced Study (USA) 
 
 International Centre for Theoretical Physics (ICTP) (Italy) 
 
@@ -131,13 +131,13 @@ Monash University (Australia)
 
 National Taiwan University (Taiwan) 
 
-Northwestern University (US) _BTAA_
+Northwestern University (USA) _BTAA_
 
 Osaka University (Japan) _NII Japan Consortium_
 
-Penn State University (US) _BTAA_
+Penn State University (USA) _BTAA_
 
-Purdue University (US) _BTAA_
+Purdue University (USA) _BTAA_
 
 RWTH Aachen  (Germany) _arXiv-DH and HGF_ 
 
@@ -151,7 +151,7 @@ Technische Universität München (Germany) _arXiv-DH and HGF_
 
 Tel Aviv University (Israel) 
 
-Texas A&M University  (US) 
+Texas A&M University  (USA) 
 
 Universität Frankfurt am Main  (Germany) _arXiv-DH and HGF_ 
 
@@ -165,29 +165,29 @@ University of Bristol (UK) _JISC_
 
 University of British Columbia (Canada) 
 
-University of California, Irvine (US) _CDL_
+University of California, Irvine (USA) _CDL_
 
-University of California, San Diego (US) _CDL_
+University of California, San Diego (USA) _CDL_
 
-University of Chicago (US) _BTAA_
+University of Chicago (USA) _BTAA_
 
-University of Florida (US) 
+University of Florida (USA) 
 
 University of Groningen  (Netherlands) 
 
 University of Manchester (UK) _JISC_
 
-University of Massachusetts (US) 
+University of Massachusetts (USA) 
 
-University of Michigan  (US) _BTAA_
+University of Michigan  (USA) _BTAA_
 
-University of Southern California (US) 
+University of Southern California (USA) 
 
 University of Sydney (Australia) 
 
 University of Vienna  (Austria) 
 
-University of Washington Libraries (US) 
+University of Washington Libraries (USA) 
 
 University of Zurich, Institute of Theoretical Physics  (Switzerland) 
 
@@ -199,7 +199,7 @@ Uppsala University (Sweden)
 
 Australian National University (Australia) 
 
-Duke University (US) 
+Duke University (USA) 
 
 Freie Universität Berlin  (Germany) _arXiv-DH and HGF_ 
 
@@ -207,13 +207,13 @@ Harish-Chandra Research Institute (2016-2020 membership sponsored by Anurag Acha
 
 Hebrew University of Jerusalem (Israel) 
 
-Indiana University (US) _BTAA_
+Indiana University (USA) _BTAA_
 
 KTH Royal Institute of Technology  (Sweden) 
 
 Leiden University (Leiden Institute of Physics) (Netherlands) 
 
-Los Alamos National Laboratory  (US) 
+Los Alamos National Laboratory  (USA) 
 
 McGill University (Canada) 
 
@@ -221,7 +221,7 @@ National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 
 Niels Bohr Institute (Denmark)
 
-Ohio State University (US) _BTAA_
+Ohio State University (USA) _BTAA_
 
 Radboud University (Netherlands) 
 
@@ -251,7 +251,7 @@ University of Alberta (Canada)
 
 University of Bern  (Switzerland) 
 
-University of California, Davis (US) _CDL_
+University of California, Davis (USA) _CDL_
 
 University of Helsinki (Finland) 
 
@@ -259,7 +259,7 @@ University of Innsbruck (Austria)
 
 University of Melbourne (Australia) 
 
-University of North Carolina (US) 
+University of North Carolina (USA) 
 
 University of Queensland (Australia) 
 
@@ -269,13 +269,13 @@ University of Sussex (UK) _JISC_
 
 University of Warwick (UK) _JISC_
 
-Virginia Tech (US) 
+Virginia Tech (USA) 
 
 Waseda University (Japan) _NII Japan Consortium_
 
 ## Tier 5
 
-Arizona State University (US)
+Arizona State University (USA)
 
 Bibliothèque de l'Observatoire de Paris (OBSPM) (France) _CCSD_
 
@@ -315,7 +315,7 @@ Universitetet Oslo (Norway)
 
 University of Adelaide (Australia) 
 
-University of Arizona (US) 
+University of Arizona (USA) 
 
 University of Glasgow (UK) _JISC_
 
@@ -323,7 +323,7 @@ University of New South Wales, Sydney (Australia)
 
 University of Sheffield (UK) _JISC_
 
-University of Utah (US) 
+University of Utah (USA) 
 
 Universität des Saarlandes (Germany) _arXiv-DH and HGF_ 
 
@@ -331,29 +331,29 @@ Universität des Saarlandes (Germany) _arXiv-DH and HGF_
 
 Anonymous
 
-Argonne National Lab (US) 
+Argonne National Lab (USA) 
 
-Boston College (US) 
+Boston College (USA) 
 
-Brandeis University (US) 
+Brandeis University (USA) 
 
-Brown University (US) 
+Brown University (USA) 
 
-Case Western Reserve University (US) 
+Case Western Reserve University (USA) 
 
 Dublin Institute for Advanced Studies (Ireland) 
 
 European Southern Observatory (Germany) 
 
-Fermilab (US) 
+Fermilab (USA) 
 
 Free University of Amsterdam (Netherlands) 
 
-George Mason University (US) 
+George Mason University (USA) 
 
-George Washington University (US) 
+George Washington University (USA) 
 
-Georgetown University  (US) 
+Georgetown University  (USA) 
 
 Hiroshima University (Japan) _NII Japan Consortium_
 
@@ -365,97 +365,97 @@ Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 
 IST Austria (Austria) 
 
-Johns Hopkins University (US) 
+Johns Hopkins University (USA) 
 
-Kansas State University (US)
+Kansas State University (USA)
 
 King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
 
 Kobe University (Japan) _NII Japan Consortium_
 
-Lawrence Berkeley National Laboratory (US) _CDL_
+Lawrence Berkeley National Laboratory (USA) _CDL_
 
 Macquarie University (Australia) 
 
-Michigan State University (US) _BTAA_
+Michigan State University (USA) _BTAA_
 
 National University of Singapore (Singapore)
 
 Nikhef (Netherlands) 
 
-Oregon State (US)
+Oregon State (USA)
 
 Research Centre for Astronomy and Earth Sciences (Hungary) 
 
-Rice University (US) 
+Rice University (USA) 
 
 Simon Fraser University (Canada) 
 
 Technion - Israel Institute of Technology  (Israel) 
 
-The College of William and Mary Physics Department (US) 
+The College of William and Mary Physics Department (USA) 
 
 Tokyo University of Science (Japan) _NII Japan Consortium_
 
 Tsinghua University  (China) 
 
-Tufts University (US) 
+Tufts University (USA) 
 
 Université de Grenoble Alpes (France) _CCSD_
 
 Université de Rennes 1 (France) _CCSD_
 
-University at Buffalo (US) 
+University at Buffalo (USA) 
 
-University of Arkansas (US) 
+University of Arkansas (USA) 
 
 University of Auckland (New Zealand) 
 
 University of Birmingham (UK) _JISC_
 
-University of California, Merced (US) _CDL_
+University of California, Merced (USA) _CDL_
 
-University of California, Riverside  (US) _CDL_
+University of California, Riverside  (USA) _CDL_
 
-University of California, San Francisco (US) _CDL_
+University of California, San Francisco (USA) _CDL_
 
-University of California, Santa Cruz (US) _CDL_
+University of California, Santa Cruz (USA) _CDL_
 
 University of Cape Town (South Africa) 
 
 University of Cardiff (UK) _JISC_
 
-University of Central Oklahoma (US) 
+University of Central Oklahoma (USA) 
 
 University of Geneva (Switzerland) 
 
-University of Georgia (US) 
+University of Georgia (USA) 
 
-University of Hawaii (US) 
+University of Hawaii (USA) 
 
-University of Iowa (US) _BTAA_
+University of Iowa (USA) _BTAA_
 
-University of Kansas (US) 
+University of Kansas (USA) 
 
-University of Nebraska (US) _BTAA_
+University of Nebraska (USA) _BTAA_
 
-University of New Hampshire (US) 
+University of New Hampshire (USA) 
 
-University of North Texas (US)
+University of North Texas (USA)
 
-University of Notre Dame (US) 
+University of Notre Dame (USA) 
 
 University of Nottingham (UK) _JISC_
 
-University of Oregon (US) 
+University of Oregon (USA) 
 
-University of Pittsburgh (US) 
+University of Pittsburgh (USA) 
 
-University of Rochester (US) 
+University of Rochester (USA) 
 
 University of Tsukuba (Japan) _NII Japan Consortium_
 
-University of Virginia (US) 
+University of Virginia (USA) 
 
 University of Western Australia (Australia) 
 
@@ -465,11 +465,11 @@ University of York (UK) _JISC_
 
 Utrecht University (Netherlands) 
 
-Villanova (US) 
+Villanova (USA) 
 
-Washington State University (US) 
+Washington State University (USA) 
 
-Washington University in St. Louis  (US) 
+Washington University in St. Louis  (USA) 
 
 Weizmann Institute of Science (Israel) 
 
@@ -480,15 +480,15 @@ Raman Research Institute (India)
 
 ## Societies
 
-American Astronomical Society (US)
+American Astronomical Society (USA)
 
-American Institute of Physics Publishing (US)
+American Institute of Physics Publishing (USA)
 
-American Mathematical Society (US)
+American Mathematical Society (USA)
 
-American Physical Society (US)
+American Physical Society (USA)
 
-Association for Computing Machinery (US)
+Association for Computing Machinery (USA)
 
 Deutsche Physikalische Gesellschaft (Germany)
 
@@ -501,12 +501,12 @@ Arm Research (UK)
 
 Austrian Science Fund (Austria) 
 
-Computer Vision Foundation (CVF) (US) 
+Computer Vision Foundation (CVF) (USA) 
 
-Cornell University (US) 
+Cornell University (USA) 
 
 Denmark Electronic Research Library (DEFF) (Denmark) 
 
-Google Deep Mind (US) 
+Google Deep Mind (USA) 
 
-Microsoft Corporation (US)
+Microsoft Corporation (USA)
