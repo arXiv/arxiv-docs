@@ -1,19 +1,13 @@
 arXiv Scientific Advisory Board
 ===============================
 
-arXiv's Scientific Advisory Board is composed of scientists and
-researchers in disciplines covered by arXiv. The Board provides advice
-and guidance pertaining to the repository's intellectual oversight, with
-a particular focus on the policies and operation of arXiv's moderation
-system. The Board is governed by
-[bylaws](/about/sab_bylaws) that detail its duties,
-composition, and operation as well as the election of its members.
+arXiv's Scientific Advisory Board is composed of scientists and researchers in disciplines covered by arXiv. The Board provides advice and guidance pertaining to the repository's intellectual oversight, with a particular focus on the policies and operation of arXiv's moderation system. The Board is governed by [Bylaws](/about/sab_bylaws) that detail its duties, composition, and operation as well as the election of its members.
 
 ## Current Board Members
 
 -   Eberhard Bodenschatz, Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
 -   Ralf Bundschuh, Professor of Physics and Biochemistry, Ohio State
-    University (*ex officio*, as chair of Quantitative Biology Advisory
+    University (ex officio, as chair of Quantitative Biology Advisory
     Committee)
 -   Mark Doyle, Chief Information Officer, American Physical Society (APS Physics)
 -   Gregory Gabadadze, Professor of Physics, New York University \|
@@ -23,15 +17,15 @@ composition, and operation as well as the election of its members.
     Science, Cornell University
 -   Daniel Gottesman, Faculty Member, Perimeter Institute for
     Theoretical Physics
--   Joe Halpern, Professor of Computer Science, Cornell University (*ex
-    officio*, as chair of Computer Science Advisory Committee)
+-   Joe Halpern, Professor of Computer Science, Cornell University (ex
+    officio, as chair of Computer Science Advisory Committee)
 -   Tara Holm, Professor of Mathematics, Cornell University
 -   Greg Kuperberg, Professor of Mathematics, University of California,
-    Davis (*ex officio*, as chair of Mathematics Advisory Committee)
+    Davis (ex officio, as chair of Mathematics Advisory Committee)
 -   David Morrison, Professor of Mathematics and Physics,
     University of California, Santa Barbara
 -   Nicholas Read, Henry Ford II Professor of Physics, and Professor of
-    Applied Physics and Mathematics, Yale University (*ex officio*, as
+    Applied Physics and Mathematics, Yale University (ex officio, as
     chair of Physics Advisory Committee)
 -   Sumati Surya, Professor, Raman Research Institute
 -   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona
@@ -48,8 +42,8 @@ finance](/new/q-fin#advisory_committee),
 [statistics](/new/stat#advisory_committee), and [economics](/help/econ) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
-science, and quantitative biology advisory committees serve as *ex
-officio* members of the arXiv Scientific Advisory Board.
+science, and quantitative biology advisory committees serve as ex
+officio members of the arXiv Scientific Advisory Board.
 
 ## Former Members of the arXiv Scientific Advisory Board
 
