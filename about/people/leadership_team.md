@@ -7,7 +7,7 @@ people:
     position: Interim Executive Director, Operations Manager
     thumbnail: images/jim.jpg
     bio: |
-      Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and holds a master's in Leadership Studies.
+      Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds a master's in Leadership Studies.
   martin:
     name: Martin Lessmeister
     position: IT Lead
