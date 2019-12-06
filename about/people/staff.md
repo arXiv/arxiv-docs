@@ -15,6 +15,6 @@ Jim Entwood, Interim Executive Director and Operations Manager
 
 Martin Lessmeister, IT Lead
 
-Rebecca Goldweber, Associate arXiv Administrator
+Rebecca Rich Goldweber, Associate arXiv Administrator
 
 Jake Weiskoff, Senior arXiv Administrator
