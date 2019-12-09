@@ -24,9 +24,11 @@
 [2010 July Business Plan Update](/about/reports/arxiv_busplan_July2010)
 
 ## Budgets
-[arXiv Reserve Funds Policy](/about/reports/arXiv_Researve_Funds_Policy.pdf)
+[arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[2019 Budget](/about/reports/2019_CY_arXiv_budget_midyear.pdf)
+[2019 Budget](/about/reports-financials)
+
+[2019 Budget, midyear report](/about/reports/arXiv_CY19_midyear.pdf)
 
 [2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
 
