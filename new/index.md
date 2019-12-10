@@ -28,7 +28,7 @@ in operation. In addition, arXiv staff will provide limited service in response 
   will be announced at 20:00 ET Sunday, 29 December 2019.
 - Articles received at or after 14:00 ET Friday, 27 December 2019 and before 14:00 ET Tuesday, 31 December 2019 
   will be announced at 20:00 ET Tuesday, 31 December 2019.
-- Articles received at or after 14:00 ET Tuesday, 31 December 2018 and before 14:00 ET Thursday, 2 January 2020
+- Articles received at or after 14:00 ET Tuesday, 31 December 2019 and before 14:00 ET Thursday, 2 January 2020
   will be announced at 20:00 ET 2 January 2020.
   -  **Note:** articles submitted at or after 14:00 ET Tuesday, 31 December 2019 will receive `arXiv:2001.NNNNN` identifiers.
 

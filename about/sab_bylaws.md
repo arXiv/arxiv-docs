@@ -4,7 +4,7 @@ _Revisions adopted on 20 August 2019_
 
 ## Article 1. Definitions
 
-1.1	The name of the organization is the arXiv Scientific Advisory Board, hereinafter referred to as SAB and the Board. SAB is a consultative body advising the Cornell University, hereinafter referred to as CU.
+1.1	The name of the organization is the arXiv Scientific Advisory Board, hereinafter referred to as SAB and the Board. SAB is a consultative body advising Cornell University, hereinafter referred to as CU.
 
 1.2	CU holds overall responsibility for arXiv’s operation and development, with strategic and operational guidance from the SAB and the Member Advisory Board, hereinafter referred to as MAB. The arXiv Operating Principles delineate the respective roles of CU, SAB, and MAB.
 
@@ -31,9 +31,9 @@ f)	_Term of Office._ All Voting Members of the SAB shall serve staggered, three-
 
 2.1.2	_Non-Voting Members_
 
-a)	Reserved CU Seats. Up to five SAB seats are reserved for CU. These will be filled by the arXiv Scientific Director, arXiv Program Director, and the arXiv IT and User Support managers, or other CU staff as appointed by the University Librarian of CU. The role of these members is to provide information, participate in Board discussions, and document SAB discussions by keeping the minutes of all SAB meetings. 
+a)	_Reserved CU Seats._ Up to five SAB seats are reserved for CU. These will be filled by the arXiv Scientific Director, arXiv Program Director, and the arXiv IT and User Support managers, or other CU staff as appointed by the University Librarian of CU. The role of these members is to provide information, participate in Board discussions, and document SAB discussions by keeping the minutes of all SAB meetings. 
 
-b)	Reserved MAB Seats. Two SAB seats are reserved for members of the Member Advisory Board, who shall be appointed to the SAB as specified by the MAB Bylaws. 
+b)	_Reserved MAB Seats._ Two SAB seats are reserved for members of the Member Advisory Board, who shall be appointed to the SAB as specified by the MAB Bylaws. 
 
 2.2	_Participation._ Only Voting Members of the Board shall participate in decisions of the Board, as described in 4.1.
 
@@ -57,9 +57,9 @@ c)	_Subject Advisory Committee Chairs._ For all arXiv Subject Advisory Committee
 
 d)	_Other Officers._ The Board may elect other officers as it deems necessary.
 
-3.2	Election, Term of Office, Resignation and Removal, Vacancies
+3.2	_Election, Term of Office, Resignation and Removal, Vacancies_
 
-a)	Election of Officers. Elected officers of the SAB shall be elected by a majority vote of the Voting Board Members then in office excluding any Members that are conflicted (by being candidates for the vote or otherwise as described in 2.1.1e and 3.1c).
+a)	_Election of Officers._ Elected officers of the SAB shall be elected by a majority vote of the Voting Board Members then in office excluding any Members that are conflicted (by being candidates for the vote or otherwise as described in 2.1.1e and 3.1c).
 
 b)	_Term of Office._ Elected officers of the SAB shall serve for a one-year renewable term and, except in the case of resignation or removal, shall hold office until their respective successors have been duly elected. Subject Advisory Committee Chairs shall serve for three-year terms, which may be renewed upon a decision of the Board.
 
@@ -69,9 +69,9 @@ d)	_Removal._ Any elected officer may be removed, with or without cause, by a ma
 
 e)	_Vacancies._ A vacancy in any elected office shall be filled for the unexpired term by a majority vote of the Voting Board Members then in office.
 
-## 3.3	Powers and Duties
+3.3	_Powers and Duties_
 
-a)	_Chair._ The Chair shall preside at all meetings of the Board and shall exercise general charge and supervision of the affairs of the SAB. The Chair shall see that all notices are duly given in accordance with the provisions of these Bylaws. The Chair shall facilitate open and inclusive discussion and decision making and shall attempt to state clearly the “sense of the Board” when he or she determines that all Voting Board Members are generally united in their judgment (in mutual concordance). The Chair shall perform such other duties as may be assigned by the Board.
+a)	_Chair._ The Chair shall preside at all meetings of the Board and shall exercise general charge and supervision of the affairs of the SAB. The Chair shall see that all notices are duly given in accordance with the provisions of these Bylaws. The Chair shall facilitate open and inclusive discussion and decision-making and shall attempt to state clearly the “sense of the Board” when he or she determines that all Voting Board Members are generally united in their judgment (in mutual concordance). The Chair shall perform such other duties as may be assigned by the Board.
 
 b)	_Vice Chair._ The Vice Chair(s) shall assist the Chair and preside at meetings in the absence of the Chair. The Vice Chair(s) shall perform such other duties as may be assigned by the Board.
 
@@ -79,7 +79,7 @@ c)	_Subject Advisory Committee Chairs._ The Subject Advisory Committee Chairs sh
 
 d)	_Other Officers._ Other officers elected by the Board shall have the authority prescribed to them by the Board.
 
-**Article 4. SAB Operation**
+## Article 4. SAB Operation
 
 4.1	_Decisions of the Board._ All meetings of the SAB shall be conducted in a manner that seeks consensual agreement. When the Board considers any matter that requires a decision, the opinion of any Board member who wishes to express an opinion shall be considered by the Board. When the Chair determines that all Voting Board Members present are generally united in their judgment, he or she shall attempt to state clearly the “sense of the Board.” If all Voting Board Members present give approval to this statement, or if some Voting Board Members present are not in agreement but are willing to stand aside and accept and uphold the judgment of the majority, consensual agreement shall be reached and shall be considered a decision of the Board.
 
@@ -87,9 +87,9 @@ If consensual agreement cannot be reached, a vote shall be taken by the Voting B
 	
 In the case of the election of Board members, Board Chair, or Board officers, a majority vote of the Voting Board Members then in office, excluding any conflicted Members, shall be considered a decision of the Board.
 	
-4.2	_Board policies and procedures._ The SAB shall have authority to adopt policies and procedures governing SAB activities. The SAB may delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CU.
+4.2	_Board Policies and Procedures._ The SAB shall have authority to adopt policies and procedures governing SAB activities. The SAB may delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CU.
 
-4.3	_SAB and MAB communication._ The Board meeting agendas and minutes will be shared with the MAB for their review and comments. The MAB representatives on the SAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
+4.3	_SAB and MAB Communication._ The Board meeting agendas and minutes will be shared with the MAB for their review and comments. The MAB representatives on the SAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
 
 ## Article 5. Meetings
 
@@ -135,9 +135,9 @@ In the case of the election of Board members, Board Chair, or Board officers, a 
 
 ### Document Revision History
 
-2013-09-16	Initial adoption of bylaws
+2013-09-16	Initial adoption of bylaws.
 
-2014-10-06	Revisions approved and adopted
+2014-10-06	Revisions approved and adopted.
 
 2019-08-20	Replaced Cornell University Library (CUL) with Cornell University (CU); revised 2.1.1 c) as approved by SAB.
 
