@@ -90,5 +90,12 @@
 [5-year Member Pledges, January 2015](/about/reports/arXivfive-yearmemberpledges-Jan2015.pdf)
 
 [5-year Member Pledges, January 2014](/about/reports/arXivfive-yearmemberpledges-Jan2014.pdf)
+
+[2012 Supporters](/about/reports/2012_supporters)
+
+[2011 Supporters](/about/reports/2011_supporters)
+
+[2010 Supporters](/about/reports/2010_supporters)
+
 ## Other Reports
 [arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
