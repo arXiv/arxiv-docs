@@ -65,6 +65,8 @@
 
 ## Member-Supporters
 
+[Member-Supporters, December 2019](/about/reports/Supporters-Members CY2019_updated_12.11.2019.pdf)
+
 [Member-Supporters, July 2019](/about/reports/Supporters-Members CY2019_updated_7.10.2019.pdf)
 
 [Member-Supporters, May 2018](/about/reports/arXivfive-yearmemberpledges-May2018.pdf)
