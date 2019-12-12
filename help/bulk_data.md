@@ -65,8 +65,8 @@ Amazon S3](bulk_data_s3). We recommend this method for bulk access to
 the full-text of arXiv articles.
 
 <span id="harvest"></span>
-Custom Programmatic Harvesting 
-------------------------------
+### Custom Programmatic Harvesting 
+----------------------------------
 
 As stated on our [robots](robots) page, arXiv has limited server capacity 
 and our first priority is to support interactive use by human users. That said, 
