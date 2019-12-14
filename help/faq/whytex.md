@@ -60,7 +60,13 @@ or use the one line command
 ```bash    
   perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
 ```
-    
+
+or use [`arxiv-latex-cleaner`](https://github.com/google-research/arxiv-latex-cleaner)&mdash;which can remove comments, remove auxiliary files, and shrink images.
+
+```bash
+  arxiv_latex_cleaner /path/to/tex/
+```
+
 *   **I use the Textures program. Won't the archive destroy my paper's beautiful formatting?**
     
     We have many Textures submissions here. Figures will, of course, be placed exactly where you put them (why would you expect otherwise?). Textures does use a non-standard command to control the way figures are included, please read our [notes on submitting Textures generated papers](textures).
