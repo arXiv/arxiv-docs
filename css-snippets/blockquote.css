@@ -1,0 +1,12 @@
+blockquote {
+  -webkit-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.24);
+  -moz-box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.24);
+  box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.24);
+  padding:1em;
+  margin-bottom:1.5em;
+}
+@media (min-width: 576px) {
+  blockquote {
+    padding: 2em;
+  }
+}

@@ -1,0 +1,30 @@
+blockquote ol {
+list-style:none;
+margin:0;
+padding:0;
+}
+blockquote ol li {
+margin-bottom: 1em;
+display: block;
+float: left;
+width: calc(50% - 10px);
+border: 1px solid #cecece;
+padding: 1em;
+text-align: center;
+border-radius: 5px;
+margin-right: 10px;
+-webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+}
+blockquote ol li:after {
+content: "";
+margin:0;
+}
+@media only screen and (max-width: 600px) {
+blockquote ol li {
+width:100%;
+}
+}
+h2, h2, h4, h5 { clear:both; }
+aside { float:left; clear:both; width:100%; }
