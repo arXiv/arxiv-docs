@@ -287,4 +287,4 @@ Downloads from commercial ISPs are not included.
 - uni-saarland.de includes downloads from uni-sb.de.
 - upmc.fr includes downloads from jussieu.fr.
 
-(\**) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.
+(\**) Some institutions' downloads were created via an alternative method due to anomalies and are noted by the parentheses around the rank number.
