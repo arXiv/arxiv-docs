@@ -63,5 +63,41 @@
 
 [2013 Roadmap](/about/reports/2013roadmap.pdf)
 
+## Member-Supporters
+
+[Member-Supporters, December 2019](/about/reports/Supporters-Members CY2019_updated_12.11.2019.pdf)
+
+[Member-Supporters, July 2019](/about/reports/Supporters-Members CY2019_updated_7.10.2019.pdf)
+
+[Member-Supporters, May 2018](/about/reports/arXivfive-yearmemberpledges-May2018.pdf)
+
+[5-year Member Pledges, December 2017](/about/reports/arXivfive-yearmemberpledges-Dec2017.pdf)
+
+[5-year Member Pledges, December 2017](/about/reports/arXivfive-yearmemberpledges-May2017.pdf)
+
+[5-year Member Pledges, May 2017](/about/reports/arXivfive-yearmemberpledges-May2017.pdf)
+
+[5-year Member Pledges, February 2017](/about/reports/2017 arXiv supportersquick correction feb.pdf)
+
+[5-year Member Pledges, December 2016](/about/reports/arXivfive-yearmemberpledges-December2016.pdf)
+
+[5-year Member Pledges, August 2016](/about/reports/arXivfive-yearmemberpledges-August2016.pdf)
+
+[5-year Member Pledges, January 2016](/about/reports/arXivfive-yearmemberpledges-January2016.pdf)
+
+[5-year Member Pledges, August 2015](/about/reports/arXivfive-yearmemberpledges-August2015.pdf)
+
+[5-year Member Pledges, March 2015](/about/reports/arXivfive-yearmemberpledges-March2015.pdf)
+
+[5-year Member Pledges, January 2015](/about/reports/arXivfive-yearmemberpledges-Jan2015.pdf)
+
+[5-year Member Pledges, January 2014](/about/reports/arXivfive-yearmemberpledges-Jan2014.pdf)
+
+[2012 Supporters](/about/reports/2012_supporters)
+
+[2011 Supporters](/about/reports/2011_supporters)
+
+[2010 Supporters](/about/reports/2010_supporters)
+
 ## Other Reports
 [arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
