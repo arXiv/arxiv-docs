@@ -180,6 +180,10 @@ blockquote ol li {
   align-items: center;
   justify-content: center;
 }
+blockquote ol li::after {
+  content: "";
+  margin: 0;
+}
 blockquote ol li img {
   height:40px;
   display:block;
