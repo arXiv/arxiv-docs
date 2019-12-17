@@ -1,13 +1,14 @@
-The following table is a compilation of arXiv downloads for calendar year 2018 for the 250 heaviest user institutions.
-See also arXiv Support.
+# Top 250 Institutions with Highest Total Downloads in 2019
+Learn more about our [Institutional Membership program](/about/membership)
 
-Caveats: While we have taken considerable effort to extract reliable download data representing unique full-text downloads by real users, there are many factors which affect accuracy. 
+**Caveats**: While we have taken considerable effort to extract reliable download data representing unique full-text downloads by real users, there are many factors which affect accuracy. 
 These factors include: 
 1) the data is from the main arXiv site and the arXiv mirrors, though some mirror data is incomplete; 
 2) we have counted downloads according to the COUNTER algorithm which excludes rapid repeat downloads; 
 3) we have attempted to identify and remove robot or automated downloads from the count (false positives lead to undercounting, failing to identify robots leads to overcounting); and 
 4) we include here only downloads that appear to be from an institution based on the DNS name of the client for patterns that we recognize. Clients with host names that don't resolve or have off-campus access will not be recognized and lead to undercounts.
 Downloads from commercial ISPs are not included. 
+
 
 |	Rank	|	Institutional Domain	|	Percentage of Total	|	Number of Article Downloads	|
 |:---:|------|------|-------|
@@ -27,20 +28,20 @@ Downloads from commercial ISPs are not included.
 |	14	|	columbia.edu	|	0.19%	|	499786	|
 |	15	|	caltech.edu	|	0.19%	|	495305	|
 |	16	|	ox.ac.uk	|	0.19%	|	480116	|
-|	17	|	(*)desy.de	|	0.18%	|	462989	|
-|	18	|	illinois.edu	|	0.17%	|	439537	|
+|	(17)	|	(*)desy.de	|	0.18%	|	462989	|
+|	(18)	|	illinois.edu	|	0.17%	|	439537	|
 |	19	|	kyoto-u.ac.jp	|	0.16%	|	407153	|
-|	20	|	(*)toronto.edu	|	0.16%	|	401170	|
+|	(20)	|	(*)toronto.edu	|	0.16%	|	401170	|
 |	21	|	umd.edu	|	0.16%	|	397841	|
 |	22	|	gatech.edu	|	0.15%	|	396739	|
 |	23	|	uwaterloo.ca	|	0.15%	|	394060	|
 |	24	|	cuhk.edu.hk	|	0.15%	|	389563	|
-|	25	|	washington.edu	|	0.15%	|	383718	|
+|	(25)	|	washington.edu	|	0.15%	|	383718	|
 |	26	|	ethz.ch	|	0.15%	|	383372	|
-|	27	|	(*)jhu.edu	|	0.14%	|	367663	|
+|	(27)	|	(*)jhu.edu	|	0.14%	|	367663	|
 |	28	|	nyu.edu	|	0.14%	|	354270	|
 |	29	|	u-tokyo.ac.jp	|	0.14%	|	351971	|
-|	30	|	uchicago.edu	|	0.14%	|	349274	|
+|	(30)	|	uchicago.edu	|	0.14%	|	349274	|
 |	31	|	ed.ac.uk	|	0.14%	|	349023	|
 |	32	|	ucl.ac.uk	|	0.13%	|	342898	|
 |	33	|	uni-bonn.de	|	0.13%	|	341943	|
@@ -51,7 +52,7 @@ Downloads from commercial ISPs are not included.
 |	38	|	uva.nl	|	0.12%	|	317191	|
 |	39	|	upenn.edu	|	0.12%	|	298102	|
 |	40	|	rwth-aachen.de	|	0.11%	|	286214	|
-|	41	|	(*)stonybrook.edu	|	0.11%	|	274260	|
+|	(41)	|	(*)stonybrook.edu	|	0.11%	|	274260	|
 |	42	|	ubc.ca	|	0.11%	|	271362	|
 |	43	|	ust.hk	|	0.11%	|	269709	|
 |	44	|	purdue.edu	|	0.10%	|	258288	|
@@ -60,19 +61,19 @@ Downloads from commercial ISPs are not included.
 |	47	|	ictp.it	|	0.09%	|	239933	|
 |	48	|	yale.edu	|	0.09%	|	236205	|
 |	49	|	uzh.ch	|	0.09%	|	234665	|
-|	50	|	(*)uni-karlsruhe.de	|	0.09%	|	231310	|
+|	(50)	|	(*)uni-karlsruhe.de	|	0.09%	|	231310	|
 |	51	|	rutgers.edu	|	0.09%	|	231219	|
-|	52	|	(*)sydney.edu.au	|	0.09%	|	225643	|
+|	(52)	|	(*)sydney.edu.au	|	0.09%	|	225643	|
 |	53	|	kit.edu	|	0.08%	|	216714	|
 |	54	|	colorado.edu	|	0.08%	|	211907	|
 |	55	|	uci.edu	|	0.08%	|	207293	|
 |	56	|	northwestern.edu	|	0.08%	|	206539	|
 |	57	|	nthu.edu.tw	|	0.08%	|	195752	|
-|	58	|	(*)tudelft.nl	|	0.08%	|	195424	|
-|	59	|	ucsd.edu	|	0.08%	|	193320	|
+|	(58)	|	(*)tudelft.nl	|	0.08%	|	195424	|
+|	(59)	|	ucsd.edu	|	0.08%	|	193320	|
 |	60	|	monash.edu.au	|	0.07%	|	188898	|
 |	61	|	tohoku.ac.jp	|	0.07%	|	188858	|
-|	62	|	(*)tum.de	|	0.07%	|	188736	|
+|	(62)	|	(*)tum.de	|	0.07%	|	188736	|
 |	63	|	uni-heidelberg.de	|	0.07%	|	183236	|
 |	64	|	umich.edu	|	0.07%	|	180808	|
 |	65	|	tu-berlin.de	|	0.07%	|	176873	|
@@ -86,7 +87,7 @@ Downloads from commercial ISPs are not included.
 |	73	|	ucdavis.edu	|	0.06%	|	158743	|
 |	74	|	qmul.ac.uk	|	0.06%	|	155003	|
 |	75	|	vt.edu	|	0.06%	|	151774	|
-|	76	|	(*)bristol.edu	|	0.06%	|	147516	|
+|	(76)	|	(*)bristol.edu	|	0.06%	|	147516	|
 |	77	|	univie.ac.at	|	0.06%	|	146420	|
 |	78	|	ias.edu	|	0.06%	|	145172	|
 |	79	|	bris.ac.uk	|	0.06%	|	144877	|
@@ -97,7 +98,7 @@ Downloads from commercial ISPs are not included.
 |	84	|	indiana.edu	|	0.05%	|	133478	|
 |	85	|	rug.nl	|	0.05%	|	131625	|
 |	86	|	ualberta.ca	|	0.05%	|	130746	|
-|	87	|	(*)riken.jp	|	0.05%	|	129316	|
+|	(87)	|	(*)riken.jp	|	0.05%	|	129316	|
 |	88	|	unimelb.edu.au	|	0.05%	|	128564	|
 |	89	|	postech.ac.kr	|	0.05%	|	128448	|
 |	90	|	nagoya-u.ac.jp	|	0.05%	|	128294	|
@@ -105,13 +106,13 @@ Downloads from commercial ISPs are not included.
 |	92	|	uni-mainz.de	|	0.05%	|	124614	|
 |	93	|	warwick.ac.uk	|	0.05%	|	124133	|
 |	94	|	tamu.edu	|	0.05%	|	124101	|
-|	95	|	(*)upmc.fr	|	0.05%	|	121523	|
+|	(95)	|	(*)upmc.fr	|	0.05%	|	121523	|
 |	96	|	dur.ac.uk	|	0.05%	|	117487	|
 |	97	|	uni-hamburg.de	|	0.05%	|	116950	|
 |	98	|	ucsc.edu	|	0.04%	|	115038	|
-|	99	|	inaf.it	|	0.04%	|	114904	|
+|	(99)	|	inaf.it	|	0.04%	|	114904	|
 |	100	|	lanl.gov	|	0.04%	|	114757	|
-|	101	|	manchester.ac.uk	|	0.04%	|	110510	|
+|	(101)	|	manchester.ac.uk	|	0.04%	|	110510	|
 |	102	|	uni-hannover.de	|	0.04%	|	106394	|
 |	103	|	su.se	|	0.04%	|	106159	|
 |	104	|	sfu.ca	|	0.04%	|	103760	|
@@ -122,7 +123,7 @@ Downloads from commercial ISPs are not included.
 |	109	|	ntnu.no	|	0.04%	|	98168	|
 |	110	|	usp.br	|	0.04%	|	97040	|
 |	111	|	leeds.ac.uk	|	0.04%	|	96981	|
-|	112	|	kcl.ac.uk	|	0.04%	|	96643	|
+|	(112)	|	kcl.ac.uk	|	0.04%	|	96643	|
 |	113	|	uu.se	|	0.04%	|	93997	|
 |	114	|	unibe.ch	|	0.04%	|	93947	|
 |	115	|	sinica.edu.tw	|	0.04%	|	92060	|
@@ -134,7 +135,7 @@ Downloads from commercial ISPs are not included.
 |	121	|	jussieu.fr	|	0.03%	|	89065	|
 |	122	|	unc.edu	|	0.03%	|	89037	|
 |	123	|	asu.edu	|	0.03%	|	85279	|
-|	124	|	(*)tkk.fi	|	0.03%	|	85212	|
+|	(124)	|	(*)tkk.fi	|	0.03%	|	85212	|
 |	125	|	utdallas.edu	|	0.03%	|	84746	|
 |	126	|	anl.gov	|	0.03%	|	84238	|
 |	127	|	ugent.be	|	0.03%	|	83311	|
@@ -152,7 +153,7 @@ Downloads from commercial ISPs are not included.
 |	139	|	dtu.dk	|	0.03%	|	81436	|
 |	140	|	ru.nl	|	0.03%	|	81406	|
 |	141	|	sissa.it	|	0.03%	|	81158	|
-|	142	|	(*)uni-saarland.de	|	0.03%	|	80942	|
+|	(142)	|	(*)uni-saarland.de	|	0.03%	|	80942	|
 |	143	|	rochester.edu	|	0.03%	|	80933	|
 |	144	|	nbi.dk	|	0.03%	|	80540	|
 |	145	|	uibk.ac.at	|	0.03%	|	80383	|
@@ -180,13 +181,13 @@ Downloads from commercial ISPs are not included.
 |	167	|	leidenuniv.nl	|	0.03%	|	67976	|
 |	168	|	uni-bochum.de	|	0.03%	|	67151	|
 |	169	|	uic.edu	|	0.03%	|	66667	|
-|	170	|	uni-regensburg.de	|	0.03%	|	66309	|
+|	(170)	|	uni-regensburg.de	|	0.03%	|	66309	|
 |	171	|	slac.stanford.edu	|	0.03%	|	64967	|
-|	172	|	(*)tugraz.at	|	0.02%	|	63889	|
+|	(172)	|	(*)tugraz.at	|	0.02%	|	63889	|
 |	173	|	jinr.ru	|	0.02%	|	63620	|
 |	174	|	oregonstate.edu	|	0.02%	|	63538	|
 |	175	|	uni-bielefeld.de	|	0.02%	|	63109	|
-|	176	|	waseda.ac.jp	|	0.02%	|	63098	|
+|	(176)	|	waseda.ac.jp	|	0.02%	|	63098	|
 |	177	|	fu-berlin.de	|	0.02%	|	62054	|
 |	178	|	uni-muenster.de	|	0.02%	|	61705	|
 |	179	|	cvut.cz	|	0.02%	|	61528	|
@@ -208,7 +209,7 @@ Downloads from commercial ISPs are not included.
 |	195	|	uni-goettingen.de	|	0.02%	|	56073	|
 |	196	|	utwente.nl	|	0.02%	|	55341	|
 |	197	|	duke.edu	|	0.02%	|	55299	|
-|	198	|	tu-dresden.de	|	0.02%	|	55060	|
+|	(198)	|	tu-dresden.de	|	0.02%	|	55060	|
 |	199	|	roma1.infn.it	|	0.02%	|	54562	|
 |	200	|	mppmu.mpg.de	|	0.02%	|	53681	|
 |	201	|	aei.mpg.de	|	0.02%	|	53580	|
@@ -251,7 +252,7 @@ Downloads from commercial ISPs are not included.
 |	238	|	syr.edu	|	0.02%	|	46600	|
 |	239	|	au.dk	|	0.02%	|	45871	|
 |	240	|	usc.edu	|	0.02%	|	45714	|
-|	241	|	(*)tu-dortmund.de	|	0.02%	|	45470	|
+|	(241)	|	(*)tu-dortmund.de	|	0.02%	|	45470	|
 |	242	|	ntust.edu.tw	|	0.02%	|	45451	|
 |	243	|	tsukuba.ac.jp	|	0.02%	|	45220	|
 |	244	|	ulb.ac.be	|	0.02%	|	45029	|
