@@ -1,41 +1,85 @@
 arXiv Scientific Advisory Board
 ===============================
-<link rel="stylesheet" type="text/css" href="../css-snippets/blockquote-ul.css"></link>
+
+<style>
+blockquote {
+  border-left:0;
+  margin:0;
+  padding:0;
+}
+blockquote ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+blockquote ul li {
+  width: 100%;
+  padding:1em;
+  margin:1%;
+  box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
+}
+blockquote ul li img {
+  height:40px;
+  display:block;
+  margin:1em auto 0 auto;
+}
+@media (min-width: 576px) {
+  blockquote ul li {
+    width: 48%;
+  }
+}
+@media (min-width: 986px) {
+  blockquote ul li {
+    width: 23%;
+  }
+}
+</style>
 
 arXiv's Scientific Advisory Board is composed of scientists and researchers in disciplines covered by arXiv. The Board provides advice and guidance pertaining to the repository's intellectual oversight, with a particular focus on the policies and operation of arXiv's moderation system. The Board is governed by [Bylaws](/about/sab_bylaws) that detail its duties, composition, and operation as well as the election of its members.
 
 ## Current Board Members
 
-> -   ###Eberhard Bodenschatz
-![Max-Planck-Institut für Dynamik und Selbstorganisation Logo](../images/logo_mps.png)<br>
+> -   ### Eberhard Bodenschatz
 Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
-> -   ###Ralf Bundschuh
-![Ohio State University Logo](../images/ohio-state-logo.png)<br>
+> -   ### Ralf Bundschuh
 Professor of Physics and Biochemistry, Ohio State
     University (_ex officio, as chair of Quantitative Biology Advisory
     Committee_)
-> -   ###Mark Doyle
-![American Physics Society Logo](../images/logo-aps.gif)<br>
+> -   ### Mark Doyle
 Chief Information Officer, American Physical Society (APS Physics)
-> -   Gregory Gabadadze, Professor of Physics, New York University \|
+> -   ### Gregory Gabadadze
+Professor of Physics, New York University \|
     Associate Director of the Mathematics and Physical Sciences
     Division, Simons Foundation
-> -   Paul Ginsparg, Professor of Physics & Computing and Information
+> -   ### Paul Ginsparg
+Professor of Physics & Computing and Information
     Science, Cornell University
-> -   Daniel Gottesman, Faculty Member, Perimeter Institute for
+> -   ### Daniel Gottesman
+Faculty Member, Perimeter Institute for
     Theoretical Physics
-> -   Joe Halpern, Professor of Computer Science, Cornell University (ex
+> -   ### Joe Halpern
+Professor of Computer Science, Cornell University (ex
     officio, as chair of Computer Science Advisory Committee)
-> -   Tara Holm, Professor of Mathematics, Cornell University
-> -   Greg Kuperberg, Professor of Mathematics, University of California,
+> -   ### Tara Holm
+Professor of Mathematics, Cornell University
+> -   ### Greg Kuperberg
+Professor of Mathematics, University of California,
     Davis (ex officio, as chair of Mathematics Advisory Committee)
-> -   David Morrison, Professor of Mathematics and Physics,
+> -   ### David Morrison
+Professor of Mathematics and Physics,
     University of California, Santa Barbara
-> -   Nicholas Read, Henry Ford II Professor of Physics, and Professor of
+> -   ### Nicholas Read
+Henry Ford II Professor of Physics, and Professor of
     Applied Physics and Mathematics, Yale University (ex officio, as
     chair of Physics Advisory Committee)
-> -   Sumati Surya, Professor, Raman Research Institute
-> -   Licia Verde (**Chair**), ICREA Research Professor, Universitat de Barcelona
+> -   ### Sumati Surya
+Professor, Raman Research Institute
+> -   ### Licia Verde (**Chair**)
+ICREA Research Professor, Universitat de Barcelona
 
 <span id="advisory_committees"></span>
 
