@@ -1,7 +1,7 @@
 # arXiv Reports
 
 ## Annual Updates
-[2019 Annual Update](/about/reports/2019update)
+[2019 Annual Update](/about/reports/2019_update)
 
 [2018 Annual Update](/about/reports/arXiv_update_January_2018.pdf)
 
@@ -51,19 +51,19 @@
 [2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
-[2019 Roadmap](/about/reports/2019roadmap)
+[2019 Roadmap](/about/reports/2019_roadmap)
 
-[2018 Roadmap](/about/reports/2018roadmap.pdf)
+[2018 Roadmap](/about/reports/2018_roadmap.pdf)
 
-[2017 Roadmap](/about/reports/2017roadmap.pdf)
+[2017 Roadmap](/about/reports/2017_roadmap.pdf)
 
-[2016 Roadmap](/about/reports/2016roadmap.pdf)
+[2016 Roadmap](/about/reports/2016_roadmap.pdf)
 
-[2015 Roadmap](/about/reports/2015roadmap.pdf)
+[2015 Roadmap](/about/reports/2015_roadmap.pdf)
 
-[2014 Roadmap](/about/reports/2014roadmap.pdf)
+[2014 Roadmap](/about/reports/2014_roadmap.pdf)
 
-[2013 Roadmap](/about/reports/2013roadmap.pdf)
+[2013 Roadmap](/about/reports/2013_roadmap.pdf)
 
 ## Annual Institutional Usage (Downloads) Statistics
 [2018 Institutional Usage](/about/reports/2018_usage)
@@ -88,9 +88,9 @@
 
 ## Member-Supporters
 
-[Member-Supporters, December 2019](/about/reports/Supporters-Members CY2019_updated_12.11.2019.pdf)
+[Member-Supporters, December 2019](/about/reports/2019_supporters_Dec.pdf)
 
-[Member-Supporters, July 2019](/about/reports/Supporters-Members CY2019_updated_7.10.2019.pdf)
+[Member-Supporters, July 2019](/about/reports/2019_supporters_July.pdf)
 
 [Member-Supporters, May 2018](/about/reports/arXivfive-yearmemberpledges-May2018.pdf)
 
@@ -100,7 +100,7 @@
 
 [5-year Member Pledges, May 2017](/about/reports/arXivfive-yearmemberpledges-May2017.pdf)
 
-[5-year Member Pledges, February 2017](/about/reports/2017 arXiv supportersquick correction feb.pdf)
+[5-year Member Pledges, February 2017](/about/reports/arXivfive-yearmemberpledges-Feb2017.pdf)
 
 [5-year Member Pledges, December 2016](/about/reports/arXivfive-yearmemberpledges-December2016.pdf)
 
