@@ -124,3 +124,7 @@
 
 ## Other Reports
 [arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
+
+[2010 arXiv Sustainability Adivsory Group](/about/reports/sustainability_advisory_group)
+
+[2010 Business Model Whitepaper](/about/reports/whitepaper)
