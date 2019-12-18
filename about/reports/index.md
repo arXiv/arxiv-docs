@@ -1,3 +1,5 @@
+# arXiv Reports
+
 ## Annual Updates
 [2019 Annual Update](/about/reports/2019update)
 
@@ -62,6 +64,27 @@
 [2014 Roadmap](/about/reports/2014roadmap.pdf)
 
 [2013 Roadmap](/about/reports/2013roadmap.pdf)
+
+## Annual Institutional Usage (Downloads) Statistics
+[2018 Institutional Usage](/about/reports/2018_usage)
+
+[2017 Institutional Usage](/about/reports/2017_usage)
+
+[2016 Institutional Usage](/about/reports/2016_usage)
+
+[2015 Institutional Usage](/about/reports/2015_usage)
+
+[2014 Institutional Usage](/about/reports/2014_usage)
+
+[2013 Institutional Usage](/about/reports/2013_usage)
+
+[2012 Institutional Usage](/about/reports/2012_usage)
+
+[2011 Institutional Usage](/about/reports/2011_usage)
+
+[2010 Institutional Usage](/about/reports/2010_usage)
+
+[2009 Institutional Usage](/about/reports/2009_usage)
 
 ## Member-Supporters
 
