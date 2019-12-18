@@ -90,7 +90,7 @@ aside { float:left; clear:both; width:100%; }
 1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Oxford  (UK) _JISC_
 1. University of Tokyo  (Japan) _NII Japan Consortium_
-1. University of Van Amsterdam  (Netherlands)
+1. University of Amsterdam  (Netherlands)
 
 ## Tier 2
 
@@ -272,7 +272,7 @@ aside { float:left; clear:both; width:100%; }
 1. Rice University (USA)
 1. Simon Fraser University (Canada)
 1. Technion - Israel Institute of Technology  (Israel)
-1. The College of William and Mary Physics Department (USA)
+1. William and Mary (USA)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Tsinghua University  (China)
 1. Tufts University (USA)
