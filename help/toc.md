@@ -4,10 +4,8 @@ arXiv Help Contents
 General Information
 -------------------
 
--   [About arXiv](general)
--   [arXiv Primer](primer)
--   [arXiv Business Support and Governance Model](support)
--   [arXiv Users' Frequently Asked Questions](faq/index)
+-   [About arXiv](/about)
+-   [Support arXiv](/about/give)
 
 Searching and Browsing
 ----------------------
