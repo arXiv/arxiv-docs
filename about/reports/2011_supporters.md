@@ -3,8 +3,8 @@ arXiv 2011 Supporters
 
 We gratefully acknowledge the support of the following institutions for
 calendar year 2011. Requests for support will be based on 2010 usage
-data (/about/reports/2010_usage). Some institutions have already given support
-however. For more details see [Institutional Membership](/about/reports/index).
+data (2010_usage). Some institutions have already given support
+however. For more details see [Institutional Membership](/about/membership).
 
 ### Tier 1
 
