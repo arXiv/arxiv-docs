@@ -81,7 +81,7 @@ service.
 
 3.4. Voting for representatives to the MAB is open to all eligible member institutions, each of
 which shall have one vote. Member institutions may delegate their representation to a
-consortium or other proxy<sup>1</sup> with the voting representation of such proxies being equal to the
+consortium or other proxy<sup1</supwith the voting representation of such proxies being equal to the
 number of members represented.
 
 3.5. The MAB is chaired by the arXiv Program Director from CUL and includes two members of
@@ -128,7 +128,7 @@ participate in discussions and provide background information.
 reports to member institutions.
 
 5.2. The SAB and the MAB operate in parallel, complementing each other and providing
-essential input for CU<sup>2</sup>. To this end, the SAB appoints two members to serve as non-voting
+essential input for CU<sup2</sup. To this end, the SAB appoints two members to serve as non-voting
 _ex officio_ members of the MAB; the MAB appoints two members to serve as non-voting _ex
 officio_ members of the SAB.
 
@@ -143,9 +143,9 @@ institutional members, potentially supplemented by foundation grants.
 
 6.2. CU has committed to contribute a cash subsidy of $75,000 per year in support of arXiv’s
 operational costs and an in-kind contribution of all indirect costs, which currently represents
-37% of total arXiv operating costs<sup>3</sup>.
+37% of total arXiv operating costs<sup3</sup.
 
-6.3. Each member institution pledges a five-year initial funding commitment to support arXiv<sup>4</sup>. Membership fees may be adjusted annually to ensure that arXiv is sustained at an acceptable level of service, as determined by Cornell University in consultation with the MAB and the SAB.
+6.3. Each member institution pledges a five-year initial funding commitment to support arXiv<sup4</sup. Membership fees may be adjusted annually to ensure that arXiv is sustained at an acceptable level of service, as determined by Cornell University in consultation with the MAB and the SAB.
 
 6.4. Membership fees are equitable and based on an explicit fee structure.
 
@@ -165,14 +165,14 @@ support. Failure to do so may result in the development of an exit strategy, inc
 transition of arXiv to another institution.
 
 ***
-<sup>1</sup>Funders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
+<sup1</supFunders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
 
-<sup>2</sup>Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
-Advisory Board will be articulated in the groups’ bylaws (to be developed). 
+<sup2</supSpecifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
+Advisory Board will be articulated in the groups’ bylaws (to be developed).
 
-<sup>3</sup>CUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building. 
+<sup3</supCUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building.
 
-<sup>4</sup>See the arXiv Membership Program section about the specifics of the five-year commitment. 
+<sup4</supSee the arXiv Membership Program section about the specifics of the five-year commitment.
 
 ***
 _Revisions:_

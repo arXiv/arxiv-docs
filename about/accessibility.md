@@ -1,6 +1,22 @@
 Accessibility at arXiv
 ======================
 
+<style>
+blockquote {
+  border-left: 0;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
+  padding:1em;
+  margin-bottom:1.5em;
+}
+@media (min-width: 576px) {
+  blockquote {
+    padding: 2em;
+  }
+}
+</style>
+
 arXiv is committed to creating an accessible experience for all users. Below is our thinking behind this commitment and our roadmap for reaching and sustainably maintaining an accessible platform for the entire arXiv community.
 
 ## Table of contents
@@ -40,7 +56,11 @@ The reasons for prioritizing accessibility are vast but below are the top ten we
 <span id="roadmap"></span>
 ## Roadmap to accessibility
 
-We are currently making significant strides to improve access for those using assistive technologies on arXiv's classic codebase. The new arXiv NG platform is "born accessible"&mdash;built with accessibility in mind from the ground up&mdash;and deploying arXiv NG is our top accessibility goal. Accessible browsing is the initial priority of the NG platform, and accessible moderator and administrative interfaces will follow. In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
+We are currently making significant strides to improve access for those using assistive technologies on arXiv's classic codebase, while the new arXiv NG platform is "born accessible"&mdash;built with accessibility in mind from the ground up. Deploying arXiv NG is our top accessibility goal. Accessible browsing is the initial priority of the NG platform, and accessible moderator and administrative interfaces will follow. In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
+
+> “Cornell University is committed to providing an environment in which all people have an equal opportunity to participate in the university’s programs, activities and services.”
+>
+> _Shannon Osborn, assistant director of Cornell IT_
 
 <span id="help"></span>
 ## How the arXiv community can help
