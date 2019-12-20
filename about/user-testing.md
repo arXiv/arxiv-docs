@@ -58,14 +58,14 @@ _(note: we recently migrated our list from an old-fashioned listserv to mailchim
 	<label for="mce-RESEARCH">arXiv Research Field * </label>
 	<select name="RESEARCH" class="required" id="mce-RESEARCH">
 	<option value=""></option>
-	<option value="astro-ph">astro-ph</option>
-<option value="math">math</option>
-<option value="CoRR">CoRR</option>
-<option value="q-bio">q-bio</option>
-<option value="q-fin">q-fin</option>
-<option value="stat">stat</option>
-<option value="eess">eess</option>
-<option value="econ">econ</option>
+<option value="Physics">Physics</option>
+<option value="Mathematics">Mathematics</option>
+<option value="Computer Science">Computer Science</option>
+<option value="Quantitative Biology">Quantitative Biology</option>
+<option value="Quantitative Finance">Quantitative Finance</option>
+<option value="Statistics">Statistics</option>
+<option value="Electrical Engineering and Systems Science">Electrical Engineering and Systems Science</option>
+<option value="Economics">Economics</option>
 	</select>
 </div>
 <hr>
