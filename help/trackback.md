@@ -12,8 +12,7 @@ the following *trackback URL*:
 
 `https://arxiv.org/trackback/paper_id`
 
-You will find this URL at the bottom of every abstract page. Our
-abstract pages support trackback autodiscovery: some software such as
+Our abstract pages support trackback autodiscovery: some software such as
 [Movable Type](http://www.sixapart.com/movabletype/) can send trackbacks automatically
 when you link to our abstract pages. Note that [WordPress](http://www.wordpress.org) only
 is capable of sending "pingbacks" automatically, which are not supported by arXiv. Instead see
