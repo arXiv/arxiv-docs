@@ -1,7 +1,7 @@
 arXiv submission rate statistics
 ================================
 
-Data for 1991 through 2018, updated 1 January 2020.
+Data for 1991 through 2019, updated 1 January 2020.
 
 ![New submissions by year by subject area](newsubs.png)
 
