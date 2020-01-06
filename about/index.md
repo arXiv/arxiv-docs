@@ -8,8 +8,8 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## News
 
-- [Annual Update, January 2019](/about/reports/2019update)
-- [2019 Roadmap](/about/reports/2019roadmap)
+- [Annual Update, January 2019](reports/2019_update)
+- [2019 Roadmap](reports/2019_roadmap)
 - [Usage Stats](/help/stats)
 - [News and Announcements](/new)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
@@ -38,4 +38,4 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 - [Governance](/about/governance)
 - [Business Model](/about/reports-financials)
-- [Annual Updates and Financials](/about/reports)
+- [Annual Updates and Financials](reports)
