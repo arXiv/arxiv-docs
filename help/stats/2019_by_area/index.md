@@ -74,7 +74,7 @@ Graphs of yearly submission rates by subject areas
 <span id="hep_yearly"></span>
 ![HEP submissions by year](hep_yearly.png)
 
-<span id="quant-ph_gr-q_yearly"></span>
+<span id="quant-ph_gr-qc_yearly"></span>
 ![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)    ![nucl-* submissions by year](nucl_yearly.png)
 
 <span id="stat_yearly"></span>
