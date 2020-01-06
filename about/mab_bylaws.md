@@ -32,9 +32,9 @@ The arXiv Bylaws were established in 2012 and may be amended, or new articles ad
 
 2.1.3 Board Officers
 
-a)  Chair. The presiding officer of the MAB annual meeting is the arXiv Program Director. 
+a)  Chair. The presiding officer of the MAB annual meeting is the arXiv Program Director.
 
-b)  Other Officers. The Board may elect other officers as it deems necessary. 
+b)  Other Officers. The Board may elect other officers as it deems necessary.
 
 2.2 Member Qualifications
 
@@ -42,7 +42,7 @@ Each voting member of MAB will be an employee or an officer of a Contributing or
 
 2.3 Term of Office
 
-2.3.1 Elected members of MAB will serve staggered four-year terms. Board members will be divided into two types of approximately equal size. The first MAB appointments during December 2012 will include seven voting members with six-year appointments and six voting members with four-year appointments. 
+2.3.1 Elected members of MAB will serve staggered four-year terms. Board members will be divided into two types of approximately equal size. The first MAB appointments during December 2012 will include seven voting members with six-year appointments and six voting members with four-year appointments.
 
 2.3.2 No Board member representing Contributing or High-Contributing Organizations may serve more than one consecutive four-year term.
 
@@ -56,7 +56,7 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 3.1 MAB represents participating institutions’ interests and advises CU on issues related to repository management and development, standards implementation, interoperability, development priorities, business planning, and outreach and advocacy. MAB also reviews and comments on arXiv budgets proposed by CU. For agenda items that require decisions, MAB will review and comment on proposals submitted by CU and may request additional information in support of their deliberations. MAB members can propose agenda items for discussion on topics within the scope of the group’s role. Some topics will require open discussion, and some matters with action items will necessitate decision-making.
 
-3.2 A quorum requires the participation of a minimum eight voting Board members out of 13 (not including ex officio members). 
+3.2 A quorum requires the participation of a minimum eight voting Board members out of 13 (not including ex officio members).
 
 3.3 When the Board considers any matter that requires a decision, the opinion of any Board member who wishes to express an opinion will be considered by the Board. As deemed useful and needed, Roberts’ Rules will be used in running meetings, moderating discussions, and approving decisions.
 
@@ -86,13 +86,13 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 4.2.3  A Board member who fails to attend or fails to have a designated alternate attend three consecutive regularly scheduled Board meetings may be deemed by the consensual agreement of the Board to have resigned. The resulting vacancy may be filled in accordance with the provisions of 4.3.
 
-4.2.4 A quorum is required for the transaction of business at any meeting of the Board (minimum eight Board members, not including ex officio members). 
+4.2.4 A quorum is required for the transaction of business at any meeting of the Board (minimum eight Board members, not including ex officio members).
 
-4.2.5 The Chair will preside at all meetings of the Board and will exercise general charge and supervision of MAB’s affairs. The Chair will facilitate open and inclusive discussion and decision-making. 
+4.2.5 The Chair will preside at all meetings of the Board and will exercise general charge and supervision of MAB’s affairs. The Chair will facilitate open and inclusive discussion and decision-making.
 
 4.2.6 CU will assign a staff member as Secretary to take notes during meetings and prepare meeting minutes. MAB members will review and approve the minutes. The Board agendas and discussion outcomes will be shared with the SAB for their review and comments. A synopsis of the meeting outcomes will be shared with the arXiv members.
 
-4.3 Designating Alternates: If an MAB member is unable to attend a meeting, he or she may designate an alternate to act as a Board member. The alternate must be an employee or officer of a Contributing or High-Contributing Organization. An alternate may attend Board meetings and will be deemed a member of the Board for all purposes for the duration of the designation. 
+4.3 Designating Alternates: If an MAB member is unable to attend a meeting, he or she may designate an alternate to act as a Board member. The alternate must be an employee or officer of a Contributing or High-Contributing Organization. An alternate may attend Board meetings and will be deemed a member of the Board for all purposes for the duration of the designation.
 
 ## 5. Committees
 
@@ -120,7 +120,7 @@ b) Other Officers. Other officers elected by the Board shall have the authority 
 
 6.2 Members will be elected from the candidates proposed by the Elections Committee or recommended in writing by any Contributing or High-Contributing Organizations, provided that such written nominations are accompanied by the consent of the nominee and submitted to the Board at least 30 days prior to the Annual Meeting of the Board. Submitted nominations must include a statement about the qualifications of a candidate.
 
-6.3 Voting for representatives to MAB is open to all eligible member institutions, each of which shall have one vote for their category of candidates. 
+6.3 Voting for representatives to MAB is open to all eligible member institutions, each of which shall have one vote for their category of candidates.
 
 6.4 If an election is being held for filling High-Contributing Organizations seats and if there are more than five candidates, members in the High-Contributing Organizations category have two voting options:
 
@@ -137,7 +137,7 @@ A High-Contributing Organization may opt to ask each member cast a vote during a
 
 ## 8. Annual Fees
 
-To be considered a Contributing or High-Contributing Organization, organizations must pay annual membership fees by July 1 of each calendar year. Budgetary inability to meet a single year’s membership fees will not terminate membership, provided that the member commits to making up the deficit within an agreed upon period not to exceed two years. 
+To be considered a Contributing or High-Contributing Organization, organizations must pay annual membership fees by July 1 of each calendar year. Budgetary inability to meet a single year’s membership fees will not terminate membership, provided that the member commits to making up the deficit within an agreed upon period not to exceed two years.
 
 ## 9. Amendments
 

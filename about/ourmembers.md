@@ -4,54 +4,72 @@ Learn more about [membership](/about/membership).
 
 <style>
 ol {
-list-style:none;
-margin-left:0 !important;
-margin:0;
-padding:0;
+  list-style:none;
+  margin-left:0 !important;
+  margin:0;
+  padding:0;
 }
 ol li {
-display: inline;
+  display: inline;
 }
 ol li::after {
-content: "\2022";
-margin: 0 .15em 0 .45em;
-color: #b31b1b;
-font-weight: 900;
+  content: " \2022 ";
+  margin: 0 .15em 0 .45em;
+  color: #b31b1b;
+  font-weight: 900;
 }
 ol li:last-child::after {
-content: "";
-margin: 0;
+  content: "";
+  margin: 0;
+}
+blockquote {
+  border-left:0;
+  margin:0;
+  padding:0;
 }
 blockquote ol {
-list-style:none;
-margin:0;
-padding:0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 blockquote ol li {
-margin-bottom: 1em;
-display: block;
-float: left;
-width: calc(50% - 10px);
-border: 1px solid #cecece;
-padding: 1em;
-text-align: center;
-border-radius: 5px;
-margin-right: 10px;
--webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
--moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  width: 100%;
+  padding:1em;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  min-height:90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-blockquote ol li:after {
-content: "";
-margin:0;
+blockquote ol li::after {
+  content: "";
+  margin: 0;
 }
-@media only screen and (max-width: 600px) {
-blockquote ol li {
-width:100%;
+blockquote ol li img {
+  height:40px;
+  display:block;
+  margin:1em auto 0 auto;
 }
+@media (min-width: 576px) {
+  blockquote ol li {
+    width: calc(50% - 10px);
+  }
 }
-h2, h2, h4, h5 { clear:both; }
-aside { float:left; clear:both; width:100%; }
+h2, h2, h4, h5 {
+  clear:both;
+}
+aside {
+  float:left;
+  clear:both;
+  width:100%;
+}
 </style>
 
 ## Platinum Members
@@ -90,7 +108,7 @@ aside { float:left; clear:both; width:100%; }
 1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Oxford  (UK) _JISC_
 1. University of Tokyo  (Japan) _NII Japan Consortium_
-1. University of Van Amsterdam  (Netherlands)
+1. University of Amsterdam  (Netherlands)
 
 ## Tier 2
 
@@ -272,7 +290,7 @@ aside { float:left; clear:both; width:100%; }
 1. Rice University (USA)
 1. Simon Fraser University (Canada)
 1. Technion - Israel Institute of Technology  (Israel)
-1. The College of William and Mary Physics Department (USA)
+1. William and Mary (USA)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Tsinghua University  (China)
 1. Tufts University (USA)
@@ -324,3 +342,5 @@ aside { float:left; clear:both; width:100%; }
 >1. Denmark Electronic Research Library (DEFF) (Denmark)
 >1. Google Deep Mind (USA)
 >1. Microsoft Corporation (USA)
+
+#

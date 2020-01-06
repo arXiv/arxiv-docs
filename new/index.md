@@ -7,6 +7,17 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+
+#### January 2020
+<span id="6Jan2020"></span>
+
+6 January 2020
+
+**20 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 20 January 2020. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 17 January 2020 and before 14:00 ET Tuesday, 21 January 2020 will be announced at 20:00 ET Tuesday, 21 January 2020.
+
+
 #### October 2019
 <span id="2019Oct31"></span>
 
