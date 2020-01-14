@@ -23,7 +23,7 @@ the arXiv codebase:
 - Sawood Alam ([ibnesayeed](https://github.com/ibnesayeed))
 - Adhitya Mohan ([poad42](https://github.com/poad42))
 - Tanvi Anand ([tanvi15](https://github.com/tanvi15))
-- Viktor Kerkez ([alefnula] (https://github.com/alefnula))
+- Viktor Kerkez ([alefnula](https://github.com/alefnula))
 - Robert Stojnic ([rstojnic] (https://github.com/rstojnic))
 
 Please see our [guidelines for
