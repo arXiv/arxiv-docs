@@ -61,7 +61,7 @@ or use the one line command
   perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
 ```
 
-or use [`arxiv-latex-cleaner`](https://github.com/google-research/arxiv-latex-cleaner)&mdash;which can remove comments, remove auxiliary files, and shrink images.
+or use this third-party tool, [`arxiv-latex-cleaner`](https://github.com/google-research/arxiv-latex-cleaner)&mdash;which can remove comments, remove auxiliary files, and shrink images. Note that arXiv will provide no user support for this tool, so use with care.
 
 ```bash
   arxiv_latex_cleaner /path/to/tex/
