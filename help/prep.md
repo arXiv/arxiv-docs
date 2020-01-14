@@ -304,7 +304,7 @@ granularity:
 
 -   For submissions to the cs archive, this field is used to indicate
     the classification code according to the [ACM Computing
-    Classification System](http://www.acm.org/about/class/ccs98-html)
+    Classification System](https://www.acm.org/publications/computing-classification-system/1998)
     (or see this
     [overview](http://www.acm.org/about-acm/class/how-to-use)). Here is
     an example
@@ -386,7 +386,7 @@ Authors fields.
 <td ><b>&#305;</b>&nbsp;&nbsp;&nbsp;{\i}</td>
 </tr>
 <tr>
-<td ><b>&#322;</b>&nbsp;&nbsp;&nbsp;{\I}</td>
+<td ><b>&#322;</b>&nbsp;&nbsp;&nbsp;{\l}</td>
 <td ><b>&#321;</b>&nbsp;&nbsp;&nbsp;{\L}</td>
 <td ><b>&#331;</b>&nbsp;&nbsp;&nbsp;{\ng}</td>
 <td ><b>&#330;</b>&nbsp;&nbsp;&nbsp;{\NG}</td>

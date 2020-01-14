@@ -2,7 +2,7 @@
 
 Papers in the [Computing Research Repository (CoRR)](./) are classified in two ways: by subject area from a list of subjects listed below and by using the 1998 ACM Computing Classification System. The ACM classification scheme provides us with a relatively stable scheme that covers all of computer science. The subject areas are not mutually exclusive, nor do they (yet) provide complete coverage of the field. On the other hand, we hope that they better reflect the active areas of research in CS. We expect to add more subject areas and subdivide current subject areas according to demand. Authors who cannot find an appropriate subject area should use subject area Other. We welcome constructive [comments and suggestions](/help/contact).
 
-**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Giuseppe de Giacomo and Fabio Patrizi
+**[AI - Artificial Intelligence](/list/cs.AI/recent)** - Diego Calvanese, Julien Corman, and Ognjen Savkovic
 
 Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.
 
@@ -10,7 +10,7 @@ Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Sys
 
 Covers models of computation, complexity classes, structural complexity, complexity tradeoffs, upper and lower bounds. Roughly includes material in ACM Subject Classes F.1 (computation by abstract devices), F.2.3 (tradeoffs among complexity measures), and F.4.3 (formal languages), although some material in formal languages may be more appropriate for Logic in Computer Science. Some material in F.2.1 and F.2.2, may also be appropriate here, but is more likely to have Data Structures and Algorithms as the primary subject area.
 
-**[CG - Computational Geometry](/list/cs.CG/recent)** - Jeff Erickson
+**[CG - Computational Geometry](/list/cs.CG/recent)** - Kevin Buchin, Jeff Erickson
 
 Roughly includes material in ACM Subject Classes I.3.5 and F.2.2.
 
@@ -30,7 +30,7 @@ Covers image processing, computer vision, pattern recognition, and scene underst
 
 Covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education. Roughly includes material in ACM Subject Classes K.0, K.2, K.3, K.4, K.5, and K.7.
 
-**[CR - Cryptography and Security](/list/cs.CR/recent)** - Stanislaw Jarecki
+**[CR - Cryptography and Security](/list/cs.CR/recent)** - Jeremiah Blocki
 
 Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.
 
@@ -46,7 +46,7 @@ Covers data structures and analysis of algorithms. Roughly includes material in 
 
 Covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area). Roughly includes material in ACM Subject Classes H.3.5, H.3.6, H.3.7, I.7.
 
-**[DM - Discrete Mathematics](/list/cs.DM/recent)** - Jeff Erickson
+**[DM - Discrete Mathematics](/list/cs.DM/recent)** - Jeff Erickson, Marcin Pilipczuk
 
 Covers combinatorics, graph theory, applications of probability. Roughly includes material in ACM Subject Classes G.2 and G.3.
 
@@ -78,7 +78,7 @@ Covers all aspects of computer graphics. Roughly includes material in all of ACM
 
 Covers systems organization and architecture. Roughly includes material in ACM Subject Classes C.0, C.1, and C.5.
 
-**[HC - Human-Computer Interaction](/list/cs.HC/recent)** - Terry Winograd
+**[HC - Human-Computer Interaction](/list/cs.HC/recent)** - Terry Winograd and Michael Bernstein
 
 Covers human factors, user interfaces, and collaborative computing. Roughly includes material in ACM Subject Classes H.1.2 and all of H.5, except for H.5.1, which is more likely to have Multimedia as the primary subject area.
 
@@ -90,9 +90,32 @@ Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes
 
 Covers theoretical and experimental aspects of information theory and coding. Includes material in ACM Subject Class E.4 and intersects with H.1.1.
 
-**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich
+**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich, Sebastian Raschka and Luis Lamb
 
-Covers machine learning and computational (PAC) learning. Roughly includes material in ACM Subject Class I.2.6.
+Papers on all aspects of machine learning research (supervised,
+unsupervised, reinforcement learning, bandit problems, and so on)
+including also robustness, explanation, fairness, and
+methodology. cs.LG is also an appropriate primary category for
+applications of machine learning methods. 
+
+*Relationship to other categories*: If the primary domain of the
+application is available as another category in arXiv and readers of
+that category would be the main audience, that category should be
+primary. Examples include applications to computer vision (cs.CV),
+natural language processing (cs.CL), speech recognition (eess.AS),
+information retrieval (cs.IR; includes document classification and
+topic modeling), crowdsourcing (cs.HC), quantitative finance ([q-fin](/archive/q-fin)),
+and quantitative biology ([q-bio](/archive/q-bio)). Papers discussing the foundations of
+neural network architectures (activation functions, spiking neurons,
+etc.) should list cs.NE as primary, as should papers applying
+biologically-inspired optimization techniques such as evolutionary
+methods. Papers working with the properties of specific signal types
+(e.g., sound, EEG, hyperspectral, ultrasound) should consider cs.SD
+(sound, including music), eess.IV (images and video), or eess.SP as
+primary. cs.LG is not appropriate for papers studying human learning
+such as computer-aided instruction, where cs.CY is a better
+fit. Papers categorized with cs.LG as primary are automatically
+cross-listed as stat.ML and vice versa.
 
 **[LO - Logic in Computer Science](/list/cs.LO/recent)** - Gopalan Nadathur
 
@@ -138,7 +161,7 @@ Covers performance measurement and evaluation, queueing, and simulation. Roughly
 
 Covers programming language semantics, language features, programming approaches (such as object-oriented programming, functional programming, logic programming). Also includes material on compilers oriented towards programming languages; other material on compilers may be more appropriate in Architecture (AR). Roughly includes material in ACM Subject Classes D.1 and D.3.
 
-**[RO - Robotics](/list/cs.RO/recent)** - Mark Moll
+**[RO - Robotics](/list/cs.RO/recent)** - Damien Chablat
 
 Roughly includes material in ACM Subject Class I.2.9.
 
@@ -146,7 +169,7 @@ Roughly includes material in ACM Subject Class I.2.9.
 
 Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.
 
-**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse
+**[SE - Software Engineering](/list/cs.SE/recent)** - Stéphane Ducasse and Nicolas Anquetil
 
 Covers design tools, software metrics, testing and debugging, programming environments, etc. Roughly includes material in all of ACM Subject Classes D.2, except that D.2.4 (program verification) should probably have Logics in Computer Science as the primary subject area.
 

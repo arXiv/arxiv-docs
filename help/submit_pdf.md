@@ -54,14 +54,29 @@ one of these free conversion utilities:
 (Please contact us if this information is out of date or if you can
 suggest other free tools that are better.)
 
+<span id="readable"></span>PDF must be machine readable 
+-------------------------------------------------------
+
+arXiv relies on our submitters to provide a PDF which is *machine readable*
+(i.e. that the PDF is not encrypted, bitmapped, or otherwise altered to prevent
+text extraction), which facilitates **discovery and access**. 
+This means that we can build tools around your work to provide
+content discovery (e.g. full text search), and readers can still
+understand its contents using tools such as screen readers. 
+
+arXiv does not accept bitmapped or scanned PDF, even in the case of software provided OCR
+(optical character recognition), because OCR software may not be sufficiently accurate for our 
+archival purposes, nor are they necessarily compliant for screen readers and other accessibility 
+requirements. 
+
 <span id="copyright"></span>Copyright within PDF
 ------------------------------------------------
 
-Copyright statements of the author are permitted within the pdf, however
-submissions containing journal copyright will be rejected. Copyright
+Copyright statements of the author are permitted within the pdf. Copyright
 statements which prohibit or impair arXiv's [redistribution
-license](/help/license) will also be rejected. If explicit permission is
+license](/help/license) will be rejected. If explicit permission is
 given for open access redistribution, these are permissible.
+Users should contact arXiv administrators at help@arxiv.org if they have questions.
 
 Note on IEEE submissions. Please note arXiv will currently take the
 'Accepted' IEEE version but not the 'Published' IEEE version. For more

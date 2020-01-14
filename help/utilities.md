@@ -26,7 +26,8 @@ e-print archives, but their usefulness may be somewhat limited for you.
 In time you will discover which tools are necessary for your usage
 patterns.
 
-### TeX [tex]
+<span id="tex"></span>
+### TeX
 
 Most authors will submit the [TeX](tex) source for their documents.
 There are some [important technical reasons](faq/whytex) for this.
@@ -47,13 +48,15 @@ RevTeX and other APS-related TeX information can be found at
 See <http://arxiv.org/hypertex/> for HyperTeX utilities and Hyperdvi
 viewers.
 
-### tar and gzip [taretc]
+<span id="taretc"></span>
+### tar and gzip
 
 You can obtain excellent versions of tar, gzip from the [GNU
 Project](http://www.gnu.org/). The source code is freely redistributable
 and supports a very wide range of platforms.
 
-### Filename extensions [extensions]
+<span id="extensions"></span>
+### Filename extensions
 
 To avoid unnecessary confusion, you are strongly urged to use the
 standard file name extensions when submitting your files. In most cases

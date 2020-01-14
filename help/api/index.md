@@ -12,6 +12,9 @@ provides links to developer documentation, and gives instructions for
 how to join the mailing list and contact other developers and
 maintainers.
 
+Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
+API.
+
 For more news and questions about the arXiv API, please see our [arxiv-api
 group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](faq).
 
@@ -21,11 +24,11 @@ group](http://groups.google.com/group/arxiv-api). Additional information is also
 
   - [Using the arXiv API](#using)
 
-  - [arXiv API documentation](#documentation)
+  - [arXiv API documentation](./user-manual)
 
   - [Community](#community)
 
-
+<a name="about"></a>
 ## About the arXiv API
 
 The Cornell University e-print arXiv, hosted at
@@ -65,6 +68,7 @@ be able to use the api.
 Please see [Using the arXiv API](#using), or the [User's
 Manual](user-manual) for more information.
 
+<a name="using"></a>
 ## Using the arXiv API
 
 Since the arXiv API is based on the now ubiquitous HTTP, using it should
@@ -292,6 +296,8 @@ The following projects use the arXiv API:
 
   - [biblio.el - Download BibTeX entries from arXiv and others in
     Emacs](https://github.com/cpitclaudel/biblio.el)
+
+  - [Lib arXiv - arXiv app for iOS devices](http://www.naru.jpn.com/lib_arxiv/en/)
 
   - [arxivist.com](http://arxivist.com)
 

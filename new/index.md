@@ -7,6 +7,86 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+
+#### January 2020
+<span id="6Jan2020"></span>
+
+6 January 2020
+
+**20 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 20 January 2020. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 17 January 2020 and before 14:00 ET Tuesday, 21 January 2020 will be announced at 20:00 ET Tuesday, 21 January 2020.
+
+
+#### October 2019
+<span id="2019Oct31"></span>
+
+31 October 2019
+
+
+**November Holiday Schedule:** The mailings and the public availability of new submissions will be deferred
+for 28 November 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide 
+limited service in response to queries during this period.
+
+- Articles received at or after 14:00 ET Wednesday, 27 November 2019 and before 14:00 ET Friday, 29 November 2019
+ will be announced at 20:00 ET Sunday, 1 December 2019. 
+   - **Note:** articles submitted at or after 14:00 ET Wednesday 27 November 2019 will receive `arXiv:1912.NNNNN` identifiers.
+
+**December Holiday Schedule** The mailings and the public availability of new submissions will be deferred for 
+25 December, 26 December, and 30 December 2019, as well as 1 January 2020. The arXiv servers will otherwise remain 
+in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
+
+- Articles received at or after 14:00 ET Tuesday, 24 December 2019 and before 14:00 ET Friday, 27 December 2019 
+  will be announced at 20:00 ET Sunday, 29 December 2019.
+- Articles received at or after 14:00 ET Friday, 27 December 2019 and before 14:00 ET Tuesday, 31 December 2019 
+  will be announced at 20:00 ET Tuesday, 31 December 2019.
+- Articles received at or after 14:00 ET Tuesday, 31 December 2019 and before 14:00 ET Thursday, 2 January 2020
+  will be announced at 20:00 ET 2 January 2020.
+  -  **Note:** articles submitted at or after 14:00 ET Tuesday, 31 December 2019 will receive `arXiv:2001.NNNNN` identifiers.
+
+
+#### September 2019
+<span id="sep23_2019"></span>
+23 September 2019
+
+**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](/about/donate) during our giving campaign September 23-27.
+
+
+
+#### August 2019
+
+<span id="august20_2019"></span>
+19 August 2019
+
+**2 September - Labor Day Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 2 September 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+
+- Articles received at or after 14:00 ET Friday, 30 August 2019 and before 14:00 ET Tuesday, 3 September 2019 will be announced at 20:00 ET Tuesday, 3 September 2019.
+  
+
+
+#### June 2019
+
+<span id="june11_2019"></span>
+11 June 2019
+
+**arXiv created a Systems and Control category eess.SY that will merge with cs.SY. We also merged the existing Numerical Analysis categories math.NA/cs.NA**
+
+Two changes to arXiv categories were made today. 
+
+The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at https://arxiv.org/archive/eess.
+
+arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA. 
+
+Thank you to arXiv moderators, subject advisory committees, and scientific advisory board members who provided leadership and input on these changes. Special thanks to our math.NA and cs.NA moderators for putting in extra effort over the past two month to pilot this move.
+
+#### April 2019
+
+<span id="apr22_2019"></span>
+22 April 2019
+
+**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](/about/donate) during our giving campaign April 22–26.
+
+
 #### February 2019
 
 <span id="feb13_2019"></span>

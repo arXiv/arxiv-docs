@@ -5,6 +5,9 @@ This page describes arXiv bulk data available from Amazon S3. See also
 [details of other bulk data feeds from arXiv](bulk_data). Note that
 arXiv's S3 buckets are located in the Eastern US (N. Virginia) region.
 
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
+arXiv bulk data buckets.
+
 *Note: Most articles submitted to arXiv are submitted with the [default
 arXiv
 license](http://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html),
@@ -163,35 +166,5 @@ Tools<span id="tools"></span>
 We do not track development of tools interacting with Amazon S3, nor
 endorse any particular tool. However, in development of this facility on
 a Linux platform we have found [`s3cmd`](http://s3tools.org/s3cmd)
-useful. The example output below was generated with `s3cmd` version
-1.6.1.
-
-`s3cmd` will allow you to use a URI-like syntax (e.g. `s3://bucket/key`
-to refer to a file called `key` in bucket `bucket`) with list and get
-commands as follows. Prior to using `s3cmd`, you will need to go through
-several configuration steps which include specifying your AWS access key
-and secret key. Note that you will be charged for the requests and
-bandwidth when you issue requester pays requests by specifying the
-`--requester-pays` flag.
-
-    # s3cmd ls --requester-pays s3://arxiv/pdf 
-                           DIR   s3://arxiv/pdf/
-    # s3cmd ls --requester-pays s3://arxiv/pdf/\*
-    2010-07-29 19:56 526202880   s3://arxiv/pdf/arXiv_pdf_0001_001.tar
-    2010-07-29 20:08 138854400   s3://arxiv/pdf/arXiv_pdf_0001_002.tar
-    2010-07-29 20:14 525742080   s3://arxiv/pdf/arXiv_pdf_0002_001.tar
-    2010-07-29 20:33 156743680   s3://arxiv/pdf/arXiv_pdf_0002_002.tar
-    2010-07-29 20:38 525731840   s3://arxiv/pdf/arXiv_pdf_0003_001.tar
-    2010-07-29 20:52 187607040   s3://arxiv/pdf/arXiv_pdf_0003_002.tar
-    2010-07-29 20:58 525731840   s3://arxiv/pdf/arXiv_pdf_0004_001.tar
-    2010-07-29 21:11  44851200   s3://arxiv/pdf/arXiv_pdf_0004_002.tar
-    2010-07-29 21:14 526305280   s3://arxiv/pdf/arXiv_pdf_0005_001.tar
-    2010-07-29 21:27 234711040   s3://arxiv/pdf/arXiv_pdf_0005_002.tar
-    ...
-    # s3cmd ls --requester-pays s3://arxiv/pdf/arXiv_pdf_manifest.xml
-    2011-02-15 04:12    246144   s3://arxiv/pdf/arXiv_pdf_manifest.xml
-    # s3cmd get --requester-pays s3://arxiv/pdf/arXiv_pdf_manifest.xml
-    s3://arxiv/pdf/arXiv_pdf_manifest.xml -> ./arXiv_pdf_manifest.xml  [1 of 1]
-     246144 of 246144   100% in    0s   377.85 kB/s  done
-    #ls -l arXiv_pdf_manifest.xml 
-    -rw-r--r-- 1 user   user   246144 Mar 30 13:44 arXiv_pdf_manifest.xml
+useful. Please consult your tool's documentation for the appropriate syntax
+and usage.

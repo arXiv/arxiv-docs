@@ -25,7 +25,7 @@ With one of the enhanced styles below, the eprint identifier would automatically
 
 > \[1\] M. Beneke and G. Buchalla and I. Dunietz, _Mixing induced CP asymmetries in inclusive B decays_, Phys. Lett. B393, 132-142, 1997, hep-ph/9609357.
 
-Papers downloaded from the archive are produced with [HyperTeX](/hypertex). With HyperTeX the string **hep-ph/9609357** becomes a clickable hyperlink to the on-line abstract of that paper at [arXiv:hep-ph/9609357](/abs/hep-ph/9609357) when viewed with a suitable program. Such programs include PDF viewers e.g. Acroread or OmniPDF, or a modified versions of ghostview.
+Papers downloaded from the archive are produced with [HyperTeX](/help/hypertex). With HyperTeX the string **hep-ph/9609357** becomes a clickable hyperlink to the on-line abstract of that paper at [arXiv:hep-ph/9609357](/abs/hep-ph/9609357) when viewed with a suitable program. Such programs include PDF viewers e.g. Acroread or OmniPDF, or a modified versions of ghostview.
 
 Note that the eprint field is automatically included in the bibtex output of the [SLAC SPIRES](http://www.slac.stanford.edu/spires/hep) database listings (Select Output Format: BIBTEX). Using SPIRES is an easy way to collect bibtex references without having to type them by hand (and the concomitant possibility of error).
 

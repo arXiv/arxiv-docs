@@ -41,7 +41,7 @@ the requirements below will be met.
 
 -   Proxy submitters must provide a valid contact email address to a
     reliable and named contact person when creating an arXiv account.
--   Articles must meet normal academic standards and are subject to
+-   Articles are subject to
     arXiv's [moderation](moderation) process.
 -   Articles must be classified individually and carefully based on
     their content rather than being submitted to a category based solely

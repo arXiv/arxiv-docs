@@ -1,10 +1,6 @@
 Contacting arXiv
 ===============================
 
-## Membership and Giving
-
-Information about institutional membership or contributions to arXiv can be found at [arXiv funding support](support), or contact support@arxiv.org.
-
 ## Technical queries
 
 If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us at help@arxiv.org. 
@@ -32,6 +28,9 @@ If you have questions about the status of your submission, contact us at moderat
 -   Please be *patient*, as moderation appeals are complicated and may
     take some time.
 
+## Membership and Giving
+
+Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](/about/give), or contact membership@arxiv.org.
 
 ## Copyright infringement
 

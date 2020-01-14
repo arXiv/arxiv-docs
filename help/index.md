@@ -5,11 +5,11 @@ slug: Help
 # arXiv Help Contents
 
 ## General Information
-- [arXiv Primer](primer)
+- [About arXiv](/about)
 - [arXiv Help Frequently Asked Questions](faq/index)
 
 ## Searching and Browsing
-- [To Find an Article](find)
+- [Find an Article](find)
 - [Viewing Articles](view)
 - [Configuring Your Browser for Downloads](config_browser)
 - [Cookie Configuration](../cookies)
@@ -17,20 +17,20 @@ slug: Help
 - [Gzipped files](gzip)
 
 ## User Accounts
-- [To Register](registerhelp)
+- [Register a User Account](registerhelp)
 - [The Endorsement System](endorsement)
 - [Protecting your Privacy](email-protection)
 - [Authority Records](authority)
 - [The User-ID/Password System](passwords)
-- [To Subscribe to E-Mail Listings](subscribe)
+- [Subscribe to E-Mail Listings](subscribe)
 
 ## Submission and Revision
-- [To Submit an Article](submit)
+- [Submit an Article](submit)
 - [Terms of submission](terms_of_submission)
-- [To Replace an Article](replace)
-- [To Withdraw an Article](withdraw)
-- [To Add a Journal Reference, DOI or Report Number to an Article](jref)
-- [To Crosslist an Article](cross)
+- [Replace an Article](replace)
+- [Withdraw an Article](withdraw)
+- [Add a Journal Reference, DOI or Report Number to an Article](jref)
+- [Crosslist an Article](cross)
 - [The Moderation System](moderation)
 - [Oversized Submissions](sizes)
 - [Text Overlap Detection](overlap)
