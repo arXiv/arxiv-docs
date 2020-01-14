@@ -5,11 +5,11 @@ title: 'Volunteer Developers'
 # Volunteer Developers
 
 The technical infrastructure and software behind arXiv.org is operated and
-maintained by a core team of dedicated IT staff at Cornell. However, it would
-not be possible to keep pace with the ever-changing landscape of internet
-technology, nor the evolving needs of 21st century science, without the help of
-dedicated arXiv users who contribute to the open source software that powers
-the arXiv platform.
+maintained by a core team of dedicated IT staff at Cornell University. However,
+it would not be possible to keep pace with the ever-changing landscape of
+internet technology, nor the evolving needs of 21st century science, without
+the help of dedicated arXiv users who contribute to the open source software
+that powers the arXiv platform.
 
 We are grateful to the following volunteer developers for their contributions to
 the arXiv codebase:
@@ -23,8 +23,10 @@ the arXiv codebase:
 - Sawood Alam ([ibnesayeed](https://github.com/ibnesayeed))
 - Adhitya Mohan ([poad42](https://github.com/poad42))
 - Tanvi Anand ([tanvi15](https://github.com/tanvi15))
+- Viktor Kerkez ([alefnula] (https://github.com/alefnula))
+- Robert Stojnic ([rstojnic] (https://github.com/rstojnic))
 
 Please see our [guidelines for
 contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or
-contact Erick Peirson (brp53@cornell.edu), for more information about
-contributing to arXiv software development.
+contact nextgen@arxiv.org, for more information about contributing to arXiv
+software development.
