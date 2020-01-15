@@ -74,8 +74,8 @@ Professor of Mathematics and Physics,
 Henry Ford II Professor of Physics, and Professor of
     Applied Physics and Mathematics, Yale University (ex officio, as
     co-chair of Physics Advisory Committee)
-> -   ### Robert Seiringer (co-chair of Physics Advisory Committee)
-Professor, Institute of Science and Technology Austria
+> -   ### Robert Seiringer 
+Professor, Institute of Science and Technology Austria (co-chair of Physics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
