@@ -73,7 +73,9 @@ Professor of Mathematics and Physics,
 > -   ### Nicholas Read
 Henry Ford II Professor of Physics, and Professor of
     Applied Physics and Mathematics, Yale University (ex officio, as
-    chair of Physics Advisory Committee)
+    co-chair of Physics Advisory Committee)
+> -   ### Robert Seiringer (co-chair of Physics Advisory Committee)
+Professor, Institute of Science and Technology Austria
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
