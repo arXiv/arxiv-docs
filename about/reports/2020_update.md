@@ -50,7 +50,7 @@ We also thank the members of the arXiv advisory groups ([Scientific Advisory Boa
 
 **arXiv Management Team**
 
-Jim Entwood (Interim Executive Director, Operations Manager), Steinn Sigurdsson (Scientific Director), Martin Lessmeister (IT Lead), Alison Fromme (Community Engagement & Development Coordinator), Alison Fromme (Community Engagement & Development Coordinator), Janelle Morano (_Former_ Community Engagement & Development Coordinator)
+Jim Entwood (Interim Executive Director, Operations Manager), Steinn Sigurdsson (Scientific Director), Martin Lessmeister (IT Lead), Alison Fromme (Community Engagement & Development Coordinator), Janelle Morano (_Former_ Community Engagement & Development Coordinator)
 
 **Website**: [arXiv Public Wiki](https://confluence.cornell.edu/display/arxivpub/arXiv+Public+Wiki)
 
