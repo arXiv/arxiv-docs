@@ -1,6 +1,8 @@
 # arXiv Reports
 
 ## Annual Updates
+[2020 Annual Update](/about/reports/2020_update)
+
 [2019 Annual Update](/about/reports/2019_update)
 
 [2018 Annual Update](/about/reports/arXiv_update_January_2018.pdf)
@@ -51,6 +53,8 @@
 [2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
+[2020 Roadmap](/about/reports/2020_roadmap)
+
 [2019 Roadmap](/about/reports/2019_roadmap)
 
 [2018 Roadmap](/about/reports/2018_roadmap.pdf)

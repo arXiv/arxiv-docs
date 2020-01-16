@@ -1,6 +1,6 @@
 # Business Model
 
-arXiv’s sustainability planning creates a broad-based, community-supported resource, ensuring that the ultimate responsibility for sustaining arXiv remains with the research communities and institutions that benefit from the service most directly. arXiv’s sources of revenue are from 1) [Cornell University](https://www.cornell.edu/), which provides a cash subsidy in support of arXiv’s operational costs and an in-kind contribution of all indirect costs, which currently represents 37% of total operating expenses, 2) [The Simons Foundation](https://www.simonsfoundation.org/), 3) [member institutions](about/membership), 4) [gifts](/about/give), and 5) grants from foundations and agencies.
+arXiv’s sustainability planning creates a broad-based, community-supported resource, ensuring that the ultimate responsibility for sustaining arXiv remains with the research communities and institutions that benefit from the service most directly. arXiv’s sources of revenue are from 1) [Cornell University](https://www.cornell.edu/), which provides a cash subsidy in support of arXiv’s operational costs and an in-kind contribution of all indirect costs, which currently represents 37% of total operating expenses, 2) [The Simons Foundation](https://www.simonsfoundation.org/), 3) [member institutions](membership), 4) [gifts](give), and 5) grants from foundations and agencies.
 
 ### [2019 Annual Update](/about/reports/2019update)
 

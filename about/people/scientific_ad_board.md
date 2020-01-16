@@ -45,10 +45,6 @@ arXiv's Scientific Advisory Board is composed of scientists and researchers in d
 
 > -   ### Eberhard Bodenschatz
 Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
-> -   ### Ralf Bundschuh
-Professor of Physics and Biochemistry, Ohio State
-    University (_ex officio, as chair of Quantitative Biology Advisory
-    Committee_)
 > -   ### Mark Doyle
 Chief Information Officer, American Physical Society (APS Physics)
 > -   ### Gregory Gabadadze
@@ -64,6 +60,8 @@ Faculty Member, Perimeter Institute for
 > -   ### Joe Halpern
 Professor of Computer Science, Cornell University (ex
     officio, as chair of Computer Science Advisory Committee)
+> -   ### Jarvis Haupt
+Professor, University of Minnesota
 > -   ### Tara Holm
 Professor of Mathematics, Cornell University
 > -   ### Greg Kuperberg
@@ -75,11 +73,15 @@ Professor of Mathematics and Physics,
 > -   ### Nicholas Read
 Henry Ford II Professor of Physics, and Professor of
     Applied Physics and Mathematics, Yale University (ex officio, as
-    chair of Physics Advisory Committee)
+    co-chair of Physics Advisory Committee)
+> -   ### Robert Seiringer 
+Professor, Institute of Science and Technology Austria (co-chair of Physics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
 ICREA Research Professor, Universitat de Barcelona
+> -   ### Larry Wassermann
+Professor, Carnegie Mellon University (chair of Statistics Advisory Committee)
 
 <span id="advisory_committees"></span>
 
