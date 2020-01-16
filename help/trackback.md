@@ -5,15 +5,14 @@ arXiv.org supports the
 [Trackback](http://en.wikipedia.org/wiki/Trackback) standard. By sending
 a trackback, you can notify arXiv.org that you've created a web page
 that references a particular paper. You can view [recent
-trackbacks.](http://arxiv.org/tb/recent)
+trackbacks.](https://arxiv.org/tb/recent)
 
 You can send a trackback to our system by giving your blogging software
 the following *trackback URL*:
 
-http://arxiv.org/trackback/*{paper\_id}*
+`https://arxiv.org/trackback/paper_id`
 
-You will find this URL at the bottom of every abstract page. Our
-abstract pages support trackback autodiscovery: some software such as
+Our abstract pages support trackback autodiscovery: some software such as
 [Movable Type](http://www.sixapart.com/movabletype/) can send trackbacks automatically
 when you link to our abstract pages. Note that [WordPress](http://www.wordpress.org) only
 is capable of sending "pingbacks" automatically, which are not supported by arXiv. Instead see
@@ -29,12 +28,12 @@ is capable of sending "pingbacks" automatically, which are not supported by arXi
     new blogs.
 -   We reserve the right to reject trackbacks for any reason.
 -   Trackback autodiscovery is only implemented on URLs of the form
-    "http://arxiv.org/abs/{paper\_id}" and NOT on URLs of the format
-    "http://arxiv.org/{paper\_id}" or on PDF or other full-text formats.
+    `https://arxiv.org/abs/article_id` and NOT on URLs of the format
+    `https://arxiv.org/paper_id` or on PDF or other full-text formats.
     Bloggers will get best results if they link only to the official
     abstract page.
 -   Trackbacks recorded for an article may be seen from URIs of the form
-    <http://arxiv.org/tb/0704.0002> where [0704.0002](/abs/0704.0002) is
+    <https://arxiv.org/tb/0704.0002> where [0704.0002](/abs/0704.0002) is
     the article id.
 
 Trackback Data [data]
@@ -46,7 +45,7 @@ Data Model](http://www.openannotation.org/spec/core/) for machine
 consumption. The data is organized by the article id that the trackback
 or trackbacks apply to, according to the URI pattern:
 
-http://export.arxiv.org/data/trackbacks/trackback\_*{paper\_id}*.ttl
+`http://export.arxiv.org/data/trackbacks/trackback_paper_id.ttl`
 
 For example, for [0704.0002](/abs/0704.0002) the URI is:
 
@@ -59,12 +58,12 @@ compatible sitemap listing the complete set of trackback data files at:
 to synchronize the set of data is with the
 [`resync`](https://pypi.python.org/pypi/resync) client. For example, to
 copy or sync to a local directory called `arxiv_trackbacks` one may use:
-
+```
     > resync http://export.arxiv.org/data/trackbacks arxiv_trackbacks
     Status:     NOT IN SYNC (same=28835, to create=1951, to update=0, to delete=0)
     Will GET 1951 resources
     Status:          SYNCED (same=28835, created=1951, updated=0, deleted=0)
-
+```
 (where in the example above the data had previously been copied to the
 `arxiv_trackbacks` directory but 1951 new resources were downloaded to
 bring the copy into sync.)
