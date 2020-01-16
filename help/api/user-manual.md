@@ -674,6 +674,7 @@ example, and we'll be glad to post it!
 
 All of the simple examples produce an output which looks like:
 
+<span id="response_example"></span>
 Example: A Typical Atom Response
 ```atom
     <?xml version="1.0" encoding="utf-8"?>
