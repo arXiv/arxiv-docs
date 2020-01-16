@@ -28,7 +28,7 @@ is capable of sending "pingbacks" automatically, which are not supported by arXi
     new blogs.
 -   We reserve the right to reject trackbacks for any reason.
 -   Trackback autodiscovery is only implemented on URLs of the form
-    `https://arxiv.org/abs/paper_id` and NOT on URLs of the format
+    `https://arxiv.org/abs/article_id` and NOT on URLs of the format
     `https://arxiv.org/paper_id` or on PDF or other full-text formats.
     Bloggers will get best results if they link only to the official
     abstract page.
