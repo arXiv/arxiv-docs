@@ -2,7 +2,7 @@
 
 _Published January 16, 2020_
 
-arXiv’s free distribution service and open archive continues to grow annually and hosts over 1.6 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics. In 2019, the repository received 1,639,224 [new submissions](/help/stats/2019_by_area), a 10% increase from 2018, and about 260 million downloads from all over the world.
+arXiv’s free distribution service and open archive continues to grow annually and hosts over 1.6 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics. In 2019, the repository received 155,866 [new submissions](/help/stats/2019_by_area), an 11% increase from 2018, and about 260 million downloads from all over the world.
 
 ## Leadership and Staffing Changes
 
