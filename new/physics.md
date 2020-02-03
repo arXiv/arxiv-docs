@@ -23,4 +23,5 @@ The advisory committee members serve as consultants to Cornell University and to
 *   [Michael Lawler](http://www2.binghamton.edu/physics/people/michael.html) (SUNY Binghamton): condensed-matter physics
 *   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (UCSD): condensed-matter experiment
 *   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (UC Davis): mathematical physics
-*   [Nicholas Read](http://physics.yale.edu/people/nicholas-read) (Yale): condensed-matter theory (chair)
+*   [Nicholas Read](http://physics.yale.edu/people/nicholas-read) (Yale): condensed-matter theory (co-chair)
+*   [Robert Seiringer](http://pub.ist.ac.at/~rseiring/Robert_Seiringer/Robert_Seiringers_Homepage.html) (Institute of Science and Technology Austria): mathematical Physics (co-chair)
