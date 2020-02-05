@@ -52,3 +52,14 @@ without your paper password, but this process requires manual
 intervention from our operator and may result in a delay of several
 days; our administrators may also need to contact you to verify that
 your authorship claim is correct.
+
+<span id="coauthor"></span>
+A note on authorship in scholarly works
+=======================================
+
+While we hope and expect authors submitting articles to arXiv would do so with the knowledge and agreement of their co-authors, explicit consent from all co-authors is not legally required. Under U.S. copyright law, a single co-author normally has authority to agree to arXiv's non-exclusive distribution license. Submitters to arXiv are expected to follow normal publishing practices for co-authored submissions (**i.e.** seeking consent and approval from their co-authors and any other required parties). arXiv will not adjudicate intra-collaboration authorship disputes surrounding submission or announcement. Any complaints will be redirected to author's institutions. Findings of malfeasance (ethical or otherwise) may be [reported](/help/contact) by an institutional officer to arXiv's "help" email address with more information.
+
+### Falsification of Authorship 
+
+Submitters are required to comply with arXiv's [code of conduct](/help/policies/code_of_conduct). If you believe there has been an ethical violation such as falsification of authorship, please [contact](/help/contact) arXiv administrators via the "help" email address with a complete explanation. Note that this will open a dialog with the submitter as well, and cannot be used as an "authorship dispute by proxy".
+

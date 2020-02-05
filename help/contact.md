@@ -37,4 +37,11 @@ Information about institutional membership or contributions to arXiv can be foun
 To contact Cornell University's designated agent for alleged copyright
 infringement, in accordance with the Digital Millennium Copyright Act,
 see [Copyright
-Infringements](http://www.cornell.edu/copyright-infringement.cfm).
+Infringements](http://www.cornell.edu/copyright-infringement.cfm). 
+
+<span id="figures"></span>
+**Note:** For queries regarding figure reuse for your manuscript, please contact the submitter or copyright holder directly.
+
+## Authorship Disputes
+
+arXiv will not adjudicate [authorship disputes](/help/authority#coauthor) within a collaboration of authors. If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct) please contact help@arxiv.org with additional information and a complete explanation.
