@@ -7,7 +7,7 @@ arXiv’s sustainability planning creates a broad-based, community-supported res
 ## Financials
 arXiv maintains an operating Reserve Fund to support one-time program enhancement costs, unforeseen expenses, and ensure a sound business model. The reserve funds are structured in two categories of expenses: Operating Funds and Development Funds. Operating Funds can be used to cover short-term revenue shortages and emergencies expenses (e.g., equipment failure). Development Funds can be used for special projects that the arXiv team develops, proposes, and considers funding with SAB and MAB.
 
-### 2019 Budget
+### 2020 Budget - UPDATE ALL NUMBERS
 
 | **REVENUE**        |    | **2019 BUDGET**        |  **CY19 PROJECTIONS** |
 | :------------- | :---------- |:-------------:| -----:|
