@@ -18,7 +18,7 @@ people:
     name: Alison Fromme
     position: Community Engagement and Membership Coordinator
     bio: |
-      Alison coordinates the outreach and development program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Alison is a professional science writer with an M.S. in biology.
+      Alison coordinates the outreach and development program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Alison is a professional science writer with an M.S. in zoology.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
