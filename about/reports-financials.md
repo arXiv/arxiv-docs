@@ -35,6 +35,7 @@ arXiv maintains an operating Reserve Fund to support one-time program enhancemen
 | **Total Direct Expenses** |  | **$1,960,442** |  
 | **CONTRIBUTED INDIRECT EXPENSES** |  |  |  
 |Contributed indirect expenses by Cornell (37% of modified total direct costs)<sup>3</sup> |   | $723,670 | 
+|Contributed volunteer time by arXiv's 180+ moderators | | not tracked |
 |**Subtotal Indirect Costs** |  | **$723,670** |  
 |**TOTAL EXPENSES (DIRECT + INDIRECT)** |  | **$2,684,111** |   
 | **RESERVE BALANCE** |  |  |  
