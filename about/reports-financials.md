@@ -11,14 +11,14 @@ arXiv maintains an operating Reserve Fund to support one-time program enhancemen
 
 | **REVENUE**        |    | **2020 BUDGET**        |   |
 | :------------- | :---------- |:-------------:| -----:|
-| Member Contributions      |  | $550,000 | $551,625 |
-| Simons Foundation Annual Commitment      |  | $100,000      |   $100,000 |
-| Simons Foundation Matching Fund |  | $300,000      |    $300,000 |
-| Cornell University (Direct + Leadership) |  | $170,000  | $138,179 |
-| Heising-Simons Foundation  |  | $161,000  | $121,400 |
-| Gifts |  | $120,000  | $180,000  |
-| Funding from Development Reserves<sup>1</sup> |  | $100,000   | $95,238  |
-|  **Total Revenue** |  | **$1,501,000**   | **$1,486,442**   |
+| Member Contributions      |  | $550,000 |  |
+| Simons Foundation Annual Commitment      |  | $100,000      |    |
+| Simons Foundation Matching Fund |  | $300,000      |    |
+| Cornell University (Direct + Leadership) |  | $241,352  |  |
+| Heising-Simons Foundation  |  | $30,510  | |
+| Gifts |  | $180,000  |  |
+| Funding from Development Reserves<sup>1</sup> |  | $558,580   |   |
+|  **Total Revenue** |  | **$1,960,442**   |   |
 |  **EXPENSES**  |   |   |  |
 |  PERSONNEL|   |  SALARY & BENEFITS  | SALARY & BENEFITS |
 | Program Director, Scientific Director  |  1 FTE | $190,799   | $238,315  |
