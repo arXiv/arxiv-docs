@@ -20,7 +20,7 @@ arXiv maintains an operating Reserve Fund to support one-time program enhancemen
 | Funding from Development Reserves<sup>1</sup> |  | $558,580   |  
 |  **Total Revenue** |  | **$1,960,442**   |   
 |  **EXPENSES**  |   |   |  |
-|  PERSONNEL<sup>1</sup>  SALARY & BENEFITS  |   |  | 
+|  PERSONNEL<sup>2</sup>  SALARY & BENEFITS  |   |  | 
 | Executive Director, Scientific Director  |  1.5 FTE | $341,574   |   
 | Operations Manager, User Support & Moderation, Communications & Development Coordinator  | 4.0 FTE + 0.6 FTE students + Contract  |   $406,040   |  
 | IT Lead, Programming, Systems, UX   | 7.8FTE + Contract   | $1,058,250   |  
