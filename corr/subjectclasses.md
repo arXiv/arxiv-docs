@@ -165,7 +165,7 @@ Covers programming language semantics, language features, programming approaches
 
 Roughly includes material in ACM Subject Class I.2.9.
 
-**[SI - Social and Information Networks](/list/cs.SI/recent)** - Jure Leskovec
+**[SI - Social and Information Networks](/list/cs.SI/recent)** - Jure Leskovec and David Gleich
 
 Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.
 
