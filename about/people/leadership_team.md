@@ -14,14 +14,11 @@ people:
     thumbnail: images/martin.jpg
     bio: |
       Martin oversees the day-to-day technical operations of the arXiv services and supervises the development team. He works closely with our Lead Software Architect in planning and executing the migration of arXiv’s legacy software system to the next generation (arXiv-NG) architecture. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science from Cornell University.
-  janelle:
-    name: Janelle Morano
-    position: Community Engagement and Development Coordinator
-    orcid: https://orcid.org/0000-0001-5950-3313
-    twitter: janellelmorano
-    thumbnail: images/janelle.jpg
+  alison:
+    name: Alison Fromme
+    position: Community Engagement and Membership Coordinator
     bio: |
-      Janelle coordinates the outreach and development program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Her background is in animal communication and ecology, with an M.S. in biology.
+      Alison coordinates the outreach and development program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Alison is a professional science writer with an M.S. in biology.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -41,5 +38,5 @@ $jinja {{ render_person(people.steinn) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.martin) }} jinja$
-$jinja {{ render_person(people.janelle) }} jinja$
+$jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
