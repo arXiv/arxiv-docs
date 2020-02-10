@@ -9,36 +9,37 @@ arXiv maintains an operating Reserve Fund to support one-time program enhancemen
 
 ### 2020 Budget - UPDATE ALL NUMBERS
 
-| **REVENUE**        |    | **2020 BUDGET**        |   |
-| :------------- | :---------- |:-------------:| -----:|
-| Member Contributions      |  | $550,000 |  |
-| Simons Foundation Annual Commitment      |  | $100,000      |    |
-| Simons Foundation Matching Fund |  | $300,000      |    |
-| Cornell University (Direct + Leadership) |  | $241,352  |  |
-| Heising-Simons Foundation  |  | $30,510  | |
-| Gifts |  | $180,000  |  |
-| Funding from Development Reserves<sup>1</sup> |  | $558,580   |   |
-|  **Total Revenue** |  | **$1,960,442**   |   |
+| **REVENUE**        |    | **2020 BUDGET**        | 
+| :------------- | :---------- |:-------------:| 
+| Member Contributions      |  | $550,000 | 
+| Simons Foundation Annual Commitment      |  | $100,000      |  
+| Simons Foundation Matching Fund |  | $300,000      |    
+| Cornell University (Direct + Leadership) |  | $241,352  |  
+| Heising-Simons Foundation  |  | $30,510  | 
+| Gifts |  | $180,000  |  
+| Funding from Development Reserves<sup>1</sup> |  | $558,580   |  
+|  **Total Revenue** |  | **$1,960,442**   |   
 |  **EXPENSES**  |   |   |  |
 |  PERSONNEL|   |  SALARY & BENEFITS  | SALARY & BENEFITS |
-| Program Director, Scientific Director  |  1 FTE | $190,799   | $238,315  |
-| Operations Manager, User Support & Moderation, Communications & Development Coordinator  | 4.0 FTE + 0.6 FTE students + Contract  |   $367,174   | $371,233 |
-| IT Lead, Lead Architect, Programming, Systems, UX   | 5.5FTE + Contract   | $801,423   | $747,559 |
-| **Subtotal Personnel**   |   | **$1,359,396**   | **$1,357,107**   |
-| NON-PERSONNEL  |   |    |    |
-|  Servers (physical & virtual), hardware maintenance, storage, and backup |   | $88,000   | $70,593   |
-| Staff computers, software, supplies, and misc. expenses |  | $6,000 |  $38,714|
-| Meetings, workshops, consultancies, training, conferences |  | $41,000 | $20,028 |
-| Subtotal Non-Personnel |   | $135,000 | $129,336 |
-| **Total Direct Expenses** |  | **$1,494,396** | **$1,486,442** |
-| **CONTRIBUTED INDIRECT EXPENSES** |  |  |  |
-|Contributed indirect expenses by Cornell (37% of modified total direct costs)<sup>2</sup> |   | $552,927 | $549,984 |
-| Heising-Simons Foundation (15% of Foundations program support) |   |  | $18,210 |
-|**Subtotal Indirect Costs** |  | **$552,927** | **$568,194** |
-|**TOTAL EXPENSES (DIRECT + INDIRECT)** |  | **$2,047,323** |  **$2,054,636** |
-| **RESERVE BALANCE** |  |  |  |
-|Operating Reserves |  | $300,000 | $300,000 |
-|Development Reserves |  | $929,231 | $833,993 |
+| Executive Director, Scientific Director  |  1.5 FTE | $341,574   |   
+| Operations Manager, User Support & Moderation, Communications & Development Coordinator  | 4.0 FTE + 0.6 FTE students + Contract  |   $406,040   |  
+| IT Lead, Programming, Systems, UX   | 7.8FTE + Contract   | $1,058,250   |  
+| **Subtotal Personnel**   |   | **$1,805,864**   |    
+| NON-PERSONNEL  |   |    |    
+|  Servers (physical & virtual), hardware maintenance, storage, and backup |   | $80,000   |    
+| Staff computers, software, supplies, and misc. expenses |  | $10,500 |  
+| Legal & Litigation Fees|  | $29,500 |  
+| Meetings, workshops, consultancies, training, conferences |  | $30,000 |  
+| Heising-Simons Foundation (15% of Foundations program support) |   | $4,578 |  
+| Subtotal Non-Personnel |   | $154,578 |  
+| **Total Direct Expenses** |  | **$1,960,442** |  
+| **CONTRIBUTED INDIRECT EXPENSES** |  |  |  
+|Contributed indirect expenses by Cornell (37% of modified total direct costs)<sup>2</sup> |   | $723,670 | 
+|**Subtotal Indirect Costs** |  | **$723,670** |  
+|**TOTAL EXPENSES (DIRECT + INDIRECT)** |  | **$2,684,111** |   
+| **RESERVE BALANCE** |  |  |  
+|Operating Reserves |  | $300,000 |  
+|Development Reserves |  | $395,256 |  
 
 <sup>1</sup> Anticipated drawing of funds from developmental reserves.
 
