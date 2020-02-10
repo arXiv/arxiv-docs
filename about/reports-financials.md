@@ -9,7 +9,7 @@ arXiv maintains an operating Reserve Fund to support one-time program enhancemen
 
 ### 2020 Budget - UPDATE ALL NUMBERS
 
-| **REVENUE**        |    | **2019 BUDGET**        |  **CY19 PROJECTIONS** |
+| **REVENUE**        |    | **2020 BUDGET**        |   |
 | :------------- | :---------- |:-------------:| -----:|
 | Member Contributions      |  | $550,000 | $551,625 |
 | Simons Foundation Annual Commitment      |  | $100,000      |   $100,000 |
