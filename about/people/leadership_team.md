@@ -7,7 +7,7 @@ people:
     position: Interim Executive Director, Operations Manager
     thumbnail: images/jim.jpg
     bio: |
-      Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds a M.A. in Leadership Studies.
+      Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
   martin:
     name: Martin Lessmeister
     position: IT Lead
@@ -16,7 +16,8 @@ people:
       Martin oversees the day-to-day technical operations of the arXiv services and supervises the development team. He works closely with our Lead Software Architect in planning and executing the migration of arXiv’s legacy software system to the next generation (arXiv-NG) architecture. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science from Cornell University.
   alison:
     name: Alison Fromme
-    position: Community Engagement and Membership Coordinator
+    position: Community Engagement and Development Coordinator
+    thumbnail: images/alison.jpg
     bio: |
       Alison coordinates the outreach and development program and communication strategies. She engages educational institutions in arXiv’s membership program and implements fundraising strategies, including grant writing and giving campaigns. Alison is a professional science writer with an M.S. in zoology.
   steinn:
