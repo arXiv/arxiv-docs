@@ -145,8 +145,10 @@ Availability of submissions and announcement order
 Submissions to arXiv are typically made public Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
-amount of time remaining before the deadline.
+amount of time remaining before the deadline. 
 
+The final [arXiv identifier](arxiv_identifier) cannot be assigned until the paper is announced (so please do not ask for it 
+ahead of announcement). It may be the case that a submission appears in a different identifier month due to various factors. **Note:** The arXiv identifier cannot be back-dated, and identifiers are ordered based on the final timestamp of submitter action (i.e. when "submit" is clicked). 
 
 
 | Submissions received between<br />(all times Eastern US) | Will be announced<br />(all times Eastern US) | Mailed to subscribers |
