@@ -54,8 +54,7 @@ days; our administrators may also need to contact you to verify that
 your authorship claim is correct.
 
 <span id="coauthor"></span>
-A note on authorship in scholarly works
-=======================================
+###  A note on authorship in scholarly works
 
 Submitters are responsible for ensuring all co-authors have consented to submission of the work to arXiv. Under U.S. copyright law, a single co-author normally has authority to agree to arXiv's non-exclusive distribution license. Submitters to arXiv are expected to follow normal publishing practices for co-authored submissions (i.e. seeking consent and approval from their co-authors and any other required parties). arXiv will not adjudicate authorship disputes surrounding submission or announcement. Concerns should be directed directly to the submitting author's institution. Findings from an institutional investigation may be [reported](/help/contact) by an institutional officer to arXiv's "help" email address. At that point arXiv will consider what action, if any, may be taken regarding the submission.
 
