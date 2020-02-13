@@ -32,6 +32,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 - [Technical Advisory Group](/about/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
 - [Volunteer Developers](people/developers)
+- [Join arXiv's User Testing Group](/about/user-testing)
 
 
 ## General Information
