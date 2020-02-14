@@ -17,7 +17,7 @@ blockquote {
 }
 </style>
 
-From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. If you would like to join our user testing group fill out the form below. User testing is integral to arXiv's development process and we welcome your feedback.
+From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. If you would like to join our user testing group, fill out the form below. User testing is integral to arXiv's development process and we welcome your feedback.
 
 We use this list only for user testing communications and never spam or share your information.
 
