@@ -39,7 +39,7 @@ Subject categories of the **q-bio** archive:
 
 ### arXiv:q-bio advisory committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   [Ralf Bundschuh](http://bioserv.mps.ohio-state.edu/~rbund/) (Ohio State): **chair and coordinator**.
 *   [Michael Lässig](http://www.thp.Uni-Koeln.DE/~lassig/) (Köln): **coordinator and appellate moderator**.
