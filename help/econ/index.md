@@ -5,7 +5,7 @@ The Economics archive ([econ](/archive/econ)) was
 
 ## The arXiv Economics Advisory Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Drew Fudenberg (Massachusetts Institute of Technology)
 - Adam Guren (Boston University)
