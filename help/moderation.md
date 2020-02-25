@@ -33,13 +33,13 @@ You will get an email from arXiv administrators when your appeal has been sent t
 - Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
 - In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered.
 
-The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate [advisory committee chair](/help/scientific_ad_board)  only.
+The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate [advisory committee chair](/about/people/scientific_ad_board) only.
 
 ## Who are arXiv moderators?
 
 arXiv moderators are volunteers who are experts in their fields and in the types of submissions that are appropriate for their subject classifications. They evaluate based on the content of the submission and the policies of arXiv. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal.
 
-[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/help/scientific_ad_board#advisory_committees) and by arXiv staff.
+[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board#advisory_committees) and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or, in extreme cases, the appropriate advisory committee chair. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions.
 

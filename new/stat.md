@@ -18,7 +18,7 @@ Subject categories of the **stat** archive are:
     
 *   **stat.ML - Machine Learning**  
     Classification, Graphical Models, High Dimensional Inference  
-    Moderator: [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/), [Bharath Sriperumbudur](http://www.personal.psu.edu/bks18/)
+    Moderator: [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/), [Aaditya Ramdas](http://www.stat.cmu.edu/~aramdas)
 
 *   **stat.OT - Other Statistics**  
     Work in statistics that does not fit into the other stat classifications  
@@ -30,7 +30,7 @@ Subject categories of the **stat** archive are:
 
 ### arXiv:stat advisory committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *  [Robert B. Gramacy](http://bobby.gramacy.com/)
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)

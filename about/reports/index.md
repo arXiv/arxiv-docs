@@ -30,7 +30,7 @@
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[2019 Budget](/about/reports-financials)
+[Current Budget](/about/reports-financials)
 
 [2019 Budget, midyear report](/about/reports/arXiv_CY19_midyear.pdf)
 

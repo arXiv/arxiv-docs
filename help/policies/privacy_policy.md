@@ -11,7 +11,7 @@ The privacy notice was last revised on 2019-02-08.
 
 _Information we gather for anonymous browsing:_
 
-We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent). No attempt is made to deanonymize information we collect. 
+We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent). No attempt is made to deanonymize information we collect.
 
 _Information you may provide as registered user:_
 
@@ -27,7 +27,7 @@ Users who choose to fill out a feedback form on the website can do so anonymousl
 
 _Information provided by others:_
 
-Users who submit articles or other content to arXiv must ensure that they have the consent to share personal data contained within the content or the submission may be removed. 
+Users who submit articles or other content to arXiv must ensure that they have the consent to share personal data contained within the content or the submission may be removed.
 
 
 ## How we use your information
@@ -53,12 +53,12 @@ _Article Submission:_
 In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/terms_of_submission; https://arxiv.org/help/moderation  
 
 
-Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API. 
+Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.
 
 
 The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users [contact eligible arXiv endorsers](https://arxiv.org/help/endorsement#request) in order to make their own submissions.
 
-_Fundraising:_ 
+_Fundraising:_
 
 Should you decide to donate to arXiv through the donate page you will be directed to the Cornell giving website and the information you provide will be used to process your donation. Please also see the [Cornell giving privacy policy](https://giving.cornell.edu/privacy-policy/).
 
@@ -85,7 +85,8 @@ Slack is used for email communication of submission and moderator emails that ma
 
 Amazon Web Services is used for server infrastructure for components of the arXiv system.
 
-[Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools. 
+
+[Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools.
 
 _Info we share with moderators as part of submission and moderation:_
 
@@ -98,7 +99,7 @@ Users with registered arXiv accounts can view the email address that was used to
 The metadata for arXiv articles is freely accessible and available to any third-party use.
 
 
-## Cookies 
+## Cookies
 
 Cookies are text files stored on your computer and accessible only to the websites which create them.
 
@@ -111,14 +112,26 @@ To manage cookies in arXiv please see: https://arxiv.org/cookies
 
 No method of transmitting over the internet or storing electronic data is 100% secure, but arXiv follows standard practices to protect against the loss, misuse, or alteration of the information that is under our control.
 
+##Fundraising, Update, User Testing, and other notifications
+This section explains the choices you have when it comes to receiving email communications from arXiv.
 
-## Fundraising and Update Emails 
-
-Donors to arXiv may receive future fundraising emails from Cornell University. Those emails do contain options to unsubscribe.
+Donors to arXiv may receive future fundraising emails from Cornell University. Those emails will contain options to unsubscribe.
 
 arXiv members will receive annual update emails and direct correspondence relating to membership. Those emails will contain options to unsubscribe.
 
-Your information is never shared with any third party marketing services.
+Sorry™ App is used to notify users about arXiv's operational status. Read [Sorry's privacy page](https://help.sorryapp.com/en/articles/1929467-privacy-and-cookies-policy) for more information. When you sign up for status notifications arXiv will share your contact information with Sorry™ to keep you informed about changes in the availability of our service. You'll have the option to unsubscribe at any time.
+
+If you have joined the user testing list you will receive occasional survey links and other relevant opportunities to review and offer feedback on website changes. We use Mailchimp to manage user testing lists and send emails to our testing groups. Read [Mailchimp’s privacy policy](https://mailchimp.com/legal/privacy/) for more information. You can make changes to your email preferences by utilizing the relevant links noted in our email communications. You may opt out of user testing emails at any time.
+
+We collect a variety of types of information for user testing purposes such as:
+Your name and email
+Your country
+Your primary research field
+Your opinions on various aspects of the website.
+
+This information helps us improve the functionality of arXiv for more people and across geographic areas.
+
+Your information is never shared with third party marketing services.
 
 ## Social Media Presence
 
@@ -151,6 +164,6 @@ Please contact us with any questions, concerns, or if you wish to exercise any o
 
 ## Contact Information
 
-For questions about arXiv privacy policies or technical support please contact: help@arxiv.org 
+For questions about arXiv privacy policies or technical support please contact: help@arxiv.org
 
 If you have general questions about Cornell University privacy practices, please contact: privacy@cornell.edu or visit https://privacy.cornell.edu.
