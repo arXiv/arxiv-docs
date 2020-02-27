@@ -19,6 +19,7 @@ arXiv policies that could lead to the removal of a submission are:
 - *Duplicated content.* If moderators notice that a user has made many similar submissions in a short amount of time, or that a new submission appears to be a revision of a recent submission, then moderators may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities publishing here, and it can often help the author present a more unified body of research.
 - *Rights to submit material.* Submissions to arXiv must be the author’s original work, and users must have the right to grant the rights contained in the [selected license](/help/license). Users must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. Users should not submit comments by referees. Users should not submit plagiarized material.
 - *Excessive submission rate.* Articles submitted to arXiv must be of refereeable quality, and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. Moderators may request that a particular author limit their submission rate if this author has a history of many submissions to inappropriate areas or of doubtful refereeability.
+If an author has a back catalog of work to submit to arXiv we ask that they submit no more than three papers per day.
 
 ## Can I appeal a moderation decision?
 
