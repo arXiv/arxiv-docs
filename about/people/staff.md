@@ -8,5 +8,6 @@
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement and Membership Coordinator
 - Martin Lessmeister, IT Lead
+- Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Associate arXiv Administrator
 - Jake Weiskoff, Senior arXiv Administrator
