@@ -52,7 +52,7 @@ Metadata license
 
 To the extent that the depositor or arxiv has a copyright interest in metadata accompanying the submission, a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) will apply.
 
-Authority to submit, publisher PDFs, etc.
+Authority to submit
 -----------------------------------------
 
 arXiv cannot accept papers that contain material for which the depositor
@@ -63,13 +63,6 @@ any single co-author normally has all needed authority to submit a paper
 to arXiv. Once publicly available, articles cannot be entirely removed,
 either at the request of the submitting author or of any co-author.
 
-It is usually the case that PDFs found on publisher websites or supplied
-as proofs are the property of the publisher, which often owns the
-copyright and/or licenses their use. Even if the author retains
-copyright or permissions in the article, arXiv cannot accept PDFs that
-have been downloaded from a publisher's website unless arXiv has a
-blanket agreement with the publisher (it would be too costly in
-administrative time to track individual permissions).
 
 Licenses granted are irrevocable
 --------------------------------
@@ -90,6 +83,14 @@ information of many publishers, see the
 
 Copyright notices
 -----------------
+
+It is usually the case that PDFs found on publisher websites or supplied
+as proofs are the property of the publisher, which often owns the
+copyright and/or licenses their use. Submission of PDFs with copyright
+statements which prohibit or impair arXiv's [redistribution
+license](/help/license) will be rejected. If explicit permission is
+given for open access redistribution, these are permissible.
+Users should contact arXiv administrators at help@arxiv.org if they have questions.
 
 If you have permission from a publisher to upload content to arXiv
 provided that you include a special copyright statement with the paper,
