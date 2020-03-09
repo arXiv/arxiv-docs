@@ -6,7 +6,10 @@ and archive conference papers. Conference proceedings may be made as a
 single submission (which is handled in the normal way), or as a set of
 individual papers with an index submission. **Note** individual papers 
 within a proceedings must still conform to arXiv content polices and are
-moderated, as usual. 
+moderated, as usual. Ideally, an index or overlay should provide 
+information beyond what would be available from a keyword search on the 
+[`Report-no`](/help/prep#report) metadata field.
+
 In general, we prefer arrangements where the respective authors submit 
 the individual papers. We provide two ways of partially automating the 
 process of creating HTML index submissions which are best suited to two 
@@ -28,11 +31,11 @@ different scenarios:
     [arXiv:1108.3558](/abs/1108.3558v1).
 
 Please note that conference announcements, or indexes without the
-papers, are not permitted. We accept index submissions before the
+articles indicated, are not permitted. We accept index submissions before the
 submission of individual papers with the understanding that the majority
 of papers at the conference will be submitted. If in doubt [contact
-arXiv administrators](/contact).
-
+arXiv administrators](/contact). Note that it is not appropriate to submit 
+an overlay or index of content not in arXiv. 
 <span id="index_after"></span>
 
 Index submission after individual papers
