@@ -95,28 +95,3 @@ bitmapping with a higher resolution.
 Once the figure is acceptable, gzip both the original and new PostScript
 files and check the saving. If it is substantial then the bitmap may be
 a better choice for submitting with the paper.
-
-------------------------------------------------------------------------
-
-Other Tips
-----------
-
-### Reducing the number of colors
-
-24-bit color is usually unnecessary for figures in a scientific paper.
-Try the `ppmquant` or `ppmdither` command to quantize or dither the
-number of colors down, or `pnmdepth` to change the number of bits used
-to store each color.
-
-### Fixing the bounding box
-
-There is a PostScript program called "psbbox.ps" included with
-Ghostscript that will attempt to figure out the correct bounding box for
-any PostScript file. For Ghostscript's opinion on the correct bounding
-box, use this command
-
-         gs -q -dNOPAUSE -sDEVICE=pgm psbbox.ps < fig.ps
-
-The program psbbox.ps is available in <http://arxiv.org/software/pbm/>
-in the file `fixpsbbox.tar.gz`, along with a couple of other utilities
-for fixing bounding boxes.
