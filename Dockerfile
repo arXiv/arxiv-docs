@@ -7,7 +7,7 @@ FROM arxiv/base-with-git:0.14.3
 WORKDIR /opt/arxiv/
 
 RUN pip install -U pip pipenv && \
-    pipenv install uwsgi arxiv-marxdown==0.2.1rc3 && \
+    pipenv install uwsgi arxiv-marxdown==0.2.4rc3  && \
     rm -rf ~/.cache/pip
 
 EXPOSE 8000
