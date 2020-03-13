@@ -147,7 +147,7 @@ Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the deadline. 
 
-All submission types are made public or take effect with the mailing. The final [arXiv identifier](arxiv_identifier) cannot be assigned until the paper is announced. so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
+All submission types are made public or take effect with the mailing. The final [arXiv identifier](arxiv_identifier) cannot be assigned until the paper is announced, so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
 
 It may be the case that a submission appears in a different identifier month due to various factors. **Note:** The arXiv identifier cannot be back-dated, and identifiers are ordered based on the final timestamp of submitter action (i.e. when "submit" is clicked). 
 
