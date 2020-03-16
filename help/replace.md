@@ -20,8 +20,8 @@ Considerations for replacing articles
 -   [It is not possible to make changes without generating a new
     version.](#minorchanges)
 -   [Indicate the nature of the changes.](#nature)
--   [Same day replacements do not generate a new date/version
-    stamp.](#sameday)
+-   [Same day edits do not generate a new date/version
+    stamp, but may delay the replacement.](#sameday)
 -   [Previous versions of your article will remain publicly
     available.](#versions)
 -   [Revisions after version 5 are not listed in the daily
