@@ -9,9 +9,9 @@ Please note this page is a work in progress. We are working towards a comprehens
 - [Paper ownership](/help/authority)
 
 ## Submission Policies
-- [General disclaimer and order of announcements](/help/general)
 - [General submission policies](/help/submit)
 - [Terms of submission](/help/terms_of_submission)
+- [Order of announcements and submission cutoff time](/help/submit#availability)
 - [Moderation](/help/moderation)
 - [License and copyright](/help/license)
 - [Withdrawals](/help/withdraw)

@@ -2,9 +2,15 @@
 title: 'Leadership Team'
 template: 'docs/team.html'
 people:
+  eleonora:
+    name: Eleonora Presani
+    position: Executive Director
+    thumbnail: images/eleonora.jpg
+    bio: |
+      As Executive Director, Eleonora leads daily operations at arXiv, including technical and business planning, governance, and fundraising efforts. After a PhD and postdoc in astroparticle physics, her career moved to scientific publishing and, later, to digital product development, servicing the research community.
   jim:
     name: Jim Entwood
-    position: Interim Executive Director, Operations Manager
+    position: Operations Manager
     thumbnail: images/jim.jpg
     bio: |
       Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
@@ -34,10 +40,13 @@ arXiv Leadership Team
 =====================
 
 $jinja {{ render_columns_open() }} jinja$
-$jinja {{ render_person(people.jim) }} jinja$
+$jinja {{ render_person(people.eleonora) }} jinja$
 $jinja {{ render_person(people.steinn) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.jim) }} jinja$
 $jinja {{ render_person(people.martin) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
