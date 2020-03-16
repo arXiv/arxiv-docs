@@ -61,6 +61,3 @@ arXiv is governed by its [operating principles](/about/principles). Operations a
 #
 
 The arXiv team, consisting of the [arXiv Leadership Team](people/leadership_team) and arXiv staff, is responsible for the operations and sustainability of arXiv.
-
-![Image of organizational chart of arXiv team](images/arxiv_org_chart.jpeg){.mkd-img-border .mkd-img-left}
-![Image of roles and responsibilities of arXiv team](images/arxiv_roles-respns.jpeg){.mkd-img-border .mkd-img-left}
