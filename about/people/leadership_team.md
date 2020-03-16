@@ -40,11 +40,13 @@ arXiv Leadership Team
 =====================
 
 $jinja {{ render_columns_open() }} jinja$
-$jinja {{ render_person(people.jim) }} jinja$
+$jinja {{ render_person(people.eleonora) }} jinja$
 $jinja {{ render_person(people.steinn) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.jim) }} jinja$
 $jinja {{ render_person(people.martin) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
-$jinja {{ render_person(people.eleonora) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
