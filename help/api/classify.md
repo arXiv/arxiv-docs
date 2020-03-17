@@ -113,12 +113,12 @@ of results returned.
 Parameters
 
   - `scoring_method` Currently arxiv supports 2 different scoring
-    methods. The asymmetric Kullback Leibler divergence (*asymKL*) and
+    methods. The asymmetric Kullback Leibler divergence (`asymKL`) and
     the TF-IDF (Term Frequency Inverse Document Frequency) cosine
-    distance (*tfidfcosine*). The default is *asymKL*.
+    distance (`tfidfcosine`). The default is `asymKL`.
 
   - `max_entries` This determines the maximum number of entries returned
-    in the feed. The default is *10*.
+    in the feed. The default is `10`.
 
 A query with no parameters is equivalent to:
 ```
