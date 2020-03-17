@@ -2,52 +2,27 @@
 title: API for arXiv Categorization
 ---
 
-<div id="myheader">
-
 # API for arXiv Categorization
-
-<div id="toc">
-
-<div id="toctitle">
 
 Table of Contents
 
-</div>
+[1. Preface](#preface)
+[2. The arXiv Categorization scheme](#cat)
+[3. Automatic Classification](#auto)
+[4. Description of the API](#desc)
+[5. Optional Parameters](#options)
+[6. Full Example](#example)
 
-**JavaScript must be enabled in your browser to display the table of
-contents.**
-
-</div>
-
-</div>
-
-<div id="preamble">
-
-<div class="sectionbody">
-
-</div>
-
-</div>
-
+<span id="preface"></span>
 ## 1\. Preface
-
-<div class="sectionbody">
-
-<div class="paragraph">
 
 This API allows for automatic **text classification** according to the
 [categorization scheme](http://arxiv.org/help/prep#subj) used by
 [arXiv](http://arxiv.org/).
 
-</div>
-
-</div>
-
+<span id="cat"></span>
 ## 2\. The arXiv Categorization scheme
 
-<div class="sectionbody">
-
-<div class="paragraph">
 
 Research articles submitted to [arXiv](http://arxiv.org/) are
 categorized according to a [classification
@@ -59,15 +34,8 @@ for targeted browsing of subsections of new submissions, subscription to
 particular channels, higher relevance of specific listings to the user’s
 interests. It also allows to narrow down searches, etc..
 
-</div>
-
-</div>
-
+<span id="auto"></span>
 ## 3\. Automatic Classification
-
-<div class="sectionbody">
-
-<div class="paragraph">
 
 So far arXiv has relied on appropriate author self classification of new
 submissions with guidance and occasional correction by
@@ -77,10 +45,6 @@ comparison to the existing body of nearly 600,000 previously classified
 research articles in arXiv’s holdings has become feasible with
 sufficient accuracy.
 
-</div>
-
-<div class="paragraph">
-
 arXiv has implemented two algorithms to provide a best match
 classification and accompanying score based on the full text of an
 article. These are based on the common TF-IDF-cosine distance measure
@@ -89,15 +53,8 @@ publicly available via a simple API, so that third parties and in
 particular authoring tools supporting submission to arXiv can determine
 the likely classification of a piece of text or intended submission.
 
-</div>
-
-</div>
-
+<span id="desc"></span>
 ## 4\. Description of the API
-
-<div class="sectionbody">
-
-<div class="paragraph">
 
 Both the [arXiv API](http://arxiv.org/help/api/index) and the
 [SWORD/APP](http://arxiv.org/help/submit_sword) submission interface are
@@ -105,120 +62,56 @@ using [Atom](http://tools.ietf.org/html/rfc4287), and we decided to
 build on that and provide classification information via an Atom feed
 response to a standard **HTTP POST** of a PDF file or a (fragment of)
 plain text to
-
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+```
     http://export.arxiv.org/api/classify
-
-</div>
-
-</div>
-
-<div class="paragraph">
+```
 
 For demonstration purposes [**this
 link**](http://export.arxiv.org/api/classify?text=kinematics%20and%20dynamics%20of%20stellar%20disks)
 issues a sample query for text="kinematics and dynamics of stellar
 disks" and returns the corresponding categorization feed.
 
-</div>
-
-<div class="paragraph">
-
 The response is a feed which contains Atom entries encoding the likely
 classification in an *\<atom:category\>* element, e.g.
 
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+```xml
     <category term="http://arxiv.org/terms/arXiv/astro-ph.CO"
               scheme="http://arxiv.org/terms/arXiv/"
               label="Physics - Cosmology and Extragalactic Astrophysics"/>
 
-</div>
-
-</div>
-
-<div class="paragraph">
+```
 
 and the numerical **score** in a score extension element in the arxiv
 namespace \_xmlns:arxiv="http://arxiv.org/schemas/atom", e.g.
 
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+```
     <arxiv:score>0.02412488927537541</arxiv:score>
-
-</div>
-
-</div>
-
-<div class="paragraph">
+```
 
 In addition the *\<atom:title\>* element of the entry contains the rank,
 a human readable form of the category, and the score in parentheses,
 e.g.
-
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+```xml
     <title>4: Astrophysics - Cosmology and Extragalactic Astrophysics (0.024)</title>
-
-</div>
-
-</div>
-
-<div class="paragraph">
+```
 
 The category element has the same form as used in the SWORD/APP deposit
 api. This should allow for straightforward integration with (existing)
 SWORD clients, which can directly use the classification term(s) for the
 category element(s) of a submission in progress.
 
-</div>
-
-<div class="paragraph">
-
 Users who are registered for access to the arXiv SWORD API can obtain a
 list of available classifications from the [SWORD
 Servicedocument](https://arxiv.org/sword-app/servicedocument)
 
-</div>
-
-</div>
-
+<span id="options"></span>
 ## 5\. Optional Parameters
-
-<div class="sectionbody">
-
-<div class="paragraph">
 
 There are 2 optional parameters which can be specified as **key-value**
 pairs in the request URI. They control the scoring method and the number
 of results returned.
 
-</div>
-
-<div class="ulist">
-
-<div class="title">
-
 Parameters
-
-</div>
 
   - scoring\_method Currently arxiv supports 2 different scoring
     methods. The asymmetric Kullback Leibler divergence (*asymKL*) and
@@ -228,52 +121,20 @@ Parameters
   - max\_entries This determines the maximum number of entries returned
     in the feed. The default is *10*.
 
-</div>
-
-<div class="paragraph">
-
-A query with no parameters is equivalent
-    to:
-
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+A query with no parameters is equivalent to:
+```
     POST http://export.arxiv.org/api/classify?scoring_method=asymKL&max_entries=10
+```
 
-</div>
-
-</div>
-
-</div>
-
+<span id="example"></span>
 ## 6\. Full Example
 
-<div class="sectionbody">
-
-<div class="paragraph">
-
-POSTing a PDF file with optional
-    parameters
-
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+POSTing a PDF file with optional parameters
+```
     lwp-request -m POST -c application/pdf  'http://export.arxiv.org/api/classify?scoring_method=asymKL&max_entries=3' < 1002.0386.pdf
+```
 
-</div>
-
-</div>
-
-<div class="listingblock">
-
-<div class="content">
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
       <title>arXiv Categorization Query: 25de8ccafdbac09ac16c83660ae3b5609219cadfa912101db82fad6b4e526feb</title>
@@ -321,9 +182,4 @@ POSTing a PDF file with optional
         <updated>2010-04-28T19:56:51Z</updated>
       </entry>
     </feed>
-
-</div>
-
-</div>
-
-</div>
+```
