@@ -6,12 +6,12 @@ title: API for arXiv Categorization
 
 Table of Contents
 
-[1. Preface](#preface)
-[2. The arXiv Categorization scheme](#cat)
-[3. Automatic Classification](#auto)
-[4. Description of the API](#desc)
-[5. Optional Parameters](#options)
-[6. Full Example](#example)
+1. [Preface](#preface)
+2. [The arXiv Categorization scheme](#cat)
+3. [Automatic Classification](#auto)
+4. [Description of the API](#desc)
+5. [Optional Parameters](#options)
+6. [Full Example](#example)
 
 <span id="preface"></span>
 ## 1\. Preface
@@ -60,7 +60,7 @@ Both the [arXiv API](http://arxiv.org/help/api/index) and the
 [SWORD/APP](http://arxiv.org/help/submit_sword) submission interface are
 using [Atom](http://tools.ietf.org/html/rfc4287), and we decided to
 build on that and provide classification information via an Atom feed
-response to a standard **HTTP POST** of a PDF file or a (fragment of)
+response to a standard `HTTP POST` of a PDF file or a (fragment of)
 plain text to
 ```
     http://export.arxiv.org/api/classify
@@ -68,11 +68,10 @@ plain text to
 
 For demonstration purposes [**this
 link**](http://export.arxiv.org/api/classify?text=kinematics%20and%20dynamics%20of%20stellar%20disks)
-issues a sample query for text="kinematics and dynamics of stellar
-disks" and returns the corresponding categorization feed.
+issues a sample query for `text="kinematics and dynamics of stellar disks"` and returns the corresponding categorization feed.
 
 The response is a feed which contains Atom entries encoding the likely
-classification in an *\<atom:category\>* element, e.g.
+classification in an `<atom:category>` element, e.g.
 
 ```xml
     <category term="http://arxiv.org/terms/arXiv/astro-ph.CO"
@@ -82,13 +81,13 @@ classification in an *\<atom:category\>* element, e.g.
 ```
 
 and the numerical **score** in a score extension element in the arxiv
-namespace \_xmlns:arxiv="http://arxiv.org/schemas/atom", e.g.
+namespace `_xmlns:arxiv="http://arxiv.org/schemas/atom"`, e.g.
 
 ```
     <arxiv:score>0.02412488927537541</arxiv:score>
 ```
 
-In addition the *\<atom:title\>* element of the entry contains the rank,
+In addition the `<atom:title\>` element of the entry contains the rank,
 a human readable form of the category, and the score in parentheses,
 e.g.
 ```xml
@@ -113,12 +112,12 @@ of results returned.
 
 Parameters
 
-  - scoring\_method Currently arxiv supports 2 different scoring
+  - `scoring_method` Currently arxiv supports 2 different scoring
     methods. The asymmetric Kullback Leibler divergence (*asymKL*) and
     the TF-IDF (Term Frequency Inverse Document Frequency) cosine
     distance (*tfidfcosine*). The default is *asymKL*.
 
-  - max\_entries This determines the maximum number of entries returned
+  - `max_entries` This determines the maximum number of entries returned
     in the feed. The default is *10*.
 
 A query with no parameters is equivalent to:
