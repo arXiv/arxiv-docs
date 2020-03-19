@@ -349,13 +349,13 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     to write a separate `.aux` file in the same directory as the
     included file. For example:
     
-``` 
+    ``` 
          \input{file}           %OK, does not create separate .aux file
          \input{subdir/file}    %OK, does not create separate .aux file
     
          \include{file}         %OK because file.aux can be written
          \include{subdir/file}  %WILL FAIL fail because sub/file.aux cannot be written
-```
+    ```
     
       
 
