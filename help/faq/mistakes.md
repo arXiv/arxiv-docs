@@ -254,31 +254,23 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     processed by the automated system, you may do either of the
     following:
     
-    1.  Add:
-        
-        ``` 
-              %auto-ignore
-        ```
-        
-        near the top of the file. This directive can be anywhere in the
-        first 10 lines of the file, and anywhere on the line. It should
+    1.  Add an `%auto-ignore` near the top of the file. This directive can be anywhere in the
+          first 10 lines of the file, and anywhere on the line. It should
         appear before any TeX or LaTeX commands, since otherwise they
         would be recognized first. For example:
-        
-        ``` 
+       
              %auto-ignore
              This is a README file for paper hep-ex/9901003
-        
+
              More data for our experiment is available at http://www.some.where/else
-        ```
-    
-    2.  Include a file `00README.XXX` with your submission that includes
+       
+    2.  Include a file [`00README.XXX`](/help/00README#ignore) with your submission that includes
         the line:
         
-        ``` 
+          
              filename ignore
-        ```
-        
+          
+       
         for each file that should be ignored.
     
       
