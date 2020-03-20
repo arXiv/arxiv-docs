@@ -15,11 +15,10 @@ We have enabled MathJax on this help page, article abstract and list
 pages, the user account page, the submission preview page and search
 result pages. On these pages, MathJax has been configured to render
 inline (<span class="ignore_mathjax">$-enclosed</span>) <span
-class="mathjax">$\\TeX$</span> only. For example, the expression <span
-class="ignore_mathjax">$P(E) = {n \\choose k} p\^k (1-p)\^{ n-k}$</span>
-will be rendered as <span class="mathjax">$P(E) = {n \\choose k} p\^k
-(1-p)\^{ n-k}$</span>. MathML is not supported in arXiv's MathJax
-configuration.
+class="mathjax">$\\TeX$</span> only. For example, the expression
+<span class="ignore_mathjax">`$P(E) = {n \choose k} p^k (1-p)^{ n-k}$`</span>
+will be rendered as <span class="mathjax">$P(E) = {n \choose k} p^k (1-p)^{ n-k}$</span>. 
+MathML is not supported in arXiv's MathJax configuration.
 
 In general, MathJax will only attempt to render <span class="mathjax">$\\TeX$</span> in the article
 title, abstract and comments fields.

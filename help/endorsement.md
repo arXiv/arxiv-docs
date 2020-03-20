@@ -102,7 +102,9 @@ you can do is make sure that you are registered as an author of your
 papers. If you can get the *paper password* for a paper you can [claim
 ownership](/auth/need-paper-password) of a paper immediately. If you
 don't have the paper password, you can [request
-ownership](/auth/request-ownership) of a paper.
+ownership](/auth/request-ownership) of a paper. Note that you must also
+have an active positive endorsement to that area yourself before you may
+endorse for that subject classification.
 
 \* We reserve the right to suspend a person's ability to endorse.
 
