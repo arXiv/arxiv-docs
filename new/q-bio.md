@@ -15,13 +15,13 @@ Subject categories of the **q-bio** archive:
     Moderators: Ralf Bundschuh 
 *   **MN - Molecular Networks**  
     gene regulation, signal transduction, proteomics, metabolomics, gene and enzymatic networks.  
-    Moderator: Members of the subject area advisory board
+    Moderator: Andrew Mugler
 *   **SC - Subcellular Processes**  
     assembly and control of subcellular structures (channels, organelles, cytoskeletons, capsules, etc.); molecular motors, transport, subcellular localization; mitosis and meiosis.  
     Moderator: Ned Wingreen 
 *   **CB - Cell Behavior**  
     cell-cell signaling and interaction; morphogenesis and development; apoptosis; bacterial conjugation; viral-host interaction; immunology.  
-    Moderator: Herbert Levine
+    Moderator: Members of the subject area advisory board
 *   **NC - Neurons and Cognition**  
     synapse, cortex, neuronal dynamics, neural network, sensorimotor control, behavior, attention.  
     Moderators: Gonzalo Polavieja and Carson Chow
