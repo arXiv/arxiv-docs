@@ -3,10 +3,27 @@ arXiv.org SWORD/APP Deposit API User's Manual
 
 Table of Contents
 
-**JavaScript must be enabled in your browser to display the table of
-contents.**
-
-1. Preface [Preface]
+1. [Preface](#preface)
+2. [Overview](#overview)
+3. [Preconditions](#preconditions)
+	- [Registration](#registration)
+	- [Licensing](#licensing)
+	- [arXiv Metadata and Classification](#meta)
+	- [SSL/TLS and HTTP Basic Authentication](#authentication)
+4. [The SWORD/APP Deposit Process](#process)
+	- [The Servicedocument](#servicedoc)
+	  - [Collections and arXiv Classification](#collections)
+	- [Media Deposit](#media)
+	- [Metadata and Ingestion Initiation](#ingestion)
+5. [Verification and Tracking](#verification)
+6. [Replacement](#replacement)
+7. [Error Conditions and Error Codes](#errors)
+8. [A Complete Example](#example)
+9. [Questions, Concerns, Suggestions](#questions)
+10. [API Updates](#updates)
+	
+<span id="preface"></span>
+1. Preface 
 ----------
 
 The arXiv **SWORD Deposit API** allows programmatic submission of
@@ -32,7 +49,8 @@ SWORD Deposit API.
 
 Sample code in Perl is presented to demonstrate individual steps.
 
-2. Overview and Control Flow [Overview]
+<span id="overview"></span>
+2. Overview and Control Flow 
 ----------------------------
 
 The SWORD/APP deposit operation and subsequent ingestion into the arXiv
@@ -62,10 +80,10 @@ A SWORD/APP deposit to arXiv consists of two steps.
 
 At this point the SWORD/APP communication is complete.
 
-Problems or errors with a deposit are signified by a [HTTP
-4xx](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) status
+Problems or errors with a deposit are signified by a [`HTTP
+4xx`](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) status
 code and accompanied by a
-[\<sword:error\>](http://www.swordapp.org/docs/sword-profile-1.3.html#a.5)
+[`<sword:error>`](http://www.swordapp.org/docs/sword-profile-1.3.html#a.5)
 response from arXiv providing further information on the particular
 error.
 
@@ -75,7 +93,8 @@ identifier and paper password etc. will be send by email to the primary
 contact author specified in the metadata and the registered user, whose
 credentials were used for the deposit.
 
-3. Before Using SWORD at arXiv [Preconditions]
+<span id="preconditions"></span>
+3. Before Using SWORD at arXiv 
 ------------------------------
 
 This interface is primarily intended for use by conference organizers,
@@ -90,7 +109,8 @@ principle the deposit API can be used for one-at-a-time deposit to arXiv
 by individual authors, too. We envision integration of the deposit
 process into authoring tools for efficient upload from the desktop.
 
-### 3.1. Registration [Registration]
+<span id="registration"></span>
+### 3.1. Registration 
 
 In accordance with general arXiv submission policy, SWORD/APP deposits
 require a valid **author registration** with arXiv. Help on how to
@@ -102,7 +122,8 @@ authorization to do so via email to arXiv administrators
 ([contact](http://arxiv.org/help/contact)), at least during the initial
 beta phase of the SWORD interface.
 
-### 3.2. Licensing [Licensing]
+<span id="licensing"></span>
+### 3.2. Licensing
 
 arXiv requires assurance of [sufficient
 rights](http://arxiv.org/help/license) by the author or submitter to
@@ -122,12 +143,13 @@ submit an article to arXiv, the submitter must
 
 Since license negotiation is outside of the SWORD protocol, arXiv
 requires that users register a default license for SWORD deposits at
-<http://arxiv.org/sword-license> before using the SWORD API. If no
+<https://arxiv.org/sword-license> before using the SWORD API. If no
 license for a depositor is on file with arXiv, the API responds with a
-HTTP *412 Precondition Failed* status code and a *sword:error* entry
+HTTP `412 Precondition Failed` status code and a `sword:error` entry
 pointing to the license selection page.
 
-### 3.3. arXiv Metadata and Classification [_arxiv_metadata_and_classification]
+<span id="meta"></span>
+### 3.3. arXiv Metadata and Classification
 
 It is essential that users are familiar with the arXiv classification
 system and general metadata requirements in order to correctly and
@@ -136,9 +158,10 @@ determine a good mapping of their metadata format to arXiv’s metadata
 format. This is best accomplished by browsing (the relevant
 subcategories of) [arXiv.org](http://arxiv.org/).
 
-### 3.4. SSL/TLS and HTTP Basic Authentication [_ssl_tls_and_http_basic_authentication]
+<span id="authentication"></span>
+### 3.4. SSL/TLS and HTTP Basic Authentication 
 
-The entire SWORD/APP interaction is via **SSL/TLS** (i.e. *https://*),
+The entire SWORD/APP interaction is via `SSL/TLS` (i.e. `https://`),
 and requires authentication via **HTTP Basic Authentication** in the
 **realm** *"SWORD at arXiv"*. This provides for secure transactions and
 also protects the interface from unwanted access. Note however that
@@ -155,43 +178,19 @@ fingerprint of arXiv’s server certificate is
 
     SHA1 Fingerprint=D4:FA:60:66:1D:17:94:B3:D2:EB:1A:A6:8A:DB:0E:34:48:EF:4B:1E
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>until 11/16/2011 arXiv used a GeoTrust certificate with SHA1 Fingerprint=F9:91:88:20:E0:82:EC:89:3A:90:29:C6:2B:F3:76:39:81:1D:76:26</td>
-</tr>
-</tbody>
-</table>
+*Notes*: 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>until 12/15/2010 arXiv used its own private certificate authority (CA) which was used to sign the server certificate. The fingerprint of arXiv’s server certificate was SHA1 Fingerprint=7F:3B:78:D1:5C:CD:4F:C0:35:AC:FB:D9:F7:02:3B:C0:B5:B0:95:C5</td>
-</tr>
-</tbody>
-</table>
+ - until 11/16/2011 arXiv used a GeoTrust certificate with `SHA1 Fingerprint=F9:91:88:20:E0:82:EC:89:3A:90:29:C6:2B:F3:76:39:81:1D:76:26`
+ - until 12/15/2010 arXiv used its own private certificate authority (CA) which was used to sign the server certificate. The fingerprint of arXiv’s server certificate was `SHA1 Fingerprint=7F:3B:78:D1:5C:CD:4F:C0:35:AC:FB:D9:F7:02:3B:C0:B5:B0:95:C5`
 
 A copy of the CA certificate and fingerprint can be provided on request
 to [contact](http://arxiv.org/help/contact).
 
-4. The SWORD/APP Deposit Process [Process]
+<span id="process"></span>
+4. The SWORD/APP Deposit Process 
 --------------------------------
 
-The **BaseURL** for all SWORD/APP interaction with arXiv is
+The `BaseURL` for all SWORD/APP interaction with arXiv is
 
     https://arxiv.org/sword-app/
 
@@ -199,10 +198,11 @@ Typically the first step in a SWORD/APP interaction is service
 exploration via retrieval of the servicedocument describing the
 workspaces, collections, and capabilities of the SWORD/APP endpoint.
 
-### 4.1. The Servicedocument [Servicedocument]
+<span id="servicedoc"></span>
+### 4.1. The Servicedocument 
 
 arXiv’s servicedocument is specific to the user initiating a
-deposit — or via the X-On-Behalf-Of HTTP header — the author in whose
+deposit — or via the `X-On-Behalf-Of HTTP header` — the author in whose
 name a deposit is being made.
 
 The main reason for customization is that the enumeration of available
@@ -222,7 +222,7 @@ or with *mediated* user
 
 Although it is intended for purely programmatic access, the
 servicedocument can be retrieved with a regular web browser. With proper
-customization of helper rules for mime type *"application/atomsvc+xml"*,
+customization of helper rules for mime type `"application/atomsvc+xml"`,
 the servicedocument can be displayed inline in a web browser as regular
 XML.
 
@@ -257,22 +257,22 @@ and the general structure of the returned servicedocument is
 
 The servicedocument specifies the capabilities of arXiv’s SWORD
 implementation, e.g. the maximal allowed size of uploads in kB
-(*\<sword:maxUploadSize\>*), and enumerates the collections for which
+(`<sword:maxUploadSize>`), and enumerates the collections for which
 the (mediated) user has submission privileges along with collection
-specific information, like accepted media-types (*\<accept\>*), accepted
-packaging format (*\<acceptPackaging\>*), collection policy
-(*\<collectionPolicy\>*), etc. declarations. See
+specific information, like accepted media-types (`<accept>`), accepted
+packaging format (`<acceptPackaging>`), collection policy
+(`<collectionPolicy>`), etc. declarations. See
 [RFC5023](http://tools.ietf.org/html/rfc5023) for specification and the
 SWORD specific extensions described in [SWORD APP Profile version
 1.3](http://www.swordapp.org/docs/sword-profile-1.3.html).
 
-#### 4.1.1. Collections and arXiv Classification [Collections]
+<span id="collections"></span>
+#### 4.1.1. Collections and arXiv Classification
 
 Each collection comes with its own arXiv specific list of “*primary
 categories*”. These are regular atom **category** elements. However to
 distinguish them from categories denoting secondary classification, they
-are specified via the arXiv extension element **\<primary\_category
-xmlns="http://arxiv.org/schemas/atom/"\>**.
+are specified via the arXiv extension element `<primary_category xmlns="http://arxiv.org/schemas/atom/">`.
 
 There is also a long list of (optional) secondary categories, which are
 regular atom category elements. Specifying appropriate secondary
@@ -281,20 +281,7 @@ sub-communities of arXiv. A special feature of secondary categories for
 the Computer Science and Mathematics collections is that they include
 the ACM and MSC subject classifications respectively.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>The available terms for ACM (D.2, F.1.1, etc.) and MSC (43A15, 62M10, etc.) classifications are not spelled out in the servicedocument. Authors have to determine the appropriate classification from publicly available listings and complete the term attribute accordingly.</td>
-</tr>
-</tbody>
-</table>
+*Note:* The available terms for ACM (D.2, F.1.1, etc.) and MSC (43A15, 62M10, etc.) classifications are not spelled out in the servicedocument. Authors have to determine the appropriate classification from publicly available listings and complete the term attribute accordingly.
 
 The servicedocument enumerates the available choices for each
 collection.
@@ -343,27 +330,15 @@ module from [CPAN](http://search.cpan.org/) to demonstrate parsing of
 the returned XML. Unless provided on the command-line, user-name and
 password will be prompted for.
 
-### 4.2. Media Deposit [Deposit]
+<span id="media"></span>
+### 4.2. Media Deposit
 
 A media deposit (in the parlance of APP) is any deposit of material of
 one of the accepted media types to an arXiv collection via SWORD/APP.
 The submission privileges of the (mediated) user determine what
 collection(s) are permissible for a deposit.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>In particular for typical TeX submissions it is recommended to create a zip file of the TeX source files, macros, figures, etc and to deposit that as a single package. Other media deposits can be <em>docx</em>, <em>pdf</em>, <em>(e)ps</em>, <em>jpg</em>, <em>png</em>, etc., and it may be useful to individually deposit large figures or other material of substantial file size, instead of attempting to upload everything at once.</td>
-</tr>
-</tbody>
-</table>
+*Note*: In particular for typical TeX submissions it is recommended to create a zip file of the TeX source files, macros, figures, etc and to deposit that as a single package. Other media deposits can be `docx`, `pdf`,`(e)ps`, `jpg`, `png`, etc., and it may be useful to individually deposit large figures or other material of substantial file size, instead of attempting to upload everything at once.
 
 A deposit is performed via *POST* to the appropriate collection URL
 selected from the servicedocument, e.g. a deposit of a jpg image to the
@@ -380,10 +355,10 @@ Computer Science collection looks like
 
 The payload is the material to be deposited.
 
-Optionally there can be a “X-On-Behalf-Of:” HTTP header to specify the
+Optionally there can be a `X-On-Behalf-Of:` HTTP header to specify the
 author of the material as opposed to the user making the deposit, along
 with other optional SWORD extensions headers, and in particular a md5
-checksum in the “Content-MD5:” header to ensure integrity of the
+checksum in the `Content-MD5:` header to ensure integrity of the
 transferred data:
 
     POST https://arxiv.org/sword-app/cs-collection
@@ -396,7 +371,7 @@ transferred data:
     data stream
     ...
 
-The response to a successful deposit is status **201 Created** along
+The response to a successful deposit is status `201 Created` along
 with a Location header, which contains a URL pointing to the created
 media link entry (identifier replaced with ellipsis)
 
@@ -431,31 +406,18 @@ author’s workspace at arXiv.
       <link rel="edit" href="https://arxiv.org/sword-app/edit/.........atom"/>
     </entry>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>The <em>term</em> attribute of the primary_category in the response reflects the collection to which the media was posted. It doesn’t have the full classification, because it is not yet known which subject category of the Computer Science collection the submission will go to.</td>
-</tr>
-</tbody>
-</table>
 
-Failure to verify the MD5 checksum will result in status **412
-Precondition Failed** and a SWORD \<sword:error\> entry with attribute
-*href="http://purl.org/net/sword/error/ErrorChecksumMismatch"*:
+*Note:* The `term` attribute of the primary_category in the response reflects the collection to which the media was posted. It doesn’t have the full classification, because it is not yet known which subject category of the Computer Science collection the submission will go to.
+
+Failure to verify the MD5 checksum will result in status `412 Precondition Failed` and a SWORD `<sword:error>` entry with attribute
+`href="http://purl.org/net/sword/error/ErrorChecksumMismatch"`:
 
     HTTP/1.1 412 Precondition Failed
     Date: Tue, 29 Apr 2008 19:38:05 GMT
     Content-Type: application/xml
 
 and a corresponding atom entry with human readable [error
-message](#Errors)
+message](#errors)
 
     ?xml version="1.0" encoding="utf-8"?>
     <sword:error xmlns="http://www.w3.org/2005/Atom"
@@ -480,7 +442,7 @@ message](#Errors)
 
 An accepted media deposit is held in the user’s workspace until further
 processing. arXiv returns the media link entry created for the deposited
-media. The entry has a link of *rel=“edit-media*”, which will be used to
+media. The entry has a link of `rel=“edit-media`, which will be used to
 reference the deposited material.
 
 The Perl script
@@ -508,17 +470,18 @@ See
 
 for more options.
 
-It is important to take note of the **edit-media** link or the
-**identifier** assigned to the media deposit, in order to reference the
+It is important to take note of the `edit-media` link or the
+`identifier` assigned to the media deposit, in order to reference the
 deposited material in the next step.
 
-### 4.3. Metadata and Ingestion Initiation [Ingestion]
+<span id="ingestion"></span>
+### 4.3. Metadata and Ingestion Initiation
 
 Once all components of a submission are deposited, the final step is to
 provide the metadata describing the content of the submission and
 referencing the previously deposited media entries. This is done by
 POST-ing a specially crafted **atom entry** with mime-type
-*application/atom+xml;type=entry* to the same collection URI as the
+`application/atom+xml;type=entry` to the same collection URI as the
 previously posted media entries.
 
 The “wrapper” entry is an *atom entry*, as defined by the Atom
@@ -534,58 +497,45 @@ can be found in the [arXiv Atom
 API](http://export.arxiv.org/api_help/docs/user-manual.html#_entry_metadata)
 documentation.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>A good way to understand the mapping of metadata between arXiv and atom is to look at examples. Compare the rendering of metadata for an arXiv paper as <a href="http://export.arxiv.org/api/query?id_list=0803.2365">atom feed (XML)</a> with the rendering as <a href="http://arxiv.org/abs/0803.2365">web page (XHTML)</a>.</td>
-</tr>
-</tbody>
-</table>
+*Note*: A good way to understand the mapping of metadata between arXiv and atom is to look at examples. Compare the rendering of metadata for an arXiv paper as [atom feed (XML)](http://export.arxiv.org/api/query?id_list=0803.2365) with the rendering as [web page (XHTML)](https://arxiv.org/abs/0803.2365)
 
 Apart from other requirements for an atom entry (id, updated, etc), the
 wrapper for a arXiv submission must contain
 
 Mandatory Elements
 
--   \<title\>
+-   `<title>`
 
--   \<author\>
+-   `<author>`
 
--   \<contributor\>\*
+-   `<contributor>`*
 
--   \<summary\>
+-   `<summary>`
 
--   \<arxiv:primary\_category …\>
+-   `<arxiv:primary_category …>`
 
--   \<link rel=related …\>\*
+-   `<link rel=related …>`*
 
 and may contain additional metadata, where available
 
 Optional Elements
 
--   \<category\>\*
+-   `<category>`*
 
--   \<arxiv:comment\>
+-   `<arxiv:comment>`
 
--   \<arxiv:journal\_ref\>\*
+-   `<arxiv:journal_ref>`*
 
--   \<arxiv:doi\>
+-   `<arxiv:doi>`
 
--   \<arxiv:report\_no\>\*
+-   `<arxiv:report_no>`*
 
--   \<arxiv:affiliation\>\*
+-   `<arxiv:affiliation>`*
 
-(\* indicates repeatable elements)
+(* indicates repeatable elements)
 
-The **author** element is used for the authenticated user, i.e. the
-person who initiates the submission. The repeatable **contributor**
+The `<author>` element is used for the authenticated user, i.e. the
+person who initiates the submission. The repeatable `<contributor>`
 element is used to specify the individual authors of the material being
 deposited to arXiv.
 
@@ -593,14 +543,14 @@ At least one **/contributor/email** node must be present in order to
 inform arXiv of the email address of the primary contact author. If
 multiple /contributor/email nodes are found, the first will be used.
 Optionally the primary contact author’s (name and) email address can
-also be specified in the **X-On-Behalf-Of** HTTP header extension, e.g.:
+also be specified in the `X-On-Behalf-Of` HTTP header extension, e.g.:
 
     X-On-Behalf-Of: "A. Scientist" <ascientist@institution.edu>
 
 This is useful to disambiguate when multiple /contributor/email nodes
 are present.
 
-The *arxiv:primary\_category* must be selected from the list of
+The `<arxiv:primary_category>` must be selected from the list of
 available choices for the collection, as given in the servicedocument.
 
 The **link(s)** of relation “*related*” must refer to the previously
@@ -660,7 +610,7 @@ physics collection
       <link href="https://arxiv.org/sword-app/edit/........" type="application/pdf" rel="related"/>
     </entry>
 
-If this is successful the server response is **202 Accepted**
+If this is successful the server response is `202 Accepted`
 
     HTTP/1.1 202 Accepted
     Date: Tue, 29 Apr 2008 18:45:26 GMT
@@ -705,22 +655,10 @@ and contains an “alternate” link, which can be used to look up the
 permanent arXiv identifier which will be assigned to this submission
 upon release.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>The arXiv identifier and paper password will also be send by email to the primary contact author.</td>
-</tr>
-</tbody>
-</table>
+*Note*: The arXiv identifier and paper password will also be send by email to the primary contact author.
 
-5. Verification and Tracking [Verification]
+<span id="verification"></span>
+5. Verification and Tracking
 ----------------------------
 
 Once the SWORD/APP transaction is completed, the submission is
@@ -739,15 +677,15 @@ When applicable the email contains the permanent arXiv identifier and
 paper password. It is important that the author/submitter closely
 inspect the representation of the submission at arXiv and take
 corrective action where necessary, see
-[checking](http://arxiv.org/help/submit#read).
+[checking](/help/submit#correct).
 
 The status of a SWORD deposit may be tracked using the tracking URI
-returned in the Atom \<link\> element with ***rel="alternate"***, for
+returned in the Atom `<link>` element with `rel="alternate"`, for
 example:
 
     <link rel="alternate" href="http://arxiv.org/resolve/app/10030146"/>
 
-The response to *GET* <http://arxiv.org/resolve/app/10030146> will be a
+The response to `GET <http://arxiv.org/resolve/app/10030146>` will be a
 short XML report on the status of this SWORD submission in the arXiv
 workflow. An example initial response is:
 
@@ -766,31 +704,32 @@ An example after publication is:
      <arxiv_id>1003.9876</arxiv_id>
     </deposit>
 
-The root element will always be ***\<deposit\>*** and will always
-contain a ***\<status\>*** element which contains one of the following:
+The root element will always be `<deposit>` and will always
+contain a `<status>` element which contains one of the following:
 
 Status Values
 
--   **submitted** - The SWORD submission is in the normal arXiv workflow
+-   `submitted` - The SWORD submission is in the normal arXiv workflow
     and is queued to be announced according to the usual arXiv
     announcement schedule.
 
--   **published** - The SWORD submission has been accepted and published
+-   `published` - The SWORD submission has been accepted and published
     by arXiv. The response will also include the final arXiv identifier
-    in the *\<arxiv\_id\>* element.
+    in the `<arxiv_id>` element.
 
--   **on hold** - The SWORD submission is in arXiv’s workflow but was
+-   `on hold` - The SWORD submission is in arXiv’s workflow but was
     identified by arXiv administrators or moderators as needing further
     attention.
 
--   **incomplete** - This status is not expected to be used for SWORD
+-   `incomplete` - This status is not expected to be used for SWORD
     submissions. The submission is in process but not yet submitted and
     queued.
 
--   **unknown** - The tracking URI is not know. More information may be
-    given in an *\<error\>* element.
+-   `unknown` - The tracking URI is not know. More information may be
+    given in an `<error>` element.
 
-6. Replacement [Replacement]
+<span id="replacement"></span>
+6. Replacement
 --------------
 
 arXiv’ed papers can be updated or replaced. The rules for a
@@ -823,7 +762,7 @@ Steps for a replacement
     [posted](#Deposit) or deposited packed together into a zip file.
 
 -   Previously deposited media resources in the workspace of the
-    authenticated user can be referenced via their **edit-media** links,
+    authenticated user can be referenced via their `edit-media` links,
     e.g.
 
           <link rel="edit-media" href="https://arxiv.org/sword-app/edit/........"/>
@@ -832,14 +771,14 @@ Steps for a replacement
     deposits via SWORD for at least 30 days.
 
 -   Then a [metadata wrapper](#Ingestion) is *PUT* to the link with
-    “*rel=/edit/*” which was part of the atom entry response to the
+    `rel="edit”` which was part of the atom entry response to the
     original wrapper deposit, e.g.
 
           <link rel="edit" href="https://arxiv.org/sword-app/edit/09011841.atom"/>
 
     The metadata wrapper is constructed in similar fashion as for a new
     submission, however it must be deposited using *PUT* to the **link**
-    with *rel=“edit*” that was returned upon original submission.
+    with `rel=“edit”` that was returned upon original submission.
 
         PUT https://arxiv.org/sword-app/edit/09031234.atom HTTP/1.1
         Host: arxiv.org
@@ -852,7 +791,7 @@ Steps for a replacement
     atom entry and then deposit it via a *PUT* request to the same
     **edit** link.
 
--   The response to a successful PUT is status **202 Accepted**
+-   The response to a successful PUT is status `202 Accepted`
 
         HTTP/1.1 202 Accepted
         Date: Sat, 21 Mar 2009 00:06:27 GMT
@@ -862,57 +801,19 @@ Steps for a replacement
     along with an atom entry in the response content confirming
     acceptance.
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>To replace a paper using the permanent arXiv identifier (&lt;id&gt;), submit the metadata wrapper via <strong>PUT</strong> to “https://arxiv.org/sword-app/edit/&lt;id&gt;” e.g. for <em>arXiv:0708.0123</em> use <strong>PUT</strong> to “https://arxiv.org/sword-app/edit/<em>0708.0123</em>” and for <em>arXiv:cond-mat/9904123</em> use <strong>PUT</strong> to “https://arxiv.org/sword-app/edit/<em>cond-mat/9904123</em>”</td>
-</tr>
-</tbody>
-</table>
+*Notes*: 
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>arXiv does not permit the classification of an article to be changed during a replacement operation. The <em>arxiv:primary_category</em> element must match the existing primary category. The replacment metadata may contain either no <em>category</em> elements, or a set of <em>category</em> elements that matches the existing categories.</td>
-</tr>
-</tbody>
-</table>
+ - To replace a paper using the permanent arXiv identifier (`<id>`), submit the metadata wrapper via **PUT** to `https://arxiv.org/sword-app/edit/<id>` e.g. for `arXiv:0708.0123` use **PUT** to `https://arxiv.org/sword-app/edit/0708.0123` and for `arXiv:cond-mat/9904123` use **PUT** to `https://arxiv.org/sword-app/edit/cond-mat/9904123`
+ - arXiv does not permit the classification of an article to be changed during a replacement operation. The `arxiv:primary_category` element must match the existing primary category. The replacment metadata may contain either no `category` elements, or a set of `category` elements that matches the existing categories.
+ - The authenticated user **must**> be the paper owner. Ownership can be [claimed with the paper password](https://arxiv.org/auth/need-paper-password.php).
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>The authenticated user <strong>must</strong> be the paper owner. Ownership can be claimed via this <a href="http://arxiv.org/auth/need-paper-password.php">form</a>.</td>
-</tr>
-</tbody>
-</table>
-
-7. Error Conditions and Error Codes [Errors]
+<span id="errors"></span>
+7. Error Conditions and Error Codes
 -----------------------------------
 
 Error handling is outlined in Part A.5 of the [SWORD
 specification](http://www.swordapp.org/docs/sword-profile-1.3.html#a.5),
-where a SWORD extension element to AtomPub called *sword:error* is
+where a SWORD extension element to AtomPub called `sword:error` is
 introduced.
 
 This allows for a much more informative error message in addition to the
@@ -925,17 +826,17 @@ body of the error response along with a corresponding numeric error code
 and a href attribute.
 
 The error response content is a regular atom entry with a root element
-of *sword:error*, a **href attribute** containing a URI which identifies
-the error, a human readable error presented in the **summary** element
-and the numeric error code in the *arxiv:errorcode* extension element.
+of `sword:error`, a `href attribute` containing a URI which identifies
+the error, a human readable error presented in the `summary` element
+and the numeric error code in the `arxiv:errorcode` extension element.
 
 The HTTP status for all errors not otherwise defined in the [SWORD
 spec](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) is
-**400 Bad Request**.
+`400 Bad Request`.
 
 The numerical error codes are powers of 2 (for convenient bitmasking,
 multiple error indication, etc). The list of all currently defined
-“arxiv:errorcodes” is:
+`arxiv:errorcodes` is:
 
 |  2\^n| error message                                                            |
 |-----:|:-------------------------------------------------------------------------|
@@ -1004,7 +905,8 @@ and the response content is
       <summary>invalid collection: foobar</summary>
     </sword:error>
 
-8. A Complete Example [Example]
+<span id="example"></span>
+8. A Complete Example
 ---------------------
 
 As a practical example, we demonstrate what the submission of an
@@ -1063,8 +965,8 @@ Next comes preparation and POST-ing of the metadata wrapper.
 
 To capture the rich metadata of this article to full extent, the wrapper
 contains several optional arXiv extensions to the standard atom entry,
-i.e. arxiv:comment, arxiv:journal\_ref, arxiv:doi, (two)
-arxiv:report\_no, and an author child element arxiv:affiliation:
+i.e. `arxiv:comment`, `arxiv:journal_ref`, `arxiv:doi`, (two)
+`arxiv:report_no`, and an author child element `arxiv:affiliation`:
 
 In this case there is only one media entry to reference via the
 “related” link,
@@ -1119,20 +1021,7 @@ namely the zip file previously deposited and referenced via the URI
       <link href="https://arxiv.org/sword-app/edit/08050001" type="application/zip" rel="related"/>
     </entry>
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<tbody>
-<tr class="odd">
-<td><div class="title">
-Note
-</div></td>
-<td>In the absence of a X-On-Behalf-Of HTTP header, the primary contact author is determined by the first contributor with an email child element.</td>
-</tr>
-</tbody>
-</table>
+*Note*: In the absence of a `X-On-Behalf-Of` HTTP header, the primary contact author is determined by the first contributor with an email child element.
 
 This is POST-ed to the physics-collection at arXiv’s SWORD endpoint.
 
@@ -1192,7 +1081,8 @@ returned atom entry
 can be used to find out what arXiv identifier was assigned to the
 submission.
 
-9. Questions, Concerns, Suggestions [Questions]
+<span id="questions"></span>
+9. Questions, Concerns, Suggestions
 -----------------------------------
 
 Please [contact](http://arxiv.org/help/contact) arXiv with any questions
@@ -1204,7 +1094,8 @@ improvements.
 Note that we purposely did not use a complex object format, to keep the
 entry threshold low.
 
-10. API Updates (last update: 2013-01-11) [Updates]
+<span id="updates"></span>
+10. API Updates (last update: 2013-01-11)
 -----------------------------------------
 
 2013-01-11
