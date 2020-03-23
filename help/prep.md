@@ -71,6 +71,22 @@ Information Fields
 
 ### <span id="author"></span>Authors: *required*
 
+**Policy Notes:**
+
+-   It is a violation of our policies to misrepresent your identity or
+    organizational affiliation. Claimed affiliation should be current in
+    the conventional sense: e.g., physical presence, funding, e-mail
+    address, etc. Misrepresentation of identity or affiliation, for any
+    reason, is possible grounds for immediate and permanent suspension.
+-   It is the responsibility of the submitter to ensure that all authors
+    [consent to the article being submitted](/help/authority#coauthor).
+-   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission. 
+-   Anonymous submissions are not accepted. Complete, and accurate author information is required.
+    -   For named collaborations, it is acceptable to only use the collaboration name within the metadata, however a complete list of all authors and their affiliations must be contained in the full printed text.
+
+
+**Usage:**
+
 -   In order to automate indexing and searching, it is required that
     authors to be listed in a canonical format. Names should be given in
     the order: Firstname Lastname or Firstname Middlename Lastname
