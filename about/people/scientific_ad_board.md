@@ -71,7 +71,7 @@ Professor of Mathematics, University of California,
 Professor of Mathematics and Physics,
     University of California, Santa Barbara
 > -   ### Robert Seiringer 
-Professor, Institute of Science and Technology Austria (co-chair of Physics Advisory Committee)
+Professor, Institute of Science and Technology Austria (chair of Physics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
