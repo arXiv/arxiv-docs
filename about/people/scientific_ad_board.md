@@ -70,10 +70,6 @@ Professor of Mathematics, University of California,
 > -   ### David Morrison
 Professor of Mathematics and Physics,
     University of California, Santa Barbara
-> -   ### Nicholas Read
-Henry Ford II Professor of Physics, and Professor of
-    Applied Physics and Mathematics, Yale University (ex officio, as
-    co-chair of Physics Advisory Committee)
 > -   ### Robert Seiringer 
 Professor, Institute of Science and Technology Austria (co-chair of Physics Advisory Committee)
 > -   ### Sumati Surya
