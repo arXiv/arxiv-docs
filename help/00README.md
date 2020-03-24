@@ -51,7 +51,7 @@ If it is necessary, however, include a line that says:
 myMainTexFile.tex toplevelfile
 ```
 
-where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the pdf output. That is always done alphanumerically. 
+where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order. 
 
 <a name="landscape" id="landscape"></a>
 
