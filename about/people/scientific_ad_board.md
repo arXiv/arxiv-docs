@@ -100,6 +100,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   Nicholas Read, Yale University 
 -   David Eppstein, University of California, Irvine
 -   Jennifer Ross, University of Massachusetts, Amherst
 -   Shude Mao, Tsinghua University \| National Astronomical
