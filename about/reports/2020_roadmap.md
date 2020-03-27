@@ -42,6 +42,10 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/x/Wz
 
 **arXiv Planning:** We will bring onboard a new Executive Director. This will initiate an assessment of arXiv goals, needs, mission, vision, and values. Based on this scope, we will start creating a plan to identify priorities, new development areas, and set strategic directions to create a framework for our fundraising, collaboration, and communication processes.
 
+  > In progress. Welcome [Eleonora Presani](https://blogs.cornell.edu/arxiv/2020/03/16/arxiv-announces-its-first-executive-director/) as Executive Director
+
 **Fundraising:** We will strengthen and further diversify our fundraising strategies to support arXiv NG plan, including grants and inviting additional arXiv users (libraries, research organizations, and corporations) to become members and increase individual and corporation giving. We will also be exploring funding opportunities from several different government agencies, and possible grant funding from private foundations.
 
 **Priority Setting &amp; Communication:** We will review our current processes for priority setting, feedback seeking, and communication to improve the transparency of how decisions are made and implemented.
+
+  > In progress.

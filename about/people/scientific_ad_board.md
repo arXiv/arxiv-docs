@@ -70,12 +70,8 @@ Professor of Mathematics, University of California,
 > -   ### David Morrison
 Professor of Mathematics and Physics,
     University of California, Santa Barbara
-> -   ### Nicholas Read
-Henry Ford II Professor of Physics, and Professor of
-    Applied Physics and Mathematics, Yale University (ex officio, as
-    co-chair of Physics Advisory Committee)
 > -   ### Robert Seiringer 
-Professor, Institute of Science and Technology Austria (co-chair of Physics Advisory Committee)
+Professor, Institute of Science and Technology Austria (chair of Physics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
@@ -104,6 +100,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   Nicholas Read, Yale University 
 -   David Eppstein, University of California, Irvine
 -   Jennifer Ross, University of Massachusetts, Amherst
 -   Shude Mao, Tsinghua University \| National Astronomical
