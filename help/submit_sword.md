@@ -23,7 +23,7 @@ Table of Contents
 10. [API Updates](#updates)
 	
 <span id="preface"></span>
-1. Preface 
+## 1. Preface 
 ----------
 
 The arXiv **SWORD Deposit API** allows programmatic submission of
@@ -50,7 +50,7 @@ SWORD Deposit API.
 Sample code in Perl is presented to demonstrate individual steps.
 
 <span id="overview"></span>
-2. Overview and Control Flow 
+## 2. Overview and Control Flow 
 ----------------------------
 
 The SWORD/APP deposit operation and subsequent ingestion into the arXiv
@@ -94,7 +94,7 @@ contact author specified in the metadata and the registered user, whose
 credentials were used for the deposit.
 
 <span id="preconditions"></span>
-3. Before Using SWORD at arXiv 
+## 3. Before Using SWORD at arXiv 
 ------------------------------
 
 This interface is primarily intended for use by conference organizers,
@@ -187,7 +187,7 @@ A copy of the CA certificate and fingerprint can be provided on request
 to [contact](http://arxiv.org/help/contact).
 
 <span id="process"></span>
-4. The SWORD/APP Deposit Process 
+## 4. The SWORD/APP Deposit Process 
 --------------------------------
 
 The `BaseURL` for all SWORD/APP interaction with arXiv is
@@ -658,7 +658,7 @@ upon release.
 *Note*: The arXiv identifier and paper password will also be send by email to the primary contact author.
 
 <span id="verification"></span>
-5. Verification and Tracking
+## 5. Verification and Tracking
 ----------------------------
 
 Once the SWORD/APP transaction is completed, the submission is
@@ -729,7 +729,7 @@ Status Values
     given in an `<error>` element.
 
 <span id="replacement"></span>
-6. Replacement
+## 6. Replacement
 --------------
 
 arXiv’ed papers can be updated or replaced. The rules for a
@@ -808,7 +808,7 @@ Steps for a replacement
  - The authenticated user **must**> be the paper owner. Ownership can be [claimed with the paper password](https://arxiv.org/auth/need-paper-password.php).
 
 <span id="errors"></span>
-7. Error Conditions and Error Codes
+## 7. Error Conditions and Error Codes
 -----------------------------------
 
 Error handling is outlined in Part A.5 of the [SWORD
@@ -906,7 +906,7 @@ and the response content is
     </sword:error>
 
 <span id="example"></span>
-8. A Complete Example
+## 8. A Complete Example
 ---------------------
 
 As a practical example, we demonstrate what the submission of an
@@ -1082,7 +1082,7 @@ can be used to find out what arXiv identifier was assigned to the
 submission.
 
 <span id="questions"></span>
-9. Questions, Concerns, Suggestions
+## 9. Questions, Concerns, Suggestions
 -----------------------------------
 
 Please [contact](http://arxiv.org/help/contact) arXiv with any questions
@@ -1095,7 +1095,7 @@ Note that we purposely did not use a complex object format, to keep the
 entry threshold low.
 
 <span id="updates"></span>
-10. API Updates (last update: 2013-01-11)
+## 10. API Updates (last update: 2013-01-11)
 -----------------------------------------
 
 2013-01-11
