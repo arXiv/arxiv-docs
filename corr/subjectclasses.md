@@ -62,7 +62,7 @@ Covers approaches to information processing (computing, communication, sensing) 
 
 Covers automata theory, formal language theory, grammars, and combinatorics on words. This roughly corresponds to ACM Subject Classes F.1.1, and F.4.3. Papers dealing with computational complexity should go to cs.CC; papers dealing with logic should go to cs.LO. Papers that simply make use of automata, transducers, grammars, and so on, are not appropriate unless the automata, transducers, or grammars are the main subjects of study.
 
-**[GT - Computer Science and Game Theory](/list/cs.GT/recent)** - Moshe Tennenholtz
+**[GT - Computer Science and Game Theory](/list/cs.GT/recent)** - Michal Feldman, David Parkes, Moshe Tennenholtz
 
 Covers all theoretical and applied aspects at the intersection of computer science and game theory, including work in mechanism design, learning in games (which may overlap with Machine Learning), foundations of agent modeling in games (which may overlap with Multiagent systems), coordination, specification and formal methods for non-cooperative computational environments. The area also deals with applications of game theory to areas such as electronic commerce.
 
