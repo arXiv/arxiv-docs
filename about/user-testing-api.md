@@ -1,4 +1,4 @@
-Join arXiv's API User Testing group
+Join arXiv's API User Testing Group
 ===========================
 
 <style>
