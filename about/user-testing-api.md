@@ -1,4 +1,4 @@
-Join arXiv's User Testing group
+Join arXiv's API User Testing group
 ===========================
 
 <style>
@@ -17,7 +17,7 @@ blockquote {
 }
 </style>
 
-From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. If you would like to join our user testing group, fill out the form below. User testing is integral to arXiv's development process and we welcome your feedback.
+at arXiv we have been working on a new and improved API and will be conducting testing with the wider community. We value your input and welcome you to join in our user testing group.
 
 We use this list only for user testing communications and never spam or share your information.
 
@@ -32,7 +32,7 @@ We use this list only for user testing communications and never spam or share yo
   }
 </style>
 > <div id="mc_embed_signup">
-> <h3>Join arXiv's user testing group</h3>
+> <h3>Join the API user testing group and be notified of upcoming testing opportunities</h3>
 >
 >
 > <form action="https://arxiv.us4.list-manage.com/subscribe/post?u=31c4aaf571c921df1fb50adee&amp;id=7cd72795aa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -69,15 +69,9 @@ We use this list only for user testing communications and never spam or share yo
 </div>
 <hr>
 <div class="mc-field-group input-group">
-<strong>(Optional) Targeted Testing Groups</strong>
-<p>You will be automatically added to the general user testing list. In addition we have targeted testing groups, select any that apply or leave blank. </p>
-<ul>
-<input type="hidden" value="32" name="group[55039][32]" id="mce-group[55039]-55039-3">
-<li><input type="checkbox" value="1" name="group[55039][1]" id="mce-group[55039]-55039-0"><label for="mce-group[55039]-55039-0">Assistive Technology (if you use a screen reader, magnifier, voice command, or other assistive tools)</label></li>
-<li><input type="checkbox" value="2" name="group[55039][2]" id="mce-group[55039]-55039-1"><label for="mce-group[55039]-55039-1">International (if your first language is not English or first culture is not USA)</label></li>
-<li><input type="checkbox" value="4" name="group[55039][4]" id="mce-group[55039]-55039-2"><label for="mce-group[55039]-55039-2">Slow Connectivity (if you often experience slow or unreliable internet in your area)</label></li>
-<li><input type="checkbox" value="128" name="group[55039][128]" id="mce-group[55039]-55039-4"><label for="mce-group[55039]-55039-4">API Testing (if you use the arXiv API for development)</label></li>
-</ul>
+<strong>(Optional) Do you want to join our general testing group?</strong>
+<p>From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. Your feedback helps us improve arXiv.</p>
+<ul><input type="hidden" value="128" name="group[55039][128]" id="mce-group[55039]-55039-4"><li><input type="checkbox" value="32" name="group[55039][32]" id="mce-group[55039]-55039-3"><label for="mce-group[55039]-55039-3">Yes, add me to the general user testing group</label></li></ul>
 </div>
 <hr>
 <div id="mce-responses" class="clear">
