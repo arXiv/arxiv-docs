@@ -6,7 +6,7 @@ The Submitter is an original author of the Work, or a proxy pre-approved by arXi
 - Granting a license permitting the work to be included in arXiv.
 - Agreeing that arXiv reserves the right to reclassify or reject any submission.
 - Agreeing that submissions will be automatically compared with other arXiv articles and detected text overlap may be noted.
-- Agreeing that metadata may be corrected to conform to arXiv standards.
+- Agreeing that metadata may be corrected to conform to arXiv standards and that metadata will be available under a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 - Agreeing not to sue or seek to recover damages from arXiv, Cornell University, or affiliated individuals based on arXiv's actions in connection with your submission including refusal to accept, categorization, removal, or exercise of any other rights granted under the Submittal Agreement.
 - Agreeing to not enter into other agreements or make other commitments that would conflict with the rights granted to arXiv.
 
