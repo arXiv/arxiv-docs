@@ -1,4 +1,4 @@
-# Introducing arXiv/EESS (Electrical Engineering and Systems Science)
+# Introducing arXiv EESS (Electrical Engineering and Systems Science)
 
 The [Electrical Engineering and Systems Science](/archive/eess) archive (eess) was introduced 18 September 2017.
 
