@@ -18,7 +18,7 @@ You can browse articles and view categories at the individual archive pages:
 - Physics [physics](/archive/physics)
 - Quantum Physics [quant-ph](/archive/quant-ph)
 
-The moderators for physics are (listed here)[/moderators#Physics].
+The moderators for physics are [listed here](/moderators#physics).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Advisory Committee:
