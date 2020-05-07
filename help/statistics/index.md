@@ -9,7 +9,7 @@ The moderators for statistics are [listed here](/moderators#statistics).
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Statistics Advisory Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *  [Robert B. Gramacy](http://bobby.gramacy.com/)
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
