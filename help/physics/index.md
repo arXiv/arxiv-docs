@@ -23,7 +23,7 @@ The moderators for physics are [listed here](/moderators#physics).
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Advisory Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/help/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   [Jacques Distler](http://www.ph.utexas.edu/person/distler_jacques) (Texas): high-energy theory
 *   [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
