@@ -4,19 +4,19 @@ The physics archive was started in August 1991 and includes astro-ph, cond-mat, 
 
 You can browse articles and view categories at the individual archive pages:
 
-- Astrophysics (astro-ph)[/archive/astro-ph]
-- Condensed Matter (cond-mat)[/archive/cond-mat]
-- General Relativity and Quantum Cosmology (gr-qc)[/archive/gr-qc]
-- High Energy Physics - Experiment (hep-ex)[/archive/hep-ex]
-- High Energy Physics - Lattice (hep-lat)[/archive/hep-lat]
-- High Energy Physics - Phenomenology (hep-ph)[/archive/hep-ph]
-- High Energy Physics - Theory (hep-th)[/archive/hep-th]
-- Mathematical Physics (math-ph)[/archive/math-ph]
-- Nonlinear Sciences (nlin)[/archive/nlin]
-- Nuclear Experiment (nucl-ex)[/archive/nucl-ex]
-- Nuclear Theory (nucl-th)[/archive/nucl-th]
-- Physics (physics)[/archive/physics]
-- Quantum Physics (quant-ph)[/archive/quant-ph]
+- Astrophysics [astro-ph](/archive/astro-ph)
+- Condensed Matter [cond-mat](/archive/cond-mat)
+- General Relativity and Quantum Cosmology [gr-qc](/archive/gr-qc)
+- High Energy Physics - Experiment [hep-ex](/archive/hep-ex)
+- High Energy Physics - Lattice [hep-lat](/archive/hep-lat)
+- High Energy Physics - Phenomenology [hep-ph](/archive/hep-ph)
+- High Energy Physics - Theory [hep-th](/archive/hep-th)
+- Mathematical Physics [math-ph](/archive/math-ph)
+- Nonlinear Sciences [nlin](/archive/nlin)
+- Nuclear Experiment [nucl-ex](/archive/nucl-ex)
+- Nuclear Theory [nucl-th](/archive/nucl-th)
+- Physics [physics](/archive/physics)
+- Quantum Physics [quant-ph](/archive/quant-ph)
 
 The moderators for physics are (listed here)[/moderators#Physics].
 
