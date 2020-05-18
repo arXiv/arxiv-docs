@@ -88,7 +88,8 @@ The [physics](/new/physics#advisory_committee),
 (CoRR)](/corr/advisorycommittee), [quantitative
 biology](/new/q-bio#advisory_committee), [quantitative
 finance](/new/q-fin#advisory_committee),
-[statistics](/new/stat#advisory_committee), and [economics](/help/econ) archives each have
+[statistics](/new/stat#advisory_committee), 
+[electrical engineering and systems science](/new/eess_announce), and [economics](/help/econ) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as ex
