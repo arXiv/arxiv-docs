@@ -3,7 +3,7 @@
 The Submitter is an original author of the Work, or a proxy pre-approved by arXiv administrators acting on behalf of an original author.  By submitting the work to arXiv, the Submitter is: 
 
 - Representing and warranting that the Submitter holds the right to make the submission, without conflicting with or violating rights of other persons.
-- Granting a license permitting the work to be included in arXiv.
+- Granting a license permitting the work to be included in arXiv in analog, digital, or other formats as arXiv may deem appropriate, including variations of the work as source files, compiled PDF, machine readable text.
 - Agreeing that arXiv reserves the right to reclassify or reject any submission.
 - Agreeing that submissions will be automatically compared with other arXiv articles and detected text overlap may be noted.
 - Agreeing that metadata may be corrected to conform to arXiv standards and that metadata will be available under a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
@@ -28,5 +28,6 @@ For more information regarding the above policies, please see:
 
 ### Revision history
 
+ 2020-05-21 - Major update to align with updates to submission agreement
 - 2018-02-26 - Current version 1 created.
 $jinja {{ render_history(history) }} jinja$
