@@ -16,7 +16,7 @@ The Submitter makes the following representations and warranties:
 
 ## Grant of the License to arXiv
 
-The Submitter grants to arXiv upon submission of the Work a non-exclusive, perpetual, and royalty-free license to include the Work in the arXiv repository and permit users to access, view, and make other uses of the work in a manner consistent with the services and objectives of arXiv.  This License includes without limitation the right for arXiv to reproduce (e.g., upload, backup, archive, preserve, and allow online access), distribute (e.g., allow access), make available, and prepare versions of  the Work (e.g., , abstracts, and metadata or text files, formats to support accessibility, machine-readable formats) in analog, digital, or other formats as arXiv may deem appropriate. The rights granted will move with arXiv is arXiv moves to another steward.
+The Submitter grants to arXiv upon submission of the Work a non-exclusive, perpetual, and royalty-free license to include the Work in the arXiv repository and permit users to access, view, and make other uses of the work in a manner consistent with the services and objectives of arXiv.  This License includes without limitation the right for arXiv to reproduce (e.g., upload, backup, archive, preserve, and allow online access), distribute (e.g., allow access), make available, and prepare versions of  the Work (e.g., , abstracts, and metadata or text files, formats to support accessibility, machine-readable formats) in analog, digital, or other formats as arXiv may deem appropriate. The rights granted will move with arXiv if arXiv moves to another steward.
 
 ## Waiver of Rights and Indemnification
 
