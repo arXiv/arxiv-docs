@@ -8,8 +8,7 @@ Submission Guidelines
 -   Authors must grant arXiv.org a [non-exclusive and irrevocable
     license to distribute](license) or certify that the work is
     available under another license that conveys these rights.
--   Authors must agree to [arXiv terms of
-    submission](terms_of_submission).
+-   Authors must agree to the [submission agreement](policies/submission_agreement) and [arXiv terms of submission](terms_of_submission).
 -   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
 -   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions) at 20:00 (Eastern) but are subject to delays in the moderation process (see the [schedule for details](#availability).) 
 
