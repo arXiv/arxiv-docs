@@ -26,7 +26,8 @@ slug: Help
 
 ## Submission and Revision
 - [Submit an Article](submit)
-- [Terms of submission](terms_of_submission)
+- [Terms of Submission](terms_of_submission)
+- [Submission Agreement](policies/submission_agreement)
 - [Replace an Article](replace)
 - [Withdraw an Article](withdraw)
 - [Add a Journal Reference, DOI or Report Number to an Article](jref)
