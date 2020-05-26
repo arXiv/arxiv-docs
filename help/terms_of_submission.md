@@ -19,6 +19,7 @@ If you have any additional questions about arXiv’s copyright and licensing pol
 
 For more information regarding the above policies, please see:
 
+-   [Submission Agreement](policies/submission_agreement)
 -   [License](license)
 -   [Moderation](moderation)
 -   [Overlap](overlap)
