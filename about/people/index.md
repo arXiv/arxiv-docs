@@ -14,5 +14,5 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
 - [Volunteer Developers](developers)
 - [Scientific Advisory Board and Subject Advisory Committees](scientific_ad_board)
 - [Member Advisory Board](member_ad_board)
-- [Technical Advisory Board](technical_ad_group)
+- [Technical Advisory Group](technical_ad_group)
 - [Organizational Chart](/about/governance)
