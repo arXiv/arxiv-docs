@@ -1,7 +1,7 @@
 # About The Quantitative Finance archive
 
 
-The Quantitative Finance archive (q-fin) formed on 1 December 2008 and you can read about the [announcement of the archive here](announcement) .
+The Quantitative Finance archive (q-fin) formed on 1 December 2008 and you can read about the [announcement of the archive here](/new/q-fin_announce).
 Quantitative Finance expanded with new categories in February 2014. For more detailed background and
 explanation of the objectives, see the original q-fin announcement.
 
