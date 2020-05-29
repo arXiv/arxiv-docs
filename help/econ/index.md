@@ -1,6 +1,6 @@
 # Economics archive
 
-The Economics archive formed 26 September 2017 and you can read about the [announcement of archive here](announcement).
+The Economics archive formed 26 September 2017 and you can read about the [announcement of archive here](/new/econ_announce).
 
 You can browse articles and view categories at the [main economics archive page](/archive/econ).
 
