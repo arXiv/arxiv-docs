@@ -4,7 +4,7 @@ The Math (math) archive formed on 1 December 1997 and you can read about the [an
 
 You can browse articles and view categories at the [main math archive page](/archive/math).
 
-The moderators for math are [listed here](/moderators#math).
+The [moderators for math are listed here](/moderators#math).
 
 <span id="AdvisoryCommittee"></span>
 
