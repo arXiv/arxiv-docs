@@ -21,6 +21,8 @@ arXiv policies that could lead to the removal of a submission are:
 - *Excessive submission rate.* Articles submitted to arXiv must be of refereeable quality, and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. Moderators may request that a particular author limit their submission rate if this author has a history of many submissions to inappropriate areas or of doubtful refereeability.
 If an author has a back catalog of work to submit to arXiv we ask that they submit no more than three papers per day.
 
+<span id="appeal"></span>
+
 ## Can I appeal a moderation decision?
 
 If you disagree with a moderation decision, you may submit an appeal. Please carefully follow the directions below.
@@ -34,7 +36,13 @@ You will get an email from arXiv administrators when your appeal has been sent t
 - Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
 - In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered.
 
-The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate [advisory committee chair](/about/people/scientific_ad_board) only.
+The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/physics#AdvisoryCommittee),
+[mathematics](/help/math#AdvisoryCommittee), [computer science
+(CoRR)](/corr/advisorycommittee), [quantitative
+biology](/help/q-bio#AdvisoryCommittee), [quantitative
+finance](/help/q-fin#AdvisoryCommittee),
+[statistics](/help/statistics#AdvisoryCommittee), 
+[electrical engineering and systems science](/help/eess#AdvisoryCommittee), and [economics](/help/econ#AdvisoryCommittee) .
 
 ## Who are arXiv moderators?
 
