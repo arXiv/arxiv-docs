@@ -83,13 +83,14 @@ Professor, Carnegie Mellon University (chair of Statistics Advisory Committee)
 
 ## Subject Advisory Committees
 
-The [physics](/new/physics#advisory_committee),
-[mathematics](/new/math#advisory_committee), [computer science
-(CoRR)](/corr/advisorycommittee), [quantitative
-biology](/new/q-bio#advisory_committee), [quantitative
-finance](/new/q-fin#advisory_committee),
-[statistics](/new/stat#advisory_committee), 
-[electrical engineering and systems science](/new/eess_announce), and [economics](/help/econ) archives each have
+The [physics](/help/physics#AdvisoryCommittee),
+[mathematics](/help/math#AdvisoryCommittee), 
+[computer science (CoRR)](/corr),
+[quantitative biology](/help/q-bio#AdvisoryCommittee), 
+[quantitative finance](/help/q-fin#AdvisoryCommittee),
+[statistics](/help/statistics#AdvisoryCommittee), 
+[electrical engineering and systems science](/help/eess#AdvisoryCommittee),
+ and [economics](/help/econ#AdvisoryCommittee) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as ex

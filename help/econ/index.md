@@ -1,8 +1,13 @@
 # Economics archive
 
-The Economics archive ([econ](/archive/econ)) was
-[introduced](announcement) 26 September 2017.
+The Economics archive formed 26 September 2017 and you can read about the [announcement of archive here](/new/econ_announce).
 
+You can browse articles and view categories at the [main economics archive page](/archive/econ).
+
+The [moderators for economics are listed here](/moderators#economics).
+
+
+<span id="AdvisoryCommittee"></span>
 ## The arXiv Economics Advisory Committee
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
@@ -12,14 +17,3 @@ The advisory committee members serve as consultants to Cornell University and to
 - Fabien Postel-Vinay (University College London)
 - Joerg Stoye (Cornell University)
 - Martin Weidner, Chair, (University College London)
-
-## Subject categories of the **econ** archive are:
-
--   **Econometrics (econ.EM)**
-    Econometric Theory, Micro-Econometrics, Macro-Econometrics, Empirical Content of Economic Relations discovered via New Methods, Methodological Aspects of the Application of Statistical Inference to Economic Data.
-
--   **General Economics (econ.GN)**
-    General methodological and applied contributions to economics.
-
--   **Theoretical Economics (econ.TH)**
-    Includes theoretical contributions to Contract Theory, Decision Theory, Game Theory, General Equilibrium, Growth, Learning and Evolution, Macroeconomics, Market and Mechanism Design, and Social Choice.

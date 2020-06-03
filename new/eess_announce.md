@@ -2,28 +2,6 @@
 
 The [Electrical Engineering and Systems Science](/archive/eess) archive (eess) was introduced 18 September 2017.
 
-## The arXiv EElectrical Engineering and Systems Science Advisory Committee
-
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
-
-- Al Bovik, U. Texas Austin
-- Yonina Eldar, Technion
-- Babab Hassibi, Caltech
-- Jarvis Haupt, University of Minnesota
-- Robert Heath, U. Texas Austin
-- Al Hero, University of Michigan
-
-
-## Subject categories of the **eess** archive are:
-
-- **eess.AS (audio and speech processing)**, moderated by Sharon Gannot (Bar-Ilan
-University)
-- **eess.IV (image and video processing)**, moderated by Antonio Ortega (USC)
-- **eess.SP (signal processing)**, moderated by Fulvio Gini (University 
-of Pisa)
-- **eess.SY (Systems and Control)**, moderated by  Marco Lovera, Guodong Shi, Jan-Willem Van Wingerden, and Yuan Wang
-
-
 ## Initial Announcement for eess Launch
 
 In recent years, more and more electrical and systems engineers have been 
