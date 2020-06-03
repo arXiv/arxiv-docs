@@ -4,7 +4,7 @@ The Statistics archive formed on 1 April 2007 and you can read about the [announ
 
 You can browse articles and view categories at the [main statistics archive page](/archive/stat).
 
-The moderators for statistics are [listed here](/moderators#statistics).
+The [moderators for statistics are listed here](/moderators#statistics).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Statistics Advisory Committee:
