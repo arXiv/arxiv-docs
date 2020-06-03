@@ -38,7 +38,7 @@ You will get an email from arXiv administrators when your appeal has been sent t
 
 The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/physics/#AdvisoryCommittee);
 [mathematics](/help/math/#AdvisoryCommittee); 
-[computer science (CoRR)](/corr/advisorycommittee); 
+[computer science (CoRR)](/corr); 
 [quantitative biology](/help/q-bio/#AdvisoryCommittee); 
 [quantitative finance](/help/q-fin/#AdvisoryCommittee);
 [statistics](/help/statistics/#AdvisoryCommittee);
