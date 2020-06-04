@@ -188,6 +188,8 @@ announcement, it will be wrapped to 80 characters.
     the standard `arXiv:arch-ive/YYMMNNN` or `arXiv:YYMM.NNNN(N)` format
     so that our Web interface can turn the reference into a link to the
     article's abstract.
+-   Certain [<span class="mathjax">$\\TeX$</span> accent commands](#accents) may be used in this
+    field.
 
 ### <span id="comments"></span>Comments:
 
@@ -229,8 +231,6 @@ announcement, it will be wrapped to 80 characters.
     license statement that contradicts the license you grant arXiv on
     submission! For more information see our [descriptions of available
     licenses](license).
--   Certain [<span class="mathjax">$\\TeX$</span> accent commands](#accents) may be used in this
-    field.
 
 
 ### <span id="report"></span>Report-no: *required only when supplied by author's institution*
