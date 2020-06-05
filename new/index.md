@@ -12,10 +12,10 @@ What's been New on the [arXiv.org](/) e-print archives
 
 5 June 2020
 
-**5 June 2020 - No paper announcement planned for ##### :** The mailings and the public availability of new submissions will be deferred for ##### June 2020. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+**5 June 2020 - Service notes for #####DATE :** The mailings and the public announcement of new submissions will be deferred for ##### June 2020. The submission system will also be unavailable to accept papers from #### to ####. The arXiv servers will remain in operation for browsing articles. In addition, arXiv staff will provide limited service in response to queries during this time. 
 
 - Articles received at or after 14:00 ET #### June 2020 and before 14:00 ET #### June 2020 will be announced at 20:00 ET #### June 2020.
-- The submission system will also be unavailable to accept papers from #### to ####.
+
 
 
 #### January 2020
