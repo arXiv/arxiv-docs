@@ -1,6 +1,11 @@
 Ancillary files
 ===============
 
+**Please note that the ancillary
+files feature is *not* supported with [PDF submissions](submit_pdf) at this
+time. They are only supported for submissions with TeX/PDFLaTeX source files.**
+
+
 arXiv is primarily an [archive and distribution service for research
 articles](primer). There are limited facilities for including ancillary
 files with articles. Such ancillary
@@ -28,9 +33,7 @@ submission package might be:
 ```
 Ancillary files are stored with a particular version of an article and
 thus cannot be changed independently from the article. Different
-ancillary files may appear with each version. Please note that ancillary
-files are not supported with [PDF submissions](submit_pdf) at this
-time.
+ancillary files may appear with each version. 
 
 Display and download
 --------------------

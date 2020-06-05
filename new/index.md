@@ -7,6 +7,16 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+#### June 2020
+<span id="5June2020"></span>
+
+5 June 2020
+
+**5 June 2020 - Service notice for 9 June 2020 :** The mailings and the public announcement of new submissions will be deferred for Tuesday 9 June 2020. The arXiv servers will remain in operation. In addition, arXiv staff will provide limited service in response to queries during this time. 
+
+- Articles received at or after 14:00 ET Monday 8 June 2020 and before 14:00 ET Wednesday 10 June 2020 will be announced at 20:00 ET Wednesday 10 June 2020.
+
+
 
 #### January 2020
 <span id="6Jan2020"></span>
