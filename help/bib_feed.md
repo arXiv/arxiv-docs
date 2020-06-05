@@ -8,7 +8,8 @@ journal reference metadata associated with arXiv articles from
 publishers and other trusted parties. We believe that linkage between
 arXiv and publisher versions of articles is of benefit to both arXiv
 users and publishers. Prospective users should contact arXiv
-administrators to discuss possible use of this facility.
+administrators to discuss possible use of this facility, *after* making 
+the XML feed available on their site for ingestion. 
 
 DOI and journal reference update data format
 --------------------------------------------
