@@ -3,7 +3,8 @@ Ancillary files
 
 **Please note that the ancillary
 files feature is *not* supported with [PDF submissions](submit_pdf) at this
-time.**
+time. They are only supported for submissions with TeX/PDFLaTeX source files.**
+
 
 arXiv is primarily an [archive and distribution service for research
 articles](primer). There are limited facilities for including ancillary
