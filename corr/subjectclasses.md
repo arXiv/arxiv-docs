@@ -74,7 +74,7 @@ Covers introductory material, survey material, predictions of future trends, bio
 
 Covers all aspects of computer graphics. Roughly includes material in all of ACM Subject Class I.3, except that I.3.5 is is likely to have Computational Geometry as the primary subject area.
 
-**[AR - Hardware Architecture](/list/cs.AR/recent)** - William Waite
+**[AR - Hardware Architecture](/list/cs.AR/recent)** - Onur Mutlu
 
 Covers systems organization and architecture. Roughly includes material in ACM Subject Classes C.0, C.1, and C.5.
 
@@ -96,7 +96,7 @@ Papers on all aspects of machine learning research (supervised,
 unsupervised, reinforcement learning, bandit problems, and so on)
 including also robustness, explanation, fairness, and
 methodology. cs.LG is also an appropriate primary category for
-applications of machine learning methods. 
+applications of machine learning methods.
 
 *Relationship to other categories*: If the primary domain of the
 application is available as another category in arXiv and readers of
