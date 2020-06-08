@@ -42,7 +42,7 @@ The appeals process allows moderators additional time to reconsider a submission
 [quantitative biology](/help/q-bio/#AdvisoryCommittee); 
 [quantitative finance](/help/q-fin/#AdvisoryCommittee);
 [statistics](/help/statistics/#AdvisoryCommittee);
-[electrical engineering and systems science](/help/eess#/AdvisoryCommittee); or [economics](/help/econ/#AdvisoryCommittee) .
+[electrical engineering and systems science](/help/eess/#AdvisoryCommittee); or [economics](/help/econ/#AdvisoryCommittee) .
 
 ## Who are arXiv moderators?
 
