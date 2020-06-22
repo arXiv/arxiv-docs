@@ -6,7 +6,7 @@ slug: Help
 
 ## General Information
 - [About arXiv](/about)
-- [Policies](/policies)
+- [Policies](policies)
 - [arXiv Help Frequently Asked Questions](faq/index)
 
 ## Searching and Browsing
