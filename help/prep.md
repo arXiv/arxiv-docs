@@ -22,7 +22,7 @@ submission form. The possible information fields are:
 <!-- -->
 
 -   **[MSC-class:](#msc)** math archives only
--   **[ACM-class:](#acm)** required for cs archives only
+-   **[ACM-class:](#acm)** cs archives only
 
 Please read our FAQ page "[Submissions in languages other than English
 and multiple language submissions](faq/multilang)" if your submission is
