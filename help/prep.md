@@ -111,7 +111,7 @@ Information Fields
     be separated from the main name by a comma, enter simply
     `Bill Gates Jr` or `Fred Bloggs IV`. Names such as
     `John von Neumann` are entered exactly as illustrated. 
-    Do not include degree-granted suffixes such as "MD", "MSc", "BSc", etc.
+    Do not include degree-granted suffixes such as "MD", "PhD", "MSc", "BSc", etc.
 -   Affiliations must be placed within parentheses. Do not enter full
     mailing address, as these are not needed in our metadata. If
     desired, at most, include a city and country (no zip codes, postal
