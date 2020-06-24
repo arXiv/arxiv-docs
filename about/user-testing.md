@@ -65,18 +65,17 @@ We use this list only for user testing communications and never spam or share yo
 <option value="Statistics">Statistics</option>
 <option value="Electrical Engineering and Systems Science">Electrical Engineering and Systems Science</option>
 <option value="Economics">Economics</option>
+<option value="Not Applicable">Not Applicable</option>
 </select>
 </div>
 <hr>
 <div class="mc-field-group input-group">
 <strong>(Optional) Targeted Testing Groups</strong>
 <p>You will be automatically added to the general user testing list. In addition we have targeted testing groups, select any that apply or leave blank. </p>
-<ul>
-<input type="hidden" value="32" name="group[55039][32]" id="mce-group[55039]-55039-3">
-<li><input type="checkbox" value="1" name="group[55039][1]" id="mce-group[55039]-55039-0"><label for="mce-group[55039]-55039-0">Assistive Technology (if you use a screen reader, magnifier, voice command, or other assistive tools)</label></li>
+<ul><input type="hidden" value="16" name="group[55039][16]" id="mce-group[55039]-55039-3"><li><input type="checkbox" value="1" name="group[55039][1]" id="mce-group[55039]-55039-0"><label for="mce-group[55039]-55039-0">Assistive Technology (if you use a screen reader, magnifier, voice command, or other assistive tools)</label></li>
 <li><input type="checkbox" value="2" name="group[55039][2]" id="mce-group[55039]-55039-1"><label for="mce-group[55039]-55039-1">International (if your first language is not English or first culture is not USA)</label></li>
 <li><input type="checkbox" value="4" name="group[55039][4]" id="mce-group[55039]-55039-2"><label for="mce-group[55039]-55039-2">Slow Connectivity (if you often experience slow or unreliable internet in your area)</label></li>
-<li><input type="checkbox" value="128" name="group[55039][128]" id="mce-group[55039]-55039-4"><label for="mce-group[55039]-55039-4">API Testing (if you use the arXiv API for development)</label></li>
+<li><input type="checkbox" value="32" name="group[55039][32]" id="mce-group[55039]-55039-4"><label for="mce-group[55039]-55039-4">API Testing (if you use the arXiv API for development)</label></li>
 </ul>
 </div>
 <hr>

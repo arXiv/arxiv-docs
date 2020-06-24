@@ -65,13 +65,14 @@ We use this list only for user testing communications and never spam or share yo
 <option value="Statistics">Statistics</option>
 <option value="Electrical Engineering and Systems Science">Electrical Engineering and Systems Science</option>
 <option value="Economics">Economics</option>
+<option value="Not Applicable">Not Applicable</option>
 </select>
 </div>
 <hr>
 <div class="mc-field-group input-group">
 <strong>(Optional) Do you want to join our general testing group?</strong>
 <p>From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. Your feedback helps us improve arXiv.</p>
-<ul><input type="hidden" value="128" name="group[55039][128]" id="mce-group[55039]-55039-4"><li><input type="checkbox" value="32" name="group[55039][32]" id="mce-group[55039]-55039-3"><label for="mce-group[55039]-55039-3">Yes, add me to the general user testing group</label></li></ul>
+<ul><input type="hidden" value="32" name="group[55039][32]" id="mce-group[55039]-55039-4"><li><input type="checkbox" value="16" name="group[55039][16]" id="mce-group[55039]-55039-3"><label for="mce-group[55039]-55039-3">Yes, add me to the general user testing group</label></li></ul>
 </div>
 <hr>
 <div id="mce-responses" class="clear">
