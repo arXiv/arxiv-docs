@@ -6,6 +6,7 @@ slug: Help
 
 ## General Information
 - [About arXiv](/about)
+- [Policies](policies)
 - [arXiv Help Frequently Asked Questions](faq/index)
 
 ## Searching and Browsing
@@ -15,6 +16,7 @@ slug: Help
 - [Cookie Configuration](../cookies)
 - [Utilities (tar, gzip, etc.)](utilities)
 - [Gzipped files](gzip)
+- [Web Accessibility Assistance](web_accessibility)
 
 ## User Accounts
 - [Register a User Account](registerhelp)
