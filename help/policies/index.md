@@ -10,7 +10,8 @@ Please note this page is a work in progress. We are working towards a comprehens
 
 ## Submission Policies
 - [General submission policies](/help/submit)
-- [Terms of submission](/help/terms_of_submission)
+- [Submission agreement](submission_agreement)
+- [Terms of submission](instructions_for_submission)
 - [Order of announcements and submission cutoff time](/help/submit#availability)
 - [Moderation](/help/moderation)
 - [License and copyright](/help/license)
