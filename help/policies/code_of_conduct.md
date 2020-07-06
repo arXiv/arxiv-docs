@@ -53,7 +53,8 @@ Policies related to authors:
 
 - [Moderation](../moderation) 
 - [Privacy](privacy_policy)
-- [Terms of submission](../terms_of_submission)
+- [Submission terms and agreement](submission_agreement)
+- [Instructions for submission](instructions_for_submission)
 - [Authorship policy](../registerhelp)
 
 Policies related to moderators:
