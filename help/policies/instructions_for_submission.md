@@ -1,4 +1,4 @@
-# arXiv Terms of Submission
+# Instructions for Submission
 
 The Submitter is an original author of the Work, or a proxy pre-approved by arXiv administrators acting on behalf of an original author.  By submitting the work to arXiv, the Submitter is: 
 
@@ -19,16 +19,16 @@ If you have any additional questions about arXiv’s copyright and licensing pol
 
 For more information regarding the above policies, please see:
 
--   [Submission Agreement](policies/submission_agreement)
--   [License](license)
--   [Moderation](moderation)
--   [Overlap](overlap)
--   [Submitting an article](submit)
--   [Metadata](prep)
--   [Third party submission](third_party_submission)
+-   [Submission Agreement](submission_agreement)
+-   [License](../license)
+-   [Moderation](../moderation)
+-   [Overlap](../overlap)
+-   [Submitting an article](../submit)
+-   [Metadata](../prep)
+-   [Third party submission](../third_party_submission)
 
 ### Revision history
 
- 2020-05-21 - Major update to align with updates to submission agreement
+ 2020-07-06 - Major update to align with updates to submission agreement
 - 2018-02-26 - Current version 1 created.
 $jinja {{ render_history(history) }} jinja$
