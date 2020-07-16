@@ -88,7 +88,7 @@ The [physics](/help/physics/#AdvisoryCommittee),
 [computer science (CoRR)](/corr),
 [quantitative biology](/help/q-bio#AdvisoryCommittee), 
 [quantitative finance](/help/q-fin#AdvisoryCommittee),
-[statistics](/help/statistic/s#AdvisoryCommittee), 
+[statistics](/help/statistics/#AdvisoryCommittee), 
 [electrical engineering and systems science](/help/eess/#AdvisoryCommittee),
  and [economics](/help/econ/#AdvisoryCommittee) archives each have
 advisory committees, which are overseen loosely by the Scientific
