@@ -8,7 +8,7 @@ The [moderators for math are listed here](/moderators#math).
 
 <span id="AdvisoryCommittee"></span>
 
-## The arXiv Quantitative Biology Advisory Committee:
+## The arXiv Math Advisory Committee:
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
