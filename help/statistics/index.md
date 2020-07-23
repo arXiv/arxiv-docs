@@ -15,6 +15,5 @@ The advisory committee members serve as consultants to Cornell University and to
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
 *  [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
 *  [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/)
-*  [Jon Wakefield](http://faculty.washington.edu/jonno/cv.html)
 *  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
 *  Martin Wells
