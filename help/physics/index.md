@@ -39,5 +39,5 @@ The advisory committee members serve as consultants to Cornell University and to
 
 - 2013-07 - Advisory committee re-organized.
 - 2009-01 - We have implemented the long-awaited division of the **astro-ph** archive, see [astro-ph archive details](/archive/astro-ph). All new astro-ph submissions must be placed within a sub-category. It is intended that existing astro-ph articles will be machine classified according to this new scheme when enough training data has been collected from new submissions.
-- 2008-12 - We have launched a the Quantitative Finance ([q-fin](/new/q-fin_announcement)) archive to house articles that have historically been submitted to **cond-mat** or **physics.soc-ph**.
+- 2008-12 - We have launched a the Quantitative Finance ([q-fin](/new/q-fin_announce)) archive to house articles that have historically been submitted to **cond-mat** or **physics.soc-ph**.
 - 2007-04 - The reformulation of the [arXiv identifiers](/help/arxiv_identifier) in April 2007 means that the physics reorganization proposed in 2005 is no longer necessary. We have the flexibility to change category names, add new categories, and reclassify articles without the need to change the names of the existing physics archives.
