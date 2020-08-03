@@ -2,9 +2,9 @@
 
 The Electrical Engineering and Systems Science (eess) archive formed 18 September 2017 and you can read about the [announcement of archive here](/new/eess_announce).
 
-You can browse articles and view categories at the [main economics archive page](/archive/eess).
+You can browse articles and view categories at the [main eess archive page](/archive/eess).
 
-The [moderators for economics are listed here](/moderators#eess).
+The [moderators for are listed here](/moderators#eess).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Economics Advisory Committee
