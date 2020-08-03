@@ -7,7 +7,7 @@ You can browse articles and view categories at the [main eess archive page](/arc
 The [moderators for are listed here](/moderators#eess).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Economics Advisory Committee
+## The arXiv Electrical Engineering and Systems Advisory Committee
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
