@@ -34,15 +34,13 @@ projects:
 ---
 # arXiv Labs
 
-arXiv is surrounded by a community of researchers and developers working at the
-cutting edge of information science and technology.
+arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
 
-While the arXiv team is focused on our core mission—providing rapid
-dissemination of research findings at no cost to readers and submitters—we are
-excited to be experimenting with a small number of collaborators on projects
-that add value for our stakeholders and advance research.
+While the arXiv team is focused on our core mission—providing rapid dissemination of research findings at no cost to readers and submitters—we are excited to be experimenting with a small number of collaborators on projects that add value for our stakeholders and advance research.
 
 Here are some of the projects that our collaborators are working on right now.
 
 $jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
 $jinja {{ render_project(projects.HTML5_readability) }}  jinja$
+
+We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.

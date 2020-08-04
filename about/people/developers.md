@@ -30,3 +30,5 @@ Please see our [guidelines for
 contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or
 contact nextgen@arxiv.org, for more information about contributing to arXiv
 software development.
+
+We are excited to be experimenting with a small number of collaborators on arXiv Labs projects that add value for our stakeholders and advance research. [Learn more about arXiv Labs](https://labs.arxiv.org) and ways to get involved.
