@@ -56,9 +56,7 @@ The full, machine-readable arXiv dataset is [available on Kaggle](https://www.ka
 
 ### Amazon S3
 
-For all articles the [processed PDF and source files are available from
-Amazon S3](bulk_data_s3). We recommend this method for bulk access to
-the full-text of arXiv articles.
+For all available articles the processed PDF and source files are [available from Amazon S3](bulk_data_s3). 
 
 ### KDD cup dataset
 
