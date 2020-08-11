@@ -51,7 +51,7 @@ licenses](license) and this information is available in the
 OAI-PMH metadata.*
 
 ### Kaggle
-On Kaggle.com, the full, machine-readable arXiv dataset is available, including all available articles and related features such as article titles, authors, categories, abstracts, full text PDFs, and more.
+The full, machine-readable arXiv dataset is [available on Kaggle](https://www.kaggle.com/Cornell-University/arxiv). This includes all available articles and related features such as article titles, authors, categories, abstracts, full text PDFs, and more.
 
 
 ### Amazon S3
