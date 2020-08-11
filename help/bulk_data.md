@@ -1,5 +1,5 @@
-arXiv Bulk Data Access
-======================
+# arXiv Bulk Data Access
+
 
 We believe that *open access* should permit computation on collections
 of articles as well as human access to individual articles, and that the
@@ -14,30 +14,29 @@ services below.
 Please review the [Terms of Use for arXiv APIs](./api/tou) before using any of
 the access options below.
 
-Bulk Metadata Access
---------------------
+## Bulk Metadata Access
 
-#### OAI-PMH
+
+### OAI-PMH
 
 arXiv supports the [OAI protocol for metadata harvesting](oa/index)
 (OAI-PMH) to provide access to metadata for all articles, updated daily
 with new articles. This is the preferred way to bulk-download or keep an
 up-to-date copy of arXiv metadata.
 
-#### API
+### API
 
 arXiv supports real-time programmatic access to metadata and our search
 engine via the [arXiv API](api/index). Results are returned using
 the Atom XML format for easy integration with web services and toolkits.
 
-#### RSS
+### RSS
 
 arXiv provides [RSS feeds of new updates](rss) each day. These are
 intended primarily for human consumption but do use well defined XML
 formats and thus might be useful to machine applications.
 
-Bulk Full-Text Access
----------------------
+## Bulk Full-Text Access
 
 *Note: Most articles submitted to arXiv are submitted with the [default
 arXiv
@@ -51,18 +50,22 @@ downloads. A small fraction of submissions are made with [other
 licenses](license) and this information is available in the
 OAI-PMH metadata.*
 
-#### KDD cup dataset
+### Kaggle
+On Kaggle.com, the full, machine-readable arXiv dataset is available, including all available articles and related features such as article titles, authors, categories, abstracts, full text PDFs, and more.
+
+
+### Amazon S3
+
+For all articles the [processed PDF and source files are available from
+Amazon S3](bulk_data_s3). We recommend this method for bulk access to
+the full-text of arXiv articles.
+
+### KDD cup dataset
 
 A sample of arXiv source files was collected in 2003 for the KDD cup
 competition. This dataset may be [downloaded from the KDD cup
 website](http://www.cs.cornell.edu/projects/kddcup/datasets.html). This
 dataset also includes extracted citation data.
-
-#### Amazon S3
-
-For all articles the [processed PDF and source files are available from
-Amazon S3](bulk_data_s3). We recommend this method for bulk access to
-the full-text of arXiv articles.
 
 <span id="harvest"></span>
 ### Custom Programmatic Harvesting 
