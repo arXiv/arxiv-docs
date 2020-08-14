@@ -28,21 +28,18 @@ recommend that you share the paper password with all of the authors of
 each paper you submit and encourage them to register themselves as
 owners.
 
-If you have submitted a paper in the past, it is quite likely that you
-are already registered as an author. However, because this is an
-imprecise process of matching e-mail addresses and names, we have
-probably made mistakes in some cases. If papers you have submitted are
+If papers you have submitted are
 missing entirely from your [list](/user/) of papers, you
-should follow the instructions below for *other authors*. If a paper is
-on your list of papers you own, but you are not registered as an author,
-you can use the "Change Author Status" link on your [user
-information](/user/) page.
+should follow the instructions below for *other authors*.
+
+If a paper is on your list of papers you own, but you are not registered as an author,
+you can use the [Change Author Status form](/auth/change-author-status).
 
 ## For other authors
 
 Since most papers have multiple authors, it is quite likely that you are the author of a paper that you did not submit personally. 
 
-### Do you have a paper password?
+### To claim a paper
 
 If the submitter has provided you with the paper password you can use the [the Claim Ownership with a password form](/auth/need-paper-password).
 
