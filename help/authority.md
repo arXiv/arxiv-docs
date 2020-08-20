@@ -1,5 +1,5 @@
-Authority Records
-=================
+# Authority Records
+
 
 Since 2005 arXiv has maintained *authority records* that link a person's
 arXiv account with the papers that they have written. We currently
@@ -14,8 +14,8 @@ support third-party submission by approved conference organizers and
 journals. Users may log-in to see [a list](/user/) of
 papers they have written or own.
 
-For submitters
---------------
+## For submitters
+
 
 When you submit a paper, you will automatically be registered as an
 *owner* of that paper. At submission time, we will ask if you are an
@@ -28,30 +28,22 @@ recommend that you share the paper password with all of the authors of
 each paper you submit and encourage them to register themselves as
 owners.
 
-If you have submitted a paper in the past, it is quite likely that you
-are already registered as an author. However, because this is an
-imprecise process of matching e-mail addresses and names, we have
-probably made mistakes in some cases. If papers you have submitted are
+If papers you have submitted are
 missing entirely from your [list](/user/) of papers, you
-should follow the instructions below for *other authors*. If a paper is
-on your list of papers you own, but you are not registered as an author,
-you can use the "Change Author Status" link on your [user
-information](/user/) page.
+should follow the instructions below for *other authors*.
 
-Other authors
--------------
+If a paper is on your list of papers you own, but you are not registered as an author,
+you can use the [Change Author Status form](/auth/change-author-status).
 
-Since most papers have multiple authors, it is quite likely that you are
-the author of a paper that you did not submit personally. In that case,
-you should ask the submitter to give you the paper password -- with the
-paper password, you can quickly [claim
-ownership](/auth/need-paper-password) of the paper.
-You can also [request
-ownership](/auth/request-ownership) of a paper
-without your paper password, but this process requires manual
-intervention from our operator and may result in a delay of several
-days; our administrators may also need to contact you to verify that
-your authorship claim is correct.
+## For other authors
+
+Since most papers have multiple authors, it is quite likely that you are the author of a paper that you did not submit personally. 
+
+### To claim a paper
+
+If the submitter has provided you with the paper password you can use the [the Claim Ownership with a password form](/auth/need-paper-password).
+
+If you do not have the paper password you can use the [the Claim Authorship form](/auth/request-ownership). Note that this process involves verification by our staff and may take a couple of days.
 
 <span id="coauthor"></span>
 ###  A note on authorship in scholarly works
