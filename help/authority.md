@@ -29,7 +29,7 @@ each paper you submit and encourage them to register themselves as
 owners.
 
 If papers you have submitted are
-missing entirely from your [list](/user/) of papers, you
+missing entirely from your [list of papers](/user/), you
 should follow the instructions below for *other authors*.
 
 If a paper is on your list of papers you own, but you are not registered as an author,
