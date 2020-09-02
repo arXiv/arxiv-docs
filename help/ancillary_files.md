@@ -23,7 +23,10 @@ Submission of ancillary files
 -----------------------------
 
 Ancillary files are included with an arXiv submission by placing them in
-a directory `anc` at the root of your .tar.gz or .zip submission package. For example, if
+a directory `anc` at the root of your .tar.gz or .zip submission package. 
+This is done in the "Add Files" step of the submission process.
+
+For example, if
 the submission has one TeX file, one image, and C++ program the tar/zip
 submission package might be:
 ```
