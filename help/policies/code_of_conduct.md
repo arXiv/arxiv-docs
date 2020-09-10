@@ -1,11 +1,5 @@
 # arXiv Code of Conduct
 
-## Seeking Feedback on arXiv Code of Conduct
-  
-We would like your feedback on our Code of Conduct! Please let us know what you think [here](https://cornell.qualtrics.com/jfe/form/SV_eQDZib6K66o6gD3).
-
----
-
 ## Opening Statement 
 
 arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our core values outlined here.
