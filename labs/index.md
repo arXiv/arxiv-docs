@@ -49,23 +49,23 @@ projects:
       providers and brought to you by
       <a href="https://core.ac.uk/" target="_blank" rel="noopener">CORE</a>,
       the world’s largest aggregator of open access research.
-    pws_links:
-      title: arXiv Links to Code
-      repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
-      thumbnail: images/pwc-logo.png
-      collaborators:
-      - name: Robert Stojnic
-        association: Papers with Code / Facebook AI Research
-      - name: Viktor Kerkez
-        association: Papers with Code / Facebook AI Research
-      - name: Ludovic Viaud
-        association: Papers with Code / Facebook AI Research
-      summary: |
-        arXiv Links to Code aims to provide an easy and convenient way to
-        find relevant code for a paper. It is using data from
-        <a href="https://paperswithcode.com" target="_blank" rel="noopener">
-        Papers with Code</a> - a free resource that links papers, code and
-        results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
+  pwc_links:
+    title: arXiv Links to Code
+    repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
+    thumbnail: images/pwc-logo.png
+    collaborators:
+    - name: Robert Stojnic
+      association: Papers with Code / Facebook AI Research
+    - name: Viktor Kerkez
+      association: Papers with Code / Facebook AI Research
+    - name: Ludovic Viaud
+      association: Papers with Code / Facebook AI Research
+    summary: |
+      arXiv Links to Code aims to provide an easy and convenient way to
+      find relevant code for a paper. It is using data from
+      <a href="https://paperswithcode.com" target="_blank" rel="noopener">
+      Papers with Code</a> - a free resource that links papers, code and
+      results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
 ---
 # arXiv Labs
 
