@@ -10,7 +10,7 @@ projects:
     - name: Matt Bierbaum
       association: Cornell Computing and Information Science
     summary: |
-      The arXiv bibliographic overlay displays information about works that cite
+      arXiv Bibliographic Explorer displays information about works that cite
       and are cited by arXiv papers and their published versions. The primary
       objective of the project is to enable discovery of relevant research and
       context by providing user-friendly navigation of an article's citation
@@ -49,6 +49,23 @@ projects:
       providers and brought to you by
       <a href="https://core.ac.uk/" target="_blank" rel="noopener">CORE</a>,
       the world’s largest aggregator of open access research.
+  pwc_links:
+    title: arXiv Links to Code
+    repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
+    thumbnail: images/pwc-logo.png
+    collaborators:
+    - name: Robert Stojnic
+      association: Papers with Code / Facebook AI Research
+    - name: Viktor Kerkez
+      association: Papers with Code / Facebook AI Research
+    - name: Ludovic Viaud
+      association: Papers with Code / Facebook AI Research
+    summary: |
+      arXiv Links to Code aims to provide an easy and convenient way to
+      find relevant code for a paper. It is using data from
+      <a href="https://paperswithcode.com" target="_blank" rel="noopener">
+      Papers with Code</a> - a free resource that links papers, code and
+      results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
 ---
 # arXiv Labs
 
@@ -58,6 +75,7 @@ While the arXiv team is focused on our core mission—providing rapid disseminat
 
 Here are some of the projects that our collaborators are working on right now.
 
+$jinja {{ render_project(projects.pwc-links) }} jinja$
 $jinja {{ render_project(projects.core_recommender) }} jinja$
 $jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
 
