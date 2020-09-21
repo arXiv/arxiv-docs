@@ -11,16 +11,28 @@
         <h2>{{ project.title }}</h2>
         <span class="label">Collaborator{%- if project.collaborators|length > 1 -%}s{%- endif -%}: </span>
         {% for collaborator in project.collaborators %}
-        <p>{{ collaborator.name }}<br />
+        <p>{% if collaborator.link %}<a href="{{ collaborator.link }}" target="_blank" rel="noopener">{{ collaborator.name }}</a>{% else %}{{ collaborator.name }}{% endif %}<br />
+        {%- if collaborator.association -%}
         <em>{{ collaborator.association }}</em></p>
+        {%- endif -%}
         {% endfor %}
       </div>
       <div class="column">
-        <p>{{ project.summary }}</p>
+        <p>{{ project.summary|safe }}</p>
       </div>
     </div>
+    {%- if project.repo -%}
     <p class="has-text-right"><span class="has-text-weight-bold">
       Code: </span>{{ project.repo }}</p>
+    {%- endif -%}
+    {%- if project.more_info -%}
+    <p class="has-text-right"><span class="has-text-weight-bold">
+      More Information: </span><br/>
+      {%- for info in project.more_info -%}
+      <a href="{{ info.link}}" target="_blank" rel="noopener">{{ info.name }}</a><br/>
+      {%- endfor -%}
+    </p>
+    {%- endif -%}
   </div>
 </article>
 {% endmacro %}
