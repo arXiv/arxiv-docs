@@ -75,7 +75,7 @@ While the arXiv team is focused on our core mission—providing rapid disseminat
 
 Here are some of the projects that our collaborators are working on right now.
 
-$jinja {{ render_project(projects.pwc-links) }} jinja$
+$jinja {{ render_project(projects.pwc_links) }} jinja$
 $jinja {{ render_project(projects.core_recommender) }} jinja$
 $jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
 
