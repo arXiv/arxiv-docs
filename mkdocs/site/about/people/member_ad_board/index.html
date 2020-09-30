@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> People </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Member Advisory Board (MAB)</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="member-advisory-board-mab">Member Advisory Board (MAB)</h1>
+<p>The Member Advisory Board (MAB) represents participating institutions’ interests and advises Cornell University on issues 
+related to repository management and development, standards implementation, interoperability, development priorities, 
+business planning, and outreach and advocacy. Representation on MAB is reserved for libraries, research institutions, 
+laboratories, and foundations that are members of arXiv and that contribute to the financial support of the service.</p>
+<p>The MAB has voting members in three categories: contributing organizations (at least 7), high-contributing organizations (up to 5), Simons Foundation (1). Representatives from contributing organizations are elected. High-contributing organizations represent each consortia or national organization member that contributes 5% or more of arXiv’s annual income generated through membership fees. Additionally, there are five non-voting ex-officio members.</p>
+<p>The <a href="/about/mab_bylaws">MAB Bylaws</a> detail the goals, composition, operation, and election of the Board.</p>
+<h2 id="contributing-organizations">Contributing Organizations</h2>
+<p><strong>Los Alamos National Laboratory, USA</strong>, <em>Carol Hoover, Digital Information Resources Manager (6-year term ending December 2019)</em></p>
+<p>Carol has been managing digital collections at LANL for over 10 years. She understands core science areas/R&amp;D at LANL, actively seeks to integrate OA content into the Library collections and champions OA with LANL researchers. She has been a member of the SCOAP3 Technical Working Group, helping to develop the specifications for the market tender, and is now a US representative on the SCOAP3 Governing Council. She has served on many publisher Library Advisory Boards and has a strong and deep working knowledge of publishing business models, issues in scholarly publishing and budgeting and business practices across federal government libraries. She received a 2011 LANL Distinguished Performance Award for her work setting up a DOE complex-wide consortia licensing model for subscription-based content.</p>
+<p><strong>Massachusetts Institute of Technology, USA</strong>, <em>Tracy Gabridge, Deputy Director of the MIT Libraries (7-year term ending December 2020)</em></p>
+<p>Tracy Gabridge is currently the Deputy Director of the MIT Libraries focusing on overall strategic planning and organizational health.  Her library career focus has been on developing and evolving library services to match the highly dynamic needs of the MIT community, using a variety of assessment tools including ethnographic methods to inform planning and action. She began her work in libraries in 2000 after a successful career as an electrical engineer and manager at AT&amp;T Bell Laboratories and Lucent Technologies.</p>
+<p><strong>University of Toronto, Canada</strong>, <em>Mindy Thuna, Interim Associate Chief Librarian for Science and Research Information and Head, Engineering &amp; Computer Science Library (interim term ending December 2020)</em></p>
+<p>Mindy Thuna is Interim Associate Chief Librarian for Science and Research Information and Head, Engineering &amp; Computer Science Library at the University of Toronto in Toronto, Ontario. She worked as the AstraZeneca Science Liaison Librarian and the Research Enterprise Librarian at the University of Toronto Mississauga campus for 11 years, prior to moving campuses and changing roles in 2016. Mindy has been involved in collection development in Physics, Biology and Electrical Engineering. Current interests include research impact, open science, science communication and the use of storytelling in library instruction.</p>
+<p><strong>University of Queensland, Australia</strong>, <em>Amberyn Thomas, Associate Director Scholarly Communication and Repository Services (4-year term ending December 2021)</em></p>
+<p>Dr. Amberyn Thomas is Associate Director, Scholarly Communication and Repository Services at The University of Queensland Library, with direct responsibility for the provision of services around the institutional repository, open access, scholarly communication and publishing, research data management (including archiving and sharing), and research impact and evaluation services. Amberyn is an active member of the international scholarly communication sector: she is an ORCID ambassador, a member of the Research Data Services Project Board, has been a Australian Research Management Society Training Fellow (2015, 2016), and was awarded the 2016 Council of Australian University Librarians Achievement Award for Engagement and Influence, Research, and Sharing Knowledge and Data. With a PhD in Physics, and experience in the research and university sector for 30 years, Amberyn has a thorough understanding of the evolution of the arXiv repository and the innovative role it has played, and continues to play, in shaping scholarly communication in the 21st century.</p>
+<p><strong>University of Sydney, Australia</strong>, <em>Anne Bell, University Librarian (4-year term ending December 2021)</em></p>
+<p>Anne Bell has extensive international experience working at University Librarian and Director level within large, research-intensive institutions in both Australia and the UK.  Anne has been University Librarian at the University of Sydney since 2012, having previously been the University Librarian at the University of Warwick (UK) and Director of Library Services at King’s College London (UK). Anne has undertaken multiple professional leadership roles in both the UK and Australia including Chair of the M25 Consortium of Academic Libraries (UK); Vice Chair and then Chair of SCONUL (Society of College, National &amp; University Libraries) and is currently Deputy President of CAUL (Council of Australian University Librarians). As Chair of SCONUL Anne initiated a number of developments around the library systems landscape as well as the UK Libraries of the Future project (http://www.sconul.ac.uk/page/libraries-of-the-future) which was a joint collaboration between the British Library, the JISC, the Research Information Network (RIN), Research Libraries UK (RLUK) and SCONUL. Anne has also served on a number of regional vendor advisory boards as well as being a trustee on the Board of Eduserv (a UK not-for-profit technology solutions company that supports education, health, and other public sector organizations) and a Director of Intersect (a body which delivers e-research infrastructure to Australian universities).</p>
+<p><strong>Vacant Seat</strong></p>
+<h2 id="high-contributing-organizations">High-Contributing Organizations</h2>
+<p><strong>Big Ten Academic Alliance, USA</strong>, <em>Maureen P. Walsh, Associate Professor, Scholarly Sharing Strategist, The Ohio State University, University Libraries Publishing and Repository Services (4- or 6-year  institutional  term,  based on the number of High-Contributing Organizations)</em></p>
+<p>Maureen Walsh is an Associate Professor and Scholarly Sharing Strategist at The Ohio State University Libraries where she has worked with Ohio State's institutional repository for the past twelve years. She has been actively involved in DuraSpace governance and is currently a member of the DSpace Steering Group and the Chair of the DSpace Community Advisory Team. Maureen is a strong and collaborative leader in the well-established repository and publishing activities at Ohio State. She is well connected in the repository community and also is grounded in long-standing and deep partnerships with units on the Ohio State campus. </p>
+<p><strong>Consortium arXiv-DH and HGF: Coordinated by the German National Library of Science and Technology (TIB) and Deutsches Elektronen-Synchrotron DESY, Germany</strong>, <em>Esther Tobschall, German National Library of Science and Technology (4- or 6-year institutional term, based on the number of High-Contributing Organizations)</em></p>
+<p>In her role as physics librarian of TIB Esther Tobschall is concerned with providing physicists with the information resources they need for their research.Thus, Esther is involved in Open Access activities of TIB . During the first years she has coordinated the arXiv-DH project (funded by the German Research Foundation), and is now representing TIB as national arXiv contact point within network arXiv-DH. Prior to entering librarianship she studied chemistry and gained her doctorate at University of Hannover with research in solid state physics.</p>
+<p><strong>Jisc, UK</strong>, <em>Tracey Clarke (4- or 6-year institutional term, based on the number of High-Contributing Organizations)</em></p>
+<p>Tracey has worked in UK research libraries since 1990 and has been active both in regional collaborations and on an international scale for a number of years. In 2018 she left the University of Sheffield in order to become a specialist library consultant and continues to focus on scholarly communications, open access developments, library technology, digital preservation and collaborative collections. In her most recent role as Associate Director (Academic and Digital Strategies), Tracey has been responsible at Executive level for research support including open access, open access publishing, research data management, library collections, faculty engagement, systems and digital services, digital preservation, licensing and copyright. She has extensive experience in strategic and operational planning and a strong interest in developing inclusive leadership throughout organizations. Additionally, Tracey has been a key member of the award winning White Rose Libraries Consortium based in the UK, leading the collaborative collections strategy and helping to establish the open access White Rose University Press. Tracey is a member of the IGeLU Steering Committee and she has also been a member of the Digital Preservation Coalition Executive Board.</p>
+<p><strong>Society Members</strong>, <em>represented by Scott Delman, Director of Publications for the Association for Computing Machinery (ACM), USA (1-year pilot implementation)</em></p>
+<p>arXiv is collaborating with a group of societies to add a new tier to the membership model. Scott Delman represents the group of societies in the MAB. He has been working in the scholarly publishing industry for over 25 years and currently serves as the Director of Publications for the Association for Computing Machinery (ACM), where he has overall responsibility for editorial, content development, publications policy, rights &amp; permissions, production, Digital Library sales &amp; marketing, and publications strategy, including ACM’s long-term transition to Open Access. Prior to joining ACM, Scott served in a number of senior and executive level management positions at Springer and Kluwer. In addition to his current role at ACM, Scott is actively involved in the governance of a number of initiatives including Crossref, CHORUS, and is member of the Portico Advisory Committee. The societies that participate in the pilot include American Astronomical Society, American Institute of Physics Publishing, American Mathematical Society, American Physical Society, Association for Computing Machinery, Deutsche Physikalische Gesellschaft, and Institute of Physics Publishing.  Please see: Society Tier Pilot</p>
+<p><strong>University of California, USA</strong>, <em>Alison M. Scott, Associate University Librarian for Collection Management and Scholarly Communication, University of California, Los Angeles  (4- or 6-year institutional term, TBD based on the number of High-Contributing Organizations)</em></p>
+<p>Alison M. Scott is the Associate University Librarian for Collection Management &amp; Scholarly Communication at the University of California, Los Angeles (her prior position was at UC, Riverside). Before coming to California in 2014, she held positions in a variety of academic libraries, including Head of Collection Development for the George Washington University Libraries, Charles Warren Bibliographer for American History at Harvard University, and Head of the Popular Culture Library at Bowling Green State University. She holds master's degrees in religion and library science from the University of Chicago and a Ph.D. in American Studies from Boston University. Her research interests center on the history of the book in the United States, including women’s reading in the Early Republic, story papers of the Civil War era, and the relationships between prestige and collection development in academic libraries.</p>
+<p><strong>Japan NII Consortia</strong>, <em>Hideaki Takeda, Professor, National Institute of Informatics (NII), (4- or 6-year institutional term, based on the number of High-Contributing Organizations)</em></p>
+<p>Hideaki Takeda is a full professor in computer science at National Institute of Informatics (NII) in Tokyo, Japan. His research field is Artificial Intelligence, particularly Semantic Web and Social Media Analysis. He is an author of more than 100 papers in computer science. He has also worked for scholarly communication field by contributing design of scholarly communication services offered by NII and by serving as a representative of NII in the variety of domestic and international activities. He is currently the chair of Japan Link Center (DOI RA), the president of Research Data Utilization Forum, Japan, the chair of SPARC Japan, and was a board member of ORCID (2012-2016).</p>
+<h2 id="simons-foundation">Simons Foundation</h2>
+<p><em>Yuri Tschinkel, Director of Mathematics and the Physical Sciences, Simons Foundation, US Professor of Mathematics, Courant Institute of Mathematical Sciences, New York University</em></p>
+<p>Yuri Tschinkel received his doctorate in mathematics from the Massachusetts Institute of Technology in 1992. From 1992 to 1995 he was Junior Fellow of the Harvard Society of Fellows, and 1995-96 he was a Leibniz fellow at the École Normale Supérieure in Paris. Prior to joining the Simons Foundation in 2012, Tschinkel was a faculty member at the University of Illinois at Chicago, a visiting associate professor at Princeton University, the Gauss chair of mathematics at the University of Göttingen, and professor and chair of the mathematics department at the Courant Institute, New York University. He was also a member of the Institute for Advanced Study in Princeton and held visiting fellowships at the Isaac Newton Institute for Mathematical Sciences in Cambridge, University of Tokyo, Max Planck Institute in Bonn, Institut des Hautes Études Scientifiques in Paris, Eidgenössische Technische Hochschule Zürich, and Research Institute for Mathematical Sciences at Kyoto University. He serves on the editorial boards of Experimental Mathematics, the Bulletin of the American Mathematical Society, the Central European Journal of Mathematics, and the Progress in Mathematics series from Birkhäuser. Yuri Tschinkel studies higher-dimensional algebraic varieties, their hidden symmetries and rational points. He is an author of about 100 publications (most of them available on arXiv) and editor of 15 books.</p>
+<h2 id="ex-officio-members">Ex Officio Members</h2>
+<p><strong>Cornell University (5 non-voting seats)</strong>, <em>Executive Director (vacant); Steinn Sigurdsson, Scientific Director; Martin Lessmeister, Lead Programmer; Jim Entwood, Operations Manager; Alison Fromme, Community Engagement and Development Coordinator.</em></p>
+<p><strong>Scientific Advisory Board (SAB) Representative</strong>, <em>Dr. Sumati Surya, Professor, Raman Research Institute, India</em></p>
+<p><strong>MAB Representatives to SAB</strong>, <em>Carol Hoover, Digital Information Resources Manager, Los Alamos National Laboratory, USA</em></p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

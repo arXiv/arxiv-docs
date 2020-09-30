@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Mathjax</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="what-is-mathjax">What is MathJax?</h1>
+<p>MathJax is a javascript display engine for rendering <span class="mathjax">$\TeX$</span> or
+MathML-coded mathematics in browsers without requiring font installation
+or browser plug-ins. Any modern browser with javascript enabled will be
+MathJax-ready. For general information about MathJax, visit
+<a href="https://mathjax.org">mathjax.org</a>.</p>
+<p>Below are questions and answers about the use of MathJax on arXiv.</p>
+<h3 id="where-is-mathjax-being-used-on-arxiv">Where is MathJax being used on arXiv?</h3>
+<p>We have enabled MathJax on this help page, article abstract and list
+pages, the user account page, the submission preview page and search
+result pages. On these pages, MathJax has been configured to render
+inline (<span class="ignore_mathjax">$-enclosed</span>) <span
+class="mathjax">$\TeX$</span> only. For example, the expression
+<span class="ignore_mathjax"><code>$P(E) = {n \choose k} p^k (1-p)^{ n-k}$</code></span>
+will be rendered as <span class="mathjax">$P(E) = {n \choose k} p^k (1-p)^{ n-k}$</span>. 
+MathML is not supported in arXiv's MathJax configuration.</p>
+<p>In general, MathJax will only attempt to render <span class="mathjax">$\TeX$</span> in the article
+title, abstract and comments fields.</p>
+<h3 id="how-do-i-know-if-mathjax-is-being-used-on-an-arxiv-page">How do I know if MathJax is being used on an arXiv page?</h3>
+<p>MathJax-enabled pages may briefly display a small box to indicate that
+the MathJax configuration is being loaded, regardless of whether there
+is any renderable <span class="mathjax">$\TeX$</span> on the page. Valid 
+<span class="mathjax">$\TeX$</span> expressions will be
+displayed by MathJax as the page is being loaded. On abstract pages, any
+<span class="mathjax">$\TeX$<span> expressions that MathJax cannot render will be displayed in
+their original text.</p>
+<p>On the user account and submission preview pages, rendering errors or
+unknown macros are displayed in red. For example: <span class="mathjax">$\invalid_TeX$</span>.</p>
+<h3 id="can-i-see-the-underlying-tex-coding">Can I see the underlying <span class="mathjax">$\TeX$</span> coding?</h3>
+<p>Yes, to access the underlying <span class="mathjax">$\TeX$</span>,
+right- or control-click on a rendered math formula, and choose the
+format you want from the <code>Format</code> sub-menu.
+Then select the <code>Show Source</code> menu item to get a pop-up that allows you to copy the math
+source into another application.</p>
+<p>To try this feature, visit <a href="https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html">https://cdn.mathjax.org/mathjax/latest/test/sample-dynamic.html</a>.</p>
+<p>Alternatively, MathJax can be disabled entirely (see below).</p>
+<h3 id="can-i-disable-mathjax">Can I disable MathJax?</h3>
+<p>Yes, you can disable (and re-enable) MathJax by clicking the following
+link to set a cookie:</p>
+<p><a href="javascript:setMathjaxCookie()" id="mathjax_toggle">Disable MathJax</a></p>
+<p>When MathJax is disabled, mathematical expressions are displayed as text
+with the original <span class="mathjax">$\TeX$</span> delimiters.</p>
+<p>Note that on any particular MathJax-enabled page in arXiv, not all
+expressions may be renderable. So turning MathJax on or off may have no
+effect on the visual appearance of certain math expressions.</p>
+<h3 id="as-an-arxiv-submitter-how-can-i-make-the-best-use-of-mathjax">As an arXiv submitter, how can I make the best use of MathJax?</h3>
+<p>MathJax supports a very large subset of <span class="mathjax">$\TeX$</span> mathematics, including
+AMS math and symbols. arXiv's implementation of MathJax does not support
+user-defined macros. For example, if an abstract contains <span class="mathjax">$\rtwo$</span> as a
+shortcut for <span class="mathjax">$\mathbf{R}\^2$</span>, then MathJax will not be able to render
+this expression. Submitters should use only standard <span class="mathjax">La$\TeX$</span> and
+AMS-La<span class="mathjax">$\TeX$</span> macros in paper titles and abstracts.</p>
+<p>Also, since '&lt;' is a reserved character in HTML, special care must be
+taken in its use. Usually just adding a space after it will suffice for
+it not to be interpreted as the start of an element name (e.g., 'x &lt;
+y', not 'x&lt;y'); but if in doubt, use the entity reference '&lt;'.</p>
+<h3 id="where-can-i-get-help-regarding-mathjax">Where can I get help regarding MathJax?</h3>
+<p>The MathJax web site has useful information about browser configuration,
+fonts, MathJax features, etc. Please see the <a href="https://docs.mathjax.org/en/latest/mathjax.html">MathJax
+documentation</a> and the
+<a href="https://docs.mathjax.org/en/latest/misc/faq.html">FAQ</a> if you have
+questions.</p>
+<h3 id="how-do-i-report-a-problem">How do I report a problem?</h3>
+<p>If you wish to report a problem, or if you have questions about arXiv's
+use of MathJax, please first visit the <a href="contact">contact</a> page.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

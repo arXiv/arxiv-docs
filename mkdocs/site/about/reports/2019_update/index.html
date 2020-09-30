@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Reports </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">arXiv Annual Update, January 2019</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-annual-update-january-2019">arXiv Annual Update, January 2019</h1>
+<p><em>Published January 29, 2019</em></p>
+<p>Since its inception in 1991 with a focus on the high energy physics community, arXiv has significantly expanded both its subject coverage and user base. It provides open access to about 1.5 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics.  </p>
+<p>In 2018, the repository received 140,616 <a href="/help/stats/2018_by_area">new submissions</a>, a 14% increase from 2017. The subject distribution is evolving as Computer Science represented about 26% of overall submissions, and Math 24%. There were about 228 million downloads from all over the world. arXiv is truly a global resource, with almost 90% of supporting funds coming from sources other than Cornell and 70% of institutional use coming from countries other than the U.S.</p>
+<h2 id="weve-moved">We’ve Moved!</h2>
+<p>After a careful assessment process, we moved the arXiv operation from <a href="https://www.library.cornell.edu/">Cornell University Library</a> (CUL) to <a href="https://cis.cornell.edu/">Cornell Computing and Information Science</a> (CIS). Cornell has hosted arXiv since 2001 when its founder, Paul Ginsparg, left the Los Alamos National Laboratory and joined the Cornell faculty in the Physics and Information Science departments. Running the service has always involved a collaboration between CUL and CIS, as Professor Ginsparg and other CIS faculty lead R&amp;D efforts through several NSF grants and other funding sources and contribute to the development of moderation policies. CIS’s mission and values provide an environment that supports arXiv as a scholarly scientific enterprise, with the need for optimum service delivery and infrastructure sustainability. As an academic unit, CIS not only spans core contemporary IT realms, such as networks, systems, robotics, and machine learning, but is also concerned with the human aspects of computing, such as human–computer interaction and human-centered design. For researchers and arXiv users, the stewardship transition did not affect any operation. But users should anticipate arXiv engaging in new partnerships to add new revenue sources, further strengthen arXiv’s current business model, and invigorate community commitment to maintaining and developing arXiv as a public good. arXiv will continue to benefit from the expertise of the CUL staff, especially in the service areas of  metadata, copyright, and scholarly communication policies and best practices. Please see the <a href="https://confluence.cornell.edu/display/arxivpub/Transition+FAQ%3A+Move+to+Cornell+Computing+and+Information+Science">arXiv Transition FAQ</a> to learn more about the impetus and process behind the move.</p>
+<h2 id="next-generation-arxiv">Next Generation arXiv</h2>
+<p>In 2017, we embarked on the <a href="https://confluence.cornell.edu/display/arxivpub/Next+Generation+arXiv">next-generation arXiv</a> (arXiv-NG) initiative with a cornerstone grant of $450,000 from the Sloan Foundation to improve the service’s core infrastructure. Our strategy for the overall development and replacement of the infrastructure, is for incremental and modular renewal of the existing arXiv system, <a href="https://blogs.cornell.edu/arxiv/2017/10/16/arxiv-ng-classic-renewal/">Classic Renewal</a>, rather than building an entirely new system and migrating to it. Based on an assessment of various technology components and partnership options, we finalized an architecture and have been implementing some key technology components in 2018. An integral part of the arXiv-NG initiative is to consider new organizational and staffing models to ensure continuity of operations as the sustainability principles are at the heart of the arXiv-NG initiative. As we continue developing arXiv-NG, we are committed to continue arXiv's robust services.</p>
+<h2 id="sustainability-update">Sustainability Update</h2>
+<p>arXiv's operation and development is funded by grants and a membership program that engages libraries and research laboratories worldwide. Currently, we have <a href="/about/ourmembers">231 members</a> representing 27 countries. arXiv's <a href="https://confluence.cornell.edu/display/arxivpub/2018-2022%3A+Sustainability+Plan+for+Classic+arXiv">2018-2022 sustainability plan</a> includes the following sources of funding:</p>
+<ul>
+<li>
+<p>Cornell University provides a subsidy of $170,000 and makes an in-kind contribution of all indirect costs, which currently represents 37% of total operating expenses.</p>
+</li>
+<li>
+<p>The Simons Foundation contributes $100,000 per year in recognition of CUL's stewardship of arXiv. In addition, the Foundation matches $300,000 per year of the funds generated through arXiv membership fees.</p>
+</li>
+<li>
+<p>Each member institution pledges a five-year funding commitment to support arXiv based on institutional usage ranking (the annual fees are set in six tiers from $1,000-$4,400).</p>
+</li>
+<li>
+<p>To diversify funding sources, we also rely on grant funds from foundations and governmental agencies to sponsor new development projects and implement online fundraising campaigns to encourage giving by the arXiv's international user community.</p>
+</li>
+</ul>
+<p>We remain grateful for the support from the <a href="https://www.simonsfoundation.org/">Simons Foundation</a> that has encouraged long-term community support by lowering arXiv membership fees and making participation affordable to a broader range of institutions. This model aims to ensure that the ultimate responsibility for sustaining arXiv remains with the research communities and institutions that benefit from the service most directly.  Finding new, sustainable funding avenues to support current operations and upgrades of Classic arXiv's aging code has been an important effort for the arXiv team. Following a $450,000 grant from the Sloan Foundation in 2017, arXiv received $322,000 from the Heising-Simons Foundation to contribute to the arXiv-NG initiative. As reflected in the <a href="/about/reports-financials">2019 budget</a>, the arXiv team is taking an integrated approach to consider the current operational system (Classic arXiv) and the next-gen system as a unified program. This approach is essential as we recruit and retain staff who will need to be conversant with the old and new systems, and transitioning from one to the other. We are strategically expanding the core arXiv development team to bring new skills to the arXiv-NG project, while continuing to provide excellent support and maintenance of the production arXiv system.</p>
+<h2 id="key-accomplishments-and-plans-for-2019">Key Accomplishments and Plans for 2019</h2>
+<p>Since we started the arXiv sustainability initiative in 2010, an integral part of our work has been assessing the services, technologies, standards, and policies that constitute arXiv. Here are some of our key accomplishments from 2018 to illustrate the range of issues we have been trying to tackle. Please see the <a href="/about/reports/2018report.pdf">2018 Roadmap</a> for a full account of our work.</p>
+<ul>
+<li>
+<p>Our development team has improved various search, browse, and accounts features as we <a href="https://blogs.cornell.edu/arxiv/2018/04/17/new-release-arxiv-search-v0-1/">reimplement</a>, test, <a href="https://blogs.cornell.edu/arxiv/2018/05/04/release-search-v0-2-some-notes-on-names/">refine</a> and <a href="https://blogs.cornell.edu/arxiv/2018/07/18/search-v0-4-bug-fixes-date-related-searches/">continue to improve</a> the arXiv platform. We also made significant progress reimplementing the submission user interface, API, and backend services with a new data architecture. Wherever possible, new software components are developed in <a href="https://confluence.cornell.edu/display/arxivpub/arXiv-NG+Public+Repositories">public repositories</a> and released under permissive open source licenses. Information about software releases can be found <a href="https://confluence.cornell.edu/display/arxivpub/arXiv+Software+Releases">here</a>.</p>
+</li>
+<li>
+<p>We continue to improve facilities for administrators and moderators in order to streamline their workflows, and to improve clarity and transparency of arXiv communications. During 2018, the arXiv team made improvements to the auto-endorsement system and created a moderator policy page. They also identified areas to improve help pages on user facing policies.</p>
+</li>
+<li>
+<p>We refined our overall process for prioritization and <a href="https://blogs.cornell.edu/arxiv/2018/03/14/planning-prioritization-and-getting-things-done-in-arxiv-ng/">getting things done</a> in arXiv-NG and continued to develop and implement methods for soliciting user input and feedback, particularly to guide arXiv-NG decision making, including a protocol for remote usability testing, and applied it to the development of a new moderation interface.</p>
+</li>
+<li>
+<p>Last July, arXiv added two new subject areas: <a href="https://blogs.cornell.edu/arxiv/2018/07/23/two-new-categories-in-economics/">Theoretical Economics and General Economics</a></p>
+</li>
+<li>
+<p>Our user support team updated our internal policies and practices documentation, filling in areas where policies have evolved. Our goal is to provide clear, consistent, established arXiv policies. Going forward we will be expanding and reorganizing policy documentation for moderators and submitters.</p>
+</li>
+<li>
+<p>With funding from the <a href="https://allenai.org/">Allen Institute for Artificial Intelligence (AI2)</a>, we conducted a pilot to investigate the role of arXiv Labs in facilitating lightweight and more sustainable path for collaboration with Cornell Computing and Information Science through a <a href="https://blogs.cornell.edu/arxiv/2017/09/27/development-update-reference-extraction-linking/">reference extraction and linking project</a>.</p>
+</li>
+<li>
+<p>We explored the implications of the General Data Protection Regulation (GDPR) and started to work with the Cornell experts in supporting related questions and requests from arXiv users.</p>
+</li>
+<li>
+<p>We continued to assess and refine arXiv’s organizational and governance model and held an annual meeting for the Scientific Advisory Board (SAB) and Member Advisory Board (MAB) to discuss IT development priorities, financial state, moderation tools and policies, and fundraising strategies.</p>
+</li>
+<li>
+<p>As we witness the proliferation of preprint services, we collaborated with bioRxiv and ASAPbio in hosting a meeting of nascent preprint services to start discussing collaboration opportunities.  </p>
+</li>
+<li>
+<p>We strengthened the daily oversight of arXiv and the arXiv NG development process of the arXiv team with a modified <a href="/about/governance">organizational structure</a> and welcomed new team members. We also established a new external Technology Advisory Group to advise the IT leads.</p>
+</li>
+</ul>
+<p>The <a href="/about/reports/2019roadmap">2019 Roadmap</a> includes our goals as we strive to improve the technical infrastructure, moderation system, user support, and the sustainability framework. Additional information about arXiv is available on <a href="https://confluence.cornell.edu/display/arxivpub/arXiv+Public+Wiki">arXiv Public Wiki</a>, including annual budgets, reports, roadmaps, and <a href="https://blogs.cornell.edu/arxiv/">arXiv.org blog</a>. As it is evident from this update, changes are afoot for arXiv, all aimed at ensuring that the scientific scholarship repository remains free, open, essential and sustainable.</p>
+<p>arXiv relies on a wide network of individual scientists who contribute their expertise and time. Paul Ginsparg, arXiv’s founder, continues to make significant contributions through his involvement in the daily moderation process as well as developing and running some applications to help automate the quality control process. Composed of 165 subject experts, the worldwide network of arXiv moderators is an essential component of arXiv's success. They verify that submissions are topical and of interest to the scientific community, follow accepted standards of scholarly communication, and are classified in the appropriate subject categories. We salute their efforts that are crucial to our operation. We remain grateful for strong support from our member organizations, <a href="https://www.simonsfoundation.org/">Simons Foundation</a>, and essential contributions from arXiv's advisory groups as they consistently provide us with input as representatives of scientific and library communities. We would also like to thank <a href="https://sloan.org/">Sloan Foundation</a>, <a href="https://www.hsfoundation.org/">Heising-Simons Foundation</a>, and <a href="https://allenai.org/">Allen Institute for Artificial Intelligence</a> for their generous support of the arXiv-NG initiative.  </p>
+<hr />
+<p><strong>arXiv Management Team</strong></p>
+<p>Oya Y. Rieger (Program Director), Steinn Sigurdsson (Scientific Director), Jim Entwood (Operations Manager), Martin Lessmeister (IT Lead), Janelle Morano (Community Engagement &amp; Development), Erick Peirson (Lead Software Architect)</p>
+<p><strong>Website</strong>: <a href="https://confluence.cornell.edu/display/arxivpub/arXiv+Public+Wiki">arXiv Public Wiki</a></p>
+<p><strong>Contact email</strong>:  membership@arXiv.org </p>
+<p><strong>Twitter</strong>: <a href="https://twitter.com/arxiv">@arXiv</a></p>
+<p><strong>Updates</strong>: If you are interested in getting updates from the arXiv team and have not yet signed up for the mailing list, send an email message to:  arxiv-support-updates-L-request@cornell.edu. Leave the subject line blank and the body of the message should be a single word: join</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

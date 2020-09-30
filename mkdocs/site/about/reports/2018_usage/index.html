@@ -1,0 +1,1748 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Reports </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">2018 usage</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="2018-institutional-arxiv-usage-data">2018 Institutional arXiv Usage Data</h1>
+<p>The following table is a compilation of arXiv downloads for calendar
+year 2018 for the 250 heaviest user institutions. See also <a href="../support">arXiv
+Support</a>.</p>
+<p><strong>Caveats:</strong> While we have taken considerable effort to extract reliable
+download data representing unique full-text downloads by real users,
+there are many factors which affect accuracy. These factors include: 1)
+the data is from the main arXiv site and the arXiv mirrors, though some
+mirror data is incomplete; 2) we have counted downloads according to the
+COUNTER algorithm which excludes rapid repeat downloads; 3) we have
+attempted to identify and remove robot or automated downloads from the
+count (false positives lead to undercounting, failing to identify robots
+leads to overcounting); and 4) we include here only downloads that
+appear to be from an institution based on the DNS name of the client for
+patterns that we recognize (A large fraction of downloads come from
+commercial ISPs which are not included. Clients with host names that
+don't resolve or off-campus accesses will lead to undercounting, failure
+to recognize institutional domain names will exclude those institutions
+and undercount the total institutional downloads.) We have identified
+27 million downloads from institutional domain names out of a total of
+over 228 million downloads in 2018</p>
+<table>
+<thead>
+<tr>
+<th align="center">Rank</th>
+<th>Institutional Domain</th>
+<th align="right">Percentage of Total</th>
+<th align="right">Number of Article Downloads</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>cam.ac.uk</td>
+<td align="right">1.70%</td>
+<td align="right">464575</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>mit.edu</td>
+<td align="right">1.68%</td>
+<td align="right">459752</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>berkeley.edu</td>
+<td align="right">1.66%</td>
+<td align="right">454036</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>(*)mpg.de</td>
+<td align="right">1.57%</td>
+<td align="right">428290</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>stanford.edu</td>
+<td align="right">1.41%</td>
+<td align="right">386310</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>ethz.ch</td>
+<td align="right">1.30%</td>
+<td align="right">354636</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>ox.ac.uk</td>
+<td align="right">1.20%</td>
+<td align="right">328173</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>in2p3.fr</td>
+<td align="right">1.19%</td>
+<td align="right">325756</td>
+</tr>
+<tr>
+<td align="center">(9)</td>
+<td>cern.ch</td>
+<td align="right">na</td>
+<td align="right">315032</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td>princeton.edu</td>
+<td align="right">1.12%</td>
+<td align="right">305632</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td>ic.ac.uk</td>
+<td align="right">1.03%</td>
+<td align="right">282060</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td>columbia.edu</td>
+<td align="right">1.01%</td>
+<td align="right">276197</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td>(*)illinois.edu</td>
+<td align="right">0.95%</td>
+<td align="right">260051</td>
+</tr>
+<tr>
+<td align="center">(14)</td>
+<td>jhu.edu</td>
+<td align="right">na</td>
+<td align="right">250224</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td>kyoto-u.ac.jp</td>
+<td align="right">0.90%</td>
+<td align="right">245725</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td>epfl.ch</td>
+<td align="right">0.84%</td>
+<td align="right">229977</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td>u-tokyo.ac.jp</td>
+<td align="right">0.84%</td>
+<td align="right">229004</td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td>cornell.edu</td>
+<td align="right">0.82%</td>
+<td align="right">223908</td>
+</tr>
+<tr>
+<td align="center">19</td>
+<td>caltech.edu</td>
+<td align="right">0.81%</td>
+<td align="right">222356</td>
+</tr>
+<tr>
+<td align="center">20</td>
+<td>umd.edu</td>
+<td align="right">0.78%</td>
+<td align="right">213664</td>
+</tr>
+<tr>
+<td align="center">21</td>
+<td>ucl.ac.uk</td>
+<td align="right">0.78%</td>
+<td align="right">213641</td>
+</tr>
+<tr>
+<td align="center">22</td>
+<td>hku.hk</td>
+<td align="right">0.77%</td>
+<td align="right">211541</td>
+</tr>
+<tr>
+<td align="center">23</td>
+<td>gatech.edu</td>
+<td align="right">0.76%</td>
+<td align="right">208509</td>
+</tr>
+<tr>
+<td align="center">(24)</td>
+<td>uchicago.edu</td>
+<td align="right">na</td>
+<td align="right">207211</td>
+</tr>
+<tr>
+<td align="center">25</td>
+<td>nyu.edu</td>
+<td align="right">0.75%</td>
+<td align="right">205567</td>
+</tr>
+<tr>
+<td align="center">26</td>
+<td>utexas.edu</td>
+<td align="right">0.71%</td>
+<td align="right">193789</td>
+</tr>
+<tr>
+<td align="center">27</td>
+<td>ed.ac.uk</td>
+<td align="right">0.70%</td>
+<td align="right">192425</td>
+</tr>
+<tr>
+<td align="center">28</td>
+<td>cuhk.edu.hk</td>
+<td align="right">0.70%</td>
+<td align="right">190498</td>
+</tr>
+<tr>
+<td align="center">29</td>
+<td>uva.nl</td>
+<td align="right">0.70%</td>
+<td align="right">190424</td>
+</tr>
+<tr>
+<td align="center">30</td>
+<td>uwaterloo.ca</td>
+<td align="right">0.70%</td>
+<td align="right">190366</td>
+</tr>
+<tr>
+<td align="center">31</td>
+<td>ucsb.edu</td>
+<td align="right">0.68%</td>
+<td align="right">186441</td>
+</tr>
+<tr>
+<td align="center">32</td>
+<td>utoronto.ca</td>
+<td align="right">0.66%</td>
+<td align="right">181534</td>
+</tr>
+<tr>
+<td align="center">(33)</td>
+<td>washington.edu</td>
+<td align="right">na</td>
+<td align="right">176737</td>
+</tr>
+<tr>
+<td align="center">34</td>
+<td>umn.edu</td>
+<td align="right">0.64%</td>
+<td align="right">174422</td>
+</tr>
+<tr>
+<td align="center">35</td>
+<td>ucla.edu</td>
+<td align="right">0.63%</td>
+<td align="right">173072</td>
+</tr>
+<tr>
+<td align="center">36</td>
+<td>upenn.edu</td>
+<td align="right">0.61%</td>
+<td align="right">167661</td>
+</tr>
+<tr>
+<td align="center">37</td>
+<td>harvard.edu</td>
+<td align="right">0.61%</td>
+<td align="right">165866</td>
+</tr>
+<tr>
+<td align="center">38</td>
+<td>ust.hk</td>
+<td align="right">0.60%</td>
+<td align="right">164279</td>
+</tr>
+<tr>
+<td align="center">39</td>
+<td>(*)desy.de</td>
+<td align="right">0.55%</td>
+<td align="right">151599</td>
+</tr>
+<tr>
+<td align="center">40</td>
+<td>(*)stonybrook.edu</td>
+<td align="right">0.55%</td>
+<td align="right">151512</td>
+</tr>
+<tr>
+<td align="center">41</td>
+<td>uni-heidelberg.de</td>
+<td align="right">0.54%</td>
+<td align="right">148463</td>
+</tr>
+<tr>
+<td align="center">42</td>
+<td>cmu.edu</td>
+<td align="right">0.54%</td>
+<td align="right">147836</td>
+</tr>
+<tr>
+<td align="center">43</td>
+<td>(*)uni-karlsruhe.de</td>
+<td align="right">0.52%</td>
+<td align="right">142841</td>
+</tr>
+<tr>
+<td align="center">44</td>
+<td>rutgers.edu</td>
+<td align="right">0.52%</td>
+<td align="right">141123</td>
+</tr>
+<tr>
+<td align="center">45</td>
+<td>yale.edu</td>
+<td align="right">0.51%</td>
+<td align="right">138451</td>
+</tr>
+<tr>
+<td align="center">46</td>
+<td>ntu.edu.tw</td>
+<td align="right">0.50%</td>
+<td align="right">137695</td>
+</tr>
+<tr>
+<td align="center">47</td>
+<td>wisc.edu</td>
+<td align="right">0.50%</td>
+<td align="right">137221</td>
+</tr>
+<tr>
+<td align="center">48</td>
+<td>uni-bonn.de</td>
+<td align="right">0.50%</td>
+<td align="right">136752</td>
+</tr>
+<tr>
+<td align="center">49</td>
+<td>purdue.edu</td>
+<td align="right">0.50%</td>
+<td align="right">136477</td>
+</tr>
+<tr>
+<td align="center">50</td>
+<td>ubc.ca</td>
+<td align="right">0.48%</td>
+<td align="right">130127</td>
+</tr>
+<tr>
+<td align="center">51</td>
+<td>(*)tudelft.nl</td>
+<td align="right">0.47%</td>
+<td align="right">127375</td>
+</tr>
+<tr>
+<td align="center">52</td>
+<td>(*)sydney.edu.au</td>
+<td align="right">0.42%</td>
+<td align="right">114884</td>
+</tr>
+<tr>
+<td align="center">53</td>
+<td>colorado.edu</td>
+<td align="right">0.42%</td>
+<td align="right">114226</td>
+</tr>
+<tr>
+<td align="center">54</td>
+<td>(*)tum.de</td>
+<td align="right">0.41%</td>
+<td align="right">111392</td>
+</tr>
+<tr>
+<td align="center">55</td>
+<td>nthu.edu.tw</td>
+<td align="right">0.41%</td>
+<td align="right">111375</td>
+</tr>
+<tr>
+<td align="center">56</td>
+<td>rwth-aachen.de</td>
+<td align="right">0.41%</td>
+<td align="right">110973</td>
+</tr>
+<tr>
+<td align="center">57</td>
+<td>tohoku.ac.jp</td>
+<td align="right">0.40%</td>
+<td align="right">109852</td>
+</tr>
+<tr>
+<td align="center">58</td>
+<td>usc.edu</td>
+<td align="right">0.40%</td>
+<td align="right">109375</td>
+</tr>
+<tr>
+<td align="center">59</td>
+<td>uci.edu</td>
+<td align="right">0.39%</td>
+<td align="right">107288</td>
+</tr>
+<tr>
+<td align="center">60</td>
+<td>dur.ac.uk</td>
+<td align="right">0.39%</td>
+<td align="right">105246</td>
+</tr>
+<tr>
+<td align="center">61</td>
+<td>northwestern.edu</td>
+<td align="right">0.38%</td>
+<td align="right">104900</td>
+</tr>
+<tr>
+<td align="center">62</td>
+<td>uni-freiburg.de</td>
+<td align="right">0.38%</td>
+<td align="right">104487</td>
+</tr>
+<tr>
+<td align="center">63</td>
+<td>bu.edu</td>
+<td align="right">0.37%</td>
+<td align="right">101267</td>
+</tr>
+<tr>
+<td align="center">64</td>
+<td>(*)ucsd.edu</td>
+<td align="right">0.36%</td>
+<td align="right">98226</td>
+</tr>
+<tr>
+<td align="center">65</td>
+<td>uni-mainz.de</td>
+<td align="right">0.35%</td>
+<td align="right">96034</td>
+</tr>
+<tr>
+<td align="center">66</td>
+<td>univie.ac.at</td>
+<td align="right">0.34%</td>
+<td align="right">94249</td>
+</tr>
+<tr>
+<td align="center">67</td>
+<td>ufl.edu</td>
+<td align="right">0.34%</td>
+<td align="right">93197</td>
+</tr>
+<tr>
+<td align="center">68</td>
+<td>ias.edu</td>
+<td align="right">0.34%</td>
+<td align="right">92567</td>
+</tr>
+<tr>
+<td align="center">69</td>
+<td>nctu.edu.tw</td>
+<td align="right">0.33%</td>
+<td align="right">90517</td>
+</tr>
+<tr>
+<td align="center">70</td>
+<td>osaka-u.ac.jp</td>
+<td align="right">0.32%</td>
+<td align="right">88728</td>
+</tr>
+<tr>
+<td align="center">71</td>
+<td>bris.ac.uk</td>
+<td align="right">0.32%</td>
+<td align="right">88170</td>
+</tr>
+<tr>
+<td align="center">72</td>
+<td>umass.edu</td>
+<td align="right">0.32%</td>
+<td align="right">87377</td>
+</tr>
+<tr>
+<td align="center">73</td>
+<td>tu-dresden.de</td>
+<td align="right">0.32%</td>
+<td align="right">86346</td>
+</tr>
+<tr>
+<td align="center">74</td>
+<td>sissa.it</td>
+<td align="right">0.31%</td>
+<td align="right">86017</td>
+</tr>
+<tr>
+<td align="center">75</td>
+<td>nagoya-u.ac.jp</td>
+<td align="right">0.31%</td>
+<td align="right">85888</td>
+</tr>
+<tr>
+<td align="center">76</td>
+<td>uzh.ch</td>
+<td align="right">0.31%</td>
+<td align="right">84925</td>
+</tr>
+<tr>
+<td align="center">77</td>
+<td>tu-darmstadt.de</td>
+<td align="right">0.31%</td>
+<td align="right">84858</td>
+</tr>
+<tr>
+<td align="center">78</td>
+<td>(*)riken.jp</td>
+<td align="right">0.31%</td>
+<td align="right">84857</td>
+</tr>
+<tr>
+<td align="center">79</td>
+<td>vt.edu</td>
+<td align="right">0.30%</td>
+<td align="right">82587</td>
+</tr>
+<tr>
+<td align="center">80</td>
+<td>tu-berlin.de</td>
+<td align="right">0.30%</td>
+<td align="right">81911</td>
+</tr>
+<tr>
+<td align="center">81</td>
+<td>warwick.ac.uk</td>
+<td align="right">0.30%</td>
+<td align="right">81838</td>
+</tr>
+<tr>
+<td align="center">82</td>
+<td>monash.edu.au</td>
+<td align="right">0.29%</td>
+<td align="right">80261</td>
+</tr>
+<tr>
+<td align="center">83</td>
+<td>cea.fr</td>
+<td align="right">0.29%</td>
+<td align="right">80211</td>
+</tr>
+<tr>
+<td align="center">84</td>
+<td>ucdavis.edu</td>
+<td align="right">0.29%</td>
+<td align="right">79782</td>
+</tr>
+<tr>
+<td align="center">85</td>
+<td>kuleuven.be</td>
+<td align="right">0.29%</td>
+<td align="right">79767</td>
+</tr>
+<tr>
+<td align="center">86</td>
+<td>kth.se</td>
+<td align="right">0.28%</td>
+<td align="right">77514</td>
+</tr>
+<tr>
+<td align="center">87</td>
+<td>ictp.it</td>
+<td align="right">0.28%</td>
+<td align="right">77170</td>
+</tr>
+<tr>
+<td align="center">88</td>
+<td>indiana.edu</td>
+<td align="right">0.27%</td>
+<td align="right">75152</td>
+</tr>
+<tr>
+<td align="center">89</td>
+<td>usp.br</td>
+<td align="right">0.27%</td>
+<td align="right">75151</td>
+</tr>
+<tr>
+<td align="center">90</td>
+<td>umich.edu</td>
+<td align="right">0.27%</td>
+<td align="right">74693</td>
+</tr>
+<tr>
+<td align="center">91</td>
+<td>ualberta.ca</td>
+<td align="right">0.27%</td>
+<td align="right">73428</td>
+</tr>
+<tr>
+<td align="center">92</td>
+<td>uni-hamburg.de</td>
+<td align="right">0.27%</td>
+<td align="right">73311</td>
+</tr>
+<tr>
+<td align="center">93</td>
+<td>chalmers.se</td>
+<td align="right">0.27%</td>
+<td align="right">72764</td>
+</tr>
+<tr>
+<td align="center">94</td>
+<td>umontreal.ca</td>
+<td align="right">0.27%</td>
+<td align="right">72653</td>
+</tr>
+<tr>
+<td align="center">95</td>
+<td>postech.ac.kr</td>
+<td align="right">0.25%</td>
+<td align="right">69347</td>
+</tr>
+<tr>
+<td align="center">96</td>
+<td>su.se</td>
+<td align="right">0.25%</td>
+<td align="right">68828</td>
+</tr>
+<tr>
+<td align="center">97</td>
+<td>(*)manchester.ac.uk</td>
+<td align="right">0.25%</td>
+<td align="right">68419</td>
+</tr>
+<tr>
+<td align="center">98</td>
+<td>uu.se</td>
+<td align="right">0.25%</td>
+<td align="right">68391</td>
+</tr>
+<tr>
+<td align="center">99</td>
+<td>rug.nl</td>
+<td align="right">0.25%</td>
+<td align="right">67064</td>
+</tr>
+<tr>
+<td align="center">100</td>
+<td>uni-hannover.de</td>
+<td align="right">0.24%</td>
+<td align="right">66702</td>
+</tr>
+<tr>
+<td align="center">101</td>
+<td>unimelb.edu.au</td>
+<td align="right">0.24%</td>
+<td align="right">66328</td>
+</tr>
+<tr>
+<td align="center">102</td>
+<td>fraunhofer.de</td>
+<td align="right">0.24%</td>
+<td align="right">65569</td>
+</tr>
+<tr>
+<td align="center">103</td>
+<td>tamu.edu</td>
+<td align="right">0.24%</td>
+<td align="right">65313</td>
+</tr>
+<tr>
+<td align="center">104</td>
+<td>(*)inaf.it</td>
+<td align="right">0.24%</td>
+<td align="right">65127</td>
+</tr>
+<tr>
+<td align="center">105</td>
+<td>(*)upmc.fr</td>
+<td align="right">0.24%</td>
+<td align="right">65054</td>
+</tr>
+<tr>
+<td align="center">106</td>
+<td>qmul.ac.uk</td>
+<td align="right">0.23%</td>
+<td align="right">62697</td>
+</tr>
+<tr>
+<td align="center">107</td>
+<td>helsinki.fi</td>
+<td align="right">0.23%</td>
+<td align="right">62361</td>
+</tr>
+<tr>
+<td align="center">108</td>
+<td>unibe.ch</td>
+<td align="right">0.23%</td>
+<td align="right">61846</td>
+</tr>
+<tr>
+<td align="center">109</td>
+<td>lanl.gov</td>
+<td align="right">0.22%</td>
+<td align="right">61426</td>
+</tr>
+<tr>
+<td align="center">110</td>
+<td>tuwien.ac.at</td>
+<td align="right">0.22%</td>
+<td align="right">61083</td>
+</tr>
+<tr>
+<td align="center">111</td>
+<td>uv.es</td>
+<td align="right">0.22%</td>
+<td align="right">60810</td>
+</tr>
+<tr>
+<td align="center">112</td>
+<td>kek.jp</td>
+<td align="right">0.22%</td>
+<td align="right">60341</td>
+</tr>
+<tr>
+<td align="center">113</td>
+<td>soton.ac.uk</td>
+<td align="right">0.22%</td>
+<td align="right">59812</td>
+</tr>
+<tr>
+<td align="center">114</td>
+<td>sinica.edu.tw</td>
+<td align="right">0.22%</td>
+<td align="right">59635</td>
+</tr>
+<tr>
+<td align="center">115</td>
+<td>huji.ac.il</td>
+<td align="right">0.22%</td>
+<td align="right">59345</td>
+</tr>
+<tr>
+<td align="center">116</td>
+<td>inria.fr</td>
+<td align="right">0.22%</td>
+<td align="right">59040</td>
+</tr>
+<tr>
+<td align="center">117</td>
+<td>uni-stuttgart.de</td>
+<td align="right">0.21%</td>
+<td align="right">58243</td>
+</tr>
+<tr>
+<td align="center">118</td>
+<td>sfu.ca</td>
+<td align="right">0.21%</td>
+<td align="right">57680</td>
+</tr>
+<tr>
+<td align="center">119</td>
+<td>tau.ac.il</td>
+<td align="right">0.21%</td>
+<td align="right">57399</td>
+</tr>
+<tr>
+<td align="center">120</td>
+<td>uni-frankfurt.de</td>
+<td align="right">0.21%</td>
+<td align="right">57038</td>
+</tr>
+<tr>
+<td align="center">121</td>
+<td>nbi.dk</td>
+<td align="right">0.21%</td>
+<td align="right">56545</td>
+</tr>
+<tr>
+<td align="center">122</td>
+<td>u-psud.fr</td>
+<td align="right">0.21%</td>
+<td align="right">56507</td>
+</tr>
+<tr>
+<td align="center">123</td>
+<td>unc.edu</td>
+<td align="right">0.21%</td>
+<td align="right">56435</td>
+</tr>
+<tr>
+<td align="center">124</td>
+<td>uni-koeln.de</td>
+<td align="right">0.21%</td>
+<td align="right">56355</td>
+</tr>
+<tr>
+<td align="center">125</td>
+<td>ntnu.no</td>
+<td align="right">0.21%</td>
+<td align="right">56296</td>
+</tr>
+<tr>
+<td align="center">126</td>
+<td>ucsc.edu</td>
+<td align="right">0.21%</td>
+<td align="right">56258</td>
+</tr>
+<tr>
+<td align="center">127</td>
+<td>lu.se</td>
+<td align="right">0.20%</td>
+<td align="right">56000</td>
+</tr>
+<tr>
+<td align="center">128</td>
+<td>buffalo.edu</td>
+<td align="right">0.20%</td>
+<td align="right">55940</td>
+</tr>
+<tr>
+<td align="center">129</td>
+<td>ens.fr</td>
+<td align="right">0.20%</td>
+<td align="right">55237</td>
+</tr>
+<tr>
+<td align="center">130</td>
+<td>prl.res.in</td>
+<td align="right">0.20%</td>
+<td align="right">54016</td>
+</tr>
+<tr>
+<td align="center">131</td>
+<td>unsw.edu.au</td>
+<td align="right">0.20%</td>
+<td align="right">53852</td>
+</tr>
+<tr>
+<td align="center">132</td>
+<td>iastate.edu</td>
+<td align="right">0.20%</td>
+<td align="right">53419</td>
+</tr>
+<tr>
+<td align="center">133</td>
+<td>uni-erlangen.de</td>
+<td align="right">0.19%</td>
+<td align="right">53301</td>
+</tr>
+<tr>
+<td align="center">134</td>
+<td>ru.nl</td>
+<td align="right">0.19%</td>
+<td align="right">52768</td>
+</tr>
+<tr>
+<td align="center">135</td>
+<td>uibk.ac.at</td>
+<td align="right">0.19%</td>
+<td align="right">52067</td>
+</tr>
+<tr>
+<td align="center">136</td>
+<td>shef.ac.uk</td>
+<td align="right">0.19%</td>
+<td align="right">51790</td>
+</tr>
+<tr>
+<td align="center">137</td>
+<td>uni-kl.de</td>
+<td align="right">0.19%</td>
+<td align="right">51720</td>
+</tr>
+<tr>
+<td align="center">138</td>
+<td>uni-regensburg.de</td>
+<td align="right">0.19%</td>
+<td align="right">51309</td>
+</tr>
+<tr>
+<td align="center">139</td>
+<td>unibas.ch</td>
+<td align="right">0.19%</td>
+<td align="right">51143</td>
+</tr>
+<tr>
+<td align="center">140</td>
+<td>fu-berlin.de</td>
+<td align="right">0.19%</td>
+<td align="right">51097</td>
+</tr>
+<tr>
+<td align="center">141</td>
+<td>csic.es</td>
+<td align="right">0.19%</td>
+<td align="right">51047</td>
+</tr>
+<tr>
+<td align="center">142</td>
+<td>susx.ac.uk</td>
+<td align="right">0.18%</td>
+<td align="right">50532</td>
+</tr>
+<tr>
+<td align="center">143</td>
+<td>utdallas.edu</td>
+<td align="right">0.18%</td>
+<td align="right">50185</td>
+</tr>
+<tr>
+<td align="center">144</td>
+<td>washington.edu</td>
+<td align="right">0.18%</td>
+<td align="right">49998</td>
+</tr>
+<tr>
+<td align="center">145</td>
+<td>uio.no</td>
+<td align="right">0.18%</td>
+<td align="right">49852</td>
+</tr>
+<tr>
+<td align="center">146</td>
+<td>ugent.be</td>
+<td align="right">0.18%</td>
+<td align="right">48581</td>
+</tr>
+<tr>
+<td align="center">147</td>
+<td>hu-berlin.de</td>
+<td align="right">0.18%</td>
+<td align="right">48456</td>
+</tr>
+<tr>
+<td align="center">148</td>
+<td>titech.ac.jp</td>
+<td align="right">0.18%</td>
+<td align="right">48425</td>
+</tr>
+<tr>
+<td align="center">149</td>
+<td>kcl.ac.uk</td>
+<td align="right">0.17%</td>
+<td align="right">47571</td>
+</tr>
+<tr>
+<td align="center">150</td>
+<td>ulb.ac.be</td>
+<td align="right">0.17%</td>
+<td align="right">47488</td>
+</tr>
+<tr>
+<td align="center">151</td>
+<td>anu.edu.au</td>
+<td align="right">0.17%</td>
+<td align="right">47335</td>
+</tr>
+<tr>
+<td align="center">152</td>
+<td>asu.edu</td>
+<td align="right">0.17%</td>
+<td align="right">47302</td>
+</tr>
+<tr>
+<td align="center">153</td>
+<td>keio.ac.jp</td>
+<td align="right">0.17%</td>
+<td align="right">47145</td>
+</tr>
+<tr>
+<td align="center">154</td>
+<td>jinr.ru</td>
+<td align="right">0.17%</td>
+<td align="right">46964</td>
+</tr>
+<tr>
+<td align="center">155</td>
+<td>jhmi.edu</td>
+<td align="right">0.17%</td>
+<td align="right">46462</td>
+</tr>
+<tr>
+<td align="center">156</td>
+<td>wustl.edu</td>
+<td align="right">0.17%</td>
+<td align="right">46135</td>
+</tr>
+<tr>
+<td align="center">157</td>
+<td>uni-tuebingen.de</td>
+<td align="right">0.17%</td>
+<td align="right">45853</td>
+</tr>
+<tr>
+<td align="center">158</td>
+<td>leeds.ac.uk</td>
+<td align="right">0.17%</td>
+<td align="right">45827</td>
+</tr>
+<tr>
+<td align="center">159</td>
+<td>dtu.dk</td>
+<td align="right">0.17%</td>
+<td align="right">45807</td>
+</tr>
+<tr>
+<td align="center">160</td>
+<td>leidenuniv.nl</td>
+<td align="right">0.17%</td>
+<td align="right">45645</td>
+</tr>
+<tr>
+<td align="center">161</td>
+<td>(*)uni-saarland.de</td>
+<td align="right">0.17%</td>
+<td align="right">45560</td>
+</tr>
+<tr>
+<td align="center">162</td>
+<td>cuni.cz</td>
+<td align="right">0.17%</td>
+<td align="right">45130</td>
+</tr>
+<tr>
+<td align="center">163</td>
+<td>uni-wuerzburg.de</td>
+<td align="right">0.16%</td>
+<td align="right">45083</td>
+</tr>
+<tr>
+<td align="center">164</td>
+<td>uni-ulm.de</td>
+<td align="right">0.16%</td>
+<td align="right">44514</td>
+</tr>
+<tr>
+<td align="center">165</td>
+<td>slac.stanford.edu</td>
+<td align="right">0.16%</td>
+<td align="right">43748</td>
+</tr>
+<tr>
+<td align="center">166</td>
+<td>rochester.edu</td>
+<td align="right">0.16%</td>
+<td align="right">42878</td>
+</tr>
+<tr>
+<td align="center">167</td>
+<td>(*)tkk.fi</td>
+<td align="right">0.16%</td>
+<td align="right">42494</td>
+</tr>
+<tr>
+<td align="center">168</td>
+<td>psu.edu</td>
+<td align="right">0.15%</td>
+<td align="right">41991</td>
+</tr>
+<tr>
+<td align="center">169</td>
+<td>anl.gov</td>
+<td align="right">0.15%</td>
+<td align="right">41715</td>
+</tr>
+<tr>
+<td align="center">170</td>
+<td>lancs.ac.uk</td>
+<td align="right">0.15%</td>
+<td align="right">41635</td>
+</tr>
+<tr>
+<td align="center">171</td>
+<td>tue.nl</td>
+<td align="right">0.15%</td>
+<td align="right">41303</td>
+</tr>
+<tr>
+<td align="center">172</td>
+<td>uni-muenster.de</td>
+<td align="right">0.15%</td>
+<td align="right">41183</td>
+</tr>
+<tr>
+<td align="center">173</td>
+<td>uni-bielefeld.de</td>
+<td align="right">0.15%</td>
+<td align="right">40816</td>
+</tr>
+<tr>
+<td align="center">174</td>
+<td>adelaide.edu.au</td>
+<td align="right">0.15%</td>
+<td align="right">40234</td>
+</tr>
+<tr>
+<td align="center">175</td>
+<td>unicamp.br</td>
+<td align="right">0.15%</td>
+<td align="right">40205</td>
+</tr>
+<tr>
+<td align="center">176</td>
+<td>ens-lyon.fr</td>
+<td align="right">0.15%</td>
+<td align="right">40003</td>
+</tr>
+<tr>
+<td align="center">177</td>
+<td>ucm.es</td>
+<td align="right">0.15%</td>
+<td align="right">39764</td>
+</tr>
+<tr>
+<td align="center">178</td>
+<td>uni-bochum.de</td>
+<td align="right">0.14%</td>
+<td align="right">39556</td>
+</tr>
+<tr>
+<td align="center">179</td>
+<td>navy.mil</td>
+<td align="right">0.14%</td>
+<td align="right">39367</td>
+</tr>
+<tr>
+<td align="center">180</td>
+<td>uic.edu</td>
+<td align="right">0.14%</td>
+<td align="right">39298</td>
+</tr>
+<tr>
+<td align="center">181</td>
+<td>bnl.gov</td>
+<td align="right">0.14%</td>
+<td align="right">39053</td>
+</tr>
+<tr>
+<td align="center">182</td>
+<td>(*)tu-graz.ac.at</td>
+<td align="right">0.14%</td>
+<td align="right">38953</td>
+</tr>
+<tr>
+<td align="center">183</td>
+<td>uni-jena.de</td>
+<td align="right">0.14%</td>
+<td align="right">37682</td>
+</tr>
+<tr>
+<td align="center">184</td>
+<td>pd.infn.it</td>
+<td align="right">0.14%</td>
+<td align="right">37552</td>
+</tr>
+<tr>
+<td align="center">185</td>
+<td>cf.ac.uk</td>
+<td align="right">0.14%</td>
+<td align="right">37504</td>
+</tr>
+<tr>
+<td align="center">186</td>
+<td>gla.ac.uk</td>
+<td align="right">0.14%</td>
+<td align="right">37451</td>
+</tr>
+<tr>
+<td align="center">(187)</td>
+<td>uq.edu.au</td>
+<td align="right">na</td>
+<td align="right">37368</td>
+</tr>
+<tr>
+<td align="center">188</td>
+<td>(*)snl.gov</td>
+<td align="right">0.14%</td>
+<td align="right">37014</td>
+</tr>
+<tr>
+<td align="center">189</td>
+<td>nao.ac.jp</td>
+<td align="right">0.14%</td>
+<td align="right">36978</td>
+</tr>
+<tr>
+<td align="center">190</td>
+<td>fsu.edu</td>
+<td align="right">0.13%</td>
+<td align="right">36667</td>
+</tr>
+<tr>
+<td align="center">191</td>
+<td>mcgill.ca</td>
+<td align="right">0.13%</td>
+<td align="right">36417</td>
+</tr>
+<tr>
+<td align="center">192</td>
+<td>toronto.edu</td>
+<td align="right">0.13%</td>
+<td align="right">36368</td>
+</tr>
+<tr>
+<td align="center">193</td>
+<td>u-strasbg.fr</td>
+<td align="right">0.13%</td>
+<td align="right">36056</td>
+</tr>
+<tr>
+<td align="center">194</td>
+<td>kyushu-u.ac.jp</td>
+<td align="right">0.13%</td>
+<td align="right">36031</td>
+</tr>
+<tr>
+<td align="center">195</td>
+<td>kfa-juelich.de</td>
+<td align="right">0.13%</td>
+<td align="right">35867</td>
+</tr>
+<tr>
+<td align="center">196</td>
+<td>cvut.cz</td>
+<td align="right">0.13%</td>
+<td align="right">35753</td>
+</tr>
+<tr>
+<td align="center">197</td>
+<td>tus.ac.jp</td>
+<td align="right">0.13%</td>
+<td align="right">35225</td>
+</tr>
+<tr>
+<td align="center">198</td>
+<td>waseda.ac.jp</td>
+<td align="right">0.13%</td>
+<td align="right">34640</td>
+</tr>
+<tr>
+<td align="center">199</td>
+<td>hawaii.edu</td>
+<td align="right">0.13%</td>
+<td align="right">34540</td>
+</tr>
+<tr>
+<td align="center">200</td>
+<td>hokudai.ac.jp</td>
+<td align="right">0.13%</td>
+<td align="right">34477</td>
+</tr>
+<tr>
+<td align="center">201</td>
+<td>ub.es</td>
+<td align="right">0.13%</td>
+<td align="right">34466</td>
+</tr>
+<tr>
+<td align="center">202</td>
+<td>bath.ac.uk</td>
+<td align="right">0.13%</td>
+<td align="right">34443</td>
+</tr>
+<tr>
+<td align="center">203</td>
+<td>ucf.edu</td>
+<td align="right">0.12%</td>
+<td align="right">33838</td>
+</tr>
+<tr>
+<td align="center">204</td>
+<td>metu.edu.tr</td>
+<td align="right">0.12%</td>
+<td align="right">33791</td>
+</tr>
+<tr>
+<td align="center">205</td>
+<td>utah.edu</td>
+<td align="right">0.12%</td>
+<td align="right">33538</td>
+</tr>
+<tr>
+<td align="center">206</td>
+<td>bham.ac.uk</td>
+<td align="right">0.12%</td>
+<td align="right">33482</td>
+</tr>
+<tr>
+<td align="center">207</td>
+<td>utl.pt</td>
+<td align="right">0.12%</td>
+<td align="right">33286</td>
+</tr>
+<tr>
+<td align="center">208</td>
+<td>jyu.fi</td>
+<td align="right">0.12%</td>
+<td align="right">33271</td>
+</tr>
+<tr>
+<td align="center">209</td>
+<td>univ-lyon1.fr</td>
+<td align="right">0.12%</td>
+<td align="right">33117</td>
+</tr>
+<tr>
+<td align="center">210</td>
+<td>uam.es</td>
+<td align="right">0.12%</td>
+<td align="right">32936</td>
+</tr>
+<tr>
+<td align="center">211</td>
+<td>hiroshima-u.ac.jp</td>
+<td align="right">0.12%</td>
+<td align="right">32887</td>
+</tr>
+<tr>
+<td align="center">212</td>
+<td>llnl.gov</td>
+<td align="right">0.12%</td>
+<td align="right">32297</td>
+</tr>
+<tr>
+<td align="center">213</td>
+<td>tsukuba.ac.jp</td>
+<td align="right">0.12%</td>
+<td align="right">32226</td>
+</tr>
+<tr>
+<td align="center">214</td>
+<td>unitn.it</td>
+<td align="right">0.12%</td>
+<td align="right">32131</td>
+</tr>
+<tr>
+<td align="center">215</td>
+<td>york.ac.uk</td>
+<td align="right">0.12%</td>
+<td align="right">32020</td>
+</tr>
+<tr>
+<td align="center">216</td>
+<td>oregonstate.edu</td>
+<td align="right">0.12%</td>
+<td align="right">31900</td>
+</tr>
+<tr>
+<td align="center">217</td>
+<td>cwru.edu</td>
+<td align="right">0.12%</td>
+<td align="right">31714</td>
+</tr>
+<tr>
+<td align="center">218</td>
+<td>utwente.nl</td>
+<td align="right">0.12%</td>
+<td align="right">31548</td>
+</tr>
+<tr>
+<td align="center">219</td>
+<td>unifi.it</td>
+<td align="right">0.12%</td>
+<td align="right">31516</td>
+</tr>
+<tr>
+<td align="center">220</td>
+<td>(*)ku.dk</td>
+<td align="right">0.12%</td>
+<td align="right">31484</td>
+</tr>
+<tr>
+<td align="center">221</td>
+<td>roma1.infn.it</td>
+<td align="right">0.11%</td>
+<td align="right">31250</td>
+</tr>
+<tr>
+<td align="center">222</td>
+<td>(*)cnrs.fr</td>
+<td align="right">0.11%</td>
+<td align="right">31166</td>
+</tr>
+<tr>
+<td align="center">223</td>
+<td>obspm.fr</td>
+<td align="right">0.11%</td>
+<td align="right">30542</td>
+</tr>
+<tr>
+<td align="center">224</td>
+<td>qut.edu.au</td>
+<td align="right">0.11%</td>
+<td align="right">30326</td>
+</tr>
+<tr>
+<td align="center">225</td>
+<td>tcd.ie</td>
+<td align="right">0.11%</td>
+<td align="right">30133</td>
+</tr>
+<tr>
+<td align="center">226</td>
+<td>iap.fr</td>
+<td align="right">0.11%</td>
+<td align="right">29658</td>
+</tr>
+<tr>
+<td align="center">227</td>
+<td>uchicago.edu</td>
+<td align="right">0.11%</td>
+<td align="right">29160</td>
+</tr>
+<tr>
+<td align="center">228</td>
+<td>pitt.edu</td>
+<td align="right">0.11%</td>
+<td align="right">29025</td>
+</tr>
+<tr>
+<td align="center">229</td>
+<td>mcmaster.ca</td>
+<td align="right">0.11%</td>
+<td align="right">28829</td>
+</tr>
+<tr>
+<td align="center">230</td>
+<td>unam.mx</td>
+<td align="right">0.11%</td>
+<td align="right">28775</td>
+</tr>
+<tr>
+<td align="center">231</td>
+<td>(*)tu-dortmund.de</td>
+<td align="right">0.11%</td>
+<td align="right">28763</td>
+</tr>
+<tr>
+<td align="center">232</td>
+<td>ehu.es</td>
+<td align="right">0.10%</td>
+<td align="right">28627</td>
+</tr>
+<tr>
+<td align="center">233</td>
+<td>to.infn.it</td>
+<td align="right">0.10%</td>
+<td align="right">28392</td>
+</tr>
+<tr>
+<td align="center">234</td>
+<td>polytechnique.fr</td>
+<td align="right">0.10%</td>
+<td align="right">28358</td>
+</tr>
+<tr>
+<td align="center">235</td>
+<td>nikhef.nl</td>
+<td align="right">0.10%</td>
+<td align="right">28103</td>
+</tr>
+<tr>
+<td align="center">236</td>
+<td>unipd.it</td>
+<td align="right">0.10%</td>
+<td align="right">28040</td>
+</tr>
+<tr>
+<td align="center">237</td>
+<td>rpi.edu</td>
+<td align="right">0.10%</td>
+<td align="right">28029</td>
+</tr>
+<tr>
+<td align="center">238</td>
+<td>tifr.res.in</td>
+<td align="right">0.10%</td>
+<td align="right">27549</td>
+</tr>
+<tr>
+<td align="center">239</td>
+<td>yorku.ca</td>
+<td align="right">0.10%</td>
+<td align="right">26916</td>
+</tr>
+<tr>
+<td align="center">240</td>
+<td>ucl.ac.be</td>
+<td align="right">0.10%</td>
+<td align="right">26888</td>
+</tr>
+<tr>
+<td align="center">241</td>
+<td>st-andrews.ac.uk</td>
+<td align="right">0.10%</td>
+<td align="right">26629</td>
+</tr>
+<tr>
+<td align="center">242</td>
+<td>kobe-u.ac.jp</td>
+<td align="right">0.10%</td>
+<td align="right">26592</td>
+</tr>
+<tr>
+<td align="center">243</td>
+<td>duke.edu</td>
+<td align="right">0.10%</td>
+<td align="right">26390</td>
+</tr>
+<tr>
+<td align="center">244</td>
+<td>bose.res.in</td>
+<td align="right">0.10%</td>
+<td align="right">26302</td>
+</tr>
+<tr>
+<td align="center">245</td>
+<td>dlr.de</td>
+<td align="right">0.10%</td>
+<td align="right">26213</td>
+</tr>
+<tr>
+<td align="center">246</td>
+<td>uoregon.edu</td>
+<td align="right">0.10%</td>
+<td align="right">26173</td>
+</tr>
+<tr>
+<td align="center">247</td>
+<td>msu.edu</td>
+<td align="right">0.10%</td>
+<td align="right">26158</td>
+</tr>
+<tr>
+<td align="center">248</td>
+<td>univ-paris-diderot.fr</td>
+<td align="right">0.10%</td>
+<td align="right">26052</td>
+</tr>
+<tr>
+<td align="center">249</td>
+<td>upc.es</td>
+<td align="right">0.09%</td>
+<td align="right">25961</td>
+</tr>
+<tr>
+<td align="center">250</td>
+<td>au.dk</td>
+<td align="right">0.09%</td>
+<td align="right">25957</td>
+</tr>
+</tbody>
+</table>
+<p>(*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:</p>
+<ul>
+<li>desy.de includes downloads from ifh.de.</li>
+<li>illinois.edu includes downloads from uiuc.edu.</li>
+<li>inaf.it includes downloads from astro.it.</li>
+<li>manchester.ac.uk includes downloads from man.ac.uk.</li>
+<li>mpg.de includes downloads from aei.mpg.de, age.mpg.de, bgc-jena.mpg.de, biochem.mpg.de, biophys.mpg.de, brain.mpg.de, cbs.mpg.de, cec.mpg.de, coll.mpg.de, cpfs.mpg.de, demogr.mpg.de, ds.mpg.de, em.mpg.de, enzyme-halle.mpg.de, eva.mpg.de, fhi-berlin.mpg.de, fkf.mpg.de, gwdg.de, hll.mpg.de, ice.mpg.de, ie-freiburg.mpg.de, ip.mpg.de, ipp.mpg.de, is.mpg.de, mis.mpg.de, mmg.mpg.de, molgen.mpg.de, mpa-garching.mpg.de, mpcdf.mpg.de, mpdl.mpg.de, mpe-garching.mpg.de, mpe.mpg.de, mpi-dortmund.mpg.de, mpi-fg-koeln.mpg.de, mpi-halle.mpg.de, mpi-hd.mpg.de, mpi-inf.mpg.de, mpi-klsb.mpg.de, mpi-magdeburg.mpg.de, mpi-muelheim.mpg.de, mpi-sb.mpg.de, mpi-stuttgart.mpg.de, mpia-hd.mpg.de, mpib-berlin.mpg.de, mpibpc.mpg.de, mpie-duesseldorf.mpg.de, mpifr-bonn.mpg.de, mpih-frankfurt.mpg.de, mpiib-berlin.mpg.de, mpikg.mpg.de, mpim-bonn.mpg.de, mpimet.mpg.de, mpimp-golm.mpg.de, mpip-mainz.mpg.de, mpipks-dresden.mpg.de, mpipriv-hh.mpg.de, mpipz.mpg.de, mpiwg-berlin.mpg.de, mppmu.mpg.de, mpq.mpg.de, mps.mpg.de, neuro.mpg.de, nf.mpg.de, orn.mpg.de, psych.mpg.de, rz-berlin.mpg.de, rzg.mpg.de, sf.mpg.de, shh.mpg.de, tuebingen.mpg.de, vw.mpg.de.</li>
+<li>riken.jp includes downloads from riken.go.jp.</li>
+<li>stonybrook.edu includes downloads from sunysb.edu.</li>
+<li>sydney.edu.au includes downloads from usyd.edu.au.</li>
+<li>tkk.fi includes downloads from aalto.fi, hut.fi.</li>
+<li>tu-dortmund.de includes downloads from uni-dortmund.de.</li>
+<li>tu-graz.ac.at includes downloads from tugraz.at.</li>
+<li>tudelft.nl includes downloads from tudelft.net.</li>
+<li>tum.de includes downloads from tu-muenchen.de.</li>
+<li>ucsd.edu includes downloads from sdsc.edu.</li>
+<li>uni-karlsruhe.de includes downloads from fzk.de, kit.edu.</li>
+<li>uni-saarland.de includes downloads from uni-sb.de.</li>
+<li>upmc.fr includes downloads from jussieu.fr.</li>
+</ul>
+<p>(**) Some institutions' downloads were created via an alternative method due to anomalies. They have been placed at their approximate rank and are noted by the parentheses around the rank number. Downloads for these institutions have been left out of the calculation for precentage of total.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

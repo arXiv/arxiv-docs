@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Corr </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Computer Science Subject Areas and Moderators</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="computer-science-subject-areas-and-moderators">Computer Science Subject Areas and Moderators</h1>
+<p>Papers in the <a href="./">Computing Research Repository (CoRR)</a> are classified in two ways: by subject area from a list of subjects listed below and by using the 1998 ACM Computing Classification System. The ACM classification scheme provides us with a relatively stable scheme that covers all of computer science. The subject areas are not mutually exclusive, nor do they (yet) provide complete coverage of the field. On the other hand, we hope that they better reflect the active areas of research in CS. We expect to add more subject areas and subdivide current subject areas according to demand. Authors who cannot find an appropriate subject area should use subject area Other. We welcome constructive <a href="/help/contact">comments and suggestions</a>.</p>
+<p><strong><a href="/list/cs.AI/recent">AI - Artificial Intelligence</a></strong> - Diego Calvanese, Julien Corman, and Ognjen Savkovic</p>
+<p>Covers all areas of AI except Vision, Robotics, Machine Learning, Multiagent Systems, and Computation and Language (Natural Language Processing), which have separate subject areas. In particular, includes Expert Systems, Theorem Proving (although this may overlap with Logic in Computer Science), Knowledge Representation, Planning, and Uncertainty in AI. Roughly includes material in ACM Subject Classes I.2.0, I.2.1, I.2.3, I.2.4, I.2.8, and I.2.11.</p>
+<p><strong><a href="/list/cs.CC/recent">CC - Computational Complexity</a></strong> - Christopher Umans</p>
+<p>Covers models of computation, complexity classes, structural complexity, complexity tradeoffs, upper and lower bounds. Roughly includes material in ACM Subject Classes F.1 (computation by abstract devices), F.2.3 (tradeoffs among complexity measures), and F.4.3 (formal languages), although some material in formal languages may be more appropriate for Logic in Computer Science. Some material in F.2.1 and F.2.2, may also be appropriate here, but is more likely to have Data Structures and Algorithms as the primary subject area.</p>
+<p><strong><a href="/list/cs.CG/recent">CG - Computational Geometry</a></strong> - Kevin Buchin, Jeff Erickson</p>
+<p>Roughly includes material in ACM Subject Classes I.3.5 and F.2.2.</p>
+<p><strong><a href="/list/cs.CE/recent">CE - Computational Engineering, Finance, and Science</a></strong> - Paolo Bientinesi</p>
+<p>Covers applications of computer science to the mathematical modeling of complex systems in the fields of science, engineering, and finance. Papers here are interdisciplinary and applications-oriented, focusing on techniques and tools that enable challenging computational simulations to be performed, for which the use of supercomputers or distributed computing platforms is often required. Includes material in ACM Subject Classes J.2, J.3, and J.4 (economics).</p>
+<p><strong><a href="/list/cs.CL/recent">CL - Computation and Language (Computational Linguistics and Natural Language and Speech Processing)</a></strong> (<em>subsumes cmp-lg</em>) - Stuart Shieber</p>
+<p>Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. <strong>Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.</strong></p>
+<p><strong><a href="/list/cs.CV/recent">CV - Computer Vision and Pattern Recognition</a></strong> - David Forsyth</p>
+<p>Covers image processing, computer vision, pattern recognition, and scene understanding. Roughly includes material in ACM Subject Classes I.2.10, I.4, and I.5.</p>
+<p><strong><a href="/list/cs.CY/recent">CY - Computers and Society</a></strong> - Aylin Caliskan</p>
+<p>Covers impact of computers on society, computer ethics, information technology and public policy, legal aspects of computing, computers and education. Roughly includes material in ACM Subject Classes K.0, K.2, K.3, K.4, K.5, and K.7.</p>
+<p><strong><a href="/list/cs.CR/recent">CR - Cryptography and Security</a></strong> - Jeremiah Blocki</p>
+<p>Covers all areas of cryptography and security including authentication, public key cryptosytems, proof-carrying code, etc. Roughly includes material in ACM Subject Classes D.4.6 and E.3.</p>
+<p><strong><a href="/list/cs.DB/recent">DB - Databases</a></strong> - H.V. Jagadish</p>
+<p>Covers database management, datamining, and data processing. Roughly includes material in ACM Subject Classes E.2, E.5, H.0, H.2, and J.1.</p>
+<p><strong><a href="/list/cs.DS/recent">DS - Data Structures and Algorithms</a></strong> - David Eppstein</p>
+<p>Covers data structures and analysis of algorithms. Roughly includes material in ACM Subject Classes E.1, E.2, F.2.1, and F.2.2.</p>
+<p><strong><a href="/list/cs.DL/recent">DL - Digital Libraries</a></strong> - Michael Lesk</p>
+<p>Covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area). Roughly includes material in ACM Subject Classes H.3.5, H.3.6, H.3.7, I.7.</p>
+<p><strong><a href="/list/cs.DM/recent">DM - Discrete Mathematics</a></strong> - Jeff Erickson, Marcin Pilipczuk</p>
+<p>Covers combinatorics, graph theory, applications of probability. Roughly includes material in ACM Subject Classes G.2 and G.3.</p>
+<p><strong><a href="/list/cs.DC/recent">DC - Distributed, Parallel, and Cluster Computing</a></strong> - Shlomi Dolev</p>
+<p>Covers fault-tolerance, distributed algorithms, stabilility, parallel computation, and cluster computing. Roughly includes material in ACM Subject Classes C.1.2, C.1.4, C.2.4, D.1.3, D.4.5, D.4.7, E.1.</p>
+<p><strong><a href="/list/cs.ET/recent">ET - Emerging Technologies</a></strong> - Igor Markov, Dmitri Maslov</p>
+<p>Covers approaches to information processing (computing, communication, sensing) and bio-chemical analysis based on alternatives to silicon CMOS-based technologies, such as nanoscale electronic, photonic, spin-based, superconducting, mechanical, bio-chemical and quantum technologies (this list is not exclusive). Topics of interest roughly correspond to the "<a href="http://dl.acm.org/ccs_flat.cfm#10010786">Hardware/Emerging Technologies</a>" branch of the <a href="http://www.acm.org/about/class/2012">2012 ACM Computing Classification</a> and include (1) building blocks for emerging technologies, their scalability and adoption in larger systems, including integration with traditional technologies, (2) modeling, design and optimization of novel devices and systems, (3) models of computation, algorithm design and programming for emerging technologies. <strong>Note: papers on wireless networks should be submitted to cs.NI. For work on cloud computing, consider cs.DC, cs.AR, cs.NI or cs.CE, depending on the focus. For watermarking, consider cs.MM and cs.CR.</strong></p>
+<p><strong><a href="/list/cs.FL/recent">FL - Formal Languages and Automata Theory</a></strong> - Michael Domaratzki</p>
+<p>Covers automata theory, formal language theory, grammars, and combinatorics on words. This roughly corresponds to ACM Subject Classes F.1.1, and F.4.3. Papers dealing with computational complexity should go to cs.CC; papers dealing with logic should go to cs.LO. Papers that simply make use of automata, transducers, grammars, and so on, are not appropriate unless the automata, transducers, or grammars are the main subjects of study.</p>
+<p><strong><a href="/list/cs.GT/recent">GT - Computer Science and Game Theory</a></strong> - Michal Feldman, David Parkes, Moshe Tennenholtz</p>
+<p>Covers all theoretical and applied aspects at the intersection of computer science and game theory, including work in mechanism design, learning in games (which may overlap with Machine Learning), foundations of agent modeling in games (which may overlap with Multiagent systems), coordination, specification and formal methods for non-cooperative computational environments. The area also deals with applications of game theory to areas such as electronic commerce.</p>
+<p><strong><a href="/list/cs.GL/recent">GL - General Literature</a></strong> - Joe Halpern</p>
+<p>Covers introductory material, survey material, predictions of future trends, biographies, and miscellaneous computer-science related material. Roughly includes all of ACM Subject Class A, except it does not include conference proceedings (which will be listed in the appropriate subject area).</p>
+<p><strong><a href="/list/cs.GR/recent">GR - Graphics</a></strong> - Stephen Spencer and David Salesin</p>
+<p>Covers all aspects of computer graphics. Roughly includes material in all of ACM Subject Class I.3, except that I.3.5 is is likely to have Computational Geometry as the primary subject area.</p>
+<p><strong><a href="/list/cs.AR/recent">AR - Hardware Architecture</a></strong> - Onur Mutlu</p>
+<p>Covers systems organization and architecture. Roughly includes material in ACM Subject Classes C.0, C.1, and C.5.</p>
+<p><strong><a href="/list/cs.HC/recent">HC - Human-Computer Interaction</a></strong> - Terry Winograd and Michael Bernstein</p>
+<p>Covers human factors, user interfaces, and collaborative computing. Roughly includes material in ACM Subject Classes H.1.2 and all of H.5, except for H.5.1, which is more likely to have Multimedia as the primary subject area.</p>
+<p><strong><a href="/list/cs.IR/recent">IR - Information Retrieval</a></strong> - James Allan</p>
+<p>Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes material in ACM Subject Classes H.3.0, H.3.1, H.3.2, H.3.3, and H.3.4.</p>
+<p><strong><a href="/list/cs.IT/recent">IT - Information Theory</a></strong> - Venkat Guruswami and Muriel Medard</p>
+<p>Covers theoretical and experimental aspects of information theory and coding. Includes material in ACM Subject Class E.4 and intersects with H.1.1.</p>
+<p><strong><a href="/list/cs.LG/recent">LG - Machine Learning</a></strong> - Tom Dieterrich, Sebastian Raschka and Luis Lamb</p>
+<p>Papers on all aspects of machine learning research (supervised,
+unsupervised, reinforcement learning, bandit problems, and so on)
+including also robustness, explanation, fairness, and
+methodology. cs.LG is also an appropriate primary category for
+applications of machine learning methods.</p>
+<p><em>Relationship to other categories</em>: If the primary domain of the
+application is available as another category in arXiv and readers of
+that category would be the main audience, that category should be
+primary. Examples include applications to computer vision (cs.CV),
+natural language processing (cs.CL), speech recognition (eess.AS),
+information retrieval (cs.IR; includes document classification and
+topic modeling), crowdsourcing (cs.HC), quantitative finance (<a href="/archive/q-fin">q-fin</a>),
+and quantitative biology (<a href="/archive/q-bio">q-bio</a>). Papers discussing the foundations of
+neural network architectures (activation functions, spiking neurons,
+etc.) should list cs.NE as primary, as should papers applying
+biologically-inspired optimization techniques such as evolutionary
+methods. Papers working with the properties of specific signal types
+(e.g., sound, EEG, hyperspectral, ultrasound) should consider cs.SD
+(sound, including music), eess.IV (images and video), or eess.SP as
+primary. cs.LG is not appropriate for papers studying human learning
+such as computer-aided instruction, where cs.CY is a better
+fit. Papers categorized with cs.LG as primary are automatically
+cross-listed as stat.ML and vice versa.</p>
+<p><strong><a href="/list/cs.LO/recent">LO - Logic in Computer Science</a></strong> - Gopalan Nadathur</p>
+<p>Covers all aspects of logic in computer science, including finite model theory, logics of programs, modal logic, and program verification. Programming language semantics should have Programming Languages as the primary subject area. Roughly includes material in ACM Subject Classes D.2.4, F.3.1, F.4.0, F.4.1, and F.4.2; some material in F.4.3 (formal languages) may also be appropriate here, although Computational Complexity is typically the more appropriate subject area.</p>
+<p><strong><a href="/list/cs.MS/recent">MS - Mathematical Software</a></strong> - Paolo Bientinesi</p>
+<p>Roughly includes material in ACM Subject Class G.4.</p>
+<p><strong><a href="/list/cs.MA/recent">MA - Multiagent Systems</a></strong> - Jose Vidal</p>
+<p>Covers multiagent systems, distributed artificial intelligence, intelligent agents, coordinated interactions. and practical applications. Roughly covers ACM Subject Class I.2.11.</p>
+<p><strong><a href="/list/cs.MM/recent">MM - Multimedia</a></strong> - Kishore Ramachandran</p>
+<p>Roughly includes material in ACM Subject Class H.5.1.</p>
+<p><strong><a href="/list/cs.NI/recent">NI - Networking and Internet Architecture</a></strong> - Katerina Argyraki</p>
+<p>Covers all aspects of computer communication networks, including network architecture and design, wireless communication, network protocols, and internetwork standards (like TCP/IP). Also includes topics, such as web caching, that are directly relevant to Internet architecture and performance. Roughly includes all of ACM Subject Class C.2 except C.2.4, which is more likely to have Distributed, Parallel, and Cluster Computing as the primary subject area.</p>
+<p><strong><a href="/list/cs.NE/recent">NE - Neural and Evolutionary Computation</a></strong> - Jordan Pollack</p>
+<p>Covers neural networks, connectionism, genetic algorithms, artificial life, adaptive behavior. Roughly includes some material in ACM Subject Class C.1.3, I.2.6, I.5.</p>
+<p><strong><a href="/list/cs.NA/recent">NA - Numerical Analysis</a></strong> - Paolo Bientinesi</p>
+<p>Roughly includes material in ACM Subject Class G.1.</p>
+<p><strong><a href="/list/cs.OS/recent">OS - Operating Systems</a></strong> - William Waite</p>
+<p>Roughly includes material in ACM Subject Classes D.4.1, D.4.2., D.4.3, D.4.4, D.4.5, D.4.7, and D.4.9.</p>
+<p><strong><a href="/list/cs.OH/recent">OH - Other</a></strong> - Joe Halpern</p>
+<p>This is the classification to use for documents that do not fit anywhere else. This category should not be used if other categories seem appropriate.</p>
+<p><strong><a href="/list/cs.PF/recent">PF - Performance</a></strong> - Leana Golubchik</p>
+<p>Covers performance measurement and evaluation, queueing, and simulation. Roughly includes material in ACM Subject Classes D.4.8 and K.6.2.</p>
+<p><strong><a href="/list/cs.PL/recent">PL - Programming Languages</a></strong> - Gopalan Nadathur</p>
+<p>Covers programming language semantics, language features, programming approaches (such as object-oriented programming, functional programming, logic programming). Also includes material on compilers oriented towards programming languages; other material on compilers may be more appropriate in Architecture (AR). Roughly includes material in ACM Subject Classes D.1 and D.3.</p>
+<p><strong><a href="/list/cs.RO/recent">RO - Robotics</a></strong> - Damien Chablat</p>
+<p>Roughly includes material in ACM Subject Class I.2.9.</p>
+<p><strong><a href="/list/cs.SI/recent">SI - Social and Information Networks</a></strong> - Jure Leskovec and David Gleich</p>
+<p>Covers the design, analysis, and modeling of social and information networks, including their applications for on-line information access, communication, and interaction, and their roles as datasets in the exploration of questions in these and other domains, including connections to the social and biological sciences. Analysis and modeling of such networks includes topics in ACM Subject classes F.2, G.2, G.3, H.2, and I.2; applications in computing include topics in H.3, H.4, and H.5; and applications at the interface of computing and other disciplines include topics in J.1--J.7. Papers on computer communication systems and network protocols (e.g. TCP/IP) are generally a closer fit to the Networking and Internet Architecture (cs.NI) category.</p>
+<p><strong><a href="/list/cs.SE/recent">SE - Software Engineering</a></strong> - Stéphane Ducasse and Nicolas Anquetil</p>
+<p>Covers design tools, software metrics, testing and debugging, programming environments, etc. Roughly includes material in all of ACM Subject Classes D.2, except that D.2.4 (program verification) should probably have Logics in Computer Science as the primary subject area.</p>
+<p><strong><a href="/list/cs.SD/recent">SD - Sound</a></strong> - Michael O'Donnell</p>
+<p>Covers all aspects of computing with sound, and sound as an information channel. Includes models of sound, analysis and synthesis, audio user interfaces, sonification of data, computer music, and sound signal processing. Includes ACM Subject Class H.5.5, and intersects with H.1.2, H.5.1, H.5.2, I.2.7, I.5.4, I.6.3, J.5, K.4.2.</p>
+<p><strong><a href="/list/cs.SC/recent">SC - Symbolic Computation</a></strong> - Rich Zippel</p>
+<p>Roughly includes material in ACM Subject Class I.1.</p>
+<p><strong><a href="/list/cs.SY/recent">SY - Systems and Control</a></strong> - Marco Lovera, Guodong Shi, Jan-Willem Van Wingerden, and Yuan Wang</p>
+<p>This section includes theoretical and experimental research covering all facets of automatic control systems, having as focal point analysis and design methods using tools of modeling, simulation and optimization. Specific areas of research include nonlinear, distributed, adaptive, stochastic and robust control, hybrid and discrete event systems. Application areas include automotive, aerospace, process control, network control, biological systems, multiagent and cooperative control, sensor networks, control of cyberphysical and energy-related systems, control of computing systems.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

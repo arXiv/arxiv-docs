@@ -1,0 +1,530 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Reports </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Whitepaper</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-business-model-white-paper">arXiv Business Model White Paper</h1>
+<p>Cornell University Library<br />
+January 15, 2010; last updated August 5, 2010<br />
+See also: <a href="/help/support">arXiv Support</a> and <a href="/help/support/faq">FAQ</a><br />
+Contact: support@arxiv.org</p>
+<h2 id="1-introduction">1. Introduction</h2>
+<p>Started in August 1991, arXiv.org (formerly xxx.lanl.gov) is
+internationally acknowledged as a pioneering and successful digital
+archive and open-access distribution service for research articles. The
+e-print repository has transformed the scholarly communication
+infrastructure of multiple fields of physics and plays an increasingly
+prominent role in a unified set of global resources for physics,
+mathematics, computer science, and related disciplines. It is very
+firmly embedded in the research workflows of these subject domains and
+has changed the way in which material is shared, making science more
+democratic and allowing for the rapid dissemination of scientific
+findings.</p>
+<p>arXiv is an international initiative and has mirror sites in 13
+countries and collaborations with U.S. and foreign professional
+societies and other international organizations. It has provided a
+crucial life-line for isolated researchers in developing countries. Most
+scientists and researchers who post content on arXiv also submit their
+work for publication in traditional peer-reviewed journals. However,
+famously reclusive Russian mathematician Grigori Perelman's 2003
+decision to post his proof of the 100-year-old Poincaré Conjecture
+solely in arXiv underscores the repository's importance and its role in
+transforming scholarly communication.</p>
+<p>Since its inception in 1991 with a focus on the high energy physics
+community, arXiv has significantly expanded both its subject coverage
+and user base. It moved to Cornell with its founder, physicist Paul
+Ginsparg, when he returned as a faculty member in 2001, and is now a
+collaboration between the Cornell University Library and Cornell's
+Computing and Information Science Program. The library is responsible
+for arXiv's operation and maintenance, while research around the
+repository is performed in conjunction with the Information Science
+program.</p>
+<p>arXiv is a primary exemplar of an effective scholarly repository and is
+often cited to illustrate digital repositories' potential role in
+transforming scholarly communication, broadening access, and allowing
+for the rapid dissemination of scientific findings. Cultural practices
+within high energy physics such as the long-standing reliance on
+pre-prints likely influenced the initial rapid appropriation of arXiv
+within that community, but arXiv has since been adopted by many other
+communities with different practices. Through Paul Ginsparg's leadership
+the service has consistently focused on the disciplinary cultures
+represented in the digital repository and the needs of the user
+communities. Although arXiv is not peer-reviewed, the submissions are
+screened by subject-specific moderators to ensure content is relevant to
+current research in the specified disciplines (see arXiv's
+<a href="http://arxiv.org/help/primer">primer</a> and <a href="http://arxiv.org/help/moderation">moderation
+guidelines</a>). Additionally, an
+endorsement system uses community feedback to pre-screen new submitters.
+arXiv has facilities to harvest, record and display references and links
+to formally published versions of articles based on the deposited
+e-prints, thus providing an overt link to peer review. arXiv currently
+numbers over 580,000 e-prints. In calendar year 2009, arXiv accepted
+64,047 new submissions and served over 30 million full-text downloads.</p>
+<h2 id="2-business-model">2. Business Model</h2>
+<p>Scholars worldwide depend upon the stable operation and continued
+development of arXiv. Sustainability is best assured by aligning revenue
+sources with the constituents that realize value from arXiv, and by
+reducing dependence upon on Cornell University Library's budget. We have
+decided to pursue a collaborative business model that will engage the
+institutions that benefit from arXiv.</p>
+<p>Based on extensive feedback from arXiv stakeholders, we are proposing an
+interim business arrangement for three years that will provide the most
+immediately viable short-term funding model: income generated by
+recurring subsidies from the libraries at academic institutions,
+research centers, government laboratories, and other organizations that
+are the heaviest users of arXiv, managed through a tiered structure of
+annual support requests similar to many other open-access funding
+models.</p>
+<h3 id="21-budget">2.1 Budget</h3>
+<p>The calendar year 2010 budget for arXiv is \$400,000, which includes
+costs for personnel and operating expenses (G&amp;A overhead, hardware,
+hosting, and network charges; see <a href="2010_budget">budget summary</a>). Staff
+salaries account for about 80% of total annual expenses. We expect the
+annual budget to increase to $500,000 by 2012 to facilitate necessary
+upgrades and enhancements (see <a href="#sec3_1">section 3.1</a> for more
+information regarding our technology agenda).</p>
+<p>Our goal is to continue providing this valuable component of the
+scholarly communication system at minimal cost to the community. The
+budget may be viewed as an effective cost per download of 1.3 cents, or
+alternatively, an effective cost per submission of &lt;$7.</p>
+<h3 id="22-collaborative-support-model">2.2 Collaborative support model</h3>
+<p>We are seeking direct support from the heaviest institutional users of
+arXiv. Our tier-based support structure is based on the previous
+calendar year's download activity and will be applied equally to
+academic institutions, research centers, government labs, and other
+organizations. For consortia willing to promote and capture support for
+arXiv, we will offer a 10% discount for new supporting institutions and
+a 5% discount on renewals. No institutional site license is required.</p>
+<p>Initially a 3-tiered institutional support model will be implemented
+with a top-end rate of \$4,000 per year, and a low-end rate of $2,300 per
+year. We seek support from institutions representing the most active
+users of arXiv, in both the United States and other countries.</p>
+<h4 id="2010-support-request-rates">2010 Support Request Rates</h4>
+<p><strong>Tier 1</strong></p>
+<p>The top 100 institutions bases on the previous year's download activity.
+These institutions account for approximately 55% of all institutional
+downloads from arXiv.</p>
+<p>\$4,000/year</p>
+<p><strong>Tier 2</strong></p>
+<p>Institutions that rank between 101 and 200 in terms of download activity
+and account for approximately 25% of all institutional downloads from
+arXiv.</p>
+<p>\$3,200/year</p>
+<p><strong>Tier 3</strong></p>
+<p>Institutions that rank below 200 in download activity and account for
+approximately 20% of all institutional downloads from arXiv.</p>
+<p>\$2,300/year</p>
+<p>Institutions wishing to support arXiv should contact their consortia
+representatives or the arXiv office at Cornell University Library at
+support@arxiv.org.</p>
+<p>We anticipate that it will take time to attract sufficient support to
+meet arXiv's budget needs. If strong support results in a surplus then
+it will be reinvested in arXiv or result in reduced rates. See <a href="#sec2_4">section
+2.4</a> for a discussion of operating principles and Cornell
+support during transition to this model.</p>
+<h3 id="23-why-a-use-based-model">2.3 Why a use-based model?</h3>
+<p>As a public good, arXiv should be supported by those institutions that
+use it the most. We have compiled a <a href="2009_usage">listing of the most active 200
+institutions</a>, based on download data, for calendar year 2009. We will compile and review usage data, by institution, on an annual basis and will notify institutions that have moved from one tier to another.</p>
+<p>We do not have precise statistics based on articles submitted to arXiv.
+This is because arXiv does not demand that submitters include
+affiliation information for authors, and does not control any
+affiliation metadata that is submitted. We can provide approximate
+statistics for supporting institutions but note that these should be
+interpreted with care. Early feedback from our colleagues indicates
+interest in submission statistics. Options for generating better
+statistics will be discussed by the arXiv Sustainability Advisory Group
+(see <a href="#sec2_7">section 2.7</a>).</p>
+<h3 id="24-operating-principles"><span id="sec2_4">2.4 Operating principles</span></h3>
+<ul>
+<li>Cornell University Library is committed to maintaining arXiv as an
+    open access service, free to submitters and users alike.</li>
+<li>Cornell University Library will initially implement an institutional
+    support model that targets academic institutions, research centers,
+    and other organizations (e.g. government labs) until a more diverse
+    funding model can be developed.</li>
+<li>Cornell University Library will continue to provide a sizeable
+    portion of the costs to operate arXiv, but that amount will diminish
+    incrementally over the next four years. In 2010, Cornell University
+    Library will subvent up to 75% of total annual costs; in 2011, the
+    amount will decline to 50%; in 2012 to 25%; and thereafter remain
+    steady at 15% of the operating budget. The budget for 2010 is
+    approximately $400,000 per year. We expect this amount to go up to
+    500,000 by 2012 due to necessary upgrades and enhancements.</li>
+<li>Costs associated with institutional support management are factored
+    in as a percentage of annual support income.</li>
+<li>Cornell University Library will not realize a "profit" from this
+    support model; any surplus accrued will be reinvested in arXiv or
+    result in reduced rates.</li>
+</ul>
+<h3 id="25-development-of-a-long-term-business-plan">2.5 Development of a long-term business plan</h3>
+<p>We realize that our business model needs to be responsive to the
+shifting ecology of scholarly publishing. As we continue to investigate
+long-term sustainability issues, our goal through this document is to
+articulate potential interim strategies. The sustainability scenario we
+propose represents a short-term strategy for the next three years. Our
+initial approach will be to collaborate with the libraries of the
+heaviest user institutions in the US and abroad in our effort to
+reposition arXiv as a vested online scholarly resource, an asset with
+shared benefits and accountability.</p>
+<p>Over the next few years we will develop a long-term business plan that
+provides a strategic framework to protect and increase the value of
+arXiv for those who use it. Ideally this will comprise a blend of
+ongoing underwriting from Cornell University Library and support from
+the academic library community and research centers. It might also
+include support from scholarly societies, an endowment, or funding
+agencies such as the NSF. We will strengthen existing collaborations
+(e.g. with the INSPIRE project of CERN, SLAC, DESY and Fermilab) and
+develop additional partnerships that allow arXiv to provide better
+services or to share the support burden. Advice from the Sustainability
+Advisory Group (see <a href="#sec2_7">section 2.7</a>) and other supporting
+institutions will be used in developing this long-term business plan.</p>
+<h3 id="26-alternative-revenue-sources">2.6 Alternative revenue sources</h3>
+<p>In the process of investigating business models we have considered many
+options. For a good overview see the <a href="http://www.ithaka.org/ithaka-s-r/strategy/sustainability-and-revenue-models-for-online-academic-resources">Ithaka report on Sustainability
+and Revenue Models for Online Academic
+Resources</a>.
+Alternative revenue sources considered included:</p>
+<p><strong>Requesting donations at time of submission —</strong><br />
+We have no plans to impose article processing charges or submission
+fees. Barrier-free submission and use is one of the founding principles
+of arXiv. We have considered requesting donations at time of submission
+but have concluded that such fundraising would incur greater overhead
+than the institutional support model, and would not engage our peer
+institutions. We also want to ensure broad international contributions
+to the repository without financial expectations from the authors.</p>
+<p><strong>SCOAP3 —</strong><br />
+arXiv would potentially be a beneficiary of redirected funding
+administered by the <a href="http://scoap3.org/">Sponsoring Consortium for Open Access Publishing in
+Particle Physics</a> (SCOAP3) consortium. It's not
+clear, however, when this initiative will meet its annual funding goal
+of €10,000,000 ($14,120,000). It should also be noted that the SCOAP3
+initiative is restricted to HEP and particle physics content only, which
+represents between 18% and 40% of submissions to arXiv (depending how
+broadly the subject area is construed). If SCOAP3 is successful it could
+potentially subvent a similar fraction of arXiv's operating costs. We
+will continue to monitor the development of SCOAP3 and its impact on our
+long-term plans.</p>
+<h3 id="27-governance"><span id="sec2_7">2.7 Governance</span></h3>
+<p>arXiv is maintained and operated by the Cornell University Library, with
+guidance from the <a href="http://arxiv.org/help/scientific_ad_board">arXiv Scientific Advisory
+Board</a> and several subject
+Advisory Committees. Additionally, the <a href="sustainability_advisory_group">arXiv Sustainability Advisory
+Group</a> provides an essential consultative
+role in developing diverse sustainability strategies for arXiv.</p>
+<h3 id="28-benefits-for-supporting-institutions">2.8 Benefits for supporting institutions</h3>
+<p>Contributions will be openly acknowledged on the arXiv.org website.
+Within the first year arXiv will add banners recognizing institutional
+support (<em>"Your access to arXiv is supported by University X"</em> or
+similar) and support for local OpenURL based services. Both of these
+features will be based on the IP address information supplied by the
+supporting institution. We will develop plans for additional benefits in
+consultation with supporting institutions, including more detailed usage
+statistics.</p>
+<h3 id="29-why-should-my-institution-support-arxiv">2.9 Why should my institution support arXiv?</h3>
+<p>The recent <a href="http://www.ithaka.org/ithaka-s-r/strategy/sustainability-and-revenue-models-for-online-academic-resources">Ithaka report on
+sustainability</a>
+provides a comprehensive review of a variety of business models for
+supporting online academic resources. This report defines sustainability
+as <em>"the ability to generate or gain access to the resources financial
+or otherwise needed to protect and increase the value of the content or
+service for those who use it."</em> Therefore, keeping open access academic
+resources such as arXiv sustainable involves not only covering their
+costs but also continuing to enhance their value based on the needs of
+the user community. Such a financial commitment is likely to be beyond a
+single institution's resources.</p>
+<p>arXiv has been one of the most important disruptive innovations in
+scholarly communications since the advent of the Internet. Its
+preemptive dissemination model represented the first significant means
+to provide expedited access to scientific research well ahead of formal
+publication. It remains an exemplar in the open-access debate.</p>
+<p>arXiv is a primary destination site for both authors and readers in its
+core domains within physics and math. If a case can be made for any
+repository being community-supported, arXiv has to be at the top of the
+list. We believe that arXiv sustainability should be considered a shared
+investment in a culturally embedded resource that provides unambiguous
+value to a global network of science researchers.</p>
+<h2 id="3-technical-architecture">3. Technical Architecture</h2>
+<p>The arXiv software was developed in-house at the Los Alamos National
+Laboratory and Cornell over the past 18 years. The software is
+predominantly written in Perl with components that use Java, PHP and
+Python. Metadata and user information is stored in a MySQL database and
+Lucene is used to provide the search service. A key focus of software
+development has been to automate the operation of arXiv as much as
+possible, and continual improvement has been necessary to keep the
+administrative staff requirement from increasing as the number of
+incoming submissions has steadily increased. The three server machines
+that provide the main arXiv.org site are supported by Cornell's central
+IT organization with 24x7 support. Mirror sites are locally supported
+and receive updates daily.</p>
+<h3 id="31-technical-plans-for-maintaining-and-advancing-arxiv"><span id="sec3_1">3.1 Technical plans for maintaining and advancing arXiv</span></h3>
+<p>While the underlying technology has been updated throughout its 18 year
+history, the system requires significant internal re-engineering to
+support an evolving technological landscape, increased growth and use,
+and to ensure the sustainability of the service. arXiv's success has
+relied upon a highly efficient use of both author and administrative
+effort, and has served its large and ever-growing user base with only a
+fixed-size skeletal staff. In this respect, it long anticipated many of
+the current "Web 2.0" and social networking trends: providing a
+framework in which a community of users can deposit, share and annotate
+content. It also helped initiate, and continues to play a leading role,
+in the growing movement for open access to scholarly literature.</p>
+<p><strong>Improve submission system —</strong><br />
+We expect to roll out a complete revision of the arXiv submission system
+early in 2010. This will provide much improved user interaction during
+the submission process and will also streamline the workflow for
+moderators and administrators, giving much greater flexibility when
+handling submissions with technical or classification issues.
+Underpinning this new system are several infrastructural improvements
+which will facilitate later development and/or platform migration.</p>
+<p><strong>Support for associated data and information objects —</strong><br />
+Digital data and associated multimedia information such as images and
+audio/video are becoming an integral part of scientific publications. To
+maintain its innovation role in scholarly communication, it is essential
+for arXiv to develop features in support of the deposit and archiving of
+supplementary information objects that are associated with a given
+paper.</p>
+<p><strong>Scalable and expandable architecture for sustainability —</strong><br />
+The arXiv software has been developed in-house over many years and this
+has both benefits and burdens associated with it. To keep arXiv
+sustainable, it is important to re-engineer the software to layer
+arXiv-specific functionality over generic repository software. Creating
+a generalized architecture will facilitate efficient technology
+management processes and allow the implementation of digital
+preservation procedures and policies.</p>
+<h3 id="32-subject-area-coverage-and-expansion">3.2 Subject area coverage and expansion</h3>
+<p>The Cornell University Library frequently receives requests to extend
+arXiv to include other subject areas. In recent years we have added the
+fields of quantitative biology, statistics and quantitative finance;
+requests currently under consideration include mechanics and some areas
+of engineering. Due to limited resources, we have adopted a measured
+approach to expansion because there is significant organizational and
+administrative effort required both to create and to maintain new
+subject areas. Adding a new subject area involves exploring the
+user-base and use characteristics pertaining to the subject area,
+establishing the necessary advisory committees, and recruiting
+moderators.</p>
+<p>Although arXiv.org is the central portal for scientific communication in
+some disciplines, it is neither feasible nor necessarily desirable to
+play that role in all disciplines. However, arXiv can provide a model
+for other communities through improved service to its existing dedicated
+user communities, and act as an essential component of a global
+networked scholarly communication system. We anticipate that system will
+become increasingly broad in its subject area coverage, and increasingly
+diverse in its component databases, repositories, and other online tools
+and services.</p>
+<h3 id="33-enduring-access">3.3 Enduring access</h3>
+<p>The first element in our plan is to ensure the long-term sustainability
+of arXiv as a service. This requires a solid business plan to support
+maintenance and expansion of the system. The second element is digital
+preservation of arXiv content.</p>
+<p>Digital preservation refers to a range of managed activities to support
+the long-term maintenance of bitstreams to ensure that digital objects
+are usable (intact and readable), retaining all quantities of
+authenticity, accuracy, and functionality deemed to be essential when
+articles (and other associated materials) were ingested. Formats
+accepted by arXiv have been selected based on their archival value
+(TeX/LaTeX, PDF, HTML, OOXML) and the ability to process all source
+files is actively monitored. The underlying bits are protected by
+standard backup procedures at the Cornell campus and off-site backup
+facilities in New York City provide geographic redundancy. The complete
+content is replicated at our mirror sites around the world and
+additional managed tape backups are taken at Los Alamos National
+Laboratory.</p>
+<p>The Cornell University Library is developing an archival repository that
+will support preservation of critical content from institutional
+resources including arXiv. All arXiv documents, both in source and
+processed form, with be stored in this repository by the end of 2010.
+There will be ongoing incremental ingest of new material. We expect that
+the preservation costs for arXiv will be borne by the Cornell University
+Library leveraging the archival infrastructure developed for the library
+system.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Policies </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Privacy policy</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-privacy-policy">arXiv Privacy Policy</h1>
+<p>The following privacy notice describes what information we collect from you when you visit arXiv.org and how we use this information. Please read this privacy notice carefully so that you understand our privacy practices.</p>
+<h2 id="effective-date-of-privacy-notice">Effective Date of Privacy Notice</h2>
+<p>The privacy notice was last revised on 2019-02-08.</p>
+<h2 id="what-information-we-gather-during-your-visit">What information we gather during your visit</h2>
+<p><em>Information we gather for anonymous browsing:</em></p>
+<p>We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent). No attempt is made to deanonymize information we collect.</p>
+<p><em>Information you may provide as registered user:</em></p>
+<p>We may also collect other information as described in this notice or other specific Cornell University privacy notices. In order to take full advantage of some of our services, including article submission, we may request name, email, username, ORCID, past emails, affiliation, country, additional contact information and/or online identifiers. We may also request a record of affiliation and publication record be provided via email. When a user submits an article to arXiv we also collect author names, affiliation of co-authors (if provided), submitter IP address and submitter remote host.</p>
+<p>Information associated with your user account can be viewed on your <a href="/user/">user dashboard</a>.</p>
+<p><em>Information you may provide when submitting feedback or help request:</em></p>
+<p>Users who email <a href="/help/contact">arXiv administrators</a> for technical help or moderation requests should include information relevant to the request.</p>
+<p>Users who choose to fill out a feedback form on the website can do so anonymously or by providing personal information, such as name, email, and information about your operating environment.</p>
+<p><em>Information provided by others:</em></p>
+<p>Users who submit articles or other content to arXiv must ensure that they have the consent to share personal data contained within the content or the submission may be removed.</p>
+<h2 id="how-we-use-your-information">How we use your information</h2>
+<p>We use gathered information to track user trends and site usage with the goal of improving our visitors’ experience and optimizing our websites. We also use the information to administer this website and prevent abuse.</p>
+<p><em>Customer support:</em></p>
+<p>We use your information to resolve technical and moderation issues you encounter, to respond to your requests for assistance, to analyze crash information, and to repair and improve the services.</p>
+<p><em>For safety and security:</em></p>
+<p>We use information about you and your service use to verify accounts and activity, to monitor suspicious or fraudulent activity and to identify violations of service policies.</p>
+<p><em>Daily mailings:</em></p>
+<p>User-controlled subscriptions for announcements of daily papers include instructions to unsubscribe. More information at: https://arxiv.org/help/subscribe</p>
+<p><em>Article Submission:</em></p>
+<p>In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/policies/instructions_for_submission; https://arxiv.org/help/moderation  </p>
+<p>Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.</p>
+<p>The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users <a href="https://arxiv.org/help/endorsement#request">contact eligible arXiv endorsers</a> in order to make their own submissions.</p>
+<p><em>Fundraising:</em></p>
+<p>Should you decide to donate to arXiv through the donate page you will be directed to the Cornell giving website and the information you provide will be used to process your donation. Please also see the <a href="https://giving.cornell.edu/privacy-policy/">Cornell giving privacy policy</a>.</p>
+<p><em>Membership:</em></p>
+<p>For users who visit arXiv from the IP range of an arXiv member institution, you will see the institution acknowledged on the arXiv.org website. arXiv member institutions also receive anonymous statistics on usage from within their IP range.</p>
+<h2 id="with-whom-we-share-your-information">With whom we share your information</h2>
+<p>Information we gather is shared with vendors we use to support the infrastructure, submission, moderation, and archival requirements of arXiv. However, we will not sell this data to third-parties for their use in direct marketing, advertising, or for the promotion of their products and services.</p>
+<p><em>Info we share with third party services:</em></p>
+<p>Atlassian Jira is used for collecting feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.</p>
+<p>iThenticate is used by arXiv administrators for text analysis on submissions. The name of the submitter is included in the iThenticate report for tracking purposes.</p>
+<p>Fastmail is used for email communication with arXiv volunteer moderators that may contain submission metadata, including author names, affiliations, submitter name and email.</p>
+<p>GMail is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.</p>
+<p>Slack is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.</p>
+<p>Amazon Web Services is used for server infrastructure for components of the arXiv system.</p>
+<p><a href="http://ads.harvard.edu/">Astrophysics Data System</a> (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools.</p>
+<p><em>Info we share with moderators as part of submission and moderation:</em></p>
+<p>As part of the article submission and moderation process arXiv moderators can view author list, submitter name, submitter email, and if the submitter was endorsed by another user moderators can view the name of the endorser.</p>
+<p><em>Info we share publicly:</em></p>
+<p>Users with registered arXiv accounts can view the email address that was used to upload each submission to arXiv. Please see the <a href="https://arxiv.org/help/email-protection">email protection page</a> for more information.</p>
+<p>The metadata for arXiv articles is freely accessible and available to any third-party use.</p>
+<h2 id="cookies">Cookies</h2>
+<p>Cookies are text files stored on your computer and accessible only to the websites which create them.</p>
+<p>Our websites may use cookies to keep you logged into secure areas of the website and/or to keep track of your preferences as you interact with certain services. It is not necessary to use/permit cookies to read articles on arXiv.org.</p>
+<p>To manage cookies in arXiv please see: https://arxiv.org/cookies</p>
+<h2 id="protecting-your-information">Protecting your information</h2>
+<p>No method of transmitting over the internet or storing electronic data is 100% secure, but arXiv follows standard practices to protect against the loss, misuse, or alteration of the information that is under our control.</p>
+<h2 id="fundraising-update-user-testing-and-other-notifications">Fundraising, Update, User Testing, and other notifications</h2>
+<p>This section explains the choices you have when it comes to receiving email communications from arXiv.</p>
+<p>Donors to arXiv may receive future fundraising emails from Cornell University. Those emails will contain options to unsubscribe.</p>
+<p>arXiv members will receive annual update emails and direct correspondence relating to membership. Those emails will contain options to unsubscribe.</p>
+<p>Sorry™ App is used to notify users about arXiv's operational status. Read <a href="https://help.sorryapp.com/en/articles/1929467-privacy-and-cookies-policy">Sorry's privacy page</a> for more information. When you sign up for status notifications arXiv will share your contact information with Sorry™ to keep you informed about changes in the availability of our service. You'll have the option to unsubscribe at any time.</p>
+<p>If you have joined the user testing list you will receive occasional survey links and other relevant opportunities to review and offer feedback on website changes. We use Mailchimp to manage user testing lists and send emails to our testing groups. Read <a href="https://mailchimp.com/legal/privacy/">Mailchimp’s privacy policy</a> for more information. You can make changes to your email preferences by utilizing the relevant links noted in our email communications. You may opt out of user testing emails at any time.</p>
+<p>We collect a variety of types of information for user testing purposes such as:
+Your name and email
+Your country
+Your primary research field
+Your opinions on various aspects of the website.</p>
+<p>This information helps us improve the functionality of arXiv for more people and across geographic areas.</p>
+<p>Your information is never shared with third party marketing services.</p>
+<h2 id="social-media-presence">Social Media Presence</h2>
+<p>If you share our content through social media, such as tweeting about us on Twitter, those social networks will record that you have done so and may set a cookie for this purpose.</p>
+<p>If you wish to opt-out of any of these social interactions please refer to the specific social media platform for instructions on how to do so.</p>
+<h2 id="external-website-links">External Website Links</h2>
+<p>From time-to-time, we will link to external websites that we neither own nor control. Cornell University is not responsible for the content, privacy practices, or web accessibility needs on these websites.</p>
+<p>Contributors to the site, including article submissions and metadata may contain links as well. We are not responsible for the content, privacy practices, or web accessibility needs on these websites.</p>
+<h2 id="special-notice-for-eu-residents">Special Notice for EU Residents</h2>
+<p>If you are located within the European Economic Area (European Union, Norway, Liechtenstein, and Iceland), we acknowledge the rights granted to you under the General Data Protection Regulation (GDPR).</p>
+<p>These rights may include:</p>
+<ol>
+<li>Right to access your information held by us</li>
+<li>Right to correct inaccurate or incorrect information about you</li>
+<li>Right to the erasure of your information when it is no longer necessary for us to retain it</li>
+<li>Right to restrict processing of your personal information in specific situations</li>
+<li>Right to object to processing your information, including sending you communications that may be considered direct-marketing materials</li>
+<li>Right to object to automated decision-making and profiling, where applicable</li>
+<li>Right to complain to a supervisory authority in your jurisdiction within the EU</li>
+</ol>
+<p>Please contact us with any questions, concerns, or if you wish to exercise any of these rights: gdpr@cornell.edu</p>
+<h2 id="contact-information">Contact Information</h2>
+<p>For questions about arXiv privacy policies or technical support please contact: help@arxiv.org</p>
+<p>If you have general questions about Cornell University privacy practices, please contact: privacy@cornell.edu or visit https://privacy.cornell.edu.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

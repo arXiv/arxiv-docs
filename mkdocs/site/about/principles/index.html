@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">arXiv Operating Principles</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-operating-principles">arXiv Operating Principles</h1>
+<p>March 28, 2012</p>
+<p><em>Note: This document has not been revised since 2012 and thus, is out of date and needs be revised to reflect the current organization.</em></p>
+<h2 id="1-general-editorial-principles">1. General &amp; Editorial Principles</h2>
+<p>1.1. arXiv provides an open-access repository of scientific research to authors and researchers
+worldwide.</p>
+<p>1.2. arXiv is a scholarly communication forum informed and guided by scientists and the
+scientific cultures being served.</p>
+<p>1.3. Access to arXiv content via arXiv.org is free to individual end users.</p>
+<p>1.4. Individual researchers can deposit their own content in arXiv for free.</p>
+<p>1.5. Criteria and standards for depositing content in arXiv are maintained by the Scientific
+Advisory Board, and deposit is governed by transparent and publicly posted policies and
+procedures.</p>
+<p>1.6. arXiv serves the needs of researchers in physics, mathematics, computer science, quantitative
+biology, quantitative finance, and statistics. Any expansion into other subjects or disciplines
+must include scholarly community support, satisfy arXiv’s quality standards, and take into
+consideration its operational capacity and financial requirements.</p>
+<p>1.7. Whenever possible, arXiv adopts open-source software and relevant standards and best
+practices.</p>
+<h2 id="2-governance-principles">2. Governance Principles</h2>
+<h3 id="2-role-of-cornell-university">2. Role of Cornell University</h3>
+<p>2.1. CUL holds the overall responsibility for arXiv’s operation and development, with strategic
+and operational guidance from its Member Advisory Board (MAB) and its Scientific
+Advisory Board (SAB).</p>
+<p>2.2. Cornell University:</p>
+<p>2.2.a. Manages the moderation of submissions and user support, including the development
+and implementation of policies and procedures;</p>
+<p>2.2.b. Operates arXiv’s technical infrastructure, including system maintenance, standards
+implementation, and development initiatives for incorporating new features and
+services.</p>
+<p>2.2.c. Coordinates and facilitates the meetings and deliberations of Member and Scientific
+Advisory boards.</p>
+<p>2.2.d. Provides interfaces and data access to support open reuse of arXiv data.</p>
+<p>2.2.e. Assumes responsibility for archiving to ensure long-term access and maintains arXiv
+mirror sites.</p>
+<p>2.2.f. Establishes and maintains collaborations with related initiatives to improve services
+for the scientific community through interoperability and through sharing tools and
+software.</p>
+<p>2.2.g. Administers the arXiv membership program and assumes ultimate financial
+responsibility for running arXiv.</p>
+<p>2.2.h. Maintains a transparent and open communication strategy to engage and inform
+arXiv’s key stakeholders.</p>
+<p>2.2.i. Bears responsibility for developing a succession plan in the event it can no longer host
+the service.</p>
+<h3 id="3-role-of-the-member-advisory-board">3. Role of the Member Advisory Board</h3>
+<p>3.1. A Member Advisory Board is elected from arXiv’s membership and serves as a consultative
+body.</p>
+<p>3.2. The board represents participating institutions’ interests and advises CUL on issues related to
+repository management and development, standards implementation, interoperability,
+development priorities, business planning, and outreach and advocacy.</p>
+<p>3.3. Membership in arXiv and representation on the MAB is reserved for libraries, research
+institutions, laboratories, and foundations that contribute to the financial support of the
+service.</p>
+<p>3.4. Voting for representatives to the MAB is open to all eligible member institutions, each of
+which shall have one vote. Member institutions may delegate their representation to a
+consortium or other proxy&lt;sup1&lt;/supwith the voting representation of such proxies being equal to the
+number of members represented.</p>
+<p>3.5. The MAB is chaired by the arXiv Program Director from CUL and includes two members of
+the Scientific Advisory Board as non-voting ex officio members. The CUL IT and usersupport leads attend meetings as non-voting members to participate in discussions and
+provide background information.</p>
+<p>3.6. The MAB reviews and comments on arXiv budgets proposed by CUL.</p>
+<h3 id="4-role-of-the-scientific-advisory-board">4. Role of the Scientific Advisory Board</h3>
+<p>4.1. The Scientific Advisory Board is composed of scientists and researchers in areas covered by
+arXiv. Chairs of subject Advisory Committees serve as <em>ex officio</em> members of the board. The
+selection process for the remaining members will be delineated in arXiv board bylaws.</p>
+<p>4.2. The SAB selects a Chair from among its members. The Chair works with the arXiv director
+of user support to coordinate SAB activities. The roles of the Chair and the arXiv director of
+user support, with respect to the SAB, will be specified in arXiv board bylaws.</p>
+<p>4.3. The SAB:</p>
+<p>4.3.a. Provides advice and guidance pertaining to the intellectual oversight of arXiv, with
+particular focus on the policies and operation of arXiv's moderation system.</p>
+<p>4.3.b. Reviews the criteria and standards for deposit in arXiv and proposes revisions to
+those criteria and standards as it deems warranted.</p>
+<p>4.3.c. Proposes new subject or discipline domains to be covered by arXiv and/or reviews
+proposals for such domains.</p>
+<p>4.3.d. Provides scientist feedback on arXiv development projects proposed by the MAB.</p>
+<p>4.3.e. Makes recommendations regarding development projects — in particular, suggestions
+about improvements to the systems that support submission and moderation
+processing.</p>
+<p>4.4. Two members of the MAB serve as non-voting ex officio members of the SAB.</p>
+<p>4.5. The CU IT and user support leads attend SAB meetings as non-voting members to
+participate in discussions and provide background information.</p>
+<h2 id="5-general-governance-principles">5. General Governance Principles</h2>
+<p>5.1. To ensure transparency and accountability, arXiv provides annual operational and financial
+reports to member institutions.</p>
+<p>5.2. The SAB and the MAB operate in parallel, complementing each other and providing
+essential input for CU&lt;sup2&lt;/sup. To this end, the SAB appoints two members to serve as non-voting
+<em>ex officio</em> members of the MAB; the MAB appoints two members to serve as non-voting <em>ex
+officio</em> members of the SAB.</p>
+<p>5.3. Members acknowledge that the host institution’s legal obligations and fiduciary
+responsibilities place practical constraints on the formal governance structure and terms. Within these constraints, arXiv is committed to adhering to the stated governance principles,
+and to review periodically these principles.</p>
+<h2 id="6-economic-principles">6. Economic Principles</h2>
+<p>6.1. arXiv is supported financially by Cornell University Library and a global collective of
+institutional members, potentially supplemented by foundation grants.</p>
+<p>6.2. CU has committed to contribute a cash subsidy of $75,000 per year in support of arXiv’s
+operational costs and an in-kind contribution of all indirect costs, which currently represents
+37% of total arXiv operating costs&lt;sup3&lt;/sup.</p>
+<p>6.3. Each member institution pledges a five-year initial funding commitment to support arXiv&lt;sup4&lt;/sup. Membership fees may be adjusted annually to ensure that arXiv is sustained at an acceptable level of service, as determined by Cornell University in consultation with the MAB and the SAB.</p>
+<p>6.4. Membership fees are equitable and based on an explicit fee structure.</p>
+<p>6.5. Board proposals to CUL for service upgrades or development projects that require
+supplemental funding (that is, costs additional to the costs incurred for operating and
+maintaining the service) must identify the source of such funding prior to the upgrade being
+implemented.</p>
+<p>6.6. Any fees for value-added services will be set at a level sufficient to recover the cost of
+providing the service and to contribute to arXiv operating costs. Supplemental services need
+to be provided on transparent and non-discriminatory terms, avoiding exclusive partnerships.</p>
+<p>6.7. After a successful initial membership offering, if members’ financial support falls below the
+level Cornell deems adequate to maintain arXiv at an acceptable level of quality, reserve
+funds will be used for two years to allow time for Cornell to secure sufficient funding
+support. Failure to do so may result in the development of an exit strategy, including the
+transition of arXiv to another institution.</p>
+<hr />
+<p>&lt;sup1&lt;/supFunders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.</p>
+<p>&lt;sup2&lt;/supSpecifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
+Advisory Board will be articulated in the groups’ bylaws (to be developed).</p>
+<p>&lt;sup3&lt;/supCUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building.</p>
+<p>&lt;sup4&lt;/supSee the arXiv Membership Program section about the specifics of the five-year commitment.</p>
+<hr />
+<p><em>Revisions:</em></p>
+<p>minor reformatting on July 10, 2012, OYR</p>
+<p>deleted a footnote on October 1, 2012, OYR</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

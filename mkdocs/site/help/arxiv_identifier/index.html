@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Arxiv identifier</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="understanding-the-arxiv-identifier">Understanding the arXiv identifier</h1>
+<p><em>The canonical form of identifiers from January 2015 (1501) is
+arXiv:YYMM.NNNNN, with 5-digits for the sequence number within the
+month.</em></p>
+<p>The article identifier scheme used by arXiv was changed in April 2007.
+All existing articles retain their <a href="#old">original identifiers</a> but
+newly announced articles have identifiers following the <a href="#new">new
+scheme</a>. As of January 2015, the number of digits used in the
+second part of the new identifier, the sequence number within the month,
+is increased from 4 to 5. This will allow arXiv to handle more than 9999
+submissions per month (see <a href="/stats/monthly_submissions">monthly submission
+rates</a>).</p>
+<p><span id="new"></span></p>
+<h2 id="identifier-scheme-since-1-april-2007-0704-">Identifier scheme since 1 April 2007 (0704-)</h2>
+<p>All new articles have identifiers with the following form:</p>
+<p><code>arXiv:YYMM.number</code></p>
+<p><code>e.g. arXiv:1501.00001 or arXiv:0706.0001</code></p>
+<p>where identifiers up to month 1412 are zero-padded to 4-digits in the
+last block, and those from 1501 onward are zero-padded to 5-digits.
+Specific versions are referred to by adding the version number:</p>
+<p><code>arXiv:YYMM.numbervV</code></p>
+<p><code>e.g. arXiv:1501.00001v1 or arXiv:0706.0001v2</code></p>
+<p>In general, the form is <code>arXiv:YYMM.number{vV}</code>, where</p>
+<ul>
+<li><code>YY</code> is the two-digit year (07=2007 through 99=2099, and potentially
+    up to 06=2106)</li>
+<li><code>MM</code> is the two-digit month number (01=Jan,...12=Dec)</li>
+<li><code>number</code> is a zero-padded sequence number of 4- or 5-digits. From
+    0704 through 1412 it is 4-digits, starting at <code>0001</code>. From 1501 on
+    it is 5-digits, starting at <code>00001</code>. 5-digits permits up to <code>99999</code>
+    submissions per month. We cannot currently anticipate more than
+    99999 submissions per month although extension to 6-digits would be
+    possible.</li>
+<li><code>vV</code> is a literal <code>v</code> followed by a version number of 1 or more
+    digits starting at <code>v1</code>.</li>
+</ul>
+<p>Note that the identifier no longer contains any classification
+information and thus reclassification after an article is announced is
+possible. Classification information is indicated in other ways. For
+example, the stamp added to the side of the PDF versions of arXiv
+articles has the form:</p>
+<p><code>arXiv:0706.0001v1 [q-bio.CB] 1 Jun 2007</code></p>
+<p>which indicates <code>v1</code> of the article <code>arXiv:0706.0001</code> which has primary
+classification <code>q-bio.CB</code>, and was submitted on 1 June 2007.</p>
+<p>The identifier <code>arXiv:YYMM.numbervV</code> provides a complete and unique
+citation for an arXiv article. Without the version number (e.g.
+<code>arXiv:YYMM.number</code>), the identifier refers to the <em>most recent version</em>
+of the article. We recommend that in citations the specific version
+number, the subject classification and the date information be included
+in the same way that it is in the stamp on the side of the PDF. See also
+<a href="/help/faq/references">References to and in arXiv
+Documents</a>.</p>
+<p><span id="old"></span></p>
+<h2 id="identifiers-up-to-march-2007-9107-0703">Identifiers up to March 2007 (9107-0703)</h2>
+<p>Identifiers from 1991 through 2007-03 followed the form shown in the
+image below. The full list of groups, archives and subject classes is
+listed on the <a href="/">front page</a>:</p>
+<p><img alt="Each article identifier begins with an archive, such as 'astro-ph' or
+'hep-ex'. Optionally, this is followed by a period and a subject class.
+This is followed by a forward slash and seven digits. The first four
+digits represent the year and month an article was added to arXiv. For
+example, an article id whose first four digits are '0107' was published
+on arXiv in July, 2001. The last three digits represent the unique
+number of that article in a given month and
+archive." src="https://arxiv.org/icons/arxiv_identifier.png" /></p>
+<p>Subject classes do not exist for some of the older archives in the
+<strong>Physics</strong> group. Instead, each archive represents a subject class,
+e.g., <strong>hep-ex</strong>, <strong>hep-lat</strong>, <strong>hep-ph</strong>, and <strong>hep-th</strong>. The
+<strong>astro-ph</strong> archive currently has no subject classes, while
+<strong>cond-mat</strong> and <strong>physics</strong> are classified by subject classes that
+appear only in the metadata (not in the identifier).</p>
+<p>This scheme uses two upper-case characters to identify the subject
+class, e.g., math (Geometric Topology) = <strong>math.GT</strong>, cs (Software
+Engineering) = <strong>cs.SE</strong>, and nlin (Chaotic Dynamics) = <strong>nlin.CD</strong>.</p>
+<h2 id="motivation-for-2007-change-of-identifier-scheme">Motivation for 2007 change of identifier scheme</h2>
+<p>Some change to the arXiv identifier scheme was needs to permit
+submissions expected to exceed 1000 articles per month in some archives
+in 2007 (likely <code>math</code>, <code>cond-mat</code> and <code>astro-ph</code>). The <a href="#old">old identifier
+scheme</a> imposed a limit of 999 submissions per month in any one
+archive. Obviously, we could have just added an extra digit
+(<code>arch-ive/YYMMNNNN</code>) or perhaps made the <code>NNN</code> alphanumeric. However,
+we took the opportunity to address other issues too.</p>
+<p>The primary motivation for removing subject-classification information
+from the identifier was to decouple these two properties (identification
+and classification). This will increase our flexibility to adjust the
+classifications of individual articles as necessary (for example, it has
+long been possible to adjust classification of articles <em>within</em> the
+<code>cs</code> and <code>math</code> archives and we see this as beneficial). It also makes
+it easier to adjust our classification schemes as disciplines and arXiv
+usage evolve (for example, we need to sub-divide astro-ph since it
+currently too large). Various schemes with optional or redundant
+classification information in the identifier were considered (extending
+from the redundant <a href="/list/math/info">2-letter subject classes in <code>math</code></a>
+etc.) but these were rejected because such many-to-1 resolution of
+identifier-to-article means that interacting services cannot compare
+identifiers and know whether they refer to the same arXiv article
+without local knowledge of arXiv's identifier scheme.</p>
+<p>We feel that is a useful to have a single canonical form for identifiers
+within a month, with the same number of digits following the period.
+Thus identifiers from 0704 through 1412 have the sequence number (the
+number following the period) padded to 4-digits. The use of 4-digits
+places a limit of 9999 identifiers in a single month and it is possible
+that this will be exceeded in 2015 (8871 articles in 1410, 8668 in
+1409). To ensure that the canonical form changes at a convenient
+year-boundary the sequence number is padded to 5-digits from month 1501
+onward, starting with identifier 1501.00001.</p>
+<h2 id="further-information-for-interacting-services">Further information for interacting services</h2>
+<p>There are additional (gruesome) details of <a href="arxiv_identifier_for_services">arXiv identifiers for
+interacting services</a>. These are unlikely
+to be of interest/use unless you are handling internal data distributed
+by arXiv.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">arXiv Scientific Advisory Board Bylaws</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-scientific-advisory-board-bylaws">arXiv Scientific Advisory Board Bylaws</h1>
+<p><em>Revisions adopted on 20 August 2019</em></p>
+<h2 id="article-1-definitions">Article 1. Definitions</h2>
+<p>1.1 The name of the organization is the arXiv Scientific Advisory Board, hereinafter referred to as SAB and the Board. SAB is a consultative body advising Cornell University, hereinafter referred to as CU.</p>
+<p>1.2 CU holds overall responsibility for arXiv’s operation and development, with strategic and operational guidance from the SAB and the Member Advisory Board, hereinafter referred to as MAB. The arXiv Operating Principles delineate the respective roles of CU, SAB, and MAB.</p>
+<p>1.3 The SAB is composed of scientists and researchers in areas covered by arXiv. Among other duties, the SAB provides advice and guidance pertaining to the intellectual oversight of arXiv, with particular focus on the policies and operation of arXiv’s moderation system. The complete role of the SAB is described in the arXiv Operating Principles.</p>
+<h2 id="article-2-scientific-advisory-board-membership">Article 2. Scientific Advisory Board Membership</h2>
+<p>2.1 <em>Classes of Members</em>
+    The SAB shall have two classes of members: 1) Voting Members, and 2) Non-Voting Members.</p>
+<p>2.1.1   <em>Voting Board Members</em></p>
+<p>a)  <em>Number.</em> There shall be between 10 and 14 Voting Board Members on the SAB. The number of SAB Voting Members may be changed by an amendment to these Bylaws, as described in 7.1. No decrease in the number of Voting Members shall have the effect of shortening the term of any incumbent SAB member.</p>
+<p>b)  <em>Qualifications.</em> At least two-thirds of Voting Board Members shall be drawn from the arXiv membership of Contributing Organizations (“Contributing Organizations”), as defined in the arXiv Operating Principles.</p>
+<p>c)  <em>Ex officio Subject Advisory Committee Chairs.</em> The Chairs of the Subject Advisory Committees in Physics, Mathematics, Computer Science shall be ex officio members of the Board. In addition, there will be two ex officio members in representation of the other arXiv sections. Chairs of any other Subject Committee which the Board deems appropriate can also be included. Such ex officio members shall have all the rights and duties of other Voting Board Members.</p>
+<p>d)  <em>Reserved Funder Board Seats.</em> Foundations and other funders identified by CU as contributing 25% or more of arXiv’s annual operating funding shall have the right to a seat on the SAB. These seats must be filled by scientists, and nominees for the seat must be approved by a majority vote of Voting Board Members then in office. Board members holding reserved Board seats shall have all the rights and duties of other Voting Board Members.</p>
+<p>e)  <em>Election.</em> All Voting SAB Members, except for ex officio Subject Advisory Committee Chairs (c) and any member filling a Reserved Funder Board seat (d), shall be elected at the Scientific Advisory Board’s Annual Meeting by a majority vote of the Voting Board Members then in office excluding any conflicted Members. Members shall be elected from the candidates proposed to the Board by the Nominating Committee or made known to Board members by other means. Any Member whose term is ending shall be considered as conflicted for the discussion and vote unless this Member explicitly declares that he/she is not available for an additional term.</p>
+<p>f)  <em>Term of Office.</em> All Voting Members of the SAB shall serve staggered, three-year renewable terms.</p>
+<p>2.1.2   <em>Non-Voting Members</em></p>
+<p>a)  <em>Reserved CU Seats.</em> Up to five SAB seats are reserved for CU. These will be filled by the arXiv Scientific Director, arXiv Program Director, and the arXiv IT and User Support managers, or other CU staff as appointed by the University Librarian of CU. The role of these members is to provide information, participate in Board discussions, and document SAB discussions by keeping the minutes of all SAB meetings. </p>
+<p>b)  <em>Reserved MAB Seats.</em> Two SAB seats are reserved for members of the Member Advisory Board, who shall be appointed to the SAB as specified by the MAB Bylaws. </p>
+<p>2.2 <em>Participation.</em> Only Voting Members of the Board shall participate in decisions of the Board, as described in 4.1.</p>
+<p>2.3 <em>Resignation, Removal, Replacement of a Board Member</em></p>
+<p>a)  <em>Resignation.</em> Any SAB member may resign at any time by giving written notice to the Chair of the Board.</p>
+<p>b)  <em>Removal.</em>  Any Voting SAB Member may be removed from the Board, with or without cause, by a majority vote of the Voting Board Members then in office.</p>
+<p>c)  <em>Vacancies.</em> A vacancy on the SAB shall be filled by a majority vote of the Voting Board Members then in office. The term of office of a Board member elected to fill a vacancy shall be the remaining term of the member being replaced.</p>
+<h2 id="article-3-officers">Article 3. Officers</h2>
+<p>3.1 <em>Board Officers</em></p>
+<p>a)  <em>Chair.</em> The presiding officer of the SAB is the Chair. The SAB shall elect the Chair from among the current Voting Board Members.</p>
+<p>b)  <em>Vice Chair.</em> The SAB may elect one or more Vice Chairs. The SAB Chair may also appoint a Vice Chair for a temporary term not to exceed one month.</p>
+<p>c)  <em>Subject Advisory Committee Chairs.</em> For all arXiv Subject Advisory Committees, the SAB shall vote upon recommendations for Subject Advisory Committee Chairs made by the Subject Advisory Committees themselves.  In the event that no recommendation is received or that a recommended Subject Advisory Committee Chair is not confirmed by the SAB, the SAB shall select a Subject Advisory Committee Chair from the candidates proposed to the Board by the Nominating Committee or made known to Board members by other means. A Chair whose term is ending shall be considered as conflicted for the discussion and vote unless this Chair explicitly declares that he/she is not available for an additional term.</p>
+<p>d)  <em>Other Officers.</em> The Board may elect other officers as it deems necessary.</p>
+<p>3.2 <em>Election, Term of Office, Resignation and Removal, Vacancies</em></p>
+<p>a)  <em>Election of Officers.</em> Elected officers of the SAB shall be elected by a majority vote of the Voting Board Members then in office excluding any Members that are conflicted (by being candidates for the vote or otherwise as described in 2.1.1e and 3.1c).</p>
+<p>b)  <em>Term of Office.</em> Elected officers of the SAB shall serve for a one-year renewable term and, except in the case of resignation or removal, shall hold office until their respective successors have been duly elected. Subject Advisory Committee Chairs shall serve for three-year terms, which may be renewed upon a decision of the Board.</p>
+<p>c)  <em>Resignation.</em> Any officer may resign at any time by giving notice to the Board.</p>
+<p>d)  <em>Removal.</em> Any elected officer may be removed, with or without cause, by a majority vote of the Voting Board Members then in office.</p>
+<p>e)  <em>Vacancies.</em> A vacancy in any elected office shall be filled for the unexpired term by a majority vote of the Voting Board Members then in office.</p>
+<p>3.3 <em>Powers and Duties</em></p>
+<p>a)  <em>Chair.</em> The Chair shall preside at all meetings of the Board and shall exercise general charge and supervision of the affairs of the SAB. The Chair shall see that all notices are duly given in accordance with the provisions of these Bylaws. The Chair shall facilitate open and inclusive discussion and decision-making and shall attempt to state clearly the “sense of the Board” when he or she determines that all Voting Board Members are generally united in their judgment (in mutual concordance). The Chair shall perform such other duties as may be assigned by the Board.</p>
+<p>b)  <em>Vice Chair.</em> The Vice Chair(s) shall assist the Chair and preside at meetings in the absence of the Chair. The Vice Chair(s) shall perform such other duties as may be assigned by the Board.</p>
+<p>c)  <em>Subject Advisory Committee Chairs.</em> The Subject Advisory Committee Chairs shall be responsible for overseeing their respective Subject Advisory Committees and reporting on those committees’ activities and recommendations to the Board. </p>
+<p>d)  <em>Other Officers.</em> Other officers elected by the Board shall have the authority prescribed to them by the Board.</p>
+<h2 id="article-4-sab-operation">Article 4. SAB Operation</h2>
+<p>4.1 <em>Decisions of the Board.</em> All meetings of the SAB shall be conducted in a manner that seeks consensual agreement. When the Board considers any matter that requires a decision, the opinion of any Board member who wishes to express an opinion shall be considered by the Board. When the Chair determines that all Voting Board Members present are generally united in their judgment, he or she shall attempt to state clearly the “sense of the Board.” If all Voting Board Members present give approval to this statement, or if some Voting Board Members present are not in agreement but are willing to stand aside and accept and uphold the judgment of the majority, consensual agreement shall be reached and shall be considered a decision of the Board.</p>
+<p>If consensual agreement cannot be reached, a vote shall be taken by the Voting Board Members present. Both majority and minority opinions shall be recorded and made available to CU and the MAB.</p>
+<p>In the case of the election of Board members, Board Chair, or Board officers, a majority vote of the Voting Board Members then in office, excluding any conflicted Members, shall be considered a decision of the Board.</p>
+<p>4.2 <em>Board Policies and Procedures.</em> The SAB shall have authority to adopt policies and procedures governing SAB activities. The SAB may delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CU.</p>
+<p>4.3 <em>SAB and MAB Communication.</em> The Board meeting agendas and minutes will be shared with the MAB for their review and comments. The MAB representatives on the SAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.</p>
+<h2 id="article-5-meetings">Article 5. Meetings</h2>
+<p>5.1 <em>Annual Meeting.</em> The Annual Meeting of the SAB shall be held at a date, time, and place designated by the Board’s Chair. Notice of the date, time, and place of the Annual Meeting shall be given to all Board members in such form as the Board may determine.</p>
+<p>5.2 <em>Regular Meetings.</em>  Regular meetings of the SAB shall be held upon such notice and such date, time, and place as designated by the Board.</p>
+<p>5.3 <em>Special Meetings.</em> Special meetings of the SAB may be called at any time by the Chair or by a majority of the Voting Board Members then in office. Notice of the date, time, and place of special meetings shall be given to all SAB members in such form as the Board may determine.</p>
+<p>5.4 <em>Participation by Remote Communication.</em> Any SAB member may participate in a meeting of the Board by means of a conference telephone or similar device which allows all persons participating in the meeting to hear each other. The SAB may also determine that any annual, regular, or special meeting will be held solely by means of remote communication, in which case the meeting notice shall describe the means for such remote communication.</p>
+<p>5.5 <em>Written Consent in Lieu of a Meeting.</em> The SAB may make a decision of the Board without a meeting if written consent (which may be conveyed electronically) to the decision is given by a majority of the Voting Board Members then in office.</p>
+<p>5.6 <em>Attendance.</em> A Voting Board Member who fails to attend three consecutive regularly scheduled SAB meetings may be deemed by the consensual agreement of the Board to have resigned, and the Board vacancy created will be filled in accordance with the provisions of 2.3(c).</p>
+<p>5.7 <em>Quorum.</em> A majority of the Voting Board Members then in office shall constitute a quorum for the transaction of business at any meeting of the Board.</p>
+<p>5.8 <em>Voting.</em> As described in 4.1, decisions of the Board are determined by Voting Board Members, by means of consensual agreement or vote, at any meeting at which a quorum is present, except as otherwise specified in these Bylaws.</p>
+<p>5.9 <em>Minutes.</em> CU will be responsible for preparing minutes of each SAB meeting. SAB members will review and approve the minutes. The Board meeting agendas and minutes will be shared with the MAB for their review and comments. A summary of meeting outcomes may be shared with arXiv supporters.</p>
+<p>5.10    <em>Travel Support.</em> For Board members who need assistance with their travel expenses to attend in-person meetings, CU will reimburse applicable travel expenses up to a cap communicated to Board members prior to every meeting.</p>
+<h2 id="article-6-committees">Article 6. Committees</h2>
+<p>6.1 <em>Standing Board Committees.</em> The SAB may, by a resolution adopted by a decision of the Board, designate and appoint one or more committees, each consisting of two or more Board members, which committees shall have and exercise the authority of the Board. However, no committee shall have the authority to amend or repeal these Bylaws, elect or remove any officer or SAB member, or authorize the dissolution of the Board.</p>
+<p>6.2 <em>Nominating Committee.</em> Each year, the Chair or the Chair’s designee shall submit for the approval of the SAB a list of not less than three nor more than five individuals, comprised of SAB members (who shall constitute a majority of the committee) and representatives from Contributing Organizations that do not currently have a representative serving on the Board, to serve on the Nominating Committee.  The Nominating Committee shall propose a slate of candidates for election to the SAB, or as a Chair of a Subject Advisory Committee, in advance of any Annual Meeting of the SAB that includes Board member election. Nominating Committee members shall serve for one-year terms or until their successors have been appointed.</p>
+<p>6.3 <em>MAB Committee.</em> Each year, the Chair will appoint two SAB members to serve as the Board’s ex officio representatives on the MAB. MAB Committee members shall serve for one-year terms or until their successors have been appointed.</p>
+<p>6.4 <em>Subject Advisory Committees.</em> The SAB may appoint members to the Subject Advisory Committees in such manner as the Board deems appropriate. The Subject Advisory Committees shall have the powers and duties designated by the SAB, and shall give advice and make non-binding recommendations to the Board. As described in 3.1(c), the SAB shall elect the Chair of each Subject Advisory Committee.</p>
+<p>6.5 <em>Other Committees and Task Forces.</em> The SAB may create and appoint members to such other committees and task forces as the Board shall deem appropriate. Such committees and task forces shall have the powers and duties designated by the SAB, and shall give advice and make non-binding recommendations to the Board. Each committee shall consist of at least one Board member and shall operate for the term designated by the Board.</p>
+<p>6.6 <em>Vacancies and Rules.</em> Vacancies in the membership of committees may be filled by the SAB Chair. Each committee and task force may adopt rules for its meetings not inconsistent with these Bylaws or with any rules adopted by the SAB. Unless otherwise specified herein, all committee members shall serve at the pleasure of the Board.</p>
+<h2 id="article-7-amendments">Article 7. Amendments</h2>
+<p>7.1 Within the confinement of arXiv principles, these Bylaws may be amended, or new articles adopted, by the consent of two-thirds of the Voting Members of the Board then in office. Depending on the assessment of the Board Chair, the changes may need to be reviewed by the MAB or Cornell’s General Counsel.</p>
+<h3 id="document-revision-history">Document Revision History</h3>
+<p>2013-09-16  Initial adoption of bylaws.</p>
+<p>2014-10-06  Revisions approved and adopted.</p>
+<p>2019-08-20  Replaced Cornell University Library (CUL) with Cornell University (CU); revised 2.1.1 c) as approved by SAB.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

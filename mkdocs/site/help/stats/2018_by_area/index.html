@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> 2018 by area </li>
+                    
+                    
+                    
+                    <li> Stats </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Index</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-submission-rate-statistics">arXiv submission rate statistics</h1>
+<p>Data for 1991 through 2018, updated 1 January 2019.</p>
+<p><img alt="New submissions by year by subject area" src="newsubs.png" /></p>
+<p>Left: number of new submissions/year as a function of calendar year for "hep" = High Energy Physics (hep-th+hep-ph+hep-lat+hep-ex), "cond-mat" = Condensed Matter Physics, "astro-ph" = Astrophysics, "other physics" = physics+nucl+gr-qc+quant-ph+nlin, "math" = Mathematics (math+math-ph), cs, eess, stats, biology = q-bio, finance = q-fin (+econ.EM). The graph on the right shows the same data as at left, but with the submission rates divided by the total for each year, giving the fractional submission rates for each of the domains, and highlighting the growth in submission rates from newer domains.</p>
+<p>The numbers indicate the extent to which communities deposit their ouput at arXiv.org, rather than absolute measures of research output. The graphic also illustrates the growing adoption by research communities that did not necessarily employ a formal prior paper preprint distribution system, as did HEP. The incoming rate for 2018 was composed of roughly 43.8% <a href="#phys_yearly">physics</a>, 25.5% <a href="#cs_yearly">cs</a>, and 23.8% <a href="#math_yearly">math</a>. (2017 was the first year that the incoming percentage of physics dropped to below 50% of the incoming total.) The current total numbers of publications per year in those three domains are roughly comparable, so the latter two percentages may continue to increase.</p>
+<p>Going further back, in calendar year 2005 the <a href="#astro-ph_yearly">astro-ph</a> and <a href="#cond-mat_yearly">cond-mat</a> submission rates each grew to exceed the <a href="#hep_yearly">hep</a> rate (which appears to have flattened out in the late 1990s, suggesting 100% participation from that community, fluctuating about a mean of roughly 8800/year for 2000-2010, but then with a bit of a superluminal+higgs bump in 2011, plus another higgs bump in 2012, to over 9600/year for each of those two years, and staying at the 2011 level through 2018). A diminished cond-mat growth rate in 2004-2007 was due in part to the shift of biologically related submissions from cond-mat.soft to q-bio, and network/complex systems submissions from cond-mat.stat-mech to physics.soc-ph. The decreased rate for cond-mat.mes-hall in 2017 was due to the creation of physics.app-ph. <a href="#math_yearly">math(+math-ph</a>) started growing very quickly in 2002 as arXiv was adopted an increasing percentage of the mathematics community. The <a href="#cs_yearly">cs</a> rate started as well to ramp up in 2007, grew to exceed the hep rate in calendar year 2012, continued on a very fast growth rate 2011-2015, and on an even faster growth rate since 2015 (driven largely by the computer vision, machine learning, and computational linguistics communities).</p>
+<p>Submission data is available in bulk <a href="../../oa">via OAI</a>.</p>
+<p>The current submission rates (i.e., averaged over calendar year 2018) as percentages of the average 2018 <a href="http://arxiv.org/stats/monthly_submissions">overall</a> average rate of 11718/month (140,616 total for 2018) are roughly:</p>
+<ul>
+<li><a href="#cs_yearly">cs</a> (35890): 25.5%</li>
+<li><a href="#math_yearly">math+math-ph</a> (33486): 23.8%</li>
+<li><a href="#cond-mat_yearly">cond-mat</a> (14743): 10.5%</li>
+<li><a href="#astro-ph_yearly">astro-ph</a> (14080): 10.0%</li>
+<li><a href="#physics_yearly">physics</a> (12544): 8.9%</li>
+<li><a href="#hep_yearly">hep</a> (9598): 6.8%</li>
+<li><a href="#quant-ph_gr-qc_yearly">quant-ph</a> (5203): 3.7%</li>
+<li><a href="#stat_yearly">stat</a> (4423): 3.1%</li>
+<li><a href="#quant-ph_gr-qc_yearly">gr-qc</a> (2853): 2.0%</li>
+<li><a href="#eess_yearly">eess</a> (2318): 1.6%</li>
+<li><a href="#q-bio_yearly">q-bio</a> (1780): 1.3%</li>
+<li><a href="#nucl_yearly">nucl</a> (1760): 1.3%</li>
+<li><a href="#nlin_yearly">nlin</a> (755): 0.5%</li>
+<li><a href="#q-fin_yearly">q-fin</a> (727): 0.5%</li>
+<li><a href="#econ_yearly">econ</a> (456): 0.3%</li>
+</ul>
+<p><img alt="Cumulative submissions in each subject area by year" src="cumsubs.png" /></p>
+<p>The graphs above show the <strong>cumulative</strong> data as a function of time, where the current (2018) cumulative number of submissions to date as percentages of the total 1,483,358 submissions are roughly:</p>
+<ul>
+<li><a href="#math_yearly">math+math-ph</a> (332532): 22.4%</li>
+<li><a href="#cond-mat_yearly">cond-mat</a> (225545): 15.2%</li>
+<li><a href="#hep_yearly">hep</a> (222503): 15.0%</li>
+<li><a href="#astro-ph_yearly">astro-ph</a> (219504): 14.8%</li>
+<li><a href="#cs_yearly">cs</a> (168299): 11.3%</li>
+<li><a href="#physics_yearly">physics</a> (101176): 6.8%</li>
+<li><a href="#quant-ph_gr-qc_yearly">quant-ph</a> (68306): 4.6%</li>
+<li><a href="#quant-ph_gr-qc_yearly">gr-qc</a> (43997): 3.0%</li>
+<li><a href="#nucl_yearly">nucl</a> (35804): 2.4%</li>
+<li><a href="#stat_yearly">stat</a> (21750): 1.5%</li>
+<li><a href="#nlin_yearly">nlin</a> (18176): 1.2%</li>
+<li><a href="#q-bio_yearly">q-bio</a> (16171): 1.1%</li>
+<li><a href="#q-fin_yearly">q-fin</a> (6345): 0.4%</li>
+<li><a href="#eess_yearly">eess</a> (2709): 0.2%</li>
+<li><a href="#econ_yearly">econ</a> (499): 0.0%</li>
+</ul>
+<h2 id="graphs-of-yearly-submission-rates-by-subject-areas">Graphs of yearly submission rates by subject areas</h2>
+<p><img alt="all physics submissions by year" src="phys_yearly.png" /></p>
+<p><span id="cs_yearly"></span></p>
+<p><img alt="cs submissions by year" src="cs_yearly.png" /></p>
+<p><span id="math_yearly"></span></p>
+<p><img alt="math submissions by year" src="math_yearly.png" /></p>
+<p><span id="cond-mat_yearly"></span></p>
+<p><img alt="cond-mat submissions by year" src="cond-mat_yearly.png" /></p>
+<p><span id="astro-ph_yearly"></span></p>
+<p><img alt="astro-ph submissions by year" src="astro-ph_yearly.png" /></p>
+<p><span id="physics_yearly"></span></p>
+<p><img alt="physics submissions by year" src="physics_yearly.png" /></p>
+<p><span id="hep_yearly"></span></p>
+<p><img alt="HEP submissions by year" src="hep_yearly.png" /></p>
+<p><span id="quant-ph_gr-q_yearly"></span></p>
+<p><img alt="quant-ph submissions by year" src="quant-ph_gr-qc_yearly.png" />    <img alt="nucl-* submissions by year" src="nucl_yearly.png" /></p>
+<p><span id="stat_yearly"></span></p>
+<p><img alt="stat submissions by year" src="stat_yearly.png" /></p>
+<p><span id="eess_yearly"></span></p>
+<p><img alt="eess submissions by year" src="eess_yearly.png" /></p>
+<p><span id="q-bio_yearly"></span></p>
+<p><img alt="q-bio submissions by year" src="q-bio_yearly.png" /></p>
+<p><span id="nlin_yearly"></span></p>
+<p><img alt="nlin submissions by year" src="nlin_yearly.png" /></p>
+<p><span id="q-fin_yearly"></span></p>
+<p><img alt="q-fin submissions by year" src="q-fin_yearly.png" /></p>
+<p><span id="econ_yearly"></span></p>
+<p><img alt="econ submissions by year" src="econ_yearly.png" /></p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

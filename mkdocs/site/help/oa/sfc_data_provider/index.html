@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Oa </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Sfc data provider</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="open-archives-santa-fe-convention-information-about-this-data-provider">Open Archives / Santa Fe Convention: information about this data provider</h1>
+<p><strong>The Santa Fe Convention is discontinued. Please use the <a href="http://www.openarchives.org/OAI/openarchivesprotocol.htm">Open Archives Initiative Protocol for Metadata Harvesting</a> instead.</strong>
+<table border="1">
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Full name of the archive</b></td>
+    <td width="61%" align="left" valign="top">arXiv e-print archive</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Content in the archive</b></td>
+    <td width="61%" align="left" valign="top">Contains author self-archived e-prints
+    of research in physics, mathematics, non-linear systems and computer science.</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>URL to be associated with the archive</b></td>
+    <td width="61%" align="left" valign="top"><a href="http://arXiv.org/">http://arXiv.org/</a></td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Contact</b></td>
+    <td width="61%" align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top" height="25"> 
+      <ul>
+        <li>e-mail address of maintainer</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top" height="25">www-admin@arXiv.org</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>
+          <div align="left">e-mail address of administrator</div>
+        </li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top">www-admin@arXiv.org</td>
+  <tr>
+    <td width="39%" align="left" valign="top">
+      <p><b>Date of implementing <a href="http://www.openarchives.org/sfc/sfc_entry.htm">the Santa Fe Convention</a></b></p>
+    </td>
+    <td width="61%" align="left" valign="top">2000-02-15</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Unique archive identifier</b></td>
+    <td width="61%" align="left" valign="top">arXiv</td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top" height="62"><b>Records in the archive have unique and persistent identifiers</b></td>
+    <td width="61%" align="left" valign="top" height="62">
+    Yes, the identifiers have the form <tt>arXiv:arch-ive.SC/YYMMNNN</tt> where
+    <ul>
+    <li><tt>arXiv:</tt> is the identifier for arXiv;
+    <li><tt>arch-ive</tt> is the internal archive name, eg. <tt>physics</tt>, <tt>cs</tt>, <tt>hep-ph</tt>;
+    <li><tt>.SC</tt> is an optional subject class, not present for all internal archives; and
+    <li><tt>YYMMNNN</tt> is a 7-digit paper number that specifies the paper within the particular
+      internal archive. <tt>YY</tt> is the two digit year (00 for year 2000), <tt>MM</tt> is the
+      two digit month (01 is January), and <tt>NNN</tt> is an accession number within the month.
+    </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Seperator between archive identifier 
+      and record identifier</b></td>
+    <td width="61%" align="left" valign="top">:  (a colon)</td>
+  <tr>
+    <td width="39%" align="left" valign="top"><b>Metadata formats</b></td>
+    <td width="61%" align="left" valign="top"> 
+      <ul>
+        <li>Metadata format 1: Open Archives Metadata Set
+        <ul>
+          <li>Identifier: OAMS</li>
+          <li>Syntax: <a href="http://www.openarchives.org/sfc/sfc_oams.htm">http://www.openarchives.org/sfc/sfc_oams.htm</a></li>
+          <li>XML transport: <a href="http://www.openarchives.org/sfc/sfc_oams.htm">http://www.openarchives.org/sfc/sfc_oams.htm</a></li>
+          </ul>
+        </li>
+        <li><i>Metadata format 2: RFC1807</i> 
+          <ul>
+            <li>Identifier: rfc1807</li>
+            <li>Syntax: <a href="http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt">http://info.internet.isi.edu:80/in-notes/rfc/files/rfc1807.txt</a> (<i><a href="rfc1807">local copy</a></i>)</li>
+            <li>XML transport: <i>taken from Dienst 5.0 example (Version 0.3 2000-01-20)</i></li>
+          </ul>
+        </li>
+        <li><i>Metadata format 3: arXiv internal format</i> 
+          <ul>
+            <li>Identifier: arXiv</li>
+            <li>Syntax: <a href="arXiv_meta_format">http://arXiv.org/help/oa/arXiv_meta_format</a></li>
+            <li>XML transport: <a href="arXiv_meta_format">http://arXiv.org/help/oa/arXiv_meta_format</a></li>
+          </ul>
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"><b>Submission mechanism</b></td>
+    <td width="61%" align="left" valign="top">Web upload preferred; ftp and email also accepted.</td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>Description of submission policy</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top">Open but with some moderation of appropriateness to archives and subject classes. Restrictions on size and format; submissions required to be complete.</td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>Submission page</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top"><a href="/help/submit">http://arXiv.org/help/submit</a></i></td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"><b>Message to service providers 
+      about restrictions of data use</b></td>
+    <td width="61%" align="left" valign="top">All robotic accesses require prior approval, otherwise abide
+      by <tt>robots.txt</tt> file. Contact administrators at email given above.
+      General policy is to allow harvesting of metadata. 
+      Harvesting full content is not permitted. 
+      </td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"><b>Harvesting interface</b></td>
+    <td width="61%" align="left" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>Base URL of Dienst implementation</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top">http://arXiv.org/dienst/</td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>Dienst URL to poll for implemented metadata formats</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top"><a href="http://arXiv.org/dienst/Repository/1.0/List-Meta-Formats">http://arXiv.org/dienst/Repository/1.0/List-Meta-Formats</a></td>
+  </tr>
+  <tr> 
+    <td width="39%" align="left" valign="top"> 
+      <ul>
+        <li>Dienst URL to poll for archive partitions</li>
+      </ul>
+    </td>
+    <td width="61%" align="left" valign="top"><a href="http://arXiv.org/dienst/Repository/2.0/List-Partitions">http://arXiv.org/dienst/Repository/2.0/List-Partitions</a></td>
+  </tr>
+</table></p>
+<h3 id="supporting-information">Supporting information</h3>
+<ul>
+<li><a href="http://www.openarchives.org/sfc/sfc_entry.htm">the Santa Fe Convention</a></li>
+<li>the <a href="http://www.openarchives.org/sfc/sfc_oams.htm">Open Archives Metadata Set</a></li>
+<li>the <a href="http://www.openarchives.org/sfc/sfc_dienst.htm">Open Archives Dienst Subset</a></li>
+<li><a href="http://www.openarchives.org/sfc/sfc_archives.htm">the list of Open Archives data providers</a>, including their unique archive identifiers</li>
+<li><a href="http://www.openarchives.org/sfc/sfc_services.htm">the list of Open Archives service providers</a></li>
+<li><a href="http://www.openarchives.org/sfc/sfc_metadata.htm">the list of metadata formats</a> used in the Open Archives context</li>
+<li>the <a href="http://www.openarchives.org/sfc/service_provider_template.htm">template to be used by service providers</a> to register as a Santa Fe compliant service</li>
+</ul>
+<hr />
+<p><a href="http://www.openarchives.org"><img alt="[Open Archives icon]" src="http://www.openarchives.org/images/OA50.gif" /></a> <em>Open Archives contact: openarchives@openarchives.org<br />
+Last updated 8th February 2000</em></p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+\def\@sect#1#2#3#4#5#6[#7]#8{\ifnum #2>\c@secnumdepth
+     \def\@svsec{}\else
+     \let\hyper@n@=\hyperdef
+     \let\hyperdef=\hyper@nique
+     \refstepcounter{#1}%
+     \let\hyperdef=\relax\let\hypernoname=\relax
+     \edef\@svsec{\hyperdef\hypernoname{#1}%
+       {\ifnum #2=1 \@sectname\fi
+        \csname the#1\endcsname}{\ifnum #2=1 \@sectname\fi
+                                 \csname the#1\endcsname.\hskip 1em}}%
+     \let\hyperdef=\hyper@n@\fi
+     \@tempskipa #5\relax
+      \ifdim \@tempskipa>\z@
+        \begingroup #6\relax
+          \@hangfrom{\hskip #3\relax\@svsec}{\interlinepenalty \@M #8\par}%
+        \endgroup
+       \csname #1mark\endcsname{#7}\addcontentsline
+         {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                      \protect\numberline{\hyper@\hyperpr@ref\hypernoname
+                      {\csname the#1\endcsname}}\fi
+                    #7}\else
+        \def\@svsechd{#6\hskip #3\@svsec #8\csname #1mark\endcsname
+                      {#7}\addcontentsline
+                           {toc}{#1}{\ifnum #2>\c@secnumdepth \else
+                             \protect\numberline{\hyper@\hyperpr@ref\hypernoname
+                           {\csname the#1\endcsname}}\fi
+                       #7}}\fi
+     \@xsect{#5}}
+\def\@citex[#1]#2{\if@filesw\immediate\write\@auxout{\string\citation{#2}}\fi
+  \@tempcnta\z@\@tempcntb\m@ne\def\@citea{}\@cite{\@for\@citeb:=#2\do
+    {\@ifundefined
+       {b@\@citeb}{\@citeo\@tempcntb\m@ne\@citea\def\@citea{,}{\bf ?}\@warning
+       {Citation `\@citeb' on page \thepage \space undefined}}%
+    {\setbox\z@\hbox{\global\@tempcntc0\csname hyperb@\@citeb\endcsname\relax}%
+     \ifnum\@tempcntc=\z@ \@citeo\@tempcntb\m@ne
+       \@citea\def\@citea{,}\hbox{\csname b@\@citeb\endcsname}%
+     \else
+      \advance\@tempcntb\@ne
+      \ifnum\@tempcntb=\@tempcntc\let\@cited\@citeb
+      \else\advance\@tempcntb\m@ne\@citeo\let\@citec\@citeb\let\@cited\@citeb
+      \@tempcnta\@tempcntc\@tempcntb\@tempcntc\fi\fi}}\@citeo}{#1}}
+\def\@citeo{\ifnum\@tempcnta>\@tempcntb\else\@citea\def\@citea{,}%
+  \ifnum\@tempcnta=\@tempcntb\csname b@\@citec\endcsname\else
+   {\advance\@tempcnta\@ne\ifnum\@tempcnta=\@tempcntb \else \def\@citea{--}\fi
+    \advance\@tempcnta\m@ne\csname b@\@citec\endcsname\@citea
+    \csname b@\@cited\endcsname}\fi\fi}
+\long\def\@makecaption#1#2{
+   \vskip 10pt 
+   \setbox\@tempboxa\hbox{\def\hyperdef##1##2##3##4{##4}\small #1. #2}
+   \ifdim \wd\@tempboxa >\hsize    %   IF longer than one line:
+      \small #1. #2\par            %   THEN set as ordinary paragraph.
+   \else                           %   ELSE  center.
+      \hbox to\hsize{\hfil\hbox{\small #1. #2}\hfil}  
+   \fi}

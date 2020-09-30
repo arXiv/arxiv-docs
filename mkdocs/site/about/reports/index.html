@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Reports </li>
+                    
+                    
+                    
+                    <li> About </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">arXiv Reports</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="arxiv-reports">arXiv Reports</h1>
+<h2 id="annual-updates">Annual Updates</h2>
+<p><a href="/about/reports/2020_update">2020 Annual Update</a></p>
+<p><a href="/about/reports/2019_update">2019 Annual Update</a></p>
+<p><a href="/about/reports/arXiv_update_January_2018.pdf">2018 Annual Update</a></p>
+<p><a href="/about/reports/arXiv_update_January_2017.pdf">2017 Annual Update</a></p>
+<p><a href="/about/reports/arXiv_update_January_2016.pdf">2016 Annual Update</a></p>
+<p><a href="/about/reports/arXiv_update_January_2015.pdf">2015 Annual Update</a></p>
+<p><a href="/about/reports/arXiv_update_January_2014.pdf">2014 Annual Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_Jan2012">2012 Business Plan Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_Oct2011">2011 October Business Plan Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_July2011">2011 July Business Plan Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_Apr2011">2011 April Business Plan Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_Dec2010">2010 December Business Plan Update</a></p>
+<p><a href="/about/reports/arxiv_busplan_July2010">2010 July Business Plan Update</a></p>
+<h2 id="budgets">Budgets</h2>
+<p><a href="/about/reports/arXiv_Reserve_Funds_Policy.pdf">arXiv Reserve Funds Policy</a></p>
+<p><a href="/about/reports-financials">Current Budget</a></p>
+<p><a href="/about/reports/arXiv_CY19_midyear.pdf">2019 Budget, midyear report</a></p>
+<p><a href="/about/reports/2018_CY_arXiv_budget.pdf">2018 Budget</a></p>
+<p><a href="/about/reports/2017_CY_arXiv_budget.pdf">2017 Budget</a></p>
+<p><a href="/about/reports/2016_CY_arXiv_budget.pdf">2016 Budget</a></p>
+<p><a href="/about/reports/2015_CY_arXiv_budget.pdf">2015 Budget</a></p>
+<p><a href="/about/reports/2014_CY_arXiv_budget.pdf">2014 Budget</a></p>
+<p><a href="/about/reports/2013_CY_arXiv_budget.pdf">2013 Budget</a></p>
+<p><a href="/about/reports/2012_CY_arXiv_budget.pdf">2012 Budget</a></p>
+<p><a href="/about/reports/2011_CY_arXiv_budget.pdf">2011 Budget</a></p>
+<p><a href="/about/reports/2010_CY_arXiv_budget.pdf">2010 Budget</a></p>
+<h2 id="roadmaps">Roadmaps</h2>
+<p><a href="/about/reports/2020_roadmap">2020 Roadmap</a></p>
+<p><a href="/about/reports/2019_roadmap">2019 Roadmap</a></p>
+<p><a href="/about/reports/2018_roadmap.pdf">2018 Roadmap</a></p>
+<p><a href="/about/reports/2017_roadmap.pdf">2017 Roadmap</a></p>
+<p><a href="/about/reports/2016_roadmap.pdf">2016 Roadmap</a></p>
+<p><a href="/about/reports/2015_roadmap.pdf">2015 Roadmap</a></p>
+<p><a href="/about/reports/2014_roadmap.pdf">2014 Roadmap</a></p>
+<p><a href="/about/reports/2013_roadmap.pdf">2013 Roadmap</a></p>
+<h2 id="annual-institutional-usage-downloads-statistics">Annual Institutional Usage (Downloads) Statistics</h2>
+<p><a href="/about/reports/2018_usage">2018 Institutional Usage</a></p>
+<p><a href="/about/reports/2017_usage">2017 Institutional Usage</a></p>
+<p><a href="/about/reports/2016_usage">2016 Institutional Usage</a></p>
+<p><a href="/about/reports/2015_usage">2015 Institutional Usage</a></p>
+<p><a href="/about/reports/2014_usage">2014 Institutional Usage</a></p>
+<p><a href="/about/reports/2013_usage">2013 Institutional Usage</a></p>
+<p><a href="/about/reports/2012_usage">2012 Institutional Usage</a></p>
+<p><a href="/about/reports/2011_usage">2011 Institutional Usage</a></p>
+<p><a href="/about/reports/2010_usage">2010 Institutional Usage</a></p>
+<p><a href="/about/reports/2009_usage">2009 Institutional Usage</a></p>
+<h2 id="member-supporters">Member-Supporters</h2>
+<p><a href="/about/reports/2019_supporters_Dec.pdf">Member-Supporters, December 2019</a></p>
+<p><a href="/about/reports/2019_supporters_July.pdf">Member-Supporters, July 2019</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-May2018.pdf">Member-Supporters, May 2018</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-Dec2017.pdf">5-year Member Pledges, December 2017</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-May2017.pdf">5-year Member Pledges, December 2017</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-May2017.pdf">5-year Member Pledges, May 2017</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-Feb2017.pdf">5-year Member Pledges, February 2017</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-December2016.pdf">5-year Member Pledges, December 2016</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-August2016.pdf">5-year Member Pledges, August 2016</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-January2016.pdf">5-year Member Pledges, January 2016</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-August2015.pdf">5-year Member Pledges, August 2015</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-March2015.pdf">5-year Member Pledges, March 2015</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-Jan2015.pdf">5-year Member Pledges, January 2015</a></p>
+<p><a href="/about/reports/arXivfive-yearmemberpledges-Jan2014.pdf">5-year Member Pledges, January 2014</a></p>
+<p><a href="/about/reports/2012_supporters">2012 Supporters</a></p>
+<p><a href="/about/reports/2011_supporters">2011 Supporters</a></p>
+<p><a href="/about/reports/2010_supporters">2010 Supporters</a></p>
+<h2 id="other-reports">Other Reports</h2>
+<p><a href="/about/reports/2016_UserSurveyReport.pdf">arXiv User Survey Report, 2016</a></p>
+<p><a href="/about/reports/sustainability_advisory_group">2010 arXiv Sustainability Adivsory Group</a></p>
+<p><a href="/about/reports/whitepaper">2010 Business Model Whitepaper</a></p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

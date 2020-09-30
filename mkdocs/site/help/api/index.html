@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Api </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">arXiv API</li>
+                </ul>
+            </nav>            
+
+
+            <p><span style="float: right"><img alt="arXiv api logo" src="arXiv_api_xml.png" /></span></p>
+<h1 id="arxiv-api">arXiv API</h1>
+<p>This is the home site of the arXiv API. The goal of the API is to allow
+application developers access to all of the arXiv data, search and
+linking facilities with an easy-to-use programmatic interface. This page
+provides links to developer documentation, and gives instructions for
+how to join the mailing list and contact other developers and
+maintainers.</p>
+<p>Please review the <a href="./tou">Terms of Use for arXiv APIs</a> before using the arXiv
+API.</p>
+<p>For more news and questions about the arXiv API, please see our <a href="http://groups.google.com/group/arxiv-api">arxiv-api
+group</a>. Additional information is also in the <a href="faq">API FAQ</a>.</p>
+<ul>
+<li>
+<p><a href="#about">About the arXiv API</a></p>
+</li>
+<li>
+<p><a href="#quickstart">Quickstart</a></p>
+</li>
+<li>
+<p><a href="#using">Using the arXiv API</a></p>
+</li>
+<li>
+<p><a href="./user-manual">arXiv API documentation</a></p>
+</li>
+<li>
+<p><a href="#community">Community</a></p>
+</li>
+</ul>
+<p><a name="about"></a></p>
+<h2 id="about-the-arxiv-api">About the arXiv API</h2>
+<p>The Cornell University e-print arXiv, hosted at
+<a href="http://arxiv.org">arXiv.org</a>, is a document submission and retrieval
+system that is heavily used by the physics, mathematics and computer
+science communities. It has become the primary means of communicating
+cutting-edge manuscripts on current and ongoing research. The
+open-access arXiv e-print repository is available worldwide, and
+presents no entry barriers to readers, thus facilitating scholarly
+communication. Manuscripts are often submitted to the arXiv before they
+are published by more traditional means. In some cases they may never be
+submitted or published elsewhere, and in others, arXiv-hosted
+manuscripts are used as the submission channel to traditional publishers
+such as the American Physical Society, and newer forms of publication
+such as the Journal for High Energy Physics and overlay journals.</p>
+<p>The primary interface to the arXiv has been human-oriented html web
+pages. The purpose of the arXiv API is to allow programmatic access to
+the arXiv's e-print content and metadata. The goal of the interface is
+to facilitate new and creative use of the the vast body of material on
+the arXiv by providing a low barrier to entry for application
+developers.</p>
+<h2 id="quickstart">Quickstart</h2>
+<p>API calls are made via an HTTP GET or POST requests to an appropriate
+url. For example, the url</p>
+<p><a href="http://export.arxiv.org/api/query?search_query=all:electron">http://export.arxiv.org/api/query?search_query=all:electron</a></p>
+<p>retrieves results that match the search query <code>all:electron</code>. This url
+can be accessed from any web-enabled client including your web browser,
+or via web libraries common to almost all programming languages. There
+is no arXiv-supplied software that must be downloaded and installed to
+be able to use the api.</p>
+<p>Please see <a href="#using">Using the arXiv API</a>, or the <a href="user-manual">User's
+Manual</a> for more information.</p>
+<p><a name="using"></a></p>
+<h2 id="using-the-arxiv-api">Using the arXiv API</h2>
+<p>Since the arXiv API is based on the now ubiquitous HTTP, using it should
+be fairly straight forward from the programming language of your choice.
+The primary access point for the api is a url that encodes your desired
+search parameters. For example, the
+url:</p>
+<p><a href="http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=10">http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=10</a></p>
+<p>indicates that you want to use the api query interface to retrieve the
+first ten results that match the query <code>all:electron</code>. This url calls
+the api, which returns the results in the Atom 1.0 format.</p>
+<p>Atom 1.0 is an xml-based format that is commonly used in website
+syndication feeds. It is lightweight, and human readable, and results
+can be cleanly read in many web browsers. For detailed information on
+Atom, you can read the <a href="http://www.ietf.org/rfc/rfc4287.txt">official Atom 1.0
+specification</a>.</p>
+<p>We recommend that you use a web browser such as to play around with
+constructing the api url's to get a feel for how the system works. This
+is also a great debugging tool to make sure your url's make sense to the
+api. <a href="http://en.www.mozilla.com/en/firefox/">Firefox</a> renders Atom
+particularly cleanly. More detailed documentation on constructing API
+urls can be found in the <a href="user-manual#Architecture">User's Manual</a>.</p>
+<p>Once you have familiarized yourself with the api, you should be able to
+easily write programs that call the API automatically. Most programming
+languages, if not all, have libraries that allow you to make HTTP
+requests. Since Atom is growing, not all languages have libraries that
+support Atom parsing, so most of the programming effort will be in
+digesting the responses you receive. The languages that we know of that
+can easily handle calling the api via HTTP and parsing the results
+include:</p>
+<ul>
+<li>
+<p><a href="http://www.perl.org">Perl</a> (via
+    <a href="http://search.cpan.org/~miyagawa/XML-Atom-0.27/">XML::Atom</a>)
+    (<a href="#perl_simple_example">example</a>)</p>
+</li>
+<li>
+<p><a href="http://www.python.org">Python</a> (via
+    <a href="http://feedparser.org/">feedparser</a>)
+    (<a href="#python_simple_example">example</a>)</p>
+</li>
+<li>
+<p><a href="http://www.ruby-lang.org">Ruby</a> (via
+    <a href="http://sporkmonger.com/2005/08/11/tutorial">feedtools</a>)
+    (<a href="#ruby_simple_example">example</a>)</p>
+</li>
+<li>
+<p><a href="http://www.php.net">PHP</a> (via <a href="http://simplepie.org/">SimplePie</a>)
+    (<a href="#php_simple_example">example</a>)</p>
+</li>
+</ul>
+<p>Below we include code snippets for these languages that perform the bare
+minimum functionality - calling the api and printing the raw Atom
+results. See the documentation and example programs for more detailed
+examples. If your favorite language is not up here, write us with an
+example, and we'll be glad to post it! For more detailed examples in
+these languages which cover more advanced API programming, please see
+the <a href="user-manual#detailed_examples">User's Manual</a>.</p>
+<p>All of the simple examples produce an output which looks like:</p>
+<p><strong>Example: A Typical Atom Response (wrapped for ease of reading, <a href="http://export.arxiv.org/api/query?search_query=all:electron&amp;id_list=&amp;start=0&amp;max_results=1">issue
+query
+now</a>)</strong></p>
+<pre><code class="xml">    &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+    &lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot;
+          xmlns:opensearch=&quot;http://a9.com/-/spec/opensearch/1.1/&quot;
+          xmlns:arxiv=&quot;http://arxiv.org/schemas/atom&quot;&gt;
+      &lt;link xmlns=&quot;http://www.w3.org/2005/Atom&quot;
+       href=&quot;http://export.arxiv.org/api/query?search_query=all:electron&amp;amp;id_list=&amp;amp;start=0&amp;amp;max_results=1&quot;
+       rel=&quot;self&quot; type=&quot;application/atom+xml&quot;/&gt;
+      &lt;title xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;ArXiv Query:
+    search_query=all:electron&amp;amp;id_list=&amp;amp;start=0&amp;amp;max_results=1&lt;/title&gt;
+      &lt;id xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;http://arxiv.org/api/cHxbiOdZaP56ODnBPIenZhzg5f8&lt;/id&gt;
+      &lt;updated xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;2007-10-08T00:00:00-04:00&lt;/updated&gt;
+      &lt;opensearch:totalResults xmlns:opensearch=&quot;http://a9.com/-/spec/opensearch/1.1/&quot;&gt;1000&lt;/opensearch:totalResults&gt;
+      &lt;opensearch:startIndex xmlns:opensearch=&quot;http://a9.com/-/spec/opensearch/1.1/&quot;&gt;0&lt;/opensearch:startIndex&gt;
+      &lt;opensearch:itemsPerPage xmlns:opensearch=&quot;http://a9.com/-/spec/opensearch/1.1/&quot;&gt;1&lt;/opensearch:itemsPerPage&gt;
+      &lt;entry xmlns=&quot;http://www.w3.org/2005/Atom&quot; xmlns:arxiv=&quot;http://arxiv.org/schemas/atom&quot;&gt;
+        &lt;id xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;http://arxiv.org/abs/hep-ex/0307015&lt;/id&gt;
+        &lt;published xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;2003-07-07T13:46:39-04:00&lt;/published&gt;
+        &lt;updated xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;2003-07-07T13:46:39-04:00&lt;/updated&gt;
+        &lt;title xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;Multi-Electron Production at High Transverse
+    Momenta in ep Collisions at HERA&lt;/title&gt;
+        &lt;summary xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;
+      Multi-electron production is studied at high electron transverse momentum in
+    positron- and electron-proton collisions using the H1 detector at HERA. The
+    data correspond to an integrated luminosity of 115 pb-1. Di-electron and
+    tri-electron event yields are measured. Cross sections are derived in a
+    restricted phase space region dominated by photon-photon collisions. In general
+    good agreement is found with the Standard Model predictions. However, for
+    electron pair invariant masses above 100 GeV, three di-electron events and
+    three tri-electron events are observed, compared to Standard Model expectations
+    of 0.30 \pm 0.04 and 0.23 \pm 0.04, respectively.
+    &lt;/summary&gt;
+        &lt;author xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;
+          &lt;name xmlns=&quot;http://www.w3.org/2005/Atom&quot;&gt;H1 Collaboration&lt;/name&gt;
+        &lt;/author&gt;
+        &lt;arxiv:comment xmlns:arxiv=&quot;http://arxiv.org/schemas/atom&quot;&gt;23 pages, 8 figures and 4 tables&lt;/arxiv:comment&gt;
+        &lt;arxiv:journal_ref xmlns:arxiv=&quot;http://arxiv.org/schemas/atom&quot;&gt;Eur.Phys.J. C31 (2003) 17-29&lt;/arxiv:journal_ref&gt;
+        &lt;link xmlns=&quot;http://www.w3.org/2005/Atom&quot;
+         href=&quot;http://arxiv.org/abs/hep-ex/0307015v1&quot; rel=&quot;alternate&quot; type=&quot;text/html&quot;/&gt;
+        &lt;link xmlns=&quot;http://www.w3.org/2005/Atom&quot; title=&quot;pdf&quot;
+         href=&quot;http://arxiv.org/pdf/hep-ex/0307015v1&quot; rel=&quot;related&quot; type=&quot;application/pdf&quot;/&gt;
+        &lt;arxiv:primary_category xmlns:arxiv=&quot;http://arxiv.org/schemas/atom&quot;
+         term=&quot;hep-ex&quot; scheme=&quot;http://arxiv.org/schemas/atom&quot;/&gt;
+        &lt;category term=&quot;hep-ex&quot; scheme=&quot;http://arxiv.org/schemas/atom&quot;/&gt;
+      &lt;/entry&gt;
+    &lt;/feed&gt;
+</code></pre>
+
+<h3 id="perl">Perl</h3>
+<p><a href="http://search.cpan.org/~gaas/libwww-perl-5.836/lib/LWP.pm">LWP</a> is in
+the default perl installation on most platforms. It can be downloaded
+and installed from
+<a href="http://search.cpan.org/~gaas/libwww-perl-5.836/lib/LWP.pm">CPAN</a>.
+Sample code to produce the above output is:</p>
+<pre><code class="perl">    use LWP;
+    use strict;
+
+    my $url = 'http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=1';
+    my $browser = LWP::UserAgent-&gt;new();
+    my $response = $browser-&gt;get($url);
+    print $response-&gt;content();
+</code></pre>
+
+<h3 id="python">Python</h3>
+<p>The <a href="http://docs.python.org/lib/module-urllib.html">urllib</a> module is
+part of the <a href="http://docs.python.org/lib/lib.html">python standard
+library</a>, and is included in any
+default installation of python. Sample code to produce the above output
+is:</p>
+<pre><code class="python">    import urllib
+    url = 'http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=1'
+    data = urllib.urlopen(url).read()
+    print data
+</code></pre>
+
+<h3 id="ruby">Ruby</h3>
+<p>The
+<a href="http://www.ruby-doc.org/stdlib/libdoc/net/http/rdoc/index.html">net/http</a>
+and <a href="http://www.ruby-doc.org/stdlib/libdoc/uri/rdoc/">uri</a> modules are
+part of the <a href="http://www.ruby-doc.org/stdlib/">ruby standard library</a>,
+and are included in any default installation of ruby. Sample code to
+produce the above output is:</p>
+<pre><code class="ruby">    require 'net/http'
+    require 'uri'
+    url = URI.parse('http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=1')
+    res = Net::HTTP.get_response(url)
+    print res.body
+</code></pre>
+
+<h4 id="php">PHP</h4>
+<p>The file_get_contents() function is part of the PHP core language:</p>
+<pre><code class="php">    &lt;?php
+    $url = 'http://export.arxiv.org/api/query?search_query=all:electron&amp;start=0&amp;max_results=1';
+    $response = file_get_contents($url);
+    print_r($response);
+    ?&gt;
+</code></pre>
+
+<h2 id="arxiv-api-documentation">arXiv API documentation</h2>
+<p>The API <a href="user-manual">User's Manual</a> discusses the API interface and
+returned Atom format in detail, and gives code examples in the languages
+listed above. The <a href="faq">API FAQ</a> has answers to common questions, or
+feel free to ask the <a href="http://groups.google.com/group/arxiv-api">arxiv-api discussion
+list</a>.</p>
+<h2 id="community">Community</h2>
+<p>We would love to know how you are using the arXiv API. Please send us an
+email to the <a href="http://groups.google.com/group/arxiv-api">mailing list</a> to
+tell us about your project, and what language/library you are using.
+Please include a url of your project, and we will post a link to it from
+this page.</p>
+<p>The best way to learn about the arXiv API, and to get help from others
+is to join our <a href="http://groups.google.com/group/arxiv-api">mailing list</a>.
+It is better to ask your questions in this forum for all to see. More
+often than not, someone else has the same question, or can provide an
+answer. Questions and feedback are the primary information channel that
+we use to improve this service.</p>
+<h3 id="projects-using-the-api">Projects Using the API</h3>
+<p>The following projects use the arXiv API:</p>
+<ul>
+<li>
+<p><a href="http://openwetware.org">OpenWetWare's Mediawiki Installation</a></p>
+</li>
+<li>
+<p><a href="http://sonnysoftware.com">Sonny Software's Bookends Reference Manager for
+    OSX</a></p>
+</li>
+<li>
+<p><a href="https://launchpad.net/arxivdroid">arXiv Droid - arXiv app for
+    Android</a></p>
+</li>
+<li>
+<p><a href="http://www.crcg.de/arXivToBibTeX/">Retrieve Bibliographic arXiv
+    Information</a></p>
+</li>
+<li>
+<p><a href="http://snarxiv.org/vs-arxiv/">The snarXiv</a></p>
+</li>
+<li>
+<p><a href="http://dailyarxiv.com/">daily arXiv by categories</a></p>
+</li>
+<li>
+<p><a href="http://www.paperrater.org">PaperRater.org - a web-based tool for open review and social
+    reading of scientific publications</a></p>
+</li>
+<li>
+<p><a href="http://arxitics.com/">ArXiv Analytics - a web portal for reading and discussing arXiv
+    eprints</a></p>
+</li>
+<li>
+<p><a href="https://github.com/bibcure/bibcure">Bibcure - keeps bibtex up to date and normalized, and allows you to
+    download all papers inside your
+    bibtex</a></p>
+</li>
+<li>
+<p><a href="https://github.com/cpitclaudel/biblio.el">biblio.el - Download BibTeX entries from arXiv and others in
+    Emacs</a></p>
+</li>
+<li>
+<p><a href="http://www.naru.jpn.com/lib_arxiv/en/">Lib arXiv - arXiv app for iOS devices</a></p>
+</li>
+<li>
+<p><a href="http://arxivist.com">arxivist.com</a></p>
+</li>
+</ul>
+<h3 id="helping-out">Helping Out</h3>
+<p>We love to hear from you. If you have changes to the documentation, code
+examples, example applications that use the API, and general comments,
+please send them to the <a href="http://groups.google.com/group/arxiv-api">mailing
+list</a>. We value all of your
+discussion.</p>
+<h3 id="mailing-list">Mailing List</h3>
+<p>To join the mailing list, please visit our <a href="http://groups.google.com/group/arxiv-api">arxiv-api groups
+page</a>. Anyone can join, and we
+encourage you to do so.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <!-- new favicon config and versions by realfavicongenerator.net -->
+        <link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/0.16.8/images/icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon-16x16.png">
+        <link rel="manifest" href="https://static.arxiv.org/static/base/0.16.8/images/icons/site.webmanifest">
+        <link rel="mask-icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/safari-pinned-tab.svg" color="#b31b1b">
+        <link rel="shortcut icon" href="https://static.arxiv.org/static/base/0.16.8/images/icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b31b1b">
+        <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+        <meta name="theme-color" content="#b31b1b">
+        <!-- end favicon config -->
+        <title>docspagetitle | arXiv e-print repository</title>
+        <script>var base_url = '../../..';</script>
+        <script defer src="https://static.arxiv.org/static/base/0.16.8/fontawesome-free-5.11.2-web/js/all.js"></script>
+        <link rel="stylesheet" href="https://static.arxiv.org/static/base/0.16.8/css/arxivstyle.css" />
+        <script type="text/x-mathjax-config">
+         MathJax.Hub.Config({
+             messageStyle: "none",
+             extensions: ["tex2jax.js"],
+             jax: ["input/TeX", "output/HTML-CSS"],
+             tex2jax: {
+                 inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                 displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                 processEscapes: true,
+                 ignoreClass: '.*',
+                 processClass: 'mathjax.*'
+             },
+             TeX: {
+                 extensions: ["AMSmath.js", "AMSsymbols.js", "noErrors.js"],
+                 noErrors: {
+                     inlineDelimiters: ["$","$"],
+                     multiLine: false,
+                     style: {
+                         "font-size": "normal",
+                         "border": ""
+                     }
+                 }
+             },
+             "HTML-CSS": { availableFonts: ["TeX"] }
+         });
+        </script>
+        <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
+        <script src="https://static.arxiv.org/static/base/0.16.8/js/notification.js"></script>
+
+        
+        
+    </head>
+    <body>
+        
+        
+        <header><a href="#main-container" class="is-sr-only">Skip to main content</a>
+            
+            <!-- contains Cornell logo and sponsor statement -->
+            <div class="attribution level is-marginless" role="banner">
+                <div class="level-left">
+                    <a class="level-item" href="https://cornell.edu/"><img src="https://static.arxiv.org/static/base/0.16.8/images/cornell-reduced-white-SMALL.svg" alt="Cornell University" width="200" aria-label="logo" /></a>
+                </div>
+                <div class="level-right is-marginless"><p class="sponsors level-item is-marginless"><a href="https://confluence.cornell.edu/x/ALlRF">We gratefully acknowledge support from<br /> the Simons Foundation and member institutions.</a></p></div>
+            </div>
+            <!-- contains arXiv identity and search bar -->
+            <div class="identity level is-marginless">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="arxiv" href="https://arxiv.org/" aria-label="arxiv-logo"><img src="https://static.arxiv.org/static/base/0.16.8/images/arxiv-logo-web.svg" alt="arXiv" aria-label="logo" width="85" /></a>
+                    </div>
+                </div>
+                
+                <div class="search-block level-right">
+                    <form class="level-item mini-search" method="GET" action="https://arxiv.org/search">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input is-small" type="text" name="query" placeholder="Search..." aria-label="Search term or terms" />
+                                <p class="help"><a href="https://arxiv.org/help">Help</a> | <a href="https://arxiv.org/search/advanced">Advanced Search</a></p>
+                            </div>
+                            <div class="control">
+                                <div class="select is-small">
+                                    <select name="searchtype" aria-label="Field to search">
+                                        <option value="all" selected="selected">All fields</option>
+                                        <option value="title">Title</option>
+                                        <option value="author">Author</option>
+                                        <option value="abstract">Abstract</option>
+                                        <option value="comments">Comments</option>
+                                        <option value="journal_ref">Journal reference</option>
+                                        <option value="acm_class">ACM classification</option>
+                                        <option value="msc_class">MSC classification</option>
+                                        <option value="report_num">Report number</option>
+                                        <option value="paper_id">arXiv identifier</option>
+                                        <option value="doi">DOI</option>
+                                        <option value="orcid">ORCID</option>
+                                        <option value="author_id">arXiv author ID</option>
+                                        <option value="help">Help pages</option>
+                                        <option value="full_text">Full text</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="hidden" name="source" value="header">
+                            <button class="button is-small is-cul-darker">Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- closes identity -->
+
+            <div class="container">
+                <div class="user-tools is-size-7 has-text-right has-text-weight-bold" role="navigation" aria-label="User menu">
+                    <a href="https://arxiv.org/login">Login</a>
+                </div>
+            </div>
+            
+        </header>
+        
+        <main class="container" id="main-container">
+            
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="../../..">arXiv </a> </li>
+                    
+                    
+                    
+                    <li> Faq </li>
+                    
+                    
+                    
+                    <li> Help </li>
+                    
+                    
+                    
+                    
+                    <li class="is-active">Common Mistakes that cause Automated Processing to Fail</li>
+                </ul>
+            </nav>            
+
+
+            <h1 id="common-mistakes-that-cause-automated-processing-to-fail">Common Mistakes that cause Automated Processing to Fail</h1>
+<p>NEWS 2017-02-09: We have upgraded our TeX system to
+<a href="http://tug.org/texlive">TeXLive 2016</a> and revised the macro package
+tree for new submissions. All updates available as of 2016-10-30 have
+been included in our installation of the texlive system.</p>
+<p>NEWS 2011-12-06: We have upgraded our TeX system to
+<a href="http://tug.org/texlive/">texlive 2011</a> and revised the macro package
+tree for new submissions. All updates available as of 12/06/2011 have
+been included in our installation of the texlive system.</p>
+<p>NEWS 2009-12-31: We have upgraded our TeX system to
+<a href="http://tug.org/texlive/">texlive 2009</a> and revised the macro package
+tree for new submissions. All updates available as of 12/31/2009 have
+been included in our installation of the texlive system. See <a href="texlive">texlive
+2009 transition help</a> for possible problems that may result
+from this upgrade.</p>
+<p>2006-11-02: We have upgraded our TeX system to teTeX3 and revised the
+macro package tree for new submissions. See <a href="tetex3">teTeX3 transition
+help</a> for possible problems that may result from this upgrade.</p>
+<p>Look through these common mistakes if your TeX/LaTeX submission failed:</p>
+<ul>
+<li><a href="#abs_filenames">Absolute filenames</a></li>
+<li><a href="#case_filenames">Upper-case vs Lower-case filenames</a></li>
+<li><a href="#missing_macro">Missing style/macro files</a></li>
+<li><a href="#untested">Last minute untested changes</a></li>
+<li><a href="#intervention">User intervention</a></li>
+<li><a href="#concatenated">Multiple files concatenated</a></li>
+<li><a href="#old_style">Use of old or non-standard style files</a></li>
+<li><a href="#dvips_clash">Style files incompatible with dvips</a></li>
+<li><a href="#other_formats">Sources that rely on something other than TeX or
+    LaTeX</a></li>
+<li><a href="#fonts">Use of unusual/uncommon fonts</a></li>
+<li><a href="#protect">Unprotected <code>\cite</code> and other macros inside figure <code>\caption</code>
+    commands, "<code>line too long</code>" error</a></li>
+<li><a href="#auto_ignore">Marking files to be ignored</a></li>
+<li><a href="#bbox">"<code>! Missing number, treated as zero</code>" error</a></li>
+<li><a href="#nohypertex">To disable HyperTeX</a></li>
+<li><a href="#include_subdir">"<code>Can't write subdir/file.aux</code>" and other problems with write
+    permissions during TeX processing</a></li>
+<li><a href="#double_subscript">"<code>! Double subscript/superscript</code>" errors</a></li>
+<li><a href="#bad_pdfmark">PDF conversion failure in papers with complex section
+    structure</a></li>
+<li><a href="#ifpdf">arXiv system attempts processing with PDFLaTeX for submissions
+    which are regular latex</a></li>
+<li><a href="feynmf#overwrite">Why does my submission fail the automatic TeXing procedure when I
+    use Feynmf?</a></li>
+<li><a href="#wrongtex">Why does my submission fail to recognize the main tex
+    file?</a></li>
+<li><a href="#psbad">Problems with inclusion of binary or other bitmap figures; <code>PS BAD</code>
+    warnings</a></li>
+</ul>
+<hr />
+<ul>
+<li>
+<p><span id="abs_filenames"></span><strong>Absolute filenames</strong><br />
+    When including figures/style/class/macro files, you must use
+    relative filenames instead of absolute filenames. For example,</p>
+<p><code>myfigure.png</code></p>
+<p>is correct, while:</p>
+<p><code>/users/staff/fred/myarticle/myfigure.png</code></p>
+<p>is not.</p>
+<p>Absolute filenames make it impossible for anyone to use the source
+without modifying it. Unless your TeX system happens to have the
+same directory structure as ours, then our automated processing will
+fail.</p>
+</li>
+<li>
+<p><span id="case_filenames"></span><strong>Upper-case vs Lower-case
+    filenames</strong><br />
+    If you use a computer with case-insensitive filenames (e.g.,
+    Windows), be sure that the case of any filenames referred to in your
+    TeX file matches exactly the files that are uploaded. For example,
+    the command:</p>
+<p><code>\includegraphics{figure1.eps}</code></p>
+<p>will not work if the file is uploaded as</p>
+<p><code>FIGURE1.EPS</code></p>
+<p>because filenames are case-sensitive on our system.</p>
+</li>
+<li>
+<p><span id="missing_macro"></span><strong>Missing style/macro files</strong><br />
+    Some authors write their own style/macro files (or modify standard
+    ones), but forget to include them with the source. Be sure to
+    include with the source any style/macro files that we don't have.</p>
+<p><strong>Note:</strong> non-standard style/macro files provided along with the
+source must <strong>NOT be attached</strong> to a paper. Instead, submit them as
+separate files, or use <strong>tar</strong> or <strong>zip</strong> to combine them with the
+source files before submitting.</p>
+</li>
+<li>
+<p><span id="untested"></span><strong>Last minute untested changes</strong><br />
+    All too often, an author will make last minute changes to the
+    source, but won't test it to see if the results will TeX correctly.
+    You can save yourself a lot of trouble by testing that everything
+    works properly before submitting your paper.</p>
+</li>
+<li>
+<p><span id="intervention"></span><strong>User intervention</strong><br />
+    Our source to postscript conversion system (called "AutoTeX") is
+    <em>fully automated</em>. There is no genie present to answer questions
+    such as:</p>
+<p><code>Would you like (P)ortrait or (L)andscape ? - answer P/L</code></p>
+<p>If your source needs to ask these types of question, please create a
+file called <code>filename.inp</code> (where <code>filename</code> matches the file it is
+to act on) that contains suitable responses.</p>
+<p>Your <code>.inp</code> file can be first tested on your local machine by
+running the following command:</p>
+<p><code>$ cat filename.inp | tex filename.tex</code></p>
+</li>
+<li>
+<p><span id="concatenated"></span> <strong>Multiple files concatenated</strong><br />
+    Do not submit several files all concatenated into one file, such as
+    the Scientific Workplace's <code>.rap</code> file type -- such files cannot be
+    separated automatically and may fail to process in unexpected ways.
+    Instead, please create a <code>.tar.gz</code> or <code>.zip</code> file.</p>
+</li>
+<li>
+<p><span id="old_style"></span> <strong>Use of old or non-standard style
+    files</strong><br />
+    Style files change with time, and you (or we) might be using old
+    versions of style files. We try to keep up to date, so if problems
+    arise due to style files, please check that the version you are
+    using is current.</p>
+<p>Some well-known style files, e.g., <code>epsf.sty</code> and <code>epsfig.sty</code>, have
+been altered by TeX programmers, then uploaded to web sites under
+the same filename. This is <strong>very bad practice</strong> and anti-social
+behavior, since we end up with multiple versions of <em>standard</em>
+styles. arXiv will make every effort to support the most recent
+<strong>and</strong> official versions of standard style files.</p>
+<p>As an example, the <code>graphics</code> and <code>graphicx</code> packages have been
+standard since the release of LaTeX 2e and are the recommended
+graphics inclusion macros. These packages provide the most portable
+and reliable method of including graphics.</p>
+</li>
+<li>
+<p><span id="dvips_clash"></span> <strong>Style files incompatible with
+    dvips</strong><br />
+    Style files that are incompatible with <code>dvips</code>, e.g., <code>epsbox.sty</code>,
+    can cause problems. If the DVI requires exotic versions of <code>dvips</code>
+    (e.g., <code>jdvi2kps</code>) to produce postscript, then our automated system
+    will <strong>fail</strong>.</p>
+<p>Please make every effort to avoid using non-standard styles and
+<code>dvi2ps</code> utilities. Few people will be able to process papers in
+these non-standard formats.</p>
+</li>
+<li>
+<p><span id="other_formats"></span> <strong>Sources that rely on something
+    other than TeX or LaTeX</strong><br />
+    All papers should be formatted so they work with TeX or LaTeX (as
+    appropriate). If you use other formats (as opposed to style files or
+    macros), e.g., <strong>AMS-TeX</strong>, <strong>AMS-LaTeX</strong>, or <strong>aatex</strong>, then please
+    add the appropriate line to the top of the source, e.g.:</p>
+<p><code>%&amp;amslplain</code></p>
+<p>for <strong>AMS-LaTeX</strong> (based on amslatex version 1.1),</p>
+<p><code>\input amstex</code></p>
+<p>or</p>
+<p><code>%&amp;amstex</code></p>
+<p>for <strong>AMS-TeX</strong>, and</p>
+<p><code>\input cp-aa.tex</code></p>
+<p>or</p>
+<p><code>%&amp;cp-aa</code></p>
+<p>for Springer-Verlag's Plain TeX Astronomy &amp; Astrophysics macros,
+<strong>cp-aa</strong> (also known as <strong>aatex</strong>).</p>
+<p>Anything that relies on something <strong>other than TeX or (PDF)LaTeX</strong>
+will fail. At this time arXiv does not support processing with:
+XeTeX and its variants including LuaTeX, LyX, or PDFTeX.</p>
+</li>
+<li>
+<p><span id="fonts"></span> <strong>Use of unusual/uncommon fonts</strong><br />
+    Authors should keep in mind that if they use unusual fonts, many
+    potential readers of their work won't have them installed.</p>
+<p>Because it would require significant admin time to install and
+maintain non-standard fonts, we do not generally support such fonts.</p>
+<p>It is, however, possible to include your local metafont <code>.mf</code> files
+as well as your local <code>fontmap.map</code> file. This will require special
+handling with a <code>00README.XXX</code> file with the appropriate <strong>fontmap</strong>
+directive.</p>
+</li>
+<li>
+<p><span id="protect"></span> <strong>Unprotected <code>\cite</code> and other macros
+    inside figure <code>\caption</code> commands, "<code>line too long</code>" error</strong><br />
+    In LaTeX, any citations inside a figure <code>\caption</code> should be
+    protected using the <code>\protect</code> command; e.g., <code>\caption{Electron
+    spectral function from \protect\cite{spectral}}</code>. This delays the
+    expansion of the citation until the second latex pass, i.e., when
+    the reference has been defined.</p>
+</li>
+<li>
+<p><span id="auto_ignore"></span> <strong>Marking files to be ignored</strong><br />
+    If you need to include files in the source that should not be
+    processed by the automated system, you may do either of the
+    following:</p>
+<ol>
+<li>
+<p>Add an <code>%auto-ignore</code> near the top of the file. This directive can be anywhere in the
+      first 10 lines of the file, and anywhere on the line. It should
+    appear before any TeX or LaTeX commands, since otherwise they
+    would be recognized first. For example:</p>
+<pre><code> %auto-ignore
+ This is a README file for paper hep-ex/9901003
+
+ More data for our experiment is available at http://www.some.where/else
+</code></pre>
+</li>
+<li>
+<p>Include a file <a href="/help/00README#ignore"><code>00README.XXX</code></a> with your submission that includes
+    the line:</p>
+<pre><code> filename ignore
+</code></pre>
+<p>for each file that should be ignored.</p>
+</li>
+</ol>
+</li>
+<li>
+<p><span id="bbox"></span> <strong>"<code>! Missing number, treated as zero</code>"
+    error</strong><br />
+    If you use <code>epsf</code> to include PostScript figures you must make sure
+    that the <code>%%BoundingBox</code> definitions are near the start of the
+    PostScript figure files. In order to reduce processing time, our TeX
+    system does not scan the whole of each included file.</p>
+<p>If you have a file with the following structure:</p>
+<p><code>%!PS-Adobe-3.0 ...
+     ...
+     %%BoundingBox: (atend)
+     ...
+     [ bulk of PS file in here ]
+     ...
+     %%BoundingBox: 0 10 234 456
+     ...
+     %%EOF</code></p>
+<p>then simply move the <code>%%BoundingBox</code> line to the top:</p>
+<p><code>%!PS-Adobe-3.0 ...
+     ...
+     %%BoundingBox: 0 10 234 456
+     ...
+     [ bulk of PS file in here ]
+     ...
+     %%EOF</code></p>
+</li>
+<li>
+<p><span id="nohypertex"></span> <strong>To disable HyperTeX</strong><br />
+    By default, our TeX system uses <a href="/hypertex">HyperTeX</a> to add
+    hyperlinks between references, sections and equations within your
+    paper. These show up in the PDF (and in the PostScript with some
+    viewers).</p>
+<p>HyperTeX conflicts with a few style and class files. If you think
+this is a problem, you can disable HyperTeX for your submission by
+including a file <code>00README.XXX</code>. It should contain the line:</p>
+<p><code>nohypertex</code></p>
+<p>Note that HyperTeX changes the way citations appear in some styles
+-- ranges will be represented as [11, 12, 13] instead of
+[11-13]. This is necessary for HyperTeX to be able to make
+individual links to each citation. Unless you feel very strongly
+about this we recommend leaving HyperTeX on.</p>
+</li>
+<li>
+<p><span id="include_subdir"></span> <strong>"<code>Can't write subdir/file.aux</code>"
+    and other problems with write permissions during TeX processing</strong><br />
+    In our system, only the top level directory is granted write
+    permission during processing. Attempts to write files to
+    subdirectories will fail.</p>
+<p>All files included via <code>\include</code> instead of <code>\input</code> must be in the
+top level directory. This is because the <code>\include</code> command attempts
+to write a separate <code>.aux</code> file in the same directory as the
+included file. For example:</p>
+</li>
+</ul>
+<pre><code>         \input{file}           %OK, does not create separate .aux file
+         \input{subdir/file}    %OK, does not create separate .aux file
+
+         \include{file}         %OK because file.aux can be written
+         \include{subdir/file}  %WILL FAIL fail because sub/file.aux cannot be written
+</code></pre>
+
+<ul>
+<li>
+<p><span id="double_subscript"></span> <strong>"<code>! Double
+    subscript/superscript</code>" errors</strong><br />
+    Our TeX system complains about double subscripts (and superscripts)
+    because <code>a_x_y</code> could be read as <code>a_{x_y}</code> or <code>{a_x}_y</code> or <code>a_x{}_y</code>
+    or even <code>a_{xy}</code>. These are not the same since the character size
+    and position is affected.</p>
+<p>Some older TeX systems would automatically substitute <code>a_x{}_y</code>
+without the need for user intervention, but current TeX systems
+(including ours) will not do this. As a result, <strong>the appropriate
+interpretation must be explicitly specified</strong>.</p>
+<p>If you are curious about the differences, see <a href="doublesubscript">these
+examples</a>.</p>
+</li>
+<li>
+<p><span id="bad_pdfmark"></span> <strong>PDF conversion failure in papers
+    with complex section structure</strong><br />
+    In some papers with "elaborate" section structure, hyperref can
+    generate PostScript that contains bad pdfmarks which break PDF
+    conversion. This problem affects mostly longer papers, reviews,
+    theses, etc., i.e. those papers where a linked table of contents
+    (TOC) and document outline would be most useful!</p>
+<p>The reason is that the section counter (used for the names of
+destination links) is reset by authors and certain macros to control
+the numbering of appendix sections. The result is failure of ps2pdf
+conversion due to ambiguous pdfmarks or conflicting subsection count
+in the pdfmarks.</p>
+<p>The simple cure is to <a href="#nohypertex">disable HyperTex</a> but a better
+work-around is to simply switch off bookmarks (i.e. document
+outline) while leaving normal document linking on. You can do this
+by adding the following line to the
+preamble:</p>
+<p>``` </p>
+<pre><code>\usepackage[bookmarks=false]{hyperref}
+</code></pre>
+<p>```</p>
+</li>
+<li>
+<p><span id="ifpdf"></span> <strong>arXiv system attempts processing with
+    PDFLaTeX for submissions which are regular latex</strong><br />
+    A common mistake made by authors as well as many macro packages is
+    incorrect testing for \pdfoutput to decide whether pdflatex is run
+    in dvi mode or pdf mode, or whether the processing is done in
+    regular latex mode. The underlying engines used to be different and
+    a simple test for \ifx\pdfoutput\undefined was sufficient to
+    distinguish between all options. This is no longer the case, because
+    the underlying engine is the same for all 3 cases and therefore the
+    value of the \pdfoutput parameter has to be tested, too.</p>
+<p>That is, a common (but incorrect) testing sequence might look like:
+"\ifx\pdfoutput\undefined .... \else ..... \fi". Symptoms of
+this mistake might be:</p>
+<ul>
+<li>error messages "Option clash for package ...."</li>
+<li>some unexpected message about various pdf operators</li>
+<li>failing figure inclusions (due to unrecognized extension)</li>
+</ul>
+<p>The most reliable way to accomplish conditional branching in the TeX
+source where necessary is instead via the ifpdf package:</p>
+<p><code>\usepackage{ifpdf}
+    \ifpdf
+      do something pdflatex specific here
+    \else
+      do something for regular latex or pdflatex in dvi mode
+    \fi</code></p>
+<p>Note that the graphics package and the hyperref package are smart
+enough to figure this out on their own. You do <strong>not</strong> need to
+specify any driver for these packages.</p>
+<p>For more information, see:</p>
+<p><a href="https://www.ctan.org/pkg/ifpdf">https://www.ctan.org/pkg/ifpdf</a></p>
+<p>You can download the ifpdf macro from the above link as well, if it
+is not already a part of your tex tree.</p>
+<p>In the extremely rare event that your submision still does not
+correctly identify itself as latex, and you are absolutely sure, you
+can add the line:</p>
+<p>``` 
+%&amp;latex </p>
+<p>```</p>
+<p>as the very first line of your tex file.</p>
+</li>
+<li>
+<p><span id="wrongtex"></span> <strong>Why does arXiv's system fail to
+    recognize the main tex file?</strong> <br />
+    It is possible in writing your latex code to include your
+    <code>\documentclass</code> directive in a file other than the main .tex file.
+    While this is perfectly reasonable for a human who's compling to
+    know which of the tex files is the main one (even when using
+    something obvious as the filename, such as <code>ms.tex</code>), our AutoTeX
+    system will attempt to process whichever file has the
+    <code>\documentclass</code> directive as the main tex file.</p>
+<p>Note that the system does not process using <code>Makefile</code> or any other
+manifest-type files.</p>
+</li>
+</ul>
+<p><span id="psbad"></span> <strong>Problems with inclusion of binary or other
+bitmap figures; <code>PS BAD</code> warnings</strong></p>
+<p><em>Update 2011-12-06: arXiv's default dvips configuration was changed to
+retain comments. The following does not apply to papers received since
+then.</em></p>
+<p>By default, our TeX system tells <code>dvips</code> to strip comment lines from
+included PostScript figures. This is usually the correct thing to do
+because it prevents DSC (Document Structuring Comments) lines from being
+included from figures. If included, these would likely break the DSC
+structure of the final PostScript (the DSC structure is what allows
+viewers to display an index of page numbers).</p>
+<p>Lines starting with '<code>%</code>' in the included PostScript files are
+identified as comments, but sometimes PostScript figures include blocks
+of data with lines starting with '<code>%</code>' that are not comments. Removal of
+these lines may break the final PostScript. You can turn off the removal
+of comments from included figures for your submission by including a
+file <code>00README.XXX</code>. It should contain an instruction specific to the
+filename of the dvi file:</p>
+<pre><code>     filename.dvi keepcomments
+</code></pre>
+
+<p>You can test the effect of this yourself by comparing the output of</p>
+<pre><code>     $ dvips -R -K1 yourfile.dvi -o DSCstripped.ps
+     $ dvips -R -K0 yourfile.dvi -o DSCkept.ps
+</code></pre>
+
+<p>Note that this whole issue arises because Adobe decided to use the
+ignored "Comments" from the PostScript standard to provide additional
+structure to regular PostScript files, which leads to complications for
+programs that rely on proper DSC structure when two or more such files
+are included in each other.</p>
+        </main>
+        <footer>
+            
+            <div class="columns is-desktop" role="navigation" aria-label="Secondary">
+                <!-- MetaColumn 1 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/about">About</a></li>
+                                <li><a href="https://arxiv.org/help">Help</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
+                                    <a href="https://arxiv.org/help/contact"> Contact</a>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
+                                    <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 1 -->
+                <!-- MetaColumn 2 -->
+                <div class="column">
+                    <div class="columns">
+                        <div class="column">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+                                <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="column sorry-app-links">
+                            <ul class="nav-spaced">
+                                <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
+                                <li>
+                                    <p class="help">
+                                        <a class="a11y-main-link" href="https://status.arxiv.org" target="_blank">arXiv Operational Status <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512" class="icon filter-dark_grey" role="presentation"><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a><br>
+                                        Get status notifications via
+                                        <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/email/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon filter-black" role="presentation"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>email</a>
+                                        or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- end MetaColumn 2 -->
+            </div>
+            
+        </footer>
+    </body>
+</html>

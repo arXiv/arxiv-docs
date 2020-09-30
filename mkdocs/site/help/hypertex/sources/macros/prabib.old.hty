@@ -1,0 +1,16 @@
+\let\hypernoname=\relax
+\def\@bibitem#1{\@noitemargtrue\@item
+                [\hyperdef\hypernoname{reference}{\the\value{\@listctr}}%
+                {\the\value{\@listctr}}]\if@filesw \immediate\write\@auxout
+{\string\bibcite{#1}{\the\value{\@listctr}}}\fi\ignorespaces}
+
+\def\bibcite#1#2{\expandafter\xdef\csname b@#1\endcsname{\hyper@\hyperpr@ref
+                 {}{reference}{#2}{#2}}%
+                 \expandafter\gdef\csname hyperb@#1\endcsname{#2}%
+                 \@SetMaxRefLabel{#1}}
+
+\def\@lbibitem[#1]#2{\item[\hyperdef\hypernoname{reference}{#1}%
+                           {\@BIBLABEL{#1}}]\if@filesw
+{\def\protect##1{\string ##1\space}\immediate
+\write\@auxout{\string\bibcite{#2}{#1}}}\fi\ignorespaces}
+

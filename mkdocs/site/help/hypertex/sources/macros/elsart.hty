@@ -1,0 +1,135 @@
+\def\equation{\@beginparpenalty\predisplaypenalty
+  \@endparpenalty\postdisplaypenalty
+\let\hyper@n@=\hyperdef
+\let\hyperdef=\hyper@nique\refstepcounter{equation}%
+\let\hyperdef=\hyper@n@
+   \@topsep \eqntopsep
+   \@topsepadd \eqntopsep
+   \item[]\leavevmode
+  \hbox to\linewidth\bgroup $ \displaystyle \hskip\mathindent\bgroup}
+\def\eqnarray{%
+  \par
+  \noindent
+  \baselineskip\eqnbaselineskip\lineskip\eqnlineskip
+  \lineskiplimit\eqnlineskip
+  \stepcounter{equation}%
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+   \hyper@nique\hypernoname{equation}{\hyper@qn@}{}%
+   \edef\@currentlabel{%
+   \hyper@\hyperpr@ref\hypernoname{\hyper@qn@}}%
+  \global\@eqnswtrue
+  \global\@eqcnt\z@ \tabskip\mathindent \let\\=\@eqncr
+  \abovedisplayskip\eqntopsep\ifvmode\advance\abovedisplayskip\partopsep\fi
+  \belowdisplayskip\abovedisplayskip
+  \belowdisplayshortskip\abovedisplayskip
+  \abovedisplayshortskip\abovedisplayskip
+  $$\halign to \displaywidth\bgroup\@eqnsel
+    \pre@coli$\displaystyle\tabskip\z@{##}$\post@coli
+    &\global\@eqcnt\@ne
+    \pre@colii$\displaystyle{##}$\post@colii
+    &\global\@eqcnt\tw@
+    \pre@coliii $\displaystyle\tabskip\z@{##}$\post@coliii
+    \tabskip\@centering&\llap{##}\tabskip\z@\cr}
+\def\@citex[#1]#2{\if@filesw\immediate\write\@auxout{\string\citation{#2}}\fi
+  \@tempcnta\z@\@tempcntb\m@ne\def\@citea{}\@cite{\@for\@citeb:=#2\do
+    {\@ifundefined
+       {b@\@citeb}{\@citeo\@tempcntb\m@ne\@citea\def\@citea{,}{\bf ?}\@warning
+       {Citation `\@citeb' on page \thepage \space undefined}}%
+    {\setbox\z@\hbox{\global\@tempcntc0\csname hyperb@\@citeb\endcsname\relax}%
+     \ifnum\@tempcntc=\z@ \@citeo\@tempcntb\m@ne
+       \@citea\def\@citea{,}\hbox{\csname b@\@citeb\endcsname}%
+     \else
+      \advance\@tempcntb\@ne
+      \ifnum\@tempcntb=\@tempcntc\let\@cited\@citeb
+      \else\advance\@tempcntb\m@ne\@citeo\let\@citec\@citeb\let\@cited\@citeb
+      \@tempcnta\@tempcntc\@tempcntb\@tempcntc\fi\fi}}\@citeo}{#1}}
+\def\@citeo{\ifnum\@tempcnta>\@tempcntb\else\@citea\def\@citea{,}%
+  \ifnum\@tempcnta=\@tempcntb\csname b@\@citec\endcsname\else
+   {\advance\@tempcnta\@ne\ifnum\@tempcnta=\@tempcntb \else \def\@citea{--}\fi
+    \advance\@tempcnta\m@ne\csname b@\@citec\endcsname\@citea
+    \csname b@\@cited\endcsname}\fi\fi}
+\def\footnote{\@ifnextchar[{\@xfootnote}{\stepcounter{\@mpfn}%
+    \hyper@nique\hypernoname{footnote}{\thempfn}{}%
+    \begingroup\let\protect\noexpand
+      \xdef\@thefnmark{{\hyper@\hyperpr@ref\hypernoname{\thempfn}}}\endgroup
+    \@footnotemark\@footnotetext}%]
+    }
+\def\footnotemark{\@ifnextchar[{\@xfootnotemark}{\stepcounter{footnote}%
+   \hyper@nique\hypernoname{footnote}{\thefootnote}{}%
+   \begingroup\let\protect\noexpand
+     \xdef\@thefnmark{{\hyper@\hyperpr@ref\hypernoname
+                      {\thefootnote}}}\endgroup\@footnotemark}%]
+   }
+\def\mpfootnotemark{%
+  \@ifnextchar[{\@xmpfootnotemark}{\stepcounter{mpfootnote}%
+  \hyper@nique\hypernoname{footnote}{\thempfootnote}{}%
+  \begingroup
+    \let\protect\noexpand
+    \xdef\@thefnmark{{\hyper@\hyperpr@ref\hypernoname{\thempfootnote}}}%
+  \endgroup
+  \@footnotemark}%]
+  }
+\def\@xmpfootnotemark[#1]{%
+  \begingroup
+    \c@mpfootnote #1\relax
+    \let\protect\noexpand
+    \hyper@nique\hypernoname{footnote}{\thempfootnote}{}%
+    \xdef\@thefnmark{{\hyper@\hyperpr@ref\hypernoname{\thempfootnote}}}%
+  \endgroup
+  \@footnotemark}
+\def\conttablecaption{\par \begingroup \@parboxrestore \normalsize
+  \@makecaption{\hyperdef\hypernoname{table}{\thetable}{\fnum@table}%
+  {\fnum@table}\,---\,continued}{}\par
+  \vskip-1pc \endgroup}
+\def\contfigurecaption{\vskip-1pc \par \begingroup \@parboxrestore \normalsize
+  \@makecaption{\hyperdef\hypernoname{figure}{\thefigure}{\fnum@figure}%
+  {\fnum@figure}\,---\,continued}{}\par
+  \endgroup}
+\def\equation{\@beginparpenalty\predisplaypenalty
+  \@endparpenalty\postdisplaypenalty
+\let\hyper@n@=\hyperdef
+\let\hyperdef=\hyper@nique\refstepcounter{equation}%
+\let\hyperdef=\hyper@n@
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+\def\theequation{\hyper@eqmod
+\hyperdef\hypernoname{equation}{\hyper@qn@}{\hyper@qn@}}%
+\trivlist
+   \@topsep \eqntopsep
+   \@topsepadd \eqntopsep
+   \item[]\leavevmode
+  \hbox to\linewidth\bgroup $ \displaystyle \hskip\mathindent\bgroup}
+\def\eqnarray{%
+  \par
+  \noindent
+  \baselineskip\eqnbaselineskip\lineskip\eqnlineskip
+  \lineskiplimit\eqnlineskip
+  \stepcounter{equation}%
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+\hyper@nique\hypernoname{equation}{\hyper@qn@}{}%
+\edef\@currentlabel{%
+\hyper@\hyperpr@ref\hypernoname{\theequation}}%
+  \global\@eqnswtrue
+  \global\@eqcnt\z@ \tabskip\mathindent \let\\=\@eqncr
+  \abovedisplayskip\eqntopsep\ifvmode\advance\abovedisplayskip\partopsep\fi
+  \belowdisplayskip\abovedisplayskip
+  \belowdisplayshortskip\abovedisplayskip
+  \abovedisplayshortskip\abovedisplayskip
+  $$\def\theequation{\hyper@eqmod
+\hyperdef\hypernoname{equation}{\hyper@qn@}{\hyper@qn@}}%
+\edef\@currentlabel{%
+\hyper@\hyperpr@ref\noexpand\hypernoname{\noexpand\hyper@qn@}}%
+\halign to \displaywidth\bgroup\@eqnsel
+    \pre@coli$\displaystyle\tabskip\z@{##}$\post@coli
+    &\global\@eqcnt\@ne
+    \pre@colii$\displaystyle{##}$\post@colii
+    &\global\@eqcnt\tw@
+    \pre@coliii $\displaystyle\tabskip\z@{##}$\post@coliii
+    \tabskip\@centering&\llap{##}\tabskip\z@\cr}
+\endinput
+%%% Keep this line in
