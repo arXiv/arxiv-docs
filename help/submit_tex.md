@@ -40,9 +40,10 @@ By default, LaTeX files are processed using LaTeX2e (the current version of LaTe
 
 If you have a file named foo.tex, then do not include any associated auxiliary file or intermediate or resulting output file, e.g. foo.ps (or foo.aux, foo.log, foo.toc, foo.lot, foo.lof, foo.dvi, foo.pdf) in your submission. These will be automatically removed to allow the creation of an output file from your TeX file. Index (`.ind`) and processed bibtex (`.bbl`) files are an exception, [see below](#bibtex).
 
+<span id="figures"></span>
 #### Figure inclusion in LaTeX submissions
 
-Note that TeX/LaTeX can only include (encapsulated) PostScript (**.ps** or **.eps**), figures directly. Other formats are not supported in native (La)TeX. See [Useful Software](/help/bitmap/software) for figure conversion tools. If you are making use of [PDFLaTeX](#pdftex) you may embed your `.pdf, .png, .jpg` figures using the same mechanisms.
+Note that TeX/LaTeX can only include (encapsulated) PostScript (**.ps** or **.eps**), figures directly. Other formats are not supported in native (La)TeX. See [Useful Software](/help/bitmap/software) for figure conversion tools. If you are making use of [PDFLaTeX](#pdftex) you may embed your `.pdf, .png, .jpg` figures using the same mechanisms. Please note that arXiv does not perform "on the fly" figure file conversion during tex processing (i.e. "`-eps-converted-to.pdf`" files being present in your source directory). You must perform such conversion yourself, before uploading, updating any effected inclusion command. This process ensures that you have examined the results of any figure conversion to ensure that the figures still contain scientifically correct information and that arXiv is not responsible for the scientific accuracy of your figures.
 
 The most flexible and robust figure inclusion is provided by the `graphics` and `graphicx` packages and the `\includegraphics` command defined therein. We highly recommend you use them for your figure inclusion. arXiv does not provide the `psfig` package any longer. You must include your own `psfig.sty` if you use it. In general, if things go wrong or don't look as desired you may have to include your version of [older macros](/help/faq/mistakes#old_style).
 
