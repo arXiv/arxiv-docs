@@ -1,4 +1,4 @@
-## Notes about arXiv's TeXLive Version
+# Notes about arXiv's TeXLive Version
 
 *Update 2020-10-01: arXiv updated to TeXLive 2020* arXiv is now running
 under [TeXLive 2020](http://tug.org/texlive), with a new, updated and
@@ -43,7 +43,9 @@ of large disciplines.
 -----
 
 
-**More on package update policies:** arXiv accepts thousands of articles
+## More on package update policies:
+
+arXiv accepts thousands of articles
 every month. Our goal is to provide a stable TeX processing system where
 we are able to reprocess papers from TeX source at any point in the
 future. arXiv maintains all past TeX trees such that existing papers are
@@ -92,7 +94,7 @@ TL2016-based tree.
 under the previous release we strongly encourage you to carefully
 examine your final PDF.*
 
-# Notes from prior releases.
+## Notes from prior releases.
 
 TeX Live changes that may impact some arXiv users:
 
