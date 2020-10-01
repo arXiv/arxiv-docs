@@ -1,16 +1,32 @@
 ## Notes about arXiv's TeXLive Version
 
-*Update 2017-02-09: arXiv updated to TeXLive 2016* arXiv is now running
-under [TeXLive 2016](http://tug.org/texlive), with a new, updated and
+*Update 2020-10-01: arXiv updated to TeXLive 2020* arXiv is now running
+under [TeXLive 2020](http://tug.org/texlive), with a new, updated and
 enhanced tree of local addons and support for newer font sets, and
 everything else contained within the standard distribution. As with
-previous updates, most of the TL2009/TL2011 advice below still applies.
+previous updates, most of the TL2009/TL2011/TL2016 advice below still applies.
 
-The new tree is based on the official TeX Live 2016 release with an
+The new tree is based on the official TeX Live 2020 release with an
 updated tree of local addons. While most documents developed under TeX
-Live 2011 will process fine under the new TeX tree we encourage authors
-to switch their development environments to the latest TeX Live 2016 (if
+Live 2016 will process fine under the new TeX tree we encourage authors
+to switch their development environments to the latest TeX Live 2020 (if
 you have not done so already).
+
+TeX Live 2020 expects LaTeX source files to be encoded in UTF-8 by default
+and there is no longer a forgiving fall through to UTF-8 encoding. Compilation
+without an encoding declaration and with characters outside of the UTF-8
+encoding will fail with an error.
+
+Authors have multiple options to resolve the encoding problem. Ideally,
+you will determine the correct encoding and add the following line to 
+your source:
+
+    \usepackage[hencodingi]{inputenc}
+
+The second option is to add \UseRawInputEncoding as the first line of
+your source file. Please see 
+[Tug News 28](https://www.latex-project.org/news/latex2e-news/ltnews28.pdf)
+for more details.
 
 Addons: Many modules not included in the core TeX Live release and
 maintained in our local tree have been updated to the most recent
@@ -18,7 +34,7 @@ version, so long as the update does not drastically change or break
 existing documents. Modules with little or no recent usage have been
 dropped from our local tree.
 
-Please contact us if there are modules not include in TeX Live 2016 or
+Please contact us if there are modules not include in TeX Live 2020 or
 our locally maintained tree that you would like to see added. In most
 cases you will want to add customized packages to your submission.
 Widely used packages may be added to our local tree for the convenience
@@ -45,7 +61,7 @@ of authors. During the development process the update processed
 introduced bugs and broke existing papers more than once so we are
 extremely cautious when it comes to updates.
 
-TeX Live Packages: Updating commonly used packages in the main TL2016
+TeX Live Packages: Updating commonly used packages in the main TL2020
 distribution is time consuming since we need to guarantee that existing
 papers are not adversly impacted by such a change. New packages: Adding
 new packages not included in TeX Live is possible by adding the package
@@ -66,15 +82,17 @@ TeX Live and the demand for these updates for arXiv submissions.
 -----
 
 
-We realize this is a major upgrade from TeX Live 2011 to 2016. The new
+We realize this is a major upgrade from TeX Live 2016 to 2020. The new
 tree contains thousands of improvements and bug fixes over the previous
 tree. Users may choose to replace older documents where such updates
 will improve the rendering of documents impacted by bugs in the previous
-TL2011-based tree.
+TL2016-based tree.
 
 *If you are replacing a paper with older TeX source that rendered fine
 under the previous release we strongly encourage you to carefully
 examine your final PDF.*
+
+# Notes from prior releases.
 
 TeX Live changes that may impact some arXiv users:
 
