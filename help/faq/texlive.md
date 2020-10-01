@@ -40,7 +40,6 @@ cases you will want to add customized packages to your submission.
 Widely used packages may be added to our local tree for the convenience
 of large disciplines.
 
------
 
 
 ## More on package update policies:
@@ -80,8 +79,6 @@ Our goal is to update our TeX Live distribution every few years. Since
 we maintain all previous trees the overhead of frequent updates is
 significant. This schedule will depend on the frequency of updates to
 TeX Live and the demand for these updates for arXiv submissions.
-
------
 
 
 We realize this is a major upgrade from TeX Live 2016 to 2020. The new
