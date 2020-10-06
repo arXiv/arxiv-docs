@@ -21,9 +21,12 @@ Authors have multiple options to resolve the encoding problem. Ideally,
 you will determine the correct encoding and add the following line to 
 your source:
 
-    \usepackage[hencodingi]{inputenc}
+    \usepackage[encoding name]{inputenc}
 
-The second option is to add \UseRawInputEncoding as the first line of
+Please review the `inputenc.sty` package's 
+[documentation](http://mirrors.ctan.org/macros/latex/base/inputenc.pdf) 
+to determine the correct options for your source. The second option is to 
+add `\UseRawInputEncoding` as the first line of
 your source file. Please see 
 [Tug News 28](https://www.latex-project.org/news/latex2e-news/ltnews28.pdf)
 for more details.
