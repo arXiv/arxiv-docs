@@ -53,6 +53,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
   - [Problems with inclusion of binary or other bitmap figures; `PS BAD`
     warnings](#psbad)
   - [Mixed figure file types](#mixed)
+  - ["`! LaTeX Error: Command \Bbbk already defined.`"](#Bbbk)
 
 -----
 
@@ -517,3 +518,16 @@ One could convert all PostScript figures in a directory to PDF simply by running
 ```
 then proceeding to update the figure file inclusion commands in your tex. Note that there are many ways to accomplish this step (e.g. one could use [ImageMagick](/help/bitmap/procedure#shortImageM)), and this is provided as an example only. It is your responsibility as the submitter to ensure that the figures are scientifically accurate in the format as submitted. 
 
+
+
+<span id="Bbbk"></span> **"`! LaTeX Error: Command \Bbbk already defined.`"**
+
+A new issue seen beginning with the upgrade to [TeXLive 20202](/help/faq/texlive) in arXiv is the error: 
+```
+  ! LaTeX Error: Command `\Bbbk' already defined.
+```
+This error appears most frequently when using the `mnras.cls` template for their tex source file, although there are other causes for this same error. The error is caused by multiple packages attempting to define this math symbol. Most commonly in arXiv appear to be the interaction of the `newtxmath.sty` and `amssymb.sty` packages, which both define this shape. Ideally, you will know which one is the correct one for your use and plan in advance to use one or the other. If you insist on using both, one or the other will need to have its definition of this macro reset prior to the call of the other package. This can be done by adding the line: 
+```
+  \let\Bbbk\relax 
+```
+immediately after the call to the first package (usually the `newtxmath.sty` package call). If you choose to go this route, please *carefully* inspect the output, as this may have unexpected results. If you determine that the output is other than what you would expect for this symbol, please swap the package inclusion order, to "`\relax`" the other pacakge's definition of this symbol. 
