@@ -90,32 +90,15 @@ Covers indexing, dictionaries, retrieval, content and analysis. Roughly includes
 
 Covers theoretical and experimental aspects of information theory and coding. Includes material in ACM Subject Class E.4 and intersects with H.1.1.
 
-**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dieterrich, Sebastian Raschka and Luis Lamb
+**[LG - Machine Learning](/list/cs.LG/recent)** - Tom Dietterich, Sebastian Raschka and Luis Lamb
 
-Papers on all aspects of machine learning research (supervised,
-unsupervised, reinforcement learning, bandit problems, and so on)
-including also robustness, explanation, fairness, and
-methodology. cs.LG is also an appropriate primary category for
-applications of machine learning methods.
+Papers on all aspects of machine learning research (supervised, unsupervised, reinforcement learning, bandit problems, and so on) including also robustness, explanation, fairness, and methodology. cs.LG is also an appropriate primary category for some applications of machine learning methods (see below).
 
-*Relationship to other categories*: If the primary domain of the
-application is available as another category in arXiv and readers of
-that category would be the main audience, that category should be
-primary. Examples include applications to computer vision (cs.CV),
-natural language processing (cs.CL), speech recognition (eess.AS),
-information retrieval (cs.IR; includes document classification and
-topic modeling), crowdsourcing (cs.HC), quantitative finance ([q-fin](/archive/q-fin)),
-and quantitative biology ([q-bio](/archive/q-bio)). Papers discussing the foundations of
-neural network architectures (activation functions, spiking neurons,
-etc.) should list cs.NE as primary, as should papers applying
-biologically-inspired optimization techniques such as evolutionary
-methods. Papers working with the properties of specific signal types
-(e.g., sound, EEG, hyperspectral, ultrasound) should consider cs.SD
-(sound, including music), eess.IV (images and video), or eess.SP as
-primary. cs.LG is not appropriate for papers studying human learning
-such as computer-aided instruction, where cs.CY is a better
-fit. Papers categorized with cs.LG as primary are automatically
-cross-listed as stat.ML and vice versa.
+*Relationship to other categories*: If the primary contribution of the paper is to machine learning methods or foundations, then cs.LG should be primary. However, if the paper is an application or refinement of machine learning techniques for a target application domain and if that domain is available as another category in arXiv, then that category should be primary. Examples include computer vision (cs.CV), natural language processing (cs.CL), speech recognition (eess.AS), information retrieval (cs.IR; includes recommender systems, document classification, topic modeling, and computational advertising), cybersecurity and privacy (cs.CR), crowdsourcing and information visualization (cs.HC), quantitative finance ([q-fin](/archive/q-fin)), and quantitative biology ([q-bio](/archive/q-bio)). If there is no arXiv category corresponding to the application domain of the paper, then cs.LG is appropriate as primary.
+
+Papers discussing the foundations of neural network architectures (activation functions, spiking neurons, etc.) should list cs.NE as primary, as should papers applying biologically-inspired optimization techniques such as evolutionary methods. Papers working with the properties of specific signal types (e.g., sound, EEG, hyperspectral, ultrasound) should consider cs.SD (sound, including music), eess.AS (speech), eess.IV (images and video), or eess.SP as primary. cs.LG is not appropriate for papers studying human learning such as computer-aided instruction, where cs.CY is a better fit.
+
+ML papers with primary focus on statistical results (new methodology/derivation) are a good match for stat.ML and should either have stat.ML as primary or as a cross-listed category. Papers categorized with stat.ML as primary are automatically cross-listed as cs.LG but not vice versa.
 
 **[LO - Logic in Computer Science](/list/cs.LO/recent)** - Gopalan Nadathur
 
