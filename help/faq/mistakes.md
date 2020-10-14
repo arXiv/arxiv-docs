@@ -1,23 +1,23 @@
 # Common Mistakes that cause Automated Processing to Fail
 
-NEWS 2017-02-09: We have upgraded our TeX system to
-[TeXLive 2016](http://tug.org/texlive) and revised the macro package
-tree for new submissions. All updates available as of 2016-10-30 have
-been included in our installation of the texlive system.
+Updates
 
-NEWS 2011-12-06: We have upgraded our TeX system to
-[texlive 2011](http://tug.org/texlive/) and revised the macro package
+- 2020-10-01: arXiv updated to [TeXLive 2020](http://tug.org/texlive) arXiv is now running under TeXLive 2020, with a new, updated and enhanced tree of local addons and support for newer font sets, and everything else contained within the standard distribution. As with previous updates, most of the TL2009/TL2011/TL2016 advice below still applies.
+- 2017-02-09: We have upgraded our TeX system to TeXLive 2016 and revised the macro package tree for new submissions. All updates available as of 2016-10-30 have been included in our installation of the texlive system.
+
+- 2011-12-06: We have upgraded our TeX system to
+texlive 2011 and revised the macro package
 tree for new submissions. All updates available as of 12/06/2011 have
 been included in our installation of the texlive system.
 
-NEWS 2009-12-31: We have upgraded our TeX system to
-[texlive 2009](http://tug.org/texlive/) and revised the macro package
+- 2009-12-31: We have upgraded our TeX system to
+texlive 2009 and revised the macro package
 tree for new submissions. All updates available as of 12/31/2009 have
 been included in our installation of the texlive system. See [texlive
 2009 transition help](texlive) for possible problems that may result
 from this upgrade.
 
-2006-11-02: We have upgraded our TeX system to teTeX3 and revised the
+- 2006-11-02: We have upgraded our TeX system to teTeX3 and revised the
 macro package tree for new submissions. See [teTeX3 transition
 help](tetex3) for possible problems that may result from this upgrade.
 
