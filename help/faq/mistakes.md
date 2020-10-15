@@ -511,7 +511,7 @@ then proceeding to update the figure file inclusion commands in your tex. Note t
 
 <span id="Bbbk"></span> **"`! LaTeX Error: Command \Bbbk already defined.`"**
 
-A new issue seen beginning with the upgrade to [TeXLive 20202](/help/faq/texlive) in arXiv is the error: 
+A new issue seen beginning with the upgrade to [TeXLive 2020](/help/faq/texlive) in arXiv is the error: 
 ```
   ! LaTeX Error: Command `\Bbbk' already defined.
 ```
@@ -519,4 +519,4 @@ This error appears most frequently when using the `mnras.cls` template for their
 ```
   \let\Bbbk\relax 
 ```
-immediately after the call to the first package (usually the `newtxmath.sty` package call). If you choose to go this route, please *carefully* inspect the output, as this may have unexpected results. If you determine that the output is other than what you would expect for this symbol, please swap the package inclusion order, to "`\relax`" the other pacakge's definition of this symbol. 
+immediately after the call to the first package (usually the `newtxmath.sty` package call). If you choose to go this route, please *carefully* inspect the output, as this may have unexpected results. If you determine that the output is other than what you would expect for this symbol, please swap the package inclusion order, to "`\relax`" the other package's definition of this symbol.
