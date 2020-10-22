@@ -14,7 +14,7 @@ The advisory committee members serve as consultants to Cornell University and to
 
 - [Doug Arnold](http://www.ima.umn.edu/~arnold/)
 - [Ioana Dumitriu](http://www.math.washington.edu/~dumitriu/)
-- [Paul Gunnells](http://people.math.umass.edu/~gunnells/)
+- [Paul Gunnells (vice-chair)](http://people.math.umass.edu/~gunnells/)
 - [Alex Iosevich](http://www.math.rochester.edu/people/faculty/iosevich/) 
 - [Greg Kuperberg (chair)](http://www.math.ucdavis.edu/~greg/)
 - [David R. Morrison](http://www.math.ucsb.edu/~drm/)
