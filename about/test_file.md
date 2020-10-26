@@ -1,6 +1,6 @@
 # Test heading
 
-This is only a test.
+This is really only a test.
 
 ## Heading 2
 
