@@ -20,7 +20,7 @@
 
 Labs4U encompasses experimental projects either focused on research purposes, or that are completely external from arXiv itself. Some projects are entirely research-focused, without any specific objectives to produce user-facing components, but may involve integration with arXiv APIs or other systems. Other projects may have a specific user-facing objective, e.g. rendering arXiv LaTeX sources as HTML, or a mobile application to visualize arXiv articles. 
 
-While Labs4U projects may originate from a variety of internal and external sources, they are differentiated from third-party [API projects](ADD LINK) in that an agreement has been reached ahead of time for specific technical support from the arXiv IT Team, as well as to be able to use arXiv branding. A cost recovery plan may be required if the project presents unusual support or infrastructure costs. The decision to grant or revoke branding and support the project as a Labs4U project is made exclusively by the arXiv management team. arXiv may suspend support for a Labs4U at any time, including revoking part or all of a project's access to arXiv APIs, if the project is deemed to violate any applicable terms of use or other agreements, creates an unsustainable and unmitigated burden in terms of time or cost, or if project participants violate the [arXiv Community Code of Conduct](https://arxiv.org/help/policies/code_of_conduct).
+While Labs4U projects may originate from a variety of internal and external sources, they are differentiated from third-party [API projects](ADD LINK) in that an agreement has been reached ahead of time for specific technical support from the arXiv IT Team, as well as to be able to use arXiv branding. A cost recovery plan may be required if the project presents unusual support or infrastructure costs. The decision to grant or revoke branding and support the project as a Labs4U project is made exclusively by the arXiv management team. arXiv may suspend support for a Labs4U at any time, including revoking part or all of a project's access to arXiv APIs, if the project is deemed to violate any applicable terms of use or other agreements, creates an unsustainable and unmitigated burden in terms of time or cost, or if project participants violate the [arXiv Community Code of Conduct](https://arxiv.org/help/policies/code_of_conduct). 
 
 ### **Responsibilities**
 
@@ -46,7 +46,7 @@ Labs4U projects should not access any identifiable arXiv user data, and even ano
 
 - Labs4U projects with user-facing components should adopt the basic elements of [WCAG 2.0](https://www.w3.org/TR/WCAG20/) level A from the beginning.
 - Any user-facing or promotional content must clearly indicate that the project is an arXiv Labs4U project.
-- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Community Code of Conduct and Brand and Style Guide.
+- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the [arXiv Community Code of Conduct](https://arxiv.org/help/policies/code_of_conduct) and Brand and Style Guide.
 
 ### **Quality**
 
@@ -101,7 +101,7 @@ Labs4Production (L4P) encompasses experimental projects that are deployed as par
 
 - Labs4Production projects will likely reside in the arXivLabs tabs and follow general arXiv styleguide. All UI components need to be reviewed by arXiv UX specialist.
 - For user-facing components, users have the option of completely disabling and re-enabling features. 
-- Must meet or exceed WCAG 2.0 level A or better, passing all automated and manual checks.
+- Must meet or exceed [WCAG 2.0](https://www.w3.org/TR/WCAG20/) level A or better, passing all automated and manual checks.
 - User-facing components must include some iconography that clearly distinguishes it as Labs4Production rather than core. 
 - Text used in user-facing components must be generally consistent in tone, terminology, and style of core arXiv components.
 
@@ -126,7 +126,7 @@ Labs4Production (L4P) encompasses experimental projects that are deployed as par
 
 ### **NB**
 
-- The arXiv IT team may suspend support for a Labs4Production project at any time, including removing the component from the production platform and suspending access to arXiv APIs, if the project is deemed to violate any applicable terms of use or other agreements, creates an unsustainable and unmitigated burden in terms of time or cost, or if project participants violate the arXiv Community Code of Conduct. Labs4Production components may also be decommissioned if the original participants are no longer active in the project and the project is not deemed sustainable or sufficiently advantageous to users to justify the cost of maintenance or further development.
+- The arXiv IT team may suspend support for a Labs4Production project at any time, including removing the component from the production platform and suspending access to arXiv APIs, if the project is deemed to violate any applicable terms of use or other agreements, creates an unsustainable and unmitigated burden in terms of time or cost, or if project participants violate the [arXiv Community Code of Conduct](https://arxiv.org/help/policies/code_of_conduct). Labs4Production components may also be decommissioned if the original participants are no longer active in the project and the project is not deemed sustainable or sufficiently advantageous to users to justify the cost of maintenance or further development.
 - The decision to suspend or decommission a Labs4Production project from the arXiv production platform will be made at the discretion of the arXiv IT Team lead and/or the Lead System Architect. 
 - Since Labs4Production projects are required to make source code available under a permissive open-source license, nothing prevents further development of the codebase itself by external parties. 
 
