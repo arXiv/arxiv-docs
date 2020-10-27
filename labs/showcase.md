@@ -1,5 +1,3 @@
-Placeholder: content from labs.arxiv.org moved to this page
-
 ---
 title: 'arXiv Labs showcase'
 template: 'labs/showcase.html'
