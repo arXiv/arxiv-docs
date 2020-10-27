@@ -79,4 +79,4 @@ $jinja {{ render_project(projects.pwc_links) }} jinja$
 $jinja {{ render_project(projects.core_recommender) }} jinja$
 $jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
 
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
+We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs invitation to collaborate](https://labs.arxiv.org/index) and [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org for more information about contributing to arXivLabs.
