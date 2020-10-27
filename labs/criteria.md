@@ -132,4 +132,4 @@ Labs4Production (L4P) encompasses experimental projects that are deployed as par
 
 ## **Labs4Core**
 
-Labs4Core will be considered on a case-by-case basis.
+Labs4Core will be considered on a case-by-case basis. 
