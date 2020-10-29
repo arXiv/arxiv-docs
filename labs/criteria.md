@@ -1,6 +1,6 @@
 # arXivLabs Criteria
 
-## General criteria for all projects:
+## General criteria for all [arXivLabs](https://labs.arxiv.org/) projects:
 
 - All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](https://arxiv.org/help/policies/code_of_conduct). 
 - The project must align with the overall arXiv mission and arXiv values. 
@@ -132,5 +132,4 @@ Labs4Production (L4P) encompasses experimental projects that are deployed as par
 
 ## **Labs4Core**
 
-Labs4Core will be considered on a case-by-case basis.
-
+Labs4Core will be considered on a case-by-case basis. 
