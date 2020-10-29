@@ -14,4 +14,4 @@ In order to apply to be part of the arXivLabs community, learn more about the [c
 
 Please also note that many projects that use arXiv’s APIs are not arXivLabs projects. Learn more about [arXiv API data usage here.](https://arxiv.org/help/api/)
 
-_NB: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses and colors are only allowed with the explicit written permission from the arXiv management team._
+_NB: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses and colors are only allowed with the explicit written permission from the arXiv management team._ 
