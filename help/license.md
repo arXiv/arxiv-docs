@@ -56,9 +56,9 @@ _Many publishers allow “accepted manuscripts” to be deposited with a CC BY-N
 ![arXiv perpetual, non-exclusive license](images/arxiv-non-exclusive.png){.mkd-img-left .mkd-img-grayscale} [arXiv.org perpetual, non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)  
 This license gives limited rights to arXiv to distribute the article, and also limits re-use of any type from other entities or individuals.
 
-_Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._  
-
-![CC Zero](images/cc-zero.png){.mkd-img-left} CC Zero is a public dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain. CC0 allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
+_Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._
+<br/>
+![CC Zero](images/cc-zero.png){.mkd-img-left} [CC Zero](https://creativecommons.org/share-your-work/public-domain/cc0/) is a public dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain. CC0 allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
 
 _If you choose this license, you will no longer control the article’s copyright. A work distributed with CC Zero would not allow for copyright transfer, and this conflicts with many publishers’ requirements._
 
