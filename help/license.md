@@ -37,18 +37,18 @@ To make a license decision, arXiv recommends the following:
 
 Licenses available
 ------------------
-![CC BY](images/cc-by.png){.mkd-img-left} [CC BY](https://creativecommons.org/licenses/by/4.0/): Creative Commons Attribution  
+![CC BY license icon](images/cc-by.png){.mkd-img-left} [CC BY](https://creativecommons.org/licenses/by/4.0/): Creative Commons Attribution  
 This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.
 
 _Are you submitting a preprint and plan to publish this work in a journal? Many publishers allow preprints to be deposited with a CC BY license. Check directly with the journal to find out._
 
-![CC BY-SA](images/cc-by-sa.png){.mkd-img-left} [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/): Creative Commons Attribution-ShareAlike  
+![CC BY-SA license icon](images/cc-by-sa.png){.mkd-img-left} [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/): Creative Commons Attribution-ShareAlike  
 This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
 
-![CC BY-NC-SA](images/cc-by-nc-sa.png){.mkd-img-left} [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/): Creative Commons Attribution-Noncommercial-ShareAlike  
+![CC BY-NC-SA license icon](images/cc-by-nc-sa.png){.mkd-img-left} [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/): Creative Commons Attribution-Noncommercial-ShareAlike  
 This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
 
-![CC BY-NC-ND](images/cc-by-nc-nd.png){.mkd-img-left} [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/): Creative Commons Attribution-Noncommercial-NoDerivatives  
+![CC BY-NC-ND license icon](images/cc-by-nc-nd.png){.mkd-img-left} [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/): Creative Commons Attribution-Noncommercial-NoDerivatives  
 This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator.
 
 _Many publishers allow “accepted manuscripts” to be deposited with a CC BY-NC-ND license, but there may be an embargo period. Check the journal’s policies to be certain._
@@ -56,8 +56,7 @@ _Many publishers allow “accepted manuscripts” to be deposited with a CC BY-N
 ![arXiv perpetual, non-exclusive license](images/arxiv-non-exclusive.png){.mkd-img-left .mkd-img-grayscale} [arXiv.org perpetual, non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/)  
 This license gives limited rights to arXiv to distribute the article, and also limits re-use of any type from other entities or individuals.
 
-_Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._
-
+_Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._  
 
 ![CC Zero](images/cc-zero.png){.mkd-img-left} CC Zero is a public dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain. CC0 allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
 
