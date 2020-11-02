@@ -58,6 +58,7 @@ This license gives limited rights to arXiv to distribute the article, and also l
 
 _Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._
 
+
 ![CC Zero](images/cc-zero.png){.mkd-img-left} CC Zero is a public dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain. CC0 allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
 
 _If you choose this license, you will no longer control the article’s copyright. A work distributed with CC Zero would not allow for copyright transfer, and this conflicts with many publishers’ requirements._
