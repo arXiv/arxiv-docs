@@ -1,103 +1,64 @@
 arXiv License Information
 =========================
 
-arXiv is a repository for scholarly material, and perpetual access is
-necessary to maintain the scholarly record. As such, arXiv keeps a
-permanent record of every submission and replacement announced.
+As a repository for scholarly material, arXiv keeps a permanent record of every article and version posted. All articles on arXiv.org can be viewed and downloaded freely by anyone.
 
-arXiv does not ask that copyright be transferred. However, we require
-sufficient rights to allow us to distribute submitted articles in
-perpetuity. In order to submit an article to arXiv, the submitter must
-either:
+To maintain this scholarly record, arXiv needs permission from submitters to post and distribute their work. Permission is granted through a license, chosen by the submitter, and the submitter must certify that they have the right to grant that license.
 
--   grant arXiv.org a [non-exclusive and irrevocable license to
-    distribute the
-    article](http://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html),
-    and certify that the submitter has the right to grant this license;
--   certify that the work is available under one of the following
-    Creative Commons licenses and that the submitter has the right to assign
-    this license:
-    -   [Creative Commons Attribution license (CC BY
-        4.0)](http://creativecommons.org/licenses/by/4.0/)
-    -   [Creative Commons Attribution-ShareAlike license (CC BY-SA
-        4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
-    -   [Creative Commons Attribution-Noncommercial-ShareAlike license
-        (CC BY-NC-SA
-        4.0)](http://creativecommons.org/licenses/by-nc-sa/4.0/);
--   or dedicate the work to the public domain by associating the
-    [Creative Commons Public Domain Dedication (CC0
-    1.0)](http://creativecommons.org/publicdomain/zero/1.0/) with the
-    submission.
+Several types of licenses are available, listed below. For all licenses here, with the exception of CC Zero, the original copyright holder retains ownership after posting on arXiv.
 
-In the most common case, authors have the right to grant these licenses
-because they hold copyright in their own work.
+How to choose a license
+-----------------------
 
-We currently support three of the [Creative Commons
-licenses](http://creativecommons.org/licenses/). If you wish to use a different CC license, then select arXiv's non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article.
+arXiv values open access and encourages choosing a liberal license for re-use of the paper. However, each situation is unique. Funders may require specific licenses. Journals have different policies regarding preprints, embargo periods, and post-publication distribution. Please note that different versions of the work can have different licenses.
 
-*Note:* if you intend to submit, or have submitted, your article to a
-journal then you should verify that the license you select during arXiv
-submission does not conflict with the journal's license or copyright
-transfer agreement. Many journal agreements permit submission to arXiv
-using the [non-exclusive license to
-distribute](http://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html),
-which arXiv has used since 2004. Yet the [CC
-BY](http://creativecommons.org/licenses/by/4.0/) and [CC
-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) licenses permit
-commercial reuse and may therefore conflict with some journal
-agreements.
+Ultimately, it is the submitter’s responsibility to choose the appropriate license for their content. The license chosen is irrevocable and cannot be changed.
+
+To make a license decision, arXiv recommends the following:
+1. Read and understand the [submission terms and agreement](policies/submission_agreement) and [instructions for submission](policies/instructions_for_submission)
+2. Understand the meanings and implications of each license below
+3. Check the policies of funders and journals (contact journals directly or using a third-party service such as [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/about.html)
+4. Consult with colleagues in your field of study
+5. Remember that articles posted on arXiv are a permanent part of the scholarly record and the license chosen for each version is irrevocable.
+
+Licenses available
+------------------
+CC BY: Creative Commons Attribution
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use.
+
+_Are you submitting a preprint and plan to publish this work in a journal? Many publishers allow preprints to be deposited with a CC BY license. Check directly with the journal to find out._
+
+CC BY-SA: Creative Commons Attribution-ShareAlike
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, so long as attribution is given to the creator. The license allows for commercial use. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
+
+CC BY-NC-SA: Creative Commons Attribution-Noncommercial-ShareAlike
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for noncommercial purposes only, and only so long as attribution is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under identical terms.
+
+CC BY-NC-ND: Creative Commons Attribution-Noncommercial-NoDerivatives
+This license allows reusers to copy and distribute the material in any medium or format in unadapted form only, for noncommercial purposes only, and only so long as attribution is given to the creator.
+
+_Many publishers allow “accepted manuscripts” to be deposited with a CC BY-NC-ND license, but there may be an embargo period. Check the journal’s policies to be certain._
+
+ arXiv.org perpetual, non-exclusive license
+ This license gives limited rights to arXiv to distribute the article, and also limits re-use of any type from other entities or individuals.
+
+_Some authors require a license that is not listed here. As long as the desired license does not restrict arXiv’s license, authors can select the arXiv license and then indicate the desired license in the first page of the article. This is a requirement of some funders and governments._
+
+CC Zero is a public dedication tool, which allows creators to give up their copyright and put their works into the worldwide public domain. CC0 allows reusers to distribute, remix, adapt, and build upon the material in any medium or format, with no conditions.
+
+_If you choose this license, you will no longer control the article’s copyright. A work distributed with CC Zero would not allow for copyright transfer, and this conflicts with many publishers’ requirements._
+
 
 Metadata license
------------------------------------------
-
-To the extent that the depositor or arxiv has a copyright interest in metadata accompanying the submission, a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) will apply.
-
-Authority to submit
------------------------------------------
-
-arXiv cannot accept papers that contain material for which the depositor
-does not have the authority to submit or to agree to the license terms.
-This would include comments by referees (which may have separate
-copyright protection) and, of course, plagiarized material. Note that
-any single co-author normally has all needed authority to submit a paper
-to arXiv. Once publicly available, articles cannot be entirely removed,
-either at the request of the submitting author or of any co-author.
+----------------
+A [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) will apply to all metadata.
 
 
-Licenses granted are irrevocable
---------------------------------
-
-Authors should take care to upload an article *only if they are certain*
-that they will not later wish to publish it in a journal that prohibits
-prior distribution on an e-print server. *arXiv will not remove an
-announced article to comply with such a journal policy -- the license
-granted on submission is irrevocable.* However, granting rights for
-arXiv to distribute an article does not preclude later copyright
-assignment. Authors are thus free to publish submissions that already
-appear on arXiv. Authors may wish to inform the journal publisher that a
-prior non-exclusive license exists before transferring copyright or
-granting a publication license. Please check the policies of any
-potential publication venue before uploading to arXiv. (For the policy
-information of many publishers, see the
-[SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo.php) site.)
 
 Copyright notices
 -----------------
+Often, PDFs found on publisher websites or supplied as proofs are the property of the publisher, which often owns the copyright and/or licenses their use. Submission of PDFs with copyright statements which prohibit or impair arXiv's redistribution license will be rejected. If explicit permission is given for open access redistribution, these are permissible.
 
-It is usually the case that PDFs found on publisher websites or supplied
-as proofs are the property of the publisher, which often owns the
-copyright and/or licenses their use. Submission of PDFs with copyright
-statements which prohibit or impair arXiv's redistribution
-license will be rejected. If explicit permission is
-given for open access redistribution, these are permissible.
-Users should contact arXiv administrators at help@arxiv.org if they have questions.
+If you have permission from a publisher to upload content to arXiv provided that you include a special copyright statement with the paper, place that statement on the first page of the text of the submission. Copyright notices should not be included in the separate [metadata](/help/prep#comments) and will be removed.
 
-If you have permission from a publisher to upload content to arXiv
-provided that you include a special copyright statement with the paper,
-the correct place for that statement is the first page of the text of
-the submission. Copyright notices should not be included in the separate
-[metadata](/help/prep#comments) and will be removed.
-
-If you have any additional questions about arXiv's copyright and
-licensing policies, please [contact](/help/contact) the
-arXiv administrators directly.
+If you have any additional questions about arXiv's copyright and licensing policies, please [contact](/help/contact) the arXiv administrators directly.
