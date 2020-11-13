@@ -27,10 +27,9 @@ If an author has a back catalog of work to submit to arXiv we ask that they subm
 
 If you disagree with a moderation decision, you may submit an appeal. Please carefully follow the directions below.
 
-- Send a precise email, including all relevant details (especially paper IDs, former correspondence, submission summaries, etc.) to moderation@arxiv.org.
-- If you receive an automated response to your email, please read all instructions carefully.
-- If there is no other identifying information in your message (e.g., paper ID or rejection ID), you may need to address your email with "Dear arXiv-moderation," to bypass our SPAM filter.
-You will get an email from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
+- You can submit an appeal through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2) or by sending an email to to moderation@arxiv.org.
+- In your appeal please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
+- You will get an email from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
 - Please be *patient*, as moderation appeals are complicated and take some time.
 - When a decision is made by the appellate moderators you will receive a follow up message from arXiv administrators.
 - Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
