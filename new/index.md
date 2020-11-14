@@ -7,6 +7,26 @@ What's been New on the [arXiv.org](/) e-print archives
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
 
+#### November 2020
+<span id="2020Nov13"></span>
+
+13 November 2020
+
+
+**November 2020 Holiday Schedule:** For the US Thanksgiving holiday there will be no new submission announcement and limited user support for Thursday 26 November 2020. 
+
+Papers submitted after 14:00 Eastern on Wednesday 25 November and before 14:00 Eastern on Friday 27 November will be announced at 20:00 Eastern on Sunday 29 November. This only affects announcement of new submissions. We will still be accepting submissions and the arXiv site will continue to be available for browsing existing papers.
+
+**December 2020 Holiday Schedule:** 
+- *No new submission announcement on 25 December 2020.* There will be no new submission announcement and limited user support for Friday 25 December 2020.
+Papers submitted after 14:00 Eastern on Thursday 24 December and before 14:00 Eastern on Monday 28 December will be announced at 20:00 Eastern on Monday 28 December.
+- *No new submission announcement on 29 and 30 December 2020.* There will be no new submission announcement and limited user support for Tuesday 29 December and Wednesday 30 December 2020.
+Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 Eastern on Thursday 31 December will be announced at 20:00 Eastern on Thursday 31 December.
+- *No new submission announcement on 01 January 2021.* There will be no new submission announcement and limited user support for Tuesday 29 December and Wednesday 30 December 2020.
+Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 Eastern on Thursday 31 December will be announced at 20:00 Eastern on Thursday 31 December.
+
+The staff holidays only affects announcement of new submissions. We will still be accepting submissions and the arXiv site will continue to be available for browsing existing papers.
+
 #### June 2020
 <span id="5June2020"></span>
 
