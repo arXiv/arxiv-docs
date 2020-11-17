@@ -1,0 +1,9 @@
+site_name: arXiv Labs
+docs_dir: ../labs
+plugins:
+  - macros
+theme:
+  name: null
+  custom_dir: arxiv_doc_theme
+  include_search_page: true
+

@@ -1,6 +1,5 @@
 ---
 title: 'arXiv Labs showcase'
-template: 'labs/showcase.html'
 projects:
   bibliographic_overlay:
     title: arXiv Bibliographic Explorer
@@ -67,6 +66,45 @@ projects:
       Papers with Code</a> - a free resource that links papers, code and
       results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
 ---
+
+{% macro render_project(project) %}
+<article class="card">
+  <div class="card-content">
+    <div class="columns">
+      <div class="column is-narrow-tablet">
+        <p class="image is-128x128" style="border: 1px solid gray"><img src="{{project.thumbnail}}" alt="" /></p>
+      </div>
+      <div class="column is-one-third-desktop is-one-half-tablet">
+        <h2>{{ project.title }}</h2>
+        <span class="label">Collaborator{%- if project.collaborators|length > 1 -%}s{%- endif -%}: </span>
+        {% for collaborator in project.collaborators %}
+        <p>{% if collaborator.link %}<a href="{{ collaborator.link }}" target="_blank" rel="noopener">{{ collaborator.name }}</a>{% else %}{{ collaborator.name }}{% endif %}<br />
+        {%- if collaborator.association -%}
+        <em>{{ collaborator.association }}</em></p>
+        {%- endif -%}
+        {% endfor %}
+      </div>
+      <div class="column">
+        <p>{{ project.summary|safe }}</p>
+      </div>
+    </div>
+    {%- if project.repo -%}
+    <p class="has-text-right"><span class="has-text-weight-bold">
+      Code: </span>{{ project.repo }}</p>
+    {%- endif -%}
+    {%- if project.more_info -%}
+    <p class="has-text-right"><span class="has-text-weight-bold">
+      More Information: </span><br/>
+      {%- for info in project.more_info -%}
+      <a href="{{ info.link}}" target="_blank" rel="noopener">{{ info.name }}</a><br/>
+      {%- endfor -%}
+    </p>
+    {%- endif -%}
+  </div>
+</article>
+{% endmacro %}
+
+
 # arXiv Labs
 
 arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
@@ -75,8 +113,8 @@ While the arXiv team is focused on our core mission—providing rapid disseminat
 
 Here are some of the projects that our collaborators are working on right now.
 
-$jinja {{ render_project(projects.pwc_links) }} jinja$
-$jinja {{ render_project(projects.core_recommender) }} jinja$
-$jinja {{ render_project(projects.bibliographic_overlay) }} jinja$
+{{ render_project(page.meta.projects.pwc_links) }}
+{{ render_project(page.meta.projects.core_recommender) }} 
+{{ render_project(page.meta.projects.bibliographic_overlay) }}
 
 We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
