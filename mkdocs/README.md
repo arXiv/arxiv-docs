@@ -6,4 +6,4 @@
   ./prep_for_mkdocs.sh
   cd mkdocs
   mkdocs serve
-  
+  # At this point the static sites are in mkdics/docs

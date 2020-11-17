@@ -10,5 +10,6 @@ pip install -r theme_generator/requirements.txt
 
 # use arxiv-base to build mkdocs custom theme
 cd theme_generator
+mkdir -p ../mkdocs/arxiv_doc_theme
 FLASK_APP=app.py flask generate mkdocs_template > ../mkdocs/arxiv_doc_theme/main.html
 cd ..

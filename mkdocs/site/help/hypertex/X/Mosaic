@@ -1,6 +1,0 @@
-#!/bin/sh --
-WWWBROWSER=${WWWBROWSER-/usr/local/bin/callmosaic} \
-PATH=/usr/ucb:$PATH \
-NNTPSERVER=${NNTPSERVER-newshost} \
-WWW_wais_GATEWAY=${WWW_wais_GATEWAY-http://www.ncsa.uiuc.edu:8001} \
-/usr/local/bin/newpg 0 $0.binary $*

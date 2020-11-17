@@ -1,7 +1,0 @@
-use LWP;
-use strict;
-
-my $url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1';
-my $browser = LWP::UserAgent->new();
-my $response = $browser->get($url);
-print $response->content();
