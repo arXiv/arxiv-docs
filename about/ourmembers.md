@@ -296,6 +296,9 @@ aside {
 1. TRIUMF (Canada)
 1. Tsinghua University  (China)
 1. Tufts University (USA)
+1. Universität Graz (Austria)
+1. Universität Konstanz (Germany) _arXiv-DH and HGF_
+1. Universität Mannheim (Germany) _arXiv-DH and HGF_
 1. Université de Grenoble Alpes (France) _CCSD_
 1. Université de Rennes 1 (France) _CCSD_
 1. University of Arizona (USA)
