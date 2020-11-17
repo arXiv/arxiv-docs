@@ -10,7 +10,7 @@ arXivLabs projects are categorized under the following criteria:
 2. **Labs4Production** Experimental projects maintained by external collaborators and deployed (in whole or part) on arXiv infrastructure. These projects must meet additional technical criteria.
 3. **Labs4Core** Experimental projects that add a great deal of value to the arXiv platform, and which are deemed feasible to maintain by the core arXiv IT team, may be incorporated as a core feature or service. These projects undergo additional rigorous scrutiny to ensure maintainability, security, and reliability.
 
-To apply to the arXivLabs community, learn more about the [criteria](criteria) and then tell us about your idea by contacting nextgen@arxiv.org. 
+To apply to the arXivLabs community, learn more about the [criteria](criteria) and then <a href="#" onclick="pendo.feedback.openFeedback(event)">submit a proposal</a>. 
 
 Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 
