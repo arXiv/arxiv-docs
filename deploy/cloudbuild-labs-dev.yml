@@ -1,6 +1,6 @@
 steps:
   # Build and deploy the labs website.
-  - name: 'python:3.8-slim-buster'
+  - name: 'python:3.8-buster'
     entrypoint: 'bash'
     args: [ '-c', './mklabs.sh' ] 
   - name: 'gcr.io/cloud-builders/gcloud'

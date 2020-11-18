@@ -8,12 +8,6 @@ then
     exit 1
 fi
 
-if [ -f "/etc/debian_version" ]
-then
-    # install some build tools needed in GCP
-    apt-get install python3-dev python3-pip python3-venv python3-wheel -y
-fi
-
 VIRTUAL_ENV=/tmp/arxiv-docs-venv
 python3 -m venv $VIRTUAL_ENV
 PATH="$VIRTUAL_ENV/bin:$PATH"
