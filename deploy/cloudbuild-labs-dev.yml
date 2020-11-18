@@ -1,6 +1,6 @@
 steps:
   # Build and deploy the labs website.
-  - name: 'gcr.io/cloud-builders/gcloud-slim'
+  - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
     args:
       - '-c'
