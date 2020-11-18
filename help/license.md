@@ -36,6 +36,7 @@ arXiv values open access and encourages choosing a liberal license for re-use of
 Ultimately, it is the submitter’s responsibility to choose the appropriate license for their content. The license chosen is irrevocable and cannot be changed.
 
 To make a license decision, arXiv recommends the following:
+
 1. Read and understand the [submission terms and agreement](policies/submission_agreement) and [instructions for submission](policies/instructions_for_submission)
 2. Understand the meanings and implications of each license below
 3. Check the policies of funders and journals (contact journals directly or using a third-party service such as [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/about.html))
