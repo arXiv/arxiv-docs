@@ -73,7 +73,7 @@ Information we gather is shared with vendors we use to support the infrastructur
 
 _Info we share with third party services:_
 
-Atlassian Jira is used for collecting feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.
+Atlassian Jira is used for user support to notify and respond to users about issues with their submissions or accounts. Atlassian Jira is also used to collect feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.
 
 iThenticate is used by arXiv administrators for text analysis on submissions. The name of the submitter is included in the iThenticate report for tracking purposes.
 
