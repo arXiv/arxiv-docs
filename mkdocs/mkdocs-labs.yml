@@ -1,5 +1,6 @@
 site_name: arXiv Labs
 docs_dir: ../labs
+site_dir: labs-site
 plugins:
   - macros
 theme:

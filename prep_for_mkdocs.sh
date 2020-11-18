@@ -1,3 +1,4 @@
+set -e
 # script to setup for mkdocs
 if [ ! -e ".git" ]
    then
@@ -6,10 +7,11 @@ if [ ! -e ".git" ]
 fi
    
 # install py packages
-pip install -r theme_generator/requirements.txt
+pip3 install -r theme_generator/requirements.txt
 
 # use arxiv-base to build mkdocs custom theme
+mkdir -p mkdocs/arxiv_doc_theme
 cd theme_generator
-mkdir -p ../mkdocs/arxiv_doc_theme
 FLASK_APP=app.py flask generate mkdocs_template > ../mkdocs/arxiv_doc_theme/main.html
 cd ..
+

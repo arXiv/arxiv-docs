@@ -1,0 +1,9 @@
+steps:
+  # Build and deploy the labs website.
+  - name: 'gcr.io/cloud-builders/gcloud-slim'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |      
+        ./mklabs.sh
+        gsutil cp -r mkdocs/labs-site gs://labs-dev-website/
