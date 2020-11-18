@@ -11,9 +11,9 @@ gsutil web set -m index.html gs://labs-master-website
 
 if [ -e "mkdocs/labs-site" ]
    then
-       gsutil cp -r mkdocs/labs-site gs://labs-develop-website/
+       gsutil rsync -d -r mkdocs/labs-site/ gs://labs-develop-website/
 fi
 if [ -e "mkdocs/labs-site" ]
    then
-       gsutil cp -r mkdocs/labs-site gs://labs-master-website/
+       gsutil rsync -d -r mkdocs/labs-site/ gs://labs-master-website/
 fi
