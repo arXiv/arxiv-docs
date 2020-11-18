@@ -1,9 +1,8 @@
 steps:
   # Build and deploy the labs website.
+  - name: 'python:3.8-slim-buster'
+    entrypoint: 'bash'
+    args: [ '-c', './mklabs.sh' ] 
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
-    args:
-      - '-c'
-      - |      
-        ./mklabs.sh
-        gsutil cp -r mkdocs/labs-site gs://labs-$BRANCH_NAME-website/
+    args: [ '-c', 'gsutil cp -r mkdocs/labs-site gs://labs-$BRANCH_NAME-website/']
