@@ -7,4 +7,4 @@ steps:
   # Copy built site to bucket
   - name: 'gcr.io/cloud-builders/gcloud'
     entrypoint: 'bash'
-    args: [ '-c', 'gsutil rsync -d -r -m mkdocs/labs-site/ gs://labs-$BRANCH_NAME-website/']
+    args: [ '-c', 'gsutil rsync -d -r mkdocs/labs-site/ gs://labs-$BRANCH_NAME-website/']
