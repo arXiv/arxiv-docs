@@ -6,4 +6,4 @@ steps:
       - '-c'
       - |      
         ./mklabs.sh
-        gsutil cp -r mkdocs/labs-site gs://labs-dev-website/
+        gsutil cp -r mkdocs/labs-site gs://labs-$BRANCH_NAME-website/
