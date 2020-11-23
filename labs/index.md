@@ -1,7 +1,60 @@
-# arXivLabs: An invitation to collaborate 
-=======
+<style>
+.mkd-img-border {
+  margin:1em 0px;
+  padding:10px;
+  border:.25em solid #ededed;
+}
+.mkd-horz-spacing {
+  margin-right:1em;
+  margin-left:1em;
+}
+.mkd-img-left {
+  float:left;
+  width:100%;
+  margin-top:0;
+}
+.mkd-img-right {
+  float:right;
+  width:100%;
+  margin-top:0;
+}
+.mkd-img-full {
+  width:100% !important;
+}
+.mkd-img-60 {
+  width:100% !important;
+  margin:0 auto;
+  display:block;
+}
+.mkd-img-thumb {
+  max-width:250px !important;
+}
+.mkd-img-icon {
+  border-radius:25%;
+  width:150px;
+  float:left;
+  margin:0 .5em;
+}
+@media (min-width: 576px) {
+  .mkd-img-left {
+    width:calc(50% - 1.25em);
+    margin-right:1em;
+  }
+  .mkd-img-right {
+    width:calc(50% - 1.25em);
+    margin-left:1em;
+  }
+  .mkd-img-60 {
+    width:60% !important;
+    margin:0 auto;
+    display:block;
+  }
+}
+</style>
 
-arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
+# arXivLabs: An invitation to collaborate 
+
+![arXivLabs logo](images/image_name.jpg){.mkd-img-thumb .mkd-img-left} arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
 
 arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and share their products and services, as long as they abide by the same arXiv’s values of openness, community, excellence, and user data privacy.
 
