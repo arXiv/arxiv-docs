@@ -1,4 +1,5 @@
 # arXivLabs: An invitation to collaborate 
+=======
 
 arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
 
@@ -14,4 +15,4 @@ To apply to the arXivLabs community, learn more about the [criteria](criteria) a
 
 Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 
-_NB: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses and colors are only allowed with the explicit written permission from the arXiv management team._ 
+_NB: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses and colors are only allowed with the explicit written permission from the arXiv management team._

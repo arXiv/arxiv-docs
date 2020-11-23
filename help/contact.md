@@ -3,28 +3,20 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us at help@arxiv.org. 
+If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us [through our user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1) or at help@arxiv.org. 
 
-Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and the holiday schedule.
+Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and holidays.
 
 **To avoid a long delay in receiving a response:** 
 
--   Send a precise email including all relevant details (especially submission or paper ids, rejection ids, URLs, etc.).
--   If you receive an automated response to your email, please read all instructions carefully.
-    -   If there is no other identifying information in your message
-        (e.g., paper id or rejection id), you may need to address your
-        email with **"Dear arXiv,"** to bypass our SPAM filter.
+-   Send a precise email including all relevant details (especially submission or paper ids, URLs, etc.).
+
 
 ## Moderation queries
 
-If you have questions about the status of your submission, contact us at moderation@arxiv.org.
+If you have questions about the status of your submission, contact us [through our user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2) or at moderation@arxiv.org.
  
 -   Send a precise email, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
--   If you receive an automated response to your email, please read all instructions carefully.
-    -   If there is no other identifying information in your message
-        (e.g., paper id or rejection id), you may need to address your
-        email with **"Dear arXiv-moderation,"** to bypass our SPAM
-        filter.
 -   Please be *patient*, as moderation appeals are complicated and may
     take some time.
 
@@ -34,10 +26,8 @@ Information about institutional membership or contributions to arXiv can be foun
 
 ## Copyright infringement
 
-To contact Cornell University's designated agent for alleged copyright
-infringement, in accordance with the Digital Millennium Copyright Act,
-see [Copyright
-Infringements](http://www.cornell.edu/copyright-infringement.cfm). 
+To contact Cornell University's designated agent for alleged copyright infringement, in accordance with the Digital Millennium Copyright Act,
+see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm). 
 
 <span id="figures"></span>
 **Note:** For queries regarding figure reuse for your manuscript, please contact the submitter or copyright holder directly.

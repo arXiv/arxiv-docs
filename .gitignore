@@ -106,3 +106,7 @@ temp/
 idx/
 idx_components/
 idx_static/
+
+# Generated theme
+mkdocs/arxiv_doc_theme/main.html
+mkdocs/labs-site
