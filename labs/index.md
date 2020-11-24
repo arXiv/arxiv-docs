@@ -29,7 +29,7 @@
   display:block;
 }
 .mkd-img-thumb {
-  max-width:250px !important;
+  max-width:150px !important;
 }
 .mkd-img-icon {
   border-radius:25%;
@@ -40,11 +40,11 @@
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:1em;
+    margin-right:2em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:1em;
+    margin-left:2em;
   }
   .mkd-img-60 {
     width:60% !important;
