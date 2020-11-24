@@ -1,4 +1,5 @@
 # arXivLabs: An invitation to collaborate 
+
 <style>
 .mkd-img-border {
   margin:1em 0px;
@@ -52,7 +53,7 @@
   }
 }
 </style> 
-![arXivLabs logo](/images/smileybones-labs-icon.png){.mkd-img-thumb .mkd-img-left}
+![arXivLabs logo](images/smileybones-labs-icon.png){.mkd-img-thumb .mkd-img-left}
 
 arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
 
