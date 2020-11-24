@@ -13,7 +13,7 @@ arXiv offers public API access in order to maximize its openness and interoperab
 1. utilize arXiv’s public APIs 
 2. do not require assistance from arXiv, and 
 3. do not use the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” or associated logos, web addresses and colors
-are free, open access, and/or intended for research or educational purposes
+4. are free, open access, and/or intended for research or educational purposes
 
 ...are considered entirely independent from arXiv. 
 
