@@ -2,12 +2,13 @@
 
 - Amanda Bartley, arXiv Administrator
 - Shamsi Brinn, arXiv User Experience Specialist
-- Bob Carozzoni, Associate arXiv Administrator
 - Brian Caruso, Senior arXiv Developer
-- Jim Entwood, Interim Executive Director and Operations Manager
+- Jim Entwood, Operations Manager
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement and Membership Coordinator
 - Martin Lessmeister, IT Lead
 - Brian Maltzan, Backend Python Developer
-- Rebecca Rich Goldweber, Associate arXiv Administrator
+- Eleonora Presani, Executive Director
+- Rebecca Rich Goldweber, arXiv Administrator
+- Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, Senior arXiv Administrator
