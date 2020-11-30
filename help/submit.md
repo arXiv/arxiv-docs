@@ -126,7 +126,7 @@ Unsubmitting an article takes the article out of the processing queue, and annou
 Edit or replace your submission
 ----------------------------
 
-Edits before a submission is publicly announced will not generate additional versions.
+Edits before a submission is publicly announced and will not generate additional versions.
 The date stamp associated with the submission will
 be the time that the final "Submit Article" step is completed. Edits and
 final submission before 14:00 US Eastern Time (EDT/EST) Monday through
