@@ -38,8 +38,8 @@ and hence date stamp, would effectively mean that all changes would be
 backdated to the time the last version was submitted. This is open to
 abuse and thus not allowed.
 
-The exceptions to this rule are the addition of [journal reference and
-DOI information](jref). The journal reference field may contain only
+The exceptions to this rule are the addition of [journal reference,
+DOI, and report number information](jref). The journal reference field may contain only
 full publication information for the article; the DOI field may contain
 only a DOI.
 
