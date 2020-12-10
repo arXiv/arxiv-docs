@@ -149,11 +149,13 @@ arXiv is surrounded by a community of researchers and developers working at the 
 
 While the arXiv team is focused on our core mission—providing rapid dissemination of research findings at no cost to readers and submitters—we are excited to be experimenting with a small number of collaborators on projects that add value for our stakeholders and advance research.
 
-Here are some of the projects that our collaborators are working on right now.
+Below are some of the projects that our collaborators are working on right now.
+
+Interested in proposing a new arXiv Labs project?<br/>
+<center><a onclick="pendo.feedback.openFeedback(event)" class="button is-dark is-medium is-rounded">Click to view existing proposals & submit new ideas</a></center>
 
 {{ render_project(page.meta.projects.pwc_links) }}
 {{ render_project(page.meta.projects.core_recommender) }}
 {{ render_project(page.meta.projects.bibliographic_overlay) }}
 <br/>
 We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
-Interested in proposing a new arXiv Labs project? Click to <button onclick="pendo.feedback.openFeedback(event)">view existing & submit new proposals</button>
