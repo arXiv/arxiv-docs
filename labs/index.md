@@ -118,7 +118,7 @@ projects:
         // Please use Strings, Numbers, or Bools for value types.
         pendo.initialize({
             visitor: {
-                id:              'arxiv-labs-user'   // Required if user is logged in
+                id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                 // email:        // Recommended if using Pendo Feedback, or NPS Email
                 // full_name:    // Recommended if using Pendo Feedback
                 // role:         // Optional
@@ -142,6 +142,7 @@ projects:
 </script>
 {% endmacro %}
 {{ pendo() }}
+
 # arXiv Labs
 
 arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
@@ -153,6 +154,6 @@ Here are some of the projects that our collaborators are working on right now.
 {{ render_project(page.meta.projects.pwc_links) }}
 {{ render_project(page.meta.projects.core_recommender) }}
 {{ render_project(page.meta.projects.bibliographic_overlay) }}
-
+<br/>
 We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
-If you are interested in proposing a new arXiv Labs project, please <a href="#" onclick="pendo.feedback.openFeedback(event)">submit a proposal</a>.
+Interested in proposing a new arXiv Labs project? Click to <button onclick="pendo.feedback.openFeedback(event)">view existing & submit new proposals</button>
