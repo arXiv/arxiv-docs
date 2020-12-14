@@ -1,13 +1,12 @@
 # arxiv/docs
 #
-# This image serves up the arXiv docs sites, including Help, About, Labs,
-# CoRR, and HyperTeX Help.
+# This image serves up the arXiv Labs site
 FROM arxiv/base-with-git:0.14.3
 
 WORKDIR /opt/arxiv/
 
 RUN pip install -U pip pipenv && \
-    pipenv install uwsgi arxiv-marxdown==0.2.4rc6  && \
+    pipenv install uwsgi arxiv-marxdown==0.2.4rc7  && \
     rm -rf ~/.cache/pip
 
 EXPOSE 8000
@@ -32,7 +31,7 @@ COPY ./.git /opt/arxiv/labs/source/.git/
 # Add the uwsgi config, which mounts each of the sites above.
 COPY ./deploy/uwsgi-labs.ini /opt/arxiv/uwsgi.ini
 
-# Build all sites.
+# Build the labs site.
 #
 # These are grouped together in a single RUN to cut down on layers.
 RUN ls -la /opt/arxiv/labs/source && \
