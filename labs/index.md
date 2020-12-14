@@ -152,7 +152,7 @@ While the arXiv team is focused on our core mission—providing rapid disseminat
 Below are some of the projects that our collaborators are working on right now.
 
 Interested in proposing a new arXiv Labs project?<br/>
-<center><a onclick="pendo.feedback.openFeedback(event)" class="button is-dark is-medium is-rounded">Click to view existing proposals & submit new ideas</a></center>
+<a onclick="pendo.feedback.openFeedback(event)" class="button-fancy">Click to view existing proposals & submit new ideas</a>
 
 {{ render_project(page.meta.projects.pwc_links) }}
 {{ render_project(page.meta.projects.core_recommender) }}
