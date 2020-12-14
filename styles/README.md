@@ -1,15 +1,12 @@
 # Style options for markdown pages
 
-Use the following css snippets inline on your markdown pages below your page header but above the content you want to style. To clear a float use a single ``#`` (an empty header) on its own line.
+Use the following css snippets inline on your markdown pages. Put the css below your page header but above the content you want to style. To clear a float use a single ``#`` (an empty header) on its own line.
 
 
 ## Images
 Add more style options for your images.
 
-### Example:
-[Governance Model](../about/governance)
-
-### Syntax
+### Syntax for Images
 Note that more than one class can be applied to an image.
 
 - make an image 100% width of content area :
@@ -42,7 +39,7 @@ Note that more than one class can be applied to an image.
 ![Alt tag here](images/image_name.jpg){.mkd-img-left .mkd-img-border}
 ```
 
-### CSS
+### CSS for Images
 ```
 <style>
 .mkd-img-border {
@@ -73,7 +70,7 @@ Note that more than one class can be applied to an image.
   display:block;
 }
 .mkd-img-thumb {
-  max-width:250px !important;
+  max-width:150px !important;
 }
 .mkd-img-icon {
   border-radius:25%;
@@ -84,11 +81,11 @@ Note that more than one class can be applied to an image.
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:1em;
+    margin-right:2em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:1em;
+    margin-left:2em;
   }
   .mkd-img-60 {
     width:60% !important;
@@ -102,11 +99,8 @@ Note that more than one class can be applied to an image.
 ## Ordered Lists
 The following styles will be automatically applied to any ordered lists, or ordered lists within a blockquote, on your page. A normal ordered list will produce a condensed list of items separated horizontally by some padding and a red bullet. Enclosing the ordered list within a blockquote will produce a 2-column list of bordered items with box shadows. Stacks to a single column on mobile.
 
-### Example:
-[Our Members](../about/ourmembers)
-
-### Syntax
-#### ordered list:
+### Syntax for Ordered List
+#### plain ordered list:
 ```
 1. item goes here
 1. another item here
@@ -119,7 +113,7 @@ The following styles will be automatically applied to any ordered lists, or orde
 > 1. final list item
 ```
 
-### CSS
+### CSS for Ordered List
 #### ordered list
 ```
 <style>
@@ -209,16 +203,16 @@ aside {
 The following styles will be automatically applied to any unordered lists within a blockquote on your page. They will reproduce a 'card' style layout with 4 cards in a row on desktop, 2 in a row on tablet, and a single stack on mobile.
 
 ### Example:
-[Scientific Advisory Board](../about/people/scientific_ad_board)
+[Scientific Advisory Board](https://arxiv.org/about/people/scientific_ad_board)
 
-### Syntax
+### Syntax for Unordered Lists within Blockquote
 ```
 > - First item
 > - This is a second item
 > - Third item here
 ```
 
-### CSS
+### CSS for Unordered List within Blockquote
 ```
 <style>
 blockquote {
@@ -265,9 +259,9 @@ blockquote ul li img {
 Use the following styles to add a subtle box-shadow around some content.
 
 ### Example:
-[Accessibility at arXiv](../about/accessibility)
+[Accessibility at arXiv](https://arxiv.org/about/accessibility)
 
-### Syntax
+### Syntax for Blockquotes
 ```
 > This content will appear in a blockquote.
 > So will this line. Be sure to add a carrot to each line in a blockquote even...
@@ -275,7 +269,7 @@ Use the following styles to add a subtle box-shadow around some content.
 > ... blank lines.
 ```
 
-### CSS
+### CSS for Blockquotes
 ```
 <style>
 blockquote {

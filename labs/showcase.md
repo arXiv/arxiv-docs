@@ -4,7 +4,7 @@ projects:
   bibliographic_overlay:
     title: arXiv Bibliographic Explorer
     repo: https://github.com/mattbierbaum/arxiv-bib-overlay
-    thumbnail: ../images/bib-explorer.png
+    thumbnail: images/bib-explorer.png
     collaborators:
     - name: Matt Bierbaum
       association: Cornell Computing and Information Science
@@ -17,7 +17,7 @@ projects:
   HTML5_readability:
     title: arXiv HTML5 & Readability
     repo: https://github.com/cul-it/arxiv-readability
-    thumbnail: ../images/readability.png
+    thumbnail: images/readability.png
     collaborators:
     - name: Michael Kohlhase
       association: Friedrich-Alexander Universität Erlangen-Nürnberg
@@ -32,7 +32,7 @@ projects:
       HTML is not a panacea, it is a first step in the right direction.
   core_recommender:
     title: CORE Recommender
-    thumbnail: ../images/core-recommender.png
+    thumbnail: images/core-recommender.png
     more_info:
     - name: arXiv:1705.00578
       link: https://arxiv.org/abs/1705.00578
@@ -51,7 +51,7 @@ projects:
   pwc_links:
     title: arXiv Links to Code
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
-    thumbnail: ../images/pwc-logo.png
+    thumbnail: images/pwc-logo.png
     collaborators:
     - name: Robert Stojnic
       association: Papers with Code / Facebook AI Research
@@ -118,7 +118,7 @@ projects:
         // Please use Strings, Numbers, or Bools for value types.
         pendo.initialize({
             visitor: {
-                id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
+                id:              'arxiv-labs-user'   // Required if user is logged in
                 // email:        // Recommended if using Pendo Feedback, or NPS Email
                 // full_name:    // Recommended if using Pendo Feedback
                 // role:         // Optional
@@ -141,6 +141,7 @@ projects:
 })('d6494389-b427-4103-7c76-03182ecc8e60');
 </script>
 {% endmacro %}
+{{ pendo() }}
 
 # arXiv Labs
 
@@ -148,10 +149,14 @@ arXiv is surrounded by a community of researchers and developers working at the 
 
 While the arXiv team is focused on our core mission—providing rapid dissemination of research findings at no cost to readers and submitters—we are excited to be experimenting with a small number of collaborators on projects that add value for our stakeholders and advance research.
 
-Here are some of the projects that our collaborators are working on right now.
+Below are some of the projects that our collaborators are working on right now.
+
+Interested in proposing a new arXiv Labs project?
+
+ <a onclick="pendo.feedback.openFeedback(event)" class="button-fancy">Click to view existing proposals & submit new ideas <span> </span></a>
 
 {{ render_project(page.meta.projects.pwc_links) }}
-{{ render_project(page.meta.projects.core_recommender) }} 
+{{ render_project(page.meta.projects.core_recommender) }}
 {{ render_project(page.meta.projects.bibliographic_overlay) }}
-
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs invitation to collaborate](/) and [guidelines for contributors](contributing), or contact nextgen@arxiv.org for more information about contributing to arXivLabs.
+<br/>
+We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
