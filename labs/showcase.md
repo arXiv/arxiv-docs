@@ -1,5 +1,5 @@
 ---
-title: 'arXiv Labs showcase'
+title: 'arXiv Labs Showcase'
 projects:
   bibliographic_overlay:
     title: arXiv Bibliographic Explorer
