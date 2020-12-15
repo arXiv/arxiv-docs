@@ -36,7 +36,7 @@ Withdrawal reasons must be appropriate for the withdrawal to be accepted.
 - It is not appropriate to withdraw a paper because it is published or submitted to a journal. Instead you could submit a [journal-ref](jref).
 - It is not appropriate to withdraw a paper because it is being updated. Instead you could submit a [replacement](replace).
 - It is not appropriate to withdraw a paper due to copyright infringement. Please instead see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
-- You may modify the abstract field only if the comments field is inadequate for your explanation. Removing the abstract totally is inappropriate and will result in a denial of your withdrawal request.
+
 
 
 Example Withdrawal
