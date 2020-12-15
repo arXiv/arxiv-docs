@@ -159,4 +159,4 @@ Interested in proposing a new arXiv Labs project?
 {{ render_project(page.meta.projects.core_recommender) }}
 {{ render_project(page.meta.projects.bibliographic_overlay) }}
 <br/>
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
+We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs invitation to collaborate](/) and [guidelines for contributors](contributing), or contact nextgen@arxiv.org, for more information about contributing to arXivLabs.
