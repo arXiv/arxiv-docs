@@ -53,6 +53,7 @@
   }
 }
 </style>
+
 {% macro pendo() %}
 <script>
 (function(apiKey){
@@ -91,7 +92,7 @@
 {% endmacro %}
 {{ pendo() }}
 
-![arXivLabs logo](images/smileybones-labs-icon.png){.mkd-img-thumb .mkd-img-left}
+<img alt="arXivLabs logo" src="images/smileybones-labs-icon.png" class="mkd-img-left mkd-img-thumb"/>
 
 arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
 
