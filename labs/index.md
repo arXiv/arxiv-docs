@@ -94,7 +94,7 @@
 
 <img alt="arXivLabs logo" src="images/smileybones-labs-icon.png" class="mkd-img-left mkd-img-thumb"/>
 
-arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase).
+arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase/).
 
 arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and share their products and services, as long as they abide by arXiv’s values of openness, community, excellence, and user data privacy.
 
