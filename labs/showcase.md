@@ -4,7 +4,7 @@ projects:
   bibliographic_overlay:
     title: arXiv Bibliographic Explorer
     repo: https://github.com/mattbierbaum/arxiv-bib-overlay
-    thumbnail: images/bib-explorer.png
+    thumbnail: ../images/bib-explorer.png
     collaborators:
     - name: Matt Bierbaum
       association: Cornell Computing and Information Science
@@ -17,7 +17,7 @@ projects:
   HTML5_readability:
     title: arXiv HTML5 & Readability
     repo: https://github.com/cul-it/arxiv-readability
-    thumbnail: images/readability.png
+    thumbnail: ../images/readability.png
     collaborators:
     - name: Michael Kohlhase
       association: Friedrich-Alexander Universität Erlangen-Nürnberg
@@ -32,7 +32,7 @@ projects:
       HTML is not a panacea, it is a first step in the right direction.
   core_recommender:
     title: CORE Recommender
-    thumbnail: images/core-recommender.png
+    thumbnail: ../images/core-recommender.png
     more_info:
     - name: arXiv:1705.00578
       link: https://arxiv.org/abs/1705.00578
@@ -51,7 +51,7 @@ projects:
   pwc_links:
     title: arXiv Links to Code
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
-    thumbnail: images/pwc-logo.png
+    thumbnail: ../images/pwc-logo.png
     collaborators:
     - name: Robert Stojnic
       association: Papers with Code / Facebook AI Research
