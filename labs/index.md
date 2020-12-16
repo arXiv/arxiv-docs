@@ -1,109 +1,58 @@
----
-title: 'arXiv Labs showcase'
-projects:
-  bibliographic_overlay:
-    title: arXiv Bibliographic Explorer
-    repo: https://github.com/mattbierbaum/arxiv-bib-overlay
-    thumbnail: images/bib-explorer.png
-    collaborators:
-    - name: Matt Bierbaum
-      association: Cornell Computing and Information Science
-    summary: |
-      arXiv Bibliographic Explorer displays information about works that cite
-      and are cited by arXiv papers and their published versions. The primary
-      objective of the project is to enable discovery of relevant research and
-      context by providing user-friendly navigation of an article's citation
-      tree.
-  HTML5_readability:
-    title: arXiv HTML5 & Readability
-    repo: https://github.com/cul-it/arxiv-readability
-    thumbnail: images/readability.png
-    collaborators:
-    - name: Michael Kohlhase
-      association: Friedrich-Alexander Universität Erlangen-Nürnberg
-    - name: Ben Firschman
-      association: arXiv-Vanity
-    - name: Deyan Ginev
-      association: Friedrich-Alexander Universität Erlangen-Nürnberg
-    summary: |
-      Our top priority is to provide a high-quality service to all arXiv authors
-      and readers. The overarching objective of this project is to significantly
-      improve the usability and accessibility of arXiv papers. While providing
-      HTML is not a panacea, it is a first step in the right direction.
-  core_recommender:
-    title: CORE Recommender
-    thumbnail: images/core-recommender.png
-    more_info:
-    - name: arXiv:1705.00578
-      link: https://arxiv.org/abs/1705.00578
-    - name: Research outputs by CORE
-      link: https://core.ac.uk/about/research-outputs/
-    collaborators:
-    - name: CORE Team
-      link: https://core.ac.uk/about/#team
-    summary: |
-      Explore relevant open access papers from across a global network of
-      research repositories while browsing arXiv. Research papers are
-      recommended from both arXiv and other over 10 thousand open access data
-      providers and brought to you by
-      <a href="https://core.ac.uk/" target="_blank" rel="noopener">CORE</a>,
-      the world’s largest aggregator of open access research.
-  pwc_links:
-    title: arXiv Links to Code
-    repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
-    thumbnail: images/pwc-logo.png
-    collaborators:
-    - name: Robert Stojnic
-      association: Papers with Code / Facebook AI Research
-    - name: Viktor Kerkez
-      association: Papers with Code / Facebook AI Research
-    - name: Ludovic Viaud
-      association: Papers with Code / Facebook AI Research
-    summary: |
-      arXiv Links to Code aims to provide an easy and convenient way to
-      find relevant code for a paper. It is using data from
-      <a href="https://paperswithcode.com" target="_blank" rel="noopener">
-      Papers with Code</a> - a free resource that links papers, code and
-      results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
----
+# arXivLabs: An invitation to collaborate
 
-{% macro render_project(project) %}
-<article class="card">
-  <div class="card-content">
-    <div class="columns">
-      <div class="column is-narrow-tablet">
-        <p class="image is-128x128" style="border: 1px solid gray"><img src="{{project.thumbnail}}" alt="" /></p>
-      </div>
-      <div class="column is-one-third-desktop is-one-half-tablet">
-        <h2>{{ project.title }}</h2>
-        <span class="label">Collaborator{%- if project.collaborators|length > 1 -%}s{%- endif -%}: </span>
-        {% for collaborator in project.collaborators %}
-        <p>{% if collaborator.link %}<a href="{{ collaborator.link }}" target="_blank" rel="noopener">{{ collaborator.name }}</a>{% else %}{{ collaborator.name }}{% endif %}<br />
-        {%- if collaborator.association -%}
-        <em>{{ collaborator.association }}</em></p>
-        {%- endif -%}
-        {% endfor %}
-      </div>
-      <div class="column">
-        <p>{{ project.summary|safe }}</p>
-      </div>
-    </div>
-    {%- if project.repo -%}
-    <p class="has-text-right"><span class="has-text-weight-bold">
-      Code: </span>{{ project.repo }}</p>
-    {%- endif -%}
-    {%- if project.more_info -%}
-    <p class="has-text-right"><span class="has-text-weight-bold">
-      More Information: </span><br/>
-      {%- for info in project.more_info -%}
-      <a href="{{ info.link}}" target="_blank" rel="noopener">{{ info.name }}</a><br/>
-      {%- endfor -%}
-    </p>
-    {%- endif -%}
-  </div>
-</article>
-{% endmacro %}
-
+<style>
+.mkd-img-border {
+  margin:1em 0px;
+  padding:10px;
+  border:.25em solid #ededed;
+}
+.mkd-horz-spacing {
+  margin-right:1em;
+  margin-left:1em;
+}
+.mkd-img-left {
+  float:left;
+  width:100%;
+  margin-top:0;
+}
+.mkd-img-right {
+  float:right;
+  width:100%;
+  margin-top:0;
+}
+.mkd-img-full {
+  width:100% !important;
+}
+.mkd-img-60 {
+  width:100% !important;
+  margin:0 auto;
+  display:block;
+}
+.mkd-img-thumb {
+  max-width:150px !important;
+}
+.mkd-img-icon {
+  border-radius:25%;
+  width:150px;
+  float:left;
+  margin:0 .5em;
+}
+@media (min-width: 576px) {
+  .mkd-img-left {
+    width:calc(50% - 1.25em);
+    margin-right:2em;
+  }
+  .mkd-img-right {
+    width:calc(50% - 1.25em);
+    margin-left:2em;
+  }
+  .mkd-img-60 {
+    width:60% !important;
+    margin:0 auto;
+    display:block;
+  }
+}
+</style>
 
 {% macro pendo() %}
 <script>
@@ -142,17 +91,21 @@ projects:
 </script>
 {% endmacro %}
 {{ pendo() }}
-# arXiv Labs
 
-arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
+<img alt="arXivLabs logo" src="images/smileybones-labs-icon.png" class="mkd-img-left mkd-img-thumb"/>
 
-While the arXiv team is focused on our core mission—providing rapid dissemination of research findings at no cost to readers and submitters—we are excited to be experimenting with a small number of collaborators on projects that add value for our stakeholders and advance research.
+arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase/).
 
-Here are some of the projects that our collaborators are working on right now.
+arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and share their products and services, as long as they abide by arXiv’s values of openness, community, excellence, and user data privacy.
 
-{{ render_project(page.meta.projects.pwc_links) }}
-{{ render_project(page.meta.projects.core_recommender) }}
-{{ render_project(page.meta.projects.bibliographic_overlay) }}
+arXivLabs projects are categorized under the following criteria:
 
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see our [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXiv software development.
-If you are interested in proposing a new arXiv Labs project, please <a href="#" onclick="pendo.feedback.openFeedback(event)">submit a proposal</a>.
+1. **Community** Projects that leverage arXiv services, and have an operational agreement or understanding, but are maintained and deployed fully outside of arXiv. These projects meet minimal technical criteria, and may need funding to offset costs. This category includes research projects, as well as external applications (such as mobile apps or mirror sites) and widgets on external websites.
+2. **Platform** Experimental projects maintained by external collaborators and deployed (in whole or part) on arXiv infrastructure. These projects must meet additional technical criteria.
+3. **Core** Experimental projects that add a great deal of value to the arXiv platform, and which are deemed feasible to maintain by the core arXiv IT team, may be incorporated as a core feature or service. These projects undergo additional rigorous scrutiny to ensure maintainability, security, and reliability.
+
+To apply to the arXivLabs community, learn more about the [criteria](criteria) and then <a href="#" onclick="pendo.feedback.openFeedback(event)">submit a proposal</a>.
+
+Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
+
+_Note: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses, and colors are only allowed with the explicit written permission from the arXiv management team._
