@@ -19,7 +19,7 @@ Papers submitted after 14:00 Eastern on Wednesday 25 November and before 14:00 E
 
 **December 2020 Holiday Schedule:** 
 
- - *No new submission announcement on 25 December 2020.* There will be no new submission announcement and limited user support for Friday 25 December 2020.
+ - *No new submission announcement on 27 December 2020.* Our staff will be on holiday and there will be limited user support for Friday 25 December 2020. There will also be no new submission announcement at 20:00 Eastern Sunday 27 December. 
 Papers submitted after 14:00 Eastern on Thursday 24 December and before 14:00 Eastern on Monday 28 December will be announced at 20:00 Eastern on Monday 28 December.
  - *No new submission announcement on 29 and 30 December 2020.* There will be no new submission announcement and limited user support for Tuesday 29 December and Wednesday 30 December 2020.
 Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 Eastern on Thursday 31 December will be announced at 20:00 Eastern on Thursday 31 December.
