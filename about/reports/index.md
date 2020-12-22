@@ -70,6 +70,8 @@
 [2013 Roadmap](/about/reports/2013_roadmap.pdf)
 
 ## Annual Institutional Usage (Downloads) Statistics
+[2019 Institutional Usage](/about/reports/2019_usage)
+
 [2018 Institutional Usage](/about/reports/2018_usage)
 
 [2017 Institutional Usage](/about/reports/2017_usage)
