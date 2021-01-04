@@ -43,8 +43,8 @@ arXiv's Scientific Advisory Board is composed of scientists and researchers in d
 
 ## Current Board Members
 
-> -   ### Eberhard Bodenschatz
-Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
+> -   ### Sara Del Valle
+Deputy Group Leader, Los Alamos National Laboratory
 > -   ### Mark Doyle
 Chief Information Officer, American Physical Society (APS Physics)
 > -   ### Gregory Gabadadze
