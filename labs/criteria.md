@@ -53,6 +53,7 @@
 
 [Core Projects](#CoreProjects)
 
+<span id="CommunityProjects"></span>
 ## **Community Projects**
 
 Community Projects are experimental and developed completely externally from arXiv itself. Community Projects can serve research purposes without any specific objectives to produce user-facing components, but may involve integration with arXiv APIs or other systems. Other Community Projects may have a specific user-facing objective, e.g., rendering arXiv LaTeX sources as HTML, or a mobile application to visualize arXiv articles.
@@ -103,6 +104,7 @@ While Community Projects may originate from a variety of internal and external s
 - Community Projects that leverage arXiv APIs must follow the terms and conditions of use, which specify allowable request rates and other restrictions.
 - The arXiv IT team will work with individuals or projects that require specialized access to arXiv systems, or that require higher request rates via arXiv APIs, to define levels of resource use that are acceptable. If a project requires significant additional resources (including IT team support), cost recovery from the project may be necessary.
 
+<span id="PlatformProjects"></span>
 ## **Platform Projects**
 
 Labs Platform Projects encompass experimental projects that are deployed as part of the production [arXiv.org](https://arxiv.org/) site, most likely in the arXivLabs tabs below the main record page content. Platform Project components have passed quality and security criteria, and have been evaluated/adapted for consistency with the arXiv system architecture. User-facing Platform Project components are visually distinguished from core production components, as all features that live within the arXivLabs tabs are subject to discontinuation or change.
@@ -173,6 +175,7 @@ Labs Platform Projects encompass experimental projects that are deployed as part
 - The decision to suspend or decommission a Platform Project from the arXiv production platform will be made at the discretion of the arXiv IT Team lead and/or the Lead System Architect.
 - Since Platform Projects are required to make source code available under a permissive open-source license, nothing prevents further development of the codebase itself by external parties.
 
+<span id="CoreProjects"></span>
 ## **Core Projects**
 
 Core Projects will be considered on a case-by-case basis.
