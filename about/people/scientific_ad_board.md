@@ -43,14 +43,13 @@ arXiv's Scientific Advisory Board is composed of scientists and researchers in d
 
 ## Current Board Members
 
+> -   ### Eitan Bachmat
+Professor, Department of Computer Science, Ben-Gurion University \|
+    Consultant for Theoretical Computer Science, Simons Foundation
 > -   ### Sara Del Valle
 Deputy Group Leader, Los Alamos National Laboratory
 > -   ### Mark Doyle
 Chief Information Officer, American Physical Society (APS Physics)
-> -   ### Gregory Gabadadze
-Professor of Physics, New York University \|
-    Associate Director of the Mathematics and Physical Sciences
-    Division, Simons Foundation
 > -   ### Paul Ginsparg
 Professor of Physics & Computing and Information
     Science, Cornell University
