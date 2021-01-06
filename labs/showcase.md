@@ -65,6 +65,22 @@ projects:
       <a href="https://paperswithcode.com" target="_blank" rel="noopener">
       Papers with Code</a> - a free resource that links papers, code and
       results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
+  connected_papers:
+    title: Connected Papers
+    repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/connectedpapers.js
+    thumbnail: ../images/connected-papers.jpg
+    collaborators:
+    - name: Alex Eitan Tarnavsky
+      association: Connected Papers
+    - name: Eddie Smolyansky
+      association: Connected Papers
+    - name: Itay Knaan Harpaz
+      association: Connected Papers
+    - name: Sahar Perets
+      association: Connected Papers
+    summary: |
+      <a href="https://www.connectedpapers.com" target="_blank" rel="noopener">Connected Papers</a>
+      is a unique, visual tool to help researchers and applied scientists find and explore papers relevant to their field of work.
 ---
 
 {% macro render_project(project) %}
@@ -155,6 +171,7 @@ Interested in proposing a new arXiv Labs project?
 
  <a onclick="pendo.feedback.openFeedback(event)" class="button-fancy">Click to view existing proposals & submit new ideas <span> </span></a>
 
+{{ render_project(page.meta.projects.connected_papers) }}
 {{ render_project(page.meta.projects.pwc_links) }}
 {{ render_project(page.meta.projects.core_recommender) }}
 {{ render_project(page.meta.projects.bibliographic_overlay) }}
