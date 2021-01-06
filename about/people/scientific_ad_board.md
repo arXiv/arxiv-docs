@@ -101,7 +101,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
--   Eberhard Bodenschatz, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
+-   Eberhard Bodenschatz, Max Planck Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
 -   Gregory Gabadadze, New York University \| Simons Foundation
 -   Nicholas Read, Yale University 
 -   David Eppstein, University of California, Irvine
