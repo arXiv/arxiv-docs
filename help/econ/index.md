@@ -16,4 +16,4 @@ The advisory committee members serve as consultants to Cornell University and to
 - Adam Guren (Boston University)
 - Fabien Postel-Vinay (University College London)
 - Joerg Stoye, Chair, (Cornell University)
-- Martin Weidner, (University College London)
+- Martin Weidner, Vice-Chair, (University College London)
