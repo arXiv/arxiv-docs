@@ -45,7 +45,7 @@ This will stop detection of unknown file type and will thus stop the file being 
 
 It is very rarely necessary to do this explicitly because arXiv employs a series of heuristics which can usually determine the top-level file. For example, if only one of a set of LaTeX files contains a `\documentclass` command, that file is very likely the top-level file.
 
-If it is necessary, however, include a line that says:
+If it is necessary (e.g., if you are using the `subfiles.cls` class in your document's structure), include a line that says:
 
 ```
 myMainTexFile.tex toplevelfile
