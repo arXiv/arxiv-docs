@@ -1,8 +1,8 @@
 The arXiv endorsement system
 ============================
 
-Since January 17, 2004 arXiv has required that users be *endorsed*
-before submitting their first paper to a category or subject class.
+arXiv requires that users be *endorsed*
+before submitting their first paper to a category.
 
 Why does arXiv require endorsement?
 -----------------------------------
