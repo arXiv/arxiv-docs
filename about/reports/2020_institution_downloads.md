@@ -1,14 +1,11 @@
 # Downloads by Institution in 2020
-Learn more about our [Institutional Membership program](/about/membership)
 
-## arXiv in Numbers
+_Navigate back to [arXiv in Numbers](/about/reports/2020_usage)_
 
+The following table shows the institutions with the most downloads in 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
 
-2020 Usage: [Top 250](2020_usage),  [Top 1000](2020_usage_by_institution), [Top 1000 by archive](2020_usage_by_institution_archive)
+**Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 
-2009-2020 Usage: [Top 1000](usage_by_institution_by_year)
-
-Submissions: [2009+ by Category](submission_category_by_year)
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 742px; height: 799px; border: 1px solid gray;'>
