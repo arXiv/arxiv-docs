@@ -18,6 +18,15 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 _Learn more about our [Institutional Membership program](/about/membership)._
 
 
+**Caveats**: While we have taken considerable effort to extract reliable data, there are many factors which affect accuracy.
+
+These factors include but are not limited to the following:
+1) the data is from the main arXiv site and the arXiv mirrors, though some mirror data is incomplete;
+2) we have counted downloads according to the COUNTER algorithm which excludes rapid repeat downloads;
+3) we have attempted to identify and remove robot or automated downloads from the count (false positives lead to undercounting, failing to identify robots leads to overcounting); and
+4) for institutional downloads, we include only downloads that appear to be from an institution based on the DNS name of the client for patterns that we recognize. Clients with host names that don't resolve or have off-campus access will not be recognized and lead to undercounts.
+Downloads from commercial ISPs are not included.
+
 Delete below:
 
 2020 Usage: [Top 250](2020_usage),  [Top 1000](2020_usage_by_institution), [Top 1000 by archive](2020_usage_by_institution_archive)
@@ -26,13 +35,7 @@ Delete below:
 
 Submissions: [2009+ by Category](submission_category_by_year)
 
-**Caveats**: While we have taken considerable effort to extract reliable download data representing unique full-text downloads by real users, there are many factors which affect accuracy.
-These factors include:
-1) the data is from the main arXiv site and the arXiv mirrors, though some mirror data is incomplete;
-2) we have counted downloads according to the COUNTER algorithm which excludes rapid repeat downloads;
-3) we have attempted to identify and remove robot or automated downloads from the count (false positives lead to undercounting, failing to identify robots leads to overcounting); and
-4) we include here only downloads that appear to be from an institution based on the DNS name of the client for patterns that we recognize. Clients with host names that don't resolve or have off-campus access will not be recognized and lead to undercounts.
-Downloads from commercial ISPs are not included.
+
 
 |	Rank	|	Institutional Domain	|	Percentage of Total	|	Number of Article Downloads	|
 |:---:|------|------|-------|
