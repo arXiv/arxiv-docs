@@ -1,38 +1,14 @@
-# arXiv in Numbers
+# Top 250 Institutions with Highest Total Downloads in 2020
 
-Here, you can find information about arXiv usage in terms of submissions and downloads.
+_Navigate back to [arXiv in Numbers](/about/reports/2020_usage)_
 
-[Total Downloads and Submissions](/help/stats)
+The following list ranks the top 250 institutions according to their number of downloads in 2020.
 
-[Total Submissions by Category (2009-2020)](submission_category_by_year)
+[Institutional members](/about/ourmembers) are critical to arXiv's mission -- thank you! Not a member yet? Learn more about [becoming an institutional member](/about/membership) today.
 
-[Downloads by Institution (2020)](/about/reports/2020_institutional_downloads)
+**Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 
-[Downloads by Institution (2009 - 2020)](/about/reports/2020_institutional_downloads_by_year)
-
-[Downloads by Institution by Archive Subject (2020)](/about/reports/2020_institutional_downloads_by_archive)
-
-[Submissions by Institution (2018, 2019, 2020)](/about/reports/2020_submissions_by_institution)
-
-
-_Learn more about our [Institutional Membership program](/about/membership)._
-
-
-Delete below:
-
-2020 Usage: [Top 250](2020_usage),  [Top 1000](2020_usage_by_institution), [Top 1000 by archive](2020_usage_by_institution_archive)
-
-2009-2020 Usage: [Top 1000](usage_by_institution_by_year)
-
-Submissions: [2009+ by Category](submission_category_by_year)
-
-**Caveats**: While we have taken considerable effort to extract reliable download data representing unique full-text downloads by real users, there are many factors which affect accuracy.
-These factors include:
-1) the data is from the main arXiv site and the arXiv mirrors, though some mirror data is incomplete;
-2) we have counted downloads according to the COUNTER algorithm which excludes rapid repeat downloads;
-3) we have attempted to identify and remove robot or automated downloads from the count (false positives lead to undercounting, failing to identify robots leads to overcounting); and
-4) we include here only downloads that appear to be from an institution based on the DNS name of the client for patterns that we recognize. Clients with host names that don't resolve or have off-campus access will not be recognized and lead to undercounts.
-Downloads from commercial ISPs are not included.
+-----insert updated table here----
 
 |	Rank	|	Institutional Domain	|	Percentage of Total	|	Number of Article Downloads	|
 |:---:|------|------|-------|
