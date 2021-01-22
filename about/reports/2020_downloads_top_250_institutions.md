@@ -2,9 +2,7 @@
 
 _See more [arXiv in Numbers](/about/reports/2020_usage)_
 
-The following list ranks the top 250 institutions according to their number of downloads in 2020.
-
-[Institutional members](/about/ourmembers) are critical to arXiv's mission -- thank you! Not a member yet? Learn more about [becoming an institutional member](/about/membership) today.
+The following list ranks the top 250 institutions according to their number of downloads in 2020. 
 
 **Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 

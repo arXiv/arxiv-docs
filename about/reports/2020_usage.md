@@ -19,7 +19,7 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 
 * [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive)
 
-* [Submissions by Institution (2018, 2019, 2020)](2020_submissions_by_institution) -- Coming soon!
+* [Submissions by Institution (2018, 2019, 2020)](2020_institution_submissions) -- Coming soon!
 
 Not a member yet? Check out your organization's statistics below and learn more about [becoming an institutional member](/about/membership). Questions or suggestions? Email [membership@arXiv.org](Mailto:membership@arXiv.org).
 
