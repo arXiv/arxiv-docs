@@ -1,6 +1,6 @@
 # Top 250 Institutions with Highest Total Downloads in 2020
 
-_Navigate back to [arXiv in Numbers](/about/reports/2020_usage)_
+_See more [arXiv in Numbers](/about/reports/2020_usage)_
 
 The following list ranks the top 250 institutions according to their number of downloads in 2020.
 

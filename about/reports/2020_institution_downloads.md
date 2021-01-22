@@ -1,6 +1,6 @@
 # Downloads by Institution in 2020
 
-_Navigate back to [arXiv in Numbers](/about/reports/2020_usage)_
+_See more [arXiv in Numbers](/about/reports/2020_usage)_
 
 The following table shows the institutions with the most downloads in 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
 

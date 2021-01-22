@@ -1,11 +1,8 @@
-# Submissions by Category, 2009+
-Learn more about our [Institutional Membership program](/about/membership)
+# Submissions by Category since 2009+
 
-2020 Usage: [Top 250](2020_usage),  [Top 1000](2020_usage_by_institution), [Top 1000 by archive](2020_usage_by_institution_archive)
+_Navigate back to [arXiv in Numbers](/about/reports/2020_usage)_
 
-2009-2020 Usage: [Top 1000](usage_by_institution_by_year)
-
-Submissions: [2009+ by Category](submission_category_by_year)
+The following tables show submissions to arXiv by [category](category_taxonomy). Explore different views of the data by toggling between sheets.
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 842px; height: 630px; border: 1px solid gray;'>
@@ -19,4 +16,3 @@ Submissions: [2009+ by Category](submission_category_by_year)
   <param name='showAppBanner' value='false' />
   </object>
 </div>
-

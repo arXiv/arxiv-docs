@@ -1,11 +1,11 @@
-# Downloads by Institution Archive in 2020
-Learn more about our [Institutional Membership program](/about/membership)
+# Institutional Downloads by Subject Archive in 2020
 
-2020 Usage: [Top 250](2020_usage),  [Top 1000](2020_usage_by_institution), [Top 1000 by archive](2020_usage_by_institution_archive)
+_See more [arXiv in Numbers](/about/reports/2020_usage)_
 
-2009-2020 Usage: [Top 1000](usage_by_institution_by_year)
+The following table shows institutions' downloads across [subject archives](/category_taxonomy) for 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
 
-Submissions: [2009+ by Category](submission_category_by_year)
+**Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
+
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 742px; height: 599px; border: 1px solid gray;'>
@@ -19,4 +19,3 @@ Submissions: [2009+ by Category](submission_category_by_year)
   <param name='showAppBanner' value='false' />
   </object>
 </div>
-
