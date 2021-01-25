@@ -43,14 +43,13 @@ arXiv's Scientific Advisory Board is composed of scientists and researchers in d
 
 ## Current Board Members
 
-> -   ### Eberhard Bodenschatz
-Professor, Max-Planck-Institut für Dynamik und Selbstorganisation, Göttingen \| Professor of Physics, Cornell University
+> -   ### Eitan Bachmat
+Professor, Department of Computer Science, Ben-Gurion University \|
+    Consultant for Theoretical Computer Science, Simons Foundation
+> -   ### Sara Del Valle
+Deputy Group Leader, Los Alamos National Laboratory
 > -   ### Mark Doyle
 Chief Information Officer, American Physical Society (APS Physics)
-> -   ### Gregory Gabadadze
-Professor of Physics, New York University \|
-    Associate Director of the Mathematics and Physical Sciences
-    Division, Simons Foundation
 > -   ### Paul Ginsparg
 Professor of Physics & Computing and Information
     Science, Cornell University
@@ -102,6 +101,8 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   Eberhard Bodenschatz, Max Planck Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
+-   Gregory Gabadadze, New York University \| Simons Foundation
 -   Nicholas Read, Yale University 
 -   David Eppstein, University of California, Irvine
 -   Jennifer Ross, University of Massachusetts, Amherst
