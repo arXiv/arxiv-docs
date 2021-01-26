@@ -39,7 +39,7 @@ Submissions to arXiv must be the author’s original work, and users must have t
 Articles submitted to arXiv must be of refereeable quality, and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. We may request that a particular author limit their submission rate if this author has a history of many submissions to inappropriate areas or of doubtful refereeability. 
 If an author has a back catalog of work to submit to arXiv we ask that they submit no more than three papers per day.
 
-## What policies guide moderation before public announcement?
+## What policies guide moderation after public announcement?
 
 Once a paper is announced it becomes part of the permanent scholarly record. While arXiv reserves the right to remove any content, arXiv will only consider requests for removal if the submitter did not have the legal right to [agree to the license](/help/license).
 
