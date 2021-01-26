@@ -20,7 +20,7 @@ arXiv only accepts submissions in the form of an article that would be refereeab
 
 ### Inappropriate format
 
-Abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, or articles containing advertisements will be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germaine "Comment on" and "Reply to" articles must still conform to refereeable standards (for example, as if they were a "letter to the editor"). arXiv may limit excessive back and forth to a single "reply to" and "comment on" per original paper, updates to the discourse are to be made through [replacements](/help/replace). 
+Abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, or articles containing advertisements may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germaine "Comment on" and "Reply to" articles must still conform to refereeable standards (for example, as if they were a "letter to the editor"). arXiv may limit excessive back and forth to a single "reply to" and "comment on" per original paper, updates to the discourse are to be made through [replacements](/help/replace). 
 
 ### Inappropriate topic
 
