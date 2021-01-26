@@ -2,7 +2,7 @@
 
 _See more [arXiv in Numbers](/about/reports/2020_usage)_
 
-The following table shows downloads by institution from 2009 to 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
+Select the domain of interest by checking the appropriate box. The resulting table will show downloads by institution from 2009 to 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
 
 **Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 

@@ -3,6 +3,8 @@ arXiv usage statistics
 
 **Submission statistics:**
 
+_See more [arXiv in Numbers](about/reports/2020_usage)_
+
 -   [Monthly submission
     totals](/stats/monthly_submissions)
 -   [Submission totals broken down by major subject areas through

@@ -15,18 +15,16 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 
 * [Downloads by Institution (2020)](2020_institution_downloads)
 
-* [Downloads by Institution (2009 - 2020)](2020_institution_downloads_by_year)
-
 * [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive)
 
-* [Submissions by Institution (2018, 2019, 2020)](2020_institution_submissions) -- Coming soon!
+* [Downloads by Institution (2009 - 2020)](2020_institution_downloads_by_year)
+
+* [Submissions by Institution (2018, 2019, 2020)](2020_institution_submissions)
 
 Not a member yet? Check out your organization's statistics below and learn more about [becoming an institutional member](/about/membership). Questions or suggestions? Email [membership@arXiv.org](Mailto:membership@arXiv.org).
 
 
-**Caveats**: While we have made considerable effort to extract reliable data, there are many factors which affect accuracy.
-
-These factors include but are not limited to the following:
+**Caveats**: While we have made considerable effort to extract reliable data, there are many factors which affect accuracy. These factors include but are not limited to the following:
 1) the data is from the main arXiv site and the arXiv mirrors, though some mirror data is incomplete;
 2) we have counted downloads according to the COUNTER algorithm which excludes rapid repeat downloads;
 3) we have attempted to identify and remove robot or automated downloads from the count (false positives lead to undercounting, failing to identify robots leads to overcounting); and
