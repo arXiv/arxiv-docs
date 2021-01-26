@@ -45,7 +45,7 @@ Once a paper is announced it becomes part of the permanent scholarly record. Whi
 
 In cases where papers that are posted are found to violate arXiv policy we may [withdraw the paper](/help/withdraw). arXiv may also indicate the concern in the Comments metadata.
 
-arXiv may reclassify already announced papers if the moderators determine there is a better categorization.
+arXiv may reclassify already announced papers if the moderators determine there is a more appropriate categorization.
 
 
 <span id="appeal"></span>
