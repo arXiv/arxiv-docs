@@ -3,7 +3,7 @@
 ## Annual Reports
 [2020 Annual Report](/about/reports/2020_annual_report.pdf)
 
-[2020 arXiv in Numbers](/about/reports/arXiv_update_January_2018.pdf)
+[2020 arXiv in Numbers](/about/reports/2020_usage)
 
 ## Annual Updates
 [2020 Annual Update](/about/reports/2020_update)
