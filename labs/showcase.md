@@ -52,9 +52,6 @@ projects:
     title: arXiv Links to Code
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
     thumbnail: ../images/pwc-logo.png
-    more_info:
-    - name: About Connected Papers
-      link: https://www.connectedpapers.com/about
     collaborators:
     - name: Robert Stojnic
       association: Papers with Code / Facebook AI Research
@@ -72,6 +69,9 @@ projects:
     title: Connected Papers
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/connectedpapers.js
     thumbnail: ../images/connected-papers.png
+    more_info:
+    - name: About Connected Papers
+      link: https://www.connectedpapers.com/about
     collaborators:
     - name: Alex Eitan Tarnavsky
       association: Connected Papers
