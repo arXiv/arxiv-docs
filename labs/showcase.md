@@ -52,6 +52,9 @@ projects:
     title: arXiv Links to Code
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js
     thumbnail: ../images/pwc-logo.png
+    more_info:
+    - name: About Connected Papers
+      link: https://www.connectedpapers.com/about
     collaborators:
     - name: Robert Stojnic
       association: Papers with Code / Facebook AI Research
@@ -68,7 +71,7 @@ projects:
   connected_papers:
     title: Connected Papers
     repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/connectedpapers.js
-    thumbnail: ../images/connected-papers.jpg
+    thumbnail: ../images/connected-papers.png
     collaborators:
     - name: Alex Eitan Tarnavsky
       association: Connected Papers
@@ -81,6 +84,14 @@ projects:
     summary: |
       <a href="https://www.connectedpapers.com" target="_blank" rel="noopener">Connected Papers</a>
       is a unique, visual tool to help researchers and applied scientists find and explore papers relevant to their field of work.
+
+      You can use Connected Papers to:
+      <ul>
+        <li>Get a visual overview of a new academic field</li>
+        <li>Create a bibliography to your thesis</li>
+        <li>Discover the most relevant prior and derivative works</li>
+        <li>Or simply explore paper-space!</li>
+      </ul>
 ---
 
 {% macro render_project(project) %}
