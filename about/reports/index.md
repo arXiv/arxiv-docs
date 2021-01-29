@@ -1,7 +1,7 @@
 # arXiv Reports
 
 ## Annual Reports
-[2020 Annual Report](/about/reports/2020_annual_report.pdf)
+2020 Annual Report - coming soon
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
 
