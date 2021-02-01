@@ -1,7 +1,7 @@
 # arXiv Reports
 
 ## Annual Reports
-2020 Annual Report - coming soon
+[2020 Annual Report](https://indd.adobe.com/view/fdd63397-e4b0-41af-b479-4845dc1ef48e)
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
 
