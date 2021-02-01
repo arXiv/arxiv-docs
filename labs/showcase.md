@@ -93,7 +93,11 @@ projects:
         <li>Or simply explore paper-space!</li>
       </ul>
 ---
-
+<style>
+h1#arxivlabs {
+  margin-top: 0;
+}
+</style>
 {% macro render_project(project) %}
 <article class="card">
   <div class="card-content">
@@ -169,8 +173,7 @@ projects:
 </script>
 {% endmacro %}
 {{ pendo() }}
-
-# arXiv Labs
+# arXivLabs: Showcase
 
 arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
 
