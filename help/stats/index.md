@@ -8,7 +8,7 @@ _See more [arXiv in Numbers](about/reports/2020_usage)_
 -   [Monthly submission
     totals](/stats/monthly_submissions)
 -   [Submission totals broken down by major subject areas through
-    2019](2019_by_area/index)
+    2019](2020_by_area/index)
 
 **Access and download statistics:**
 
