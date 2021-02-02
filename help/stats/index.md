@@ -11,6 +11,6 @@ arXiv usage statistics
 -   [Today's usage for arXiv.org](/stats/today) (not
     including mirrors)
 -   [Monthly download rates](/stats/monthly_downloads)
--   [Annual institutional downloads](about/reports/2020_usage)
+-   [Annual institutional downloads](/about/reports/2020_usage)
 
-_Explore more [arXiv in Numbers](about/reports/2020_usage)_
+_Explore more [arXiv in Numbers](/about/reports/2020_usage)_
