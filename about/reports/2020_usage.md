@@ -15,12 +15,12 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 
 * [Downloads by Institution (2020)](2020_institution_downloads)
 
-* [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_year)
+* [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive)
 
 * [Downloads by Institution (2009 - 2020)](2020_institution_downloads_by_year)
 
 
-Not a member yet? Check out your organization's statistics below and learn more about [becoming an institutional member](/about/membership). Questions or suggestions? Email [membership@arXiv.org](Mailto:membership@arXiv.org).
+Not a member yet? Check out your organization's statistics above and learn more about [becoming an institutional member](/about/membership). Questions or suggestions? Email [membership@arXiv.org](Mailto:membership@arXiv.org).
 
 
 **Caveats**: While we have made considerable effort to extract reliable data, there are many factors which affect accuracy. These factors include but are not limited to the following:
