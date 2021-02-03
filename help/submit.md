@@ -140,7 +140,8 @@ for an erratum. Instead, [replace](replace) the original submission.
 
 <span id="availability"></span>
 
-Availability of submissions and announcement order
+Availability of submissions
+
 --------------------------------------------------
 
 For more information on submission availability, see, our [public availability](/help/availability) page. 
