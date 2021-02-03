@@ -1,4 +1,4 @@
-Availability of submissions and announcement order
+Availability of submissions
 ==================================================
 
 Submissions to arXiv are typically made public Sunday through
