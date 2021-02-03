@@ -3,7 +3,7 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us [through our user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1) or at help@arxiv.org. 
+If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us [through our user support portal](http://arxiv.org/support/general_help) or at help@arxiv.org. 
 
 Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and holidays.
 
@@ -14,7 +14,7 @@ Note that arXiv help and moderation email addresses are monitored between 0900-1
 
 ## Moderation queries
 
-If you have questions about the status of your submission, contact us [through our user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2) or at moderation@arxiv.org.
+If you have questions about the status of your submission, contact us [through our user support portal](https://arxiv.org/support/moderation_help) or at moderation@arxiv.org.
  
 -   Send a precise email, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
 -   Please be *patient*, as moderation appeals are complicated and may

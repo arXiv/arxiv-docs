@@ -1,5 +1,10 @@
 # arXiv Reports
 
+## Annual Reports
+[2020 Annual Report](https://indd.adobe.com/view/fdd63397-e4b0-41af-b479-4845dc1ef48e)
+
+[2020 arXiv in Numbers](/about/reports/2020_usage)
+
 ## Annual Updates
 [2020 Annual Update](/about/reports/2020_update)
 
@@ -70,6 +75,8 @@
 [2013 Roadmap](/about/reports/2013_roadmap.pdf)
 
 ## Annual Institutional Usage (Downloads) Statistics
+[2019 Institutional Usage](/about/reports/2019_usage)
+
 [2018 Institutional Usage](/about/reports/2018_usage)
 
 [2017 Institutional Usage](/about/reports/2017_usage)
