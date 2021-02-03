@@ -56,7 +56,7 @@ It is possible to appeal the classification of an announced article, or the deci
 
 If you disagree with a moderation decision, you may submit an appeal. Please carefully follow the directions below.
 
-- You can submit an appeal through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2) or by sending an email to to moderation@arxiv.org.
+- You can submit an appeal through our [user support portal](https://arxiv.org/support/moderation_help) or by sending an email to to moderation@arxiv.org.
 - In your appeal please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
 - You will get an email from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
 - Please be patient, as moderation appeals are complicated and take some time.
