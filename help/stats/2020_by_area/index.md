@@ -24,7 +24,7 @@ The current submission rates (i.e., averaged over calendar year 2020) as percent
 *   [eess](#eess_yearly) (9343): 5.2%
 *   [quant-ph](#quant-ph_gr-qc_yearly) (6305): 3.5%
 *   [stat](#stat_yearly) (5138): 2.9%
-*   [quant-ph](#quant-ph_gr-qc_yearly) (3361): 1.9%
+*   [gr-qc](#quant-ph_gr-qc_yearly) (3361): 1.9%
 *   [q-bio](#q-bio_yearly) (2765): 1.6%
 *   [nucl](#nucl_yearly) (1752): 1.0%
 *   [econ](#econ_yearly) (1064): 0.6%
@@ -80,7 +80,7 @@ Graphs of yearly submission rates by subject areas
 
 ![HEP submissions by year](hep_yearly.png)
 
-<span id="quant-ph_gr-qc_yearly"></span>
+<span id="quant-ph_gr-qc_yearly"></span><span id="nucl_yearly"></span>
 
 ![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)    ![nucl-* submissions by year](nucl_yearly.png)
 
