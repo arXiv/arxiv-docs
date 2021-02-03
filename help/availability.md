@@ -23,5 +23,4 @@ It may be the case that a submission appears in a different identifier month due
 Special availability for holidays
 ---------------------------------
 
-There are no scheduled holidays at this time. Keep an eye on this space for announcement
-availability changes.
+There are no scheduled holidays at this time. Keep an eye on this space for the announcement of any deferred mailing.
