@@ -259,6 +259,5 @@ The following list ranks the top 250 institutions according to their number of d
 | 249 | roma1.infn.it | 0.06% | 20320                                    |
 | 250 | univ-lyon1.fr | 0.06% | 20101                                    |
 
-(\*) Some institutions' downloads come from multiple domains which have been combined to report an aggregate number:
 
 (\**) Some institutions' downloads were created via an alternative method due to anomalies and are noted by the parentheses around the rank number.
