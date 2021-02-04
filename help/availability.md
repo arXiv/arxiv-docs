@@ -1,6 +1,6 @@
 # Availability of submissions
-===========================
-==================================================
+=============================
+
 
 Submissions to arXiv are typically made public Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
