@@ -30,7 +30,7 @@ Announcement Schedule
 | Friday 14:00 &ndash; Monday 14:00 | Monday 20:00 | Monday night / Tuesday morning |
 
 <a name="holiday"></a>
-Special availability for holidays
----------------------------------
+On Deferred Mailings
+--------------------
 
-There are no scheduled holidays at this time. Keep an eye on this space for the announcement of any deferred mailing.
+On the occasion that arXiv defers a mailing (either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons), this information may be found on the [arXiv status](https://status.arxiv.org), or on the [arXiv blog](https://blog.arxiv.org).  
