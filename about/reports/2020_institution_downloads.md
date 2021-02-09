@@ -15,7 +15,7 @@ The following table shows the institutions with the most downloads in 2020. To s
   <param name='site_root' value='' />
   <param name='name' value='arXiv2020byInstitution&#47;arXiv2020ByInstitution' />
   <param name='tabs' value='no' />
-  <param name='toolbar' value='no' />
+  <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
   </object>
 </div>

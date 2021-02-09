@@ -12,7 +12,7 @@ The following tables show submissions to arXiv by [category](category_taxonomy).
   <param name='site_root' value='' />
   <param name='name' value='arXivSubmissions&#47;SubgroupByYear' />
   <param name='tabs' value='yes' />
-  <param name='toolbar' value='no' />
+  <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
   </object>
 </div>
