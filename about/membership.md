@@ -17,7 +17,7 @@ In addition to being a part of a shared investment in a culturally embedded reso
 
 Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually at the beginning of the calendar year.
 
-[To pay membership dues, please see arXiv's payment instruction PDF here.](/about/arXiv-payment-info.pdf)
+[To pay membership dues, please see arXiv's payment instruction PDF here.](arXiv-payment-info.pdf)
 
 [Download Statistics of Top Institutional Users](/about/reports)
 -- the usage statistics for the top 200+ institutional users since 2009
