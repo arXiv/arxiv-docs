@@ -180,6 +180,7 @@ now](http://export.arxiv.org/api/query?search_query=all:electron&id_list=&start=
     </feed>
 ```
 
+<a name="perl_simple_example"></a>
 ### Perl
 
 [LWP](http://search.cpan.org/~gaas/libwww-perl-5.836/lib/LWP.pm) is in
@@ -198,6 +199,7 @@ Sample code to produce the above output is:
     print $response->content();
 ```
 
+<a name="python_simple_example"></a>
 ### Python
 
 The [urllib](http://docs.python.org/lib/module-urllib.html) module is
@@ -212,6 +214,8 @@ is:
     data = urllib.urlopen(url).read()
     print data
 ```
+
+<a name="ruby_simple_example"></a>
 ### Ruby
 
 The
@@ -229,6 +233,7 @@ produce the above output is:
     print res.body
 ```
 
+<a href="php_simple_example"></a>
 #### PHP
 
 The file\_get\_contents() function is part of the PHP core language:
