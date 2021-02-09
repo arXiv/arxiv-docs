@@ -19,7 +19,7 @@ Membership fees are based on a 3-year rolling average of institutional ranking c
 
 [To pay membership dues, please see arXiv's payment instruction PDF here.](/about/arXiv-payment-info.pdf)
 
-[Download Statistics of Top Institutional Users](/about/reports/index)
+[Download Statistics of Top Institutional Users](/about/reports)
 -- the usage statistics for the top 200+ institutional users since 2009
 
 
