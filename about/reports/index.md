@@ -1,12 +1,12 @@
 # arXiv Reports
 
 ## Annual Reports
-[2020 Annual Report](https://indd.adobe.com/view/fdd63397-e4b0-41af-b479-4845dc1ef48e)
+[2020 Annual Report](https://indd.adobe.com/view/fdd63397-e4b0-41af-b479-4845dc1ef48e) [PDF](/about/reports/2020_arXiv_annual_report.pdf)
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
 
 ## Annual Updates
-[2020 Annual Update](/about/reports/2020_update)
+[2020 Annual Update](/about/reports/2020_update) 
 
 [2019 Annual Update](/about/reports/2019_update)
 
