@@ -13,9 +13,11 @@ In addition to being a part of a shared investment in a culturally embedded reso
    - Public acknowledgement of financial support listed on arXiv.org and locally to the institution via an IP generated banner.
 
 
-### Membership Tiers
+### Membership Tiers and Payment Instructions
 
 Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually at the beginning of the calendar year.
+
+[To pay membership dues, please see arXiv's payment instruction PDF here.](/about/arXiv-payment-info.pdf)
 
 [Download Statistics of Top Institutional Users](/about/reports/index)
 -- the usage statistics for the top 200+ institutional users since 2009
