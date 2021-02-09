@@ -233,7 +233,7 @@ produce the above output is:
     print res.body
 ```
 
-<a href="php_simple_example"></a>
+<a name="php_simple_example"></a>
 #### PHP
 
 The file\_get\_contents() function is part of the PHP core language:
