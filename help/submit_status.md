@@ -44,7 +44,7 @@ relatively short time period.
 Submitted
 ---------
 
-Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](/help/submit#availability ).
+Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](/help/availability).
 
 **New submissions and replacements**: Once you have verified that your
 intended submission appears in the format you desire, and you have

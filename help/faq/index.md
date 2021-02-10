@@ -24,7 +24,7 @@
     supplied at submission time?](../prep)
   - [How can I package my submission files?](../tar)
   - [When will people be able to see my new
-    submission?](../submit#availability)
+    submission?](../availability)
   - [I am registered author, and my e-mail address changed. What do I
     do?](../registerhelp#emailchange)
   - [How can I submit a paper if I don't use TeX?](../otherformats)

@@ -2,7 +2,7 @@
 
 _See more [arXiv in Numbers 2020](/about/reports/2020_usage) and [Usage stats](/stats/main)_
 
-The following tables show submissions to arXiv by [category](category_taxonomy). Explore different views of the data by toggling between sheets.
+The following tables show submissions to arXiv by [category](/category_taxonomy). Explore different views of the data by toggling between sheets.
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 842px; height: 630px; border: 1px solid gray;'>
@@ -12,7 +12,7 @@ The following tables show submissions to arXiv by [category](category_taxonomy).
   <param name='site_root' value='' />
   <param name='name' value='arXivSubmissions&#47;SubgroupByYear' />
   <param name='tabs' value='yes' />
-  <param name='toolbar' value='no' />
+  <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
   </object>
 </div>

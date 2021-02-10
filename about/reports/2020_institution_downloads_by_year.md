@@ -14,7 +14,7 @@ Select the domain of interest by checking the appropriate box. The resulting tab
   <param name='site_root' value='' />
   <param name='name' value='arXivInstUsage&#47;InstitutionByYear2' />
   <param name='tabs' value='no' />
-  <param name='toolbar' value='no' />
+  <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
   </object>
 </div>
