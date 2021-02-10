@@ -144,4 +144,4 @@ Availability of submissions
 
 --------------------------------------------------
 
-For more information on submission availability, see, our [public availability](/help/availability) page. 
+For more information see our [public submission availability page](/help/availability). 
