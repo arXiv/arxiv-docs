@@ -5,7 +5,7 @@ Submission not yet announced
 ----------------------------
 
 If your submission has not yet become [publicly
-available](submit#availability) you may delete or delay it. To do either
+available](availability) you may delete or delay it. To do either
 of these things go to your [user page](/user) and select
 either the Delete (![delete icon](/images/delete.png)) or Unsubmit
 (![unsubmit icon](/images/unsubmit.png)) icon. Deleting a submission
