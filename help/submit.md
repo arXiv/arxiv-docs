@@ -11,7 +11,8 @@ Submission Guidelines
 -   Authors must agree to the [submission terms and agreement](policies/submission_agreement) and [Instructions for submission](policies/instructions_for_submission).
 
 -   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
--   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions) at 20:00 (Eastern) based on the [schedule for for availability](availability).
+-   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for for availability](availability). Also see [versions help pages](/help/versions)
+
 
 Submission Preparation
 ====================
