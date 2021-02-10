@@ -12,7 +12,7 @@ Please note this page is a work in progress. We are working towards a comprehens
 - [General submission policies](/help/submit)
 - [Submission terms and agreement](submission_agreement)
 - [Instructions for submission](instructions_for_submission)
-- [Order of announcements and submission cutoff time](/help/submit#availability)
+- [Submission schedule and cutoff time](/help/availability)
 - [Moderation](/help/moderation)
 - [License and copyright](/help/license)
 - [Withdrawals](/help/withdraw)
