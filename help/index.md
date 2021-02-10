@@ -28,6 +28,7 @@ slug: Help
 
 ## Submission and Revision
 - [Submit an Article](submit)
+- [Submission schedule and cutoff time](availability)
 - [Submission terms and agreement](policies/submission_agreement)
 - [Instructions for submission](policies/instructions_for_submission)
 - [Replace an Article](replace)
