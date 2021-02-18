@@ -6,7 +6,7 @@ Our valued community of authors, readers, moderators, advisory board members, st
 
 There are several actions that if taken, may result in a Code of Conduct violation. Such actions include but are not limited to utilizing inappropriate means of communication, abusive emails directed toward staff, repeatedly submitting inappropriate material, and may occur on any of arXiv’s channels. The Code of Conduct does not address issues concerning the acceptance of research articles. Any issues concerning moderation can utilize the appeals process found at: (/help/moderation). 
 
-If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting] form(https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 
+If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 
 
 A committee formed of a combination of arXiv staff, leadership, and/or advisory board members will then determine whether or not a violation has occurred. 
 
@@ -14,10 +14,10 @@ If it is determined that a violation of the Code of Conduct has occurred, arXiv 
 
 The following are examples include but are not limited to the types of enforcement actions, which may be taken alone or in combination:
 
-*Email
+* Email
   * In all cases, the violator will receive a written warning explaining the violation.
   * If additional enforcement actions are required, the email will also explain the enforcement action and its duration. 
-*  Account Level Enforcement
+* Account Level Enforcement
   * Verifying account identity: arXiv staff may take extra steps to ensure that the user is representing themselves accurately.
   * Suspending submission privileges: the user may not be allowed to submit papers for a designated period.
   * Flagged account: the user’s account may be flagged, notifying administrators and moderators to more closely monitor the user’s activity.
