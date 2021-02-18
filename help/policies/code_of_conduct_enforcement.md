@@ -1,4 +1,4 @@
-# arXiv Code of Conduct Enforcement Options
+# arXiv Code of Conduct Enforcement
 
 arXiv is a platform where researchers engage with one another to participate in science, software development, and scholarly communications. It is also a community.
 
