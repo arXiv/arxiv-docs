@@ -34,4 +34,8 @@ see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
 
 ## Authorship Disputes
 
-arXiv will not adjudicate [authorship disputes](/help/authority#coauthor) within a collaboration of authors. If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct) please contact help@arxiv.org with additional information and a complete explanation.
+arXiv will not adjudicate [authorship disputes](/help/authority#coauthor) within a collaboration of authors. 
+
+## Code of Conduct concerns
+
+If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct) please complete the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
