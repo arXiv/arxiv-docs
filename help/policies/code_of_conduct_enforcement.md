@@ -2,19 +2,19 @@
 
 arXiv is a platform where researchers engage with one another to participate in science, software development, and scholarly communications. It is also a community.
 
-Our valued community of authors, readers, moderators, advisory board members, staff, collaborators, and supporters expects and deserves a respectful environment, which is why we adhere to a [Code of Conduct](code_of_conduct), [moderation standards]( /help/moderation), and other policies. 
+Our valued community of authors, readers, moderators, advisors, staff, collaborators, and supporters expects and deserves a respectful environment, which is why we adhere to a [Code of Conduct](code_of_conduct), [moderation standards]( /help/moderation), and other policies. 
 
 There are several actions that if taken, may result in a Code of Conduct violation. Such actions include but are not limited to utilizing inappropriate means of communication, abusive emails directed toward staff, repeatedly submitting inappropriate material, and may occur on any of arXiv’s channels. The Code of Conduct does not address issues concerning the acceptance of research articles. Any issues concerning moderation can utilize the appeals process found at: (/help/moderation). 
 
 If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 
 
-A committee formed of a combination of arXiv staff, leadership, and/or advisory board members will then determine whether or not a violation has occurred. 
+A committee formed of a combination of arXiv staff, leadership, and/or advisors will then determine whether or not a violation has occurred. 
 
 If it is determined that a violation of the Code of Conduct has occurred, arXiv will take enforcement actions. The enforcement will depend on a number of factors, including the channel where the violation happened, whether it was directed at a specific individual or a group of people, if it is part of a pattern of repeated violations, and the severity of the violation. 
 
-The following are examples include but are not limited to the types of enforcement actions, which may be taken alone or in combination:
+The following are examples of possible enforcement actions, which may be taken alone, in combination, or with additional measures not listed here.
 
-* Email
+* Email Notification
   * In all cases, the violator will receive a written warning explaining the violation.
   * If additional enforcement actions are required, the email will also explain the enforcement action and its duration. 
 * Account Level Enforcement
