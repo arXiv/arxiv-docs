@@ -45,9 +45,7 @@ In order to report a violation of the arXiv Code of Conduct please use the [Code
 
 ## Related Policies
 
-Policies related to Code of Conduct enforcement options:
-
-- [arXiv Code of Conduct enforcement options](code_of_conduct_enforcement)
+[arXiv Code of Conduct enforcement](code_of_conduct_enforcement)
 
 Policies related to authors:
 
