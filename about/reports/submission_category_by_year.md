@@ -10,7 +10,7 @@ The following tables show submissions to arXiv by [category](/category_taxonomy)
   <param name='host_url' value='https%3A%2F%2Ftableau.cornell.edu%2F' />
   <param name='embed_code_version' value='3' />
   <param name='site_root' value='' />
-  <param name='name' value='arXivSubmissions&#47;SubgroupByYear' />
+  <param name='name' value='arXivSubmissions&#47;LineGraphByArchive' />
   <param name='tabs' value='yes' />
   <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
