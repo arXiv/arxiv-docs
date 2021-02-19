@@ -31,7 +31,7 @@ We expect members of the arXiv community to foster a safe environment for commun
 
 ## Code of Conduct Contact
 
-If you have questions or concerns regarding the arXiv CoC, please contact:
+If you have questions or concerns regarding the arXiv Code of Conduct please contact:
 
 - [Eleonora Presani](mailto:ep538@cornell.edu), arXiv Executive Director, or
 - [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
@@ -39,9 +39,13 @@ If you have questions or concerns regarding the arXiv CoC, please contact:
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
 - [Cornell University Ombudsman](https://www.ombudsman.cornell.edu/)
 
+In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
+
 <span id="policies"></span>
 
 ## Related Policies
+
+[arXiv Code of Conduct enforcement](code_of_conduct_enforcement)
 
 Policies related to authors:
 

@@ -24,8 +24,8 @@ Considerations for replacing articles
     stamp, but may delay the replacement.](#sameday)
 -   [Previous versions of your article will remain publicly
     available.](#versions)
--   [Revisions after version 5 are not listed in the daily
-    mailings.](#announcements)
+-   [Replacements will be posted based on the regular announcement schedule](availability)    
+-   [Revisions after version 5 are not listed in the daily email subscriptions.](#announcements)
 
 <span id="minorchanges"></span>
 

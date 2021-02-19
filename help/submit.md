@@ -1,5 +1,5 @@
-Submission Guidelines
-====================
+# Submission Guidelines
+
 
 <span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
 
@@ -14,8 +14,8 @@ Submission Guidelines
 -   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](availability). Also see [versions help pages](/help/versions)
 
 
-Submission Preparation
-====================
+## Submission Preparation
+
 -   [Formats for text submission](#text)
 -   [Formats for figures](#figures)
 -   [File names and case sensitivity](#files)
@@ -32,8 +32,8 @@ To submit an article, use the [submit form](http://arxiv.org/submit)
 
 <span id="text"></span>
 
-Formats for text of submission
-------------------------------
+## Formats for text of submission
+
 
 Accepted submission formats
 (in order of preference):
@@ -51,8 +51,7 @@ do not accept scanned documents, regardless of format.
 
 <span id="figures"></span>
 
-Formats for figures
--------------------
+## Formats for figures
 
 Accepted figure formats:
 
@@ -68,8 +67,7 @@ cannot provide help with TeX-related issues.
 
 <span id="files"></span>
 
-File names and case sensitivity
--------------------------------
+## File names and case sensitivity
 
 arXiv will accept only the following characters in file names:
 
@@ -87,8 +85,7 @@ inclusion commands, match case exactly.
 
 <span id="datasets"></span>
 
-Inclusion of ancillary files
-------------------------------------------
+## Inclusion of ancillary files
 
 There are limited facilities for including data sets and ancillary files
 (data, programs, etc.) that are associated with articles submitted to
@@ -97,8 +94,7 @@ and ancillary files.
 
 <span id="prep"></span>
 
-Title and abstract preparation
---------------------------
+## Title and abstract preparation
 
 See [separate instructions for preparing the title and abstract](prep) for inclusion in metadata. This information is used on the
 abstract pages, in announcements, in RSS feeds, and to support
@@ -106,8 +102,7 @@ searching.
 
 <span id="correct"></span>
 
-Verify and correct your submission
----------------------------------------
+## Verify and correct your submission
 
 Before you make the final "Submit Article" step in the submission
 process, be sure to carefully check the title and abstract (metadata)
@@ -124,8 +119,7 @@ Unsubmitting an article takes the article out of the processing queue, and annou
 
 <span id="replace"></span>
 
-Edit or replace your submission
-----------------------------
+## Edit or replace your submission
 
 No additional [versions](versions) are generated when edits are done before the submission is publicly announced.
 
@@ -141,8 +135,6 @@ for an erratum. Instead, [replace](replace) the original submission.
 
 <span id="availability"></span>
 
-Availability of submissions
+## Availability of submissions
 
---------------------------------------------------
-
-For more information see our [public submission availability page](/help/availability). 
+For more information see our [public submission availability page](availability). 
