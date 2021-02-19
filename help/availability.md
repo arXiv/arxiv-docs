@@ -5,7 +5,7 @@ Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the deadline. Submissions are made public as part of the scheduled announcement process. This includes new submissions as well as [replacements](/help/replace), [withdrawal notices](/help/withdraw), [cross listings](/help/cross) and [journal reference](/help/jref). Journal reference submissions do not appear in the mailings, but are still processed at that time. 
 
-<a href="#id-before"></a>
+<a name="id-before"></a>
 ## A note about arXiv-id assignments
 
 The final [arXiv identifier](arxiv_identifier) cannot be assigned until the paper is announced, so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
