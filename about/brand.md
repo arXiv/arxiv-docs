@@ -9,4 +9,4 @@ We aim to cultivate an identity that reflects arXiv’s true nature as a profess
 
 * [arXiv Brand Usage Guidelines](/about/arXiv_Brand_Usage.pdf)
 
-*Note: Use of the names “arXiv,” “arXiv.org,” “arXiv Labs,” “arXivLabs,” and associated logos and colors are only allowed with the explicit written permission from the arXiv management team. Questions? Email Nextgen@arXiv.org.* 
+*Note: Use of the names “arXiv,” “arXiv.org,” “arXiv Labs,” “arXivLabs,” and associated logos and colors are only allowed with the explicit written permission from the arXiv management team. Questions? Email nextgen@arXiv.org.* 
