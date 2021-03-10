@@ -407,16 +407,16 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     
     The most reliable way to accomplish conditional branching in the TeX
     source where necessary is instead via the ifpdf package:
-    
-    ``` 
-        \usepackage{ifpdf}
-        \ifpdf
-          do something pdflatex specific here
-        \else
-          do something for regular latex or pdflatex in dvi mode
-        \fi
-    ```
-    
+
+```
+	\usepackage{ifpdf}
+	\ifpdf
+	  do something pdflatex specific here
+	\else
+	  do something for regular latex or pdflatex in dvi mode
+	\fi
+```
+
     Note that the graphics package and the hyperref package are smart
     enough to figure this out on their own. You do **not** need to
     specify any driver for these packages.
@@ -432,10 +432,10 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     correctly identify itself as latex, and you are absolutely sure, you
     can add the line:
     
-    ``` 
+``` 
     %&latex 
       
-    ```
+```
     
     as the very first line of your tex file.
     
