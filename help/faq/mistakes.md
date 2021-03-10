@@ -405,8 +405,8 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
       - some unexpected message about various pdf operators
       - failing figure inclusions (due to unrecognized extension)
     
-    The most reliable way to accomplish conditional branching in the TeX
-    source where necessary is instead via the ifpdf package:
+The most reliable way to accomplish conditional branching in the TeX
+source where necessary is instead via the ifpdf package:
 
 ```
 	\usepackage{ifpdf}
@@ -416,28 +416,25 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
 	  do something for regular latex or pdflatex in dvi mode
 	\fi
 ```
+Note that the graphics package and the hyperref package are smart
+enough to figure this out on their own. You do **not** need to
+specify any driver for these packages.
 
-    Note that the graphics package and the hyperref package are smart
-    enough to figure this out on their own. You do **not** need to
-    specify any driver for these packages.
-    
-    For more information, see:
-    
-    <https://www.ctan.org/pkg/ifpdf>
-    
-    You can download the ifpdf macro from the above link as well, if it
-    is not already a part of your tex tree.
-    
-    In the extremely rare event that your submision still does not
-    correctly identify itself as latex, and you are absolutely sure, you
-    can add the line:
-    
+For more information, see:
+
+  https://www.ctan.org/pkg/ifpdf
+
+You can download the ifpdf macro from the above link as well, if it
+is not already a part of your tex tree.
+
+In the extremely rare event that your submision still does not
+correctly identify itself as latex, and you are absolutely sure, you
+can add the line:    
 ``` 
     %&latex 
       
 ```
-    
-    as the very first line of your tex file.
+as the very first line of your tex file.
     
       
 
