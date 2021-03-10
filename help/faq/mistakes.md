@@ -523,7 +523,7 @@ immediately after the call to the first package (usually the `newtxmath.sty` pac
 
 arXiv cannot process using the `--shell-escape` option, as this is disabled in arXiv's system for security reasons. The package authors are aware of [this issue](https://github.com/gpoore/minted/issues/113), and made package options available to still process in such an environment. 
 
-Authors who make use of `minted.sty`'s syntax highlighting are warned against using so called "hidden" cache directories in arXiv. This means that if you are running with their recommended `[frozencache]` option to the package, you will need to specify a cache directory. *Do not use a hidden directory nane!* Hidden directories begin with the special `.` character, such as `.minted-cache` (which may be the default). Such options will break at publish time, as these files are not saved between compilation and publication (and are not able to be regenerated). To account for this, do not use them. An example of a correct call looks like: 
+Authors who make use of `minted.sty`'s syntax highlighting are warned against using so called "hidden" cache directories in arXiv. This means that if you are running with their recommended `[frozencache]` option to the package, you will need to specify a cache directory. **Do not use a hidden directory nane!** Hidden directories begin with the special `.` character, such as `.minted-cache` (which may be the default). Such options will break at publish time, as these files are not saved between compilation and publication (and are not able to be regenerated). To account for this, do not use them. An example of a correct call looks like: 
 ```
   \usepackage[frozencache=true,cachedir=minted-cache]{minted} 
 ```
