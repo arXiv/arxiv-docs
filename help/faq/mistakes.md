@@ -379,10 +379,9 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     by adding the following line to the
     preamble:
     
-    ``` 
-                                                                                              
+``` 
         \usepackage[bookmarks=false]{hyperref}
-    ```
+```
     
       
 
