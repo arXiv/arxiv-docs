@@ -54,7 +54,7 @@ having overlap with other documents.
 Submitters can preempt the addition of a text overlap admin note by
 marking any known overlaps in advance in the 
 ["Comments" field](/help/prep#comments)
-(as longas the earlier appearance of the text has a coauthor in common): for
+(as long as the earlier appearance of the text has a coauthor in common): for
 example, "this article draws heavily from arXiv:x, arXiv:y," or "this
 article supersedes arXiv:z."
 
