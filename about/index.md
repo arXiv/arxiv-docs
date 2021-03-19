@@ -8,10 +8,8 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. S
 
 ## News
 
-- [Annual Update, January 2020](reports/2020_update)
-- [2020 Roadmap](reports/2020_roadmap)
-- [Usage Stats](/help/stats)
-- [News and Announcements](/new)
+- [arXiv Reports](reports)
+- [Usage Stats](/stats/main)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
 
 
