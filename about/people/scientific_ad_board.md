@@ -69,14 +69,14 @@ Professor of Mathematics, University of California,
 > -   ### David Morrison
 Professor of Mathematics and Physics,
     University of California, Santa Barbara
-> -   ### Robert Seiringer 
-Professor, Institute of Science and Technology Austria (chair of Physics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
 ICREA Research Professor, Universitat de Barcelona
 > -   ### Larry Wassermann
 Professor, Carnegie Mellon University (chair of Statistics Advisory Committee)
+> -   ### Ralph Wijers
+Professor, University of Amsterdam (ex officio, as chair of Physics Advisory Committee)
 
 <span id="advisory_committees"></span>
 
@@ -101,6 +101,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   Robert Seiringer, Institute of Science and Technology Austria
 -   Eberhard Bodenschatz, Max Planck Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
 -   Gregory Gabadadze, New York University \| Simons Foundation
 -   Nicholas Read, Yale University 
