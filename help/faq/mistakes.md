@@ -43,6 +43,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     warnings](#psbad)
   - [Mixed figure file types](#mixed)
   - ["`! LaTeX Error: Command \Bbbk already defined.`"](#Bbbk)
+  - [Notes for using `minted.sty` in arXiv](#minted)
 
 -----
 
@@ -379,10 +380,9 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     by adding the following line to the
     preamble:
     
-    ``` 
-                                                                                              
+``` 
         \usepackage[bookmarks=false]{hyperref}
-    ```
+```
     
       
 
@@ -405,39 +405,36 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
       - some unexpected message about various pdf operators
       - failing figure inclusions (due to unrecognized extension)
     
-    The most reliable way to accomplish conditional branching in the TeX
-    source where necessary is instead via the ifpdf package:
-    
-    ``` 
-        \usepackage{ifpdf}
-        \ifpdf
-          do something pdflatex specific here
-        \else
-          do something for regular latex or pdflatex in dvi mode
-        \fi
-    ```
-    
-    Note that the graphics package and the hyperref package are smart
-    enough to figure this out on their own. You do **not** need to
-    specify any driver for these packages.
-    
-    For more information, see:
-    
-    <https://www.ctan.org/pkg/ifpdf>
-    
-    You can download the ifpdf macro from the above link as well, if it
-    is not already a part of your tex tree.
-    
-    In the extremely rare event that your submision still does not
-    correctly identify itself as latex, and you are absolutely sure, you
-    can add the line:
-    
-    ``` 
+The most reliable way to accomplish conditional branching in the TeX
+source where necessary is instead via the ifpdf package:
+
+```
+	\usepackage{ifpdf}
+	\ifpdf
+	  do something pdflatex specific here
+	\else
+	  do something for regular latex or pdflatex in dvi mode
+	\fi
+```
+Note that the graphics package and the hyperref package are smart
+enough to figure this out on their own. You do **not** need to
+specify any driver for these packages.
+
+For more information, see:
+
+  https://www.ctan.org/pkg/ifpdf
+
+You can download the ifpdf macro from the above link as well, if it
+is not already a part of your tex tree.
+
+In the extremely rare event that your submision still does not
+correctly identify itself as latex, and you are absolutely sure, you
+can add the line:    
+``` 
     %&latex 
       
-    ```
-    
-    as the very first line of your tex file.
+```
+as the very first line of your tex file.
     
       
 
@@ -520,3 +517,14 @@ This error appears most frequently when using the `mnras.cls` template for their
   \let\Bbbk\relax 
 ```
 immediately after the call to the first package (usually the `newtxmath.sty` package call). If you choose to go this route, please *carefully* inspect the output, as this may have unexpected results. If you determine that the output is other than what you would expect for this symbol, please swap the package inclusion order, to "`\relax`" the other package's definition of this symbol.
+
+
+<span id="minted"></span> **Notes for using `minted.sty` in arXiv**
+
+arXiv cannot process using the `--shell-escape` option, as this is disabled in arXiv's system for security reasons. The package authors are aware of [this issue](https://github.com/gpoore/minted/issues/113), and made package options available to still process in such an environment. 
+
+Authors who make use of `minted.sty`'s syntax highlighting are warned against using so called "hidden" cache directories in arXiv. This means that if you are running with their recommended `[frozencache]` option to the package, you will need to specify a cache directory. **Do not use a hidden directory nane!** Hidden directories begin with the special `.` character, such as `.minted-cache` (which may be the default). Such options will break at publish time, as these files are not saved between compilation and publication (and are not able to be regenerated). To account for this, do not use them. An example of a correct call looks like: 
+```
+  \usepackage[frozencache=true,cachedir=minted-cache]{minted} 
+```
+This assumes that you've already correctly created the cache first using their `[finalizecache]` option. Consult the [package manual](http://mirrors.ctan.org/macros/latex/contrib/minted/minted.pdf#page=11) for further details (at time of this writing, the package options begin on page 12 in section 5). 

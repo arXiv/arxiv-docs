@@ -25,6 +25,7 @@ The [moderators for physics are listed here](/moderators#physics).
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
+*   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
 *   [Jacques Distler](http://www.ph.utexas.edu/person/distler_jacques) (Texas): high-energy theory
 *   [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
 *   [Paul Ginsparg](http://www.physics.cornell.edu/professorspeople/professors/?page=website/faculty&action=show/id=17) (Cornell): high-energy theory
@@ -33,7 +34,8 @@ The advisory committee members serve as consultants to Cornell University and to
 *   [Michael Lawler](http://www2.binghamton.edu/physics/people/michael.html) (SUNY Binghamton): condensed-matter physics
 *   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (UCSD): condensed-matter experiment
 *   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (UC Davis): mathematical physics
-*   [Robert Seiringer](http://pub.ist.ac.at/~rseiring/Robert_Seiringer/Robert_Seiringers_Homepage.html) (Institute of Science and Technology Austria): mathematical Physics (co-chair)
+*   [Robert Seiringer](http://pub.ist.ac.at/~rseiring/Robert_Seiringer/Robert_Seiringers_Homepage.html) (Institute of Science and Technology Austria): mathematical physics
+
 
 ## Historical notes
 
