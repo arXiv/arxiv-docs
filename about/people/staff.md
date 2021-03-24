@@ -9,6 +9,7 @@
 - Martin Lessmeister, IT Lead
 - Brian Maltzan, Backend Python Developer
 - Eleonora Presani, Executive Director
+- Jenna Powers, arXiv Administrator
 - Rebecca Rich Goldweber, arXiv Administrator
 - Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, Senior arXiv Administrator
