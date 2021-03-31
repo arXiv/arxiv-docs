@@ -1,7 +1,10 @@
 # Submission Guidelines
 
 
-<span id="guidelines"></span> While submission to arXiv is free for authors, we do ask authors to carefully prepare their work according to these guidelines. This will improve discoverability of the work and reduce the likelihood of delays before announcement.
+<span id="guidelines"></span> 
+
+While submission to arXiv is free for authors, we do ask authors to carefully prepare their work according to these guidelines. This will improve discoverability of the work and reduce the likelihood of delays before announcement.
+
 
 Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
 
