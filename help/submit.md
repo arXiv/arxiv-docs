@@ -7,7 +7,8 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 
 -   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement).
 -   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
--   Authors must grant arXiv.org a [non-exclusive and irrevocable
+-   Authors must grant arXiv.org an [irrevocable
+
     license to distribute](license) the work.
 -   Authors must agree to the [Submission Terms and Agreement](policies/submission_agreement) and [Instructions for Submission](policies/instructions_for_submission).
 
