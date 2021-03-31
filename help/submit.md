@@ -1,17 +1,22 @@
 # Submission Guidelines
 
 
-<span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
+<span id="guidelines"></span> 
+
+While submission to arXiv is free for authors, we do ask authors to carefully prepare their work according to these guidelines. This will improve discoverability of the work and reduce the likelihood of delays before announcement.
+
+
+Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
 
 -   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement).
 -   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
--   Authors must grant arXiv.org a [non-exclusive and irrevocable
-    license to distribute](license) or certify that the work is
-    available under another license that conveys these rights.
--   Authors must agree to the [submission terms and agreement](policies/submission_agreement) and [Instructions for submission](policies/instructions_for_submission).
+-   Authors must grant arXiv.org an [irrevocable
 
--   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
--   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](availability). Also see [versions help pages](/help/versions)
+    license to distribute](license) the work.
+-   Authors must agree to the [Submission Terms and Agreement](policies/submission_agreement) and [Instructions for Submission](policies/instructions_for_submission).
+
+-   Authors are expected to self-submit. Submissions by a third party are only accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
+-   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](availability). Also see [versions help pages](/help/versions).
 
 
 ## Submission Preparation
