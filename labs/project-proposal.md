@@ -74,4 +74,4 @@ To propose a project fill out all fields in our project proposal form. Scroll wi
 
 <iframe src="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y" height="650px" width="100%" class="form-proposals"></iframe>
 
--Is the form above not displaying? <a href="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y">Open it in Qualtrics</a>-
+_Is the form above not displaying? <a href="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y">Open it in Qualtrics</a>_
