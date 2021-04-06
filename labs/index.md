@@ -166,7 +166,7 @@ arXiv welcomes anyone, from single individuals to large companies, to contribute
 
 To apply to the arXivLabs community, learn more about the [criteria](criteria) and then [propose your project idea](project-proposal).
 
-<a onclick="project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
+<a href="project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
 
 Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 
