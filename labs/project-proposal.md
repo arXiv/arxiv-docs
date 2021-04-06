@@ -66,7 +66,7 @@ blockquote {
   }
 }
 </style>
-<img alt="arXivLabs logo" src="images/smileybones-labs-icon.png" class="mkd-img-right mkd-img-thumb"/>
+<img alt="arXivLabs logo" src="../images/smileybones-labs-icon.png" class="mkd-img-right mkd-img-thumb"/>
 
 arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and propose their project for arXivLabs. All projects must abide by arXiv’s values of openness, community, excellence, and user data privacy. Learn more about arXiv's [Labs criteria](criteria) and [API data usage](https://arxiv.org/help/api/).
 
