@@ -164,9 +164,9 @@ arXiv welcomes anyone, from single individuals to large companies, to contribute
 > 1. **Core**
 > Experimental projects that add a great deal of value to the arXiv platform, and which are deemed feasible to maintain by the core arXiv IT team, may be incorporated as a core feature or service. These projects undergo additional rigorous scrutiny to ensure maintainability, security, and reliability.
 
-To apply to the arXivLabs community, learn more about the [criteria](criteria) and then <a href="#" onclick="pendo.feedback.openFeedback(event)">submit a proposal</a>.
+To apply to the arXivLabs community, learn more about the [criteria](criteria) and then [propose your project idea](project-proposal).
 
-<a onclick="pendo.feedback.openFeedback(event)" class="button-fancy">Click to view existing proposals & submit new ideas <span> </span></a>
+<a onclick="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
 
 Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 

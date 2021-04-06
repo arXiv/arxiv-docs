@@ -42,7 +42,7 @@ Covers database management, datamining, and data processing. Roughly includes ma
 
 Covers data structures and analysis of algorithms. Roughly includes material in ACM Subject Classes E.1, E.2, F.2.1, and F.2.2.
 
-**[DL - Digital Libraries](/list/cs.DL/recent)** - Michael Lesk
+**[DL - Digital Libraries](/list/cs.DL/recent)** -  Lillian Cassel, Michael Lesk
 
 Covers all aspects of the digital library design and document and text creation. Note that there will be some overlap with Information Retrieval (which is a separate subject area). Roughly includes material in ACM Subject Classes H.3.5, H.3.6, H.3.7, I.7.
 
