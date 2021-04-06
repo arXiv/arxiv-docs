@@ -183,7 +183,7 @@ Below are some of the projects that our collaborators are working on right now.
 
 Interested in proposing a new arXiv Labs project?
 
-<a onclick="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
+<a href="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
 
 {{ render_project(page.meta.projects.connected_papers) }}
 {{ render_project(page.meta.projects.pwc_links) }}
