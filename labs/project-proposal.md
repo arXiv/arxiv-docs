@@ -66,12 +66,10 @@ blockquote {
   }
 }
 </style>
-<img alt="arXivLabs logo" src="../images/smileybones-labs-icon.png" class="mkd-img-right mkd-img-thumb"/>
-
 arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and propose their project for arXivLabs. All projects must abide by arXiv’s values of openness, community, excellence, and user data privacy. Learn more about arXiv's [Labs criteria](criteria) and [API data usage](https://arxiv.org/help/api/).
 
 To propose a project fill out all fields in our project proposal form. Scroll within the frame below and fill out all fields on each page (total of four steps).
 
-<iframe src="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y" height="650px" width="100%" class="form-proposals"></iframe>
+<iframe src="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y" height="650px" width="100%" class="form-proposals" title="submit a proposal to arxiv labs"></iframe>
 
 _Is the form above not displaying? <a href="https://cornell.ca1.qualtrics.com/jfe/form/SV_6utTdLVDVlaTz5Y">Open it in Qualtrics</a>_
