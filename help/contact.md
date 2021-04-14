@@ -16,7 +16,7 @@ To avoid a long delay in receiving a response:
 
 ## Moderation queries
 
-If you have questions about the status of your submission, or for appeals contact us through [our moderation support portal](https://arxiv.org/support/moderation_help).
+If you have questions about the status of your submission, or for appeals, contact us through [our moderation support portal](https://arxiv.org/support/moderation_help).
 If you cannot access the portal you can contact us by email at moderation@arxiv.org.
  
 -   Send a precise message, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
