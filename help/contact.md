@@ -9,7 +9,7 @@ To contact user support please use [our user support portal](http://arxiv.org/su
 
 Note that user support services typically operate 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. If you cannot access the portal you can also contact us by email at help@arxiv.org.
 
-**To avoid a long delay in receiving a response:** 
+To avoid a long delay in receiving a response:
 
 -   Send a precise message including all relevant details (especially submission or paper ids, URLs, etc.).
 
