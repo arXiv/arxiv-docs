@@ -43,17 +43,18 @@ having a coauthor in common, there are additional exceptions. In
 addition, certain classes of articles naturally encompass other source
 articles, either in part or in full, such as review articles, theses,
 conference proceedings, and book contributions. Articles that are marked
-by authors in the "Comments" header as belonging to this class (i.e.,
-being identified as review articles, theses, conference proceedings,
-book contributions, etc.) are not noted as having text overlaps with
-their source articles, even though they may still be marked as having
-overlap with other documents.
+by authors in the ["Comments" field](/help/prep#comments)
+as belonging to this class (i.e.,being identified as review articles, theses, 
+conference proceedings, book contributions, etc.) are not noted as having text 
+overlaps with their source articles, even though they may still be marked as
+having overlap with other documents.
 
 ## User supplied overlap notes 
 
 Submitters can preempt the addition of a text overlap admin note by
-marking any known overlaps in advance in the "Comments" header (as long
-as the earlier appearance of the text has a coauthor in common): for
+marking any known overlaps in advance in the 
+["Comments" field](/help/prep#comments)
+(as long as the earlier appearance of the text has a coauthor in common): for
 example, "this article draws heavily from arXiv:x, arXiv:y," or "this
 article supersedes arXiv:z."
 
