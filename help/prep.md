@@ -328,7 +328,7 @@ granularity:
     the classification code according to the [ACM Computing
     Classification System](https://www.acm.org/publications/computing-classification-system/1998)
     (or see this
-    [overview](http://www.acm.org/about-acm/class/how-to-use)). Here is
+    [overview](https://www.acm.org/publications/computing-classification-system/how-to-use)). Here is
     an example
 
         ACM-class: F.2.2; I.2.7
