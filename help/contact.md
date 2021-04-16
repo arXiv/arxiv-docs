@@ -3,22 +3,24 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us [through our user support portal](http://arxiv.org/support/general_help) or at help@arxiv.org. 
+If you have questions about paper submission, accounts, and use of arXiv, please first review [help](/help) and [FAQ](/help/faq). 
 
-Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and holidays.
+To contact our user support team please use [our user support portal](http://arxiv.org/support/general_help).
 
-**To avoid a long delay in receiving a response:** 
+Note that user support services typically operate 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. If you cannot access the portal you can also contact us by email at help@arxiv.org.
 
--   Send a precise email including all relevant details (especially submission or paper ids, URLs, etc.).
+To avoid a long delay in receiving a response:
+
+-   Send a precise message including all relevant details (especially submission or paper ids, URLs, etc.).
 
 
 ## Moderation queries
 
-If you have questions about the status of your submission, contact us [through our user support portal](https://arxiv.org/support/moderation_help) or at moderation@arxiv.org.
+If you have questions about the status of your submission, or for appeals, contact us through [our moderation support portal](https://arxiv.org/support/moderation_help).
+If you cannot access the portal you can contact us by email at moderation@arxiv.org.
  
--   Send a precise email, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
--   Please be *patient*, as moderation appeals are complicated and may
-    take some time.
+-   Send a precise message, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
+-   Please be *patient*, as moderation appeals are complicated and may take some time.
 
 ## Membership and Giving
 
