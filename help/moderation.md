@@ -56,9 +56,9 @@ It is possible to appeal the classification of an announced article, or the deci
 
 If you disagree with a moderation decision, you may submit an appeal. Please carefully follow the directions below.
 
-- You can submit an appeal through our [user support portal](https://arxiv.org/support/moderation_help) or by sending an email to to moderation@arxiv.org.
-- In your appeal please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
-- You will get an email from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
+- Appeals should be submitted through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact us by email at moderation@arxiv.org.
+- In your appeal message please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
+- You will get an response from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
 - Please be patient, as moderation appeals are complicated and take some time.
 - When a decision is made by the appellate moderators you will receive a follow up message from arXiv administrators.
 - Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
