@@ -71,14 +71,14 @@ resolution is reached.
 
 Note that [oversize](/help/sizes) submissions are automatically put on
 hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv user support team](contact#contacting-arxiv).
+follow up with [arXiv User Support team](contact#contacting-arxiv).
 
 Submissions in this status will not expire. Authors *must not* create a
 new submission with the same content when a pending submission is on
 hold.
 
 Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting the user support team](contact#contacting-arxiv).
+*submit/NNNNNNN* when [contacting the User Support team](contact#contacting-arxiv).
 
 <span id="expired"></span>
 
