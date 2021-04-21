@@ -51,5 +51,4 @@ slug: Help
 - [MathJax](mathjax)
 - [SSL Support in arXiv](ssl)
 
-If you could not find an answer to your question, please [contact arXiv
-administrators](contact).
+If you could not find an answer to your question, please [contact our User Support team](contact#contacting-arxiv).
