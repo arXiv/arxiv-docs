@@ -10,7 +10,7 @@ values are described below:
 -   [processing](#processing) - already submitted and being analyzed by
     arXiv
 -   [submitted](#submitted) - in the queue to be announced
--   [on hold](#on_hold) - delayed pending administrator attention
+-   [on hold](#on_hold) - delayed pending moderation attention
 
 All submissions and updates associated with your arXiv user account are
 shown on the [user page](/user). Upon announcement articles will move
@@ -58,7 +58,7 @@ remove it from this status, and return it to [incomplete](submit_status#incomple
 On Hold
 -------
 
-Your submission was identified by arXiv administrators or
+Your submission was identified by arXiv staff or
 [moderators](/help/moderation) as needing further attention.
 
 Submissions may be put on hold for a variety of reasons, ranging from
@@ -71,14 +71,14 @@ resolution is reached.
 
 Note that [oversize](/help/sizes) submissions are automatically put on
 hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv administrators](/help/contact).
+follow up with [arXiv user support team](contact#contacting-arxiv).
 
 Submissions in this status will not expire. Authors *must not* create a
 new submission with the same content when a pending submission is on
 hold.
 
 Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting](/help/contact) arXiv administrators.
+*submit/NNNNNNN* when [contacting the user support team](contact#contacting-arxiv).
 
 <span id="expired"></span>
 
