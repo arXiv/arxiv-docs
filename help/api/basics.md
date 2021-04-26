@@ -202,9 +202,9 @@ Sample code to produce the above output is:
 <a name="python_simple_example"></a>
 ### Python
 
-The [urllib](http://docs.python.org/lib/module-urllib.html) module is
+The [urllib](https://docs.python.org/3/library/urllib.html) module is
 part of the [python standard
-library](http://docs.python.org/lib/lib.html), and is included in any
+library](https://docs.python.org/3/library/index.html), and is included in any
 default installation of python. Sample code to produce the above output
 is:
 
