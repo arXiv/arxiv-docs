@@ -43,7 +43,7 @@ Since most papers have multiple authors, it is quite likely that you are the aut
 
 If the submitter has provided you with the paper password you can use the [Claim Ownership with a password form](/auth/need-paper-password).
 
-If you do not have the paper password you can use the [Claim Authorship form](/auth/request-ownership). Note that this process involves verification by our staff and may take a couple of days.
+If you do not have the paper password you can use the [Request Ownership form](/auth/request-ownership). Note that this process involves verification by our staff and may take a couple of days.
 
 <span id="coauthor"></span>
 ###  A note on authorship in scholarly works

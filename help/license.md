@@ -78,8 +78,8 @@ A [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creative
 Copyright notices
 -----------------
 Often, PDFs found on publisher websites or supplied as proofs are the property of the publisher, which often owns the copyright and/or licenses their use. Submission of PDFs with copyright statements which prohibit or impair arXiv's redistribution license will be rejected. If explicit permission is given for open access redistribution, these are permissible.
-Users should contact arXiv administrators at help@arxiv.org if they have questions.
+Users should [contact our User Support team](contact#contacting-arxiv) if they have questions.
 
 If you have permission from a publisher to upload content to arXiv provided that you include a special copyright statement with the paper, place that statement on the first page of the text of the submission. Copyright notices should not be included in the separate [metadata](/help/prep#comments) and will be removed.
 
-If you have any additional questions about arXiv's copyright and licensing policies, please [contact](/help/contact) the arXiv administrators directly.
+If you have any additional questions about arXiv's copyright and licensing policies, please [contact our User Support team](contact#contacting-arxiv) directly.

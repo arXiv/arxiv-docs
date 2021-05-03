@@ -202,17 +202,17 @@ Sample code to produce the above output is:
 <a name="python_simple_example"></a>
 ### Python
 
-The [urllib](http://docs.python.org/lib/module-urllib.html) module is
+The [urllib](https://docs.python.org/3/library/urllib.html) module is
 part of the [python standard
-library](http://docs.python.org/lib/lib.html), and is included in any
+library](https://docs.python.org/3/library/index.html), and is included in any
 default installation of python. Sample code to produce the above output
 is:
 
 ```python
-    import urllib
+    import urllib, urllib.request
     url = 'http://export.arxiv.org/api/query?search_query=all:electron&start=0&max_results=1'
-    data = urllib.urlopen(url).read()
-    print data
+    data = urllib.request.urlopen(url)
+    print(data.read().decode('utf-8'))
 ```
 
 <a name="ruby_simple_example"></a>

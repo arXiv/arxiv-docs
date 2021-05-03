@@ -58,10 +58,11 @@ If you disagree with a moderation decision, you may submit an appeal. Please car
 
 - Appeals should be submitted through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact us by email at moderation@arxiv.org.
 - In your appeal message please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
-- You will get an response from arXiv administrators when your appeal has been sent to our appellate moderators for consideration.
+- You will get an response from arXiv User Support team when your appeal has been sent to our appellate moderators for consideration.
+
 - Please be patient, as moderation appeals are complicated and take some time.
-- When a decision is made by the appellate moderators you will receive a follow up message from arXiv administrators.
-- Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
+- When a decision is made by the appellate moderators you will receive a follow up message from arXiv User Support.
+- Our moderators are not referees and do not provide detailed feedback on submissions. User Support staff cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
 
 
 The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be requested. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/physics/#AdvisoryCommittee);
