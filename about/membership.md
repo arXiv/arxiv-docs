@@ -1,41 +1,49 @@
-Institutional Membership
+Membership
 ========================
 
+Thank you, [arXiv Members](ourmembers)! 
 
-To support arXiv, the membership program aims to engage libraries and research laboratories worldwide that represent arXiv's heaviest institutional users, which represents the [top 75% of institutional downloads](/about/reports/2020_usage). 
+Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. New members are welcome. 
 
-[We thank our members for supporting us!](/about/ourmembers)
+Member benefits include:
+* Public acknowledgement on [arXiv](ourmembers)
+* Public recognition locally to the institution via an IP generated banner
+* Eligibility to serve in arXiv’s governance 
+* Institutional submission statistics
+* The opportunity to provide feedback via surveys
+* Annual reports and regular newsletters
+* Increase the sustainability of academic publishing and push the boundaries of open science
 
-In addition to being a part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
+## Membership Tiers
 
-   - Participation in arXiv's ongoing governance through the Member Advisory Board, which provides input for project prioritization, new service offerings, financial planning, use of discretionary funds, future technical developments, and policy decisions;
-   - Access to enhanced institutional use statistics;
-   - Public acknowledgement of financial support listed on arXiv.org and locally to the institution via an IP generated banner.
+Annual membership tiers are based on submissions by institution. Fees are calculated on 3-year average submission ranks, according to the tiers shown below. In addition to our three main tiers of gold, silver, and bronze, we offer two additional tiers. [Find your institution's submission rank here](reports/2020_institution_submissions).
+
+|Tier |3-Year Average Submission Rank   |Annual Membership Fees (USD)
+|-----------------------------|:-----------------------------|:--------------------|
+| Champion\* | | $10,000+ |
+| Gold | 1-100 | $5,000 |
+| Silver | 101-500 | $2,500 |
+| Bronze | 501+ | $1,000 |
+| Community\*\* | | $1,000 or less |
+
+\*Champion: For institutions that want to lead the way toward open and sustainable research-sharing
+ <br /> \*\*Community: For those that are significantly resource-limited or use arXiv for reading only
+
+The fees listed above for each membership tier are guaranteed for the 2022, 2023, and 2024.
 
 
-### Membership Tiers and Payment Instructions
+## Usage Statistics
 
-Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually at the beginning of the calendar year.
+Usage data helps institutions and organizations understand the value of arXiv to their community. [For arXiv statistics on submissions and downloads, please see here.](reports/2020_usage)
 
-[To pay membership dues, please see arXiv's payment instruction PDF here.](arXiv-payment-info.pdf)
+## Membership Confirmation and Payment Instructions
 
-[Download Statistics of Top Institutional Users](/about/reports)
--- the usage statistics for the top 200+ institutional users since 2009
+BUTTON [Join, renew, or confirm your membership](membership_confirm)
 
+BUTTON [arXiv payment instructions](arXiv-payment-info.pdf)
 
-|3-Year Average Usage Rank   |Annual Membership Fees
-|-----------------------------|:--------------------|
-|1-25|$4,400|
-|26-50|$3,800|
-|51-100|$3,200|
-|101-150|$2,500|
-|151-200|$1,800|
-|201+|$1,000|
+BUTTON [Pay by Credit Card](donate)
+
 
 ---
-**How can I stay informed about arXiv sustainability and membership initiatives?**
-Please join the arXiv support announcement email list by sending an email message to arxiv-support-updates-L-request@cornell.edu. Leave the subject line blank. The body of the message should be a single word: join
-
----
-For questions related to donation, membership, sponsoring an institution, or the [business sustainability
-model](/about/reports-financials), please contact arXiv **Membership & Giving at membership@arxiv.org**.
+For questions related to donations, membership, or sponsoring an institution, please contact arXiv **Membership & Giving at membership@arxiv.org**.
