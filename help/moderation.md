@@ -18,9 +18,9 @@ arXiv moderators expect submissions to be of scholarly archival interest to the 
 
 ## Does arXiv decline or reject submissions? 
 
-It is the case that some percentage of works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is *not* an exhaustive list, and some works that have been published or accepted by a journal may still be declined at the discretion of arXiv moderators and/or arXiv administration. 
+Yes, some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is *not* an exhaustive list, and some works that have been published or accepted by a journal may still be declined at the discretion of arXiv moderators and/or arXiv administration. 
 
-### Unacceptable content
+### Content deemed "not of interest"
 
 arXiv only accepts submissions in the form of an article that would be refereeable by a conventional publication venue. Papers that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
 
