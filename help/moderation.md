@@ -12,9 +12,15 @@ This section describes the moderation considerations from after a user submits a
 
 Reclassification by our moderators helps make sure that submissions are posted to the most appropriate archive. Cross-lists may be added to other related archives, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will still be announced in the mailings to that category.
 
-What follows are some example arXiv policies that could lead to a submission being declined. This is *not* an exhaustive list, and some works that have been published or accepted by a journal may still be declined at the discretion of arXiv moderators and/or arXiv administration.
+## What guides moderation decisions regarding content? 
 
-### Unrefereeable content
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. Submitted research is expected to be novel, unique, of interest, and potentially of significant impact. 
+
+## Does arXiv decline or reject submissions? 
+
+It is the case that some percentage of works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is *not* an exhaustive list, and some works that have been published or accepted by a journal may still be declined at the discretion of arXiv moderators and/or arXiv administration. 
+
+### Unacceptable content
 
 arXiv only accepts submissions in the form of an article that would be refereeable by a conventional publication venue. Papers that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
 
