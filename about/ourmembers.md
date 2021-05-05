@@ -223,6 +223,7 @@ aside {
 
 ## Tier 5
 
+1. Aalto University (Finland)
 1. Argonne National Lab (USA)
 1. Arizona State University (USA)
 1. Australian National University (Australia)
@@ -280,11 +281,13 @@ aside {
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Lehigh University (USA)
 1. Macquarie University (Australia)
+1. McMaster University (Canada)
 1. Michigan State University (USA) _BTAA_
 1. Niels Bohr Institute (Denmark)
 1. Nikhef (Netherlands)
 1. Ohio State University (USA) _BTAA_
 1. Oregon State (USA)
+1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
 1. Rice University (USA)
@@ -312,6 +315,7 @@ aside {
 1. University of Cape Town (South Africa)
 1. University of Cardiff (UK) _JISC_
 1. University of Central Oklahoma (USA)
+1. University of Graz (Austria)
 1. University of Geneva (Switzerland)
 1. University of Georgia (USA)
 1. University of Hawaii (USA)
