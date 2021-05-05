@@ -30,6 +30,7 @@ Annual membership tiers are based on submissions by institution. Fees are calcul
  <br /> \*\*Community: For those that are significantly resource-limited or use arXiv for reading only
 
 The fees listed above for each membership tier are guaranteed for the 2022, 2023, and 2024.
+Institutions joining as part of a consortium receive a 10% discount. Country-level consortia receive a larger discount, dependent on the proportion of institutions participating. 
 
 
 ## Usage Statistics
