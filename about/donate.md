@@ -5,7 +5,7 @@ Donate to arXiv
 
 <p style="float: left; margin-right: 2em; margin-bottom: 2em;"><a class="button is-large is-link" href="https://securelb.imodules.com/s/1717/alumni/event.aspx?sid=1717&gid=2&pgid=22315&cid=35778&dids=276&bledit=1&sort=1">Donate</a></p>
 
-**Donations to arXiv are made through the Cornell University Alumni & Friends website.**
+**Donations to arXiv are processed by Cornell University.**
 
 
 
