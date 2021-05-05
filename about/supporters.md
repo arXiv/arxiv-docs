@@ -1,6 +1,7 @@
 # Our Supporters
 We gratefully acknowledge the support of the following organizations.
-Interested in becoming a supporter? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
+
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
 <style>
 ol {
