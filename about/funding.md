@@ -8,7 +8,7 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 * [Affiliates](supporters) (societies and other nonprofits)
 * [Sponsors](supporters) (for profit companies)
 * [Individuals](donate)
-* Cornell University
+* [Cornell University](https://www.cornell.edu/)
 
 BUTTON: Learn more about membership - link to arxiv.org/about/membership
 
