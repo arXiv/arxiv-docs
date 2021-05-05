@@ -1,6 +1,6 @@
 # Our Supporters
 We gratefully acknowledge the support of the following organizations.
-Learn more about [something](something).
+Learn more about [arXiv's funding](funding) and [membership program](membership).
 
 <style>
 ol {
