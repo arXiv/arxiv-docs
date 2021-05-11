@@ -12,8 +12,6 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 
 BUTTON: Learn more about membership - link to arxiv.org/about/membership
 
-<p><a href="arxiv.org/about/membership" class="button-fancy">Learn more about Membership<span> </span></a></p>
-
 BUTTON: Contact us to support arXiv - link to to mailto:membership@arxiv.org
 
 Members, affiliates, and sponsors comprise a substantial portion of arXiv’s budget. arXiv’s Sustainability Model ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
