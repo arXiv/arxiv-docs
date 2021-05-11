@@ -17,6 +17,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. T
 
 ## Membership & Giving
 
+- [Funding Support](/about/funding)
 - [Membership & Giving](/about/give)
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
