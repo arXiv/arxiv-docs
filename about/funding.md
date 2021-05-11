@@ -4,17 +4,17 @@ arXiv’s mission is to provide an open research sharing platform where scholars
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, including:
 
-- [Foundations](supporters)  
+-  [Foundations](supporters)  
 
-- [Members](ourmembers) (universities, libraries, and research institutes)  
+-  [Members](ourmembers) (universities, libraries, and research institutes)  
 
-- [Affiliates](supporters) (societies and other nonprofits)  
+-  [Affiliates](supporters) (societies and other nonprofits)  
 
-- [Sponsors](supporters) (for profit companies)  
+-  [Sponsors](supporters) (for profit companies)  
 
-- [Individuals](donate)  
+-  [Individuals](donate)  
 
-- [Cornell University](https://www.cornell.edu/)  
+-  [Cornell University](https://www.cornell.edu/)  
 
 BUTTON: Learn more about membership - link to arxiv.org/about/membership
 
