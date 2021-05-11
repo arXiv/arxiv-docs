@@ -79,16 +79,6 @@ aside {
 >1. Massachusetts Institute of Technology (MIT) (USA)
 >1. University of Cambridge (UK) _JISC_
 
-## Societies
-
->1. American Astronomical Society (USA)
->1. American Institute of Physics Publishing (USA)
->1. American Mathematical Society (USA)
->1. American Physical Society (USA)
->1. Association for Computing Machinery (USA)
->1. Deutsche Physikalische Gesellschaft (Germany)
->1. Institute of Physics Publishing (UK)
-
 ## Tier 1
 
 1. CERN-European Organization for Nuclear Research (Switzerland)
