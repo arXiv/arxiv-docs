@@ -3,7 +3,7 @@ Membership
 
 Thank you, [arXiv Members](ourmembers)! 
 
-Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. The membership program contributes to [arXiv's funding](funding). 
+Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. The membership program directly contributes to [funding](funding) [arXiv's mission](index). 
 
 New members are welcome. Member benefits include:
 *  Public acknowledgement on [arXiv](ourmembers)
