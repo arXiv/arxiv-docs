@@ -80,7 +80,7 @@ y', not 'x<y'); but if in doubt, use the entity reference '&lt;'.
 
 The MathJax web site has useful information about browser configuration,
 fonts, MathJax features, etc. Please see the [MathJax
-documentation](https://docs.mathjax.org/en/latest/mathjax.html) and the
+documentation](https://docs.mathjax.org/en/latest/index.html) and the
 [FAQ](https://docs.mathjax.org/en/latest/misc/faq.html) if you have
 questions.
 
