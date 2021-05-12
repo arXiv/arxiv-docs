@@ -1,7 +1,7 @@
 What is MathJax?
 ================
 
-MathJax is a javascript display engine for rendering <span class="mathjax">$\\TeX$</span> or
+MathJax is a javascript display engine for rendering <span class="mathjax">$\\TeX$</span>s or
 MathML-coded mathematics in browsers without requiring font installation
 or browser plug-ins. Any modern browser with javascript enabled will be
 MathJax-ready. For general information about MathJax, visit
@@ -80,7 +80,7 @@ y', not 'x<y'); but if in doubt, use the entity reference '&lt;'.
 
 The MathJax web site has useful information about browser configuration,
 fonts, MathJax features, etc. Please see the [MathJax
-documentation](https://docs.mathjax.org/en/latest/mathjax.html) and the
+documentation](https://docs.mathjax.org/en/latest/index.html) and the
 [FAQ](https://docs.mathjax.org/en/latest/misc/faq.html) if you have
 questions.
 
