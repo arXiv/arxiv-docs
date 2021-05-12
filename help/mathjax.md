@@ -1,7 +1,7 @@
 What is MathJax?
 ================
 
-MathJax is a javascript display engine for rendering <span class="mathjax">$\\TeX$</span>s or
+MathJax is a javascript display engine for rendering <span class="mathjax">$\\TeX$</span> or
 MathML-coded mathematics in browsers without requiring font installation
 or browser plug-ins. Any modern browser with javascript enabled will be
 MathJax-ready. For general information about MathJax, visit
