@@ -1,14 +1,14 @@
 Membership
 ========================
 
-Thank you, [arXiv Members](ourmembers)! 
+Thank you, [arXiv Members](ourmembers)!
 
-Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. The membership program directly contributes to [funding](funding) [arXiv's mission](index). 
+Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. The membership program directly contributes to [funding](funding) [arXiv's mission](index).
 
 New members are welcome. Member benefits include:
 *  Public acknowledgement on [arXiv](ourmembers)
 *  Public recognition locally to the institution via an IP generated banner
-*  Eligibility to serve in arXiv’s governance 
+*  Eligibility to serve in arXiv’s governance
 *  Institutional submission statistics
 *  The opportunity to provide feedback via surveys
 *  Annual reports and regular newsletters
@@ -30,7 +30,7 @@ Annual membership tiers are based on submissions by institution. Fees are calcul
  <br /> \*\*Community: For those that are significantly resource-limited or use arXiv for reading only
 
 The fees listed above for each membership tier are guaranteed for the 2022, 2023, and 2024.
-Institutions joining as part of a consortium receive a 10% discount. Country-level consortia receive a larger discount, dependent on the proportion of institutions participating. 
+Institutions joining as part of a consortium receive a 10% discount. Country-level consortia receive a larger discount, dependent on the proportion of institutions participating.
 
 
 ## Usage Statistics
@@ -39,12 +39,11 @@ Usage data helps institutions and organizations understand the value of arXiv to
 
 ## Membership Confirmation and Payment Instructions
 
-BUTTON [Join, renew, or confirm your membership](membership_confirm)
+<a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
 
-BUTTON [arXiv payment instructions](arXiv-payment-info.pdf)
+<a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
 
-BUTTON [Pay by Credit Card](donate)
-
+<a href="donate" class="button-fancy">Pay by Credit Card <span> </span></a>
 
 ---
 For questions related to donations, membership, or sponsoring an institution, please contact arXiv **Membership & Giving at membership@arxiv.org**.
