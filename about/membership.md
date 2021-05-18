@@ -93,12 +93,12 @@ New members are welcome. Member benefits include:
 
 ## Membership Types
 
-arxiv membership is inclusive and flexible. Need help deciding what membership type is the best fit? We're happy to help. Please contact us  at membership@arxiv.org.
+arxiv membership is inclusive and flexible. Need help deciding what membership type is the best fit? We're happy to help. Please contact us at membership@arxiv.org.
 
 > 1. **Community**
-> Is your institution using arXiv primarily for reading? Or, is your institution significantly resource-limited? If yes, then community membership is for you. Join the arXiv community by choosing your contribution level at $1000 or less. 
+> Is your institution using arXiv primarily for reading? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less. 
 > 1. **Standard**
-> Is arXiv an essential resource for your researchers? Is your institution ranked in [the top 1000 institutions submitting to arXiv](reports/2020_institution_submissions)? If yes, we invite you to become a member at the levels shown below. 
+> Is arXiv an essential resource for your researchers? Is your institution ranked in [the top 1000 institutions submitting to arXiv](reports/2020_institution_submissions)? If yes, we invite you to become a member at one of the levels shown below. 
 > 1. **Champion**
 > Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing. 
 
