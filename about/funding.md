@@ -88,9 +88,9 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 > 1. **Members**
 > [Universities, libraries, laboratories, and research institutes](ourmembers) across the globe represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and are eligible to serve in arXiv's governance. [Learn more about membership.](membership)
 > 1. **Affiliates**
-> [Professional societies, government agencies, and other nonprofits](supporters) collaborate with arXiv in a variety of ways, from facilitating the submission of conference proceeding submissions to promoting open access compliance. [Contact us to become an affiliate.](mailto:membership@arXiv.org)
+> [Professional societies, government agencies, and other nonprofits](supporters) collaborate with arXiv in a variety of ways, from facilitating the submission of conference proceeding submissions to promoting open access compliance. Suggested contribution levels range from $5,000 to $100,000. [Contact us to become an affiliate.](mailto:membership@arXiv.org)
 > 1. **Sponsors**
-> [Companies](supporters) in the arXiv community contribute research and support the infrastructure with both funding and in-kind donations such as developer time and cloud services. [Contact us to become a sponsor.](mailto:membership@arXiv.org)
+> [Companies](supporters) in the arXiv community contribute research and support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the equivalent. [Contact us to become a sponsor.](mailto:membership@arXiv.org)
 
 
 <a href="membership" class="button-fancy">Become a member <span> </span></a>
