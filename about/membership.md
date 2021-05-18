@@ -1,4 +1,4 @@
-# Funding Support
+# Membership
 <style>
 .mkd-img-60 {
   width:100% !important;
@@ -77,10 +77,6 @@ aside {
 }
 </style>
 
-
-
-Membership
-========================
 
 Thank you, [arXiv Members](ourmembers)!
 
