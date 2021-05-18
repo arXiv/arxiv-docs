@@ -82,7 +82,7 @@ arXiv’s mission is to provide an open research sharing platform where scholars
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, and our <a href="images/arxiv-membership-program@2x.png" target="_blank">Sustainability Model table</a> ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 
-In addition to [Cornell University](https://www.cornell.edu/), [foundations](supporters), and [individual donors](donate), members, affiliates, and sponsors comprise a substantial portion of arXiv’s budget. 
+[Cornell University](https://www.cornell.edu/), the [Simons Foundation](https://www.simonsfoundation.org/), and individual donors supply about half of arXiv's operating budget, and members, affiliates, and sponsors comprise the remainder.
 
 > 1. **Members**
 > [Universities, libraries, laboratories, and research institutes](ourmembers) across the globe represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and are eligible to serve in arXiv's governance.
