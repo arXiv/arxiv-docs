@@ -84,6 +84,12 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 
 [Cornell University](https://www.cornell.edu/), the [Simons Foundation](https://www.simonsfoundation.org/), and individual donors supply about half of arXiv's operating budget, and members, affiliates, and sponsors comprise the remainder.
 
+<a href="membership" class="button-fancy">Become a member <span> </span></a>
+
+<a href="mailto:membership@arxiv.org" class="button-fancy">Become an affiliate or sponsor <span> </span></a>
+
+<a href="donate" class="button-fancy">Donate today <span> </span></a>
+
 > 1. **Members**
 > [Universities, libraries, laboratories, and research institutes](ourmembers) across the globe represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and are eligible to serve in arXiv's governance.
 > 1. **Affiliates**
@@ -92,8 +98,4 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 > [Companies](supporters) in the arXiv community contribute research and support the infrastructure with both funding and in-kind donations such as developer time and cloud services. 
 
 
-<a href="membership" class="button-fancy">Become a member <span> </span></a>
 
-<a href="mailto:membership@arxiv.org" class="button-fancy">Become an affiliate or sponsor <span> </span></a>
-
-<a href="donate" class="button-fancy">Donate today <span> </span></a>
