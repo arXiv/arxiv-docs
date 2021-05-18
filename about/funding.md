@@ -78,35 +78,22 @@ aside {
 </style>
 
 
-
 arXiv’s mission is to provide an open research sharing platform where scholars can share and discover new, relevant, and emerging science, and establish their contribution to advancing research. We are grateful to the community of members, supporters, volunteers, and collaborators who believe in our mission and make this work possible.
 
-arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, including:
+arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, and our <a href="images/arxiv-membership-program@2x.png" target="_blank">Sustainability Model table</a> ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 
--  [Foundations](supporters)  
-
--  [Members](ourmembers) (universities, libraries, and research institutes)  
-
--  [Affiliates](supporters) (societies and other nonprofits)  
-
--  [Sponsors](supporters) (for profit companies)  
-
--  [Individuals](donate)  
-
--  [Cornell University](https://www.cornell.edu/)  
-
-<a href="membership" class="button-fancy">Learn more about membership <span> </span></a>
-
-<a href="mailto:membership@arxiv.org" class="button-fancy">Contact us to become an affiliate or sponsor <span> </span></a>
-
-Members, affiliates, and sponsors comprise a substantial portion of arXiv’s budget. arXiv’s Sustainability Model ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
-
+In addition to [Cornell University](https://www.cornell.edu/), [foundations](supporters), and [individual donors](donate), members, affiliates, and sponsors comprise a substantial portion of arXiv’s budget. 
 
 > 1. **Members**
-> Description about members here.
-> 1. **Affialites**
-> Description about affiliates goes here.
+> [Universities, libraries, laboratories, and research institutes](ourmembers) across the globe represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and are eligible to serve in arXiv's governance.
+> 1. **Affiliates**
+> [Professional societies, government agencies, and other nonprofits](supporters) collaborate with arXiv in a variety of ways, such as facilitating conference proceeding submissions and promoting open access compliance. 
 > 1. **Sponsors**
-> A description about our sponsors should go here.
+> [Companies](supporters) in the arXiv community contribute research and support the infrastructure with both funding and in-kind donations such as developer time and cloud services. 
 
-Looking for more details? Review our <a href="images/arxiv-membership-program@2x.png" target="_blank">arXiv Sustainability Model table</a>.
+
+<a href="membership" class="button-fancy">Become a member <span> </span></a>
+
+<a href="mailto:membership@arxiv.org" class="button-fancy">Become an affiliate or sponsor <span> </span></a>
+
+<a href="donate" class="button-fancy">Donate today <span> </span></a>
