@@ -1,5 +1,5 @@
 # Our Supporters
-We gratefully acknowledge the support of the following organizations.
+We gratefully acknowledge the support of the following organizations, that together with Cornell University, the Simons Foundation, individual donors, and members, contribute to arXiv's operating budget.
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
