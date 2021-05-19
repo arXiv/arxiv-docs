@@ -81,7 +81,7 @@ aside {
 ## Gold Affiliates
 
 >1. Allen Institute for Artificial Intelligence (USA)
->1. Computer Vision Foundation (CVF) (USA)
+>1. Computer Vision Foundation (USA)
 
 ## Silver Affiliates
 
