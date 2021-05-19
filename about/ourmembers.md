@@ -1,5 +1,5 @@
 # Our Members
-We gratefully acknowledge the support of the following member institutions.
+We gratefully acknowledge the support of the following member institutions, which contribute expertise and [funding](funding).
 Learn more about [membership](/about/membership).
 
 <style>
