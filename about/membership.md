@@ -84,7 +84,7 @@ Members are universities, libraries, and other academic research organizations t
 
 ## Member Benefits
 
-New members are welcome. Member benefits include:
+Your institution is invited to become a member! Member benefits include:
 - Public acknowledgement on [arXiv](ourmembers)
 - Public recognition locally to the institution via an IP generated banner
 - Eligibility to serve in arXiv’s governance
@@ -95,12 +95,12 @@ New members are welcome. Member benefits include:
 
 ## Membership Types
 
-arxiv membership is inclusive and flexible. Need help deciding what membership type is the best fit? We're happy to help. Please contact us at membership@arxiv.org.
+arxiv membership is inclusive and flexible. Usage data helps institutions and organizations like yours understand the value of arXiv to their local community. [To explore your institution's arXiv usage, please see submission and download data here](reports/2020_usage), then check out the membership types below. Need help deciding what membership type is the best fit? We're happy to help -- just email us at membership@arxiv.org.
 
 > 1. **Community**
-> Is your institution using arXiv primarily for reading? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less. 
+> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_usage)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less. 
 > 1. **Standard**
-> Is arXiv an essential resource for your researchers? Is your institution ranked in [the top 1000 institutions submitting to arXiv](reports/2020_institution_submissions)? If yes, we invite you to become a member at one of the levels shown below. 
+> Is arXiv an essential resource for your researchers? Is your institution [ranked among the top institutions submitting to arXiv](reports/2020_institution_submissions)? If yes, we invite you to become a member according to the levels shown below. 
 > 1. **Champion**
 > Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing. 
 
@@ -115,9 +115,6 @@ For **Standard Memberships**, annual fees are based on submissions by institutio
 The fees listed here are guaranteed for 2022, 2023, and 2024.
 Institutions joining as part of a consortium receive a 10% discount. Country-level consortia receive a larger discount, dependent on the proportion of institutions participating.
 
-## Usage Statistics
-
-Usage data helps institutions and organizations understand the value of arXiv to their community. [For arXiv statistics on submissions and downloads, please see here.](reports/2020_usage)
 
 ## Membership Confirmation and Payment Instructions
 
