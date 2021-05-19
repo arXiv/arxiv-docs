@@ -15,7 +15,7 @@ arXiv offers public API access in order to maximize its openness and interoperab
 3. do not use the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” or associated logos, web addresses and colors
 4. are free, open access, and/or intended for research or educational purposes
 
-...are considered entirely independent from arXiv. 
+...are considered entirely independent from arXiv. However, we do request that you acknowledge arXiv data usage with this statement: “Thank you to arXiv for use of its open access interoperability.”
 
 **For all API users**, 
 
