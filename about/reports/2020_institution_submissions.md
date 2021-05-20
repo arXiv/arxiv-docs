@@ -1,4 +1,4 @@
-# Submissions by Institution in 2020
+# Submissions by Institution
 
 _See more [arXiv in Numbers](/about/reports/2020_usage)_
 
