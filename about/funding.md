@@ -82,7 +82,7 @@ arXiv’s mission is to provide an open research sharing platform where scholars
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, and our <a href="images/arxiv-membership-program@2x.png" target="_blank">Sustainability Model</a> ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 
-**Together, foundations, individual donors, members, affiliates, and sponsors contribute to arXiv's operating budget.**
+**Together, members, affiliates, sponsors, foundations, and individual donors contribute to arXiv's operating budget.**
 
 
 > 1. **Members**
@@ -92,11 +92,7 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 > 1. **Sponsors**
 > [Companies](supporters) that benefit from arXiv's services are encouraged to support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the in-kind equivalent. [Email us to become a sponsor.](mailto:membership@arXiv.org)
 
+<a href="https://securelb.imodules.com/s/1717/alumni/event.aspx?sid=1717&gid=2&pgid=22315&cid=35778&dids=276&bledit=1&sort=1" class="button-fancy">Individuals are invited to donate today<span> </span></a>
 
-<a href="membership" class="button-fancy">Become a member <span> </span></a>
-
-<a href="mailto:membership@arxiv.org" class="button-fancy">Become an affiliate or sponsor <span> </span></a>
-
-<a href="donate" class="button-fancy">Donate today <span> </span></a>
-
+<a href="mailto:membership@arxiv.org" class="button-fancy">Questions about supporting arXiv? Email us<span> </span></a>
 
