@@ -99,7 +99,7 @@ Your institution is invited to become a member! Member benefits include:
 
 ## Membership Types
 
-arxiv membership is inclusive and flexible. Usage data helps institutions and organizations like yours understand the value of arXiv to their local community. [To explore your institution's arXiv usage, please see submission and download data here](reports/2020_usage), then check out the membership types below. Need help deciding what membership type is the best fit? We're happy to help -- just email us at membership@arxiv.org.
+arXiv membership is inclusive and flexible. Usage data helps institutions and organizations like yours understand the value of arXiv to their local community. [To explore your institution's arXiv usage, please see submission and download data here](reports/2020_usage), then check out the membership types below. Need help deciding what membership type is the best fit? We're happy to help -- just email us at membership@arxiv.org.
 #
 
 > 1. **Community**
