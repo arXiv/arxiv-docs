@@ -6,7 +6,8 @@ title: arXiv API Access
 
 arXiv offers public API access in order to maximize its openness and interoperability. Many projects utilize this option without becoming official [arXivLabs collaborations](https://labs.arxiv.org). 
 
-**Commercial projects** that utilize arXiv’s [public APIs](basics) or other [bulk data pipelines](../bulk_data) are requested to contact arXiv at [nextgen@arxiv.org](mailto:nextgen@arxiv.org), review [arXiv's brand guidelines](about/brand), sign a memorandum of understanding, and consider becoming an [arXiv affiliate](about/funding) before embarking on the project. This includes any project created as a product for sale.
+**Commercial projects** that utilize arXiv’s [public APIs](basics) or other [bulk data pipelines](../bulk_data) are requested to contact arXiv at [nextgen@arxiv.org](mailto:nextgen@arxiv.org), review [arXiv's brand guidelines](/about/brand), sign a memorandum of understanding, and consider becoming an [arXiv affiliate](/about/funding) before embarking on the project. This includes any project created as a product for sale.
+
 
 **Independent, noncommercial, and open access projects** that…
 
