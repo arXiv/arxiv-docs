@@ -85,16 +85,15 @@ aside {
 
 ## Silver 
 
->1. Austrian Science Fund (Austria)
->1. NWO Dutch Reseach Countil (Netherlands)
->1. Denmark Electronic Research Library (DEFF) (Denmark)
 >1. American Astronomical Society (USA)
 >1. American Institute of Physics Publishing (USA)
 >1. American Mathematical Society (USA)
 >1. American Physical Society (USA)
 >1. Association for Computing Machinery (USA)
->1. Deutsche Physikalische Gesellschaft (Germany)
+>1. Austrian Science Fund (Austria)
 >1. Institute of Physics Publishing (UK)
+>1. NWO Dutch Reseach Countil (Netherlands)
+>1. Deutsche Physikalische Gesellschaft (Germany)
 
 ## Bronze
 
