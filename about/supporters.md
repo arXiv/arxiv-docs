@@ -83,6 +83,7 @@ aside {
 
 >1. Allen Institute for Artificial Intelligence (USA)
 >1. Computer Vision Foundation (USA)
+>1. Google, Inc (USA)
 
 ## Silver 
 
@@ -96,13 +97,6 @@ aside {
 >1. NWO Dutch Reseach Countil (Netherlands)
 >1. Deutsche Physikalische Gesellschaft (Germany)
 
-## Bronze
 
->1. Google, Inc.
-
-## In-Kind
-
->1. Arm Research (UK)
->1. Microsoft Corporation (USA)
 
 #
