@@ -1,6 +1,8 @@
 # Our Members
-We gratefully acknowledge the support of the following member institutions, which contribute expertise and [funding](funding).
-Learn more about [membership](/about/membership).
+
+We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from foundations, affiliates, and sponsors.
+
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
 <style>
 ol {
@@ -331,14 +333,5 @@ aside {
 1. Western University (Canada)
 
 
-## Contributors as non-voting members
-
->1. Arm Research (UK)
->1. Austrian Science Fund (Austria)
->1. Computer Vision Foundation (CVF) (USA)
->1. Cornell University (USA)
->1. Denmark Electronic Research Library (DEFF) (Denmark)
->1. Google Deep Mind (USA)
->1. Microsoft Corporation (USA)
 
 #
