@@ -63,13 +63,13 @@ table.table {
 
 As the world's premier open access research sharing platform, arXiv was founded strictly for education and research, not profit. That's why we rely on members --universities, libraries, and other research organizations-- to support our mission with funding and expertise and complement our other [funding sources](funding).
 
-<a href="membership_confirm" class="button-fancy">Become a member today <span> </span></a>
+<a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
 Membership is inclusive, flexible, and offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community.
 
-Starting at just $1000, members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more (link to benefits at the bottom of the page).
+Starting at just $1000, members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more.
 
-## Here's how it works
+## How it works
 For standard memberships, annual fees are based on submissions by institution, averaged over three years.
 
 First, [Find your institution's submission rank here](reports/2020_usage).
@@ -101,11 +101,10 @@ Some institutions want to support arXiv at a higher level, so for those we offer
 
 <a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
 
-<a href="donate" class="button-fancy">Pay by Credit Card <span> </span></a>
+<a href="donate" class="button-fancy">Pay by credit card <span> </span></a>
 
 
 ## Member Benefits
-Your institution is invited to become a member! Member benefits include:
 
 - Public acknowledgement on [arXiv](ourmembers)
 - Public recognition locally to the institution via an IP generated banner
@@ -114,3 +113,10 @@ Your institution is invited to become a member! Member benefits include:
 - The opportunity to provide feedback via surveys
 - Annual reports and regular newsletters
 - Increase the sustainability of academic publishing and push the boundaries of open science
+
+## Stay in Touch
+
+- [Newsletter Sign Up](email_sign_up)
+- [Blog](https://blog.arxiv.org/)
+- [Twitter](https://twitter.com/arxiv)
+- [Status Updates](https://status.arxiv.org/)
