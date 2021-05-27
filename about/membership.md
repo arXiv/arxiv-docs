@@ -95,7 +95,7 @@ These fees are guaranteed until 2024. Institutions joining as part of a consorti
 >
 #
 
-## Membership Confirmation and Payment Instructions
+## Confirmation and Payment Instructions
 <a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
 
 <a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
