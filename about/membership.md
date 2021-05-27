@@ -65,7 +65,7 @@ As the world's premier open access research sharing platform, arXiv was founded 
 
 <a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
-Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors.
+Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors. [Questions? We're happy to help](mailto:membership@arxiv.org).
 
 ## How the standard membership program works
 
@@ -95,6 +95,7 @@ Is your institution a champion of open access and a thought leader in scholarly 
 
 
 ## Confirmation and Payment Instructions
+
 <a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
 
 <a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
@@ -118,3 +119,5 @@ Is your institution a champion of open access and a thought leader in scholarly 
 - [Blog](https://blog.arxiv.org/)
 - [Twitter](https://twitter.com/arxiv)
 - [Status Updates](https://status.arxiv.org/)
+- [Questions? We're happy to help](mailto:membership@arxiv.org)
+
