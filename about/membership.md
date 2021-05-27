@@ -83,17 +83,16 @@ Then, match your rank to the fee using this table:
 
 These fees are guaranteed until 2024. Institutions joining as part of a consortium receive a 10% discount, and country-level consortia receive a larger discount.
 
-## Two alternative programs: Champion and Community Memberships
+## Two alternatives: Champion and community memberships
 
+**Community**
 
-#
+Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
 
-> 1. **Community**
-> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
-> 1. **Champion**
-> Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing.
->
-#
+**Champion**
+
+Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing.
+
 
 ## Confirmation and Payment Instructions
 <a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
