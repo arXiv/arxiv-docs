@@ -1,25 +1,10 @@
 # Membership
 <style>
-.mkd-img-60 {
-  width:100% !important;
-  max-width: 950px;
-  margin:20px 0 0 0;
-}
-.mkd-img-border {
-  margin:1em 0px;
-  padding:10px;
-  border:.25em solid #ededed;
-}
-.mkd-img-icon {
-  border-radius:25%;
-  width:150px;
-  float:left;
-  margin:0 .5em;
-}
 blockquote {
   border-left:0;
-  margin:0;
+  margin:0 auto;
   padding:0;
+  max-width: 800px;
 }
 blockquote ol {
   list-style: none;
@@ -44,15 +29,7 @@ blockquote ol li strong {
   width: 100%;
   margin-bottom: 5px;
 }
-blockquote ol li:nth-child(1) {
-  border: 5px solid #7c7469;
-  background: #f9f7f7;
-}
-blockquote ol li:nth-child(2) {
-  border: 5px solid #fb595a;
-  background: #f9f7f7;
-}
-blockquote ol li:nth-child(3) {
+blockquote ol li {
   border: 5px solid #7c7469;
   background: #f9f7f7;
 }
@@ -60,34 +37,73 @@ blockquote ol li::after {
   content: "";
   margin: 0;
 }
-blockquote ol li img {
-  height:40px;
-  display:block;
-  margin:1em auto 0 auto;
-}
 h2, h2, h4, h5 {
   clear:both;
+}
+h3 {
+  color: #7c7469;
+  font-size: 16px !important;
+  margin-bottom: 0px !important;
+  font-weight: 800 !important;
 }
 aside {
   float:left;
   clear:both;
   width:100%;
 }
+table.table {
+  border: 1px solid #cecece;
+}
 @media (min-width: 576px) {
   blockquote ol li {
-    width: calc(33% - 10px);
+    width: calc(50% - 10px);
   }
 }
 </style>
 
+As the world's premier open access research sharing platform, arXiv was founded strictly for research and education, not profit. That's why we rely on members --universities, libraries, and other research institutes-- to support our mission with funding and expertise. [Thank you, members](ourmembers)!
 
-Thank you, [arXiv Members](ourmembers)!
+<a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
-Members are universities, libraries, and other academic research organizations that support arXiv’s mission and represent the scholars who use arXiv to read and share research. Members support arXiv with funding and expertise, and we are grateful for their contributions to our success in serving the needs of researchers and integrating with the scholarly communications ecosystem. The membership program directly contributes to [funding](funding) [arXiv's mission](index).
+Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors.
+
+## How the standard membership program works
+
+Is arXiv an essential resource for your researchers? If yes, then we invite you to become a member according to the structure described here.  Annual fees are based on submissions by institution, averaged over three years.
+
+First, [find your institution's overall submission rank](reports/2020_institution_submissions). 
+
+Then, match your rank to the fee using this table:
+
+|Rank   |Annual Membership Fees (USD)
+|-----------------------------|:--------------------|
+| 1-100 | $5,000 |
+| 101-500 | $2,500 |
+| 501+ | $1,000 |
+
+These fees are guaranteed until 2024. Institutions joining as part of a consortium receive a 10% discount, and country-level consortia receive a larger discount.
+
+## Two alternative programs: Champion and Community Memberships
+
+
+#
+
+> 1. **Community**
+> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
+> 1. **Champion**
+> Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing.
+>
+#
+
+## Membership Confirmation and Payment Instructions
+<a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
+
+<a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
+
+<a href="donate" class="button-fancy">Pay by credit card <span> </span></a>
+
 
 ## Member Benefits
-
-Your institution is invited to become a member! Member benefits include:
 
 - Public acknowledgement on [arXiv](ourmembers)
 - Public recognition locally to the institution via an IP generated banner
@@ -97,39 +113,9 @@ Your institution is invited to become a member! Member benefits include:
 - Annual reports and regular newsletters
 - Increase the sustainability of academic publishing and push the boundaries of open science
 
-## Membership Types
+## Stay in Touch
 
-arXiv membership is inclusive and flexible. Usage data helps institutions and organizations like yours understand the value of arXiv to their local community. [To explore your institution's arXiv usage, please see submission and download data here](reports/2020_usage), then check out the membership types below. Need help deciding what membership type is the best fit? We're happy to help -- just email us at membership@arxiv.org.
-#
-
-> 1. **Community**
-> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_usage)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
-> 1. **Standard**
-> Is arXiv an essential resource for your researchers? Is your institution [ranked among the top institutions submitting to arXiv](reports/2020_institution_submissions)? If yes, we invite you to become a member according to the levels shown below.
-> 1. **Champion**
-> Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing.
-
-#
-
-For **Standard Memberships**, annual fees are based on submissions by institution. Fees are calculated on 3-year average submission ranks, according to the levels shown below. [Find your institution's submission rank here](reports/2020_institution_submissions).
-
-|Rank   |Annual Membership Fees (USD)
-|-----------------------------|:--------------------|
-| 1-100 | $5,000 |
-| 101-500 | $2,500 |
-| 501+ | $1,000 |
-
-The fees listed here are guaranteed for 2022, 2023, and 2024.
-Institutions joining as part of a consortium receive a 10% discount. Country-level consortia receive a larger discount, dependent on the proportion of institutions participating.
-
-
-## Membership Confirmation and Payment Instructions
-
-<a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
-
-<a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
-
-<a href="donate" class="button-fancy">Pay by Credit Card <span> </span></a>
-
----
-For questions related to donations, membership, or sponsoring an institution, please contact arXiv **Membership & Giving at membership@arxiv.org**.
+- [Newsletter Sign Up](email_sign_up)
+- [Blog](https://blog.arxiv.org/)
+- [Twitter](https://twitter.com/arxiv)
+- [Status Updates](https://status.arxiv.org/)
