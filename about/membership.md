@@ -61,7 +61,7 @@ table.table {
 }
 </style>
 
-As the world's premier open access research sharing platform, arXiv was founded strictly for research and education, not profit. That's why we rely on members --universities, libraries, and other research institutes-- to support our mission with funding and expertise. [Thank you, members](ourmembers)!
+As the world's premier open access research sharing platform, arXiv was founded strictly for research and education, not profit. That's why we rely on members **--universities, libraries, and other research institutes--** to support our mission with funding and expertise. [Thank you, members](ourmembers)!
 
 <a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
