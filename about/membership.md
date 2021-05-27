@@ -65,7 +65,7 @@ As the world's premier open access research sharing platform, arXiv was founded 
 
 <a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
-Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors.
+Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, [and more](#memberbenefits). The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors.
 
 ## How the standard membership program works
 
