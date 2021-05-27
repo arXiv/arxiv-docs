@@ -61,20 +61,19 @@ table.table {
 }
 </style>
 
-As the world's premier open access research sharing platform, arXiv was founded strictly for education and research, not profit. That's why we rely on members --universities, libraries, and other research organizations-- to support our mission with funding and expertise and complement our other [funding sources](funding).
+As the world's premier open access research sharing platform, arXiv was founded strictly for research and education, not profit. That's why we rely on members --universities, libraries, and other research institutes-- to support our mission with funding and expertise. [Thank you, members](ourmembers)!
 
 <a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
 
-Membership is inclusive, flexible, and offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community.
+Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding), including affiliates and sponsors.
 
-Starting at just $1000, members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more.
+## How the standard membership program works
 
-## How it works
-For standard memberships, annual fees are based on submissions by institution, averaged over three years.
+Is arXiv an essential resource for your researchers? If yes, then we invite you to become a member according to the structure described here.  Annual fees are based on submissions by institution, averaged over three years.
 
-First, [Find your institution's submission rank here](reports/2020_usage).
+First, [find your institution's overall submission rank](reports/2020_institution_submissions). 
 
-Then, find your fee using this table:
+Then, match your rank to the fee using this table:
 
 |Rank   |Annual Membership Fees (USD)
 |-----------------------------|:--------------------|
@@ -82,15 +81,15 @@ Then, find your fee using this table:
 | 101-500 | $2,500 |
 | 501+ | $1,000 |
 
-The fees listed here are guaranteed until 2024. Institutions joining as part of a consortium receive a 10% discount, and country-level consortia receive a larger discount.
+These fees are guaranteed until 2024. Institutions joining as part of a consortium receive a 10% discount, and country-level consortia receive a larger discount.
 
-### Two alternative options
-Some institutions want to support arXiv at a higher level, so for those we offer the Champion membership. Others face significant budget limitations or use arXiv only for reading (link to download stats). Community membership is our most inclusive option.
+### Two alternative programs: Champion and Community Membership
+
 
 #
 
 > 1. **Community**
-> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_usage)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
+> Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
 > 1. **Champion**
 > Is your institution a champion of open access and a thought leader in scholarly communications? By contributing $10,000 or more, your institution makes a strong statement in favor of fair and sustainable academic publishing.
 >
