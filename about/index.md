@@ -15,13 +15,13 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. T
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
 - [arXiv Twitter](https://twitter.com/arxiv)
 
-## Membership & Giving
+## Funding, Membership, & Giving
 
 - [Funding Support](/about/funding)
-- [Membership & Giving](/about/give)
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
-- [Our Members and Supporters](/about/ourmembers)
+- [Our Members](/about/ourmembers)
+- [Our Supporters](/about/ourmembers)
 
 
 ## Who We Are
