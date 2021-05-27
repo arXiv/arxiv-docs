@@ -83,7 +83,7 @@ Then, match your rank to the fee using this table:
 
 These fees are guaranteed until 2024. Institutions joining as part of a consortium receive a 10% discount, and country-level consortia receive a larger discount.
 
-### Two alternative programs: Champion and Community Membership
+## Two alternative programs: Champion and Community Memberships
 
 
 #
