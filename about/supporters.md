@@ -1,6 +1,6 @@
 # Our Supporters
 
-We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from foundations, affiliates, and members.
+We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from foundations and members.
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
@@ -94,7 +94,7 @@ aside {
 >1. Association for Computing Machinery (USA)
 >1. Austrian Science Fund (Austria)
 >1. Institute of Physics Publishing (UK)
->1. NWO Dutch Reseach Countil (Netherlands)
+>1. NWO Dutch Reseach Council (Netherlands)
 >1. Deutsche Physikalische Gesellschaft (Germany)
 
 
