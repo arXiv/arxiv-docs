@@ -13,6 +13,8 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 
 [Our institutional members](/about/ourmembers) support arXiv because they understand the value of arXiv to their academic communities. Downloads and submissions are representative of that value.
 
+* [Submissions by Institution (2020)](2020_institution_submissions)
+ 
 * [Downloads by Institution (2020)](2020_institution_downloads)
 
 * [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive)

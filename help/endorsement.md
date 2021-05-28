@@ -71,11 +71,7 @@ at once, or to repeatedly email the same endorser with a request for
 endorsement.
 
 At least one positive endorsement is required per *endorsement domain*
-to be considered endorsed for that domain. The number of positive
-endorsements, however, must exceed the number of negative endorsements.
-In other words, you must maintain a net positive endorsement per domain
-to be considered endorsed. Therefore, you should consider carefully to
-whom you make endorsement requests.
+to be considered endorsed for that domain.
 
 arXiv reserves the right to revoke any submitter's endorsement if that
 submitter has violated arXiv policies.
