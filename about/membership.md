@@ -87,7 +87,7 @@ These fees are guaranteed until 2024. Institutions joining as part of a consorti
 
 **Community**
 
-Is your institution using arXiv primarily for [dowloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
+Is your institution using arXiv primarily for [downloading and reading papers](reports/2020_institution_downloads_by_year)? Or, is your institution significantly resource-limited? If yes, then community membership is the right choice. Join the arXiv community by choosing your contribution level at $1000 or less.
 
 **Champion**
 
