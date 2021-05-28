@@ -1,8 +1,8 @@
-# Submissions by Institution in 2020
+# Submissions by Institution
 
 _See more [arXiv in Numbers](/about/reports/2020_usage)_
 
-The following table shows submissions by institutions in 2018, 2019, and a portion of 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the list of institutions to reveal the search icon.
+The following table shows submissions by institution in 2018, 2019, and 2020. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](/about/membership).
 
 **Note**: This data for submissions by institution was provided by [Microsoft Academics](https://academic.microsoft.com/home). Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 

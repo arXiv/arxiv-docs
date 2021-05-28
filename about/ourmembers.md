@@ -1,6 +1,10 @@
 # Our Members
-We gratefully acknowledge the support of the following member institutions.
-Learn more about [membership](/about/membership).
+
+We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from [foundations, affiliates, and sponsors](supporters).
+
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
+
+(*This page will reflect recent changes to the [membership program](membership) in 2022*)
 
 <style>
 ol {
@@ -78,16 +82,6 @@ aside {
 >1. Imperial College London (UK) _JISC_
 >1. Massachusetts Institute of Technology (MIT) (USA)
 >1. University of Cambridge (UK) _JISC_
-
-## Societies
-
->1. American Astronomical Society (USA)
->1. American Institute of Physics Publishing (USA)
->1. American Mathematical Society (USA)
->1. American Physical Society (USA)
->1. Association for Computing Machinery (USA)
->1. Deutsche Physikalische Gesellschaft (Germany)
->1. Institute of Physics Publishing (UK)
 
 ## Tier 1
 
@@ -223,6 +217,7 @@ aside {
 
 ## Tier 5
 
+1. Aalto University (Finland)
 1. Argonne National Lab (USA)
 1. Arizona State University (USA)
 1. Australian National University (Australia)
@@ -257,6 +252,7 @@ aside {
 
 ## Tier 6
 
+1. Ames Laboratory (USA)
 1. Bibliothèque de l'Observatoire de Paris (OBSPM) (France) _CCSD_
 1. Boston College (USA)
 1. Brown University (USA)
@@ -280,11 +276,13 @@ aside {
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Lehigh University (USA)
 1. Macquarie University (Australia)
+1. McMaster University (Canada)
 1. Michigan State University (USA) _BTAA_
 1. Niels Bohr Institute (Denmark)
 1. Nikhef (Netherlands)
 1. Ohio State University (USA) _BTAA_
 1. Oregon State (USA)
+1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
 1. Rice University (USA)
@@ -312,6 +310,7 @@ aside {
 1. University of Cape Town (South Africa)
 1. University of Cardiff (UK) _JISC_
 1. University of Central Oklahoma (USA)
+1. University of Graz (Austria)
 1. University of Geneva (Switzerland)
 1. University of Georgia (USA)
 1. University of Hawaii (USA)
@@ -337,14 +336,5 @@ aside {
 1. Western University (Canada)
 
 
-## Contributors as non-voting members
-
->1. Arm Research (UK)
->1. Austrian Science Fund (Austria)
->1. Computer Vision Foundation (CVF) (USA)
->1. Cornell University (USA)
->1. Denmark Electronic Research Library (DEFF) (Denmark)
->1. Google Deep Mind (USA)
->1. Microsoft Corporation (USA)
 
 #
