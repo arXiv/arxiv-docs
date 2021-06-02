@@ -7,12 +7,12 @@ arXiv is a forum for professional members of the scientific community, providing
 	[What policies guide moderation before public announcement?](#what-policies)
 		[Reclassification of works](#reclassification)
 		[Declined Submissions](#declined)
-		[Scholarly interest]
-		[Inappropriate format]
-		[Inappropriate topic]
-		[Duplicated content]
-		[Rights to submit material]
-		[Excessive submission rate]
+			[Scholarly interest](#scolarly-interest)
+			[Inappropriate format](#format)
+			[Inappropriate topic]
+			[Duplicated content]
+			[Rights to submit material]
+			[Excessive submission rate]
 	[What policies guide moderation after public announcement?]
 	[Can I appeal a moderation decision?]
 	[Who are arXiv moderators?]
@@ -35,14 +35,19 @@ Reclassification by our moderators helps make sure that submissions are posted t
 <span id="declined">
 ### Declined submissions
 
+Some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-### Unrefereeable content
+<span id="scholarly-interest">
+#### Scholarly interest
 
-arXiv only accepts submissions in the form of an article that would be refereeable by a conventional publication venue. Papers that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
 
+Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
+
+<span id="format">
 ### Inappropriate format
 
-Abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, or articles containing advertisements may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germaine "Comment on" and "Reply to" articles must still conform to refereeable standards (for example, as if they were a "letter to the editor"). arXiv may limit excessive back and forth to a single "reply to" and "comment on" per original paper, updates to the discourse are to be made through [replacements](/help/replace). 
+Submissions in a format deemed inappropriate may be rejected. Such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
 
 ### Inappropriate topic
 
