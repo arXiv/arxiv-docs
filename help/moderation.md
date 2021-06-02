@@ -49,7 +49,8 @@ Submissions that do not contain original or substantive research, including unde
 <span id="format"></span>
 #### Inappropriate format
 
-Submissions in a format deemed inappropriate may be rejected. Such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
+Submissions in a format deemed inappropriate, such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories, may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
+
 
 <span id="out-of-scope"></span>
 #### On a topic not covered, or a community not currently served
