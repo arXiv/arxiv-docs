@@ -1,6 +1,6 @@
 # arXiv moderation
 
-arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](http://blog.arxiv.org/2019/08/29/our-moderation-process/).
+arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](https://blog.arxiv.org/2019/08/29/our-moderation-process/).
 
 [arXiv moderation](#arxiv-moderation)
 	[Why does arXiv moderate submissions?](#why-moderate) 
@@ -11,8 +11,8 @@ arXiv is a forum for professional members of the scientific community, providing
 			[Inappropriate format](#format)
 			[On a topic not covered, or a community not currently served](#out-of-scope)
 			[Duplicated content](#duplicated-content)
-			[Rights to submit material]
-			[Excessive submission rate]
+			[Rights to submit material](#rights-to-submit)
+			[Excessive submission rate](#submission-rate)
 	[What policies guide moderation after public announcement?]
 	[Can I appeal a moderation decision?]
 	[Who are arXiv moderators?]
@@ -59,14 +59,15 @@ While arXiv serves a variety of scientific communities, not all subjects are cur
 
 If we notice that an author has made multiple similar submissions, or that a new submission appears to be a revision of a recent submission, then we may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities submitting and reading articles, and it can often help the author present a more unified body of research.
 
-### Rights to submit material
+<span id="rights-to-submit">
+#### Rights to submit material
 
-Submissions to arXiv must be the author’s original work, and users must have the legal authority to grant the [selected license](/help/license) Users must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. Users should not submit articles containing verbatim comments by referees, plagiarized content, or other works barred by third party copyright. 
+Submissions to arXiv must be the author’s original work, and/or submitters must have the legal authority to grant the [selected license](/help/license). Authors must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. arXiv does not accept work containing verbatim comments by referees, plagiarized content, or other works barred by third party copyright.
 
-### Excessive submission rate
+<span id="submission-rate">
+#### Excessive submission rate
 
-Articles submitted to arXiv must be of refereeable quality, and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. We may request that a particular author limit their submission rate if this author has a history of many submissions to inappropriate areas or of doubtful refereeability. 
-If an author has a back catalog of work to submit to arXiv we ask that they submit no more than three papers per day.
+Articles submitted to arXiv must be of original, novel, and significant self-contained research and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. We may request that a particular author limit their submission rate. If an author has a back catalog of work to submit to arXiv, we ask that they submit no more than three papers per day.
 
 ## What policies guide moderation after public announcement?
 
