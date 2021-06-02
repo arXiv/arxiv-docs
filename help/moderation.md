@@ -2,13 +2,33 @@
 
 arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](http://blog.arxiv.org/2019/08/29/our-moderation-process/).
 
+[arXiv moderation](#arxiv-moderation)
+	[Why does arXiv moderate submissions?](#why-moderate) 
+	[What policies guide moderation before public announcement?](#what-policies)
+		[Reclassification of works](#reclassification)
+		[Declined Submissions]
+		[Scholarly interest]
+		[Inappropriate format]
+		[Inappropriate topic]
+		[Duplicated content]
+		[Rights to submit material]
+		[Excessive submission rate]
+	[What policies guide moderation after public announcement?]
+	[Can I appeal a moderation decision?]
+	[Who are arXiv moderators?]
+
+<span id="why-moderate">
 ## Why does arXiv moderate submissions?
 
 arXiv is an openly accessible, moderated repository for scholarly papers in specific scientific disciplines. Material submitted to arXiv is expected to be of interest, relevance, and value to those disciplines. arXiv reserves the right to decline or reclassify any submission.
 
+<span id="what-policies">
 ## What policies guide moderation before public announcement?
 
-This section describes the moderation considerations from after a user submits a work and before the work is announced. As submissions go through the arXiv moderation process they may be declined or reclassified.
+This section describes the moderation process after a user submits a work and before the work is made public. As submissions are subject to the arXiv moderation process they may be reclassified or declined. Each work is considered on its content. arXiv moderation decisions may be influenced by the publication status of the submission, but prior publication does not guarantee acceptance in arXiv. Submitters who have had works previously delayed or rejected should anticipate closer scrutiny on future submissions. 
+
+<span id="reclassification">
+### Reclassification of works
 
 Reclassification by our moderators helps make sure that submissions are posted to the most appropriate archive. Cross-lists may be added to other related archives, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will still be announced in the mailings to that category.
 
