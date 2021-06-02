@@ -9,8 +9,8 @@ arXiv is a forum for professional members of the scientific community, providing
 		[Declined Submissions](#declined)
 			[Scholarly interest](#scolarly-interest)
 			[Inappropriate format](#format)
-			[Inappropriate topic]
-			[Duplicated content]
+			[On a topic not covered, or a community not currently served](#out-of-scope)
+			[Duplicated content](#duplicated-content)
 			[Rights to submit material]
 			[Excessive submission rate]
 	[What policies guide moderation after public announcement?]
@@ -45,17 +45,19 @@ arXiv moderators expect submissions to be of scholarly archival interest to the 
 Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
 
 <span id="format">
-### Inappropriate format
+#### Inappropriate format
 
 Submissions in a format deemed inappropriate may be rejected. Such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
 
-### Inappropriate topic
+<span id="out-of-scope">
+#### On a topic not covered, or a community not currently served
 
-While arXiv serves a variety of scientific communities, not all subjects are currently covered. Submissions that do not fit well into our current classification scheme may be declined.
+While arXiv serves a variety of scientific communities, not all subjects are currently covered. Submissions that do not fit well into our current classification scheme, or whose intended audience is not a community we currently serve, may be declined.
 
-### Duplicated content
+<span id="duplicated-content">
+#### Duplicated content
 
-If moderators notice that a user has made many similar submissions in a short amount of time, or that a new submission appears to be a revision of a recent submission, then we may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities posting and reading articles, and it can often help the author present a more unified body of research.
+If we notice that an author has made multiple similar submissions, or that a new submission appears to be a revision of a recent submission, then we may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities submitting and reading articles, and it can often help the author present a more unified body of research.
 
 ### Rights to submit material
 
