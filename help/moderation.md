@@ -18,7 +18,7 @@ arXiv is a forum for professional members of the scientific community, providing
   - [Who are arXiv moderators?](#who-are-the-moderators)
 
 
-<span id="why-moderate"</span>>
+<span id="why-moderate"></span>
 ## Why does arXiv moderate submissions?
 
 arXiv is an openly accessible, moderated repository for scholarly papers in specific scientific disciplines. Material submitted to arXiv is expected to be of interest, relevance, and value to those disciplines. arXiv reserves the right to decline or reclassify any submission.
