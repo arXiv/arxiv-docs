@@ -7,7 +7,8 @@ arXiv is a forum for professional members of the scientific community, providing
   - [What policies guide moderation before public announcement?](#what-policies)
       - [Reclassification of works](#reclassification)
       - [Declined Submissions](#declined)
-      - [Scholarly interest](#scolarly-interest)
+      - [Scholarly interest](#scholarly-interest)
+
       - [Inappropriate format](#format)
       - [On a topic not covered, or a community not currently served](#out-of-scope)
       - [Duplicated content](#duplicated-content)
@@ -111,4 +112,3 @@ arXiv moderators are volunteer subject matter experts with terminal degrees in t
 Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 
 Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
-
