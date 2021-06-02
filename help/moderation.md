@@ -14,8 +14,8 @@ arXiv is a forum for professional members of the scientific community, providing
 			[Rights to submit material](#rights-to-submit)
 			[Excessive submission rate](#submission-rate)
 	[What policies guide moderation after public announcement?](#policies-after)
-	[Can I appeal a moderation decision?]
-	[Who are arXiv moderators?]
+	[Can I appeal a moderation decision?](#appeal)
+	[Who are arXiv moderators?](#who-are-the-moderators)
 
 <span id="why-moderate"</span>>
 ## Why does arXiv moderate submissions?
@@ -102,10 +102,12 @@ The appeals process allows moderators additional time to reconsider a submission
 [statistics](/help/statistics/#AdvisoryCommittee);
 [electrical engineering and systems science](/help/eess/#AdvisoryCommittee); or [economics](/help/econ/#AdvisoryCommittee) .
 
+<span id="who-are-the-moderators"></span>
 ## Who are arXiv moderators?
 
-arXiv moderators are volunteers who are experts in their fields and in the types of submissions that are appropriate for their subject classifications. They evaluate based on the content of the submission and the policies of arXiv. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal.
+arXiv moderators are volunteer subject matter experts with terminal degrees in their field. They evaluate each submission’s content and category, following arXiv policies. [arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board#advisory_committees) and by arXiv staff.
 
-[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board#advisory_committees) and by arXiv staff.
+Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 
-Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions.
+Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
+
