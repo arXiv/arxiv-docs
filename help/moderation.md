@@ -17,59 +17,59 @@ arXiv is a forum for professional members of the scientific community, providing
 	[Can I appeal a moderation decision?]
 	[Who are arXiv moderators?]
 
-<span id="why-moderate">
+<span id="why-moderate"</span>>
 ## Why does arXiv moderate submissions?
 
 arXiv is an openly accessible, moderated repository for scholarly papers in specific scientific disciplines. Material submitted to arXiv is expected to be of interest, relevance, and value to those disciplines. arXiv reserves the right to decline or reclassify any submission.
 
-<span id="what-policies">
+<span id="what-policies"></span>
 ## What policies guide moderation before public announcement?
 
 This section describes the moderation process after a user submits a work and before the work is made public. As submissions are subject to the arXiv moderation process they may be reclassified or declined. Each work is considered on its content. arXiv moderation decisions may be influenced by the publication status of the submission, but prior publication does not guarantee acceptance in arXiv. Submitters who have had works previously delayed or rejected should anticipate closer scrutiny on future submissions. 
 
-<span id="reclassification">
+<span id="reclassification"></span>
 ### Reclassification of works
 
 Reclassification by our moderators helps make sure that submissions are posted to the most [relevant category](/category_taxonomy) based on the assessment of the content by the moderators. Cross-lists may be added to other related categories, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will be announced in the mailings to that category.
 
-<span id="declined">
+<span id="declined"></span>
 ### Declined submissions
 
 Some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-<span id="scholarly-interest">
+<span id="scholarly-interest"></span>
 #### Scholarly interest
 
 arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
 
 Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
 
-<span id="format">
+<span id="format"></span>
 #### Inappropriate format
 
 Submissions in a format deemed inappropriate may be rejected. Such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
 
-<span id="out-of-scope">
+<span id="out-of-scope"></span>
 #### On a topic not covered, or a community not currently served
 
 While arXiv serves a variety of scientific communities, not all subjects are currently covered. Submissions that do not fit well into our current classification scheme, or whose intended audience is not a community we currently serve, may be declined.
 
-<span id="duplicated-content">
+<span id="duplicated-content"></span>
 #### Duplicated content
 
 If we notice that an author has made multiple similar submissions, or that a new submission appears to be a revision of a recent submission, then we may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities submitting and reading articles, and it can often help the author present a more unified body of research.
 
-<span id="rights-to-submit">
+<span id="rights-to-submit"></span>
 #### Rights to submit material
 
 Submissions to arXiv must be the author’s original work, and/or submitters must have the legal authority to grant the [selected license](/help/license). Authors must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. arXiv does not accept work containing verbatim comments by referees, plagiarized content, or other works barred by third party copyright.
 
-<span id="submission-rate">
+<span id="submission-rate"></span>
 #### Excessive submission rate
 
 Articles submitted to arXiv must be of original, novel, and significant self-contained research and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. We may request that a particular author limit their submission rate. If an author has a back catalog of work to submit to arXiv, we ask that they submit no more than three papers per day.
 
-<span id="policies-after">
+<span id="policies-after"></span>
 ## What policies guide moderation after public announcement?
 
 Once a paper is announced it becomes part of the permanent scholarly record. While arXiv reserves the right to remove any content, arXiv will only consider requests for removal if the submitter did not have the legal right to [agree to the license](/help/license).
