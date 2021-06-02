@@ -6,7 +6,7 @@ arXiv is a forum for professional members of the scientific community, providing
 	[Why does arXiv moderate submissions?](#why-moderate) 
 	[What policies guide moderation before public announcement?](#what-policies)
 		[Reclassification of works](#reclassification)
-		[Declined Submissions]
+		[Declined Submissions](#declined)
 		[Scholarly interest]
 		[Inappropriate format]
 		[Inappropriate topic]
@@ -30,9 +30,11 @@ This section describes the moderation process after a user submits a work and be
 <span id="reclassification">
 ### Reclassification of works
 
-Reclassification by our moderators helps make sure that submissions are posted to the most appropriate archive. Cross-lists may be added to other related archives, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will still be announced in the mailings to that category.
+Reclassification by our moderators helps make sure that submissions are posted to the most [relevant category](/category_taxonomy) based on the assessment of the content by the moderators. Cross-lists may be added to other related categories, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will be announced in the mailings to that category.
 
-arXiv policies that could lead to a submission being declined include, but are not limited to:
+<span id="declined">
+### Declined submissions
+
 
 ### Unrefereeable content
 
