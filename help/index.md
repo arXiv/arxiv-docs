@@ -44,7 +44,7 @@ slug: Help
 - [Understanding the ORCID iD](orcid)
 - [Institutional Repository (IR) Interoperability](ir)
 - [Bulk data access](bulk_data)
-- [API acces](api) and [API User Manual](api/user-manual)
+- [API access](api) and [API User Manual](api/user-manual)
 - [DOI and journal reference updates to arXiv from publishers](bib_feed)
 - [ScienceWISE annotation and bookmarking](sciencewise)
 - [Usage statistics](stats)
