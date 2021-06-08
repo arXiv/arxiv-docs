@@ -33,7 +33,7 @@ Download the appropriate file for your personal use as an author: [png](https://
 #### For products that use the arXiv API
 
 1. Acknowledge arXiv data usage with this statement on your product: “Thank you to arXiv for use of its open access interoperability. This [service/ product] was not reviewed or approved by, nor does it necessarily express or reflect the policies or opinions of, arXiv.”
-2. If your product is linking directly to arXiv PDFs or abstract pages, you may either use the full arXiv logo or the logomark. (Note: your product must also comply with [arXiv’s license agreements](/help/license))
+2. If your product is linking directly to arXiv PDFs or abstract pages, you may either use the full arXiv logo or the smaller logomark. Please email nextgen@arxiv.org for details. (Note: your product must also comply with [arXiv’s license agreements](/help/license))
 3. Typically logo usage beyond the above is not granted for API use. If you think your project is an exception you can always inquire at nextgen@arxiv.org.
 4. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names implying or tending to imply some official connection with arXiv, is prohibited.
 
