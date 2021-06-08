@@ -41,5 +41,4 @@ Download the appropriate file for your personal use as an author: [png](https://
 
 1. We encourage current members and affiliates to acknowledge arXiv with the statement: “Proud supporter of arXiv.” 
 2. arXiv’s logo may be used for the purposes of acknowledging the relationship while the membership, affiliation, or sponsorship is active.
-3. Use of arXiv’s logo must follow our visual brand guidelines.
-
+3. Use of arXiv’s logo must follow our [visual brand guidelines](brand).
