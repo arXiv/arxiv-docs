@@ -2,21 +2,19 @@
 
 arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](https://blog.arxiv.org/2019/08/29/our-moderation-process/).
 
-- [arXiv moderation](#arxiv-moderation)
-  - [Why does arXiv moderate submissions?](#why-moderate) 
-  - [What policies guide moderation before public announcement?](#what-policies)
-      - [Reclassification of works](#reclassification)
-      - [Declined Submissions](#declined)
-      - [Scholarly interest](#scholarly-interest)
-
-      - [Inappropriate format](#format)
-      - [On a topic not covered, or a community not currently served](#out-of-scope)
-      - [Duplicated content](#duplicated-content)
-      - [Rights to submit material](#rights-to-submit)
-      - [Excessive submission rate](#submission-rate)
-  - [What policies guide moderation after public announcement?](#policies-after)
-  - [Can I appeal a moderation decision?](#appeal)
-  - [Who are arXiv moderators?](#who-are-the-moderators)
+- [Why does arXiv moderate submissions?](#why-moderate) 
+- [What policies guide moderation before public announcement?](#what-policies)
+    - [Reclassification of works](#reclassification)
+    - [Declined Submissions](#declined)
+    - [Scholarly interest](#scholarly-interest)
+    - [Inappropriate format](#format)
+    - [On a topic not covered, or a community not currently served](#out-of-scope)
+    - [Duplicated content](#duplicated-content)
+    - [Rights to submit material](#rights-to-submit)
+    - [Excessive submission rate](#submission-rate)
+- [What policies guide moderation after public announcement?](#policies-after)
+- [Can I appeal a moderation decision?](#appeal)
+- [Who are arXiv moderators?](#who-are-the-moderators)
 
 
 <span id="why-moderate"></span>
@@ -93,7 +91,7 @@ If you disagree with a moderation decision, you may submit an appeal. Please car
 - In your appeal message please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
 - You will receive a response from arXiv Content Management &; User Support team when your appeal has been sent to our appellate moderators for consideration.
 - Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel.
-- When a decision is made by the appellate moderators, you will receive a follow-up message from the arXiv Content Management &mp; User Support Team
+- When a decision is made by the appellate moderators, you will receive a follow-up message from the arXiv Content Management & User Support Team
 - Our moderators are not referees and do not provide detailed feedback on submissions. The arXiv Content Management & User Support Team staff cannot provide detailed feedback regarding declined submissions and will not enter into extended discussion regarding submissions.
 
 
