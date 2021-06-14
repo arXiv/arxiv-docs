@@ -93,7 +93,7 @@ projects:
         <li>Or simply explore paper-space!</li>
         </ul>
   litmaps:
-    title: LitMaps
+    title: Litmaps
     thumbnail: ../images/litmaps-logo-square-white.png
     more_info:
     - name: About Litmaps
