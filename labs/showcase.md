@@ -65,33 +65,32 @@ projects:
       <a href="https://paperswithcode.com" target="_blank" rel="noopener">
       Papers with Code</a> - a free resource that links papers, code and
       results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
-  connected_papers:
-    title: Connected Papers
-    repo: https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/connectedpapers.js
-    thumbnail: ../images/connected-papers.png
+  litmaps:
+    title: LitMaps
+    thumbnail: ../images/litmaps-logo-square-white.png
     more_info:
-    - name: About Connected Papers
-      link: https://www.connectedpapers.com/about
+    - name: About Litmaps
+      link: https://www.litmaps.co/about
     collaborators:
-    - name: Alex Eitan Tarnavsky
-      association: Connected Papers
-    - name: Eddie Smolyansky
-      association: Connected Papers
-    - name: Itay Knaan Harpaz
-      association: Connected Papers
-    - name: Sahar Perets
-      association: Connected Papers
+    - name: Kyle Webster
+      association: Litmaps
+    - name: Axton Pitt
+      association: Litmaps
+    - name: Digl Dixon
+      association: Litmaps
+    - name: Hamish Huggard
+      association: Litmaps
+    - name: Racheal Reeves
+      association: Litmaps
     summary: |
-      <a href="https://www.connectedpapers.com" target="_blank" rel="noopener">Connected Papers</a>
-      is a unique, visual tool to help researchers and applied scientists find and explore papers relevant to their field of work.
-
-      You can use Connected Papers to:
-      <ul>
-        <li>Get a visual overview of a new academic field</li>
-        <li>Create a bibliography to your thesis</li>
-        <li>Discover the most relevant prior and derivative works</li>
-        <li>Or simply explore paper-space!</li>
-      </ul>
+      <a href="https://www.litmaps.co" target="_blank" rel="noopener">Litmaps</a>
+      is an innovative research discovery tool. It combines interactive
+      citation maps, modern search tools, and targeted updates to create a
+      cohesive research discovery experience. It can visualize your research
+      topic with everything from articles, patents, books, pre-prints, and
+      e-prints. From arXiv abstract pages, you can build a literature map from
+      the arXiv article you are viewing, visualizing the top connected
+      articles, and browse the citation network around it.
 ---
 <style>
 h1#arxivlabs {
@@ -185,6 +184,7 @@ Interested in proposing a new arXiv Labs project?
 
 <a href="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a>
 
+{{ render_project(page.meta.projects.litmaps) }}
 {{ render_project(page.meta.projects.connected_papers) }}
 {{ render_project(page.meta.projects.pwc_links) }}
 {{ render_project(page.meta.projects.core_recommender) }}
