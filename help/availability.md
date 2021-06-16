@@ -5,7 +5,7 @@ Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
 amount of time remaining before the deadline. Submissions are made public as part of the scheduled announcement process. This includes new submissions as well as [replacements](replace), [withdrawal notices](withdraw), [cross listings](cross) and [journal reference](jref). Journal reference submissions do not appear in the mailings, but are still processed at that time. 
 
-Note that all submissions are subject to [moderation]](moderation) which may result in delays.
+Note that all submissions are subject to [moderation](moderation) which may result in delays.
 
 <a name="id-before"></a>
 ## A note about arXiv-id assignments
