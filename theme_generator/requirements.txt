@@ -1,5 +1,6 @@
 mkdocs
 arxiv-base
+flask==1.1.4
 flask-s3
 mkdocs-macros-plugin
 
