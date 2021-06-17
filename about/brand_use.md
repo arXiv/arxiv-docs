@@ -49,7 +49,7 @@ If your application meets our criteria for use of arXiv's logo, find and downloa
 
 * If the allotted space in your application is wider than 100px use our [full logo](https://cornell.box.com/v/arxiv-logo-svg).
 * If the allotted space in your application is between 40px and up to 100px in width, use our [standard logomark](https://cornell.box.com/s/6uqn87ew01eeg2xokm1ltq5z5idfj0p7).
-* If the allotted space in your application is between 15px and up to 39px in width, use our [small logomark](https://cornell.box.com/s/cleq2ex1wra4sfsj94tlqrw9z5oecg6b)
+* If the allotted space in your application is between 15px and up to 39px in width, use our [small logomark](https://cornell.box.com/s/cleq2ex1wra4sfsj94tlqrw9z5oecg6b).
 * At sizes smaller than 15px in width, do not use any arXiv branding element.
 
 If you have questions, or need a different color (single color or for a dark background) or file extension please reach out to nextgen@arxiv.org. 
