@@ -45,7 +45,7 @@ Download the appropriate file for your personal use as an author: [png](https://
 
 ### Logo display guidelines:
 
-If your logo use is approved, find and download the right logo for your application below.
+If your application meets our criteria for use of arXiv's logo, find and download the right logo for your application below.
 
 Display guidelines for the arXiv logo are as follows:
 
