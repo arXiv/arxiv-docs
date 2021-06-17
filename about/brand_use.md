@@ -52,6 +52,6 @@ If your application meets our criteria for use of arXiv's logo, find and downloa
 * If the allotted space in your application is **between 15px and up to 39px in width**, use our [small logomark](https://cornell.box.com/s/cleq2ex1wra4sfsj94tlqrw9z5oecg6b).
 * At sizes **smaller than 15px** in width, do not use any arXiv branding element.
 
-If you have questions, or need a different color (single color or for a dark background) or file extension please reach out to nextgen@arxiv.org with your request and include a link to your application. 
+Have questions? Need a different color? Please reach out to nextgen@arxiv.org with your request and include a link to your application. 
 
 All pixel width dimensions refer to device independent pixels (aka css pixels). 
