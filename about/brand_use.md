@@ -33,7 +33,7 @@ Download the appropriate file for your personal use as an author: [png](https://
 #### For products that use the arXiv API
 
 1. Acknowledge arXiv data usage with this statement on your product: “Thank you to arXiv for use of its open access interoperability. This [service/ product] was not reviewed or approved by, nor does it necessarily express or reflect the policies or opinions of, arXiv.”
-2. If your product is linking directly to arXiv PDFs or abstract pages, you may either use the full arXiv logo or the smaller logomark. Please email nextgen@arxiv.org for details. (Note: your product must also comply with [arXiv’s license agreements](/help/license))
+2. If your product is linking directly to arXiv PDFs or abstract pages, you may either use the full arXiv logo or the smaller logomark. (Note: your product must also comply with [arXiv’s license agreements](/help/license))
 3. Typically logo usage beyond the above is not granted for API use. If you think your project is an exception you can always inquire at nextgen@arxiv.org.
 4. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names implying or tending to imply some official connection with arXiv, is prohibited.
 
@@ -42,3 +42,16 @@ Download the appropriate file for your personal use as an author: [png](https://
 1. We encourage current members and affiliates to acknowledge arXiv with the statement: “Proud supporter of arXiv.” 
 2. arXiv’s logo may be used for the purposes of acknowledging the relationship while the membership, affiliation, or sponsorship is active.
 3. Use of arXiv’s logo must follow our [visual brand guidelines](brand).
+
+### Logo display guidelines:
+
+If your application meets our criteria for use of arXiv's logo, find and download the right logo for your application below.
+
+* If the allotted space in your application is **wider than 100px**, use our [full logo](https://cornell.box.com/v/arxiv-logo-svg).
+* If the allotted space in your application is **between 40px and up to 100px in width**, use our [standard logomark](https://cornell.box.com/s/6uqn87ew01eeg2xokm1ltq5z5idfj0p7).
+* If the allotted space in your application is **between 15px and up to 39px in width**, use our [small logomark](https://cornell.box.com/s/cleq2ex1wra4sfsj94tlqrw9z5oecg6b).
+* At sizes **smaller than 15px** in width, do not use any arXiv branding element.
+
+Have questions? Need a different color? Please reach out to nextgen@arxiv.org with your request and include a link to your application. 
+
+All pixel width dimensions refer to device independent pixels (aka css pixels). 
