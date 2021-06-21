@@ -12,4 +12,5 @@
 - Jenna Powers, arXiv Administrator
 - Rebecca Rich Goldweber, arXiv Administrator
 - Steinn Sigurdsson, Scientific Director
+- Helen Wang, Product Manager
 - Jake Weiskoff, Senior arXiv Administrator
