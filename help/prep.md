@@ -225,7 +225,7 @@ announcement, it will be wrapped to 80 characters.
     "Editor" information.
 -   If this is a replacement, indicate the nature of the replacement and
     the severity of the changes so readers will know why it was
-    replaced. You may with to still include your original comments (e.g.
+    replaced. You may wish to still include your original comments (e.g.
     number of pages), because the comments field is not cumulative.
 -   **Do not put copyright statements in the comments, put them on the
     front page of the article.** Even there, do not put any copyright or
