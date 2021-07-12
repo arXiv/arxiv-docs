@@ -236,47 +236,26 @@ announcement, it will be wrapped to 80 characters.
     field.
 
 
-### <span id="report"></span>Report-no: *required only when supplied by author's institution*
+<span id="report"></span>
+### Report-no: *required only when supplied by author's institution*
 
 -   Enter your institution's locally assigned publication number.
 -   Do not put any other information in this field.
 -   Example: `Report-no: EFI-94-11`.
 
-### <span id="subj"></span>Category:
+<span id="subj"></span>
+### Category:
 
 Each arXiv article has a primary category and may also have one or more
 cross-lists to other categories. The categories control what mailings an
 article is announced in, and also provide a way to limit searches to
 subsets of arXiv.
 
-Some categories have just an archive name, such as `hep-th` or
-`quant-ph`. Others are broken into subject classes to give finer subject
-granularity:
+Please carefully review the [descriptions of categories](/category_taxonomy) to find the best fit.
 
--   For the `'astro-ph'` archive see [list of astro-ph subject
-    classes](/archive/astro-ph).
--   For the `'cond-mat'` archive see [list of cond-mat subject
-    classes](/archive/cond-mat).
--   For the `'physics'` archive see [list of physics subject
-    classes](/archive/physics).
--   For the `'math'` archive see [list of math subject
-    classes](/archive/math).
--   For the `'nlin'` archive see [list of nlin subject
-    classes](/archive/nlin).
--   For the `'cs'` archive see [list of cs subject
-    classes](http://arxiv.org/corr/subjectclasses).
--   For the `'q-bio'` archive see [list of q-bio subject
-    classes](/archive/q-bio).
--   For the `'q-fin'` archive see [list of q-fin subject
-    classes](/archive/q-fin).
--   For the `'stat'` archive see [list of stat subject
-    classes](/archive/stat).
--   For the `'eess'` archive see [list of eess subject
-    classes](/archive/eess).
--   For the `'econ'` archive see [list of econ subject
-    classes](/archive/econ).
 
-### <span id="journal"></span>Journal-ref:
+<span id="journal"></span>
+### Journal-ref:
 
 -   This field is **only** for a full bibliographic reference if the
     article has already appeared in a journal or a proceedings.
