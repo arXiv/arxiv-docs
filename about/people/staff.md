@@ -12,4 +12,4 @@
 - Jenna Powers, arXiv Administrator
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
-- Jake Weiskoff, Senior arXiv Administrator
+- Jake Weiskoff, Senior Content & User Support Specialist
