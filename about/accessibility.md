@@ -56,7 +56,7 @@ The reasons for prioritizing accessibility are vast but below are the top ten we
 <span id="roadmap"></span>
 ## Roadmap to accessibility
 
-We are currently making significant strides to improve access for those using assistive technologies on arXiv's classic codebase, while the new arXiv NG platform is "born accessible"&mdash;built with accessibility in mind from the ground up. Deploying arXiv NG is our top accessibility goal. Accessible browsing is the initial priority of the NG platform, and accessible moderator and administrative interfaces will follow. In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
+We are currently making significant strides to improve access for those using assistive technologies on arXiv's classic codebase, while the new arXiv web platform is "born accessible"&mdash;built with accessibility in mind from the ground up. Accessible browsing, searching, and downloading is the first priority of the new platform, while a new submission interface and accessible moderator and administrative tools will follow. In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
 
 > “Cornell University is committed to providing an environment in which all people have an equal opportunity to participate in the university’s programs, activities and services.”
 >
@@ -67,7 +67,7 @@ We are currently making significant strides to improve access for those using as
 
 A fully accessible arXiv is important, meaningful, and ambitious. Significant development resources and user testing are needed to reach our targets and the arXiv community may wish to help in the following ways:
 
-- Making user uploaded research accessible, including TeX, is an ambitious and exciting goal that benefits users of assistive technology, mobile devices, those on slow internet connections, and translation services. Learn more about how you or your team can contribute development time to making arXiv TeX research papers accessible by emailing nextgen@arxiv.org.
+- Learn more about contributing development time to making arXiv TeX research papers accessible by emailing nextgen@arxiv.org.
 - [Donate](https://arxiv.org/about/give) and support creation of an accessible arXiv.
-- Additional opportunities for contributing to cutting edge projects are coming soon.
-- Join the arXiv usability email list where opportunities to participate in accessibility testing are announced. Send an email message to arxiv-usability-testing-l-request@cornell.edu. In the subject type the single word: join. Leave the body of the message blank.
+- Learn about [arXiv Labs](https://labs.arxiv.org) and developing tools that benefit the arXiv community.
+- Join the [arXiv usability testing list](user-testing) and share your feedback and insights.

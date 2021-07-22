@@ -10,7 +10,7 @@ people:
       As Executive Director, Eleonora leads daily operations at arXiv, including technical and business planning, governance, and fundraising efforts. After a PhD and postdoc in astroparticle physics, her career moved to scientific publishing and, later, to digital product development, servicing the research community.
   jim:
     name: Jim Entwood
-    position: Operations Manager
+    position: Head of Content
     thumbnail: images/jim.jpg
     bio: |
       Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
