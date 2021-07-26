@@ -37,7 +37,7 @@ When a decision is made by the appellate moderators, you will receive a follow-u
 
 If your appeal is accepted, the message you receive from The arXiv Content Management & User Support Team will have instructions for resubmission (if needed), or will provide you with the [status](/help/submit_status) of your submission. In some instances it may be required that you make some changes in order to accommodate the appellate moderators' decision. 
 
-*Note* that for submissions that have been reclassified, they will not receive a second "new" announcement within the category. 
+*Note* that for submissions that have been reclassified, they will not receive a "new" announcement within the changed category. 
 
 <span id="denied"></span>
 ## What if my appeal is denied?
