@@ -85,23 +85,7 @@ arXiv may reclassify already announced papers if the moderators determine there 
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a moderation decision, you may submit an appeal. Please carefully follow the directions below.
-
-- Appeals should be submitted through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact us by email at moderation@arxiv.org.
-- In your appeal message please include all relevant details, including paper IDs, former correspondence, submission summaries, etc.
-- You will receive a response from arXiv Content Management & User Support team when your appeal has been sent to our appellate moderators for consideration.
-- Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel.
-- When a decision is made by the appellate moderators, you will receive a follow-up message from the arXiv Content Management & User Support Team
-- Our moderators are not referees and do not provide detailed feedback on submissions. The arXiv Content Management & User Support Team staff cannot provide detailed feedback regarding declined submissions and will not enter into extended discussion regarding submissions.
-
-
-The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be requested. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/physics/#AdvisoryCommittee);
-[mathematics](/help/math/#AdvisoryCommittee); 
-[computer science (CoRR)](/corr); 
-[quantitative biology](/help/q-bio/#AdvisoryCommittee); 
-[quantitative finance](/help/q-fin/#AdvisoryCommittee);
-[statistics](/help/statistics/#AdvisoryCommittee);
-[electrical engineering and systems science](/help/eess/#AdvisoryCommittee); or [economics](/help/econ/#AdvisoryCommittee).
+If you disagree with a moderation decision, you may [appeal](appeals) to moderation for your desired outcome. 
 
 <span id="who-are-the-moderators"></span>
 ## Who are arXiv moderators?
