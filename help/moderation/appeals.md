@@ -2,11 +2,9 @@
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a [moderation](/help/moderation) decision, you may appeal for your desired outcome. 
+If you disagree with a [moderation](/help/moderation) decision, you may appeal for your desired outcome. The appeals process allows moderators time to reconsider a submission, but repeated appeals with no additional information cannot be considered.
 
 Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact The arXiv Content Management & User Support Team by email at moderation@arxiv.org. 
-
-The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered.
 
 - [What is a moderation appeal?](#what-is)
 - [What happens when I appeal?](#what-happens)
