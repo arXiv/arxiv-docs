@@ -24,7 +24,7 @@ Your appeal message must include all relevant details, such as paper/submit IDs,
 
 You will receive a response from The arXiv Content Management & User Support Team when your appeal has been sent to our appellate moderators for consideration. This response will include a ticket identifier that we will use to keep track of your appeal. 
 
-The appeals process begins after acknowledgment of your appeal. If your submission was recently declined, The arXiv Content Management & User Support Team will restore your submission to [on hold](/help/submit_status#on_hold) status, if possible. Submissions that have expired or that have already been announced cannot be restored, but this not a roadblock to your appeal. 
+The appeals process begins after acknowledgment of your appeal. If your submission was recently declined, The arXiv Content Management & User Support Team will restore your submission to [on hold](/help/submit_status#on_hold) status, if possible.  
 
 The appellate moderator will be sent any correspondence related to the work, and will begin to consider the content of your appeal as well as the original moderation decision. Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel.
 
