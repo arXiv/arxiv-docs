@@ -40,7 +40,7 @@ If your appeal is accepted, the message you receive from The arXiv Content Manag
 <span id="denied"></span>
 ## What if my appeal is denied?
 
-If the article was in a status pending announcement, it will return to a declined state. If your appeal was for reclassification, no changes will be made. You will receive a message from The arXiv Content Management & User Support Team, that only explains this status. Our moderators are not referees and do not provide detailed feedback with their decisions. 
+If your appeal is denied you will receive a message from arXiv staff regarding the decision. Detailed feedback about moderation decisions or appeals will not be provided.
 
 <span id="final"></span>
 ## Can all decisions be appealed? 
