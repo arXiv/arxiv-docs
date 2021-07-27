@@ -21,7 +21,7 @@ Authors can also use the Comments metadata to describe the different versions.
 Ex:
 > For the longer conference version see: arXiv:YYMM.NNNNNvv1. For the shortened summary see arXiv:YYMM.NNNNNvv2, for the journal version that includes extended data in the appendix see arXiv:YYMM.NNNNNv3
 
-More details on citing works in arXiv is at https://arxiv.org/help/faq/references 
+Please see the [references and citations help page](./faq/references) for details on citing works in arXiv.
 
 
 ## What constitutes a version?
@@ -75,18 +75,19 @@ Versions in arXiv are also used in cases of an author making various attempts to
 
 ### Withdrawals
 
-A withdrawal creates a new version of an arXivID that contains no link to the full text. Previous versions are still accessible in the version history. More information is at https://arxiv.org/help/withdraw 
+A withdrawal creates a new version of an arXivID that contains no link to the full text. Previous versions are still accessible in the version history. More information see the [Withdrawal help page](withdraw).
  
 ### Translations or multiple languages of already posted articles
 
 A new translation of an already posted article should be a new version of the existing article. That new version can be just the new language or can include the full text for both languages. We do not allow multiple new arXivIDs for the same work that is displayed in various languages.
-More information is at https://arxiv.org/help/faq/multilang 
+
+For more information please see the help page for [submissions that are not in English](./faq/multilang)
  
 ### Living reviews, annual updates
 
 These types of content have new information added to them that keeps them current and relevant. Even if these are of interest to the community as updates they will only appear as new versions of the original submission that may have been posted several years ago. 
 
-### Comments / Reply to Comments …
+### Comments and Reply to Comments
 arXiv will accept one Comment about an article and then one “Reply to the Comment” from the initial author. After that, further discussion must be done through replacements to create new versions of the original Comment or Reply.
 
 
