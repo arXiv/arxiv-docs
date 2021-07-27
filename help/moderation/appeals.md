@@ -47,4 +47,6 @@ If your appeal is denied you will receive a message from arXiv staff regarding t
 <span id="final"></span>
 ## Can all decisions be appealed? 
 
-When an appeal is denied by the appellate moderators, no further appeal is possible. arXiv staff staff will not provide detailed feedback regarding the appeal and will not enter into extended back and forth regarding a denied appeal. Extreme cases may be addressed to The arXiv [Leadership Team](/about/people/leadership_team), who may consult the appellate moderators or subject area advisory committees as needed. The decision to decline a submission, or the article's ultimate classification within our corpus, lies wholly with arXiv.
+When an appeal is denied by the appellate moderators, no further appeal is possible. arXiv staff staff will not provide detailed feedback regarding the appeal and will not enter into extended back and forth regarding a denied appeal. Extreme cases may be addressed to The arXiv [Leadership Team](/about/people/leadership_team), who may consult the appellate moderators or subject area advisory committees as needed. 
+
+The decision to decline a submission, or the article's ultimate classification within our corpus, lies wholly with arXiv.
