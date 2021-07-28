@@ -54,7 +54,8 @@ Note that during these stages a paper may have changes to the Title as well as t
  
 ### Related works with various content
 
-Versions in arXiv may also represent a set of related works that includes various content types. There can be versions of the work that includes:
+Versions in arXiv may also represent a set of related works that includes various content types. There can be versions of the work that include:
+
 
 - Supplemental content (appendix, data, videos, code)
 - Errata, either appended or corrected within the text
