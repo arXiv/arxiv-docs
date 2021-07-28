@@ -57,7 +57,8 @@ Note that during these stages a paper may have changes to the Title as well as t
 Versions in arXiv may also represent a set of related works that includes various content types. There can be versions of the work that includes:
 
 - Supplemental content (appendix, data, videos, code)
-- Erratum either appended or corrected within the text
+- Errata, either appended or corrected within the text
+
 - Expanded versions
 - Short or condensed version for different reader groups
 - Full version
