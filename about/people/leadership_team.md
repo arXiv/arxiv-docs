@@ -10,16 +10,16 @@ people:
       As Executive Director, Eleonora leads daily operations at arXiv, including technical and business planning, governance, and fundraising efforts. After a PhD and postdoc in astroparticle physics, her career moved to scientific publishing and, later, to digital product development, servicing the research community.
   jim:
     name: Jim Entwood
-    position: Operations Manager
+    position: Head of Content
     thumbnail: images/jim.jpg
     bio: |
       Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
   martin:
     name: Martin Lessmeister
-    position: IT Lead
+    position: Head of Technology
     thumbnail: images/martin.jpg
     bio: |
-      Martin oversees the day-to-day technical operations of the arXiv services and supervises the development team. He works closely with our Lead Software Architect in planning and executing the migration of arXiv’s legacy software system to the next generation (arXiv-NG) architecture. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science from Cornell University.
+      Martin oversees the technical operations of the arXiv services and supervises the development team. He coordinates the migration of arXiv’s legacy systems to the next generation architecture in the cloud. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science from Cornell University.
   alison:
     name: Alison Fromme
     position: Community Engagement and Development Coordinator
