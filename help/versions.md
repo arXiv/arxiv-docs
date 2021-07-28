@@ -69,7 +69,8 @@ Versions in arXiv may also represent a set of related works that includes variou
  
 #### Famous proofs
 
-Versions in arXiv are also used in cases of an author making various attempts to work through a famous proof, even if the content of the work changes entirely between versions.
+Versions in arXiv are also used in cases of an author making various attempts to work through a famous proof, even if the content of the work changes entirely between attempts.
+
  
 #### Splitting or Merging works
 
