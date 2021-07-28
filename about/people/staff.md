@@ -6,7 +6,7 @@
 - Jim Entwood, Head of Content
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement and Membership Coordinator
-- Martin Lessmeister, IT Lead
+- Martin Lessmeister, Head of Technology
 - Brian Maltzan, Backend Python Developer
 - Eleonora Presani, Executive Director
 - Jenna Powers, arXiv Administrator
