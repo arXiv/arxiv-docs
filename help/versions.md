@@ -73,7 +73,8 @@ Versions in arXiv are also used in cases of an author making various attempts to
 
 *Splitting* - A long work that is posted on arXiv may be split into two or more shorter works. In arXiv the current practice is to replace the previous long version with one of the new shorter works. Then the other shorter works can be posted as new arXiv papers with a new arXiv identifier.
 
-*Merging* - Two or more short works that are posted on arXiv may be merged into a longer work. In arXiv the current practice is the longer work is a replacement of one of the existing short works. Then the other short work is withdrawn with a note that it has been superceded by the other arXiv paper, including the arXiv identifier in the note so that readers can link between the works.
+*Merging* - Two or more short works that are posted on arXiv may be merged into a longer work. In arXiv the current practice is to replace one of the existing short works with the longer work. Then the other short work is withdrawn with a note that it has been superceded by the longer arXiv paper. The arXiv identifier of the longer paper is included in the note so that readers can link between the works.
+
 
 *Similarity* - Moderators may ask authors to combine similar submissions into a single submission or into multiple versions of an existing arXiv identifier. This may be the case even if there is not significant verbatim text overlap, but the concepts and results of the work are closely related and the moderators decide that combining the works would benefit the readers.
 
