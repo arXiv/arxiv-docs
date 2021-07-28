@@ -84,7 +84,8 @@ A withdrawal creates a new version of an arXiv work that contains no link to the
  
 ### Translations or multiple languages of already posted articles
 
-A new translation of an already posted article should be a new version of the existing article. That new version can be just the new language or can include the full text for both languages. We do not allow multiple new arXiv identifiers for the same work that is displayed in various languages. The different language versions can be cited by using the version number under the same arXiv identifier.
+A translation of an already posted article should be a version of the existing article. That new version can be just the text in translation or can include the full text for both languages. We do not allow multiple new arXiv identifiers for the same work displayed in various languages. The different language versions can be cited by using the version number under the same arXiv identifier.
+
 
 For more information please see the help page for [submissions that are not in English](./faq/multilang)
  
