@@ -35,7 +35,8 @@ Replacements will contain the full text of the article. Withdrawals will display
 
 ## Situations when arXiv typically requires versioning
 
-Below are cases where arXiv authors are asked to version their work under a single arXiv identifier rather than to submit related works as new arXiv identifier.
+Below are cases where arXiv authors are asked to version their work under a single arXiv identifier rather than submit related works as new arXiv identifier.
+
 
 ### Articles in stages of the publication process
 
