@@ -35,7 +35,7 @@ Replacements will contain the full text of the article. Withdrawals will display
 
 ## Situations when arXiv typically requires versioning
 
-Below are cases where arXiv authors are asked to version their work under a single arXivID rather than to submit related works as new arXivIDs.
+Below are cases where arXiv authors are asked to version their work under a single arXiv identifier rather than to submit related works as new arXiv identifier.
 
 ### Articles in stages of the publication process
 
@@ -68,19 +68,19 @@ Versions in arXiv are also used in cases of an author making various attempts to
  
 #### Splitting or Merging works
 
-*Splitting* - A long work that is posted on arXiv may be split into two or more shorter works. In arXiv the current practice is to replace the previous long version with one of the new shorter works. Then the other shorter works can be posted as new arXiv IDs.
+*Splitting* - A long work that is posted on arXiv may be split into two or more shorter works. In arXiv the current practice is to replace the previous long version with one of the new shorter works. Then the other shorter works can be posted as new arXiv papers with a new arXiv identifier.
 
-*Merging* - Two or more short works that are posted on arXiv may be merged into a longer work. In arXiv the current practice is the longer work is a replacement of one of the existing short works. Then the other short work is withdrawn with a note that it has been superceded by the other arXivID.
+*Merging* - Two or more short works that are posted on arXiv may be merged into a longer work. In arXiv the current practice is the longer work is a replacement of one of the existing short works. Then the other short work is withdrawn with a note that it has been superceded by the other arXiv paper, including the arXiv identifier in the note so that readers can link between the works.
 
-*Similarity* - Moderators may ask authors to combine similar submissions into a single submission or into multiple versions of an existing arXivID. This may be the case even if there is not significant verbatim text overlap if the concepts and results of the work are closely related and the moderators decide that combining the works would benefit the readers.
+*Similarity* - Moderators may ask authors to combine similar submissions into a single submission or into multiple versions of an existing arXiv identifier. This may be the case even if there is not significant verbatim text overlap if the concepts and results of the work are closely related and the moderators decide that combining the works would benefit the readers.
 
 ### Withdrawals
 
-A withdrawal creates a new version of an arXivID that contains no link to the full text. Previous versions are still accessible in the version history. More information see the [Withdrawal help page](withdraw).
+A withdrawal creates a new version of an arXiv work that contains no link to the full text. Previous versions are still accessible in the version history. More information see the [Withdrawal help page](withdraw).
  
 ### Translations or multiple languages of already posted articles
 
-A new translation of an already posted article should be a new version of the existing article. That new version can be just the new language or can include the full text for both languages. We do not allow multiple new arXivIDs for the same work that is displayed in various languages.
+A new translation of an already posted article should be a new version of the existing article. That new version can be just the new language or can include the full text for both languages. We do not allow multiple new arXiv identifiers for the same work that is displayed in various languages. The different language versions can be cited by using the version number under the same arXiv identifier.
 
 For more information please see the help page for [submissions that are not in English](./faq/multilang)
  
