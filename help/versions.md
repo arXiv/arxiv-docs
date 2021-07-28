@@ -61,7 +61,8 @@ Versions in arXiv may also represent a set of related works that includes variou
 - Errata, either appended or corrected within the text
 
 - Expanded versions
-- Short or condensed version for different reader groups
+- Short or condensed versions for different reader groups
+
 - Full version
  
  
