@@ -46,7 +46,8 @@ Version in many people’s mind represent various stages along publication statu
 - Revised version
 - Accepted version
 - Published version
-  - Includes journal, conferences or other venues. Even if each has their own version of record, DOI, and citation.
+  - Includes journal, conferences or other venues, even if each has their own version of record, DOI, and citation.
+
 
 Note that during these stages a paper may have changes to the Title as well as to the Author list that are different in each version. These changes can be noted in the metadata.
  
