@@ -90,7 +90,8 @@ For more information please see the help page for [submissions that are not in E
  
 ### Living reviews, annual updates
 
-These types of content have new information added to them that keeps them current and relevant. Even if these are of interest to the community as updates they will only appear as new versions of the original submission that may have been posted several years ago. 
+This type of content has information regularly added to keep it current and relevant. Even if these are of interest to the community as updates, they will only appear as versions of the original submission that may have been posted several years ago. 
+
 
 ### Comments and Reply to Comments
 arXiv will accept one Comment about an article and then one “Reply to the Comment” from the initial author. After that, further discussion must be done through replacements to create new versions of the original Comment or Reply.
