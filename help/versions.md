@@ -40,7 +40,8 @@ Below are cases where arXiv authors are asked to version their work under a sing
 
 ### Articles in stages of the publication process
 
-Version in many people’s mind represent various stages along publication status:
+A version in many people’s minds represents various stages along publication status:
+
 
 - Submitted version
 - Revised version
