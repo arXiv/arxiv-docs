@@ -94,7 +94,8 @@ This type of content has information regularly added to keep it current and rele
 
 
 ### Comments and Reply to Comments
-arXiv will accept one Comment about an article and then one “Reply to the Comment” from the initial author. After that, further discussion must be done through replacements to create new versions of the original Comment or Reply.
+arXiv will assign one arXiv identifier per "Comment" and per “Reply to Comment”. After that, further discussion must be done through replacements, creating versions of the original Comment or Reply.
+
 
 
  
