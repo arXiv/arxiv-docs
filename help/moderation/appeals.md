@@ -35,7 +35,7 @@ When a decision is made by the appellate moderators, you will receive a follow-u
 <span id="accepted"></span>
 ## What happens if my appeal is accepted? 
 
-If your appeal is accepted, the message you receive from arXiv staff will have instructions for resubmission (if needed), or will provide you with the [status](/help/submit_status) of your submission. In some instances it may be required that you make some changes in order to accommodate the appellate moderators' decision. 
+If your appeal is accepted, the message you receive from arXiv staff will have instructions for resubmission (if needed) or will provide you with the [status](/help/submit_status) of your submission. In some instances, you may be asked to make changes to the submission as directed by appellate moderators. 
 
 *Note* that for submissions that have been reclassified, they will not receive a "new" announcement within the changed category. 
 
