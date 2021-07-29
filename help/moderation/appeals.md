@@ -15,7 +15,7 @@ Appeals should be sent through our [user support portal](https://arxiv.org/suppo
 <span id="what-is"></span>
 ## What is a moderation appeal?
 
-An appeal is a request sent to arXiv staff. In general, authors appeal for additional scrutiny of moderation [decisions before](/help/moderation#what-policies) and [after announcement](/help/moderation#policies-after). No third-party appeal for inclusion or reclassification will be considered. 
+An appeal is a request sent to arXiv staff. In general, appeals reconsider moderation [decisions before](/help/moderation#what-policies) and [after announcement](/help/moderation#policies-after). Appeals regarding declined works may only be made by authors: third-party appeals for inclusion cannot be considered.
 
 Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work, including a detailed description of the research content of your article, and how the content of your paper directly applies to your requested category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
 
