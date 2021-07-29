@@ -17,7 +17,7 @@ Appeals should be sent through our [user support portal](https://arxiv.org/suppo
 
 An appeal is a request sent to arXiv staff. In general, authors appeal for additional scrutiny of moderation [decisions before](/help/moderation#what-policies) and [after announcement](/help/moderation#policies-after). No third-party appeal for inclusion or reclassification will be considered. 
 
-Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work. This should include a detailed description of the research content of your article, and how the content of your paper directly applies to that category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
+Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work, including a detailed description of the research content of your article, and how the content of your paper directly applies to your requested category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
 
 Appeals will only be considered if they are made through the appropriate channels: [user support portal](https://arxiv.org/support/moderation_help) or moderation@arxiv.org. Please do not attempt to contact moderators directly.  
 
@@ -37,7 +37,7 @@ When a decision is made by the appellate moderators, you will receive a follow-u
 
 If your appeal is accepted, the message you receive from arXiv staff will have instructions for resubmission (if needed) or will provide you with the [status](/help/submit_status) of your submission. In some instances, you may be asked to make changes to the submission as directed by appellate moderators. 
 
-*Note:* Submissions that have been reclassified will not receive an announcement within the new category. 
+*Note:* Articles that have already been made public and have been reclassified will not receive an announcement within the new category. 
 
 <span id="denied"></span>
 ## What if my appeal is denied?
