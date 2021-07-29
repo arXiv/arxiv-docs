@@ -19,7 +19,7 @@ An appeal is a request sent to arXiv staff. In general, authors appeal for addit
 
 Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work. This should include a detailed description of the research content of your article, and how the content of your paper directly applies to that category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
 
-You are not communicating directly with the moderators, and it is not appropriate to attempt to contact them directly. The moderators are encouraged to not reply to such messages. 
+Appeals will only be considered if they are made through the appropriate channels: [user support portal](https://arxiv.org/support/moderation_help) or moderation@arxiv.org. Please do not attempt to contact moderators directly.  
 
 <span id="what-happens"></span>
 ## What happens when I appeal?
