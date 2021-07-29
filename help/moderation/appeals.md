@@ -28,7 +28,7 @@ You will receive a response from arXiv staff when your appeal has been sent to o
 
 The appeals process begins after acknowledgment of your appeal. If your submission was recently declined, arXiv staff will restore your submission to [on hold](/help/submit_status#on_hold) status, if possible.  
 
-The appellate moderator will be sent any correspondence related to the work, and will begin to consider the content of your appeal as well as the original moderation decision. Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel.
+The appellate moderator will be sent your appeal and any correspondence related to the work, and will begin to consider the content of your appeal as well as the original moderation decision. Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel, moderation@arxiv.org.
 
 When a decision is made by the appellate moderators, you will receive a follow-up message from arXiv staff with the results of your appeal. 
 
