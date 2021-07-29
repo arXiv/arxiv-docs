@@ -85,7 +85,8 @@ arXiv may reclassify already announced papers if the moderators determine there 
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a moderation decision, you may [appeal](appeals) for your desired outcome. 
+If you disagree with a moderation decision, you [may appeal](appeals). Please be sure to carefully [read through the appeals process](appeals) to ensure your request is fully considered.
+
 
 <span id="who-are-the-moderators"></span>
 ## Who are arXiv moderators?
