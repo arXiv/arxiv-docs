@@ -8,7 +8,7 @@ Making previous versions of submitted papers publicly available archives the his
 
 ## What does arXiv mean by versions?
 
-All submissions receive a "date stamp", recorded as the time the submitter clicks "Submit article" at the end of the submission process. Once a submission is made available, it receives a permanent  [arXiv identifier](arxiv_identifier). Any replacement or withdrawal of that article generates a new version. This will increment its version number by one, with the most recent version always being displayed, even when the Abstract page is viewed without a version number at the end, such as the above example, https://arxiv.org/abs/1710.02185. 
+All submissions receive a "date stamp", recorded as the time the submitter clicks "Submit article" at the end of the submission process. Once a submission is made public, it receives a permanent  [arXiv identifier](arxiv_identifier). Any replacement or withdrawal of that article generates a new version. This will increment its version number by one, with the most recent version always being displayed, even when the Abstract page is viewed without a version number at the end, such as the above example, https://arxiv.org/abs/1710.02185. 
 
 ## Citing versions
 
