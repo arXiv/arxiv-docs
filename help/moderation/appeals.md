@@ -2,7 +2,7 @@
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a [moderation](/help/moderation) decision, you may appeal for your desired outcome. The appeals process allows moderators time to reconsider a submission, but repeated appeals with no additional information cannot be considered.
+If you disagree with a [moderation](/help/moderation) decision, you may appeal for your desired outcome. The appeals process allows moderators time to reconsider a submission, but repeated requests with no additional information cannot be considered.
 
 Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact The arXiv Content Management & User Support Team by email at moderation@arxiv.org. 
 
@@ -17,7 +17,7 @@ Appeals should be sent through our [user support portal](https://arxiv.org/suppo
 
 An appeal is a request sent to arXiv staff. In general, authors appeal for additional scrutiny of moderation [decisions before](/help/moderation#what-policies) and [after announcement](/help/moderation#policies-after). No third-party appeal for inclusion or reclassification will be considered. 
 
-Your appeal message must include all relevant details, such as paper/submit IDs, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work. This should include a detailed description of the research content of your article, and how the content of your paper directly applies to that category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
+Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work. This should include a detailed description of the research content of your article, and how the content of your paper directly applies to that category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
 
 You are not communicating directly with the moderators, and it is not appropriate to attempt to contact them directly. The moderators are encouraged to not reply to such messages. 
 
