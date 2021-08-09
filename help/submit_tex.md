@@ -9,7 +9,7 @@ Considerations for TeX Submissions
 *   [Prepare the references carefully](#refs)
 *   [Include `.bbl` files if you use BibTeX](#bibtex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
-*   [Include `.gls` files if you have a glossary](#glossary)
+*   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
 *   [Supplemental material](#autoignore)
 *   [Avoid mistakes in the text](#mistakes)
 *   [Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls](#jhep3)
@@ -128,9 +128,9 @@ It is difficult to automatically perform `makeindex` processing to the authors' 
 
 <span id="glossary"></span>
 
-### Include your .gls if you use a glossary
+### Include your `.gls` or `.nls` if you use any glossary or nomenclature packages
 
-Similar to [index](#makeindex) files, we do not process `.glo` into the resultant `.gls` files. You must provide these files if you have any special nomenclature in your document.
+Similar to [index](#makeindex) files, we do not process `.glo` or `.nlo` into the resultant `.gls` or `.nls` files. You must provide these files if you have any special nomenclature in your document.
 
 <span id="autoignore"></span>
 
