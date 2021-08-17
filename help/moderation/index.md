@@ -37,6 +37,8 @@ Reclassification by our moderators helps make sure that submissions are posted t
 
 Some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
+Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators do not evaluate the validity of the scientific process and cannot give feedback on the submission.
+
 <span id="scholarly-interest"></span>
 #### Scholarly interest
 
@@ -85,8 +87,7 @@ arXiv may reclassify already announced papers if the moderators determine there 
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a moderation decision, you may appeal. Please be sure to carefully [read through the appeals process](appeals) to ensure your request is fully considered.
-
+If you disagree with a moderation decision, you may appeal. Please be sure to carefully [read through the appeals process](appeals) to ensure your request is fully considered. Please note that decisions upon appeal are [final](appeals#final), and that no feedback will be provided with the decision.
 
 
 <span id="who-are-the-moderators"></span>
