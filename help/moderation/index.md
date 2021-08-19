@@ -37,7 +37,8 @@ Reclassification by our moderators helps make sure that submissions are posted t
 
 Some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators do not evaluate the validity of the scientific process and cannot give feedback on the submission.
+Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators cannot give feedback on the submission.
+
 
 <span id="scholarly-interest"></span>
 #### Scholarly interest
