@@ -12,10 +12,11 @@ The following table shows the institutions with the most downloads in 2020. To s
   <object class='tableauViz' width='742' height='599' style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Ftableau.cornell.edu%2F' />
   <param name='embed_code_version' value='3' />
-  <param name='site_root' value='' />
+  <param name='site_root' value='&#47;t&#47;PublicContent' />
   <param name='name' value='arXiv2020byInstitution&#47;arXiv2020ByInstitution' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
   <param name='showAppBanner' value='false' />
   </object>
 </div>
+
