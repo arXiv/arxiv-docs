@@ -11,7 +11,7 @@ Select the domain of interest by checking the appropriate box. The resulting tab
   <object class='tableauViz' width='742' height='599' style='display:none;'>
   <param name='host_url' value='https%3A%2F%2Ftableau.cornell.edu%2F' />
   <param name='embed_code_version' value='3' />
-  <param name='site_root' value='' />
+  <param name='site_root' value='&#47;t&#47;PublicContent' />
   <param name='name' value='arXivInstUsage&#47;InstitutionByYear2' />
   <param name='tabs' value='no' />
   <param name='toolbar' value='yes' />
