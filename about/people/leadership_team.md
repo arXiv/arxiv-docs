@@ -25,7 +25,13 @@ people:
     position: Community Engagement and Development Coordinator
     thumbnail: images/alison.jpg
     bio: |
-      Alison coordinates the outreach and marketing program to engage educational institutions in arXiv’s membership program. She also implements fundraising strategies, including grant writing and online campaigns. Alison is a professional science writer with an M.S. in zoology.
+      Alison coordinates arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alumn and holds an M.S. in Zoology from Washington State University.
+  helen:
+    name: Helen Wang
+    position: Product Manager
+    thumbnail: images/helen.jpg
+    bio: |
+      Helen synthesizes arXiv strategic and technical goals to plan internal feature and platform development and coordinates external collaborations. Her background in software spans product management, business development, and data analysis. She holds a B.A. in English with honors from Yale University. 
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -48,5 +54,7 @@ $jinja {{ render_person(people.jim) }} jinja$
 $jinja {{ render_person(people.martin) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.helen) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
