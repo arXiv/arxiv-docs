@@ -79,36 +79,41 @@ aside {
 ## Platinum Members
 
 >1. California Institute of Technology (USA)
+>1. CERN-European Organization for Nuclear Research (Switzerland)
+>1. Georgia Institute of Technology (USA)
 >1. Imperial College London (UK) _JISC_
 >1. Massachusetts Institute of Technology (MIT) (USA)
 >1. University of Cambridge (UK) _JISC_
 
 ## Tier 1
 
-1. CERN-European Organization for Nuclear Research (Switzerland)
 1. Columbia University (USA)
 1. DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_
 1. Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
 1. ETH Zurich (Switzerland)
-1. Georgia Institute of Technology (USA)
+1. Harvard University (USA)
 1. Kyoto University  (Japan) _NII Japan Consortium_
+1. Los Alamos National Laboratory  (USA)
 1. Max Planck Digital Library (Germany)
 1. New York University (USA)
+1. University of Pennsylvania (USA)
 1. Princeton University (USA)
+1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stanford University, and SLAC (USA)
 1. University College London  (UK) _JISC_
 1. University of Amsterdam  (Netherlands)
 1. University of California, Berkeley (USA) _CDL_
 1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Oxford  (UK) _JISC_
+1. University of Sydney (Australia)
 1. University of Tokyo  (Japan) _NII Japan Consortium_
+1. University of Waterloo  (Canada)
 
 ## Tier 2
 
 1. Carnegie Mellon University (USA)
 1. The Chinese University of Hong Kong (Hong Kong)
 1. Durham University (UK) _JISC_
-1. Harvard University (USA)
 1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
 1. National Taiwan University (Taiwan)
 1. Perimeter Institute for Theoretical Physics  (Canada)
@@ -121,10 +126,8 @@ aside {
 1. University of Edinburgh (UK) _JISC_
 1. University of Maryland (USA) _BTAA_
 1. University of Minnesota (USA) _BTAA_
-1. University of Pennsylvania (USA)
 1. University of Texas at Austin (USA)
 1. University of Toronto (Canada)
-1. University of Waterloo  (Canada)
 1. University of Wisconsin, Madison (USA) _BTAA_
 1. Yale University (USA)
 
@@ -139,12 +142,13 @@ aside {
 1. International Centre for Theoretical Physics (ICTP) (Italy)
 1. Italian Institute for Astrophysics (INAF) (Italy)
 1. KTH Royal Institute of Technology  (Sweden)
+1. KU Leuven (Belgium)
 1. Nagoya University  (Japan) _NII Japan Consortium_
 1. Northwestern University (USA) _BTAA_
 1. Osaka University (Japan) _NII Japan Consortium_
 1. Purdue University (USA) _BTAA_
+1. Queensland University of Technology (Australia)
 1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
-1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stockholm University (Sweden)
 1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
 1. Technische Universität Darmstadt (Germany) _arXiv-DH and HGF_
@@ -165,13 +169,14 @@ aside {
 1. University of Massachusetts (USA)
 1. University of Michigan  (USA) _BTAA_
 1. University of Southern California (USA)
-1. University of Sydney (Australia)
+1. University of Technology Sydney (Australia)
 1. University of Vienna  (Austria)
 1. University of Warwick (UK) _JISC_
 1. University of Washington Libraries (USA)
 1. University of Zurich, Institute of Theoretical Physics  (Switzerland)
 1. UPMC (Universite Pierre and Marie Curie) (France) _CCSD_
 1. Uppsala University (Sweden)
+1. Vrije Universiteit Brussel (Belgium)
 
 ## Tier 4
 
@@ -184,7 +189,6 @@ aside {
 1. Joint Institute for Nuclear Research (JINR)  (Russia)
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
-1. Los Alamos National Laboratory  (USA)
 1. McGill University (Canada)
 1. Monash University (Australia)
 1. Penn State University (USA) _BTAA_
@@ -257,6 +261,7 @@ aside {
 1. Boston College (USA)
 1. Brown University (USA)
 1. Case Western Reserve University (USA)
+1. Central European University (Hungary)
 1. Dublin Institute for Advanced Studies (Ireland)
 1. European Southern Observatory (Germany)
 1. Fermilab (USA)
@@ -327,10 +332,10 @@ aside {
 1. University of Virginia (USA)
 1. University of Western Australia (Australia)
 1. University of Witwatersrand (South Africa)
+1. University of Wollongong (Australia)
 1. University of York (UK) _JISC_
 1. Utrecht University (Netherlands)
 1. Villanova (USA)
-1. Vrije Universiteit Brussel (Belgium)
 1. Washington State University (USA)
 1. Weizmann Institute of Science (Israel)
 1. Western University (Canada)
