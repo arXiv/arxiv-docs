@@ -29,9 +29,9 @@ people:
   helen:
     name: Helen Wang
     position: Product Manager
-    thumbnail: images/helen.jpg
+    thumbnail: images/helen.JPG
     bio: |
-      Helen synthesizes arXiv strategic and technical goals to plan internal feature and platform development and coordinates external collaborations. Her background in software spans product management, business development, and data analysis. She holds a B.A. in English with honors from Yale University. 
+      Helen synthesizes arXiv strategic and technical goals to plan internal feature and platform development and coordinates external collaborations. Her background in software spans product management, business development, and data analysis. She holds a B.A. in English with honors from Yale University.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -55,6 +55,5 @@ $jinja {{ render_person(people.martin) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.helen) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
