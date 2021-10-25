@@ -14,6 +14,6 @@ The advisory committee members serve as consultants to Cornell University and to
 *  [Robert B. Gramacy](http://bobby.gramacy.com/)
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
 *  [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
-*  [Zoltan Szabo](http://www.cmap.polytechnique.fr/~zoltan.szabo/)
+*  [Zoltan Szabo](https://zoltansz.github.io/)
 *  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
 *  Martin Wells
