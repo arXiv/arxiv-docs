@@ -211,7 +211,7 @@ announcement, it will be wrapped to 80 characters.
 
 
     when accessed via the archive WWW interface views as: "for associated
-    mpeg file, see <a>this http URL</a>".
+    mpeg file, see [this http URL](#comments)".
 
 -   References to other articles in other archives should be given in
     the standard `arXiv:arch-ive/YYMMNNN` or `arXiv:YYMM.NNNN(N)` format
