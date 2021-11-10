@@ -196,6 +196,7 @@ aside {
 1. Radboud University (Netherlands)
 1. Tel Aviv University (Israel)
 1. Texas A&M University  (USA)
+1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 1. TU Wien (Austria)
 1. Universität Basel (Switzerland)
 1. Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_
@@ -228,7 +229,6 @@ aside {
 1. Duke University (USA)
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Ghent University Libraries (Belgium)
-1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. Keio University (Japan) _NII Japan Consortium_
 1. King's College London (UK) _JISC_
 1. Kyushu University (Japan) _NII Japan Consortium_
@@ -236,6 +236,7 @@ aside {
 1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 1. Simon Fraser University (Canada)
 1. Tata Institute of Fundamental Research (2016-2020 membership sponsored by Anurag Acharya) (India)
+1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
 1. Universität Bochum  (Germany) _arXiv-DH and HGF_
 1. Universität Jena (Germany) _arXiv-DH and HGF_
@@ -271,6 +272,7 @@ aside {
 1. Georgetown University  (USA)
 1. Harish-Chandra Research Institute (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Hiroshima University (Japan) _NII Japan Consortium_
+1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. IHEP, National Science Library, CAS (China)
 1. Institute of Math Sciences (India)
 1. Institute of Physics of the Czech Academy of Sciences (Czech Republic)
@@ -294,8 +296,6 @@ aside {
 1. Syracuse University
 1. Technion - Israel Institute of Technology  (Israel)
 1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
-1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
-1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. TRIUMF (Canada)
 1. Tsinghua University  (China)
 1. Tufts University (USA)
