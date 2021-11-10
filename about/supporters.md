@@ -79,24 +79,27 @@ aside {
 >1. Cornell University (USA)
 >1. Simons Foundation (USA)
 
-## Gold 
+## Gold Affiliates 
+>1. American Physical Society (USA)
 
+## Gold Sponsors
 >1. Allen Institute for Artificial Intelligence (USA)
 >1. Computer Vision Foundation (USA)
 >1. Google, Inc (USA)
 
-## Silver 
+## Silver Affiliates
 
 >1. American Astronomical Society (USA)
 >1. American Institute of Physics Publishing (USA)
 >1. American Mathematical Society (USA)
->1. American Physical Society (USA)
 >1. Association for Computing Machinery (USA)
 >1. Austrian Science Fund (Austria)
 >1. Institute of Physics Publishing (UK)
 >1. NWO Dutch Reseach Council (Netherlands)
 >1. Deutsche Physikalische Gesellschaft (Germany)
 
+## Silver Sponsors
+>1. Facebook AI (USA)
 
 
 #
