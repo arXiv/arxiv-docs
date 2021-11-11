@@ -207,11 +207,11 @@ announcement, it will be wrapped to 80 characters.
     from the URL itself, so that it is not interpreted as part of the
     URL.** For example, the comment
 
-        "for associated mpeg file, see http://myhost.domain/file.mpg"
+        for associated mpeg file, see http://myhost.domain/file.mpg
 
 
-    when accessed via the archive WWW interface views as "for associated
-    mpeg file, see \<this URL\>" .
+    when accessed via the archive WWW interface views as: "for associated
+    mpeg file, see [this http URL](#comments)".
 
 -   References to other articles in other archives should be given in
     the standard `arXiv:arch-ive/YYMMNNN` or `arXiv:YYMM.NNNN(N)` format
