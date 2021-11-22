@@ -9,7 +9,6 @@
 - Martin Lessmeister, Head of Technology
 - Brian Maltzan, Backend Python Developer
 - Eleonora Presani, Executive Director
-- Jenna Powers, arXiv Administrator
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Helen Wang, Product Manager
