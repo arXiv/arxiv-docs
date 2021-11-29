@@ -72,17 +72,6 @@ help@arxiv.org.
 
 These limits may change in the future.
 
-### Authentication & Authorization
-
-In order to use services available via the arXiv API Gateway, you must obtain
-an authentication token that can be used in [OAuth2 authentication
-workflows](https://oauth.net/2/).
-
-- We expect you to follow OAuth2 protocols, and not attempt to circumvent those
-  workflows.
-- We expect you to not share your authentication credentials with others, or to
-  use someone else’s credentials.
-
 ## Things that you can (and should!) do
 
 - Retrieve, store, transform, and share **descriptive metadata** about arXiv
