@@ -33,7 +33,6 @@ We expect members of the arXiv community to foster a safe environment for commun
 
 If you have questions or concerns regarding the arXiv Code of Conduct please contact:
 
-- [Eleonora Presani](mailto:ep538@cornell.edu), arXiv Executive Director, or
 - [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
 - [Licia Verde](mailto:liciaverde@icc.ub.edu), Chair of arXiv Scientific Advisory Board, or
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
