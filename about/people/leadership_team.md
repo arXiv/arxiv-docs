@@ -2,12 +2,6 @@
 title: 'Leadership Team'
 template: 'docs/team.html'
 people:
-  eleonora:
-    name: Eleonora Presani
-    position: Executive Director
-    thumbnail: images/eleonora.jpg
-    bio: |
-      As Executive Director, Eleonora leads daily operations at arXiv, including technical and business planning, governance, and fundraising efforts. After a PhD and postdoc in astroparticle physics, her career moved to scientific publishing and, later, to digital product development, servicing the research community.
   jim:
     name: Jim Entwood
     position: Head of Content
@@ -25,7 +19,7 @@ people:
     position: Community Engagement and Development Coordinator
     thumbnail: images/alison.jpg
     bio: |
-      Alison coordinates arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alumn and holds an M.S. in Zoology from Washington State University.
+      Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alumn and holds an M.S. in Zoology from Washington State University.
   helen:
     name: Helen Wang
     position: Product Manager
