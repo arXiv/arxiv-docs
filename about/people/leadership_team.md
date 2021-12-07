@@ -19,7 +19,7 @@ people:
     position: Community Engagement and Development Coordinator
     thumbnail: images/alison.jpg
     bio: |
-      Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alumn and holds an M.S. in Zoology from Washington State University.
+      Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alum and holds an M.S. in Zoology from Washington State University.
   helen:
     name: Helen Wang
     position: Product Manager
