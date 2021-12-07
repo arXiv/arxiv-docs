@@ -8,7 +8,6 @@
 - Alison Fromme, Community Engagement and Membership Coordinator
 - Martin Lessmeister, Head of Technology
 - Brian Maltzan, Backend Python Developer
-- Eleonora Presani, Executive Director
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Helen Wang, Product Manager
