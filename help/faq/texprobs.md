@@ -53,16 +53,18 @@ submission replaced to correct the problems.
     
   - <span id="breaklinks"></span>**Hyperlinks overrun the page or column boundaries**
   
-    arXiv's default behavior for [hyperref](/help/hypertex) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
-    ```
+arXiv's default behavior for [hyperref](/help/hypertex) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
+
+```TeX
         \hypersetup{
            breaklinks=true,   % splits links across lines
            colorlinks=true,   % displays links as colored text instead of blocks
            pdfusetitle=true,  % \title and \author values into pdf metadata
                               % etc.
         }
-    ```
-    For more information please consult the [hyperref manual](https://ctan.org/pkg/hyperref). 
+```
+
+For more information please consult the [hyperref manual](https://ctan.org/pkg/hyperref). 
     
   - <span id="fuzzy_pdf"></span>**Fuzzy fonts in PDF**  
     If you use the `fontenc` package and `T1` fonts you may find that
