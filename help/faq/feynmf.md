@@ -15,11 +15,12 @@ in the submission package. When submitting TeX source that uses feynmf,
 
 ## Why don't the labels for my figures appear when I use Feynmf?
 
-The label files (with the extension `.t#` where '`#`' is a number)
+The label files (with the extension `.t#` where '`#`' is a number) as well as the 
+compiled metapost file (with the extension `.#` where `#` is a number)
 *should* be included. Due to intricacies of the on-demand font
-generation, arXiv does not generate those label files. (The label files
+generation, arXiv does not generate those label files. The label files
 require the intermediate `fd.log` files to be present for the second
 latex pass, but when metafont is automatically run from the latex
 process to generate `.tfm` files on demand, it cleans up after itself
 and removes the `fd.log` file, preventing the label files from being
-generated.)
+generated. 
