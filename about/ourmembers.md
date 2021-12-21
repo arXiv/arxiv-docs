@@ -309,7 +309,7 @@ aside {
 1. Tata Institute of Fundamental Research (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
-1. Universität Bochum  (Germany) _arXiv-DH and HGF_
+1. Universität Bochum (Germany) _arXiv-DH and HGF_
 1. Universität Jena (Germany) _arXiv-DH and HGF_
 1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
 1. Universität Tübingen  (Germany) _arXiv-DH and HGF_
@@ -325,7 +325,6 @@ aside {
 
 1. Ames Laboratory (USA)
 1. Bibliothèque de l'Observatoire de Paris (OBSPM) (France) _CCSD_
-1. Case Western Reserve University (USA)
 1. Dublin Institute for Advanced Studies (Ireland)
 1. Free University of Amsterdam (Netherlands)
 1. George Washington University (USA)
