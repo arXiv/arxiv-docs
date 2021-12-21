@@ -76,13 +76,32 @@ aside {
 }
 </style>
 
-## Platinum Members
+## Champion Consortia
+>1. Big Ten Academic Alliance (USA)
+>1. California Digital Libraries (USA)
 
+## Champion Members
 >1. California Institute of Technology (USA)
 >1. CERN-European Organization for Nuclear Research (Switzerland)
 >1. Georgia Institute of Technology (USA)
->1. Imperial College London (UK) _JISC_
 >1. Massachusetts Institute of Technology (MIT) (USA)
+
+## Consortia
+>1. arXiv DH and HGF Consortium (Germany)
+>1. 
+
+## Top 100 Submitters
+
+## Frequent Submitters
+
+## Regular Submitters & Community Contributors
+
+
+
+
+## Platinum Members
+
+>1. Imperial College London (UK) _JISC_
 >1. University of Cambridge (UK) _JISC_
 
 ## Tier 1
