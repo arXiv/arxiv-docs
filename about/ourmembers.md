@@ -92,6 +92,7 @@ aside {
 >1. NII Japan Consortium (Japan)
 
 ## Top 100 Submitters
+1. Arizona State University (USA)
 1. Australian National University (Australia)
 1. Brookhaven National Laboratory (USA)
 1. Carnegie Mellon University (USA)
@@ -101,23 +102,39 @@ aside {
 1. ETH Zurich (Switzerland)
 1. Fermilab (USA)
 1. Harvard University (USA)
+1. Indiana University (USA) _BTAA_
 1. KTH Royal Institute of Technology  (Sweden)
+1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Los Alamos National Laboratory  (USA)
 1. Max Planck Digital Library (Germany)
+1. Michigan State University (USA) _BTAA_
 1. New York University (USA)
+1. Northwestern University (USA) _BTAA_
+1. Ohio State University (USA) _BTAA_
+1. Penn State University (USA) _BTAA_
 1. Princeton University (USA)
+1. Purdue University (USA) _BTAA_
+1. Rutgers University (USA) _BTAA_
 1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stanford University, and SLAC (USA)
 1. Texas A&M University (USA)
 1. Tsinghua University  (China)
 1. University of Amsterdam  (Netherlands)
-1. Arizona State University (USA)
 1. University of British Columbia (Canada)
+1. University of California, Berkeley (USA) _CDL_
+1. University of California, Los Angeles (USA) _CDL_
+1. University of California, San Diego (USA) _CDL_
+1. University of California, Santa Barbara (USA) _CDL_
+1. University of Chicago (USA) _BTAA_
 1. University of Colorado (USA)
+1. University of Maryland (USA) _BTAA_
+1. University of Michigan  (USA) _BTAA_
+1. University of Minnesota (USA) _BTAA_
 1. University of Pennsylvania (USA)
 1. University of Sydney (Australia)
 1. University of Toronto (Canada)
 1. University of Waterloo  (Canada)
+1. University of Wisconsin, Madison (USA) _BTAA_
 1. Yale University (USA)
 
 ## Frequent Submitters
@@ -146,13 +163,19 @@ aside {
 1. Université de Montréal (Canada)
 1. Universitetet Oslo (Norway)
 1. University at Buffalo (USA)
+1. University of California, Davis (USA) _CDL_
+1. University of California, Irvine (USA) _CDL_
+1. University of California, Riverside  (USA) _CDL_
+1. University of California, Santa Cruz (USA) _CDL_
+1. University of Adelaide (Australia)
 1. University of Alberta (Canada)
 1. University of Cape Town (South Africa)
 1. University of Florida (USA)
 1. University of Groningen  (Netherlands)
 1. University of Helsinki (Finland)
+1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Innsbruck (Austria)
-1. University of Adelaide (Australia)
+1. University of Iowa (USA) _BTAA_
 1. University of Massachusetts (USA)
 1. University of Melbourne (Australia)
 1. University of North Carolina (USA)
@@ -190,8 +213,11 @@ aside {
 1. Universität Graz (Austria)
 1. University of Arkansas (USA)
 1. University of Auckland (New Zealand)
+1. University of California, Merced (USA) _CDL_
+1. University of California, San Francisco (USA) _CDL_
 1. University of Central Oklahoma (USA)
 1. University of Georgia (USA)
+1. University of Nebraska (USA) _BTAA_
 1. University of New Hampshire (USA)
 1. University of North Texas (USA)
 1. University of Wollongong (Australia)
@@ -213,8 +239,6 @@ aside {
 1. Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
 1. Kyoto University  (Japan) _NII Japan Consortium_
 1. University College London  (UK) _JISC_
-1. University of California, Berkeley (USA) _CDL_
-1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Oxford  (UK) _JISC_
 1. University of Tokyo  (Japan) _NII Japan Consortium_
 
@@ -223,30 +247,21 @@ aside {
 1. The Chinese University of Hong Kong (Hong Kong)
 1. Durham University (UK) _JISC_
 1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
-1. Rutgers University (USA) _BTAA_
 1. Universität Bonn  (Germany) _arXiv-DH and HGF_
 1. Universität Heidelberg (Germany) _arXiv-DH and HGF_
-1. University of California, Los Angeles (USA) _CDL_
-1. University of California, Santa Barbara (USA) _CDL_
 1. University of Edinburgh (UK) _JISC_
-1. University of Maryland (USA) _BTAA_
-1. University of Minnesota (USA) _BTAA_
 1. University of Texas at Austin (USA)
-1. University of Wisconsin, Madison (USA) _BTAA_
 
 ## Tier 3
 
 1. Chalmers University of Technology  (Sweden)
 1. Commissariat à l'Énergie Atomique (CEA) (France) _CCSD_
 1. Delft University of Technology  (Netherlands)
-1. Indiana University (USA) _BTAA_
 1. International Centre for Theoretical Physics (ICTP) (Italy)
 1. Italian Institute for Astrophysics (INAF) (Italy)
 1. KU Leuven (Belgium)
 1. Nagoya University  (Japan) _NII Japan Consortium_
-1. Northwestern University (USA) _BTAA_
 1. Osaka University (Japan) _NII Japan Consortium_
-1. Purdue University (USA) _BTAA_
 1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
 1. Stockholm University (Sweden)
 1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
@@ -257,11 +272,7 @@ aside {
 1. Universität Hamburg  (Germany) _arXiv-DH and HGF_
 1. Universität Mainz (Germany) _arXiv-DH and HGF_
 1. University of Bristol (UK) _JISC_
-1. University of California, Davis (USA) _CDL_
-1. University of California, San Diego (USA) _CDL_
-1. University of Chicago (USA) _BTAA_
 1. University of Manchester (UK) _JISC_
-1. University of Michigan  (USA) _BTAA_
 1. University of Southern California (USA)
 1. University of Technology Sydney (Australia)
 1. University of Warwick (UK) _JISC_
@@ -276,7 +287,6 @@ aside {
 1. Johns Hopkins University (USA)
 1. Joint Institute for Nuclear Research (JINR)  (Russia)
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
-1. Penn State University (USA) _BTAA_
 1. Physical Research Laboratory (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Radboud University (Netherlands)
 1. Tel Aviv University (Israel)
@@ -292,7 +302,6 @@ aside {
 1. Universität-Münster (Germany) _arXiv-DH and HGF_
 1. Université Paris-Sud (France) _CCSD_
 1. University of Bern  (Switzerland)
-1. University of California, Santa Cruz (USA) _CDL_
 1. University of Sheffield (UK) _JISC_
 1. University of Southampton (UK) _JISC_
 1. University of Sussex (UK) _JISC_
@@ -333,9 +342,6 @@ aside {
 1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. IHEP, National Science Library, CAS (China)
 1. Kobe University (Japan) _NII Japan Consortium_
-1. Lawrence Berkeley National Laboratory (USA) _CDL_
-1. Michigan State University (USA) _BTAA_
-1. Ohio State University (USA) _BTAA_
 1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
 1. TRIUMF (Canada)
 1. Universität Konstanz (Germany) _arXiv-DH and HGF_
@@ -344,17 +350,11 @@ aside {
 1. Université de Rennes 1 (France) _CCSD_
 1. University of Arizona (USA)
 1. University of Birmingham (UK) _JISC_
-1. University of California, Irvine (USA) _CDL_
-1. University of California, Merced (USA) _CDL_
-1. University of California, Riverside  (USA) _CDL_
-1. University of California, San Francisco (USA) _CDL_
 1. University of Cardiff (UK) _JISC_
 1. University of Graz (Austria)
 1. University of Geneva (Switzerland)
 1. University of Hawaii (USA)
-1. University of Iowa (USA) _BTAA_
 1. University of Kansas (USA)
-1. University of Nebraska (USA) _BTAA_
 1. University of Nottingham (UK) _JISC_
 1. University of Pittsburgh (USA)
 1. University of Tsukuba (Japan) _NII Japan Consortium_
