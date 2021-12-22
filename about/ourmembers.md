@@ -103,6 +103,7 @@ aside {
 1. Fermilab (USA)
 1. Harvard University (USA)
 1. Indiana University (USA) _BTAA_
+1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
 1. KTH Royal Institute of Technology  (Sweden)
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Los Alamos National Laboratory  (USA)
@@ -115,10 +116,15 @@ aside {
 1. Princeton University (USA)
 1. Purdue University (USA) _BTAA_
 1. Rutgers University (USA) _BTAA_
+1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
 1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stanford University, and SLAC (USA)
+1. Technische Universität München (Germany) _arXiv-DH and HGF_
 1. Texas A&M University (USA)
 1. Tsinghua University  (China)
+1. Universität Bonn  (Germany) _arXiv-DH and HGF_
+1. Universität Heidelberg (Germany) _arXiv-DH and HGF_
+1. Universität Mainz (Germany) _arXiv-DH and HGF_
 1. University of Amsterdam  (Netherlands)
 1. University of British Columbia (Canada)
 1. University of California, Berkeley (USA) _CDL_
@@ -141,10 +147,14 @@ aside {
 1. Argonne National Lab (USA)
 1. Boston University (USA)
 1. Brown University (USA)
+1. DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_
+1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
+1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
+1. Humboldt-Universität zu Berlin  (Germany) _arXiv-DH and HGF_
 1. George Mason University (USA)
 1. Ghent University Libraries (Belgium)
 1. Hebrew University of Jerusalem (Israel)
-1. Iowa State University
+1. Iowa State University (USA)
 1. Kansas State University (USA)
 1. King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
@@ -157,9 +167,27 @@ aside {
 1. Rice University (USA)
 1. Simon Fraser University (Canada)
 1. Stony Brook University (USA)
-1. Syracuse University
+1. Syracuse University (USA)
+1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
+1. Technische Universität Darmstadt (Germany) _arXiv-DH and HGF_
+1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
 1. Tufts University (USA)
 1. Universität Basel (Switzerland)
+1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
+1. Universität Bochum (Germany) _arXiv-DH and HGF_
+1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
+1. Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_
+1. Universität Frankfurt am Main  (Germany) _arXiv-DH and HGF_
+1. Universität Freiburg (Germany) _arXiv-DH and HGF_
+1. Universität Hamburg  (Germany) _arXiv-DH and HGF_
+1. Universität Hannover  (Germany) _arXiv-DH and HGF_
+1. Universität Jena (Germany) _arXiv-DH and HGF_
+1. Universität Regensburg  (Germany) _arXiv-DH and HGF_
+1. Universität Stuttgart (Germany) _arXiv-DH and HGF_
+1. Universität zu Köln  (Germany) _arXiv-DH and HGF_
+1. Universität-Münster (Germany) _arXiv-DH and HGF_
+1. Universität Tübingen  (Germany) _arXiv-DH and HGF_
+1. Universität Ulm (Germany) _arXiv-DH and HGF_
 1. Université de Montréal (Canada)
 1. Universitetet Oslo (Norway)
 1. University at Buffalo (USA)
@@ -211,6 +239,8 @@ aside {
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
 1. Technion - Israel Institute of Technology  (Israel)
 1. Universität Graz (Austria)
+1. Universität Konstanz (Germany) _arXiv-DH and HGF_
+1. Universität Mannheim (Germany) _arXiv-DH and HGF_
 1. University of Arkansas (USA)
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
@@ -225,7 +255,7 @@ aside {
 1. Villanova (USA)
 1. Virginia Tech (USA)
 1. Washington State University (USA)
-
+1. Universität Würzburg (Germany) _arXiv-DH and HGF_
 
 
 ## Platinum Members
@@ -235,7 +265,7 @@ aside {
 
 ## Tier 1
 
-1. DESY (HGF - Helmholtz Association, German Research Centers) (Germany) _arXiv-DH and HGF_
+
 1. Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
 1. Kyoto University  (Japan) _NII Japan Consortium_
 1. University College London  (UK) _JISC_
@@ -246,9 +276,6 @@ aside {
 
 1. The Chinese University of Hong Kong (Hong Kong)
 1. Durham University (UK) _JISC_
-1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
-1. Universität Bonn  (Germany) _arXiv-DH and HGF_
-1. Universität Heidelberg (Germany) _arXiv-DH and HGF_
 1. University of Edinburgh (UK) _JISC_
 1. University of Texas at Austin (USA)
 
@@ -262,15 +289,12 @@ aside {
 1. KU Leuven (Belgium)
 1. Nagoya University  (Japan) _NII Japan Consortium_
 1. Osaka University (Japan) _NII Japan Consortium_
-1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
 1. Stockholm University (Sweden)
-1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
-1. Technische Universität Darmstadt (Germany) _arXiv-DH and HGF_
-1. Technische Universität München (Germany) _arXiv-DH and HGF_
+
+
 1. Tohoku University (Japan) _NII Japan Consortium_
-1. Universität Freiburg (Germany) _arXiv-DH and HGF_
-1. Universität Hamburg  (Germany) _arXiv-DH and HGF_
-1. Universität Mainz (Germany) _arXiv-DH and HGF_
+
+
 1. University of Bristol (UK) _JISC_
 1. University of Manchester (UK) _JISC_
 1. University of Southern California (USA)
@@ -282,8 +306,7 @@ aside {
 
 ## Tier 4
 
-1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
-1. Humboldt-Universität zu Berlin  (Germany) _arXiv-DH and HGF_
+
 1. Johns Hopkins University (USA)
 1. Joint Institute for Nuclear Research (JINR)  (Russia)
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
@@ -293,13 +316,7 @@ aside {
 1. Texas A&M University  (USA)
 1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 1. TU Wien (Austria)
-1. Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_
-1. Universität Frankfurt am Main  (Germany) _arXiv-DH and HGF_
-1. Universität Hannover  (Germany) _arXiv-DH and HGF_
-1. Universität Regensburg  (Germany) _arXiv-DH and HGF_
-1. Universität Stuttgart (Germany) _arXiv-DH and HGF_
-1. Universität zu Köln  (Germany) _arXiv-DH and HGF_
-1. Universität-Münster (Germany) _arXiv-DH and HGF_
+
 1. Université Paris-Sud (France) _CCSD_
 1. University of Bern  (Switzerland)
 1. University of Sheffield (UK) _JISC_
@@ -309,7 +326,6 @@ aside {
 ## Tier 5
 
 1. Aalto University (Finland)
-1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Keio University (Japan) _NII Japan Consortium_
 1. King's College London (UK) _JISC_
 1. Kyushu University (Japan) _NII Japan Consortium_
@@ -317,13 +333,7 @@ aside {
 1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 1. Tata Institute of Fundamental Research (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
-1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
-1. Universität Bochum (Germany) _arXiv-DH and HGF_
-1. Universität Jena (Germany) _arXiv-DH and HGF_
-1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
-1. Universität Tübingen  (Germany) _arXiv-DH and HGF_
-1. Universität Ulm (Germany) _arXiv-DH and HGF_
-1. Universität Würzburg (Germany) _arXiv-DH and HGF_
+
 1. University of Glasgow (UK) _JISC_
 1. University of New South Wales, Sydney (Australia)
 1. University of Utah (USA)
@@ -342,10 +352,8 @@ aside {
 1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. IHEP, National Science Library, CAS (China)
 1. Kobe University (Japan) _NII Japan Consortium_
-1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
 1. TRIUMF (Canada)
-1. Universität Konstanz (Germany) _arXiv-DH and HGF_
-1. Universität Mannheim (Germany) _arXiv-DH and HGF_
+
 1. Université de Grenoble Alpes (France) _CCSD_
 1. Université de Rennes 1 (France) _CCSD_
 1. University of Arizona (USA)
