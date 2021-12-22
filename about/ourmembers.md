@@ -80,16 +80,16 @@ aside {
 >1. Big Ten Academic Alliance (USA)
 >1. California Digital Libraries (USA)
 
+## Consortia
+>1. arXiv DH and HGF Consortium (Germany)
+>1. Centre pour la Communication Scientifique Directe (France)
+>1. NII Japan Consortium (Japan)
+
 ## Champion Members
 >1. California Institute of Technology (USA)
 >1. CERN-European Organization for Nuclear Research (Switzerland)
 >1. Georgia Institute of Technology (USA)
 >1. Massachusetts Institute of Technology (MIT) (USA)
-
-## Consortia
->1. arXiv DH and HGF Consortium (Germany)
->1. Centre pour la Communication Scientifique Directe (France)
->1. NII Japan Consortium (Japan)
 
 ## Top 100 Submitters
 1. Arizona State University (USA)
@@ -105,6 +105,7 @@ aside {
 1. Indiana University (USA) _BTAA_
 1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
 1. KTH Royal Institute of Technology  (Sweden)
+1. Kyoto University  (Japan) _NII Japan Consortium_
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Los Alamos National Laboratory  (USA)
 1. Max Planck Digital Library (Germany)
@@ -138,6 +139,7 @@ aside {
 1. University of Minnesota (USA) _BTAA_
 1. University of Pennsylvania (USA)
 1. University of Sydney (Australia)
+1. University of Tokyo  (Japan) _NII Japan Consortium_
 1. University of Toronto (Canada)
 1. University of Waterloo  (Canada)
 1. University of Wisconsin, Madison (USA) _BTAA_
@@ -154,14 +156,23 @@ aside {
 1. George Mason University (USA)
 1. Ghent University Libraries (Belgium)
 1. Hebrew University of Jerusalem (Israel)
+1. Hiroshima University (Japan) _NII Japan Consortium_
+1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. Iowa State University (USA)
 1. Kansas State University (USA)
+1. Keio University (Japan) _NII Japan Consortium_
+1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
+1. Kobe University (Japan) _NII Japan Consortium_
+1. Kyushu University (Japan) _NII Japan Consortium_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
 1. McGill University (Canada)
 1. McMaster University (Canada)
 1. Monash University (Australia)
+1. Nagoya University  (Japan) _NII Japan Consortium_
+1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 1. National Taiwan University (Taiwan)
+1. Osaka University (Japan) _NII Japan Consortium_
 1. Perimeter Institute for Theoretical Physics  (Canada)
 1. Queensland University of Technology (Australia)
 1. Rice University (USA)
@@ -171,6 +182,8 @@ aside {
 1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
 1. Technische Universität Darmstadt (Germany) _arXiv-DH and HGF_
 1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
+1. Tohoku University (Japan) _NII Japan Consortium_
+1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 1. Tufts University (USA)
 1. Universität Basel (Switzerland)
 1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
@@ -211,11 +224,14 @@ aside {
 1. University of Oregon (USA)
 1. University of Queensland (Australia)
 1. University of Rochester (USA)
+1. University of Technology Sydney (Australia)
+1. University of Tsukuba (Japan) _NII Japan Consortium_
 1. University of Vienna  (Austria)
 1. University of Virginia (USA)
 1. University of Western Australia (Australia)
 1. Uppsala University (Sweden)
 1. Vrije Universiteit Brussel (Belgium)
+1. Waseda University (Japan) _NII Japan Consortium_
 1. Weizmann Institute of Science (Israel)
 1. Western University (Canada)
 
@@ -238,6 +254,7 @@ aside {
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
 1. Technion - Israel Institute of Technology  (Israel)
+1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Graz (Austria)
 1. Universität Konstanz (Germany) _arXiv-DH and HGF_
 1. Universität Mannheim (Germany) _arXiv-DH and HGF_
@@ -265,12 +282,9 @@ aside {
 
 ## Tier 1
 
-
 1. Ecole Polytechnique Fédérale de Lausanne (EPFL)  (Switzerland)
-1. Kyoto University  (Japan) _NII Japan Consortium_
 1. University College London  (UK) _JISC_
 1. University of Oxford  (UK) _JISC_
-1. University of Tokyo  (Japan) _NII Japan Consortium_
 
 ## Tier 2
 
@@ -287,18 +301,12 @@ aside {
 1. International Centre for Theoretical Physics (ICTP) (Italy)
 1. Italian Institute for Astrophysics (INAF) (Italy)
 1. KU Leuven (Belgium)
-1. Nagoya University  (Japan) _NII Japan Consortium_
-1. Osaka University (Japan) _NII Japan Consortium_
 1. Stockholm University (Sweden)
-
-
-1. Tohoku University (Japan) _NII Japan Consortium_
-
 
 1. University of Bristol (UK) _JISC_
 1. University of Manchester (UK) _JISC_
 1. University of Southern California (USA)
-1. University of Technology Sydney (Australia)
+
 1. University of Warwick (UK) _JISC_
 1. University of Washington Libraries (USA)
 1. University of Zurich, Institute of Theoretical Physics  (Switzerland)
@@ -309,12 +317,11 @@ aside {
 
 1. Johns Hopkins University (USA)
 1. Joint Institute for Nuclear Research (JINR)  (Russia)
-1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. Physical Research Laboratory (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Radboud University (Netherlands)
 1. Tel Aviv University (Israel)
 1. Texas A&M University  (USA)
-1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
+
 1. TU Wien (Austria)
 
 1. Université Paris-Sud (France) _CCSD_
@@ -326,18 +333,13 @@ aside {
 ## Tier 5
 
 1. Aalto University (Finland)
-1. Keio University (Japan) _NII Japan Consortium_
 1. King's College London (UK) _JISC_
-1. Kyushu University (Japan) _NII Japan Consortium_
 1. Lund University Libraries, Lund University (Sweden)
-1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 1. Tata Institute of Fundamental Research (2016-2020 membership sponsored by Anurag Acharya) (India)
-1. Tokyo University of Science (Japan) _NII Japan Consortium_
 
 1. University of Glasgow (UK) _JISC_
 1. University of New South Wales, Sydney (Australia)
 1. University of Utah (USA)
-1. Waseda University (Japan) _NII Japan Consortium_
 1. Washington University in St. Louis  (USA)
 
 ## Tier 6
@@ -348,10 +350,8 @@ aside {
 1. Free University of Amsterdam (Netherlands)
 1. George Washington University (USA)
 1. Harish-Chandra Research Institute (2016-2020 membership sponsored by Anurag Acharya) (India)
-1. Hiroshima University (Japan) _NII Japan Consortium_
-1. Hokkaido University  (Japan) _NII Japan Consortium_
+
 1. IHEP, National Science Library, CAS (China)
-1. Kobe University (Japan) _NII Japan Consortium_
 1. TRIUMF (Canada)
 
 1. Université de Grenoble Alpes (France) _CCSD_
@@ -365,7 +365,6 @@ aside {
 1. University of Kansas (USA)
 1. University of Nottingham (UK) _JISC_
 1. University of Pittsburgh (USA)
-1. University of Tsukuba (Japan) _NII Japan Consortium_
 1. University of Witwatersrand (South Africa)
 1. University of York (UK) _JISC_
 1. Utrecht University (Netherlands)
