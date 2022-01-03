@@ -30,6 +30,10 @@ The arXiv DOI will link to the arXiv abstract (/abs) page using the canonical fo
 
 https://doi.org/10.48550/arXiv.2201.NNNNN → https://arxiv.org/abs/2201.NNNNN
 
+**Will replacing an existing paper with a new version generate a new arXiv DOI?**
+
+Replacing an article with a new version will not generate a new DOI; however, the metadata associated with the existing DOI will be updated at DataCite to reflect the changes from the new version. 
+
 **What is arXiv’s DOI prefix with DataCite?**
 
 10.48550
