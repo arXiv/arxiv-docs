@@ -1,9 +1,9 @@
 arXiv DOIs with DataCite
 ========================
 
-Starting in January 2022, arXiv will begin registering DOIs and submitting associated article metadata to DataCite on behalf of (and at no cost to) arXiv authors. The first articles to receive DOIs will be those with 2201.NNNNN identifiers, with all new articles receiving DOIs going forward. Following successful launch, we will begin minting “arXiv DOIs” for the approximately 2M articles in arXiv’s corpus published between 1991 and 2021.
+Starting in January 2022, arXiv will begin registering DOIs and submitting associated article metadata to DataCite on behalf of (and at no cost to) arXiv authors. The first articles to receive DOIs will be those with 2201.NNNNN identifiers, with all new articles receiving DOIs going forward. Following successful launch, we will begin minting “arXiv DOIs” for the approximately 2 million articles in arXiv’s corpus published between 1991 and 2021.
 
-The article abstract (/abs) pages will be updated to display the arXiv DOIs following the initial registrations no later than the end of Q1 2022.
+The article abstract (/abs) pages will be updated to display the arXiv DOIs following the initial registrations no later than the end of the first quarter of 2022.
 
 **Why add DOIs when there are arXiv identifiers? Are arXiv identifiers going away?**
 
@@ -32,7 +32,7 @@ https://doi.org/10.48550/arXiv.2201.NNNNN → https://arxiv.org/abs/2201.NNNNN
 
 **Will replacing an existing paper with a new version generate a new arXiv DOI?**
 
-Replacing an article with a new version will not generate a new DOI; however, the metadata associated with the existing DOI will be updated at DataCite to reflect the changes from the new version. 
+Replacing an article with a new version will not generate a new DOI; however, the metadata associated with the existing DOI will be updated at DataCite to reflect the changes from the new version.
 
 **What is arXiv’s DOI prefix with DataCite?**
 
