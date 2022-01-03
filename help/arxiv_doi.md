@@ -24,15 +24,15 @@ If you have submitted an article from January 2022 onwards, we expect new articl
 
 We do not have an exact timeline for backfilling DOIs for older articles, but we will start with articles from 2021 and go back in time. We will periodically provide updates as we complete batches of registrations.
 
+**Will replacing an existing paper with a new version generate a new arXiv DOI?**
+
+Replacing an article with a new version will not generate a new DOI; however, the metadata associated with the existing DOI will be updated at DataCite to reflect the changes from the new version.
+
 **Where will the arXiv DOI for my article link to?**
 
 The arXiv DOI will link to the arXiv abstract (/abs) page using the canonical form of the arXiv identifier, so it will always point to the latest version of the article, e.g.
 
 https://doi.org/10.48550/arXiv.2201.NNNNN → https://arxiv.org/abs/2201.NNNNN
-
-**Will replacing an existing paper with a new version generate a new arXiv DOI?**
-
-Replacing an article with a new version will not generate a new DOI; however, the metadata associated with the existing DOI will be updated at DataCite to reflect the changes from the new version.
 
 **What is arXiv’s DOI prefix with DataCite?**
 
