@@ -164,6 +164,7 @@ aside {
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
 1. Kobe University (Japan) _NII Japan Consortium_
+1. KU Leuven (Belgium)
 1. Kyushu University (Japan) _NII Japan Consortium_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
 1. McGill University (Canada)
@@ -300,7 +301,6 @@ aside {
 1. Delft University of Technology  (Netherlands)
 1. International Centre for Theoretical Physics (ICTP) (Italy)
 1. Italian Institute for Astrophysics (INAF) (Italy)
-1. KU Leuven (Belgium)
 1. Stockholm University (Sweden)
 
 1. University of Bristol (UK) _JISC_
