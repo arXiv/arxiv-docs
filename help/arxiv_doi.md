@@ -9,8 +9,8 @@ The article abstract (/abs) pages will be updated to display the arXiv DOIs foll
 
 The arXiv identifier has existed for more than 30 years; we will continue supporting it and you may use it in your citations as an alternative to the arXiv DOI. We are issuing DOIs for several reasons:
 
-Making article metadata available in a centralized location like DataCite allows research outputs to be more discoverable and harvestable.
-Some funding agencies require DOIs for the research they are supporting.
+- Making article metadata available in a centralized location like DataCite allows research outputs to be more discoverable and harvestable.
+- For reporting purposes, some funding agencies require DOIs for the research they are supporting.
 
 **Will I still be able to provide an external DOI and/or journal reference with my article?**
 
