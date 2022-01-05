@@ -63,12 +63,11 @@ Professor of Computer Science, Cornell University (ex
 Professor, University of Minnesota
 > -   ### Tara Holm
 Professor of Mathematics, Cornell University
+> -   ### Eiichiro Komatsu
+Director of the Department of Physical Cosmology, Max-Planck-Institut für Astrophysik, Germany
 > -   ### Greg Kuperberg
 Professor of Mathematics, University of California,
     Davis (ex officio, as chair of Mathematics Advisory Committee)
-> -   ### David Morrison
-Professor of Mathematics and Physics,
-    University of California, Santa Barbara
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde (**Chair**)
