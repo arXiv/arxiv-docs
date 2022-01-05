@@ -107,7 +107,7 @@ aside {
 1. KTH Royal Institute of Technology  (Sweden)
 1. Kyoto University  (Japan) _NII Japan Consortium_
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
-1. Los Alamos National Laboratory  (USA)
+1. Los Alamos National Laboratory (USA)
 1. Max Planck Digital Library (Germany)
 1. Michigan State University (USA) _BTAA_
 1. New York University (USA)
@@ -159,6 +159,7 @@ aside {
 1. Hiroshima University (Japan) _NII Japan Consortium_
 1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. Iowa State University (USA)
+1. Joint Institute for Nuclear Research (JINR) (Russia)
 1. Kansas State University (USA)
 1. Keio University (Japan) _NII Japan Consortium_
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
@@ -174,7 +175,7 @@ aside {
 1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
 1. National Taiwan University (Taiwan)
 1. Osaka University (Japan) _NII Japan Consortium_
-1. Perimeter Institute for Theoretical Physics  (Canada)
+1. Perimeter Institute for Theoretical Physics (Canada)
 1. Queensland University of Technology (Australia)
 1. Rice University (USA)
 1. Simon Fraser University (Canada)
@@ -237,8 +238,9 @@ aside {
 1. Western University (Canada)
 
 ## Regular Submitters & Community Contributors
+1. Ames Laboratory (USA)
 1. Boston College (USA)
-1. Central European University (Hungary)
+1. Central European University (Austria)
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
 1. Institute for Advanced Study (USA)
@@ -254,7 +256,7 @@ aside {
 1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
-1. Technion - Israel Institute of Technology  (Israel)
+1. Technion - Israel Institute of Technology (Israel)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Graz (Austria)
 1. Universität Konstanz (Germany) _arXiv-DH and HGF_
@@ -269,6 +271,7 @@ aside {
 1. University of New Hampshire (USA)
 1. University of North Texas (USA)
 1. University of Wollongong (Australia)
+1. University of York (UK) _JISC_
 1. Victoria University of Wellington (New Zealand)
 1. Villanova (USA)
 1. Virginia Tech (USA)
@@ -316,7 +319,7 @@ aside {
 
 
 1. Johns Hopkins University (USA)
-1. Joint Institute for Nuclear Research (JINR)  (Russia)
+
 1. Physical Research Laboratory (2016-2020 membership sponsored by Anurag Acharya) (India)
 1. Radboud University (Netherlands)
 1. Tel Aviv University (Israel)
@@ -344,7 +347,6 @@ aside {
 
 ## Tier 6
 
-1. Ames Laboratory (USA)
 1. Bibliothèque de l'Observatoire de Paris (OBSPM) (France) _CCSD_
 1. Dublin Institute for Advanced Studies (Ireland)
 1. Free University of Amsterdam (Netherlands)
@@ -366,7 +368,6 @@ aside {
 1. University of Nottingham (UK) _JISC_
 1. University of Pittsburgh (USA)
 1. University of Witwatersrand (South Africa)
-1. University of York (UK) _JISC_
 1. Utrecht University (Netherlands)
 
 
