@@ -70,11 +70,11 @@ Professor of Mathematics, University of California,
     Davis (ex officio, as chair of Mathematics Advisory Committee)
 > -   ### Sumati Surya
 Professor, Raman Research Institute
-> -   ### Licia Verde (**Chair**)
+> -   ### Licia Verde 
 ICREA Research Professor, Universitat de Barcelona
 > -   ### Larry Wassermann
 Professor, Carnegie Mellon University (chair of Statistics Advisory Committee)
-> -   ### Ralph Wijers
+> -   ### Ralph Wijers (**Chair**)
 Professor, University of Amsterdam (ex officio, as chair of Physics Advisory Committee)
 
 <span id="advisory_committees"></span>
