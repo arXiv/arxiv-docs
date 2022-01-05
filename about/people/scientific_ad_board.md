@@ -100,6 +100,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   David Morrison, University of California, Santa Barbara
 -   Robert Seiringer, Institute of Science and Technology Austria
 -   Eberhard Bodenschatz, Max Planck Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
 -   Gregory Gabadadze, New York University \| Simons Foundation
