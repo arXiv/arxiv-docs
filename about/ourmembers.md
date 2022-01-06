@@ -102,6 +102,7 @@ aside {
 1. Fermilab (USA)
 1. Harvard University (USA)
 1. Indiana University (USA) _BTAA_
+1. Johns Hopkins University (USA)
 1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
 1. KTH Royal Institute of Technology  (Sweden)
 1. Kyoto University  (Japan) _NII Japan Consortium_
