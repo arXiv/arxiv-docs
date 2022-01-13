@@ -25,7 +25,7 @@ The short answer is "it depends". More specifically:
 In some cases, submitters have provided permission in advance by submitting their e-print under a permissive [Creative Commons license](/help/license#licenses-available). The overwhelming majority of e-prints are submitted using the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), which does not grant further reuse permissions directly. In these cases you will need to contact the author directly with your request.
 
 <span name="what_license"></span>
-## How can I determine what license the version was assigned?0
+## How can I determine what license the version was assigned?
 
 All arXiv abstract pages indicate a [license](/help/license) underneath the "Download:" options. 
 
