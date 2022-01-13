@@ -20,6 +20,10 @@ A short answer is "it depends". More specifically:
 <span name="full_text"></span>
 ## Do I need arXiv's permission to repost the full text?
 
+**Note:** All e-prints submitted to arXiv are subject to copyright protections. arXiv is not the copyright holder on any of the e-prints in our corpus. 
+
+In some cases, submitters have provided permission in advance by submitting their e-print under a permissive [Creative Commons license](license#licenses-available). The overwhelming majority of e-prints are submitted using the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), which does not grant further reuse permissions directly. In these cases you will need to contact the author directly with your request.
+
 <span name="what_license"></span>
 ## How can I determine what license the version was assigned?
 
