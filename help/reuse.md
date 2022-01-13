@@ -12,6 +12,11 @@ This FAQ is an attempt to collect answers to your common questions surrounding r
 <span name="figures"></span>
 ## Can I reuse figures from an arXiv paper?
 
+A short answer is "it depends". More specifically: 
+  - If the [license](license) applied to the work allows for remixing or reuse with citation, then yes. 
+  - If not, then no. 
+  - If the version is assigned the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), you will need to contact the submitter or copyright holder (if published) to determine applicable permissions. 
+
 <span name="full_text"></span>
 ## Do I need arXiv's permission to repost the full text?
 
