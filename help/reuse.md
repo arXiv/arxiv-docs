@@ -12,7 +12,7 @@ This FAQ is an attempt to collect answers to your common questions surrounding r
 <span name="figures"></span>
 ## Can I reuse figures from an arXiv paper?
 
-A short answer is "it depends". More specifically: 
+The short answer is "it depends". More specifically: 
   - If the [license](license) applied to the work allows for remixing or reuse with citation, then yes. 
   - If not, then no. 
   - If the version is assigned the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), you will need to contact the submitter or copyright holder (if published) to determine applicable permissions. 
@@ -26,6 +26,12 @@ In some cases, submitters have provided permission in advance by submitting thei
 
 <span name="what_license"></span>
 ## How can I determine what license the version was assigned?
+
+All arXiv abstract pages indicate a license underneath the full text download options. 
+
+The link will appear as just the text `(license)`, such as at [arXiv:2201.04182](https://arxiv.org/abs/2201.04182v2). Articles between 1991 and 2003 have an [assumed license](https://arxiv.org/licenses/assumed-1991-2003/license.html). These should be considered functionally equivalent to the arXiv non-exclusive license.  
+
+If the license applied by the submitter is one of the Creative Commons licenses, then a "CC" logo will appear, such as at [arXiv:2201.04182](https://arxiv.org/abs/2201.04182v1). 
 
 <span name="thesis"></span>
 ## I want to include a paper of mine from arXiv in my thesis, do I need specific permission?
