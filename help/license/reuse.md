@@ -7,7 +7,7 @@ This FAQ is an attempt to collect answers to your common questions surrounding r
 - [Do I need arXiv's permission to repost the full text?](#full_text)
 - [How can I determine what license the version was assigned?](#what_license)
 - [I want to include a paper of mine from arXiv in my thesis, do I need specific permission?](#thesis)
-- [I want to include a paper of mine from arXiv in an Institutional Repository, do I need permission?](#ir)
+- [I want to include a paper of mine from arXiv in an institutional repository, do I need permission?](#ir)
 - [Can I harvest the full text of works?](#bulk_data)
 
 <span name="figures"></span>
@@ -39,9 +39,9 @@ If the license applied by the submitter is one of the Creative Commons licenses,
 If you are the copyright holder of the work, you do not need arXiv's permission to reuse the full text. 
 
 <span name="ir"></span>
-## I want to include a paper of mine from arXiv in an Institutional Repository, do I need permission?
+## I want to include a paper of mine from arXiv in an institutional repository, do I need permission?
 
-You do not need arXiv's permission to deposit arXiv's version of *your* work into an institutional repository. For all other Institutional Repository cases, [see our help page on this topic](/help/ir). 
+You do not need arXiv's permission to deposit arXiv's version of *your* work into an institutional repository. For all other institutional repository cases, [see our help page on this topic](/help/ir). 
 
 <span name="bulk_data"></span>
 ## Can I harvest the full text of works? 
