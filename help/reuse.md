@@ -8,12 +8,13 @@ This FAQ is an attempt to collect answers to your common questions surrounding r
 - [How can I determine what license the version was assigned?](#what_license)
 - [I want to include a paper of mine from arXiv in my thesis, do I need specific permission?](#thesis)
 - [I want to include a paper of mine from arXiv in an Institutional Repository, do I need permission?](#ir)
+- [Can I harvest the full text of works?](#bulk_data)
 
 <span name="figures"></span>
 ## Can I reuse figures from an arXiv paper?
 
 The short answer is "it depends". More specifically: 
-  - If the [license](license) applied to the work allows for remixing or reuse with citation, then yes. 
+  - If the [license](/help/license) applied to the work allows for remixing or reuse with citation, then yes. 
   - If not, then no. 
   - If the version is assigned the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), you will need to contact the submitter or copyright holder (if published) to determine applicable permissions. 
 
@@ -22,7 +23,7 @@ The short answer is "it depends". More specifically:
 
 **Note:** All e-prints submitted to arXiv are subject to copyright protections. arXiv is not the copyright holder on any of the e-prints in our corpus. 
 
-In some cases, submitters have provided permission in advance by submitting their e-print under a permissive [Creative Commons license](license#licenses-available). The overwhelming majority of e-prints are submitted using the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), which does not grant further reuse permissions directly. In these cases you will need to contact the author directly with your request.
+In some cases, submitters have provided permission in advance by submitting their e-print under a permissive [Creative Commons license](/help/license#licenses-available). The overwhelming majority of e-prints are submitted using the [arXiv perpetual non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/), which does not grant further reuse permissions directly. In these cases you will need to contact the author directly with your request.
 
 <span name="what_license"></span>
 ## How can I determine what license the version was assigned?
@@ -36,6 +37,14 @@ If the license applied by the submitter is one of the Creative Commons licenses,
 <span name="thesis"></span>
 ## I want to include a paper of mine from arXiv in my thesis, do I need specific permission?
 
+If you are the copyright holder of the work, you do not need arXiv's permission to reuse the full text. 
+
 <span name="ir"></span>
 ## I want to include a paper of mine from arXiv in an Institutional Repository, do I need permission?
 
+You do not need arXiv's permission to deposit arXiv's version of *your* work into an institutional repository. For all other Institutional Repository cases, [see our help page on this topic](/help/ir). 
+
+<span name="bulk_data"></span>
+## Can I harvest the full text of works? 
+
+Plase see our [bulk data](/help/bulk_data) help page, and the [API Terms of Use](/help/api/tou) for specifics. 
