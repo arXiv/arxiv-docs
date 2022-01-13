@@ -27,7 +27,7 @@ In some cases, submitters have provided permission in advance by submitting thei
 <span name="what_license"></span>
 ## How can I determine what license the version was assigned?
 
-All arXiv abstract pages indicate a license underneath the full text download options. 
+All arXiv abstract pages indicate a [license](/help/license) underneath the full text download options. 
 
 The link will appear as just the text `(license)`, such as at [arXiv:2201.14176](https://arxiv.org/abs/2103.14176v2). Articles between 1991 and 2003 have an [assumed license](https://arxiv.org/licenses/assumed-1991-2003/license.html). These are functionally equivalent to the arXiv non-exclusive license.  
 
@@ -46,4 +46,4 @@ You do not need arXiv's permission to deposit arXiv's version of *your* work int
 <span name="bulk_data"></span>
 ## Can I harvest the full text of works? 
 
-Plase see our [bulk data](/help/bulk_data) help page, and the [API Terms of Use](/help/api/tou) for specifics. 
+Plase see our [bulk data](/help/bulk_data) help page, and the [API Terms of Use](/help/api/tou) for specific options. Note that the license for the full text is not a part of the current search API schema. The license is, however, provided within arXiv's output from the [OAI-PMH](/help/oa) in either `arXiv` or `arXivRaw` formats. 
