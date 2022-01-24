@@ -86,6 +86,7 @@ aside {
 >1. Allen Institute for Artificial Intelligence (USA)
 >1. Computer Vision Foundation (USA)
 >1. Google, Inc (USA)
+>1. Facebook AI (USA)
 
 ## Silver Affiliates
 
@@ -97,9 +98,6 @@ aside {
 >1. Institute of Physics Publishing (UK)
 >1. NWO Dutch Reseach Council (Netherlands)
 >1. Deutsche Physikalische Gesellschaft (Germany)
-
-## Silver Sponsors
->1. Facebook AI (USA)
 
 
 #
