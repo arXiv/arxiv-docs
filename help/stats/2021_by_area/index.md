@@ -87,7 +87,11 @@ The graphs above show the **cumulative** data as a function of time, where the c
 
 <span id="quant-ph_yearly"></span><span id="gr-qc_yearly"></span>
 
-![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)    ![nucl-\* submissions by year](nucl_yearly.png)
+![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)   
+
+<span id="nucl_yearly"></span><span id="nucl_yearly"></span>
+
+![nucl-\* submissions by year](nucl_yearly.png)
 
 <span id="stat_yearly"></span>
 
