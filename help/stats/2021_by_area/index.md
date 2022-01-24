@@ -26,7 +26,7 @@ The current submission rates (i.e., averaged over calendar year 2021) as percent
 -   [nucl](#nucl_yearly) (1536): 0.8%
 -   [econ](#econ_yearly) (1371): 0.8%
 -   [q-fin](#q-fin_yearly) (847): 0.5%
--   [nlin](#nlin_yearly) (789): 0.4%</li>
+-   [nlin](#nlin_yearly) (789): 0.4%
 
 The overall annual growth rate in submissions for 2021 over 2020 was only about 2%, significantly lower than the past few years, likely for pandemic-related reasons. (Additional time to analyze, write, and publish perhaps led to a burst in 2020, and then diminished data collection and a flushed-out pipeline may led to a fall-off in 2021, below the expected pre-pandemic trendline.) In physics categories, [quant-ph](#quant-ph_yearly) and [gr-qc](#gr-qc_yearly) continued to grow, while the biggest fractional decline was mysteriously [physics.app-ph](#physics_yearly), and overall [physics](#phys_yearly) had a slight decline from 2020. [math](#math_yearly) had an even bigger fractional decline overall than physics. [cs](#cs_yearly) retained an overall large 2021 growth rate, though not as large as in recent years. The larger areas (cs.LG, cs.CV, cs.CL
 -- machine learning, computer vision, computational linguistics) all grew, but many of the smaller areas declined.
@@ -85,13 +85,9 @@ The graphs above show the **cumulative** data as a function of time, where the c
 
 ![HEP submissions by year](hep_yearly.png)
 
-<span id="quant-ph_yearly"></span><span id="gr-qc_yearly"></span>
+<span id="quant-ph_yearly"></span><span id="gr-qc_yearly"></span><span id="nucl_yearly"></span><span id="nucl_yearly"></span>
 
-![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)   
-
-<span id="nucl_yearly"></span><span id="nucl_yearly"></span>
-
-![nucl-\* submissions by year](nucl_yearly.png)
+![quant-ph submissions by year](quant-ph_gr-qc_yearly.png)   ![nucl-\* submissions by year](nucl_yearly.png)
 
 <span id="stat_yearly"></span>
 
