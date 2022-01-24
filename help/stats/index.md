@@ -5,7 +5,8 @@ arXiv usage statistics
 
 -   [Monthly submission totals](https://arxiv.org/stats/monthly_submissions)
 -   [Submissions by Category](/about/reports/submission_category_by_year)
--   [Submission totals broken down by major subject areas through 2020](2020_by_area/index)
+-   [Submission totals broken down by major subject areas through 2021](2021_by_area)
+
 
 **Access and download statistics:**
 
