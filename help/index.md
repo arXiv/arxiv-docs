@@ -8,6 +8,8 @@ slug: Help
 - [About arXiv](/about)
 - [Policies](policies)
 - [arXiv Help Frequently Asked Questions](faq/index)
+- [Licenses of content](license)
+- [Reuse of content from arXiv](license/reuse)
 
 ## Searching and Browsing
 - [Find an Article](find)
