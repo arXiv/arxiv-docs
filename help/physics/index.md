@@ -27,7 +27,7 @@ The advisory committee members serve as consultants to Cornell University and to
 
 *   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
 *   [Jacques Distler](http://www.ph.utexas.edu/person/distler_jacques) (Texas): high-energy theory
-*   [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
+*   Vice-Chair: [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
 *   [Paul Ginsparg](http://www.physics.cornell.edu/professorspeople/professors/?page=website/faculty&action=show/id=17) (Cornell): high-energy theory
 *   [Daniel Gottesman](http://www.perimeterinstitute.ca/people/Daniel-Gottesman) (Perimeter): quantum physics
 *   [Dong Lai](http://astro.cornell.edu/members/dong-lai.html) (Cornell): astrophysics
