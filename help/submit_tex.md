@@ -106,7 +106,10 @@ Do not include extraneous font commands, spaces, tildes, braces or line-breaks w
 
 If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](/help/hypertex/bibstyles)).
 
-If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file.
+If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file. 
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="bibtex"></span>
 
@@ -128,11 +131,17 @@ We do not run `makeindex` in the auto-TeXing procedure. If you use it, include i
 
 It is difficult to automatically perform `makeindex` processing to the authors' expectations because of the multiple optional arguments and optional style selections. Therefore arXiv asks authors to provide their pre-processed `.ind` file(s) along with their (La)TeX source file(s).
 
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
+
 <span id="glossary"></span>
 
 ### Include your `.gls` or `.nls` if you use any glossary or nomenclature packages
 
 Similar to [index](#makeindex) files, we do not process `.glo` or `.nlo` into the resultant `.gls` or `.nls` files. You must provide these files if you have any special nomenclature in your document.
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="autoignore"></span>
 
@@ -159,6 +168,9 @@ If your submission includes any plain text files which should not be processed (
 This ensures that they will be ignored by the auto-postscript generator.
 
 **NOTE**: `pdflatex` users who submit using the above formatting recommendations will have any final hyperlinking removed due to a [known issue](http://mirrors.ctan.org/macros/latex/contrib/pdfpages/pdfpages.pdf#page=2) in the `pdfpages.sty` package. 
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="mistakes"></span>
 
