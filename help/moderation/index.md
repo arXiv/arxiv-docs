@@ -45,7 +45,7 @@ Please note that the arXiv moderation process is not a peer-review process. arXi
 
 arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
 
-Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content, papers that use highly dramatic and misrepresentative titles/abstracts/introductions, or papers in need of significant review and revision may be declined.
+Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../policies/code_of_conduct)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
 
 <span id="format"></span>
 #### Inappropriate format
