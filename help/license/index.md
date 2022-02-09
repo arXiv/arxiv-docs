@@ -86,4 +86,5 @@ If you have any additional questions about arXiv's copyright and licensing polic
 
 Reuse Requests
 --------------
-See our [help page](reuse) regarding reuse of images or full text from arXiv.
+See our [help page regarding reuse of images](reuse) or full text from arXiv.
+
