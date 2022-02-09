@@ -80,6 +80,7 @@ aside {
 
 ## Consortia
 >1. arXiv DH and HGF Consortium (Germany)
+>1. Canadian Research Knowledge Network (Canada)
 >1. Centre pour la Communication Scientifique Directe (France)
 >1. NII Japan Consortium (Japan)
 
@@ -109,6 +110,8 @@ aside {
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
 1. Los Alamos National Laboratory (USA)
 1. Max Planck Digital Library (Germany)
+1. McMaster University (Canada) _CRKN_
+1. Memorial University of Newfoundland (Canada) _CRKN_
 1. Michigan State University (USA) _BTAA_
 1. New York University (USA)
 1. Northwestern University (USA) _BTAA_
@@ -117,7 +120,9 @@ aside {
 1. Princeton University (USA)
 1. Purdue University (USA) _BTAA_
 1. Rutgers University (USA) _BTAA_
+1. Ryerson University (Canada) _CRKN_
 1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
+1. Simon Fraser University (Canada) _CRKN_
 1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stanford University, and SLAC (USA)
 1. Technische Universität München (Germany) _arXiv-DH and HGF_
@@ -138,18 +143,22 @@ aside {
 1. University of Maryland (USA) _BTAA_
 1. University of Michigan  (USA) _BTAA_
 1. University of Minnesota (USA) _BTAA_
+1. University of Ottawa (Canada) _CRKN_
 1. University of Pennsylvania (USA)
+1. University of Saskatchewan (Canada) _CRKN_
 1. University of Sydney (Australia)
 1. University of Tokyo  (Japan) _NII Japan Consortium_
 1. University of Toronto (Canada)
 1. University of Waterloo  (Canada)
 1. University of Wisconsin, Madison (USA) _BTAA_
 1. Yale University (USA)
+1. York University (Canada) _CRKN_
 
 ## Frequent Submitters
 1. Aalto University (Finland)
 1. Argonne National Lab (USA)
 1. Boston University (USA)
+1. Brock University (Canada) _CRKN_
 1. Brown University (USA)
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
@@ -169,7 +178,6 @@ aside {
 1. Kyushu University (Japan) _NII Japan Consortium_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
 1. McGill University (Canada)
-1. McMaster University (Canada)
 1. Monash University (Australia)
 1. Nagoya University  (Japan) _NII Japan Consortium_
 1. National Astronomical Observatory of Japan (Japan) _NII Japan Consortium_
@@ -178,7 +186,6 @@ aside {
 1. Perimeter Institute for Theoretical Physics (Canada)
 1. Queensland University of Technology (Australia)
 1. Rice University (USA)
-1. Simon Fraser University (Canada)
 1. Stony Brook University (USA)
 1. Syracuse University (USA)
 1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
@@ -186,6 +193,7 @@ aside {
 1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
 1. Tohoku University (Japan) _NII Japan Consortium_
 1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
+1. Trent University (Canada) _CRKN_
 1. Tufts University (USA)
 1. Universität Basel (Switzerland)
 1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
@@ -238,10 +246,12 @@ aside {
 1. Waseda University (Japan) _NII Japan Consortium_
 1. Weizmann Institute of Science (Israel)
 1. Western University (Canada)
+1. Wilfrid Laurier University (Canada) _CRKN_
 
 ## Regular Submitters & Community Contributors
 1. Ames Laboratory (USA)
 1. Boston College (USA)
+1. Cape Breton University (Canada) _CRKN_
 1. Central European University (Austria)
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
@@ -250,10 +260,12 @@ aside {
 1. Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 1. IST Austria (Austria)
 1. Lehigh University (USA)
+1. MacEwan University (Canada) _CRKN_
 1. Macquarie University (Australia)
 1. National Library of Sweden (Sweden)
 1. Niels Bohr Institute (Denmark)
 1. Nikhef (Netherlands)
+1. Nipissing University (Canada) _CRKN_
 1. Oregon State University (USA)
 1. Queens University (Canada)
 1. Raman Research Institute (India)
@@ -268,10 +280,12 @@ aside {
 1. University of California, Merced (USA) _CDL_
 1. University of California, San Francisco (USA) _CDL_
 1. University of Central Oklahoma (USA)
+1. University of the Fraser Valley (Canada) _CRKN_
 1. University of Georgia (USA)
 1. University of Nebraska (USA) _BTAA_
 1. University of New Hampshire (USA)
 1. University of North Texas (USA)
+1. University of Northern British Columbia (Canada) _CRKN_
 1. University of Wollongong (Australia)
 1. University of York (UK) _JISC_
 1. Victoria University of Wellington (New Zealand)
