@@ -27,7 +27,7 @@ In some cases, submitters have provided permission in advance by submitting thei
 <span id="what_license"></span>
 ## How can I determine what license the version was assigned?
 
-All arXiv abstract pages indicate a [license](/help/license) underneath the "Download:" options. 
+All arXiv abstract pages indicate an [assigned license](/help/license) underneath the "Download:" options. 
 
 The link may appear as just the text `(license)`, such as at [arXiv:2201.14176](https://arxiv.org/abs/2103.14176v2). Articles between 1991 and 2003 have an [assumed license](https://arxiv.org/licenses/assumed-1991-2003/license.html). These are functionally equivalent to the arXiv non-exclusive license.  
 
