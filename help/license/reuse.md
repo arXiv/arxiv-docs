@@ -41,7 +41,7 @@ If you are the copyright holder of the work, you do not need arXiv's permission 
 <span id="ir"></span>
 ## I want to include a paper of mine from arXiv in an institutional repository, do I need permission?
 
-You do not need arXiv's permission to deposit arXiv's version of *your* work into an institutional repository. For all other institutional repository cases, [see our help page on this topic](/help/ir). 
+You do not need arXiv's permission to deposit arXiv's version of *your* work into an institutional repository. For all other institutional repository cases, [see our help page on institutional repositories](/help/ir). 
 
 <span id="bulk_data"></span>
 ## Can I harvest the full text of works? 
