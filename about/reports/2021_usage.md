@@ -6,7 +6,7 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 
 [Total Submissions by Category (2009-2021)](submission_category_by_year)
 
-[Top Institutions with the Highest Total Submissions in 2021](2021_downloads_top_institutions)
+[Top Institutions with the Highest Total Submissions in 2021](2021_submissions_top_institutions)
 
 
 ## Submission Data for Members
