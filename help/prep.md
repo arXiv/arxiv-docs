@@ -88,7 +88,7 @@ Information Fields
 **Usage:**
 
 -   In order to automate indexing and searching, it is required that
-    authors to be listed in a canonical format. Names should be given in
+    authors to be listed in a standard format across arXiv. Names must be given in
     the order: Firstname Lastname or Firstname Middlename Lastname
     (where Lastname is your family name). Do not include honorifics, such as "Dr.", "Professor", etc. 
 -   Include the names of *all authors* instead of truncating the list
