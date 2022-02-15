@@ -1,6 +1,10 @@
 # arXiv Reports
 
 ## Annual Reports
+[2021 Annual Report](2021_arXiv_annual_report.pdf)
+
+[2021 arXiv in Numbers](/about/reports/2021_usage)
+
 [2020 Annual Report](2020_arXiv_annual_report.pdf)
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
