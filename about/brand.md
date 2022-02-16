@@ -5,7 +5,7 @@ arXiv is a place of connection, linking together people and ideas, and connectin
 
 We aim to cultivate an identity that reflects arXiv’s true nature as a professional, innovative tool created by and for researchers. arXiv’s brand guide and usage guidelines ensure that we express arXiv's identity with consistent quality and continuity across communication channels, and protect it from unauthorized usage that causes confusion among our community of users. Please consult the following documents for more information.
 
-* [arXiv Brand Guide](arXiv_Brand_Guide_2021.pdf)
+* [arXiv Brand Guide](arXiv_Brand_Guide.pdf)
 
 * [arXiv Brand Use Guidelines](brand_use)
 
