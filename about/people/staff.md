@@ -10,7 +10,6 @@
 - Martin Lessmeister, Head of Technology
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
-- Donna Rose, Administrative Assistant
 - Steinn Sigurdsson, Scientific Director
 - Helen Wang, Product Manager
 - Jake Weiskoff, Senior Content & User Support Specialist
