@@ -2,6 +2,7 @@
 
 - Amanda Bartley, arXiv Administrator
 - Shamsi Brinn, arXiv User Experience Specialist
+- Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Senior arXiv Developer
 - Jim Entwood, Head of Content
 - David Fielding, Senior arXiv Developer

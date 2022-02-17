@@ -22,6 +22,7 @@ For more information regarding the above policies, please see:
 -   [Submission Agreement](submission_agreement)
 -   [License](../license)
 -   [Moderation](../moderation)
+-   [Code of Conduct](code_of_conduct)
 -   [Overlap](../overlap)
 -   [Submitting an article](../submit)
 -   [Metadata](../prep)

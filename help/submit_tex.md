@@ -24,7 +24,7 @@ Your (La)TeX, AMS(La)TeX, or PDFLaTeX submission will be processed automatically
 
 This is a complex task, and the processing does not always lead to the desired or expected results. It is important for you, the author/submitter, to carefully check and verify the resulting PDF. You will be required to view the PDF during the submission process before you will be able to complete your submission.
 
-You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and custom macros ([see below](#wegotem)) packaged in a (possibly compressed) `.tar` or `.zip` file. AutoTeX will generally figure out how to properly process multi-part submissions, and you don't need to adhere to special packaging rules or naming conventions for your tex files. However, there are certain caveats. Naming your primary (or toplevel) file `ms.tex` will cause AutoTeX to always process that file first. Otherwise, tex files will be processed in _alphanumeric order._
+You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and custom macros ([see below](#wegotem)) packaged in a (possibly compressed) `.tar` or `.zip` file. AutoTeX will generally figure out how to properly process multi-part submissions, and you don't need to adhere to special packaging rules or naming conventions for your tex files. However, there are certain caveats. Naming your primary (or toplevel) file `ms.tex` will cause AutoTeX to process that file first in (La)TeX mode. Under PDFLaTeX modes, and in all other cases, the tex files will be processed in _alphanumeric order._
 
 That said, it is important that you do not include extraneous files (including unused figure files), leftover files, backup files, anything which does not belong to the paper you are submitting or is not needed for processing. Do not include journal templates, referee letters, or man pages. Tidy your submission before you pack it up.
 
@@ -106,7 +106,10 @@ Do not include extraneous font commands, spaces, tildes, braces or line-breaks w
 
 If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](/help/hypertex/bibstyles)).
 
-If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file.
+If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file. 
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="bibtex"></span>
 
@@ -118,6 +121,8 @@ The name of the `.bbl` file _must_ match the name of the main `.tex` file for th
 
 Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 <span id="makeindex"></span>
 
 ### Include `.ind` files if you use `makeindex`
@@ -126,11 +131,17 @@ We do not run `makeindex` in the auto-TeXing procedure. If you use it, include i
 
 It is difficult to automatically perform `makeindex` processing to the authors' expectations because of the multiple optional arguments and optional style selections. Therefore arXiv asks authors to provide their pre-processed `.ind` file(s) along with their (La)TeX source file(s).
 
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
+
 <span id="glossary"></span>
 
 ### Include your `.gls` or `.nls` if you use any glossary or nomenclature packages
 
 Similar to [index](#makeindex) files, we do not process `.glo` or `.nlo` into the resultant `.gls` or `.nls` files. You must provide these files if you have any special nomenclature in your document.
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="autoignore"></span>
 
@@ -146,7 +157,7 @@ TeX-based supplemental material should be included in the main document root dir
   ./supplement.bbl
 ```
 
-contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillary_files) directory, as these are not indexed for discovery and access. Note that adding a [`00README.XXX`](/help/00README#toplevel) with a `toplevelfile` directive will only effect the processing order and not the final assembly order of the pdf.
+contained within your .zip or .tar.gz file the final pdf would place the contents of your `ms.tex` file first. We recommend assembling your files in this manner rather than placing any compiled pdf into an [ancillary files](/help/ancillary_files) directory, as these are not indexed for discovery and access. Note that adding a [`00README.XXX`](/help/00README#toplevel) with a `toplevelfile` directive will only effect the processing order and not the final assembly order of the pdf. `pdflatex` users should also take care in naming conventions, as the final assembled pdf will always appear in alphanumeric order.
 
 We highly recommend that if you plan to include any non-TeX files with your source package that you include them as [ancillary files](/help/ancillary_files) inside their own `/anc` directory off your document's root directory. For additional information please see that [help page](/help/ancillary_files). For legacy reasons, we still support individual file inclusion, as follows.
 
@@ -157,6 +168,9 @@ If your submission includes any plain text files which should not be processed (
 This ensures that they will be ignored by the auto-postscript generator.
 
 **NOTE**: `pdflatex` users who submit using the above formatting recommendations will have any final hyperlinking removed due to a [known issue](http://mirrors.ctan.org/macros/latex/contrib/pdfpages/pdfpages.pdf#page=2) in the `pdfpages.sty` package. 
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv. 
+
 
 <span id="mistakes"></span>
 

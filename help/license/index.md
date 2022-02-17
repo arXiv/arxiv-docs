@@ -83,3 +83,8 @@ Users should [contact our User Support team](contact#contacting-arxiv) if they h
 If you have permission from a publisher to upload content to arXiv provided that you include a special copyright statement with the paper, place that statement on the first page of the text of the submission. Copyright notices should not be included in the separate [metadata](/help/prep#comments) and will be removed.
 
 If you have any additional questions about arXiv's copyright and licensing policies, please [contact our User Support team](contact#contacting-arxiv) directly.
+
+Reuse Requests
+--------------
+See our [help page regarding reuse of images](reuse) or full text from arXiv.
+
