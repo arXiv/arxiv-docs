@@ -14,6 +14,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
 
   - [Absolute filenames](#abs_filenames)
   - [Upper-case vs Lower-case filenames](#case_filenames)
+  - [Spaces and other inappropriate characters in filenames](#space_filesnames)
   - [Missing style/macro files](#missing_macro)
   - [Last minute untested changes](#untested)
   - [User intervention](#intervention)
@@ -92,6 +93,10 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     because filenames are case-sensitive on our system.
     
       
+  - <span id="space_filesnames"></span>**Spaces and other inappropriate characters in filenames**
+    Do not use spaces in filenames, in either your figure inclusion commands or directory names. Do not use common filesystem delimiters in file names (*i.e* `/`, `\`, `:`, etc.). Certain symbols such as the ampersand (`&`) can cause problems as well, and should be avoided. 
+
+    During file upload these examples will be programmatically converted to an underscore character (the `_` character). 
 
   - <span id="missing_macro"></span>**Missing style/macro files**  
     Some authors write their own style/macro files (or modify standard
