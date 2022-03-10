@@ -1,4 +1,4 @@
-#Our Philosophy
+#Our Brand Philosophy
 <style>
 blockquote {
   border-left:0;
