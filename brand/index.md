@@ -21,11 +21,13 @@ blockquote ul li {
   -webkit-box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
   -moz-box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
   box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
+  text-align: center;
 }
 blockquote ul li img {
-  height:40px;
+  height:80px;
   display:block;
   margin:1em auto 0 auto;
+  border:1px solid #cecece;
 }
 @media (min-width: 576px) {
   blockquote ul li {
@@ -45,13 +47,13 @@ Strengthening arXiv’s brand is one way we can protect an open pre-print cultur
 Researchers depend on arXiv. Many authors have their life’s work hosted on the platform. Our website is not just a tool, it’s personal. While we recognize the pressing need to modernize the arXiv website and brand, all changes will be done thoughtfully and with respect for our users. Consistently referencing our brand guidelines will help us achieve this balance.
 
 #Table of Contents
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Brand Pillars](brand-pillars)
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Logos](logos)
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[The arXiv Voice](voice)
+> - ![Illustration of a pillar](images/brand-icon-pillars.jpg){.mkd-img-60}[Brand Pillars](brand-pillars)
+> - ![arXiv Logo in blue](images/brand-icon-logos.jpg){.mkd-img-60}[Logos](logos)
+> - ![Illustration of chat bubbles](images/brand-icon-voice.jpg){.mkd-img-60}[The arXiv Voice](voice)
 > - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Tagline](tagline)
 > - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Imagery](images)
 > - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Fonts](fonts)
 > - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Colors](colors)
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Typographic treatments](typography)
+> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Typographic Treatments](typography)
 > - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Quotes](quotes)
-> - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Merchandise](swag)
+> - ![Cropped image of arXiv t-shirt](images/brand-icon-swag.jpg){.mkd-img-full}[Branded Swag](swag)
