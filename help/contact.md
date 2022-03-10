@@ -7,7 +7,7 @@ If you have questions about paper submission, accounts, and use of arXiv, please
 
 Contact our User Support team via the [arXiv user support portal](http://arxiv.org/support/general_help).
 
-Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. If you cannot access the portal you can also contact us by email at help@arxiv.org.
+Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. If you cannot access the portal you can also contact us by email at help@arxiv.org. If you do not get an automated email back that we have received your support request it is likely that your message was caught by our spam filter.
 
 To avoid a long delay in receiving a response:
 
