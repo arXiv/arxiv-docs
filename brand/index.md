@@ -46,6 +46,7 @@ Researchers depend on arXiv. Many authors have their life’s work hosted on the
 
 #Table of Contents
 > - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Brand Pillars](brand-pillars)
+> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Logos](logos)
 > - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[The arXiv Voice](voice)
 > - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Tagline](tagline)
 > - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Imagery](images)
