@@ -49,6 +49,11 @@ ADD ./deploy/labs /opt/arxiv/labs/
 COPY ./labs /opt/arxiv/labs/source/
 COPY ./.git /opt/arxiv/labs/source/.git/
 
+# Add the /brand site.
+ADD ./deploy/brand /opt/arxiv/brand/
+COPY ./brand /opt/arxiv/brand/source/
+COPY ./.git /opt/arxiv/brand/source/.git/
+
 # Add the uwsgi config, which mounts each of the sites above.
 COPY ./deploy/uwsgi.ini /opt/arxiv/uwsgi.ini
 
@@ -70,7 +75,10 @@ RUN ls -la /opt/arxiv/about/source && \
      --instance-path=/opt/arxiv/hypertex/instance && \
     pipenv run python -m arxiv.marxdown.build \
      --build-path=/opt/arxiv/labs/build \
-     --instance-path=/opt/arxiv/labs/instance
+     --instance-path=/opt/arxiv/labs/instance && \
+    pipenv run python -m arxiv.marxdown.build \
+     --build-path=/opt/arxiv/brand/build \
+     --instance-path=/opt/arxiv/brand/instance
 
 ENTRYPOINT ["pipenv", "run"]
 CMD ["uwsgi", "--ini", "/opt/arxiv/uwsgi.ini"]
