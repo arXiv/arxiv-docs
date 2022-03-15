@@ -12,7 +12,7 @@ blockquote ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 blockquote ul li {
   width: 100%;
@@ -31,12 +31,12 @@ blockquote ul li img {
 }
 @media (min-width: 576px) {
   blockquote ul li {
-    width: 48%;
+    width: 23%;
   }
 }
 @media (min-width: 986px) {
   blockquote ul li {
-    width: 23%;
+    width: 12%;
   }
 }
 </style>
@@ -47,13 +47,13 @@ Strengthening arXiv’s brand is one way we can protect an open pre-print cultur
 Researchers depend on arXiv. Many authors have their life’s work hosted on the platform. Our website is not just a tool, it’s personal. While we recognize the pressing need to modernize the arXiv website and brand, all changes will be done thoughtfully and with respect for our users. Consistently referencing our brand guidelines will help us achieve this balance.
 
 #Table of Contents
-> - ![Illustration of a pillar](images/brand-icon-pillars.jpg){.mkd-img-60}[Brand Pillars](brand-pillars)
+> - ![Illustration of a pillar](images/brand-icon-pillars.jpg){.mkd-img-full}[Brand Pillars](brand-pillars)
 > - ![arXiv Logo in blue](images/brand-icon-logos.jpg){.mkd-img-60}[Logos](logos)
 > - ![Illustration of chat bubbles](images/brand-icon-voice.jpg){.mkd-img-60}[The arXiv Voice](voice)
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Tagline](tagline)
-> - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Imagery](images)
-> - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Fonts](fonts)
-> - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Colors](colors)
-> - ![Alt tag here](../about/images/smileybones-labs-icon.png){.mkd-img-60}[Typographic Treatments](typography)
-> - ![Alt tag here](images/image_name.jpg){.mkd-img-full}[Quotes](quotes)
-> - ![Cropped image of arXiv t-shirt](images/brand-icon-swag.jpg){.mkd-img-full}[Branded Swag](swag)
+> - ![Type layered over a map](images/brand-icon-tagline.jpg){.mkd-img-60}[Tagline](tagline)
+> - ![Photo of an office building through glass](images/brand-icon-images.jpg){.mkd-img-full}[Imagery](images)
+> - ![Cropped words in various fonts](images/brand-icon-fonts.jpg){.mkd-img-full}[Fonts](fonts)
+> - ![Color blocks in blue, brown, and pink](images/brand-icon-colors.jpg){.mkd-img-full}[Colors](colors)
+> - ![cropped letterforms in blue and brown](images/brand-icon-typography.jpg){.mkd-img-60}[Typography](typography)
+> - ![Illustration of happy faces](images/brand-icon-quotes.jpg){.mkd-img-full}[Quotes](quotes)
+> - ![Cropped image of arXiv t-shirt](images/brand-icon-swag.jpg){.mkd-img-full}[Merchandise](swag)
