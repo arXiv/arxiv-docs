@@ -176,7 +176,7 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 ### Avoid mistakes in the text
 
-Common mistakes can be avoided by following some simple [guidelines](faq/mistakes). If your submission does not TeX properly, you will receive the log from our auto-TeXing script at the _Process_ step. The information contained in this complete log should be sufficient to identify the problem, so examine it carefully; check the end of the log for TeX errors.
+Common mistakes can be avoided by following some simple [guidelines](faq/mistakes). If your submission does not TeX properly, you will receive the log from our auto-TeXing script at the _Process_ step. The information contained in this complete log should be sufficient to identify the problem, so examine it carefully; check the end of the log for TeX errors. Be sure to [note any programmatically changed](faq/mistakes#space_filenames) filenames during file upload. 
 
 <span id="jhep3"></span>
 
