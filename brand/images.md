@@ -95,6 +95,7 @@ Illustrations are used to represent abstract concepts or stakeholder groups. The
 ![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad}
 ![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad}
 
+<div class="divider"></div>
 
 ##Portraits <a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
@@ -102,6 +103,7 @@ We also stylize staff and other stakeholder portraits with a color wash, and squ
 ![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
 ![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
 
+<div class="divider"></div>
 
 ##Additional photo resources
 Additional photographic image resources that are cleared for use on arXiv communication materials, both web and print, are listed here:
