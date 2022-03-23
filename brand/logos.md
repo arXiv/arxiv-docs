@@ -96,7 +96,7 @@ Single color versions can be used when a simpler, higher contrast version is nee
 ##Logomark
 arXiv's logomark is for use where space is at a premium and the full size logo cannot be used. These include mobile applications and when an icon is needed.
 
-The logomark is available in the same variations as the primary logo:
+The logomark is available in large and small models, and in the same color variations as the primary logo:
 
 ![arXiv logo in single color black](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}
 ![arXiv logo in single color black](images/brand-logomark-primary.jpg){.mkd-img-thumb}
