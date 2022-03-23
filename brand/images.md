@@ -39,11 +39,11 @@
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:2em;
+    margin-right:.5em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:2em;
+    margin-left:.5em;
   }
   .mkd-img-60 {
     width:60% !important;
@@ -52,27 +52,28 @@
   }
 }
 </style>
-arXiv's branding uses both photographic and illustrated imagery.
+arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.
 
 ##Photos
-Photographs are colorized in our brand colors of Warm Grey, Bright Blue, Dark Blue, and Salmon. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter. Visit the [![arXiv photo library](box-library-link)
+Photographs are an important part of the arXiv visual brand. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of arXiv users. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter.
 
-![photo example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
-
-![photo example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
-
-![photo example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
+We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, Dark Blue, and (as in the example below) Salmon.
+![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60}
 
 Photographs can be overlayed with a [highlighted type treatment](typography#highlighting), with the text offset from the photo edge.
-![example of highlighted text over an image](images/image_name.jpg){.mkd-img-full}
+![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60}
 
-<a href="box-photos" class="button-fancy">Photo Library <span> </span></a>
+<a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
+
+###Portraits
+We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples:
+![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
+![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
+
+<a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
 ##Illustrations
-Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished and instead emphasizes thrift. People are represented by stick figures, ala [xkcd](https://xkcd.com/), but without gender markers. Visit the [![arXiv illustration library](box-library-link)
+Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished and instead emphasizes thrift. People are represented by stick figures with no gender or other identifying features.
 
 ![illustration example](images/image_name.jpg){.mkd-img-left}
 ![another example](images/image_name.jpg){.mkd-img-left}
@@ -83,7 +84,8 @@ Illustrations are used to represent abstract concepts or stakeholder groups. The
 ![illustration example](images/image_name.jpg){.mkd-img-left}
 ![another example](images/image_name.jpg){.mkd-img-left}
 
-<a href="box-illustrations" class="button-fancy">Illustration Library <span> </span></a>
+<a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
+
 
 ##Additional photo resources
 Additional photographic image resources that are cleared for use on arXiv communication materials, both web and print, are listed here:
