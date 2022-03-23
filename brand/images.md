@@ -61,7 +61,7 @@
   }
   .mkd-img-quad {
     width:calc(25% - 1em);
-    margin:0 .5em 0 0;
+    margin:.5em;
     display:block;
     float:left;
   }
