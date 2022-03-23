@@ -90,7 +90,7 @@ The alternate salmon color can be used where Cornell Red is inappropriate, while
 Single color versions can be used when a simpler, higher contrast version is needed such as single color print applications:
 ![arXiv logo in single color black](images/brand-logo-black.jpg){.mkd-img-left}
 ![arXiv logo in single color red](images/brand-logo-red.jpg){.mkd-img-right}
-<div class="divider"></div
+<div class="divider"></div>
 
 ##Lockups and Extensions
 Lockups are used for internal arXiv projects with unique impact and a need for distinct branding, or for pre-approved partnership use.
@@ -102,7 +102,7 @@ Logo extensions can be created on a custom basis for distinct projects, like arX
 The primary lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown:
 ![arXiv Labs logo extension](images/brand-logo-labs.jpg){.mkd-img-left}
 ![arXiv Labs logo with grid](images/brand-logo-labs-spacing.jpg){.mkd-img-right}
-<div class="divider"></div
+<div class="divider"></div>
 
 ##Supergraphic
 arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and it's rebellious nature, with a modernized and high quality homage. For fun, here is a [brief history](https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon) of the original icon.
