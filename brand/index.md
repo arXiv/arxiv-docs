@@ -51,7 +51,7 @@ Researchers depend on arXiv. Many authors have their life’s work hosted on the
 > - ![arXiv Logo in blue](images/brand-icon-logos.jpg){.mkd-img-60}[Logos](logos)
 > - ![Illustration of chat bubbles](images/brand-icon-voice.jpg){.mkd-img-60}[The arXiv Voice](voice)
 > - ![Type layered over a map](images/brand-icon-tagline.jpg){.mkd-img-60}[Tagline](tagline)
-> - ![Photo of an office building through glass](images/brand-icon-images.jpg){.mkd-img-full}[Imagery](images)
+> - ![Photo of an office building through glass](images/brand-icon-images.jpg){.mkd-img-full}[Images](images)
 > - ![Cropped words in various fonts](images/brand-icon-fonts.jpg){.mkd-img-full}[Fonts](fonts)
 > - ![Color blocks in blue, brown, and pink](images/brand-icon-colors.jpg){.mkd-img-full}[Colors](colors)
 > - ![cropped letterforms in blue and brown](images/brand-icon-typography.jpg){.mkd-img-60}[Typography](typography)
