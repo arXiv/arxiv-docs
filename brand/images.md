@@ -2,6 +2,7 @@
 <style>
 .divider {
   clear:both;
+  height: 4em;
 }
 .mkd-img-border {
   margin:1em 0px;
@@ -67,8 +68,9 @@
   }
 }
 </style>
-arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.  
+arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All assets within arXiv image libraries have been vetted for use in arXiv materials only, other use is prohibited.
 
+<div class="divider"></div>
 
 ##Photos <a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
 
@@ -80,6 +82,7 @@ We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, D
 Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](tagline) page.
 ![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}  
 
+<div class="divider"></div>
 
 
 ##Illustrations <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
@@ -98,7 +101,7 @@ Illustrations are used to represent abstract concepts or stakeholder groups. The
 
 ##Portraits <a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
-We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples:
+We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples in Dark Blue and Warm Grey, respectively:
 ![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
 ![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
 
