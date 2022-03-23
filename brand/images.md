@@ -32,7 +32,7 @@
 }
 .mkd-img-quad {
   width:calc(50% - 1em);
-  margin:0 .5em 0 0;
+  margin:0 .25em;
   display:block;
   float:left;
 }
@@ -41,9 +41,7 @@
 }
 .mkd-img-icon {
   border-radius:25%;
-  width:150px;
-  float:left;
-  margin:0 .5em;
+  border:.25em solid #ededed;
 }
 @media (min-width: 576px) {
   .mkd-img-left {
@@ -54,6 +52,7 @@
   .mkd-img-right {
     width:calc(50% - 1.25em);
     margin-left:.5em;
+    margin-top: 1em;
   }
   .mkd-img-60 {
     width:60% !important;
@@ -83,14 +82,14 @@ Photographs can be overlayed with a type treatment as seen here. Learn more on o
 
 ##Illustrations <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
 
-Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished and instead emphasizes thrift. People are represented by stick figures with no gender or other identifying features.
+Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished. It emphasizes thrift and mission focus, with a touch of gentle humor. People are represented by stick figures with no gender or other identifying features. Our primary accent color for illustrations is Bright Blue.
 
-![illustration of stairs](images/brand-image-illustration-1.jpg){.mkd-img-quad}
-![illustration of a road leading to the horizon](images/brand-image-illustration-2.jpg){.mkd-img-quad}
-![illustration of a document](images/brand-image-illustration-3.jpg){.mkd-img-quad}
-![illustration of many hands reaching towards the center](images/brand-image-illustration-4.jpg){.mkd-img-quad}
-![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad}
-![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad}
+![illustration of stairs](images/brand-image-illustration-1.jpg){.mkd-img-quad .mkd-img-icon}
+![illustration of a road leading to the horizon](images/brand-image-illustration-2.jpg){.mkd-img-quad .mkd-img-icon}
+![illustration of a document](images/brand-image-illustration-3.jpg){.mkd-img-quad .mkd-img-icon}
+![illustration of many hands reaching towards the center](images/brand-image-illustration-4.jpg){.mkd-img-quad .mkd-img-icon}
+![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad .mkd-img-icon}
+![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad .mkd-img-icon}
 
 <div class="divider"></div>
 
