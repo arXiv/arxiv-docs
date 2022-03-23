@@ -1,5 +1,8 @@
 #Images
 <style>
+img {
+  margin: 1em 0;
+}
 .mkd-img-border {
   margin:1em 0px;
   padding:10px;
@@ -27,6 +30,12 @@
   margin:0 auto;
   display:block;
 }
+.mkd-img-quad {
+  width:calc(50% - 1em);
+  margin:0 .5em 0 0;
+  display:block;
+  float:left;
+}
 .mkd-img-thumb {
   max-width:150px !important;
 }
@@ -50,11 +59,17 @@
     margin:0 auto;
     display:block;
   }
+  .mkd-img-quad {
+    width:calc(25% - 1em);
+    margin:0 .5em 0 0;
+    display:block;
+    float:left;
+  }
 }
 </style>
 arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.
 
-##Photos
+##Photos <a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
 Photographs are an important part of the arXiv visual brand. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of arXiv users. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter.
 
 We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, Dark Blue, and (as in the example below) Salmon.
@@ -63,28 +78,26 @@ We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, D
 Photographs can be overlayed with a [highlighted type treatment](typography#highlighting), with the text offset from the photo edge.
 ![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60}
 
-<a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
-
-###Portraits
+##Portraits
+<a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples:
 ![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
 ![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
 
-<a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
 ##Illustrations
 Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished and instead emphasizes thrift. People are represented by stick figures with no gender or other identifying features.
-
-![illustration example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
-
-![illustration example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
-
-![illustration example](images/image_name.jpg){.mkd-img-left}
-![another example](images/image_name.jpg){.mkd-img-left}
-
 <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
+
+![illustration of stairs](images/brand-image-illustration-1.jpg){.mkd-img-quad}
+![illustration of a road leading to the horizon](images/brand-image-illustration-2.jpg){.mkd-img-quad}
+![illustration of a document](images/brand-image-illustration-3.jpg){.mkd-img-quad}
+![illustration of many hands reaching towards the center](images/brand-image-illustration-4.jpg){.mkd-img-quad}
+![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad}
+![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad}
+
+
+
 
 
 ##Additional photo resources
