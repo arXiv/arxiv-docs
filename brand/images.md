@@ -67,7 +67,8 @@
   }
 }
 </style>
-arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.
+arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.  
+
 
 ##Photos <a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
 
@@ -77,7 +78,8 @@ We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, D
 ![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60 .mkd-vert-spacing}
 
 Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](tagline) page.
-![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}
+![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}  
+
 
 
 ##Illustrations <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
@@ -91,7 +93,8 @@ Illustrations are used to represent abstract concepts or stakeholder groups. The
 ![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad .mkd-img-icon}
 ![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad .mkd-img-icon}
 
-<div class="divider"></div>
+<div class="divider"></div>  
+
 
 ##Portraits <a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
@@ -99,7 +102,8 @@ We also stylize staff and other stakeholder portraits with a color wash, and squ
 ![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
 ![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
 
-<div class="divider"></div>
+<div class="divider"></div>  
+
 
 ##Additional photo resources
 Additional photographic image resources that are cleared for use on arXiv communication materials, both web and print, are listed here:
