@@ -67,16 +67,21 @@ Are you a third party looking to use our logos in your product or materials?
 
 
 ##Primary Logo
+
 The primary arXiv logo is our default mark seen in most applications. It showcases two primary brand colors: Dark Grey and Cornell Red.
 
 ![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-left}
 
+
 ###Spacing
+
 A clear area around the logo prevents any nearby graphic elements from interfering with the name’s impact. This distance is the minimum amount of space that must surround the logo. Create the clear area in proportion to the type size. The “X” represents the height the “a” in arXiv.
 
 ![arXiv logo with correct spacing grid](images/brand-logo-primary-spacing.jpg){.mkd-img-left}
 
+
 ##Alternate Logos
+
 The arXiv logo is available in various alternate colors for special use cases.
 
 On a dark background, the dark mode version can be used for greater contrast:
@@ -90,16 +95,20 @@ Single color versions can be used when a simpler, higher contrast version is nee
 ![arXiv logo in single color red](images/brand-logo-red.jpg){.mkd-img-left}
 
 ##Lockups and Extensions
+
 Lockups are used for internal arXiv projects with unique impact and a need for distinct branding, or for pre-approved partnership use.
+
+Logo extensions can be created on a custom basis for distinct projects, like arXiv Check:
+![arXiv Check logo](images/brand-logo-check.jpg){.mkd-img-left}
+
+###Spacing
 
 The primary lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown:
 ![arXiv Labs logo extension](images/brand-logo-labs.jpg){.mkd-img-left}
 ![arXiv Labs logo with grid](images/brand-logo-labs-spacing.jpg){.mkd-img-left}
 
-Logo extensions can be created on a custom basis for distinct projects, like arXiv Check:
-![arXiv Check logo](images/brand-logo-check.jpg){.mkd-img-left}
-
 ##Supergraphic
+
 arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and it's rebellious nature, with a modernized and high quality homage. For fun, here is a [brief history](https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon) of the original icon.
 
 ![Smileybones supergraphic](images/brand-supergraphic.jpg){.mkd-img-left}
