@@ -31,7 +31,9 @@
   display:block;
 }
 .mkd-img-thumb {
-  max-width:150px !important;
+  max-width:100px !important;
+  float:left;
+  margin-right: .25em;
 }
 .mkd-img-icon {
   border-radius:25%;
@@ -42,11 +44,11 @@
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:2em;
+    margin-right:.5em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:2em;
+    margin-left:.5em;
   }
   .mkd-img-60 {
     width:60% !important;
@@ -74,8 +76,7 @@ The primary arXiv logo is our default mark seen in most applications. It showcas
 ![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-60}
 
 ###Spacing
-A clear area around the logo prevents any nearby graphic elements from interfering with the name’s impact. This distance is the minimum amount of space that must surround the logo. Create the clear area in proportion to the type size. The “X” represents the height the “a” in arXiv.
-
+A clear area around the logo prevents any nearby graphic elements from interfering with the name’s impact. The primary logo configuration should maintain spacing around the logo equal to the height of the ‘a’, as shown.
 ![arXiv logo with correct spacing grid](images/brand-logo-primary-spacing.jpg){.mkd-img-60}
 
 ##Alternate Logos
@@ -92,16 +93,27 @@ Single color versions can be used when a simpler, higher contrast version is nee
 ![arXiv logo in single color red](images/brand-logo-red.jpg){.mkd-img-right}
 <div class="divider"></div>
 
+##Logomark
+arXiv's logomark is for use where space is at a premium and the full size logo cannot be used. These include mobile applications and when an icon is needed.
+
+The logomark is available in the same variations as the primary logo:
+![arXiv logo in single color black](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}
+![arXiv logo in single color black](images/brand-logomark-primary.jpg){.mkd-img-thumb}
+![arXiv logo in single color black](images/brand-logomark-dark-mode.jpg){.mkd-img-thumb}
+![arXiv logo in single color black](images/brand-logomark-salmon.jpg){.mkd-img-thumb}
+![arXiv logo in single color black](images/brand-logomark-black.jpg){.mkd-img-thumb}
+![arXiv logo in single color black](images/brand-logomark-red.jpg){.mkd-img-thumb}
+
 ##Lockups and Extensions
 Lockups are used for internal arXiv projects with unique impact and a need for distinct branding, or for pre-approved partnership use.
+![arXiv Labs logo extension](images/brand-logo-labs.jpg){.mkd-img-60}
 
 Logo extensions can be created on a custom basis for distinct projects, like arXiv Check:
 ![arXiv Check logo](images/brand-logo-check.jpg){.mkd-img-60}
 
 ###Spacing
-The primary lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown:
-![arXiv Labs logo extension](images/brand-logo-labs.jpg){.mkd-img-left}
-![arXiv Labs logo with grid](images/brand-logo-labs-spacing.jpg){.mkd-img-right}
+The lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown:
+![arXiv Labs logo with grid](images/brand-logo-labs-spacing.jpg){.mkd-img-60}
 <div class="divider"></div>
 
 ##Supergraphic
