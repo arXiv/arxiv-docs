@@ -76,21 +76,21 @@ The font used is Freight Sans Pro (in Google applications, use Catamaran. When o
 In the example below, the tagline is layered over a large, colorized photo for impact. The black highlight allows the tagline to retain legibility over even very busy backgrounds.
 
 Note the correct line break after 'arXiv connects'
-![Tagline example over a large image](images/brand-tagline-3.jpg){.mkd-img-full}
+![Tagline example over a large image](images/brand-tagline-3.png){.mkd-img-full}
 
 ##Tagline Example 2
 
 In this second example, the tagline breaks the grid established by other text on the page.
-![Tagline example breaking the grid](images/brand-tagline-2.jpg){.mkd-img-full}
+![Tagline example breaking the grid](images/brand-tagline-2.png){.mkd-img-full}
 
 ##Tagline Example 3
 
 In the following page layout, the tagline follows the established grid, while the photo breaks the grid. The tagline is most often, though not exclusively, overlayed on top of a photographic image that bleeds of one or more edges. Photos can add further context, build a sense of place, and reinforce the tagline message.
-![Tagline example with photo breaking grid](images/brand-tagline-2.jpg){.mkd-img-full}
+![Tagline example with photo breaking grid](images/brand-tagline-2.png){.mkd-img-full}
 
 ##Tagline Example 4
 
 The tagline is used in our Membership Newsletter header. By changing the context of the second line arXiv can draw attention to the specific idea being conveyed, or celebrate a particular audience.
 
 The photo aligns with the grid, while the tagline breaks it to the left. Due to the limitations of email, the font in this case is Arial.
-![Tagline example from the member newsletter header](images/brand-tagline-header.jpg){.mkd-img-full}
+![Tagline example from the member newsletter header](images/brand-tagline-header.png){.mkd-img-full}
