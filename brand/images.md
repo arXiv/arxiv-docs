@@ -1,7 +1,7 @@
 #Images
 <style>
-img {
-  margin: 1em 0;
+.divider {
+  clear:both;
 }
 .mkd-img-border {
   margin:1em 0px;
@@ -11,6 +11,10 @@ img {
 .mkd-horz-spacing {
   margin-right:1em;
   margin-left:1em;
+}
+.mkd-vert-spacing {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .mkd-img-left {
   float:left;
@@ -70,24 +74,19 @@ img {
 arXiv's branding uses both photographic and illustrated imagery. We must have the legal right to use any photos and illustrations. All image libraries linked from this page have been vetted for use in arXiv materials only. All other use is prohibited.
 
 ##Photos <a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to Photo Library <span> </span></a>
-Photographs are an important part of the arXiv visual brand. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of arXiv users. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter.
+
+Photographs are an important part of the arXiv visual brand. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of people who rely on arXiv.
 
 We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, Dark Blue, and (as in the example below) Salmon.
-![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60}
+![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60 .mkd-vert-spacing}
 
-Photographs can be overlayed with a [highlighted type treatment](typography#highlighting), with the text offset from the photo edge.
-![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60}
-
-##Portraits
-<a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
-We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples:
-![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
-![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
+Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](tagline) page.
+![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}
 
 
-##Illustrations
+##Illustrations <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
+
 Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished and instead emphasizes thrift. People are represented by stick figures with no gender or other identifying features.
-<a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to Illustration Library <span> </span></a>
 
 ![illustration of stairs](images/brand-image-illustration-1.jpg){.mkd-img-quad}
 ![illustration of a road leading to the horizon](images/brand-image-illustration-2.jpg){.mkd-img-quad}
@@ -97,7 +96,11 @@ Illustrations are used to represent abstract concepts or stakeholder groups. The
 ![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad}
 
 
+##Portraits <a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to Portrait Library <span> </span></a>
 
+We also stylize staff and other stakeholder portraits with a color wash, and square crop. Here are two examples:
+![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
+![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
 
 
 ##Additional photo resources
