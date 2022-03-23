@@ -12,10 +12,6 @@
   margin-right:1em;
   margin-left:1em;
 }
-.mkd-vert-spacing {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
 .mkd-img-left {
   float:left;
   width:100%;
@@ -53,6 +49,7 @@
   .mkd-img-left {
     width:calc(50% - 1.25em);
     margin-right:.5em;
+    margin-top: 1em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
@@ -60,7 +57,7 @@
   }
   .mkd-img-60 {
     width:60% !important;
-    margin:0 auto;
+    margin:1em auto;
     display:block;
   }
   .mkd-img-quad {
