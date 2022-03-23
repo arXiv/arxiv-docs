@@ -15,7 +15,7 @@ blockquote {
 }
 .mkd-img-border {
   margin:1em 0px;
-  padding:10px;
+  padding:0;
   border:.25em solid #ededed;
 }
 .mkd-horz-spacing {
