@@ -86,7 +86,7 @@ In this second example, the tagline breaks the grid established by other text on
 ##Tagline Example 3
 
 In the following page layout, the tagline follows the established grid, while the photo breaks the grid. The tagline is most often, though not exclusively, overlayed on top of a photographic image that bleeds of one or more edges. Photos can add further context, build a sense of place, and reinforce the tagline message.
-![Tagline example with photo breaking grid](images/brand-tagline-2.jpg){.mkd-img-full .mkd-img-border}
+![Tagline example with photo breaking grid](images/brand-tagline-1.jpg){.mkd-img-full .mkd-img-border}
 
 ##Tagline Example 4
 
