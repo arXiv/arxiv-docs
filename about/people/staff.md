@@ -6,7 +6,7 @@
 - Brian Caruso, Interim Head of Technology
 - Jim Entwood, Head of Content
 - David Fielding, Senior arXiv Developer
-- Alison Fromme, Community Engagement and Membership Coordinator
+- Alison Fromme, Community Engagement Manager
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
