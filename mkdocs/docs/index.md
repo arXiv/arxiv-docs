@@ -15,6 +15,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 [new](new)
 
+[edit on github]({{ page.edit_url }})
+
 ## Help search
 {% if 'search' in config['plugins'] %}
 <h1 id="search">Search Results</h1>
