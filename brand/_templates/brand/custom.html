@@ -1,0 +1,56 @@
+{% extends '/base/base.html' %}
+
+{% block addl_head %}
+<style>
+  .something {
+    background:pink;
+    height:100px;
+    width:100%;
+    display:block;
+  }
+  blockquote {
+    border-left:0;
+    margin:0;
+    padding:0;
+  }
+  blockquote ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  blockquote ul li {
+    width: 100%;
+    padding:1em;
+    margin:1%;
+    -webkit-box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
+    box-shadow: 0 10px 25px -10px rgba(0,0,0,0.25);
+    text-align: center;
+  }
+  blockquote ul li img {
+    height:80px;
+    display:block;
+    margin:1em auto 0 auto;
+    border:1px solid #cecece;
+  }
+  @media (min-width: 576px) {
+    blockquote ul li {
+      width: 23%;
+    }
+  }
+  @media (min-width: 986px) {
+    blockquote ul li {
+      width: 12%;
+    }
+  }
+  </style>
+{% endblock addl_head %}
+
+{% block content %}
+{% raw %}{{ page.content }}{% endraw %}
+<div class="something">this is a template test.</div>
+{% endblock %}
