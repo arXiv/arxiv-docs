@@ -2,7 +2,6 @@ site_name: My Docs
 plugins:
   - search
   - macros
-  - git-show-history-log
   - redirects:
       redirect_maps:
         'hypertex/bugs.md': 'help/hypertex/bugs.md'
