@@ -57,3 +57,4 @@ Researchers depend on arXiv. Many authors have their life’s work hosted on the
 > - ![cropped letterforms in blue and brown](images/brand-icon-typography.jpg){.mkd-img-60}[Typography](typography)
 > - ![Illustration of happy faces](images/brand-icon-quotes.jpg){.mkd-img-full}[Quotes](quotes)
 > - ![Cropped image of arXiv t-shirt](images/brand-icon-swag.jpg){.mkd-img-full}[Merchandise](swag)
+> - ![image of a road](images/brand-icon-guidelines.jpg){.mkd-img-full}[Guidelines](brand-guidelines)
