@@ -3,6 +3,7 @@ title: arXiv API User's Manual
 ---
 <span style="float: right">![API logo](arXiv_api_xml.png)</span>
 
+
 arXiv API User's Manual
 =======================
 
@@ -10,44 +11,7 @@ Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
 API.
 
 ### Table of Contents
-
-[1. Preface](#_preface)  
-[2. API QuickStart](#Quickstart)  
-[3. Structure of the API](#Architecture)  
-  [3.1. Calling the API](#_calling_the_api)  
-    [3.1.1. Query Interface](#_query_interface)  
-      [3.1.1.1. search\_query and id\_list
-logic](#search_query_and_id_list)  
-      [3.1.1.2. start and max\_results paging](#paging)  
-      [3.1.1.3. sort order for return results](#sort)  
-  [3.2. The API Response](#api_response)  
-  [3.3. Outline of an Atom feed](#atom_feed_outline)  
-    [3.3.1. Feed Metadata](#_feed_metadata)  
-      [3.3.1.1. &lt;title&gt;, &lt;id&gt;, &lt;link&gt; and
-&lt;updated&gt;](#_lt_title_gt_lt_id_gt_lt_link_gt_and_lt_updated_gt)  
-      [3.3.1.2. OpenSearch Extension
-Elements](#_opensearch_extension_elements)  
-    [3.3.2. Entry Metadata](#_entry_metadata)  
-      [3.3.2.1. &lt;title&gt;, &lt;id&gt;, &lt;published&gt;, and
-&lt;updated&gt;](#title_id_published_updated)  
-      [3.3.2.1. &lt;summary&gt;, &lt;author&gt; and
-&lt;category&gt;](#_lt_summary_gt_lt_author_gt_and_lt_category_gt)  
-      [3.3.2.3. &lt;link&gt;'s](#entry_links)  
-      [3.3.2.4. &lt;arxiv&gt; extension elements](#extension_elements)  
-  [3.4. Errors](#errors)  
-[4. Examples](#Examples)  
-  [4.1. Simple Examples](#_simple_examples)  
-    [4.1.1. Perl](#perl_simple_example)  
-    [4.1.2. Python](#python_simple_example)  
-    [4.1.3. Ruby](#ruby_simple_example)  
-    [4.1.4. PHP](#php_simple_example)  
-  [4.2. Detailed Parsing Examples](#detailed_examples)  
-[5. Appendices](#Appendices)  
-  [5.1. Details of Query Construction](#query_details)  
-    [5.1.1. A Note on Article Versions](#_a_note_on_article_versions)  
-  [5.2. Details of Atom Results
-Returned](#_details_of_atom_results_returned)  
-  [5.3. Subject Classifications](#subject_classifications)  
+[TOC]
 
 <span id="_preface"></span>
 
@@ -132,7 +96,7 @@ with the section on [Structure of the API](#Architecture).
 
 <span id="Architecture"></span>
 
-## 3. Structure of the API {#Architecture}
+## 3. Structure of the API
 
 In this section, we'll go over some of the details of interacting with
 the API. A diagram of a typical API call is shown below:
@@ -161,7 +125,7 @@ the API. A diagram of a typical API call is shown below:
 
 <span id="_calling_the_api"></span>
 
-### 3.1. Calling the API {#_calling_the_api}
+### 3.1. Calling the API
 
 As mentioned above, the API can be called with an HTTP request of type
 GET or POST. For our purposes, the main difference is that the
@@ -176,7 +140,7 @@ method, the base url is
 
 <span id="_query_interface"></span>
 
-#### 3.1.1. Query Interface {#_query_interface}
+#### 3.1.1. Query Interface
 
 The API query interface has `method_name=query`. The table below
 outlines the parameters that can be passed to the query interface.
@@ -318,7 +282,7 @@ the examples section.
 
 <span id="_feed_metadata"></span>
 
-#### 3.3.1. Feed Metadata {#_feed_metadata}
+#### 3.3.1. Feed Metadata
 
 Every response will contain the line:
 
@@ -416,7 +380,7 @@ results](#paging). The other two elements `<opensearch:startIndex>`, and
 
 <span id="_entry_metadata"></span>
 
-#### 3.3.2. Entry Metadata {#_entry_metadata}
+#### 3.3.2. Entry Metadata
 
 If there are no errors, the `<feed>` element contains 0 or more child
 `<entry>` elements with each `<entry>` representing an article in the
@@ -919,7 +883,7 @@ grouping operators used in the API.
 
 <span id="_a_note_on_article_versions"></span>
 
-#### 5.1.1. A Note on Article Versions {#_a_note_on_article_versions}
+#### 5.1.1. A Note on Article Versions
 
 Each arXiv article has a version associated with it. The first time an
 article is posted, it is given a version number of 1. When subsequent
