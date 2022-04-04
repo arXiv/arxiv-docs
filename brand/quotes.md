@@ -1,4 +1,4 @@
-#Merchandise
+#Quotes
 <style>
 .mkd-img-border {
   margin:1em 0px;
@@ -56,8 +56,11 @@ Quotes from community members and stakeholders are a powerful way to strenghthen
 
 Quotes must have permission from the quotee to be cleared for use. We maintain a collection of cleared quotes in our [User Experience Hub](https://arxiv-org.atlassian.net/issues/?jql=project%20%3D%20%22AUXDH%22%20and%20%22UX%20Quote%5BCheckboxes%5D%22%20is%20NOT%20EMPTY%20ORDER%20BY%20created%20DESC)
 
-All arXiv staff should be proactive in listening for and getting permission to use great quotes. They greatly enrich presentations and communication materials, and strengthen our ties with a variety of communities as we echo the voices of their members.
+All arXiv staff should be proactive in listening for and getting permission to use great quotes. They greatly enrich presentations and communication materials, and strengthen our ties with a variety of communities as we echo the voices of their members. If you hear of a good quote let the Communications Director know so we can request permission and get it on record!
 
-##Display
-Quotes most often are displayed with a background highlight in Light Warm Grey, with darker Warm Grey type:
-![example header from newsletter](images/image_name.jpg){.mkd-img-full}
+##Examples
+Quotes are displayed with a background highlight in Light Warm Grey, with Dark Warm Grey type:
+![example quotation](images/brand-fonts-example-3.jpg){.mkd-img-60}
+
+Example of a layout using a quote overlayed over an image:
+![example quotation](images/brand-quotes-example-1.jpg){.mkd-img-full}

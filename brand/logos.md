@@ -112,12 +112,12 @@ arXiv's logomark is for use where space is at a premium and the full size logo c
 
 The logomark is available in large and small models, and in the same color variations as the primary logo:
 
-![arXiv logo in single color black](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}
-![arXiv logo in single color black](images/brand-logomark-primary.jpg){.mkd-img-thumb}
-![arXiv logo in single color black](images/brand-logomark-dark-mode.jpg){.mkd-img-thumb}
-![arXiv logo in single color black](images/brand-logomark-salmon.jpg){.mkd-img-thumb}
-![arXiv logo in single color black](images/brand-logomark-black.jpg){.mkd-img-thumb}
-![arXiv logo in single color black](images/brand-logomark-red.jpg){.mkd-img-thumb}
+![arXiv logomark with title](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}
+![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb}
+![arXiv logomark in dark mode](images/brand-logomark-dark-mode.jpg){.mkd-img-thumb}
+![arXiv logomark in salmon](images/brand-logomark-salmon.jpg){.mkd-img-thumb}
+![arXiv logomark in single color black](images/brand-logomark-black.jpg){.mkd-img-thumb}
+![arXiv logomark in single color red](images/brand-logomark-red.jpg){.mkd-img-thumb}
 <div class="divider"></div>
 
 ##Supergraphic

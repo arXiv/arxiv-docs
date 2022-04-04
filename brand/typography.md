@@ -1,5 +1,9 @@
 #Typography
 <style>
+.divider {
+  clear:both;
+  width:100%;
+}
 .mkd-img-border {
   margin:1em 0px;
   padding:10px;
@@ -39,15 +43,15 @@
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:2em;
+    margin-right:1em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:2em;
+    margin-left:1em;
   }
   .mkd-img-60 {
     width:60% !important;
-    margin:0 auto;
+    margin:0;
     display:block;
   }
 }
@@ -56,25 +60,32 @@ Typographic treatments are at the heart of arXiv's identity. Maintaining consist
 
 Base styles are built around the Freight font, both Text Pro and Sans Pro. The Freight family draw from Cornell University’s branding and connect us stylistically with our parent organization. From this baseline we have developed several treatments that range from elegant and sophisticated to edgy and bold.
 
-###Architectural
-This architectural treatments of the type allows for endless variations. The guiding principles are elegance, brevity, and high legibility. Contrasting font sizes and interesting interplay of letterforms provide visual interest without sacrificing the readibility of the text or the
-![serif type treatment](images/image_name.jpg){.mkd-img-60}
 
-###Intertwined Letterforms
+##Architectural
+This architectural treatments of the type allows for endless variations. The guiding principles are elegance, brevity, and high legibility. Contrasting font sizes and interesting interplay of letterforms provide visual interest without sacrificing legibility or elegance.
+<div class="divider"></div>
+![serif type treatment](images/brand-swag-mug-2.jpg){.mkd-img-left .mkd-img-border}
+![Ten Years of service design](images/brand-swag-shirt-4.jpg){.mkd-img-right .mkd-img-border}
+
+<div class="divider"></div>
+
+##Intertwined Letterforms
 We also use intertwined letterforms to echo the arms of the chi in our logo.
-![30th intertwined type treatment](images/image_name.jpg){.mkd-img-left}
-![Another example?](images/image_name.jpg){.mkd-img-left}
+<div class="divider"></div>
+![30th intertwined type treatment](images/brand-fonts-example-4.jpg){.mkd-img-left .mkd-img-border}
+![arXiv Check intertwined type treatment](images/brand-logo-check.jpg){.mkd-img-right .mkd-img-border}
+
+<div class="divider"></div>
 
 ##Highlighting
-We use text highlighting in two contexts:
-1. When displaying our [tagline](tagline), and
-2. For quotes and other critical highlights.
+We use text highlighting in two contexts, taglines and quotes.
 
-The highlight color for the tagline is always black with white type, as in this example:
-![example quote from annual report](images/image_name.jpg){.mkd-img-full}
+**Tagline:** The highlight color for the tagline is always black with Light Warm Grey type, as in this example:
+![example of arXiv's tagline over a background image](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-img-border}
 
-Quotes and other highlights use less contrast and a wider variety of colors. For callouts, we use Bright Blue with white type as shown here:
-![example callout in blue from newsletter](images/image_name.jpg){.mkd-img-full}
+**Quotes:** Quotes use a Dark Warm Grey type over a Light Warm Grey highlight color, as shows here:
+![a highlighted quotation](images/brand-fonts-example-3.jpg){.mkd-img-60 .mkd-img-border}
 
- For quotes, we use Light Warm Grey with Warm Grey type, as with this example:
-![example header from newsletter](images/image_name.jpg){.mkd-img-full}
+<div class="divider"></div>
+
+Learn more about [tagline formatting](tagline) and [using quotations](quotes).
