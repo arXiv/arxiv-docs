@@ -6,10 +6,10 @@ This directory contains a static site builder for arxiv-docs.
   google-chrome mkdocs/labs-site/index.html
 
 ## How to generate and preview
-  python3 -m venv /tmp/mkdocsvenv
-  source /tmp/mkdocsvenv/bin/activate
+  cd arxiv-docs
+  python3 -m venv ./env
+  source ./env/bin/activate
   ./prep_for_mkdocs.sh
-  cd mkdocs
   mkdocs serve
   # At this point the static sites are in mkdocs/docs
   google-chrome http://localhost:8000
