@@ -82,12 +82,14 @@ aside {
 >1. arXiv DH and HGF Consortium (Germany)
 >1. Canadian Research Knowledge Network (Canada)
 >1. Centre pour la Communication Scientifique Directe (France)
+>1. FinELib Consortium (Finland)
 >1. NII Japan Consortium (Japan)
 
 ## Champion Members
 >1. California Institute of Technology (USA)
 >1. CERN-European Organization for Nuclear Research (Switzerland)
 >1. Georgia Institute of Technology (USA)
+>1. Imperial College of Science, Technology, and Medicine (UK)
 >1. Massachusetts Institute of Technology (MIT) (USA)
 
 ## Top 100 Submitters
@@ -160,6 +162,7 @@ aside {
 1. Boston University (USA)
 1. Brock University (Canada) _CRKN_
 1. Brown University (USA)
+1. Commonwealth Scientific and Industrial Research Organisation (CSIRO) (Australia)
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
 1. Humboldt-Universität zu Berlin  (Germany) _arXiv-DH and HGF_
@@ -216,7 +219,9 @@ aside {
 1. University at Buffalo (USA)
 1. University of Adelaide (Australia)
 1. University of Alberta (Canada)
-1. University of Bern  (Switzerland)
+1. University of Arkansas (USA)
+1. University of Bern (Switzerland)
+1. University of Bristol (UK) 
 1. University of California, Davis (USA) _CDL_
 1. University of California, Irvine (USA) _CDL_
 1. University of California, Riverside  (USA) _CDL_
@@ -227,8 +232,8 @@ aside {
 1. University of Helsinki (Finland)
 1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
 1. University of Innsbruck (Austria)
-1. University of Arkansas (USA)
 1. University of Iowa (USA) _BTAA_
+1. University of Jyväskylä (Finland) _FinELib_
 1. University of Massachusetts (USA)
 1. University of Melbourne (Australia)
 1. University of North Carolina (USA)
@@ -238,6 +243,7 @@ aside {
 1. University of Rochester (USA)
 1. University of Technology Sydney (Australia)
 1. University of Tsukuba (Japan) _NII Japan Consortium_
+1. University of Turku (Finland) _FinELib_
 1. University of Vienna  (Austria)
 1. University of Virginia (USA)
 1. University of Western Australia (Australia)
@@ -249,12 +255,15 @@ aside {
 1. Wilfrid Laurier University (Canada) _CRKN_
 
 ## Regular Submitters & Community Contributors
+1. Abo Akademi University (Finland) _FinELib_
 1. Ames Laboratory (USA)
 1. Boston College (USA)
 1. Cape Breton University (Canada) _CRKN_
 1. Central European University (Austria)
+1. Chennai Mathematical Institute (India)
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
+1. Indian Institute of Technology - Dharwad (India)
 1. Institute for Advanced Study (USA)
 1. Institute of Math Sciences (India)
 1. Institute of Physics of the Czech Academy of Sciences (Czech Republic)
@@ -270,6 +279,8 @@ aside {
 1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
+1. Tampere University (Finland) _FinELib_
+1. Tampere University of Applied Sciences (Finland) _FinELib_
 1. Technion - Israel Institute of Technology (Israel)
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Graz (Austria)
@@ -280,6 +291,7 @@ aside {
 1. University of California, Merced (USA) _CDL_
 1. University of California, San Francisco (USA) _CDL_
 1. University of Central Oklahoma (USA)
+1. University of Eastern Finland (Finland) _FinELib_
 1. University of the Fraser Valley (Canada) _CRKN_
 1. University of Georgia (USA)
 1. University of Nebraska (USA) _BTAA_
