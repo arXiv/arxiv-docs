@@ -41,6 +41,8 @@ See the [mkdocs-macros docs](https://mkdocs-macros-plugin.readthedocs.io/en/late
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+[edit on github]({{ page.edit_url }})
+
 ## Help search
 {% if 'search' in config['plugins'] %}
 <h1 id="search">Search Results</h1>

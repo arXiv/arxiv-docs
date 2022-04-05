@@ -1,7 +1,13 @@
 # arXiv Help Documentation
 
-This project implements a markdown-driven static site for arXiv help
-documentation.
+Markdown-driven static sites for arXiv.
+
+## TODO Use a static site compiler
+Most of the sites need a uWSGI flask app to do the
+markdown. ``mklabs.sh`` demonstrates the labs pages statically build
+with the arxiv-base jinja templates. There are build and deploy
+scripts to server this as files from a bucket behind a load balancer
+in GCP. See ``deploy/README.md`` and ``spinupLabsInGcp.sh``
 
 ## Site structure
 
@@ -71,9 +77,6 @@ template: mysite/custom.html
 
 ### Building a local site with Docker
 
-You'll need [Docker](https://www.docker.com/products/docker-desktop) to do
-this.
-
 To build the arXiv docs site, run:
 
 ```bash
@@ -94,8 +97,7 @@ You can then run the site by doing:
 docker run -it -p 8000:8000 arxiv/docs:mytag
 ```
 
-In your browser, go to http://localhost:8000/about (or whatever
-page you want).
+In your browser, go to http://localhost:8000/about 
 
 ## Search
 
@@ -136,9 +138,10 @@ response:
 
 ## Deployment & configuration
 
-As of marXdown 0.2.1, multiple sites can be served in the same uWSGI process,
-and therefore in a single Docker container with a single entrypoint. This
-saves a lot of resources on overhead, especially for low-traffic sites.
+As of marXdown 0.2.1, multiple sites can be served in the same uWSGI
+process, and therefore in a single Docker container with a single
+entrypoint. This saves a lot of resources on overhead, especially for
+low-traffic sites.
 
 Since marXdown relies heavily on start-up configuration, however, the trade-off
 is that (a) we need to use configuration files to keep configs separate for
@@ -155,5 +158,3 @@ Places where relevant paths and parameters are defined:
   in the Docker image.
 - ``Dockerfile`` is where all of the above gets added to the Docker image, and
   the build script for each site/app is invoked.
-
-We use the ``arxiv/marxdown`` Helm chart to deploy to Kubernetes. See
