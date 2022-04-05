@@ -11,7 +11,7 @@ people:
   brian:
     name: Brian Caruso
     position: Interim Head of Technology
-    thumbnail: images/martin.jpg
+    thumbnail: images/brianc.jpg
     bio: |
       Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and
 maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
