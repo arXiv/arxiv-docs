@@ -7,6 +7,7 @@
 - Jim Entwood, Head of Content
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement Manager
+- Noga Ginzburg, Special Projects Lead
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
