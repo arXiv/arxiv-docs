@@ -37,16 +37,18 @@ at mkdocs eval time it will not be added to the HTML output.
 
 {# ========== addl_head ========== #}
 {% block addl_head %}
-{{ super() }}
+  {{ super() }}
 
-{% raw %}{# This is from theme_generator/generate_mkdocs_template.html
+  {# for mkdocs search #}  
+  {% raw %}<script>var base_url = '{{ base_url }}';</script>{% endraw %}
 
-It passes through the addl_head block from the arxiv-base templates
-and allows the same pattern to be used in the mkdocs markdown
-documents. #}{% endraw %}
+  {% raw %}{# This is from theme_generator/generate_mkdocs_template.html
 
-{% raw %}{% block addl_head %}{% endblock addl_head %}{% endraw %}
+    It passes through the addl_head block from the arxiv-base templates
+    and allows the same pattern to be used in the mkdocs markdown
+    documents. #}{% endraw %}
 
+    {% raw %}{% block addl_head %}{% endblock addl_head %}{% endraw %}
 {% endblock %}
 
 {# ========== content block for page.content ==========
