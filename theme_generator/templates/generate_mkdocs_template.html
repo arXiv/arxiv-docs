@@ -60,4 +60,15 @@ want the text {{ page.content }} in the main.html template at the
 content block. That is what is done below.
 
 #}
-{% block content %} {% raw %}{{ page.content }}{% endraw %}{% endblock %}
+{% block content %}
+{% raw %}
+{{ page.content }}
+{% if page and page.meta and page.meta.revision_date %}
+<aside class="has-text-centered" style="padding-top: 3rem;">
+  <p class="is-size-7">
+    Last modified <a href="{{ page.edit_url }}">{{ page.meta.revision_date }}</a>.
+  </p>
+</aside>
+{% endif %}
+{% endraw %}
+{% endblock %}
