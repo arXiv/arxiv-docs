@@ -7,20 +7,34 @@ on:
       - develop
 
 jobs:
-  deploy:
+  preview:
     runs-on: ubuntu-latest
+    
     env:
-      AWS_S3_BUCKET: ${{ secrets.STATIC_CDN_AWS_S3_BUCKET }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID_GITHUB_ACTION_CICD }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY_GITHUB_ACTION_CICD }}
-      DEST_DIR: ${{ github.ref }}
+      AWS_S3_BUCKET: ${{ 
+      DEST_DIR: ${{ 
     steps:
-    - name: checkout
-      uses: actions/checkout@v1
+    - uses: actions/checkout@v1
 
-    - name: prep build upload to S3
-      run: ./mkdocs/scripts/deploy_to_s3.sh
+    - name: Generate template
+      working-directory: ./mkdocs
+      run: ./scripts/deploy_to_s3.sh
 
+    - name: Build docs
+      working-directory: ./mkdocs      
+      run: mkdocs
+      args: build
+
+    - uses: shallwefootball/s3-upload-action@master
+      name: Upload S3
+      id: S3
+      with:
+          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID_GITHUB_ACTION_CICD }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_GITHUB_ACTION_CICD }}
+          aws_bucket: ${{ secrets.STATIC_CDN_AWS_S3_BUCKET }}
+          source_dir: 'mkdocs/site'
+          destination_dir: ${{ github.ref }}
+          
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
