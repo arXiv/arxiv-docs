@@ -35,4 +35,4 @@ jobs:
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_CI_CHANNEL }}
-        SLACK_MESSAGE: "Deployed ${{env.GITHUB_REF_NAME}} to https://${{secrets.STATIC_CDN_AWS_S3_BUCKET}}https://arxiv-static-test.s3.amazonaws.com/${{github.ref_name}}/index.html"
+        SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to https://${{secrets.STATIC_CDN_AWS_S3_BUCKET}}.amazonaws.com/${{github.ref_name}}/index.html"
