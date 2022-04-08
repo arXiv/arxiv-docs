@@ -20,8 +20,8 @@ Anyway, here is how the system on nqcd works. No portability issues had been con
     2.  it replaces itself (without changing pid's) with the program named by its second parameter and passes the rest of the arguments to it.
     3.  Note that it requires ANSI C, the header to define pid\_t, and the routines setpgid (I haven't checked to see if it exists in SYSV) and execvp.
 2.  The actual Mosaic is renamed Mosaic.binary
-3.  [Mosaic](Mosaic) is a script that calls the c-program (newpg) which starts the actual Mosaic. (It also provides default values to a few environment variables: only WWWBROWSER is relevant to this project). It should work on all unices unchanged provided $0 gets correctly translated, and the paths are corrected.
-4.  [callmosaic](callmosaic) takes two parameters and does the following:
+3.  [Mosaic](/help/hypertex/X//help/hypertex/X/Mosaic) is a script that calls the c-program (newpg) which starts the actual Mosaic. (It also provides default values to a few environment variables: only WWWBROWSER is relevant to this project). It should work on all unices unchanged provided $0 gets correctly translated, and the paths are corrected.
+4.  [callmosaic](/help/hypertex/X//help/hypertex/X/callmosaic) takes two parameters and does the following:
     1.  Ignores the second parameter. See later.
     2.  It clears the PATH environment variable, and changes the MOSAIC environment variable, if present, to `/usr/local/bin/Mosaic`. (As a result it uses absolute paths for all system programs, bringing in system dependencies). It redirects standard output to standard error. (should it?)
     3.  gets its own pgid. (call it x) Doing this from shell is extremely machine dependent. (depends on exact format of ps output! On some machines like IBM Risc stations, may be next to impossible). Should be done with a two line C program instead.

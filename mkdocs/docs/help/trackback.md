@@ -33,7 +33,7 @@ is capable of sending "pingbacks" automatically, which are not supported by arXi
     Bloggers will get best results if they link only to the official
     abstract page.
 -   Trackbacks recorded for an article may be seen from URIs of the form
-    <https://arxiv.org/tb/0704.0002> where [0704.0002](/abs/0704.0002) is
+    <https://arxiv.org/tb/0704.0002> where [0704.0002](https://arxiv.org/abs/0704.0002) is
     the article id.
 
 Trackback Data [data]
@@ -47,7 +47,7 @@ or trackbacks apply to, according to the URI pattern:
 
 `http://export.arxiv.org/data/trackbacks/trackback_paper_id.ttl`
 
-For example, for [0704.0002](/abs/0704.0002) the URI is:
+For example, for [0704.0002](https://arxiv.org/abs/0704.0002) the URI is:
 
 <http://export.arxiv.org/data/trackbacks/trackback_0704.0002.ttl>.
 

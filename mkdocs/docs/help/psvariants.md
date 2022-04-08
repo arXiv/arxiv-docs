@@ -40,7 +40,7 @@ fonts use an uppercase "CM". You can select which naming convention your
 installation uses.
 
 For more information on the different Type I fonts available, see our
-[discussion of Computer Modern Type I PostScript Fonts](pscm).
+[discussion of Computer Modern Type I PostScript Fonts](/help/pscm.md).
 
 DVI
 ---
@@ -57,4 +57,4 @@ PDF
 
 PDF (Portable Document Format) is an alternate format which produces
 larger files, but allows Hyperlinks, and can be printed without a
-postscript printer. See [the discussion of PDF](pdf) for details.
+postscript printer. See [the discussion of PDF](/help/pdf.md) for details.

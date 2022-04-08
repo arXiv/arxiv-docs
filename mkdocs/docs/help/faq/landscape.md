@@ -26,7 +26,7 @@ adjustments as necessary.
 
 Although most TeX documents at a particular site are designed to use the
 standard paper size (letter size in the United States, A4 in Europe),
-the [dvips program can be customized](dvips), either site-wide or for a
+the [dvips program can be customized](/help/faq/dvips.md), either site-wide or for a
 particular printer.
 
 Many documents are designed for other paper sizes. For instance, you may

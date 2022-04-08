@@ -13,7 +13,7 @@ values are described below:
 -   [on hold](#on_hold) - delayed pending administrator attention
 
 All submissions and updates associated with your arXiv user account are
-shown on the [user page](/user). Upon announcement articles will move
+shown on the [user page](https://arxiv.org/user). Upon announcement articles will move
 from the "Article Submissions" to the "Articles You Own" section.
 
 <span id="incomplete"></span>
@@ -48,10 +48,10 @@ Your new submission, replacement, cross list, journal reference, or withdrawal h
 
 **New submissions and replacements**: Once you have verified that your
 intended submission appears in the format you desire, and you have
-finalized all of the [metadata](/help/prep), this is the final status it
-will pass through before it is announced. On your [user page](/user).
+finalized all of the [metadata](/help/prep.md), this is the final status it
+will pass through before it is announced. On your [user page](https://arxiv.org/user).
 You may select the Unsubmit icon (![Unsubmit](https://arxiv.org/images/unsubmit.png)) to
-remove it from this status, and return it to [incomplete](submit_status#incomplete) status.
+remove it from this status, and return it to [incomplete](/help/submit_status.md#incomplete) status.
 
 <span id="on_hold"></span>
 
@@ -59,7 +59,7 @@ On Hold
 -------
 
 Your submission was identified by arXiv administrators or
-[moderators](/help/moderation) as needing further attention.
+[moderators](/help/moderation.md) as needing further attention.
 
 Submissions may be put on hold for a variety of reasons, ranging from
 questions about proper classification, pending moderator approval,
@@ -69,16 +69,16 @@ dealt with in due course. arXiv urges submitters to be patient. Due to
 the large volume of submissions, it may take several days before a
 resolution is reached.
 
-Note that [oversize](/help/sizes) submissions are automatically put on
+Note that [oversize](/help/sizes.md) submissions are automatically put on
 hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv administrators](/help/contact).
+follow up with [arXiv administrators](/help/contact.md).
 
 Submissions in this status will not expire. Authors *must not* create a
 new submission with the same content when a pending submission is on
 hold.
 
 Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting](/help/contact) arXiv administrators.
+*submit/NNNNNNN* when [contacting](/help/contact.md) arXiv administrators.
 
 <span id="expired"></span>
 

@@ -32,7 +32,7 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/x/Wz
 
 ## Moderation and User Support
 
-**Help and About Page Updates:** The [about](/about/) section of arXiv was started in fall 2019 and those pages will continue to be developed and organized. Technical help and policy pages will be updated on an ongoing basis and as components of arXiv Next Generation are rolled out.
+**Help and About Page Updates:** The [about](/about/reports/index.md) section of arXiv was started in fall 2019 and those pages will continue to be developed and organized. Technical help and policy pages will be updated on an ongoing basis and as components of arXiv Next Generation are rolled out.
 
 **Planning Improvements for NG:** There is ongoing work for additional updates to submission and moderation systems ahead of future NG software development in those areas. Some topics we are considering: support for various content types (proceedings, etc.), improved support for bulk and proxy submissions, explore alternatives for handling and displaying withdrawn submissions, improved workflows and communication for moderators, and update internal documentation on user account policies and identify ways to automate actions.
 

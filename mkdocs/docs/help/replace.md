@@ -3,13 +3,13 @@ To replace an article
 
 You can replace a publicly announced article by selecting the Replace
 (![replace icon](https://arxiv.org/images/replace.png)) icon for the article you want to
-replace on your [user page](/replace).
+replace on your [user page](/help/replace.md).
 
 Note that if your article or replacement has not yet been publicly
 announced you may select the Unsubmit (![unsubmit
 icon](https://arxiv.org/images/unsubmit.png)) icon next to the submission on your [user
 page](http://arxiv.org/user) to return it to the [incomplete
-status](submit_status#incomplete) allowing modification and later
+status](/help/submit_status.md#incomplete) allowing modification and later
 resubmission via the Update (![update icon](/images/update.png)) icon.
 
 <span id="consider"></span>
@@ -39,7 +39,7 @@ backdated to the time the last version was submitted. This is open to
 abuse and thus not allowed.
 
 The exceptions to this rule are the addition of [journal reference and
-DOI information](jref). The journal reference field may contain only
+DOI information](/help/jref.md). The journal reference field may contain only
 full publication information for the article; the DOI field may contain
 only a DOI.
 
@@ -97,7 +97,7 @@ Previous versions of your article will remain publicly available.
 
 arXiv provides public access to all previous versions of submitted
 articles. See the discussion on [availability of previous
-versions](versions).
+versions](/help/versions.md).
 
 <span id="announcements"></span>
 

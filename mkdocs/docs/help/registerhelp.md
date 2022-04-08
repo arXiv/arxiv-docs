@@ -1,7 +1,7 @@
 Directions for Author Registration
 ==================================
 
-To begin registration, visit the [registration form](/user/register).
+To begin registration, visit the [registration form](https://arxiv.org/user/register).
 First, we will ask for your e-mail and you will get to pick a user name
 and password. Your user name must be unique and cannot be changed. Your
 password must be at least 8 characters long and contain one character
@@ -22,19 +22,19 @@ likely to submit to. We will then verify the email for your account.
     attempting to register a new account and are unsure if you already
     have an account please [email us for
     assistance](mailto:help@arxiv.org).
--   Users must comply with arXiv's [Code of conduct](/help/policies/code_of_conduct).
+-   Users must comply with arXiv's [Code of conduct](/help/policies/code_of_conduct.md).
 
 #### Password
 
 As with all passwords, we recommend that you keep yours safe. The
-password can be changed from your [personal information page](/user/).
+password can be changed from your [personal information page](https://arxiv.org/user/).
 If you forget your password, you can [recover your
-password](/user/lost_password) using your registered e-mail address.
+password](https://arxiv.org/user/lost_password) using your registered e-mail address.
 
 #### <span id="emailchange"></span>Email
 
 If you need to change your preferred e-mail address, for example because
 you have changed institutions, then you should visit the [e-mail change
-form](/auth/email-change-form). This will ask for your new e-mail
+form](https://arxiv.org/auth/email-change-form). This will ask for your new e-mail
 address and will send an e-mail with a verification code to your new
 address to make sure that your new address is correct.

@@ -21,11 +21,11 @@ For the new style arXiv identifiers (April 2007 and onwards) we recommend these 
      **eprint        = "0707.3168"**,
      **primaryClass  = "hep-th"**,
 
-With one of the enhanced styles below, the eprint identifier would automatically appear in your references in our recommended standard form (see the [references section of the submit help](/help/submit_tex#refs) for details), e.g,
+With one of the enhanced styles below, the eprint identifier would automatically appear in your references in our recommended standard form (see the [references section of the submit help](/help/submit_tex.md#refs) for details), e.g,
 
 > \[1\] M. Beneke and G. Buchalla and I. Dunietz, _Mixing induced CP asymmetries in inclusive B decays_, Phys. Lett. B393, 132-142, 1997, hep-ph/9609357.
 
-Papers downloaded from the archive are produced with [HyperTeX](/help/hypertex). With HyperTeX the string **hep-ph/9609357** becomes a clickable hyperlink to the on-line abstract of that paper at [arXiv:hep-ph/9609357](/abs/hep-ph/9609357) when viewed with a suitable program. Such programs include PDF viewers e.g. Acroread or OmniPDF, or a modified versions of ghostview.
+Papers downloaded from the archive are produced with [HyperTeX](/help/hypertex/bibstyles/index.md). With HyperTeX the string **hep-ph/9609357** becomes a clickable hyperlink to the on-line abstract of that paper at [arXiv:hep-ph/9609357](https://arxiv.org/abs/hep-ph/9609357) when viewed with a suitable program. Such programs include PDF viewers e.g. Acroread or OmniPDF, or a modified versions of ghostview.
 
 Note that the eprint field is automatically included in the bibtex output of the [SLAC SPIRES](http://www.slac.stanford.edu/spires/hep) database listings (Select Output Format: BIBTEX). Using SPIRES is an easy way to collect bibtex references without having to type them by hand (and the concomitant possibility of error).
 
@@ -60,4 +60,4 @@ Kasper Peeters' style also supports both old and new arXiv identifiers
 
 These two styles will use hypertex's \\href command if available.
 
-If you find bugs in the bibtex styles or have any other e-print bibstyles to add to this list please [contact arXiv administrators](/help/contact).
+If you find bugs in the bibtex styles or have any other e-print bibstyles to add to this list please [contact arXiv administrators](/help/contact.md).

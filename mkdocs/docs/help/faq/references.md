@@ -75,7 +75,7 @@ information, but ensures that the references in your article can be
 extracted cleanly by INSPIRE. For an explicit listing of the fields 
 covered by INSPIRE, please see [their info page](http://inspirehep.net/info/hep/collection-policy) on this topic. 
 
-See also the notes in our [TeX submission help](/help/submit_tex#refs).
+See also the notes in our [TeX submission help](/help/submit_tex.md#refs).
 
 ## Supplying a Publication Reference for an arXiv Document
 
@@ -86,4 +86,4 @@ information, including page number, without any additional comments. A
 `DOI` will have the form `10.NNNN/some-string` and will be hyperlinked
 when presented on arXiv pages. These fields may be added to an arXiv
 document at any time after initial acceptance, see [To add a journal
-reference, DOI or report number to an article](/help/jref).
+reference, DOI or report number to an article](/help/jref.md).

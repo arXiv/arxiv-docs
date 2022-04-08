@@ -10,5 +10,5 @@
     
   - ## Do you plan to use download statistics in any way?
 
-    Yes, we track and report the number of [downloads from arXiv](/help/stats) and for our [institutional membership](/about/membership), but we do not track by individual papers.
+    Yes, we track and report the number of [downloads from arXiv](/help/faq/index.md) and for our [institutional membership](/about/membership.md), but we do not track by individual papers.
 

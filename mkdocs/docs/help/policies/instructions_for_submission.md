@@ -19,13 +19,13 @@ If you have any additional questions about arXiv’s copyright and licensing pol
 
 For more information regarding the above policies, please see:
 
--   [Submission Agreement](submission_agreement)
--   [License](../license)
--   [Moderation](../moderation)
--   [Overlap](../overlap)
--   [Submitting an article](../submit)
--   [Metadata](../prep)
--   [Third party submission](../third_party_submission)
+-   [Submission Agreement](/help/policies/submission_agreement.md)
+-   [License](/help/license.md)
+-   [Moderation](/help/moderation.md)
+-   [Overlap](/help/overlap.md)
+-   [Submitting an article](None)
+-   [Metadata](/help/prep.md)
+-   [Third party submission](/help/third_party_submission.md)
 
 ### Revision history
 

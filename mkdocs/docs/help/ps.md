@@ -12,11 +12,11 @@ available through the **other** link.
 
 To make efficient use of disk space and network bandwidth, our
 PostScript is stored and transmitted in compressed form. We use GNU's
-[gzip](gzip) compression.
+[gzip](/help/gzip.md) compression.
 
 You will need to set up your computer to uncompress the postscript
 files. Well-behaved browsers uncompress files automatically, and can be
 configured to call a PostScript viewer, such as Ghostview.
 
-See [configuring your browser](config_browser) for help on viewing
+See [configuring your browser](/help/config_browser.md) for help on viewing
 postscript.

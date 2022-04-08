@@ -3,15 +3,15 @@ Submission Guidelines
 
 <span id="guidelines"></span> Submissions to arXiv should be topical and refereeable scientific contributions that follow accepted standards of scholarly communication.
 
--   We only accept submissions from [registered authors](registerhelp). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement).
--   All submissions are subject to a [moderation process](/help/moderation) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
+-   We only accept submissions from [registered authors](/help/registerhelp.md). If you are a new user or are submitting to a new category, you may be required to find [endorsements](/help/endorsement.md).
+-   All submissions are subject to a [moderation process](/help/moderation.md) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
 -   Authors must grant arXiv.org a [non-exclusive and irrevocable
-    license to distribute](license) or certify that the work is
+    license to distribute](/help/license.md) or certify that the work is
     available under another license that conveys these rights.
--   Authors must agree to the [submission terms and agreement](policies/submission_agreement) and [Instructions for submission](policies/instructions_for_submission).
+-   Authors must agree to the [submission terms and agreement](/help/policies/submission_agreement.md) and [Instructions for submission](/help/policies/instructions_for_submission.md).
 
--   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](third_party_submission) and [index submissions](submit_index) for conference proceedings.
--   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions) at 20:00 (Eastern) but are subject to delays in the moderation process (see the [schedule for details](#availability).) 
+-   Authors are expected to self-submit. Submissions by a third party are accepted under limited conditions. See instructions for [third-party submissions](/help/third_party_submission.md) and [index submissions](/help/submit_index.md) for conference proceedings.
+-   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made [available](/help/versions.md) at 20:00 (Eastern) but are subject to delays in the moderation process (see the [schedule for details](#availability).) 
 
 Submission Preparation
 ====================
@@ -37,15 +37,15 @@ Formats for text of submission
 Accepted submission formats
 (in order of preference):
 
--   [(La)TeX, AMS(La)TeX, PDFLaTeX](submit_tex)
--   [PDF](submit_pdf)
--   [HTML with JPEG/PNG/GIF images](submit_html)
+-   [(La)TeX, AMS(La)TeX, PDFLaTeX](/help/submit_tex.md)
+-   [PDF](/help/submit_pdf.md)
+-   [HTML with JPEG/PNG/GIF images](/help/submit_html.md)
 
 Our goal is to store articles in formats that are highly portable and
 stable over time. Currently, the best choice is TeX/LaTeX. 
 
 We do not accept [dvi, PS, or PDF created
-from TeX/LaTeX source](/help/faq/whytex), and we
+from TeX/LaTeX source](/help/whytex.md), and we
 do not accept scanned documents, regardless of format.
 
 <span id="figures"></span>
@@ -55,8 +55,8 @@ Formats for figures
 
 Accepted figure formats:
 
--   PostScript (PS, EPS) &mdash; requires [LaTeX processing](submit_tex#latex)
--   JPEG, GIF, PNG or PDF figures &mdash; requires [PDFLaTeX processing](submit_tex#pdflatex) 
+-   PostScript (PS, EPS) &mdash; requires [LaTeX processing](/help/submit_tex.md#latex)
+-   JPEG, GIF, PNG or PDF figures &mdash; requires [PDFLaTeX processing](/help/submit_tex.md#pdflatex) 
 
 We do not accept submissions with omitted figures, even if you provide links to view figures externally. 
 
@@ -91,7 +91,7 @@ Inclusion of ancillary files
 
 There are limited facilities for including data sets and ancillary files
 (data, programs, etc.) that are associated with articles submitted to
-arXiv. See [separate instructions](ancillary_files) about including data sets
+arXiv. See [separate instructions](/help/ancillary_files.md) about including data sets
 and ancillary files.
 
 <span id="prep"></span>
@@ -99,7 +99,7 @@ and ancillary files.
 Title and abstract preparation
 --------------------------
 
-See [separate instructions for preparing the title and abstract](prep) for inclusion in metadata. This information is used on the
+See [separate instructions for preparing the title and abstract](/help/prep.md) for inclusion in metadata. This information is used on the
 abstract pages, in announcements, in RSS feeds, and to support
 searching.
 
@@ -111,12 +111,12 @@ Verify and correct your submission
 Before you make the final "Submit Article" step in the submission
 process, be sure to carefully check the title and abstract (metadata)
 and the processed files, and correct any errors. [Contact arXiv
-administrators](/help/contact) for help.
+administrators](/help/contact.md) for help.
 
 If you discover an error after submission but before public announcement,
 select the "Unsubmit" (![unsubmit icon](/images/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user). This will
-return it to [incomplete status](submit_status#incomplete) and allow you to 
+return it to [incomplete status](/help/submit_status.md#incomplete) and allow you to 
 modify your files and resubmit.
 
 Unsubmitting an article takes the article out of the processing queue, and announcement will be scheduled based on the later resubmission time. See the schedule of [availability](#availability).
@@ -135,7 +135,7 @@ time](http://arXiv.org/localtime).
 
 We encourage authors to update and to make corrections to their
 articles. **DO NOT** make a new submission for a corrected article or
-for an erratum. Instead, [replace](replace) the original submission.
+for an erratum. Instead, [replace](/help/replace.md) the original submission.
 
 <span id="availability"></span>
 
@@ -145,9 +145,9 @@ Availability of submissions and announcement order
 Submissions to arXiv are typically made public Sunday through
 Thursday, with no announcements Friday or Saturday. Check the [current
 time](https://arxiv.org/localtime) at the arXiv main site, with the
-amount of time remaining before the deadline. Submissions are made public as part of the scheduled announcement process. This includes new submissions as well as [replacements](/help/replace), [withdrawal notices](/help/withdraw), [cross listings](/help/cross) and [journal reference](/help/jref). Journal reference submissions do not appear in the mailings, but are still processed at that time. 
+amount of time remaining before the deadline. Submissions are made public as part of the scheduled announcement process. This includes new submissions as well as [replacements](/help/replace.md), [withdrawal notices](/help/withdraw.md), [cross listings](/help/cross.md) and [journal reference](/help/jref.md). Journal reference submissions do not appear in the mailings, but are still processed at that time. 
 
-The final [arXiv identifier](arxiv_identifier) cannot be assigned until the paper is announced, so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
+The final [arXiv identifier](None) cannot be assigned until the paper is announced, so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
 
 It may be the case that a submission appears in a different identifier month due to various factors. **Note:** The arXiv identifier cannot be back-dated, and identifiers are ordered based on the final timestamp of submitter action (i.e. when "submit" is clicked). 
 

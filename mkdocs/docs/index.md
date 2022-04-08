@@ -2,7 +2,7 @@
 
 ## arXiv pages
 
-[brand](brand) [help](help) [about](about) [corr](corr) [hypertex](hypertex) [labs](labs) [new](new)
+[brand](None) [help](None) [about](None) [corr](None) [hypertex](None) [labs](None) [new](None)
 
 ## CSS for a page
 To add a css file to a specfic page use the following example:

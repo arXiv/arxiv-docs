@@ -6,8 +6,8 @@ your articles on your website, using the magic of JSON and Atom. To the
 right of this paragraph you should see an example of what this provides
 for arXiv user [Simeon Warner](https://arxiv.org/a/0000-0002-7970-7855).
 If you would like to use this functionality, you will need to [link an
-ORCID identifier](/user/confirm_orcid_id) to your arXiv user account
-**or** create an arXiv public [author identifier](author_identifiers)
+ORCID identifier](https://arxiv.org/user/confirm_orcid_id) to your arXiv user account
+**or** create an arXiv public [author identifier](/help/author_identifiers.md)
 The quickstart section below will get you up and running rapidly;
 complete details follow the quickstart.
 
@@ -110,12 +110,12 @@ the summaries displayed because otherwise the entries become very high
 
 The `arxiv` setting produces a display that looks similar to new
 listings displayed on arXiv.org, for instance, the list of [new articles
-in Quantitative Biology](/list/q-bio/new). In this format, display of
+in Quantitative Biology](https://arxiv.org/list/q-bio/new). In this format, display of
 several fields may be turned on and off using the `includeTitle`,
 `includeSummary`, `includeJournalRef` and `includeDOI` variables. This
 display will fill the provided space. If you want to limit the width of
 the display, apply a `width` style to the `div.arxivfeed` element in
-your HTML page. A second [`myarticles` example page](myarticles_ex2)
+your HTML page. A second [`myarticles` example page](/help/myarticles_ex2.md)
 shows the use of this format.
 
 How does the widget get the data?

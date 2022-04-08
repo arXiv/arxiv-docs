@@ -6,7 +6,7 @@ in HTML+JPEG/PNG/GIF format; in this format the equations are included
 as small PNG or GIF images and photographic images would be provided in
 JPEG format. This format is not a good option for papers which have many
 equations. For all but the simplest documents you are likely to get
-better results by [exporting PDF](submit_pdf) from your word processor
+better results by [exporting PDF](/help/submit_pdf.md) from your word processor
 (e.g. MS Word) and submitting that instead.
 
 If you do choose to submit HTML, please check the following:

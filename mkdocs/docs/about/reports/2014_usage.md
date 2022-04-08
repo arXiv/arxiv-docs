@@ -3,7 +3,7 @@
 
 The following table is a compilation of arXiv downloads for calendar
 year 2014 for the 200 heaviest user institutions. See also [arXiv
-Support](../support).
+Support](None).
 
 **Caveats:** While we have taken considerable effort to extract reliable
 download data representing unique full-text downloads by real users,

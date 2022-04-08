@@ -28,6 +28,6 @@ export XDVIFONTS=/some/font/directory
 ```
 (The environment variables corresponding to the other two above precompiled options are `TEXFONTS\_SUBDIR` and `XDVIVFS` )
 
-If all else fails, return to the [xhdvi source](../#xhdvisource)
+If all else fails, return to the [xhdvi source](/help/hypertex/binaries/index.md#xhdvisource)
 
-### Return to [HyperTeX](../)
+### Return to [HyperTeX](/help/hypertex/binaries/index.md)

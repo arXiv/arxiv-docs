@@ -26,19 +26,19 @@ Obtaining permission from the article authors may not be necessary if:
     authorize reposting in another repository. Licenses such as the
     Creative Commons Attribution license (CC BY) or the Public Domain
     Dedication do permit such reposting (see [arXiv License
-    Information](license) for information about licenses
+    Information](/help/license.md) for information about licenses
     supported).
 2.  there is some local rule or law that permits copying local
     researchers' articles into an institutional repository.
 
 ### Procedure
 
-We will consider the article [arXiv:1410.6579](/abs/1410.6579) as an
+We will consider the article [arXiv:1410.6579](https://arxiv.org/abs/1410.6579) as an
 example.
 
 #### Step 1 - Get metadata
 
-Metadata from arXiv is available via our [OAI-PMH interface](/help/oa),
+Metadata from arXiv is available via our [OAI-PMH interface](/help/index.md),
 the URI for different metadata formats is constructed based on the
 article identifier. For example, to get `oai_dc` metadata the request
 is:
@@ -82,15 +82,15 @@ URI to download it is:
 
 In all cases links to the processed and the source files (where the
 submission is in TeX format) are provided on the normal abstract page
-(e.g. [arXiv:1306.1073](/abs/1306.1073)), they may also be constructed
+(e.g. [arXiv:1306.1073](https://arxiv.org/abs/1306.1073)), they may also be constructed
 from the article identifier.
 
 -   PDF: <http://arxiv.org/pdf/1306.1073>
 -   Source: <http://arxiv.org/src/1306.1073>
 
 See [arXiv identifier scheme - information for interacting
-services](arxiv_identifier_for_services) and [Media types
-delivered by arXiv](mimetypes) for further technical details.
+services](/help/arxiv_identifier_for_services.md) and [Media types
+delivered by arXiv](/help/mimetypes.md) for further technical details.
 
 If you want to download just a few articles then there should be no
 problem provided a useful [User-Agent
@@ -99,7 +99,7 @@ the HTTP requests, or if requests are made manually through a normal web
 browser. If you would like to download a significant number of articles
 then accesses should be spaced by at least 3 seconds to avoid our
 denial-of-service attack detector cutting off access, please contact
-[arXiv support](support) if you intend to download more than a
+[arXiv support](/help/support.md) if you intend to download more than a
 thousand articles.
 
 Identifying articles by your institution's researchers
@@ -109,23 +109,23 @@ Unfortunately, most arXiv articles do not have any affiliation
 information included by submitters, and when it is present there is wide
 variation in the writing of institution names which makes matching
 difficult. However, arXiv does maintain [authority
-records](authority) linking articles to author accounts. This
+records](/help/authority.md) linking articles to author accounts. This
 linkage is automatic for the submitting author but co-authors must
 claim-ownership after announcement in order to be linked. Additionally,
-user accounts may be linked with [ORCID iDs](orcid) and then a
+user accounts may be linked with [ORCID iDs](/help/orcid.md) and then a
 public display of all arXiv articles linked to that ORCID iD is
 available on arXiv in both human an machine-readable forms. With these
 linkages in place, if you know the ORCID iDs of your institutions'
 researchers it is then possible to find all their articles on arXiv.
 
-The ability to link arXiv accounts with [ORCID iDs](orcid) was
+The ability to link arXiv accounts with [ORCID iDs](/help/orcid.md) was
 introduced in early 2015 and we suggest that institutions interested in
 identifying articles by their researchers encourage both claiming
 article ownership and ORCID iD linkage.
 
 ### Example
 
-Consider the article [arXiv:1505.00009](/abs/1505.00009) which was
+Consider the article [arXiv:1505.00009](https://arxiv.org/abs/1505.00009) which was
 submitted by first author Jonathan Heckman. Ownership was later claimed
 by co-author David R. Morrison who has also associated his ORCID iD with
 his arXiv account. If staff at UC Santa Barbara (UCSB), where David R.
@@ -144,7 +144,7 @@ or
 If accessed in a web browser these URIs return HTML pages. It is
 possible to request a machine-readable form either by explicitly
 appending `.atom` or `.atom2` (see [Author
-Identifiers](author_identifiers) for details of the two Atom
+Identifiers](/help/author_identifiers.md) for details of the two Atom
 formats), e.g.
 
 `http://arxiv.org/a/http://orcid.org/0000-0001-6286-1277.atom2`

@@ -1,16 +1,16 @@
 # Economics archive
 
-The Economics archive formed 26 September 2017 and you can read about the [announcement of archive here](/new/econ_announce).
+The Economics archive formed 26 September 2017 and you can read about the [announcement of archive here](/new/econ_announce.md).
 
-You can browse articles and view categories at the [main economics archive page](/archive/econ).
+You can browse articles and view categories at the [main economics archive page](https://arxiv.org/archive/econ).
 
-The [moderators for economics are listed here](/moderators#economics).
+The [moderators for economics are listed here](https://arxiv.org/moderators#economics#economics).
 
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Economics Advisory Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Drew Fudenberg (Massachusetts Institute of Technology)
 - Adam Guren (Boston University)

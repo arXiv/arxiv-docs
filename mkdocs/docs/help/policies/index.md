@@ -3,24 +3,24 @@
 Please note this page is a work in progress. We are working towards a comprehensieve list of policies but at this time the list below is incomplete. 
 
 ## User Policies
-- [Code of conduct](code_of_conduct)
-- [Privacy policy](privacy_policy)
-- [Identity, affiliation, and registration](/help/registerhelp)
-- [Paper ownership](/help/authority)
+- [Code of conduct](/help/policies/code_of_conduct.md)
+- [Privacy policy](/help/policies/privacy_policy.md)
+- [Identity, affiliation, and registration](/help/registerhelp.md)
+- [Paper ownership](/help/authority.md)
 
 ## Submission Policies
-- [General submission policies](/help/submit)
-- [Submission terms and agreement](submission_agreement)
-- [Instructions for submission](instructions_for_submission)
-- [Order of announcements and submission cutoff time](/help/submit#availability)
-- [Moderation](/help/moderation)
-- [License and copyright](/help/license)
-- [Withdrawals](/help/withdraw)
-- [Cross listing](/help/cross)
-- [Translations](/help/translations)
-- [Non-English submissions](/help/faq/multilang)
-- [Text Overlap](/help/overlap)
-- [Requiring TeX when possible](/help/faq/whytex)
-- [Third party submission](/help/third_party_submission)
+- [General submission policies](None)
+- [Submission terms and agreement](/help/policies/submission_agreement.md)
+- [Instructions for submission](/help/policies/instructions_for_submission.md)
+- [Order of announcements and submission cutoff time](None)
+- [Moderation](/help/moderation.md)
+- [License and copyright](/help/license.md)
+- [Withdrawals](/help/withdraw.md)
+- [Cross listing](/help/cross.md)
+- [Translations](/help/translations.md)
+- [Non-English submissions](/help/faq/multilang.md)
+- [Text Overlap](/help/overlap.md)
+- [Requiring TeX when possible](None)
+- [Third party submission](/help/third_party_submission.md)
 
 

@@ -12,7 +12,7 @@ submissions with omitted figures, see policy information below.
 If you have trouble submitting a *very* long paper, such as a long
 review article with many small figures, or a thesis, AND you are sure
 that you have efficient figures, then [contact the arXiv
-administrators](/help/contact) to ask for an exception (be sure to quote
+administrators](/help/contact.md) to ask for an exception (be sure to quote
 the automatic rejection identifier and to explain the large size).
 
 Please think about the time it will take people to download your papers.
@@ -33,7 +33,7 @@ can easily be shrunk by appropriate choice of format or resolution.
 
 Photographic images should usually use JPEG encoding. Diagrams and line
 drawings should preferably use PDF, PNG, GIF or PostScript. For a discussion on
-shrinking figures, see our [help on bitmapping](bitmap).
+shrinking figures, see our [help on bitmapping](/help/index.md).
 
 It is possible that you will receive a notification message asking you
 to take a few simple steps to convert your biggest files into more
@@ -43,7 +43,7 @@ Additional Policy Information
 -----------------------------
 
 If you include reduced size figures with your submission you are free to include
-larger figures as [ancillary files](/help/ancillary_files) or 
+larger figures as [ancillary files](/help/ancillary_files.md) or 
 provide links to larger alternative versions of figures stored at your
 website.
 

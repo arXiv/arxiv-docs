@@ -22,7 +22,7 @@ files are:
 
 There are easy ways to avoid these, as described below.
 
-See also our [sizes](/help/sizes) and [bitmap](/help/bitmap) help pages.
+See also our [sizes](/help/sizes.md) and [bitmap](/help/faq/index.md) help pages.
 
 <span id="fonts"></span>
 

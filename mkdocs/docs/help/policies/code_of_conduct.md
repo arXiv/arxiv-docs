@@ -45,11 +45,11 @@ If you have questions or concerns regarding the arXiv CoC, please contact:
 
 Policies related to authors:
 
-- [Moderation](../moderation) 
-- [Privacy](privacy_policy)
-- [Submission terms and agreement](submission_agreement)
-- [Instructions for submission](instructions_for_submission)
-- [Authorship policy](../registerhelp)
+- [Moderation](/help/moderation.md) 
+- [Privacy](/help/policies/privacy_policy.md)
+- [Submission terms and agreement](/help/policies/submission_agreement.md)
+- [Instructions for submission](/help/policies/instructions_for_submission.md)
+- [Authorship policy](/help/registerhelp.md)
 
 Policies related to moderators:
 

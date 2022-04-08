@@ -2,9 +2,9 @@ Institutional Membership
 ========================
 
 
-To support arXiv, the membership program aims to engage libraries and research laboratories worldwide that represent arXiv's heaviest institutional users, which represents the [top 75% of institutional downloads](/about/reports/2019_usage). 
+To support arXiv, the membership program aims to engage libraries and research laboratories worldwide that represent arXiv's heaviest institutional users, which represents the [top 75% of institutional downloads](/about/reports/2019_usage.md). 
 
-[We thank our members for supporting us!](/about/ourmembers) 
+[We thank our members for supporting us!](/about/ourmembers.md) 
 
 In addition to being a part of a shared investment in a culturally embedded resource that provides unambiguous value to a global network of scientific researchers, exclusive benefits for member organizations include:
 
@@ -17,7 +17,7 @@ In addition to being a part of a shared investment in a culturally embedded reso
 
 Membership fees are based on a 3-year rolling average of institutional ranking calculated according to the number of articles downloaded. Usage statistics and institutional rankings are calculated annually at the beginning of the calendar year. 
 
-[Download Statistics of Top Institutional Users](/about/reports/index)
+[Download Statistics of Top Institutional Users](/about/index.md)
 -- the usage statistics for the top 200+ institutional users since 2009
 
 
@@ -36,4 +36,4 @@ Please join the arXiv support announcement email list by sending an email messag
 
 ---
 For questions related to donation, membership, sponsoring an institution, or the [business sustainability
-model](/about/reports-financials), please contact arXiv **Membership & Giving at membership@arxiv.org**.
+model](/about/reports-financials.md), please contact arXiv **Membership & Giving at membership@arxiv.org**.

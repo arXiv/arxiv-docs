@@ -2,10 +2,10 @@
 title: arXiv News and Announcements
 ---
 
-What's been New on the [arXiv.org](/) e-print archives
+What's been New on the [arXiv.org](https://arxiv.org) e-print archives
 ======================================================
 
-(Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
+(Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96.md) and [1991-1994](/new/91-94.md).)
 
 #### June 2020
 <span id="5June2020"></span>
@@ -58,7 +58,7 @@ in operation. In addition, arXiv staff will provide limited service in response 
 <span id="sep23_2019"></span>
 23 September 2019
 
-**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](/about/donate) during our giving campaign September 23-27.
+**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](None) during our giving campaign September 23-27.
 
 
 
@@ -93,7 +93,7 @@ Thank you to arXiv moderators, subject advisory committees, and scientific advis
 <span id="apr22_2019"></span>
 22 April 2019
 
-**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](/about/donate) during our giving campaign April 22–26.
+**Donate to arXiv:** arXiv is supported by a community of individuals, institutions, and organizations that depend on arXiv as an integral part of the scientific community. Join our supporters and [donate to arXiv](None) during our giving campaign April 22–26.
 
 
 #### February 2019
@@ -166,7 +166,7 @@ We are pleased to announce that arXiv will move from the Cornell University Libr
 
 Additionally, **econ.GN** is now the canonical category for **q-fin.EC**.
 
-To subscribe to the daily e-mail notifications for econ.TH or econ.GN, please see the [subscription instructions](/help/subscribe).
+To subscribe to the daily e-mail notifications for econ.TH or econ.GN, please see the [subscription instructions](/help/subscribe.md).
 
 18 Jul 2018
 
@@ -215,7 +215,7 @@ More information about the service outage is available [here](https://itservicea
 
 02 Jan 2018
 
-The [1991-2017 submission rate statistics](/help/stats/2017_by_area/index) are now available.
+The [1991-2017 submission rate statistics](/new/index.md) are now available.
 
 #### Nov 2017
 
@@ -253,13 +253,13 @@ arXiv is raising funds for [new initiatives](https://confluence.cornell.edu/x/y9
 
 **A new "Economics" (econ) archive has been launched.**
 
-For more information, see the [announcement](/help/econ/announcement).
+For more information, see the [announcement](None).
 
 18 Sep 2017
 
 **A new "Electrical Engineering and Systems Science" (eess) archive has been launched.**
 
-For more information, see the [announcement](/help/eess/announcement).
+For more information, see the [announcement](None).
 
 11 Sep 2017
 
@@ -288,7 +288,7 @@ The arXiv team is gathering information on the use of the arXiv API and content 
 *   **physics.app-ph** - Applied Physics  
     Applications of physics to new technology, including: electronic devices; optics; photonics; microwaves; spintronics; advanced materials; metamaterials; nanotechnology; and energy sciences.
 
-To subscribe to the daily e-mail notifications for physics.app-ph, please see the [subscription instructions](/help/subscribe).
+To subscribe to the daily e-mail notifications for physics.app-ph, please see the [subscription instructions](/help/subscribe.md).
 
 #### Mar 2017
 
@@ -335,7 +335,7 @@ The update includes a significantly upgraded TeX tree based on [TeX Live](https:
 
 10 Jan 2017
 
-New members join arXiv Scientific Advisory Board: As of 2017, arXiv's [Scientific Advisory Board](/help/scientific_ad_board) has two new members:
+New members join arXiv Scientific Advisory Board: As of 2017, arXiv's [Scientific Advisory Board](/about/people/scientific_ad_board.md) has two new members:
 
 *   Tara Holm, Professor of Mathematics, Cornell University
 *   Nicholas Read, the Henry Ford II Professor of Physics, Yale University  
@@ -345,7 +345,7 @@ Our sincere gratitude to outgoing SAB member Karen Vogtmann. Thank you from all 
 
 02 Jan 2017
 
-The [1991-2016 submission rate statistics](/help/stats/2016_by_area/index) are now available.
+The [1991-2016 submission rate statistics](/new/index.md) are now available.
 
 #### Nov 2016
 
@@ -403,7 +403,7 @@ Monday Night / Tuesday Morning
 
 14 Nov 2016
 
-**Semantic Scholar Pilot for Computer Science Papers:** arXiv is collaborating on a [12-month pilot project](/help/semanticscholar) with the Allen Institute for Artificial Intelligence (AI2), making the AI-based semanticscholar.org search engine available to the arXiv community.
+**Semantic Scholar Pilot for Computer Science Papers:** arXiv is collaborating on a [12-month pilot project](/help/semanticscholar.md) with the Allen Institute for Artificial Intelligence (AI2), making the AI-based semanticscholar.org search engine available to the arXiv community.
 
 01 Nov 2016
 
@@ -427,13 +427,13 @@ _Note:_ that articles submitted at or after 16:00 EST Fri 30 Dec 2016 will recei
 
 16 Aug 2016
 
-arXiv.org will be down for maintenance August 18th 2016 from 8:20am to 9:20am EDT. To view articles please use [the mirrors.](/help/mirrors) The submission system and user log-in will be unavailable during the maintenance time.
+arXiv.org will be down for maintenance August 18th 2016 from 8:20am to 9:20am EDT. To view articles please use [the mirrors.](/help/mirrors.md) The submission system and user log-in will be unavailable during the maintenance time.
 
 #### Jul 2016
 
 15 Jul 2016
 
-arXiv.org will be down for maintenance July 24th 2016 from 10am til 11am EDT. To view articles please use [the mirrors.](/help/mirrors) The submission system and user log-in will be unavailable during the maintenance time.
+arXiv.org will be down for maintenance July 24th 2016 from 10am til 11am EDT. To view articles please use [the mirrors.](/help/mirrors.md) The submission system and user log-in will be unavailable during the maintenance time.
 
 #### Jun 2016
 
@@ -443,7 +443,7 @@ We are pleased to share with you the [key findings of the arXiv user survey](htt
 
 27 Jun 2016
 
-**DONATE to arXiv:** arXiv will run an online fundraising campaign for one week, from June 27 to July 5, 2016, to help raise additional funds (see [Donations to arXiv](/help/donate)). The baseline maintenance costs are sponsored by the 190 member organizations, the Simons Foundation, and Cornell University Library. This new GIVE campaign aims to garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund [new initiatives](https://confluence.cornell.edu/x/mbBRF) that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](http://arxiv.org/help/support/faq#personal). We thank you for your support.
+**DONATE to arXiv:** arXiv will run an online fundraising campaign for one week, from June 27 to July 5, 2016, to help raise additional funds (see [Donations to arXiv](None)). The baseline maintenance costs are sponsored by the 190 member organizations, the Simons Foundation, and Cornell University Library. This new GIVE campaign aims to garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund [new initiatives](https://confluence.cornell.edu/x/mbBRF) that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](http://arxiv.org/help/support/faq#personal). We thank you for your support.
 
 #### Apr 2016
 
@@ -459,7 +459,7 @@ We are pleased to share with you the [key findings of the arXiv user survey](htt
 
 1 Jan 2016
 
-**New members join arXiv Scientific Advisory Board:** As of 2016, arXiv's [Scientific Advisory Board](/help/scientific_ad_board) has three new members:
+**New members join arXiv Scientific Advisory Board:** As of 2016, arXiv's [Scientific Advisory Board](/about/people/scientific_ad_board.md) has three new members:
 
 *   David Eppstein, Chancellor's Professor of Computer Science, University of California, Irvine
 *   Licia Verde, ICREA Research Professor, Universitat de Barcelona | University of Oslo
@@ -487,7 +487,7 @@ The Japan mirror (jp.arXiv.org) has been discontinued. We thank the [Yukawa Inst
 
 10 Sept 2015
 
-**arXiv online fund raising pilot:** arXiv will run a brief online fund raising campaign during September 2015 to explore ways to raise additional funds (see [donations to arXiv](/help/donate)). As described in arXiv's last [annual update](https://confluence.cornell.edu/x/bqZRF), the current business model is working well, sponsoring arXiv's baseline maintenance costs with support from 183 member libraries, the Simons Foundation, and Cornell University Library. This pilot will assess whether a give button placed prominently on arXiv's web pages will garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund new initiatives that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](/help/support/faq). We thank you for your support.
+**arXiv online fund raising pilot:** arXiv will run a brief online fund raising campaign during September 2015 to explore ways to raise additional funds (see [donations to arXiv](None)). As described in arXiv's last [annual update](https://confluence.cornell.edu/x/bqZRF), the current business model is working well, sponsoring arXiv's baseline maintenance costs with support from 183 member libraries, the Simons Foundation, and Cornell University Library. This pilot will assess whether a give button placed prominently on arXiv's web pages will garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund new initiatives that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](None). We thank you for your support.
 
 #### Jan 2015
 
@@ -499,7 +499,7 @@ The Japan mirror (jp.arXiv.org) has been discontinued. We thank the [Yukawa Inst
 
 1 Jan 2015
 
-**New members join arXiv Scientific Advisory Board:** As of 2015, arXiv's [Scientific Advisory Board](/help/scientific_ad_board) has two new members:
+**New members join arXiv Scientific Advisory Board:** As of 2015, arXiv's [Scientific Advisory Board](/about/people/scientific_ad_board.md) has two new members:
 
 *   Shude Mao, Professor of Astrophysics, Tsinghua University | National Astronomical Observatories of China | Jodrell Bank Centre for Astrophysics, Manchester
 *   Jennifer Ross, Associate Professor of Physics, University of Massachusetts, Amherst
@@ -508,7 +508,7 @@ The Japan mirror (jp.arXiv.org) has been discontinued. We thank the [Yukawa Inst
 
 19 Dec 2014
 
-**arXiv identifiers will be extended by one digit:** Starting in January 2015, with article identifier arXiv:1501.00001, all identifiers will have 5-digits after the period. For more details see [Understanding the arXiv identifier](/help/arxiv_identifier).
+**arXiv identifiers will be extended by one digit:** Starting in January 2015, with article identifier arXiv:1501.00001, all identifiers will have 5-digits after the period. For more details see [Understanding the arXiv identifier](None).
 
 10 Dec 2014
 
@@ -554,7 +554,7 @@ The United Kingdom mirror (uk.arXiv.org) has been discontinued. We thank the [De
 *   **q-fin.MF** - Mathematical Finance  
     Mathematical and analytical methods of finance, including stochastic, probabilistic and functional analysis, algebraic, geometric and other methods
 
-For more information, see the complete list of [q-fin subcategory descriptions](/archive/q-fin). To subscribe to the daily e-mail notifications for q-fin.EC, q-fin.MF or other subcategories of q-fin, please see the [subscription instructions](/help/subscribe).
+For more information, see the complete list of [q-fin subcategory descriptions](https://arxiv.org/archive/q-fin). To subscribe to the daily e-mail notifications for q-fin.EC, q-fin.MF or other subcategories of q-fin, please see the [subscription instructions](/help/subscribe.md).
 
 #### Jan 2014
 
@@ -576,7 +576,7 @@ For more information, see the complete list of [q-fin subcategory descriptions](
 
 15 Oct 2013
 
-[MathJax](http://www.mathjax.org/) has been added to arXiv abstract pages to render TeX mathematics in titles and abstracts. For more information, please see the [help page](/help/mathjax).
+[MathJax](http://www.mathjax.org/) has been added to arXiv abstract pages to render TeX mathematics in titles and abstracts. For more information, please see the [help page](/help/mathjax.md).
 
 #### Jun 2013
 
@@ -592,7 +592,7 @@ For more information, see the complete list of [q-fin subcategory descriptions](
 
 6 Dec 2012
 
-The [Nonlinear Sciences (nlin)](/archive/nlin) archive has been reorganized within the physics group. This means that nlin appears within physics on the arXiv [home page](/), in [search](/find), in [catchup](http://arxiv.org/catchup/grp_physics) and in the submission interfaces. Users who had the nlin group selected for submission now have the physics group selected. Existing [alert subscriptions](/help/subscribe#physics) are unaffected but it is now also possible to subscribe to nlin through physics.
+The [Nonlinear Sciences (nlin)](https://arxiv.org/archive/nlin) archive has been reorganized within the physics group. This means that nlin appears within physics on the arXiv [home page](https://arxiv.org), in [search](/help/find.md), in [catchup](http://arxiv.org/catchup/grp_physics) and in the submission interfaces. Users who had the nlin group selected for submission now have the physics group selected. Existing [alert subscriptions](/help/subscribe.md#physics) are unaffected but it is now also possible to subscribe to nlin through physics.
 
 #### Oct 2012
 
@@ -614,7 +614,7 @@ The Israeli mirror (il.arXiv.org) has been discontinued. We thank the Israeli ph
 
 29 Aug 2012
 
-**Simons Foundation funds new arXiv sustainability model:** Thanks to an [operating grant from the Simons Foundation](http://news.library.cornell.edu/news/120828/arXiv), arXiv has taken a major step toward sustainability. Cornell University Library is adopting [a new membership and governance model](/help/support/faq) for arXiv that will allow it to continue to grow and succeed moving forward.
+**Simons Foundation funds new arXiv sustainability model:** Thanks to an [operating grant from the Simons Foundation](http://news.library.cornell.edu/news/120828/arXiv), arXiv has taken a major step toward sustainability. Cornell University Library is adopting [a new membership and governance model](None) for arXiv that will allow it to continue to grow and succeed moving forward.
 
 10 Aug 2012
 
@@ -680,19 +680,19 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 29 Jul 2011
 
-**arXiv Sustainability Initiative Update:** An update on the effort to design a new collaborative support model for arXiv, including a short FAQ, is provided in the [July 2011 update](/help/support/arxiv_busplan_July2011).
+**arXiv Sustainability Initiative Update:** An update on the effort to design a new collaborative support model for arXiv, including a short FAQ, is provided in the [July 2011 update](/about/reports/arxiv_busplan_July2011.md).
 
 #### Apr 2011
 
 27 Apr 2011
 
-**arXiv Sustainability Initiative Update:** It has been 15 months since we announced the collaborative arXiv business model. Current status of the initiative, including information about the upcoming open information sessions, is given in the [April 2011 update](/help/support/arxiv_busplan_Apr2011).
+**arXiv Sustainability Initiative Update:** It has been 15 months since we announced the collaborative arXiv business model. Current status of the initiative, including information about the upcoming open information sessions, is given in the [April 2011 update](/about/reports/arxiv_busplan_Apr2011.md).
 
 25 Apr 2011
 
-**Data sets accepted as part of Data Conservancy pilot project:** In addition to the existing facilities for uploading [ancillary files](/help/ancillary_files) alongside articles submitted to arXiv, it is now possible to upload datasets of up to 1GB (100MB per file) for storage in the [Data Conservancy data repository](/help/data_conservancy). Data sets uploaded in this way will be linked from the arXiv article. This is a pilot project in collaboration with the US National Science Foundation (NSF) Data Conservancy project.
+**Data sets accepted as part of Data Conservancy pilot project:** In addition to the existing facilities for uploading [ancillary files](/help/ancillary_files.md) alongside articles submitted to arXiv, it is now possible to upload datasets of up to 1GB (100MB per file) for storage in the [Data Conservancy data repository](/help/data_conservancy.md). Data sets uploaded in this way will be linked from the arXiv article. This is a pilot project in collaboration with the US National Science Foundation (NSF) Data Conservancy project.
 
-**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the [ScienceWISE service](/help/sciencewise). Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides [social bookmarking](/help/social_bookmarking) facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
+**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the [ScienceWISE service](/help/sciencewise.md). Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides [social bookmarking](None) facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
 
 #### Jan 2011
 
@@ -700,7 +700,7 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 **Scheduled outages Tue 4 Jan and Sat/Sun 8/9 Jan:** There will be a brief outage from 8am EST on Tue 4 Jan for server patching, accesses will be redirected to mirrors for most of this time. There will be a longer outage over the weekend of 8/9 Jan for major work on the power supplies for Cornell's hosting facility. The arXiv submission system and main server will be disabled at 7:30pm EST on Sat 8 Jan, existing articles will remain available from mirrors. Work is scheduled to be completed by 8am EST on Sun 9 Jan and the submission system will be available as soon as the work is complete.
 
-**Bulk data available on Amazon S3:** The [bulk data available for download from Amazon S3](/help/bulk_data_s3) has been extended to include both PDF and source files of the latest versions of all arXiv articles.
+**Bulk data available on Amazon S3:** The [bulk data available for download from Amazon S3](/help/bulk_data_s3.md) has been extended to include both PDF and source files of the latest versions of all arXiv articles.
 
 #### Nov 2010
 
@@ -718,7 +718,7 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 **New Submission System:** We are pleased to announce that arXiv has a new submission system. We hope that this will improve the submission process for users and streamline administrative operations to help us keep pace with the [ever increasing submission rate](http://arxiv.org/stats/monthly_submissions).
 
-Note that with the new submission system permanent identifiers are assigned only at the time articles are publicly announced. Submitters may edit, delay or remove submissions up until that point but this may affect the announcement order. Those interested in the [announcement order](/help/submit#availability) should be aware that policies have changes such that:
+Note that with the new submission system permanent identifiers are assigned only at the time articles are publicly announced. Submitters may edit, delay or remove submissions up until that point but this may affect the announcement order. Those interested in the [announcement order](None) should be aware that policies have changes such that:
 
 *   An update before announcement will reset any article's position in the queue. Announcement order is based on the last "Submit" action.
 *   An update after 16:00 EST/EDT will delay an article to the next day.
@@ -733,7 +733,7 @@ Note that with the new submission system permanent identifiers are assigned only
 
 21 Jan 2010
 
-**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](/help/support).
+**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](None).
 
 #### Nov 2009
 
@@ -757,7 +757,7 @@ Note that with the new submission system permanent identifiers are assigned only
 
 8 Apr 2009
 
-**Public author identifiers have been introduced.** If you are an author of articles on arXiv, you may opt-in to create a [public author identifier](/help/author_identifiers) which supports [interaction with Facebook](/help/facebook), a [`myarticles` widget](/help/myarticles) to allow dynamic inclusion of a list of your articles in web pages, and provides HTML and Atom feeds of your arXiv papers.
+**Public author identifiers have been introduced.** If you are an author of articles on arXiv, you may opt-in to create a [public author identifier](/help/author_identifiers.md) which supports [interaction with Facebook](None), a [`myarticles` widget](None) to allow dynamic inclusion of a list of your articles in web pages, and provides HTML and Atom feeds of your arXiv papers.
 
 #### Mar 2009
 
@@ -768,7 +768,7 @@ Note that with the new submission system permanent identifiers are assigned only
 *   **cond-mat.quant-gas** - Quantum Gases  
     Ultracold atomic and molecular gases, Bose-Einstein condensation, Feshbach resonances, spinor condensates, optical lattices, quantum simulation with cold atoms and molecules, macroscopic interference phenomena
 
-For more information, see the complete list of [cond-mat subcategory descriptions](/archive/cond-mat). To subscribe to the daily e-mail notifications for cond-mat.quant-gas or a set of subcategories of cond-mat, you should first [cancel](/help/subscribe#cancel) your existing subscription, and then [subscribe](/help/subscribe) only to the subcategories of interest via physics.
+For more information, see the complete list of [cond-mat subcategory descriptions](https://arxiv.org/archive/cond-mat). To subscribe to the daily e-mail notifications for cond-mat.quant-gas or a set of subcategories of cond-mat, you should first [cancel](/help/subscribe.md#cancel) your existing subscription, and then [subscribe](/help/subscribe.md) only to the subcategories of interest via physics.
 
 #### Jan 2009
 
@@ -783,15 +783,15 @@ For more information, see the complete list of [cond-mat subcategory description
 *   **astro-ph.IM** - Instrumentation and Methods for Astrophysics
 *   **astro-ph.SR** - Solar and Stellar Astrophysics
 
-For more information, see the [subcategory descriptions](/archive/astro-ph) (including links to subdivided new and recent listings). This split should make announcements of new papers more manageable for those interested only in subsets of astro-ph. New astro-ph submissions must be assigned one or more subcategories. (Existing astro-ph articles will be machine-classified according to the new scheme when enough training data has been collected.)
+For more information, see the [subcategory descriptions](https://arxiv.org/archive/astro-ph) (including links to subdivided new and recent listings). This split should make announcements of new papers more manageable for those interested only in subsets of astro-ph. New astro-ph submissions must be assigned one or more subcategories. (Existing astro-ph articles will be machine-classified according to the new scheme when enough training data has been collected.)
 
-To subscribe to the daily e-mail notifications for only a set of subcategories, you should first [cancel](/help/subscribe#cancel) your existing subscription (either to astro-ph or physics), and then [subscribe](/help/subscribe) only to the subcategories of interest via physics.
+To subscribe to the daily e-mail notifications for only a set of subcategories, you should first [cancel](/help/subscribe.md#cancel) your existing subscription (either to astro-ph or physics), and then [subscribe](/help/subscribe.md) only to the subcategories of interest via physics.
 
 #### Dec 2008
 
 4 Dec 2008
 
-**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](/new/q-fin_announcement). It is partitioned into [7 subject categories](/archive/q-fin) and [e-mail subscriptions](/help/subscribe) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
+**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](None). It is partitioned into [7 subject categories](https://arxiv.org/archive/q-fin) and [e-mail subscriptions](/help/subscribe.md) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
 
 #### Nov 2008
 
@@ -807,7 +807,7 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 
 3 Oct 2008
 
-**arXiv passes half-million article milestone:** The 262 new submissions received between Wednesday 1 Oct and Thursday 2 Oct, announced Friday 3 Oct 2008, brought the total number of articles on arXiv past 500,000 -- all openly accessible. There are also more than 200,000 [old versions](/help/versions) of articles which record all public revisions since 1997. If the linear increase in [submission rate](http://arxiv.org/stats/monthly_submissions) continues, arXiv will pass the one million article mark in 2015. See [press release](http://communications.library.cornell.edu/com/news/PressReleases/arXiv-milestone.cfm) for more details.
+**arXiv passes half-million article milestone:** The 262 new submissions received between Wednesday 1 Oct and Thursday 2 Oct, announced Friday 3 Oct 2008, brought the total number of articles on arXiv past 500,000 -- all openly accessible. There are also more than 200,000 [old versions](/help/versions.md) of articles which record all public revisions since 1997. If the linear increase in [submission rate](http://arxiv.org/stats/monthly_submissions) continues, arXiv will pass the one million article mark in 2015. See [press release](http://communications.library.cornell.edu/com/news/PressReleases/arXiv-milestone.cfm) for more details.
 
 #### Jun 2008
 
@@ -831,8 +831,8 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 
 **Hardware and Software Upgrades:** Over the weekend of 1/2 Feb 2008 we moved arXiv to new hardware. This should allow us to keep up with the ever increasing traffic and make several improvements. One is that we now have a cache large enough to store processed PDF versions for all papers -- there should be far fewer "...processing..." responses. We have also put online several software improvements including:
 
-*   arXiv now accepts [submissions in DOCX/OOXML format](/help/submit_docx) (from Word 2007 and other OOXML compliant applications).
-*   We have implemented version control for papers submitted prior to November 1997 in the same way as for papers submitted later. In many cases the earlier versions were not recorded and are marked as such in the comments (e.g. [arXiv:hep-th/9108006v1](/abs/hep-th/9108006v1)). However, in some cases the earlier versions are now available in the usual way (e.g. [arXiv:hep-th/9108019v1](/abs/hep-th/9108019v1)).
+*   arXiv now accepts [submissions in DOCX/OOXML format](None) (from Word 2007 and other OOXML compliant applications).
+*   We have implemented version control for papers submitted prior to November 1997 in the same way as for papers submitted later. In many cases the earlier versions were not recorded and are marked as such in the comments (e.g. [arXiv:hep-th/9108006v1](https://arxiv.org/abs/hep-th/9108006v1)). However, in some cases the earlier versions are now available in the usual way (e.g. [arXiv:hep-th/9108019v1](https://arxiv.org/abs/hep-th/9108019v1)).
 
 #### Nov 2007
 
@@ -856,11 +856,11 @@ Note on [recent administrative withdrawals](http://arxiv.org/new/withdrawals.aug
 
 There have been a number of upgrades to the arXiv interface and processing system since April 2007. These include:
 
-*   _arXiv now supports [PDFLaTeX](/help/submit_tex#pdflatex)._ TeX submissions may now include PDF, JPG, or PNG figures using the standard `\includegraphics` command from the `graphics` or `graphicx` packages.
-*   The article _[identifier system](/help/arxiv_identifier) has been updated_. The new scheme (which does not include subject information in the identifier) not only allows for a greater number of submissions each month, but it makes reclassification easier (old identifiers did not permit changes in primary classication after announcement). We also hope that the removal of optional subject-class information from the identifier will lead to more consistent citation and linking.
+*   _arXiv now supports [PDFLaTeX](/help/submit_tex.md#pdflatex)._ TeX submissions may now include PDF, JPG, or PNG figures using the standard `\includegraphics` command from the `graphics` or `graphicx` packages.
+*   The article _[identifier system](None) has been updated_. The new scheme (which does not include subject information in the identifier) not only allows for a greater number of submissions each month, but it makes reclassification easier (old identifiers did not permit changes in primary classication after announcement). We also hope that the removal of optional subject-class information from the identifier will lead to more consistent citation and linking.
 *   To find a specific paper for which you know the identifier, you may now simply type or paste the identifier (e.g. `hep-th/0501001`, `0704.0001` or `arXiv:0704.0002`) into the _search box at the top of every arXiv page_. This facility replaces the "abs" links for each archive that used to be on the main page.
-*   The _abstract pages have been redesigned_ to more cleanly present the most important information (title, authors, abstract, etc.) and to allow more links to related services to be added in column on the right. See, for example, [arXiv:0704.1252](/abs/0704.1252)
-*   The _Statistics archive_ was [introduced](/new/stat_announce) on 1 April 2007.
+*   The _abstract pages have been redesigned_ to more cleanly present the most important information (title, authors, abstract, etc.) and to allow more links to related services to be added in column on the right. See, for example, [arXiv:0704.1252](https://arxiv.org/abs/0704.1252)
+*   The _Statistics archive_ was [introduced](/new/stat_announce.md) on 1 April 2007.
 *   The category `math.IT` was created as an alias for _Information Theory_ (`cs.IT`) so that these papers will show in both math and cs searches.
 
 #### Mar 2007
@@ -886,7 +886,7 @@ There have been a number of upgrades to the arXiv interface and processing syste
 
 1 Dec 2006
 
-**Change to arXiv identifiers:** The current form of arXiv identifiers (e.g. **`[arXiv:math.DG/0307245](/abs/math/0307245)`**) permits only 999 papers per month in any archive -- in October of this year we got to paper [989](/abs/math/0610989) in math, just 11 short of difficulty. We thus have an urgent need to extend the maximum number of submissions that can be handled in a month. We will certainly exceed 999 papers in some months for some archives next year.
+**Change to arXiv identifiers:** The current form of arXiv identifiers (e.g. **`[arXiv:math.DG/0307245](https://arxiv.org/abs/math/0307245)`**) permits only 999 papers per month in any archive -- in October of this year we got to paper [989](https://arxiv.org/abs/math/0610989) in math, just 11 short of difficulty. We thus have an urgent need to extend the maximum number of submissions that can be handled in a month. We will certainly exceed 999 papers in some months for some archives next year.
 
 To address this issue (and several others), we are going to change the format of identifiers for new papers starting in early 2007 (original 1 December announcement said 1 January 2007, since [postponed](#ids_2006)) to use the form **`arXiv:0706.0001`**.
 
@@ -910,26 +910,26 @@ arXiv.org moderator Terence Tao was also named a Fields Medalist. See [http://ww
 
 **Grisha Perelman's papers on arXiv.org:**
 
-**1\. math.DG/0307245** \[[abs](/abs/math.DG/0307245), [ps](/ps/math.DG/0307245), [pdf](/pdf/math.DG/0307245)\]:
+**1\. math.DG/0307245** \[[abs](https://arxiv.org/abs/math.DG/0307245), [ps](https://arxiv.org/ps/math.DG/0307245), [pdf](https://arxiv.org/pdf/math.DG/0307245)\]:
 
 Title: **Finite extinction time for the solutions to the Ricci flow on certain three-manifolds**  
-Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
+Authors: **[Grisha Perelman](https://arxiv.org/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
 
-**2\. math.DG/0303109** \[[abs](/abs/math.DG/0303109), [ps](/ps/math.DG/0303109), [pdf](/pdf/math.DG/0303109)\]:
+**2\. math.DG/0303109** \[[abs](https://arxiv.org/abs/math.DG/0303109), [ps](https://arxiv.org/ps/math.DG/0303109), [pdf](https://arxiv.org/pdf/math.DG/0303109)\]:
 
 Title: **Ricci flow with surgery on three-manifolds**  
-Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
+Authors: **[Grisha Perelman](https://arxiv.org/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
 
-**3\. math.DG/0211159** \[[abs](/abs/math.DG/0211159), [ps](/ps/math.DG/0211159), [pdf](/pdf/math.DG/0211159)\]:
+**3\. math.DG/0211159** \[[abs](https://arxiv.org/abs/math.DG/0211159), [ps](https://arxiv.org/ps/math.DG/0211159), [pdf](https://arxiv.org/pdf/math.DG/0211159)\]:
 
 Title: **The entropy formula for the Ricci flow and its geometric applications**  
-Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
+Authors: **[Grisha Perelman](https://arxiv.org/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
 
 #### April 2006
 
 4 Apr 2006
 
-We added [access keys](/help/accesskeys) to our abstract and listing pages. Access keys allow users to activate certain links using keyboard shortcuts.
+We added [access keys](/help/accesskeys.md) to our abstract and listing pages. Access keys allow users to activate certain links using keyboard shortcuts.
 
 #### Nov 2005
 
@@ -959,7 +959,7 @@ To restore stability, we reverted to the software used prior to 18 Sep 05. We si
 
 **Scheduled outage:** At 4:00 p.m. EDT on Saturday, 24 Sep 2005, we expect an outage for improvements to Cornell University infrastructure. The outage is scheduled to last 18 hours.
 
-All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our [mirror sites](/servers) to view papers during the outage.
+All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our [mirror sites](None) to view papers during the outage.
 
 16 Sep 2005
 
@@ -975,7 +975,7 @@ In addition, papers received before 4 PM EST on 16 Sep will be announced at 8 PM
 
 25 Jul 2005
 
-**BitTorrent version of [hep-th](/list/hep-th/recent):** From cartan.harvard.edu [torrent.rutgers.edu](http://torrent.rutgers.edu/) you may download PDFs and text abstracts of the entire hep-th archive. The download is facilitated by [BitTorrent technology](http://www.bittorrent.com/introduction) to distribute bandwidth. Monthly updates are also available.
+**BitTorrent version of [hep-th](https://arxiv.org/list/hep-th/recent):** From cartan.harvard.edu [torrent.rutgers.edu](http://torrent.rutgers.edu/) you may download PDFs and text abstracts of the entire hep-th archive. The download is facilitated by [BitTorrent technology](http://www.bittorrent.com/introduction) to distribute bandwidth. Monthly updates are also available.
 
 Software for downloading torrents is available for Windows, Mac OS, and Linux at [BitTorrent.com](http://www.bittorrent.com/).  
 Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/) for creating the BitTorrents, and Harvard for hosting them. _Note_: The BitTorrents are not supported by arXiv.org: send comments to Joanna Karczmarek.
@@ -984,7 +984,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 11 Nov 2004
 
-**CoRR interface:** A new [interface](/corr) for the Computing Resource Repository (corresponding to the [cs archive](/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
+**CoRR interface:** A new [interface](/new/index.md) for the Computing Resource Repository (corresponding to the [cs archive](https://arxiv.org/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
 
 4 Nov 2004 _\[Modified 24 Nov 2004\]_
 
@@ -999,7 +999,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 29 Sep 2004
 
-**Search engine for user help pages:** A new [search engine](/help/search) for the user help pages was installed, with a search box provided at the top of each user [help](/help) page.
+**Search engine for user help pages:** A new [search engine](None) for the user help pages was installed, with a search box provided at the top of each user [help](/new/index.md) page.
 
 #### Jul 2004
 
@@ -1034,13 +1034,13 @@ Articles received from 16:00 EST Wed 24 Dec 2003 through 16:00 EST Mon 29 Dec 20
 
 15 Sep 2003
 
-A new "Quantitative Biology" archive, q-bio@arXiv.org, has been opened up for submissions. For more info, see this [announcement](/new/q-bio_announce). It is partitioned into [10 subject classes](/new/q-bio) and e-mail subscriptions can be made to any combination of subject classes. It has been "preseeded" with roughly 2000 relevant cross-listings from existing subject areas.
+A new "Quantitative Biology" archive, q-bio@arXiv.org, has been opened up for submissions. For more info, see this [announcement](/new/q-bio_announce.md). It is partitioned into [10 subject classes](None) and e-mail subscriptions can be made to any combination of subject classes. It has been "preseeded" with roughly 2000 relevant cross-listings from existing subject areas.
 
 #### Jul 2003
 
 6 Jul 2003
 
-A new and more sophisticated author registration system has been put on-line. It provides greater administrative flexibility and better user support, including user ability to maintain past submissions. See [register help](/help/registerhelp) for updated information.
+A new and more sophisticated author registration system has been put on-line. It provides greater administrative flexibility and better user support, including user ability to maintain past submissions. See [register help](/help/registerhelp.md) for updated information.
 
 In order to improve the quality of the user-provided data, the legacy support for e-mail submissions has been phased out, in favor of exclusive support for web submissions. (The [percentage](http://arXiv.org/Stats/hcamonthly#upper) of non-web submissions had decreased continuously in the past seven years to under 16%.)
 
@@ -1066,7 +1066,7 @@ Administrative oversight for arXiv operations transferred to the _Cornell Univer
 
 6 Dec 2000
 
-The automated software now recognizes and processes Mathematica Notebook files. For more information, see [notebook submission help](/help/submit_nb).
+The automated software now recognizes and processes Mathematica Notebook files. For more information, see [notebook submission help](None).
 
 #### Aug 2000
 
@@ -1078,7 +1078,7 @@ South Africa users: note new South Africa mirror at [http://za.arXiv.org/](http:
 
 6 Jan 2000
 
-The nlin-sys archives have been reorganized starting 1 January, 2000. The archives adap-org, chao-dyn, comp-gas, patt-sol, and solv-int have been subsumed as subject classes in the new " [nlin](/archive/nlin)" archive (see [nlin info](http://arXiv.org/new/nlin) for more information). The intent is to bring these archives into conformity with the format of the newer archives, and to facilitate further expansion or reorganization. (Note that this also means these archives will now be updated -- and abstract mailings issued -- every weekday, rather than just once per week.) Beginning 1 Jan 2000, chao-dyn submissions for example should be sent To: nlin@arXiv.org with the added line (i.e. following Title:, Author:, etc.):
+The nlin-sys archives have been reorganized starting 1 January, 2000. The archives adap-org, chao-dyn, comp-gas, patt-sol, and solv-int have been subsumed as subject classes in the new " [nlin](https://arxiv.org/archive/nlin)" archive (see [nlin info](http://arXiv.org/new/nlin) for more information). The intent is to bring these archives into conformity with the format of the newer archives, and to facilitate further expansion or reorganization. (Note that this also means these archives will now be updated -- and abstract mailings issued -- every weekday, rather than just once per week.) Beginning 1 Jan 2000, chao-dyn submissions for example should be sent To: nlin@arXiv.org with the added line (i.e. following Title:, Author:, etc.):
 
 **Subj-class:** Chaotic Dynamics
 
@@ -1086,7 +1086,7 @@ and analogously for the other above subsumed archives. Submissions to chao-dyn@a
 
 1 Jan 2000
 
-Survived [Y2K](/help/faq/y2k) hysteria
+Survived [Y2K](None) hysteria
 
 #### Dec 1999
 
@@ -1103,7 +1103,7 @@ US users: note new US mirror at [http://aps.arXiv.org/](http://aps.arXiv.org/), 
 
 22 Sep 1999
 
-New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the [mirror](/servers) network.
+New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the [mirror](None) network.
 
 #### Jul 1999
 
@@ -1119,7 +1119,7 @@ The xxx Announcements Forum is no longer accepting new registrations, and will s
 
 17 Jun 1999
 
-Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](interruption)."
+Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](None)."
 
 #### Apr 1999
 
@@ -1137,7 +1137,7 @@ New domain name arXiv.org registered. All of archive.org, archives.org, thearchi
 
 15 Sep 1998
 
-A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](/archive/cs/intro). It is partitioned by Subject Classes (along the lines of the [math](/new/math) archive, inititated in Jan '98), with 32 [Subject Classes](/archive/cs/subj). E-mail [subscriptions](/archive/cs/cssub) can be made to any combination of Subject Classes.
+A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](https://arxiv.org/archive/cs/intro). It is partitioned by Subject Classes (along the lines of the [math](/new/math.md) archive, inititated in Jan '98), with 32 [Subject Classes](https://arxiv.org/archive/cs/subj). E-mail [subscriptions](https://arxiv.org/archive/cs/cssub) can be made to any combination of Subject Classes.
 
 The "Computation and Language" archive (cmp-lg) has been subsumed as one of the Subject Classes of the new cs archive. New submissions will be automatically directed to the new Subject Class (cs.CL), and e-mail subscribers have been automatically transferred to the new archive.
 
@@ -1170,7 +1170,7 @@ India users: note new Indian mirror at [http://xxx.imsc.ernet.in/](http://xxx.im
 
 22 Jan 1998
 
-The [PDF](/help/pdf) produced here now includes subsetted embedded fonts. This was made feasible by the new font compression format (CFF/Type 2) introduced in PDF-1.2 (see [13 Nov 1997](#pdf1.2)). This more compactified Type1 format reduced the byte cost of font inclusion by more than a factor of three.
+The [PDF](None) produced here now includes subsetted embedded fonts. This was made feasible by the new font compression format (CFF/Type 2) introduced in PDF-1.2 (see [13 Nov 1997](#pdf1.2)). This more compactified Type1 format reduced the byte cost of font inclusion by more than a factor of three.
 
 Note that not all PDF viewers support the font compression format (e.g. under NeXTStep, only PDFView.app (1.7) supports it; while the current versions of OmniPDF.app (2.1.3) and PDFViewer.app do not support it).
 
@@ -1196,13 +1196,13 @@ PDF is now produced with Adobe Distiller set to level 3.0. This produces smaller
 
 10 Nov
 
-Completely reorganized [help texts](/help/) on-line.
+Completely reorganized [help texts](/new/index.md) on-line.
 
 #### Oct 1997
 
 1 Oct 1997
 
-All official versions of papers submitted starting in Oct '97 (i.e. with numbers >= 9710) are made publicly available through the archive Web interface. See [versions](/help/versions) for more information.
+All official versions of papers submitted starting in Oct '97 (i.e. with numbers >= 9710) are made publicly available through the archive Web interface. See [versions](/help/versions.md) for more information.
 
 #### Sep 1997
 
@@ -1222,37 +1222,37 @@ Australia users: note the new Australian mirror, [http://xxx.adelaide.edu.au/](h
 
 21 Jul
 
-Added description of [the correct way to refer to eprints within a paper](/help/submit_tex#refs).
+Added description of [the correct way to refer to eprints within a paper](/help/submit_tex.md#refs).
 
 11 Jul
 
-Important news for Windows users: the latest version of GSview can now read compressed files (compensating for the deficiencies in Netscape and Internet Explorer which fail to uncompress them). See [Workaround solutions for Windows](/help/pswindows) for details.
+Important news for Windows users: the latest version of GSview can now read compressed files (compensating for the deficiencies in Netscape and Internet Explorer which fail to uncompress them). See [Workaround solutions for Windows](None) for details.
 
 #### June 1997
 
 30 Jun
 
-Frequent complaints re multipart and gzipped files, see [nota bene](/x-eprint).
+Frequent complaints re multipart and gzipped files, see [nota bene](None).
 
 30 Jun
 
-Added information on the latest postscript drivers for Macintosh. These eliminate junk from the Macintosh postscript output. See the [psjunk FAQ](/help/faq/psjunk) for details.
+Added information on the latest postscript drivers for Macintosh. These eliminate junk from the Macintosh postscript output. See the [psjunk FAQ](/help/faq/psjunk.md) for details.
 
 30 Jun
 
-Added a user-supplied .com file for automatically _[viewing compressed postscript on VMS](/help/psvms)_.
+Added a user-supplied .com file for automatically _[viewing compressed postscript on VMS](None)_.
 
 14 Jun
 
-A user has kindly provided a Windows 95 batch file which automatically uncompresses postscript files for viewing, see _[Viewing compressed postscript - Workaround solutions for Windows](/help/pswindows)_.
+A user has kindly provided a Windows 95 batch file which automatically uncompresses postscript files for viewing, see _[Viewing compressed postscript - Workaround solutions for Windows](None)_.
 
 13 Jun
 
-Added some information about _[viewing compressed postscript on VMS](/help/psvms)_.
+Added some information about _[viewing compressed postscript on VMS](None)_.
 
 6 Jun
 
-For users in Germany, PDF is available on [xxx.uni-augsburg.de](http://xxx.uni-augsburg.de/), thanks to local support at University of Augsburg. Other mirror sites redirect to xxx.lanl.gov for PDF. Before trying to download PDF read the [PDF setup instructions](/help/pdf) -- you need to download and install extra fonts to make the files viewable.
+For users in Germany, PDF is available on [xxx.uni-augsburg.de](http://xxx.uni-augsburg.de/), thanks to local support at University of Augsburg. Other mirror sites redirect to xxx.lanl.gov for PDF. Before trying to download PDF read the [PDF setup instructions](None) -- you need to download and install extra fonts to make the files viewable.
 
 #### May 1997
 
@@ -1264,19 +1264,19 @@ Japan users: note the new upgraded mirror in Kyoto, [xxx.yukawa.kyoto-u.ac.jp](h
 
 15 May
 
-**Minor** change in policy (affects only weekend submissions): the deadline for submissions to appear in the Sunday night mailing is moved back to Friday 18:00 LANL time (currently 00:00 GMT). Submissions received during the rest of the weekend will appear with Monday submissions in the Monday night mailing. After consultation with a large segment of the relevant community, it was determined to continue to delay the announcements of papers received on Fridays until Sunday nights (Monday mornings in Europe), rather than shift the Sunday mailing to Friday night. In a related development, responses to any queries received during the weekend may also be deferred until Monday morning (9:00 LANL time = 1500 GMT) -- Note that 99.97% of all e-mail queries are already answered in our [comprehensive on-line help pages](/help) and [frequently asked questions](/help/faqindex) section. Recall also that any replacements received after the 18:00 LANL time deadline Mon-Fri constitute a new (revised) version. Please note that whether or not your submission makes the deadline on any given weekday is unlikely to alter markedly the future evolution of the cosmos.
+**Minor** change in policy (affects only weekend submissions): the deadline for submissions to appear in the Sunday night mailing is moved back to Friday 18:00 LANL time (currently 00:00 GMT). Submissions received during the rest of the weekend will appear with Monday submissions in the Monday night mailing. After consultation with a large segment of the relevant community, it was determined to continue to delay the announcements of papers received on Fridays until Sunday nights (Monday mornings in Europe), rather than shift the Sunday mailing to Friday night. In a related development, responses to any queries received during the weekend may also be deferred until Monday morning (9:00 LANL time = 1500 GMT) -- Note that 99.97% of all e-mail queries are already answered in our [comprehensive on-line help pages](/new/index.md) and [frequently asked questions](None) section. Recall also that any replacements received after the 18:00 LANL time deadline Mon-Fri constitute a new (revised) version. Please note that whether or not your submission makes the deadline on any given weekday is unlikely to alter markedly the future evolution of the cosmos.
 
 11 May
 
-Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](/servers).
+Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](None).
 
-Updated information on [Macintosh postscript viewers](/help/psmacs) and added some info on a [Mac shortcut to getting a bitmap version of any figure](/help/bitmap#shortcuts)
+Updated information on [Macintosh postscript viewers](None) and added some info on a [Mac shortcut to getting a bitmap version of any figure](/new/index.md#shortcuts)
 
 #### April 1997
 
-Added a [cookies form](/cookies) for selecting default viewing formats and classic icons.
+Added a [cookies form](https://arxiv.org/cookies) for selecting default viewing formats and classic icons.
 
-Renovated FAQ area has more [_workarounds for Windows and Macintosh browsers_](/help/psnonunix).
+Renovated FAQ area has more [_workarounds for Windows and Macintosh browsers_](None).
 
 #### March 1997
 
@@ -1284,7 +1284,7 @@ Renovated FAQ area has more [_workarounds for Windows and Macintosh browsers_](/
 
 Brazil users: note new Brazilian mirror, [http://xxx.if.usp.br/](http://xxx.if.usp.br/), at the [Instituto de Física da Universidade de São Paulo](http://www.if.usp.br/).
 
-Added the question _[How can I submit a paper if I don't use TeX?](/help/otherformats)_ to the FAQ.
+Added the question _[How can I submit a paper if I don't use TeX?](/help/otherformats.md)_ to the FAQ.
 
 We are now using Thomas Esser's [teTeX distribution](http://www.tug.org/tetex/) as the base of our tex system.
 
@@ -1302,7 +1302,7 @@ German users: note the new upgraded mirror site, [http://xxx.uni-augsburg.de/](h
 
 #### December 1996
 
-Added a [Space Physics](/archive/physics) subject class to the Physics archive.
+Added a [Space Physics](https://arxiv.org/archive/physics) subject class to the Physics archive.
 
 #### November 1996
 
@@ -1329,11 +1329,11 @@ For general information on the new physics archive (partitioned by keyword subje
 
 **1 Oct '96 Reorganization** -- Information on the following three topics is available:
 
-*   [The physics archive](physics)
-*   [Cond-mat archive reorganization](condreorg)
-*   [Mailings from the physics archive](physsub)
+*   [The physics archive](/new/physics.md)
+*   [Cond-mat archive reorganization](/new/condreorg.md)
+*   [Mailings from the physics archive](None)
 
-as well as a brief philosophical [synopsis](/blurb/sep96news).
+as well as a brief philosophical [synopsis](None).
 
 #### September 1996
 
@@ -1355,4 +1355,4 @@ nlin-sys archives (adap-org chao-dyn comp-gas patt-sol solv-int) consolidated fr
 
 Minor policy change: the deadline for submissions to appear in the daily mailings has been moved six hours earlier to 18:00 US Mountain time (i.e., currently 00:00 GMT, and 01:00 GMT during the winter) Sunday through Thursday. The mailings will continue to commence (and web interface updated) shortly after midnight on those days (i.e., currently 06:00 GMT Mon-Fri, and 07:00 GMT during winter). Those few submissions received between 18:00 and midnight mountain time will appear in the next day's mailing. For the most part, this change will be invisible (and will primarily affect late night submissions from the US east coast, sparing us all the 2 a.m. typos...).
 
-(See also messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
+(See also messages from [1994-1996](/new/94-96.md) and [1991-1994](/new/91-94.md).)

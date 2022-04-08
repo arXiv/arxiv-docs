@@ -44,7 +44,7 @@ This manual provides detailed documentation of SWORD transactions with
 arXiv, mandatory extension elements, error conditions, and usage
 examples.
 
-Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
+Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using the
 SWORD Deposit API.
 
 Sample code in Perl is presented to demonstrate individual steps.
@@ -677,7 +677,7 @@ When applicable the email contains the permanent arXiv identifier and
 paper password. It is important that the author/submitter closely
 inspect the representation of the submission at arXiv and take
 corrective action where necessary, see
-[checking](/help/submit#correct).
+[checking](None).
 
 The status of a SWORD deposit may be tracked using the tracking URI
 returned in the Atom `<link>` element with `rel="alternate"`, for

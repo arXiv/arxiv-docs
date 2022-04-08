@@ -35,7 +35,7 @@ automatic endorsement is given to authors from known academic
 institutions and research facilities. arXiv submitters are therefore
 encouraged to associate an institutional email address, if they have
 one, with their arXiv account (see [author registration
-help](registerhelp)). This will expedite the endorsement process.
+help](/help/registerhelp.md)). This will expedite the endorsement process.
 
 During the submission process, however, we may require authors who are
 submitting papers to a subject category for the first time to get an
@@ -100,9 +100,9 @@ have been submitted between three months and five years ago.\*
 If you would like to be able to endorse, the most important thing that
 you can do is make sure that you are registered as an author of your
 papers. If you can get the *paper password* for a paper you can [claim
-ownership](/auth/need-paper-password) of a paper immediately. If you
+ownership](https://arxiv.org/auth/need-paper-password) of a paper immediately. If you
 don't have the paper password, you can [request
-ownership](/auth/request-ownership) of a paper. Note that you must also
+ownership](https://arxiv.org/auth/request-ownership) of a paper. Note that you must also
 have an active positive endorsement to that area yourself before you may
 endorse for that subject classification.
 
@@ -124,7 +124,7 @@ asked to review it for a journal.
 
 If an author asks you for endorsement, they will send you a
 six-character alphanumeric *endorsement code*. After you enter this code
-on the [endorsement form](/auth/endorse), you can tell us that you
+on the [endorsement form](https://arxiv.org/auth/endorse), you can tell us that you
 **do** or **do not** wish to endorse a person. If you wish to abstain
 from the endorsement process altogether, do not submit anything on the
 endorsement form. If you choose not to endorse a author, you **should**

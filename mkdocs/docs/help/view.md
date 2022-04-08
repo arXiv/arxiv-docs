@@ -8,15 +8,15 @@ of the after the text of the abstract and look like:
 Download:
 ---------
 
--   [PDF](/pdf/hep-th/9901001v3)
--   [PostScript](/ps/hep-th/9901001v3)
--   [Other formats](/format/hep-th/9901001v3)
+-   [PDF](https://arxiv.org/pdf/hep-th/9901001v3)
+-   [PostScript](https://arxiv.org/ps/hep-th/9901001v3)
+-   [Other formats](https://arxiv.org/format/hep-th/9901001v3)
 
 For most articles **PDF** (Portable Document Format) will be available
 as the top link. There may also be links to **PostScript**, **HTML**,
 **Source** and **Other formats** depending on formats supplied by the
 submitted of the article. See also [browser configuration
-help](config_browser).
+help](/help/config_browser.md).
 
 <span id="other"></span>
 
@@ -28,24 +28,24 @@ available for an article, including a link to download the source files
 for TeX/LaTeX articles. Look here if you would like to download in
 formats such as
 
--   [PostScript](psvariants) at different resolutions (300dpi, 600 dpi)
--   [PostScript using scalable fonts](type1linux)
+-   [PostScript](/help/psvariants.md) at different resolutions (300dpi, 600 dpi)
+-   [PostScript using scalable fonts](/help/type1linux.md)
 -   DVI
 -   Source files
 
-The **Other formats** page also contains [instructions](/cookies) for
+The **Other formats** page also contains [instructions](https://arxiv.org/cookies) for
 viewing/setting/changing the "Cookies" sent by your browser, which allow
 changing your default preferred output format as desired.
 
 If something does not work for you, then you probably need to configure
 your web browser. With most browsers this is a simple matter of setting
 a few items in a configuration menu. See the [browser configuration
-help](config_browser).
+help](/help/config_browser.md).
 
 If you choose the **Source** option, you will receive either a gzipped
 TeX file, or a gzipped tar file if the paper has more than one file (if
 there are figure files for instance). Usually you will not want to
 select the **Source** option unless you have a specific need. Dealing
 with the package you download may require `tar`, `gzip`, `TeX` and some
-knowledge. We have some [unpacking instructions](unpack) explaining what
+knowledge. We have some [unpacking instructions](/help/unpack.md) explaining what
 to do with this package.

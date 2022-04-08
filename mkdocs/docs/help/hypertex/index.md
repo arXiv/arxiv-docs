@@ -51,7 +51,7 @@ There are various BibTeX style files which automatically create hyperlinks to ep
      SLACcitation  = "%%CITATION = HEP-TH/9711200;%%"
 }
 ```
- Style files which handle both the old-style and new-style preprint numbers include [utphys.bst](http://golem.ph.utexas.edu/~distler/TeXstuff/utphys.bst) and [kp.bst](bibstyles/kp.bst). For more information see [the BibTeX page on arXiv.org](bibstyles/).
+ Style files which handle both the old-style and new-style preprint numbers include [utphys.bst](http://golem.ph.utexas.edu/~distler/TeXstuff/utphys.bst) and [kp.bst](bibstyles/kp.bst). For more information see [the BibTeX page on arXiv.org](/help/hypertex/index.md).
 
 Example
 -------
@@ -78,7 +78,7 @@ latex link.tex
 dvips -z link.dvi -o link.ps
 ps2pdf link.ps link.pdf
 ```
-you will end up with [link.dvi](link.dvi), [link.ps](link.ps) and [link.pdf](link.pdf) files which all contain hyperlinks. Alternatively, you can use pdflatex, `pdflatex link.tex` to obtain the hyperlinked PDF file directly. There is a wide variety of options to influence the link style
+you will end up with [link.dvi](link.dvi), [link.ps](/help/faq/citelinks.md) and [link.pdf](link.pdf) files which all contain hyperlinks. Alternatively, you can use pdflatex, `pdflatex link.tex` to obtain the hyperlinked PDF file directly. There is a wide variety of options to influence the link style
 
 How it is all done internally
 -----------------------------

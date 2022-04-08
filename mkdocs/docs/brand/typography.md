@@ -35,4 +35,4 @@ We use text highlighting in two contexts, taglines and quotes.
 
 <div class="divider"></div>
 
-Learn more about [tagline formatting](tagline) and [using quotations](quotes).
+Learn more about [tagline formatting](/brand/tagline.md) and [using quotations](/brand/quotes.md).

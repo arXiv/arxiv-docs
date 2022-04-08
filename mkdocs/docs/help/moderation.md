@@ -17,7 +17,7 @@ arXiv policies that could lead to the removal of a submission are:
 - *Inappropriate format.* Abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, or advertisements may be removed. We do not accept submissions with line numbers or submissions with watermarks.
 - *Inappropriate topic.* While arXiv serves a variety of scientific communities, not all subjects are currently covered. Submissions that do not fit well into our current classification scheme may be removed and, where possible, redirected to a more appropriate repository.
 - *Duplicated content.* If moderators notice that a user has made many similar submissions in a short amount of time, or that a new submission appears to be a revision of a recent submission, then moderators may request that the submissions be consolidated. This helps ensure that arXiv is as useful as possible for all of the various communities publishing here, and it can often help the author present a more unified body of research.
-- *Rights to submit material.* Submissions to arXiv must be the author’s original work, and users must have the right to grant the rights contained in the [selected license](/help/license). Users must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. Users should not submit comments by referees. Users should not submit plagiarized material.
+- *Rights to submit material.* Submissions to arXiv must be the author’s original work, and users must have the right to grant the rights contained in the [selected license](/help/license.md). Users must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. Users should not submit comments by referees. Users should not submit plagiarized material.
 - *Excessive submission rate.* Articles submitted to arXiv must be of refereeable quality, and there is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. Moderators may request that a particular author limit their submission rate if this author has a history of many submissions to inappropriate areas or of doubtful refereeability.
 If an author has a back catalog of work to submit to arXiv we ask that they submit no more than three papers per day.
 
@@ -36,19 +36,19 @@ You will get an email from arXiv administrators when your appeal has been sent t
 - Our moderators are not referees and do not provide detailed feedback on submissions. Administrators cannot provide detailed feedback regarding submissions deemed inappropriate and will not enter into extended discussion regarding submissions.
 - In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered.
 
-The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/physics/#AdvisoryCommittee);
-[mathematics](/help/math/#AdvisoryCommittee); 
-[computer science (CoRR)](/corr); 
-[quantitative biology](/help/q-bio/#AdvisoryCommittee); 
-[quantitative finance](/help/q-fin/#AdvisoryCommittee);
-[statistics](/help/statistics/#AdvisoryCommittee);
-[electrical engineering and systems science](/help/eess/#AdvisoryCommittee); or [economics](/help/econ/#AdvisoryCommittee) .
+The appeals process allows moderators additional time to reconsider a submission, but repeated appeals with no additional information cannot be considered. If you send an appeal and the moderators reach the same decision as they did initially, no further appeal should be submitted. Extreme cases may be addressed to the appropriate advisory committee chair only: [physics](/help/index.md#AdvisoryCommittee);
+[mathematics](/help/index.md#AdvisoryCommittee); 
+[computer science (CoRR)](/help/index.md); 
+[quantitative biology](/help/index.md#AdvisoryCommittee); 
+[quantitative finance](/help/index.md#AdvisoryCommittee);
+[statistics](/help/index.md#AdvisoryCommittee);
+[electrical engineering and systems science](/help/index.md#AdvisoryCommittee); or [economics](/help/index.md#AdvisoryCommittee) .
 
 ## Who are arXiv moderators?
 
 arXiv moderators are volunteers who are experts in their fields and in the types of submissions that are appropriate for their subject classifications. They evaluate based on the content of the submission and the policies of arXiv. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal.
 
-[arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board#advisory_committees) and by arXiv staff.
+[arXiv moderators](https://arxiv.org/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board.md#advisory_committees) and by arXiv staff.
 
 Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or, in extreme cases, the appropriate advisory committee chair. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions.
 

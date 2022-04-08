@@ -5,7 +5,7 @@ title: Downloaded .gz Files that are not Gzipped
 # Downloaded `.gz` Files that are not Gzipped
 
 PostScript and source files are always supplied [gzip
-compressed](/help/unpack#gunzip).
+compressed](/help/unpack.md#gunzip).
 
 Most browsers can automatically uncompress these files when they are
 downloaded. When they do this, they should also remove the `.gz`

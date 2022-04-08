@@ -27,7 +27,7 @@ degrees.
 To further promote this convergence of ideas and stimulate the dialogue
 between disciplines as well as between the academics and practitioners,
 we announce the formation of the new [Quantitative Finance (q-fin)
-archive](/archive/q-fin).
+archive](https://arxiv.org/archive/q-fin).
 
 If you and your colleagues have active interest in quantitative finance,
 we urge you to subscribe to the archive and submit (p)reprints to it.
@@ -35,12 +35,12 @@ Both theoretical contributions and those related to practical
 applications are welcome, and subscription is freely accessible over the
 internet to all members of the scientific community. Instructions for
 registration, submission and subscription to the archive can be found at
-[http://arxiv.org/help/registerhelp](/help/registerhelp),
-[http://arxiv.org/help/uploads](/help/uploads), and
-[http://arxiv.org/help/subscribe](/help/subscribe).
+[http://arxiv.org/help/registerhelp](/help/registerhelp.md),
+[http://arxiv.org/help/uploads](None), and
+[http://arxiv.org/help/subscribe](/help/subscribe.md).
 
 The q-fin archive has grown out of a well-established series of e-print
-archives accessible at [http://arxiv.org/](/). The number of
+archives accessible at [http://arxiv.org/](https://arxiv.org). The number of
 finance-related submissions to these archives has risen steadily over
 the last several years. Unfortunately, these submissions are currently
 scattered across a number of sub-archives (including physics, cond-mat,
@@ -116,7 +116,7 @@ finance-related submissions to the arXiv.org e-Print archives during the
 past decade have already been identified and re-classified according to
 the above scheme. We thank Pierre-Alain Reigneron (CFM) for helping with
 this task. These earlier submissions will be accessible at
-[http://arxiv.org/archive/q-fin](/archive/q-fin) along with new
+[http://arxiv.org/archive/q-fin](https://arxiv.org/archive/q-fin) along with new
 Quantitative Finance submissions.
 
 To further improve the flow of information within the quantitative
@@ -152,7 +152,7 @@ structuring of the archive is overseen by an advisory committee. It
 consists of a number of well-known researchers representing both
 academic institutions and the financial industry. A number of dedicated
 volunteers will serve as "moderators" for each category listed at
-[http://arxiv.org/help/q-fin](/help/q-fin). If you have suggestions to
+[http://arxiv.org/help/q-fin](/new/q-fin_announce.md). If you have suggestions to
 improve the q-fin archive, please contact the coordinators by e-mail.
 
 Arthur M. Berd and Jean-Philippe Bouchaud  

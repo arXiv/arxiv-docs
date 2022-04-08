@@ -24,4 +24,4 @@ For more information regarding the above policies, please see:
 - https://arxiv.org/help/third_party_submission
 
 
-[Contact us!](contact)
+[Contact us!](/help/contact.md)
