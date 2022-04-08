@@ -21,4 +21,8 @@ jobs:
     - name: prep build upload to S3
       run: ./mkdocs/scripts/deploy_to_s3.sh
 
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       
