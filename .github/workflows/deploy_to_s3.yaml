@@ -10,9 +10,6 @@ jobs:
   preview:
     runs-on: ubuntu-latest
     
-    env:
-      AWS_S3_BUCKET: ${{ 
-      DEST_DIR: ${{ 
     steps:
     - uses: actions/checkout@v1
 
