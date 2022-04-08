@@ -29,7 +29,7 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_GITHUB_ACTION_CICD }}
           aws_bucket: ${{ secrets.STATIC_CDN_AWS_S3_BUCKET }}
           source_dir: 'mkdocs/site'
-          destination_dir: ${{ github.ref_name }
+          destination_dir: ${{ github.ref_name }}
           
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
