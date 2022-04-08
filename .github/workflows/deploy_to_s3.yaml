@@ -15,7 +15,7 @@ jobs:
 
     - name: Generate template
       working-directory: ./mkdocs
-      run: ./scripts/deploy_to_s3.sh
+      run: ./scripts/prep_for_mkdocs.sh
 
     - name: Build docs
       working-directory: ./mkdocs      
