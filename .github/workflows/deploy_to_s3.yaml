@@ -2,9 +2,9 @@ name: deploy_docs
 
 on:
   push:
-  pull_request:
-    branches:
-      - develop
+  # pull_request:
+  #   branches:
+  #     - develop
 
 jobs:
   preview:
@@ -15,7 +15,7 @@ jobs:
 
     - name: Generate template
       working-directory: ./mkdocs
-      run: ./scripts/prep_for_mkdocs.sh
+      run: ./prep_for_mkdocs.sh
 
     - name: Build docs
       working-directory: ./mkdocs      
