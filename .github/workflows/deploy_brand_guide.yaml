@@ -19,6 +19,6 @@ jobs:
       uses: actions/checkout@v1
 
     - name: prep build upload to S3
-      run: ./mkdir/scripts/deploy_to_s3.sh
+      run: ./mkdocs/scripts/deploy_to_s3.sh
 
       
