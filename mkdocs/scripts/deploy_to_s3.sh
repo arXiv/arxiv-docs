@@ -38,6 +38,8 @@ echo "Built the theme"
 
 mkdocs build
 
+python --version
+
 pip install aws
 
 # # Create a dedicated profile for this action to avoid conflicts
