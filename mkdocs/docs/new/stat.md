@@ -1,7 +1,7 @@
 Statistics archive (April 2007)
 ===============================
 
-The Statistics archive was [introduced](/new/stat_announce.md) 1 April 2007.
+The Statistics archive was [introduced](stat_announce) 1 April 2007.
 
 Subject categories of the **stat** archive are:
 
@@ -30,7 +30,7 @@ Subject categories of the **stat** archive are:
 
 ### arXiv:stat advisory committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 *  [Robert B. Gramacy](http://bobby.gramacy.com/)
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)

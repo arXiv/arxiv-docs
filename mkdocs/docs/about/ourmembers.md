@@ -1,6 +1,6 @@
 # Our Members
 We gratefully acknowledge the support of the following member institutions.
-Learn more about [membership](/about/membership.md).
+Learn more about [membership](/about/membership).
 
 <style>
 ol {

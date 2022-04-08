@@ -1,5 +1,5 @@
 # Top 250 Institutions with Highest Total Downloads in 2019
-Learn more about our [Institutional Membership program](/about/membership.md)
+Learn more about our [Institutional Membership program](/about/membership)
 
 **Caveats**: While we have taken considerable effort to extract reliable download data representing unique full-text downloads by real users, there are many factors which affect accuracy. 
 These factors include: 

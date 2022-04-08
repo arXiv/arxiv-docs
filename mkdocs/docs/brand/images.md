@@ -3,7 +3,7 @@
 {% endblock addl_head %}
 
 #Images
-arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](/brand/tagline.md). Illustrations capture abstract concepts well and are used in presentations and documentation.
+arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline). Illustrations capture abstract concepts well and are used in presentations and documentation.
 
 ***Important*** Please note that we must ensure we have the right to use photos and illustrations. All assets within arXiv image libraries have been cleared for use in arXiv materials only, use for other purposes is not covered.
 
@@ -16,7 +16,7 @@ Photographs are an important part of the arXiv visual brand. Our curated photo c
 We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, Dark Blue, and (as in the example below) Salmon.
 ![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60 .mkd-vert-spacing}
 
-Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](/brand/tagline.md) page.
+Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](tagline) page.
 ![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}  
 
 <div class="divider"></div>

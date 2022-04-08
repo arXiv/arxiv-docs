@@ -14,12 +14,12 @@ NEWS 2009-12-31: We have upgraded our TeX system to
 [texlive 2009](http://tug.org/texlive/) and revised the macro package
 tree for new submissions. All updates available as of 12/31/2009 have
 been included in our installation of the texlive system. See [texlive
-2009 transition help](/help/faq/texlive.md) for possible problems that may result
+2009 transition help](texlive) for possible problems that may result
 from this upgrade.
 
 2006-11-02: We have upgraded our TeX system to teTeX3 and revised the
 macro package tree for new submissions. See [teTeX3 transition
-help](/help/faq/tetex3.md) for possible problems that may result from this upgrade.
+help](tetex3) for possible problems that may result from this upgrade.
 
 Look through these common mistakes if your TeX/LaTeX submission failed:
 
@@ -47,7 +47,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
   - [arXiv system attempts processing with PDFLaTeX for submissions
     which are regular latex](#ifpdf)
   - [Why does my submission fail the automatic TeXing procedure when I
-    use Feynmf?](/help/faq/feynmf.md#overwrite)
+    use Feynmf?](feynmf#overwrite)
   - [Why does my submission fail to recognize the main tex
     file?](#wrongtex)
   - [Problems with inclusion of binary or other bitmap figures; `PS BAD`
@@ -264,7 +264,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
 
              More data for our experiment is available at http://www.some.where/else
        
-    2.  Include a file [`00README.XXX`](/help/00README.md#ignore) with your submission that includes
+    2.  Include a file [`00README.XXX`](/help/00README#ignore) with your submission that includes
         the line:
         
           
@@ -311,7 +311,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
       
 
   - <span id="nohypertex"></span> **To disable HyperTeX**  
-    By default, our TeX system uses [HyperTeX](/help/faq/index.md) to add
+    By default, our TeX system uses [HyperTeX](/hypertex) to add
     hyperlinks between references, sections and equations within your
     paper. These show up in the PDF (and in the PostScript with some
     viewers).
@@ -364,7 +364,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     interpretation must be explicitly specified**.
     
     If you are curious about the differences, see [these
-    examples](/help/faq/doublesubscript.md).
+    examples](doublesubscript).
     
       
 

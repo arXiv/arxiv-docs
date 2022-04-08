@@ -12,7 +12,7 @@ single gzipped tar file for downloading.
 
 You can recognize a tar file by the binary headers (^@ characters) at
 the top of the file, followed by ordinary text. For info on unpacking
-tar files, see our [unpacking help page](/help/unpack.md).
+tar files, see our [unpacking help page](/help/unpack).
 
 Most unix web browsers will uncompress gzipped files but not untar them.
 Thus for multi-part files you need to use the **tar** command to unpack
@@ -22,7 +22,7 @@ Windows and Macintosh browsers do not uncompress automatically).
 
 **Postscript links** are sent out as compressed (gzipped) postscript
 files, and your browser [needs to be configured to handle
-this](/help/config_browser.md).
+this](/help/config_browser).
 
 Further information can be found in our *[Frequently Asked
-Questions](/help/faq/index.md)* pages.
+Questions](/help/faq)* pages.

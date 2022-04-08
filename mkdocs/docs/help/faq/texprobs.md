@@ -12,16 +12,16 @@ submission replaced to correct the problems.
   - [Extra white space around figures covers up some of the
     text](#powerpoint)
   - [Why don't the labels for my figures appear when I use
-    Feynmf?](/help/faq/feynmf.md#nolabel)
-  - [Why are the margins different? Why is my text truncated?](/help/faq/dvips.md)
-  - [Why does my paper give the wrong date?](/help/faq/today.md)
+    Feynmf?](feynmf#nolabel)
+  - [Why are the margins different? Why is my text truncated?](dvips)
+  - [Why does my paper give the wrong date?](today)
   - [Why do my citations appear in long form `[1,2,3,4]` instead of
-    short form `[1-4]`?](/help/faq/citelinks.md)
+    short form `[1-4]`?](citelinks)
   - [Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.)
-    display incorrectly in the processed document?](/help/faq/pd1enc.md)
-  - [Why are there problems with my postscript file?](/help/faq/psbad.md)
+    display incorrectly in the processed document?](pd1enc)
+  - [Why are there problems with my postscript file?](/help/faq/psbad)
   - [Why are some pages in the generated PDF file rotated and how do I
-    avoid this?](/help/faq/pdfrotate.md)
+    avoid this?](/help/faq/pdfrotate)
 
 -----
 

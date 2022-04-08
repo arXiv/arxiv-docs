@@ -3,7 +3,7 @@ Cond-mat archive reorganization
 
 Because of the continued growth of the cond-mat e-print archive (see the [monthly totals](http://xxx.lanl.gov/year/cond-mat/96)), many people have desired a bit of reorganization. This is now implemented.
 
-Now on cond-mat you can include a **Subj-class:** header with submissions. This is most easily done with a select menu for [web submissions](None), or alternatively it can be included in e-mail submissions; see our [abstract preparation help](/help/prep.md). Subject classes must be chosen from the list below. People who subscribe to cond-mat as is would see no difference, except the listings can be sorted by the subject classification. You may, however, subscribe to any subset of classifications; see our [physics subscription help](http://xxx.lanl.gov/new/physsub.html). In this sense, each subject class is like a new archive.
+Now on cond-mat you can include a **Subj-class:** header with submissions. This is most easily done with a select menu for [web submissions](/help/uploads), or alternatively it can be included in e-mail submissions; see our [abstract preparation help](/help/prep). Subject classes must be chosen from the list below. People who subscribe to cond-mat as is would see no difference, except the listings can be sorted by the subject classification. You may, however, subscribe to any subset of classifications; see our [physics subscription help](http://xxx.lanl.gov/new/physsub.html). In this sense, each subject class is like a new archive.
 
 We believe that this is a more efficient method for expansion than adding new archives. As we've seen with supr-con, many don't necessarily use a new archive, and those who do typically cross-list to cond-mat anyway. This method also avoids the trauma of papers being redirected away from the cond-mat archive and moreover makes it easy to expand by adding a new Subj-class.
 
@@ -25,6 +25,6 @@ Surely we've missed some important areas and perhaps didn't pick the best names.
 
 Initially, it may be necessary to add the appropriate Subj-class manually here. We hope, however, the authors will adapt quickly to the new scheme so that manual intervention will become unnecessary.
 
-We are also starting a "physics" archive, which will cover fields not currently served by the archives, and will use a similar subject-classification scheme. For details, see the [physics archive introduction](/new/physics.md).
+We are also starting a "physics" archive, which will cover fields not currently served by the archives, and will use a similar subject-classification scheme. For details, see the [physics archive introduction](physics).
 
 The subject classification was introduced on October 1, so send your comments to [www-admin@xxx.lanl.gov](mailto:www-admin@xxx.lanl.gov (cond reorg RFC)) as soon as possible for maximal effect.

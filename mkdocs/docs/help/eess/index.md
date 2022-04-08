@@ -1,15 +1,15 @@
 # Electrical Engineering and Systems Science archive
 
-The Electrical Engineering and Systems Science (eess) archive formed 18 September 2017 and you can read about the [announcement of archive here](/new/eess_announce.md).
+The Electrical Engineering and Systems Science (eess) archive formed 18 September 2017 and you can read about the [announcement of archive here](/new/eess_announce).
 
-You can browse articles and view categories at the [main eess archive page](https://arxiv.org/archive/eess).
+You can browse articles and view categories at the [main eess archive page](/archive/eess).
 
-The [moderators for are listed here](https://arxiv.org/moderators#eess#eess).
+The [moderators for are listed here](/moderators#eess).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Electrical Engineering and Systems Advisory Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Al Bovik, U. Texas Austin
 - Yonina Eldar, Technion

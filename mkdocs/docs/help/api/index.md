@@ -12,11 +12,11 @@ provides links to developer documentation, and gives instructions for
 how to join the mailing list and contact other developers and
 maintainers.
 
-Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using the arXiv
+Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
 API.
 
 For more news and questions about the arXiv API, please see our [arxiv-api
-group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](/help/api/faq.md).
+group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](faq).
 
   - [About the arXiv API](#about)
 
@@ -24,7 +24,7 @@ group](http://groups.google.com/group/arxiv-api). Additional information is also
 
   - [Using the arXiv API](#using)
 
-  - [arXiv API documentation](/help/api/user-manual.md)
+  - [arXiv API documentation](./user-manual)
 
   - [Community](#community)
 
@@ -66,7 +66,7 @@ is no arXiv-supplied software that must be downloaded and installed to
 be able to use the api.
 
 Please see [Using the arXiv API](#using), or the [User's
-Manual](/help/api/user-manual.md) for more information.
+Manual](user-manual) for more information.
 
 <a name="using"></a>
 ## Using the arXiv API
@@ -94,7 +94,7 @@ constructing the api url's to get a feel for how the system works. This
 is also a great debugging tool to make sure your url's make sense to the
 api. [Firefox](http://en.www.mozilla.com/en/firefox/) renders Atom
 particularly cleanly. More detailed documentation on constructing API
-urls can be found in the [User's Manual](/help/api/user-manual.md#Architecture).
+urls can be found in the [User's Manual](user-manual#Architecture).
 
 Once you have familiarized yourself with the api, you should be able to
 easily write programs that call the API automatically. Most programming
@@ -126,7 +126,7 @@ results. See the documentation and example programs for more detailed
 examples. If your favorite language is not up here, write us with an
 example, and we'll be glad to post it\! For more detailed examples in
 these languages which cover more advanced API programming, please see
-the [User's Manual](/help/api/user-manual.md#detailed_examples).
+the [User's Manual](user-manual#detailed_examples).
 
 All of the simple examples produce an output which looks like:
 
@@ -244,9 +244,9 @@ The file\_get\_contents() function is part of the PHP core language:
 
 ## arXiv API documentation
 
-The API [User's Manual](/help/api/user-manual.md) discusses the API interface and
+The API [User's Manual](user-manual) discusses the API interface and
 returned Atom format in detail, and gives code examples in the languages
-listed above. The [API FAQ](/help/api/faq.md) has answers to common questions, or
+listed above. The [API FAQ](faq) has answers to common questions, or
 feel free to ask the [arxiv-api discussion
 list](http://groups.google.com/group/arxiv-api).
 

@@ -3,7 +3,7 @@ arXiv Sustainability Advisory Group
 
 Cornell University Library  
 August 5, 2010; last updated September 7, 2010  
-See also: [arXiv Support](None)  
+See also: [arXiv Support](/help/support)  
 Contact: <support@arxiv.org>
 
 Purpose of the Sustainability Advisory Group

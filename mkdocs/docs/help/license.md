@@ -96,8 +96,8 @@ If you have permission from a publisher to upload content to arXiv
 provided that you include a special copyright statement with the paper,
 the correct place for that statement is the first page of the text of
 the submission. Copyright notices should not be included in the separate
-[metadata](/help/prep.md#comments) and will be removed.
+[metadata](/help/prep#comments) and will be removed.
 
 If you have any additional questions about arXiv's copyright and
-licensing policies, please [contact](/help/contact.md) the
+licensing policies, please [contact](/help/contact) the
 arXiv administrators directly.

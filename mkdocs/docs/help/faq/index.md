@@ -3,69 +3,69 @@
 ## Information About Downloading and Viewing Files
 
   - [How do I get Postscript files and what do I do with
-    them?](None)
-  - [How do I get PDF files and what do I do with them?](/help/faq/pdfrotate.md)
+    them?](../ps)
+  - [How do I get PDF files and what do I do with them?](../pdf)
   - [I just received a file from arXiv; what do I do with
-    it?](/help/unpack.md)
+    it?](../unpack)
   - [Why are my downloaded .gz files not gzipped? Why can't I gunzip
-    them?](/help/faq/browsergunzip.md)
-  - [What MIME types does arXiv use for delivery?](/help/mimetypes.md)
-  - [What are Type I computer modern fonts?](/help/pscm.md)
-  - [Does arXiv support OpenURL linking services?](/help/openurl.md)
-  - [Does arXiv support RSS news feeds?](/help/rss.md)
-  - [Does arXiv support the Open Archives Initiative?](/help/faq/index.md)
-  - [How do I establish an arXiv mirror site?](/help/faq/cache.md)
+    them?](browsergunzip)
+  - [What MIME types does arXiv use for delivery?](../mimetypes)
+  - [What are Type I computer modern fonts?](../pscm)
+  - [Does arXiv support OpenURL linking services?](../openurl)
+  - [Does arXiv support RSS news feeds?](../rss)
+  - [Does arXiv support the Open Archives Initiative?](../oa)
+  - [How do I establish an arXiv mirror site?](cache)
 
 ## Information for Submitters
 
 ### Procedure and Submission Preparation
 
   - [How do I format the information fields (metadata) that must be
-    supplied at submission time?](/help/prep.md)
-  - [How can I package my submission files?](/help/tar.md)
+    supplied at submission time?](../prep)
+  - [How can I package my submission files?](../tar)
   - [When will people be able to see my new
-    submission?](None)
+    submission?](../submit#availability)
   - [I am registered author, and my e-mail address changed. What do I
-    do?](/help/registerhelp.md#emailchange)
-  - [How can I submit a paper if I don't use TeX?](/help/otherformats.md)
+    do?](../registerhelp#emailchange)
+  - [How can I submit a paper if I don't use TeX?](../otherformats)
   - [How do I submit a paper in a language other than English, or with
-    versions in more than one language?](/help/faq/multilang.md)
+    versions in more than one language?](multilang)
   - [Why doesn't my paper have the arXiv id stamped on the side of the
-    page?](/help/faq/whynostamp.md)
-  - [What license options does arXiv support?](/help/license.md)
+    page?](whynostamp)
+  - [What license options does arXiv support?](../license)
   - [May I submit a translation of previously published
-    work?](/help/translations.md)
+    work?](../translations)
 
 <span id="tex"></span>
 
 ### TeX Submission Preparation
 
-  - [What is TeX?](None)
-  - [Why do I need to submit my TeX source?](/help/faq/whytex.md)
-  - [How can I submit my TeX source?](/help/submit_tex.md)
+  - [What is TeX?](../tex)
+  - [Why do I need to submit my TeX source?](whytex)
+  - [How can I submit my TeX source?](../submit_tex)
   - [How do I make bitmaps of some of my figures to reduce the size of
-    the submission?](/help/faq/index.md)
+    the submission?](../bitmap/index)
   - [How can I prepare tables or figures for landscape printout? (Not
-    applicable to PDFLaTeX submissions.)](/help/faq/landscape.md)
-  - [Is REVTeX 4.1 supported?](/help/faq/revtex.md)
-  - [Which AMS-LaTeX versions are supported?](/help/faq/amslatex2000.md)
+    applicable to PDFLaTeX submissions.)](landscape)
+  - [Is REVTeX 4.1 supported?](revtex)
+  - [Which AMS-LaTeX versions are supported?](amslatex2000)
   - [Do you have the latest Astronomy & Astrophysics class
-    file?](/help/faq/aaclass.md)
+    file?](aaclass)
   - [Do you support LaTeX hyphenation patterns for languages other than
-    American English?](/help/faq/texhyphenation.md)
+    American English?](texhyphenation)
   - [Why did my submission fail the automatic TeXing
-    procedure?](/help/faq/mistakes.md)
+    procedure?](mistakes)
   - [Why doesn't my processed TeX submission look the way I expected
-    it?](/help/faq/texprobs.md)
+    it?](texprobs)
   - [Why is my PostScript file so large? How do I make it
-    smaller?](/help/faq/psjunk.md)
+    smaller?](psjunk)
   - [Does arXiv support MinionPro, Utopia, or other proprietary
-    fonts?](/help/faq/freefonts.md)
+    fonts?](freefonts)
 
 ## Miscellaneous
 
-  - [References to and in arXiv documents](/help/faq/references.md)
-  - [Trackbacks - Links to blogs](/help/trackback.md)
+  - [References to and in arXiv documents](references)
+  - [Trackbacks - Links to blogs](../trackback)
   - [Why don't you release statistics about paper
-    retrieval?](/help/faq/statfaq.md)
+    retrieval?](statfaq)
  

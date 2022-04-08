@@ -17,11 +17,11 @@ previous updates):
         of contributing institutions to grow.
     -   We gratefully acknowledge the contributions of supporting
         institutions: [arXiv 2010
-        Supporters](/about/reports/2010_supporters.md) and [arXiv 2011
-        Supporters](/about/reports/2011_supporters.md).
+        Supporters](/help/support/2010_supporters) and [arXiv 2011
+        Supporters](/help/support/2011_supporters).
     -   Budget information for arXiv is available here: [CY2010 expenses
         and revenues](https://confluence.cornell.edu/x/BKpRF) and
-        [CY2011 budget projection](None).
+        [CY2011 budget projection](/help/support/2011_budget).
 -   Review and stabilize arXiv staffing and organization by defining
     roles for management, IT development, and user support with clear
     lines of reporting and responsibility.
@@ -114,7 +114,7 @@ potentially cover the expenses associated with running arXiv?**
 **What are the goals of the data conservancy pilot?**
 
 > We announced in the [April 2011
-> update](/about/reports/arxiv_busplan_Apr2011.md) that in collaboration
+> update](/help/support/arxiv_busplan_Apr2011) that in collaboration
 > with the [NSF Data Conservancy project](http://dataconservancy.org/),
 > we have launched a pilot interface that allows arXiv submitters to
 > upload data associated with their articles directly to the Data
@@ -132,7 +132,7 @@ potentially cover the expenses associated with running arXiv?**
 planning initiative?**
 
 > The arXiv sustainability initiative's website is
-> [http://arxiv.org/help/support](None), and we will continue
+> [http://arxiv.org/help/support](/help/support), and we will continue
 > to post quarterly updates there. You are also welcome to send your
 > questions and input to <support@arxiv.org>. We have recently created
 > an announcement email list for updates about arXiv support efforts,

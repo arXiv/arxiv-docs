@@ -23,15 +23,15 @@ We are in the process of gathering feedback to assess the technology
 plan.
 
 The [arXiv Sustainability Advisory
-Group](/about/reports/sustainability_advisory_group.md) held its first
+Group](/help/support/sustainability_advisory_group) held its first
 meeting and discussed a range of issues including the 2011 budget and
 contribution levels. As described in the [arXiv business model white
-paper](/about/reports/whitepaper.md), Cornell University Library is
+paper](/help/support/whitepaper), Cornell University Library is
 committed to fund 15% of the operating budget. Any potential surplus
 accrued through institutional contributions will be rolled over for
 future years' budget. We updated the [2010 arXiv
-budget](None) and also posted a [projected budget
-for 2011](None). One of our goals for the next year
+budget](/help/support/2010_budget) and also posted a [projected budget
+for 2011](/help/support/2011_budget). One of our goals for the next year
 is to track cost elements even closer and expand the in-kind expenses
 category.
 
@@ -44,9 +44,9 @@ advisory group, which serves an essential consultative role in assisting
 Cornell develop diverse sustainability strategies.
 
 More information about our sustainability and business planning efforts
-is available at [http://arxiv.org/help/support](None).
+is available at [http://arxiv.org/help/support](/help/support).
 
-We thank all our [supporters](/about/reports/2010_supporters.md) and welcome
+We thank all our [supporters](/help/support/2010_supporters) and welcome
 questions and suggestions.
 
 arXiv Business Planning Team  

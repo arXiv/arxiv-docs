@@ -13,7 +13,7 @@ appending a period (.) and the subject class letters to the URL. For
 example, the URL for the RSS page for Mathematics -- Quantum Algebra is
 `http://arxiv.org/rss/math.QA`.
 
-Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using the
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
 arXiv RSS feeds.
 
 ### Customization
@@ -35,4 +35,4 @@ parameter may be combined with the `mirror` parameter. For example,
 0.91 output with links to the French mirror.
 
 Looking for search results in an *RSS-like* format? See the [arXiv search 
-API](/help/index.md) for more information and usage instructions.
+API](/help/api/index) for more information and usage instructions.

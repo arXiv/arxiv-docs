@@ -6,7 +6,7 @@ January 2012
 **Governance Planning Grant from Simons Foundation**
 
 As announced in our [October'11
-update](/about/reports/arxiv_busplan_Oct2011.md), the Simons Foundation has
+update](/help/support/arxiv_busplan_Oct2011), the Simons Foundation has
 provided a $60,000 planning grant to support the development of a
 governance model that will guide arXiv's transition from an exclusive
 initiative of Cornell University Library (CUL) to a collaboratively
@@ -60,17 +60,17 @@ arXiv.
 In 2011, 133 institutions in 18 countries have pledged their support,
 totaling $424,000 in contributions. We gratefully acknowledge the
 contributions of supporting institutions: [arXiv 2010
-Supporters](/about/reports/2010_supporters.md) and [arXiv 2011
-Supporters](/about/reports/2011_supporters.md). The budget information for
+Supporters](/help/support/2010_supporters) and [arXiv 2011
+Supporters](/help/support/2011_supporters). The budget information for
 arXiv is available here: [CY2010 expenses and
 revenues](http://tinyurl.com/3wu56ur), [CY2011 expenses and
 revenues](http://tinyurl.com/7qvkt4n).
 
-We have a [budget estimate for 2012](None) up on
+We have a [budget estimate for 2012](/help/support/2012_budget) up on
 the arXiv website. You will notice that the annual expenses have
 increased due to our need to add a new user support person and a
 half-time programmer. We have just completed performing an analysis of
-the [2011 download activity](/about/reports/2011_usage.md) in order to
+the [2011 download activity](/help/support/2011_usage) in order to
 determine the top 200 constituents. There are not any significant
 variations between the 2010 and 2011. Next week, we will contact each
 institution on the list (or their representative) regarding 2012
@@ -97,7 +97,7 @@ of the February planning meetings, we expect to announce a model for
 **Communication**
 
 The arXiv sustainability initiative's website is
-[http://arxiv.org/help/support](None), including the quarterly
+[http://arxiv.org/help/support](/help/support/), including the quarterly
 updates. You are also welcome to send your questions and input to
 support@arxiv.org. We have an email list for sharing updates about
 arXiv support efforts. If you received this update directly, you are

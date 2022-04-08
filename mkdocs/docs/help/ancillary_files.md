@@ -2,12 +2,12 @@ Ancillary files
 ===============
 
 **Please note that the ancillary
-files feature is *not* supported with [PDF submissions](/help/submit_pdf.md) at this
+files feature is *not* supported with [PDF submissions](submit_pdf) at this
 time. They are only supported for submissions with TeX/PDFLaTeX source files.**
 
 
 arXiv is primarily an [archive and distribution service for research
-articles](/help/primer.md). There are limited facilities for including ancillary
+articles](primer). There are limited facilities for including ancillary
 files with articles. Such ancillary
 files might include:
 
@@ -17,7 +17,7 @@ files might include:
 -   Workbooks and spreadsheets
 
 arXiv accepts ancillary material only in support of research articles
-submitted. Note that tex files should not be included in this directory. Additionally, no pointers inside your codebase should reference this directory (it will change upon announcement, and any linking may be lost). Full text placed in the ancillary directory will *not* be indexed in searches. For information on submitting supplemental text that can be indexed, please see [this tex help page](/help/submit_tex.md#autoignore).
+submitted. Note that tex files should not be included in this directory. Additionally, no pointers inside your codebase should reference this directory (it will change upon announcement, and any linking may be lost). Full text placed in the ancillary directory will *not* be indexed in searches. For information on submitting supplemental text that can be indexed, please see [this tex help page](/help/submit_tex#autoignore).
 
 Submission of ancillary files
 -----------------------------
@@ -43,10 +43,10 @@ Display and download
 
 The abstract pages for articles that include ancillary files will
 include additional links below the usual article download links. See,
-for example, [arXiv:0811.2625v2](https://arxiv.org/abs/0811.2625v2). There is also a
+for example, [arXiv:0811.2625v2](/abs/0811.2625v2). There is also a
 separate page that lists all ancillary files with greater detail than
 there is room for on the abstract page. See, for example, [ancillary
-files for arXiv:0905.2326v1](/help/ancillary_files.md). In both cases there
+files for arXiv:0905.2326v1](/src/0905.2326v1/anc). In both cases there
 are links to each file for individual download. Ancillary files are also
 included in the complete article source that may be downloaded from the
-[other formats](https://arxiv.org/format/0905.2326v1) page.
+[other formats](/format/0905.2326v1) page.

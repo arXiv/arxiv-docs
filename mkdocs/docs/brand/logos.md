@@ -13,7 +13,7 @@ Using our logo consistently over time will build up rich layers of meaning with 
 
 *The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition. Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.*
 
-Are you a third party looking to use our logos in your product or materials? Read our [Brand Guidelines](/brand/brand-guidelines.md).
+Are you a third party looking to use our logos in your product or materials? Read our [Brand Guidelines](brand-guidelines).
 
 ###Minimum size
 Establishing a minimum size ensures legibility, and that our logo is not compromised.

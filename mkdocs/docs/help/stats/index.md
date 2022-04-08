@@ -4,13 +4,13 @@ arXiv usage statistics
 **Submission statistics:**
 
 -   [Monthly submission
-    totals](https://arxiv.org/stats/monthly_submissions)
+    totals](/stats/monthly_submissions)
 -   [Submission totals broken down by major subject areas through
-    2019](/help/stats/index.md)
+    2019](2019_by_area/index)
 
 **Access and download statistics:**
 
--   [Today's usage for arXiv.org](/help/faq/today.md) (not
+-   [Today's usage for arXiv.org](/stats/today) (not
     including mirrors)
--   [Monthly download rates](https://arxiv.org/stats/monthly_downloads)
--   [Annual institutional downloads](/about/membership.md)
+-   [Monthly download rates](/stats/monthly_downloads)
+-   [Annual institutional downloads](/about/membership)

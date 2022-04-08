@@ -60,5 +60,5 @@ article supersedes arXiv:z."
 ## Appeals
 
 A submitter who believes that an admin note indicating text overlap has
-been incorrectly applied to their article should [contact](/help/contact.md)
+been incorrectly applied to their article should [contact](contact)
 arXiv moderation with a detailed explanation or justification.

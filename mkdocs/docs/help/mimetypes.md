@@ -45,7 +45,7 @@ multi-file PS). The `/src/ID` form always delivers a gzipped tar file.
 
 ### Multiple source files example
 
-Article [arXiv:hep-lat/9107001](https://arxiv.org/abs/hep-lat/9107001v1) has multiple
+Article [arXiv:hep-lat/9107001](/abs/hep-lat/9107001v1) has multiple
 file TeX source. Via both the `/e-print/` and `/src/` URIs a gzipped tar
 file is supplied.
 
@@ -61,7 +61,7 @@ file is supplied.
 
 ### Single TeX file example
 
-Article [arXiv:hep-lat/9107002](https://arxiv.org/abs/hep-lat/9107002v1) has a single TeX
+Article [arXiv:hep-lat/9107002](/abs/hep-lat/9107002v1) has a single TeX
 file as source. Via the `/e-print/` URI this is supplied directly, via
 the `/src/` URI a gzipped tar file is supplied.
 

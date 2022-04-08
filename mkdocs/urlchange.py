@@ -1,8 +1,6 @@
 """Script to alter the links in the markdown files to go from
 `membership` to be absolute links md files like `/about/membership.md`.
 
-This should be idempotent. 
-
 This is used with the mkdocs plugin `abs-to-rel` so these become
 relative links in the HTML.
 

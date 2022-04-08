@@ -2,10 +2,10 @@ arXiv Bulk Data Access - Amazon S3
 ==================================
 
 This page describes arXiv bulk data available from Amazon S3. See also
-[details of other bulk data feeds from arXiv](None). Note that
+[details of other bulk data feeds from arXiv](bulk_data). Note that
 arXiv's S3 buckets are located in the Eastern US (N. Virginia) region.
 
-Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using the
+Please review the [Terms of Use for arXiv APIs](./api/tou) before using the
 arXiv bulk data buckets.
 
 *Note: Most articles submitted to arXiv are submitted with the [default
@@ -17,7 +17,7 @@ right to grant any specific rights to others. We are thus unable to
 grant others the right to distribute arXiv articles. If you build
 indexes or tools based on the full-text, you must link back to arXiv for
 downloads. A small fraction of submissions are made with [other
-licenses](/help/license.md) and this information is available in the
+licenses](license) and this information is available in the
 OAI-PMH metadata.*
 
 Update 2011-01-03: Source files also available from S3, see
@@ -157,7 +157,7 @@ Update frequency
 
 We update both the bulk PDFs and source files to add new content on an
 approximately monthly schedule. Updates to existing files are less
-frequent. Please [contact arXiv administrators](/help/contact.md) if you
+frequent. Please [contact arXiv administrators](contact) if you
 propose to build a service relying upon a particular update schedule.
 
 Tools<span id="tools"></span>

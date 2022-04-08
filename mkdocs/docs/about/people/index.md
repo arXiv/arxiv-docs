@@ -8,11 +8,11 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
 
 ## For more information about who is arXiv:
 
-- [arXiv Leadership Team](/about/people/leadership_team.md)
-- [arXiv Staff](/about/people/staff.md)
-- [Moderators](https://arxiv.org/moderators/)
-- [Volunteer Developers](/about/people/developers.md)
-- [Scientific Advisory Board and Subject Advisory Committees](/about/people/scientific_ad_board.md)
-- [Member Advisory Board](/about/people/member_ad_board.md)
-- [Technical Advisory Group](/about/people/technical_ad_group.md)
-- [Organizational Chart](/about/governance.md)
+- [arXiv Leadership Team](leadership_team)
+- [arXiv Staff](staff)
+- [Moderators](/moderators/)
+- [Volunteer Developers](developers)
+- [Scientific Advisory Board and Subject Advisory Committees](scientific_ad_board)
+- [Member Advisory Board](member_ad_board)
+- [Technical Advisory Group](technical_ad_group)
+- [Organizational Chart](/about/governance)

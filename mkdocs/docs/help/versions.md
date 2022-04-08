@@ -6,7 +6,7 @@ our policy that all submitted works cannot be removed once publicly
 available. If an author needs to update the article after announcement,
 they may replace or withdraw the article, which creates a new version.
 This increments the version portion of the arXiv identifier. An example
-article with multiple versions is [arXiv:1710.02185](https://arxiv.org/abs/1710.02185).
+article with multiple versions is [arXiv:1710.02185](/abs/1710.02185).
 
 Making previous versions of submitted papers publicly available archives
 the historical record of research work. As such, it is a useful aid to
@@ -18,19 +18,19 @@ What does arXiv mean by versions?
 All submissions receive a "date stamp", recorded as the time the
 submitter clicks "Submit article" at the end of the submission process.
 Once a submission is made available, it receives a permanent [arXiv
-identifier](None). Any replacement or withdrawal of that
+identifier](arxiv_identifier). Any replacement or withdrawal of that
 article generates a new version. This will increment its version number
 by one, with the most recent version always being displayed, even when
 the Abstract page is viewed without a version number at the end, such as
 the above example, `https://arxiv.org/abs/1710.02185`. For information
 on how to cite individual versions, please see the related
-[references](/help/faq/references.md) FAQ page.
+[references](faq/references) FAQ page.
 
 What constitutes a version?
 ---------------------------
 
-A version will be created once a [replacement](/help/replace.md) or
-[withdrawal](/help/withdraw.md) submission is made public. The *Submission
+A version will be created once a [replacement](replace) or
+[withdrawal](withdraw) submission is made public. The *Submission
 history* section of the Abstract page indicates the version number being
 viewed, as well as all available versions.
 
