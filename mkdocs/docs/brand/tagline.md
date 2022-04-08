@@ -1,73 +1,13 @@
+{% block addl_head %}
+<link rel="stylesheet" type="text/css" href="{{'/css/brand_guide.css' | urlize}}""/>
+{% endblock addl_head %}
+
 #Tagline
-<style>
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-.mkd-img-border {
-  margin:1em 0px;
-  padding:0;
-  border:.25em solid #ededed;
-}
-.mkd-horz-spacing {
-  margin-right:1em;
-  margin-left:1em;
-}
-.mkd-img-left {
-  float:left;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-right {
-  float:right;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-full {
-  width:100% !important;
-}
-.mkd-img-60 {
-  width:100% !important;
-  margin:0 auto;
-  display:block;
-}
-.mkd-img-thumb {
-  max-width:150px !important;
-}
-.mkd-img-icon {
-  border-radius:25%;
-  width:150px;
-  float:left;
-  margin:0 .5em;
-}
-@media (min-width: 576px) {
-  .mkd-img-left {
-    width:calc(50% - 1.25em);
-    margin-right:2em;
-  }
-  .mkd-img-right {
-    width:calc(50% - 1.25em);
-    margin-left:2em;
-  }
-  .mkd-img-60 {
-    width:60% !important;
-    margin:0 auto;
-    display:block;
-  }
-}
-</style>
-The tagline **"arXiv connects..."** reflects our role as a place of connection among researchers, institutions, repositories, other Xivs, and to the world of open science. It re-enforces the message of interconnectivity behind arXiv's logo, but adds specific context through word and image choices.
+The tagline **"arXiv connects..."** reflects our role as a place of connection among researchers, institutions, repositories, other Xivs, and to the world of open science. It re-enforces the message of interconnectivity behind arXiv's logo, but adds specific context through word and image choice.
 
 Our tagline is both consistent and flexible. It always begins with "arXiv connects" in a semi-bold weight, with the second line starting in lowercase and in a regular weight. The text is always highlighted in a bold black, with two pixels of spacing between the highlighted lines. No punctuation is ever used.
+
+The second line is flexible. But it should always be short, and directly address an audience that arXiv has a connection with.
 
 The font used is Freight Sans Pro (in Google applications, use Catamaran. When other fonts are not available default to Arial). The text color is Light Warm Grey over a black background.
 

@@ -1,31 +1,8 @@
+{% block addl_head %}
+<link rel="stylesheet" type="text/css" href="{{'/css/brand_guide.css' | urlize}}""/>
+{% endblock addl_head %}
+
 #Colors
-<style>
-.mkd-img-left {
-  float:left;
-  width:100%;
-}
-.divider {
-  clear:both;
-  height: 4em;
-}
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-  .mkd-img-left {
-    margin-right:2em;
-    width: auto !important;
-  }
-}
-</style>
 To maintain a strong and consistent communication system for arXiv only certain specified colors may be used. Bright colors are associated with positivity, while reduced contrast (achieved with background washes) is associated with neutrality and objectivity.
 
 ![arXiv Colors](images/brand-color-map.jpg){.mkd-img-left}

@@ -1,73 +1,8 @@
+{% block addl_head %}
+<link rel="stylesheet" type="text/css" href="{{'/css/brand_guide.css' | urlize}}""/>
+{% endblock addl_head %}
+
 #Images
-<style>
-.divider {
-  clear:both;
-  height: 4em;
-}
-.mkd-img-border {
-  margin:1em 0px;
-  padding:10px;
-  border:.25em solid #ededed;
-}
-.mkd-horz-spacing {
-  margin-right:1em;
-  margin-left:1em;
-}
-.mkd-img-left {
-  float:left;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-right {
-  float:right;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-full {
-  width:100% !important;
-}
-.mkd-img-60 {
-  width:100% !important;
-  margin:0 auto;
-  display:block;
-}
-.mkd-img-quad {
-  width:calc(50% - 1em);
-  margin:0 .25em;
-  display:block;
-  float:left;
-}
-.mkd-img-thumb {
-  max-width:150px !important;
-}
-.mkd-img-icon {
-  border-radius:25%;
-  border:.25em solid #ededed;
-}
-@media (min-width: 576px) {
-  .mkd-img-left {
-    width:calc(50% - 1.25em);
-    margin-right:.5em;
-    margin-top: 1em;
-  }
-  .mkd-img-right {
-    width:calc(50% - 1.25em);
-    margin-left:.5em;
-    margin-top: 1em;
-  }
-  .mkd-img-60 {
-    width:60% !important;
-    margin:1em auto;
-    display:block;
-  }
-  .mkd-img-quad {
-    width:calc(25% - 1em);
-    margin:.5em;
-    display:block;
-    float:left;
-  }
-}
-</style>
 arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline). Illustrations capture abstract concepts well and are used in presentations and documentation.
 
 ***Important*** Please note that we must ensure we have the right to use photos and illustrations. All assets within arXiv image libraries have been cleared for use in arXiv materials only, use for other purposes is not covered.
