@@ -29,10 +29,11 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_GITHUB_ACTION_CICD }}
           aws_bucket: ${{ secrets.STATIC_CDN_AWS_S3_BUCKET }}
           source_dir: 'mkdocs/site'
-          destination_dir: ${{ github.ref }}
+          #destination_dir: ${{ github.ref }}
+          destination_dir: ${{ env.GIHUB_REF_NAME }}
           
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_CI_CHANNEL }}
-      
+        SLACK_MESSAGE: "Deployed ${{env.GITHUB_REF_NAME}} to https://${{secrets.STATIC_CDN_AWS_S3_BUCKET}}/${{env.GITHUB_REF_NAME}}"
