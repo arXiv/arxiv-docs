@@ -19,8 +19,7 @@ jobs:
 
     - name: Build docs
       working-directory: ./mkdocs      
-      run: mkdocs
-      args: build
+      run: mkdocs build
 
     - uses: shallwefootball/s3-upload-action@master
       name: Upload S3
