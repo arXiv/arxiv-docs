@@ -7,9 +7,8 @@
 - Jim Entwood, Head of Content
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement and Membership Coordinator
-- Martin Lessmeister, Head of Technology
+- Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
-- Helen Wang, Product Manager
 - Jake Weiskoff, Senior Content & User Support Specialist
