@@ -13,7 +13,7 @@ Using our logo consistently over time will build up rich layers of meaning with 
 
 *The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition. Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.*
 
-Are you a third party looking to use our logos in your product or materials? Read our [Brand Guidelines](/brand/brand-guidelines.md).
+Are you a third party looking to use our logos in your product or materials? Read our [Brand Guidelines](brand-guidelines).
 
 ###Minimum size
 Establishing a minimum size ensures legibility, and that our logo is not compromised.
@@ -27,7 +27,6 @@ Establishing a minimum size ensures legibility, and that our logo is not comprom
 
 
 <div class="brand-grid">
-
   <div class="row">
     <div class="item">
       <h2>Primary Logo</h2>
@@ -55,72 +54,101 @@ Establishing a minimum size ensures legibility, and that our logo is not comprom
       <br><br>
       Single color versions can be used when a simpler, higher contrast version is needed such as single color print applications.</p>
     </div>
+  </div>
+
+  <div class="row no-border">
     <div class="item border">
       <img src="/brand/images/brand-logo-salmon.jpg" alt="arXiv logo in salmon">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logo-black.jpg" alt="arXiv logo in black">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logo-red.jpg" alt="arXiv logo in red">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="item">
+      <h2>Lockups and Extensions</h2>
+      <p>Lockups are used for internal arXiv projects with unique impact and a need for distinct branding, or for pre-approved partnership use. Logo extensions are created on a custom basis for distinct projects, like arXiv Check.</p>
     </div>
   </div>
 
   <div class="row no-border">
     <div class="item border">
-      <img src="/brand/images/brand-logo-black.jpg" alt="arXiv logo in salmon">
+      <img src="/brand/images/brand-logo-labs.jpg" alt="arXiv logo for Labs">
     </div>
     <div class="item border">
-      <img src="/brand/images/brand-logo-red.jpg" alt="arXiv logo in salmon">
+      <img src="/brand/images/brand-logo-check.jpg" alt="arXiv logo for Check, the moderation interface">
     </div>
   </div>
 
+  <div class="row">
+    <div class="item">
+      <h2>Exclusion Zone</h2>
+      <p>A clear area around the logo prevents any nearby graphic elements from interfering with the name’s impact. The primary logo configuration should maintain spacing around the logo equal to the height of the ‘a’, as shown.</p>
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logo-primary-spacing.jpg" alt="arXiv logo showing spacing anad exclusion zone">
+    </div>
+  </div>
+
+  <div class="row no-border">
+    <div class="item">
+      <p>The lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown.</p>
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logo-labs-spacing.jpg" alt="arXiv logo showing spacing anad exclusion zone">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="item">
+      <h2>Logomarks</h2>
+      <p>arXiv's logomark is for use where space is at a premium and the full size logo cannot be used. These include mobile applications and when an icon is needed.</p>
+    </div>
+  </div>
+
+  <div class="row no-border">
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-primary-large.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-primary.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-dark-mode.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-salmon.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-black.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-logomark-red.jpg" alt="arXiv primary logomark with wordmark below">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="item">
+      <h2>Supergraphic</h2>
+      <p>arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and it's rebellious nature, with a modernized and high quality homage. For fun, here is a <a href="https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon" target="_blank">brief history</a> of the original icon.
+      <br><br>
+      The smileybones supergraphic should be used in applications where it can display on a large enough scale for impact, and where a bit of informality is appropriate, such as in the examples below.</p>
+    </div>
+  </div>
+
+  <div class="row no-border">
+    <div class="item border">
+      <img src="/brand/images/brand-supergraphic.jpg" alt="arXiv supergraphic smileybones">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-swag-shirt-2.jpg" alt="Smileybones supergraphic on a t-shirt">
+    </div>
+    <div class="item border">
+      <img src="/brand/images/brand-swag-veni-vidi.jpg" alt="Smileybones supergraphic in a badge">
+    </div>
+  </div>
 </div>
-
-> ![arXiv logo salmon](images/brand-logo-salmon.jpg)
-###Alternate: Colors
-The alternate salmon color can be used where Cornell Red wont work while remaining in the same warm color family. Single color versions can be used when a simpler, higher contrast version is needed such as single color print applications
-
-> ![arXiv logo in single color black](images/brand-logo-black.jpg)
-> ![arXiv logo in single color red](images/brand-logo-red.jpg)
-
-<div class="divider"></div>
-
-> ![arXiv logo with correct spacing grid](images/brand-logo-primary-spacing.jpg)
-###Exclusion Zone
-A clear area around the logo prevents any nearby graphic elements from interfering with the name’s impact. The primary logo configuration should maintain spacing around the logo equal to the height of the ‘a’, as shown.
-
-<div class="divider"></div>
-
-> ![arXiv Labs logo extension](images/brand-logo-labs.jpg)
-> ![arXiv Check logo](images/brand-logo-check.jpg)
-##Lockups and Extensions
-Lockups are used for internal arXiv projects with unique impact and a need for distinct branding, or for pre-approved partnership use. Logo extensions are created on a custom basis for distinct projects, like arXiv Check.
-
-<div class="divider"></div>
-
-> ![arXiv Labs logo with grid](images/brand-logo-labs-spacing.jpg)
-###Lockup Exclusion Zone
-The lockup configuration should maintain spacing around the logo equal to the height of the ‘a’,  as shown:
-
-<div class="divider"></div>
-
-> ![arXiv logomark with title](images/brand-logomark-primary-large.jpg)
-##Large Logomark
-arXiv's logomark is for use where space is at a premium and the full size logo cannot be used. These include mobile applications and when an icon is needed.
-
-<div class="divider"></div>
-
-##Small Logomark
-The small logomark is available in the same color variations as the primary logo:
-
-> ![arXiv logomark](images/brand-logomark-primary.jpg)
-> ![arXiv logomark in dark mode](images/brand-logomark-dark-mode.jpg)
-> ![arXiv logomark in salmon](images/brand-logomark-salmon.jpg)
-> ![arXiv logomark in single color black](images/brand-logomark-black.jpg)
-> ![arXiv logomark in single color red](images/brand-logomark-red.jpg)
-
-<div class="divider"></div>
-
-> ![Smileybones supergraphic](images/brand-supergraphic.jpg)
-##Supergraphic
-arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and it's rebellious nature, with a modernized and high quality homage. For fun, here is a [brief history](https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon) of the original icon.
-
-The smileybones supergraphic should be used in applications where it can display on a large enough scale for impact, and where a bit of informality is appropriate, such as in the examples below.
-
-> ![Smileybones tshirt](images/brand-swag-shirt-2.jpg)
-> ![Smileybones appreciation](images/brand-swag-veni-vidi.jpg)

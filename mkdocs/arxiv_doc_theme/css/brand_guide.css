@@ -118,6 +118,9 @@ table th, table td {
   display: grid;
   gap: 1em;
 }
+.brand-grid .row:not(.no-border) {
+  margin-top: 3em !important;
+}
 .brand-grid .row .item {
   padding: 0 1em;
   margin: 0;
