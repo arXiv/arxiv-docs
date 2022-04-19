@@ -1,7 +1,7 @@
 # arXiv Staff
 
 - Amanda Bartley, arXiv Administrator
-- Shamsi Brinn, arXiv User Experience Specialist
+- Shamsi Brinn, UX Lead
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Interim Head of Technology
 - Jim Entwood, Head of Content
