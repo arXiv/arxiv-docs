@@ -8,6 +8,7 @@
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement Manager
 - Noga Ginzburg, Special Projects Lead
+- Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
