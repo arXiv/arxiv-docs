@@ -1,4 +1,5 @@
 set -e
+echo "Running mklabs.sh"
 
 # Gets required python libraries and builds labs site.
 
