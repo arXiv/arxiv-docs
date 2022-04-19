@@ -27,12 +27,6 @@ maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark
     thumbnail: images/shamsi.JPG
     bio: |
       Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy.
-  noga:
-    name: Noga Ginzburg
-    position: Special Projects Lead
-    thumbnail: images/noga.JPG
-    bio: |
-      Noga... 
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -57,6 +51,4 @@ $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
-$jinja {{ render_columns_open() }} jinja$
-$jinja {{ render_person(people.noga) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
+
