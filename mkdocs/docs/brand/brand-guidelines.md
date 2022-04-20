@@ -42,26 +42,50 @@ The arXiv logo is Federally trademarked and the legal property of arXiv and Corn
 Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the {Logos page}(logos) for details.
 
 ##Request arXiv logo
-If you are authorized to use arXiv’s logo you may download the format you need below:
 
 
-<a href="https://cornell.box.com/v/arxiv-logo-svg" target="_blank">
-![arXiv primary logo](images/brand-logo-primary.svg){.mkd-img-thumb .mkd-img-border}<br>
-Primary logo (SVG)
-</a>
-**Other formats:**
-<a href="https://cornell.box.com/v/arxiv-logo-jpg" target="_blank">JPG</a>
-<a href="https://cornell.box.com/v/arxiv-logo-png" target="_blank">PNG</a>
+<div class="brand-grid brand-downloads">
+  <div class="row">
+    <div class="item">
+      <h2>Download the arXiv Logo</h2>
+      <p>If you are authorized to use arXiv’s logo and understand it's usage guidelines you may download the format you need below.</p>
+    </div>
+  </div>
+  <div class="row no-border">
+    <div class="item border">
+      <a href="https://cornell.box.com/v/arxiv-logo-svg" target="_blank">
+      <img src="/brand/images/brand-logo-primary.jpg" alt="primary arxiv logo">
+      Download Primary Logo (SVG)
+      </a>
+      <br><br>
+      <strong>Other formats</strong><br>
+      <a href="https://cornell.box.com/v/arxiv-logo-jpg" target="_blank">Download JPG</a><br>
+      <a href="https://cornell.box.com/v/arxiv-logo-png" target="_blank">Download PNG</a>
+      <br><br>
+    </div>
 
-<a href="https://cornell.box.com/v/arxiv-logomark-svg" target="_blank">
-![arXiv logomark](images/brand-logomark-primary-large.jpg){.mkd-img-thumb .mkd-img-border}<br>
-Primary Logomark (SVG)
-</a>
+    <div class="item border">
+      <a href="https://cornell.box.com/v/arxiv-logomark-svg" target="_blank">
+      <img src="/brand/images/brand-logomark-primary-large.jpg" alt="Primary arXiv logomark">
+      Download Primary Logomark (SVG)
+      </a>
+      <br><br>
+      <strong>Other formats</strong><br>
+      <a href="https://cornell.box.com/v/arxiv-logomark-jpg" target="_blank">Download JPG</a><br>
+      <a href="https://cornell.box.com/v/arxiv-logomark-png" target="_blank">Download PNG</a>
+      <br><br>
+    </div>
 
-<a href="https://cornell.box.com/v/arxiv-logomark-small-svg" target="_blank">
-![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb .mkd-img-border}<br>
-Small Logomark (SVG)
-</a>
-**Other formats:**
-<a href="https://cornell.box.com/v/arxiv-logomark-small-jpg" target="_blank">small JPG</a>
-<a href="https://cornell.box.com/v/arxiv-logomark-small-png" target="_blank">small PNG</a>
+    <div class="item border">
+      <a href="https://cornell.box.com/v/arxiv-logomark-small-svg" target="_blank">
+      <img src="/brand/images/brand-logomark-primary.jpg" alt="Small arXiv logomark">
+      Download Small Logomark (SVG)
+      </a>
+      <br><br>
+      <strong>Other formats</strong><br>
+      <a href="https://cornell.box.com/v/arxiv-logomark-small-jpg" target="_blank">Download JPG</a><br>
+      <a href="https://cornell.box.com/v/arxiv-logomark-small-png" target="_blank">Download PNG</a>
+      <br><br>
+    </div>
+  </div>
+</div>

@@ -105,7 +105,6 @@ table th, table td {
 }
 
 
-
 .brand-grid {
   border-left:0;
   margin:0;
@@ -125,6 +124,9 @@ table th, table td {
   padding: 0 1em;
   margin: 0;
 }
+.brand-grid .row .item.border {
+  padding: 0;
+}
 .brand-grid .item p {
   margin:0;
   padding:0;
@@ -132,6 +134,31 @@ table th, table td {
 .brand-grid .item img {
   margin: 0;
   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.row.colors-grid .item {
+  padding: 1em;
+  text-align:center;
+}
+.row.colors-grid.regular-type .item p {
+  font-size: 14px;
+}
+.row.colors-grid.large-type .item p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.brand-grid.brand-downloads .item img {
+  margin: 0 auto;
+  display: block;
+  width: auto;
+  height: 100px;
+  object-fit: contain;
+}
+.brand-grid.brand-downloads .item {
+  text-align: center;
 }
 
 
@@ -167,15 +194,9 @@ table th, table td {
     margin: 2em 25%;
     padding: 2em 4em;
   }
-
-
-
   .brand-grid .row {
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-  }
-  .brand-grid .row .item {
-
   }
 }
 
