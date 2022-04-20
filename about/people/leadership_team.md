@@ -8,24 +8,25 @@ people:
     thumbnail: images/jim.jpg
     bio: |
       Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
-  martin:
-    name: Martin Lessmeister
-    position: Head of Technology
-    thumbnail: images/martin.jpg
+  brian:
+    name: Brian Caruso
+    position: Interim Head of Technology
+    thumbnail: images/brianc.jpg
     bio: |
-      Martin oversees the technical operations of the arXiv services and supervises the development team. He coordinates the migration of arXiv’s legacy systems to the next generation architecture in the cloud. His background is in web development with a focus on distributed systems, with an M.Eng. in Computer Science from Cornell University.
+      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and
+maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
   alison:
     name: Alison Fromme
-    position: Community Engagement and Development Coordinator
+    position: Community Engagement Manager
     thumbnail: images/alison.jpg
     bio: |
       Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alum and holds an M.S. in Zoology from Washington State University.
-  helen:
-    name: Helen Wang
-    position: Product Manager
-    thumbnail: images/helen.JPG
+  shamsi:
+    name: Shamsi Brinn
+    position: UX Lead 
+    thumbnail: images/shamsi.JPG
     bio: |
-      Helen synthesizes arXiv strategic and technical goals to plan internal feature and platform development and coordinates external collaborations. Her background in software spans product management, business development, and data analysis. She holds a B.A. in English with honors from Yale University.
+      Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -40,13 +41,14 @@ arXiv Leadership Team
 =====================
 
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.shamsi) }} jinja$
+$jinja {{ render_person(people.brian) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.jim) }} jinja$
-$jinja {{ render_person(people.steinn) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
-$jinja {{ render_columns_open() }} jinja$
-$jinja {{ render_person(people.helen) }} jinja$
-$jinja {{ render_person(people.martin) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
-$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.steinn) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+
