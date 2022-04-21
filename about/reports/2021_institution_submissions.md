@@ -6,7 +6,6 @@ Submissions by Institution will be made available to members only by June 2022.
 
 The following table shows submissions by institution in 2018, 2019, and 2020. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](/about/membership).
 
-**Note**: This data for submissions by institution was provided by [123](123). Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2021_usage)
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 842px; height: 599px;'>
@@ -20,3 +19,6 @@ The following table shows submissions by institution in 2018, 2019, and 2020. To
   <param name='showAppBanner' value='false' />
   </object>
 </div>
+
+Data provided by
+<img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
