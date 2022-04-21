@@ -13,8 +13,7 @@ people:
     position: Interim Head of Technology
     thumbnail: images/brianc.jpg
     bio: |
-      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and
-maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
+      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
   alison:
     name: Alison Fromme
     position: Community Engagement Manager
