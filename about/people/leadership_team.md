@@ -13,8 +13,7 @@ people:
     position: Interim Head of Technology
     thumbnail: images/brianc.jpg
     bio: |
-      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and
-maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
+      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
   alison:
     name: Alison Fromme
     position: Community Engagement Manager
@@ -24,7 +23,7 @@ maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark
   shamsi:
     name: Shamsi Brinn
     position: UX Lead 
-    thumbnail: images/shamsi.JPG
+    thumbnail: images/shamsi.jpg
     bio: |
       Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy.
   steinn:
