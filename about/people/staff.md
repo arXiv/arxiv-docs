@@ -11,5 +11,6 @@
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
-- Steinn Sigurdsson, Scientific Director
+- Steinn Sigurdsson, arXiv Scientific Director
 - Jake Weiskoff, Senior Content & User Support Specialist
+- Ramin Zabih, arXiv Faculty Director
