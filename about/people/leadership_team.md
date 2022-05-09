@@ -34,6 +34,13 @@ people:
     thumbnail: images/steinn.jpg
     bio: |
       Steinn is Professor of Astrophysics at Penn State University. He holds a Ph.D. in Theoretical Physics from the California Institute of Technology. His research interests include astrophysics and related areas, ranging from cosmology, large scale dynamics and black holes, to formation and evolution of planets and the prospects for discovering non-terrestrial life.
+  ramin:
+    name: Ramin Zabih
+    position: Faculty Director 
+    thumbnail: images/ramin.jpg
+    bio: |
+      Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. 
+
 ---
 
 arXiv Leadership Team
@@ -49,5 +56,6 @@ $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.steinn) }} jinja$
+$jinja {{ render_person(people.ramin) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 
