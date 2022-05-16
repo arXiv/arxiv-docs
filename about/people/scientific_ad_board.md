@@ -43,9 +43,6 @@ arXiv's Scientific Advisory Board is composed of scientists and researchers in d
 
 ## Current Board Members
 
-> -   ### Eitan Bachmat
-Professor, Department of Computer Science, Ben-Gurion University \|
-    Consultant for Theoretical Computer Science, Simons Foundation
 > -   ### Sara Del Valle
 Deputy Group Leader, Los Alamos National Laboratory
 > -   ### Mark Doyle
@@ -68,6 +65,8 @@ Director of the Department of Physical Cosmology, Max-Planck-Institut für Astro
 > -   ### Greg Kuperberg
 Professor of Mathematics, University of California,
     Davis (ex officio, as chair of Mathematics Advisory Committee)
+> -   ### Ivan Oransky
+Editor in Chief, Spectrum (Simons Foundation); Distinguished Writer in Residence (Journalism), New York University; Co-Founder, Retraction Watch
 > -   ### Sumati Surya
 Professor, Raman Research Institute
 > -   ### Licia Verde 
@@ -100,6 +99,7 @@ The current Board, and Cornell University, would like to express
 appreciation to the following former members of the Scientific Advisory
 Board, for their contributions to arXiv's governance and success.
 
+-   Eitan Bachmat, Professor, Department of Computer Science, Ben-Gurion University \| Consultant for Theoretical Computer Science, Simons Foundation
 -   David Morrison, University of California, Santa Barbara
 -   Robert Seiringer, Institute of Science and Technology Austria
 -   Eberhard Bodenschatz, Max Planck Institut für Dynamik und Selbstorganisation, Göttingen \| Cornell University
