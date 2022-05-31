@@ -78,9 +78,9 @@ Versions in arXiv may also represent a set of related works that includes variou
 <span id="famous"></span> 
 #### Famous proofs
 
-Versions in arXiv are also used in cases of an author making various attempts to work through a famous proof, even if the content of the work changes entirely between attempts.
-
 <span id="split"></span>
+Versions in arXiv are also used in cases of an author making various attempts to work through a famous proof, even if the content of the work changes entirely between attempts. Authors who attempt multiple famous proofs may also be asked by moderators to submit the different theorems as versions of an existing arXiv identifier.
+ 
 #### Splitting or Merging works
 
 *Splitting* - A long work that is posted on arXiv may be split into two or more shorter works. In arXiv the current practice is to replace the previous long version with one of the new shorter works. Then the other shorter works can be posted as new arXiv papers with a new arXiv identifier.
