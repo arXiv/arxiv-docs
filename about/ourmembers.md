@@ -91,6 +91,7 @@ aside {
 >1. Georgia Institute of Technology (USA)
 >1. Imperial College of Science, Technology, and Medicine (UK)
 >1. Massachusetts Institute of Technology (MIT) (USA)
+>1. University College London (UK)
 
 ## Top 100 Submitters
 1. Arizona State University (USA)
@@ -142,6 +143,7 @@ aside {
 1. University of California, Santa Barbara (USA) _CDL_
 1. University of Chicago (USA) _BTAA_
 1. University of Colorado (USA)
+1. University of Durham (UK) _Jisc_
 1. University of Maryland (USA) _BTAA_
 1. University of Michigan  (USA) _BTAA_
 1. University of Minnesota (USA) _BTAA_
@@ -164,9 +166,11 @@ aside {
 1. Brown University (USA)
 1. Commonwealth Scientific and Industrial Research Organisation (CSIRO) (Australia)
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
+1. Fraunhofer-Gesellschaft (Germany) _arXiv-DH and HGF_
 1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
 1. Humboldt-Universität zu Berlin  (Germany) _arXiv-DH and HGF_
 1. George Mason University (USA)
+1. George Washington University (USA)
 1. Ghent University Libraries (Belgium)
 1. Hebrew University of Jerusalem (Israel)
 1. Hiroshima University (Japan) _NII Japan Consortium_
@@ -180,6 +184,7 @@ aside {
 1. KU Leuven (Belgium)
 1. Kyushu University (Japan) _NII Japan Consortium_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
+1. Ludwig-Maximilians-Universität München (Germany) _arXiv-DH and HGF_
 1. McGill University (Canada)
 1. Monash University (Australia)
 1. Nagoya University  (Japan) _NII Japan Consortium_
@@ -189,11 +194,13 @@ aside {
 1. Perimeter Institute for Theoretical Physics (Canada)
 1. Queensland University of Technology (Australia)
 1. Rice University (USA)
+1. Stockholm University (Sweden)
 1. Stony Brook University (USA)
 1. Syracuse University (USA)
 1. Technische Universität Berlin  (Germany) _arXiv-DH and HGF_
 1. Technische Universität Darmstadt (Germany) _arXiv-DH and HGF_
 1. Technische Universität Dortmund (Germany) _arXiv-DH and HGF_
+1. Technische Universität Dresden (Germany) _arXiv-DH and HGF_
 1. Tohoku University (Japan) _NII Japan Consortium_
 1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 1. Trent University (Canada) _CRKN_
@@ -201,14 +208,12 @@ aside {
 1. Universität Basel (Switzerland)
 1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
 1. Universität Bochum (Germany) _arXiv-DH and HGF_
-1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
 1. Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_
 1. Universität Frankfurt am Main  (Germany) _arXiv-DH and HGF_
 1. Universität Freiburg (Germany) _arXiv-DH and HGF_
 1. Universität Hamburg  (Germany) _arXiv-DH and HGF_
 1. Universität Hannover  (Germany) _arXiv-DH and HGF_
-1. Universität Jena (Germany) _arXiv-DH and HGF_
-1. Universität Regensburg  (Germany) _arXiv-DH and HGF_
+1. Universität Potsdam (Germany) _arXiv-DH and HGF_
 1. Universität Stuttgart (Germany) _arXiv-DH and HGF_
 1. Universität zu Köln  (Germany) _arXiv-DH and HGF_
 1. Universität-Münster (Germany) _arXiv-DH and HGF_
@@ -261,6 +266,7 @@ aside {
 1. Cape Breton University (Canada) _CRKN_
 1. Central European University (Austria)
 1. Chennai Mathematical Institute (India)
+1. Concordia University (Canada)
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
 1. Indian Institute of Technology - Dharwad (India)
@@ -282,10 +288,15 @@ aside {
 1. Tampere University (Finland) _FinELib_
 1. Tampere University of Applied Sciences (Finland) _FinELib_
 1. Technion - Israel Institute of Technology (Israel)
+1. Technische Universität Kaiserslautern (Germany) _arXiv-DH and HGF_
 1. Tokyo University of Science (Japan) _NII Japan Consortium_
 1. Universität Graz (Austria)
+1. Universität Jena (Germany) _arXiv-DH and HGF_
 1. Universität Konstanz (Germany) _arXiv-DH and HGF_
 1. Universität Mannheim (Germany) _arXiv-DH and HGF_
+1. Universität Regensburg (Germany) _arXiv-DH and HGF_
+1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
+1. Universität Ulm (Germany) _arXiv-DH and HGF_
 1. University of Arkansas (USA)
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
