@@ -1,6 +1,6 @@
 # arXiv Staff
 
-- Amanda Bartley, Senior arXiv Moderation and User Support Specialist
+- Amanda Bartley, Senior arXiv Moderation & User Support Specialist
 - Shamsi Brinn, UX Lead
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Interim Head of Technology
