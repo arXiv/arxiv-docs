@@ -37,7 +37,7 @@ Ultimately, it is the submitter’s responsibility to choose the appropriate lic
 
 To make a license decision, arXiv recommends the following:
 
-1. Read and understand the [submission terms and agreement](policies/submission_agreement) and [instructions for submission](policies/instructions_for_submission)
+1. Read and understand the [submission terms and agreement](/help/policies/submission_agreement) and [instructions for submission](/help/policies/instructions_for_submission)
 2. Understand the meanings and implications of each license below
 3. Check the policies of funders and journals (contact journals directly or using a third-party service such as [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/about.html))
 4. Consult with colleagues in your field of study
