@@ -1,10 +1,10 @@
 # arXiv Staff
 
-- Amanda Bartley, arXiv Administrator
+- Amanda Bartley, Senior arXiv Moderation & User Support Specialist
 - Shamsi Brinn, UX Lead
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Interim Head of Technology
-- Jim Entwood, Head of Content
+- Jim Entwood, Head of Content & User Support
 - David Fielding, Senior arXiv Developer
 - Alison Fromme, Community Engagement Manager
 - Noga Ginzburg, Special Projects Lead
