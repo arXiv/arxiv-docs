@@ -109,7 +109,7 @@ include:
     ([example](#perl_simple_example))
 
   - [Python](http://www.python.org) (via
-    [feedparser](http://feedparser.org/))
+    [feedparser](https://github.com/kurtmckee/feedparser))
     ([example](#python_simple_example))
 
   - [Ruby](http://www.ruby-lang.org) (via
