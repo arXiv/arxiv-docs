@@ -83,6 +83,7 @@ aside {
 >1. Canadian Research Knowledge Network (Canada)
 >1. Centre pour la Communication Scientifique Directe (France)
 >1. FinELib Consortium (Finland)
+>1. Jisc (UK)
 >1. NII Japan Consortium (Japan)
 
 ## Champion Members
