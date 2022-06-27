@@ -19,7 +19,7 @@ people:
     position: UX Manager
     thumbnail: images/shamsi.jpg
     bio: |
-      Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
+      Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
