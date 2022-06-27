@@ -25,7 +25,7 @@ people:
     position: UX Lead
     thumbnail: images/shamsi.jpg
     bio: |
-      Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy.
+      Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy. Shamsi holds a BFA in Graphic Design and Photography from Moore College of Art & Design.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -33,20 +33,20 @@ people:
     twitter: steinly0
     thumbnail: images/steinn.jpg
     bio: |
-      Steinn is Professor of Astrophysics at Penn State University. He holds a Ph.D. in Theoretical Physics from the California Institute of Technology. His research interests include astrophysics and related areas, ranging from cosmology, large scale dynamics and black holes, to formation and evolution of planets and the prospects for discovering non-terrestrial life.
+      Steinn is Professor of Astrophysics at Penn State University. His research interests include astrophysics and related areas, ranging from cosmology, large scale dynamics and black holes, to formation and evolution of planets and the prospects for discovering non-terrestrial life. Steinn holds a Ph.D. in Theoretical Physics from the California Institute of Technology.
   ramin:
     name: Ramin Zabih
     position: Faculty Director
     thumbnail: images/ramin.jpg
     bio: |
-      Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities.
+      Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He holds a Ph.D in Computer Science and Mathematics from Stanford University.
 
   charles:
     name: Charles Frankston
     position: Technical Director
     thumbnail: images/charles.jpg
     bio: |
-      Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will sheppherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy.
+      Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will sheppherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from Massachusetts Institute of Technology.
 
 ---
 
