@@ -6,6 +6,7 @@
 - Brian Caruso, Lead Developer
 - Jim Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
+- Charles Frankston, Technical Director
 - Alison Fromme, Community Engagement Manager
 - Noga Ginzburg, Special Projects Lead
 - Kim Laine, User & Membership Support Specialist
