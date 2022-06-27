@@ -39,14 +39,14 @@ people:
     position: Faculty Director
     thumbnail: images/ramin.jpg
     bio: |
-      Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He holds a Ph.D in Computer Science and Mathematics from Stanford University.
+      Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He holds a Ph.D. in Computer Science and Mathematics from Stanford University.
 
   charles:
     name: Charles Frankston
     position: Technical Director
     thumbnail: images/charles.jpg
     bio: |
-      Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will sheppherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from Massachusetts Institute of Technology.
+      Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will shepherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from Massachusetts Institute of Technology.
 
 ---
 
