@@ -8,12 +8,6 @@ people:
     thumbnail: images/jim.jpg
     bio: |
       Jim coordinates the efforts of the volunteer moderators and arXiv administrators on the daily flow of papers and user support and works with the Scientific Director to develop and improve arXiv's operations policies. His background is in volunteer management and website development for research groups, and he holds an M.A. in Leadership Studies.
-  brian:
-    name: Brian Caruso
-    position: Interim Head of Technology
-    thumbnail: images/brianc.jpg
-    bio: |
-      Brian oversees the technical operations of the arXiv services and supervises the development team. He coordinates operations and maintenance of arXiv’s systems. He holds a B.A. in Computer Science from Clark University.
   alison:
     name: Alison Fromme
     position: Community Engagement Manager
@@ -22,7 +16,7 @@ people:
       Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alum and holds an M.S. in Zoology from Washington State University.
   shamsi:
     name: Shamsi Brinn
-    position: UX Lead
+    position: UX Manager
     thumbnail: images/shamsi.jpg
     bio: |
       Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Her experience spans design, user experience, user research, and innovation strategy. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
@@ -54,16 +48,13 @@ arXiv Leadership Team
 =====================
 $jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.shamsi) }} jinja$
-$jinja {{ render_person(people.brian) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
-$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.jim) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.charles) }} jinja$
-$jinja {{ render_columns_closed() }} jinja$
-$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
-$jinja {{ render_person(people.steinn) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.steinn) }} jinja$
 $jinja {{ render_person(people.ramin) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
