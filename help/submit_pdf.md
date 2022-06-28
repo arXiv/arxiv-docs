@@ -13,7 +13,7 @@ guidelines:
     In Adobe Distiller and many other products this is referred to as
     *compatibility mode* and will ensure that the PDF document is as
     portable as possible.
--   Note: a PDF file created from a TeX/LaTeX file will be rejected.
+-   Note: a PDF file created from a TeX/LaTeX file will typically be rejected, with exceptions granted on a case-by-case basis.
     There are [good reasons](/help/faq/whytex) why arXiv insists on
     TeX/LaTeX source if it is available. arXiv produces PDF
     automatically from all TeX submitted source. For information on

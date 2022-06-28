@@ -117,7 +117,7 @@ next to the submission on your [user page](http://arxiv.org/user). This will
 return it to [incomplete status](submit_status#incomplete) and allow you to 
 modify your files and resubmit.
 
-Unsubmitting an article takes the article out of the processing queue, and announcement will be scheduled based on the later resubmission time. See the schedule of [availability](#availability).
+Unsubmitting an article takes the article out of the processing queue, and announcement will be scheduled based on the later resubmission time. See the schedule of [availability](availability).
 
 <span id="replace"></span>
 
