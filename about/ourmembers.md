@@ -149,6 +149,7 @@ aside {
 1. University of Michigan  (USA) _BTAA_
 1. University of Minnesota (USA) _BTAA_
 1. University of Ottawa (Canada) _CRKN_
+1. University of Oxford (UK) _Jisc_
 1. University of Pennsylvania (USA)
 1. University of Saskatchewan (Canada) _CRKN_
 1. University of Sydney (Australia)
@@ -165,6 +166,7 @@ aside {
 1. Boston University (USA)
 1. Brock University (Canada) _CRKN_
 1. Brown University (USA)
+1. Cardiff University (UK) _Jisc_
 1. Commonwealth Scientific and Industrial Research Organisation (CSIRO) (Australia)
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Fraunhofer-Gesellschaft (Germany) _arXiv-DH and HGF_
@@ -207,19 +209,20 @@ aside {
 1. Trent University (Canada) _CRKN_
 1. Tufts University (USA)
 1. Universität Basel (Switzerland)
-1. Universität Bielefeld  (Germany) _arXiv-DH and HGF_
+1. Universität Bielefeld (Germany) _arXiv-DH and HGF_
 1. Universität Bochum (Germany) _arXiv-DH and HGF_
-1. Universität Erlangen-Nürnberg  (Germany) _arXiv-DH and HGF_
-1. Universität Frankfurt am Main  (Germany) _arXiv-DH and HGF_
+1. Universität Erlangen-Nürnberg (Germany) _arXiv-DH and HGF_
+1. Universität Frankfurt am Main (Germany) _arXiv-DH and HGF_
 1. Universität Freiburg (Germany) _arXiv-DH and HGF_
-1. Universität Hamburg  (Germany) _arXiv-DH and HGF_
-1. Universität Hannover  (Germany) _arXiv-DH and HGF_
+1. Universität Hamburg (Germany) _arXiv-DH and HGF_
+1. Universität Hannover (Germany) _arXiv-DH and HGF_
 1. Universität Potsdam (Germany) _arXiv-DH and HGF_
 1. Universität Stuttgart (Germany) _arXiv-DH and HGF_
-1. Universität zu Köln  (Germany) _arXiv-DH and HGF_
+1. Universität zu Köln (Germany) _arXiv-DH and HGF_
 1. Universität-Münster (Germany) _arXiv-DH and HGF_
-1. Universität Tübingen  (Germany) _arXiv-DH and HGF_
+1. Universität Tübingen (Germany) _arXiv-DH and HGF_
 1. Universität Ulm (Germany) _arXiv-DH and HGF_
+1. Université Catholique de Louvain (Belgium)
 1. Université de Montréal (Canada)
 1. Universitetet Oslo (Norway)
 1. University at Buffalo (USA)
@@ -283,6 +286,7 @@ aside {
 1. Nikhef (Netherlands)
 1. Nipissing University (Canada) _CRKN_
 1. Oregon State University (USA)
+1. Paul-Drude-Institut für Festkörperelektronik (Germany) _arXiv-DH and HGF_
 1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
@@ -310,6 +314,7 @@ aside {
 1. University of New Hampshire (USA)
 1. University of North Texas (USA)
 1. University of Northern British Columbia (Canada) _CRKN_
+1. Université of Sherbrooke (Canada) 
 1. University of Wollongong (Australia)
 1. University of York (UK) _JISC_
 1. Victoria University of Wellington (New Zealand)
