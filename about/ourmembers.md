@@ -82,6 +82,7 @@ aside {
 >1. arXiv DH and HGF Consortium (Germany)
 >1. Canadian Research Knowledge Network (Canada)
 >1. Centre pour la Communication Scientifique Directe (France)
+>1. Council of Australian University Librarians (Australia)
 >1. FinELib Consortium (Finland)
 >1. Jisc (UK)
 >1. NII Japan Consortium (Japan)
@@ -109,6 +110,7 @@ aside {
 1. Indiana University (USA) _BTAA_
 1. Johns Hopkins University (USA)
 1. Karlsruher Institut für Technologie (Germany) _arXiv-DH and HGF_
+1. Kings College London (UK) _Jisc_
 1. KTH Royal Institute of Technology  (Sweden)
 1. Kyoto University  (Japan) _NII Japan Consortium_
 1. Lawrence Berkeley National Laboratory (USA) _CDL_
@@ -168,6 +170,7 @@ aside {
 1. Brown University (USA)
 1. Cardiff University (UK) _Jisc_
 1. Commonwealth Scientific and Industrial Research Organisation (CSIRO) (Australia)
+1. Curtin University (Australia) _CAUL_
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Fraunhofer-Gesellschaft (Germany) _arXiv-DH and HGF_
 1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
@@ -208,6 +211,7 @@ aside {
 1. Tokyo Institute of Technology Library (Japan) _NII Japan Consortium_
 1. Trent University (Canada) _CRKN_
 1. Tufts University (USA)
+1. UCLouvain (Belgium)
 1. Universität Basel (Switzerland)
 1. Universität Bielefeld (Germany) _arXiv-DH and HGF_
 1. Universität Bochum (Germany) _arXiv-DH and HGF_
@@ -222,7 +226,6 @@ aside {
 1. Universität-Münster (Germany) _arXiv-DH and HGF_
 1. Universität Tübingen (Germany) _arXiv-DH and HGF_
 1. Universität Ulm (Germany) _arXiv-DH and HGF_
-1. Université Catholique de Louvain (Belgium)
 1. Université de Montréal (Canada)
 1. Universitetet Oslo (Norway)
 1. University at Buffalo (USA)
@@ -230,13 +233,15 @@ aside {
 1. University of Alberta (Canada)
 1. University of Arkansas (USA)
 1. University of Bern (Switzerland)
-1. University of Bristol (UK) 
+1. University of Birmingham (UK) _Jisc_
+1. University of Bristol (UK) _Jisc_
 1. University of California, Davis (USA) _CDL_
 1. University of California, Irvine (USA) _CDL_
 1. University of California, Riverside  (USA) _CDL_
 1. University of California, Santa Cruz (USA) _CDL_
 1. University of Cape Town (South Africa)
 1. University of Florida (USA)
+1. University of Glasgow (UK) _Jisc_
 1. University of Groningen  (Netherlands)
 1. University of Helsinki (Finland)
 1. University of Illinois at Urbana-Champaign  (USA) _BTAA_
@@ -247,9 +252,12 @@ aside {
 1. University of Melbourne (Australia)
 1. University of North Carolina (USA)
 1. University of Notre Dame (USA)
+1. University of New South Wales (Australia) _CAUL_
+1. University of Newcastle (Australia) _CAUL_
 1. University of Oregon (USA)
 1. University of Queensland (Australia)
 1. University of Rochester (USA)
+1. University of Sheffield (UK) _Jisc_
 1. University of Technology Sydney (Australia)
 1. University of Tsukuba (Japan) _NII Japan Consortium_
 1. University of Turku (Finland) _FinELib_
@@ -271,6 +279,7 @@ aside {
 1. Central European University (Austria)
 1. Chennai Mathematical Institute (India)
 1. Concordia University (Canada)
+1. Charles Sturt University (Australia) _CAUL_
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
 1. Indian Institute of Technology - Dharwad (India)
@@ -306,6 +315,7 @@ aside {
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
 1. University of California, San Francisco (USA) _CDL_
+1. University of Cantebury (Australia) _CAUL_
 1. University of Central Oklahoma (USA)
 1. University of Eastern Finland (Finland) _FinELib_
 1. University of the Fraser Valley (Canada) _CRKN_
