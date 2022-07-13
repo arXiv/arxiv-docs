@@ -81,7 +81,7 @@ aside {
 ## Consortia
 >1. arXiv DH and HGF Consortium (Germany)
 >1. Canadian Research Knowledge Network (Canada)
->1. Centre pour la Communication Scientifique Directe (France)
+>1. French National Fund for Open Science (France)
 >1. Consortium of Swiss Academic Libraries (Switzerland)
 >1. Council of Australian University Librarians (Australia)
 >1. FinELib Consortium (Finland)
