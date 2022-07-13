@@ -82,6 +82,7 @@ aside {
 >1. arXiv DH and HGF Consortium (Germany)
 >1. Canadian Research Knowledge Network (Canada)
 >1. Centre pour la Communication Scientifique Directe (France)
+>1. Consortium of Swiss Academic Libraries (Switzerland)
 >1. Council of Australian University Librarians (Australia)
 >1. FinELib Consortium (Finland)
 >1. Jisc (UK)
@@ -171,6 +172,7 @@ aside {
 1. Cardiff University (UK) _Jisc_
 1. Commonwealth Scientific and Industrial Research Organisation (CSIRO) (Australia)
 1. Curtin University (Australia) _CAUL_
+1. EPF Lausanne (Switzerland) _CSAL_
 1. Forschungszentrum Julich (Germany) _arXiv-DH and HGF_
 1. Fraunhofer-Gesellschaft (Germany) _arXiv-DH and HGF_
 1. Freie Universität Berlin  (Germany) _arXiv-DH and HGF_
@@ -226,13 +228,14 @@ aside {
 1. Universität-Münster (Germany) _arXiv-DH and HGF_
 1. Universität Tübingen (Germany) _arXiv-DH and HGF_
 1. Universität Ulm (Germany) _arXiv-DH and HGF_
+1. Universität Zurich (Switzerland) _CSAL_
+1. Université de Fribourg (Switzerland) _CSAL_
 1. Université de Montréal (Canada)
 1. Universitetet Oslo (Norway)
 1. University at Buffalo (USA)
 1. University of Adelaide (Australia)
 1. University of Alberta (Canada)
-1. University of Arkansas (USA)
-1. University of Bern (Switzerland)
+1. University of Bern (Switzerland) _CSAL_
 1. University of Birmingham (UK) _Jisc_
 1. University of Bristol (UK) _Jisc_
 1. University of California, Davis (USA) _CDL_
@@ -288,6 +291,7 @@ aside {
 1. Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 1. IST Austria (Austria)
 1. Lehigh University (USA)
+1. Lib4RI (Switzerland) _CSAL_
 1. MacEwan University (Canada) _CRKN_
 1. Macquarie University (Australia)
 1. National Library of Sweden (Sweden)
@@ -311,6 +315,7 @@ aside {
 1. Universität Regensburg (Germany) _arXiv-DH and HGF_
 1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
 1. Universität Ulm (Germany) _arXiv-DH and HGF_
+1. Université de Neuchatel (Switzerland) _CSAL_
 1. University of Arkansas (USA)
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
@@ -332,7 +337,7 @@ aside {
 1. Virginia Tech (USA)
 1. Washington State University (USA)
 1. Universität Würzburg (Germany) _arXiv-DH and HGF_
-
+1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _CSAL_
 
 
 
