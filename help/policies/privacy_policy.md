@@ -73,17 +73,17 @@ Information we gather is shared with vendors we use to support the infrastructur
 
 _Info we share with third party services:_
 
-Atlassian Jira is used for user support to notify and respond to users about issues with their submissions or accounts. Atlassian Jira is also used to collect feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.
+Atlassian is used for user support to notify and respond to users about issues with their submissions or accounts. Atlassian is also used to collect feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.
 
 iThenticate is used by arXiv administrators for text analysis on submissions. The name of the submitter is included in the iThenticate report for tracking purposes.
-
-Fastmail is used for email communication with arXiv volunteer moderators that may contain submission metadata, including author names, affiliations, submitter name and email.
 
 GMail is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.
 
 Slack is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.
 
 Amazon Web Services is used for server infrastructure for components of the arXiv system.
+
+Google Cloud Platform is used for server infrastructure for components of the arXiv system.
 
 
 [Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools.
