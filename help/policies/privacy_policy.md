@@ -83,7 +83,7 @@ Slack is used for email communication of submission and moderator emails that ma
 
 Amazon Web Services is used for server infrastructure for components of the arXiv system.
 
-Google Could Computing Services is used for server infrastructure for components of the arXiv system.
+Google Cloud Platform is used for server infrastructure for components of the arXiv system.
 
 
 [Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools.
