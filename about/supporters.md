@@ -81,10 +81,9 @@ aside {
 
 ## Gold Affiliates 
 >1. American Physical Society (USA)
+>1. Computer Vision Foundation (USA)
 
 ## Gold Sponsors
->1. Allen Institute for Artificial Intelligence (USA)
->1. Computer Vision Foundation (USA)
 >1. Google, Inc (USA)
 >1. Facebook AI (USA)
 
@@ -97,7 +96,6 @@ aside {
 >1. Austrian Science Fund (Austria)
 >1. Institute of Physics Publishing (UK)
 >1. NWO Dutch Reseach Council (Netherlands)
->1. Deutsche Physikalische Gesellschaft (Germany)
 
 
 #
