@@ -320,7 +320,7 @@ aside {
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
 1. University of California, San Francisco (USA) _CDL_
-1. University of Cantebury (Australia) _CAUL_
+1. University of Canterbury (Australia) _CAUL_
 1. University of Central Oklahoma (USA)
 1. University of Eastern Finland (Finland) _FinELib_
 1. University of the Fraser Valley (Canada) _CRKN_
