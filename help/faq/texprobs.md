@@ -69,7 +69,7 @@ For more information please consult the [hyperref manual](https://ctan.org/pkg/h
 Note that this primarily impacts links that are created with the `\href` construct. If you are tying to make use of long
 URL with the `\url` construct, we recommend that you make use of the `url` package with the `[hyphens]` option ([see its documentation](https://ctan.org/pkg/url)). This package typically has to be loaded before hyperref. Another option if this 
 doesn't provide the functionality you seek (e.g. in dvi mode), you may wish to use the `breakurl` package, which performs some 
-of these same features. Consult [the package documentation](https://ctan.org/pkg/breakurl) for useage instructions.
+of these same features. Consult [the package documentation](https://ctan.org/pkg/breakurl) for usage instructions.
 
 
 
