@@ -21,7 +21,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. T
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
 - [Our Members](/about/ourmembers)
-- [Our Supporters](/about/ourmembers)
+- [Our Supporters](/about/supporters)
 
 
 ## Who We Are
