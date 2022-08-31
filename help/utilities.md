@@ -32,8 +32,8 @@ patterns.
 Most authors will submit the [TeX](tex) source for their documents.
 There are some [important technical reasons](faq/whytex) for this.
 
-The TeX system used by the archive is based on the [teTeX
-distribution](http://www.tug.org/tetex/), which is a freely available,
+The TeX system used by arXiv is based on the [TeXLive
+distribution](http://www.tug.org/texlive/), which is a freely available,
 high-quality distribution of TeX/LaTeX for Unix-compatible systems.
 
 Lots of TeX information is available on the Web from the TeX User Group
@@ -45,7 +45,7 @@ site](http://ctan.org).
 RevTeX and other APS-related TeX information can be found at
 <http://aps.org/>.
 
-See <http://arxiv.org/hypertex/> for HyperTeX utilities and Hyperdvi
+See <https://arxiv.org/hypertex/> for HyperTeX utilities and Hyperdvi
 viewers.
 
 <span id="taretc"></span>
