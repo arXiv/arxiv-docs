@@ -33,12 +33,11 @@ available examples include [OpenOffice.org](http://www.openoffice.org/)
 Writer or [Google Docs](http://docs.google.com).
 
 Other authoring applications may require either a converter add-in or
-post-processing to produce PDF. If you have a copy of Adobe Distiller
+post-processing to produce PDF. Many commercial word processors already include the
+ability to export to a pdf. If you have a copy of Adobe Distiller
 installed you should use that to create PDF. Otherwise, you might try
 one of these free conversion utilities:
 
--   [PDF Online](http://www.pdfonline.com/) — web service to convert
-    Word and RTF to PDF. Size limit 2MB.
 -   [PDFCreator](http://www.pdfforge.org/products/pdfcreator) — a
     downloadable PDF print addon for Windows.
 -   [PrimoPDF](http://primopdf.com) — downloadable Windows printer
@@ -46,7 +45,7 @@ one of these free conversion utilities:
     online service which accepts Word, RTF, ODF and other formats but
     some font substitutions may occur).
 -   [CIB PDF
-    brewer](http://www.cib.de/english/products/pdf/cibpdfplugin_freeware.htm)
+    brewer](https://www.cib.de/en/pdfbrewer/)
     is a downloadable Windows printer driver that writes output to a PDF
     file. The free version has limited font support. Notably,
     `MT  Extra` is not supported.
