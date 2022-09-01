@@ -21,7 +21,7 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. T
 - [Donate to arXiv](/about/donate)
 - [Institutional Membership Program](/about/membership)
 - [Our Members](/about/ourmembers)
-- [Our Supporters](/about/ourmembers)
+- [Our Supporters](/about/supporters)
 
 
 ## Who We Are
@@ -30,14 +30,14 @@ Registered users may [submit articles](/help/submit) to be announced by arXiv. T
 - [Leadership Team](people/leadership_team)
 - [Scientific Advisory Board](people/scientific_ad_board)
 - Section Advisory Committees
-  - [Physics](/help/physics/#AdvisoryCommittee)
-  - [Mathematics](/help/math/#AdvisoryCommittee)
-  - [Computer science (CoRR)](/corr)
-  - [Quantitative biology](/help/q-bio#AdvisoryCommittee)
-  - [Quantitative finance](/help/q-fin#AdvisoryCommittee)
-  - [Statistics](/help/statistics/#AdvisoryCommittee)
-  - [Electrical engineering and systems science](/help/eess/#AdvisoryCommittee)
-  - [Economics](/help/econ/#AdvisoryCommittee)
+	- [Physics](/help/physics/#AdvisoryCommittee)
+	- [Mathematics](/help/math/#AdvisoryCommittee)
+	- [Computer science (CoRR)](/corr)
+	- [Quantitative biology](/help/q-bio#AdvisoryCommittee)
+	- [Quantitative finance](/help/q-fin#AdvisoryCommittee)
+	- [Statistics](/help/statistics/#AdvisoryCommittee)
+	- [Electrical engineering and systems science](/help/eess/#AdvisoryCommittee)
+	- [Economics](/help/econ/#AdvisoryCommittee)
 - [Member Advisory Board](people/member_ad_board)
 - [Technical Advisory Group](/about/people/technical_ad_group)
 - [Volunteer Moderators](/moderators)
