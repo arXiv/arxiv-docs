@@ -42,9 +42,10 @@ jobs:
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v0'
 
+      - run: gcloud version
+
       - name: 'Upload HTML static site to GS'
         #        run: gsutil -m rsync -d -c -r mkdocs/site $BUCKET
-        run: gcloud version
         run: gsutil ls $BUCKET
 
 
