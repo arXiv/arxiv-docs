@@ -38,7 +38,7 @@ jobs:
         with:
           workload_identity_provider: 'projects/586134671000/locations/global/workloadIdentityPools/github-arxiv-docs-pool/providers/github-oidc-provider'
           service_account: 'github-sa@arxiv-docs.iam.gserviceaccount.com'
-          create_credentials_file: true
+          token_format: 'access_token'
 
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v0'
