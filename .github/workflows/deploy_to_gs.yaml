@@ -10,6 +10,12 @@ env:
 
 jobs:
   preview_develop_docs:
+
+    # Add "id-token" with the intended permissions.
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
