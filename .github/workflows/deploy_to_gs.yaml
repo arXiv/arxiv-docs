@@ -1,6 +1,6 @@
 name: deploy_docs
 
-on:  
+on:
   pull_request:
     branches: [ mkdocs ]
 
@@ -21,7 +21,7 @@ jobs:
         run: ./prep_for_mkdocs.sh
 
       - name: 'Build docs'
-        working-directory: ./mkdocs      
+        working-directory: ./mkdocs
         run: mkdocs build
 
       # see https://github.com/marketplace/actions/authenticate-to-google-cloud#setup
@@ -37,7 +37,7 @@ jobs:
 
       - name: 'Upload HTML static site to GS'
         run: gsutil -m rsync -d -c -r mkdocs/site $BUCKET
-          
+
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
