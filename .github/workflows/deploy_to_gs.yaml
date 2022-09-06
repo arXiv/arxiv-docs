@@ -23,13 +23,13 @@ jobs:
           ref: refs/heads/mkdocs
           fetch-depth: 1
 
-      - name: 'Generate template for mkdocs from arxiv-base'
-        working-directory: ./mkdocs
-        run: ./prep_for_mkdocs.sh
+      # - name: 'Generate template for mkdocs from arxiv-base'
+      #   working-directory: ./mkdocs
+      #   run: ./prep_for_mkdocs.sh
 
-      - name: 'Build docs'
-        working-directory: ./mkdocs
-        run: mkdocs build
+      # - name: 'Build docs'
+      #   working-directory: ./mkdocs
+      #   run: mkdocs build
 
       # see https://github.com/marketplace/actions/authenticate-to-google-cloud#setup
       - id: 'auth'
@@ -43,7 +43,10 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v0'
 
       - name: 'Upload HTML static site to GS'
-        run: gsutil -m rsync -d -c -r mkdocs/site $BUCKET
+        #        run: gsutil -m rsync -d -c -r mkdocs/site $BUCKET
+        run: gcloud version
+        run: gsutil ls $BUCKET
+
 
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
