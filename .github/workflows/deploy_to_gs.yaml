@@ -32,8 +32,10 @@ jobs:
           workload_identity_provider: 'projects/586134671000/locations/global/workloadIdentityPools/github-arxiv-docs-pool/providers/github-oidc-provider'
           service_account: 'github-sa@arxiv-docs.iam.gserviceaccount.com'
 
-      - name: 'Set up Cloud SDK and upload'
+      - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v0'
+
+      - name: 'Upload HTML static site to GS'
         run: gsutil -m rsync -d -c -r mkdocs/site $BUCKET
           
       - name: Slack Notification
