@@ -1,7 +1,7 @@
 name: deploy_docs
 
 on:
-  pull_request:
+  push:
     branches: [ mkdocs ]
 
   workflow_dispatch:
