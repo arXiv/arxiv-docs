@@ -4,6 +4,7 @@ on:
   pull_request:
     branches: [ mkdocs ]
 
+  workflow_dispatch:
 env:
   BUCKET: gs://arxiv-docs-develop
 
