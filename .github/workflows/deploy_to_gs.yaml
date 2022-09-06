@@ -18,7 +18,7 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
         with:
           ref: refs/heads/mkdocs
           fetch-depth: 1
@@ -38,6 +38,7 @@ jobs:
         with:
           workload_identity_provider: 'projects/586134671000/locations/global/workloadIdentityPools/github-arxiv-docs-pool/providers/github-oidc-provider'
           service_account: 'github-sa@arxiv-docs.iam.gserviceaccount.com'
+          create_credentials_file: true
 
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v0'
