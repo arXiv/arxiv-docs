@@ -22,13 +22,9 @@ jobs:
         working-directory: ./mkdocs
         run: ./prep_for_mkdocs.sh
 
-      - name: 'Build docs'
+      - name: 'Build static pages and Deploy to github pages'
         working-directory: ./mkdocs
-        run: mkdocs build
-
-      - name: 'Deploy docs to github pages'
-        working-directory: ./mkdocs
-        run: mkdocs gh-deploy --force --quiet
+        run: mkdocs gh-deploy --force --clean --verbose
         
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
