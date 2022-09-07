@@ -28,7 +28,7 @@ jobs:
 
       - name: 'Deploy docs to github pages'
         working-directory: ./mkdocs
-        run: mkdocs gh-deploy --force
+        run: mkdocs gh-deploy --force --quiet
         
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
