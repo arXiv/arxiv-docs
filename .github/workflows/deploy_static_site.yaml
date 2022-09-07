@@ -1,0 +1,37 @@
+name: "mkdocs build and deploy to github pages"
+
+on:
+  push:
+    branches: [ mkdocs ]
+
+  workflow_dispatch:
+
+# env:
+#   BUCKET: gs://arxiv-docs-develop
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: refs/heads/mkdocs
+          fetch-depth: 1
+
+      - name: 'Generate template for mkdocs from arxiv-base'
+        working-directory: ./mkdocs
+        run: ./prep_for_mkdocs.sh
+
+      - name: 'Build docs'
+        working-directory: ./mkdocs
+        run: mkdocs build
+
+      - name: 'Deploy docs to github pages'
+        working-directory: ./mkdocs
+        run: mkdocs gh-deploy --force
+        
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@v2
+        env:
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_CI_CHANNEL }}
+          SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to https://TODO-add-URL/index.html"
