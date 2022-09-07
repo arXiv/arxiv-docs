@@ -6,9 +6,15 @@ on:
 
   workflow_dispatch:
 
+    
 # env:
 #   BUCKET: gs://arxiv-docs-develop
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
