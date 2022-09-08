@@ -1,29 +1,26 @@
 site_name: arXiv docs
 
 # Prevents default mkdocs behavior of linking to /help instead of /help/index.html
-use_directory_urls: false
+# use_directory_urls: false
 
 plugins:
   - search
   
   # Allows linkes in MD to be absolute like (/help/index.md) but then get transformed to relative hrefs
-  - abs-to-rel
+  #- abs-to-rel
   
   # Allows use of {{ page.meta.revision_date }}
   - git-revision-date
 
   - macros
-  #- git-show-history-log
   - redirects:
       redirect_maps:
         'hypertex/bugs.md': 'help/hypertex/bugs.md'
         'hypertex/extensions.md': 'help/hypertex/extensions.md'
         'hypertex/index.md': 'help/hypertex/index.md'
 
-
 theme:
   name: material
-  #custom_dir: overrides
   logo: assets/arxiv-logomark-small.svg
 extra_css:
   - stylesheets/extra.css

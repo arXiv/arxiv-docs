@@ -344,4 +344,3 @@ aside {
 >1. Google Deep Mind (USA)
 >1. Microsoft Corporation (USA)
 
-#
