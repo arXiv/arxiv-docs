@@ -1,8 +1,4 @@
-site_name: My Docs
-
-repo_name: GitHub
-repo_url: https://github.com/arXiv/arxiv-docs
-edit_uri: blob/master/mkdocs/docs
+site_name: arXiv docs
 
 # Prevents default mkdocs behavior of linking to /help instead of /help/index.html
 use_directory_urls: false
@@ -24,10 +20,14 @@ plugins:
         'hypertex/extensions.md': 'help/hypertex/extensions.md'
         'hypertex/index.md': 'help/hypertex/index.md'
 
+
 theme:
-  name: null
-  custom_dir: arxiv_doc_theme
-  include_search_page: true
+  name: material
+  #custom_dir: overrides
+  logo: assets/arxiv-logomark-small.svg
+extra_css:
+  - stylesheets/extra.css
+
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs
 edit_uri: blob/master/mkdocs/docs

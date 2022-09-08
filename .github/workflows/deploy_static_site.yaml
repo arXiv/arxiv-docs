@@ -50,4 +50,4 @@ jobs:
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_CI_CHANNEL }}
-          SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to https://arxiv.github.io/${{github.repository}}/index.html"
+          SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to ${{deployment.page_url}}"
