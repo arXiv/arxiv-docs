@@ -6,17 +6,8 @@ on:
 
   workflow_dispatch:
 
-    
-# env:
-#   BUCKET: gs://arxiv-docs-develop
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-  
 jobs:
-  build_and_deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -28,12 +19,35 @@ jobs:
         working-directory: ./mkdocs
         run: ./prep_for_mkdocs.sh
 
-      - name: 'Build static pages and Deploy to github pages'
+      - name: 'Build static pages'
         working-directory: ./mkdocs
-        run: mkdocs gh-deploy --force --clean --verbose
+        run: mkdocs build
+
+      - name: 'Make page artifact'
+        uses: 'actions/upload-pages-artifact@v1'
+        with:
+          pages: 'mkdocs/site/'
+
+  deploy:
+    needs: build
+
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+      - uses: 'actions/deploy-pages@v1'
         
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@v2
         env:
           SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK_CI_CHANNEL }}
-          SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to https://TODO-add-URL/index.html"
+          SLACK_MESSAGE: "Deployed ${{github.repository}} ${{github.ref_name}} to https://arxiv.github.io/${{github.repository}}/index.html"
