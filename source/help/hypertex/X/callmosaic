@@ -1,0 +1,36 @@
+#!/bin/sh --
+# This is a generic shell script for messaging Mosaic written by
+# tanmoy@lanl.gov based on an idea by Paul F. Mende and
+# an implementation by krobison@nucleus.harvard.edu
+#
+# It takes two params: an URL and a base URL to interpret it with
+# respect to. It currently ignores this second parameter.
+#
+# stdout to stderr anyway
+exec >&2
+# Note that it sets PATH to null to avoid security 
+# problems.
+PATH=
+MOSAIC=/usr/local/bin/Mosaic
+# Find my invoking Mosaic. (pid with our pgid)
+mypid=`/bin/ps -jx$$ | /usr/ucb/tail -1 | /bin/cut -c 12-17`
+mypid=`/bin/expr $mypid`
+if /bin/ps -lww$mypid | /bin/grep Mosaic > /dev/null; then /bin/true;
+else
+  if [ -r ${HOME}/.mosaicpid ]; then
+    mypid=`/bin/cat ${HOME}/.mosaicpid`
+    mypid=`/bin/expr $mypid`
+    if /bin/ps -lww$mypid | /bin/grep Mosaic > /dev/null; then /bin/true;
+    else
+      ${MOSAIC} "$1" &
+      exit 0
+    fi
+  else
+    ${MOSAIC} "$1" &
+    exit 0
+  fi
+fi
+/bin/rm -f /tmp/Mosaic.$mypid
+/bin/echo goto >/tmp/Mosaic.$mypid
+/bin/echo "$1" >>/tmp/Mosaic.$mypid
+/bin/kill -USR1 $mypid

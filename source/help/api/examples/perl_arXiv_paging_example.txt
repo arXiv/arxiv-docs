@@ -1,0 +1,73 @@
+# perl_arXiv_paging_example.pl
+#
+# This sample script illustrates paging of arXiv api 
+# results.  In order to play nice with the api, we 
+# recommend that you wait 3 seconds between api calls.
+#
+# Please see the documentation at 
+# http://export.arxiv.org/api_help/docs/user-manual.html
+# for more information, or email the arXiv api 
+# mailing list at arxiv-api@googlegroups.com.
+#
+# LWP, and XML::Atom can be gotten from cpan.org
+#
+# Author: Julius B. Lucks
+#
+# This is free software.  Feel free to do what you want
+# with it, but please play nice with the arXiv API!
+
+use LWP;
+use XML::Atom::Feed;
+use strict;
+
+# Base api query url
+my $base_url = 'http://export.arxiv.org/api/query?';
+
+# Search parameters
+my $search_query = 'all:biophysics'; # search for electron in all fields
+my $start = 0;                     # start at the first result
+my $total_results = 20;            # want 20 total results
+my $results_per_iteration = 5;     # 5 results at a time
+my $wait_time = 3;                 # number of seconds to wait beetween calls
+
+# set up an LWP browser
+my $browser = LWP::UserAgent->new();
+
+print "Searching arXiv for $search_query\n";
+
+# Loop through each page of results, printing out the 
+# article id's, titles, and authors
+for (my $i = $start; $i <= $total_results; $i += $results_per_iteration) {
+    
+    print "Results $i - ",$i + $results_per_iteration,"\n";
+    # Construct the query with the search parameters
+    my $query = "search_query=$search_query".
+                "&start=$i".
+                "&max_results=$results_per_iteration";
+    
+
+    # perform a GET request using the $base_url and $query
+    my $response = $browser->get($base_url.$query);
+
+    # parse the response using XML::Atom.
+    my $feed = XML::Atom::Feed->new(\$response->content());
+
+    foreach my $entry ($feed->entries()) {
+    
+        # split the id line to get just the arxiv id
+        my @temp =  split('/abs/',$entry->id());
+        print "arxiv-id: ",$temp[-1],"\n";
+    
+        print "Title: ",$entry->title(),"\n";
+    
+        # gather a list of authors
+        my @authors = map { $_->name() } $entry->author();
+        print "Authors: ", join(', ',@authors),"\n";
+        
+    }
+    
+    # Remember to play nice and sleep a bit before you call
+    # the api again!
+    print "Sleeping for $wait_time seconds\n";
+    sleep($wait_time);
+}
