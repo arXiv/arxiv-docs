@@ -5,21 +5,34 @@ site_name: arXiv docs
 docs_dir: source
 
 plugins:
-  - search
-  
-  # Allows linkes in MD to be absolute like (/help/index.md) but then get transformed to relative hrefs
-  #- abs-to-rel
-  
-  # Allows use of {{ page.meta.revision_date }}
-  - git-revision-date
-
-  - macros
   - redirects:
       redirect_maps:
         'hypertex/bugs.md': 'help/hypertex/bugs.md'
         'hypertex/extensions.md': 'help/hypertex/extensions.md'
         'hypertex/index.md': 'help/hypertex/index.md'
         'help/scientific_ad_board.md': '/about/people/scientific_ad_board.md'
+        'new/stat.md': '/help/statistics.md'
+        'help/submission-policy.md': '/help/policies/instructions_for_submission.md'
+        'help/support.md': '/about/governance.md'
+        'help/terms_of_submission.md': '/help/policies/instructions_for_submission.md'
+        'help/toc.md': '/help.md'
+        'help/primer.md': '/about.md'
+        'help/general.md': '/about.md'
+        'help/submit_html.md': '/help/submit_index.md'
+        'help/donate.md': '/about/donate.md'
+        'help/announcement.md': '/new/econ.md'
+        'new/physics.md': '/help/physics.md'
+        'new/q-bio.md': '/help/q-bio.md'
+        'new/econ.md': '/new/econ_announce.md'
+        'help/econ/announcement.md': '/new/econ_announce.md'
+        'help/q-fin/announcement.md': '/new/q-fin_announce.md'
+        'help/eess/announcement.md': '/new/eess_announce.md'
+        'hypertex/extensions.md': '/help/hypertex/extensions.md'
+        'hypertex/bugs.md': '/help/hypertex/bugs.md'
+        'corr/home.md': '/corr/index.md'
+        'hypertex/index.md': '/help/hypertex.md'
+        'corr/subjectclasses.md': '/archive/cs.md'
+        'corr/advisorycommittee.md': 'corr/index.md'
 theme:
   name: material
   logo: assets/arxiv-logomark-small.svg
