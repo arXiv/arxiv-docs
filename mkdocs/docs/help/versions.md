@@ -6,7 +6,7 @@ our policy that all submitted works cannot be removed once publicly
 available. If an author needs to update the article after announcement,
 they may replace or withdraw the article, which creates a new version.
 This increments the version portion of the arXiv identifier. An example
-article with multiple versions is [arXiv:1710.02185](/abs/1710.02185).
+article with multiple versions is [arXiv:1710.02185](https://arxiv.org/abs/1710.02185).
 
 Making previous versions of submitted papers publicly available archives
 the historical record of research work. As such, it is a useful aid to

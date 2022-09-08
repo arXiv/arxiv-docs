@@ -20,7 +20,7 @@ different scenarios:
     submissions using special processing instructions from within an
     HTML index submission which lists the arXiv identifiers of the
     individual papers. A good example is
-    [arXiv:1205.2597](/abs/1205.2597v1).
+    [arXiv:1205.2597](https://arxiv.org/abs/1205.2597v1).
 -   [Index submitted before the individual papers](#index_before). We
     have support for automatic linking to a search on the report number
     field. Conference organizers must instruct the submitters of
@@ -28,7 +28,7 @@ different scenarios:
     `Report-no:` field of their submission. The HTML index submission
     includes special processing instructions which create links to the
     report number search. An example using this approach is
-    [arXiv:1108.3558](/abs/1108.3558v1).
+    [arXiv:1108.3558](https://arxiv.org/abs/1108.3558v1).
 
 Please note that conference announcements, or indexes without the
 articles indicated, are not permitted. We accept index submissions before the
@@ -52,7 +52,7 @@ local to the same site the index is retrieved from).
 
 Keep the HTML simple and be sure to include the `LIST:arXiv:YYMM.NNNN`
 directives on separate lines without any leading whitespace. A good
-example is [arXiv:1205.2597v1](/abs/1205.2597v1), for which the source
+example is [arXiv:1205.2597v1](https://arxiv.org/abs/1205.2597v1), for which the source
 HTML is:
 
     <html>

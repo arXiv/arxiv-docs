@@ -40,7 +40,7 @@ registration, submission and subscription to the archive can be found at
 [http://arxiv.org/help/subscribe](/help/subscribe).
 
 The q-fin archive has grown out of a well-established series of e-print
-archives accessible at [http://arxiv.org/](/). The number of
+archives accessible at [http://arxiv.org/](http://arxiv.org). The number of
 finance-related submissions to these archives has risen steadily over
 the last several years. Unfortunately, these submissions are currently
 scattered across a number of sub-archives (including physics, cond-mat,

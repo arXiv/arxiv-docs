@@ -27,6 +27,12 @@ def mkdocs_template():
     with app.test_request_context(''):
         print(render_template('generate_mkdocs_template.html'))
 
+@blueprint.cli.command('mkdocs_material_template')
+def mkdocs_material_template():
+    """Render the template for use in mkdocs-material from arxiv-base."""
+    with app.test_request_context(''):
+        print(render_template('generate_mkdocs_material_template.html'))
+
 
 app.register_blueprint(blueprint)
 s3.init_app(app)
