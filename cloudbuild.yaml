@@ -1,5 +1,5 @@
 steps:
-  - name: 'asia.gcr.io/$PROJECT_ID/mkdocs-material'
+  - name: 'squidfunk/mkdocs-material'
     args: ['build']
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['cp', '-r', 'site/*', 'gs://arxiv-docs/previews/$BRANCH_NAME/']
