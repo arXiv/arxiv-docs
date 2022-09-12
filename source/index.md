@@ -1,9 +1,44 @@
-# arXiv MKDocs genereated pages
+# Initiative to move arXiv docs from arxiv-markdown to MKDocs static generated pages
 
-## arXiv pages
+## Why move away from arxiv-marxdown?
+At this point it seems that arxiv-marxdown was not a good approch. It
+appears the main constraint that drove the development of
+arxiv-marxdown was to reuse the header and footer from arxiv-base.
 
-[brand](brand) [help](help) [about](about) [corr](corr) [hypertex](hypertex) [labs](labs) [new](new)
+arxiv-marxdown handled this by creating a flask app that rendered
+markdown and wrapped it in the header and footer like the other arxiv
+Python web apps. 
 
+This approch required that the docs pages be seved by a python process
+that is handling HTTP requests. In production this was done with
+mod_wsgi in a that was subject to constraints from other arxiv flask
+apps. Also both arxiv-marxdown and arxiv-docs needed to have their
+dependencies maintained and needed to track arxiv-base.
+
+An alternative approch is to have a click flask app that can be run to
+create a template with a header and footer for a static site
+generator. An example of this is in `prep_for_mkdocs.sh`
+
+A further alterantive is to just not reuse the header and footer from
+arxiv-base.
+
+## How to use this
+Edit the docs in `/source`  then you can preview them with 
+
+    mkdocs serve
+    
+and then you can view it with live updates at [http://localhost:8000/index](http://localhost:8000/index)
+
+Other commands are:
+
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Where can I find more about mkdocs?
+This uses the material theme for mkdocs. [mkdocs-material/customization](https://squidfunk.github.io/mkdocs-material/customization/)
 ## CSS for a page
 To add a css file to a specfic page use the following example:
 
@@ -15,48 +50,11 @@ That will add the `<link>` tag to load
 `arxiv-docs/mkdocs/docs/css/brand_guide.css` to the page it is
 included on.
 
-## Project layout
-
-    arxiv-docs
-        theme_generator/   # App to generate mkdocs theme from arxiv-base
-        mkdocs/
-            mkdocs.yml    # The configuration file.
-            docs/
-                index.md  # The documentation homepage.
-                ...       # Other markdown pages, images and other files.
-
 ## How is the arxiv-base template custom theme created?
-See the notes in `arxiv-docs/theme_generator/templates/generate_mkdocs_template.html`
+See the notes in `arxiv-docs/mkdocs/theme_generator/templates/generate_mkdocs_template.html`
 
 ## How to handle 'Missing end of comment tag'?
 This is often due to LaTeX or code samples with text like `{% raw %} "{{?}}" {% endraw %}`.
 
 See the [mkdocs-macros docs](https://mkdocs-macros-plugin.readthedocs.io/en/latest/advanced/#code-blocks-containing-similar-languages) for several ways to work around this.
 
-## Commands
-
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-[edit on github]({{ page.edit_url }})
-
-[edit on github]({{ page.edit_url }})
-
-## Help search
-{% if 'search' in config['plugins'] %}
-<h1 id="search">Search Results</h1>
-
-<form action="search.html">
-  <input name="q" id="mkdocs-search-query" type="text" >
-</form>
-
-<div id="mkdocs-search-results">
-  Sorry, page not found.
-</div>
-{% endif %}
-
-## Macro info
-{{ macros_info() }}
