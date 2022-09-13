@@ -7,17 +7,21 @@ arxiv-marxdown was to reuse the header and footer from arxiv-base.
 
 arxiv-marxdown handled this by creating a flask app that rendered
 markdown and wrapped it in the header and footer like the other arxiv
-Python web apps. 
+Python web apps. This approch required that the docs pages be seved by
+a python process that is handling HTTP requests. In production this
+was done with mod_wsgi in a that was subject to constraints from other
+arxiv flask apps. Also both arxiv-marxdown and arxiv-docs needed to
+have their dependencies mmaintained and needed to track arxiv-base. 
 
-This approch required that the docs pages be seved by a python process
-that is handling HTTP requests. In production this was done with
-mod_wsgi in a that was subject to constraints from other arxiv flask
-apps. Also both arxiv-marxdown and arxiv-docs needed to have their
-dependencies maintained and needed to track arxiv-base.
+The arxiv-marxdown becomes a liability especially when compared to a
+static site generator like mkdocs or jekyll. Mkdocs has extensive
+documentation, themes and plugsins.
 
-An alternative approch is to have a click flask app that can be run to
-create a template with a header and footer for a static site
-generator. An example of this is in `prep_for_mkdocs.sh`
+An alternative to arxiv-marxdown is to have a click flask app that can
+be run to create a template with a header and footer for a static site
+generator. Then a static site generator can provide 80% of the
+benifits of arixv-marxdown. An example of this is in
+`prep_for_mkdocs.sh`
 
 A further alterantive is to just not reuse the header and footer from
 arxiv-base.
