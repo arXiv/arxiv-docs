@@ -10,7 +10,7 @@ echo "Installed requirements.txt"
 mkdir -p overrides
 cd theme_generator
 FLASK_APP=app.py flask generate mkdocs_material_template > ../overrides/main.html
-FLASK_APP=app.py flask generate mkdocs_material_footer > ../overrides/partials/footer.html
+#FLASK_APP=app.py flask generate mkdocs_material_footer > ../overrides/partials/footer.html
 cd ..
 
 echo "If successful the template is now in ./overrides/"
