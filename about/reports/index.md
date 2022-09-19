@@ -9,6 +9,8 @@
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
 
+_In 2020, arXiv began publishing annual reports in the first quarter of the calendar year. See below for earlier reports._
+
 ## Annual Updates
 [2020 Annual Update](/about/reports/2020_update) 
 
