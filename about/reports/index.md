@@ -39,9 +39,11 @@
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[Current Budget](/about/reports-financials)
+[Current Budget](/about/FY23_Budget_-_External.pdf)
 
-[2019 Budget, midyear report](/about/reports/arXiv_CY19_midyear.pdf)
+[2020 Budget](/about/reports/2020_arXiv_Budget.pdf)
+
+[2019 Budget](/about/reports/arXiv_CY19_midyear.pdf)
 
 [2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
 
