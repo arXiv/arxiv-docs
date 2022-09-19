@@ -1,6 +1,6 @@
 
 steps:
-  - name: 'python'
+  - name: 'ubuntu:20.04'
     entrypoint: 'bash'
     args:
       - "-c"
