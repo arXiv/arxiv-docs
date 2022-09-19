@@ -1,13 +1,20 @@
 # arXiv Help Documentation
 
-Markdown-driven static sites for arXiv.
+Static sites for arXiv.
 
-## TODO Use a static site compiler
-Most of the sites need a uWSGI flask app to do the
-markdown. ``mklabs.sh`` demonstrates the labs pages statically build
-with the arxiv-base jinja templates. There are build and deploy
-scripts to server this as files from a bucket behind a load balancer
-in GCP. See ``deploy/README.md`` and ``spinupLabsInGcp.sh``
+## Building a local site
+
+To build the arXiv docs site, run:
+
+```bash
+python -m venv docs-venv
+docs-venv/bin/activate
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Then you will have the site served locally with hot reloading on
+edits. In your browser, go to http://localhost:8000/index.html
 
 ## Site structure
 
@@ -24,28 +31,28 @@ mysite/
         └── custom.html
 ```
 
-Custom templates go in ``_templates/<SITE NAME>``.
-
-### Pages
-
 The directory structure in the site directory determines the site map. A
 file at ``foo/baz/bat.md`` will be served at
-``https://some.site/foo/baz/bat``. But note that the file
-``foo/baz/index.md`` will be served at ``https://some.site/foo/baz``.
+``https://some.site/foo/baz/bat.html`` and the file
+``foo/baz/index.md`` will be served at ``https://some.site/foo/baz/index.html``.
 
-Everything is relative. You can add a link in ``foo/baz/index.md``
-like ``[click here for cool](bat)``, and the link will be rendered as
-``https://some.site/foo/baz/bat``.
+## Links
+Both absolute and relative links work. You can add a link in
+``foo/index.md`` to ``foo/baz.md`` with either ``[click this absolute
+link](/foo/baz)`` or ``[click this relative link](baz)``. Absolute
+links assist in moving pages around since the links on a single page
+do not break if a single page is moved. Relative links assist in movig
+directories of pages around since a whole subdirectory can be moved
+and if all the pages in it have relative links then those will not
+break.
 
 You can put static files in the same directory structure. If the page
 ``specifics/coolstory.md`` has an image tag like
 ``![my alt text](impressive.png)``, this will get rendered as
-``https://some.site/specifics/impressive.png``. In other words, it will just
-work.
+``https://some.site/specifics/impressive.png``.
 
-Only ``.md`` (markdown) files will be treated like pages. Everything else is
-general static content and won't get rendered like a page (fancy headers,
-etc).
+Only ``.md`` (markdown) files will be treated like pages. Everything
+else is won't get rendered like a page (fancy headers, etc).
 
 Inside of your ``.md`` files, you can add some front-matter. For example,
 if you want the title in the browser tab and breadcrumbs to be different from
@@ -60,101 +67,32 @@ title: This is the title that I like in the browser tab
 Bacon ipsum dolor sit amet...
 ```
 
-### Templates
+The first H1 tag will be used as the name of the page in navigtion.
 
-You can add custom templates (otherwise a generic arXiv template gets used,
-with nice breadcrumbs). For example, in one of your pages you could choose to
-use the template at ``_templates/mysite/custom.html`` by setting the
-frontmatter:
 
-```markdown
----
-template: mysite/custom.html
----
-```
+## Templates, CSS, JS
+`arxiv-docs` uses
+[mkdocs-material](https://squidfunk.github.io/mkdocs-material) which
+is theme for mkdocs. For information about customizing themes, CSS or
+JS see:
 
-## Building a site
-
-### Building a local site with Docker
-
-To build the arXiv docs site, run:
-
-```bash
-docker build . -t arxiv/docs:mytag
-```
-
-You should see lots of things happening, and maybe this will take a few minutes
-if you have a big site. At the end, you should see something like:
-
-```bash
-Successfully built 297b169df71f
-Successfully tagged arxiv/docs:mytag
-```
-
-You can then run the site by doing:
-
-```bash
-docker run -it -p 8000:8000 arxiv/docs:mytag
-```
-
-In your browser, go to http://localhost:8000/about 
+https://squidfunk.github.io/mkdocs-material/customization/
 
 ## Search
 
-You can access the search page at ``<SITE_URL_PREFIX>/search``.
+TODO
 
 ## Controlling the HTTP response (deletion, redirects)
 
-You can control the HTTP response to the user's agent using the ``response``
-key in the frontmatter. The following parameters are supported:
+TODO: right now there we don't have redirects setup.
 
-| Parameter | Type | Default | Description |
-| :--- | :---: | :---: | :--- |
-| ``response.status`` | int | ``200`` | The HTTP status code for the response. |
-| ``response.location`` | str | None | Sets the ``Location`` header; this can be used to redirect the user. |
-| ``response.deleted`` | bool | ``false`` | If ``true``, a status code of ``404`` will be returned, and a special "deleted" template will be rendered. |
+## Deployment & Configuration
 
-### Example of a deleted page
+``mkdocs build`` leaves a static site in `./site` This is a static
+site with relative links that can be served with any system that hosts
+a web site.
 
-```
----
-response:
-  deleted: true
----
-This page was deleted because it was not that great.
-```
+The cloud build YAML files combined with CloudBuild triggers in
+`arxiv-production` comprise the deployment pipeline for `arxiv-docs`.
 
 
-### Example of a redirect
-
-```
----
-response:
-  status: 301
-  location: the/new/location
----
-```
-
-
-## Deployment & configuration
-
-As of marXdown 0.2.1, multiple sites can be served in the same uWSGI
-process, and therefore in a single Docker container with a single
-entrypoint. This saves a lot of resources on overhead, especially for
-low-traffic sites.
-
-Since marXdown relies heavily on start-up configuration, however, the trade-off
-is that (a) we need to use configuration files to keep configs separate for
-each app rather than using environment variables, and (b) that means we need to
-be able to define the Flask "instance path" at app creation time (i.e. before
-configuration) which means that we need a custom WSGI entrypoint for each app.
-
-Places where relevant paths and parameters are defined:
-
-- ``deploy/[site]/wsgi.py`` is the custom WSGI entrypoint for the site/app.
-  This gets added at ``/opt/arxiv/[site]/wsgi.py`` in the Docker image.
-- ``deploy/[site]/instance/application.cfg`` is a Python script with config
-  parameters. This gets added at ``/opt/arxiv/[site]/instance/application.cfg``
-  in the Docker image.
-- ``Dockerfile`` is where all of the above gets added to the Docker image, and
-  the build script for each site/app is invoked.
