@@ -1,5 +1,12 @@
+
 steps:
-  - name: 'squidfunk/mkdocs-material'
-    args: ['build']
+  - name: 'python'
+    entrypoint: 'bash'
+    args:
+      - "-c"
+      - |
+        ./prep_for_mkdocs.sh
+        mkdocs build
+
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['cp', '-r', 'site/*', 'gs://arxiv-docs-prs/$BRANCH_NAME/']
