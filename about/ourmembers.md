@@ -268,6 +268,7 @@ aside {
 1. University of Vienna  (Austria)
 1. University of Virginia (USA)
 1. University of Western Australia (Australia)
+1. University of the Witwatersrand (South Africa)
 1. Uppsala University (Sweden)
 1. Vrije Universiteit Brussel (Belgium)
 1. Waseda University (Japan) _NII Japan Consortium_
