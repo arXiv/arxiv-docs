@@ -114,3 +114,6 @@ mkdocs/overrides
 
 overrides/main.html
 overrides/partials/footer.html
+
+#Mkdocs site
+site/
