@@ -39,12 +39,12 @@ file at ``foo/baz/bat.md`` will be served at
 ## Links
 Both absolute and relative links work. You can add a link in
 ``foo/index.md`` to ``foo/baz.md`` with either ``[click this absolute
-link](/foo/baz)`` or ``[click this relative link](baz)``. Absolute
-links assist in moving pages around since the links on a single page
-do not break if a single page is moved. Relative links assist in movig
-directories of pages around since a whole subdirectory can be moved
-and if all the pages in it have relative links then those will not
-break.
+link](/foo/baz.md)`` or ``[click this relative
+link](baz.md)``. Relative links assist in movig directories of pages
+around since a whole subdirectory can be moved and if all the pages in
+it have relative links then those will not break. Absolute links
+assist in moving pages around since the links on a single page do not
+break if a single page is moved.
 
 You can put static files in the same directory structure. If the page
 ``specifics/coolstory.md`` has an image tag like

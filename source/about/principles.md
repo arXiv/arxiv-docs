@@ -81,7 +81,7 @@ service.
 
 3.4. Voting for representatives to the MAB is open to all eligible member institutions, each of
 which shall have one vote. Member institutions may delegate their representation to a
-consortium or other proxy<sup1</supwith the voting representation of such proxies being equal to the
+consortium or other proxy with the voting representation of such proxies being equal to the
 number of members represented.
 
 3.5. The MAB is chaired by the arXiv Program Director from CUL and includes two members of
@@ -165,14 +165,14 @@ support. Failure to do so may result in the development of an exit strategy, inc
 transition of arXiv to another institution.
 
 ***
-<sup1</supFunders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
+ Funders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
 
-<sup2</supSpecifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
+Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
 Advisory Board will be articulated in the groups’ bylaws (to be developed).
 
-<sup3</supCUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building.
+CUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building.
 
-<sup4</supSee the arXiv Membership Program section about the specifics of the five-year commitment.
+See the arXiv Membership Program section about the specifics of the five-year commitment.
 
 ***
 _Revisions:_

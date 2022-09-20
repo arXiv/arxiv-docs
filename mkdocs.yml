@@ -1,10 +1,10 @@
 site_name: arXiv docs
 
+docs_dir: source
 
 # Prevents default mkdocs behavior of linking to /help instead of /help/index.html
-# use_directory_urls: false
-docs_dir: source
-use_directory_urls: false
+#use_directory_urls: false
+
 plugins:
   - search
   # Redirects only work with the mkdocs serve, not at docs.arxiv.org

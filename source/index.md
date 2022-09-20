@@ -1,4 +1,75 @@
-# Initiative to move arXiv docs from arxiv-markdown to MKDocs static generated pages
+# Initiative move arXiv docs to MKDocs static HTML pages
+
+## TODO
+### DONE Initial move of markdown files from marxdown to mkdocs (BC)
+### DONE arxiv-base, browse and search with links to docs.arxiv.org (BC)
+### DONE CICD for edits at github to docs.arxiv.org (BC)
+### DONE site and cert for docs.arxiv.org (BC)
+### Fix links
+Using ``linkchecker http://localhost:8000/about/index.html --no-follow-url=".*/abs/.*"``
+
+### Find and fix Broken pages first pass (BC)
+- DONE Problem [/about/governance.html](/about/governance.html) stringe text {mk-png-60}
+
+- DONE [/about/principles.html](/about/principles.html) strange text like <sup1</sup
+
+- marxdown redirect pages:
+  [/help/announcement.html](/help/announcement.html) 
+  [/help/submit_html.html](/help/submit_html.html) 
+  
+- DONE [/help/submit_sword.html](/help/submit_sword.html) Link to arxiv.org/help/contact
+
+- Has bad raw jinja: " {% raw %}\hypersetup{pdfauthor={some author},pdftitle={eye-catching title}}{% endraw %}." [/help/submit_tex.html](/help/submit_tex.html) 
+
+
+### Find and fix Broken pages second pass 
+### Review content and nav 
+- Problem [/about/ourmembers.html](/about/ourmembers.html) Top 100 and others a bit strange due to custom styles
+
+- Very broken due to custom jinja code [/about/people/leadership_team.html](/about/people/leadership_team.html)
+
+- Support confirm and membership confirm seems like duplicates?
+
+- Our supporters and our members seem like duplicates?
+
+- Get rid of User testing api?
+
+- User testing api and user testing group seem very similar?
+
+- [/about/reports/whitepaper.html ](/about/reports/whitepaper.html ) could use a better name 
+
+- No content on these pages: [/help/donate.html](/help/donate.html) 
+[/help/general.html](/help/general.html) 
+[/help/primer.html](/help/primer.html) 
+[/help/submission-policy.html](/help/submission-policy.html) 
+[/help/support.html](/help/support.html) 
+[/help/terms_of_submission.html](/help/terms_of_submission.html) 
+[/help/toc.html](/help/toc.html) 
+
+- [/help/whytex.html](/help/whytex.html) fix link to [/help/textures](/help/textures) 
+
+- Broken images on [/help/withdraw.html](/help/withdraw.html)
+
+- very broken: [/labs/showcase.html](/labs/showcase.html)
+
+- Remove GZip help
+
+- Remove my.arxiv.org page. my.arxiv.org no longer exists
+[/help/my_arxiv.html](/help/my_arxiv.html)
+
+- Images broken on [/help/orcid.html](/help/orcid.html)
+
+- Are we trying to get TeX on this page on the subject heading "Notes on Note on La$\TeX$ accent commands" ? [/help/prep.html](/help/prep.html)
+
+- Can probably get rid of this page: [/help/ssl.html](/help/ssl.html) It's old news and standard practice. 
+
+- [/help/submit_index.html](/help/submit_index.html) needs better title. 
+
+
+### Fix titles of many pages
+### Write instructions for use of arxiv-docs that work for SB JE and AF (BC)
+### Duplicate any edits made in master to the mkdocks-material branch (BC)
+### Add redirects to httpd for arxiv.org to docs.arxiv.org
 
 ## Why move away from arxiv-marxdown?
 At this point it seems that arxiv-marxdown was not a good approch. It
@@ -41,24 +112,25 @@ Other commands are:
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## What markdown to use?
+This uses python markdown which attempts to closely follow [Gruber's markdown syntax](https://daringfireball.net/projects/markdown/syntax)
+
 ## Where can I find more about mkdocs?
 This uses the material theme for mkdocs. [mkdocs-material/customization](https://squidfunk.github.io/mkdocs-material/customization/)
 ## CSS for a page
-To add a css file to a specfic page use the following example:
+See https://squidfunk.github.io/mkdocs-material/customization/#additional-css
 
-    {% raw %}{% block addl_head %}{% endraw %}
-    <link rel="stylesheet" type="text/css" href="{{'/css/brand_guide.css' | urlize}}""/>
-    {% raw %}{% endblock addl_head %}{% endraw %}
 
-That will add the `<link>` tag to load
-`arxiv-docs/mkdocs/docs/css/brand_guide.css` to the page it is
-included on.
-
-## How is the arxiv-base template custom theme created?
-See the notes in `arxiv-docs/mkdocs/theme_generator/templates/generate_mkdocs_template.html`
+## How is header and footer theme created?
+See the notes in [theme-generator](https://github.com/arXiv/arxiv-docs/theme_generator/README.md)
 
 ## How to handle 'Missing end of comment tag'?
-This is often due to LaTeX or code samples with text like `{% raw %} "{{?}}" {% endraw %}`.
+When using mkdocs and the macros plug in you can get a stack grace
+with a Jinja error like message "Missing end of comment tag".  This is
+often due to LaTeX or code samples with text like `{% raw %} "{{?}}"
+{% endraw %}`.
+
+As of 2022-09 the macro plugin for mkdocs is disabled and this should
+not be a problem. 
 
 See the [mkdocs-macros docs](https://mkdocs-macros-plugin.readthedocs.io/en/latest/advanced/#code-blocks-containing-similar-languages) for several ways to work around this.
-
