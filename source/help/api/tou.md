@@ -5,8 +5,8 @@ to authors or readers. Providing free Application Programming Interfaces (APIs)
 helps us to advance that mission by enabling platforms and projects that extend
 the discoverability of arXiv e-prints and provide valuable services to
 scientists and interested readers. Our APIs include our [OAI-PMH
-interface](../oa), [RSS feeds](../rss), the [legacy arXiv API](index), [bulk
-data downloads](../bulk_data_s3), [SWORD bulk deposit API](../submit_sword),
+interface](/help/oa/index.md), [RSS feeds](/help/rss.md), the [legacy arXiv API](/help/api/index.md), [bulk
+data downloads](/help/bulk_data_s3.md), [SWORD bulk deposit API](/help/submit_sword.md),
 and services available via the [arXiv API Gateway](https://api.arxiv.org/).
 Understanding and observing the following terms of use will help us to ensure
 that arXiv continues to be able to fulfill its mission. For more information,
@@ -32,7 +32,7 @@ this page.
   are provided by authors, volunteer moderators, arXiv staff, and external
   partners.
 - You agree to abide by the arXiv [Code of
-  Conduct](../policies/code_of_conduct) in all of your interactions with arXiv
+  Conduct](/help/policies/code_of_conduct.md) in all of your interactions with arXiv
   staff and those involved in its operation, and understand that if you violate
   the CoC we may prohibit you from using arXiv APIs.
 - You agree to respect limitations on use of arXiv APIs, including rate limits
@@ -49,7 +49,7 @@ this page.
 - In order to provide support and improvements for developers who use arXiv
   APIs, you understand that we will collect certain private information about
   you, such as your name and email address. Please see the [arXiv Privacy
-  Policy](../policies/privacy_policy) for information about how we use and
+  Policy](/help/policies/privacy_policy.md) for information about how we use and
   protect your information. In order to promote use of arXiv APIs and showcase
   your work, we may give you the option to make information about you or your
   project publicly available.

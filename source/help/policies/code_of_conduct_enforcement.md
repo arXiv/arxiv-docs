@@ -2,9 +2,9 @@
 
 arXiv is a platform where researchers engage with one another to participate in science, software development, and scholarly communications. It is also a community.
 
-Our valued community of authors, readers, moderators, advisors, staff, collaborators, and supporters expects and deserves a respectful environment, which is why we adhere to a [Code of Conduct](code_of_conduct), [moderation standards](/help/moderation), and other policies. 
+Our valued community of authors, readers, moderators, advisors, staff, collaborators, and supporters expects and deserves a respectful environment, which is why we adhere to a [Code of Conduct](/help/policies/code_of_conduct.md), [moderation standards](/help/moderation/index.md), and other policies. 
 
-There are several actions that if taken, may result in a Code of Conduct violation. Such actions include but are not limited to utilizing inappropriate means of communication, abusive emails directed toward staff, repeatedly submitting inappropriate material, and may occur on any of arXiv’s channels. The Code of Conduct does not address issues concerning the acceptance of research articles. Any issues concerning moderation can utilize the appeals process described on the [arXiv moderation page](/help/moderation#appeal). 
+There are several actions that if taken, may result in a Code of Conduct violation. Such actions include but are not limited to utilizing inappropriate means of communication, abusive emails directed toward staff, repeatedly submitting inappropriate material, and may occur on any of arXiv’s channels. The Code of Conduct does not address issues concerning the acceptance of research articles. Any issues concerning moderation can utilize the appeals process described on the [arXiv moderation page](/help/moderation/index.md#appeal). 
 
 ## Reporting
 If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 

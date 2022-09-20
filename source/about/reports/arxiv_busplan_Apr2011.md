@@ -63,14 +63,14 @@ upload interface for data associated with arXiv articles. Submission is
 unified through small extensions to arXiv's submission interface. While
 the article is announced and stored on arXiv, data is automatically
 deposited in the Data Conservancy repository and linked from the article
-(see [http://arxiv.org/help/data\_conservancy](/help/data_conservancy)
+(see [http://arxiv.org/help/data\_conservancy](/help/data_conservancy.md)
 for more information). This is a pilot project, which will be
 re-evaluated in collaboration with the Data Conservancy by the end of
 this year.
 
 As a part of our initiative, we are making an effort to closely monitor
 and document expenses associated with running arXiv. The [2011
-budget](/help/support/2011_budget) includes an in-kind contributions
+budget](None) includes an in-kind contributions
 category to factor in a range of undocumented costs, such as indirect
 expenses associated with housing arXiv at Cornell.
 

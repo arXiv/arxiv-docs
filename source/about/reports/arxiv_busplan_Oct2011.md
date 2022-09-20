@@ -18,7 +18,7 @@ for more information.
 On September 23, 2011, we commemorated the 20th anniversary of arXiv
 with a local celebration that included two meetings and a public talk by
 Paul Ginsparg. [arXiv Scientific Advisory
-Board](/help/scientific_ad_board) members met to discuss the role,
+Board](/about/people/scientific_ad_board.md) members met to discuss the role,
 structure, and composition of the Board; moderation issues such as new
 moderator recruitment and submission quality criteria; and the ongoing
 business modeling and organizational streamlining efforts. We also
@@ -71,11 +71,11 @@ responsibilities in this regard.
 Through October 15, 2011, 129 institutions in 16 countries have pledged
 their support, totaling $382,000 of contributions for 2011. We
 gratefully acknowledge the contributions of supporting institutions:
-[arXiv 2010 Supporters](/help/support/2010_supporters) and [arXiv 2011
-Supporters](/help/support/2011_supporters). The budget information for
+[arXiv 2010 Supporters](/about/reports/2010_supporters.md) and [arXiv 2011
+Supporters](/about/reports/2011_supporters.md). The budget information for
 arXiv is available here: [CY2010 expenses and
 revenues](http://tinyurl.com/3wu56ur) and [CY2011 budget
-projection](/help/support/2011_budget).
+projection](None).
 
 In January, we will perform an analysis of the 2011 download activity in
 order to determine the top 200 constituents. Based on our sampling thus
@@ -90,7 +90,7 @@ provide. We welcome your suggestions for additional metrics.
 **Communication**
 
 The arXiv sustainability initiative's website is
-[http://arxiv.org/help/support](/help/support), including the quarterly
+[http://arxiv.org/help/support](/help/support.md), including the quarterly
 updates. You are also welcome to send your questions and input to
 <support@arxiv.org>. We have recently created an announcement email list
 for updates about arXiv support efforts, and we have transferred all of

@@ -50,8 +50,8 @@ color, greyscale, and black & white images.
 
 Note that JPEG and GIF can be directly wrapped into level 2 PostScript
 while preserving the compression see
-[ImageMagick](procedure#shortImageM), [imgtops](software#imgtops), and
-[jpeg2ps](software#jpeg2ps) for more details.
+[ImageMagick](/help/bitmap/procedure.md#shortImageM), [imgtops](/help/bitmap/software.md#imgtops), and
+[jpeg2ps](/help/bitmap/software.md#jpeg2ps) for more details.
 
 <span id="other"></span>
 

@@ -16,7 +16,7 @@ Conservancy as part of the arXiv submission process remains available as
 detailed below.
 
 Datasets associated with the following 634 arXiv article versions were
-merged into arXiv as [ancillary files](/help/ancillary_files):
+merged into arXiv as [ancillary files](/help/ancillary_files.md):
 
 [arXiv:0801.0830v6](https://arxiv.org/abs/0801.0830v6),
 [arXiv:0802.1945v3](https://arxiv.org/abs/0802.1945v3),

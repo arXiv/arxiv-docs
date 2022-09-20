@@ -87,4 +87,4 @@ questions.
 ### How do I report a problem?
 
 If you wish to report a problem, or if you have questions about arXiv's
-use of MathJax, please first visit the [contact](contact) page.
+use of MathJax, please first visit the [contact](/help/contact.md) page.

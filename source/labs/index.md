@@ -113,7 +113,7 @@ aside {
 
 <img alt="arXivLabs logo" src="images/smileybones-labs-icon.png" class="mkd-img-right mkd-img-thumb"/>
 
-arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](showcase/).
+arXivLabs is a framework for enabling the arXiv community to contribute to arXiv and develop tools that can benefit the scientific community. Current projects are featured in our [arXivLabs showcase](/labs/showcase.md).
 
 arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and share their products and services, as long as they abide by arXiv’s values of openness, community, excellence, and user data privacy.
 
@@ -126,11 +126,11 @@ arXiv welcomes anyone, from single individuals to large companies, to contribute
 > 1. **Core**
 > Experimental projects that add a great deal of value to the arXiv platform, and which are deemed feasible to maintain by the core arXiv IT team, may be incorporated as a core feature or service. These projects undergo additional rigorous scrutiny to ensure maintainability, security, and reliability.
 
-<!-- To apply to the arXivLabs community, learn more about the [criteria](criteria) and then [propose your project idea](project-proposal). -->
+<!-- To apply to the arXivLabs community, learn more about the [criteria](/labs/criteria.md) and then [propose your project idea](/labs/project-proposal.md). -->
 
 <!-- <a href="project-proposal" class="button-fancy">Click to submit your idea <span> </span></a> -->
 
-_*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_ In the meantime, you can learn more about the [criteria](criteria) for arXiv Labs projects.
+_*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_ In the meantime, you can learn more about the [criteria](/labs/criteria.md) for arXiv Labs projects.
 
 This pause in Labs effort does not affect access to the arXiv APIs, which are always public and available. Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 

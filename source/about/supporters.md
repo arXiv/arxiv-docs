@@ -1,8 +1,8 @@
 # Our Supporters
 
-We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](members).
+We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](None).
 
-Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](/about/funding.md) and contact us at membership@arXiv.org.
 
 <style>
 ol {

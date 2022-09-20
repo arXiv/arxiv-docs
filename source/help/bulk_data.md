@@ -11,7 +11,7 @@ development based on the arXiv collection against these constraints.
 Access mechanisms provided are grouped into metadata and full-text
 services below.
 
-Please review the [Terms of Use for arXiv APIs](./api/tou) before using any of
+Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using any of
 the access options below.
 
 ## Bulk Metadata Access
@@ -19,7 +19,7 @@ the access options below.
 
 ### OAI-PMH
 
-arXiv supports the [OAI protocol for metadata harvesting](oa/index)
+arXiv supports the [OAI protocol for metadata harvesting](/help/oa/index.md)
 (OAI-PMH) to provide access to metadata for all articles, updated daily
 with new articles. This is the preferred way to bulk-download or keep an
 up-to-date copy of arXiv metadata.
@@ -27,12 +27,12 @@ up-to-date copy of arXiv metadata.
 ### API
 
 arXiv supports real-time programmatic access to metadata and our search
-engine via the [arXiv API](api/index). Results are returned using
+engine via the [arXiv API](/help/api/index.md). Results are returned using
 the Atom XML format for easy integration with web services and toolkits.
 
 ### RSS
 
-arXiv provides [RSS feeds of new updates](rss) each day. These are
+arXiv provides [RSS feeds of new updates](/help/rss.md) each day. These are
 intended primarily for human consumption but do use well defined XML
 formats and thus might be useful to machine applications.
 
@@ -47,7 +47,7 @@ right to grant any specific rights to others. We are thus unable to
 grant others the right to distribute arXiv articles. If you build
 indexes or tools based on the full-text, you must link back to arXiv for
 downloads. A small fraction of submissions are made with [other
-licenses](license) and this information is available in the
+licenses](/help/license/index.md) and this information is available in the
 OAI-PMH metadata.*
 
 ### Kaggle
@@ -56,7 +56,7 @@ The full, machine-readable arXiv dataset is [available on Kaggle](https://www.ka
 
 ### Amazon S3
 
-For all available articles the processed PDF and source files are [available from Amazon S3](bulk_data_s3). 
+For all available articles the processed PDF and source files are [available from Amazon S3](/help/bulk_data_s3.md). 
 
 ### KDD cup dataset
 
@@ -69,7 +69,7 @@ dataset also includes extracted citation data.
 ### Custom Programmatic Harvesting 
 ----------------------------------
 
-As stated on our [robots](robots) page, arXiv has limited server capacity 
+As stated on our [robots](/help/robots.md) page, arXiv has limited server capacity 
 and our first priority is to support interactive use by human users. That said, 
 we are plainly aware that interested parties will want to make use of our corpus.
 
@@ -90,11 +90,11 @@ at 4 requests per second with a 1 second `sleep`, per burst.
 
 arXiv already operates with limited resources, and mindlessly downloading 
 all of the URLs of this site will return terabytes of data. This represents
-both a [financial burden](/about/give) to arXiv, as well as a practical 
+both a [financial burden](/about/give.md) to arXiv, as well as a practical 
 problem for the unwary. 
 
 *Please do not attempt to download the complete corpus programmatically.* 
-The [Amazon S3](bulk_data_s3) buckets are the accepted mechanism to download 
+The [Amazon S3](/help/bulk_data_s3.md) buckets are the accepted mechanism to download 
 the complete corpus, but you are welcome to "play catch-up" programmatically
 between updates of the buckets.
 

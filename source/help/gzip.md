@@ -6,7 +6,7 @@ compressed. The archive uses the [GNU](https://www.gzip.org/)
 *gzip* utility, which is free software.
 
 See our
-[detailed utilities help](utilities#taretc) for instructions on
+[detailed utilities help](/help/utilities.md#taretc) for instructions on
 obtaining gzip.
 
 Along with gzip you will always find *gunzip*, which decompresses

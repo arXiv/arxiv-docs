@@ -70,4 +70,4 @@ A fully accessible arXiv is important, meaningful, and ambitious. Significant de
 - Learn more about contributing development time to making arXiv TeX research papers accessible by emailing nextgen@arxiv.org.
 - [Donate](https://arxiv.org/about/give) and support creation of an accessible arXiv.
 - Learn about [arXiv Labs](https://labs.arxiv.org) and developing tools that benefit the arXiv community.
-- Join the [arXiv usability testing list](user-testing) and share your feedback and insights.
+- Join the [arXiv usability testing list](/about/user-testing.md) and share your feedback and insights.

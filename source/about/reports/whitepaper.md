@@ -3,7 +3,7 @@ arXiv Business Model White Paper
 
 Cornell University Library  
 January 15, 2010; last updated August 5, 2010  
-See also: [arXiv Support](/help/support) and [FAQ](/help/support/faq)  
+See also: [arXiv Support](/help/support.md) and [FAQ](None)  
 Contact: support@arxiv.org
 
 ## 1. Introduction
@@ -85,7 +85,7 @@ models.
 
 The calendar year 2010 budget for arXiv is \$400,000, which includes
 costs for personnel and operating expenses (G&A overhead, hardware,
-hosting, and network charges; see [budget summary](2010_budget)). Staff
+hosting, and network charges; see [budget summary](None)). Staff
 salaries account for about 80% of total annual expenses. We expect the
 annual budget to increase to $500,000 by 2012 to facilitate necessary
 upgrades and enhancements (see [section 3.1](#sec3_1) for more
@@ -150,7 +150,7 @@ support during transition to this model.
 
 As a public good, arXiv should be supported by those institutions that
 use it the most. We have compiled a [listing of the most active 200
-institutions](2009_usage), based on download data, for calendar year 2009. We will compile and review usage data, by institution, on an annual basis and will notify institutions that have moved from one tier to another.
+institutions](/about/reports/2009_usage.md), based on download data, for calendar year 2009. We will compile and review usage data, by institution, on an annual basis and will notify institutions that have moved from one tier to another.
 
 We do not have precise statistics based on articles submitted to arXiv.
 This is because arXiv does not demand that submitters include
@@ -245,7 +245,7 @@ arXiv is maintained and operated by the Cornell University Library, with
 guidance from the [arXiv Scientific Advisory
 Board](http://arxiv.org/help/scientific_ad_board) and several subject
 Advisory Committees. Additionally, the [arXiv Sustainability Advisory
-Group](sustainability_advisory_group) provides an essential consultative
+Group](/about/reports/sustainability_advisory_group.md) provides an essential consultative
 role in developing diverse sustainability strategies for arXiv.
 
 ### 2.8 Benefits for supporting institutions

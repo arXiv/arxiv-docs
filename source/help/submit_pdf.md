@@ -14,11 +14,11 @@ guidelines:
     *compatibility mode* and will ensure that the PDF document is as
     portable as possible.
 -   Note: a PDF file created from a TeX/LaTeX file will typically be rejected, with exceptions granted on a case-by-case basis.
-    There are [good reasons](/help/faq/whytex) why arXiv insists on
+    There are [good reasons](/help/faq/whytex.md) why arXiv insists on
     TeX/LaTeX source if it is available. arXiv produces PDF
     automatically from all TeX submitted source. For information on
     viewing the PDF provided by arXiv, see our [PDF browsing
-    help](/help/pdf).
+    help](/help/pdf.md).
 
 While PDF can be very useful, it has some limitations. Including large figures in PDF can hamper the
 display of the document so that it is unusable. Authors should keep in
@@ -73,7 +73,7 @@ requirements.
 
 Copyright statements of the author are permitted within the pdf. Copyright
 statements which prohibit or impair arXiv's [redistribution
-license](/help/license) will be rejected. If explicit permission is
+license](/help/license/index.md) will be rejected. If explicit permission is
 given for open access redistribution, these are permissible.
 Users should contact arXiv administrators at help@arxiv.org if they have questions.
 

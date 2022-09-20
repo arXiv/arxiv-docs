@@ -4,7 +4,7 @@ Protecting your Privacy
 Privacy Policy
 ---------------------------------------
 
-Please see our [privacy policy](policies/privacy_policy). The information below is specific to display of submitter and author email.
+Please see our [privacy policy](/help/policies/privacy_policy.md). The information below is specific to display of submitter and author email.
 
 Submitter Email
 ---------------------------------------
@@ -22,7 +22,7 @@ submitters from abuse. For example, submitter addresses are no longer
 visible on the abstract page of a paper; the submitter's address is
 instead available on a link that says **\[view email\]**. Access to this
 link requires one to logon, or first to
-[register](/user/register). For this function, users of
+[register](https://arxiv.org/user/register). For this function, users of
 mirror sites will be redirected to the main site, since only the main
 site currently supports authentication. The intent of this and other
 technical measures now in place is to make it difficult or impossible to
@@ -38,7 +38,7 @@ upload each submission to arXiv. There are two intended purposes:
 -   to give users the ability to send feedback on papers to the
     submitter
 -   to help users [contact eligible arXiv
-    endorsers](endorsement#request) in order to make their own
+    endorsers](/help/endorsement.md#request) in order to make their own
     submissions
 
 arXiv monitors each user's requests to view email addresses. If a large
@@ -57,5 +57,5 @@ arXiv data must not be abused for unsolicited emailing or other forms of
 spam.*
 
 If you have any questions about what constitutes appropriate use of
-submitter email addresses, please [contact](contact.md) the arXiv
+submitter email addresses, please [contact](/help/contact.md) the arXiv
 administrators.

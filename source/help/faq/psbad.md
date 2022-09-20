@@ -28,7 +28,7 @@ should be human readable, or at least contain only printable characters
 (`0-9, A-Z, a-z`).
 
 To work around this, you can [pass a special flag to our AutoTeX
-processor](/help/faq/mistakes#psbad) to keep all lines beginning with
+processor](/help/faq/mistakes.md#psbad) to keep all lines beginning with
 '`%`' (at the cost of portability). To do this, include a file
 `00README.XXX` which includes an instruction specific to the filename of
 the dvi file for your submission, usually `filename.dvi` if your TeX
@@ -116,7 +116,7 @@ this case, it is not the format that needs to be changed, but the the
 encoding of the image data within the EPS file.
 
 One way around this is to convert the JPEG to EPS format using
-[jpeg2ps](/help/bitmap/software#jpeg2ps) with the `-h` flag to avoid the
+[jpeg2ps](/help/bitmap/software.md#jpeg2ps) with the `-h` flag to avoid the
 8 bit data:
 
 ``` 

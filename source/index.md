@@ -9,24 +9,24 @@
 Using ``linkchecker http://localhost:8000/about/index.html --no-follow-url=".*/abs/.*"``
 
 ### Find and fix Broken pages first pass (BC)
-- DONE Problem [/about/governance.html](/about/governance.html) stringe text {mk-png-60}
+- DONE Problem [/about/governance.html](/about/governance.md) stringe text {mk-png-60}
 
-- DONE [/about/principles.html](/about/principles.html) strange text like <sup1</sup
+- DONE [/about/principles.html](/about/principles.md) strange text like <sup1</sup
 
 - marxdown redirect pages:
-  [/help/announcement.html](/help/announcement.html) 
-  [/help/submit_html.html](/help/submit_html.html) 
+  [/help/announcement.html](/help/announcement.md) 
+  [/help/submit_html.html](/help/submit_html.md) 
   
-- DONE [/help/submit_sword.html](/help/submit_sword.html) Link to arxiv.org/help/contact
+- DONE [/help/submit_sword.html](/help/submit_sword.md) Link to arxiv.org/help/contact
 
-- Has bad raw jinja: " {% raw %}\hypersetup{pdfauthor={some author},pdftitle={eye-catching title}}{% endraw %}." [/help/submit_tex.html](/help/submit_tex.html) 
+- Has bad raw jinja: " {% raw %}\hypersetup{pdfauthor={some author},pdftitle={eye-catching title}}{% endraw %}." [/help/submit_tex.html](/help/submit_tex.md) 
 
 
 ### Find and fix Broken pages second pass 
 ### Review content and nav 
-- Problem [/about/ourmembers.html](/about/ourmembers.html) Top 100 and others a bit strange due to custom styles
+- Problem [/about/ourmembers.html](/about/ourmembers.md) Top 100 and others a bit strange due to custom styles
 
-- Very broken due to custom jinja code [/about/people/leadership_team.html](/about/people/leadership_team.html)
+- Very broken due to custom jinja code [/about/people/leadership_team.html](/about/people/leadership_team.md)
 
 - Support confirm and membership confirm seems like duplicates?
 
@@ -38,32 +38,32 @@ Using ``linkchecker http://localhost:8000/about/index.html --no-follow-url=".*/a
 
 - [/about/reports/whitepaper.html ](/about/reports/whitepaper.html ) could use a better name 
 
-- No content on these pages: [/help/donate.html](/help/donate.html) 
-[/help/general.html](/help/general.html) 
-[/help/primer.html](/help/primer.html) 
-[/help/submission-policy.html](/help/submission-policy.html) 
-[/help/support.html](/help/support.html) 
-[/help/terms_of_submission.html](/help/terms_of_submission.html) 
-[/help/toc.html](/help/toc.html) 
+- No content on these pages: [/help/donate.html](/help/donate.md) 
+[/help/general.html](/help/general.md) 
+[/help/primer.html](/help/primer.md) 
+[/help/submission-policy.html](/help/submission-policy.md) 
+[/help/support.html](/help/support.md) 
+[/help/terms_of_submission.html](/help/terms_of_submission.md) 
+[/help/toc.html](/help/toc.md) 
 
-- [/help/whytex.html](/help/whytex.html) fix link to [/help/textures](/help/textures) 
+- [/help/whytex.html](/help/whytex.md) fix link to [/help/textures](/help/faq/textures.md) 
 
-- Broken images on [/help/withdraw.html](/help/withdraw.html)
+- Broken images on [/help/withdraw.html](/help/withdraw.md)
 
-- very broken: [/labs/showcase.html](/labs/showcase.html)
+- very broken: [/labs/showcase.html](/labs/showcase.md)
 
 - Remove GZip help
 
 - Remove my.arxiv.org page. my.arxiv.org no longer exists
-[/help/my_arxiv.html](/help/my_arxiv.html)
+[/help/my_arxiv.html](/help/my_arxiv.md)
 
-- Images broken on [/help/orcid.html](/help/orcid.html)
+- Images broken on [/help/orcid.html](/help/orcid.md)
 
-- Are we trying to get TeX on this page on the subject heading "Notes on Note on La$\TeX$ accent commands" ? [/help/prep.html](/help/prep.html)
+- Are we trying to get TeX on this page on the subject heading "Notes on Note on La$\TeX$ accent commands" ? [/help/prep.html](/help/prep.md)
 
-- Can probably get rid of this page: [/help/ssl.html](/help/ssl.html) It's old news and standard practice. 
+- Can probably get rid of this page: [/help/ssl.html](/help/ssl.md) It's old news and standard practice. 
 
-- [/help/submit_index.html](/help/submit_index.html) needs better title. 
+- [/help/submit_index.html](/help/submit_index.md) needs better title. 
 
 
 ### Fix titles of many pages

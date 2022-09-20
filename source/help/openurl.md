@@ -7,7 +7,7 @@ pages. We support both the OpenURL
 [0.1](http://www.exlibrisgroup.com/sfx_openurl_syntax.htm) and
 [1.0](http://library.caltech.edu/openurl/Standard.htm) specifications.
 
-You may [enable or disable OpenURL links](/openurl-cookie). This service
+You may [enable or disable OpenURL links](https://arxiv.org/openurl-cookie). This service
 is currently available only for the main site and the LANL mirror (the
 link will not work on other mirrors, 24Sep2002). Note that OpenURL
 settings are specific to both the machine your browser is running on and
@@ -26,7 +26,7 @@ all appropriate technical details in any communication with arXiv.
 We do not have any facilities to support institution or department wide
 OpenURL settings. We suggest that any institution wishing to encourage
 its members to use local OpenURL-based services do so by providing links
-to our [OpenURL cookie](/openurl-cookie) page within their own menus
+to our [OpenURL cookie](https://arxiv.org/openurl-cookie) page within their own menus
 (see [click-through](#click-through) notes below) and perhaps by direct
 communication with appropriate departments/groups (Physics, Mathematics,
 Computer Science).
