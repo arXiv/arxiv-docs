@@ -13,7 +13,7 @@ values are described below:
 -   [on hold](#on_hold) - delayed pending moderation attention
 
 All submissions and updates associated with your arXiv user account are
-shown on the [user page](https://arxiv.org/user). Upon announcement articles will move
+shown on the [user page](/user). Upon announcement articles will move
 from the "Article Submissions" to the "Articles You Own" section.
 
 <span id="incomplete"></span>
@@ -44,14 +44,14 @@ relatively short time period.
 Submitted
 ---------
 
-Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](/help/availability.md).
+Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](/help/availability).
 
 **New submissions and replacements**: Once you have verified that your
 intended submission appears in the format you desire, and you have
-finalized all of the [metadata](/help/prep.md), this is the final status it
-will pass through before it is announced. On your [user page](https://arxiv.org/user).
+finalized all of the [metadata](/help/prep), this is the final status it
+will pass through before it is announced. On your [user page](/user).
 You may select the Unsubmit icon (![Unsubmit](https://arxiv.org/images/unsubmit.png)) to
-remove it from this status, and return it to [incomplete](/help/submit_status.md#incomplete) status.
+remove it from this status, and return it to [incomplete](submit_status#incomplete) status.
 
 <span id="on_hold"></span>
 
@@ -59,7 +59,7 @@ On Hold
 -------
 
 Your submission was identified by arXiv staff or
-[moderators](/help/moderation/index.md) as needing further attention.
+[moderators](/help/moderation) as needing further attention.
 
 Submissions may be put on hold for a variety of reasons, ranging from
 questions about proper classification, pending moderator approval,
@@ -69,16 +69,16 @@ dealt with in due course. arXiv urges submitters to be patient. Due to
 the large volume of submissions, it may take several days before a
 resolution is reached.
 
-Note that [oversize](/help/sizes.md) submissions are automatically put on
+Note that [oversize](/help/sizes) submissions are automatically put on
 hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv User Support team](/help/contact.md#contacting-arxiv).
+follow up with [arXiv User Support team](contact#contacting-arxiv).
 
 Submissions in this status will not expire. Authors *must not* create a
 new submission with the same content when a pending submission is on
 hold.
 
 Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting the User Support team](/help/contact.md#contacting-arxiv).
+*submit/NNNNNNN* when [contacting the User Support team](contact#contacting-arxiv).
 
 <span id="expired"></span>
 

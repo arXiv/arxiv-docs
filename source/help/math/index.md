@@ -1,16 +1,16 @@
 # About the Math archive
 
-The Math (math) archive formed on 1 December 1997 and you can read about the [announcement of archive here](/new/math.md).
+The Math (math) archive formed on 1 December 1997 and you can read about the [announcement of archive here](/new/math).
 
-You can browse articles and view categories at the [main math archive page](https://arxiv.org/archive/math).
+You can browse articles and view categories at the [main math archive page](/archive/math).
 
-The [moderators for math are listed here](https://arxiv.org/moderators#math#math).
+The [moderators for math are listed here](/moderators#math).
 
 <span id="AdvisoryCommittee"></span>
 
 ## The arXiv Math Advisory Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](/about/people/scientific_ad_board). All arXiv policy decisions are ultimately made by Cornell University.
 
 - [Doug Arnold](http://www.ima.umn.edu/~arnold/)
 - [Ioana Dumitriu](http://www.math.washington.edu/~dumitriu/)

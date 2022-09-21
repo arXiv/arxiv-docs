@@ -10,14 +10,14 @@ PostScript is not an ideal submission format, for several reasons:
 -   Level II Postscript cannot always be printed on Level I printers.
 -   <span class="note">Note:</span> a PostScript file created from a
     TeX/LaTeX file will be rejected. There are [good
-    reasons](/help/faq/whytex.md) for insisting on LaTeX source if it is
+    reasons](/help/faq/whytex) for insisting on LaTeX source if it is
     available.
 
 Unfortunately, many people are under the illusion that submitting
 PostScript is ideal because it can be printed directly or viewed on the
 screen. Authors who write in TeX should never submit PostScript, except
 for figure attachments (see [discussion of benefits of TeX
-source](/help/faq/whytex.md)).
+source](/help/faq/whytex)).
 
 If you use an old version of a word processor such as MS Word then
 PostScript may be a good option. **However, PDF is usually better if

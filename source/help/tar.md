@@ -15,7 +15,7 @@ The utility `tar` (for Tape ARchive) is a good way to package up
 multiple files into a single package. `tar` is available for all
 platforms and is installed by default on most Linux/Unix systems and on
 Macs with OSX. See our [discussion of availability and
-installation](/help/utilities.md#taretc).
+installation](utilities#taretc).
 
 `tar` files have a `.tar` extension
 
@@ -29,7 +29,7 @@ following creates a tar file called `mystuff.tar` including those files:
 over-write the first file name it sees (in this case `foo.tex` is next
 in line). Isn't Unix fun?
 
-You will then want to use [gzip](/help/gzip.md) to compress the tar file for
+You will then want to use [gzip](gzip) to compress the tar file for
 fastest upload:
 
       $ gzip mystuff.tar
@@ -51,5 +51,5 @@ the result and so are essentially equivalent to `.tar.gz` files.
 
 ### Unpacking a .tar.gz file
 
-See our [unpacking help page](/help/unpack.md) for information on unpacking
+See our [unpacking help page](unpack) for information on unpacking
 `.tar.gz` files.

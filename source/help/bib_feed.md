@@ -38,13 +38,13 @@ attributes:
     as the main article and another as an erratum or such hut it is
     helpful is the main article DOI is first (e.g.
     `10.1016/S0550-3213(01)00405-9`, see also [DOI metadata
-    notes](/help/prep.md#doi)).
+    notes](prep#doi)).
 -   `journal_ref` - One or more full bibliographic references to a
     published version of the article. Multiple references should be
     separated with a semi-colon and a space. Addition human-readable
     qualifiers such as "Erratum" may be used (e.g.
     `Phys.Lett. B541 (2002) 273-280; Erratum-ibid. B562 (2003) 367`, see
-    also [journal reference metadata notes](/help/prep.md#journal)).
+    also [journal reference metadata notes](prep#journal)).
 
 The XML format has a few historical oddities. The `identifier` attribute
 on the root element is used to check that we have the feed we expect and

@@ -1,10 +1,10 @@
 # Submissions by Institution
 
-_See more [arXiv in Numbers](/about/reports/2020_usage.md)_
+_See more [arXiv in Numbers](/about/reports/2020_usage)_
 
-The following table shows submissions by institution in 2018, 2019, and 2020. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](/about/membership.md).
+The following table shows submissions by institution in 2018, 2019, and 2020. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](/about/membership).
 
-**Note**: This data for submissions by institution was provided by [Microsoft Academics](https://academic.microsoft.com/home). Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage.md)
+**Note**: This data for submissions by institution was provided by [Microsoft Academics](https://academic.microsoft.com/home). Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 742px; height: 599px;'>

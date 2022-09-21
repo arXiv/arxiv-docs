@@ -9,8 +9,8 @@ the following:
 ### Tools for Browsing
 
 -   An up-to-date Web browser
--   [A PDF viewer](/help/config_browser.md#pdf)
--   [A PostScript viewer](/help/config_browser.md#ps)
+-   [A PDF viewer](config_browser#pdf)
+-   [A PostScript viewer](config_browser#ps)
 -   JPEG, PNG, GIF, MPEG viewers
 
 ### Tools for Submitting
@@ -19,7 +19,7 @@ the following:
 -   [A utility for creating and extracting 'tar' or 'zip'
     archives](#taretc)
 -   [A utility for uncompressing and compressing files](#taretc)
--   [Tools for bitmapping PostScript](/help/bitmap/index.md)
+-   [Tools for bitmapping PostScript](bitmap)
 
 If you do not have a full set of tools, you can still function with the
 e-print archives, but their usefulness may be somewhat limited for you.
@@ -29,8 +29,8 @@ patterns.
 <span id="tex"></span>
 ### TeX
 
-Most authors will submit the [TeX](/help/tex.md) source for their documents.
-There are some [important technical reasons](/help/faq/whytex.md) for this.
+Most authors will submit the [TeX](tex) source for their documents.
+There are some [important technical reasons](faq/whytex) for this.
 
 The TeX system used by arXiv is based on the [TeXLive
 distribution](http://www.tug.org/texlive/), which is a freely available,

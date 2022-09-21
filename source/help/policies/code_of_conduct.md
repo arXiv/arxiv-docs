@@ -44,15 +44,15 @@ In order to report a violation of the arXiv Code of Conduct please use the [Code
 
 ## Related Policies
 
-[arXiv Code of Conduct enforcement](/help/policies/code_of_conduct_enforcement.md)
+[arXiv Code of Conduct enforcement](code_of_conduct_enforcement)
 
 Policies related to authors:
 
-- [Moderation](/help/moderation/index.md) 
-- [Privacy](/help/policies/privacy_policy.md)
-- [Submission terms and agreement](/help/policies/submission_agreement.md)
-- [Instructions for submission](/help/policies/instructions_for_submission.md)
-- [Authorship policy](/help/registerhelp.md)
+- [Moderation](../moderation) 
+- [Privacy](privacy_policy)
+- [Submission terms and agreement](submission_agreement)
+- [Instructions for submission](instructions_for_submission)
+- [Authorship policy](../registerhelp)
 
 Policies related to moderators:
 

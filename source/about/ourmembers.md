@@ -1,8 +1,8 @@
 # Our Members: 2022
 
-We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from [foundations, affiliates, and sponsors](/about/supporters.md).
+We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from [foundations, affiliates, and sponsors](supporters).
 
-Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](/about/funding.md) and contact us at membership@arXiv.org.
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
 <style>
 ol {

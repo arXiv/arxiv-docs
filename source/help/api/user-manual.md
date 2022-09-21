@@ -7,7 +7,7 @@ ignore_macros: true
 arXiv API User's Manual
 =======================
 
-Please review the [Terms of Use for arXiv APIs](/help/api/tou.md) before using the arXiv
+Please review the [Terms of Use for arXiv APIs](./tou) before using the arXiv
 API.
 
 ### Table of Contents
@@ -266,7 +266,7 @@ Large result sets put considerable load on the server and also take a
 long time to render. We recommend to refine queries which return more
 than 1,000 results, or at least request smaller slices. For bulk
 metadata harvesting or set information, etc., the
-[OAI-PMH](/help/oa/index.md) interface is more suitable. A request with
+[OAI-PMH](/help/oa/index) interface is more suitable. A request with
 `max_results` &gt;30,000 will result in an HTTP 400 error code with
 appropriate explanation. A request for 30000 results will typically take
 a little over 2 minutes to return a response of over 15MB. Requests for
@@ -426,7 +426,7 @@ there are errors, a single `<entry>` element representing the error is
 returned. Below the element description describes the elements for
 `<entry>`'s representing arXiv articles. For a general discussion of
 arXiv metadata, see the [arXiv metadata
-explanation](/help/prep.md).
+explanation](/help/prep).
 
 <span id="title_id_published_updated"></span>
 
@@ -978,5 +978,5 @@ Feed](#atom_feed_outline).
 ### 5.3. Subject Classifications
 
 For the complete list of arXiv subject classifications, please visit the 
-[taxonomy](None) page. 
+[taxonomy](/category_taxonomy) page. 
 

@@ -26,4 +26,4 @@ a .eps figure to take effect.
 
 Obviously this technique allows for customization of all other distiller
 parameters, too, see [distiller
-options](/help/faq/texprobs.md#distiller_params).
+options](/help/faq/texprobs#distiller_params).

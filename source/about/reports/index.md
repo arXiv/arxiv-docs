@@ -3,16 +3,16 @@
 ## Annual Reports
 [2021 Annual Report](2021_arXiv_annual_report.pdf)
 
-[2021 arXiv in Numbers](/about/reports/2021_usage.md)
+[2021 arXiv in Numbers](/about/reports/2021_usage)
 
 [2020 Annual Report](2020_arXiv_annual_report.pdf)
 
-[2020 arXiv in Numbers](/about/reports/2020_usage.md)
+[2020 arXiv in Numbers](/about/reports/2020_usage)
 
 ## Annual Updates
-[2020 Annual Update](/about/reports/2020_update.md) 
+[2020 Annual Update](/about/reports/2020_update) 
 
-[2019 Annual Update](/about/reports/2019_update.md)
+[2019 Annual Update](/about/reports/2019_update)
 
 [2018 Annual Update](/about/reports/arXiv_update_January_2018.pdf)
 
@@ -24,22 +24,22 @@
 
 [2014 Annual Update](/about/reports/arXiv_update_January_2014.pdf)
 
-[2012 Business Plan Update](/about/reports/arxiv_busplan_Jan2012.md)
+[2012 Business Plan Update](/about/reports/arxiv_busplan_Jan2012)
 
-[2011 October Business Plan Update](/about/reports/arxiv_busplan_Oct2011.md)
+[2011 October Business Plan Update](/about/reports/arxiv_busplan_Oct2011)
 
-[2011 July Business Plan Update](/about/reports/arxiv_busplan_July2011.md)
+[2011 July Business Plan Update](/about/reports/arxiv_busplan_July2011)
 
-[2011 April Business Plan Update](/about/reports/arxiv_busplan_Apr2011.md)
+[2011 April Business Plan Update](/about/reports/arxiv_busplan_Apr2011)
 
-[2010 December Business Plan Update](/about/reports/arxiv_busplan_Dec2010.md)
+[2010 December Business Plan Update](/about/reports/arxiv_busplan_Dec2010)
 
-[2010 July Business Plan Update](/about/reports/arxiv_busplan_July2010.md)
+[2010 July Business Plan Update](/about/reports/arxiv_busplan_July2010)
 
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[Current Budget](/about/reports-financials.md)
+[Current Budget](/about/reports-financials)
 
 [2019 Budget, midyear report](/about/reports/arXiv_CY19_midyear.pdf)
 
@@ -62,9 +62,9 @@
 [2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
-[2020 Roadmap](/about/reports/2020_roadmap.md)
+[2020 Roadmap](/about/reports/2020_roadmap)
 
-[2019 Roadmap](/about/reports/2019_roadmap.md)
+[2019 Roadmap](/about/reports/2019_roadmap)
 
 [2018 Roadmap](/about/reports/2018_roadmap.pdf)
 
@@ -79,27 +79,27 @@
 [2013 Roadmap](/about/reports/2013_roadmap.pdf)
 
 ## Annual Institutional Usage (Downloads) Statistics
-[2019 Institutional Usage](/about/reports/2019_usage.md)
+[2019 Institutional Usage](/about/reports/2019_usage)
 
-[2018 Institutional Usage](/about/reports/2018_usage.md)
+[2018 Institutional Usage](/about/reports/2018_usage)
 
-[2017 Institutional Usage](/about/reports/2017_usage.md)
+[2017 Institutional Usage](/about/reports/2017_usage)
 
-[2016 Institutional Usage](/about/reports/2016_usage.md)
+[2016 Institutional Usage](/about/reports/2016_usage)
 
-[2015 Institutional Usage](/about/reports/2015_usage.md)
+[2015 Institutional Usage](/about/reports/2015_usage)
 
-[2014 Institutional Usage](/about/reports/2014_usage.md)
+[2014 Institutional Usage](/about/reports/2014_usage)
 
-[2013 Institutional Usage](/about/reports/2013_usage.md)
+[2013 Institutional Usage](/about/reports/2013_usage)
 
-[2012 Institutional Usage](/about/reports/2012_usage.md)
+[2012 Institutional Usage](/about/reports/2012_usage)
 
-[2011 Institutional Usage](/about/reports/2011_usage.md)
+[2011 Institutional Usage](/about/reports/2011_usage)
 
-[2010 Institutional Usage](/about/reports/2010_usage.md)
+[2010 Institutional Usage](/about/reports/2010_usage)
 
-[2009 Institutional Usage](/about/reports/2009_usage.md)
+[2009 Institutional Usage](/about/reports/2009_usage)
 
 ## Member-Supporters
 
@@ -131,15 +131,15 @@
 
 [5-year Member Pledges, January 2014](/about/reports/arXivfive-yearmemberpledges-Jan2014.pdf)
 
-[2012 Supporters](/about/reports/2012_supporters.md)
+[2012 Supporters](/about/reports/2012_supporters)
 
-[2011 Supporters](/about/reports/2011_supporters.md)
+[2011 Supporters](/about/reports/2011_supporters)
 
-[2010 Supporters](/about/reports/2010_supporters.md)
+[2010 Supporters](/about/reports/2010_supporters)
 
 ## Other Reports
 [arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
 
-[2010 arXiv Sustainability Adivsory Group](/about/reports/sustainability_advisory_group.md)
+[2010 arXiv Sustainability Adivsory Group](/about/reports/sustainability_advisory_group)
 
-[2010 Business Model Whitepaper](/about/reports/whitepaper.md)
+[2010 Business Model Whitepaper](/about/reports/whitepaper)

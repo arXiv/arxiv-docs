@@ -1,7 +1,7 @@
 Why isn't a Person "Registered as an Author?"
 =============================================
 
-arXiv now maintains [authority records](/help/authority.md), which link a
+arXiv now maintains [authority records](authority), which link a
 person's arXiv account with the papers that they have written. We say
 that a person is "registered as an author" if there is an authority
 record that links that person's account to a paper. Just as arXiv
@@ -31,7 +31,7 @@ author:
     owners who have the right to make changes to papers they submit.
     Currently, most people who are "registered as author(s)" are
     submitters, but co-authors can claim ownership of papers by using
-    the [paper password](/help/passwords.md#twotypes) given to the submitters.
+    the [paper password](passwords#twotypes) given to the submitters.
 
     Submitters should share the paper password with their co-authors so
     that we can correctly register all of the authors of a paper. You

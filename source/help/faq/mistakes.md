@@ -7,8 +7,8 @@ Updates
 - 2011-12-06: TeX system updated to texlive 2011 with revised the macro package tree for new submissions. All updates available as of 12/06/2011 have
 been included in our installation of the texlive system.
 - 2009-12-31: TeX system updated to texlive 2009 with revised the macro package tree for new submissions. All updates available as of 12/31/2009 have
-been included in our installation of the texlive system. See [texlive 2009 transition help](/help/faq/texlive.md) for possible problems that may result from this upgrade.
-- 2006-11-02: TeX system updated to teTeX3 and revised the macro package tree for new submissions. See [teTeX3 transition help](/help/faq/tetex3.md) for possible problems that may result from this upgrade.
+been included in our installation of the texlive system. See [texlive 2009 transition help](texlive) for possible problems that may result from this upgrade.
+- 2006-11-02: TeX system updated to teTeX3 and revised the macro package tree for new submissions. See [teTeX3 transition help](tetex3) for possible problems that may result from this upgrade.
 
 Look through these common mistakes if your TeX/LaTeX submission failed:
 
@@ -37,7 +37,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
   - [arXiv system attempts processing with PDFLaTeX for submissions
     which are regular latex](#ifpdf)
   - [Why does my submission fail the automatic TeXing procedure when I
-    use Feynmf?](/help/faq/feynmf.md#overwrite)
+    use Feynmf?](feynmf#overwrite)
   - [Why does my submission fail to recognize the main tex
     file?](#wrongtex)
   - [Problems with inclusion of binary or other bitmap figures; `PS BAD`
@@ -263,7 +263,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
 
              More data for our experiment is available at http://www.some.where/else
        
-    2.  Include a file [`00README.XXX`](/help/00README.md#ignore) with your submission that includes
+    2.  Include a file [`00README.XXX`](/help/00README#ignore) with your submission that includes
         the line:
         
           
@@ -310,7 +310,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
       
 
   - <span id="nohypertex"></span> **To disable HyperTeX**  
-    By default, our TeX system uses [HyperTeX](/help/hypertex/index.md) to add
+    By default, our TeX system uses [HyperTeX](/hypertex) to add
     hyperlinks between references, sections and equations within your
     paper. These show up in the PDF (and in the PostScript with some
     viewers).
@@ -363,7 +363,7 @@ Look through these common mistakes if your TeX/LaTeX submission failed:
     interpretation must be explicitly specified**.
     
     If you are curious about the differences, see [these
-    examples](/help/faq/doublesubscript.md).
+    examples](doublesubscript).
     
       
 
@@ -509,13 +509,13 @@ One could convert all PostScript figures in a directory to PDF simply by running
 ```
   $ for i in *ps; do ps2pdf -DEPSCrop $i; done;
 ```
-then proceeding to update the figure file inclusion commands in your tex. Note that there are many ways to accomplish this step (e.g. one could use [ImageMagick](/help/bitmap/procedure.md#shortImageM)), and this is provided as an example only. It is your responsibility as the submitter to ensure that the figures are scientifically accurate in the format as submitted. 
+then proceeding to update the figure file inclusion commands in your tex. Note that there are many ways to accomplish this step (e.g. one could use [ImageMagick](/help/bitmap/procedure#shortImageM)), and this is provided as an example only. It is your responsibility as the submitter to ensure that the figures are scientifically accurate in the format as submitted. 
 
 
 
 <span id="Bbbk"></span> **"`! LaTeX Error: Command \Bbbk already defined.`"**
 
-A new issue seen beginning with the upgrade to [TeXLive 2020](/help/faq/texlive.md) in arXiv is the error: 
+A new issue seen beginning with the upgrade to [TeXLive 2020](/help/faq/texlive) in arXiv is the error: 
 ```
   ! LaTeX Error: Command `\Bbbk' already defined.
 ```

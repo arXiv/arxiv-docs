@@ -171,8 +171,8 @@ mistakes.
 <span id="abs">Metadata (`?fmt=txt` URLs and `.abs` files)</span>
 -----------------------------------------------------------------
 
-See also [OAI-PMH metadata harvesting facilities](/help/oa/index.md) and [the
-arXiv API](/help/api/index.md) which are the preferred ways to get arXiv
+See also [OAI-PMH metadata harvesting facilities](/help/oa) and [the
+arXiv API](/help/api) which are the preferred ways to get arXiv
 metadata.
 
 Since December 2008 all internal metadata files have the identifier as

@@ -39,7 +39,7 @@ operating systems. The Bakoma font names are all lowercase, while
 Blue-Sky font names are all uppercase. If your fontfiles don't match the
 font names in the Postscript or PDF file, you will have to translate the
 font names in the document (note that we offer Postscript and PDF files
-with a [choice of naming convention](/help/psvariants.md); for example Macintosh
+with a [choice of naming convention](psvariants); for example Macintosh
 use fonts with upper case NAMES), or translate the case of your
 fontfiles or make symbolic links from uppercase to lowercase names.
 

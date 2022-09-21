@@ -3,14 +3,14 @@ To replace an article
 
 You can replace a publicly announced article by selecting the Replace
 (![replace icon](https://arxiv.org/images/replace.png)) icon for the article you want to
-replace on your [user page](/help/replace.md). We ask that articles be replaced no more than once 
+replace on your [user page](/replace). We ask that articles be replaced no more than once 
 per week.
 
 Note that if your article or replacement has not yet been publicly
 announced you may select the Unsubmit (![unsubmit
 icon](https://arxiv.org/images/unsubmit.png)) icon next to the submission on your [user
 page](http://arxiv.org/user) to return it to the [incomplete
-status](/help/submit_status.md#incomplete) allowing modification and later
+status](submit_status#incomplete) allowing modification and later
 resubmission via the Update (![update icon](/images/update.png)) icon.
 
 <span id="consider"></span>
@@ -25,7 +25,7 @@ Considerations for replacing articles
     stamp, but may delay the replacement.](#sameday)
 -   [Previous versions of your article will remain publicly
     available.](#versions)
--   [Replacements will be posted based on the regular announcement schedule](/help/availability.md)    
+-   [Replacements will be posted based on the regular announcement schedule](availability)    
 -   [Revisions after version 5 are not listed in the daily email subscriptions.](#announcements)
 
 <span id="minorchanges"></span>
@@ -40,7 +40,7 @@ backdated to the time the last version was submitted. This is open to
 abuse and thus not allowed.
 
 The exceptions to this rule are the addition of [journal reference,
-DOI, and report number information](/help/jref.md). The journal reference field may contain only
+DOI, and report number information](jref). The journal reference field may contain only
 full publication information for the article; the DOI field may contain
 only a DOI.
 
@@ -98,7 +98,7 @@ Previous versions of your article will remain publicly available.
 
 arXiv provides public access to all previous versions of submitted
 articles. See the discussion on [availability of previous
-versions](/help/versions.md).
+versions](versions).
 
 <span id="announcements"></span>
 

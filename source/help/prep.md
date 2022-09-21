@@ -25,7 +25,7 @@ submission form. The possible information fields are:
 -   **[ACM-class:](#acm)** cs archives only
 
 Please read our FAQ page "[Submissions in languages other than English
-and multiple language submissions](/help/faq/multilang.md)" if your submission is
+and multiple language submissions](faq/multilang)" if your submission is
 in a language other than English or includes a version in a language
 other than English.
 
@@ -36,7 +36,7 @@ Bad character(s)
 
 Our metadata fields only accept ASCII input. Unicode characters should be
 conveted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
-[MathJax](/help/mathjax.md) entry or for proper names use the appropriate
+[MathJax](mathjax) entry or for proper names use the appropriate
 [accents](#accents)).
 
 A common problem experienced during submission, *Bad character(s) in
@@ -58,7 +58,7 @@ Information Fields
 
 -   Do not use all uppercase letters.
 -   Do not use unicode characters.
--   Some <span class="mathjax>La$\\TeX$</span> is supported through [MathJax](/help/mathjax.md).
+-   Some <span class="mathjax>La$\\TeX$</span> is supported through [MathJax](mathjax).
 -   Expand out <span class="mathjax">$\\TeX$</span> macros that are mystifying, e.g. "Nonlinear Sigma
     Models" instead of "\\nlsm".
 -   Check your spelling.
@@ -79,7 +79,7 @@ Information Fields
     address, etc. Misrepresentation of identity or affiliation, for any
     reason, is possible grounds for immediate and permanent suspension.
 -   It is the responsibility of the submitter to ensure that all authors
-    [consent to the article being submitted](/help/authority.md#coauthor).
+    [consent to the article being submitted](/help/authority#coauthor).
 -   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission. 
 -   Anonymous submissions are not accepted. Complete, and accurate author information is required.
     -   For named collaborations, it is acceptable to only use the collaboration name within the metadata, however a complete list of all authors and their affiliations must be contained in the full printed text.
@@ -171,7 +171,7 @@ after the carriage return. When the abstract is formatted for email
 announcement, it will be wrapped to 80 characters.
 
 -   Do not include the word "Abstract".
--   Some <span class="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax.md).
+-   Some <span class="mathjax">$\\TeX$</span> commands are supported via [MathJax](mathjax).
 -   As with the title, expand out opaque <span class="mathjax">$\\TeX$</span> macros. Including
     <span class="mathjax">$\\TeX$</span> formatting commands such as
     `~ \, (backslash comma) and \ (backslash  space)` makes it difficult
@@ -196,7 +196,7 @@ announcement, it will be wrapped to 80 characters.
 
 -   Indicate number of pages and number of figures. If desired, include
     <span class="mathjax>$\\TeX$</span> flavor or related comments.
--   Some <span clas="mathjax">$\\TeX$</span> commands are supported via [MathJax](/help/mathjax.md).
+-   Some <span clas="mathjax">$\\TeX$</span> commands are supported via [MathJax](mathjax).
 -   <span id="URL">Anonymous FTP and World Wide Web</span> locations
     should be given in the standard Uniform Resource Locator (URL)
     format. We automatically convert these into an active link reading
@@ -220,7 +220,7 @@ announcement, it will be wrapped to 80 characters.
 -   This is the proper field for "to be published in" or "submitted to"
     information, including inclusion in conference proceedings. Please
     note that such entries will be frozen into this version, and is [not
-    editable](/help/replace.md#minorchanges) after announcement.
+    editable](replace#minorchanges) after announcement.
 -   This is the proper field for author roles, such as "Appendix by" or
     "Editor" information.
 -   If this is a replacement, indicate the nature of the replacement and
@@ -231,7 +231,7 @@ announcement, it will be wrapped to 80 characters.
     front page of the article.** Even there, do not put any copyright or
     license statement that contradicts the license you grant arXiv on
     submission! For more information see our [descriptions of available
-    licenses](/help/license/index.md).
+    licenses](license).
 -   Certain [<span class="mathjax">$\\TeX$</span> accent commands](#accents) may be used in this
     field.
 
@@ -251,7 +251,7 @@ cross-lists to other categories. The categories control what mailings an
 article is announced in, and also provide a way to limit searches to
 subsets of arXiv.
 
-Please carefully review the [descriptions of categories](None) to find the best fit.
+Please carefully review the [descriptions of categories](/category_taxonomy) to find the best fit.
 
 
 <span id="journal"></span>
@@ -263,14 +263,14 @@ Please carefully review the [descriptions of categories](None) to find the best 
 -   If your submission has not appeared yet, but you would still like to
     indicate where it will be published, use the [Comments:](#comments)
     field. Please note that the Comments field can only be updated by
-    submitting a [replacement](/help/replace.md).
+    submitting a [replacement](replace).
 -   If there are multiple full bibliographic references associated with
     the paper, for example the original and an erratum, then separate
     them with a semicolon and a space, e.g.  
     `J.Hasty Results 1 (2008) 1-9; Erratum: J.Hasty Results 2 (2008) 1-2`
 -   In most cases, submissions are not yet published, and so
     `Journal-ref` information is not available. A facility is provided
-    for you to [add a journal reference](/help/jref.md) to your previously
+    for you to [add a journal reference](jref) to your previously
     submitted article at a later date.
 -   Do not put URLs into this field, as they will not be converted into
     links.
@@ -286,7 +286,7 @@ Please carefully review the [descriptions of categories](None) to find the best 
 -   Do not include any other information in this field. In most cases,
     submissions are not yet published, and so `DOI` information will be
     added by the author at a later date. A facility is provided for
-    [adding a Journal-ref and DOI](/help/jref.md) to a previously submitted
+    [adding a Journal-ref and DOI](jref) to a previously submitted
     article.
 
 ### <span id="msc"></span>MSC-class:
@@ -318,17 +318,17 @@ Please carefully review the [descriptions of categories](None) to find the best 
 
 -   Although arXiv encourages authors to submit their own articles, some
     articles may be submitted by [third
-    parties](/help/third_party_submission.md) (co-workers, administrative
+    parties](third_party_submission) (co-workers, administrative
     assistants, overlay journals, etc.). Prior authorization is required
     for such submissions. If you are not the author this work you must
-    [contact](/help/contact.md) arXiv administrators for permission.
+    [contact](contact) arXiv administrators for permission.
     Submissions without prior authorization will be removed.
 -   The submitter of an article is automatically registered as an
     *owner* of the article, someone who has authorization to make
     changes to the article, such as replacing it or adding a
     cross-reference. Other people can become owners if they supply the
     paper password, or request ownership. See our [authority
-    records](/help/authority.md) help page for more information.
+    records](authority) help page for more information.
 -   When someone is registered as an *owner* of an article, they have a
     chance to specify if they are also an *author* — to get all of their
     rights and privileges, authors of arXiv articles should take

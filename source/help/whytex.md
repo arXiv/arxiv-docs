@@ -11,7 +11,7 @@
     document structuring concepts). Possession of the source thus
     provides many additional options for future document migrations.
 2.  Using emerging new technology, most of the Postscript generated from
-    the source contains [hyperlinks](/help/hypertex/index.md), so that using new
+    the source contains [hyperlinks](/hypertex/), so that using new
     versions of PostScript previewers (e.g., the next version of
     Ghostscript/Ghostview), readers can point-and-click to navigate
     within the paper, and even over the web itself.  
@@ -19,7 +19,7 @@
     adoption of future technological improvements. Archived papers can
     be repeatedly rejuvenated by automated reprocessing.
 3.  We distill the source into Adobe's PDF format. The hyperlinks can
-    then be [viewed using Acroread or an equivalent reader](/help/pdf.md).
+    then be [viewed using Acroread or an equivalent reader](/help/pdf).
     In addition, this means that the hyperlink overlay will be directly
     available to those web browsers with built-in PDF support (thus
     combining the network transport capabilities of html with a more
@@ -35,7 +35,7 @@
     fonts from the "More options" page, screen readability is improved.
 5.  Cross-referencing within arXiv is added automatically with
     hyperlinked Postscript. Authors should specify
-    [**arXiv:YYMM.NNNNN**](/help/arxiv_identifier.md) or the older format
+    [**arXiv:YYMM.NNNNN**](/help/arxiv_identifier) or the older format
     of **arch-ive/papernum** (e.g., hep-ph/9503456) references whenever
     available, and these strings will be pattern-matched and replaced
     with suitable hyperlinks back to arXiv. Similarly, any occurrences
@@ -66,7 +66,7 @@ information is ordinarily lost in each stage of processing, TeX source
 contains (close to) the maximal amount of contextual information that
 can be retroactively processed into any future format which can take
 advantage of it. For more information, see
-[https://arxiv.org/hypertex/](/help/hypertex/index.md).
+[https://arxiv.org/hypertex/](/hypertex/).
 
 -----
 
@@ -149,4 +149,4 @@ advantage of it. For more information, see
     placed exactly where you put them (why would you expect otherwise?).
     Textures does use a non-standard command to control the way figures
     are included, please read our [notes on submitting Textures
-    generated papers](/help/faq/textures.md).
+    generated papers](textures).

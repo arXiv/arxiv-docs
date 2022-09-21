@@ -32,7 +32,7 @@ blockquote {
 
 _*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_
 
-In the meantime, learn more about arXiv's [Labs criteria](/labs/criteria.md) for Labs projects.
+In the meantime, learn more about arXiv's [Labs criteria](criteria) for Labs projects.
 
 This pause in Labs effort does not affect access to the arXiv APIs, which are always public and available. Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 

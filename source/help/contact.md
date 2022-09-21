@@ -3,7 +3,7 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, please first review [help](/help/index.md) and [FAQ](/help/faq/index.md). 
+If you have questions about paper submission, accounts, and use of arXiv, please first review [help](/help) and [FAQ](/help/faq). 
 
 Contact our User Support team via the [arXiv user support portal](http://arxiv.org/support/general_help).
 
@@ -24,7 +24,7 @@ If you cannot access the portal you can contact us by email at moderation@arxiv.
 
 ## Membership and Giving
 
-Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](/about/give.md), or contact membership@arxiv.org.
+Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](/about/give), or contact membership@arxiv.org.
 
 ## Copyright infringement
 
@@ -36,8 +36,8 @@ see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
 
 ## Authorship Disputes
 
-arXiv will not adjudicate [authorship disputes](/help/authority.md#coauthor) within a collaboration of authors. 
+arXiv will not adjudicate [authorship disputes](/help/authority#coauthor) within a collaboration of authors. 
 
 ## Code of Conduct concerns
 
-If you believe that a particular submission violates arXiv's [code of conduct](/help/policies/code_of_conduct.md) please complete the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
+If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct) please complete the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).

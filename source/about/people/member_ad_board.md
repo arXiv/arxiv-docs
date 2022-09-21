@@ -7,7 +7,7 @@ laboratories, and foundations that are members of arXiv and that contribute to t
 
 The MAB has voting members in three categories: contributing organizations (at least 7), high-contributing organizations (up to 5), Simons Foundation (1). Representatives from contributing organizations are elected. High-contributing organizations represent each consortia or national organization member that contributes 5% or more of arXiv’s annual income generated through membership fees. Additionally, there are five non-voting ex-officio members.
 
-The [MAB Bylaws](/about/mab_bylaws.md) detail the goals, composition, operation, and election of the Board.
+The [MAB Bylaws](/about/mab_bylaws) detail the goals, composition, operation, and election of the Board.
 
 ## Contributing Organizations
 
