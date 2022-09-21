@@ -9,6 +9,8 @@
 
 [2020 arXiv in Numbers](/about/reports/2020_usage)
 
+_In 2020, arXiv began publishing annual reports in the first quarter of the calendar year. See below for earlier reports._
+
 ## Annual Updates
 [2020 Annual Update](/about/reports/2020_update) 
 
@@ -39,9 +41,11 @@
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[Current Budget](/about/reports-financials)
+[Current Budget](/about/FY23_Budget_-_External.pdf)
 
-[2019 Budget, midyear report](/about/reports/arXiv_CY19_midyear.pdf)
+[2020 Budget](/about/reports/2020_arXiv_Budget.pdf)
+
+[2019 Budget](/about/reports/arXiv_CY19_midyear.pdf)
 
 [2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
 
