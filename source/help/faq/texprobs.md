@@ -13,16 +13,16 @@ submission replaced to correct the problems.
   - [Extra white space around figures covers up some of the
     text](#powerpoint)
   - [Why don't the labels for my figures appear when I use
-    Feynmf?](feynmf#nolabel)
-  - [Why are the margins different? Why is my text truncated?](dvips)
-  - [Why does my paper give the wrong date?](today)
+    Feynmf?](feynmf.md#nolabel)
+  - [Why are the margins different? Why is my text truncated?](dvips.md)
+  - [Why does my paper give the wrong date?](today.md)
   - [Why do my citations appear in long form `[1,2,3,4]` instead of
-    short form `[1-4]`?](citelinks)
+    short form `[1-4]`?](citelinks.md)
   - [Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.)
-    display incorrectly in the processed document?](pd1enc)
-  - [Why are there problems with my postscript file?](/help/faq/psbad)
+    display incorrectly in the processed document?](pd1enc.md)
+  - [Why are there problems with my postscript file?](psbad.md)
   - [Why are some pages in the generated PDF file rotated and how do I
-    avoid this?](/help/faq/pdfrotate)
+    avoid this?](pdfrotate.md)
 
 -----
 
@@ -53,7 +53,7 @@ submission replaced to correct the problems.
     
   - <span id="breaklinks"></span>**Hyperlinks overrun the page or column boundaries**
   
-arXiv's default behavior for [hyperref](/help/hypertex) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
+arXiv's default behavior for [hyperref](../../help/hypertex/index.md) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
 
 ```TeX
         \hypersetup{

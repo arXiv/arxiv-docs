@@ -9,7 +9,7 @@ search and keyword extraction over all submissions in arXiv.
 
 Please prepare English and alternate language abstracts so that one
 follows the other, separated as shown below. If your abstract is long,
-you may have to [contact us](/help/contact) after the submission is complete
+you may have to [contact us](../../help/contact.md) after the submission is complete
 and arXiv staff can enter both versions. At this time, arXiv can only consider languages that do not involve extended UTF-8/UTF-16 characters. Do not try to use TeX or HTML formatting commands to separate the versions—the abstract should be as close to plain text (ASCII) as possible. Indicate separation as follows:
 
 > 

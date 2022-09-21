@@ -10,7 +10,7 @@ arXiv users avoid them.
 
 A common form of misuse of arXiv resources is the harvesting of user
 emails for the purpose of spamming users. As noted on arXiv's privacy
-page ([http://arxiv.org/help/email-protection](email-protection)):
+page ([http://arxiv.org/help/email-protection](email-protection.md)):
 
 *Email addresses or other personal information collected from arXiv data
 must not be abused for unsolicited emailing or other forms of spam.*

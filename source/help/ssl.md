@@ -8,4 +8,4 @@ login pages and any pages requiring login credentials (account
 management, submission system, etc.).
 
 If you encounter any problems with SSL on arXiv, please [contact
-us](/help/contact).
+us](contact.md).

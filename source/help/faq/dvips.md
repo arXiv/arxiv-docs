@@ -1,6 +1,6 @@
 # Papersize/Layout Problems: Margins are Different and/or Text is Truncated
 
-**Note:** prior to arXiv's [TeXLive 2020 upgrade](/help/faq/texlive), all submissions were forced into US Letter page dimensions. This is no longer the current practice, however the information below may still be of use for diagnosing odd behavior around local printing problems. 
+**Note:** prior to arXiv's [TeXLive 2020 upgrade](texlive.md), all submissions were forced into US Letter page dimensions. This is no longer the current practice, however the information below may still be of use for diagnosing odd behavior around local printing problems. 
 
 There are many possible reasons for a papersize/layout problem. It may
 be due to differences in style files used, variations in layout

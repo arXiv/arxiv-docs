@@ -22,7 +22,7 @@ Making previous versions of submitted papers publicly available archives the his
 <span id="versions"></span>
 ## What does arXiv mean by versions?
 
-All submissions receive a "date stamp", recorded as the time the submitter clicks "Submit article" at the end of the submission process. Once a submission is made public, it receives a permanent  [arXiv identifier](arxiv_identifier). Any replacement or withdrawal of that article generates a new version. This will increment its version number by one, with the most recent version always being displayed, even when the Abstract page is viewed without a version number at the end, such as the above example, https://arxiv.org/abs/1710.02185. 
+All submissions receive a "date stamp", recorded as the time the submitter clicks "Submit article" at the end of the submission process. Once a submission is made public, it receives a permanent  [arXiv identifier](arxiv_identifier.md). Any replacement or withdrawal of that article generates a new version. This will increment its version number by one, with the most recent version always being displayed, even when the Abstract page is viewed without a version number at the end, such as the above example, https://arxiv.org/abs/1710.02185. 
 
 <span id="citing"></span>
 ## Citing versions
@@ -34,13 +34,13 @@ Authors can also use the Comments metadata to describe the different versions.
 Ex:
 > For the longer conference version see: arXiv:YYMM.NNNNNvv1. For the shortened summary see arXiv:YYMM.NNNNNvv2, for the journal version that includes extended data in the appendix see arXiv:YYMM.NNNNNv3
 
-Please see the [references and citations help page](./faq/references) for details on citing works in arXiv.
+Please see the [references and citations help page](faq/references.md) for details on citing works in arXiv.
 
 <span id="makeup"></span>
 ## What constitutes a version?
 
-A version will be created once a [replacement](replace) or
-[withdrawal](withdraw) submission is made public. The _Submission history_ section of the Abstract page indicates the version number being viewed, as well as all available versions.
+A version will be created once a [replacement](replace.md) or
+[withdrawal](withdraw.md) submission is made public. The _Submission history_ section of the Abstract page indicates the version number being viewed, as well as all available versions.
 
 Replacements will contain the full text of the article. Withdrawals will display the reason for withdrawal entered as a comment, without any content download options for that version.
 
@@ -92,14 +92,14 @@ Versions in arXiv are also used in cases of an author making various attempts to
 <span id="withdraw"></span>
 ### Withdrawals
 
-A withdrawal creates a new version of an arXiv work that contains no link to the full text. Previous versions are still accessible in the version history. More information see the [Withdrawal help page](withdraw).
+A withdrawal creates a new version of an arXiv work that contains no link to the full text. Previous versions are still accessible in the version history. More information see the [Withdrawal help page](withdraw.md).
  
 <span id="translation"></span>
 ### Translations or multiple languages of already posted articles
 
 A translation of an already posted article should be a version of the existing article. That new version can be just the text in translation or can include the full text for both languages. We do not allow multiple new arXiv identifiers for the same work displayed in various languages. The different language versions can be cited by using the version number under the same arXiv identifier.
 
-For more information please see the help page for [submissions that are not in English](./faq/multilang)
+For more information please see the help page for [submissions that are not in English](faq/multilang.md)
 
 <span id="reviews"></span> 
 ### Living reviews, annual updates

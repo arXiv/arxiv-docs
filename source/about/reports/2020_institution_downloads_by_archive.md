@@ -1,10 +1,10 @@
 # Institutional Downloads by Subject Archive in 2020
 
-_See more [arXiv in Numbers](/about/reports/2020_usage)_
+_See more [arXiv in Numbers](2020_usage.md)_
 
-The following table shows institutions' downloads across [subject archives](/category_taxonomy) for 2020. 
+The following table shows institutions' downloads across [subject archives](None) for 2020. 
 
-**Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
+**Note**: Please see caveats related to usage data on [arXiv in Numbers](2020_usage.md)
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 742px; height: 599px; border: 1px solid gray;'>

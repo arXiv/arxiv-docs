@@ -12,7 +12,7 @@ scheme](#new). As of January 2015, the number of digits used in the
 second part of the new identifier, the sequence number within the month,
 is increased from 4 to 5. This will allow arXiv to handle more than 9999
 submissions per month (see [monthly submission
-rates](/stats/monthly_submissions)).
+rates](https://arxiv.org/stats/monthly_submissions)).
 
 <span id="new"></span>
 
@@ -65,7 +65,7 @@ of the article. We recommend that in citations the specific version
 number, the subject classification and the date information be included
 in the same way that it is in the stamp on the side of the PDF. See also
 [References to and in arXiv
-Documents](/help/faq/references).
+Documents](faq/references.md).
 
 <span id="old"></span>
 
@@ -74,7 +74,7 @@ Identifiers up to March 2007 (9107-0703)
 
 Identifiers from 1991 through 2007-03 followed the form shown in the
 image below. The full list of groups, archives and subject classes is
-listed on the [front page](/):
+listed on the [front page](https://arxiv.org):
 
 ![Each article identifier begins with an archive, such as 'astro-ph' or
 'hep-ex'. Optionally, this is followed by a period and a subject class.
@@ -117,7 +117,7 @@ it easier to adjust our classification schemes as disciplines and arXiv
 usage evolve (for example, we need to sub-divide astro-ph since it
 currently too large). Various schemes with optional or redundant
 classification information in the identifier were considered (extending
-from the redundant [2-letter subject classes in `math`](/list/math/info)
+from the redundant [2-letter subject classes in `math`](https://arxiv.org/list/math/info)
 etc.) but these were rejected because such many-to-1 resolution of
 identifier-to-article means that interacting services cannot compare
 identifiers and know whether they refer to the same arXiv article
@@ -137,6 +137,6 @@ Further information for interacting services
 --------------------------------------------
 
 There are additional (gruesome) details of [arXiv identifiers for
-interacting services](arxiv_identifier_for_services). These are unlikely
+interacting services](arxiv_identifier_for_services.md). These are unlikely
 to be of interest/use unless you are handling internal data distributed
 by arXiv.

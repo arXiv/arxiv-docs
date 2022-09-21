@@ -17,11 +17,11 @@ _Information you may provide as registered user:_
 
 We may also collect other information as described in this notice or other specific Cornell University privacy notices. In order to take full advantage of some of our services, including article submission, we may request name, email, username, ORCID, past emails, affiliation, country, additional contact information and/or online identifiers. We may also request a record of affiliation and publication record be provided via email. When a user submits an article to arXiv we also collect author names, affiliation of co-authors (if provided), submitter IP address and submitter remote host.
 
-Information associated with your user account can be viewed on your [user dashboard](/user/).
+Information associated with your user account can be viewed on your [user dashboard](https://arxiv.org/user/).
 
 _Information you may provide when submitting feedback or help request:_
 
-Users who email [arXiv administrators](/help/contact) for technical help or moderation requests should include information relevant to the request.
+Users who email [arXiv administrators](../../help/contact.md) for technical help or moderation requests should include information relevant to the request.
 
 Users who choose to fill out a feedback form on the website can do so anonymously or by providing personal information, such as name, email, and information about your operating environment.
 

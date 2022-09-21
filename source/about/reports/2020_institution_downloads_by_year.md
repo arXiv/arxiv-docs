@@ -1,10 +1,10 @@
 # Downloads by Institution (2009-2020)
 
-_See more [arXiv in Numbers](/about/reports/2020_usage)_
+_See more [arXiv in Numbers](2020_usage.md)_
 
 Select the domain of interest by checking the appropriate box. The resulting table will show downloads by institution from 2009 to 2020. To search for a specific institutional domain, hover your mouse over the right hand corner of the table to reveal the search icon.
 
-**Note**: Please see caveats related to usage data on [arXiv in Numbers](/about/reports/2020_usage)
+**Note**: Please see caveats related to usage data on [arXiv in Numbers](2020_usage.md)
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 742px; height: 599px; border: 1px solid gray;'>

@@ -22,7 +22,7 @@ This manual provides detailed documentation of SWORD transactions with
 arXiv, mandatory extension elements, error conditions, and usage
 examples.
 
-Please review the [Terms of Use for arXiv APIs](./api/tou.md) before using the
+Please review the [Terms of Use for arXiv APIs](api/tou.md) before using the
 SWORD Deposit API.
 
 Sample code in Perl is presented to demonstrate individual steps.
@@ -93,18 +93,18 @@ process into authoring tools for efficient upload from the desktop.
 In accordance with general arXiv submission policy, SWORD/APP deposits
 require a valid **author registration** with arXiv. Help on how to
 obtain a registration is available at
-[registerhelp](/help/registerhelp).
+[registerhelp](registerhelp.md).
 
 In addition, prospective users of the deposit API must request
 authorization to do so via email to arXiv administrators
-([contact](contact)), at least during the initial
+([contact](contact.md)), at least during the initial
 beta phase of the SWORD interface.
 
 <span id="licensing"></span>
 ### 3.2. Licensing
 
 arXiv requires assurance of [sufficient
-rights](/help/license) by the author or submitter to
+rights](license/index.md) by the author or submitter to
 allow distribution of the deposited material in perpetuity. In order to
 submit an article to arXiv, the submitter must
 
@@ -162,7 +162,7 @@ fingerprint of arXiv’s server certificate is
  - until 12/15/2010 arXiv used its own private certificate authority (CA) which was used to sign the server certificate. The fingerprint of arXiv’s server certificate was `SHA1 Fingerprint=7F:3B:78:D1:5C:CD:4F:C0:35:AC:FB:D9:F7:02:3B:C0:B5:B0:95:C5`
 
 A copy of the CA certificate and fingerprint can be provided on request
-to [contact](/help/contact).
+to [contact](contact.md).
 
 <span id="process"></span>
 ## 4. The SWORD/APP Deposit Process 
@@ -541,7 +541,7 @@ recently arXiv-ed papers to avoid inadvertent double submissions.
 **Category** element(s) can be used to provide secondary
 classification(s), selected from those listed in the servicedocument.
 
-Please refer to the arXiv [submission help](/help/prep)
+Please refer to the arXiv [submission help](prep.md)
 for explanation of the other optional fields.
 
 The “wrapper” is POST-ed to the same collection URI as the previously
@@ -655,7 +655,7 @@ When applicable the email contains the permanent arXiv identifier and
 paper password. It is important that the author/submitter closely
 inspect the representation of the submission at arXiv and take
 corrective action where necessary, see
-[checking](/help/submit#correct).
+[checking](submit.md#correct).
 
 The status of a SWORD deposit may be tracked using the tracking URI
 returned in the Atom `<link>` element with `rel="alternate"`, for
@@ -711,11 +711,11 @@ Status Values
 --------------
 
 arXiv’ed papers can be updated or replaced. The rules for a
-[replacement](/help/replace) via the web interface also
+[replacement](replace.md) via the web interface also
 apply to a replacement using SWORD. In particular a new version number
 will be assigned unless it is a [same day
-replacement](/help/replace#sameday), and all [previously
-published versions](/help/replace#versions) remain
+replacement](replace.md#sameday), and all [previously
+published versions](replace.md#versions) remain
 accessible.
 
 For a replacement of a previously created resource via SWORD/APP arXiv
@@ -727,7 +727,7 @@ and specifically [RFC5023 section
 metadata wrapper of the original deposit.
 
 A replacement via SWORD can only be made by a registered [paper
-owner](/help/authority) or the author of the original
+owner](authority.md) or the author of the original
 SWORD deposit when authenticated with the same credentials. There are no
 per paper passwords for replacements via SWORD.
 
@@ -1063,7 +1063,7 @@ submission.
 ## 9. Questions, Concerns, Suggestions
 -----------------------------------
 
-Please [contact](/help/contact) arXiv with any questions
+Please [contact](contact.md) arXiv with any questions
 or suggestions.
 
 The SWORD interface is currently in beta and there is certainly room for

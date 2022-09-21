@@ -30,7 +30,7 @@ This section describes the moderation process after a user submits a work and be
 <span id="reclassification"></span>
 ### Reclassification of works
 
-Reclassification by our moderators helps make sure that submissions are posted to the most [relevant category](/category_taxonomy) based on the assessment of the content by the moderators. Cross-lists may be added to other related categories, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will be announced in the mailings to that category.
+Reclassification by our moderators helps make sure that submissions are posted to the most [relevant category](None) based on the assessment of the content by the moderators. Cross-lists may be added to other related categories, or they may be removed by moderators when the classification is deemed inappropriate. A submission that is cross-listed to a category will be announced in the mailings to that category.
 
 <span id="declined"></span>
 ### Declined submissions
@@ -45,12 +45,12 @@ Please note that the arXiv moderation process is not a peer-review process. arXi
 
 arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
 
-Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../policies/code_of_conduct)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
+Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
 
 <span id="format"></span>
 #### Inappropriate format
 
-Submissions in a format deemed inappropriate, such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories, may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](/help/replace). 
+Submissions in a format deemed inappropriate, such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories, may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](../../help/replace.md). 
 
 
 <span id="out-of-scope"></span>
@@ -66,7 +66,7 @@ If we notice that an author has made multiple similar submissions, or that a new
 <span id="rights-to-submit"></span>
 #### Rights to submit material
 
-Submissions to arXiv must be the author’s original work, and/or submitters must have the legal authority to grant the [selected license](/help/license). Authors must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. arXiv does not accept work containing verbatim comments by referees, plagiarized content, or other works barred by third party copyright.
+Submissions to arXiv must be the author’s original work, and/or submitters must have the legal authority to grant the [selected license](../../help/license/index.md). Authors must ensure the submission does not, to the best of their knowledge, infringe upon anyone's copyright. arXiv does not accept work containing verbatim comments by referees, plagiarized content, or other works barred by third party copyright.
 
 <span id="submission-rate"></span>
 #### Excessive submission rate
@@ -78,9 +78,9 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 <span id="policies-after"></span>
 ## What policies guide moderation after public announcement?
 
-Once a paper is announced it becomes part of the permanent scholarly record. While arXiv reserves the right to remove any content, arXiv will only consider requests for removal if the submitter did not have the legal right to [agree to the license](/help/license).
+Once a paper is announced it becomes part of the permanent scholarly record. While arXiv reserves the right to remove any content, arXiv will only consider requests for removal if the submitter did not have the legal right to [agree to the license](../../help/license/index.md).
 
-In cases where public papers are found to violate arXiv policy, we may [withdraw the paper](/help/withdraw). arXiv may also indicate the concern in the Comments metadata.
+In cases where public papers are found to violate arXiv policy, we may [withdraw the paper](../../help/withdraw.md). arXiv may also indicate the concern in the Comments metadata.
 
 arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
 
@@ -90,14 +90,14 @@ arXiv may reclassify already announced papers if the moderators determine there 
 
 It is possible to appeal the classification of an announced article or the decision to decline a submission. In some cases, we may require that a paper be accepted for publication in a conventional journal before an appeal is considered. Note that some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
 
-If you disagree with a moderation decision, you may appeal. Please be sure to carefully [read through the appeals process](appeals) to ensure your request is fully considered. Please note that decisions upon [appeal are final](appeals#final), and that no feedback will be provided with the decision.
+If you disagree with a moderation decision, you may appeal. Please be sure to carefully [read through the appeals process](appeals.md) to ensure your request is fully considered. Please note that decisions upon [appeal are final](appeals.md#final), and that no feedback will be provided with the decision.
 
 
 
 <span id="who-are-the-moderators"></span>
 ## Who are arXiv moderators?
 
-arXiv moderators are volunteer subject matter experts with terminal degrees in their field. They evaluate each submission’s content and category, following arXiv policies. [arXiv moderators](/moderators) are approved by their discipline-level [advisory committees](/about/people/scientific_ad_board#advisory_committees) and by arXiv staff.
+arXiv moderators are volunteer subject matter experts with terminal degrees in their field. They evaluate each submission’s content and category, following arXiv policies. [arXiv moderators](https://arxiv.org/moderators) are approved by their discipline-level [advisory committees](../../about/people/scientific_ad_board.md#advisory_committees) and by arXiv staff.
 
 Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 

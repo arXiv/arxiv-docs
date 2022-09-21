@@ -16,4 +16,4 @@ necessary to use the long form (how would you link to reference 2 in
 We argue that the benefit of citation links outweighs the slightly
 longer form of the citations. However, if you insist on preserving the
 short form for citations then you may [turn off HyperTeX for your
-paper](mistakes#nohypertex).
+paper](mistakes.md#nohypertex).

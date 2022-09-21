@@ -5,14 +5,14 @@ Submission not yet announced
 ----------------------------
 
 If your submission has not yet become [publicly
-available](availability) you may delete or delay it. To do either
-of these things go to your [user page](/user) and select
+available](availability.md) you may delete or delay it. To do either
+of these things go to your [user page](https://arxiv.org/user) and select
 either the Delete (![delete icon](/images/delete.png)) or Unsubmit
 (![unsubmit icon](/images/unsubmit.png)) icon. Deleting a submission
 will remove it from our system, unsubmitting will return it to the
-[incomplete status](submit_status#incomplete) allowing modification and
+[incomplete status](submit_status.md#incomplete) allowing modification and
 later resubmission. If you have difficulty in doing either of these
-things then please [contact arXiv administrators](/help/contact)
+things then please [contact arXiv administrators](contact.md)
 immediately. In your message be sure to include the submission
 identifier, an explanation of the problem, and the reason for
 withdrawal.
@@ -20,11 +20,11 @@ withdrawal.
 Article has been announced
 --------------------------
 
-Articles that have been announced and made public cannot be completely removed.  A withdrawal creates a new version of the paper marked as withdrawn. That new version displays the reason for the withdrawal and does not link directly to the full text. Previous [versions](versions) will still be accessible, including the full text. Please see the example below.
+Articles that have been announced and made public cannot be completely removed.  A withdrawal creates a new version of the paper marked as withdrawn. That new version displays the reason for the withdrawal and does not link directly to the full text. Previous [versions](versions.md) will still be accessible, including the full text. Please see the example below.
 
 To submit a withdrawal
 
-- From your [user page](/user) select the Withdraw icon (![withdraw
+- From your [user page](https://arxiv.org/user) select the Withdraw icon (![withdraw
 icon](/images/withdraw.png)) for the appropriate article in the
 "Articles You Own".
 - Complete the Withdrawal form by providing a specific reason for the withdrawal within the
@@ -33,8 +33,8 @@ icon](/images/withdraw.png)) for the appropriate article in the
 Withdrawal reasons must be appropriate for the withdrawal to be accepted.
 
 - Withdrawal reasons will be displayed publicly so when writing the withdrawal reason please keep in mind that you are explaining the withdrawal to the readers of arXiv
-- It is not appropriate to withdraw a paper because it is published or submitted to a journal. Instead you could submit a [journal-ref](jref).
-- It is not appropriate to withdraw a paper because it is being updated. Instead you could submit a [replacement](replace).
+- It is not appropriate to withdraw a paper because it is published or submitted to a journal. Instead you could submit a [journal-ref](jref.md).
+- It is not appropriate to withdraw a paper because it is being updated. Instead you could submit a [replacement](replace.md).
 - It is not appropriate to withdraw a paper due to copyright infringement. Please instead see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
 
 

@@ -5,7 +5,7 @@ This page explains what to do with the package that you receive if you
 select the **Download source** option from the web. In order to save
 network bandwidth and disk space, submissions are compressed. arXiv uses
 the **gzip** and **tar** utilities. See our [detailed utilities
-help](utilities#taretc) for instructions on obtaining gzip and tar.
+help](utilities.md#taretc) for instructions on obtaining gzip and tar.
 
 Papers downloaded from the web will be packed in one of two ways:
 
@@ -18,7 +18,7 @@ this may not be necessary; see below). A tarred file should then be
 [untarred](#untar).
 
 If you do not have *tar* or *gunzip* you will have to install them; see
-our [utilities help](/help/utilities) for information on how to obtain
+our [utilities help](utilities.md) for information on how to obtain
 tar and gzip programs for different platforms.
 
 <span id="gunzip"></span>
@@ -29,7 +29,7 @@ Unpacking Gzipped Files
 <span class="note">Note:</span> Many browsers will gunzip downloaded
 files automatically, so that the instructions in this section can be
 ignored. However, a problem may arise if the resulting [file is not
-renamed properly](faq/browsergunzip) by the web browser.
+renamed properly](faq/browsergunzip.md) by the web browser.
 
 The utility gunzip, which decompresses files in several different
 compression formats, is always made available with gzip. To uncompress

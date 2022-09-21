@@ -1,7 +1,7 @@
 arXiv Scientific Advisory Board
 ===============================
 
-arXiv's Scientific Advisory Board is composed of scientists and researchers in disciplines covered by arXiv. The Board provides advice and guidance pertaining to the repository's intellectual oversight, with a particular focus on the policies and operation of arXiv's moderation system. The Board is governed by [Bylaws](/about/sab_bylaws) that detail its duties, composition, and operation as well as the election of its members.
+arXiv's Scientific Advisory Board is composed of scientists and researchers in disciplines covered by arXiv. The Board provides advice and guidance pertaining to the repository's intellectual oversight, with a particular focus on the policies and operation of arXiv's moderation system. The Board is governed by [Bylaws](../../about/sab_bylaws.md) that detail its duties, composition, and operation as well as the election of its members.
 
 ## Current Board Members
 
@@ -42,14 +42,14 @@ Professor, University of Amsterdam (ex officio, as chair of Physics Advisory Com
 
 ## Subject Advisory Committees
 
-The [physics](/help/physics/#AdvisoryCommittee),
-[mathematics](/help/math/#AdvisoryCommittee), 
-[computer science (CoRR)](/corr),
-[quantitative biology](/help/q-bio#AdvisoryCommittee), 
-[quantitative finance](/help/q-fin#AdvisoryCommittee),
-[statistics](/help/statistics/#AdvisoryCommittee), 
-[electrical engineering and systems science](/help/eess/#AdvisoryCommittee),
- and [economics](/help/econ/#AdvisoryCommittee) archives each have
+The [physics](../../help/physics/index.md#AdvisoryCommittee),
+[mathematics](../../help/math/index.md#AdvisoryCommittee), 
+[computer science (CoRR)](../../corr/index.md),
+[quantitative biology](../../help/q-bio/index.md#AdvisoryCommittee), 
+[quantitative finance](../../help/q-fin/index.md#AdvisoryCommittee),
+[statistics](../../help/statistics/index.md#AdvisoryCommittee), 
+[electrical engineering and systems science](../../help/eess/index.md#AdvisoryCommittee),
+ and [economics](../../help/econ/index.md#AdvisoryCommittee) archives each have
 advisory committees, which are overseen loosely by the Scientific
 Advisory Board. The chairs of the physics, mathematics, computer
 science, and quantitative biology advisory committees serve as ex

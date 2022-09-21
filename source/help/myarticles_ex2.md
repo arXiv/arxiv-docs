@@ -2,7 +2,7 @@ Example using the `myarticles` widget with `arxiv` format
 =========================================================
 
 This page illustrates use of the JavaScript [`myarticles`
-widget](myarticles) and the "`arxiv`" display format which mimics the
+widget](myarticles.md) and the "`arxiv`" display format which mimics the
 style of search results and listings on arXiv.
 
 The code used on this page is:
@@ -21,7 +21,7 @@ var arxiv_includeComments=0;   //do not show comments (default is 1)
 ```
 
 The output is shown in the shaded box below. Additional [configuration
-options](myarticles#config) can be used to further control the layout
+options](myarticles.md#config) can be used to further control the layout
 and styling.
 
 \[Loading myarticles...\]

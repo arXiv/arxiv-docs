@@ -8,7 +8,7 @@ individual papers with an index submission. **Note** individual papers
 within a proceedings must still conform to arXiv content polices and are
 moderated, as usual. Ideally, an index or overlay should provide 
 information beyond what would be available from a keyword search on the 
-[`Report-no`](/help/prep#report) metadata field.
+[`Report-no`](prep.md#report) metadata field.
 
 In general, we prefer arrangements where the respective authors submit 
 the individual papers. We provide two ways of partially automating the 
@@ -20,7 +20,7 @@ different scenarios:
     submissions using special processing instructions from within an
     HTML index submission which lists the arXiv identifiers of the
     individual papers. A good example is
-    [arXiv:1205.2597](/abs/1205.2597v1).
+    [arXiv:1205.2597](https://arxiv.org/abs/1205.2597v1).
 -   [Index submitted before the individual papers](#index_before). We
     have support for automatic linking to a search on the report number
     field. Conference organizers must instruct the submitters of
@@ -28,13 +28,13 @@ different scenarios:
     `Report-no:` field of their submission. The HTML index submission
     includes special processing instructions which create links to the
     report number search. An example using this approach is
-    [arXiv:1108.3558](/abs/1108.3558v1).
+    [arXiv:1108.3558](https://arxiv.org/abs/1108.3558v1).
 
 Please note that conference announcements, or indexes without the
 articles indicated, are not permitted. We accept index submissions before the
 submission of individual papers with the understanding that the majority
 of papers at the conference will be submitted. If in doubt [contact
-arXiv administrators](/contact). Note that it is not appropriate to submit 
+arXiv administrators](contact.md). Note that it is not appropriate to submit 
 an overlay or index of content not in arXiv. 
 <span id="index_after"></span>
 
@@ -43,7 +43,7 @@ Index submission after individual papers
 
 The simplest way to make a proceedings or index entry is to create an
 HTML submission using special `LIST:arXiv:YYMM.NNNN` or
-`LIST:arch-ive/YYMMNNN` (only for [old identifiers](arxiv_identifier)
+`LIST:arch-ive/YYMMNNN` (only for [old identifiers](arxiv_identifier.md)
 like hep-lat/9801024), directives which are expanded by arXiv's HTML
 interpreter to the full title/author listings in the usual local format
 (with the author names linked to the search; using whatever cookies the
@@ -52,7 +52,7 @@ local to the same site the index is retrieved from).
 
 Keep the HTML simple and be sure to include the `LIST:arXiv:YYMM.NNNN`
 directives on separate lines without any leading whitespace. A good
-example is [arXiv:1205.2597v1](/abs/1205.2597v1), for which the source
+example is [arXiv:1205.2597v1](https://arxiv.org/abs/1205.2597v1), for which the source
 HTML is:
 
     <html>
@@ -95,7 +95,7 @@ first, the chicken or the egg?) As noted above, we will accept
 submission of an 'empty' index submission given appropriate assurances
 that the majority of the papers will be submitted. Any 'placeholder'
 index submission should be made just in advance of the actual
-submissions and should be updated (using [replace](replace)) promptly to
+submissions and should be updated (using [replace](replace.md)) promptly to
 add links to the individual submissions.
 
 ### The individual papers

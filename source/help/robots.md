@@ -6,10 +6,10 @@ Robots Beware
 We have limited server capacity and our first priority is to support
 interactive use by human users. Several interfaces designed to
 provide machine access to arXiv are provided. See our
-[OAI-PMH](/help/oa), [arXiv API](/help/api) and [RSS](/help/rss)
+[OAI-PMH](oa/index.md), [arXiv API](api/index.md) and [RSS](rss.md)
 documentation. There are also facilities for [bulk
-data](/help/bulk_data) download, as well as guidelines for programmatic
-[harvesting](/help/bulk_data#harvest).
+data](bulk_data.md) download, as well as guidelines for programmatic
+[harvesting](bulk_data.md#harvest).
 
 Millions and billions of distinct URL's
 ---------------------------------------
@@ -42,7 +42,7 @@ HTTP response) will be interpreted as an attack; and we will respond
 accordingly — without hesitation or warning.
 
 If some specific application requires relaxation of the above
-guidelines, [contact the arXiv administrators](/help/contact) *in
+guidelines, [contact the arXiv administrators](contact.md) *in
 advance* of any attempted download.
 
 ![icon](https://arxiv.org/icons/smullnb.gif)

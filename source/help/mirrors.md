@@ -15,7 +15,7 @@ updated daily but have fewer features than the main site:
 network. Geographic locality of servers is much less useful now than it
 was when the mirror network was established, and maintaining support for
 mirrors impedes development of new features on arXiv. We will continue
-to support and extend [APIs and data feeds](bulk_data) to enable third
+to support and extend [APIs and data feeds](bulk_data.md) to enable third
 parties to develop services over arXiv.*
 
 2018-03: The Spanish mirror (formerly es.arxiv.org) has been taken

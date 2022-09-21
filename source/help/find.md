@@ -6,7 +6,7 @@ Search
 
 Enter a few title words and/or author names and/or abstract words into
 the "**Search or Article-id**" box in the top right of most pages
-(including this one) or you can use the [Advanced Search](/search/advanced)
+(including this one) or you can use the [Advanced Search](bitmap/advanced.md)
 
 If you know the identifier
 --------------------------------------------------------
@@ -23,4 +23,4 @@ identifier as `http://arxiv.org/abs/<identifier>`. For example,
 >     http://arxiv.org/abs/0705.0123
 
 From the abstract page you will be able to choose your preferred format
-for [downloading and viewing](view) the paper.
+for [downloading and viewing](view.md) the paper.

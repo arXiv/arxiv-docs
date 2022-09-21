@@ -5,7 +5,7 @@ Advanced Bitmapping
 ===================
 
 <span class="note">Note:</span> Advanced doesn't necessary equate to
-better. The [basic procedures](procedure) will often yield superior
+better. The [basic procedures](procedure.md) will often yield superior
 results with considerably less effort.
 
 The first stage in advanced bitmapping of PostScript is to use
@@ -40,7 +40,7 @@ To make greyscale or color bitmaps instead, choose "`-sDEVICE=pgmraw`"
 Now you should have a **pbm** file of your figure. You must convert it
 to GIF, JPEG or PostScript before submitting it. You can either load it
 into XV to save it in one of these formats, or use the [PBM
-tools](software) to do the same.
+tools](software.md) to do the same.
 
 Converting a .pgm or .ppm Bitmap File to GIF or JPEG
 ----------------------------------------------------

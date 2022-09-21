@@ -8,7 +8,7 @@ The arXiv Bylaws were established in 2012 and may be amended, or new articles ad
 
 1.1 Cornell University (CU) holds the overall responsibility for arXiv’s operation and development, with strategic and operational guidance from its Member Advisory Board (MAB) and its Scientific Advisory Board (SAB).
 
-1.2 The arXiv principles delineate the respective roles of CU, SAB, and MAB.  See the arXiv [Governance Model](/about/governance) for a summary of each group's role.
+1.2 The arXiv principles delineate the respective roles of CU, SAB, and MAB.  See the arXiv [Governance Model](governance.md) for a summary of each group's role.
 
 1.3 Representation on MAB is reserved for libraries, research institutions, laboratories, and foundations that are members of arXiv and contribute to the financial support of the service (“Contributing Organizations”).
 

@@ -20,6 +20,6 @@ TeX and its variants have evolved into a large and complicated suite of
 document preparation tools.
 
 A great deal of information is available on the Web. Check our detailed
-utility help for [links to TeX on the Web](utilities#tex).
+utility help for [links to TeX on the Web](utilities.md#tex).
 
 TeX and LaTeX files usually have a `.tex` extension.

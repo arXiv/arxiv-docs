@@ -2,27 +2,27 @@
 
 Here, you can find information about arXiv usage in terms of submissions and downloads.
 
-[Total Downloads and Submissions](/stats/main)
+[Total Downloads and Submissions](None)
 
-[Total Submissions by Category (2009-2020)](submission_category_by_year)
+[Total Submissions by Category (2009-2020)](submission_category_by_year.md)
 
-[Top 250 Institutions with the Highest Total Downloads in 2020](2020_downloads_top_250_institutions)
+[Top 250 Institutions with the Highest Total Downloads in 2020](2020_downloads_top_250_institutions.md)
 
 
 ## Download and Submission Data for Members
 
-[Our institutional members](/about/ourmembers) support arXiv because they understand the value of arXiv to their academic communities. Downloads and submissions are representative of that value.
+[Our institutional members](../../about/ourmembers.md) support arXiv because they understand the value of arXiv to their academic communities. Downloads and submissions are representative of that value.
 
-* [Submissions by Institution (2020)](2020_institution_submissions)
+* [Submissions by Institution (2020)](2020_institution_submissions.md)
  
-* [Downloads by Institution (2020)](2020_institution_downloads)
+* [Downloads by Institution (2020)](2020_institution_downloads.md)
 
-* [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive)
+* [Downloads by Institution by Subject Archive (2020)](2020_institution_downloads_by_archive.md)
 
-* [Downloads by Institution (2009 - 2020)](2020_institution_downloads_by_year)
+* [Downloads by Institution (2009 - 2020)](2020_institution_downloads_by_year.md)
 
 
-Not a member yet? Check out your organization's statistics above and learn more about [becoming an institutional member](/about/membership). Questions or suggestions? Email [membership@arXiv.org](Mailto:membership@arXiv.org).
+Not a member yet? Check out your organization's statistics above and learn more about [becoming an institutional member](../../about/membership.md). Questions or suggestions? Email [membership@arXiv.org](None).
 
 
 **Caveats**: While we have made considerable effort to extract reliable data, there are many factors which affect accuracy. These factors include but are not limited to the following:
