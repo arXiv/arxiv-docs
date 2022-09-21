@@ -4,7 +4,7 @@ steps:
     args:
       - "-c"
       - |
-        .prep_for_mkdocs.sh
+        ./prep_for_mkdocs.sh
         mkdocs build
 
   - name: 'gcr.io/cloud-builders/gsutil'
