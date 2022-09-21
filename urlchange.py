@@ -28,254 +28,259 @@ from functools import reduce
 from dataclasses import dataclass
 from os.path import commonpath
 
-
 arxiv = 'https://arxiv.org'
 
 
 # MD files in docs. Created with find -f
 # This is the list of files to scan for links and alter
 mdfiles = [
-    "docs/corr/home.md",
-    "docs/corr/subjectclasses.md",
-    "docs/corr/advisorycommittee.md",
-    "docs/corr/index.md",
-    "docs/about/reports-financials.md",
-    "docs/about/sab_bylaws.md",
-    "docs/about/governance.md",
-    "docs/about/principles.md",
-    "docs/about/reports/arxiv_busplan_Oct2011.md",
-    "docs/about/reports/arxiv_busplan_July2011.md",
-    "docs/about/reports/2010_supporters.md",
-    "docs/about/reports/2016_usage.md",
-    "docs/about/reports/2018_usage.md",
-    "docs/about/reports/whitepaper.md",
-    "docs/about/reports/2014_usage.md",
-    "docs/about/reports/arxiv_busplan_Apr2011.md",
-    "docs/about/reports/2013_usage.md",
-    "docs/about/reports/arxiv_busplan_Jan2012.md",
-    "docs/about/reports/2020_roadmap.md",
-    "docs/about/reports/arxiv_busplan_July2010.md",
-    "docs/about/reports/2010_usage.md",
-    "docs/about/reports/2012_supporters.md",
-    "docs/about/reports/2020_update.md",
-    "docs/about/reports/arxiv_busplan_Dec2010.md",
-    "docs/about/reports/sustainability_advisory_group.md",
-    "docs/about/reports/2019_roadmap.md",
-    "docs/about/reports/index.md",
-    "docs/about/reports/2019_update.md",
-    "docs/about/reports/2011_supporters.md",
-    "docs/about/reports/2017_usage.md",
-    "docs/about/reports/2019_usage.md",
-    "docs/about/reports/2009_usage.md",
-    "docs/about/reports/2012_usage.md",
-    "docs/about/reports/2015_usage.md",
-    "docs/about/reports/2011_usage.md",
-    "docs/about/user-testing-api.md",
-    "docs/about/membership.md",
-    "docs/about/mab_bylaws.md",
-    "docs/about/people/scientific_ad_board.md",
-    "docs/about/people/leadership_team.md",
-    "docs/about/people/technical_ad_group.md",
-    "docs/about/people/index.md",
-    "docs/about/people/staff.md",
-    "docs/about/people/member_ad_board.md",
-    "docs/about/people/developers.md",
-    "docs/about/donate.md",
-    "docs/about/give.md",
-    "docs/about/accessibility.md",
-    "docs/about/index.md",
-    "docs/about/ourmembers.md",
-    "docs/about/user-testing.md",
-    "docs/help/hypertex/binaries/index.md",
-    "docs/help/hypertex/bugs.md",
-    "docs/help/hypertex/extensions.md",
-    "docs/help/hypertex/bibstyles/index.md",
-    "docs/help/hypertex/index.md",
-    "docs/help/hypertex/X/index.md",
-    "docs/help/bulk_data.md",
-    "docs/help/submission-policy.md",
-    "docs/help/myarticles_ex2.md",
-    "docs/help/authority.md",
-    "docs/help/data_conservancy.md",
-    "docs/help/jref.md",
-    "docs/help/support.md",
-    "docs/help/whytex.md",
-    "docs/help/bib_feed.md",
-    "docs/help/translations.md",
-    "docs/help/unpack.md",
-    "docs/help/prep.md",
-    "docs/help/sizes.md",
-    "docs/help/faq/texhyphenation.md",
-    "docs/help/faq/tetex3.md",
-    "docs/help/faq/psbad.md",
-    "docs/help/faq/texprobs.md",
-    "docs/help/faq/whytex.md",
-    "docs/help/faq/feynmf.md",
-    "docs/help/faq/pd1enc.md",
-    "docs/help/faq/browsergunzip.md",
-    "docs/help/faq/whynostamp.md",
-    "docs/help/faq/dvips.md",
-    "docs/help/faq/citelinks.md",
-    "docs/help/faq/statfaq.md",
-    "docs/help/faq/today.md",
-    "docs/help/faq/psjunk.md",
-    "docs/help/faq/revtex.md",
-    "docs/help/faq/textures.md",
-    "docs/help/faq/aaclass.md",
-    "docs/help/faq/landscape.md",
-    "docs/help/faq/amslatex2000.md",
-    "docs/help/faq/srcfaq.md",
-    "docs/help/faq/cache.md",
-    "docs/help/faq/pstricks.md",
-    "docs/help/faq/pdfrotate.md",
-    "docs/help/faq/texlive.md",
-    "docs/help/faq/freefonts.md",
-    "docs/help/faq/mistakes.md",
-    "docs/help/faq/index.md",
-    "docs/help/faq/doublesubscript.md",
-    "docs/help/faq/references.md",
-    "docs/help/faq/multilang.md",
-    "docs/help/not-registered.md",
-    "docs/help/api/user-manual.md",
-    "docs/help/api/tou.md",
-    "docs/help/api/classify.md",
-    "docs/help/api/faq.md",
-    "docs/help/api/index.md",
-    "docs/help/ir.md",
-    "docs/help/submit_ps.md",
-    "docs/help/ssl.md",
-    "docs/help/terms_of_submission.md",
-    "docs/help/econ/index.md",
-    "docs/help/econ/announcement.md",
-    "docs/help/contact.md",
-    "docs/help/passwords.md",
-    "docs/help/mathjax.md",
-    "docs/help/psvariants.md",
-    "docs/help/submit_tex.md",
-    "docs/help/cross.md",
-    "docs/help/arxiv_identifier_for_services.md",
-    "docs/help/overlap.md",
-    "docs/help/ps.md",
-    "docs/help/eess.md",
-    "docs/help/registerhelp.md",
-    "docs/help/bitmap/software.md",
-    "docs/help/bitmap/problems.md",
-    "docs/help/bitmap/advanced.md",
-    "docs/help/bitmap/procedure.md",
-    "docs/help/bitmap/faq.md",
-    "docs/help/bitmap/index.md",
-    "docs/help/submit_sword.md",
-    "docs/help/submit_status.md",
-    "docs/help/submit_pdf.md",
-    "docs/help/robots.md",
-    "docs/help/sciencewise.md",
-    "docs/help/primer.md",
-    "docs/help/math/index.md",
-    "docs/help/trackback.md",
-    "docs/help/datasets.md",
-    "docs/help/mimetypes.md",
-    "docs/help/moderation.md",
-    "docs/help/replace.md",
-    "docs/help/find.md",
-    "docs/help/q-fin/index.md",
-    "docs/help/q-fin/announcement.md",
-    "docs/help/arxiv_identifier.md",
-    "docs/help/ancillary_files.md",
-    "docs/help/macro_list.md",
-    "docs/help/config_browser.md",
-    "docs/help/toc.md",
-    "docs/help/type1linux.md",
-    "docs/help/license.md",
-    "docs/help/third_party_submission.md",
-    "docs/help/mirrors.md",
-    "docs/help/my_arxiv.md",
-    "docs/help/donate.md",
-    "docs/help/openurl.md",
-    "docs/help/oa/sfc_data_provider.md",
-    "docs/help/oa/arXiv_meta_format.md",
-    "docs/help/oa/sfc_oams.md",
-    "docs/help/oa/metadataPolicy.md",
-    "docs/help/oa/rfc1807.md",
-    "docs/help/oa/dataPolicy.md",
-    "docs/help/oa/index.md",
-    "docs/help/pscm.md",
-    "docs/help/pdf.md",
-    "docs/help/myarticles.md",
-    "docs/help/q-bio/index.md",
-    "docs/help/general.md",
-    "docs/help/semanticscholar.md",
-    "docs/help/utilities.md",
-    "docs/help/submit_html.md",
-    "docs/help/pstypeI.md",
-    "docs/help/tex.md",
-    "docs/help/endorsement.md",
-    "docs/help/subscribe.md",
-    "docs/help/tar.md",
-    "docs/help/versions.md",
-    "docs/help/00README.md",
-    "docs/help/web_accessibility.md",
-    "docs/help/misuse.md",
-    "docs/help/statistics/index.md",
-    "docs/help/withdraw.md",
-    "docs/help/index.md",
-    "docs/help/accesskeys.md",
-    "docs/help/announcement.md",
-    "docs/help/submit_index.md",
-    "docs/help/rss.md",
-    "docs/help/bulk_data_s3.md",
-    "docs/help/orcid.md",
-    "docs/help/submit.md",
-    "docs/help/otherformats.md",
-    "docs/help/eess/index.md",
-    "docs/help/eess/announcement.md",
-    "docs/help/gzip.md",
-    "docs/help/email-protection.md",
-    "docs/help/physics/index.md",
-    "docs/help/author_identifiers.md",
-    "docs/help/policies/code_of_conduct.md",
-    "docs/help/policies/submission_agreement.md",
-    "docs/help/policies/privacy_policy.md",
-    "docs/help/policies/index.md",
-    "docs/help/policies/instructions_for_submission.md",
-    "docs/help/stats/2018_by_area/index.md",
-    "docs/help/stats/2014_by_area/index.md",
-    "docs/help/stats/2013_by_area/index.md",
-    "docs/help/stats/2012_by_area/index.md",
-    "docs/help/stats/2017_by_area/index.md",
-    "docs/help/stats/2015_by_area/index.md",
-    "docs/help/stats/2016_by_area/index.md",
-    "docs/help/stats/index.md",
-    "docs/help/stats/2019_by_area/index.md",
-    "docs/help/view.md",
-    "docs/index.md",
-    "docs/new/nlinsub.md",
-    "docs/new/eess_announce.md",
-    "docs/new/91-94.md",
-    "docs/new/condreorg.md",
-    "docs/new/q-bio_announce.md",
-    "docs/new/physics.md",
-    "docs/new/q-fin_announce.md",
-    "docs/new/econ_announce.md",
-    "docs/new/stat.md",
-    "docs/new/q-bio.md",
-    "docs/new/nlin.md",
-    "docs/new/econ.md",
-    "docs/new/stat_announce.md",
-    "docs/new/index.md",
-    "docs/new/math.md",
-    "docs/new/94-96.md",
-    "docs/brand/brand-guidelines.md",
-    "docs/brand/typography.md",
-    "docs/brand/voice.md",
-    "docs/brand/brand-pillars.md",
-    "docs/brand/tagline.md",
-    "docs/brand/colors.md",
-    "docs/brand/swag.md",
-    "docs/brand/images.md",
-    "docs/brand/quotes.md",
-    "docs/brand/fonts.md",
-    "docs/brand/logos.md",
-    "docs/brand/index.md",
+"source/labs/criteria.md",
+"source/labs/project-proposal.md",
+"source/labs/index.md",
+"source/labs/showcase.md",
+"source/index.md",
+"source/corr/subjectclasses.md",
+"source/corr/index.md",
+"source/new/nlin.md",
+"source/new/94-96.md",
+"source/new/index.md",
+"source/new/econ_announce.md",
+"source/new/math.md",
+"source/new/condreorg.md",
+"source/new/q-fin_announce.md",
+"source/new/nlinsub.md",
+"source/new/91-94.md",
+"source/new/eess_announce.md",
+"source/new/q-bio_announce.md",
+"source/new/stat_announce.md",
+"source/help/authority.md",
+"source/help/otherformats.md",
+"source/help/config_browser.md",
+"source/help/toc.md",
+"source/help/submit_index.md",
+"source/help/misuse.md",
+"source/help/trackback.md",
+"source/help/unpack.md",
+"source/help/moderation/index.md",
+"source/help/moderation/appeals.md",
+"source/help/statistics/index.md",
+"source/help/orcid.md",
+"source/help/license/index.md",
+"source/help/license/reuse.md",
+"source/help/passwords.md",
+"source/help/bib_feed.md",
+"source/help/submit_ps.md",
+"source/help/bulk_data.md",
+"source/help/api/index.md",
+"source/help/api/user-manual.md",
+"source/help/api/tou.md",
+"source/help/api/classify.md",
+"source/help/api/faq.md",
+"source/help/api/basics.md",
+"source/help/policies/index.md",
+"source/help/policies/code_of_conduct_enforcement.md",
+"source/help/policies/instructions_for_submission.md",
+"source/help/policies/submission_agreement.md",
+"source/help/policies/privacy_policy.md",
+"source/help/policies/code_of_conduct.md",
+"source/help/ssl.md",
+"source/help/index.md",
+"source/help/pstypeI.md",
+"source/help/email-protection.md",
+"source/help/stats/2017_by_area/index.md",
+"source/help/stats/2013_by_area/index.md",
+"source/help/stats/index.md",
+"source/help/stats/2018_by_area/index.md",
+"source/help/stats/2014_by_area/index.md",
+"source/help/stats/2016_by_area/index.md",
+"source/help/stats/2015_by_area/index.md",
+"source/help/stats/2019_by_area/index.md",
+"source/help/stats/2012_by_area/index.md",
+"source/help/registerhelp.md",
+"source/help/accesskeys.md",
+"source/help/pscm.md",
+"source/help/sizes.md",
+"source/help/support.md",
+"source/help/q-bio/index.md",
+"source/help/math/index.md",
+"source/help/submission-policy.md",
+"source/help/type1linux.md",
+"source/help/submit_status.md",
+"source/help/not-registered.md",
+"source/help/myarticles.md",
+"source/help/submit_html.md",
+"source/help/submit_tex.md",
+"source/help/my_arxiv.md",
+"source/help/web_accessibility.md",
+"source/help/pdf.md",
+"source/help/bulk_data_s3.md",
+"source/help/mirrors.md",
+"source/help/hypertex/extensions.md",
+"source/help/hypertex/index.md",
+"source/help/hypertex/binaries/index.md",
+"source/help/hypertex/bibstyles/index.md",
+"source/help/hypertex/bugs.md",
+"source/help/hypertex/X/index.md",
+"source/help/whytex.md",
+"source/help/robots.md",
+"source/help/mathjax.md",
+"source/help/sciencewise.md",
+"source/help/myarticles_ex2.md",
+"source/help/openurl.md",
+"source/help/replace.md",
+"source/help/terms_of_submission.md",
+"source/help/primer.md",
+"source/help/ancillary_files.md",
+"source/help/general.md",
+"source/help/ir.md",
+"source/help/submit_pdf.md",
+"source/help/cross.md",
+"source/help/tex.md",
+"source/help/find.md",
+"source/help/translations.md",
+"source/help/q-fin/index.md",
+"source/help/q-fin/announcement.md",
+"source/help/overlap.md",
+"source/help/author_identifiers.md",
+"source/help/physics/index.md",
+"source/help/withdraw.md",
+"source/help/tar.md",
+"source/help/econ/index.md",
+"source/help/econ/announcement.md",
+"source/help/endorsement.md",
+"source/help/gzip.md",
+"source/help/donate.md",
+"source/help/versions.md",
+"source/help/third_party_submission.md",
+"source/help/prep.md",
+"source/help/view.md",
+"source/help/announcement.md",
+"source/help/jref.md",
+"source/help/ps.md",
+"source/help/macro_list.md",
+"source/help/faq/texlive.md",
+"source/help/faq/freefonts.md",
+"source/help/faq/feynmf.md",
+"source/help/faq/landscape.md",
+"source/help/faq/browsergunzip.md",
+"source/help/faq/today.md",
+"source/help/faq/mistakes.md",
+"source/help/faq/references.md",
+"source/help/faq/amslatex2000.md",
+"source/help/faq/textures.md",
+"source/help/faq/statfaq.md",
+"source/help/faq/dvips.md",
+"source/help/faq/index.md",
+"source/help/faq/doublesubscript.md",
+"source/help/faq/cache.md",
+"source/help/faq/whytex.md",
+"source/help/faq/revtex.md",
+"source/help/faq/psbad.md",
+"source/help/faq/srcfaq.md",
+"source/help/faq/psjunk.md",
+"source/help/faq/texprobs.md",
+"source/help/faq/pstricks.md",
+"source/help/faq/aaclass.md",
+"source/help/faq/whynostamp.md",
+"source/help/faq/pdfrotate.md",
+"source/help/faq/texhyphenation.md",
+"source/help/faq/pd1enc.md",
+"source/help/faq/tetex3.md",
+"source/help/faq/multilang.md",
+"source/help/faq/citelinks.md",
+"source/help/submit.md",
+"source/help/contact.md",
+"source/help/eess/index.md",
+"source/help/eess/announcement.md",
+"source/help/psvariants.md",
+"source/help/arxiv_identifier_for_services.md",
+"source/help/mimetypes.md",
+"source/help/bitmap/index.md",
+"source/help/bitmap/procedure.md",
+"source/help/bitmap/software.md",
+"source/help/bitmap/advanced.md",
+"source/help/bitmap/faq.md",
+"source/help/bitmap/problems.md",
+"source/help/oa/metadataPolicy.md",
+"source/help/oa/dataPolicy.md",
+"source/help/oa/index.md",
+"source/help/oa/rfc1807.md",
+"source/help/oa/sfc_oams.md",
+"source/help/oa/sfc_data_provider.md",
+"source/help/oa/arXiv_meta_format.md",
+"source/help/arxiv_identifier.md",
+"source/help/utilities.md",
+"source/help/00README.md",
+"source/help/datasets.md",
+"source/help/subscribe.md",
+"source/help/data_conservancy.md",
+"source/help/semanticscholar.md",
+"source/help/availability.md",
+"source/help/rss.md",
+"source/help/submit_sword.md",
+"source/about/give.md",
+"source/about/brand.md",
+"source/about/governance.md",
+"source/about/reports/2012_usage.md",
+"source/about/reports/2020_institution_downloads.md",
+"source/about/reports/2019_usage.md",
+"source/about/reports/arxiv_busplan_Jan2012.md",
+"source/about/reports/2020_usage.md",
+"source/about/reports/2020_institution_submissions.md",
+"source/about/reports/2021_institution_submissions.md",
+"source/about/reports/2014_usage.md",
+"source/about/reports/2019_update.md",
+"source/about/reports/2020_downloads_top_250_institutions.md",
+"source/about/reports/2020_institution_downloads_by_year.md",
+"source/about/reports/2021_usage.md",
+"source/about/reports/2016_usage.md",
+"source/about/reports/2011_supporters.md",
+"source/about/reports/index.md",
+"source/about/reports/2010_usage.md",
+"source/about/reports/arxiv_busplan_Apr2011.md",
+"source/about/reports/2011_usage.md",
+"source/about/reports/2013_usage.md",
+"source/about/reports/2020_update.md",
+"source/about/reports/2020_institution_downloads_by_archive.md",
+"source/about/reports/whitepaper.md",
+"source/about/reports/arxiv_busplan_July2011.md",
+"source/about/reports/2015_usage.md",
+"source/about/reports/2018_usage.md",
+"source/about/reports/2019_roadmap.md",
+"source/about/reports/arxiv_busplan_Oct2011.md",
+"source/about/reports/2010_supporters.md",
+"source/about/reports/2020_roadmap.md",
+"source/about/reports/arxiv_busplan_Dec2010.md",
+"source/about/reports/arxiv_busplan_July2010.md",
+"source/about/reports/2012_supporters.md",
+"source/about/reports/2017_usage.md",
+"source/about/reports/submission_category_by_year.md",
+"source/about/reports/sustainability_advisory_group.md",
+"source/about/reports/2009_usage.md",
+"source/about/index.md",
+"source/about/reports-financials.md",
+"source/about/membership.md",
+"source/about/supporters.md",
+"source/about/email_sign_up.md",
+"source/about/brand_use.md",
+"source/about/support_confirm.md",
+"source/about/accessibility.md",
+"source/about/mab_bylaws.md",
+"source/about/principles.md",
+"source/about/user-testing-api.md",
+"source/about/donate.md",
+"source/about/user-testing.md",
+"source/about/membership_confirm.md",
+"source/about/people/scientific_ad_board.md",
+"source/about/people/index.md",
+"source/about/people/technical_ad_group.md",
+"source/about/people/leadership_team.md",
+"source/about/people/member_ad_board.md",
+"source/about/people/staff.md",
+"source/about/people/developers.md",
+"source/about/sab_bylaws.md",
+"source/about/ourmembers.md",
+"source/about/funding.md",
 ]
 
 # Files generated by mkdocs. Created by doing mkdocs build then find -f in the site directory.
@@ -894,7 +899,7 @@ paths_in_docs = [
 ]
 
 def mdfile_to_path(file):
-    return '/' + file.replace('docs/', '').replace('.md','.html')
+    return "/" + file.replace('source/', '').replace('.md','.html')
 
 paths_in_docs = [mdfile_to_path(file) for file in mdfiles]
 
@@ -976,22 +981,52 @@ def levels(path):
 assert levels('/new') == 1
 assert levels('/new/hat') == 2
 
-def absolute2rel(path,url):
-    """Something like /help and /help/cross => cross.html """
-    if url.startswith(path):
-        common = commonpath([path,url])
-        return url.replace(common,'')[1:]
+def absolute2rel(path, url):
+    """Something like
+    /help and /help/cross => cross
+    /help and /help/faq/xyz => faq/xyz
+
+    /about and /help/cross => ../help/cross
+
+    """
+    #print(f"absolute2rel: path: {path} url: {url}")
+    if path.startswith("/source"):
+       path = path.replace("/source", "", 1)
+    if not path:
+        path = '/'
+
+    if url.startswith(str(path)):
+        try:
+            return str(PurePath(url).relative_to(path))
+        except ValueError:
+            # ex: '/about/reports-financials.md' does not start with '/about/reports'
+            path_parts = path.split('/')
+            url_parts = url.split('/')
+            for path_part in path_parts:
+                if url_parts[0] == path_part:
+                    url_parts.pop()
+                else:
+                    break
+            return '/'.join( url_parts)
+
     else:
-        if '../' in path:
-            return path  # just give up
-        else:
-            ups = '../' * levels(path)
-            return f"{ups}{url[1:]}"
+        return '/'.join( ['..'] * levels(str(path))) + url
 
+    # if url.startswith(path):
+    #     out =  url.replace(path,'')
+    #     if out.startswith('/'):
+    #         return out[1:]
+    #     else:
+    #         return out
+    # else:
+    #     # case of /about and /help/cross => ../help/cross.html
 
-assert absolute2rel('/help', '/help/index') == 'index',  absolute2rel('/help', '/help/index')
-assert absolute2rel('/help/api/faq', '/help/api/faq') == '', absolute2rel('/help/api/faq', '/help/api/faq')
-assert absolute2rel('/help', '/help') == ''
+print(absolute2rel('/about/reports', '/about/reports-financials.md'))
+assert( absolute2rel('/about/reports', '/about/reports-financials.md'))
+assert absolute2rel('/help', '/help/index') == 'index'
+print( absolute2rel('/help/api/faq', '/help/api/faq'))
+assert absolute2rel('/help/api/faq', '/help/api/faq') == '.'
+assert absolute2rel('/help', '/help') == '.'
 assert absolute2rel('/new', '/help/reg') == '../help/reg'
 
 
@@ -1019,20 +1054,23 @@ assert dedotdot('/about/reports', '../support') == ('/about', 'support')
 assert dedotdot('/a/b/c', 'd') == ('/a/b/c', 'd'),  dedotdot('/a/b/c', 'd')
 assert dedotdot('/a/b/c', 'd#e') == ('/a/b/c', 'd#e')
 
-def guess(paths_in_docs, path, inurl):
+
+def guess(paths_in_docs, doc_path, url):
     """With the knolwege of all the paths in /docs, try to guess which one
     a url is targeting"""
-    ddpath, ddurl = dedotdot(path, inurl)
+    #print(f"guess() docs_path: {doc_path} url: {url}")
+    ddpath, ddurl = dedotdot(doc_path, url)
     aurl, anchor = pathandanchor(ddurl)
     if aurl == '':
         aurl = 'index'
     url, path = PurePath(aurl), PurePath(ddpath)
+    urlpath= str(path.parts[-1])
 
     if len(path.parts) > 0:
         guess_formats =[
-            f"{path.parts[-1]}/{url}/index",
-            f"{path.parts[-1]}/{url}",
-            f"{path.parts[-1]}/{url.stem}",
+            f"{urlpath}/{url}/index",
+            f"{urlpath}/{url}",
+            f"{urlpath}/{url.stem}",
             f"{url}/index",
             url.stem]
     else:
@@ -1040,8 +1078,8 @@ def guess(paths_in_docs, path, inurl):
     if len(url.parts) > 1:
         guess_formats.insert(0, f"{url.parts[-2]}/{url.parts[-1]}")
     if url.as_posix() in ['./' , '.', '']:
-        guess_formats.insert(0, f"{path.parts[-1]}")
-        guess_formats.insert(0, f"{path.parts[-1]}/index")
+        guess_formats.insert(0, f"{urlpath}")
+        guess_formats.insert(0, f"{urlpath}/index")
     if url.is_absolute():
         guess_formats.insert(0, aurl)
         guess_formats.insert(0, aurl+'.html')
@@ -1053,9 +1091,13 @@ def guess(paths_in_docs, path, inurl):
     for g in guess_formats:
         guess = [p for p in paths_in_docs if g in p]
         if len(guess) == 1:
-            return (guess[0] + anchor).replace('.html','.md')
+            #return mkdocs_relative(urlpath, guess[0])
+            return absolute2rel(doc_path, (guess[0] + anchor).replace('.html','.md'))
+            #return (guess[0] + anchor).replace('.html','.md')
+
 
 def fix_href(path, inurl):
+    #import pdb; pdb.set_trace()
     url,anchor = pathandanchor(inurl)
     if url == '/':
         return arxiv
@@ -1070,84 +1112,84 @@ def fix_href(path, inurl):
         return arxiv + inurl + anchor
     return guess(paths_in_docs, path, inurl)
 
-assert fix_href('/help/api', '../rss') == '/help/rss.md'
-assert fix_href('/help', 'myarticles') is not None, fix_href('/help', 'myarticles')
-assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
-#assert fixedv2('/about/reports', '/help/support/2011_budget') is not None, fixedv2('/about/reports', '/help/support/2011_budget') # Actual missing file
-assert fix_href('/help/stats', '/stats/monthly_downloads') is not None, fix_href('/help/stats', '/stats/monthly_downloads')
-#assert fixedv2('/new', '/help/pswindows') is not None, fixedv2('/new', '/help/pswindows') # Actual missing
-#assert fixedv2('/new', '/new/q-fin_announcement') is not None, fixedv2('/new', '/new/q-fin_announcement') # Actual Missing
-assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
-assert fix_href('/help/faq', '../submit#availability') is not None, fix_href('/help/faq', '../submit#availability')
-assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
-#assert fixedv2('/help', '../cookies') is not None, fixedv2('/help', '../cookies')  # intended to go to the arxiv.org/cookies page
-#assert fixedv2('/new', '/blurb/sep96news') is not None, fixedv2('/new', '/blurb/sep96news') # missing
-#assert fixedv2('/help/hypertex/X', 'Mosaic') is not None, fixedv2('/help/hypertex/X', 'Mosaic') # Not sure
-assert fix_href('/help', '/openurl-cookie') is not None, fix_href('/help', '/openurl-cookie')
-assert fix_href('/new', '/') is not None, fix_href('/new', '/')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/help', '/') is not None, fix_href('/help', '/')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-#assert fixedv2('/about/reports', '/help/policies/code\_of\_conduct') is not None, fixedv2('/about/reports', '/help/policies/code\_of\_conduct') # odd
-#assert fixedv2('/about/reports', '/help/support/2010_budget') is not None, fixedv2('/about/reports', '/help/support/2010_budget') # missing
-#assert fixedv2('/help', 'faq/landscape "arXiv landscape help page"') is not None, fixedv2('/help', 'faq/landscape "arXiv landscape help page"') # odd
-assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
-assert fix_href('/help/stats', '/stats/monthly_submissions') is not None, fix_href('/help/stats', '/stats/monthly_submissions')
-assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
-# assert fixedv2('/new', '/help/psvms') is not None, fixedv2('/new', '/help/psvms') # missing
-#assert fixedv2('/new', '/help/submit_docx') is not None, fixedv2('/new', '/help/submit_docx') # missing
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-#assert fixedv2('/new', '/help/psmacs') is not None, fixedv2('/new', '/help/psmacs') # missing
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-#assert fixedv2('/new', '/servers') is not None, fixedv2('/new', '/servers') # missing
-assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
-#assert fixedv2('/new', '/help/psnonunix') is not None, fixedv2('/new', '/help/psnonunix') # missing
-assert fix_href('/help', '/set_author_id') is not None, fix_href('/help', '/set_author_id')
-#assert fixedv2('/new', '/x-eprint') is not None, fixedv2('/new', '/x-eprint') # missing
-assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
-#assert fixedv2('/new', '/help/search') is not None, fixedv2('/new', '/help/search') # Need new search via mkdocs
-assert fix_href('/help/hypertex/X', 'callmosaic') is not None, fix_href('/help/hypertex/X', 'callmosaic')
-assert fix_href('/help', '/auth/change-author-status') is not None, fix_href('/help', '/auth/change-author-status')
-assert fix_href('/help/hypertex/binaries', '../#xhdvisource') is not None, fix_href('/help/hypertex/binaries', '../#xhdvisource')
-assert fix_href('/help', '/auth/email-change-form') is not None, fix_href('/help', '/auth/email-change-form')
-#assert fixedv2('/new', 'interruption') is not None, fixedv2('/new', 'interruption') # missing
-#assert fixedv2('/new', 'physsub') is not None, fixedv2('/new', 'physsub') # missing
-assert fix_href('/help', 'submit#availability') is not None, fix_href('/help', 'submit#availability')
-assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
-#assert fixedv2('/new', '/help/support/faq') is not None, fixedv2('/new', '/help/support/faq') # missing
-assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
-#assert fixedv2('/new', '/help/faq/y2k') is not None, fixedv2('/new', '/help/faq/y2k') #missing
-assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
-assert fix_href('/new', 'nlin') is not None, fix_href('/new', 'nlin')
-assert fix_href('/new', '/find/math/1/au:+Perelman_G/0/1/0/all/0/1') is not None, fix_href('/new', '/find/math/1/au:+Perelman_G/0/1/0/all/0/1')
-assert fix_href('/new', '/') is not None, fix_href('/new', '/')
-# assert fixedv2('/new', '/help/uploads') is not None, fixedv2('/new', '/help/uploads') # missing
-#assert fixedv2('/', '{{ page.edit_url }}') is not None, fixedv2('/', '{{ page.edit_url }}') # intended jinja template
-assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
-assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
-assert fix_href('/corr', './') is not None, fix_href('/corr', './')
-assert fix_href('/help', '/stats/monthly_submissions') is not None, fix_href('/help', '/stats/monthly_submissions')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/help/policies', '../submit') is not None, fix_href('/help/policies', '../submit')
-assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
-#assert fixedv2('/new', '/help/submit_nb') is not None, fixedv2('/new', '/help/submit_nb') # missing
-assert fix_href('/help/hypertex/binaries', '../') is not None, fix_href('/help/hypertex/binaries', '../')
-# assert fixedv2('/about/reports', '/about/reports/2019roadmap') is not None, fixedv2('/about/reports', '/about/reports/2019roadmap') # missing
-#assert fixedv2('/about/reports', '/help/support/2012_budget') is not None, fixedv2('/about/reports', '/help/support/2012_budget') # missing
-assert fix_href('/help', 'myarticles') is not None, fix_href('/help', 'myarticles')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
-assert fix_href('/help/faq', '../ps') is not None, fix_href('/help/faq', '../ps')
-# assert fixedv2('/help', '/auth "arXiv user account page"') is not None, fixedv2('/help', '/auth "arXiv user account page"') # fixed at regex level
-assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
-assert fix_href('/new', '/') is not None, fix_href('/new', '/')
-#assert fixedv2('/about/reports', '/help/support/2010_budget') is not None, fixedv2('/about/reports', '/help/support/2010_budget') #
-assert fix_href('/help', 'myarticles#config') is not None, fix_href('/help', 'myarticles#config')
-assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help/api', '../rss') == '/help/rss.md'
+# assert fix_href('/help', 'myarticles') is not None, fix_href('/help', 'myarticles')
+# assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
+# #assert fixedv2('/about/reports', '/help/support/2011_budget') is not None, fixedv2('/about/reports', '/help/support/2011_budget') # Actual missing file
+# assert fix_href('/help/stats', '/stats/monthly_downloads') is not None, fix_href('/help/stats', '/stats/monthly_downloads')
+# #assert fixedv2('/new', '/help/pswindows') is not None, fixedv2('/new', '/help/pswindows') # Actual missing
+# #assert fixedv2('/new', '/new/q-fin_announcement') is not None, fixedv2('/new', '/new/q-fin_announcement') # Actual Missing
+# assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
+# assert fix_href('/help/faq', '../submit#availability') is not None, fix_href('/help/faq', '../submit#availability')
+# assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
+# #assert fixedv2('/help', '../cookies') is not None, fixedv2('/help', '../cookies')  # intended to go to the arxiv.org/cookies page
+# #assert fixedv2('/new', '/blurb/sep96news') is not None, fixedv2('/new', '/blurb/sep96news') # missing
+# #assert fixedv2('/help/hypertex/X', 'Mosaic') is not None, fixedv2('/help/hypertex/X', 'Mosaic') # Not sure
+# assert fix_href('/help', '/openurl-cookie') is not None, fix_href('/help', '/openurl-cookie')
+# assert fix_href('/new', '/') is not None, fix_href('/new', '/')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help', '/') is not None, fix_href('/help', '/')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# #assert fixedv2('/about/reports', '/help/policies/code\_of\_conduct') is not None, fixedv2('/about/reports', '/help/policies/code\_of\_conduct') # odd
+# #assert fixedv2('/about/reports', '/help/support/2010_budget') is not None, fixedv2('/about/reports', '/help/support/2010_budget') # missing
+# #assert fixedv2('/help', 'faq/landscape "arXiv landscape help page"') is not None, fixedv2('/help', 'faq/landscape "arXiv landscape help page"') # odd
+# assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
+# assert fix_href('/help/stats', '/stats/monthly_submissions') is not None, fix_href('/help/stats', '/stats/monthly_submissions')
+# assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
+# # assert fixedv2('/new', '/help/psvms') is not None, fixedv2('/new', '/help/psvms') # missing
+# #assert fixedv2('/new', '/help/submit_docx') is not None, fixedv2('/new', '/help/submit_docx') # missing
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# #assert fixedv2('/new', '/help/psmacs') is not None, fixedv2('/new', '/help/psmacs') # missing
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# #assert fixedv2('/new', '/servers') is not None, fixedv2('/new', '/servers') # missing
+# assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
+# #assert fixedv2('/new', '/help/psnonunix') is not None, fixedv2('/new', '/help/psnonunix') # missing
+# assert fix_href('/help', '/set_author_id') is not None, fix_href('/help', '/set_author_id')
+# #assert fixedv2('/new', '/x-eprint') is not None, fixedv2('/new', '/x-eprint') # missing
+# assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
+# #assert fixedv2('/new', '/help/search') is not None, fixedv2('/new', '/help/search') # Need new search via mkdocs
+# assert fix_href('/help/hypertex/X', 'callmosaic') is not None, fix_href('/help/hypertex/X', 'callmosaic')
+# assert fix_href('/help', '/auth/change-author-status') is not None, fix_href('/help', '/auth/change-author-status')
+# assert fix_href('/help/hypertex/binaries', '../#xhdvisource') is not None, fix_href('/help/hypertex/binaries', '../#xhdvisource')
+# assert fix_href('/help', '/auth/email-change-form') is not None, fix_href('/help', '/auth/email-change-form')
+# #assert fixedv2('/new', 'interruption') is not None, fixedv2('/new', 'interruption') # missing
+# #assert fixedv2('/new', 'physsub') is not None, fixedv2('/new', 'physsub') # missing
+# assert fix_href('/help', 'submit#availability') is not None, fix_href('/help', 'submit#availability')
+# assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
+# #assert fixedv2('/new', '/help/support/faq') is not None, fixedv2('/new', '/help/support/faq') # missing
+# assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
+# #assert fixedv2('/new', '/help/faq/y2k') is not None, fixedv2('/new', '/help/faq/y2k') #missing
+# assert fix_href('/help', '/auth/need-paper-password') is not None, fix_href('/help', '/auth/need-paper-password')
+# assert fix_href('/new', 'nlin') is not None, fix_href('/new', 'nlin')
+# assert fix_href('/new', '/find/math/1/au:+Perelman_G/0/1/0/all/0/1') is not None, fix_href('/new', '/find/math/1/au:+Perelman_G/0/1/0/all/0/1')
+# assert fix_href('/new', '/') is not None, fix_href('/new', '/')
+# # assert fixedv2('/new', '/help/uploads') is not None, fixedv2('/new', '/help/uploads') # missing
+# #assert fixedv2('/', '{{ page.edit_url }}') is not None, fixedv2('/', '{{ page.edit_url }}') # intended jinja template
+# assert fix_href('/help', 'arxiv_identifier') is not None, fix_href('/help', 'arxiv_identifier')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
+# assert fix_href('/help', 'bulk_data') is not None, fix_href('/help', 'bulk_data')
+# assert fix_href('/corr', './') is not None, fix_href('/corr', './')
+# assert fix_href('/help', '/stats/monthly_submissions') is not None, fix_href('/help', '/stats/monthly_submissions')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help/policies', '../submit') is not None, fix_href('/help/policies', '../submit')
+# assert fix_href('/help', 'submit') is not None, fix_href('/help', 'submit')
+# #assert fixedv2('/new', '/help/submit_nb') is not None, fixedv2('/new', '/help/submit_nb') # missing
+# assert fix_href('/help/hypertex/binaries', '../') is not None, fix_href('/help/hypertex/binaries', '../')
+# # assert fixedv2('/about/reports', '/about/reports/2019roadmap') is not None, fixedv2('/about/reports', '/about/reports/2019roadmap') # missing
+# #assert fixedv2('/about/reports', '/help/support/2012_budget') is not None, fixedv2('/about/reports', '/help/support/2012_budget') # missing
+# assert fix_href('/help', 'myarticles') is not None, fix_href('/help', 'myarticles')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
+# assert fix_href('/help/faq', '../ps') is not None, fix_href('/help/faq', '../ps')
+# # assert fixedv2('/help', '/auth "arXiv user account page"') is not None, fixedv2('/help', '/auth "arXiv user account page"') # fixed at regex level
+# assert fix_href('/help', '/auth/request-ownership') is not None, fix_href('/help', '/auth/request-ownership')
+# assert fix_href('/new', '/') is not None, fix_href('/new', '/')
+# #assert fixedv2('/about/reports', '/help/support/2010_budget') is not None, fixedv2('/about/reports', '/help/support/2010_budget') #
+# assert fix_href('/help', 'myarticles#config') is not None, fix_href('/help', 'myarticles#config')
+# assert fix_href('/about/reports', '../support') is not None, fix_href('/about/reports', '../support')
 
 @dataclass
 class item():
@@ -1165,6 +1207,7 @@ links = set(links)
 
 import os
 doit =  bool(os.environ.get('DOIT', False)=='1')
+verbose=bool(os.environ.get('VERBOSE', False))
 
 for file,url in links:
     if not dont_fix(url):
@@ -1172,12 +1215,14 @@ for file,url in links:
         fx = fix_href(prefix, url)
         todo[file].append(item(file, prefix, url, fx))
         if not doit:
-            if fx == None:
+            if verbose or fx == None:
                 print(f"{file:<50}| prefix:{prefix:<20}\t\t\t  url:{url:<20} \t\t -> \t {fx}")
             #print(f"assert guess(paths_in_docs, '{prefix}', '{url}') is not None, guess(paths_in_docs, '{prefix}', '{url}')")
 
+
 if not doit:
-    print("\nThe above list is only the fixes that failed")
+    if not verbose:
+        print("\nThe above list is only the fixes that failed")
     print(f"Total fixes: {len(todo)}")
     print("Run with DOIT=1 env var to alter .md files in docs")
 else:
