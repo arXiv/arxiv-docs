@@ -9,7 +9,7 @@ Donate to arXiv
 
 Corporate Employer Matching Funds can be made through [Benevity](https://causes.benevity.org/causes/840-150532082/project/3FK1YBQWRZ).
 
-Member Institutions: Membership contributions made by credit card can be processed through this donation link. Please be sure to include the institution’s name (not an individual’s name).
+Member Institutions: Membership contributions made by credit card can be processed through the donation link above. Please be sure to include the institution’s name (not an individual’s name).
 
 Authors: Donations will have no impact on submission decisions.
 
