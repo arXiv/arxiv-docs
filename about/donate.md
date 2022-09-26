@@ -1,7 +1,7 @@
 Donate to arXiv
 ======
 
-<p style="margin-bottom: 2em;">Thank you for supporting arXiv! 100% of your contribution will fund arXiv operations and new initiatives that will benefit the global scientific community.</p>
+<p style="margin-bottom: 2em;">Thank you for supporting arXiv! 100% of your contribution will fund new initiatives and ongoing operations that benefit the global scientific community.</p>
 
 <p style="float: left; margin-right: 2em; margin-bottom: 2em;"><a class="button is-large is-link" href="https://securelb.imodules.com/s/1717/alumni/event.aspx?sid=1717&gid=2&pgid=22315&cid=35778&dids=276&bledit=1&sort=1">Donate</a></p>
 
