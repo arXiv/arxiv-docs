@@ -8,7 +8,7 @@ To build the arXiv docs site, run:
 
 ```bash
 python -m venv docs-venv
-docs-venv/bin/activate
+source docs-venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 ```
