@@ -3,24 +3,28 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, please first review [help](/help) and [FAQ](/help/faq). 
+For questions about paper submission, accounts, and use of arXiv, please first review [help](/help) and [FAQ](/help/faq). 
 
 Contact our User Support team via the [arXiv user support portal](http://arxiv.org/support/general_help).
 
-Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. If you cannot access the portal you can also contact us by email at help@arxiv.org. If you do not get an automated email back that we have received your support request it is likely that your message was caught by our spam filter.
+Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. 
 
-To avoid a long delay in receiving a response:
+To avoid a delay in receiving a response:
 
--   Send a precise message including all relevant details (especially submission or paper ids, URLs, etc.).
+-   Please include all relevant details (especially submission or paper ids, URLs, etc.).
+
+If you cannot access the portal you can also contact us by email at help@arxiv.org. If you do not get an automated email back that we have received your support request it is likely that your message was caught by our spam filter.
+
 
 
 ## Moderation queries
 
-If you have questions about the status of your submission, or for appeals, contact us through the [moderation support portal](https://arxiv.org/support/moderation_help).
-If you cannot access the portal you can contact us by email at moderation@arxiv.org.
- 
--   Send a precise message, including all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
+For questions about the status of your submission, or for [appeals](https://arxiv.org/help/moderation/appeals), contact us through the [moderation support portal](https://arxiv.org/support/moderation_help).
+
+-   Please include all relevant details (especially paper ids, former correspondence, submission summaries, etc.)
 -   Please be *patient*, as moderation appeals are complicated and may take some time.
+
+If you cannot access the portal you can contact us by email at moderation@arxiv.org. If you do not get an automated email back that we have received your support request it is likely that your message was caught by our spam filter.
 
 ## Membership and Giving
 
