@@ -4,7 +4,7 @@ It is possible to appeal the classification of an announced article or the decis
 
 If you disagree with a [moderation](/help/moderation) decision, you may appeal for your desired outcome. The appeals process allows moderators time to reconsider a submission, but repeated requests with no additional information cannot be considered.
 
-Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help). If you cannot access the portal you can contact The arXiv Content Management & User Support Team by email at moderation@arxiv.org. 
+Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help).  
 
 - [What is a moderation appeal?](#what-is)
 - [What happens when I appeal?](#what-happens)
@@ -19,7 +19,7 @@ An appeal is a request sent to arXiv staff. In general, appeals reconsider moder
 
 Your appeal message must include all relevant details, such as submission or arXiv identifiers, former correspondence, etc. It must also include your rationale for why the moderators should reconsider the work, including a detailed description of the research content of your article, and how the content of your paper directly applies to your requested category (see the [category taxonomy](/category_taxonomy) for specific category descriptions). For declined submissions, it may be desirable for you to include a pdf copy of your work when appealing, as they are not retained in perpetuity. 
 
-Appeals will only be considered if they are made through the appropriate channels: [user support portal](https://arxiv.org/support/moderation_help) or moderation@arxiv.org. Please do not attempt to contact moderators directly.  
+Appeals will only be considered if they are made through the appropriate channels: [user support portal](https://arxiv.org/support/moderation_help). Please do not attempt to contact moderators directly.  
 
 <span id="what-happens"></span>
 ## What happens when I appeal?
@@ -28,7 +28,7 @@ You will receive a response from arXiv staff when your appeal has been sent to o
 
 The appeals process begins after acknowledgment of your appeal. If your submission was recently declined, arXiv staff will restore your submission to [on hold](/help/submit_status#on_hold) status, if possible.  
 
-The appellate moderator will be sent your appeal and any correspondence related to the work, and will begin to consider the content of your appeal as well as the original moderation decision. Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through the appropriate contact channel, moderation@arxiv.org.
+The appellate moderator will be sent your appeal and any correspondence related to the work, and will begin to consider the content of your appeal as well as the original moderation decision. Please be patient, as moderation appeals may be complicated and take some time. Appeals are handled in addition to the moderators’ daily duties, professional work, etc. Most appeals are resolved within a two week period, but some may take longer. If you have not heard from arXiv within two weeks of receiving the notification that your appeal has been received, please feel free to reach out to us for a status update through our [user support portal](https://arxiv.org/support/moderation_help).
 
 When a decision is made by the appellate moderators, you will receive a follow-up message from arXiv staff with the results of your appeal. 
 

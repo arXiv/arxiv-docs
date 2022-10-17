@@ -101,4 +101,6 @@ arXiv moderators are volunteer subject matter experts with terminal degrees in t
 
 Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 
-Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
+Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. 
+
+All communication about moderation decisions should be through our [user support portal](/support/moderation_help). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
