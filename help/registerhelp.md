@@ -20,7 +20,7 @@ likely to submit to. We will then verify the email for your account.
     reason, is possible grounds for immediate and permanent suspension.
 -   Each user may have only one registered arXiv account. If you are
     attempting to register a new account and are unsure if you already
-    have an account please contact [arXiv user supprt](https://arxiv.org/support) .
+    have an account please contact [arXiv user support](https://arxiv.org/support) .
 -   Users must comply with arXiv's [Code of conduct](/help/policies/code_of_conduct).
 
 #### Password
