@@ -42,14 +42,16 @@ Accepted submission formats
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](submit_tex)
 -   [PDF](submit_pdf)
--   [HTML with JPEG/PNG/GIF images](submit_html)
 
 Our goal is to store articles in formats that are highly portable and
 stable over time. Currently, the best choice is TeX/LaTeX. 
 
 We do not accept [dvi, PS, or PDF created
 from TeX/LaTeX source](/help/faq/whytex), and we
-do not accept scanned documents, regardless of format.
+do not accept scanned documents, regardless of format. We no longer accept full text HTML.
+
+Please see [submitting a conference index](submit_index) for information on submitting an
+index for a conference proceedings in HTML format.
 
 <span id="figures"></span>
 
