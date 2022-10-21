@@ -4,7 +4,7 @@ steps:
     args:
       - "-c"
       - |
-        ./prep_for_mkdocs.sh
+        pip install -r mkdocs-requirements.txt
         mkdocs build
 
   - name: 'gcr.io/cloud-builders/gsutil'
