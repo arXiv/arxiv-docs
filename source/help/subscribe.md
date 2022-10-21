@@ -7,7 +7,7 @@ follows. Note that the email must be sent as **plain text**. Richtext format
 emails will be ignored by the system.
 
 1.  Determine which archive is of interest to you, and obtain its e-mail
-    address from the [list of available archives](None).
+    address from the [list of available archives](https://arxiv.org/category_taxonomy)
 
 2.  **For archives divided into subject classes:**  
     If the archive to which you are subscribing requires distinct

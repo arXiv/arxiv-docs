@@ -3,7 +3,7 @@ arXiv Business Model White Paper
 
 Cornell University Library  
 January 15, 2010; last updated August 5, 2010  
-See also: [arXiv Support](../../help/support.md) and [FAQ](None)  
+See also: [arXiv Support](../../help/support.md) and [FAQ](../../help/faq/index.md)
 Contact: support@arxiv.org
 
 ## 1. Introduction

@@ -36,7 +36,7 @@ applications are welcome, and subscription is freely accessible over the
 internet to all members of the scientific community. Instructions for
 registration, submission and subscription to the archive can be found at
 [http://arxiv.org/help/registerhelp](../help/registerhelp.md),
-[http://arxiv.org/help/uploads](None), and
+[http://arxiv.org/help/uploads](http://arxiv.org/help/uploads), and
 [http://arxiv.org/help/subscribe](../help/subscribe.md).
 
 The q-fin archive has grown out of a well-established series of e-print

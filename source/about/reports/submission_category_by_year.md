@@ -2,7 +2,7 @@
 
 _See more [arXiv in Numbers 2020](2020_usage.md) and [Usage stats](None)_
 
-The following tables show submissions to arXiv by [category](None). Explore different views of the data by toggling between sheets.
+The following tables show submissions to arXiv by [category](https://arxiv.org/category_taxonomy). Explore different views of the data by toggling between sheets.
 
 <script type='text/javascript' src='https://tableau.cornell.edu/javascripts/api/viz_v1.js'></script>
 <div class='tableauPlaceholder' style='width: 842px; height: 630px; border: 1px solid gray;'>

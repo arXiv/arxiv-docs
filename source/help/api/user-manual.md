@@ -978,5 +978,5 @@ Feed](#atom_feed_outline).
 ### 5.3. Subject Classifications
 
 For the complete list of arXiv subject classifications, please visit the 
-[taxonomy](None) page. 
+[taxonomy](https://arxiv.org/category_taxonomy) page. 
 

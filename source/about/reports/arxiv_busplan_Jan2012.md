@@ -66,7 +66,7 @@ arXiv is available here: [CY2010 expenses and
 revenues](http://tinyurl.com/3wu56ur), [CY2011 expenses and
 revenues](http://tinyurl.com/7qvkt4n).
 
-We have a [budget estimate for 2012](None) up on
+We have a [budget estimate for 2012](2012_CY_arXiv_budget.pdf) up on
 the arXiv website. You will notice that the annual expenses have
 increased due to our need to add a new user support person and a
 half-time programmer. We have just completed performing an analysis of

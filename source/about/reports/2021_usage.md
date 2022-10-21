@@ -14,5 +14,5 @@ Here, you can find information about arXiv usage in terms of submissions and dow
 [Our institutional members](../../about/ourmembers.md) support arXiv because they understand the value of arXiv to their academic communities. Submissions are representative of that value.
 Submissions by Institution (2021) are available to active members only. 
 
-Not a member yet? Learn more about [becoming an institutional member](../../about/membership.md). Questions or suggestions? Email [membership@arXiv.org](None).
+Not a member yet? Learn more about [becoming an institutional member](../../about/membership.md). Questions or suggestions? Email [membership@arXiv.org](mailto:membership@arXiv.org).
 

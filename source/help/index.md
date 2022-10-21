@@ -15,7 +15,7 @@ slug: Help
 - [Find an Article](find.md)
 - [Viewing Articles](view.md)
 - [Configuring Your Browser for Downloads](config_browser.md)
-- [Cookie Configuration](None)
+- [Cookie Configuration](https://arxiv.org/cookies)
 - [Utilities (tar, gzip, etc.)](utilities.md)
 - [Gzipped files](gzip.md)
 - [Web Accessibility Assistance](web_accessibility.md)

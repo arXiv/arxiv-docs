@@ -11,7 +11,7 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 ## News
 
 - [arXiv Reports](reports/index.md)
-- [Usage Stats](None)
+- [Usage Stats](https://stats/main)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
 - [arXiv Twitter](https://twitter.com/arxiv)
 

@@ -70,7 +70,7 @@ this year.
 
 As a part of our initiative, we are making an effort to closely monitor
 and document expenses associated with running arXiv. The [2011
-budget](None) includes an in-kind contributions
+budget](2011_CY_arXiv_budget.pdf) includes an in-kind contributions
 category to factor in a range of undocumented costs, such as indirect
 expenses associated with housing arXiv at Cornell.
 

@@ -19,7 +19,7 @@ groups.
 As described in the [arXiv business model white
 paper](whitepaper.md), our target for CY2010 was $100,000 and
 we now anticipate reaching our CY 2012 contribution goal by the end of
-this year. The [CY2010 budget](None) reflects the
+this year. The [CY2010 budget](2010_CY_arXiv_budget.pdf) reflects the
 current staffing configuration and anticipated computer and staffing
 expenses for calendar year 2010. We will post the actual calendar year
 2010 spending at the end of the year. We are working on developing a

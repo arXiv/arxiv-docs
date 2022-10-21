@@ -251,7 +251,7 @@ cross-lists to other categories. The categories control what mailings an
 article is announced in, and also provide a way to limit searches to
 subsets of arXiv.
 
-Please carefully review the [descriptions of categories](None) to find the best fit.
+Please carefully review the [descriptions of categories](https://arxiv.org/category_taxonomy) to find the best fit.
 
 
 <span id="journal"></span>
