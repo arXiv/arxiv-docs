@@ -1,0 +1,9 @@
+\long\def\@makecaption#1#2{%
+   \vskip 10\p@
+   \setbox\@tempboxa\hbox{#1: #2}%
+   \ifdim \wd\@tempboxa >\hsize
+       \unhbox\@tempboxa\par
+     \else
+       \hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+   \fi}
+

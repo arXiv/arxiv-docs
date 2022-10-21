@@ -1,0 +1,164 @@
+From: ginsparg@qfwfq.lanl.gov
+Date: Tue Oct 25 12:53:13 1994
+To: hypertex@snorri.chem.washington.edu
+Subject: comments on pdf
+Cc: rokicki@CS.Stanford.EDU
+
+a number of people have been asking about adobe's pdf, so i assembled a few 
+comments from recent experiences here (much of the below comes via doyle 
+[doyle@mmm.lanl.gov , who modified dvips to pick up the hyperdvi specials --
+a version will be made public fairly soon, along with dvipsk] and tanmoy 
+[tanmoy@qcd.lanl.gov , who valiantly joined the battle against the pc's]).
+if the dvips modifications meet tom rokicki's standards, perhaps we can
+even get them included in the official distribution.
+
+comments below meant for more general audience, so excuse some redundancy
+(and remember any opinions below are barely mine alone, not meant to represent
+official lanl or gov't policy):
+
+------------------------------------------------------------------
+
+> I am starting an evaluation of PDF for use by ...
+> Do you have comments or complaints?
+> Recent traffic on the HyperTeX list suggests you may be thinking of
+> settling on this as a standard output format. Is this impression correct?
+
+experiences so far are mixed. 
+a year ago when we first saw pdf demoed, looked promising
+(i.e. to have an operation like adobe with a known track record [postscript]
+take on the task of insuring compatibility across platforms [mac/pc/unix]
+for the browsers). seemed useful to be able to hyperlink, though
+it was all manual and menu-based and we didn't see the point of future armies
+of "typesetters" manually composing hyperlink overlays, especially when for our
+purposes (i.e. physicists and mathematicians using tex), all the contextual 
+info was *already* in the .tex source -- was just being lost in the process of 
+conversion to printed format.  moment's relection suggested passing the info
+out of .tex via \special's and then just matter of time before fixing standard
+and getting some dvi browsers modified (arthur smith maintains the xhdvi for X
+and dmitri linde did the first modifications of texview.app for nextstep)
+to facilitate macro development last spring and early summer.
+was reassuring to see how well it worked instantly for pre-existing tex source
+(i.e. all eqns, figs, refs, secs, etc. become automatically hyperlinked)
+and many people are now also running papers from the archives automatically 
+through processor that pattern matches e.g. archive/9401001 into network 
+hyperlinks when appearing anywhere in text.
+(see e.g. http://xxx.lanl.gov/hypertex/ for more info).
+also popular is the middle click option that brings up a separate smaller
+window with just an equation or reference (as originally pushed for by wati 
+taylor -- implemented in asmith's xhdvi by spawning additional xhdvi processes,
+to be implemented in hypertexview.app via additional windows.
+forwarded actual user [risc/6000] comment:
+ >Date: Wed, 19 Oct 1994 22:50:19 -0500
+ >Subject: hypertex
+ >
+ > It's great!!!!!!!!!!!!!!!!
+ >It's almost 11 and I am still here (without lunch) playing with it.The
+ >little window with the equations is so cute . Being able to preview
+ >papers and the references therein at the same time just by clicking
+ >that is real power.
+
+now all of the above works best with the hyperdvi previewers at present.
+the current "dvipdf driver" that passes the hyperlink overlay
+to pdf is actually a modified dvips that understands the info in the dvi file,
+and converts to "pdfmarks" in the .ps file that are understood by
+adobe's ps -> pdf distiller. but the adobe acroexchange browsers don't yet work
+as well in many ways as the hyperdvi browsers (which were relatively
+straightforward for X and for nextstep (i.e. the rapid single person efforts by
+smith and linde [with help from andy cohen to patch in the in-line postscript
+support to xhdvi from the upgraded xdvi; and dmitri before peremptorily
+running off for his sophomore year at caltech kindly passed the
+hypertexview.app source code to doyle for further development]).
+
+one problem with the multiplatform acroexchanges is that adobe has done 
+an uninspired port of the windoze version to mac and unix so all interfaces 
+are basically pulled down to the lowest conceivable level of gui .
+
+another problem is that there's some bizarre way they're emulating display
+postscript so that pages with bitmapped fonts can take 10 sec or longer
+to image (even on a real machine) -- this problem goes away if one uses
+PostScript fonts (i.e. type I with all the scaling data) so that's what
+we've been using instead of the standard bitmapped computer moderns (e.g.
+CMR10 instead of cmr10), but not everyone has those fonts, and it's foolish 
+to perpetuate the current folly of transmitting fonts as inclusions in .ps
+files (a gruesome artifact of the way people used to send files to
+postscript printers, with no place in efficient network document transmission).
+moreover we're not sure that postscript versions even exist
+for example for the full set of ams fonts. (there was as well a nasty
+problem getting the new adobe type manager to recognize the bluesky
+postscript versions of the computer modern fonts -- not a problem with the
+previous type manager on same fonts so not clear where current problem
+lies, but just an indication of the primitive current state of affairs, and
+the headaches one is guaranteed to encounter in any semi-serious application.)
+
+yet another problem is that the conversion from hyperdvi to pdf is "lossy" in
+the sense that pdf only allows "view" information in a link (i.e. position
+on page + magnification) whereas the hyperdvi still contains the contextual
+info (e.g. equation.2.4, subsection.5.3) so that for example any third
+party can trivially refer to a specific point within, 
+http://xxx.lanl.gov/path/paper.dvi#equation.2.4 , without having to know
+anything about how it was produced (except of course that it was texed
+with the hyperbasics macros, already ported to most standard latex styles
+and some other plain tex packages, without changing underlying tex source
+of paper itself). in the postscript file one can at least append a table that
+encodes this information, to be picked up by a suitably modified postscript
+previewer, but it is lost in the distillation to pdf.
+(*it would have been more impressive had adobe foreseen the crucial need to
+facilitate passing this sort of information.*)
+
+and another problem has been adobe's slowness to incorporate full network
+hyperlinks (many people, both here and at lanl, have been lobbying for this
+for past year. one problem is the primitive state of in/out messaging to
+current generation of www clients and lack of standardization even for such
+things as passing base url's. some of us have also been lobbying ncsa, w3
+consortium, et al. to get that situation under control) -- there remains
+an unfortunate dichotomy between the people who understand serious
+typesetting and the people interested in serious networking.
+it seems that adobe's current public domain readers do not have any promised
+network url plug-in included, which leaves them unacceptably crippled from 
+anyone's point of view.
+
+with the modified dvips in hand, most of the above problems can easily be
+solved just by modifying standard ps previewers (e.g. ghostview, which
+someone may soon start) to as well pick up the pdfmarks and hyperlink
+(quite simple, now that the standard is in place). then we're no longer
+so dependent on adobe to produce a high quality browser, but on the other
+hand have to rely on volunteer operations across all the different platforms
+so it could be just as slow. (but it doesn't really matter from standpoint
+of underlying format since we'll be remaining in an intercompatibility range
+for the various levels of browsing, from .dvi to .ps to .pdf)
+
+some other things arguing for adobe's acrobat viewers in the long term are
+a) text searching (and indexing), they have reasonable algorithms for
+ finding all the word breaks, etc. (though i was disappointed that they
+ *still* don't find ligatures [e.g. ff or fi as one char] even in their own 
+ fonts)
+b) they have ocr software that does a good job on overall page markup
+ including retaining font info, and converts to pdf with in-line bitmaps for
+ anything it isn't sure of (though when i last looked at it in april it seemed
+ to make too many identification errors, especially in things like subscripts
+ effectively scanned at lower resolution, to be immediately useful).
+ but that means that one could conceivably have a unified manner of treating
+ future and archival databases 
+c) adobe has recently joined the cilabs opendocs standard, so will fit well
+ both as an inclusion (and includer) of the full range of "multi-media"
+ being supported there (as well across all platforms), so as a group
+ they could ultimately guarantee a high level of support.
+
+
+
+                              <a href="http://xxx.lanl.gov/pg.html">pg</a>
+
+
+
+p.s. in all of these things, however, we quickly learn how irrelevant we
+(i.e. physics and mathematics communities) are in the overall scale of things.
+while enjoying an opendoc demo, for example, i naively asked to whom the
+equation editors, etc., were likely directed -- i.e. physicists and
+mathematicians writing or reading papers? "no, absolutely not," 
+was the response, "who cares about them? this is primarily for real markets
+such as for high school and college textbooks."
+then the really depressing part: "and think how much easier it will be: 
+used to be so painful to learn something like differentiation
+or integration, now you can just click on the equation and it gets
+done automatically..."
+

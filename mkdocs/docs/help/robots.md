@@ -27,7 +27,7 @@ ignorant of common sense
 
 Following the de-facto [standard for robot
 exclusion](http://www.robotstxt.org/orig.html), this site has maintained
-since early 1994 a file /[robots.txt](/robots.txt) that specifies those
+since early 1994 a file /[robots.txt](https://arxiv.org/robots.txt) that specifies those
 URL's that are off-limits to robots (and this "Robots Beware" page was
 originally posted March 1994).
 

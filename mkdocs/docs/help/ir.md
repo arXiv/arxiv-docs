@@ -33,7 +33,7 @@ Obtaining permission from the article authors may not be necessary if:
 
 ### Procedure
 
-We will consider the article [arXiv:1410.6579](/abs/1410.6579) as an
+We will consider the article [arXiv:1410.6579](https://arxiv.org/abs/1410.6579) as an
 example.
 
 #### Step 1 - Get metadata
@@ -82,7 +82,7 @@ URI to download it is:
 
 In all cases links to the processed and the source files (where the
 submission is in TeX format) are provided on the normal abstract page
-(e.g. [arXiv:1306.1073](/abs/1306.1073)), they may also be constructed
+(e.g. [arXiv:1306.1073](https://arxiv.org/abs/1306.1073)), they may also be constructed
 from the article identifier.
 
 -   PDF: <http://arxiv.org/pdf/1306.1073>
@@ -125,7 +125,7 @@ article ownership and ORCID iD linkage.
 
 ### Example
 
-Consider the article [arXiv:1505.00009](/abs/1505.00009) which was
+Consider the article [arXiv:1505.00009](https://arxiv.org/abs/1505.00009) which was
 submitted by first author Jonathan Heckman. Ownership was later claimed
 by co-author David R. Morrison who has also associated his ORCID iD with
 his arXiv account. If staff at UC Santa Barbara (UCSB), where David R.

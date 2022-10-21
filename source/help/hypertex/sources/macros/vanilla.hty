@@ -1,0 +1,8 @@
+\let\hypernoname=\relax
+\def\footnote@@"#1"#2{\makefootnote@{\hyperdef\hypernoname{footnote}{#1}%
+                      {#1}}{#2}\hyperref\hypernoname{#1}\@sf\relax}
+\def\footnote@@@#1{{${\number\footmarkcount@}$}\makefootnote@
+   {\hyperdef\hypernoname{footnote}{\number\foormarkcount}%
+   {${\number\footmarkcount@}$}}{#1}%
+   \hyperref\hypernoname{\number\footmarkcount}%
+   \global\advance\footmarkcount@ by 1 }

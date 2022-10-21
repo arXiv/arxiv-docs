@@ -3,7 +3,7 @@ Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, review [help](/help) and [FAQ](/help/faq). If you require further assistance, contact us at help@arxiv.org. 
+If you have questions about paper submission, accounts, and use of arXiv, review [help](/help/index) and [FAQ](/help/faq). If you require further assistance, contact us at help@arxiv.org. 
 
 Note that arXiv help and moderation email addresses are monitored between 0900-1700 EST/EDT, Monday through Friday, subject to administrator availability and the holiday schedule.
 

@@ -74,7 +74,7 @@ Identifiers up to March 2007 (9107-0703)
 
 Identifiers from 1991 through 2007-03 followed the form shown in the
 image below. The full list of groups, archives and subject classes is
-listed on the [front page](/):
+listed on the [front page](https://arxiv.org):
 
 ![Each article identifier begins with an archive, such as 'astro-ph' or
 'hep-ex'. Optionally, this is followed by a period and a subject class.

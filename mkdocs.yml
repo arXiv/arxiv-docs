@@ -1,0 +1,48 @@
+site_name: arXiv docs
+
+docs_dir: source
+
+# Prevents default mkdocs behavior of linking to /help instead of /help/index.html
+use_directory_urls: false
+
+plugins:
+  - search
+  # Redirects only work with the mkdocs serve, not at docs.arxiv.org
+  - redirects:
+      redirect_maps:
+        'hypertex/bugs.md': 'help/hypertex/bugs.md'
+        'hypertex/extensions.md': 'help/hypertex/extensions.md'
+        'hypertex/index.md': 'help/hypertex/index.md'
+        'help/scientific_ad_board.md': '/about/people/scientific_ad_board.md'
+        'new/stat.md': '/help/statistics.md'
+        'help/submission-policy.md': '/help/policies/instructions_for_submission.md'
+        'help/support.md': '/about/governance.md'
+        'help/terms_of_submission.md': '/help/policies/instructions_for_submission.md'
+        'help/toc.md': '/help.md'
+        'help/primer.md': '/about.md'
+        'help/general.md': '/about.md'
+        'help/submit_html.md': '/help/submit_index.md'
+        'help/donate.md': '/about/donate.md'
+        'help/announcement.md': '/new/econ.md'
+        'new/physics.md': '/help/physics.md'
+        'new/q-bio.md': '/help/q-bio.md'
+        'new/econ.md': '/new/econ_announce.md'
+        'help/econ/announcement.md': '/new/econ_announce.md'
+        'help/q-fin/announcement.md': '/new/q-fin_announce.md'
+        'help/eess/announcement.md': '/new/eess_announce.md'
+        'hypertex/extensions.md': '/help/hypertex/extensions.md'
+        'hypertex/bugs.md': '/help/hypertex/bugs.md'
+        'corr/home.md': '/corr/index.md'
+        'hypertex/index.md': '/help/hypertex.md'
+        'corr/subjectclasses.md': '/archive/cs.md'
+        'corr/advisorycommittee.md': 'corr/index.md'
+theme:
+  name: material
+  logo: assets/arxiv-logomark-small.svg
+  custom_dir: overrides
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: GitHub
+repo_url: https://github.com/arXiv/arxiv-docs
+edit_uri: blob/master/mkdocs/docs

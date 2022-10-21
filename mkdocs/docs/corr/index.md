@@ -1,4 +1,4 @@
-### Welcome to the Computing Research Repository (CoRR)
+# Welcome to the Computing Research Repository (CoRR)
 
 Welcome to the Computing Research Repository (CoRR) in arXiv. The Computer Science section of arXiv was established in 1998 through a partnership of the Association for Computing Machinery, the Networked Computer Science Technical Reference Library, and arXiv.
 

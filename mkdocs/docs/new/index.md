@@ -2,7 +2,7 @@
 title: arXiv News and Announcements
 ---
 
-What's been New on the [arXiv.org](/) e-print archives
+What's been New on the [arXiv.org](https://arxiv.org) e-print archives
 ======================================================
 
 (Announcements since Summer 1996. See also more haphazard collections of messages from [1994-1996](/new/94-96) and [1991-1994](/new/91-94).)
@@ -592,7 +592,7 @@ For more information, see the complete list of [q-fin subcategory descriptions](
 
 6 Dec 2012
 
-The [Nonlinear Sciences (nlin)](/archive/nlin) archive has been reorganized within the physics group. This means that nlin appears within physics on the arXiv [home page](/), in [search](/find), in [catchup](http://arxiv.org/catchup/grp_physics) and in the submission interfaces. Users who had the nlin group selected for submission now have the physics group selected. Existing [alert subscriptions](/help/subscribe#physics) are unaffected but it is now also possible to subscribe to nlin through physics.
+The [Nonlinear Sciences (nlin)](https://arxiv.org/archive/nlin) archive has been reorganized within the physics group. This means that nlin appears within physics on the arXiv [home page](https://arxiv.org), in [search](https://arxiv.org/find), in [catchup](http://arxiv.org/catchup/grp_physics) and in the submission interfaces. Users who had the nlin group selected for submission now have the physics group selected. Existing [alert subscriptions](/help/subscribe#physics) are unaffected but it is now also possible to subscribe to nlin through physics.
 
 #### Oct 2012
 
@@ -832,7 +832,7 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 **Hardware and Software Upgrades:** Over the weekend of 1/2 Feb 2008 we moved arXiv to new hardware. This should allow us to keep up with the ever increasing traffic and make several improvements. One is that we now have a cache large enough to store processed PDF versions for all papers -- there should be far fewer "...processing..." responses. We have also put online several software improvements including:
 
 *   arXiv now accepts [submissions in DOCX/OOXML format](/help/submit_docx) (from Word 2007 and other OOXML compliant applications).
-*   We have implemented version control for papers submitted prior to November 1997 in the same way as for papers submitted later. In many cases the earlier versions were not recorded and are marked as such in the comments (e.g. [arXiv:hep-th/9108006v1](/abs/hep-th/9108006v1)). However, in some cases the earlier versions are now available in the usual way (e.g. [arXiv:hep-th/9108019v1](/abs/hep-th/9108019v1)).
+*   We have implemented version control for papers submitted prior to November 1997 in the same way as for papers submitted later. In many cases the earlier versions were not recorded and are marked as such in the comments (e.g. [arXiv:hep-th/9108006v1](https://arxiv.org/abs/hep-th/9108006v1)). However, in some cases the earlier versions are now available in the usual way (e.g. [arXiv:hep-th/9108019v1](https://arxiv.org/abs/hep-th/9108019v1)).
 
 #### Nov 2007
 
@@ -859,7 +859,7 @@ There have been a number of upgrades to the arXiv interface and processing syste
 *   _arXiv now supports [PDFLaTeX](/help/submit_tex#pdflatex)._ TeX submissions may now include PDF, JPG, or PNG figures using the standard `\includegraphics` command from the `graphics` or `graphicx` packages.
 *   The article _[identifier system](/help/arxiv_identifier) has been updated_. The new scheme (which does not include subject information in the identifier) not only allows for a greater number of submissions each month, but it makes reclassification easier (old identifiers did not permit changes in primary classication after announcement). We also hope that the removal of optional subject-class information from the identifier will lead to more consistent citation and linking.
 *   To find a specific paper for which you know the identifier, you may now simply type or paste the identifier (e.g. `hep-th/0501001`, `0704.0001` or `arXiv:0704.0002`) into the _search box at the top of every arXiv page_. This facility replaces the "abs" links for each archive that used to be on the main page.
-*   The _abstract pages have been redesigned_ to more cleanly present the most important information (title, authors, abstract, etc.) and to allow more links to related services to be added in column on the right. See, for example, [arXiv:0704.1252](/abs/0704.1252)
+*   The _abstract pages have been redesigned_ to more cleanly present the most important information (title, authors, abstract, etc.) and to allow more links to related services to be added in column on the right. See, for example, [arXiv:0704.1252](https://arxiv.org/abs/0704.1252)
 *   The _Statistics archive_ was [introduced](/new/stat_announce) on 1 April 2007.
 *   The category `math.IT` was created as an alias for _Information Theory_ (`cs.IT`) so that these papers will show in both math and cs searches.
 
@@ -886,7 +886,7 @@ There have been a number of upgrades to the arXiv interface and processing syste
 
 1 Dec 2006
 
-**Change to arXiv identifiers:** The current form of arXiv identifiers (e.g. **`[arXiv:math.DG/0307245](/abs/math/0307245)`**) permits only 999 papers per month in any archive -- in October of this year we got to paper [989](/abs/math/0610989) in math, just 11 short of difficulty. We thus have an urgent need to extend the maximum number of submissions that can be handled in a month. We will certainly exceed 999 papers in some months for some archives next year.
+**Change to arXiv identifiers:** The current form of arXiv identifiers (e.g. **`[arXiv:math.DG/0307245](https://arxiv.org/abs/math/0307245)`**) permits only 999 papers per month in any archive -- in October of this year we got to paper [989](https://arxiv.org/abs/math/0610989) in math, just 11 short of difficulty. We thus have an urgent need to extend the maximum number of submissions that can be handled in a month. We will certainly exceed 999 papers in some months for some archives next year.
 
 To address this issue (and several others), we are going to change the format of identifiers for new papers starting in early 2007 (original 1 December announcement said 1 January 2007, since [postponed](#ids_2006)) to use the form **`arXiv:0706.0001`**.
 
@@ -910,17 +910,17 @@ arXiv.org moderator Terence Tao was also named a Fields Medalist. See [http://ww
 
 **Grisha Perelman's papers on arXiv.org:**
 
-**1\. math.DG/0307245** \[[abs](/abs/math.DG/0307245), [ps](/ps/math.DG/0307245), [pdf](/pdf/math.DG/0307245)\]:
+**1\. math.DG/0307245** \[[abs](https://arxiv.org/abs/math.DG/0307245), [ps](/ps/math.DG/0307245), [pdf](/pdf/math.DG/0307245)\]:
 
 Title: **Finite extinction time for the solutions to the Ricci flow on certain three-manifolds**  
 Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
 
-**2\. math.DG/0303109** \[[abs](/abs/math.DG/0303109), [ps](/ps/math.DG/0303109), [pdf](/pdf/math.DG/0303109)\]:
+**2\. math.DG/0303109** \[[abs](https://arxiv.org/abs/math.DG/0303109), [ps](/ps/math.DG/0303109), [pdf](/pdf/math.DG/0303109)\]:
 
 Title: **Ricci flow with surgery on three-manifolds**  
 Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  
 
-**3\. math.DG/0211159** \[[abs](/abs/math.DG/0211159), [ps](/ps/math.DG/0211159), [pdf](/pdf/math.DG/0211159)\]:
+**3\. math.DG/0211159** \[[abs](https://arxiv.org/abs/math.DG/0211159), [ps](/ps/math.DG/0211159), [pdf](/pdf/math.DG/0211159)\]:
 
 Title: **The entropy formula for the Ricci flow and its geometric applications**  
 Authors: **[Grisha Perelman](/find/math/1/au:+Perelman_G/0/1/0/all/0/1)**  

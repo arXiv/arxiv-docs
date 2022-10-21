@@ -1,0 +1,86 @@
+\def\revtex@pageid{\hyper@nique\hypernoname{footnote}{pageid}{}%
+\xdef\@thefnmark{\hyper@\hyperpr@ref\hypernoname{\null}}
+\@footnotetext{This \revtex@genre\space was prepared with the
+		   \revtex@org\space \LaTeX\ macros v\revtex@ver.}}
+\def\mathletters{%
+\let\hyper@s@veprotect\protect\let\hyper@s@vehbox\hbox
+\let\hyper@s@venormalsize\normalsize
+\def\protect{}\def\hbox##1{##1}\def\normalsize{}%
+\refstepcounter{equation}%
+\setcounter{cureqno}{\value{equation}}%
+\let\@curtheeqn\theequation%
+\let\hbox=\relax\let\normalsize=\relax\let\protect=\relax
+\edef\cur@eqn{\csname theequation\endcsname}%
+\def\theequation{\cur@eqn\alph{equation}}%
+\let\protect\hyper@s@veprotect\let\hbox\hyper@s@vehbox
+\let\normalsize\hyper@s@venormalsize
+\setcounter{equation}{0}}%
+
+\def\equation{$$% $$ BRACE MATCHING HACK
+\let\hyper@n@=\hyperdef
+\let\hyperdef=\hyper@nique
+\let\hyper@s@veprotect\protect\let\hyper@s@vehbox\hbox
+\let\hyper@s@venormalsize\normalsize
+\def\protect{}\def\hbox##1{##1}\def\normalsize{}%
+\refstepcounter{equation}%
+\let\protect\hyper@s@veprotect\let\hbox\hyper@s@vehbox
+\let\normalsize\hyper@s@venormalsize
+\let\hyperdef=\hyper@n@
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+\def\theequation{\hyper@eqmod
+ {\def\protect{}\def\hbox####1{####1}\def\normalsize{}%
+ \let\the\relax\let\number\relax%
+ \xdef\hyper@qn@@{\hyper@qn@}}%
+ \hyperdef\hypernoname{equation}{\hyper@qn@@}{\hyper@qn@}%
+ \let\hyper@qn@@=\relax}}
+\def\eqnarray{\stepcounter{equation}%
+\global\@eqnswtrue\m@th
+\global\@eqcnt\z@\tabskip\@centering\let\\\@eqncr
+\hyper@iffirst\hyper@eqmod\theequation
+{\let\theequation=\hyper@qn@}%
+{\let\hyper@qn@=\theequation}%
+{\def\protect{}\def\hbox##1{##1}\def\normalsize{}%
+ \let\the\relax\let\number\relax%
+ \xdef\hyper@qn@@{\hyper@qn@}}%
+\hyper@nique\hypernoname{equation}{\hyper@qn@@}{}%
+\let\hyper@qn@@=\relax%
+\edef\@currentlabel{%
+\hyper@\hyperpr@ref\hypernoname{\theequation}}%
+$$%
+\def\theequation{\hyper@eqmod
+ {\def\protect{}\def\hbox####1{####1}\def\normalsize{}%
+ \let\the\relax\let\number\relax%
+ \xdef\hyper@qn@@{\hyper@qn@}}%
+ \hyperdef\hypernoname{equation}{\hyper@qn@@}{\hyper@qn@}%
+ \let\hyper@qn@@=\relax}%
+\edef\@currentlabel{%
+\hyper@\hyperpr@ref\noexpand\hypernoname{\noexpand\hyper@qn@}}%
+\halign to\displaywidth\bgroup\@eqnsel\hskip\@centering
+  $\displaystyle\tabskip\z@{##}$&\global\@eqcnt\@ne
+  \hskip 2\arraycolsep \hfil${##}$\hfil
+  &\global\@eqcnt\tw@ \hskip 2\arraycolsep $\displaystyle\tabskip\z@{##}$\hfil
+   \tabskip\@centering&\llap{##}\tabskip\z@\cr}
+
+\def\eqnum#1{%
+    \let\hypers@veprotect\protect
+    \def\protect{}%
+    \edef\hyper@qn@{#1}%
+    \hyper@nique\hypernoname{equation}{\hyper@qn@}{}%
+    \edef\@currentlabel{\hyper@\hyperpr@ref\hypernoname
+	                {\hyper@qn@}}%
+    \let\protect\hypers@veprotect
+    \hyper@iffirst\hyper@eqmod\theequation
+    {\let\theequation=\hyper@qn@}%
+    {}%
+    \def\theequation{\hyper@eqmod
+    {\def\protect{}\def\hbox####1{####1}\def\normalsize{}%
+     \let\the\relax\let\number\relax%
+     \xdef\hyper@qn@@{\hyper@qn@}}%
+     \hyperdef\hypernoname{equation}{\hyper@qn@@}{\hyper@qn@}%
+     \let\hyper@qn@@=\relax}%
+    \addtocounter{equation}{\m@ne}}
+\let\astroncite=\relax
+\endinput
+%%% Leave this line in.

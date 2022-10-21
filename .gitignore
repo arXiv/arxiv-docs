@@ -110,3 +110,10 @@ idx_static/
 # Generated theme
 mkdocs/arxiv_doc_theme/main.html
 mkdocs/labs-site
+mkdocs/overrides
+
+overrides/main.html
+overrides/partials/footer.html
+
+#Mkdocs site
+site/

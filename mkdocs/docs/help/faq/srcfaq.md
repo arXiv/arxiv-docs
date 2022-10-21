@@ -25,4 +25,4 @@ files, and your browser [needs to be configured to handle
 this](/help/config_browser).
 
 Further information can be found in our *[Frequently Asked
-Questions](/help/faq)* pages.
+Questions](/help/faq/index.md)* pages.

@@ -1,23 +1,18 @@
-site_name: My Docs
-
-repo_name: GitHub
-repo_url: https://github.com/arXiv/arxiv-docs
-edit_uri: blob/master/mkdocs/docs
+site_name: arXiv docs
 
 # Prevents default mkdocs behavior of linking to /help instead of /help/index.html
-use_directory_urls: false
+# use_directory_urls: false
 
 plugins:
   - search
   
   # Allows linkes in MD to be absolute like (/help/index.md) but then get transformed to relative hrefs
-  - abs-to-rel
+  #- abs-to-rel
   
   # Allows use of {{ page.meta.revision_date }}
   - git-revision-date
 
   - macros
-  #- git-show-history-log
   - redirects:
       redirect_maps:
         'hypertex/bugs.md': 'help/hypertex/bugs.md'
@@ -25,9 +20,11 @@ plugins:
         'hypertex/index.md': 'help/hypertex/index.md'
 
 theme:
-  name: null
-  custom_dir: arxiv_doc_theme
-  include_search_page: true
+  name: material
+  logo: assets/arxiv-logomark-small.svg
+extra_css:
+  - stylesheets/extra.css
+
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs
 edit_uri: blob/master/mkdocs/docs
