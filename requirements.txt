@@ -37,7 +37,7 @@ nltk==3.5
 packaging==21.3
 pluggy==1.0.0
 py==1.11.0
-Pygments==2.7.2
+Pygments==2.7.4
 pymdown-extensions==8.0.1
 pyparsing==3.0.7
 pyrsistent==0.17.3
