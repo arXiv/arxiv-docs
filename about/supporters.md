@@ -97,5 +97,7 @@ aside {
 >1. Institute of Physics Publishing (UK)
 >1. NWO Dutch Reseach Council (Netherlands)
 
+## Silver Sponsors
+>1. Kepler Science, Inc. (USA)
 
 #
