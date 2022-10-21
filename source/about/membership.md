@@ -98,7 +98,7 @@ Is your institution a champion of open access and a thought leader in scholarly 
 
 <a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
 
-<a href="arXiv-payment-info.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
+<a href="arXiv-payment-info-2022.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
 
 <a href="donate" class="button-fancy">Pay by credit card <span> </span></a>
 

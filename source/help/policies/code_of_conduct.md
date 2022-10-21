@@ -36,7 +36,7 @@ If you have questions or concerns regarding the arXiv Code of Conduct please con
 - [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
 - [Licia Verde](mailto:liciaverde@icc.ub.edu), Chair of arXiv Scientific Advisory Board, or
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
-- [Cornell University Ombudsman](https://www.ombudsman.cornell.edu/)
+- [Cornell University Ombuds](https://ombuds.cornell.edu)
 
 In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
 

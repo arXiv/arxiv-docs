@@ -1,8 +1,8 @@
 # Our Supporters
 
-We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](None).
+We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](members).
 
-Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
+Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding) and contact us at membership@arXiv.org.
 
 <style>
 ol {
@@ -97,5 +97,7 @@ aside {
 >1. Institute of Physics Publishing (UK)
 >1. NWO Dutch Reseach Council (Netherlands)
 
+## Silver Sponsors
+>1. Kepler Science, Inc. (USA)
 
 #
