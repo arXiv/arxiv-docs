@@ -39,7 +39,7 @@ people:
     position: Technical Director
     thumbnail: images/charles.jpg
     bio: |
-      Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will shepherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from the Massachusetts Institute of Technology.
+      Charles is focused on helping ready arXiv for its next 30 years of stable support of open science and will shepherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from the Massachusetts Institute of Technology.
 
 ---
 
