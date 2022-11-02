@@ -15,5 +15,5 @@
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, Senior Content & User Support Specialist
-- Jonathan Young, Software Engineer
+- Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
