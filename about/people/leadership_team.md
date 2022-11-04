@@ -20,6 +20,12 @@ people:
     thumbnail: images/shamsi.jpg
     bio: |
       Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
+  stephanie:
+    name: Stephanie Orphan
+    position: Program Director
+    thumbnail: images/stephanie.jpg
+    bio: |
+      Stephanie’s role at arXiv spans administrative management, operational oversight, and implementation of arXiv’s short- and long-term strategic goals. She also serves as a liaison between arXiv, its advisors, and the international open access community. In her previous role at Portico, she served as director of content preservation and publisher relations, ensuring ongoing growth and sustainability. She holds an M.S. in library and information science from the University of Illinois at Urbana-Champaign.
   steinn:
     name: Steinn Sigurdsson
     position: Scientific Director
@@ -54,6 +60,9 @@ $jinja {{ render_person(people.charles) }} jinja$
 $jinja {{ render_person(people.alison) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
 $jinja {{ render_columns_open() }} jinja$
+$jinja {{ render_person(people.stephanie) }} jinja$
 $jinja {{ render_person(people.steinn) }} jinja$
+$jinja {{ render_columns_closed() }} jinja$
+$jinja {{ render_columns_open() }} jinja$
 $jinja {{ render_person(people.ramin) }} jinja$
 $jinja {{ render_columns_closed() }} jinja$
