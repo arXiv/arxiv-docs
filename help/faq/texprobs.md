@@ -110,6 +110,7 @@ of these same features. Consult [the package documentation](https://ctan.org/pkg
     
   - <span id="missing_fonts"></span>**Figures with missing fonts, or other missing glyphs 
     in pdf viewer** 
+    
     arXiv recommends using the `lmodern` font package (Latin Modern Roman) if you notice 
     missing glyphs within your pdf output. There are instances with missing glyphs within
     math of `.pdf` figure files that seem to be ameliorated by using this font package. 
