@@ -10,6 +10,7 @@ submission replaced to correct the problems.
   - [Fuzzy fonts in PDF](#fuzzy_pdf)
   - [PostScript figures lose quality in the arXiv-generated
     PDF](#distiller_params)
+  - [Figures with missing fonts, or other missing glyphs in the pdf viewer](#missing_fonts)
   - [Extra white space around figures covers up some of the
     text](#powerpoint)
   - [Why don't the labels for my figures appear when I use
@@ -92,7 +93,7 @@ of these same features. Consult [the package documentation](https://ctan.org/pkg
     problems can only be spotted by careful visual inspection, something
     which cannot be expected from arXiv admins and instead has to be
     performed by the author(s).
-    
+  
     Here are some pointers to entries in the TeX FAQ that address this
     issue:
     
@@ -107,7 +108,18 @@ of these same features. Consult [the package documentation](https://ctan.org/pkg
       - [Weird characters in dvips
         output](http://www.tex.ac.uk/cgi-bin/texfaq2html?label=charshift)
     
-      
+  - <span id="missing_fonts"></span>**Figures with missing fonts, or other missing glyphs 
+    in pdf viewer** 
+    arXiv recommends using the `lmodern` font package (Latin Modern Roman) if you notice 
+    missing glyphs within your pdf output. There are instances with missing glyphs within
+    math of `.pdf` figure files that seem to be ameliorated by using this font package. 
+    
+    Very occasionally it may be necessary to add the line: 
+    ```tex
+    \pdfinclusioncopyfonts=1  
+    ```
+    to your preamble in order to have the fonts correctly embed. More details on this topic
+    are available in the [online texfaq page](https://texfaq.org/FAQ-pdf-fig-chars).
 
   - <span id="distiller_params"></span>**PostScript figures lose quality
     in the arXiv-generated PDF**  
