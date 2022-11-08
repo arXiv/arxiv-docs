@@ -11,7 +11,9 @@
 - Noga Ginzburg, Special Projects Lead
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
+- Stephanie Orphan, Program Director
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, Senior Content & User Support Specialist
+- Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
