@@ -4,6 +4,7 @@ ingressPaths:
   - "/help"
   - "/hypertex"
   - "/labs"
+  - "/brand"
 
 # These values are suitable for dev/staging purposes. It may be advisable to
 # increase these as needed, especially if increasing ``UWSGI_PROCESSES`` env

@@ -1,9 +1,0 @@
-site_name: My Docs
-plugins:
-  - search
-  - macros
-theme:
-  name: null
-  custom_dir: arxiv_doc_theme
-  include_search_page: true
-

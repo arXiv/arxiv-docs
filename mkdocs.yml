@@ -1,0 +1,20 @@
+site_name: arXiv docs
+
+docs_dir: source
+
+# Forces links in the format /help/index.html instead of mkdocs default of /help
+# This allows us serve as totally static with no support from a web server
+use_directory_urls: false
+
+plugins:
+  - search
+theme:
+  name: material
+  logo: assets/arxiv-logomark-small.svg
+  custom_dir: overrides
+extra_css:
+  - stylesheets/extra.css
+
+repo_name: GitHub
+repo_url: https://github.com/arXiv/arxiv-docs
+edit_uri: blob/master/mkdocs/docs

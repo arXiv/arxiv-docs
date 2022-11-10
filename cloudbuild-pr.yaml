@@ -1,0 +1,12 @@
+
+steps:
+  - name: 'python:3.9-bullseye'
+    entrypoint: 'bash'
+    args:
+      - "-c"
+      - |
+        pip install -r mkdocs-requirements.txt
+        mkdocs build
+
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['cp', '-r', 'site/*', 'gs://arxiv-docs-prs/$BRANCH_NAME/']
