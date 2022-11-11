@@ -14,7 +14,9 @@ theme:
   custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
-
+markdown_extensions:
+  - attr_list
+  
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs
 edit_uri: blob/master/mkdocs/docs
