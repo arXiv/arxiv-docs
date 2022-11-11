@@ -4,12 +4,27 @@
   --md-primary-fg-color--dark:  #6b6459;
 }
 p { font-size: .9em; }
+.md-typeset hr { margin: 1em 0 !important; }
+h2 { margin-top: 1em !important; }
+blockquote {
+  margin: 0 !important;
+  padding: 1em !important;
+  border-left: 0 !important;
+  color: black !important;
+  background: #f9f7f7 !important;
+}
+@media (min-width: 576px) {
+  blockquote {
+    padding: 2em;
+  }
+}
+
 
 /*classes for Images*/
 .mkd-img-border {
   margin:1em 0px;
   padding:10px;
-  border:.25em sol.mkd-ordered-listid #ededed;
+  border: solid .25em #ededed;
 }
 .mkd-horz-spacing {
   margin-right:1em;
