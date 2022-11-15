@@ -9,7 +9,7 @@
 ##The purpose of these guidelines
 Using our logo consistently is important to present a unified message to the world about who weare. That message is:
 
-> *arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.
+> **arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
 
 Unauthorized use of our logo causes confusion about who we are. And when it’s use isauthorized it’s just as important that we follow consistent guidelines to preserve the legibility,memorability, and legal defensibility that we need.
 
