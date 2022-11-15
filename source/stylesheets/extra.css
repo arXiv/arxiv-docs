@@ -28,7 +28,6 @@ a.button-reg {
 }
 
 
-
 a.button-reg:hover {
   background-color: #a5d6fe;
 }
@@ -142,7 +141,7 @@ a.button-large:hover {
   display:block;
   margin:1em auto 0 auto;
 }
-.mkd-ordered-list-blocks ol li em, .mkd-ordered-list-blocks ol li strong, .mkd-ordered-list-blocks ol li h2 { {
+.mkd-ordered-list-blocks ol li em, .mkd-ordered-list-blocks ol li strong, .mkd-ordered-list-blocks ol li h3 {
   display: contents;
 }
 @media (min-width: 576px) {

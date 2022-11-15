@@ -2,10 +2,9 @@
 
 arXiv's Scientific Advisory Board is composed of scientists and researchers in disciplines covered by arXiv. The Board provides advice and guidance pertaining to the repository's intellectual oversight, with a particular focus on the policies and operation of arXiv's moderation system. The Board is governed by [Bylaws](../../about/sab_bylaws.md) that detail its duties, composition, and operation as well as the election of its members.
 
-<div class="grid-blocks" markdown="1">
-
 ## Current Board Members
 
+<div class="grid-blocks" markdown="1">
 <div class="block" markdown="1">
 
 ### Sara Del Valle
@@ -67,6 +66,7 @@ Professor, Carnegie Mellon University (chair of Statistics Advisory Committee)
 <div class="block" markdown="1">
 ### Ralph Wijers (**Chair**)
 Professor, University of Amsterdam (ex officio, as chair of Physics Advisory Committee)
+
 </div>
 </div>
 

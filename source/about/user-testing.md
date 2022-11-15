@@ -1,25 +1,8 @@
-Join arXiv's User Testing group
-===========================
+#User Experience Testing and Feedback
 
-<style>
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-</style>
+From time to time arXiv sends out surveys, previews to new changes, invitations to be interviewed, and other testing opportunities to interested users. If you would like to join our user experience mailing list, fill out the form below. User experience is integral to arXiv's development process and we welcome your feedback.
 
-From time to time arXiv sends out surveys, previews to new changes, and other testing opportunities to interested users. If you would like to join our user testing group, fill out the form below. User testing is integral to arXiv's development process and we welcome your feedback.
-
-We use this list only for user testing communications and never spam or share your information.
+We collect your contact information only for user experience-related communications and never spam or share your details.
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -31,11 +14,9 @@ We use this list only for user testing communications and never spam or share yo
     #mc_embed_signup{max-width:75%; margin:0 auto;}
   }
 </style>
-> <div id="mc_embed_signup">
-> <h3>Join arXiv's user testing group</h3>
->
->
-> <form action="https://arxiv.us4.list-manage.com/subscribe/post?u=31c4aaf571c921df1fb50adee&amp;id=7cd72795aa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<div id="mc_embed_signup">
+<h3>Join the mailing list to provide feedback and help test new user features</h3>
+<form action="https://arxiv.us4.list-manage.com/subscribe/post?u=31c4aaf571c921df1fb50adee&amp;id=7cd72795aa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mkd-border" target="_blank" novalidate>
 <div id="mc_embed_signup_scroll">
 <div class="mc-field-group">
 <label for="mce-EMAIL">Email Address *</label>
