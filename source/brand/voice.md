@@ -25,7 +25,7 @@ arXiv’s tone is used to communicate our personality and can be described as co
 Communicating with consistent language and grammar is important to clearly reflect our professionalism.
 
 ##How we describe arXiv
-We communicate these messages in an approachable, open, and professional manner. Specifically, we cater to our diverse research community of readers, authors, and librarians at all career stages. We use clear language, we take concerns seriously, and we never minimize anyone’s struggles. Additionally, we honor and reinforce community connections by frequently quoting diverse and influential members of the arXiv community.
+We communicate these messages in an approachable, open, and professional manner. Specifically, we cater to our diverse research community of readers, authors, and librarians at all career stages. We use clear language, we take concerns seriously, and we never minimize anyone’s struggles. Additionally, we honor and highlight connections with our many stakeholders by frequently quoting diverse members of the extended arXiv community.
 
 ###One Liner
 arXiv is a curated research-sharing platform that empowers people around the world to read and contribute cutting edge work quickly in an open access environment.
@@ -33,5 +33,6 @@ arXiv is a curated research-sharing platform that empowers people around the wor
 ###Our relationship with Cornell Tech
 arXiv is organized exclusively for educational and scientific purposes. It is part of Cornell University and reports organizationally to the Dean of Cornell Tech, who acts as arXiv’s steward.
 
-> “I am honored to serve as the Cornell steward for arXiv because I so firmly believe in the mission: to serve science by making sharing of papers open, fast, reliable, and sustainable.”
+> **“I am honored to serve as the Cornell steward for arXiv because I so firmly believe in the mission: to serve science by making sharing of papers open, fast, reliable, and sustainable.”**
+>
 > —Dr. Greg Morrisett, Dean of Cornell Tech

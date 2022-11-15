@@ -1,113 +1,32 @@
 #Images
-<style>
-.divider {
-  clear:both;
-  height: 4em;
-}
-.mkd-img-border {
-  margin:1em 0px;
-  padding:10px;
-  border:.25em solid #ededed;
-}
-.mkd-horz-spacing {
-  margin-right:1em;
-  margin-left:1em;
-}
-.mkd-img-left {
-  float:left;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-right {
-  float:right;
-  width:100%;
-  margin-top:0;
-}
-.mkd-img-full {
-  width:100% !important;
-}
-.mkd-img-60 {
-  width:100% !important;
-  margin:0 auto;
-  display:block;
-}
-.mkd-img-quad {
-  width:calc(50% - 1em);
-  margin:0 .25em;
-  display:block;
-  float:left;
-}
-.mkd-img-thumb {
-  max-width:150px !important;
-}
-.mkd-img-icon {
-  border-radius:25%;
-  border:.25em solid #ededed;
-}
-@media (min-width: 576px) {
-  .mkd-img-left {
-    width:calc(50% - 1.25em);
-    margin-right:.5em;
-    margin-top: 1em;
-  }
-  .mkd-img-right {
-    width:calc(50% - 1.25em);
-    margin-left:.5em;
-    margin-top: 1em;
-  }
-  .mkd-img-60 {
-    width:60% !important;
-    margin:1em auto;
-    display:block;
-  }
-  .mkd-img-quad {
-    width:calc(25% - 1em);
-    margin:.5em;
-    display:block;
-    float:left;
-  }
-}
-</style>
-arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline). Illustrations capture abstract concepts well and are used in presentations and documentation.
+arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline.html). Illustrations capture abstract concepts well and are used in presentations and documentation.
 
-***Important*** Please note that we must ensure we have the right to use photos and illustrations. All assets within arXiv image libraries have been cleared for use in arXiv materials only, use for other purposes is not covered.
+> **Important: Images may only be used for arXiv-owned materials.** All assets within arXiv image libraries have been cleared for use in arXiv materials. Use in materials outside of arXiv is not covered by copyright.
 
-<div class="divider"></div>
-
-##Photos <a href="https://cornell.box.com/v/arXiv-photo-library" class="button-fancy">Go to the arXiv Photo Library <span> </span></a>
+##Photos
+[Go to the arXiv Photo Library](https://cornell.box.com/v/arXiv-photo-library)
 
 Photographs are an important part of the arXiv visual brand. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of people who rely on arXiv.
 
-We apply color washes to photos in our brand colors of Warm Grey, Bright Blue, Dark Blue, and (as in the example below) Salmon.
-![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-60 .mkd-vert-spacing}
+We apply color washes to photos in our [brand colors](colors.html).
+![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-full alt='Cornell's campus in the springtime. A student walks near the famous clocktower below flowering trees.'}
 
-Photographs can be overlayed with a type treatment as seen here. Learn more on our [tagline](tagline) page.
-![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-img-60 .mkd-vert-spacing}  
+Photographs can be overlayed with a [tagline](tagline.html) as shown here.
+![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-full alt='An image of arXiv's home at Cornell Tech overlayed with the tagline arXiv Connects old and new ways of publishing.'}  
 
-<div class="divider"></div>
+##Illustrations
+[Go to the arXiv Illustration library](https://cornell.box.com/v/arXiv-illustration-library)
 
+Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished, but emphasizes thrift and mission focus, with a touch of gentle humor.
 
-##Illustrations <a href="https://cornell.box.com/v/arXiv-illustration-library" class="button-fancy">Go to the arXiv Illustration Library <span> </span></a>
-
-Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished, but emphasizes thrift and mission focus, with a touch of gentle humor. People are represented by stick figures with no gender or other identifying features. Our primary accent color for illustrations is Bright Blue.
-
-![illustration of stairs](images/brand-image-illustration-1.jpg){.mkd-img-quad .mkd-img-icon}
-![illustration of a road leading to the horizon](images/brand-image-illustration-2.jpg){.mkd-img-quad .mkd-img-icon}
-![illustration of a document](images/brand-image-illustration-3.jpg){.mkd-img-quad .mkd-img-icon}
-![illustration of many hands reaching towards the center](images/brand-image-illustration-4.jpg){.mkd-img-quad .mkd-img-icon}
-![illustration of a happy stick person](images/brand-image-illustration-5.jpg){.mkd-img-quad .mkd-img-icon}
-![illustration of a network](images/brand-image-illustration-6.jpg){.mkd-img-quad .mkd-img-icon}
-
-<div class="divider"></div>  
-
-
-##Portraits <a href="https://cornell.box.com/s/thg5f7qaxmfvr2yawv1vb85inaz9acu4" class="button-fancy">Go to the arXiv Portrait Library <span> </span></a>
-
-We stylize staff and other stakeholder portraits with a color wash and square crop. Here are two examples in Dark Blue and Warm Grey:
-![portrait of Licia Verde](images/brand-image-portrait.jpg){.mkd-img-left}
-![portrait of Licia Verde](images/brand-image-portrait-2.jpg){.mkd-img-right}
-
-<div class="divider"></div>  
+<ul class="brand-toc">
+  <li><img src="images/brand-image-illustration-1.jpg" role="representation"></li>
+  <li><img src="images/brand-image-illustration-2.jpg" role="representation"></li>
+  <li><img src="images/brand-image-illustration-3.jpg" role="representation"></li>
+  <li><img src="images/brand-image-illustration-4.jpg" role="representation"></li>
+  <li><img src="images/brand-image-illustration-5.jpg" role="representation"></li>
+  <li><img src="images/brand-image-illustration-6.jpg" role="representation"></li>
+</ul>
 
 
 ##Additional photo resources

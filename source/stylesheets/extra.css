@@ -4,27 +4,15 @@
   --md-primary-fg-color--dark:  #6b6459;
 }
 p { font-size: .9em; }
+a { color: #1f5e96 !important; text-decoration: underline; }
+a:hover { color: black !important; transition: all 1s;}
 .md-typeset hr { margin: 1em 0 !important; }
 h2 { margin-top: 1em !important; }
-blockquote {
-  margin: 0 !important;
-  padding: 1em !important;
-  border-left: 0 !important;
-  color: black !important;
-  background: #f9f7f7 !important;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-
+.intro { font-size: 1.5em; }
 
 /*classes for Images*/
-.mkd-img-border {
-  margin:1em 0px;
-  padding:10px;
-  border: solid .25em #ededed;
+.mkd-border {
+  border: solid .15em #ededed;
 }
 .mkd-horz-spacing {
   margin-right:1em;
@@ -34,6 +22,7 @@ blockquote {
   float:left;
   width:100%;
   margin-top:0;
+  margin-bottom: 1em;
 }
 .mkd-img-right {
   float:right;
@@ -44,6 +33,11 @@ blockquote {
   width:100% !important;
 }
 .mkd-img-60 {
+  width:100% !important;
+  margin:0 auto;
+  display:block;
+}
+.mkd-img-50 {
   width:100% !important;
   margin:0 auto;
   display:block;
@@ -60,20 +54,26 @@ blockquote {
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
-    margin-right:2em;
+    margin-right:1em;
   }
   .mkd-img-right {
     width:calc(50% - 1.25em);
-    margin-left:2em;
+    margin-left:1em;
   }
   .mkd-img-60 {
     width:60% !important;
     margin:0 auto;
     display:block;
   }
+  .mkd-img-50 {
+    width:50% !important;
+    float:left;
+    margin:0 auto;
+    display:block;
+  }
 }
 
-/*Ordered Lists*/
+/*half-screen Ordered Lists*/
 ol.mkd-ordered-list {
   list-style:none;
   margin-left:0 !important;
@@ -131,12 +131,17 @@ ol.mkd-ordered-list-blocks li img {
 
 /*Blockquotes*/
 blockquote {
-  border-left: 0;
+  margin: 0 !important;
+  padding: 1em !important;
+  border-left: 0 !important;
+  color: black !important;
+  background: #f9f7f7 !important;
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
   -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
+}
+blockquote strong {
+  font-size: 18px;
 }
 @media (min-width: 576px) {
   blockquote {
@@ -191,5 +196,92 @@ ol.labs-blocks li img {
 @media (min-width: 576px) {
   ol.labs-blocks li {
     width: calc(33% - 10px);
+  }
+}
+
+/*Brand TOC*/
+.brand-toc {
+  margin: 0 auto;
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.brand-toc .card {
+  padding: 0;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+}
+.brand-toc .card a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: white !important;
+  display: block;
+  overflow: hidden;
+}
+.brand-toc .card a:hover {
+  color: #fb595a !important;
+}
+.brand-toc .card img {
+  width:100%;
+  object-fit: cover;
+  margin-bottom: -60px;
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: transform 0.5s;
+  display: none;
+}
+.brand-toc .card a:hover > img {
+  -webkit-transform: scale(1.8) rotate(0.01deg);
+  transform: scale(1.8) rotate(0.01deg);
+}
+.brand-toc .card span {
+  padding: 10px 12px;
+  background: black;
+  text-align: center;
+  display:block;
+}
+@media (min-width: 576px) {
+  .brand-toc .card span {
+    position:relative;
+    opacity: .85;
+  }
+  .brand-toc .card img {
+    display: block;
+  }
+}
+
+
+/*Brand colors*/
+ul.brand-colors {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+ul.brand-colors li {
+  width: 100%;
+  padding: 0;
+  margin: .35em 0 !important;
+}
+ul.brand-colors li .color {
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  width: 100%;
+  height: 100px;
+}
+ul.brand-colors li .text {
+
+}
+@media (min-width: 576px) {
+  ul.brand-colors li {
+    width: calc(25% - 10px);
+    margin: .35em 10px 0 0 !important;
   }
 }

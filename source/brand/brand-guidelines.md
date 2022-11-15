@@ -47,7 +47,7 @@ If you are authorized to use arXiv’s logo you may download the format you need
 
 
 <a href="https://cornell.box.com/v/arxiv-logo-svg" target="_blank">
-![arXiv primary logo](images/brand-logo-primary.svg){.mkd-img-thumb .mkd-img-border}<br>
+![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-thumb .mkd-img-border}<br>
 Primary logo (SVG)
 </a>
 **Other formats:**

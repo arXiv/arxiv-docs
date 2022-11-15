@@ -28,7 +28,8 @@ Our core value can be summed up in just two words:
 
 arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.
 
-> “arXiv is often the first place where researchers take action in open science.”
+> **“arXiv is often the first place where researchers take action in open science.”**
+> 
 > —Dr. Hideaki Takeda, Professor, National Institute of Informatics
 
 This core value is reflected across arXiv's brand, from the intertwining arms of the chi in our logo, to our tagline, to our typographic treatments, tone of voice, and messaging. The world has changed since arXiv was created in 1991, but throughout these changes arXiv remains your connection to open science.
