@@ -44,18 +44,14 @@ Explore relevant open access papers from across a global network of
     <a href="https://core.ac.uk/" target="_blank" rel="noopener">CORE</a>,
     the world’s largest aggregator of open access research.
 ___
-##arXiv Links to Code
-![Links to Code icon](images/pwc-logo.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Links to Code labs project' role=presentation}
+## arXiv Links to Code & Data
+![Links to Code icon](images/pwc-logo.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Links to Code & Data labs project' role=presentation}
 
 [Links to Code repository](https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js)
 
-Collaborators: **Robert Stojnic, Viktor Kerkez, and Ludovic Viaud**, from Papers with Code / Facebook AI Research
+Collaborators: **Robert Stojnic, Viktor Kerkez, and Ludovic Viaud**, from Papers with Code / Meta AI Research
 
-arXiv Links to Code aims to provide an easy and convenient way to
-    find relevant code for a paper. It is using data from
-    <a href="https://paperswithcode.com" target="_blank" rel="noopener">
-    Papers with Code</a> - a free resource that links papers, code and
-    results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
+arXiv Links to Code & Data aims to provide an easy and convenient way to find relevant code for a paper. It is using data from <a href="https://paperswithcode.com" target="_blank" rel="noopener"> Papers with Code</a> - a free resource that links papers, code and results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
 ___
 ## Connected Papers
 ![Connected Papers icon](images/connected-papers.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Links to Code labs project' role=presentation}
@@ -95,19 +91,9 @@ ___
 
 [About Hugging Face](https://huggingface.co/huggingface)
 
-Collaborators: **Ali Abid**, Hugging Face, and the **[Hugging Face team](https://huggingface.co/huggingface)**
+Collaborators: **Abubakar Abid**, **Omar Sanseviero**, **Ahsen Khaliq**, and the **[Hugging Face team](https://huggingface.co/huggingface)**
 
-NEED DESCRIPTION here
-DESCRIPTION here
-DESCRIPTION
-
-NEED DESCRIPTION here
-DESCRIPTION here
-DESCRIPTION
-
-NEED DESCRIPTION here
-DESCRIPTION here
-DESCRIPTION
+ Hugging Face Spaces includes links to demos created by the community or the authors themselves. By going to the Demos tab of your favorite paper in the arXiv categories of computer science, statistics, or electrical engineering and systems science, you can find links to open-source demos and try them out immediately. With Spaces, Hugging Face users can share, explore, discuss models, and build interactive applications that enable anyone with a browser to try them out without having to run any code. These demos are built using open-source tools such as the Gradio and Streamlit Python libraries, and leverage models and datasets available on the Hugging Face Hub.
 ___
 ##IArxiv
 ![IArxiv icon](https://iarxiv.org/static/media/david-logo.ed5eb88b.jpg){.mkd-img-border align=left width=100 alt='a decorative icon of the IArxiv labs project' role=presentation}
