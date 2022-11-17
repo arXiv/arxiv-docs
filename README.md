@@ -10,6 +10,7 @@ To build the arXiv docs site, run:
 python -m venv docs-venv
 source docs-venv/bin/activate
 pip install -r requirements.txt
+./make_arxiv_theme/prep_for_mkdocs.sh
 mkdocs serve
 ```
 
@@ -77,10 +78,6 @@ is theme for mkdocs. For information about customizing themes, CSS or
 JS see:
 
 https://squidfunk.github.io/mkdocs-material/customization/
-
-## Search
-
-TODO
 
 ## Controlling the HTTP response (deletion, redirects)
 

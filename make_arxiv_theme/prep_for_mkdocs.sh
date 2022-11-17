@@ -12,12 +12,12 @@ python3 -m venv $TMPVENV
 echo "Made temp venv and activated"
 
 pip3 install git+https://github.com/arXiv/arxiv-base.git@ARXIVNG-5130-python310
-#pip3.6 install flask_s3
+
 echo "Installed arxiv-base"
 
 mkdir -p generated_arxiv_theme
 cd make_arxiv_theme
-FLASK_APP=app.py flask generate mkdocs_template > ../generated_arxiv_theme/main.html
+FLASK_APP=app.py flask generate mkdocs_template > ../overrides/main.html
 cd ..
 
 rm -rf $TMPVENV

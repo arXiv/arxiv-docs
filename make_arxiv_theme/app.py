@@ -12,10 +12,12 @@ config.FLASKS3_CDN_DOMAIN = 'static.arxiv.org'
 config.FLASKS3_USE_HTTPS = True
 config.BASE_SERVER = 'arxiv.org'
 
-app = Flask('base_test')
+app = Flask('browse')
 app.config.from_object(config)
 app.config['RELATIVE_STATIC_PATHS'] = 0
 app.config['SERVER_NAME'] = 'arxiv.org'
+app.config['APP_VERSION'] = '0.3.4'  # Forces a version for the static cdn
+app.name = 'browse'
 Base(app)
 app.register_blueprint(routes.blueprint)
 blueprint = Blueprint('generate', __name__)
@@ -25,7 +27,11 @@ blueprint = Blueprint('generate', __name__)
 def mkdocs_template():
     """Render the template for use in mkdocs from arxiv-base."""
     with app.test_request_context(''):
-        print(render_template('generate_mkdocs_template.html'))
+        class fakemacros:
+            compactsearch = lambda a,b: ''
+        macros = fakemacros()
+
+        print(render_template('main.html', macros=macros))
 
 
 app.register_blueprint(blueprint)
