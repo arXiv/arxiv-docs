@@ -1,5 +1,4 @@
-TeX, LaTeX, etc.
-================
+# TeX, LaTeX, etc.
 
 TeX is a text formatting and markup language developed by D. Knuth in
 the late 1970s and early 1980s. It has become the defacto standard for

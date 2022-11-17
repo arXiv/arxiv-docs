@@ -1,5 +1,4 @@
-Configuring Your Browser
-========================
+# Configuring Your Browser
 
 In order to seamlessly download and view documents from arXiv, you may
 have to configure your web browser. It must be told what types of files

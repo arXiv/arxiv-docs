@@ -1,6 +1,6 @@
-To cross-list an article to another category
-============================================
+# Crosslisting articles
 
+## To cross-list an article to another category
 You may feel that your article is of direct interest to the readers of a
 category other than the one to which you submitted your article. In such
 cases you may cross-list your article to the other category so that your

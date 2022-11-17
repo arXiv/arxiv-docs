@@ -1,5 +1,6 @@
-To add a journal reference, DOI or report number to an article
-==============================================================
+# Add Journal Reference
+
+## To add a journal reference, DOI or report number to an article
 
 When a article is published, the author may wish to indicate this in the
 abstract listing for the article. For this reason, the journal reference
@@ -13,8 +14,7 @@ page](http://arxiv.org/jref). Note that no new article version will be
 generated when journal reference, DOI or report number information is
 added.
 
-Journal reference
------------------
+## Journal reference
 
 Note that this is relevant only when the author has the full publication
 information. Messages of the form "will appear in..." or "accepted
@@ -30,8 +30,7 @@ year and page number(s)**. An example looks like:
 
 See also [journal reference](prep.md#journal) formatting details.
 
-DOI
----
+## DOI
 
 DOIs are identifiers that provide access to electronic versions of
 journal articles. They will be linked from the arXiv abstract page. They
@@ -42,8 +41,7 @@ prefix such as `doi:`. For example:
 
 See also [DOI](prep.md#doi) formatting details.
 
-Report number
--------------
+## Report number
 
 This is for your institution's locally assigned publication number or
 numbers. These usually comprise a prefix of a few letters and then

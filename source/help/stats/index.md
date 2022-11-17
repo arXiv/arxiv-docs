@@ -1,5 +1,4 @@
-arXiv usage statistics
-======================
+# arXiv usage statistics
 
 **Submission statistics:**
 

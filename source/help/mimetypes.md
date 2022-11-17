@@ -1,5 +1,4 @@
-Media types delivered by arXiv
-==============================
+# Media types
 
 This page describes the
 [standard](https://www.iana.org/assignments/media-types/media-types.xhtml)
@@ -55,7 +54,7 @@ file is supplied.
       Content-Type: application/x-eprint-tar
 
       > curl -# -I http://arxiv.org/e-print/hep-lat/9107001v1 | grep -p 'Content-[TE]'
-      
+
       Content-Encoding: x-gzip
       Content-Type: application/x-eprint-tar
 

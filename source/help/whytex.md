@@ -9,7 +9,7 @@
     that handles mathematics correctly -- note that the MathML people
     plan a LaTeX to MathML translator, but dvi/ps/pdf lack the necessary
     document structuring concepts). Possession of the source thus
-    provides many additional options for future document migrations.
+    provides many additional options for future document migrations. In the meantime, many users with visual impairments and reading disabilities find TeX source far more accessible than other available formats.
 2.  Using emerging new technology, most of the Postscript generated from
     the source contains [hyperlinks](hypertex/index.md), so that using new
     versions of PostScript previewers (e.g., the next version of
@@ -101,13 +101,13 @@ advantage of it. For more information, see
 ## Frequent Red Herring Concerns:
 
   - **Will the auto-TeXing embed figures?**
-    
+
     Yes. Our TeX installation can do anything that yours can. Any macros
     you use that we do not support can be included in your submission
     (or sent to us separately so we can put them on-line).
 
   - **Won't TeX source make it easy to plagiarize?**
-    
+
     There is no file format or other technological device that can
     protect you from this. At the very least, unscrupulous re-typers
     would always remain a threat. Postscript does not provide a barrier
@@ -120,7 +120,7 @@ advantage of it. For more information, see
 
   - **I worked hard to make my figures and I don't want people to steal
     them. Shouldn't I hide them by embedding them?**
-    
+
     As with the above question, it is quite easy for someone with a
     little knowledge to extract anything they like from the output PDF
     or Posctript file. Furthermore, unauthorized or un-attributed use of
@@ -129,22 +129,22 @@ advantage of it. For more information, see
 
   - **What if my TeX source has potentially embarrassing self-comments
     in it?**
-    
+
     Well... you should probably take them out. It is easy to strip these
     out in advance of submitting. Here is a Perl filter to do it.
     Please, please do not hurt yourself with this script; save your file
     and do not write over the backup copy... just in case.
-    
+
     > ` #!/usr/local/bin/perl while(<STDIN>){ s/^\%.*$/\%/;
     > s/([^\\])\%.*$/\1\%/g; print; } exit(0);`
-    
+
     or use the one line command
-    
+
     > ` perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex`
 
   - **I use the Textures program. Won't the archive destroy my paper's
     beautiful formatting?**
-    
+
     We have many Textures submissions here. Figures will, of course, be
     placed exactly where you put them (why would you expect otherwise?).
     Textures does use a non-standard command to control the way figures

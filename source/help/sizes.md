@@ -1,5 +1,4 @@
-Oversized Submissions
-=====================
+# Oversized Submissions
 
 Problems
 --------
@@ -18,7 +17,7 @@ the automatic rejection identifier and to explain the large size).
 Please think about the time it will take people to download your papers.
 arXiv is a resource used throughout the world and many users do not have the
 fast reliable network connections, fast computers, and printers with
-large memory that are common in large universities. 
+large memory that are common in large universities.
 
 Making Submissions Smaller
 --------------------------
@@ -43,11 +42,11 @@ Additional Policy Information
 -----------------------------
 
 If you include reduced size figures with your submission you are free to include
-larger figures as [ancillary files](ancillary_files.md) or 
+larger figures as [ancillary files](ancillary_files.md) or
 provide links to larger alternative versions of figures stored at your
 website.
 
-We do not accept submissions with omitted figures. 
+We do not accept submissions with omitted figures.
 
 
 Quickly Reducing File Size
@@ -57,7 +56,7 @@ It is possible to quickly reduce the overall file size of your
 submission by running a simple `bash` shell command:
 
          for i in *ps; do ps2pdf -DEPSCrop $i; done;
-      
+
 
 This command will convert all the files matching filenames ending with
 `ps` (which will cover both `.eps` as well as `.ps` figures). Please

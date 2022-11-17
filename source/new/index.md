@@ -1,7 +1,4 @@
----
-title: arXiv News and Announcements
----
-# News
+# arXiv News and Announcements
 
 What's been New on the [arXiv.org](https://arxiv.org) e-print archives
 
@@ -13,13 +10,13 @@ What's been New on the [arXiv.org](https://arxiv.org) e-print archives
 13 November 2020
 
 
-**November 2020 Holiday Schedule:** For the US Thanksgiving holiday there will be no new submission announcement and limited user support for Thursday 26 November 2020. 
+**November 2020 Holiday Schedule:** For the US Thanksgiving holiday there will be no new submission announcement and limited user support for Thursday 26 November 2020.
 
 Papers submitted after 14:00 Eastern on Wednesday 25 November and before 14:00 Eastern on Friday 27 November will be announced at 20:00 Eastern on Sunday 29 November. This only affects announcement of new submissions. We will still be accepting submissions and the arXiv site will continue to be available for browsing existing papers.
 
-**December 2020 Holiday Schedule:** 
+**December 2020 Holiday Schedule:**
 
- - *No new submission announcement on 27 December 2020.* Our staff will be on holiday and there will be limited user support for Friday 25 December 2020. There will also be no new submission announcement at 20:00 Eastern Sunday 27 December. 
+ - *No new submission announcement on 27 December 2020.* Our staff will be on holiday and there will be limited user support for Friday 25 December 2020. There will also be no new submission announcement at 20:00 Eastern Sunday 27 December.
 Papers submitted after 14:00 Eastern on Thursday 24 December and before 14:00 Eastern on Monday 28 December will be announced at 20:00 Eastern on Monday 28 December.
  - *No new submission announcement on 29 and 30 December 2020.* There will be no new submission announcement and limited user support for Tuesday 29 December and Wednesday 30 December 2020.
 Papers submitted after 14:00 Eastern on Monday 28 December and before 14:00 Eastern on Thursday 31 December will be announced at 20:00 Eastern on Thursday 31 December.
@@ -33,7 +30,7 @@ The staff holidays only affects announcement of new submissions. We will still b
 
 5 June 2020
 
-**5 June 2020 - Service notice for 9 June 2020 :** The mailings and the public announcement of new submissions will be deferred for Tuesday 9 June 2020. The arXiv servers will remain in operation. In addition, arXiv staff will provide limited service in response to queries during this time. 
+**5 June 2020 - Service notice for 9 June 2020 :** The mailings and the public announcement of new submissions will be deferred for Tuesday 9 June 2020. The arXiv servers will remain in operation. In addition, arXiv staff will provide limited service in response to queries during this time.
 
 - Articles received at or after 14:00 ET Monday 8 June 2020 and before 14:00 ET Wednesday 10 June 2020 will be announced at 20:00 ET Wednesday 10 June 2020.
 
@@ -44,7 +41,7 @@ The staff holidays only affects announcement of new submissions. We will still b
 
 6 January 2020
 
-**20 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 20 January 2020. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+**20 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 20 January 2020. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday.
 
 - Articles received at or after 14:00 ET Friday, 17 January 2020 and before 14:00 ET Tuesday, 21 January 2020 will be announced at 20:00 ET Tuesday, 21 January 2020.
 
@@ -56,19 +53,19 @@ The staff holidays only affects announcement of new submissions. We will still b
 
 
 **November Holiday Schedule:** The mailings and the public availability of new submissions will be deferred
-for 28 November 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide 
+for 28 November 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide
 limited service in response to queries during this period.
 
 - Articles received at or after 14:00 ET Wednesday, 27 November 2019 and before 14:00 ET Friday, 29 November 2019
- will be announced at 20:00 ET Sunday, 1 December 2019. 
+ will be announced at 20:00 ET Sunday, 1 December 2019.
 
-**December Holiday Schedule** The mailings and the public availability of new submissions will be deferred for 
-25 December, 26 December, and 30 December 2019, as well as 1 January 2020. The arXiv servers will otherwise remain 
+**December Holiday Schedule** The mailings and the public availability of new submissions will be deferred for
+25 December, 26 December, and 30 December 2019, as well as 1 January 2020. The arXiv servers will otherwise remain
 in operation. In addition, arXiv staff will provide limited service in response to queries during these periods.
 
-- Articles received at or after 14:00 ET Tuesday, 24 December 2019 and before 14:00 ET Friday, 27 December 2019 
+- Articles received at or after 14:00 ET Tuesday, 24 December 2019 and before 14:00 ET Friday, 27 December 2019
   will be announced at 20:00 ET Sunday, 29 December 2019.
-- Articles received at or after 14:00 ET Friday, 27 December 2019 and before 14:00 ET Tuesday, 31 December 2019 
+- Articles received at or after 14:00 ET Friday, 27 December 2019 and before 14:00 ET Tuesday, 31 December 2019
   will be announced at 20:00 ET Tuesday, 31 December 2019.
 - Articles received at or after 14:00 ET Tuesday, 31 December 2019 and before 14:00 ET Thursday, 2 January 2020
   will be announced at 20:00 ET 2 January 2020.
@@ -88,10 +85,10 @@ in operation. In addition, arXiv staff will provide limited service in response 
 <span id="august20_2019"></span>
 19 August 2019
 
-**2 September - Labor Day Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 2 September 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+**2 September - Labor Day Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 2 September 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday.
 
 - Articles received at or after 14:00 ET Friday, 30 August 2019 and before 14:00 ET Tuesday, 3 September 2019 will be announced at 20:00 ET Tuesday, 3 September 2019.
-  
+
 
 
 #### June 2019
@@ -101,11 +98,11 @@ in operation. In addition, arXiv staff will provide limited service in response 
 
 **arXiv created a Systems and Control category eess.SY that will merge with cs.SY. We also merged the existing Numerical Analysis categories math.NA/cs.NA**
 
-Two changes to arXiv categories were made today. 
+Two changes to arXiv categories were made today.
 
 The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at https://arxiv.org/archive/eess.
 
-arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA. 
+arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA.
 
 Thank you to arXiv moderators, subject advisory committees, and scientific advisory board members who provided leadership and input on these changes. Special thanks to our math.NA and cs.NA moderators for putting in extra effort over the past two month to pilot this move.
 
@@ -135,11 +132,11 @@ Thank you to arXiv moderators, subject advisory committees, and scientific advis
 <span id="jan03_2019"></span>
 3 January 2019
 
-**21 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 21 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday. 
+**21 January - Martin Luther King, Jr. Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 21 January 2019. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during the holiday.
 
 - Articles received at or after 14:00 ET Friday, 18 January 2019 and before 14:00 ET Tuesday, 22 January 2019 will be announced at 20:00 ET Tuesday, 22 January 2019.
-  
-  
+
+
 #### Dec 2018
 
 <span id="dec03_2018"></span>
@@ -154,15 +151,15 @@ December 2018 Holiday Schedule:</b> The mailings and the public availability of 
 - Articles received at or after 14:00 ET Monday, 31 December 2018 and before 14:00 ET  Wednesday, 2 January 2019 will be announced at 20:00 ET Wednesday, 2 January 2019.
 
    *Note:* articles submitted at or after 14:00 ET Monday, 31 December 2018 will receive arXiv:1901.nnnnn identifiers.
-  
-  
-  
+
+
+
 #### Nov 2018
 
 <span id="nov06_2018"></span>
 6 Nov 2018
 
-**Thanksgiving Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 22 November 2018. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during this periods. 
+**Thanksgiving Holiday Schedule:** The mailings and the public availability of new submissions will be deferred for 22 November 2018. The arXiv servers will otherwise remain in operation. In addition, arXiv staff will provide limited service in response to queries during this periods.
 
 - Articles received at or after 14:00 ET Wednesday, 21 November 2018 and before 14:00 ET Friday, 23 November 2018 will be announced at 20:00 ET Sunday, 25 November 2018.
 
@@ -668,9 +665,9 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 **American Physical Society and Australian mirrors discontinued:** We are reducing the size of the arXiv mirror network to better focus available administrative effort. It is our goal to keep a handful of mirrors with wide geographic spread to help with network outage and disaster tolerance. However, current internet topology means that mirrors are no longer an effective way to improve arXiv access.
 
 *   The [American Physical Society](http://www.aps.org/) mirror (aps.arXiv.org) has been discontinued. We are grateful for the longstanding and continuing support of the APS, and for help at critical junctures including using the mirror as primary backup during the fires that threatened Los Alamos in 2000.
-    
+
 *   The Australian mirror (au.arXiv.org) has been discontinued. We thank the [CSSM](http://www.physics.adelaide.edu.au/cssm/) at the University of Adelaide and the [ARC Centre of Excellence for Particle Physics at the Terascale](http://coepp.org.au/) (CoEPP) for their support of arXiv.
-    
+
 
 6 Feb 2012
 
@@ -903,7 +900,7 @@ There have been a number of upgrades to the arXiv interface and processing syste
 *   Articles received from 16:00 EST Fri 22 Dec 2006 through 16:00 EST Wed 27 Dec 2006 will be announced at 20:00 EST Wed 27 Dec 2006.
 *   Articles received from 16:00 EST Fri 29 Dec 2006 through 16:00 EST Tue 2 Jan 2007 will be announced at 20:00 EST Tue 2 Jan 2007.
 
-  
+
 
 1 Dec 2006
 

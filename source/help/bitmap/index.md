@@ -1,9 +1,8 @@
-Bitmapping Figures
-==================
+# Bitmapping Figures
 
 arXiv strongly recommends using bitmapped formats when possible. Data files that
 make up plots should be included within the tex source as [ancillary files](../../help/ancillary_files.md)
-for both archival storage as well as figure reproducibility. 
+for both archival storage as well as figure reproducibility.
 
 Historically, graphics and plotting programs do not take into account that people
 might want to send their output over the internet instead of to a local
@@ -14,7 +13,7 @@ For example, many data-plotting programs use unnecessarily long
 PostScript commands when plotting a point or line. If there are large
 numbers of data points, then this can add hundreds of kilobytes to the
 file size. For figures produced from programs like this, it is more
-efficient to use a bitmap to describe the entire image. 
+efficient to use a bitmap to describe the entire image.
 
 **Note:**  
 If you have **eps** figures, which have been flagged by the arXiv system

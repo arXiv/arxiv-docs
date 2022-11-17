@@ -1,5 +1,4 @@
-Utilities for the E-Print World
-===============================
+# Utilities for the E-Print World
 
 arXiv users, independent of what platform they choose, should install a
 handful of utilities and applications so that they can derive the

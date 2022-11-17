@@ -1,5 +1,4 @@
-SSL Support in arXiv
-====================
+# SSL Support
 
 29 Sep 2016: SSL is now enforced on all arXiv pages.
 

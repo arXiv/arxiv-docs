@@ -1,5 +1,4 @@
-PostScript Variants
-===================
+# PostScript Variants
 
 The default resolution of a file obtained by clicking on the
 **PostScript** link is 600 dpi, and the default fonts are bitmapped

@@ -1,5 +1,4 @@
-Submission of PostScript
-========================
+# Submission of PostScript
 
 PostScript is not an ideal submission format, for several reasons:
 
