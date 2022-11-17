@@ -22,17 +22,20 @@ Base(app)
 app.register_blueprint(routes.blueprint)
 blueprint = Blueprint('generate', __name__)
 
+import logging
+logger = logging.getLogger(__file__)
 
 @blueprint.cli.command('mkdocs_template')
 def mkdocs_template():
     """Render the template for use in mkdocs from arxiv-base."""
-    with app.test_request_context(''):
-        class fakemacros:
-            compactsearch = lambda a,b: ''
-        macros = fakemacros()
+    try:
+        with app.test_request_context(''):
+            class fakemacros:
+                compactsearch = lambda a,b: ''
 
-        print(render_template('main.html', macros=macros))
-
+            print(render_template('main.html', macros=fakemacros()))
+    except Exception:
+        logger.exception("Problem making template")
 
 app.register_blueprint(blueprint)
 s3.init_app(app)
