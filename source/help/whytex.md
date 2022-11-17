@@ -148,5 +148,4 @@ advantage of it. For more information, see
     We have many Textures submissions here. Figures will, of course, be
     placed exactly where you put them (why would you expect otherwise?).
     Textures does use a non-standard command to control the way figures
-    are included, please read our [notes on submitting Textures
-    generated papers](faq/textures.md).
+    are included, please read our [notes on submitting Textures generated papers](faq/textures.md).

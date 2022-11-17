@@ -1,5 +1,5 @@
 # arXivLabs: Showcase
-![arXiv Labs icon](images/smileybones-labs-icon.png){.mkd-img-thumb align=right alt='a bubbling beaker with a smiling face and crossedbones behind it' role=presentation}
+![arXiv Labs icon](images/smileybones-labs-icon.png){.mkd-img-thumb width=100 align=right alt='a bubbling beaker with a smiling face and crossedbones behind it' role=presentation}
 
 arXiv is surrounded by a community of researchers and developers working at the cutting edge of information science and technology.
 
@@ -13,7 +13,7 @@ Below are some of the projects that our collaborators have done.
 
 ___
 ## arXiv Bibliographic Explorer
-![Bibliographic Explorer icon](images/bib-explorer.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Bibliographic Explorer labs project' role=presentation}
+![Bibliographic Explorer icon](images/bib-explorer.png){.mkd-border align=left width=100 alt='a decorative icon of the Bibliographic Explorer labs project' role=presentation}
 
 [Bibliographic Explorer code repository](https://github.com/mattbierbaum/arxiv-bib-overlay)
 
@@ -22,7 +22,7 @@ Collaborators: **Matt Bierbaum**, Cornell Computing and Information Science
 arXiv Bibliographic Explorer displays information about works that cite and are cited by arXiv papers and their published versions. The primary objective of the project is to enable discovery of relevant research and context by providing user-friendly navigation of an article's citation tree.
 ___
 ## arXiv HTML5 & Readability
-![HTML5 Readability icon](images/readability.png){.mkd-img-border align=left width=100 alt='a decorative icon of the HTML5 Readability labs project' role=presentation}
+![HTML5 Readability icon](images/readability.png){.mkd-border align=left width=100 alt='a decorative icon of the HTML5 Readability labs project' role=presentation}
 
 [HTML5 & Readability code repository](https://github.com/cul-it/arxiv-readability)
 
@@ -31,7 +31,7 @@ Collaborators: **Michael Kohlhase and Deyan Ginev** from Friedrich-Alexander Uni
 Our top priority is to provide a high-quality service to all arXiv authors and readers. The overarching objective of this project is to significantly improve the usability and accessibility of arXiv papers. While providing HTML is not a panacea, it is a first step in the right direction.
 ___
 ##CORE recommender
-![Core Recommender icon](images/core-recommender.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Core Recommender labs project' role=presentation}
+![Core Recommender icon](images/core-recommender.png){.mkd-border align=left width=100 alt='a decorative icon of the Core Recommender labs project' role=presentation}
 
 [CORE Recommender arXiv paper](https://arxiv.org/abs/1705.00578), [Research outputs by CORE](https://core.ac.uk/about/research-outputs/)
 
@@ -45,7 +45,7 @@ Explore relevant open access papers from across a global network of
     the world’s largest aggregator of open access research.
 ___
 ## arXiv Links to Code & Data
-![Links to Code icon](images/pwc-logo.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Links to Code & Data labs project' role=presentation}
+![Links to Code icon](images/pwc-logo.png){.mkd-border align=left width=100 alt='a decorative icon of the Links to Code & Data labs project' role=presentation}
 
 [Links to Code repository](https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/paperswithcode.js)
 
@@ -54,7 +54,7 @@ Collaborators: **Robert Stojnic, Viktor Kerkez, and Ludovic Viaud**, from Papers
 arXiv Links to Code & Data aims to provide an easy and convenient way to find relevant code for a paper. It is using data from <a href="https://paperswithcode.com" target="_blank" rel="noopener"> Papers with Code</a> - a free resource that links papers, code and results in Machine Learning. Papers with Code is the biggest such resource and is licensed under an open license.
 ___
 ## Connected Papers
-![Connected Papers icon](images/connected-papers.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Links to Code labs project' role=presentation}
+![Connected Papers icon](images/connected-papers.png){.mkd-border align=left width=100 alt='a decorative icon of the Links to Code labs project' role=presentation}
 
 [Connected Papers code repository](https://github.com/arXiv/arxiv-browse/tree/develop/browse/static/js/connectedpapers.js), [about Connected Papers](https://www.connectedpapers.com/about)
 
@@ -69,7 +69,7 @@ Collaborators:
 * Or simply explore paper-space!
 ___
 ##Litmaps
-![Litmaps icon](images/litmaps-logo-square-white.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Litmaps labs project' role=presentation}
+![Litmaps icon](images/litmaps-logo-square-white.png){.mkd-border align=left width=100 alt='a decorative icon of the Litmaps labs project' role=presentation}
 
 [About Litmaps](https://www.litmaps.co/about)
 
@@ -87,7 +87,7 @@ Collaborators:
 ___
 ##Hugging Face Spaces
 
-![Hugging Face icon](https://aeiljuispo.cloudimg.io/v7/https://s3.amazonaws.com/moonup/production/uploads/1583856921041-5dd96eb166059660ed1ee413.png){.mkd-img-border align=left width=100 alt='a decorative icon of the Hugging Face labs project' role=presentation}
+![Hugging Face icon](https://aeiljuispo.cloudimg.io/v7/https://s3.amazonaws.com/moonup/production/uploads/1583856921041-5dd96eb166059660ed1ee413.png){.mkd-border align=left width=100 alt='a decorative icon of the Hugging Face labs project' role=presentation}
 
 [About Hugging Face](https://huggingface.co/huggingface)
 
@@ -96,7 +96,7 @@ Collaborators: **Abubakar Abid**, **Omar Sanseviero**, **Ahsen Khaliq**, and the
  Hugging Face Spaces includes links to demos created by the community or the authors themselves. By going to the Demos tab of your favorite paper in the arXiv categories of computer science, statistics, or electrical engineering and systems science, you can find links to open-source demos and try them out immediately. With Spaces, Hugging Face users can share, explore, discuss models, and build interactive applications that enable anyone with a browser to try them out without having to run any code. These demos are built using open-source tools such as the Gradio and Streamlit Python libraries, and leverage models and datasets available on the Hugging Face Hub.
 ___
 ##IArxiv
-![IArxiv icon](https://iarxiv.org/static/media/david-logo.ed5eb88b.jpg){.mkd-img-border align=left width=100 alt='a decorative icon of the IArxiv labs project' role=presentation}
+![IArxiv icon](https://iarxiv.org/static/media/david-logo.ed5eb88b.jpg){.mkd-border align=left width=100 alt='a decorative icon of the IArxiv labs project' role=presentation}
 
 [About IArxiv](https://iarxiv.org/about), [Sign up for IArxiv](https://iarxiv.org/home)
 
