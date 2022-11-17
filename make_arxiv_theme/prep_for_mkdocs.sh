@@ -22,5 +22,4 @@ cd ..
 
 rm -rf $TMPVENV
 
-echo "If successful the template is now in generated_arxiv_theme/main.html"
-
+echo "The arxiv-base template is now in overrides/main.html"
