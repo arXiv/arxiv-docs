@@ -9,7 +9,7 @@ To build the arXiv docs site, run:
 ```bash
 python -m venv docs-venv
 source docs-venv/bin/activate
-pip install -r requirements.txt
+pip install -r mkdocs-requirements.txt
 ./make_arxiv_theme/prep_for_mkdocs.sh
 mkdocs serve
 ```
@@ -92,4 +92,10 @@ a web site.
 The cloud build YAML files combined with CloudBuild triggers in
 `arxiv-production` comprise the deployment pipeline for `arxiv-docs`.
 
+The bucket needs to be configured to use index.html pages for bare
+paths and the 404 page:
+
+```
+gsutil web set -m index.html -e 404.html gs://arxiv-docs
+```
 
