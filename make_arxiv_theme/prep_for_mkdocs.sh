@@ -22,4 +22,4 @@ cd ..
 
 rm -rf $TMPVENV
 
-echo "The arxiv-base template is now in overrides/main.html"
+echo "If successful the arxiv-base template is now in overrides/main.html"

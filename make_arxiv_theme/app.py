@@ -1,5 +1,16 @@
 """Provides application for getting header and footer."""
 
+import sys
+
+import logging
+logger = logging.getLogger(__file__)
+
+if sys.version_info.major != 3 and sys.version_info.minor < 10:
+    logger.error("****************************** ERROR ******************************")
+    logger.error("You must use python version 3.10 to match the version used by arxiv-base")
+    logger.error("****************************** ERROR ******************************")
+    sys.exit(1)
+
 from flask import Flask, Blueprint, render_template, current_app
 from arxiv.base import Base, routes, config
 from flask_s3 import FlaskS3
@@ -22,9 +33,6 @@ Base(app)
 app.register_blueprint(routes.blueprint)
 blueprint = Blueprint('generate', __name__)
 
-import logging
-logger = logging.getLogger(__file__)
-
 @blueprint.cli.command('mkdocs_template')
 def mkdocs_template():
     """Render the template for use in mkdocs from arxiv-base."""
@@ -36,6 +44,7 @@ def mkdocs_template():
             print(render_template('main.html', macros=fakemacros()))
     except Exception:
         logger.exception("Problem making template")
+        sys.exit(1)
 
 app.register_blueprint(blueprint)
 s3.init_app(app)
