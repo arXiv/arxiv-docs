@@ -20,4 +20,4 @@ markdown_extensions:
 
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs
-edit_uri: blob/master/mkdocs/docs
+edit_uri: blob/develop/source
