@@ -44,7 +44,7 @@ Professor, University of Amsterdam (ex officio, as chair of Physics Advisory Com
 
 The [physics](../../help/physics/index.md#AdvisoryCommittee),
 [mathematics](../../help/math/index.md#AdvisoryCommittee), 
-[computer science (CoRR)](../../corr/index.md),
+[computer science (CoRR)](../../help/cs/index.md),
 [quantitative biology](../../help/q-bio/index.md#AdvisoryCommittee), 
 [quantitative finance](../../help/q-fin/index.md#AdvisoryCommittee),
 [statistics](../../help/statistics/index.md#AdvisoryCommittee), 
