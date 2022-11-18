@@ -28,8 +28,6 @@ a.button-reg {
   background-color: #f7fafc;
   color: black !important;
 }
-
-
 a.button-reg:hover {
   background-color: #a5d6fe;
 }
@@ -57,6 +55,96 @@ a.button-large:hover {
 .mkd-horz-spacing {
   margin-right:1em;
   margin-left:1em;
+}
+
+
+
+/*HEADER*/
+.attribution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 1em;
+}
+.attribution img {
+
+}
+.attribution p {
+ font-size: 1.25em !important;
+ color: white !important;
+ max-width: 400px;
+ line-height: 1.5em;
+}
+.attribution a {
+  color: white !important;
+}
+@media all and (max-width: 576px) {
+  .attribution {
+    flex-direction: column;
+    flex-flow: column;
+  }
+  .attribution p {
+    text-align: center;
+    margin: 1em 2em .5em 2em;
+  }
+}
+
+/*ARXIV FOOTER*/
+.arxiv-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: hsl(0, 0%, 95%);
+  padding: 0 1em;
+}
+.arxiv-footer .column {
+  padding: 0.75rem;
+  width: 25%;
+}
+.arxiv-footer .column ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.arxiv-footer .column ul li {
+  line-height: 2em;
+  color: #6b6459 !important;
+}
+.arxiv-footer .column ul li a {
+  color: #000 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+}
+.arxiv-footer .column ul li a:hover {
+  color: #005e9d !important;
+  border-bottom: 1px dotted #005e9d;
+  text-decoration: none;
+}
+.arxiv-footer .column ul li, .arxiv-footer .column ul li a {
+  font-size: 1.2em;
+}
+.arxiv-footer .filter-dark_grey {
+  fill: #cccccc;
+}
+.arxiv-footer .help {
+  font-size: 1em;
+}
+.arxiv-footer .a11y-main-link {
+  font-size: 1.15em;
+}
+.arxiv-footer .sorry-app-links svg.icon {
+  margin-bottom: -2px !important;
+}
+.arxiv-footer .sorry-app-links .a11y-main-link svg.icon {
+  margin-bottom: -3px !important;
+}
+@media all and (max-width: 576px) {
+  .arxiv-footer {
+    flex-direction: column;
+    flex-flow: column;
+  }
+  .arxiv-column { width: 100%; }
 }
 
 /*classes for Images*/
