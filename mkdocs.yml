@@ -1,4 +1,4 @@
-site_name: arXiv docs
+site_name: arXiv info
 
 docs_dir: source
 
@@ -10,7 +10,7 @@ plugins:
   - search
 theme:
   name: material
-  logo: assets/arxiv-logomark-small.svg
+  logo: assets/arxiv-logo-one-color-black.svg
   custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
