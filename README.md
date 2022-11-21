@@ -9,32 +9,14 @@ To build the arXiv docs site, run:
 ```bash
 python -m venv docs-venv
 source docs-venv/bin/activate
-pip install -r requirements.txt
+pip install -r mkdocs-requirements.txt
+./make_arxiv_theme/prep_for_mkdocs.sh
 mkdocs serve
 ```
 
 Then you will have the site served locally with hot reloading on
 edits. In your browser, go to http://localhost:8000/index.html
 
-## Site structure
-
-Each site should be contained in a single directory. For example:
-
-```
-mysite/
-├── index.md
-├── specifics/
-|   ├── impressive.png
-|   └── coolstory.md
-└── _templates
-    └── mysite
-        └── custom.html
-```
-
-The directory structure in the site directory determines the site map. A
-file at ``foo/baz/bat.md`` will be served at
-``https://some.site/foo/baz/bat.html`` and the file
-``foo/baz/index.md`` will be served at ``https://some.site/foo/baz/index.html``.
 
 ## Links
 Both absolute and relative links work. You can add a link in
@@ -78,10 +60,6 @@ JS see:
 
 https://squidfunk.github.io/mkdocs-material/customization/
 
-## Search
-
-TODO
-
 ## Controlling the HTTP response (deletion, redirects)
 
 TODO: right now there we don't have redirects setup.
@@ -95,4 +73,11 @@ a web site.
 The cloud build YAML files combined with CloudBuild triggers in
 `arxiv-production` comprise the deployment pipeline for `arxiv-docs`.
 
+The bucket needs to be configured to use index.html pages for bare
+paths (that is /about is redirected to /about/index.html) and the 404
+page:
+
+```
+gsutil web set -m index.html -e 404.html gs://arxiv-docs
+```
 
