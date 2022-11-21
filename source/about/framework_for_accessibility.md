@@ -678,12 +678,12 @@ To evaluate the user journey we sorted feedback into five primary user goals: Fi
 
 Most steps were dominated by negative experiences, with only Find Research being mostly positive.
 
-![alt_text](images/image1.png "image_tooltip")
+![Stacked Bar Chart](../assets/pos-neg-stacked.png){alt='This graphic displays a stacked bar chart for each step of the user journey showing the percent of positive vs. negative experiences. Find research: 38% negative, 62% positive. Read papers: 83% negative, 17% positive. Participate in scholarship: 67% negative, 33% positive. Write papers: 89% negative, 11% positive. Submit papers: 57% negative, 43% positive.'}
 _Figure 1. The stacked bar chart shows the percent of positive vs. negative experiences at each step in the user journey. _
 
 *Read Research* elicited the highest number of comments, followed by *Prepare my Document*.
 
-![alt_text](images/image2.png "image_tooltip")
+![Positive/Negative bar charts divided by step](../assets/pos-neg.png){alt='This graphic displays each of the five steps as an individual positive/negative bar chart. The number of bars at each step shows the number of experiences, while the height of each bar represent the impact score. Varying numbers of experiences were shared for each step, with Read eliciting the most by far. Find research: 12. Read papers: 57. Participate in scholarship: 17. Write papers: 27. Submit: 14.'}
 
 _Figure 2. Each bar in this positive/negative bar chart represents one experience shared by a participant, while the height of each bar represents it’s impact. It is immediately clear that *Read Papers* elicited the most observations, and most are negative experiences of high impact. _
 
