@@ -10,7 +10,7 @@ plugins:
   - search
 theme:
   name: material
-  logo: assets/arxiv-logo-one-color-black.svg
+  logo: assets/arxiv-logo-one-color-white.svg
   custom_dir: overrides
 extra_css:
   - stylesheets/extra.css
