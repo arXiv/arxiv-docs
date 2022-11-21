@@ -4,6 +4,11 @@
   --md-primary-fg-color--dark:  #6b6459;
   --md-text-font: "freight-sans-pro";
 }
+body {
+  font-family: freight-sans-pro, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
 .md-header__button.md-logo {
   margin: 0;
   padding: .35rem;
@@ -16,18 +21,18 @@
 }
 p {
   font-size: .9em;
-  font-family: freight-text-pro, serif;
+  font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
 }
-a { color: #1f5e96 !important; text-decoration: underline; }
-a:hover { color: black !important; transition: all 1s;}
+a { text-decoration: underline; }
+a:hover { transition: all 1s;}
 .md-typeset hr { margin: 1em 0 !important; }
 h1, h2, h3, h4, h5 {
   font-family: freight-sans-pro, sans-serif;
 }
 h2 { margin-top: 1em !important; }
-.intro { font-size: 1.5em; }
+.intro { font-size: 1.5em; font-family: freight-text-pro, serif; }
 .floatl { float: left; }
 .floatr { float: right; }
 .center { text-align: center; }
