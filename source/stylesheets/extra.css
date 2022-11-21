@@ -20,7 +20,6 @@ body {
   display: none !important;
 }
 p {
-  font-size: .9em;
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -360,6 +359,39 @@ ol.color-blocks li img {
   margin-top: 0 !important;
   margin-bottom: .25em;
 }
+
+
+
+/* accessibility report */
+.a11y-report {
+  font-family: freight-text-pro, serif;
+}
+.abstract-intro {
+  font-family: freight-sans-pro, sans-serif;
+  line-height: 2em;
+}
+.authors {
+  text-align: center;
+  line-height: 1.25em;
+}
+.section-head {
+  display: block;
+  border-top: 1px solid #b31b1b;
+  padding: .5em 0 0 0;
+  font-size: 1.25em;
+  font-family: freight-text-pro, serif;
+  font-style: italic;
+}
+.section-summary {
+  font-style: italic;
+  font-family: freight-text-pro, serif;
+}
+@media (min-width: 576px) {
+  .abstract-intro, .authors {
+    margin: 0 4em 2em 4em;
+  }
+}
+
 
 /*Brand TOC*/
 .brand-toc {
