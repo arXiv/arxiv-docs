@@ -1,13 +1,7 @@
 #Brand Use Guidelines
-<style>
-.mkd-img-thumb {
-  max-width:100px !important;
-  float:left;
-  margin-right: .25em;
-}
-</style>
-##The purpose of these guidelines
-Using our logo consistently is important to present a unified message to the world about who weare. That message is:
+
+Using our logo consistently is important to present a unified message to the world about who we are. That message is:
+{ class='intro'}
 
 > **arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
 
@@ -42,27 +36,11 @@ The arXiv logo is Federally trademarked and the legal property of arXiv and Corn
 ###Lockups for internal arXiv projects
 Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the {Logos page}(logos) for details.
 
-##Request arXiv logo
-If you are authorized to use arXiv’s logo you may download the format you need below:
+##Download arXiv logo assets
+If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
 
-
-<a href="https://cornell.box.com/v/arxiv-logo-svg" target="_blank">
-![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-thumb .mkd-img-border}<br>
-Primary logo (SVG)
-</a>
-**Other formats:**
-<a href="https://cornell.box.com/v/arxiv-logo-jpg" target="_blank">JPG</a>
-<a href="https://cornell.box.com/v/arxiv-logo-png" target="_blank">PNG</a>
-
-<a href="https://cornell.box.com/v/arxiv-logomark-svg" target="_blank">
-![arXiv logomark](images/brand-logomark-primary-large.jpg){.mkd-img-thumb .mkd-img-border}<br>
-Primary Logomark (SVG)
-</a>
-
-<a href="https://cornell.box.com/v/arxiv-logomark-small-svg" target="_blank">
-![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb .mkd-img-border}<br>
-Small Logomark (SVG)
-</a>
-**Other formats:**
-<a href="https://cornell.box.com/v/arxiv-logomark-small-jpg" target="_blank">small JPG</a>
-<a href="https://cornell.box.com/v/arxiv-logomark-small-png" target="_blank">small PNG</a>
+| Logo style  | Image      | Download links                          |
+| ----------- | --------------- | ------------------------------------ |
+| Primary Logo | ![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-thumb} |  [SVG](https://cornell.box.com/v/arxiv-logo-svg){ target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logo-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logo-png){target='_blank'} |
+| Large Logomark | ![arXiv logomark](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}  | [SVG](https://cornell.box.com/v/arxiv-logomark-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-png){target='_blank'} |
+| Small Logomark   |  ![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb} | [SVG](https://cornell.box.com/v/arxiv-logomark-small-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-small-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-small-png){target='_blank'} |
