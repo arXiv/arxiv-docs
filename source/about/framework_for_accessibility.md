@@ -92,6 +92,8 @@ The typesetting software used to generate PDF results in differing levels of acc
 
 On mobile devices, PDFs are far behind standard and don’t meet basic user expectations. Research done by Adobe found that 65% of Americans find consuming content on mobile frustrating; 45% stopped reading or didn’t even try; and 72% say they would work on their mobile devices more if it were easier to read documents ([Adobe](#1 "Adobe. “The case for reimagining reading.” Adobe Blog, 5 December 2018, https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic.")). Mobile needs in academia vary widely, from a researcher catching up on a paper while traveling, to one with limited access to technology using their mobile phone as their only option for reading papers. Flexible reflow of content is a must to expand access and efficiency.
 
+ACM conference have also found low accessibility rates of PDF, despite significant effort and have chosen HTML5 format as a goal to "ultimately make accessibility easier and more standardized." ([Mankoff, et al.](#8 "Mankoff, Jennifer, et al. “2019 Access SIGCHI report.” ACM SIGACCESS Accessibility and Computing, no. 126, 2020. https://doi.org/10.1145/3386280.3386287."))
+
 > **“You can make PDF accessible, but screen readers are much more efficient when working with HTML. To tag PDF you need specialized skills and tools. For HTML, all these things are comparatively easier.”**
 >
 > —Avneesh Singh, chair, accessibility task force - W3C EPUB 3 Working Group and Publishing Community Group
@@ -1047,29 +1049,29 @@ It is not an easy goal, but it is an achievable one. And because of arXiv’s re
 ## References
 <div class="a11y-citations" markdown='1'>
 <div id="1"></div>
-Adobe. “The case for reimagining reading.” _Adobe Blog_, 5 December 2018, https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic.
+Adobe. “The case for reimagining reading.” _Adobe Blog_, 5 December 2018, [https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic](https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic).
 <div id="2"></div>
-Bingham, Jeffrey P., et al. “An Uninteresting Tour Through Why Our Research Papers Aren’t Accessible.” _ACM CHI_, 2016. http://dx.doi.org/10.1145/2851581.2892588.
+Bingham, Jeffrey P., et al. “An Uninteresting Tour Through Why Our Research Papers Aren’t Accessible.” _ACM CHI_, 2016. [http://dx.doi.org/10.1145/2851581.2892588](http://dx.doi.org/10.1145/2851581.2892588).
 <div id="3"></div>
-Centers for Disease Control and Prevention. “Burden of Vision Loss.” _Centers for Disease Control and Prevention_, 2020, https://www.cdc.gov/visionhealth/risk/burden.htm.
+Centers for Disease Control and Prevention. “Burden of Vision Loss.” _Centers for Disease Control and Prevention_, 2020, [https://www.cdc.gov/visionhealth/risk/burden.htm](https://www.cdc.gov/visionhealth/risk/burden.htm).
 <div id="4"></div>
-CERN. “The birth of the Web.” _CERN_, https://home.cern/science/computing/birth-web.
+CERN. “The birth of the Web.” _CERN_, [https://home.cern/science/computing/birth-web](https://home.cern/science/computing/birth-web).
 <div id="5"></div>
-Code.org Advocacy Coalition, et al. “2022 State of Computer Science Education.” Code.org Advocacy Coalition, 2022, https://advocacy.code.org/2022_state_of_cs.pdf.
+Code.org Advocacy Coalition, et al. “2022 State of Computer Science Education.” Code.org Advocacy Coalition, 2022, [https://advocacy.code.org/2022_state_of_cs.pdf](https://advocacy.code.org/2022_state_of_cs.pdf).
 <div id="6"></div>
-Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” _Computer Graphics Forum_, vol. 41, no. 3, 2022, https://www.frank.computer/chartability/.
+Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” _Computer Graphics Forum_, vol. 41, no. 3, 2022, [https://www.frank.computer/chartability/](https://www.frank.computer/chartability/).
 <div id="6"></div>
 Hrastinski, Iva, and Ronnie B. Wilbur. “Academic Achievement of Deaf and Hard-of-Hearing Students in an ASL/English Bilingual Program.” _Journal of Deaf Studies and Deaf Education_, vol. 21, no. 2, 2016. [https://www.jstor.org/stable/26172441](https://www.jstor.org/stable/26172441).
 <div id="7"></div>
-Mankoff, Jennifer, et al. “2019 Access SIGCHI report.” _ACM SIGACCESS Accessibility and Computing_, no. 126, 2020. https://doi.org/10.1145/3386280.3386287.
+Mankoff, Jennifer, et al. “2019 Access SIGCHI report.” _ACM SIGACCESS Accessibility and Computing_, no. 126, 2020. [https://doi.org/10.1145/3386280.3386287](https://doi.org/10.1145/3386280.3386287).
 <div id="8"></div>
 National Center for Education Statistics. “Children 3 to 21 years old served under Individuals with Disabilities Education Act (IDEA), Part B, by age group and sex, race/ethnicity, and type of disability: 2020-21.” _National Center for Education Statistics_, 2021, [https://nces.ed.gov/programs/digest/d21/tables/dt21_204.50.asp](https://nces.ed.gov/programs/digest/d21/tables/dt21_204.50.asp).
 <div id="9"></div>
-Policy and Global Affairs, et al. Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop. National Academies Press, 2022, https://nap.nationalacademies.org/catalog/26532/automated-research-workflows-for-accelerated-discovery-closing-the-knowledge-discovery. Accessed 14 October 2022.
+Policy and Global Affairs, et al. Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop. National Academies Press, 2022, [https://nap.nationalacademies.org/catalog/26532/automated-research-workflows-for-accelerated-discovery-closing-the-knowledge-discovery](https://nap.nationalacademies.org/catalog/26532/automated-research-workflows-for-accelerated-discovery-closing-the-knowledge-discovery). Accessed 14 October 2022.
 <div id="10"></div>
-United Nations. “Factsheet on Persons with Disabilities.” _United Nations_, Department of Economic and Social Affairs, https://www.un.org/development/desa/disabilities/resources/factsheet-on-persons-with-disabilities.html. Accessed 28 September 2022.
+United Nations. “Factsheet on Persons with Disabilities.” _United Nations_, Department of Economic and Social Affairs, [https://www.un.org/development/desa/disabilities/resources/factsheet-on-persons-with-disabilities.html](https://www.un.org/development/desa/disabilities/resources/factsheet-on-persons-with-disabilities.html). Accessed 28 September 2022.
 <div id="11"></div>
-Vegas, Emiliana, and Brian Fowler. “What do we know about the expansion of K-12 computer science education?” _Brookings Institution_, 4 August 2020, https://www.brookings.edu/research/what-do-we-know-about-the-expansion-of-k-12-computer-science-education/.
+Vegas, Emiliana, and Brian Fowler. “What do we know about the expansion of K-12 computer science education?” _Brookings Institution_, 4 August 2020, [https://www.brookings.edu/research/what-do-we-know-about-the-expansion-of-k-12-computer-science-education/](https://www.brookings.edu/research/what-do-we-know-about-the-expansion-of-k-12-computer-science-education/).
 <div id="12"></div>
 Wang, Lucy, et al. “Improving the accessibility of scientific documents.” _arXiv_, 2021. _arxiv.org_, [https://arxiv.org/pdf/2105.00076](https://arxiv.org/pdf/2105.00076).
 <div id="13"></div>
