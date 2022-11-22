@@ -10,6 +10,8 @@ plugins:
   - search
 theme:
   name: material
+  features:
+    - content.tooltips
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -35,6 +37,8 @@ extra:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - abbr
+  - pymdownx.snippets
 
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs

@@ -16,15 +16,15 @@ Truly open access, though, means more than free and available. When we say that 
 ## Barriers to access
 Barriers to accessing research are broad and can be related to a permanent or temporary disability, or situational factors. Vision impairments and learning disabilities can impede access to written material. If content display is not flexible then using a mobile device can be a barrier. Language barriers or lack of internet access are broadly experienced impediments to accessing research.
 
-Countless people around the globe encounter such barriers. People with disabilities are the world’s largest minority (United Nations). More than a quarter of the world’s population has a diagnosed vision impairment (World Health Organization), and vision loss is among the top ten disabilities in the United States (CDC). For much of the world, including english speaking deaf, written English is not their first language (Hrastinski and Wilbur). 20% of people in the United States have dyslexia (Yale Center for Dyslexia and Creativity), and 26% of people in the United States self-report living with at least one disability (Elavsky et al.). A wide array of temporary and situational impairments (such as bright or low light conditions, or a temporary loss of vision) affect many more who do not have a permanent disability diagnosis.
+Countless people around the globe encounter such barriers. People with disabilities are the world’s largest minority ([United Nations](#11 "United Nations. “Factsheet on Persons with Disabilities.” United Nations, Department of Economic and Social Affairs, https://www.un.org/development/desa/disabilities/resources/factsheet-on-persons-with-disabilities.html. Accessed 28 September 2022.")). More than a quarter of the world’s population has a diagnosed vision impairment ([World Health Organization](#16 "World Health Organization. World Report on Vision. 2019, https://www.who.int/publications-detail-redirect/9789241516570."")), and vision loss is among the top ten disabilities in the United States ([CDC](#3 "Centers for Disease Control and Prevention. “Burden of Vision Loss.” Centers for Disease Control and Prevention, 2020, https://www.cdc.gov/visionhealth/risk/burden.htm."")). For much of the world, including english speaking deaf, written English is not their first language ([Hrastinski and Wilbur](#7 "Hrastinski, Iva, and Ronnie B. Wilbur. “Academic Achievement of Deaf and Hard-of-Hearing Students in an ASL/English Bilingual Program.” Journal of Deaf Studies and Deaf Education, vol. 21, no. 2, 2016. https://www.jstor.org/stable/26172441.")). 20% of people in the United States have dyslexia ([Yale Center for Dyslexia and Creativity](#17 "Yale Center for Dyslexia and Creativity. “Dyslexia FAQ.” Yale Center for Dyslexia, https://dyslexia.yale.edu/dyslexia/dyslexia-faq/.")), and 26% of people in the United States self-report living with at least one disability ([Elavsky et al.](#6 "Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” Computer Graphics Forum, vol. 41, no. 3, 2022, https://www.frank.computer/chartability/.")). A wide array of temporary and situational impairments (such as bright or low light conditions, or a temporary loss of vision) affect many more who do not have a permanent disability diagnosis.
 
-**“Is there really open and immediate access for everyone, if scholars and students with disabilities cannot access and use research articles?”**(Wentz et al.)
+**“Is there really open and immediate access for everyone, if scholars and students with disabilities cannot access and use research articles?”**([Wentz et al.](#15 "Wentz, Brian, et al. “A Socio-Legal Framework for Improving the Accessibility of Research Articles for People With Disabilities.” Journal of Business & Technology Law, vol. 16, no. 223, 2021. DigitalCommons@UM Carey Law, https://digitalcommons.law.umaryland.edu/cgi/viewcontent.cgi?article=1333&context=jbtl"))
 
-In the United States, 14.5% of K-12 students have a recognized disability (National Center for Education Statistics). Ever increasing numbers of high school students are participating in Computer Science curriculums (Vegas and Fowler) and other STEM fields, so naturally the percent of students with disabilities in these courses is proportionally increasing as well (Code.org). These efforts will, over time, lead to more students with disabilities in higher education who will fully expect and demand equal access to the research output in their field.
+In the United States, 14.5% of K-12 students have a recognized disability ([National Center for Education Statistics](#9 "National Center for Education Statistics. “Children 3 to 21 years old served under Individuals with Disabilities Education Act, Part B, by age group and sex, race/ethnicity, and type of disability: 2020-21.” National Center for Education Statistics, 2021, https://nces.ed.gov/programs/digest/d21/tables/dt21_204.50.asp.")). Ever increasing numbers of high school students are participating in Computer Science curriculums ([Vegas and Fowler](#12 "Vegas, Emiliana, and Brian Fowler. “What do we know about the expansion of K-12 computer science education?” Brookings Institution, 4 August 2020, https://www.brookings.edu/research/what-do-we-know-about-the-expansion-of-k-12-computer-science-education/.")) and other STEM fields, so naturally the percent of students with disabilities in these courses is proportionally increasing as well ([Code.org](#5 "Code.org Advocacy Coalition, et al. “2022 State of Computer Science Education.” Code.org Advocacy Coalition, 2022, https://advocacy.code.org/2022_state_of_cs.pdf.")). These efforts will, over time, lead to more students with disabilities in higher education who will fully expect and demand equal access to the research output in their field.
 
 Furthermore, in the United States there are clear mandates for equivalent access to websites and federally funded research. The need to make research more accessible to all is evident and pressing.
 
-> "We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk."
+> **"We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk."**
 >
 > —Dr. Kimberly Arcand, data visualizer and science communicator
 
@@ -39,27 +39,27 @@ Despite the wealth of data around needs, and a web of regulations mandating equa
 ## Mandates
 Access is a critical effort in academia. In the USA, the White House recently released a policy [mandating open access for all federally funded research](https://www.whitehouse.gov/ostp/news-updates/2022/08/25/ostp-issues-guidance-to-make-federally-funded-research-freely-available-without-delay/), while [Plan S](https://www.coalition-s.org/) in Europe aims for no science to be locked behind paywalls. Internationally, we have the [FAIR principles](https://www.go-fair.org/fair-principles/) (of which arXiv is a signatory), and the [UNESCO recommendations on open science](https://en.unesco.org/science-sustainable-future/open-science/recommendation), among others. The movement towards open access is making clear and steady progress.
 
-The movement towards _accessibility_ of research, however, has stalled. Accessibility should be part of every conversation about access. Accessibility is a requirement for most federally funded research in many countries, but in practice only a very low percentage of research papers pass accessibility criteria (Wang et al.). And of these, even fewer pass a more careful human review (Elavsky et al.).
+The movement towards _accessibility_ of research, however, has stalled. Accessibility should be part of every conversation about access. Accessibility is a requirement for most federally funded research in many countries, but in practice only a very low percentage of research papers pass accessibility criteria ([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076.")). And of these, even fewer pass a more careful human review ([Elavsky et al.](#6 "Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” Computer Graphics Forum, vol. 41, no. 3, 2022, https://www.frank.computer/chartability/.")).
 
 There are formidable obstacles for researchers with disabilities to enter and participate in STEM fields. Foremost among them is equal access to research and data.
 
-> “The biggest barrier for me is the time you need to spend tracking down formats you can access in order to gain the same information available to everybody else.”
+> **“The biggest barrier for me is the time you need to spend tracking down formats you can access in order to gain the same information available to everybody else.”**
 >
 > —Robin Williams, statistician
 
-Existing legal mandates include making websites and federally funded content accessible to all users. Further regulations continue to gain momentum at the Federal level in the USA(ADA Title III). Furthermore, educational experts have been hard at work for decades transforming primary education to be more inclusive, which will put pressure on all areas of higher education as more diverse students enter STEM, including on repositories of scientific research like arXiv.
+Existing legal mandates include making websites and federally funded content accessible to all users. Further regulations continue to gain momentum at the Federal level in the USA ([ADA Title III](#14 "“Website Accessibility Regulations On The Horizon: DOJ To Start Title II Rulemaking For State and Local Governments Next Year.” ADA Title III, Seyfarth, 29 July 2022, https://www.adatitleiii.com/2022/07/website-accessibility-regulations-on-the-horizon-doj-to-start-title-ii-rulemaking-for-state-and-local-governments-next-year/.")). Furthermore, educational experts have been hard at work for decades transforming primary education to be more inclusive, which will put pressure on all areas of higher education as more diverse students enter STEM, including on repositories of scientific research like arXiv.
 
-> “There is work going on earlier in the pipeline, for example making mathematical language accessible to high schoolers. As more people with disabilities enter STEM fields, students will have the expectation of accessing information.”
+> **“There is work going on earlier in the pipeline, for example making mathematical language accessible to high schoolers. As more people with disabilities enter STEM fields, students will have the expectation of accessing information.”**
 >
 > —Joe Zesski, Assistant Director, Northeast ADA Center
 
 Most importantly, arXiv has a mandate from our global community to improve access. Scientists need this and the research community is asking for it. One way of meeting these mandates is through well formatted HTML.
 
-HTML is also the foundation of machine readability with major repercussions for the future of scientific discovery. The science that researchers share on arXiv is important, and automated research flows using machine learning are increasingly relied upon for accelerating discovery.(Policy and Global Affairs et al.) Semantic markup and accessibility for assistive technology is a good first step towards ensuring the arXiv repository better supports emerging approaches to conducting science.
+HTML is also the foundation of machine readability with major repercussions for the future of scientific discovery. The science that researchers share on arXiv is important, and automated research flows using machine learning are increasingly relied upon for accelerating discovery.([Policy and Global Affairs et al.](#9 "Policy and Global Affairs, et al. Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop. National Academies Press, 2022, https://nap.nationalacademies.org/catalog/26532/automated-research-workflows-for-accelerated-discovery-closing-the-knowledge-discovery. Accessed 14 October 2022.")) Semantic markup and accessibility for assistive technology is a good first step towards ensuring the arXiv repository better supports emerging approaches to conducting science.
 
 arXiv’s long-term mission is simply to serve the needs of the scientific community. Everyone should be able to participate in the wealth of scientific knowledge contributed to arXiv by researchers from all over the world. Accessibility is the next logical step.
 
-> “Research should be accessible for everyone in the broadest possible way.”
+> **“Research should be accessible for everyone in the broadest possible way.”**
 >
 > —Dr. Shiri Azenkot, Associate Professor and Accessibility researcher
 
@@ -70,12 +70,13 @@ For authors, PDF offers a reliable visual format for sharing and disseminating t
 
 However, the format has serious limitations that have had a profound impact on the accessibility of research. PDF is not a suitable format for the web and has low native accessibility. PDFs are challenging for people with a variety of reading disabilities, including blindness, low vision, dyslexia, and more. It is time consuming to improve the accessibility of PDFs, and even if this work is done it has no effect on its poor mobile performance.
 
-“The best PDF will ever achieve is what HTML delivers. All it can do is catch up.” \
-—Dr. Jonathan Godfrey, Senior Lecturer in Statistics
+> “The best PDF will ever achieve is what HTML delivers. All it can do is catch up.”
+>
+> —Dr. Jonathan Godfrey, Senior Lecturer in Statistics
 
 Research from the Allen AI institute reports a miserably low accessibility rate for research papers:
 
-**“PDF accessibility adherence is low across all fields of study. Of the five accessibility criteria we assess, only 2.4% of the PDFs we assess demonstrate full compliance.”**(Wang et al.)
+**“PDF accessibility adherence is low across all fields of study. Of the five accessibility criteria we assess, only 2.4% of the PDFs we assess demonstrate full compliance.”**([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076."))
 
 Screen readers rely on semantic markup (for example headers, images, formulas, and so on) to correctly interpret content. PDFs do not natively include semantic properties, and it must be tagged with this information after the fact to make it accessible. Tagging is time consuming, takes specialized knowledge, and requires proprietary tools. These tools (and the expertise to use them) are not free, nor are they intuitive. Adobe’s own manual for making PDFs accessible is 94 pages long! (Elavsky et al.) In addition, if you find you need to regenerate the PDF again for any reason, you must tag the document again from scratch.
 
@@ -1044,39 +1045,39 @@ It is not an easy goal, but it is an achievable one. And because of arXiv’s re
 
 ## Works Cited
 <div class="a11y-citations" markdown='1'>
-
+<div id="1"></div>
 Adobe. “The case for reimagining reading.” _Adobe Blog_, 5 December 2018, https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic.
-
+<div id="2"></div>
 Bingham, Jeffrey P., et al. “An Uninteresting Tour Through Why Our Research Papers Aren’t Accessible.” _ACM CHI_, 2016. http://dx.doi.org/10.1145/2851581.2892588.
-
+<div id="3"></div>
 Centers for Disease Control and Prevention. “Burden of Vision Loss.” _Centers for Disease Control and Prevention_, 2020, https://www.cdc.gov/visionhealth/risk/burden.htm.
-
+<div id="4"></div>
 CERN. “The birth of the Web.” _CERN_, https://home.cern/science/computing/birth-web.
-
+<div id="5"></div>
 Code.org Advocacy Coalition, et al. “2022 State of Computer Science Education.” Code.org Advocacy Coalition, 2022, https://advocacy.code.org/2022_state_of_cs.pdf.
-
+<div id="6"></div>
 Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” _Computer Graphics Forum_, vol. 41, no. 3, 2022, https://www.frank.computer/chartability/.
-
+<div id="6"></div>
 Hrastinski, Iva, and Ronnie B. Wilbur. “Academic Achievement of Deaf and Hard-of-Hearing Students in an ASL/English Bilingual Program.” _Journal of Deaf Studies and Deaf Education_, vol. 21, no. 2, 2016. [https://www.jstor.org/stable/26172441](https://www.jstor.org/stable/26172441).
-
+<div id="7"></div>
 Mankoff, Jennifer, et al. “2019 Access SIGCHI report.” _ACM SIGACCESS Accessibility and Computing_, no. 126, 2020. https://doi.org/10.1145/3386280.3386287.
-
+<div id="8"></div>
 National Center for Education Statistics. “Children 3 to 21 years old served under Individuals with Disabilities Education Act (IDEA), Part B, by age group and sex, race/ethnicity, and type of disability: 2020-21.” _National Center for Education Statistics_, 2021, [https://nces.ed.gov/programs/digest/d21/tables/dt21_204.50.asp](https://nces.ed.gov/programs/digest/d21/tables/dt21_204.50.asp).
-
+<div id="9"></div>
 Policy and Global Affairs, et al. Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop. National Academies Press, 2022, https://nap.nationalacademies.org/catalog/26532/automated-research-workflows-for-accelerated-discovery-closing-the-knowledge-discovery. Accessed 14 October 2022.
-
+<div id="10"></div>
 United Nations. “Factsheet on Persons with Disabilities.” _United Nations_, Department of Economic and Social Affairs, https://www.un.org/development/desa/disabilities/resources/factsheet-on-persons-with-disabilities.html. Accessed 28 September 2022.
-
+<div id="11"></div>
 Vegas, Emiliana, and Brian Fowler. “What do we know about the expansion of K-12 computer science education?” _Brookings Institution_, 4 August 2020, https://www.brookings.edu/research/what-do-we-know-about-the-expansion-of-k-12-computer-science-education/.
-
+<div id="12"></div>
 Wang, Lucy, et al. “Improving the accessibility of scientific documents.” _arXiv_, 2021. _arxiv.org_, [https://arxiv.org/pdf/2105.00076](https://arxiv.org/pdf/2105.00076).
-
+<div id="13"></div>
 “Website Accessibility Regulations On The Horizon: DOJ To Start Title II Rulemaking For State and Local Governments Next Year.” _ADA Title III_, Seyfarth, 29 July 2022, [https://www.adatitleiii.com/2022/07/website-accessibility-regulations-on-the-horizon-doj-to-start-title-ii-rulemaking-for-state-and-local-governments-next-year/](https://www.adatitleiii.com/2022/07/website-accessibility-regulations-on-the-horizon-doj-to-start-title-ii-rulemaking-for-state-and-local-governments-next-year/).
-
+<div id="14"></div>
 Wentz, Brian, et al. “A Socio-Legal Framework for Improving the Accessibility of Research Articles for People With Disabilities.” _Journal of Business & Technology Law_, vol. 16, no. 223, 2021. _DigitalCommons@UM Carey Law_, [https://digitalcommons.law.umaryland.edu/cgi/viewcontent.cgi?article=1333&context=jbtl](https://digitalcommons.law.umaryland.edu/cgi/viewcontent.cgi?article=1333&context=jbtl)
-
+<div id="15"></div>
 World Health Organization. _World Report on Vision_. 2019, [https://www.who.int/publications-detail-redirect/9789241516570](https://www.who.int/publications-detail-redirect/9789241516570).
-
+<div id="16"></div>
 Yale Center for Dyslexia and Creativity. “Dyslexia FAQ.” _Yale Center for Dyslexia_, [https://dyslexia.yale.edu/dyslexia/dyslexia-faq/](https://dyslexia.yale.edu/dyslexia/dyslexia-faq/).
 
 </div>

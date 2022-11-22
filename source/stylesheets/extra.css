@@ -366,18 +366,18 @@ ol.color-blocks li img {
 .a11y-report {
   font-family: freight-text-pro, serif;
 }
-.a11y-citations {
+.a11y-report .a11y-citations {
 
 }
-.abstract-intro {
+.a11y-report .abstract-intro {
   font-family: freight-sans-pro, sans-serif;
   line-height: 2em;
 }
-.authors {
+.a11y-report .authors {
   text-align: center;
   line-height: 1.25em;
 }
-.section-head {
+.a11y-report .section-head {
   display: block;
   border-top: 1px solid #b31b1b;
   padding: .5em 0 0 0;
@@ -385,13 +385,24 @@ ol.color-blocks li img {
   font-family: freight-text-pro, serif;
   font-style: italic;
 }
-.section-summary {
+.a11y-report .section-summary {
   font-style: italic;
   font-family: freight-text-pro, serif;
 }
+.a11y-report blockquote {
+  background: transparent !important;
+}
+.a11y-report blockquote strong {
+  font-size: 1.6em;
+  font-family: freight-text-pro;
+  font-weight: 500;
+}
 @media (min-width: 576px) {
-  .abstract-intro, .authors {
+  .a11y-report .abstract-intro, .a11y-report .authors {
     margin: 0 4em 2em 4em;
+  }
+  .a11y-report blockquote {
+    padding: 1.5em 2.5em !important;
   }
 }
 
