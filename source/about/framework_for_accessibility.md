@@ -449,7 +449,7 @@ When asked what the biggest barriers were to accessing papers, PDF formatting to
    </td>
   </tr>
   <tr>
-   <td>Other (please type)
+   <td>Other
    </td>
    <td>5%
    </td>
