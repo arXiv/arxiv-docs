@@ -2,7 +2,7 @@
 
 <div class="a11y-report" markdown='1'>
 
-*Shamsi Brinn, Christopher Cameron, David Fielding, Charles Frankston, Alison Fromme, Peter Huang, Mark Nazzaro, Stephanie Orphan, Ryan Tay, Miranda Yang, Qianyu Zhou*
+*Shamsi Brinn, Christopher Cameron, David Fielding, Charles Frankston, Alison Fromme, Peter Huang, Mark Nazzaro, Stephanie Orphan, Steinn Sigurdsson, Ryan Tay, Miranda Yang, Qianyu Zhou*
 { .authors }
 
 **Abstract:** The research content hosted by arXiv is not fully accessible to everyone due to disabilities and other barriers. This matters because a significant proportion of people have reading and visual disabilities, it is important to our community that arXiv is as open as possible, and if science is to advance, we need wide and diverse participation. In addition, we have mandates to become accessible, and accessible content benefits everyone. In this paper, we will describe the accessibility problems with research, review current mitigations (and explain why they aren’t sufficient), and share the results of our user research with scientists and accessibility experts. Finally, we will present arXiv’s proposed next step towards more open science: offering HTML alongside existing PDF and TeX formats.
