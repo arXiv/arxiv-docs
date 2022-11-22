@@ -70,7 +70,7 @@ For authors, PDF offers a reliable visual format for sharing and disseminating t
 
 However, the format has serious limitations that have had a profound impact on the accessibility of research. PDF is not a suitable format for the web and has low native accessibility. PDFs are challenging for people with a variety of reading disabilities, including blindness, low vision, dyslexia, and more. It is time consuming to improve the accessibility of PDFs, and even if this work is done it has no effect on its poor mobile performance.
 
-> “The best PDF will ever achieve is what HTML delivers. All it can do is catch up.”
+> **“The best PDF will ever achieve is what HTML delivers. All it can do is catch up.”**
 >
 > —Dr. Jonathan Godfrey, Senior Lecturer in Statistics
 
@@ -78,21 +78,21 @@ Research from the Allen AI institute reports a miserably low accessibility rate 
 
 **“PDF accessibility adherence is low across all fields of study. Of the five accessibility criteria we assess, only 2.4% of the PDFs we assess demonstrate full compliance.”**([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076."))
 
-Screen readers rely on semantic markup (for example headers, images, formulas, and so on) to correctly interpret content. PDFs do not natively include semantic properties, and it must be tagged with this information after the fact to make it accessible. Tagging is time consuming, takes specialized knowledge, and requires proprietary tools. These tools (and the expertise to use them) are not free, nor are they intuitive. Adobe’s own manual for making PDFs accessible is 94 pages long! (Elavsky et al.) In addition, if you find you need to regenerate the PDF again for any reason, you must tag the document again from scratch.
+Screen readers rely on semantic markup (for example headers, images, formulas, and so on) to correctly interpret content. PDFs do not natively include semantic properties, and it must be tagged with this information after the fact to make it accessible. Tagging is time consuming, takes specialized knowledge, and requires proprietary tools. These tools (and the expertise to use them) are not free, nor are they intuitive. Adobe’s own manual for making PDFs accessible is 94 pages long! ([Elavsky et al.](#6 "Elavsky, Frank, et al. “How accessible is my visualization? Evaluating visualization accessibility with Chartability.” Computer Graphics Forum, vol. 41, no. 3, 2022, https://www.frank.computer/chartability/.")) In addition, if you find you need to regenerate the PDF again for any reason, you must tag the document again from scratch.
 
 It is perhaps not surprising then that efforts to promote tagging PDFs for accessibility have not become the norm in academic publishing.
 
-**“In CHI 2014, a year in which considerable effort was spent giving author’s feedback on the accessibility of their documents, only 26.8% included any document tags at all.”**(Bingham et al.)
+**“In CHI 2014, a year in which considerable effort was spent giving author’s feedback on the accessibility of their documents, only 26.8% included any document tags at all.”**([Bingham et al.](#2 "Bingham, Jeffrey P., et al. “An Uninteresting Tour Through Why Our Research Papers Aren’t Accessible.” ACM CHI, 2016. http://dx.doi.org/10.1145/2851581.2892588."))
 
-**“The criterion with the lowest rate of compliance is Alt-text, which has remained stable between 5–10% and has been lower in recent years. Since Alt-text is the only criterion of the five which always necessitates author intervention, we believe this is a sign that authors have not become more attuned to accessibility needs.”**(Wang et al.)
+**“The criterion with the lowest rate of compliance is Alt-text, which has remained stable between 5–10% and has been lower in recent years. Since Alt-text is the only criterion of the five which always necessitates author intervention, we believe this is a sign that authors have not become more attuned to accessibility needs.”**([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076."))
 
 Even when this manual work is done the resulting PDF is still only partially accessible: Two column layouts often confuse screen reader software; Text and graphics don’t reflow in mobile devices or with magnification; There is limited parsability for third party tools; And if math and data visualizations did have rich markup in the original source—such as a TeX formula or a SVG graph—the data are often flattened when the PDF is generated.
 
-The typesetting software used to generate PDF results in differing levels of accessibility, with Microsoft Word producing the highest level of compliance, and LaTeX producing the lowest (Wang et al.). In the scientific fields that arXiv covers, LaTeX is widely used, and 90% of arXiv’s corpus in recent years was submitted as TeX source. The LaTeX core team is working on generating more accessible PDFs, and we plan to incorporate this work into arXiv when it is released.
+The typesetting software used to generate PDF results in differing levels of accessibility, with Microsoft Word producing the highest level of compliance, and LaTeX producing the lowest ([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076.")). In the scientific fields that arXiv covers, LaTeX is widely used, and 90% of arXiv’s corpus in recent years was submitted as TeX source. The LaTeX core team is working on generating more accessible PDFs, and we plan to incorporate this work into arXiv when it is released.
 
-On mobile devices, PDFs are far behind standard and don’t meet basic user expectations. Research done by Adobe found that 65% of Americans find consuming content on mobile frustrating; 45% stopped reading or didn’t even try; and 72% say they would work on their mobile devices more if it were easier to read documents (Adobe). Mobile needs in academia vary widely, from a researcher catching up on a paper while traveling, to one with limited access to technology using their mobile phone as their only option for reading papers. Flexible reflow of content is a must to expand access and efficiency.
+On mobile devices, PDFs are far behind standard and don’t meet basic user expectations. Research done by Adobe found that 65% of Americans find consuming content on mobile frustrating; 45% stopped reading or didn’t even try; and 72% say they would work on their mobile devices more if it were easier to read documents ([Adobe](#1 "Adobe. “The case for reimagining reading.” Adobe Blog, 5 December 2018, https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic.")). Mobile needs in academia vary widely, from a researcher catching up on a paper while traveling, to one with limited access to technology using their mobile phone as their only option for reading papers. Flexible reflow of content is a must to expand access and efficiency.
 
-> “You can make PDF accessible, but screen readers are much more efficient when working with HTML. To tag PDF you need specialized skills and tools. For HTML, all these things are comparatively easier.”
+> **“You can make PDF accessible, but screen readers are much more efficient when working with HTML. To tag PDF you need specialized skills and tools. For HTML, all these things are comparatively easier.”**
 >
 > —Avneesh Singh, chair, accessibility task force - W3C EPUB 3 Working Group and Publishing Community Group
 
@@ -645,7 +645,7 @@ Other suggestions included:
 * Add dark mode, and
 * To keep arXiv going:
 
-***“I REALLY appreciate the arXiv service. I can't afford to subscribe to a plethora of physics journals. Hats off to the arXiv team!”***
+**“I REALLY appreciate the arXiv service. I can't afford to subscribe to a plethora of physics journals. Hats off to the arXiv team!”**
 
 ### Interviews
 To better understand the ecosystem arXiv is operating in, we interviewed a wide range of researchers from the larger arXiv community.
@@ -680,13 +680,14 @@ To evaluate the user journey we sorted feedback into five primary user goals: Fi
 Most steps were dominated by negative experiences, with only Find Research being mostly positive.
 
 ![Stacked Bar Chart](../assets/pos-neg-stacked.png){alt='This graphic displays a stacked bar chart for each step of the user journey showing the percent of positive vs. negative experiences. Find research: 38% negative, 62% positive. Read papers: 83% negative, 17% positive. Participate in scholarship: 67% negative, 33% positive. Write papers: 89% negative, 11% positive. Submit papers: 57% negative, 43% positive.'}
-_Figure 1. The stacked bar chart shows the percent of positive vs. negative experiences at each step in the user journey. _
+
+*Figure 1. The stacked bar chart shows the percent of positive vs. negative experiences at each step in the user journey.*
 
 *Read Research* elicited the highest number of comments, followed by *Prepare my Document*.
 
 ![Positive/Negative bar charts divided by step](../assets/pos-neg.png){alt='This graphic displays each of the five steps as an individual positive/negative bar chart. The number of bars at each step shows the number of experiences, while the height of each bar represent the impact score. Varying numbers of experiences were shared for each step, with Read eliciting the most by far. Find research: 12. Read papers: 57. Participate in scholarship: 17. Write papers: 27. Submit: 14.'}
 
-_Figure 2. Each bar in this positive/negative bar chart represents one experience shared by a participant, while the height of each bar represents it’s impact. It is immediately clear that *Read Papers* elicited the most observations, and most are negative experiences of high impact. _
+*Figure 2. Each bar in this positive/negative bar chart represents one experience shared by a participant, while the height of each bar represents it’s impact. It is immediately clear that **Read Papers** elicited the most observations, and most are negative experiences of high impact.*
 
 ##### Themes
 
@@ -1043,7 +1044,7 @@ Adding HTML will allow all researchers to experience its benefits, try new workf
 
 It is not an easy goal, but it is an achievable one. And because of arXiv’s reach across many fields and control over the submission pipeline we are positioned to leverage HTML in an impactful way.
 
-## Works Cited
+## References
 <div class="a11y-citations" markdown='1'>
 <div id="1"></div>
 Adobe. “The case for reimagining reading.” _Adobe Blog_, 5 December 2018, https://blog.adobe.com/en/fpost/2020/reimagining-reading-infographic.
