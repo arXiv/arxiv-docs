@@ -1,10 +1,7 @@
-# TODO for migration to mkdocs
+# Migration to mkdocs
 
 ### TODO Review content and nav 
-- Problem [/about/ourmembers.html](about/ourmembers.md) Top 100 and others a bit strange due to custom styles (DONE)
-
-- Very broken due to custom jinja code [/about/people/leadership_team.html](about/people/leadership_team.md) (DONE)
-
+>
 - Support confirm and membership confirm seems like duplicates? (I think they are different. Left as is)
 
 - Our supporters and our members seem like duplicates? (left as is. Will tackle this question with Jim and Alison during future planned content rehaul)
@@ -15,46 +12,13 @@
   [/help/announcement.html](help/announcement.md) 
   [/help/submit_html.html](help/submit_html.md) 
 
-
-- User testing api and user testing group seem very similar? (Kept both, they are unique use cases. Differentiated title more)
-
-- [/about/reports/whitepaper.html ](/about/reports/whitepaper.html ) could use a better name  (DONE)
-
-- No content on these pages:  (DONE. removed empty pages below, + others as found)
-[/help/donate.html](help/donate.md) 
-[/help/general.html](help/general.md) 
-[/help/primer.html](help/primer.md) 
-[/help/submission-policy.html](help/submission-policy.md) 
-[/help/support.html](help/support.md) 
-[/help/terms_of_submission.html](help/terms_of_submission.md) 
-[/help/toc.html](help/toc.md) 
-
-- [/help/whytex.html](help/whytex.md) fix link to [/help/textures](help/faq/textures.md)  (DONE)
-
-- Broken images on [/help/withdraw.html](help/withdraw.md) (DONE)
-
-- very broken: [/labs/showcase.html](labs/showcase.md) (DONE)
-
-- Remove GZip help (DONE)
-
-- Remove my.arxiv.org page. my.arxiv.org no longer exists  (DONE)
-[/help/my_arxiv.html](help/my_arxiv.md)
-
-- Images broken on [/help/orcid.html](help/orcid.md) (DONE)
-
-- Are we trying to get TeX on this page on the subject heading "Notes on Note on La$\TeX$ accent commands" ? [/help/prep.html](help/prep.md) (I think it is correct so left as is. But pending feedback from Jake or Jim)
-
-- Can probably get rid of this page: [/help/ssl.html](help/ssl.md) It's old news and standard practice.  (DONE)
-
-- [/help/submit_index.html](help/submit_index.md) needs better title.  (DONE)
-
-
-### TODO Fix titles of many pages  (DONE)
+### TODO Membership banner for arxiv-docs mkdocs
 ### TODO Write instructions for use of arxiv-docs that work for SB JE and AF (BC)
 ### TODO Duplicate any edits made in master to the mkdocks-material branch (BC)
 As of 2022-10-21, done up through 2022-10-17
 
 ### TODO Add redirects to httpd for arxiv.org to docs.arxiv.org
+BC has a set of code in arxiv-httpd that does this.
 
 ### TODO Find and fix Broken pages second pass 
 
@@ -131,3 +95,44 @@ Using `urlchange.py` script from commit 705745c to create changes in 17fa1d1
 - DONE [/about/principles.html](about/principles.md) strange text like <sup1</sup
 - DONE [/help/submit_sword.html](help/submit_sword.md) Link to arxiv.org/help/contact
 - DONE Has bad raw jinja: `{% raw %}\hypersetup` [/help/submit_tex.html](help/submit_tex.md) 
+
+### DONE Second pass (SB)
+- Problem [/about/ourmembers.html](about/ourmembers.md) Top 100 and others a bit strange due to custom styles (DONE)
+
+- Very broken due to custom jinja code [/about/people/leadership_team.html](about/people/leadership_team.md) (DONE)
+
+- [/about/reports/whitepaper.html ](/about/reports/whitepaper.html ) could use a better name  (DONE)
+
+- User testing api and user testing group seem very similar? (Kept both, they are unique use cases. Differentiated title more)
+
+
+- No content on these pages:  (DONE. removed empty pages below, + others as found)
+[/help/donate.html](help/donate.md) 
+[/help/general.html](help/general.md) 
+[/help/primer.html](help/primer.md) 
+[/help/submission-policy.html](help/submission-policy.md) 
+[/help/support.html](help/support.md) 
+[/help/terms_of_submission.html](help/terms_of_submission.md) 
+[/help/toc.html](help/toc.md) 
+
+- [/help/whytex.html](help/whytex.md) fix link to [/help/textures](help/faq/textures.md)  (DONE)
+
+- Broken images on [/help/withdraw.html](help/withdraw.md) (DONE)
+
+- very broken: [/labs/showcase.html](labs/showcase.md) (DONE)
+
+- Remove GZip help (DONE)
+
+- Remove my.arxiv.org page. my.arxiv.org no longer exists  (DONE)
+[/help/my_arxiv.html](help/my_arxiv.md)
+
+- Images broken on [/help/orcid.html](help/orcid.md) (DONE)
+
+- Are we trying to get TeX on this page on the subject heading "Notes on Note on La$\TeX$ accent commands" ? [/help/prep.html](help/prep.md) (I think it is correct so left as is. But pending feedback from Jake or Jim)
+
+- Can probably get rid of this page: [/help/ssl.html](help/ssl.md) It's old news and standard practice.  (DONE)
+
+- [/help/submit_index.html](help/submit_index.md) needs better title.  (DONE)
+
+
+### TODO Fix titles of many pages  (DONE)
