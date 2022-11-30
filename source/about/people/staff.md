@@ -13,5 +13,5 @@
 - Brian Maltzan, Backend Python Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
-- Jake Weiskoff, Senior Content & User Support Specialist
+- Jake Weiskoff, arXiv Technical Support Manager
 - Ramin Zabih, Faculty Director
