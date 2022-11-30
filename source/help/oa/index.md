@@ -1,5 +1,4 @@
-Open Archives Initiative (OAI)
-==============================
+# Open Archives Initiative (OAI)
 
 arXiv supports and participates in the [Open Archives Initiative](http://www.openarchives.org/) (OAI). arXiv is a registered OAI-PMH [data-provider](http://www.openarchives.org/Register/BrowseSites.pl) and provides metadata for all submissions which is updated each night shortly after new submissions are announced. Metadata for arXiv articles may be reused in non-commercial and commercial systems.
 

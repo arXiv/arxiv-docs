@@ -1,5 +1,4 @@
-Submission Status
-=================
+# Submission Status
 
 A new submission or an update to an article (replacement, cross list,
 journal reference or DOI addition, or withdrawal) may traverse several

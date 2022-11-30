@@ -1,4 +1,4 @@
-# Member Advisory Board (MAB) Bylaws
+# Bylaws of the Member Advisory Board
 
 The arXiv Bylaws were established in 2012 and may be amended, or new articles adopted, by the consensual agreement of the Board members.
 

@@ -1,5 +1,5 @@
-External URL's under X
-======================
+# External URL's under X
+
 ```
 Date: Sat, 16 Jul 94 12:49:47 MDT
 From: tanmoy@qcd.lanl.gov (Tanmoy Bhattacharya)

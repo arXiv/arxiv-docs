@@ -1,5 +1,4 @@
-Translations
-============
+# Translations
 
 arXiv does accept translations of previously published work, if that
 work has value to the scientific communities represented in arXiv.

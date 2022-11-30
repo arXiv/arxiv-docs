@@ -1,12 +1,6 @@
----
-title: Title and Abstract Fields
----
+# Title and Abstract Fields
 
-Title and Abstract Fields ([Metadata](http://en.wikipedia.org/wiki/Metadata))
-=============================================================================
-
-This help document explains the format of metadata fields for arXiv
-submissions — it explains how to fill out the various fields on the web
+This help document explains the format of [Metadata](http://en.wikipedia.org/wiki/Metadata) fields for arXiv submissions — it explains how to fill out the various fields on the web
 submission form. The possible information fields are:
 
 -   **[Title:](#title)** *required*
@@ -80,7 +74,7 @@ Information Fields
     reason, is possible grounds for immediate and permanent suspension.
 -   It is the responsibility of the submitter to ensure that all authors
     [consent to the article being submitted](authority.md#coauthor).
--   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission. 
+-   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission.
 -   Anonymous submissions are not accepted. Complete, and accurate author information is required.
     -   For named collaborations, it is acceptable to only use the collaboration name within the metadata, however a complete list of all authors and their affiliations must be contained in the full printed text.
 
@@ -90,7 +84,7 @@ Information Fields
 -   In order to automate indexing and searching, it is required that
     authors to be listed in a standard format across arXiv. It is not required for author names to be in order of contribution, as this is occasionally field and target journal dependent. Names must be given in
     the order: Firstname Lastname or Firstname Middlename Lastname
-    (where Lastname is your family name). Do not include honorifics, such as "Dr.", "Professor", etc. 
+    (where Lastname is your family name). Do not include honorifics, such as "Dr.", "Professor", etc.
 -   Include the names of *all authors* instead of truncating the list
     with "*et al.*". This is necessary to support search and indexing.
     Multiple author names should be separated with a comma,
@@ -110,7 +104,7 @@ Information Fields
     must include \`Jr.' or similar suffix to a name then they must not
     be separated from the main name by a comma, enter simply
     `Bill Gates Jr` or `Fred Bloggs IV`. Names such as
-    `John von Neumann` are entered exactly as illustrated. 
+    `John von Neumann` are entered exactly as illustrated.
     Do not include degree-granted suffixes such as "MD", "PhD", "MSc", "BSc", etc.
 -   Affiliations must be placed within parentheses. Do not enter full
     mailing address, as these are not needed in our metadata. If

@@ -1,12 +1,21 @@
-Computer Modern Postscript Fonts in Adobe Type I Format
-=======================================================
+# PostScript Fonts
 
-Postscript Type I fonts are device-independent and
+Computer Modern Postscript Fonts in Adobe Type I Format are device-independent and
 resolution-independent outline fonts for use in Postscript documents.
 There are four sets of Type I fonts of interest to users of the archives
 and TeX users in general. These are the Bakoma, Blue-Sky, AMSFonts, and
 Paradissa font sets. Depending on your software, they may also display
 much better than traditional bitmap fonts (give them a try).
+
+Scalable Type I or Type 1 (variously written with a Latin and Roman one)
+fonts contain explicit PostScript instructions for drawing each
+character, rather than a bitmap of the result. They are always rendered
+at the correct resolution for whatever device you are using to view or
+print the PostScript.
+
+To view and print PostScript with Type 1 fonts you will need to have the
+correct fonts installed on your local system. We have notes on setting
+up [Type 1 PostScript fonts on Linux](type1linux.md).
 
 The Bakoma fonts are a version of Computer Modern (the standard TeX
 font) which have been freely available for some time. The Blue-Sky fonts

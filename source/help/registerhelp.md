@@ -1,5 +1,4 @@
-Directions for Author Registration
-==================================
+# Author Registration
 
 To begin registration, visit the [registration form](https://arxiv.org/user/register).
 First, we will ask for your e-mail and you will get to pick a user name

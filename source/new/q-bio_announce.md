@@ -1,4 +1,4 @@
-### Announcement of new Quantitative Biology (q-bio_announce.md) archive
+# Announcement of new Quantitative Biology (q-bio_announce.md) archive
 
 15 Sept 2003
 
@@ -14,6 +14,6 @@ It is our hope that the q-bio archive can eventually provide a greater community
 
 With best wishes,
 
-  
+
 [Terry Hwa](http://matisse.ucsd.edu/~hwa/) and [Michael Lässig](http://www.thp.Uni-Koeln.DE/~lassig/)  
 q-bio coordinators

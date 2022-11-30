@@ -1,5 +1,4 @@
-Third party submission
-======================
+# Third party submission
 
 In general [author self-submission](submit.md) is preferred because our
 experience shows that there are far fewer errors and misunderstandings
@@ -42,8 +41,8 @@ the requirements below will be met.
 -   Proxy submitters must provide a valid contact email address to a
     reliable and named contact person when creating an arXiv account.
 -   Articles are subject to
-    arXiv's [moderation process](moderation/index.md). 
--   As part of moderation, arXiv does not accept duplicate content. If a work already exists on arXiv then any [new versions](versions.md) should be replacements of the existing arXiv version. In cases where an author already has a paper on arXiv and the same paper or updated version of the same paper is submitted from a proxy, the submission will not be accepted as a new work. arXiv will inform the proxy of the existing arXiv identifier and how to post the new version [as a replacement](replace.md). 
+    arXiv's [moderation process](moderation/index.md).
+-   As part of moderation, arXiv does not accept duplicate content. If a work already exists on arXiv then any [new versions](versions.md) should be replacements of the existing arXiv version. In cases where an author already has a paper on arXiv and the same paper or updated version of the same paper is submitted from a proxy, the submission will not be accepted as a new work. arXiv will inform the proxy of the existing arXiv identifier and how to post the new version [as a replacement](replace.md).
 -   Articles must be classified individually and carefully based on
     their content rather than being submitted to a category based solely
     on the focus of the conference or journal in which they appear.

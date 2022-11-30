@@ -1,5 +1,4 @@
-Creating `tar.gz` and `zip` Files
-=================================
+# Creating `tar.gz` and `zip` Files
 
 Many submissions have multiple files and are much more convenient to
 upload if packaged in a single file. Two good utilities for doing this

@@ -1,32 +1,8 @@
-Accessibility at arXiv
-======================
-
-<style>
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-</style>
+# Accessibility at arXiv
 
 arXiv is committed to creating an accessible experience for all users. Below is our thinking behind this commitment and our roadmap for reaching and sustainably maintaining an accessible platform for the entire arXiv community.
+{ .intro }
 
-## Table of contents
-
-- [Important Terms](#terms)
-- [Accessible arXiv](#business-case)
-- [Roadmap to Accessibility](#roadmap)
-- [How the arXiv community can help](#help)
-
-<span id="terms"></span>
 ## Important terms
 
 **Accessibility** = The practice of making a website functional for as many people as possible, including those using assistive technologies.
@@ -35,7 +11,6 @@ arXiv is committed to creating an accessible experience for all users. Below is 
 
 **WCAG** = The Web Content Accessibility Guidelines are developed and maintained by the W3C, who also develop international web standards for HTML, CSS, and more. The WCAG, while not law, are the most widely recognized set of guidelines to address web access for people with disabilities, and WCAG level 2.0 compliance is mandated by Cornell University.
 
-<span id="business-case"></span>
 ## Accessible arXiv
 
 The arXiv community is diverse in every way and includes users with visual or other impairments, those who use assistive technology, and many other factors that can affect one's ability navigate the internet. Maintaining, expanding, and improving access for all users is our prime directive and must necessarily include accessibility.
@@ -53,16 +28,13 @@ The reasons for prioritizing accessibility are vast but below are the top ten we
 9. Studies have shown that an [accessibility-focused development mindset leads to more innovation](https://habengirma.com/2017/09/13/people-with-disabilities-drive-innovation/) and higher levels of satisfaction for all users. When we shift our thinking away from the minimum legal compliance to focus instead on the opportunity and creative challenge of building better experiences for everyone, we create a more sustainable, user experience-oriented approach to development. Accessible thinking - which emphasizes clarity of content and meaning - has far-reaching positive impacts on the overall user experience.
 10. Last but not least accessibility is not just a great business practice and the right thing to do, it is a legal requirement and Cornell University policy.
 
-<span id="roadmap"></span>
 ## Roadmap to accessibility
-
-We are currently making significant strides to improve access for those using assistive technologies on arXiv's classic codebase, while the new arXiv web platform is "born accessible"&mdash;built with accessibility in mind from the ground up. Accessible browsing, searching, and downloading is the first priority of the new platform, while a new submission interface and accessible moderator and administrative tools will follow. In addition another high priority goal at arXiv is to assist users in making their research content as accessible as possible upon submittal.
+After extensive research with diverse arXiv users, we have shared our findings in our [accessibility research report](framework_for_accessibility.md). In brief, while the website arxiv.org needs further remediation to attain full accessibility, our community has focused our efforts making the *research papers* we host as accessible as possible. While it is not an easy goal, we believe it is achievable, and welcome you to read our report and share your feedback.
 
 > “Cornell University is committed to providing an environment in which all people have an equal opportunity to participate in the university’s programs, activities and services.”
 >
 > _Shannon Osborn, assistant director of Cornell IT_
 
-<span id="help"></span>
 ## How the arXiv community can help
 
 A fully accessible arXiv is important, meaningful, and ambitious. Significant development resources and user testing are needed to reach our targets and the arXiv community may wish to help in the following ways:

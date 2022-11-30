@@ -26,7 +26,7 @@ This is a complex task, and the processing does not always lead to the desired o
 
 You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and custom macros ([see below](#wegotem)) packaged in a (possibly compressed) `.tar` or `.zip` file. AutoTeX will generally figure out how to properly process multi-part submissions, and you don't need to adhere to special packaging rules or naming conventions for your tex files. However, there are certain caveats. Naming your primary (or toplevel) file `ms.tex` will cause AutoTeX to process that file first in (La)TeX mode. Under PDFLaTeX modes, and in all other cases, the tex files will be processed in _alphanumeric order._
 
-That said, it is important that you do not include extraneous files (including unused figure files), leftover files, backup files, anything which does not belong to the paper you are submitting or is not needed for processing. Do not include journal templates, referee letters, or man pages. Tidy your submission before you pack it up.
+That said, it is important that you do not include extraneous files (including unused figure files), leftover files, backup files, anything which does not belong to the paper you are submitting or is not needed for processing. Do not include journal templates, referee letters, or man pages. Tidy your submission before you pack it up. Do not use spaces in filenames, in either your figure inclusion commands or directory names.
 
 You must submit any figures that go along with your paper. We recommend that you use appropriate TeX commands to include the figures inline with your paper (see below), as this is more readable than separate or appended figures.
 
