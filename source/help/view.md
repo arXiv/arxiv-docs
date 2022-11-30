@@ -1,5 +1,4 @@
-Viewing an article
-==================
+# Viewing an article
 
 Upon loading the abstract page for an article, you will find a number of
 choices for download formats. These selections appear in the top right

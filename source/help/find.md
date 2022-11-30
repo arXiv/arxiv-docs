@@ -1,16 +1,11 @@
-To find an article
-==================
+# Finding Articles
 
-Search
--------------
-
+## Search
 Enter a few title words and/or author names and/or abstract words into
 the "**Search or Article-id**" box in the top right of most pages
 (including this one) or you can use the [Advanced Search](bitmap/advanced.md)
 
-If you know the identifier
---------------------------------------------------------
-
+## If you know the identifier
 All arXiv submissions are assigned a unique identifier of the form
 `yymm.nnnnn` (or `arch-ive/yymmnnn` for older submissions). To retrieve
 the abstract page a paper simply enter the identifier in the "**Search

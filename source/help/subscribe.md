@@ -1,9 +1,8 @@
-To Subscribe to the E-Mail Alerting Service
-===========================================
+# Subscribe to daily listing emails
 
 If you would like to receive regular daily listings of the abstracts of
 new submissions by email, then you can subscribe to this service as
-follows. Note that the email must be sent as **plain text**. Richtext format 
+follows. Note that the email must be sent as **plain text**. Richtext format
 emails will be ignored by the system.
 
 1.  Determine which archive is of interest to you, and obtain its e-mail
@@ -18,18 +17,18 @@ emails will be ignored by the system.
     category, indicating the categories in the body of the message. Here
     is an example
 ```
-To: physics@arxiv.org 
-Subject: subscribe John Smith 
-    
-add Biophysics 
+To: physics@arxiv.org
+Subject: subscribe John Smith
+
+add Biophysics
 del Plasma Physics
 ```
 You may alternatively use the short subject class codes, for example
 to subscribe to the Risk Management category (`q-fin.RM`) in
 Quantitative Finance:
 ```
-To: q-fin@arxiv.org 
-Subject: subscribe John Smith 
+To: q-fin@arxiv.org
+Subject: subscribe John Smith
 
 add RM
 ```
@@ -38,14 +37,14 @@ add RM
     Send an e-mail message to the archive(s) of interest, in the
     following form
 ```
-To: arch-ive@arxiv.org 
+To: arch-ive@arxiv.org
 Subject: subscribe Your Full Name
 ```
 
 You should give your name as you wish it to appear on the
 distribution list. Here is an example:
 ```
-To: quant-ph@arxiv.org 
+To: quant-ph@arxiv.org
 Subject: subscribe John Smith
 ```
 (note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
@@ -62,10 +61,10 @@ subject classes within that archive.)
     classes \`Soft Condensed Matter' and \`Superconductivity', the email
     would read:
 ```
-To: physics@arxiv.org 
-Subject: subscribe John Smith 
+To: physics@arxiv.org
+Subject: subscribe John Smith
 
-add Soft Condensed Matter 
+add Soft Condensed Matter
 add Superconductivity
 ```
 If you want to change from, say, subscribing to all of `astro-ph` to
@@ -87,12 +86,12 @@ so as follows.
     the listings.
 2.  Send an e-mail message to the archive, in the following form
 ```
-To: arch-ive@arxiv.org 
+To: arch-ive@arxiv.org
 Subject: cancel
 ```
 Here is an example:
 ```
-To: quant-ph@arxiv.org 
+To: quant-ph@arxiv.org
 Subject: cancel
 ```
 If you want to cancel your subscription to a particular subject

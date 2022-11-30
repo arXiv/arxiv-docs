@@ -1,4 +1,4 @@
-site_name: arXiv docs
+site_name: arXiv info
 
 docs_dir: source
 
@@ -10,11 +10,36 @@ plugins:
   - search
 theme:
   name: material
-  logo: assets/arxiv-logomark-small.svg
+  features:
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  logo: assets/arxiv-logo-one-color-white.svg
   custom_dir: overrides
+  favicon: images/favicon.png
 extra_css:
   - stylesheets/extra.css
+extra:
+  homepage: https://arxiv.org
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - abbr
+  - pymdownx.snippets
 
 repo_name: GitHub
 repo_url: https://github.com/arXiv/arxiv-docs
-edit_uri: blob/master/mkdocs/docs
+edit_uri: blob/develop/source

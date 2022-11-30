@@ -1,5 +1,4 @@
-ScienceWISE
-===========
+# ScienceWISE
 
 arXiv has partnered with [ScienceWISE](http://sciencewise.info) as part
 of a pilot program to provide additional services to arXiv users. These

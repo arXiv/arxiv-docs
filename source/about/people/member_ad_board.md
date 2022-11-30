@@ -1,8 +1,8 @@
-# Member Advisory Board (MAB)
+# Member Advisory Board
 
-The Member Advisory Board (MAB) represents participating institutions’ interests and advises Cornell University on issues 
-related to repository management and development, standards implementation, interoperability, development priorities, 
-business planning, and outreach and advocacy. Representation on MAB is reserved for libraries, research institutions, 
+The Member Advisory Board (MAB) represents participating institutions’ interests and advises Cornell University on issues
+related to repository management and development, standards implementation, interoperability, development priorities,
+business planning, and outreach and advocacy. Representation on MAB is reserved for libraries, research institutions,
 laboratories, and foundations that are members of arXiv and that contribute to the financial support of the service.
 
 The MAB has voting members in three categories: contributing organizations (at least 7), high-contributing organizations (up to 5), Simons Foundation (1). Representatives from contributing organizations are elected. High-contributing organizations represent each consortia or national organization member that contributes 5% or more of arXiv’s annual income generated through membership fees. Additionally, there are five non-voting ex-officio members.
@@ -25,7 +25,7 @@ Dr. Amberyn Thomas is Associate Director, Scholarly Communication and Repository
 
 **University of Sydney, Australia**, _Philip Kent, University Librarian (4-year term ending December 2021)_
 
-Philip Kent joined Sydney in 2020 following an extensive career in Australian and UK universities and the CSIRO. This is his fourth post as University Librarian and he is the first to have held this role at both Sydney and Melbourne. His broad experience includes responsibility for cultural collections, information technology, knowledge and information management, archives and records management, risk and audit roles. His professional activities have included:  Director, CAVAL Ltd, chairing of the Council of Australian University Librarians’ resources purchasing consortium, and the Group of Eight (Go8) Librarians. He was a member of the judging panel for the SCONUL Library Design Awards (UK) in 2019. Philip serves on the Editorial Board for the Journal of the Australian Library and Information Association (JALIA), and the Standing Committee of the International Federation of Library Associations (IFLA) Library Buildings and Equipment Section. Philip previously served on arXiv Member Advisory Board from 2012- 2016. 
+Philip Kent joined Sydney in 2020 following an extensive career in Australian and UK universities and the CSIRO. This is his fourth post as University Librarian and he is the first to have held this role at both Sydney and Melbourne. His broad experience includes responsibility for cultural collections, information technology, knowledge and information management, archives and records management, risk and audit roles. His professional activities have included:  Director, CAVAL Ltd, chairing of the Council of Australian University Librarians’ resources purchasing consortium, and the Group of Eight (Go8) Librarians. He was a member of the judging panel for the SCONUL Library Design Awards (UK) in 2019. Philip serves on the Editorial Board for the Journal of the Australian Library and Information Association (JALIA), and the Standing Committee of the International Federation of Library Associations (IFLA) Library Buildings and Equipment Section. Philip previously served on arXiv Member Advisory Board from 2012- 2016.
 
 **Vacant Seat**
 
@@ -33,7 +33,7 @@ Philip Kent joined Sydney in 2020 following an extensive career in Australian an
 
 **Big Ten Academic Alliance, USA**, _Maureen P. Walsh, Associate Professor, Scholarly Sharing Strategist, The Ohio State University, University Libraries Publishing and Repository Services (4- or 6-year  institutional  term,  based on the number of High-Contributing Organizations, elected 2018)_
 
-Maureen Walsh is an Associate Professor and Scholarly Sharing Strategist at The Ohio State University Libraries where she has worked with Ohio State's institutional repository for the past twelve years. She has been actively involved in DuraSpace governance and is currently a member of the DSpace Steering Group and the Chair of the DSpace Community Advisory Team. Maureen is a strong and collaborative leader in the well-established repository and publishing activities at Ohio State. She is well connected in the repository community and also is grounded in long-standing and deep partnerships with units on the Ohio State campus. 
+Maureen Walsh is an Associate Professor and Scholarly Sharing Strategist at The Ohio State University Libraries where she has worked with Ohio State's institutional repository for the past twelve years. She has been actively involved in DuraSpace governance and is currently a member of the DSpace Steering Group and the Chair of the DSpace Community Advisory Team. Maureen is a strong and collaborative leader in the well-established repository and publishing activities at Ohio State. She is well connected in the repository community and also is grounded in long-standing and deep partnerships with units on the Ohio State campus.
 
 **Consortium arXiv-DH and HGF: Coordinated by the German National Library of Science and Technology (TIB) and Deutsches Elektronen-Synchrotron DESY, Germany**, _Esther Tobschall, German National Library of Science and Technology (4- or 6-year institutional term, based on the number of High-Contributing Organizations, elected 2018)_
 

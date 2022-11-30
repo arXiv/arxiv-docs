@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+# Frequently Asked Questions
 
 ## Information About Downloading and Viewing Files
 
@@ -68,4 +68,3 @@
   - [Trackbacks - Links to blogs](../../help/trackback.md)
   - [Why don't you release statistics about paper
     retrieval?](statfaq.md)
- 

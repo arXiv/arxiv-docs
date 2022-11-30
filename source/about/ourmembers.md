@@ -4,97 +4,29 @@ We gratefully acknowledge the support of the following members, which contribute
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
 
-<style>
-ol {
-  list-style:none;
-  margin-left:0 !important;
-  margin:0;
-  padding:0;
-}
-ol li {
-  display: inline;
-}
-ol li::after {
-  content: " \2022 ";
-  margin: 0 .15em 0 .45em;
-  color: #b31b1b;
-  font-weight: 900;
-}
-ol li:last-child::after {
-  content: "";
-  margin: 0;
-}
-blockquote {
-  border-left:0;
-  margin:0;
-  padding:0;
-}
-blockquote ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-blockquote ol li {
-  width: 100%;
-  padding:1em;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  min-height:90px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-blockquote ol li::after {
-  content: "";
-  margin: 0;
-}
-blockquote ol li img {
-  height:40px;
-  display:block;
-  margin:1em auto 0 auto;
-}
-@media (min-width: 576px) {
-  blockquote ol li {
-    width: calc(50% - 10px);
-  }
-}
-h2, h2, h4, h5 {
-  clear:both;
-}
-aside {
-  float:left;
-  clear:both;
-  width:100%;
-}
-</style>
+<div class="mkd-ordered-list-blocks" markdown="1">
 
 ## Champion Consortia
->1. Big Ten Academic Alliance (USA)
->1. California Digital Libraries (USA)
+1. Big Ten Academic Alliance (USA)
+1. California Digital Libraries (USA)
 
 ## Consortia
->1. arXiv DH and HGF Consortium (Germany)
->1. Canadian Research Knowledge Network (Canada)
->1. Consortium of Swiss Academic Libraries (Switzerland)
->1. Council of Australian University Librarians (Australia)
->1. FinELib Consortium (Finland)
->1. French National Fund for Open Science (France)
->1. Jisc (UK)
->1. NII Japan Consortium (Japan)
+1. arXiv DH and HGF Consortium (Germany)
+1. Canadian Research Knowledge Network (Canada)
+1. Consortium of Swiss Academic Libraries (Switzerland)
+1. Council of Australian University Librarians (Australia)
+1. FinELib Consortium (Finland)
+1. French National Fund for Open Science (France)
+1. Jisc (UK)
+1. NII Japan Consortium (Japan)
 
 ## Champion Members
->1. California Institute of Technology (USA)
->1. CERN-European Organization for Nuclear Research (Switzerland)
->1. Georgia Institute of Technology (USA)
->1. Imperial College of Science, Technology, and Medicine (UK)
->1. Massachusetts Institute of Technology (MIT) (USA)
->1. University College London (UK)
+1. California Institute of Technology (USA)
+1. CERN-European Organization for Nuclear Research (Switzerland)
+1. Georgia Institute of Technology (USA)
+1. Imperial College of Science, Technology, and Medicine (UK)
+1. Massachusetts Institute of Technology (MIT) (USA)
+1. University College London (UK)
 
 ## Top 100 Submitters
 1. Arizona State University (USA)
@@ -331,7 +263,7 @@ aside {
 1. University of New Hampshire (USA)
 1. University of North Texas (USA)
 1. University of Northern British Columbia (Canada) _CRKN_
-1. Université of Sherbrooke (Canada) 
+1. Université of Sherbrooke (Canada)
 1. University of Wollongong (Australia)
 1. University of York (UK) _JISC_
 1. Victoria University of Wellington (New Zealand)
@@ -341,9 +273,7 @@ aside {
 1. Universität Würzburg (Germany) _arXiv-DH and HGF_
 1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _CSAL_
 
-
-
-
+</div>
 
 
 #

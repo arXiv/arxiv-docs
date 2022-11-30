@@ -1,13 +1,12 @@
-Contacting arXiv
-===============================
+# Contacting arXiv
 
 ## Technical queries
 
-If you have questions about paper submission, accounts, and use of arXiv, please first review [help](index.md) and [FAQ](faq/index.md). 
+If you have questions about paper submission, accounts, and use of arXiv, please first review [help](index.md) and [FAQ](faq/index.md).
 
 Contact our User Support team via the [arXiv user support portal](http://arxiv.org/support/general_help).
 
-Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays. 
+Note that our user support team typically operates 0900-1700 EST/EDT, Monday through Friday. Most requests are responded to by the end of the day, subject to staff availability and holidays.
 
 To avoid a delay in receiving a response:
 
@@ -33,14 +32,14 @@ Information about institutional membership or contributions to arXiv can be foun
 ## Copyright infringement
 
 To contact Cornell University's designated agent for alleged copyright infringement, in accordance with the Digital Millennium Copyright Act,
-see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm). 
+see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm).
 
 <span id="figures"></span>
 **Note:** For queries regarding figure reuse for your manuscript, please contact the submitter or copyright holder directly.
 
 ## Authorship Disputes
 
-arXiv will not adjudicate [authorship disputes](authority.md#coauthor) within a collaboration of authors. 
+arXiv will not adjudicate [authorship disputes](authority.md#coauthor) within a collaboration of authors.
 
 ## Code of Conduct concerns
 

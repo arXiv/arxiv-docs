@@ -1,4 +1,4 @@
-# arXiv Scientific Advisory Board Bylaws
+# Bylaws of the Scientific Advisory Board
 
 _Revisions adopted on 20 August 2019_
 
@@ -14,7 +14,7 @@ _Revisions adopted on 20 August 2019_
 
 2.1	_Classes of Members_
 	The SAB shall have two classes of members: 1) Voting Members, and 2) Non-Voting Members.
-	
+
 2.1.1	_Voting Board Members_
 
 a)	_Number._ There shall be between 10 and 14 Voting Board Members on the SAB. The number of SAB Voting Members may be changed by an amendment to these Bylaws, as described in 7.1. No decrease in the number of Voting Members shall have the effect of shortening the term of any incumbent SAB member.
@@ -31,9 +31,9 @@ f)	_Term of Office._ All Voting Members of the SAB shall serve staggered, three-
 
 2.1.2	_Non-Voting Members_
 
-a)	_Reserved CU Seats._ Up to five SAB seats are reserved for CU. These will be filled by the arXiv Scientific Director, arXiv Program Director, and the arXiv IT and User Support managers, or other CU staff as appointed by the University Librarian of CU. The role of these members is to provide information, participate in Board discussions, and document SAB discussions by keeping the minutes of all SAB meetings. 
+a)	_Reserved CU Seats._ Up to five SAB seats are reserved for CU. These will be filled by the arXiv Scientific Director, arXiv Program Director, and the arXiv IT and User Support managers, or other CU staff as appointed by the University Librarian of CU. The role of these members is to provide information, participate in Board discussions, and document SAB discussions by keeping the minutes of all SAB meetings.
 
-b)	_Reserved MAB Seats._ Two SAB seats are reserved for members of the Member Advisory Board, who shall be appointed to the SAB as specified by the MAB Bylaws. 
+b)	_Reserved MAB Seats._ Two SAB seats are reserved for members of the Member Advisory Board, who shall be appointed to the SAB as specified by the MAB Bylaws.
 
 2.2	_Participation._ Only Voting Members of the Board shall participate in decisions of the Board, as described in 4.1.
 
@@ -75,7 +75,7 @@ a)	_Chair._ The Chair shall preside at all meetings of the Board and shall exerc
 
 b)	_Vice Chair._ The Vice Chair(s) shall assist the Chair and preside at meetings in the absence of the Chair. The Vice Chair(s) shall perform such other duties as may be assigned by the Board.
 
-c)	_Subject Advisory Committee Chairs._ The Subject Advisory Committee Chairs shall be responsible for overseeing their respective Subject Advisory Committees and reporting on those committees’ activities and recommendations to the Board. 
+c)	_Subject Advisory Committee Chairs._ The Subject Advisory Committee Chairs shall be responsible for overseeing their respective Subject Advisory Committees and reporting on those committees’ activities and recommendations to the Board.
 
 d)	_Other Officers._ Other officers elected by the Board shall have the authority prescribed to them by the Board.
 
@@ -84,9 +84,9 @@ d)	_Other Officers._ Other officers elected by the Board shall have the authorit
 4.1	_Decisions of the Board._ All meetings of the SAB shall be conducted in a manner that seeks consensual agreement. When the Board considers any matter that requires a decision, the opinion of any Board member who wishes to express an opinion shall be considered by the Board. When the Chair determines that all Voting Board Members present are generally united in their judgment, he or she shall attempt to state clearly the “sense of the Board.” If all Voting Board Members present give approval to this statement, or if some Voting Board Members present are not in agreement but are willing to stand aside and accept and uphold the judgment of the majority, consensual agreement shall be reached and shall be considered a decision of the Board.
 
 If consensual agreement cannot be reached, a vote shall be taken by the Voting Board Members present. Both majority and minority opinions shall be recorded and made available to CU and the MAB.
-	
+
 In the case of the election of Board members, Board Chair, or Board officers, a majority vote of the Voting Board Members then in office, excluding any conflicted Members, shall be considered a decision of the Board.
-	
+
 4.2	_Board Policies and Procedures._ The SAB shall have authority to adopt policies and procedures governing SAB activities. The SAB may delegate to committees such powers as it deems fit, as long as those powers do not impinge on the rights reserved to CU.
 
 4.3	_SAB and MAB Communication._ The Board meeting agendas and minutes will be shared with the MAB for their review and comments. The MAB representatives on the SAB will act as liaisons and may seek input from their colleagues as needed prior to or after the Board deliberations.
@@ -140,4 +140,3 @@ In the case of the election of Board members, Board Chair, or Board officers, a 
 2014-10-06	Revisions approved and adopted.
 
 2019-08-20	Replaced Cornell University Library (CUL) with Cornell University (CU); revised 2.1.1 c) as approved by SAB.
-

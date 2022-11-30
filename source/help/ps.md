@@ -1,5 +1,4 @@
-PostScript
-==========
+# PostScript
 
 PostScript is available through our web interface, from the **ps**
 links,

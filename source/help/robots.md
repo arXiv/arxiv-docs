@@ -1,5 +1,4 @@
-Robots Beware
-=============
+# Robots Beware
 
 ### Indiscriminate automated downloads from this site are not permitted
 
@@ -35,7 +34,7 @@ Mindlessly downloading all of the URLs on this site will return
 terabytes of data. This has very real cost to us in terms of bandwidth
 consumed, and in terms of the responsiveness of our service.
 
-arXiv monitors activity and will deny access to sites that violate these 
+arXiv monitors activity and will deny access to sites that violate these
 guidelines. Continued rapid-fire requests from
 any site after access has been denied (i.e. with `403: Access denied`
 HTTP response) will be interpreted as an attack; and we will respond

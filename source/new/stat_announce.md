@@ -1,4 +1,4 @@
-### Announcement of new Statistics (stat) archive
+# Announcement of new Statistics (stat) archive
 
 1 April 2007
 
@@ -23,7 +23,7 @@ The statistics archive is organized into the following five categories:
   Algorithms, Simulation, Visualization
 
  * **Machine Learning** (stat.ML):  
- 
+
    Classification, Graphical Models, High Dimensional Inference
 
 * **Methodology** (stat.ME):

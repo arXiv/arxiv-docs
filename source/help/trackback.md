@@ -1,5 +1,4 @@
-Trackbacks
-==========
+# Trackbacks
 
 arXiv.org supports the
 [Trackback](http://en.wikipedia.org/wiki/Trackback) standard. By sending

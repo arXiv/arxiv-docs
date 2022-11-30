@@ -110,3 +110,7 @@ idx_static/
 
 #Mkdocs site
 site/
+
+# Don't check in the generated arxiv-base theme
+# regenrate it to prevent the source and compiled version going out of sync
+overrides/main.html

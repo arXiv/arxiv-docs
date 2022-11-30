@@ -1,5 +1,4 @@
-Unpacking Retrieved Papers
-==========================
+# Unpacking Retrieved Papers
 
 This page explains what to do with the package that you receive if you
 select the **Download source** option from the web. In order to save

@@ -1,5 +1,4 @@
-Cond-mat archive reorganization
-===============================
+# Cond-mat archive reorganization
 
 Because of the continued growth of the cond-mat e-print archive (see the [monthly totals](http://xxx.lanl.gov/year/cond-mat/96)), many people have desired a bit of reorganization. This is now implemented.
 

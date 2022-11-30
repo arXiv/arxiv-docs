@@ -1,5 +1,4 @@
-RSS news feeds for arXiv updates
-================================
+# RSS news feeds
 
 Daily updated RSS news feed pages are available for all active subject
 areas within arXiv. The URL for each category (whole archive or subject
@@ -34,5 +33,5 @@ parameter may be combined with the `mirror` parameter. For example,
 `http://arxiv.org/rss/cs?mirror=fr&version=0.91` requests RSS version
 0.91 output with links to the French mirror.
 
-Looking for search results in an *RSS-like* format? See the [arXiv search 
+Looking for search results in an *RSS-like* format? See the [arXiv search
 API](api/index.md) for more information and usage instructions.

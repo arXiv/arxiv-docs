@@ -1,5 +1,4 @@
-Type 1 PostScript fonts on Linux
-================================
+# PostScript fonts on Linux
 
 Most recent linux distributions come with teTeX, TeXLive, or similar,
 and therefore already have the necessary type 1 fonts. All that is

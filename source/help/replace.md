@@ -1,9 +1,8 @@
-To replace an article
-=====================
+# To replace an article
 
 You can replace a publicly announced article by selecting the Replace
 (![replace icon](https://arxiv.org/images/replace.png)) icon for the article you want to
-replace on your [user page](replace.md). We ask that articles be replaced no more than once 
+replace on your [user page](replace.md). We ask that articles be replaced no more than once
 per week.
 
 Note that if your article or replacement has not yet been publicly
@@ -106,4 +105,4 @@ Revisions after version 5 are not listed in the daily mailings
 --------------------------------------------------------------
 
 This policy is to avoid unnecessary noise in the email announcements. We ask that submitters
-refrain from replacing more frequently than once per week. 
+refrain from replacing more frequently than once per week.

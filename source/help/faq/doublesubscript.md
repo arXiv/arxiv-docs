@@ -1,5 +1,4 @@
-Examples of TeX Double Subscripts
-=================================
+# Examples of TeX Double Subscripts
 
 In the examples below (1) is incorrect and gives a LaTeX error. A
 &lt;RETURN&gt; leads to the same interpretation as (2). However, there

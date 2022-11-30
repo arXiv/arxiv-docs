@@ -1,15 +1,13 @@
-Institutional Repository (IR) Interoperability
-==============================================
+# Institutional Repositories
 
+## Introduction to Institutional Repository (IR) Interoperability
 arXiv places no restrictions on whether articles also appear in local
 institutional repositories. Authors are welcome to download copies of
 their own articles from arXiv in order to submit to a local repository.
 This page describes ways in which institutional repository managers may
 approach finding and copying local researchers' content from arXiv.
 
-Copying content from arXiv to an IR
------------------------------------
-
+## Copying content from arXiv to an IR
 Some institutions require or request that copies of articles written by
 their researchers are deposited in their local institutional repository
 in addition to arXiv. Everything necessary to pull complete metadata and
@@ -32,12 +30,10 @@ Obtaining permission from the article authors may not be necessary if:
     researchers' articles into an institutional repository.
 
 ### Procedure
-
 We will consider the article [arXiv:1410.6579](https://arxiv.org/abs/1410.6579) as an
 example.
 
 #### Step 1 - Get metadata
-
 Metadata from arXiv is available via our [OAI-PMH interface](oa/index.md),
 the URI for different metadata formats is constructed based on the
 article identifier. For example, to get `oai_dc` metadata the request
@@ -65,7 +61,7 @@ The Public Domain Dedication allows and article to be copied to another
 repository without the need to ask for permission. Most submissions to
 arXiv use the default license however, expressed with the URI:
 
-     
+
     ...
       <license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</license>
     ...
@@ -102,8 +98,7 @@ denial-of-service attack detector cutting off access, please contact
 [arXiv support](support.md) if you intend to download more than a
 thousand articles.
 
-Identifying articles by your institution's researchers
-------------------------------------------------------
+## Identifying articles by your institution's researchers
 
 Unfortunately, most arXiv articles do not have any affiliation
 information included by submitters, and when it is present there is wide

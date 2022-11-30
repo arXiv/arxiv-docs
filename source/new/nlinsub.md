@@ -1,5 +1,4 @@
-Mailings from the nlin archive
-==============================
+# Mailings from the nlin archive
 
 Submissions to the new [nlin archive](nlin.md) include **Subj-class:** headings . It is possible to receive mailings of the individual subjects without subscribing to the whole archive (in fact, for subject classes of the [nlin](https://arxiv.org/archive/nlin) archive, this is the only way). No matter how many subject classes you subscribe to, all the abstracts on a given day will be mailed to you in a single message.
 
