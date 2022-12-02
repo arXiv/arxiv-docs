@@ -1,6 +1,9 @@
 #Colors
 
-Our color palette is an integral part of keeping arXiv distinct and recognizeable. To maintain a strong and consistent communication system, and to ensure accessible and legible type, we use the following colors and color combinations in our messaging and products.
+Our color palette is an integral part of arXiv's distinct and recognizeable identity, while referencing our strong history with Cornell University.
+{.intro}
+
+To maintain a strong and consistent communication system, and to ensure accessible and legible type, we use the following colors and color combinations in our messaging and products.
 
 <ul class="brand-colors">
   <li>

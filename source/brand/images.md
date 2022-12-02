@@ -1,7 +1,8 @@
 #Images
 arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline.html). Illustrations capture abstract concepts well and are used in presentations and documentation.
+{.intro}
 
-> **Important: Images may only be used for arXiv-owned materials.** All assets within arXiv image libraries have been cleared for use in arXiv materials. Use in materials outside of arXiv is not covered by copyright.
+**Important: Images may only be used for arXiv-owned materials.** All assets within arXiv image libraries have been cleared for use in arXiv materials. Use in materials outside of arXiv is not covered by copyright.
 
 ##Photos
 [Go to the arXiv Photo Library](https://cornell.box.com/v/arXiv-photo-library)
@@ -19,15 +20,14 @@ Photographs can be overlayed with a [tagline](tagline.html) as shown here.
 
 Illustrations are used to represent abstract concepts or stakeholder groups. The illustrative style we use is informal and friendly. It is not slick or polished, but emphasizes thrift and mission focus, with a touch of gentle humor.
 
-<ul class="brand-toc">
-  <li><img src="images/brand-image-illustration-1.jpg" role="representation"></li>
-  <li><img src="images/brand-image-illustration-2.jpg" role="representation"></li>
-  <li><img src="images/brand-image-illustration-3.jpg" role="representation"></li>
-  <li><img src="images/brand-image-illustration-4.jpg" role="representation"></li>
-  <li><img src="images/brand-image-illustration-5.jpg" role="representation"></li>
-  <li><img src="images/brand-image-illustration-6.jpg" role="representation"></li>
-</ul>
-
+<div class="grid-blocks">
+  <img src="images/brand-image-illustration-1.jpg" role="presentation" class="shadow">
+  <img src="images/brand-image-illustration-2.jpg" role="presentation" class="shadow">
+  <img src="images/brand-image-illustration-3.jpg" role="presentation" class="shadow">
+  <img src="images/brand-image-illustration-4.jpg" role="presentation" class="shadow">
+  <img src="images/brand-image-illustration-5.jpg" role="presentation" class="shadow">
+  <img src="images/brand-image-illustration-6.jpg" role="presentation" class="shadow">
+</div>
 
 ##Additional photo resources
 Additional photographic image resources that are cleared for use on arXiv communication materials, both web and print, are listed here:

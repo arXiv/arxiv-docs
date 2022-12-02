@@ -23,6 +23,7 @@ p {
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
+  font-size: 1.1em;
 }
 a { text-decoration: underline; }
 a:hover { transition: all 1s;}
@@ -342,12 +343,14 @@ ol.color-blocks li img {
   }
 }
 
+
 /* simple CSS grid with box shadow around child blocks */
 .grid-blocks {
   margin: 0 auto;
   display: grid;
   gap: .5em;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 .block {
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
@@ -358,6 +361,11 @@ ol.color-blocks li img {
 .block h2, .block h3 {
   margin-top: 0 !important;
   margin-bottom: .25em;
+}
+.shadow {
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
 }
 
 

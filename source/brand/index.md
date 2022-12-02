@@ -1,6 +1,7 @@
 # Our Brand
 
 As we evolve to meet the diverse needs of researchers around the globe and protect arXiv for the future, how we present ourselves is evolving too. After three decades of transforming scientific publishing, here we introduce a fresh update to the arXiv we have loved and relied on for 30 years.
+{.intro}
 
 Strengthening arXiv’s brand is one way we can protect an open pre-print culture and keep arXiv free for everyone. From communicating with our global community, to how to use the logo, our guidelines for brand use allow us to maintain consistent quality and build a unified message without limiting creativity.
 
