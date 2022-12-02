@@ -1,20 +1,7 @@
 #The arXiv Voice
-<style>
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-</style>
+
 arXiv’s voice, tone, and language reflect our identity -- current and aspirational -- as an innovative and integral component of the world’s research landscape. Our voice can be summarized as reliable, innovative, and approachable.
+{.intro}
 
 ##Personality
 arXiv’s personality has the potential to create emotional connections across our communities. It’s also an important way to distinguish arXiv from its peers and competitors. arXiv’s personality helps us decide how to present arXiv to various audiences.

@@ -23,6 +23,7 @@ p {
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 300;
+  font-size: 1.1em;
 }
 a { text-decoration: underline; }
 a:hover { transition: all 1s;}
@@ -37,40 +38,27 @@ h2 { margin-top: 1em !important; }
 .center { text-align: center; }
 .margin0 {margin: 0 !important; }
 .margin5 { margin: 0 5px !important; }
-a.button-reg {
+a.button-large, a.button-reg {
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
   box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.2);
   display: inline-block;
   padding: .25em 1em;
-  border-radius: .5em;
-  margin-right: 1em;
-  margin-bottom: .5em;
-  font-weight: bold;
-  border: 2px solid #a5d6fe;
-  background-color: #f7fafc;
-  color: black !important;
-}
-a.button-reg:hover {
-  background-color: #a5d6fe;
-}
-a.button-large {
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  display: inline-block;
-  padding: .5em 2em;
-  border-radius: 1em;
+  border-radius: .3em;
   margin-right: 2em;
   margin-bottom: 1em;
-  font-weight: bold;
   font-size: 1.5em;
   background-color: #f7fafc;
-  border: 2px solid #1f5e96;
+  text-decoration: none;
 }
-a.button-large:hover {
-  border-color: black;
-  background-color: #f9f7f7;
+a.button-reg {
+  font-size: 1em;
+}
+a.button-large:hover, a.button-reg:hover {
+  color: black;
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.5);
 }
 .mkd-border {
   border: solid .15em #ededed;
@@ -342,12 +330,14 @@ ol.color-blocks li img {
   }
 }
 
+
 /* simple CSS grid with box shadow around child blocks */
 .grid-blocks {
   margin: 0 auto;
   display: grid;
   gap: .5em;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 .block {
   -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
@@ -359,6 +349,11 @@ ol.color-blocks li img {
   margin-top: 0 !important;
   margin-bottom: .25em;
 }
+.shadow {
+  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
+}
 
 
 
@@ -366,8 +361,10 @@ ol.color-blocks li img {
 .a11y-report {
   font-family: freight-text-pro, serif;
 }
-.a11y-report .a11y-citations {
-
+.a11y-report .bold-paper-title {
+  font-weight: bold;
+  font-family: freight-text-pro, serif;
+  text-align: center;
 }
 .a11y-report .abstract-intro {
   font-family: freight-sans-pro, sans-serif;
@@ -398,7 +395,7 @@ ol.color-blocks li img {
   font-weight: 500;
 }
 @media (min-width: 576px) {
-  .a11y-report .abstract-intro, .a11y-report .authors {
+  .a11y-report .abstract-intro, .a11y-report .authors, .a11y-report .bold-paper-title {
     margin: 0 4em 2em 4em;
   }
   .a11y-report blockquote {

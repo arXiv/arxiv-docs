@@ -8,6 +8,8 @@ use_directory_urls: false
 
 plugins:
   - search
+  - literate-nav:
+      nav_file: SUMMARY.md
 theme:
   name: material
   features:

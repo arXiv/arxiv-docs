@@ -1,25 +1,26 @@
 #Brand Use Guidelines
 
 Using our logo consistently is important to present a unified message to the world about who we are. That message is:
-{ class='intro'}
+{.intro}
 
-> **arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
+**arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
 
-Unauthorized use of our logo causes confusion about who we are. And when it’s use isauthorized it’s just as important that we follow consistent guidelines to preserve the legibility,memorability, and legal defensibility that we need.
+Unauthorized use of our logo causes confusion about who we are. And when it’s use is authorized it’s just as important that we follow consistent guidelines to preserve the legibility, memorability, and legal defensibility that arXiv needs to protect this vital scientific service.
 
-The arXiv logo is Federally trademarked and the legal property of arXiv and Cornell University, protected against unauthorized use. Our logo is ready to help us share a consistent, intentional,and meaningful message about who we are with the world.
+The arXiv logo is Federally trademarked and the legal property of arXiv and Cornell University, protected against unauthorized use. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
 
 ##General guidelines that cover all logo use cases
-1. Use of the name arXiv and associated logos, web addresses, and colors are onlyallowed with explicit written permission from the arXiv management team.
-2. If use is allowed, display of the arXiv logo should always follow the visual layout rules asstated in the arXiv brand guide.3.The logo should never be altered in any way, redrawn, used in an unspecified color, orreproduced on a background that will impair its visual recognition.
+1. Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.
+2. If use is allowed, display of the arXiv logo should always follow the visual layout rules as stated in the arXiv brand guide.
+3. The logo should never be altered in any way, redrawn, used in an unspecified color, or reproduced on a background that will impair its visual recognition.
 4. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names or projects that imply or tend to imply some official connection with arXiv, is prohibited.
 5. Except as specifically authorized in writing, use of arXiv’s name and marks in advertising and other promotional vehicles is prohibited when such use is likely to be perceived as an endorsement, even if such an endorsement is not the intention of the person or organization seeking to use arXiv’s name or marks.
-6. In order to protect its name and reputation, arXiv regulates the use of arXiv’s name and marks on memorabilia, products, and goods. Third party use of arXiv’s logo for productsand other goods is prohibited.
+6. In order to protect its name and reputation, arXiv regulates the use of arXiv’s name and marks on memorabilia, products, and goods. Third party use of arXiv’s logo for products and other goods is prohibited.
 
 ##Further guidelines based on project type
 
 ###For products that use the arXiv API
-1. Acknowledge arXiv data usage with this statement on your product: ​“Thank you toarXiv for use of its open access interoperability. This [service/ product] was notreviewed or approved by, nor does it necessarily express or reflect the policies oropinions of, arXiv.”
+1. Acknowledge arXiv data usage with this statement on your product: ​“Thank you to arXiv for use of its open access interoperability. This [service/ product] was not reviewed or approved by, nor does it necessarily express or reflect the policies or opinions of, arXiv.”
 2. Typically logo usage is not granted for API use. If you think your project is an exceptionyou can always inquire at ​nextgen@arxiv.org​.
 3. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names implying or tending to imply some official connection with arXiv, is prohibited.
 
@@ -31,10 +32,10 @@ The arXiv logo is Federally trademarked and the legal property of arXiv and Corn
 ###For LABS projects
 1. All projects will be shared with the arXiv community on our website under the arXiv Labs sub-brand.
 2. Additionally, we encourage Labs projects to acknowledge arXiv with the statement: ​“An arXiv Labs collaboration.”
-3. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names implying or tending to imply some official connection with arXiv, is prohibited.
+3. The use of the name “arXiv” or “arxiv.org,” implying or tending to imply some official connection with arXiv, is prohibited.
 
 ###Lockups for internal arXiv projects
-Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the {Logos page}(logos) for details.
+Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the [Logos page](logos) for details.
 
 ##Download arXiv logo assets
 If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
