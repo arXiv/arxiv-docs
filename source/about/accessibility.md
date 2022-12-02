@@ -29,7 +29,7 @@ The reasons for prioritizing accessibility are vast but below are the top ten we
 10. Last but not least accessibility is not just a great business practice and the right thing to do, it is a legal requirement and Cornell University policy.
 
 ## Roadmap to accessibility
-After extensive research with diverse arXiv users, we have shared our findings in our [accessibility research report](framework_for_accessibility.md). In brief, while the website arxiv.org needs further remediation to attain full accessibility, our community has focused our efforts making the *research papers* we host as accessible as possible. While it is not an easy goal, we believe it is achievable, and welcome you to read our report and share your feedback.
+After extensive research with diverse arXiv users, we have shared our findings in our [accessibility research report](accessibility_research_report.md). In brief, while the website arxiv.org needs further remediation to attain full accessibility, our community has focused our efforts making the *research papers* we host as accessible as possible. While it is not an easy goal, we believe it is achievable, and welcome you to read our report and share your feedback.
 
 > “Cornell University is committed to providing an environment in which all people have an equal opportunity to participate in the university’s programs, activities and services.”
 >

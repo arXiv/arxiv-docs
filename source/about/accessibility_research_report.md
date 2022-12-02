@@ -1,6 +1,8 @@
-# Research Report: A framework for improving the accessibility of research papers on arXiv.org
+# Accessibility Research Report
 
 <div class="a11y-report" markdown='1'>
+
+## A framework for improving the accessibility of research papers on arXiv.org {.bold-paper-title}
 
 *Shamsi Brinn, Christopher Cameron, David Fielding, Charles Frankston, Alison Fromme, Peter Huang, Mark Nazzaro, Stephanie Orphan, Steinn Sigurdsson, Ryan Tay, Miranda Yang, Qianyu Zhou*
 { .authors }
@@ -1014,9 +1016,9 @@ _Scale: 0 = non-functional, 1 = OK, 2 = good, 3 = excellent._
   <tr>
    <td><strong>Total score</strong>
    </td>
-   <td><strong>PDF: 15</strong>
+   <td><strong>PDF: 16</strong>
    </td>
-   <td><strong>HTML: 32</strong>
+   <td><strong>HTML: 35</strong>
    </td>
   </tr>
 </table>
@@ -1027,7 +1029,7 @@ To offer the flexibility of well formatted HTML downstream requires, ironically,
 
 And this is the difficulty. 90% of arXiv submissions are provided as TeX (mainly LaTeX), and converting to HTML is not easy due to its extensibility.
 
-> "On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible."
+> **"On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible."**
 >
 > —Frank Mittelbach, Head of Development, LaTeX group
 
@@ -1035,7 +1037,7 @@ Incorporating the conversion into arXiv’s submission process will mean substan
 
 Because the relationship between authors and the arXiv platform is direct—with no third party typesetting the documents before publishing—we have a tremendous opportunity to make small changes in the submission pipeline that have profound results on accessibility.
 
-> “arXiv has a closeness to the practitioner that is exciting for accessibility. A lot of remediations require a human touch.”
+> **“arXiv has a closeness to the practitioner that is exciting for accessibility. A lot of remediations require a human touch.”**
 >
 > —Frank Elavsky, Data Visualization and Accessibility expert
 
