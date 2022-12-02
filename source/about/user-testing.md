@@ -1,8 +1,9 @@
 #User Experience Testing and Feedback
 
-From time to time arXiv sends out surveys, previews to new changes, invitations to be interviewed, and other testing opportunities to interested users. If you would like to join our user experience mailing list to learn about these opportunities, fill out the form below. User experience is integral to arXiv's development process and we welcome your feedback.
+From time to time arXiv sends out surveys, previews to new changes, invitations to be interviewed, and other testing opportunities to interested users. User experience is integral to arXiv's development process and we welcome your feedback.
+{.intro}
 
-We collect your contact information only for user experience-related communications and never spam or share your details.
+If you would like to join our user experience mailing list to learn about these opportunities, fill out the form below. We collect your contact information only for user experience-related communications and never spam or share your details.
 
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
