@@ -1,6 +1,7 @@
 # API User Testing Group
 
 At arXiv we have been working on new and improved APIs and will be conducting testing with the wider community. We value your input and welcome you to join in our User Testing Group.
+{.intro}
 
 We use this list only for user testing communications and never spam or share your information.
 

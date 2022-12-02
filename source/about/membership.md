@@ -1,69 +1,9 @@
 # Membership
-<style>
-blockquote {
-  border-left:0;
-  margin:0 auto;
-  padding:0;
-  max-width: 800px;
-}
-blockquote ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-blockquote ol li {
-  width: 100%;
-  padding:1em;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.1);
-  min-height:90px;
-}
-blockquote ol li strong {
-  font-size: 20px;
-  display: block;
-  width: 100%;
-  margin-bottom: 5px;
-}
-blockquote ol li {
-  border: 5px solid #7c7469;
-  background: #f9f7f7;
-}
-blockquote ol li::after {
-  content: "";
-  margin: 0;
-}
-h2, h2, h4, h5 {
-  clear:both;
-}
-h3 {
-  color: #7c7469;
-  font-size: 16px !important;
-  margin-bottom: 0px !important;
-  font-weight: 800 !important;
-}
-aside {
-  float:left;
-  clear:both;
-  width:100%;
-}
-table.table {
-  border: 1px solid #cecece;
-}
-@media (min-width: 576px) {
-  blockquote ol li {
-    width: calc(50% - 10px);
-  }
-}
-</style>
 
 As the world's premier open access research sharing platform, arXiv was founded strictly for research and education, not profit. That's why we rely on members **--universities, libraries, research institutes, and labs--** to support our mission with funding and expertise. [Thank you, members](ourmembers.md)!
+{.intro}
 
-<a href="membership_confirm" class="button-fancy">Join or renew today <span> </span></a>
+[Join or renew today](membership_confirm.md){.button-reg}
 
 Membership offers your institution a high value, low-risk, budget-conscious option to serve your scholarly community. Members receive public recognition, institutional usage statistics, eligibility to serve in arXiv's governance, and more. The membership program is inclusive and flexible, and it complements arXiv's other [funding sources](funding.md), including affiliates and sponsors. [Questions? We're happy to help](mailto:membership@arxiv.org).
 
@@ -71,7 +11,7 @@ Membership offers your institution a high value, low-risk, budget-conscious opti
 
 Is arXiv an essential resource for your researchers? If yes, then we invite you to become a member according to the structure described here.  Annual fees are based on submissions by institution, averaged over three years.
 
-First, [find your institution's overall submission rank](reports/2021_institution_submissions.md). 
+First, [find your institution's overall submission rank](reports/2021_institution_submissions.md).
 
 Then, match your rank to the fee using this table:
 
@@ -120,4 +60,3 @@ Is your institution a champion of open access and a thought leader in scholarly 
 - [Twitter](https://twitter.com/arxiv)
 - [Status Updates](https://status.arxiv.org/)
 - [Questions? We're happy to help](mailto:membership@arxiv.org)
-

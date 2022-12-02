@@ -1,20 +1,6 @@
 #Brand Pillars
-<style>
-blockquote {
-  border-left: 0;
-  -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.12);
-  padding:1em;
-  margin-bottom:1.5em;
-}
-@media (min-width: 576px) {
-  blockquote {
-    padding: 2em;
-  }
-}
-</style>
 arXiv is an indispensable tool for the scientific community. Nevertheless it can be difficult to describe. These brand pillars drive our messaging.
+{.intro}
 
 Over the past 30 years arXiv has radically changed the way scientists interact with each other and do their research. The movement arXiv began is now an established part of the communications landscape, but arXiv has more to offer than low cost, instantaneous dissemination of articles: human *collaboration on a global scale*, sharing of *interactive data* and results, unique resolvable *records that evolve with time*, and much more. arXiv is committed to continue its success in leading innovation in scientific information sharing.
 
@@ -29,7 +15,7 @@ Our core value can be summed up in just two words:
 arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.
 
 > **“arXiv is often the first place where researchers take action in open science.”**
-> 
+>
 > —Dr. Hideaki Takeda, Professor, National Institute of Informatics
 
 This core value is reflected across arXiv's brand, from the intertwining arms of the chi in our logo, to our tagline, to our typographic treatments, tone of voice, and messaging. The world has changed since arXiv was created in 1991, but throughout these changes arXiv remains your connection to open science.

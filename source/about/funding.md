@@ -1,6 +1,7 @@
 # Funding Support
 
 arXiv’s mission is to provide an open research sharing platform where scholars can share and discover new, relevant, and emerging science, and establish their contribution to advancing research. We are grateful to the community of members, supporters, volunteers, and collaborators who believe in our mission and make this work possible.
+{.intro}
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based, and our <a href="images/arxiv-membership-program@2x.png" target="_blank">Sustainability Model</a> ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 

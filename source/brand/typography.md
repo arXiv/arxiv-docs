@@ -5,7 +5,7 @@ Consistenty of typography is critical to arXiv's identity. But within our framew
 Base styles are built around Freight Text and Freight Sans typefaces. The Freight family draws from Cornell University’s branding and connect us stylistically with our parent organization. arXiv has several typographic styles based on Freight that range from elegant and sophisticated to edgy and bold. Use these guidelines to balance both consistency and spontaneity.
 
 ##Architectural examples
-This architectural treatments of the Freight Text serif typeface allows for variation and customization with consistency of style. Contrasting font sizes, stacked lines, and interplay of letterforms create elegance and visual interest without sacrificing legibility.
+This architectural treatment of the serif typeface allows for customization with consistency of style. Stacked lines of contrasting size and weight, and interplay of letterforms create elegance and visual interest without sacrificing legibility.
 
 ![serif type treatment](images/brand-swag-mug-2.jpg){.mkd-img-left .mkd-border}
 ![Twelve Years of service design](images/brand-typography-1.jpg){.mkd-img-left .mkd-border}

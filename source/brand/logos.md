@@ -1,14 +1,16 @@
 #Logos
-Our identifying mark, vetted and approved by Cornell University, achieves the *legibility, memorability and legal defensibility* arXiv needs. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world. **That message is: arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
+Our identifying mark, vetted and approved by Cornell University, achieves the *legibility, memorability and legal defensibility* arXiv needs. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
+{.intro}
 
-> [Download assets from our logo library](https://cornell.box.com/v/arxiv-logo-assets)
-> *Are you a third party looking to use our logos in your product or materials?* Read our [brand use guidelines](brand-guidelines.html) first.
+**That message is: arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
 
 The arXiv logo nods to the past with a font that pays homage to arXiv’s birth in the 90’s, while also being boldly forward looking. The arms of the ‘X’ retain stylistic elements of the ‘chi’ in our name, with a lengthened top left and lower right branch. Symbolically, the intertwining of the arms at the heart of the logo captures the spirit of arXiv’s core value as a place of connection.
 
 Using our logo consistently over time will build up rich layers of meaning with our community, and it’s value to arXiv will increase exponentially. The legal protection we have over the logo will help us also protect the arXiv service that we all love.
 
 > **The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition.** Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.
+
+[Download assets from our logo library](https://cornell.box.com/v/arxiv-logo-assets). *Are you a third party looking to use our logos in your product or materials?* Read our [brand use guidelines](brand-guidelines.html) first.
 
 ##Primary Logo
 The primary arXiv logo is our default mark seen in most applications. It showcases two primary brand colors: Dark Grey and Cornell Red.

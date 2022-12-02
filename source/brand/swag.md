@@ -1,6 +1,6 @@
 #Branded Merchandise
 
-arXiv's community is enthusiastic! They appreciate a thank you, or the ability to take home a little piece of the arXiv they love so much, and to support this service at the same time.
+arXiv's community is enthusiastic! They appreciate the ability to take home a little piece of the arXiv they love, and to support this service at the same time.
 {.intro}
 
 Expressing our visual identity on products in the real world also helps establish our branding on a firm footing, protecting arXiv and our ability to continue to provide this service. Swag is also a good place for experimenting with informal, playful, and edgier permutations of the arXiv brand.
