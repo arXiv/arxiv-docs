@@ -46,8 +46,10 @@ located in the Eastern US (N. Virginia) region.
 
 PDFs are available on S3 in the `arxiv` requester pays bucket. They are
 grouped into `.tar` files of \~500MB each (which we've found is a good
-size chunk). The complete set of PDFs is about 270GB, source files about
-190GB, and we make about 40GB of additions/updates each month (2012-02).
+size chunk). The complete set of files as of December 2022 is about 5.4 TB, 
+with an estimated growth rate of around 100 GB per month, which we expect 
+will increase as the [submission rate](/stats/monthly_submissions) increases 
+over time.
 Examples keys for these files with the `arxiv` bucket are:
 
     pdf/arXiv_pdf_1001_001.tar         (s3://arxiv/pdf/arXiv_pdf_1001_001.tar in s3cmd URI style)
