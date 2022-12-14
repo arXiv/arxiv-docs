@@ -44,7 +44,7 @@ See [mkdocs-material additional CSS](https://squidfunk.github.io/mkdocs-material
 ## Left Nagivation Bar
 Currently using custom nav bar config:
 https://pypi.org/project/mkdocs-literate-nav/
-
+Change the nav by editing /source/SUMMARY.md
 
 ## Links
 Both absolute and relative links work. You can add a link in
