@@ -115,7 +115,7 @@ ___
 
 [About Replicate](https://replicate.com/about), [Replicate arXiv docs](https://replicate.com/docs/arxiv)
 
-Collaborators: **The Replicate Team**
+Collaborators: **Ben Firshman** and **the Replicate team**
 
 Machine learning is still extremely hard to use. Research is typically published as a PDF, with scraps of code on GitHub and weights on Google Drive. The Replicate Labs project makes it easy to share and associate your machine learning model with your arXiv paper in a way that is easy for other people to use.
 ___
