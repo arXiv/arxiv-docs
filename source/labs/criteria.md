@@ -1,6 +1,6 @@
 # arXivLabs Criteria
 
-_*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_
+_*arXiv Labs is back from vacation. As of December 2022 we are open for reviewing new proposals. Please email <a href="mailto:arxiv-labs&commat;arxiv&period;org">arxiv-labs&commat;arxiv&period;org</a> if you have something to propose*_
 
 ## General criteria for all [arXivLabs](https://labs.arxiv.org/) projects:
 

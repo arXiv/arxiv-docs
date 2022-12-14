@@ -30,13 +30,15 @@ blockquote {
 }
 </style>
 
-_*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_
+# Submit your project to arXivLabs
 
-In the meantime, learn more about arXiv's [Labs criteria](criteria) for Labs projects.
+_*arXiv Labs is back from vacation. As of December 2022 we are open for reviewing new proposals. Please email <a href="mailto:arxiv-labs&commat;arxiv&period;org">arxiv-labs&commat;arxiv&period;org</a> if you have something to propose*_
 
-This pause in Labs effort does not affect access to the arXiv APIs, which are always public and available. Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
+Visit [Labs criteria](criteria.md) to learn more about the criteria for Labs projects.
 
-<!-- arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and propose their project for arXivLabs. All projects must abide by arXiv’s values of openness, community, excellence, and user data privacy.  -->
+It is not necessary to be part of a Labs project to use the arXiv APIs. Many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
+
+arXiv welcomes anyone, from single individuals to large companies, to contribute ideas and propose their project for arXivLabs. All projects must abide by arXiv’s values of openness, community, excellence, and user data privacy.
 
 <!-- To propose a project fill out all fields in our project proposal form. _Scroll within the frame_ below to access the full form and fill out all fields on each page (a total of four steps). -->
 
