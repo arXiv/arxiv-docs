@@ -245,10 +245,12 @@ Below are some of the projects that our collaborators have done.
 
 <!-- <a href="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a> -->
 
+{{ render_project(page.meta.projects.replicate) }}
 {{ render_project(page.meta.projects.iarxiv) }}
 {{ render_project(page.meta.projects.hugging_face) }}
 {{ render_project(page.meta.projects.scitesmart) }}
 {{ render_project(page.meta.projects.sciencecast) }}
+{{ render_project(page.meta.projects.HTML5_readability) }}
 {{ render_project(page.meta.projects.litmaps) }}
 {{ render_project(page.meta.projects.connected_papers) }}
 {{ render_project(page.meta.projects.pwc_links) }}
