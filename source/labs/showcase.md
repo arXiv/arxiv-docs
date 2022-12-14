@@ -26,7 +26,7 @@ ___
 
 [ar5iv code repository](https://github.com/cul-it/arxiv-readability)
 
-Collaborators: **Michael Kohlhase and Deyan Ginev** from Friedrich-Alexander Universität Erlangen-Nürnberg, and **Ben Firschman** from arXiv-Vanity.
+Collaborators: **Michael Kohlhase and Deyan Ginev** from Friedrich-Alexander Universität Erlangen-Nürnberg, **Bruce Miller** from National Institute of Standards and Technology (NIST) and **Ben Firschman** from arXiv-Vanity.
 
 Our top priority is to provide a high-quality service to all arXiv authors and readers. The overarching objective of this project is to significantly improve the usability and accessibility of arXiv papers. While providing HTML is not a panacea, it is a first step in the right direction.
 ___
