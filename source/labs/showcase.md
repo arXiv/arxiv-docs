@@ -108,7 +108,7 @@ ___
 
 Collaborators: **JVacheh Joakim**, Science Cast, Inc.
 
-ScienceCast partners with arXiv.org to link arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
+ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
 ___
 ##Replicate
 ![Replicate icon](images/replicate-logo.png){.mkd-border align=left width=100 alt='a decorative icon of the Replicate labs project' role=presentation}
