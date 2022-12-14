@@ -1,5 +1,5 @@
 * [About](about/index.md)
-    - about/people/*.md
+    - about/people/index.md
 * [Help](help/)
 * [Brand](brand/index.md)
     - brand/*.md
