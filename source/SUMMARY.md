@@ -5,3 +5,5 @@
     - brand/*.md
 * [Labs](labs/index.md)
     - labs/*.md
+*  [Policies](help/policies)
+     - help/policies/*.md  
