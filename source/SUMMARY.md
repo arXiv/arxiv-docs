@@ -1,5 +1,11 @@
 * [About](about/index.md)
     - about/people/index.md
+    - about/governance.md
+    - about/membership.md
+    - about/funding.md
+    - about/reports/index.md
+    - about/accessibility_research_report.html
+    - [arXiv Blog] (https://blog.arxiv.org/)
 * [Help](help/)
 * [Brand](brand/index.md)
     - brand/*.md
