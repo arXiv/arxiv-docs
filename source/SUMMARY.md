@@ -29,3 +29,4 @@
      * [Text Overlap](/help/overlap.md)
      * [Requiring TeX when possible](/help/faq/whytex.md)
      * [Third party submission](/help/third_party_submission.md)
+* [arXiv Usage Stats](/help/stats/index.md)
