@@ -130,7 +130,7 @@ arXiv welcomes anyone, from single individuals to large companies, to contribute
 
 <!-- <a href="project-proposal" class="button-fancy">Click to submit your idea <span> </span></a> -->
 
-_*arXiv Labs is back from vacation. As of December 2022 we are open for reviewing new proposals. Please email <a href="mailto:arxiv-labs&commat;arxiv&period;org">arxiv-labs&commat;arxiv&period;org</a> if you have something to propose*_
+_arXiv Labs is back from vacation._ As of December 2022 we are open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
 
 Please review [criteria](criteria) for arXiv Labs projects.
 
