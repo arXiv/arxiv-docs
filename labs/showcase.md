@@ -175,7 +175,7 @@ projects:
     - name: JVacheh Joakim
       association: Science Cast, Inc.
     summary: |
-      ScienceCast partners with arXiv.org to link arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
+      ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
   replicate:
     title: Replicate
     thumbnail: ../images/replicate-logo.png
