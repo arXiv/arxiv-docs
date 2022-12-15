@@ -1,4 +1,4 @@
- * Submit an Article
+* Submit an Article
      * [Submission Overview](submit.md)
      * [Submit TeX/LaTeX](submit_tex.md)
      * [Submit a PDF](submit_pdf.md)
@@ -22,7 +22,7 @@
      * [Version Availability](versions.md)
      * [Why Submit TeX?](whytex.md)
      * [Withdraw / Retract a Submission](withdraw.md)
-   * Find and Read Articles
+* Find and Read Articles
      * [Search for articles](find.md)
      * [Viewing submissions](help/view.md)
      * [Email subscriptions for new papers](help/subscribe.md)
@@ -32,13 +32,13 @@
      * [Licenses](license/index.md)
      * [Permissions and Reuse](license/reuse.md)
      * [What is MathJax?](help/mathjax.md)
-   *  Accounts
+*  Accounts
      * [Directions for Author Registration](help/registerhelp.md)
      * [Author Identifiers](author_identifiers.md)
      * [ORCID identifiers](help/orcid.md)
      * [Authority Records](authority.md)
      * [Why isn't a Person "Registered as an Author?"](help/not-registered.md)
-   * [Bulk Access to Metadata and Full Text](bulk_data.md)
+* [Bulk Access to Metadata and Full Text](bulk_data.md)
      * [arXiv Identifier for Interacting Services](arxiv_identifier_for_services.md)
      * [Full Text via S3](bulk_data_s3.md)
      * [API for Metadata](api/)
