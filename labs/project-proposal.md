@@ -32,7 +32,7 @@ blockquote {
 
 # Submit your project to arXivLabs
 
-_arXiv Labs is back from vacation._ As of December 2022 we are open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
+We are now open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
 
 Visit [Labs criteria](criteria.md) to learn more about the criteria for Labs projects.
 
