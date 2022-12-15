@@ -17,14 +17,16 @@ projects:
   HTML5_readability:
     title: arXiv HTML5 & Readability
     repo: https://github.com/cul-it/arxiv-readability
-    thumbnail: ../images/readability.png
+    thumbnail: ../images/ar5iv-logo.png
     collaborators:
     - name: Michael Kohlhase
       association: Friedrich-Alexander Universität Erlangen-Nürnberg
-    - name: Ben Firschman
-      association: arXiv-Vanity
+    - name: Bruce Miller
+      association: National Institute of Standards and Technology (NIST)
     - name: Deyan Ginev
       association: Friedrich-Alexander Universität Erlangen-Nürnberg
+    - name: Ben Firschman
+      association: arXiv-Vanity
     summary: |
       Our top priority is to provide a high-quality service to all arXiv authors
       and readers. The overarching objective of this project is to significantly
@@ -32,7 +34,7 @@ projects:
       HTML is not a panacea, it is a first step in the right direction.
   core_recommender:
     title: CORE Recommender
-    thumbnail: ../images/core-recommender.png
+    thumbnail: ../images/CORE.png
     more_info:
     - name: arXiv:1705.00578
       link: https://arxiv.org/abs/1705.00578
@@ -118,7 +120,77 @@ projects:
       e-prints. From arXiv abstract pages, you can build a literature map from
       the arXiv article you are viewing, visualizing the top connected
       articles, and browse the citation network around it.
+  hugging_face:
+    title: Hugging Face Spaces
+    thumbnail: ../images/huggingface-logo.png
+    more_info:
+    - name: About Hugging Face Spaces
+      link: https://huggingface.co/huggingface
+    collaborators:
+    - name: Abubakar Abid
+      association: Hugging Face
+    - name: Omar Sanseviero
+      association: Hugging Face
+    - name: Ahsen Khaliq
+      association: Hugging Face
+    - name: the Hugging Face team
+      association: Hugging Face
+    summary: |
+      Hugging Face Spaces includes links to demos created by the community or the authors themselves. By going to the Demos tab of your favorite paper in the arXiv categories of computer science, statistics, or electrical engineering and systems science, you can find links to open-source demos and try them out immediately. With Spaces, Hugging Face users can share, explore, discuss models, and build interactive applications that enable anyone with a browser to try them out without having to run any code. These demos are built using open-source tools such as the Gradio and Streamlit Python libraries, and leverage models and datasets available on the Hugging Face Hub.
+  scitesmart:
+    title: Scite Smart
+    thumbnail: ../images/Scite-logo.png
+    more_info:
+    - name: About Scite Smart
+      link: https://scite.ai/
+    collaborators:
+    - name: Josh Nicholson
+      association: Scite Smart
+    - name: Domenic Rosati
+      association: Scite Smart
+    summary: |
+      Scite is a platform for discovering and evaluating scientific articles via Smart Citations. Smart Citations allow users to see how a publication has been cited by providing the context of the citation and a classification describing whether it provides supporting or contrasting evidence for the cited claim. With the Scite Smart Labs project, viewers can see this information directly on the abstracts page.
+  iarxiv:
+    title: IArxiv
+    thumbnail: ../images/iarxiv-logo.jpg
+    more_info:
+    - name: About IArxiv
+      link: https://iarxiv.org/about
+    - name: Sign Up
+      link: https://iarxiv.org/home
+    collaborators:
+    - name: Ezequiel Alvarez
+      association: ICAS, Professor at UNSAM
+    - name: Cesar Miquel
+      association: Easytech
+    summary: |
+      IArxiv allows readers to receive, by email, daily arXiv papers in a growing number of categories sorted by artificial intelligence according to their preferences. IArxiv learns each reader’s preferences first by fetching previous papers authored by the reader. Then, those preferences are updated over time based on the papers opened by that reader within the emails or on iarxiv.org. IArxiv runs an unsupervised Machine Learning algorithm, called LDA, to extract which topics are present in each paper, and in which proportions, to construct a vector of topics for each reader.
+  sciencecast:
+    title: ScienceCast
+    thumbnail: ../images/sciencecast-logo.png
+    more_info:
+    - name: About ScienceCast
+      link: https://iarxiv.org/about
+    collaborators:
+    - name: JVacheh Joakim
+      association: Science Cast, Inc.
+    summary: |
+      ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
+  replicate:
+    title: Replicate
+    thumbnail: ../images/replicate-logo.png
+    more_info:
+    - name: About Replicate
+      link: https://replicate.com/about
+    - name: Replicate arXiv docs
+      link: https://replicate.com/docs/arxiv
+    collaborators:
+    - name: the Replicate team
+      association: Replicate
+    summary: |
+      Machine learning is still extremely hard to use. Research is typically published as a PDF, with scraps of code on GitHub and weights on Google Drive. The Replicate Labs project makes it easy to share and associate your machine learning model with your arXiv paper in a way that is easy for other people to use.
 ---
+
 <style>
 h1#arxivlabs {
   margin-top: 0;
@@ -173,6 +245,12 @@ Below are some of the projects that our collaborators have done.
 
 <!-- <a href="/project-proposal" class="button-fancy">Click to submit your idea <span> </span></a> -->
 
+{{ render_project(page.meta.projects.replicate) }}
+{{ render_project(page.meta.projects.iarxiv) }}
+{{ render_project(page.meta.projects.hugging_face) }}
+{{ render_project(page.meta.projects.scitesmart) }}
+{{ render_project(page.meta.projects.sciencecast) }}
+{{ render_project(page.meta.projects.HTML5_readability) }}
 {{ render_project(page.meta.projects.litmaps) }}
 {{ render_project(page.meta.projects.connected_papers) }}
 {{ render_project(page.meta.projects.pwc_links) }}
