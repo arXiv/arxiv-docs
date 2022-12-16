@@ -1,8 +1,10 @@
 :root > * {
   --md-primary-fg-color:        #b31b1b;
   --md-primary-fg-color--light: #fb595a;
+  --md-default-fg-color--lightest:  #f9f7f7;
   --md-primary-fg-color--dark:  #6b6459;
   --md-text-font: "freight-sans-pro";
+  --md-typeset-a-color: #1f5e96;
 }
 body {
   font-family: freight-sans-pro, sans-serif;
@@ -78,17 +80,15 @@ a.button-large:hover, a.button-reg:hover {
   background-color: black;
   padding: .25em 1em;
 }
-.attribution img {
-
-}
 .attribution p.sponsors {
  display: block;
- max-width: 450px;
- font-size: 1.5em !important;
+ max-width: 400px;
+ font-size: 1.4em !important;
  font-family: freight-sans-pro, sans-serif;
- font-weight: 500;
- line-height: 1.51em;
+ font-weight: 600;
+ line-height: 1.49em;
  margin:.5em;
+ text-align: right;
 }
 .attribution p.sponsors a {
  color: #f9f7f7 !important;
@@ -108,6 +108,52 @@ a.button-large:hover, a.button-reg:hover {
     text-align: center;
     margin: 1em 2em .5em 2em;
   }
+}
+
+/*NAVIGATION - LEFT*/
+nav.md-nav .md-nav__item {
+  line-height: 1.2em;
+}
+nav.md-nav .md-nav__item .md-nav__link {
+  font-weight: 600;
+}
+nav.md-nav nav.md-nav .md-nav__item .md-nav__link,
+nav.md-nav .md-nav__item.md-nav__item--active nav.md-nav .md-nav__item .md-nav__link {
+  color: #1f5e96;
+}
+nav.md-nav .md-nav__link:hover,
+nav.md-nav nav.md-nav .md-nav__item a:hover,
+nav.md-nav nav.md-nav .md-nav__item.md-nav__item--nested .md-nav__link:hover,
+nav.md-nav .md-nav__item.md-nav__item--active nav.md-nav .md-nav__item a:hover {
+  color: black;
+}
+nav.md-nav nav.md-nav .md-nav__item .md-nav__link {
+  font-weight: 400;
+}
+nav.md-nav .md-nav__item nav.md-nav .md-nav__list {
+  line-height: 1.2 !important;
+}
+nav.md-nav .md-nav__item.md-nav__item--active .md-nav__link {
+  font-weight: 700;
+}
+nav.md-nav .md-nav__item.md-nav__item--active nav.md-nav .md-nav__item .md-nav__link.md-nav__link--active {
+  font-weight: 600;
+}
+nav.md-nav .md-nav__list .md-nav__toggle.md-toggle {
+
+}
+@media all and (min-width: 1220px) {
+  nav.md-nav .md-nav__title {
+    display: none;
+  }
+}
+/*NAVIGATION - RIGHT*/
+nav.md-nav.md-nav--secondary .md-nav__item .md-nav__link {
+  color: #1f5e96;
+  font-weight: 400;
+}
+nav.md-nav.md-nav--secondary .md-nav__item .md-nav__link:hover {
+  color: black !important;
 }
 
 /*ARXIV FOOTER*/
@@ -367,7 +413,7 @@ ol.color-blocks li img {
   text-align: center;
 }
 .a11y-report .abstract-intro {
-  font-family: freight-sans-pro, sans-serif;
+  font-family: freight-text-pro, serif;
   line-height: 2em;
 }
 .a11y-report .authors {
