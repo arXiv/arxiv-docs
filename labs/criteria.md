@@ -1,6 +1,6 @@
 # arXivLabs Criteria
 
-_*arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.*_
+We are now open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
 
 <style>
 blockquote {
