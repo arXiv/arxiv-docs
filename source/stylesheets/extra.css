@@ -111,6 +111,9 @@ a.button-large:hover, a.button-reg:hover {
 }
 
 /*NAVIGATION - LEFT*/
+nav.md-nav.md-nav--primary {
+  font-size: .8rem;
+}
 nav.md-nav .md-nav__item {
   line-height: 1.2em;
 }
