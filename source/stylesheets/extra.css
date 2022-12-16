@@ -143,7 +143,7 @@ nav.md-nav .md-nav__list .md-nav__toggle.md-toggle {
 
 }
 @media all and (min-width: 1220px) {
-  nav.md-nav .md-nav__title {
+  nav.md-nav.md-nav--primary .md-nav__title {
     display: none;
   }
 }
