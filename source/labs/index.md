@@ -17,8 +17,11 @@ arXiv welcomes anyone, from single individuals to large companies, to contribute
 
 <!-- <a href="project-proposal" class="button-fancy">Click to submit your idea <span> </span></a> -->
 
-_**arXiv Labs is temporarily on pause while arXiv is focused on stability and moving to the cloud. Please check back in six months.**_ In the meantime, you can learn more about the [criteria](criteria.md) for arXiv Labs projects.
+We are now open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
 
-This pause in Labs effort does not affect access to the arXiv APIs, which are always public and available. Please also note that many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
+See [criteria](criteria.md) for arXiv Labs projects.
+
+It is not necessary to be part of a Labs project to use the arXiv APIs. Many projects that use APIs and other methods to access arXiv's metadata, full text, or source files are **not** arXivLabs projects. Learn more about [arXiv API access and data usage here.](https://arxiv.org/help/api/)
 
 _Note: Use of the names “arXiv”, “arXiv.org”, “arXiv Labs”, “arXivLabs” and associated logos, web addresses, and colors are only allowed with the explicit written permission from the arXiv management team._
+
