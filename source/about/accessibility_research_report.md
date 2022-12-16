@@ -26,7 +26,7 @@ In the United States, 14.5% of K-12 students have a recognized disability ([Nati
 
 Furthermore, in the United States there are clear mandates for equivalent access to websites and federally funded research. The need to make research more accessible to all is evident and pressing.
 
-> **"We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk."**
+> **“We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk.”**
 >
 > —Dr. Kimberly Arcand, data visualizer and science communicator
 
@@ -1029,7 +1029,7 @@ To offer the flexibility of well formatted HTML downstream requires, ironically,
 
 And this is the difficulty. 90% of arXiv submissions are provided as TeX (mainly LaTeX), and converting to HTML is not easy due to its extensibility.
 
-> **"On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible."**
+> **“On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible.”**
 >
 > —Frank Mittelbach, Head of Development, LaTeX group
 
