@@ -26,7 +26,7 @@ In the United States, 14.5% of K-12 students have a recognized disability ([Nati
 
 Furthermore, in the United States there are clear mandates for equivalent access to websites and federally funded research. The need to make research more accessible to all is evident and pressing.
 
-> **"We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk."**
+> **“We can only do so much to welcome people, but if they can’t participate fully it's all just nice talk.”**
 >
 > —Dr. Kimberly Arcand, data visualizer and science communicator
 
@@ -875,9 +875,9 @@ HTML is an even older and more established standard than PDF. In fact, HTML was 
 
 Of course, HTML is not automatically accessible. When we refer to HTML in our accessibility plan we mean well-formatted, semantic HTML with necessary ARIA tags. There will be some limitations to what we can do based on the richness of the original uploaded TeX, but our plan is to achieve the most accessible HTML possible within those constraints.
 
-PDF can also theoretically be tagged for accessibility, too. But as presented in this paper, the reality is that only about 2.4% of PDFs are accessible and there are significant barriers to improving that number. One promising effort is that the LaTeX core working group are addressing accessibility now, and we plan on incorporating their work as soon as it is available so that we can also provide more accessible PDF documents on arXiv.
+PDF can theoretically be tagged for accessibility, too. But as presented in this paper, the reality is that only about 2.4% of PDFs are accessible and there are significant barriers to improving that number. One promising effort is that the LaTeX core working group are addressing accessibility now, and we plan on incorporating their work as soon as it is available so that we can also provide more accessible PDF documents on arXiv.
 
-Based on provided feedback, we have rated how well we expect the PDFs that arXiv generates now vs the well-formatted HTML that our plan will provide to see how they score on a number of criteria.
+Based on provided feedback, we have rated how well we expect *the PDFs that arXiv generates now* will compare to *the well-formatted HTML that our plan will generate* to see how they score on a number of criteria.
 
 
 ### arXiv assessment of HTML and PDF
@@ -1025,11 +1025,11 @@ _Scale: 0 = non-functional, 1 = OK, 2 = good, 3 = excellent._
 
 _*examples: to meet publishers' requests to hide author names while the paper is under double blind review, or promoting best practices by displaying the license the author chose during submission on the work itself._
 
-To offer the flexibility of well formatted HTML downstream requires, ironically, restrictions upstream during content creation. Well structured, parseable content that follows established standards must be either provided or generated during submission.
+To offer the flexibility of well formatted HTML downstream requires, ironically, restrictions upstream during content creation. Well-structured, parseable content that follows established standards must be either provided or generated during submission.
 
 And this is the difficulty. 90% of arXiv submissions are provided as TeX (mainly LaTeX), and converting to HTML is not easy due to its extensibility.
 
-> **"On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible."**
+> **“On the one hand it's great that LaTeX is so extensible. On the other hand it is such a pain that it is so extensible.”**
 >
 > —Frank Mittelbach, Head of Development, LaTeX group
 
