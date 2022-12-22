@@ -122,13 +122,13 @@ nav.md-nav .md-nav__item .md-nav__link {
 }
 nav.md-nav nav.md-nav .md-nav__item .md-nav__link,
 nav.md-nav .md-nav__item.md-nav__item--active nav.md-nav .md-nav__item .md-nav__link {
-  color: #1f5e96;
+  /*left nav links*/
 }
 nav.md-nav .md-nav__link:hover,
 nav.md-nav nav.md-nav .md-nav__item a:hover,
 nav.md-nav nav.md-nav .md-nav__item.md-nav__item--nested .md-nav__link:hover,
 nav.md-nav .md-nav__item.md-nav__item--active nav.md-nav .md-nav__item a:hover {
-  color: black;
+  /* link hover styles */
 }
 nav.md-nav nav.md-nav .md-nav__item .md-nav__link {
   font-weight: 400;
@@ -152,11 +152,10 @@ nav.md-nav .md-nav__list .md-nav__toggle.md-toggle {
 }
 /*NAVIGATION - RIGHT*/
 nav.md-nav.md-nav--secondary .md-nav__item .md-nav__link {
-  color: #1f5e96;
   font-weight: 400;
 }
 nav.md-nav.md-nav--secondary .md-nav__item .md-nav__link:hover {
-  color: black !important;
+  /* link hover styles */
 }
 
 /*ARXIV FOOTER*/
@@ -539,3 +538,8 @@ ul.brand-colors li .text {
     margin: .35em 10px 0 0 !important;
   }
 }
+
+/* slate theme (dark mode) */
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #a5d6fe;
+ }
