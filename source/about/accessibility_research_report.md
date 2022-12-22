@@ -76,7 +76,7 @@ However, the format has serious limitations that have had a profound impact on t
 >
 > —Dr. Jonathan Godfrey, Senior Lecturer in Statistics
 
-Research from the Allen AI institute reports a miserably low accessibility rate for research papers:
+Research from the Allen Institute reports a miserably low accessibility rate for research papers:
 
 **“PDF accessibility adherence is low across all fields of study. Of the five accessibility criteria we assess, only 2.4% of the PDFs we assess demonstrate full compliance.”**([Wang et al.](#13 "Wang, Lucy, et al. “Improving the accessibility of scientific documents.” arXiv, 2021. arxiv.org, https://arxiv.org/pdf/2105.00076."))
 
@@ -106,7 +106,7 @@ PDF is the current standard, but our user research tells us that providing HTML�
 ### Existing tools
 A great deal of work has been done by sung and unsung heroes in the accessibility space, and as arXiv explores our role in making research more accessible we know that we are standing on the shoulders of giants. Critical and transformative work has been achieved in the standardizing and formatting of math on the web; converting TeX to HTML (and PDF, Word and other formats to HTML as well); guiding researchers in writing alternative content for figures and images; making data in charts and graphs parseable by screen readers; translation services (including for Braille); identifying and measuring accessibility on the web; and the incredibly important and advanced work that has gone into screen readers and haptic displays.
 
-We also want to take the opportunity to acknowledge the countless scientists with disabilities who have invented and contributed to tools, standards, and community understanding over their careers. We have spoken to so many scientists who had to first invent or build the tools they use just to participate in their field. They have paved the way for countless others, as well as for the assistive software in use today. They donate their time to open source tools, guide new scientists in navigating the confusing landscape of access, generously share their expertise (including with arXiv), and endlessly advocate for equal access. All the while overcoming the daily obstacles they face in their own work. Thank you.
+We also want to take the opportunity to acknowledge the countless scientists with disabilities who have contributed invaluably to tools, standards, and community understanding over their careers. We have spoken to so many scientists who had to first invent or build the tools they use just to participate in their field. They have paved the way for countless others, as well as for the assistive software in use today. They donate their time to open source tools, guide new scientists in navigating the confusing landscape of access, generously share their expertise (including with arXiv), and endlessly advocate for equal access. All the while overcoming the daily obstacles they face in their own work. Thank you.
 
 To the professors and teachers helping students overcome the formidable barriers built into how we share and publish research, thank you. To the researchers who make their work accessible, thank you.
 
@@ -133,7 +133,7 @@ Out of a pool of 275 volunteers we had a response rate of 18% and received a tot
 #### Demographics
 Our respondents were primarily frequent arXiv users. 58% use arXiv daily and 25% weekly. 25% of respondents directly use assistive technology, while 75% are not direct users, but are involved in assisting people who are.
 
-Respondents represent a variety of fields, with the highest number of respondents (*42%) from Physics, followed by Math and CS.
+Respondents represent a variety of fields, with the highest number of respondents—42%—from Physics (includes Astrophysics), followed by Math and CS.
 
 <table>
   <tr>
@@ -659,7 +659,7 @@ We interviewed a total of 44 individuals. They include researchers with reading 
 
 Our participants were recruited through our accessibility survey, two accessibility mailing lists, direct invitations, and word of mouth. The mode for interview length was 30 minutes with some going longer.
 
-We conducted semi-structured interviews with individuals or small groups using video conferencing tools, and in two cases in person. An interview guide was developed and used as a loose guiding tool, but prioritizing the participants' conversational lead: we wanted to learn what they most wanted us to know. All participants were interviewed by the main interviewer, assisted by other members of arXiv staff and student assistants.
+We conducted semi-structured interviews with individuals or small groups using video conferencing tools, and in two cases in person. An interview guide was developed and used as a loose guiding tool, but we prioritized the participants' conversational lead: we wanted to learn what they most wanted us to know. All participants were interviewed by the main interviewer, assisted by other members of arXiv staff and student assistants.
 
 All personally identifying data relating to interviewees is omitted in this report in order to preserve anonymity.
 
