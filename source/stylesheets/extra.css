@@ -471,7 +471,7 @@ ol.color-blocks li img {
   text-decoration: none !important;
   font-weight: bold;
   font-size: 1.25em;
-  color: white !important;
+  color: #6b6459 !important;
   display: block;
   overflow: hidden;
 }
@@ -487,12 +487,12 @@ ol.color-blocks li img {
   display: none;
 }
 .brand-toc .card a:hover > img {
-  -webkit-transform: scale(1.8) rotate(0.01deg);
-  transform: scale(1.8) rotate(0.01deg);
+  -webkit-transform: scale(1.3) rotate(0.01deg);
+  transform: scale(1.3) rotate(0.01deg);
 }
 .brand-toc .card span {
   padding: 10px 12px;
-  background: black;
+  background-color: white;
   text-align: center;
   display:block;
 }

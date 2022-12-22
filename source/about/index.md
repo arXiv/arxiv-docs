@@ -53,4 +53,4 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 - [Governance](governance.md)
 - [Business Model](reports-financials.md)
 - [Annual Reports and Financials](reports/index.md)
-- [Brand Guide and Logo Usage](brand.md)
+- [Brand Guide and Logo Usage](../brand/index.md)
