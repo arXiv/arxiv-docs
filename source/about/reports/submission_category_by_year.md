@@ -1,6 +1,6 @@
 # Submissions by Category since 2009+
 
-_See more [arXiv in Numbers 2020](2020_usage.md) and [Usage stats](None)_
+_See more [arXiv reports](index.md) and [Usage stats](None)_
 
 The following tables show submissions to arXiv by [category](https://arxiv.org/category_taxonomy). Explore different views of the data by toggling between sheets.
 
