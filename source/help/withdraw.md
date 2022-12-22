@@ -6,8 +6,8 @@ Submission not yet announced
 If your submission has not yet become [publicly
 available](availability.md) you may delete or delay it. To do either
 of these things go to your [user page](https://arxiv.org/user) and select
-either the Delete (![delete icon](/images/delete.png)) or Unsubmit
-(![unsubmit icon](/images/unsubmit.png)) icon. Deleting a submission
+either the Delete (![delete icon](../assets/delete.png)) or Unsubmit
+(![unsubmit icon](../assets/unsubmit.png)) icon. Deleting a submission
 will remove it from our system, unsubmitting will return it to the
 [incomplete status](submit_status.md#incomplete) allowing modification and
 later resubmission. If you have difficulty in doing either of these
@@ -24,7 +24,7 @@ Articles that have been announced and made public cannot be completely removed. 
 To submit a withdrawal
 
 - From your [user page](https://arxiv.org/user) select the Withdraw icon (![withdraw
-icon](/images/withdraw.png)) for the appropriate article in the
+icon](../assets/withdraw.png)) for the appropriate article in the
 "Articles You Own".
 - Complete the Withdrawal form by providing a specific reason for the withdrawal within the
 **Comments** field.
