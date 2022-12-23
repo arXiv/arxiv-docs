@@ -5,6 +5,8 @@ Our color palette is an integral part of arXiv's distinct and recognizeable iden
 
 To maintain a strong and consistent communication system, and to ensure accessible and legible type, we use the following colors and color combinations in our messaging and products.
 
+## Primary colors
+
 <ul class="brand-colors">
   <li>
     <div class="color" style="background-color:#6b6459;"></div>
@@ -64,17 +66,43 @@ To maintain a strong and consistent communication system, and to ensure accessib
   </li>
 </ul>
 
-**Links:**  Text links use Archival Blue. This color should never be used for any other text. It can be used as an accent color however, for example in a background, images, or other use that does not imply it is a link.
+## Reserved Colors
+
+<ul class="brand-colors">
+  <li>
+    <div class="color" style="background-color:#1e8bc3;"></div>
+    <p><strong>Link Blue</strong><br>  
+    <strong>Hex</strong>&nbsp;1e8bc3<br>  
+    <strong>CMYK&nbsp;</strong>65, 22, 0, 24<br>  
+    <strong>RGB</strong> 30, 139, 195</p>
+  </li>
+  <li>
+    <div class="color" style="background-color:#1c1a17;outline-style:solid;outline-color:white;outline-width:.5px;"></div>
+    <p><strong>Repository Brown</strong><br>  
+    <strong>Hex</strong>&nbsp;1c1a17<br>  
+    <strong>CMYK&nbsp;</strong>0, 1, 2, 89<br>  
+    <strong>RGB</strong> 28, 26, 23</p>
+  </li>
+</ul>
+
+**Links:**  Text links use the reserved Link Blue. This color should never be used for any other text. The hover/focus color depends on the theme (see table below).
 
 **Headers:** Large headers are in either Black or Library Grey. Subheaders are in Black,  Publishing Pink, or Cornell Red.
 
 **Standard Text:** Standard body copy is always in black over white, cool wash, or warm wash.
 
-**Backgrounds:** Cool Wash and Warm Wash are both used liberally as background colors.
+**Backgrounds:** Cool Wash and Warm Wash are both used liberally as background colors. In addition, the reserved color Repository Brown is contrast compatible with Link Blue and us used as the background in our dark theme.
 
-**Access Lime:** This retro color harkens back to arXiv's smileybones favicon from the 90s. It is used sparingly and in more casual communications.
+**Access Lime:** This retro color harkens back to arXiv's smileybones favicon from the 90s. It is used sparingly and in more casual communications. It also used for code blocks and code highlighting.
 
 **A note about Cornell Red:** *In web interfaces red signals errors. It’s also a color that causes visibility issues for those with color blindness. Therefore red should rarely be used as a text color on the web. However Cornell Red makes a bold statement, further connects us to Cornell University’s brand, and is a powerful stylistic element when used appropriately. Please visit the ‘Web Element Patterns’ section of this guide for examples of it’s use.*
+
+| Use                | Light Theme        | Dark Theme          |
+| ------------------ | ------------------ | ------------------- |
+| Links              | Link Blue      | Link Blue           |
+| Hover/focus        | Archival Blue      | Open Blue           |
+| Text        | Black      | Warm Wash           |
+| Background        | White      | Repo Brown           |
 
 ##Accessible Color Combinations
 Sufficient color contrast is one of the pillars of accessibility on the web. The following color combinations are compliant with WCAG 2.1 AA accessibility standards for text sizes 10px and larger.
@@ -105,6 +133,12 @@ Sufficient color contrast is one of the pillars of accessibility on the web. The
     <p><strong>Cornell Red + Warm Wash</strong></p>
   </li>
 </ul>
+
+**Button combinations**
+
+[Regular Button](testlinkonly){.button-reg}
+
+[Large Button](testlinkonly){.button-large}
 
 ##Special Combinations for Large Font Sizes
 In addition to all of the color combinations above, some additional color combinations are available for headings and font sizes 19px or larger.
