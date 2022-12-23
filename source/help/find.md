@@ -14,8 +14,8 @@ or Article-id**" box in the top right of most pages.
 You can also construct the URL (web address) for a paper with a given
 identifier as `http://arxiv.org/abs/<identifier>`. For example,
 
->     http://arxiv.org/abs/hep-th/9603067
->     http://arxiv.org/abs/0705.0123
+     http://arxiv.org/abs/hep-th/9603067
+     http://arxiv.org/abs/0705.0123
 
 From the abstract page you will be able to choose your preferred format
 for [downloading and viewing](view.md) the paper.

@@ -14,4 +14,4 @@
 -   [Monthly download rates](https://arxiv.org/stats/monthly_downloads)
 -   [Annual institutional downloads](../../about/reports/2020_usage.md)
 
-_Explore more [arXiv in Numbers 2020](../../about/reports/2020_usage.md)_
+_Explore more [in arXiv reports](../../about/reports/index.md)_
