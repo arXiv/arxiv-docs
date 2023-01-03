@@ -165,6 +165,12 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
 nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list a {
   font-weight: 500;
 }
+@media all and (min-width: 960px) {
+  nav.md-nav.md-nav--secondary nav.md-nav .md-nav__item {
+    padding: 0;
+  }
+}
+
 @media all and (min-width: 1220px) {
   nav.md-nav.md-nav--primary .md-nav__title {
     display: none;

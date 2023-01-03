@@ -1,6 +1,6 @@
 #Fonts
 
-arXiv uses two main typefaces from the Freight family, and two accent typefaces. The Freight family draw from Cornell University’s branding and connect us stylistically with our parent organization. The accent typefaces add variation and interest, and are a bridge between the modern technological age and our retro 90's roots.
+arXiv uses two main typefaces from the Freight family, and two accent typefaces. The Freight family draw from Cornell University’s branding and connect us stylistically with our parent organization. The accent typefaces add variation and interest, and are a bridge to our retro 90's roots.
 {.intro}
 
 ##Primary Typefaces
