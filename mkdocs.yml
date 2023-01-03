@@ -31,7 +31,7 @@ theme:
         name: Switch to system preference
   logo: assets/arxiv-logo-one-color-white.svg
   custom_dir: overrides
-  favicon: images/favicon.png
+  favicon: assets/favicon.png
 extra_css:
   - stylesheets/extra.css
 extra:
