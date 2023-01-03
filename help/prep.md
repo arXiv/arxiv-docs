@@ -293,7 +293,8 @@ Please carefully review the [descriptions of categories](/category_taxonomy) to 
 
 -   For submissions to the math archive, this field is used to indicate
     the mathematical classification code according to the [Mathematics
-    Subject Classification](http://www.ams.org/msc/). Here is an example
+    Subject Classification](https://en.wikipedia.org/wiki/Mathematics_Subject_Classification). 
+    Here is an example
 
         MSC-class: 14J60 (Primary) 14F05, 14J26 (Secondary)
 
