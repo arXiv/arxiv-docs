@@ -1,6 +1,6 @@
 # arXivLabs Criteria
 
-We are now open for reviewing new proposals. Please <a href="https://arxiv-org.atlassian.net/servicedesk/customer/portal/6">use our support portal</a> to fill out a proposal, or ask questions.
+We are now open for reviewing new proposals. Please [use our support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6) to fill out a proposal, or ask questions.
 
 ## General criteria for all [arXivLabs](https://labs.arxiv.org/) projects:
 

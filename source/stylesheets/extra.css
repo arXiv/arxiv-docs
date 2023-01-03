@@ -13,7 +13,7 @@
   --color-links:        #1e8bc3;
   /*fonts*/
   --md-text-font: "freight-sans-pro";
-  --md-code-font-family: "ocr-a-std";
+  --md-code-font-family: monospace;
   /*default theme colors*/
   --md-primary-fg-color:  var(--color-cornell-red);
   --md-primary-fg-color--light: var(--color-access-lime);
