@@ -430,7 +430,7 @@ ol.color-blocks li img {
   margin: 0 auto;
   display: grid;
   gap: .5em;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 }
 .block {

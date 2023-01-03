@@ -2,7 +2,7 @@
 
 Welcome to the Computing Research Repository (CoRR) in arXiv. The Computer Science section of arXiv was established in 1998 through a partnership of the Association for Computing Machinery, the Networked Computer Science Technical Reference Library, and arXiv.
 
-You can view the subject category descriptions and browse papers from [https://arxiv.org/archive/cs](https://arxiv.org/archive/cs). New readers and authors to arXiv should see our help pages for [registration](../help/registerhelp.md), [submission](../help/submit.md) and [subscription](../help/subscribe.md).
+You can view the subject category descriptions and browse papers from [https://arxiv.org/archive/cs](https://arxiv.org/archive/cs). New readers and authors to arXiv should see our help pages for [registration](../registerhelp.md), [submission](../submit.md) and [subscription](../subscribe.md).
 
 ### CoRR Advisory Committee
 
