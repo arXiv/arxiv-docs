@@ -35,12 +35,11 @@ Is your institution a champion of open access and a thought leader in scholarly 
 
 
 ## Confirmation and Payment Instructions
+[Join, renew, or confirm your membership](membership_confirm.md){.button-reg}
 
-<a href="membership_confirm" class="button-fancy">Join, renew, or confirm your membership <span> </span></a>
+[arXiv payment instructions](arXiv-payment-info-2022.pdf)
 
-<a href="arXiv-payment-info-2022.pdf" class="button-fancy">arXiv payment instructions <span> </span></a>
-
-<a href="donate" class="button-fancy">Pay by credit card <span> </span></a>
+[Pay by credit card](donate.md)
 
 
 ## Member Benefits
