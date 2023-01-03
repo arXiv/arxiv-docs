@@ -50,11 +50,11 @@ downloads. A small fraction of submissions are made with [other
 licenses](license/index.md) and this information is available in the
 OAI-PMH metadata.*
 
-### Kaggle
+### Kaggle - Full Text
 The full, machine-readable arXiv dataset is [available on Kaggle](https://www.kaggle.com/Cornell-University/arxiv). This includes all available articles and related features such as article titles, authors, categories, abstracts, full text PDFs, and more.
 
 
-### Amazon S3
+### Amazon S3 - Full Text
 
 For all available articles the processed PDF and source files are [available from Amazon S3](bulk_data_s3.md). 
 
