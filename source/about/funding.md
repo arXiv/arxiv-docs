@@ -18,6 +18,4 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
 
 [Donate Today](https://securelb.imodules.com/s/1717/alumni/event.aspx?sid=1717&gid=2&pgid=22315&cid=35778&dids=276&bledit=1&sort=1){.button-reg}
 
-Questions about Supporting arXiv?
-
-[Email us. We're happy to help](mailto:membership@arxiv.org){.button-reg}
+Questions about Supporting arXiv? [Email us. We're happy to help](mailto:membership@arxiv.org)

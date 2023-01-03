@@ -13,7 +13,7 @@
   --color-links:        #1e8bc3;
   /*fonts*/
   --md-text-font: "freight-sans-pro";
-  --md-code-font-family: "ocr-a-std";
+  --md-code-font-family: monospace;
   /*default theme colors*/
   --md-primary-fg-color:  var(--color-cornell-red);
   --md-primary-fg-color--light: var(--color-access-lime);
@@ -132,7 +132,7 @@ a.button-large:hover, a.button-reg:hover {
  font-size: 1.4em !important;
  font-family: freight-sans-pro, sans-serif;
  font-weight: 600;
- line-height: 1.49em;
+ line-height: 1.5;
  margin:.5em;
  text-align: right;
 }
@@ -165,6 +165,12 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
 nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list a {
   font-weight: 500;
 }
+@media all and (min-width: 960px) {
+  nav.md-nav.md-nav--secondary nav.md-nav .md-nav__item {
+    padding: 0;
+  }
+}
+
 @media all and (min-width: 1220px) {
   nav.md-nav.md-nav--primary .md-nav__title {
     display: none;
