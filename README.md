@@ -5,10 +5,10 @@ Static sites for arXiv.
 ## Building a local site
 
 ```bash
+pyenv local 3.8.12
 python -m venv docs-venv
 source docs-venv/bin/activate
 pip install -r mkdocs-requirements.txt
-./make_arxiv_theme/prep_for_mkdocs.sh
 mkdocs serve
 ```
 
@@ -105,7 +105,7 @@ See the [mkdocs-macros docs](https://mkdocs-macros-plugin.readthedocs.io/en/late
 
 # Style options for markdown pages
 
-Use the following css are already in the CSS used by the arxiv-docs pages. 
+Use the following css are already in the CSS used by the arxiv-docs pages.
 
 To clear a float use a single ``#`` (an empty header) on its own line.
 
@@ -162,7 +162,7 @@ The following styles will be automatically applied to any ordered lists, or orde
 ```
 
 ## Unordered Lists within a Blockquote
-The following styles will be automatically applied to any unordered lists within a blockquote on your page. 
+The following styles will be automatically applied to any unordered lists within a blockquote on your page.
 
 ### Syntax for Unordered Lists within Blockquote
 ```
@@ -182,4 +182,3 @@ Use the following styles to add a subtle box-shadow around some content.
 >
 > ... blank lines.
 ```
-
