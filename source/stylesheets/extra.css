@@ -132,7 +132,7 @@ a.button-large:hover, a.button-reg:hover {
  font-size: 1.4em !important;
  font-family: freight-sans-pro, sans-serif;
  font-weight: 600;
- line-height: 1.49em;
+ line-height: 1.5;
  margin:.5em;
  text-align: right;
 }
