@@ -2,8 +2,8 @@
 
 If you would like to receive regular daily listings of the abstracts of
 new submissions by email, then you can subscribe to this service as
-follows. Note that the email must be sent as **plain text**. Richtext format
-emails will be ignored by the system.
+follows. Note that the email must be sent as **plain ASCII txt**. Richtext format
+emails will be ignored by the system, as will UTF-8 characters within the `Subject` field. 
 
 1.  Determine which archive is of interest to you, and obtain its e-mail
     address from the [list of available archives](https://arxiv.org/category_taxonomy)
