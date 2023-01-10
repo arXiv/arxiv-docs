@@ -172,7 +172,7 @@ projects:
     - name: About ScienceCast
       link: https://iarxiv.org/about
     collaborators:
-    - name: JVacheh Joakim
+    - name: Andres Jiranek
       association: Science Cast, Inc.
     summary: |
       ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
