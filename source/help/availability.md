@@ -27,4 +27,13 @@ The final [arXiv identifier](arxiv_identifier.md) cannot be assigned until the p
 <a name="holiday"></a>
 ## On Deferred Mailings
 
-On the occasion that arXiv defers a mailing (either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons), this information may be found on the [arXiv status](https://status.arxiv.org), or on the [arXiv blog](https://blog.arxiv.org).  
+On the occasion that arXiv defers a mailing (either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons), this information may also be found on the [arXiv status](https://status.arxiv.org), or on the [arXiv blog](https://blog.arxiv.org).  
+
+### 2023 Holidays 
+- Mon 16 January 
+- Mon 19 June
+- Tues 4 July
+- Mon 4 September
+- Thrs 23 November
+- Mon 25 December
+- Wed 27 December
