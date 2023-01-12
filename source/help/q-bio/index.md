@@ -14,5 +14,3 @@ The advisory committee members serve as consultants to Cornell University and to
 
 *   [Ralf Bundschuh](http://bioserv.mps.ohio-state.edu/~rbund/) (Ohio State): **coordinator and appellate moderator**.
 *   [Michael Lässig](http://www.thp.Uni-Koeln.DE/~lassig/) (Köln): **coordinator and appellate moderator**.
-*   [Chuck Stevens](http://www.salk.edu/faculty/stevens.html) (Salk): neural biology.
-*   [Gary Stormo](http://ural.wustl.edu/stormo.html) (WUSTL): molecular biology and bioinformatics.
