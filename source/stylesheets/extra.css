@@ -59,9 +59,7 @@ body {
 .md-header__button.md-logo img {
   height: 2rem !important;
 }
-.md-header__source {
-  display: none !important;
-}
+
 p {
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;

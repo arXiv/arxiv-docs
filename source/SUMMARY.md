@@ -6,7 +6,7 @@
     * [Reports](about/reports/index.md)
     * [Accessibility Report](about/accessibility_research_report.md)
     * [arXiv Blog](https://blog.arxiv.org/)
-* [Help](help/)
+* [Help](help/index.html)
 * [Brand](brand/index.md)
     - brand/*.md
 * [Labs](labs/index.md)
