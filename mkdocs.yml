@@ -10,10 +10,12 @@ plugins:
   - search
   - literate-nav:
       nav_file: SUMMARY.md
+      implicit_index: true
 theme:
   name: material
   features:
     - content.tooltips
+    - navigation.indexes
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
