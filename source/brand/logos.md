@@ -12,7 +12,7 @@ Using our logo consistently over time will build up rich layers of meaning with 
 
 
 ##Download arXiv logo assets
-*Are you a third party looking to use our logos in your product or materials?* Read our [logo and brand use guidelines](brand-guidelines.html) first. If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
+*Are you a third party looking to use our logos in your product or materials?* Read our [logo and brand use guidelines](brand-guidelines.md) first. If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
 
 | Logo style  | Image      | Download links                          |
 | ----------- | --------------- | ------------------------------------ |
