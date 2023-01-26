@@ -7,21 +7,7 @@
 {{ super() }}
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<!-- new favicon config and versions by realfavicongenerator.net -->
-<link rel="apple-touch-icon" sizes="180x180" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/favicon-16x16.png">
-<link rel="manifest" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/site.webmanifest">
-<link rel="mask-icon" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/safari-pinned-tab.svg" color="#b31b1b">
-<link rel="shortcut icon" href="https://static.arxiv.org/static/base/1.0.0a4/images/icons/favicon.ico">
-<link rel="stylesheet" href="https://use.typekit.net/kkn2tyz.css">
-<meta name="msapplication-TileColor" content="#b31b1b">
-<meta name="msapplication-config" content="images/icons/browserconfig.xml">
-<meta name="theme-color" content="#b31b1b">
-<!-- end favicon config -->
 <title> | arXiv e-print repository</title>
-<script defer src="https://static.arxiv.org/static/base/1.0.0a4/fontawesome-free-5.11.2-web/js/all.js"></script>
-<link rel="stylesheet" href="https://static.arxiv.org/static/base/1.0.0a4/css/arxivstyle.css" />
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     messageStyle: "none",
@@ -49,7 +35,6 @@
   });
 </script>
 <script src='//static.arxiv.org/MathJax-2.7.3/MathJax.js'></script>
-<script src="https://static.arxiv.org/static/base/1.0.0a4/js/notification.js"></script>
 {% endblock extrahead %}
 
 
@@ -73,6 +58,12 @@
   </div>
   <div class="column">
     <ul>
+      <li><a href="https://arxiv.org/help/license">Copyright</a></li>
+      <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
+    </ul>
+  </div>
+  <div class="column">
+    <ul>
       <li>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="14" class="icon filter-black" role="presentation"><title>contact arXiv</title><desc>Click here to contact arXiv</desc><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
         <a href="https://arxiv.org/help/contact"> Contact</a>
@@ -81,14 +72,13 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="14" class="icon filter-black" role="presentation"><title>subscribe to arXiv mailings</title><desc>Click here to subscribe</desc><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"/></svg>
         <a href="https://arxiv.org/help/subscribe"> Subscribe</a>
       </li>
+      <li>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="14" class="icon filter-black" role="presentation"><title>Report an issue</title><desc>Click here to report an issue with arXiv's documentation in github</desc><path d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V64 368 480c0 17.7 14.3 32 32 32s32-14.3 32-32V352l64.3-16.1c41.1-10.3 84.6-5.5 122.5 13.4c44.2 22.1 95.5 24.8 141.7 7.4l34.7-13c12.5-4.7 20.8-16.6 20.8-30V66.1c0-23-24.2-38-44.8-27.7l-9.6 4.8c-46.3 23.2-100.8 23.2-147.1 0c-35.1-17.6-75.4-22-113.5-12.5L64 48V32z"/></svg>
+        <a href="https://github.com/arXiv/arxiv-docs/issues">Report a documentation issue</a>
+      </li>
     </ul>
   </div>
-  <div class="column">
-    <ul>
-      <li><a href="https://arxiv.org/help/license">Copyright</a></li>
-      <li><a href="https://arxiv.org/help/policies/privacy_policy">Privacy Policy</a></li>
-    </ul>
-  </div>
+
   <div class="column sorry-app-links">
     <ul >
       <li><a href="https://arxiv.org/help/web_accessibility">Web Accessibility Assistance</a></li>
@@ -100,11 +90,6 @@
           or <a class="is-link" href="https://subscribe.sorryapp.com/24846f03/slack/new" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="12" class="icon filter-black" role="presentation"><path d="M94.12 315.1c0 25.9-21.16 47.06-47.06 47.06S0 341 0 315.1c0-25.9 21.16-47.06 47.06-47.06h47.06v47.06zm23.72 0c0-25.9 21.16-47.06 47.06-47.06s47.06 21.16 47.06 47.06v117.84c0 25.9-21.16 47.06-47.06 47.06s-47.06-21.16-47.06-47.06V315.1zm47.06-188.98c-25.9 0-47.06-21.16-47.06-47.06S139 32 164.9 32s47.06 21.16 47.06 47.06v47.06H164.9zm0 23.72c25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06H47.06C21.16 243.96 0 222.8 0 196.9s21.16-47.06 47.06-47.06H164.9zm188.98 47.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06s-21.16 47.06-47.06 47.06h-47.06V196.9zm-23.72 0c0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06V79.06c0-25.9 21.16-47.06 47.06-47.06 25.9 0 47.06 21.16 47.06 47.06V196.9zM283.1 385.88c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06-25.9 0-47.06-21.16-47.06-47.06v-47.06h47.06zm0-23.72c-25.9 0-47.06-21.16-47.06-47.06 0-25.9 21.16-47.06 47.06-47.06h117.84c25.9 0 47.06 21.16 47.06 47.06 0 25.9-21.16 47.06-47.06 47.06H283.1z"/></svg>slack</a>
         </p>
       </li>
-    </ul>
-  </div>
-  <div class="column">
-    <ul>
-      <li><a href="https://github.com/arXiv/arxiv-docs/issues">Feedback</a></li>
     </ul>
   </div>
 </div>
