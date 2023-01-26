@@ -751,7 +751,7 @@ Note that with the new submission system permanent identifiers are assigned only
 
 21 Jan 2010
 
-**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](../help/support.md).
+**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](../about/governance.md).
 
 #### Nov 2009
 

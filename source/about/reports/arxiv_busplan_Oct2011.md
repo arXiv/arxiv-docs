@@ -90,7 +90,7 @@ provide. We welcome your suggestions for additional metrics.
 **Communication**
 
 The arXiv sustainability initiative's website is
-[http://arxiv.org/help/support](../../help/support.md), including the quarterly
+[http://arxiv.org/help/support](../../about/governance.md), including the quarterly
 updates. You are also welcome to send your questions and input to
 <support@arxiv.org>. We have recently created an announcement email list
 for updates about arXiv support efforts, and we have transferred all of

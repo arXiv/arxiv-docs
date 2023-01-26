@@ -136,9 +136,9 @@ Sufficient color contrast is one of the pillars of accessibility on the web. The
 
 **Button combinations**
 
-[Regular Button](testlinkonly){.button-reg}
+[Regular Button](#){.button-reg}
 
-[Large Button](testlinkonly){.button-large}
+[Large Button](#){.button-large}
 
 ##Special Combinations for Large Font Sizes
 In addition to all of the color combinations above, some additional color combinations are available for headings and font sizes 19px or larger.

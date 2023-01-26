@@ -44,7 +44,7 @@ advisory group, which serves an essential consultative role in assisting
 Cornell develop diverse sustainability strategies.
 
 More information about our sustainability and business planning efforts
-is available at [http://arxiv.org/help/support](../../help/support.md).
+is available at [http://arxiv.org/help/support](../../about/governance.md).
 
 We thank all our [supporters](2010_supporters.md) and welcome
 questions and suggestions.

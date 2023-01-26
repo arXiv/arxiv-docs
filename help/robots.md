@@ -27,7 +27,7 @@ ignorant of common sense
 
 Following the de-facto [standard for robot
 exclusion](http://www.robotstxt.org/orig.html), this site has maintained
-since early 1994 a file /[robots.txt](/robots.txt) that specifies those
+since early 1994 a file /[robots.txt](https://arxiv.org/robots.txt) that specifies those
 URL's that are off-limits to robots (and this "Robots Beware" page was
 originally posted March 1994).
 
@@ -35,7 +35,7 @@ Mindlessly downloading all of the URLs on this site will return
 terabytes of data. This has very real cost to us in terms of bandwidth
 consumed, and in terms of the responsiveness of our service.
 
-arXiv monitors activity and will deny access to sites that violate these 
+arXiv monitors activity and will deny access to sites that violate these
 guidelines. Continued rapid-fire requests from
 any site after access has been denied (i.e. with `403: Access denied`
 HTTP response) will be interpreted as an attack; and we will respond

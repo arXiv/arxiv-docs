@@ -132,7 +132,7 @@ potentially cover the expenses associated with running arXiv?**
 planning initiative?**
 
 > The arXiv sustainability initiative's website is
-> [http://arxiv.org/help/support](../../help/support.md), and we will continue
+> [http://arxiv.org/help/support](../../about/governance.md), and we will continue
 > to post quarterly updates there. You are also welcome to send your
 > questions and input to <support@arxiv.org>. We have recently created
 > an announcement email list for updates about arXiv support efforts,

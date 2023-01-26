@@ -3,7 +3,7 @@
 
 The following table is a compilation of arXiv downloads for calendar
 year 2010 for the 200 heaviest user institutions. See also [arXiv
-Support](../../help/support.md).
+Support](../../about/governance.md).
 
 **Caveats:** While we have taken considerable effort to extract reliable
 download data representing unique full-text downloads by real users,

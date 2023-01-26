@@ -43,7 +43,7 @@ understand how we can include them in our collaborative business
 modeling process.
 
 More information about our sustainability and business planning efforts
-is available at [http://arxiv.org/help/support](../../help/support.md).
+is available at [http://arxiv.org/help/support](../../about/governance.md).
 
 We thank all our supporters and welcome questions and suggestions.
 

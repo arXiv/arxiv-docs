@@ -97,7 +97,7 @@ of the February planning meetings, we expect to announce a model for
 **Communication**
 
 The arXiv sustainability initiative's website is
-[http://arxiv.org/help/support](../../help/support.md), including the quarterly
+[http://arxiv.org/help/support](../../about/governance.md), including the quarterly
 updates. You are also welcome to send your questions and input to
 support@arxiv.org. We have an email list for sharing updates about
 arXiv support efforts. If you received this update directly, you are

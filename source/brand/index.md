@@ -12,13 +12,17 @@ Researchers depend on arXiv. Many authors have their life’s work hosted on the
     <img src="images/brand-icon-pillars.jpg" role="representation">
     <span>Brand Pillars</span>
   </a></div>
-  <div class="card"><a href="colors.html">
-    <img src="images/brand-icon-colors.jpg" role="representation">
-    <span>Colors</span>
+  <div class="card"><a href="brand-guidelines.html">
+    <img src="images/brand-icon-guidelines.jpg" role="representation">
+    <span>Logo Use</span>
   </a></div>
   <div class="card"><a href="logos.html">
     <img src="images/brand-icon-logos.jpg" role="representation">
     <span>Logos</span>
+  </a></div>
+  <div class="card"><a href="colors.html">
+    <img src="images/brand-icon-colors.jpg" role="representation">
+    <span>Colors</span>
   </a></div>
   <div class="card"><a href="tagline.html">
     <img src="images/brand-icon-tagline.jpg" role="representation">
@@ -47,9 +51,5 @@ Researchers depend on arXiv. Many authors have their life’s work hosted on the
   <div class="card"><a href="swag.html">
     <img src="images/brand-icon-swag.jpg" role="representation">
     <span>Merchandise</span>
-  </a></div>
-  <div class="card"><a href="guidelines.html">
-    <img src="images/brand-icon-guidelines.jpg" role="representation">
-    <span>Guidelines</span>
   </a></div>
 </div>
