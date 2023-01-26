@@ -1,5 +1,5 @@
 #Images
-arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline.html). Illustrations capture abstract concepts well and are used in presentations and documentation.
+arXiv's branding uses both photographs and illustrations. Photos are used alone or paired with our [tagline](tagline.md). Illustrations capture abstract concepts well and are used in presentations and documentation.
 {.intro}
 
 **Important: Images may only be used for arXiv-owned materials.** All assets within arXiv image libraries have been cleared only for use in arXiv-owned platforms, messaging and communication.
@@ -7,10 +7,10 @@ arXiv's branding uses both photographs and illustrations. Photos are used alone 
 ##Photos
 Photographs are an important part of the arXiv visual brand. Our curated photo collection represent academic spaces, researchers, labs, and other research-related subject matter. Images of the Cornell and Cornell Tech campuses help create a sense of place, and portraiture humanizes the vast community of people who rely on arXiv.
 
-We apply color washes to photos in our [brand colors](colors.html):
+We apply color washes to photos in our [brand colors](colors.md):
 ![photo of Cornell campus with salmon overlay](images/brand-image-colorized-salmon.jpg){.mkd-img-full alt='Cornell's campus in the springtime. A student walks near the famous clocktower below flowering trees.'}
 
-Photographs can be overlayed with a [tagline](tagline.html):
+Photographs can be overlayed with a [tagline](tagline.md):
 ![photo of CU Tech campus with tagline](images/brand-image-tagline.jpg){.mkd-full alt='An image of arXiv's home at Cornell Tech overlayed with the tagline arXiv Connects old and new ways of publishing.'}  
 
 ##Illustrations

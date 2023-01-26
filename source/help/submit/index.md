@@ -40,7 +40,7 @@ Accepted submission formats
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](../submit_tex.md)
 -   [PDF](../submit_pdf.md)
--   [HTML with JPEG/PNG/GIF images](../submit_html.md)
+-   [HTML with JPEG/PNG/GIF images](../submit_index.md)
 
 Our goal is to store articles in formats that are highly portable and
 stable over time. Currently, the best choice is TeX/LaTeX.
@@ -110,7 +110,7 @@ and the processed files, and correct any errors. [Contact arXiv
 administrators](../contact.md) for help.
 
 If you discover an error after submission but before public announcement,
-select the "Unsubmit" (![unsubmit icon](../images/unsubmit.png)) icon
+select the "Unsubmit" (![unsubmit icon](../../assets/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user). This will
 return it to [incomplete status](../submit_status.md#incomplete) and allow you to
 modify your files and resubmit.

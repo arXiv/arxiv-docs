@@ -1,13 +1,13 @@
 # To replace an article
 
 You can replace a publicly announced article by selecting the Replace
-(![replace icon](https://arxiv.org/images/replace.png)) icon for the article you want to
+(![replace icon](../assets/replace.png)) icon for the article you want to
 replace on your [user page](replace.md). We ask that articles be replaced no more than once
 per week.
 
 Note that if your article or replacement has not yet been publicly
 announced you may select the Unsubmit (![unsubmit
-icon](https://arxiv.org/images/unsubmit.png)) icon next to the submission on your [user
+icon](../assets/unsubmit.png)) icon next to the submission on your [user
 page](http://arxiv.org/user) to return it to the [incomplete
 status](submit_status.md#incomplete) allowing modification and later
 resubmission via the Update (![update icon](../assets/update.png)) icon.

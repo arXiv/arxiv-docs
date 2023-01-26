@@ -2,7 +2,7 @@ Support for data sets associated with arXiv articles
 ====================================================
 
 arXiv is primarily an [archive and distribution service for research
-articles](primer.md). arXiv provides support for data sets and other
+articles](../about/index.md). arXiv provides support for data sets and other
 ancillary materials only in direct connection with research articles
 submitted.
 
