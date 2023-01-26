@@ -51,7 +51,7 @@ If it is necessary (e.g., if you are using the `subfiles.cls` class in your docu
 myMainTexFile.tex toplevelfile
 ```
 
-where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order. 
+where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order.
 
 <a name="landscape" id="landscape"></a>
 
@@ -63,7 +63,7 @@ It is possible to tell AutoTeX to send a flag to `dvips` requesting landscape mo
 filename.dvi landscape
 ```
 
-where `filename.dvi` is the name of the DVI file that TeX will produce when processing the submission, and `filename` is the main TeX file without the `.tex` extension. Also, we have an extensive help library on setting the [landscape environment](faq/landscape "arXiv landscape help page").
+where `filename.dvi` is the name of the DVI file that TeX will produce when processing the submission, and `filename` is the main TeX file without the `.tex` extension. Also, we have an extensive help library on setting the [landscape environment](faq/landscape.md).
 
 <a name="nohypertex" id="nohypertex"></a>
 
