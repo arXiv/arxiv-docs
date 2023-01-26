@@ -7,7 +7,7 @@ time. They are only supported for submissions with TeX/PDFLaTeX source files.**
 
 
 arXiv is primarily an [archive and distribution service for research
-articles](primer.md). There are limited facilities for including ancillary
+articles](../about/index.md). There are limited facilities for including ancillary
 files with articles. Such ancillary
 files might include:
 
@@ -23,7 +23,7 @@ Submission of ancillary files
 -----------------------------
 
 Ancillary files are included with an arXiv submission by placing them in
-a directory `anc` at the root of your .tar.gz or .zip submission package. 
+a directory `anc` at the root of your .tar.gz or .zip submission package.
 This is done in the "Add Files" step of the submission process.
 
 For example, if
@@ -36,7 +36,7 @@ submission package might be:
 ```
 Ancillary files are stored with a particular version of an article and
 thus cannot be changed independently from the article. Different
-ancillary files may appear with each version. 
+ancillary files may appear with each version.
 
 Display and download
 --------------------

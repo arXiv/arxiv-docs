@@ -1,6 +1,6 @@
 #Bulk Access Overview
 
-arXiv is an open access research sharing platform and access to bulk data is also open, with certain stipulations. Thank you in advance for following arXiv’s [API Terms of Use](help/api/tou.md), brand guidelines, and licenses of content posted to arXiv.
+arXiv is an open access research sharing platform and access to bulk data is also open, with certain stipulations. Thank you in advance for following arXiv’s [API Terms of Use](../../help/api/tou.md), brand guidelines, and licenses of content posted to arXiv.
 
 The metadata options are:
 
@@ -11,7 +11,7 @@ The metadata options are:
 Full text options are:
 
 - [AWS](../../help/bulk_data_s3.md) for PDF and or (La)TeX source files
-- [Kaggle](https://www.kaggle.com/Cornell-University/arxiv.md) for PDF
+- [Kaggle](https://www.kaggle.com/Cornell-University/arxiv) for PDF
 - [Crawling our export service](../../help/bulk_data.md#harvest)
     - This is recommended for new content or subset of content. Otherwise the AWS or Kaggle data sets are preferred.
 

@@ -1,13 +1,11 @@
-#Brand Use Guidelines
-
-Using our logo consistently is important to present a unified message to the world about who we are. That message is:
-{.intro}
-
-**arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
+#Logo and Brand Use
 
 Unauthorized use of our logo causes confusion about who we are. And when it’s use is authorized it’s just as important that we follow consistent guidelines to preserve the legibility, memorability, and legal defensibility that arXiv needs to protect this vital scientific service.
+{.intro}
 
-The arXiv logo is Federally trademarked and the legal property of arXiv and Cornell University, protected against unauthorized use. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
+Using our logo consistently is important to present a unified message to the world about who we are. That message is: *arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.*
+
+The arXiv logo is a registered trademark and the legal property of arXiv and Cornell University, protected against unauthorized use. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
 
 ##General guidelines that cover all logo use cases
 1. Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.

@@ -101,7 +101,7 @@ If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0
 > `\bedim{upsilon}
 > C.T.H. Davies {\em et al.}, Phys. Rev {\bf D} 50 (1994) 6963, hep-lat/9406017.`
 
-Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](faq/references.md) and [collection of references at INSPIRE](http://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
+Do not include extraneous font commands, spaces, tildes, braces or line-breaks within the e-print identifier: this will cause your references to be missed by automated extraction software. See also notes about [references to and in arXiv documents](faq/references.md) and [collection of references at INSPIRE](https://inspirehep.net/). Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic network hyperlinks of references from within papers.
 
 If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](hypertex/bibstyles/index.md)).
 

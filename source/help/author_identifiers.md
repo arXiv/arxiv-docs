@@ -79,4 +79,4 @@ identifier](https://arxiv.org/set_author_id)** to use with the services listed a
 -   The current opt-in to create an arXiv author identifier is done
     through the [create an author identifier](https://arxiv.org/set_author_id) page,
     current status for any account is shown on the [user account
-    page](/auth "arXiv user account page").
+    page](https://arxiv.org/auth).
