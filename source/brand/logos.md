@@ -10,7 +10,16 @@ Using our logo consistently over time will build up rich layers of meaning with 
 
 > **The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition.** Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.
 
-[Download assets from our logo library](https://cornell.box.com/v/arxiv-logo-assets). *Are you a third party looking to use our logos in your product or materials?* Read our [brand use guidelines](brand-guidelines.html) first.
+
+##Download arXiv logo assets
+*Are you a third party looking to use our logos in your product or materials?* Read our [logo and brand use guidelines](brand-guidelines.html) first. If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
+
+| Logo style  | Image      | Download links                          |
+| ----------- | --------------- | ------------------------------------ |
+| Primary Logo | ![arXiv primary logo](images/brand-logo-primary.jpg){.mkd-img-thumb} |  [SVG](https://cornell.box.com/v/arxiv-logo-svg){ target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logo-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logo-png){target='_blank'} |
+| Large Logomark | ![arXiv logomark](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}  | [SVG](https://cornell.box.com/v/arxiv-logomark-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-png){target='_blank'} |
+| Small Logomark   |  ![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb} | [SVG](https://cornell.box.com/v/arxiv-logomark-small-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-small-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-small-png){target='_blank'} |
+| Alternate Logos   |   | [Full Logo Library](https://cornell.box.com/v/arxiv-logo-assets) |
 
 ##Primary Logo
 The primary arXiv logo is our default mark seen in most applications. It showcases two primary brand colors: Dark Grey and Cornell Red.

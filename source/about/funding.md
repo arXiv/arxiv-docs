@@ -13,7 +13,7 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
   <li><strong>Affiliates</strong><br>
   <a href="supporters.html">Professional societies, government agencies, and other nonprofits</a> are welcome to collaborate with arXiv in a variety of ways, from facilitating conference proceeding submissions to promoting open access compliance and more. Suggested contribution levels range from $5,000 to $100,000. <a href="support_confirm.html">Become an affiliate.</a></li>
   <li><strong>Sponsors</strong><br>
-  <a href="suporters.html">Companies</a> that benefit from arXiv's services are encouraged to support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the in-kind equivalent. <a href="support_confirm.html">Become a sponsor</a>.</li>
+  <a href="supporters.html">Companies</a> that benefit from arXiv's services are encouraged to support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the in-kind equivalent. <a href="support_confirm.html">Become a sponsor</a>.</li>
 </ol>
 
 [Donate Today](https://securelb.imodules.com/s/1717/alumni/event.aspx?sid=1717&gid=2&pgid=22315&cid=35778&dids=276&bledit=1&sort=1){.button-reg}

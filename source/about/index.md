@@ -35,7 +35,7 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 - Section Advisory Committees
 	- [Physics](../help/physics/index.md#AdvisoryCommittee)
 	- [Mathematics](../help/math/index.md#AdvisoryCommittee)
-	- [Computer science (CoRR)](../corr/index.md)
+	- [Computer science (CoRR)](../help/cs/index.md)
 	- [Quantitative biology](../help/q-bio/index.md#AdvisoryCommittee)
 	- [Quantitative finance](../help/q-fin/index.md#AdvisoryCommittee)
 	- [Statistics](../help/statistics/index.md#AdvisoryCommittee)

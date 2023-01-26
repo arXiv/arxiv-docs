@@ -1,7 +1,7 @@
 # Submission Guidelines
 
 
-<span id="guidelines"></span> 
+<span id="guidelines"></span>
 
 While submission to arXiv is free for authors, we do ask authors to carefully prepare their work according to these guidelines. This will improve discoverability of the work and reduce the likelihood of delays before announcement.
 
@@ -42,10 +42,10 @@ Accepted submission formats
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](submit_tex.md)
 -   [PDF](submit_pdf.md)
--   [HTML with JPEG/PNG/GIF images](submit_html.md)
+-   [HTML with JPEG/PNG/GIF images](submit_index.md)
 
 Our goal is to store articles in formats that are highly portable and
-stable over time. Currently, the best choice is TeX/LaTeX. 
+stable over time. Currently, the best choice is TeX/LaTeX.
 
 We do not accept [dvi, PS, or PDF created
 from TeX/LaTeX source](faq/whytex.md), and we
@@ -58,9 +58,9 @@ do not accept scanned documents, regardless of format.
 Accepted figure formats:
 
 -   PostScript (PS, EPS) &mdash; requires [LaTeX processing](submit_tex.md#latex)
--   JPEG, GIF, PNG or PDF figures &mdash; requires [PDFLaTeX processing](submit_tex.md#pdflatex) 
+-   JPEG, GIF, PNG or PDF figures &mdash; requires [PDFLaTeX processing](submit_tex.md#pdflatex)
 
-We do not accept submissions with omitted figures, even if you provide links to view figures externally. 
+We do not accept submissions with omitted figures, even if you provide links to view figures externally.
 
 If you submit figures with your (La)TeX source, use standard macro
 packages (e.g., the `graphics` and `graphicx` packages) to have
@@ -112,9 +112,9 @@ and the processed files, and correct any errors. [Contact arXiv
 administrators](contact.md) for help.
 
 If you discover an error after submission but before public announcement,
-select the "Unsubmit" (![unsubmit icon](/images/unsubmit.png)) icon
+select the "Unsubmit" (![unsubmit icon](../assets/unsubmit.png)) icon
 next to the submission on your [user page](http://arxiv.org/user). This will
-return it to [incomplete status](submit_status.md#incomplete) and allow you to 
+return it to [incomplete status](submit_status.md#incomplete) and allow you to
 modify your files and resubmit.
 
 Unsubmitting an article takes the article out of the processing queue, and announcement will be scheduled based on the later resubmission time. See the schedule of [availability](availability.md).
@@ -139,4 +139,4 @@ for an erratum. Instead, [replace](replace.md) the original submission.
 
 ## Availability of submissions
 
-For more information see our [public submission availability page](availability.md). 
+For more information see our [public submission availability page](availability.md).

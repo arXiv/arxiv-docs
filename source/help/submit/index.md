@@ -39,7 +39,7 @@ Accepted submission formats
 (in order of preference):
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](../submit_tex.md)
--   [PDF](submit_pdf.md)
+-   [PDF](../submit_pdf.md)
 -   [HTML with JPEG/PNG/GIF images](../submit_html.md)
 
 Our goal is to store articles in formats that are highly portable and
@@ -107,7 +107,7 @@ searching.
 Before you make the final "Submit Article" step in the submission
 process, be sure to carefully check the title and abstract (metadata)
 and the processed files, and correct any errors. [Contact arXiv
-administrators](contact.md) for help.
+administrators](../contact.md) for help.
 
 If you discover an error after submission but before public announcement,
 select the "Unsubmit" (![unsubmit icon](../images/unsubmit.png)) icon
