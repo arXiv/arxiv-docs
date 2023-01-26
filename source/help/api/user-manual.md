@@ -653,12 +653,12 @@ include:
     ([example](#perl_simple_example))
 
 -   [Python](http://www.python.org) (via
-    [urllib](http://docs.python.org/lib/module-urllib.html))
+    [urllib](https://docs.python.org/3/library/index.html))
     ([example](#python_simple_example))
 
 -   [Ruby](http://www.ruby-lang.org) (via
-    [uri](http://www.ruby-doc.org/stdlib/libdoc/uri/rdoc/) and
-    [net/http](http://www.ruby-doc.org/stdlib/libdoc/net/http/rdoc/index.html))
+    [uri](https://ruby-doc.org/stdlib-2.5.1/libdoc/uri/rdoc/URI.html) and
+    [net::http](https://ruby-doc.org/stdlib-2.7.0/libdoc/net/http/rdoc/Net/HTTP.html))
     ([example](#ruby_simple_example))
 
 -   [PHP](http://www.php.net) (via file\_get\_contents())
@@ -977,6 +977,5 @@ Feed](#atom_feed_outline).
 
 ### 5.3. Subject Classifications
 
-For the complete list of arXiv subject classifications, please visit the 
-[taxonomy](https://arxiv.org/category_taxonomy) page. 
-
+For the complete list of arXiv subject classifications, please visit the
+[taxonomy](https://arxiv.org/category_taxonomy) page.

@@ -53,6 +53,5 @@ THIS IS A TEST from Brian C. Please ignore.
 - [Usage statistics](stats/index.md)
 - [Obsolete Macros](macro_list.md)
 - [MathJax](mathjax.md)
-- [SSL Support in arXiv](ssl.md)
 
 If you could not find an answer to your question, please [contact our User Support team](contact.md#contacting-arxiv).
