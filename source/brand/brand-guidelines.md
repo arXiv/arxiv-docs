@@ -33,7 +33,7 @@ The arXiv logo is a registered trademark and the legal property of arXiv and Cor
 3. The use of the name “arXiv” or “arxiv.org,” implying or tending to imply some official connection with arXiv, is prohibited.
 
 ###Lockups for internal arXiv projects
-Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the [Logos page](logos) for details.
+Lockups are special logo configurations used for internal arXiv projects that have unique impact and a need for distinct branding. See the [Logos page](logos.md) for details.
 
 ##Download arXiv logo assets
 If your project and usage needs meet the criteria outlined in our use guidelines, you may download the style and format you need below:
