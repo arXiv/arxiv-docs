@@ -77,6 +77,7 @@ Information Fields
 -   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission.
 -   Anonymous submissions are not accepted. Complete, and accurate author information is required.
     -   For named collaborations, it is acceptable to only use the collaboration name within the metadata, however a complete list of all authors and their affiliations must be contained in the full printed text.
+-   Generative AI language tools should not be listed as an author; instead authors should [refer to moderation related policy](moderation/index.md#AI-language-tools).
 
 
 **Usage:**
