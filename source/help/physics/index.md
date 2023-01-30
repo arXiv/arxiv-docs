@@ -26,12 +26,12 @@ The [moderators for physics are listed here](https://arxiv.org/moderators#physic
 The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
-*   [Jacques Distler](http://www.ph.utexas.edu/person/distler_jacques) (Texas): high-energy theory
-*   Vice-Chair: [Paul Fendley](http://www.phys.virginia.edu/People/Personal.asp?UID=pf7a) (Virginia): high-energy and condensed-matter theory
-*   [Paul Ginsparg](http://www.physics.cornell.edu/professorspeople/professors/?page=website/faculty&action=show/id=17) (Cornell): high-energy theory
+*   [Jacques Distler](https://ph.utexas.edu/component/cobalt/item/18-physics/422-distler-jacques?Itemid=1264) (Texas): high-energy theory
+*   Vice-Chair: [Paul Fendley](https://www.physics.ox.ac.uk/our-people/fendley) (Oxford): high-energy and condensed-matter theory
+*   [Paul Ginsparg](https://physics.cornell.edu/paul-ginsparg) (Cornell): high-energy theory
 *   [Daniel Gottesman](http://www.perimeterinstitute.ca/people/Daniel-Gottesman) (Perimeter): quantum physics
-*   [Dong Lai](http://astro.cornell.edu/members/dong-lai.html) (Cornell): astrophysics
-*   [Michael Lawler](http://www2.binghamton.edu/physics/people/michael.html) (SUNY Binghamton): condensed-matter physics
+*   [Dong Lai](https://astro.cornell.edu/dong-lai) (Cornell): astrophysics
+*   [Michael Lawler](https://www.binghamton.edu/physics/research/profile.html?id=mlawler) (SUNY Binghamton): condensed-matter physics
 *   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (UCSD): condensed-matter experiment
 *   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (UC Davis): mathematical physics
 *   [Chris Reynolds](https://www.ast.cam.ac.uk/people/Christopher.Reynolds) (University of Cambridge): astrophysics
