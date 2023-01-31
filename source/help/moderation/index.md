@@ -83,6 +83,7 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
 
 In view of this, we 
+
 1- continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
 
 2- remind all colleagues that by signing their name as an author of a paper, they each individually take full responsibility for all its contents, irrespective of how the contents were generated. If generative AI language tools generate inappropriate language, plagiarized content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).
