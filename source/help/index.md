@@ -1,7 +1,6 @@
 ---
 slug: Help
 ---
-THIS IS A TEST from Brian C. Please ignore.
 
 # arXiv Help Contents
 
