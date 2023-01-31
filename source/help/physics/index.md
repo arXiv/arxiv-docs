@@ -27,13 +27,13 @@ The advisory committee members serve as consultants to Cornell University and to
 
 *   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
 *   [Jacques Distler](https://ph.utexas.edu/component/cobalt/item/18-physics/422-distler-jacques?Itemid=1264) (Texas): high-energy theory
-*   Vice-Chair: [Paul Fendley](https://www.physics.ox.ac.uk/our-people/fendley) (Oxford): high-energy and condensed-matter theory
-*   [Paul Ginsparg](https://physics.cornell.edu/paul-ginsparg) (Cornell): high-energy theory
-*   [Daniel Gottesman](http://www.perimeterinstitute.ca/people/Daniel-Gottesman) (Perimeter): quantum physics
-*   [Dong Lai](https://astro.cornell.edu/dong-lai) (Cornell): astrophysics
+*   Vice-Chair: [Paul Fendley](https://www.physics.ox.ac.uk/our-people/fendley) (Oxford University): high-energy and condensed-matter theory
+*   [Paul Ginsparg](https://physics.cornell.edu/paul-ginsparg) (Cornell University): high-energy theory
+*   [Daniel Gottesman](https://quics.umd.edu/people/daniel-gottesman) (University of Maryland): quantum physics
+*   [Dong Lai](https://astro.cornell.edu/dong-lai) (Cornell University): astrophysics
 *   [Michael Lawler](https://www.binghamton.edu/physics/research/profile.html?id=mlawler) (SUNY Binghamton): condensed-matter physics
-*   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (UCSD): condensed-matter experiment
-*   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (UC Davis): mathematical physics
+*   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (University of California San Diego): condensed-matter experiment
+*   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (University of California Davis): mathematical physics
 *   [Chris Reynolds](https://www.ast.cam.ac.uk/people/Christopher.Reynolds) (University of Cambridge): astrophysics
 *   [Robert Seiringer](http://pub.ist.ac.at/~rseiring/Robert_Seiringer/Robert_Seiringers_Homepage.html) (Institute of Science and Technology Austria): mathematical physics
 
