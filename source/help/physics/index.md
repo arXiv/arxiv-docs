@@ -35,7 +35,7 @@ The advisory committee members serve as consultants to Cornell University and to
 *   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (University of California San Diego): condensed-matter experiment
 *   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (University of California Davis): mathematical physics
 *   [Chris Reynolds](https://www.ast.cam.ac.uk/people/Christopher.Reynolds) (University of Cambridge): astrophysics
-*   [Robert Seiringer](http://pub.ist.ac.at/~rseiring/Robert_Seiringer/Robert_Seiringers_Homepage.html) (Institute of Science and Technology Austria): mathematical physics
+*   [Robert Seiringer](https://www.ist.ac.at/en/research/seiringer-group/) (Institute of Science and Technology Austria): mathematical physics
 
 
 ## Historical notes
