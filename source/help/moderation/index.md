@@ -2,21 +2,6 @@
 
 arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](https://blog.arxiv.org/2019/08/29/our-moderation-process/).
 
-- [Why does arXiv moderate submissions?](#why-moderate) 
-- [What policies guide moderation before public announcement?](#what-policies)
-    - [Reclassification of works](#reclassification)
-    - [Declined Submissions](#declined)
-    - [Scholarly interest](#scholarly-interest)
-    - [Inappropriate format](#format)
-    - [On a topic not covered, or a community not currently served](#out-of-scope)
-    - [Duplicated content](#duplicated-content)
-    - [Rights to submit material](#rights-to-submit)
-    - [Excessive submission rate](#submission-rate)
-- [What policies guide moderation after public announcement?](#policies-after)
-- [Can I appeal a moderation decision?](#appeal)
-- [Who are arXiv moderators?](#who-are-the-moderators)
-
-
 <span id="why-moderate"></span>
 ## Why does arXiv moderate submissions?
 
@@ -83,6 +68,7 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
 
 In view of this, we 
+
 1- continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
 
 2- remind all colleagues that by signing their name as an author of a paper, they each individually take full responsibility for all its contents, irrespective of how the contents were generated. If generative AI language tools generate inappropriate language, plagiarized content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).

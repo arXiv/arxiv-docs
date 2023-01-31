@@ -11,6 +11,7 @@
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
+- Maria Rahman, arXiv Moderation Administrator
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, arXiv Technical Support Manager

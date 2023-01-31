@@ -88,9 +88,44 @@ JS see:
 
 https://squidfunk.github.io/mkdocs-material/customization/
 
-## Controlling the HTTP response (deletion, redirects)
+## Redirects
 
-TODO: right now there we don't have redirects setup.
+Redirect from inside mkdocs can be done with HTML pages. Mkdocs will
+pass through .html files unchanged.
+
+Say you wanted to redirect from /xyz.html to /about/donate.html, then put this
+at `source/xyz.html`:
+
+```
+
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<meta http-equiv="refresh" content="1; url=/about/donate.html">
+<script>
+  window.location.href = "/about/donate.html"
+</script>
+<title>Redirect</title>
+If you are not redirected automatically, follow the <a href='/about/donate.html'>link</a>
+
+```
+
+Note that the URL to redirect to should be relative if it is in mkdocs
+but if it is not in mkdocs, it should be absolute. That is, for
+https://info.arxiv.org/cheese.html ->
+https://info.arxiv.org/onions.html use a relative URL of
+`/onions.html`. But for a URL outside of info.arxiv.org like
+https://info.arxiv.org/corr/subjectclasses ->
+https://arxiv.org/archive/cs you need to use the full URL with the
+hostname.
+
+Redirects from /about to
+/about/index.html are handled by GCP buckets that are served as a
+static web site. See
+https://cloud.google.com/storage/docs/static-website
+
+To get a directory to redirect, ex. /corr/subjectclasses -> https://arxiv.org/archive/cs you need
+to create the directory and put an index.html that will do the
+redirect.
 
 ## How to handle 'Missing end of comment tag'?
 As of 2022-09 the macro plugin for mkdocs is disabled and this should
