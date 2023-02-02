@@ -1,6 +1,14 @@
 # arXiv Help Documentation
 
-Static sites for arXiv.
+Help, about and other pages for arXiv.
+
+## Overview
+
+This has the source documents for the about, help, labs, new and other
+pages at info.arxiv.org. These are written in
+[markdown](https://daringfireball.net/projects/markdown/) and turned
+into static HTML pages with
+[mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 ## Building a local site
 
@@ -24,7 +32,8 @@ The cloud build YAML files combined with CloudBuild triggers in
 
 ## Previews of PRs
 
-PRs that will merge to `arxiv-docs` `develop` will deploy preveiws at
+PRs that will merge to the branch `develop` on the github repo
+`arxiv-docs` will deploy preveiws at
 https://storage.googleapis.com/arxiv-docs-prs/YOUR_PR_NAME/index.html
 This preview can been seen by the public, everything in the github
 arxiv-docs repo can also be seen by the public.
@@ -123,9 +132,13 @@ Redirects from /about to
 static web site. See
 https://cloud.google.com/storage/docs/static-website
 
-To get a directory to redirect, ex. /corr/subjectclasses -> https://arxiv.org/archive/cs you need
-to create the directory and put an index.html that will do the
-redirect.
+To get a directory to redirect, ex. /corr/subjectclasses ->
+https://arxiv.org/archive/cs you need to create the directory and put
+an index.html that will do the redirect.
+
+Redirects from https://info.arxiv.org/about/contact to
+https://info.arxiv.org/about/contact.html are handled by javascript in
+`overrides/404.html`
 
 ## How to handle 'Missing end of comment tag'?
 As of 2022-09 the macro plugin for mkdocs is disabled and this should
