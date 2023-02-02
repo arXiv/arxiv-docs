@@ -22,7 +22,7 @@ The arxiv-marxdown becomes a liability especially when compared to a
 static site generator like mkdocs or Jekyll. Mkdocs has extensive
 documentation, themes and plugins.
 
-To acheive the use of the arxiv-base header and footer in a static
+To achieve the use of the arxiv-base header and footer in a static
 site is to have a click flask app that can be run to create a template
 with a header and footer for the static site generator. Then a static
 site generator can provide 80% of the benefits of arxiv-marxdown. An

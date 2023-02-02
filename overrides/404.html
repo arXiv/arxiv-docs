@@ -1,0 +1,14 @@
+
+{% extends "main.html" %}
+
+{% block content %}
+<h1>404 - Not found</h1>
+<script>
+  /* redirect on paths that lack .html */
+  let url = new URL(location)
+  if( ! url.pathname.endsWith('.html') ){
+      url.pathname = url.pathname + '.html'
+      location.replace(url.href)
+  }
+</script>
+{% endblock %}
