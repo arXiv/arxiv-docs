@@ -1,6 +1,0 @@
-\def\footnote{\@ifnextchar[{\@xfootnote}{\stepcounter{\@mpfn}%
-     \hyper@nique\hypernoname{footnote}{\thempfn}{}%
-       \begingroup\let\protect\noexpand
-       \xdef\@thefnmark{{\hyper@\hyperpr@ref\hypernoname
-                        {\thempfn}}}\endgroup
-     \@footnotemark\@footnotetext}}
