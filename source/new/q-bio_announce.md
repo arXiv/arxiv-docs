@@ -1,4 +1,4 @@
-# Announcement of new Quantitative Biology (q-bio_announce.md) archive
+# Announcement of new Quantitative Biology (q-bio) archive
 
 15 Sept 2003
 
