@@ -421,7 +421,7 @@ Monday Night / Tuesday Morning
 
 14 Nov 2016
 
-**Semantic Scholar Pilot for Computer Science Papers:** arXiv is collaborating on a [12-month pilot project](../help/semanticscholar.md) with the Allen Institute for Artificial Intelligence (AI2), making the AI-based semanticscholar.org search engine available to the arXiv community.
+**Semantic Scholar Pilot for Computer Science Papers:** arXiv is collaborating on a 12-month pilot project with the Allen Institute for Artificial Intelligence (AI2), making the AI-based semanticscholar.org search engine available to the arXiv community.
 
 01 Nov 2016
 
@@ -1002,7 +1002,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 11 Nov 2004
 
-**CoRR interface:** A new [interface](../corr/index.md) for the Computing Resource Repository (corresponding to the [cs archive](https://arxiv.org/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
+**CoRR interface:** A new interface for the Computing Resource Repository (corresponding to the [cs archive](https://arxiv.org/archive/cs/intro)) was installed. It is still in the "beta" phase of production, but cs users are welcome to use it for uploading submissions, viewing listings, etc. Please report any bugs to www-admin@arxiv.org.
 
 4 Nov 2004 _\[Modified 24 Nov 2004\]_
 
@@ -1155,7 +1155,7 @@ New domain name arXiv.org registered. All of archive.org, archives.org, thearchi
 
 15 Sep 1998
 
-A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](https://arxiv.org/archive/cs/intro). It is partitioned by Subject Classes (along the lines of the [math](math.md) archive, inititated in Jan '98), with 32 [Subject Classes](https://arxiv.org/archive/cs/subj). E-mail [subscriptions](https://arxiv.org/archive/cs/cssub) can be made to any combination of Subject Classes.
+A new Computer Science archive, **cs@xxx.lanl.gov**, has been opened up for submissions. For more info, see [CoRR](https://arxiv.org/archive/cs). It is partitioned by Subject Classes (along the lines of the math archive, inititated in Jan '98), with 32 [Subject Classes](https://arxiv.org/archive/cs). E-mail subscriptions can be made to any combination of Subject Classes.
 
 The "Computation and Language" archive (cmp-lg) has been subsumed as one of the Subject Classes of the new cs archive. New submissions will be automatically directed to the new Subject Class (cs.CL), and e-mail subscribers have been automatically transferred to the new archive.
 
