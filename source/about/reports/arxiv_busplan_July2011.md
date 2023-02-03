@@ -21,7 +21,7 @@ previous updates):
         Supporters](2011_supporters.md).
     -   Budget information for arXiv is available here: [CY2010 expenses
         and revenues](https://confluence.cornell.edu/x/BKpRF) and
-        [CY2011 budget projection](None).
+        CY2011 budget projection.
 -   Review and stabilize arXiv staffing and organization by defining
     roles for management, IT development, and user support with clear
     lines of reporting and responsibility.
