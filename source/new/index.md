@@ -100,7 +100,7 @@ in operation. In addition, arXiv staff will provide limited service in response 
 
 Two changes to arXiv categories were made today.
 
-The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at https://arxiv.org/archive/eess.
+The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at [https://arxiv.org/archive/eess](https://arxiv.org/archive/eess).
 
 arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA.
 
@@ -271,13 +271,13 @@ arXiv is raising funds for [new initiatives](https://confluence.cornell.edu/x/y9
 
 **A new "Economics" (econ) archive has been launched.**
 
-For more information, see the [announcement](../help/econ/announcement.md).
+For more information, see the [announcement](/new/econ_announce.md).
 
 18 Sep 2017
 
 **A new "Electrical Engineering and Systems Science" (eess) archive has been launched.**
 
-For more information, see the [announcement](../help/eess/announcement.md).
+For more information, see the [announcement](/new/eess_announce.md).
 
 11 Sep 2017
 
