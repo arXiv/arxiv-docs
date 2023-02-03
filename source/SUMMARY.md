@@ -29,7 +29,7 @@
           * [Proxy / Third Party Submission](help/third_party_submission.md)
           * [Translations](help/translations.md)
           * [Version Availability](help/versions.md)
-          * [Why Submit TeX?](help/whytex.md)
+          * [Why Submit TeX?](help/faq/whytex.md)
           * [Withdraw / Retract a Submission](help/withdraw.md)
     * [Find and Read Articles](help/find/index.md)
           * [Search for articles](help/find.md)
