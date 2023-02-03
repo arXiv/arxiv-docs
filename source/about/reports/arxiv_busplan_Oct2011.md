@@ -74,8 +74,8 @@ gratefully acknowledge the contributions of supporting institutions:
 [arXiv 2010 Supporters](2010_supporters.md) and [arXiv 2011
 Supporters](2011_supporters.md). The budget information for
 arXiv is available here: [CY2010 expenses and
-revenues](http://tinyurl.com/3wu56ur) and [CY2011 budget
-projection](None).
+revenues](http://tinyurl.com/3wu56ur) and CY2011 budget
+projection.
 
 In January, we will perform an analysis of the 2011 download activity in
 order to determine the top 200 constituents. Based on our sampling thus
