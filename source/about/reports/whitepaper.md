@@ -84,7 +84,7 @@ models.
 
 The calendar year 2010 budget for arXiv is \$400,000, which includes
 costs for personnel and operating expenses (G&A overhead, hardware,
-hosting, and network charges; see [budget summary](2010_budget.md)). Staff
+hosting, and network charges; see [budget summary](2010_CY_arXiv_budget.pdf)). Staff
 salaries account for about 80% of total annual expenses. We expect the
 annual budget to increase to $500,000 by 2012 to facilitate necessary
 upgrades and enhancements (see [section 3.1](#sec3_1) for more
