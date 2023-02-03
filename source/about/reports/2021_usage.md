@@ -2,7 +2,7 @@
 
 Here, you can find information about arXiv usage in terms of submissions and downloads.
 
-[Total Downloads and Submissions](None)
+[Total Downloads and Submissions](https://arxiv.org/stats/main)
 
 [Total Submissions by Category (2009-2021)](submission_category_by_year.md)
 
