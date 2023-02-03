@@ -100,7 +100,7 @@ in operation. In addition, arXiv staff will provide limited service in response 
 
 Two changes to arXiv categories were made today.
 
-The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at https://arxiv.org/archive/eess.
+The category for Systems and Control is making the move from computer science to electrical engineering and systems science, where it is a better fit. Users can still submit and search for cs.SY, however the canonical display will be eess.SY. The full description for Systems and Control eess.SY is at [https://arxiv.org/archive/eess](https://arxiv.org/archive/eess).
 
 arXiv is also merging the math and computer science categories for Numerical Analysis. The category description is: Numerical algorithms for problems in analysis and algebra, scientific computation. The merge will setup math.NA to be the canonical category for cs.NA.
 
@@ -271,13 +271,13 @@ arXiv is raising funds for [new initiatives](https://confluence.cornell.edu/x/y9
 
 **A new "Economics" (econ) archive has been launched.**
 
-For more information, see the [announcement](../help/econ/announcement.md).
+For more information, see the [announcement](/new/econ_announce.md).
 
 18 Sep 2017
 
 **A new "Electrical Engineering and Systems Science" (eess) archive has been launched.**
 
-For more information, see the [announcement](../help/eess/announcement.md).
+For more information, see the [announcement](/new/eess_announce.md).
 
 11 Sep 2017
 
@@ -335,7 +335,7 @@ Our gratitude to outgoing MAB members Eva Isaksson, Philip Kent, Zhixiong Zhang 
 
 **DONATE to arXiv**
 
-arXiv will run an online fundraising campaign for one week, from February 26 to March 4, 2017, to help raise additional funds (see [Donations to arXiv](https://arxiv.org/help/donate)). The baseline maintenance costs are sponsored by the 206 member organizations, the Simons Foundation, and Cornell University Library. This online campaign aims to garner additional resources from the program's active and supportive user base.
+arXiv will run an online fundraising campaign for one week, from February 26 to March 4, 2017, to help raise additional funds (see [Donations to arXiv](/about/donate.md). The baseline maintenance costs are sponsored by the 206 member organizations, the Simons Foundation, and Cornell University Library. This online campaign aims to garner additional resources from the program's active and supportive user base.
 
 Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to [fund new initiatives](https://confluence.cornell.edu/x/y9ZRF) that are beyond the routine operational work, and to robustly support arXiv's Open Access [mission](https://arxiv.org/help/primer). Donations to arXiv are [tax deductible](https://arxiv.org/help/support/faq#7C), eligible for employer matches, and easy to schedule. Donations can be made [here](https://goo.gl/QIgRpr). We thank you for your support.
 
@@ -461,7 +461,7 @@ We are pleased to share with you the [key findings of the arXiv user survey](htt
 
 27 Jun 2016
 
-**DONATE to arXiv:** arXiv will run an online fundraising campaign for one week, from June 27 to July 5, 2016, to help raise additional funds (see [Donations to arXiv](../help/donate.md)). The baseline maintenance costs are sponsored by the 190 member organizations, the Simons Foundation, and Cornell University Library. This new GIVE campaign aims to garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund [new initiatives](https://confluence.cornell.edu/x/mbBRF) that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](http://arxiv.org/help/support/faq#personal). We thank you for your support.
+**DONATE to arXiv:** arXiv will run an online fundraising campaign for one week, from June 27 to July 5, 2016, to help raise additional funds (see [Donations to arXiv](../about/donate.md)). The baseline maintenance costs are sponsored by the 190 member organizations, the Simons Foundation, and Cornell University Library. This new GIVE campaign aims to garner additional resources from the program's active and supportive user base. Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to fund [new initiatives](https://confluence.cornell.edu/x/mbBRF) that are beyond the routine operational work. More information about this pilot is available in the [arXiv FAQ](http://arxiv.org/help/support/faq#personal). We thank you for your support.
 
 #### Apr 2016
 
