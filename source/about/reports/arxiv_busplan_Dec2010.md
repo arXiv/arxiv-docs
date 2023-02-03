@@ -30,8 +30,8 @@ paper](whitepaper.md), Cornell University Library is
 committed to fund 15% of the operating budget. Any potential surplus
 accrued through institutional contributions will be rolled over for
 future years' budget. We updated the [2010 arXiv
-budget](2010_CY_arXiv_budget.pdf) and also posted a [projected budget
-for 2011](None). One of our goals for the next year
+budget](2010_CY_arXiv_budget.pdf) and also posted a projected budget
+for 2011. One of our goals for the next year
 is to track cost elements even closer and expand the in-kind expenses
 category.
 
