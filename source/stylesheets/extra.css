@@ -38,7 +38,7 @@
   --md-typeset-color:     var(--color-warm-wash);
   --md-accent-fg-color:   var(--color-open-blue);
   --md-accent-bg-color:   hsla(var(--md-hue),10%,7%,1);
-  --md-code-fg-color:     var(--color-access-lime);
+  --md-code-fg-color:     var(--md-primary-fg-color--lightest);
   --md-code-bg-color:     black;
   --blockquote-fg-color:  var(--md-primary-fg-color--lightest);
   --blockquote-bg-color:  hsla(var(--md-hue),10%,7%,1);
