@@ -26,7 +26,7 @@
   --blockquote-fg-color:  black;
   --blockquote-bg-color:  var(--md-primary-fg-color--lightest);
   --md-code-fg-color:     black;
-  --md-code-bg-color:     var(--color-access-lime);
+  --md-code-bg-color:     var(--md-primary-fg-color--lightest);
   --footer-fg-color:  black;
   --footer-bg-color:  var(--md-primary-fg-color--lightest);
   --shadow:           var(--color-open-blue);
