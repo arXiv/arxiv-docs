@@ -632,7 +632,7 @@ The Israeli mirror (il.arXiv.org) has been discontinued. We thank the Israeli ph
 
 29 Aug 2012
 
-**Simons Foundation funds new arXiv sustainability model:** Thanks to an [operating grant from the Simons Foundation](http://news.library.cornell.edu/news/120828/arXiv), arXiv has taken a major step toward sustainability. Cornell University Library is adopting [a new membership and governance model](None) for arXiv that will allow it to continue to grow and succeed moving forward.
+**Simons Foundation funds new arXiv sustainability model:** Thanks to an [operating grant from the Simons Foundation](http://news.library.cornell.edu/news/120828/arXiv), arXiv has taken a major step toward sustainability. Cornell University Library is adopting a new membership and governance model for arXiv that will allow it to continue to grow and succeed moving forward.
 
 10 Aug 2012
 
@@ -710,7 +710,7 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 **Data sets accepted as part of Data Conservancy pilot project:** In addition to the existing facilities for uploading [ancillary files](../help/ancillary_files.md) alongside articles submitted to arXiv, it is now possible to upload datasets of up to 1GB (100MB per file) for storage in the [Data Conservancy data repository](../help/data_conservancy.md). Data sets uploaded in this way will be linked from the arXiv article. This is a pilot project in collaboration with the US National Science Foundation (NSF) Data Conservancy project.
 
-**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the [ScienceWISE service](../help/sciencewise.md). Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides [social bookmarking](None) facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
+**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the [ScienceWISE service](../help/sciencewise.md). Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides social bookmarking facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
 
 #### Jan 2011
 
@@ -775,7 +775,7 @@ Note that with the new submission system permanent identifiers are assigned only
 
 8 Apr 2009
 
-**Public author identifiers have been introduced.** If you are an author of articles on arXiv, you may opt-in to create a [public author identifier](../help/author_identifiers.md) which supports [interaction with Facebook](None), a [`myarticles` widget](../help/myarticles.md) to allow dynamic inclusion of a list of your articles in web pages, and provides HTML and Atom feeds of your arXiv papers.
+**Public author identifiers have been introduced.** If you are an author of articles on arXiv, you may opt-in to create a [public author identifier](../help/author_identifiers.md) which supports interaction with Facebook, a [`myarticles` widget](../help/myarticles.md) to allow dynamic inclusion of a list of your articles in web pages, and provides HTML and Atom feeds of your arXiv papers.
 
 #### Mar 2009
 
@@ -809,7 +809,7 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 
 4 Dec 2008
 
-**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](None). It is partitioned into [7 subject categories](https://arxiv.org/archive/q-fin) and [e-mail subscriptions](../help/subscribe.md) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
+**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](/new/q-fin_announce.html). It is partitioned into [7 subject categories](https://arxiv.org/archive/q-fin) and [e-mail subscriptions](../help/subscribe.md) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
 
 #### Nov 2008
 
@@ -849,7 +849,7 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 
 **Hardware and Software Upgrades:** Over the weekend of 1/2 Feb 2008 we moved arXiv to new hardware. This should allow us to keep up with the ever increasing traffic and make several improvements. One is that we now have a cache large enough to store processed PDF versions for all papers -- there should be far fewer "...processing..." responses. We have also put online several software improvements including:
 
-*   arXiv now accepts [submissions in DOCX/OOXML format](None) (from Word 2007 and other OOXML compliant applications).
+*   arXiv now accepts submissions in DOCX/OOXML format (from Word 2007 and other OOXML compliant applications).
 *   We have implemented version control for papers submitted prior to November 1997 in the same way as for papers submitted later. In many cases the earlier versions were not recorded and are marked as such in the comments (e.g. [arXiv:hep-th/9108006v1](https://arxiv.org/abs/hep-th/9108006v1)). However, in some cases the earlier versions are now available in the usual way (e.g. [arXiv:hep-th/9108019v1](https://arxiv.org/abs/hep-th/9108019v1)).
 
 #### Nov 2007
@@ -977,7 +977,7 @@ To restore stability, we reverted to the software used prior to 18 Sep 05. We si
 
 **Scheduled outage:** At 4:00 p.m. EDT on Saturday, 24 Sep 2005, we expect an outage for improvements to Cornell University infrastructure. The outage is scheduled to last 18 hours.
 
-All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our [mirror sites](None) to view papers during the outage.
+All services related to the main site (submissions, user account info, viewing the e-mail addresses of paper authors, etc.) will be unavailable during this time. People planning to submit papers on that day should either submit them before noon or plan to submit them on the following Monday. Readers should use one of our mirror sites to view papers during the outage.
 
 16 Sep 2005
 
@@ -1017,7 +1017,7 @@ Special thanks to [Joanna Karczmarek](http://www.physics.rutgers.edu/~karczmar/)
 
 29 Sep 2004
 
-**Search engine for user help pages:** A new [search engine](None) for the user help pages was installed, with a search box provided at the top of each user [help](../help/index.md) page.
+**Search engine for user help pages:** A new search engine for the user help pages was installed, with a search box provided at the top of each user [help](../help/index.md) page.
 
 #### Jul 2004
 
@@ -1084,7 +1084,7 @@ Administrative oversight for arXiv operations transferred to the _Cornell Univer
 
 6 Dec 2000
 
-The automated software now recognizes and processes Mathematica Notebook files. For more information, see [notebook submission help](None).
+The automated software now recognizes and processes Mathematica Notebook files. For more information, see notebook submission help.
 
 #### Aug 2000
 
@@ -1104,7 +1104,7 @@ and analogously for the other above subsumed archives. Submissions to chao-dyn@a
 
 1 Jan 2000
 
-Survived [Y2K](None) hysteria
+Survived Y2K hysteria
 
 #### Dec 1999
 
@@ -1121,7 +1121,7 @@ US users: note new US mirror at [http://aps.arXiv.org/](http://aps.arXiv.org/), 
 
 22 Sep 1999
 
-New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the [mirror](None) network.
+New [search](http://arXiv.org/find/physics) interface at the main site. Incorporates better fielded searching, better boolean support, and much improved author name searching. The new search system will eventually propagate to the mirror network.
 
 #### Jul 1999
 
@@ -1137,7 +1137,7 @@ The xxx Announcements Forum is no longer accepting new registrations, and will s
 
 17 Jun 1999
 
-Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](None)."
+Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](interruption)."
 
 #### Apr 1999
 
@@ -1244,13 +1244,13 @@ Added description of [the correct way to refer to eprints within a paper](../hel
 
 11 Jul
 
-Important news for Windows users: the latest version of GSview can now read compressed files (compensating for the deficiencies in Netscape and Internet Explorer which fail to uncompress them). See [Workaround solutions for Windows](None) for details.
+Important news for Windows users: the latest version of GSview can now read compressed files (compensating for the deficiencies in Netscape and Internet Explorer which fail to uncompress them). See Workaround solutions for Windows for details.
 
 #### June 1997
 
 30 Jun
 
-Frequent complaints re multipart and gzipped files, see [nota bene](None).
+Frequent complaints re multipart and gzipped files, see nota bene (link removed).
 
 30 Jun
 
@@ -1258,15 +1258,15 @@ Added information on the latest postscript drivers for Macintosh. These eliminat
 
 30 Jun
 
-Added a user-supplied .com file for automatically _[viewing compressed postscript on VMS](None)_.
+Added a user-supplied .com file for automatically viewing compressed postscript on VMS  (link removed).
 
 14 Jun
 
-A user has kindly provided a Windows 95 batch file which automatically uncompresses postscript files for viewing, see _[Viewing compressed postscript - Workaround solutions for Windows](None)_.
+A user has kindly provided a Windows 95 batch file which automatically uncompresses postscript files for viewing, see Viewing compressed postscript - Workaround solutions for Windows  (link removed).
 
 13 Jun
 
-Added some information about _[viewing compressed postscript on VMS](None)_.
+Added some information about viewing compressed postscript on VMS  (link removed).
 
 6 Jun
 
@@ -1282,19 +1282,19 @@ Japan users: note the new upgraded mirror in Kyoto, [xxx.yukawa.kyoto-u.ac.jp](h
 
 15 May
 
-**Minor** change in policy (affects only weekend submissions): the deadline for submissions to appear in the Sunday night mailing is moved back to Friday 18:00 LANL time (currently 00:00 GMT). Submissions received during the rest of the weekend will appear with Monday submissions in the Monday night mailing. After consultation with a large segment of the relevant community, it was determined to continue to delay the announcements of papers received on Fridays until Sunday nights (Monday mornings in Europe), rather than shift the Sunday mailing to Friday night. In a related development, responses to any queries received during the weekend may also be deferred until Monday morning (9:00 LANL time = 1500 GMT) -- Note that 99.97% of all e-mail queries are already answered in our [comprehensive on-line help pages](../help/index.md) and [frequently asked questions](None) section. Recall also that any replacements received after the 18:00 LANL time deadline Mon-Fri constitute a new (revised) version. Please note that whether or not your submission makes the deadline on any given weekday is unlikely to alter markedly the future evolution of the cosmos.
+**Minor** change in policy (affects only weekend submissions): the deadline for submissions to appear in the Sunday night mailing is moved back to Friday 18:00 LANL time (currently 00:00 GMT). Submissions received during the rest of the weekend will appear with Monday submissions in the Monday night mailing. After consultation with a large segment of the relevant community, it was determined to continue to delay the announcements of papers received on Fridays until Sunday nights (Monday mornings in Europe), rather than shift the Sunday mailing to Friday night. In a related development, responses to any queries received during the weekend may also be deferred until Monday morning (9:00 LANL time = 1500 GMT) -- Note that 99.97% of all e-mail queries are already answered in our [comprehensive on-line help pages](https://info.arxiv.org/help/index.html) and [frequently asked questions](https://info.arxiv.org/help/faq/index.html)) section. Recall also that any replacements received after the 18:00 LANL time deadline Mon-Fri constitute a new (revised) version. Please note that whether or not your submission makes the deadline on any given weekday is unlikely to alter markedly the future evolution of the cosmos.
 
 11 May
 
-Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](None).
+Spain users, there is now a mirror site at the Universidad de Zaragoza, Spain, [xxx.unizar.es](http://xxx.unizar.es). Other users see our existing [list of mirror sites](https://info.arxiv.org/help/mirrors.html).
 
-Updated information on [Macintosh postscript viewers](None) and added some info on a [Mac shortcut to getting a bitmap version of any figure](../help/bitmap/index.md#shortcuts)
+Updated information on Macintosh postscript viewers (link removed) and added some info on a [Mac shortcut to getting a bitmap version of any figure](../help/bitmap/index.md#shortcuts)
 
 #### April 1997
 
 Added a [cookies form](https://arxiv.org/cookies) for selecting default viewing formats and classic icons.
 
-Renovated FAQ area has more [_workarounds for Windows and Macintosh browsers_](None).
+Renovated FAQ area has more workarounds for Windows and Macintosh browsers (link removed).
 
 #### March 1997
 
@@ -1349,9 +1349,9 @@ For general information on the new physics archive (partitioned by keyword subje
 
 *   [The physics archive](../help/physics/index.md)
 *   [Cond-mat archive reorganization](condreorg.md)
-*   [Mailings from the physics archive](None)
+*   Mailings from the physics archive (link removed)
 
-as well as a brief philosophical [synopsis](None).
+as well as a brief philosophical synopsis  (link removed).
 
 #### September 1996
 
