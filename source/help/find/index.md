@@ -3,7 +3,7 @@
 ## Search
 Enter a few title words and/or author names and/or abstract words into
 the "**Search or Article-id**" box in the top right of most pages
-(including this one) or you can use the [Advanced Search](../bitmap/advanced.md)
+(including this one) or you can use the [Advanced Search](https://arxiv.org/search/advanced)
 
 ## If you know the identifier
 All arXiv submissions are assigned a unique identifier of the form
