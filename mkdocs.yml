@@ -1,5 +1,5 @@
 site_name: arXiv info
-
+site_url: https://info.arxiv.org/
 docs_dir: source
 
 # Forces links in the format /help/index.html instead of mkdocs default of /help
