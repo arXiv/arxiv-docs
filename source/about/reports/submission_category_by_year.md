@@ -1,6 +1,6 @@
 # Submissions by Category since 2009+
 
-_See more [arXiv reports](index.md) and [Usage stats](https://arxiv.org/stats/main)
+See more [arXiv reports](index.md) and [Usage stats](https://arxiv.org/stats/main)
 
 The following tables show submissions to arXiv by [category](https://arxiv.org/category_taxonomy). Explore different views of the data by toggling between sheets.
 
