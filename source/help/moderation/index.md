@@ -63,7 +63,7 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 
 #### Images
 
-Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image (a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
+Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
 
 
 <span id="AI-language-tools"></span>
