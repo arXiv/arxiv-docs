@@ -1,6 +1,8 @@
 # arXiv Reports
 
 ## Annual Reports
+[2022 Annual Report](2022_arXiv_annual_report.pdf)
+
 [2021 Annual Report](2021_arXiv_annual_report.pdf)
 
 [2021 arXiv in Numbers](2021_usage.md)
@@ -12,7 +14,7 @@
 _In 2020, arXiv began publishing annual reports in the first quarter of the calendar year. See below for earlier reports._
 
 ## Annual Updates
-[2020 Annual Update](2020_update.md) 
+[2020 Annual Update](2020_update.md)
 
 [2019 Annual Update](2019_update.md)
 
