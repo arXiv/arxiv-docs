@@ -828,7 +828,7 @@ article can be searched, as well as the author list, abstracts, comments
 and journal reference. To search one of these fields, we simply prepend
 the field prefix followed by a colon to our search term. For example,
 suppose we wanted to find all articles by the author
-`Adrian DelMaestro`. We could construct the following query
+`Adrian Del Maestro`. We could construct the following query
 
 <http://export.arxiv.org/api/query?search_query=au:del_maestro>
 
