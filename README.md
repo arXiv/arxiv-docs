@@ -16,7 +16,7 @@ into static HTML pages with
 pyenv local 3.8.12
 python -m venv docs-venv
 source docs-venv/bin/activate
-pip install -r mkdocs-requirements.txt
+pip install -r requirements.txt
 mkdocs serve
 ```
 
