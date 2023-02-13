@@ -1,5 +1,0 @@
-{\catcode`\@=11
-\global\let\hyper@@@small\small
-\gdef\small{\protect\hyper@@@small}%
-}%
-
