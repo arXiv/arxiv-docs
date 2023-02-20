@@ -59,6 +59,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Penn State University (USA) _BTAA_
 1. Princeton University (USA)
 1. Purdue University (USA) _BTAA_
+1. Royal Danish Library (Denmark)
 1. Rutgers University (USA) _BTAA_
 1. Ryerson University (Canada) _CRKN_
 1. RWTH Aachen  (Germany) _arXiv-DH and HGF_
@@ -66,6 +67,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. SISSA (Scuola Internazionale Superiore di Studi Avanzati) (Italy)
 1. Stanford University, and SLAC (USA)
 1. Technische Universität München (Germany) _arXiv-DH and HGF_
+1. Tel Aviv University (Israel)
 1. Texas A&M University (USA)
 1. Tsinghua University  (China)
 1. Universität Bonn  (Germany) _arXiv-DH and HGF_
@@ -135,6 +137,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Osaka University (Japan) _NII Japan Consortium_
 1. Perimeter Institute for Theoretical Physics (Canada)
 1. Queensland University of Technology (Australia)
+1. Radboud University (Nethelands)
 1. Rice University (USA)
 1. Stockholm University (Sweden)
 1. Stony Brook University (USA)
@@ -203,6 +206,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. University of Western Australia (Australia)
 1. University of the Witwatersrand (South Africa)
 1. Uppsala University (Sweden)
+1. Utrecht University (Netherlands)
 1. Vrije Universiteit Brussel (Belgium)
 1. Waseda University (Japan) _NII Japan Consortium_
 1. Weizmann Institute of Science (Israel)
@@ -212,6 +216,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 ## Regular Submitters & Community Contributors
 1. Abo Akademi University (Finland) _FinELib_
 1. Ames Laboratory (USA)
+1. Bibliothèque Diderot de Lyon - École Normale Supérieure de Lyon - ENS Lyon (France)
 1. Boston College (USA)
 1. Cape Breton University (Canada) _CRKN_
 1. Central European University (Austria)
@@ -220,11 +225,13 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Charles Sturt University (Australia) _CAUL_
 1. European Southern Observatory (Germany)
 1. Georgetown University (USA)
+1. IHEP, National Science Library, CAS (China)
 1. Indian Institute of Technology - Dharwad (India)
 1. Institute for Advanced Study (USA)
 1. Institute of Math Sciences (India)
 1. Institute of Physics of the Czech Academy of Sciences (Czech Republic)
 1. IST Austria (Austria)
+1. Inter-University Centre for Astronomy and Astrophysics (IUCAA) (India)
 1. Lehigh University (USA)
 1. Lib4RI (Switzerland) _CSAL_
 1. MacEwan University (Canada) _CRKN_
@@ -234,10 +241,12 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Nikhef (Netherlands)
 1. Nipissing University (Canada) _CRKN_
 1. Oregon State University (USA)
+1. Paris Nanterre University (France)
 1. Paul-Drude-Institut für Festkörperelektronik (Germany) _arXiv-DH and HGF_
 1. Queens University (Canada)
 1. Raman Research Institute (India)
 1. Research Centre for Astronomy and Earth Sciences (Hungary)
+1. Sciences Po Grenoble (France)
 1. Tampere University (Finland) _FinELib_
 1. Tampere University of Applied Sciences (Finland) _FinELib_
 1. Technion - Israel Institute of Technology (Israel)
@@ -250,7 +259,9 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Universität Regensburg (Germany) _arXiv-DH and HGF_
 1. Universität des Saarlandes (Germany) _arXiv-DH and HGF_
 1. Universität Ulm (Germany) _arXiv-DH and HGF_
+1. Université Claude Bernard Lyon 1 (France)
 1. Université de Neuchatel (Switzerland) _CSAL_
+1. Université Toulouse III -Paul Sabatier (France)
 1. University of Arkansas (USA)
 1. University of Auckland (New Zealand)
 1. University of California, Merced (USA) _CDL_
