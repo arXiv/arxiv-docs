@@ -26,6 +26,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. CERN-European Organization for Nuclear Research (Switzerland)
 1. Georgia Institute of Technology (USA)
 1. Imperial College of Science, Technology, and Medicine (UK)
+1. Los Alamos National Laboratory (USA)
 1. Massachusetts Institute of Technology (MIT) (USA)
 1. University College London (UK)
 
