@@ -38,6 +38,9 @@ https://storage.googleapis.com/arxiv-docs-prs/YOUR_PR_NAME/index.html
 This preview can been seen by the public, everything in the github
 arxiv-docs repo can also be seen by the public.
 
+## Historical site content
+See https://github.com/arXiv/arxiv-docs/releases for branches prior to 2023 when content was shifted to the source/ directory.
+
 # Authoring Markdown
 
 ## What markdown to use?
