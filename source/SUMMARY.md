@@ -68,7 +68,7 @@
      * [Paper ownership](help/authority.md)
      * [General submission policies](help/submit.md)
      * [Submission schedule and cutoff time](help/availability.md)
-     * [Moderation](help/moderation/index.md)
+     * [Content Moderation](help/moderation/index.md)
      * [License and copyright](help/license/index.md)
      * [Withdrawals](help/withdraw.md)
      * [Cross listing](help/cross.md)
