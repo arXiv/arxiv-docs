@@ -57,7 +57,7 @@ Hideaki Takeda is a full professor in computer science at National Institute of 
 _Ivan Oransky, Editor in Chief, Spectrum (Simons Foundation); Distinguished Writer in Residence (Journalism), New York University; Co-Founder, Retraction Watch_
 
 ## Ex Officio Members
-**Cornell University (5 non-voting seats)**, _Ramin Zabih, Faculty Director; Steinn Sigurdsson, Scientific Director; Jim Entwood, Operations Manager; Alison Fromme, Community Engagement and Development Manager._
+**Cornell University (5 non-voting seats)**, _Ramin Zabih, Faculty Director; Steinn Sigurdsson, Scientific Director; Jim Entwood, Operations Manager_
 
 **Scientific Advisory Board (SAB) Representative**, _Dr. Sumati Surya, Professor, Raman Research Institute, India_
 
