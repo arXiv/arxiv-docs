@@ -39,18 +39,6 @@ Jim coordinates the efforts of the volunteer moderators and arXiv administrators
 </div>
 <div class="block" markdown="1">
 
-![Image of Alison Fromme](../images/alison.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Alison Fromme' role="presentation"}
-
-## Alison Fromme ## {align="center"}
-
-**Community Engagement Manager**
-{align="center"}
-
-Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alum and holds an M.S. in Zoology from Washington State University.
-
-</div>
-<div class="block" markdown="1">
-
 ![Image of Shamsi Brinn](../images/shamsi.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Shamsi Brinn' role="presentation"}
 
 ## Shamsi Brinn ## {align="center"}
