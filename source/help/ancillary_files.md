@@ -17,7 +17,9 @@ files might include:
 -   Workbooks and spreadsheets
 
 arXiv accepts ancillary material only in support of research articles
-submitted. Note that tex files should not be included in this directory. Additionally, no pointers inside your codebase should reference this directory (it will change upon announcement, and any linking may be lost). Full text placed in the ancillary directory will *not* be indexed in searches. For information on submitting supplemental text that can be indexed, please see [this tex help page](submit_tex.md#autoignore).
+submitted. Note that *tex files you expect to be compiled must not be included in this directory* --
+for how to add source that should be compiled, see the [tex submission help page](submit_tex.html#autoignore).
+Additionally, no pointers inside your codebase should reference this directory (it will change upon announcement, and any linking may be lost). Full text placed in the ancillary directory will *not* be indexed in searches. For information on submitting supplemental text that can be indexed, please see [this tex help page](submit_tex.md#autoignore).
 
 Submission of ancillary files
 -----------------------------
