@@ -3,7 +3,9 @@
 ## How do we make accessible research papers a reality? {.bold-paper-title}
 
 **Date:** April 17th, 2023
+
 **Time:** 1:00pm - 5:00pm Eastern Time
+
 *This event is free and open to everyone committed to achieving accessibility in research outputs.*
 
 [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
@@ -21,18 +23,18 @@ We want to make this forum as inclusive as we can. *Please note that STEM-litera
 ---
 
 ### Presentations
-We know the issues of accessibility, and we know the solutions, too. People with disabilities will share the solutions that work for them, right now. We will ask: How can these personal solutions become global and part of the culture?
+We, the community, know the issues of accessibility. And we know the solutions, too. In this segment researchers who directly face barriers to accessing papers will share the obstacles they face and the solutions that work for them. We will ask: How can these personal solutions become global and part of the culture?
 
-Presenters: List of presenters to be announced soon.
+List of presenters to be announced soon.
 
 ### Panel Discussion
 Topic: Where in the pipeline do we need to change? Whose responsibility is it to make content accessible?
 
-Panelists: Panel participants to be announced soon.
+Panel participants to be announced soon.
 
 ### Breakout Groups to dig deeper
 Dig deeper into topical discussions, share solutions, and help one another’s efforts. Topical breakout rooms will cover specific technical subjects and more. We hope to hear your suggestions in the registration form.
 
-Topical discussions: List of discussions topics to be announced soon. Please let us know in the registration form what topics would interest you.
+List of discussions topics to be announced soon. Please let us know in the registration form what topics would interest you.
 
 [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
