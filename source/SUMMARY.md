@@ -4,6 +4,7 @@
     * [Membership](about/membership.md)
     * [Funding](about/funding.md)
     * [Reports](about/reports/index.md)
+    * [Accessibility Forum](about/accessibility_forum.md)
     * [Accessibility Report](about/accessibility_research_report.md)
     * [arXiv Blog](https://blog.arxiv.org/)
 * [Help](help/index.md)
