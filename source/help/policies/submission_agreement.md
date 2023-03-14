@@ -35,21 +35,21 @@ By making this submission to arXiv:
 - I grant arXiv a non-exclusive, perpetual, irrevocable, and royalty-free license to include the Work in the arXiv repository. 
 - I permit users to access, view, and make other uses of the work in a manner consistent with the services and objectives of arXiv. 
 - I agree that this license includes without limitation the right for arXiv to reproduce (e.g., upload, backup, archive, preserve, and allow online access), distribute (e.g., allow access), make available, and prepare versions of the Work (e.g., abstracts, and metadata or text files, formats to support accessibility, machine-readable formats) in analog, digital, or other formats existing now or in the future as arXiv may deem appropriate. 
-- I agree that the rights and licenses granted will move with arXiv if another educational institutioninstitutional assumes responsibility for arXiv. 
+- I agree that the rights and licenses granted will move with arXiv if another educational institutionin assumes responsibility for arXiv. 
 
 ## Waiver of Rights and Indemnification
 
-I waive the following claims on behalf of myself and all other authors of the Work:
+I waive the following claims on behalf of myself and all other authors of the Work: 
 
-- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof, based upon the use of the Work by arXiv consistent with the License.
-- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof, based upon actions taken by any such party with respect to the Work, including without limitation decisions to include the Work in, or exclude the Work from, the repository; editorial decisions or changes affecting the Work, including the identification of Submitters and their affiliations or titles; the classification or characterization of the Work; the content of any metadata; the availability or lack of availability of the Work to researchers or other users of arXiv, including any decision to include the Work initially or remove or disable access.
-- Any rights related to the integrity of the Work under moral rights principles.
-- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof based upon any technical failures that result in a loss of content or inadvertent disclosure of information provided in connection with a submission. 
-- I will indemnify, defend, and hold harmless arXiv, Cornell University and its officers, employees, agents, and other affiliated parties from any loss, damage, or claim arising out of or related to: (a) any breach of any representations or warranties herein; (b) any failure by Submitter to perform any of Submitter’s obligations herein; and (c) any use of the Work as anticipated in the License and terms of submittal.
+- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof, based upon the use of the Work by arXiv consistent with the License. 
+- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof, based upon actions taken by any such party with respect to the Work, including without limitation decisions to include the Work in, or exclude the Work from, the repository; editorial decisions or changes affecting the Work, including the identification of Submitters and their affiliations or titles; the classification or characterization of the Work; the content of any metadata; the availability or lack of availability of the Work to researchers or other users of arXiv, including any decision to include the Work initially or remove or disable access. 
+- Any rights related to the integrity of the Work under ​​​​moral rights principles. 
+- Any claims against arXiv or Cornell University, or any officer, employee, or agent thereof based upon any technical failures that result in a loss of content or inadvertent disclosure of information provided in connection with a submission.  
+- I will indemnify, defend, and hold harmless arXiv, Cornell University and its officers, employees, agents, and other affiliated parties from any loss, damage, or claim arising out of or related to: (a) any breach of any representations or warranties herein; (b) any failure by Submitter to perform any of Submitter’s obligations herein; and (c) any use of the Work as anticipated in the License and terms of submittal. 
 
 ## Management of Copyright
 
-This grant to arXiv is a non-exclusive license and is not a grant of exclusive rights or a transfer of the copyright. Authors who either (a) retain their copyright in the Work; or (b) no longer retain their copyright before submission but do have the right to submit the Work, may enter into publication agreements or other arrangements regarding the Work, provided that, such agreements or arrangements do not conflict with the ability of arXiv to exercise the rights and licenses granted to arXiv under this Agreement. arXiv has no obligation to protect or enforce any copyright in the Work, and arXiv has no obligation to respond to any permission requests or other inquiries regarding the copyright in or other uses of the Work.
+This grant to arXiv is a non-exclusive license and is not a grant of exclusive rights or a transfer of the copyright. Authors who either (a) retain their copyright in the Work; or (b) no longer retain their copyright before submission but do have the right to submit the Work, may enter into publication agreements or other arrangements regarding the Work, provided that such agreements or arrangements do not conflict with the ability of arXiv to exercise the rights and licenses granted to arXiv under this Agreement. arXiv has no obligation to protect or enforce any copyright in the Work, and arXiv has no obligation to respond to any permission requests or other inquiries regarding the copyright in or other uses of the Work. 
 
 You may elect to make the Work available under one of the following licenses that you shall select at the time of submission: 
 
@@ -60,11 +60,11 @@ You may elect to make the Work available under one of the following licenses tha
 -  arXiv license (https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html); or 
 -  Creative Commons Public Domain Dedication (CC0 1.0) (https://creativecommons.org/share-your-work/public-domain/cc0/).
     
-If you wish to use a different CC license, then select arXiv’s non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article.
+If you wish to use a different CC license, then select arXiv’s non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article. 
 
 The Creative Commons licenses are explained here: https://creativecommons.org/licenses/.
 
-You should take care to submit a work to arXiv only if you are certain that you will not later wish to publish it in a journal or other outlet that prohibits prior distribution on an e-print server. _arXiv will not remove an announced article in order to comply with such a journal policy – the license granted upon submission is irrevocable._
+You should take care to submit a work to arXiv _only if you are certain_ that you will not later wish to publish it in a journal or other outlet that prohibits prior distribution on an e-print server. _arXiv will not remove an announced article in order to comply with such a journal policy – the license granted upon submission is irrevocable._ 
 
 ## Metadata license
 
@@ -74,5 +74,5 @@ To the extent that you or arXiv has a copyright interest in metadata accompanyin
 
 This Agreement will be governed by and construed in accordance with the substantive and procedural laws of the State of New York and the applicable federal law of the United States without reference to any conflicts of laws principles. 
 
--  By making this submission, I agree that any action, suit, arbitration, or other proceeding arising out of or related to this Agreement must be commenced in the state or federal courts serving Tompkins County, New York.
--  I hereby consent on behalf of myself and any other authors to the personal jurisdiction of such courts.
+- By making this submission, I agree that any action, suit, arbitration, or other proceeding arising out of or related to this Agreement must be commenced in the state or federal courts serving Tompkins County, New York. 
+- I hereby consent on behalf of myself and any other authors to the personal jurisdiction of such courts. 
