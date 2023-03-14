@@ -4,7 +4,7 @@
 Hosted by arXiv, this half-day online forum will center the experiences of academic researchers with disabilities who face barriers to accessing and reading papers. The forum will be useful for people across the academic publishing pipeline who are committed to accessibility and want to collaborate on solutions. Together, we can chart a path towards fully accessible research papers, and leave with practical next steps for our own organizations.
 
 ---
-![Image of the arXiv forum logo](../assets/arxiv-lockup-forum-vertical-padded.png){.mkd-img-right .mkd-border alt='the arXiv logo with the word forum below' role="presentation"}
+![Logo for the arXiv forum](../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
 
 ##Event Details
 **Date:** April 17th, 2023
