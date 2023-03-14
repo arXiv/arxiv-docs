@@ -1,21 +1,21 @@
-# arXiv Submittal Agreement Terms and Conditions
+# arXiv Submittal Agreement
 
-arXiv is a curated research-sharing platform emphasizing openness, collaboration, and scholarship. By submitting articles, comments, or other written work (the “Work”), you (including any other authors of the Work) are agreeing to comply with these terms, which is an agreement (the “Agreement”) between you and Cornell University on behalf of arXiv (“arXiv”).
+arXiv is a curated research-sharing platform emphasizing openness, collaboration, and scholarship. By submitting articles, comments, or other written work (the “Work”), you (including any other authors of the Work) are agreeing to comply with these terms, which is an agreement (the “Agreement”) between you and Cornell University on behalf of arXiv (“arXiv”). 
 
-## Representations and Warranties
+## Representations and Warranties 
 
-I make the following representations and warranties:
+I make the following representations and warranties: 
 
-- I am the original author of the Work, or a proxy pre-approved by arXiv administrators acting on behalf of an original author.
-- If the Work was created by multiple authors, that all of them have consented to the submission of the Work to arXiv. If I am signing and accepting the terms on behalf of another individual, I have been granted the authority to make the submittal by that individual and my acceptance of the terms binds the other individual.
-- I have the right to include any third-party materials used in the Work.
-- The use of any third-party materials is consistent with scholarly and academic standards of proper citation and acknowledgement of sources.
-- The Work is not subject to any agreement, license or other claim that could interfere with the rights granted to arXiv herein.
-- The distribution of the Work by arXiv will not violate any rights of any person or entity, including without limitation any rights of copyright, patent, trade secret, privacy, or any other rights, and it contains no defamatory, obscene, or other unlawful matter.
-- I will not enter into other agreements or make other commitments that would conflict with the rights granted to arXiv.
- - I have the authority to make the statements, grant the rights, and take the actions described above.
+- I am the original author of the Work, or a proxy pre-approved by arXiv administrators acting on behalf of an original author. 
+- If the Work was created by multiple authors, that all of them have consented to the submission of the Work to arXiv. If I am signing and accepting the terms on behalf of another individual, I have been granted the authority to make the submittal by that individual and my acceptance of the terms binds the other individual. 
+- I have the right to include any third-party materials used in the Work. 
+- The use of any third-party materials is consistent with scholarly and academic standards of proper citation and acknowledgement of sources. 
+- The Work is not subject to any agreement, license or other claim that could interfere with the rights granted to arXiv herein. 
+- The distribution of the Work by arXiv will not violate any rights of any person or entity, including without limitation any rights of copyright, patent, trade secret, privacy, or any other rights, and it contains no defamatory, obscene, or other unlawful matter. 
+- I will not enter into other agreements or make other commitments that would conflict with the rights granted to arXiv. 
+- I have the authority to make the statements, grant the rights, and take the actions described above. 
 
-## Compliance with arXiv Policies
+## Compliance with arXiv Policies 
 
 I agree to comply with all arXiv policies, including but not limited to, those related to the [code of conduct](/help/policies/code_of_conduct.html), [moderation](/help/moderation/index.html), and [privacy](/help/policies/privacy_policy.html). My failure to so comply may result in arXiv suspending access, removing Works, or otherwise taking action it determines is necessary. I understand and agree that arXiv reserves the right, in its sole discretion, to take any action that arXiv determines is required in order to comply with applicable arXiv policies and any applicable laws, including but not limited to removal of a Work or blocking access to it.
 
