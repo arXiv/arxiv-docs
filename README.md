@@ -21,8 +21,8 @@ There click on the pencil icon to edit the page. That will take you to the corre
 
 There click "edit" and you can edit contents of the page in github. Once you
 have made changes you can click preview to see how it will look when completed
-(warning: there are slight differences between the markdown we use and what
-github uses.)
+There are slight differences between the markdown we use and what
+github uses.
 
 ![gzip page](non-info/help-github2.png)
 
@@ -48,7 +48,7 @@ reviewed. This is done by "creating a PR" PR stands for pull request.
 
 To make a new PR click the "Pull Requests" tab on the top of a github page. Then
 click the green "New Pull Request." You want changes from your branch to get put
-into the branch called `develop`
+into the branch called `master`.
 
 ![gzip page](non-info/help-pr1.png)
 
@@ -267,16 +267,23 @@ See the [mkdocs-macros docs](https://mkdocs-macros-plugin.readthedocs.io/en/late
 
 ## Building a local site
 
+Instead of using github to edit you can check all the files for arxiv-docs to
+your laptop to edit and preview.
+
 ```bash
-pyenv local 3.8.12
+git clone git@github.com:arXiv/arxiv-docs.git
+cd arxiv-docs
+python --version
+# 3.8.12
 python -m venv docs-venv
 source docs-venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
+google-chrome https://localhost:8000/index.html
 ```
 
-Then you will have the site served locally with hot reloading on
-edits. In your browser, go to http://localhost:8000/index.html
+Then you will have the site served locally with hot reloading on edits. In your
+browser, go to http://localhost:8000/index.html
 
 ## Where can I find more about mkdocs-material?
 See [mkdocs-material/customization](https://squidfunk.github.io/mkdocs-material/customization/)
@@ -292,7 +299,7 @@ The cloud build YAML files combined with CloudBuild triggers in
 ## Previews of PRs
 
 PRs that will merge to the branch `develop` on the github repo
-`arxiv-docs` will deploy preveiws at
+`arxiv-docs` will deploy previews at
 https://storage.googleapis.com/arxiv-docs-prs/YOUR_PR_NAME/index.html
 This preview can been seen by the public, everything in the github
 arxiv-docs repo can also be seen by the public.
