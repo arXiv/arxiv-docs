@@ -52,4 +52,4 @@ Submitters are responsible for ensuring all co-authors have consented to submiss
 
 ### Falsification of Authorship 
 
-Submitters are required to comply with arXiv's [code of conduct](policies/code_of_conduct.md). If you believe there has been an ethical violation such as falsification of authorship, please [contact arXiv user support](https://arxiv.org/support/moderation_help) with a complete explanation. Note that this will open a dialog with the submitter as well, and cannot be used as an "authorship dispute by proxy".
+Submitters are required to comply with arXiv's [code of conduct](policies/code_of_conduct.md). If you believe there has been an ethical violation such as falsification of authorship, please [contact arXiv user support](https://arxiv.org/support/moderation_help) with a complete explanation. Note that such a claim may require that the admin team open a dialog with the submitter as well. Such a report cannot be used as an "authorship dispute by proxy".
