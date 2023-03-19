@@ -1,5 +1,9 @@
 # Forum: How do we make accessible research papers a reality?
 
+> **Please note: Registration has been paused due to very high registration**. Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links.
+>
+> The high level of interest affirms that the research community wants open science to be truly open. Please keep an eye on this space for more opportunities to forward this important work together.
+
 ##A practical forum, free and open to all
 Hosted by arXiv, this half-day online forum will center the experiences of academic researchers with disabilities who face barriers to accessing and reading papers. The forum will be useful for people across the academic publishing pipeline who are committed to accessibility and want to collaborate on solutions. Together, we can chart a path towards fully accessible research papers, and leave with practical next steps for our own organizations.
 
@@ -13,7 +17,9 @@ Hosted by arXiv, this half-day online forum will center the experiences of acade
 
 **Cost:** Free
 
-[Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
+**Registration has ended early due to extremely high response rate.**
+
+We will share recordings of the event afterwards. Please keep an eye out for more opportunities to get involved and share your expertise**
 <div style="clear:both;"></div>
 ---
 
@@ -27,7 +33,7 @@ We will walk away from this forum having learned three things:
 ## Presentations
 We, the community, know the issues of accessibility. And we know the solutions, too. In this segment researchers who directly face barriers to accessing papers will share the obstacles they face and the solutions that work for them. We will ask: How can these personal solutions become global and part of the culture?
 
-List of presenters to be announced soon.
+Presenters to be announced soon.
 
 ## Panel Discussion
 Topic: Where in the pipeline do we need to change? Whose responsibility is it to make content accessible?
@@ -37,10 +43,8 @@ Panel participants to be announced soon.
 ## Breakout Groups to dig deeper
 Dig deeper into topical discussions, share solutions, and help one another’s efforts. Topical breakout rooms will cover specific technical subjects and more. We hope to hear your suggestions in the registration form.
 
-List of discussions topics to be announced soon. Please let us know in the registration form what topics would interest you.
+List of discussions topics to be announced soon.
 
 ---
 ##Inclusive Event
-We want to make this forum as inclusive as we can. *Please note that STEM-literate ASL interpreters will be present throughout all segments.* Let us know in the registration form if additional accommodations would help you participate fully.
-
-[Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
+We want to make this forum as inclusive as we can. *Please note that STEM-literate ASL interpreters will be present throughout all segments.*
