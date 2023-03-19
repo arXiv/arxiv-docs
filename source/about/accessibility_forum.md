@@ -1,10 +1,8 @@
 # Forum: How do we make accessible research papers a reality?
 
-> **Please note: Registration has been paused due to the unexpectedly high registration rate**. If we are able to expand our hosting capacity we may be able to open registration again for a window of time. Please keep an eye on this space.
+> **Please note: Registration has been paused due to very high registration**. Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links.
 >
-> In additiona, forum presentations and the panel discussion will be recorded and shared online. All recordings will include ASL interpreters.
->
-> The high level of interest in making accessible research papers a reality affirms that the research community is, indeed, committed to making open science truly open. Please keep an eye on this space for more opportunities to forward this important work together.
+> The high level of interest affirms that the research community wants open science to be truly open. Please keep an eye on this space for more opportunities to forward this important work together.
 
 ##A practical forum, free and open to all
 Hosted by arXiv, this half-day online forum will center the experiences of academic researchers with disabilities who face barriers to accessing and reading papers. The forum will be useful for people across the academic publishing pipeline who are committed to accessibility and want to collaborate on solutions. Together, we can chart a path towards fully accessible research papers, and leave with practical next steps for our own organizations.
