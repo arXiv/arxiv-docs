@@ -1,6 +1,6 @@
 # Forum: How do we make accessible research papers a reality?
 
-> **Please note: Registration has been paused due to very high registration**. Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links.
+> **Please note: Registration has been paused due to very high interest levels**. Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links.
 >
 > The high level of interest affirms that the research community wants open science to be truly open. Please keep an eye on this space for more opportunities to forward this important work together.
 
