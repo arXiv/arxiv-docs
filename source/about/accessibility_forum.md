@@ -1,8 +1,8 @@
 # Forum: How do we make accessible research papers a reality?
 
-> **Please note: Registration has been paused due to very high interest levels**. As we are able to expand our online hosting capacity we will open up registration again. Please keep an eye out for that link.
+> **Update:** In response to the high level of interest in this event, we have been able to expand our Zoom hosting capacity and re-open registration:
 >
-> The high level of interest affirms that the research community wants open science to be truly open to all. Please watch for more opportunities to forward this critical work together.
+> [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
 
 ## A practical forum, free and open to all
 Hosted by arXiv, this half-day online forum will center the experiences of academic researchers with disabilities who face barriers to accessing and reading papers. The forum will be useful for people across the academic authoring and publishing ecosystem who are committed to making accessible research papers a reality. Together, we can chart a path towards fully accessible research papers, and leave with practical next steps for our own organizations.
@@ -17,16 +17,16 @@ Hosted by arXiv, this half-day online forum will center the experiences of acade
 
 **Cost:** Free
 
-**Public registration is temporarily on pause. Please check back again soon.**
+[Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
 
-Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links, and more opportunities to get involved and share your expertise**
+Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links, and more opportunities to get involved, share your expertise, and contribute to projects advancing accessible research outputs.
 <div style="clear:both;"></div>
 ---
 We will walk away from this forum having learned three things:
 
 1. That accessibility is a known problem with known solutions.
 1. That we are far behind.
-1. And that we can do it! Accessible research papers is within our reach. There are a lot of resources and smart people working on solutions. And those solutions can be relatively easy.
+1. And that we can do it! Accessible research papers is a goal within reach. There are a lot of resources and smart people working on solutions. And those solutions can be relatively easy.
 
 ---
 ## Schedule
@@ -42,3 +42,5 @@ We will walk away from this forum having learned three things:
 ---
 ## An Inclusive Event
 We want to make this forum as inclusive as we can. *Please note that STEM-literate ASL interpreters will be present throughout all segments.* When registering, please let us know if additional accommodations will help you participate fully.
+
+[Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
