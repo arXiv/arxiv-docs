@@ -32,15 +32,20 @@ We will walk away from this forum having learned three things:
 ## Schedule
 | Time | Session | Description |
 | --- | --- | --- |
-| 1:00 | **Welcome** | Introductions; Why is this forum important? |
-| 1:15 | **Presentations** | Avneesh Singh, Cynthia Bennett, Jonathan Godfrey, Anne Logan, Lucas Nadolskis, Breanne Kisselstein, and Patrick Smyth will share their unique expertise and lived experiences. How can their personal solutions to making research papers accessible become global and part of the culture? |
+| 1:00 | **Welcome** | Welcome notes and schedule overview |
+| 1:05 | **Introduction and Keynote** | Jonathan Godfrey: Why is this topic so essential? |
+| 1:15 | **Presentations** | Avneesh Singh, Cynthia Bennett, Anne Logan, Lucas Nadolskis, Breanne Kisselstein, and Patrick Smyth will share their unique expertise and lived experiences. How can their personal solutions to making research papers accessible become global and part of the culture? |
+| 2:20 | **10 minute break** |   |
 | 2:30 | **Panel Discussion** | Where in the pipeline do we need to change? Whose responsibility is it to make content accessible? A rich discussion with Neil Soiffer, Raja Kushalnagar, Julie R. Williamson, Frank Mittelbach, Sarah Kane, and Kevin-John Black |
-| 3:20 | **Q&A Session 1**  |  Breakout room 1: What can authors and publishers do right now? And what is coming in the next year? <br><br> Breakout room 2: Mythbusting the needs of deaf academics when it comes to accessing research. |
-| 4:00 | **Q&A Session 2**  |  Breakout room 1: How can AI and crowd-sourcing help with accessibility? <br><br> Breakout room 2: Digging deeper into image and graph descriptions for scientific papers. |
+| 3:20 | **10 minute break** |   |
+| 3:30 | **Q&A Session 1**  |  Breakout room A: What can authors and publishers do right now? And what is coming in the next year? <br><br> Breakout room B: Mythbusting the needs of deaf academics when it comes to accessing research. |
+| 4:00 | **Switch** | A few minutes to switch breakout rooms for Q&A session 2 |
+| 4:05 | **Q&A Session 2**  |  Breakout room A: How can AI and crowd-sourcing help with accessibility? <br><br> Breakout room B: Digging deeper into image and graph descriptions for scientific content. |
+| 4:35 | **5 minute break** |   |
 | 4:40 | **Closing Roundtable** | Converging on a shared path towards accessible research papers. |
 
 ---
 ## An Inclusive Event
-We want to make this forum as inclusive as we can. *Please note that STEM-literate ASL interpreters will be present throughout all segments.* When registering, please let us know if additional accommodations will help you participate fully.
+We want to make this forum as inclusive as we can. *Please note that ASL interpreters will be present throughout all segments.* When registering, please let us know if additional accommodations will help you participate fully.
 
 [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
