@@ -20,6 +20,7 @@ downloads. A small fraction of submissions are made with [other
 licenses](license/index.md) and this information is available in the
 OAI-PMH metadata.*
 
+Update 2023-03-23: Updates to reflect current total file sizes and mild restructuring of this page.
 Update 2011-01-03: Source files also available from S3, see
 [below](#src).  
 Update 2010-08-31: The arXiv PDF dataset has been updated and moved to a
@@ -27,10 +28,10 @@ new bucket (`arxiv`). The locations below have been updated.
 Update 2016-09-23: Tools section has been revised to reflect newer
 version of `s3cmd`.
 
-Bulk PDF Access
----------------
+A note on Regions and File Size
+-------------------------------
 
-The complete set of processed arXiv PDF files available from Amazon S3
+The complete set of processed arXiv PDF files and their source available from Amazon S3
 in requester pays buckets (i.e. the downloader pays Amazon for the
 download based on bandwidth used, see [Requester Pays
 Buckets](http://docs.amazonwebservices.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
@@ -44,12 +45,20 @@ predictable cost, and avoids putting any additional load on our servers
 that might impact interactive performance. Note that arXiv's buckets are
 located in the Eastern US (N. Virginia) region.
 
+The complete set of files as of March 2023 is about 5.6 TB. With an estimated growth rate
+of around 100 GB per month, we expect increased growth as the submission rate continues to
+[increase over time](https://arxiv.org/stats/monthly_submissions). The PDF files are about
+2.7 TB, with the source files making up the remaining 2.9 TB of the estimate.
+
+Bulk PDF Access
+---------------
+
 PDFs are available on S3 in the `arxiv` requester pays bucket. They are
 grouped into `.tar` files of \~500MB each (which we've found is a good
-size chunk). The complete set of files as of December 2022 is about 5.4 TB,
+size chunk). The complete set of PDF as of March 2023 is about 2.7 TB,
 with an estimated growth rate of around 100 GB per month, which we expect
 will increase as the [submission rate](https://arxiv.org/stats/monthly_submissions) increases 
-over time.
+over time. Examples keys for these files with the arxiv bucket are:
 Examples keys for these files with the `arxiv` bucket are:
 
     pdf/arXiv_pdf_1001_001.tar         (s3://arxiv/pdf/arXiv_pdf_1001_001.tar in s3cmd URI style)
@@ -139,7 +148,7 @@ requester pays buckets.
 The source files are available on S3 in the `arxiv` requester pays
 bucket using an arrangement similar to the PDF files described above.
 They are grouped into `.tar` files of \~500MB each and the complete set
-of source files is about 150GB (2011-01). Examples are:
+of source files is about 2.9 TB (March 2023). Examples are:
 
     src/arXiv_src_1001_001.tar         (s3://arxiv/src/arXiv_src_1001_001.tar in s3cmd URI style)
     src/arXiv_src_1001_002.tar         (s3://arxiv/src/arXiv_src_1001_002.tar)
