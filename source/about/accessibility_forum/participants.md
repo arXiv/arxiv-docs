@@ -1,4 +1,4 @@
-# Forum Participant Bios (Draft)
+# Participant Bios (Draft)
 
 ![Logo for the arXiv forum](../../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
 [Return to main Forum Info page](accessibility_forum.md)
@@ -18,7 +18,7 @@ Avneesh Singh, chair, accessibility task force - W3C EPUB 3 Working Group and Pu
 Avneesh aspires to make knowledge & information accessible to all, at affordable cost, using technical innovations and leveraged by inclusive strategies & global partnerships. [Avneesh's Linkedin](https://www.linkedin.com/in/avneesh-singh-01b32316/)
 
 ### Dr. Cynthia Bennett
-Senior Research ScientistSenior Research Scientist, Google Responsible AI and Human Centered Technology.
+Senior Research Scientist, Responsible AI and Human Centered Technology, Google.
 
 Cynthia's research involves disabled people as the experts of their own lived experiences, and accessible futures for everyone. [Cynthia's Linkedin](https://www.linkedin.com/in/clb5590/)
 
@@ -28,12 +28,12 @@ PhD Candidate, Vanden Heuvel Lab, School of Integrative Plant Science Horticultu
 Anne has always been very passionate about fruit crop production and hopes to develop teaching videos on all things fruit crop and wine related in ASL, and one day to own a farm winery. [Anne's Linkedin](https://www.linkedin.com/in/anne-kearney-logan-9a75b989/)
 
 ### Lucas Nadolskis
-2023 Masters in Biomedical Engineering from Carnegie Mellon University, and incoming Neurosciences PhD at University of California, Santa Barbara.
+2023 Masters in Biomedical Engineering from Carnegie Mellon University; Incoming Neurosciences PhD Candidate, University of California Santa Barbara.
 
 Lucas is passionate about what it will take to address inaccessible research publication at scale and how to make analytical data more accessible.[Lucas's Twitter](https://twitter.com/lnadolskis?lang=en)
 
 ### Breanne Kisselstein
-PhD Candidate, School of Integrative Plant Science Plant Pathology and Plant-Microbe Biology Section, Cornell University.
+PhD Candidate, School of Integrative Plant Science, Plant Pathology and Plant-Microbe Biology Section, Cornell University.
 
 Breanne is passionate about the power of community for underrepresented students, and the need for better support systems for blind and deaf researchers. [Breanne's Linkedin](https://www.linkedin.com/in/breannekisselstein/)
 
@@ -86,10 +86,10 @@ Software Developer, Facebook; NVDA community developer.
 
 Tony is a software developer and active contributor to improving screen reader technology. [Tony's Linkedin](https://www.linkedin.com/in/tony-malykh-2971591/)
 
-### Ulrike Fischer
+### Ulrike Fischer (not yet confirmed, hoping she can join us)
 Member of the LaTeX project.
 
-Ulrike's main focus is currently on PDF related packages like hyperref, tagpdf and pdfmanagement-testphase. LaTeX's five year plan will have profound accessibility impacts. [Ulrike's Author Bio](https://www.informit.com/authors/bio/BA672B25-A399-4C25-9AC6-472F5BF29CA2)
+Ulrike's main focus is currently on LaTeX packages related to accessibility. LaTeX's five year plan will have profound accessibility impacts. [Ulrike's Author Bio](https://www.informit.com/authors/bio/BA672B25-A399-4C25-9AC6-472F5BF29CA2)
 
 ### Mark Applin
 Co-founder, Signly.
@@ -97,7 +97,7 @@ Co-founder, Signly.
 Signly provides synchronous, in-vision, sign language translations on any webpage, with the goal of improving equal access to digital information, advice and services. [Mark's Linkedin](https://www.linkedin.com/in/mark-applin-20b9384/)
 
 ### Frank Elavsky
-PhD Candidate, Human-Computer Interaction Institute, Carnegie Mellon University; Data interaction research at Apple; Senior Research Scientist at Fizz Studio; W3C invited expert in data visualization in the ARIA Working Group.
+PhD Candidate, Human-Computer Interaction Institute, Carnegie Mellon University; Data interaction research at Apple; W3C invited expert in Data Visualization in the ARIA Working Group.
 
 Frank's research focuses on methods that improve greater adoption of accessibility practices, engineer tools and systems that improve inclusive practitioner work and outcomes, and critically examine ways that sociotechnical systems exclude people with disabilities. [Frank's Homepage](https://www.frank.computer/)
 
