@@ -81,7 +81,7 @@ Deyan's main focus is to enhance the representation of mathematical expressions 
 ### Arwa Alnajashi
 (Arwa, could you share your bio with me? Thank you!)
 
-### Tony Malyck
+### Tony Malykh
 Software Developer, Facebook; NVDA community developer.
 
 Tony is a software developer and active contributor to improving screen reader technology. [Tony's Linkedin](https://www.linkedin.com/in/tony-malykh-2971591/)
