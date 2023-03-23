@@ -1,10 +1,6 @@
-# Forum participants (Draft)
+# Forum Participant Bios (Draft)
 
-> **Update:** In response to the high level of interest in this event, we have been able to expand our Zoom hosting capacity and re-open registration:
->
-> [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
-
-![Logo for the arXiv forum](../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
+![Logo for the arXiv forum](../../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
 [Return to main Forum Info page](accessibility_forum.md)
 
 **How do we make accessible research papers a reality?** This critical question is the theme of a [forum hosted by arXiv on April 17th](accessibility_forum.md) that will center the experiences of academic researchers who directly barriers to accessing and reading papers.
