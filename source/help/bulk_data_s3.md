@@ -54,7 +54,7 @@ Bulk PDF Access
 ---------------
 
 PDFs are available on S3 in the `arxiv` requester pays bucket. They are
-grouped into `.tar` files of \~500MB each (which we've found is a good
+grouped into `.tar` files of ~500MB each (which we've found is a good
 size chunk). The complete set of PDF as of March 2023 is about 2.7 TB,
 with an estimated growth rate of around 100 GB per month, which we expect
 will increase as the [submission rate](https://arxiv.org/stats/monthly_submissions) increases 
@@ -147,7 +147,7 @@ requester pays buckets.
 
 The source files are available on S3 in the `arxiv` requester pays
 bucket using an arrangement similar to the PDF files described above.
-They are grouped into `.tar` files of \~500MB each and the complete set
+They are grouped into `.tar` files of ~500MB each and the complete set
 of source files is about 2.9 TB (March 2023). Examples are:
 
     src/arXiv_src_1001_001.tar         (s3://arxiv/src/arXiv_src_1001_001.tar in s3cmd URI style)
