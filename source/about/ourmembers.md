@@ -7,11 +7,11 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 
 <div class="mkd-ordered-list-blocks" markdown="1">
 
-## Champion Consortia
+## Champion Consortia Members
 1. Big Ten Academic Alliance (USA)
 1. California Digital Libraries (USA)
 
-## Consortia
+## Consortia Members
 1. arXiv DH and HGF Consortium (Germany)
 1. Canadian Research Knowledge Network (Canada)
 1. Consortium of Swiss Academic Libraries (Switzerland)
@@ -30,7 +30,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Massachusetts Institute of Technology (MIT) (USA)
 1. University College London (UK)
 
-## Top 100 Submitters
+## Top 100 Submitters Members
 1. Arizona State University (USA)
 1. Australian National University (Australia)
 1. Brookhaven National Laboratory (USA)
@@ -99,7 +99,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Yale University (USA)
 1. York University (Canada) _CRKN_
 
-## Frequent Submitters
+## Frequent Submitters Members
 1. Aalto University (Finland)
 1. Argonne National Lab (USA)
 1. Boston University (USA)
@@ -214,7 +214,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Western University (Canada)
 1. Wilfrid Laurier University (Canada) _CRKN_
 
-## Regular Submitters & Community Contributors
+## Regular Submitters & Community Contributors Members
 1. Abo Akademi University (Finland) _FinELib_
 1. Ames Laboratory (USA)
 1. Bibliothèque Diderot de Lyon - École Normale Supérieure de Lyon - ENS Lyon (France)
