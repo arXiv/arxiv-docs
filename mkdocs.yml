@@ -34,8 +34,6 @@ theme:
   logo: assets/arxiv-logo-one-color-white.svg
   custom_dir: overrides
   favicon: assets/favicon.png
-extra_javascript:
-  - scripts/load-giscus.js
 extra_css:
   - stylesheets/extra.css
 extra:
