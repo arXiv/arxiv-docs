@@ -66,6 +66,11 @@ Undergraduate Student at University of Pennsylvania with a focus on Astrophysics
 
 For Sarah, her career as a researcher is intertwined with her work as a disability advocate. She was born legally blind and has a strong interest in the accessibility of science to people with disabilities. Her work includes usability testing for Astronify, a project of the Space Telescope Institute turning datasets into audio.  [Sarah's University Profile](https://curf.upenn.edu/profile/kane-sarah)
 
+### Dr. Kaveh Bazargan
+Director, River Valley Technologies
+
+Kaveh is a physicist, and one of the first to use TeX (1983). In 1988 he founded River Valley Technologies, with the aim of improving the publishing process. Kaveh has a special interest in the accessibility of STM content, and in particular of mathematics. He is a proponent of open standards, and in particular an advocate of XML as the "format of record". [Kaveh's LinkedIn](https://www.linkedin.com/in/bazargankaveh/)
+
 ### Bill Kasdorf
 Principal, Kasdorf & Associates; Founding partner, Publishing Technology Partners; W3C Global Publishing Evangelist, W3C Publishing Working Group member, EPUB 3 Community Group member.
 
