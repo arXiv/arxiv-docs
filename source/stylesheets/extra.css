@@ -259,7 +259,10 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
 
 
 
-
+/*Tables*/
+.md-typeset table:not([class]) {
+  font-size: 1em;
+}
 
 
 /*classes for Images*/
