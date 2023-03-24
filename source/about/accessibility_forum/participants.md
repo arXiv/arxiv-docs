@@ -40,6 +40,11 @@ Postdoctoral Fellow in Humanities Entrepreneurship at the Publics Lab, and Chief
 
 Patrick is a blind hacker and programmer whose work focuses on citizen technology, critical infrastructure, accessibility, and technical pedagogy. [Patrick's homepage](https://smythp.com/index.html)
 
+### Bill Kasdorf
+Principal, Kasdorf & Associates; Founding partner, Publishing Technology Partners; W3C Global Publishing Evangelist, W3C Publishing Working Group member, EPUB 3 Community Group member.
+
+Bill offers consultancy to publishers on accessibility, XML/HTML/EPUB modeling and specification, standards alignment, and more. He believes accessibility in publishing has reached an inflection point and we are at a critical time for renewed action. [Bill's Linkedin](https://www.linkedin.com/in/billkasdorf/)
+
 ### Dr. Neil Soiffer
 Chief Listening Officer at Talking Cat Software.
 
@@ -70,11 +75,6 @@ For Sarah, her career as a researcher is intertwined with her work as a disabili
 Director, River Valley Technologies
 
 Kaveh is a physicist, and one of the first to use TeX (1983). In 1988 he founded River Valley Technologies, with the aim of improving the publishing process. Kaveh has a special interest in the accessibility of STM content, and in particular of mathematics. He is a proponent of open standards, and in particular an advocate of XML as the "format of record". [Kaveh's LinkedIn](https://www.linkedin.com/in/bazargankaveh/)
-
-### Bill Kasdorf
-Principal, Kasdorf & Associates; Founding partner, Publishing Technology Partners; W3C Global Publishing Evangelist, W3C Publishing Working Group member, EPUB 3 Community Group member.
-
-Bill offers consultancy to publishers on accessibility, XML/HTML/EPUB modeling and specification, standards alignment, and more. He believes accessibility in publishing has reached an inflection point and we are at a critical time for renewed action. [Bill's Linkedin](https://www.linkedin.com/in/billkasdorf/)
 
 ### Deyan Ginev
 Creator of ar5iv.org and LaTeXML developer; W3C Math Working Group member; PhD candidate in hiding (do not disturb).
