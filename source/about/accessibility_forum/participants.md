@@ -3,14 +3,12 @@
 ![Logo for the arXiv forum](../../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
 [Return to main Forum Info page](accessibility_forum.md)
 
-**How do we make accessible research papers a reality?** This critical question is the theme of a [forum hosted by arXiv on April 17th](accessibility_forum.md) that will center the experiences of academic researchers who directly barriers to accessing and reading papers.
-
-We are very please to be working with the following key participants to bring this forum to life:
+We are very pleased to be working with the following key participants to bring this forum to life:
 
 ### Dr. Jonathan Godfrey
 Senior Lecturer in Statistics, School of Mathematical and Computational Sciences, Massey University.
 
-Jonathan's research is focused on the needs of the thousands of blind people around the world who need additional tools to make the visual elements of statistical thinking and practice less of a barrier. [Jonathan's Facculty Profile](https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=416430)
+Jonathan's research is focused on the needs of the thousands of blind people around the world who need additional tools to make the visual elements of statistical thinking and practice less of a barrier. [Jonathan's Faculty Profile](https://www.massey.ac.nz/massey/expertise/profile.cfm?stref=416430)
 
 ### Avneesh Singh
 Avneesh Singh, chair, accessibility task force - W3C EPUB 3 Working Group and Publishing Community Group.
@@ -45,7 +43,7 @@ Patrick is a blind hacker and programmer whose work focuses on citizen technolog
 ### Dr. Neil Soiffer
 Chief Listening Officer at Talking Cat Software.
 
-Neil Soiffer is a principal architect of MathML, the standard for putting math on the web.  He was the main developer of MathPlayer, which is used with NVDA to make math accessible in Web, Word, and PowerPoint documents, and currently chairs the W3C Math Working Group.
+Neil Soiffer is a principal architect of MathML, the standard for putting math on the web. He is the main developer of MathPlayer and its replacement, MathCAT. They are used in NVDA and elsewhere to make math accessible in Web, Word, and PowerPoint documents.  He currently co-chairs the W3C Math Working Group. [Neil's Linkedin](https://www.linkedin.com/in/neil-soiffer-1807b76/)
 
 ### Dr. Raja Kushalnagar
 Director of the Information Technology program in the Department of Science, Technology and Mathematics at Gallaudet University.
@@ -64,9 +62,9 @@ Technical Lead of the LaTeX projects
 Frank is focused on the future development of the LaTeX typesetting system. It is a critical authoring tool in the fields of Math, Physics, and Computer Science. LaTeX's five year plan will have profound accessibility impacts. [Frank's Linkedin](https://www.linkedin.com/in/frankmittelbach/)
 
 ### Sarah Kane
-Undergraduate Student at University of Pennsylvania with a focus on Astrophysics Research; PURM Research Assistant, Department of Physics and Astronomy; NSF REU Scholar, Department of Astronomy, University of Texas at Austin; Usability testing for Astronify, NASA.
+Undergraduate Student at University of Pennsylvania with a focus on Astrophysics Research; PURM Research Assistant, Department of Physics and Astronomy; NSF REU Scholar, Department of Astronomy, University of Texas at Austin; 2023 Marshall Scholar.
 
-For Sarah, her career as a researcher is intertwined with her work as a disability advocate. She was born legally blind and has a strong interest in the accessibility of science to people with disabilities. [Sarah's University Profile](https://curf.upenn.edu/profile/kane-sarah)
+For Sarah, her career as a researcher is intertwined with her work as a disability advocate. She was born legally blind and has a strong interest in the accessibility of science to people with disabilities. Her work includes usability testing for Astronify, a project of the Space Telescope Institute turning datasets into audio.  [Sarah's University Profile](https://curf.upenn.edu/profile/kane-sarah)
 
 ### Bill Kasdorf
 Principal, Kasdorf & Associates; Founding partner, Publishing Technology Partners; W3C Global Publishing Evangelist, W3C Publishing Working Group member, EPUB 3 Community Group member.
@@ -79,7 +77,9 @@ Creator of ar5iv.org and LaTeXML developer; W3C Math Working Group member; PhD c
 Deyan's main focus is to enhance the representation of mathematical expressions in rendered research papers, improving their accessibility, computational semantics, and enabling further reuse in a broader class of applications. [Deyan's University Profile](https://kwarc.info/people/dginev/)
 
 ### Arwa Alnajashi
-(Arwa, could you share your bio with me? Thank you!)
+Data Scientist, Saudi Aramco.
+
+Arwa is a legally blind data scientist and self described "data transformation enthusiast." She holds a Bachelor's degree in Computer Science from the University of York, where she was recognized with the Simon Poulding award for being the top graduating woman. Her personal experiences have motivated her to actively participate in research projects that aim to combine her academic knowledge with her lived experience to find innovative solutions that benefit everyone, with a special focus on improving the lives of disabled individuals. [Arwa’s Linkedin](https://www.linkedin.com/in/arwa-alnajashi-84b1541a2/)
 
 ### Tony Malykh
 Software Developer, Facebook; NVDA community developer.
@@ -104,4 +104,4 @@ Frank's research focuses on methods that improve greater adoption of accessibili
 ### Dr. John Hammersley
 Founder of Overleaf; VP Researcher and Community Engagement at Digital Science.
 
-Overleaf if the world's leading LaTeX-based online authoring platform, used by researchers around the world. John's current work focuses on how to best serve the broad research community, with a particular focus on the end user. [John's Linkedin](https://www.linkedin.com/in/john-hammersley-6419a266/)
+Overleaf is the world's leading LaTeX-based online authoring platform, used by researchers around the world. John's current work focuses on how to best serve the broad research community, with a particular focus on the end user. [John's Linkedin](https://www.linkedin.com/in/john-hammersley-6419a266/)
