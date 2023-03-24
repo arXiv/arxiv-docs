@@ -1,9 +1,9 @@
 # Participant Bios (Draft)
 
-![Logo for the arXiv forum](../../assets/arxiv-lockup-forum.png){.mkd-img-right .mkd-border alt='logo for the arXiv forum' role="presentation"}
-[Return to main Forum Info page](accessibility_forum.md)
+![Logo for the arXiv forum](../../assets/arxiv-lockup-forum.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
+[Return to main Forum Info page](../accessibility_forum.md)
 
-We are very pleased to be working with the following key participants to bring this forum to life:
+We are very pleased to be bring together the following presenters, panelists, and Q&A participants to bring this forum to life:
 
 ### Dr. Jonathan Godfrey
 Senior Lecturer in Statistics, School of Mathematical and Computational Sciences, Massey University.
