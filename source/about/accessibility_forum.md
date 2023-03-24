@@ -4,7 +4,7 @@
 >
 > [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-reg target="_blank"}
 
-![Logo for the arXiv forum](../assets/arxiv-lockup-forum.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
+![Logo for the arXiv forum](../assets/arxiv-lockup-forum-bgcolor.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
 
 ## A practical forum, free and open to all
 Hosted by arXiv, this half-day online forum will center the experiences of academic researchers with disabilities who face barriers to accessing and reading papers. The forum will be useful for people across the academic authoring and publishing ecosystem who are committed to making accessible research papers a reality.
@@ -24,7 +24,7 @@ Hosted by arXiv, this half-day online forum will center the experiences of acade
 Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links, and more opportunities to get involved, share your expertise, and contribute to projects that advance accessible research outputs.
 
 ## Schedule (All times are in Eastern Daylight Savings Time)
-| Time (EDT) | Session | Description |
+| Time | Session | Description |
 | --- | --- | --- |
 | 1:00pm | **Welcome** | Welcome notes and schedule overview |
 | 1:05pm | **Introduction and Keynote** | Jonathan Godfrey: Why is this topic so essential? |
