@@ -15,7 +15,7 @@ proxies in some circumstances. These circumstances include:
 -   Automated deposit of conference proceedings from conference
     management systems. Such deposit is currently support by the
     Microsoft [Conference Management
-    Toolkit](http://cmt.research.microsoft.com/cmt/) (e.g. articles from
+    Toolkit](https://cmt3.research.microsoft.com/About) (e.g. articles from
     CIDR2007: [arXiv:cs/0612137](https://arxiv.org/abs/cs/0612137),
     [arXiv:cs/0612129](https://arxiv.org/abs/cs/0612129),...).
 -   Proxy submissions from overlay journals such as
