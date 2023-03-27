@@ -42,6 +42,6 @@ Forum presentations and the panel discussion will be recorded and shared online 
 We want to make this forum as inclusive as we can. *Please note that ASL interpreters will be present throughout all segments.* When registering, please let us know if additional accommodations will help you participate fully.
 
 ### Volunteer opportunity
-Are you a fast note taker? Want to get involved and help make the forum even more inclusive? arXiv is looking for five or six individuals to take live notes for a section each. They will complement Zoom captioning and other efforts, and make the forum just that much more inclusive and easy to follow. If you are interested, reach out to [our organizer](mailto:shamsi@arxiv.org) with a quick email.
+Are you a fast note taker? Want to get involved and help make the forum even more inclusive? arXiv is looking for five or six individuals to take live notes, each for a portion of the forum. They will complement Zoom captioning and other efforts, and make the forum just that much more inclusive and easy to follow. If you are interested, reach out to [our organizer](mailto:shamsi@arxiv.org) with a quick email.
 
 [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
