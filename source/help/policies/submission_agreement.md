@@ -35,7 +35,7 @@ By making this submission to arXiv:
 - I grant arXiv a non-exclusive, perpetual, irrevocable, and royalty-free license to include the Work in the arXiv repository. 
 - I permit users to access, view, and make other uses of the work in a manner consistent with the services and objectives of arXiv. 
 - I agree that this license includes without limitation the right for arXiv to reproduce (e.g., upload, backup, archive, preserve, and allow online access), distribute (e.g., allow access), make available, and prepare versions of the Work (e.g., abstracts, and metadata or text files, formats to support accessibility, machine-readable formats) in analog, digital, or other formats existing now or in the future as arXiv may deem appropriate. 
-- I agree that the rights and licenses granted will move with arXiv if another educational institutionin assumes responsibility for arXiv. 
+- I agree that the rights and licenses granted will move with arXiv if another educational institution assumes responsibility for arXiv. 
 
 ## Waiver of Rights and Indemnification
 
