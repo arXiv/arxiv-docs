@@ -61,8 +61,7 @@ this page.
 Please note that the following rate limits apply to all of the machines under
 your control as a whole. You should not attempt to overcome these limits by
 increasing the number of machines used to make requests. If your use-case
-requires a higher request rate, please contact our support team at
-help@arxiv.org.
+requires a higher request rate, please [contact our support team](http://arxiv.org/support/general_help).
 
 - When using the legacy APIs (including OAI-PMH, RSS, and the arXiv API), make
   no more than one request every three seconds, and limit requests to a single
