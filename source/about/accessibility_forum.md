@@ -21,7 +21,7 @@ Hosted by arXiv, this half-day online forum will center the experiences of acade
 
 [Register](https://cornell.ca1.qualtrics.com/jfe/form/SV_br1lFL94OVQB5nE){.button-large target="_blank"}
 
-Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links, and more opportunities to get involved, share your expertise, and contribute to projects that advance accessible research outputs.
+Forum presentations and the panel discussion will be recorded and shared online after the event. Please keep an eye on this space for those links, and more opportunities to get involved, share your expertise, and contribute to projects that advance accessible research outputs. [Meet our presenters, panelists, and Q&A participants](../accessibility_forum/participants.md)
 
 ## Schedule (All times are in Eastern Daylight Savings Time)
 | Time | Session | Description |
