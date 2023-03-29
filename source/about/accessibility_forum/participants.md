@@ -1,4 +1,4 @@
-# Participant Bios (Draft)
+# Participant Bios
 
 ![Logo for the arXiv forum](../../assets/arxiv-lockup-forum-bgcolor.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
 [Return to main Forum page](../accessibility_forum.md)
