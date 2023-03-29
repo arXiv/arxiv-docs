@@ -102,7 +102,7 @@ These limits may change in the future.
 - Use someone else’s credentials to access arXiv APIs.
 
 If you have questions about what uses of arXiv APIs and content are acceptable,
-please contact our user support team at help@arxiv.org.
+please contact our user support team through our [arXiv user support portal](http://arxiv.org/support/general_help).
 
 <sup>1</sup>Descriptive metadata includes information for discovery and
 identification purposes, and includes fields such as title, abstract, authors,
