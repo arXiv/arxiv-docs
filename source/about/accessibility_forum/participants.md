@@ -1,11 +1,11 @@
 # Participant Bios (Draft)
 
-![Logo for the arXiv forum](../assets/arxiv-lockup-forum-bgcolor.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
+![Logo for the arXiv forum](../../assets/arxiv-lockup-forum-bgcolor.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
 [Return to main Forum page](../accessibility_forum.md)
 
 We are excited to be joined by the following presenters, panelists, and Q&A participants in the forum:
 
-
+## Presenters
 ### Dr. Jonathan Godfrey
 Senior Lecturer in Statistics, School of Mathematical and Computational Sciences, Massey University.
 
@@ -46,6 +46,7 @@ Accessibility Office, Taylor & Francis; Chair, Accessibility Action Group of The
 
 In her work as a researcher and in publishing, Stacy is committed to breaking down barriers and improving the availability of accessible education. She seeks to promote and realize her ‘raison d’être’ – "a world that is born-accessible and truly inclusive for all." [Stacy's LinkedIn](https://www.linkedin.com/in/stacy-scott-b7552737/)
 
+## Panelists
 ### Bill Kasdorf
 Principal, Kasdorf & Associates; Founding partner, Publishing Technology Partners; W3C Global Publishing Evangelist, W3C Publishing Working Group member, EPUB 3 Community Group member.
 
@@ -68,24 +69,30 @@ Julie's research focuses on interaction in immersive environments and she is an 
 [Julie's LinkedIn](https://www.linkedin.com/in/julierico/)
 
 ### Frank Mittelbach
-Technical Lead of the LaTeX project.
+Technical Lead of the LaTeX Project.
 
-Frank is focused on the future development of the LaTeX typesetting system. It is a critical authoring tool in the fields of Math, Physics, and Computer Science. LaTeX's five year plan will have profound accessibility impacts. [Details on Frank's work](https://www.latex-project.org/publications/indexbytopic/pdf/)
+Frank is focused on the future development of the LaTeX typesetting system. A critical authoring tool in the fields of Math, Physics, Computer Science and more, LaTeX's five year plan will have profound accessibility impacts. [Details on Frank's work](https://www.latex-project.org/publications/indexbytopic/pdf/)
 
 ### Sarah Kane
 Undergraduate Student at University of Pennsylvania with a focus on Astrophysics Research; PURM Research Assistant, Department of Physics and Astronomy; NSF REU Scholar, Department of Astronomy, University of Texas at Austin; 2023 Marshall Scholar.
 
 For Sarah, her career as a researcher is intertwined with her work as a disability advocate. She was born legally blind and has a strong interest in the accessibility of science to people with disabilities. Her work includes usability testing for Astronify, a project of the Space Telescope Institute turning datasets into audio.  [Sarah's University Profile](https://curf.upenn.edu/profile/kane-sarah)
 
-### Dr. Kaveh Bazargan
-Director, River Valley Technologies
+### Kevin-John Black
+Preprints Product Lead, Cold Spring Harbor Laboratory.
 
-Kaveh is a physicist, and one of the first to use TeX (1983). In 1988 he founded River Valley Technologies, with the aim of improving the publishing process. Kaveh has a special interest in the accessibility of STM content, and in particular of mathematics. He is a proponent of open standards, and in particular an advocate of XML as the "format of record". [Kaveh's LinkedIn](https://www.linkedin.com/in/bazargankaveh/)
+Kevin-John brings his experience leading bioRxiv and medRxiv towards offering full-text HTML version of papers, and the broad implications of HTML on researchers and publishers. [Kevin-John's LinkedIn](https://www.linkedin.com/in/kevinjohnblack/)
 
+## Breakouts
 ### Deyan Ginev
 Creator of ar5iv.org and LaTeXML developer; W3C Math Working Group member; PhD candidate in hiding (do not disturb).
 
 Deyan's main focus is to enhance the representation of mathematical expressions in rendered research papers, improving their accessibility, computational semantics, and enabling further reuse in a broader class of applications. [Deyan's University Profile](https://kwarc.info/people/dginev/)
+
+### Dr. Kaveh Bazargan
+Director, River Valley Technologies
+
+Kaveh is a physicist, and one of the first to use TeX (1983). In 1988 he founded River Valley Technologies, with the aim of improving the publishing process. Kaveh has a special interest in the accessibility of STM content, and in particular of mathematics. He is a proponent of open standards, and in particular an advocate of XML as the "format of record". [Kaveh's LinkedIn](https://www.linkedin.com/in/bazargankaveh/)
 
 ### Arwa Alnajashi
 Data Scientist, Saudi Aramco.
@@ -116,11 +123,6 @@ Frank's research focuses on methods that improve greater adoption of accessibili
 Founder of Overleaf; VP Researcher and Community Engagement at Digital Science.
 
 Overleaf is the world's leading LaTeX-based online authoring platform, used by researchers around the world. John's current work focuses on how to best serve the broad research community, with a particular focus on the end user. [John's LinkedIn](https://www.linkedin.com/in/john-hammersley-6419a266/)
-
-### Kevin-John Black
-Preprints Product Lead, Cold Spring Harbor Laboratory.
-
-Kevin-John brings his experience leading bioRxiv and medRxiv towards offering full-text HTML version of papers, and the broad implications of HTML on researchers and publishers. [Kevin-John's LinkedIn](https://www.linkedin.com/in/kevinjohnblack/)
 
 ### Charles LaPierre
 Principal Accessibility and Content Quality Architect, Benetech; member of the following W3C Working Groups: Publishing Working Group, MathML Refresh, ARIA, APA / Personalization Task Force, EPUB3 W3C Community Group, and co-chair of the Accessibility Metadata W3C Community Group.
