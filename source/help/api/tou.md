@@ -107,4 +107,4 @@ please contact our user support team at help@arxiv.org.
 <sup>1</sup>Descriptive metadata includes information for discovery and
 identification purposes, and includes fields such as title, abstract, authors,
 identifiers, and classification terms. For details about arXiv metadata, see
-https://arxiv.org/help/prep.
+[our help page on metadata prep](https://info.arxiv.org/help/prep.html).
