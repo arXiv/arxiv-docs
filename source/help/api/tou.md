@@ -61,8 +61,7 @@ this page.
 Please note that the following rate limits apply to all of the machines under
 your control as a whole. You should not attempt to overcome these limits by
 increasing the number of machines used to make requests. If your use-case
-requires a higher request rate, please contact our support team at
-help@arxiv.org.
+requires a higher request rate, please [contact our support team](http://arxiv.org/support/general_help).
 
 - When using the legacy APIs (including OAI-PMH, RSS, and the arXiv API), make
   no more than one request every three seconds, and limit requests to a single
@@ -102,9 +101,9 @@ These limits may change in the future.
 - Use someone else’s credentials to access arXiv APIs.
 
 If you have questions about what uses of arXiv APIs and content are acceptable,
-please contact our user support team at help@arxiv.org.
+please contact our user support team through our [arXiv user support portal](http://arxiv.org/support/general_help).
 
 <sup>1</sup>Descriptive metadata includes information for discovery and
 identification purposes, and includes fields such as title, abstract, authors,
 identifiers, and classification terms. For details about arXiv metadata, see
-https://arxiv.org/help/prep.
+[our help page on metadata prep](https://info.arxiv.org/help/prep.html).
