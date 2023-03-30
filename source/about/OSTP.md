@@ -9,3 +9,10 @@ Distribution of research findings by preprints, combined with curation of the ar
 Preprint repositories support a growing and innovative ecosystem for discovery and evaluation of research results, including tools for improved accessibility and research summaries. Experiments in open review and crowdsourced commenting can be layered over preprint repositories, providing constructive feedback and alternative models to the increasingly archaic process of anonymous peer review.
 
 Distribution of research results by preprints provides a well tested path for immediate, free, and equitable access to research results. Preprint archives can support and sustain an open and innovative ecosystem of tools for research discovery and verification, providing a long term and sustainable approach for open access to publicly funded research.
+
+---
+^1^ https://www.whitehouse.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
+^2^ https://arxiv.org/
+^3^ https://www.biorxiv.org/
+^4^ https://www.medrxiv.org/
+^5^ https://www.nlm.nih.gov/news/NIH_Preprint_Pilot_Accelerates_Expands_Discovery_Research_Results.html, https://arxiv.org/pdf/2009.01812.pdf
