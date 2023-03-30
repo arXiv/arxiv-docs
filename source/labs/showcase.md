@@ -118,15 +118,15 @@ Machine learning is still extremely hard to use. Research is typically published
 ___
 
 ##Influence Flower
-![Influence Flower icon](images/influence-flower.png){.mkd-border align=left width=100 alt='a decorative icon of the Replicate labs project' role=presentation}
+![Influence Flower icon](images/influence-flower.png){.mkd-border align=left width=100 alt='a decorative icon of the Influence Flower labs project' role=presentation}
 
 [About Influence Flower](https://influencemap.cmlab.dev/), [Influence Flower Paper](https://arxiv.org/abs/1907.12748)
 
-Collaborators: **Minejong Shin**, **Lexing Xie**
+Collaborators: **Minjeong Shin**, **Lexing Xie**
 
 Influence flower visualizes citation influences among academic entities, including papers, authors, institutions, and research topics.
 ___
 
 
 
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs invitation to collaborate](https://arxiv.org) and [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXivLabs.
+We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs submission portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6) and [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXivLabs.
