@@ -1,7 +1,9 @@
 # Participant Bios
 
 ![Logo for the arXiv forum](../../assets/arxiv-lockup-forum-bgcolor.png){.mkd-img-right alt='logo for the arXiv forum' role="presentation"}
-[Return to main Forum page](../accessibility_forum.md)
+[Return to main Forum page](https://accessibility2023.arxiv.org/)
+
+> For the most up to date information about the event visit the [forum mini-site](https://accessibility2023.arxiv.org/)
 
 We are excited to be joined by the following presenters, panelists, and Q&A participants in the forum:
 
