@@ -6,8 +6,7 @@ helps us to advance that mission by enabling platforms and projects that extend
 the discoverability of arXiv e-prints and provide valuable services to
 scientists and interested readers. Our APIs include our [OAI-PMH
 interface](../../help/oa/index.md), [RSS feeds](../../help/rss.md), the [legacy arXiv API](index.md), [bulk
-data downloads](../../help/bulk_data_s3.md), [SWORD bulk deposit API](../../help/submit_sword.md),
-and services available via the [arXiv API Gateway](https://api.arxiv.org/).
+data downloads](../../help/bulk_data_s3.md), and [SWORD bulk deposit API](../../help/submit_sword.md).
 Understanding and observing the following terms of use will help us to ensure
 that arXiv continues to be able to fulfill its mission. For more information,
 see arXiv’s [Operating
@@ -66,8 +65,6 @@ requires a higher request rate, please [contact our support team](http://arxiv.o
 - When using the legacy APIs (including OAI-PMH, RSS, and the arXiv API), make
   no more than one request every three seconds, and limit requests to a single
   connection at a time.
-- When using services via the arXiv API Gateway, make no more than 4 requests
-  per second per connection, and limit requests to four connections at a time.
 
 These limits may change in the future.
 
