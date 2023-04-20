@@ -103,7 +103,7 @@ ___
 
 [About ScienceCast](https://sciencecast.org/pages/about)
 
-Collaborators: **Andres Jiranek**, Science Cast, Inc.
+Collaborators: **Andrew Jiranek**, Science Cast, Inc.
 
 ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
 ___
