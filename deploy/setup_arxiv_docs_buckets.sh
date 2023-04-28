@@ -8,8 +8,6 @@ gsutil mb -l $LOCATION -p $PRJECT gs://arxiv-docs-prs
 gsutil iam ch allUsers:objectViewer gs://arxiv-docs
 gsutil iam ch allUsers:objectViewer gs://arxiv-docs-prs
 
-
-
 # The bucket needs to be configured to use index.html pages for bare
 # paths (that is /about is redirected to /about/index.html) and the 404
 # page:
