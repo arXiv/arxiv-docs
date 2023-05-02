@@ -47,7 +47,7 @@ Is your institution a champion of open access and a thought leader in scholarly 
 - Public acknowledgement on [arXiv](ourmembers.md)
 - Public recognition locally to the institution via an IP generated banner
 - Eligibility to serve in arXiv’s governance
-- Institutional submission statistics
+- Institutional submission statistics; [FAQ](submission_data_faq.md)
 - The opportunity to provide feedback via surveys
 - Annual reports and regular newsletters
 - Increase the sustainability of academic publishing and push the boundaries of open science
