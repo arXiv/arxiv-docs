@@ -19,7 +19,7 @@ The arXiv logo is a registered trademark and the legal property of arXiv and Cor
 
 ###For products that use the arXiv API
 1. Acknowledge arXiv data usage with this statement on your product: ​“Thank you to arXiv for use of its open access interoperability. This [service/ product] was not reviewed or approved by, nor does it necessarily express or reflect the policies or opinions of, arXiv.”
-2. Typically logo usage is not granted for API use. If you think your project is an exceptionyou can always inquire at ​nextgen@arxiv.org​.
+2. Typically logo usage is not granted for API use. If you think your project is an exception you can always inquire at ​nextgen@arxiv.org​.
 3. The use of the name “arXiv” or “arXiv.org,” in non-arXiv organization names implying or tending to imply some official connection with arXiv, is prohibited.
 
 ###For members & affiliates
