@@ -54,13 +54,13 @@ math.CA</td>
 </tr>
 <tr class="even">
 <td>New scheme</td>
-<td>0704.0001<br />
-0704.0001v1<br />
+<td>0706.0001<br />
+0706.0001v1<br />
 1412.7878<br />
 1501.00001<br />
 9912.12345v2</td>
-<td>arXiv:0704.0001<br />
-arXiv:0704.0001v1<br />
+<td>arXiv:0706.0001<br />
+arXiv:0706.0001v1<br />
 arXiv:1412.7878<br />
 arXiv:1501.00001<br />
 arXiv:9912.12345v2</td>
