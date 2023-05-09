@@ -129,4 +129,4 @@ ___
 
 
 
-We are grateful to the [volunteer developers](https://arxiv.org/about/people/developers) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs submission portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6) and [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md), or contact nextgen@arxiv.org, for more information about contributing to arXivLabs.
+We are grateful to the [volunteer developers](https://info.arxiv.org/about/people/developers.html) who contribute to the arXiv codebase and invite you to get involved. Please see the [arXivLabs submission portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6) and [guidelines for contributors](https://github.com/arXiv/.github/blob/master/CONTRIBUTING.md) for more information about contributing to arXivLabs.
