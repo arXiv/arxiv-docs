@@ -13,6 +13,20 @@
 Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He holds a Ph.D. in Computer Science and Mathematics from Stanford University.
 
 </div>
+
+<div class="block" markdown="1">
+
+![Yoav Artzi](../images/stephanie.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
+
+## Yoav Artzi ## {align="center"}
+
+**Associate Faculty Director**
+{align="center"}
+
+Yoav is an associate professor in computer science at Cornell Tech and Cornell University and a researcher at ASAPP. His research focuses on developing learning methods for natural language understanding and generation in automated interactive systems. In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv’s strategic vision and ensuring that arXiv continues to meet the changing needs of researchers from around the world. He holds a B.Sc. from Tel Aviv University and a Ph.D. from the University of Washington
+
+</div>
+
 <div class="block" markdown="1">
 
 ![Image of Stephanie Orphan](../images/stephanie.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
