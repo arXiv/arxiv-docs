@@ -7,7 +7,6 @@
 - Jim Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
-- Alison Fromme, Community Engagement Manager
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
