@@ -16,7 +16,7 @@ Ramin is a computer science professor at Cornell Tech and president and founder 
 
 <div class="block" markdown="1">
 
-![Yoav Artzi](../images/stephanie.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
+![Image of Yoav Artzi](../images/yoav.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Yoav Artzi' role="presentation"}
 
 ## Yoav Artzi ## {align="center"}
 
@@ -53,30 +53,6 @@ Jim coordinates the efforts of the volunteer moderators and arXiv administrators
 </div>
 <div class="block" markdown="1">
 
-![Image of Alison Fromme](../images/alison.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Alison Fromme' role="presentation"}
-
-## Alison Fromme ## {align="center"}
-
-**Community Engagement Manager**
-{align="center"}
-
-Alison leads arXiv's communications and fundraising efforts, including the membership program for academic and research institutions. Alison's background is in science writing, nonprofit fundraising, and teaching. She is a Cornell University alum and holds an M.S. in Zoology from Washington State University.
-
-</div>
-<div class="block" markdown="1">
-
-![Image of Shamsi Brinn](../images/shamsi.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Shamsi Brinn' role="presentation"}
-
-## Shamsi Brinn ## {align="center"}
-
-**UX Manager**
-{align="center"}
-
-Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
-
-</div>
-<div class="block" markdown="1">
-
 ![Image of Steinn Sigurdsson](../images/steinn.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Steinn Sigurdsson' role="presentation"}
 
 ## Steinn Sigurdsson ## {align="center"}
@@ -99,6 +75,19 @@ Steinn is Professor of Astrophysics at Penn State University. His research inter
 {align="center"}
 
 Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will shepherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and deep commitment to data privacy. Charles holds a B.S. in Computer Science and Engineering from the Massachusetts Institute of Technology.
+
+</div>
+
+<div class="block" markdown="1">
+
+![Image of Shamsi Brinn](../images/shamsi.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Shamsi Brinn' role="presentation"}
+
+## Shamsi Brinn ## {align="center"}
+
+**UX Manager**
+{align="center"}
+
+Shamsi brings the experiences of arXiv’s diverse users to the forefront of organizational planning. Her role includes gathering feedback and testing product experiences with users, disseminating research findings, and using feedback to inform design and development across the arXiv platform. Shamsi holds a B.F.A. in Graphic Design and Photography from Moore College of Art & Design.
 
 </div>
 </div>
