@@ -61,6 +61,9 @@ Github will email all the reviewers.
 Once a PR with changes is merged to develop, merging it to the branch called
 `master` will cause automated scripts to deploy the changes to info.arxiv.org.
 
+## Historical site content
+See https://github.com/arXiv/arxiv-docs/releases for branches prior to 2023 when content was shifted to the source/ directory.
+
 # Authoring Markdown
 Markdown is a document syntax that allows writing documents in plain text that
 can be converted to HTML or other format. The following section contains some

@@ -1,6 +1,6 @@
 # arXiv Policies
 
-Please note this page is a work in progress. We are working towards a comprehensieve list of policies but at this time the list below is incomplete. 
+Please note this page is a work in progress. We are working towards a comprehensive list of policies but at this time the list below is incomplete. 
 
 ## User Policies
 - [Code of conduct](code_of_conduct.md)

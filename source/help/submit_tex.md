@@ -29,7 +29,7 @@ That said, it is important that you do not include extraneous files (including u
 
 You must submit any figures that go along with your paper. We recommend that you use appropriate TeX commands to include the figures inline with your paper (see below), as this is more readable than separate or appended figures.
 
-_Note:_ In the past, it was possible to include a generic arXiv identifier in the TeX source that the processor would automatically translate into the identifier of the current submission. This practice is no longer necessary, nor supported. All TeX-type submissions receive the arXiv watermark, including the canonical identifier, version number, primary classification, and a link back to the correct version on the arXiv site. Again, `arch-ive/yymmnnn` (and, by extension, `yymm.nnnnn`) will _not_ be translated to the correct identifier for your submission.
+_Note:_ arXiv recommends against using the `\today` macro in the standard `\date` field. Because pdf are occasionally rebuilt this date will change and may cause confusion, as outlined in our [FAQ page for this topic](faq/today.html). To avoid this issue, do not use it unless you are comfortable with the displayed date changing periodically. 
 
 <span id="latex"></span>
 

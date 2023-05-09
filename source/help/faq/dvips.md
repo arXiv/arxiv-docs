@@ -1,6 +1,6 @@
 # Papersize/Layout Problems: Margins are Different and/or Text is Truncated
 
-**Note:** prior to arXiv's [TeXLive 2020 upgrade](texlive.md), all submissions were forced into US Letter page dimensions. This is no longer the current practice, however the information below may still be of use for diagnosing odd behavior around local printing problems. 
+**Note:** prior to arXiv's [TeXLive 2020 upgrade](texlive.md), all submissions were forced into US Letter page dimensions. The current practice is to allow other paper sizes when explicitly stated, with `letterpaper` being the default page size. The information below may still be of use for diagnosing odd behavior around local display or printing problems. 
 
 There are many possible reasons for a papersize/layout problem. It may
 be due to differences in style files used, variations in layout
@@ -14,7 +14,6 @@ table below:
 
 | Tables        | Inches       | Inches       | Cm          | Cm  |
 | ------------- | ------------- | ------------- |:-------------:| -----:|
-|	Tables			| x				| y	       		| x			    | y     |
 | US Letter | 8.5    | 11    | 21.59 | 27.94 |
 | Din A4    | 8.26   | 11.69 | 20.99 | 29.70 |
 

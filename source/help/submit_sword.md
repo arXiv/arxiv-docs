@@ -728,8 +728,8 @@ metadata wrapper of the original deposit.
 
 A replacement via SWORD can only be made by a registered [paper
 owner](authority.md) or the author of the original
-SWORD deposit when authenticated with the same credentials. There are no
-per paper passwords for replacements via SWORD.
+SWORD deposit when authenticated with the same credentials. The authenticated username is
+case-sensitive. There are no per paper passwords for replacements via SWORD.
 
 Most of the mechanics of the replacement are the same as those of a new
 SWORD deposit.
