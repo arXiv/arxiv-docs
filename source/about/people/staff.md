@@ -1,5 +1,6 @@
 # arXiv Staff
 
+- Yoav Artzi, Associate Faculty Director
 - Amanda Bartley, Senior Moderation & User Support Specialist
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist
