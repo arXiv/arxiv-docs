@@ -23,7 +23,7 @@ Ramin is a computer science professor at Cornell Tech and president and founder 
 **Associate Faculty Director**
 {align="center"}
 
-Yoav is an associate professor in computer science at Cornell Tech and Cornell University and a researcher at ASAPP. His research focuses on developing learning methods for natural language understanding and generation in automated interactive systems. In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv’s strategic vision and ensuring that arXiv continues to meet the changing needs of researchers from around the world. He holds a B.Sc. from Tel Aviv University and a Ph.D. from the University of Washington.
+Yoav is an associate professor in computer science at Cornell Tech and Cornell University. His research focuses on natural language processing, especially in automated interactive systems. In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He holds a B.Sc. from Tel Aviv University and a Ph.D. from the University of Washington.
 
 </div>
 
