@@ -31,6 +31,7 @@ On the occasion that arXiv defers a mailing (either for locally celebrated holid
 
 ### 2023 Holidays 
 - Mon 16 January 
+- Wed 14 June
 - Mon 19 June
 - Tues 4 July
 - Mon 4 September
