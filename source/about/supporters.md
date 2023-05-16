@@ -17,7 +17,6 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 
 ## Gold Sponsors
 1. Google, Inc (USA)
-1. Facebook AI (USA)
 
 ## Silver Affiliates
 
