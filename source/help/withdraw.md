@@ -48,15 +48,12 @@ The withdrawn version
 - The reason for the withdrawal is displayed in the Comments field. 
 - Under the Download options on the right there is no option to download the PDF or TeX.
 
-
 ![withdarawal version 2](Withdraw-sample-v2-2023-05-15.png "withdarawal version 2")
 
-Previous versions remains accessible
+Previous versions remain accessible.
 
-- From the v2 above, when you click on "v1" you can still access the previous version of the paper 
-- Below is version 1 for the withdrawn paper 
-- A notification that the new version is withdrawn is displayed
-- The full text can be accessed under the Download options
-
+- All previous versions are still accessible through the links below the Submission History as shown in the example below.
+- A notification that the new version is withdrawn is displayed.
+- The full text can be accessed under the Download options.
 
 ![withdarawal version 1](Withdraw-sample-v1-2023-05-15.png "withdarawal version 1")
