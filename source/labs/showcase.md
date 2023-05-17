@@ -74,7 +74,7 @@ ___
 
 ![Hugging Face icon](images/huggingface-logo.png){.mkd-border align=left width=100 alt='a decorative icon of the Hugging Face labs project' role=presentation}
 
-[About Hugging Face](https://huggingface.co/huggingface)
+[Hugging Face code repositories](https://github.com/orgs/huggingface/repositories), [About Hugging Face](https://huggingface.co/huggingface)
 
 Collaborators: **Abubakar Abid**, **Omar Sanseviero**, **Ahsen Khaliq**, and the **[Hugging Face team](https://huggingface.co/huggingface)**
 
