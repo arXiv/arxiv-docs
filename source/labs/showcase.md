@@ -103,9 +103,9 @@ ___
 
 [About ScienceCast](https://sciencecast.org/pages/about)
 
-Collaborators: **Andrew Jiranek**, Science Cast, Inc.
+Collaborators: **Andrew Jiranek**, ScienceCast, Inc.
 
-ScienceCast links arXiv papers to interactive video presentations. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
+ScienceCast links arXiv papers to interactive video and audio presentations. In addition, AI-generated audio summaries are available for arXiv papers. ScienceCast is a free open-access platform for researchers to disseminate their scientific results and ideas to a wide audience of fellow scientists.
 ___
 ##Replicate
 ![Replicate icon](images/replicate-logo.png){.mkd-border align=left width=100 alt='a decorative icon of the Replicate labs project' role=presentation}
@@ -118,13 +118,23 @@ Machine learning is still extremely hard to use. Research is typically published
 ___
 
 ##Influence Flower
-![Influence Flower icon](images/influence-flower.png){.mkd-border align=left width=100 alt='a decorative icon of the Influence Flower labs project' role=presentation}
+![Influence Flower icon](images/inffluence-flower.png){.mkd-border align=left width=100 alt='a decorative icon of the Influence Flower labs project' role=presentation}
 
 [About Influence Flower](https://influencemap.cmlab.dev/), [Influence Flower Paper](https://arxiv.org/abs/1907.12748)
 
 Collaborators: **Minjeong Shin**, **Lexing Xie**
 
 Influence flower visualizes citation influences among academic entities, including papers, authors, institutions, and research topics.
+___
+
+##DagsHub
+![DagsHub icon](images/dagshub-logo.png){.mkd-border align=left width=100 alt='The DagsHub logo, an illustration of the head of a pug dog' role=presentation}
+
+[About DagsHub](https://dagshub.com/about)
+
+Collaborators: **Dean Pleban** and the **[DagsHub Team](https://dagshub.com/about#team-div)**
+
+DagsHub provides a central location where projects can be hosted, discovered, and collaborated on. Discover full and reproducible implementations of research papers on arXiv.
 ___
 
 
