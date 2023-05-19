@@ -1,6 +1,6 @@
 # arXiv is hiring!
 
-We're looking for a few good developers, a program manager, a tech writer/documentation specialist and more.
+We're looking for a community engagement manager, a few good developers, a program manager, a tech writer/documentation specialist and more.
 
  - arXiv is part of Cornell University. All arXiv employees are Cornell University employees.
  - The positions listed on this page are all full time [staff positions with benefits (endowed)](https://hr.cornell.edu/understand-your-benefits).
