@@ -26,7 +26,7 @@ logic](#search_query_and_id_list)
     [3.3.1. Feed Metadata](#_feed_metadata)  
       [3.3.1.1. &lt;title&gt;, &lt;id&gt;, &lt;link&gt; and
 &lt;updated&gt;](#_lt_title_gt_lt_id_gt_lt_link_gt_and_lt_updated_gt)  
-      [3.3.1.2. OpenSearch Extension[def]
+      [3.3.1.2. OpenSearch Extension
 Elements](#_opensearch_extension_elements)  
     [3.3.2. Entry Metadata](#_entry_metadata)  
       [3.3.2.1. &lt;title&gt;, &lt;id&gt;, &lt;published&gt;, and
@@ -979,6 +979,3 @@ Feed](#atom_feed_outline).
 
 For the complete list of arXiv subject classifications, please visit the
 [taxonomy](https://arxiv.org/category_taxonomy) page.
-
-
-[def]: 
