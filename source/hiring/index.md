@@ -13,7 +13,7 @@ To be filled in by @stephanie
 
 ## Software development
 
-We're already underway on the arXiv CE ("Cloud Edition") project. This is a project to re-home all arXiv services from VMs at Cornell to an international cloud provider. Our immediate target for this is the [Google Cloud](https://cloud.google.com/). There are a number of reasons for this transition, including improving arXiv's scalability while modernizing our infrastructure. This will not be a simple port of the existing arXiv code base because this project will:
+We're already underway on the arXiv CE ("Cloud Edition") project. This is a project to re-home all arXiv services from VMs at Cornell to a cloud provider ([Google Cloud]https://cloud.google.com/)). There are a number of reasons for this transition, including improving arXiv's scalability while modernizing our infrastructure. This will not be a simple port of the existing arXiv code base because this project will:
 
  - replace the portion of our backends still written in perl and PHP
  - containerize all, or nearly all arXiv services so we can deploy via Kubernetes or services like [Google Cloud Run](https://cloud.google.com/run/)
@@ -54,7 +54,9 @@ Note &ndash; the PM manages the project, not people. To be successful in this ro
 
 ### Tech Writer/Documentation Person
 
-We need someone who can create and organization all of our documentation &ndash; both internal and external. As we proceed with the arXiv CE effort, we'll need internal documentation of our techniques and processes, the details functions of each module, etc. Bonus points to someone who can document code (mostly Python) just by reading it. Note that we intend for most documentation on the arXiv CE project to be public, where we'll be soliciting feedback on what we're doing. The Tech Writer will be expected to write much of that documentation and moderate the process, and perhaps sometime author responses.
+We need someone who can create and organization all of our documentation &ndash; both internal and external.
+
+As we proceed with the arXiv CE effort, we'll need internal documentation of our techniques and processes, the details functions of each module, etc. Bonus points to someone who can document code (mostly Python) just by reading it. Note that we intend for most documentation on the arXiv CE project to be public, where we'll be soliciting feedback on what we're doing. The Tech Writer will be expected to write much of that documentation and moderate the process, and perhaps sometime author responses.
 
 In addition, the Tech Writer will take charge of our public documentation, in order to assist users of arXiv &ndash; the scientists who use our platform individually, as well as institutional partners who need detailed information about our APIs.
 
