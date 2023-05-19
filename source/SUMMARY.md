@@ -1,3 +1,4 @@
+* [arXiv is Hiring!](hiring/index.md)
 * [About](about/index.md)
     * [Who we are](about/people/index.md)
     * [Governance](about/governance.md)
@@ -80,4 +81,3 @@
      * [Third party submission](help/third_party_submission.md)
 * [Categories](https://arxiv.org/category_taxonomy)
 * [arXiv Usage Stats](help/stats/index.md)
-* [arXiv is Hiring!](hiring/index.md)
