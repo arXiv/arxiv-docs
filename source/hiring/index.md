@@ -9,7 +9,17 @@ We're looking for a community engagement manager, a few good developers, a progr
 
 ## Community Engagement Manager
 
-To be filled in by @stephanie
+arXiv is looking for a self-starter with an entrepreneurial mindset to join our leadership team as our next Community Engagement Manager. The Community Engagement Manager is responsible for defining and implementing arXiv’s communication strategy and managing and expanding our membership and sponsorship programs.
+
+The Community Engagement Manager will:
+
+ - serve as a creative communications strategist, leveraging emerging communications trends, research, and techniques to connect to key audiences and stakeholders aroundthe globe
+ - develop campaigns to support arXiv’s mission, vision, project goals, and brand identity
+ - develop, manage, and maintain successful relationships with arXiv stakeholders in academic libraries and library consortia, professional societies, research institutes, and other mission-aligned organizations to ensure a thriving membership and sponsorship program
+ - cultivate relationships through in-person meetings, webinars, and other outreach and develop marketing materials
+ - organize and implement giving campaigns to solicit support from individual arXiv users
+
+The full job description and instructions on how to apply are [here](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/details/Community-Engagement-Manager--arXiv--Cornell-Tech_WDR-00037212)
 
 ## Software development
 
