@@ -62,6 +62,8 @@ We need a Program Manager/Project Manager to organize the arXiv CE effort. This 
 
 Note &ndash; the PM manages the project, not people. To be successful in this role, the candidate must be capable of exercising influece without authority.
 
+1. IT Project Manager IV
+
 ### Tech Writer/Documentation Person
 
 We need someone who can create and organization all of our documentation &ndash; both internal and external.
