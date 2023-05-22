@@ -5,7 +5,7 @@
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Lead Developer
-- Jim Entwood, Head of Content & User Support
+- Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
 - Kim Laine, User & Membership Support Specialist
