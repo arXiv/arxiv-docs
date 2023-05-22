@@ -14,7 +14,8 @@ Live 2020 will process fine under the new TeX tree we encourage authors
 to switch their development environments to the latest TeX Live 2023 (if
 you have not done so already).
 
-Please contact us if there are modules not include in TeX Live 2023 or
+Please [contact us](https://arxiv.org/support) if there are modules not include in TeX Live 2023 or
+
 our locally maintained tree that you would like to see added. In most
 cases you will want to add customized packages to your submission.
 Widely used packages may be added to our local tree for the convenience
