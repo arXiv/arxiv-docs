@@ -22,7 +22,7 @@ Widely used packages may be added to our local tree for the convenience
 of large disciplines.
 
 We do not anticipate significant issues for articles developed under TeX 
-Live 2023. If you are submitting articles developed under older TeX Live  
+Live 2023. If you are submitting articles developed under older TeX Live
 releases you may experinece some of the issues below. We ran some tests 
 against TeX Live 2020 articles to get a sense for common problems 
 with older TeX Live releases.
