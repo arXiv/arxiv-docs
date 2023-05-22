@@ -1,6 +1,6 @@
 # Notes about arXiv's TeXLive Version
 
-### Update to TeX Live 2023
+## Update to TeX Live 2023
 
 *Update 2023-05-22: arXiv updated to TeXLive 2023* arXiv is now running under [TeXLive 2023](http://tug.org/texlive), with a new, updated and
 enhanced tree of local addons and support for newer font sets, and
@@ -20,13 +20,13 @@ cases you will want to add customized packages to your submission.
 Widely used packages may be added to our local tree for the convenience
 of large disciplines.
 
-We don't anticipate significant issues for articles developed under TeX 
+We do not anticipate significant issues for articles developed under TeX 
 Live 2023. If you are submitting articles developed under older TeX Live  
 releases you may experinece some of the issues below. We ran some tests 
 against TeX Live 2020 articles to get a sense for common problems 
 with older TeX Live releases.
 
-#### Common problems with articles prepared using older TeX Live releases
+### Common problems with articles prepared using older TeX Live releases
 There are a significant number of changes since arXiv's last TeX Live 2020 update. 
 One aspect of our testing involved compiling articles originally developed and submitted 
 under TL2020 using the new TL2023 release. 
@@ -44,9 +44,9 @@ Below we detail some of the issues you may encounter.
 These may be of interest to authors who might be submitting updated 
 source for a new replacement version of an existing article.
 
-#### Package changes that cause compilation failures
+### Package changes that cause compilation failures
  
-#####biblatex
+#### biblatex
     The error is caused by changes in LaTeX definitions. The issue has been resolved in biblatex version v3.18b and above. 
 
     Error:
@@ -59,7 +59,7 @@ Also See:
         [StackExchange](https://tex.stackexchange.com/questions/654476/fresh-texlive-2022-install-biblatex-patching-makeuppercase-failed-error)
 
 
-#####acmart class:
+#### acmart class:
     The class has been updated to require country field.
 
     Error:
@@ -75,7 +75,7 @@ Also See:
         [StackExchange](https://tex.stackexchange.com/questions/655620/how-to-make-acmart-stop-complaining-about-missing-country-in-affiliation)
 
 
-#####Glossaries: 
+#### Glossaries: 
     The smallcaps option is no longer supported.
 
     Error: 
@@ -99,9 +99,18 @@ Also See:
 See page 117 of [Glossaries User Manual](http://ctan.uni-altai.ru/macros/latex2e/contrib/glossaries/glossaries-user.pdf).
 See complete Change log at [Changes](http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/glossaries/CHANGES)
 
-#####\thanks
+#### Runaway arguments
 
-TODO
+    Some updated commands (\thanks) may generate a Runaway argument error on older TeX source. 
+
+    Error:
+        Runaway argument?
+
+    Cause:
+        Incorrectly formatted argument.
+
+    Solution:
+        Refer to documentation and update note.
 
 More to come...
 
