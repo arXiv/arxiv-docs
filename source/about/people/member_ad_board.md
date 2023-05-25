@@ -30,9 +30,9 @@ Philip Kent joined Sydney in 2020 following an extensive career in Australian an
 
 ## High-Contributing Organizations
 
-**Big Ten Academic Alliance, USA**, _Maureen P. Walsh, Associate Professor, Scholarly Sharing Strategist, The Ohio State University, University Libraries Publishing and Repository Services (4- or 6-year  institutional  term,  based on the number of High-Contributing Organizations, elected 2018)_
+**Big Ten Academic Alliance, USA**, _Maureen P. Walsh, Associate Professor, Scholarly Sharing Strategist, The Ohio State University Libraries (4- or 6-year  institutional  term,  based on the number of High-Contributing Organizations, elected 2018)_
 
-Maureen Walsh is an Associate Professor and Scholarly Sharing Strategist at The Ohio State University Libraries where she has worked with Ohio State's institutional repository for the past twelve years. She has been actively involved in DuraSpace governance and is currently a member of the DSpace Steering Group and the Chair of the DSpace Community Advisory Team. Maureen is a strong and collaborative leader in the well-established repository and publishing activities at Ohio State. She is well connected in the repository community and also is grounded in long-standing and deep partnerships with units on the Ohio State campus.
+Maureen Walsh is the Scholarly Sharing Strategist and an Associate Professor at The Ohio State University Libraries. She has been actively involved with the open repository community for 17 years and is currently the Chair of the DSpace Steering and Leadership Groups and a standing member of the Open Repositories Steering Committee. 
 
 **Consortium arXiv-DH and HGF: Coordinated by the German National Library of Science and Technology (TIB) and Deutsches Elektronen-Synchrotron DESY, Germany**, _Esther Tobschall, German National Library of Science and Technology (4- or 6-year institutional term, based on the number of High-Contributing Organizations, elected 2018)_
 
