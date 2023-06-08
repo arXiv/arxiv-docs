@@ -30,5 +30,5 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 
 ## Silver Sponsors
 1. Kepler Science, Inc. (USA)
-
+1. Microsoft Research (USA)
 </div>
