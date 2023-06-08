@@ -8,9 +8,13 @@ We're looking for a community engagement manager, a few good developers, a progr
  - Unless otherwise stated, these are 3-year renewable appointments
  - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). There is a strong preference for candidates who can report to work at that location, but there are options for hybrid remote work.
 
-We are presenlty looking for Software Developers, a Project Manager, and a [Community Engagement Manager]().
+We are presenlty looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), and a [Community Engagement Manager](#community-engagement-manager).
 
-[Click here to view all active arXiv job listings at](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+<div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt;">
+
+[Click here to view all active arXiv job listings on Cornell's HR site.](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+
+</div>
 
 ## Software development
 
@@ -37,11 +41,11 @@ We want to build a team of Software Developers with a range of backgrounds and c
 
 But if you're simply a software generalist, front-end, back-end, or whatever, that's fine too. As long as you have the requisite background combination of education and experience <i>and can quickly learn new technologies</i> we encourage you to apply.
 
-We have three Software Developer listings corresponding to various levels of seniority. We may hire two developers each at the IV and V levels. Below are links to the job postings at Cornell:
+We have three Software Developer listings corresponding to various levels of seniority. We may hire more than one developer each for some of these positions. Below are links to the job postings at Cornell:
 
-1. Software Developer III
-1. Software Developer IV
-1. Software Developer V
+ - [Software Developer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - [Software Developer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - [Software Developer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
 ### Project Manager
 
@@ -54,7 +58,7 @@ We need a Program Manager/Project Manager to organize the arXiv CE effort. This 
 
 Note &ndash; the PM manages the project, not people. To be successful in this role, the candidate must be capable of exercising influence without authority.
 
-1. IT Project Manager IV
+ - [IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
 <!-- ### Tech Writer/Documentation Person
 
