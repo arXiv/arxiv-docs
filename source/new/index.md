@@ -1,7 +1,7 @@
 # Archive of News and Announcements through November 2020
 Current arXiv news and announcements can be found on the <a href="https://blog.arxiv.org/">arXiv Blog</a>.
 ____________________________________________________
-This page contains an archive of announcements from Summer 1996 through November 2020. See also collections of messages from [1994-1996](94-96.md) and [1991-1994](91-94.md).)
+This page contains an archive of announcements from Summer 1996 through November 2020. (See also collections of messages from [1994-1996](94-96.md) and [1991-1994](91-94.md).)
 
 #### November 2020
 <span id="2020Nov13"></span>
