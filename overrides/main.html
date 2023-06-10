@@ -40,11 +40,20 @@
 
 
 {% block header %}
-<!-- contains Cornell logo and sponsor statement -->
+<!-- contains Cornell logo and sponsor statement, and Google Analytic script -->
 <div class="attribution" role="complementary">
   <img src="/assets/cornell-reduced-white.png" height="auto" width="200" title="Cornell logo" alt="Logo for Cornell University">
   <p class="sponsors"><a href="https://arxiv.org/about/funding">We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.</a></p>
 </div>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B1RR0QKWGQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B1RR0QKWGQ');
+</script>
 {{ super() }}
 {% endblock header %}
 
