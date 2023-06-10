@@ -12,7 +12,7 @@ We are presently looking for [Software Developers](#software-developers), a [Pro
 
 <div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt;">
 
-[Click here to view all active arXiv job listings on Cornell's HR site.](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+<a href="https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv">Click here to view all active arXiv job listings on Cornell's HR site.</a>
 
 </div>
 
