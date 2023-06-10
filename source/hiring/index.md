@@ -10,7 +10,7 @@ We are looking for a community engagement manager, a few good developers, a prog
 
 We are presently looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), and a [Community Engagement Manager](#community-engagement-manager).
 
-<div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt;">
+<div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt; padding-bottom:4pt">
 
 <a href="https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv">Click here to view all active arXiv job listings on Cornell's HR site.</a>
 
