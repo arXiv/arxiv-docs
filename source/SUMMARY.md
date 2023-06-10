@@ -1,3 +1,4 @@
+* [arXiv is Hiring!](hiring/index.md)
 * [About](about/index.md)
     * [Who we are](about/people/index.md)
     * [Governance](about/governance.md)
