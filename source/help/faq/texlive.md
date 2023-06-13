@@ -27,11 +27,11 @@ against TeX Live 2020 articles to get a sense for common problems
 with older TeX Live releases.
 
 ### Common problems with articles prepared using older TeX Live releases
-There are a significant number of changes since arXiv's last TeX Live 2020 update. 
-One aspect of our testing involved compiling articles originally developed and submitted 
+There have been a significant number of changes since arXiv's last TeX Live 2020 update. 
+As part of our testing process, we have compiled articles originally developed and submitted 
 under TL2020 using the new TL2023 release. 
-The primary goal is to identify issues that our 
-existing authors might encounter with the new TeX Live 2023 release.
+The primary objective is to identify any potential issues that our 
+existing authors may encounter with the new TeX Live 2023 release.
 
 In general terms, 95% of TL2020 articles compile successfuly under TL2023. 
 Nearly 35% of recompiled article PDFs are identical or vary by
@@ -72,7 +72,7 @@ Also See:
         * Add missing country field or
         * Modify acmart behavior to only issue warnings (See below)
 Also See:
-        [StackExchange](https://tex.stackexchange.com/questions/655620/how-to-make-acmart-stop-complaining-about-missing-country-in-affiliation)
+        [How to make acmart stop complaining about missing country... @ StackExchange](https://tex.stackexchange.com/questions/655620/how-to-make-acmart-stop-complaining-about-missing-country-in-affiliation)
 
 
 #### Glossaries: 
@@ -99,6 +99,40 @@ Also See:
 See page 117 of [Glossaries User Manual](http://ctan.uni-altai.ru/macros/latex2e/contrib/glossaries/glossaries-user.pdf).
 See complete Change log at [Changes](http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/glossaries/CHANGES)
 
+#### iau.cls and iau379.cls compatibility issues
+    LaTeX kernel changes conflict with the iau.cls and iau379.cls packages. 
+
+    As of now, we are not aware of an updated version of the iau packages that addresses the issue. 
+    However, we have obtained a simple fix from the TeX community that allows for successful compilation 
+    of articles utilizing the iau.csl and iau379.cls packages with TL2023.
+
+    Error:
+
+        ! Undefined control sequence.
+        l.1 \documentclass
+        {iau379}
+        ?
+        ! Emergency stop.
+        l.1 
+
+    Cause:
+        Package has not been updated to work with latest LaTeX kernel changes.
+
+    Solution: Disallow iau package modifications to the \document macro. 
+    The provided patch saves the \document macro definition prior to calling the iau 
+    package and then restores the \document definition after the iau package 
+    has been loaded.
+
+        \let\Xdocument\document
+        \documentclass{iau379}
+        \let\document\Xdocument
+
+    Note: The iau packages compile fine under TeX Live 2020. Submitting articles 
+          using iau packages to our TeX Live 2023 system will require the above 
+          patch until we acquire and install updated versions of these packages.
+
+Also see ["iau.cls will not compile with a basic document @ StackExchange"](https://tex.stackexchange.com/questions/686413/iau-cls-will-not-compile-with-a-basic-document)
+
 #### Runaway arguments
 
     Some updated commands (\thanks) may generate a Runaway argument error on older TeX source. 
@@ -116,7 +150,7 @@ More to come...
 
 ##### Package changes that result in visual changes to the TL2023 PDF
  
-TODO
+Please report cases where the update causes unexpected changes to the rendering of your article.
 
 
 
