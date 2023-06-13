@@ -35,18 +35,19 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
 
 ### Software Developers
 
-We want to build a team of Software Developers with a range of backgrounds and capabilities. Particular areas of interest right now are:
+We want to build a team of Software Developers with a range of backgrounds and capabilities. We are particularly interested in people with DevOps and TeX expertise (see below) -- but do not let the lack of such expertise discourage anyone from applying.
+
+We'll be hiring several developers and we don't expect any single developer to be expert in the full range of technologies we'll be using. But we do expect applicants to have a demonstrated record of quickly being able to learn, and be productive in any environments they may encounter.
 
  - DevOps &ndash; We want at least one developer to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops). The devops lead will also put in place a robust CI/CD pipeline
- - TeX/LaTeX rationalization &ndash; arXiv accepts the bulk of its content in TeX format. We have TeX or LaTeX source for 90% of our articles. However, compiling all the TeX source we into viewable papers (in PDF and increasingly also in HTML) can be difficult. We maintain a principle that we can rebuild any TeX submission accepted in the last 32 years. Preserving this capability, while being able to accept submissions that depend on the latest and greatest versions of TeX or LaTeX has become increasingly challenging. It is not unusual for a new release of [TeX Live](https://tug.org/texlive/) to include changes that cause older papers to no longer build properly. We have an opening for a <b>TeX/LaTeX</b> expert to rationalize our TeX pipeline. This task may include getting deeply involved in the TeX community and contributing to projects that support arXiv's goals.
 
-But if you are simply a software generalist, front-end, back-end, or whatever, that's fine too. As long as you have the requisite background combination of education and experience <i>and can quickly learn new technologies</i> we encourage you to apply.
+ - TeX/LaTeX rationalization &ndash; arXiv accepts the bulk of its content in TeX format. We have TeX or LaTeX source for 90% of our articles. However, compiling all the TeX source we into viewable papers (in PDF and increasingly also in HTML) can be difficult. We maintain a principle that we can rebuild any TeX submission accepted in the last 32 years. Preserving this capability, while being able to accept submissions that depend on the latest and greatest versions of TeX or LaTeX has become increasingly challenging. It is not unusual for a new release of [TeX Live](https://tug.org/texlive/) to include changes that cause older papers to no longer build properly. We have an opening for a <b>TeX/LaTeX</b> expert to rationalize our TeX pipeline. This task may include getting deeply involved in the TeX community and contributing to projects that support arXiv's goals.
 
 We have three Software Developer listings corresponding to various levels of seniority. We may hire more than one developer each for some of these positions. Below are links to the job postings at Cornell:
 
- - [Software Developer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
- - [Software Developer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
- - [Software Developer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - [Software Engineer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - [Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Software Engineer)
+ - [Software Engineer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Senior Software Engineer)
 
 ### Project Manager
 
@@ -59,7 +60,7 @@ We need a Program Manager/Project Manager to organize the arXiv CE effort. This 
 
 Note &ndash; the PM manages the project, not people. To be successful in this role, the candidate must be capable of exercising influence without authority.
 
- - [IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - [IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Project Manager)
 
 <!-- ### Tech Writer/Documentation Person
 
