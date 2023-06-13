@@ -37,7 +37,7 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
 
 We want to build a team of Software Developers with a range of backgrounds and capabilities. We are particularly interested in people with DevOps and TeX expertise (see below) -- but do not let the lack of such expertise discourage anyone from applying.
 
-We'll be hiring several developers and we don't expect any single developer to be expert in the full range of technologies we'll be using. But we do expect applicants to have a demonstrated record of quickly being able to learn, and be productive in any environments they may encounter.
+We'll be hiring several developers and we don't expect any single developer to be expert in the full range of technologies we'll be using. But we do expect applicants to have a demonstrated record of quickly being able to learn, and be productive in, any environments they may encounter.
 
  - DevOps &ndash; We want at least one developer to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops). The devops lead will also put in place a robust CI/CD pipeline
 
