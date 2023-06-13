@@ -24,6 +24,6 @@ Our community is diverse and global, and **our communications aim to be inclusiv
 
 ##Priorities
 
-- **arXiv is reliable.** arXiv’s strong technical, funding, and governance foundation reliably connects readers and authors to open science, all year long, across the globe. A significant part of this strength is drawn from our relationships with other organizations in scholarly communications.
+- **arXiv is reliable.** arXiv’s strong technical, funding, and governance foundation reliably connects readers and authors to open science, all year long, across the globe. A significant part of this strength is drawn from our relationships with other organizations in scholarly communications.
 - **arXiv is an essential research tool.** 2+ million articles contributed. 2.2+ billion downloads. Countless discoveries, connections, and synergies have been catalyzed in arXiv’s 30+ year history.
-- **We’re primed for growth and innovation.** Ideas abound, and we have the structures and systems in place to prioritize and execute high impact innovation.
+- **We are primed for growth and innovation.** Ideas abound, and we have the structures and systems in place to prioritize and execute high impact innovation.
