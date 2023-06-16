@@ -5,7 +5,7 @@
     * [Membership](about/membership.md)
     * [Funding](about/funding.md)
     * [Reports](about/reports/index.md)
-    * [Accessibility Report](about/accessibility_research_report.md)
+    * [Accessibility](about/accessibility.md)
     * [arXiv Blog](https://blog.arxiv.org/)
 * [Help](help/index.md)
     * [Submit an Article](help/submit/index.md)
