@@ -8,7 +8,7 @@ We are looking for a community engagement manager, a few good developers, a prog
  - Unless otherwise stated, these are 3-year renewable appointments
  - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). There is a strong preference for candidates who can report to work at that location, but there are options for hybrid remote work.
 
-We are presently looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), and a [Community Engagement Manager](#community-engagement-manager).
+We are presently looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), a [Documentation Manager](#documentation-manager), and a [Community Engagement Manager](#community-engagement-manager).
 
 <div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt; padding-bottom:4pt">
 
