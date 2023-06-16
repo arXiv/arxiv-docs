@@ -8,7 +8,7 @@ We are looking for a community engagement manager, a few good developers, a prog
  - Unless otherwise stated, these are 3-year renewable appointments
  - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). There is a strong preference for candidates who can report to work at that location, but there are options for hybrid remote work.
 
-We are presently looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), and a [Community Engagement Manager](#community-engagement-manager).
+We are presently looking for [Software Developers](#software-developers), a [Project Manager](#project-manager), a [Documentation Manager](#documentation-manager), and a [Community Engagement Manager](#community-engagement-manager).
 
 <div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt; padding-bottom:4pt">
 
@@ -62,7 +62,7 @@ Note &ndash; the PM manages the project, not people. To be successful in this ro
 
  - [IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Project Manager)
 
-<!-- ### Tech Writer/Documentation Person
+### Documentation Manager
 
 We need someone who can create and organization all of our documentation &ndash; both internal and external.
 
@@ -70,7 +70,7 @@ As we proceed with the arXiv CE effort, we'll need internal documentation of our
 
 In addition, the Tech Writer will take charge of our public documentation, in order to assist users of arXiv &ndash; the scientists who use our platform individually, as well as institutional partners who need detailed information about our APIs.
 
-1. IT Tech Writer III -->
+1. [IT Tech Writer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Documentation Manager)
 
 ## Community Engagement Manager
 
