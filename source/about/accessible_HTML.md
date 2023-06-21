@@ -4,9 +4,10 @@ The message we have heard through our accessibility research and from our commun
 { .intro }
 
 ## Latest Updates
-The HTML papers project is in Closed Beta stage, soon to be Public Beta. We will be making links to HTML papers available on the live abstract pages, with the caveat that we know there will be bugs. Why not wait until it is perfect?
+The HTML papers project is in Closed Beta stage, soon to be Public Beta. We will be making links to HTML papers available on the live abstract pages, the list page, and as a part of the submission process. We know there will be bugs, so why not wait until it is perfect?
 1. First, because our community asked us not to. They told us: "don't let perfect be the enemy of good. We need HTML now."
 2. And second, because we need your help identifying rendering issues. The low hanging fruit is done. We are now in the realm of identifying specific LaTeX packages that have issues and relaying that information to the NIST team behind LaTeXML, the conversion tool from LaTeX to HTML.
+With these reasons in mind, we are asking authors to tolerate the bugs in the HTML renderings of their papers. Often times, the HTML will not perfectly match the pdf in many cases, but we will actively advise readers that the feature is in beta. A header message and beta banner will provide context to these flaws such that they do not reflect poorly on authors, and instead promote these authors' proclivity for open science.
 
 ## How to provide feedback
 We invite you to provide feedback on the accessibility and accuracy of the HTML by following these simple steps:
