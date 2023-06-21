@@ -13,7 +13,7 @@ From this vantage point, we are asking authors to tolerate the bugs in the HTML 
 We invite you to provide feedback on the accessibility and accuracy of the HTML by following these simple steps:
 1. Go to the abstract page for a paper you are interested in reading.
 2. Look in the section where you find the link to the PDF download, and below that you will see a new link to the HTML version.
-3. The HTML page will load, and look for the button to report issues, or click [KEYBOARD COMMAND] to pull up an accessible and keyboard-friendly reporting method. You can also click [OTHER KEYBOARD COMMAND] anytime while on an HTML page to pull up a glossary of keyboard commands for reporting.
+3. On the HTML page, find the button to report issues, or click [KEYBOARD COMMAND] to pull up an accessible and keyboard-friendly reporting method. You can also find a quick glossary of keyboard commands in the HTML page footer.
 
 Note that we are *NOT* soliciting feedback on the content or quality of papers (that is far outside our remit). But if you notice that a formula did not render correctly, or your screen reader is not able to efficiently navigate a paper, we want to know. Your reports will help us and our collaborators improve the rendering from LaTeX to HTML.
 
