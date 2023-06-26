@@ -5,6 +5,7 @@ steps:
     args:
       - "-c"
       - |
+        pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
         pip install -r requirements.txt
         mkdocs build
 
