@@ -18,7 +18,6 @@ The advisory committee members serve as consultants to Cornell University and to
 - [Alex Iosevich](http://www.math.rochester.edu/people/faculty/iosevich/) 
 - [Greg Kuperberg (chair)](http://www.math.ucdavis.edu/~greg/)
 - [David R. Morrison](http://www.math.ucsb.edu/~drm/)
-- [Scott Morrison](https://tqft.net/)
 
 ## Historical notes
 
