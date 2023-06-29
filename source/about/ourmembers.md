@@ -1,4 +1,4 @@
-# Our Members: 2022 - 2023
+# Our Members: 2023 - 2024
 
 We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from [foundations, affiliates, and sponsors](supporters.md).
 {.intro}
