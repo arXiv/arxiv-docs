@@ -10,7 +10,7 @@
 **Faculty Director**
 {align="center"}
 
-Ramin is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging. As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He holds a Ph.D. in Computer Science and Mathematics from Stanford University.
+As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. His research focuses on computer vision and its applications, especially in medical imaging.  Ramin holds a Ph.D. in Computer Science and Mathematics from Stanford University.
 
 </div>
 
@@ -23,7 +23,7 @@ Ramin is a computer science professor at Cornell Tech and president and founder 
 **Associate Faculty Director**
 {align="center"}
 
-Yoav is an associate professor in computer science at Cornell Tech and Cornell University. His research focuses on natural language processing, especially in automated interactive systems. In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He holds a B.Sc. from Tel Aviv University and a Ph.D. from the University of Washington.
+In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech and Cornell University. His research focuses on natural language processing, especially in automated interactive systems.  Yoav holds a B.Sc. from Tel Aviv University and a Ph.D. from the University of Washington.
 
 </div>
 
