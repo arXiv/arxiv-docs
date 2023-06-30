@@ -21,12 +21,13 @@ User account passwords:
 Paper passwords:
 ----------------
 
-arXiv now maintains [authority records](authority.md). For any given
-paper, arXiv keeps a list of people who are authorized to make changes
-(these are referred to as **paper owners**). When a paper is first
-submitted to arXiv, the submitter is the one and only owner of the
-paper. See [authority records](https://arxiv.org/help/authority) for
-more information.
+arXiv now maintains [authority records](authority.md). For any given paper,
+arXiv keeps a list of people who are authorized to make changes (these are
+referred to as **paper owners**). When a paper is first submitted to arXiv,
+the submitter is the one and only owner of the paper, and receives a **paper
+password** in the confirmation e-mail related to the paper submission, *if*
+they marked themselves as an author during the submission phase. See
+[authority records](https://arxiv.org/help/authority) for more information.
 
 -   [Claim ownership of a paper using a paper
     password](https://arxiv.org/auth/need-paper-password)
