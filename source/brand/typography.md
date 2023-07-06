@@ -1,5 +1,5 @@
 #Typography
-Consisten use of fonts and typographic treatments is critical to arXiv's identity. But within our framework there are options and room for creativity.
+Consistent use of fonts and typographic treatments is critical to arXiv's identity. But within our framework there are options and room for creativity.
 {.intro}
 
 Base styles are built around Freight Text and Freight Sans typefaces. The Freight family draws from Cornell University’s branding and connect us stylistically with our parent organization. arXiv has several typographic styles based on Freight that range from elegant and sophisticated to edgy and bold. Use these guidelines to balance both consistency and spontaneity.
