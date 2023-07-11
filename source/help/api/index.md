@@ -1,14 +1,12 @@
----
-title: arXiv API Access
----
-
 # arXiv API Access
 
-arXiv offers public API access in order to maximize its openness and interoperability. Many projects utilize this option without becoming official [arXivLabs collaborations](https://labs.arxiv.org).
+arXiv offers public API access in order to maximize its openness and interoperability. 
+Many projects utilize this option without becoming official [arXivLabs collaborations](https://labs.arxiv.org).
 
-**Commercial projects** that utilize arXiv’s APIs should review relevant documentation first. Read about our [public APIs](basics.md) or other [bulk data pipelines](../../help/bulk_data.md), review [arXiv's brand use guidelines](../../brand/index.md), and consider becoming an [arXiv affiliate](../../about/funding.md) before embarking on the project. This includes any project created as a product for sale.
+### **Commercial projects** 
+that utilize arXiv’s APIs should review relevant documentation first. Read about our [public APIs](basics.md) or other [bulk data pipelines](../../help/bulk_data.md), review [arXiv's brand use guidelines](../../brand/index.md), and consider becoming an [arXiv affiliate](../../about/funding.md) before embarking on the project. This includes any project created as a product for sale.
 
-**Independent, noncommercial, and open access projects** that…
+### **Independent, noncommercial, and open access projects** that…
 
 1. utilize arXiv’s public APIs
 2. do not require assistance from arXiv, and
@@ -17,7 +15,7 @@ arXiv offers public API access in order to maximize its openness and interoperab
 
 ...are considered entirely independent from arXiv. However, we do request that you acknowledge arXiv data usage with this statement: “Thank you to arXiv for use of its open access interoperability.”
 
-**For all API users**,
+### **For all API users**,
 
 - Familiarize yourself with arXiv’s [API Terms of Use](tou.md).
 - Review the [API Basics](basics.md) and the [API User Manual](user-manual.md).
