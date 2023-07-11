@@ -1,4 +1,4 @@
-#Leadership Team
+# Leadership Team
 
 <div class="grid-blocks" markdown="1">
 <div class="block" markdown="1">
