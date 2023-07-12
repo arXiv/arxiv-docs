@@ -32,35 +32,11 @@ arXiv moderators expect submissions to be of scholarly archival interest to the 
 
 Submissions that do not contain original or substantive research may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
 
-### Guide for content-types
+#### Content types
 
-Research articles are the primary content-type submitted to arXiv. Submissions may also be:
+Research articles are the primary content-type submitted to arXiv.
 
-- Graduate thesis
-- [Conference proceedings](/help/submit_index.html)
-- Books or book chapters
-- Lecture notes
-- [Translations](/help/translations.html)
-  
-
-
-
-<span id="format"></span>
-#### Content types typically not accepted
-
-- Undergraduate research
-- Course projects
-- Research proposals
-- News items
-- Information about political causes (even those with potential special interest to the academic community)
-- Abstract-only submissions
-- Presentation slides
-- Posters
-- Book announcements
-- Book reviews
-- Calls for papers
-- Patent applications
-- Supplemental material that is not embedded in the full article
+For information about submissions other than research articles please see the [specific content type policies](/help/policies/content-types.html)
 
 <span id="format"></span>
 #### Format requirements
@@ -70,8 +46,24 @@ Research articles are the primary content-type submitted to arXiv. Submissions m
 - Submissions must not have line numbers
 - Submissions must not have watermarks that obstruct reading the text
 
+##### Images
 
-- . Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](../../help/replace.md). 
+Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
+
+
+<span id="AI-language-tools"></span>
+
+##### Policy for authors’ use of generative AI language tools 
+
+arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
+
+In view of this, we 
+
+1. continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
+
+2. remind all colleagues that by signing their name as an author of a paper, they each individually take full responsibility for all its contents, irrespective of how the contents were generated. If generative AI language tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).
+
+3. generative AI language tools should not be listed as an author; instead authors should refer to (1).
 
 
 <span id="out-of-scope"></span>
@@ -97,24 +89,7 @@ Articles submitted to arXiv must be of original, novel, and significant self-con
 
 If an author has a back catalog of work to submit to arXiv, we ask that they submit no more than three papers per day.
 
-#### Images
 
-Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
-
-
-<span id="AI-language-tools"></span>
-
-#### Policy for authors’ use of generative AI language tools 
-
-arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
-
-In view of this, we 
-
-1. continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
-
-2. remind all colleagues that by signing their name as an author of a paper, they each individually take full responsibility for all its contents, irrespective of how the contents were generated. If generative AI language tools generate inappropriate language, plagiarized content, biased content, errors, mistakes, incorrect references, or misleading content, and that output is included in scientific works, it is the responsibility of the author(s).
-
-3. generative AI language tools should not be listed as an author; instead authors should refer to (1).
 
 
 <span id="policies-after"></span>
