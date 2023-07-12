@@ -1,7 +1,9 @@
 # arXiv moderation
 
-arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](https://blog.arxiv.org/2019/08/29/our-moderation-process/).
+arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. 
 
+Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators cannot give feedback on the submission. 
+ 
 <span id="why-moderate"></span>
 ## Why does arXiv moderate submissions?
 
@@ -48,7 +50,7 @@ For information about submissions other than research articles please see the [s
 
 ##### Images
 
-Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
+Authors should be aware that the use of some images may cause offense. Examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
 
 
 <span id="AI-language-tools"></span>
@@ -118,4 +120,4 @@ arXiv moderators are volunteer subject matter experts with terminal degrees in t
 
 Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 
-Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed to moderation@arxiv.org or through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2). In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
+Although the moderators may be publicly acknowledged, it is inappropriate to contact any moderator directly regarding your submission. All communication about moderation decisions should be addressed through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/2) or to moderation@arxiv.org. In extreme cases, the appropriate advisory committee chair may be contacted. Moderators are encouraged not to reply to personal correspondence regarding arXiv submissions. Neither arXiv staff nor moderators discuss submission status or moderation decisions with third parties.
