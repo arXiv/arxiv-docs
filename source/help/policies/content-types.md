@@ -1,6 +1,36 @@
 # Policies for specific content types
 
+All submissions to arXiv must meet the standards for [moderation and scholarly interest](/help/moderation/index.html).
 
+Research articles are the primary content-type submitted to arXiv. 
+  
+## Content types that are typically not accepted include
+
+- Undergraduate research
+- Course projects
+- Research proposals
+- News items
+- Information about political causes (even those with potential special interest to the academic community)
+- Abstract-only submissions
+- Presentation slides
+- Posters
+- Book announcements
+- Book reviews
+- Calls for papers
+- Patent applications
+- Supplemental material that is not embedded in the full article
+
+## Content types that may be accepted by moderators include:
+
+- [Thesis](#Thesis)
+- [Conference proceedings](/help/submit_index.html)
+- [Books or book chapters](#Books)
+- [Lecture notes](#Lecture%20notes)
+- [Translations](/help/translations.html)
+
+## Thesis
+Thesis, like all other content types, should have novel results and be of plausible interest to professional researchers. Undergraduate or masters level researchers should consult their advisor before submitting to arXiv.
+  
 ## Conference proceedings
 
 Please refer to [Submission of indexes for conference proceedings](/help/submit_index.html)
@@ -28,6 +58,12 @@ Individual book chapters may be submitted and will be moderated by the same stan
 An Introduction chapter or Appendix section would not typically be accepted on its own as they are not self-contained or of interest. In order to allow for a complete book to be posted to arXiv, where the chapters are submitted individually, we will allow a submission for the “non-research” sections of the book when:
 The front matter, introductory chapters, appendices, etc. are combined into a submission that includes links to the individual chapters that are on arXiv. 
 
+
+## Lecture Notes
+
+Lecture notes, like all other content types, should have novel results and be of plausible interest to professional researchers. In some fields lecture notes are developed around novel research and written in a format similar to research articles that may be acceptable to submit to arXiv. 
+
+Lecture notes that are pedagogical or that cover standard material should not be submitted.
 
 ## Comments and Reply to Comments
 
