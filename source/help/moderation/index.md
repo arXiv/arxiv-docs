@@ -30,12 +30,48 @@ Please note that the arXiv moderation process is not a peer-review process. arXi
 
 arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
 
-Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
+Submissions that do not contain original or substantive research may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
+
+### Guide for content-types
+
+Research articles are the primary content-type submitted to arXiv. Submissions may also be:
+
+- Graduate thesis
+- [Conference proceedings](/help/submit_index.html)
+- Books or book chapters
+- Lecture notes
+- [Translations](/help/translations.html)
+  
+
+
 
 <span id="format"></span>
-#### Inappropriate format
+#### Content types typically not accepted
 
-Submissions in a format deemed inappropriate, such as abstract-only submissions, presentations, book announcements, book reviews, submissions without references, calls for papers, articles containing advertisements or links to other repositories, may be rejected. We do not accept submissions with line numbers or submissions with watermarks. Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](../../help/replace.md). 
+- Undergraduate research
+- Course projects
+- Research proposals
+- News items
+- Information about political causes (even those with potential special interest to the academic community)
+- Abstract-only submissions
+- Presentation slides
+- Posters
+- Book announcements
+- Book reviews
+- Calls for papers
+- Patent applications
+- Supplemental material that is not embedded in the full article
+
+<span id="format"></span>
+#### Format requirements
+
+- Submissions must have complete references
+- Articles containing advertisements are not accepted
+- Submissions must not have line numbers
+- Submissions must not have watermarks that obstruct reading the text
+
+
+- . Germane "Comment on" and "Reply to" articles must still conform to normal scholarly discourse.  arXiv limits these submissions to a single "reply to" and "comment on" per original paper, and updates to the discourse can be made through [replacements](../../help/replace.md). 
 
 
 <span id="out-of-scope"></span>
