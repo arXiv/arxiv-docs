@@ -8,7 +8,7 @@ We are looking for a community engagement manager, a few good developers, a prog
  - Unless otherwise stated, these are 3-year renewable appointments
  - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). There is a strong preference for candidates who can report to work at that location, but there are options for hybrid remote work.
 
-We are presently looking for <span style='text-decoration:line-through'>[Software Developers](#software-developers)</span>, a <span style='text-decoration:line-through'>[Project Manager](#project-manager)</span>, a [Documentation Manager](#documentation-manager), and a [Community Engagement Manager](#community-engagement-manager).
+We are presently looking for <span style='text-decoration:line-through'>[Software Developers](#software-developers)</span>, a <span style='text-decoration:line-through'>[Project Manager](#project-manager)</span>, a <span style='text-decoration:line-through'>[Documentation Specialist](#documentation-specialist)</span>, and a [Community Engagement Manager](#community-engagement-manager).
 
 <div style="text-align:center; font-weight:bold; border: 2px solid green; padding-top:6pt; padding-bottom:4pt">
 
@@ -45,9 +45,9 @@ We'll be hiring several developers and we don't expect any single developer to b
 
 We have three Software Developer listings corresponding to various levels of seniority. We may hire more than one developer each for some of these positions. Below are links to the job postings at Cornell:
 
- - <span style='text-decoration:line-through'>[Software Engineer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> - No longer accepting applications
- - <span style='text-decoration:line-through'>[Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> - No longer accepting applications
- - <span style='text-decoration:line-through'>[Software Engineer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> - No longer accepting applications
+ - <span style='text-decoration:line-through'>[Software Engineer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> &ndash; No longer accepting applications
+ - <span style='text-decoration:line-through'>[Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> &ndash; No longer accepting applications
+ - <span style='text-decoration:line-through'>[Software Engineer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)</span> &ndash; No longer accepting applications
 
 ### Project Manager
 
@@ -60,9 +60,9 @@ We need a Program Manager/Project Manager to organize the arXiv CE effort. This 
 
 Note &ndash; the PM manages the project, not people. To be successful in this role, the candidate must be capable of exercising influence without authority.
 
- - <span style='text-decoration:line-through'>[IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Project Manager)</span> - No longer accepting applications
+ - <span style='text-decoration:line-through'>[IT Project Manager IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Project Manager)</span> &ndash; No longer accepting applications
 
-### Documentation Manager
+### Documentation Specialist
 
 We need someone who can create and organization all of our documentation &ndash; both internal and external.
 
@@ -70,7 +70,7 @@ As we proceed with the arXiv CE effort, we'll need internal documentation of our
 
 In addition, the Tech Writer will take charge of our public documentation, in order to assist users of arXiv &ndash; the scientists who use our platform individually, as well as institutional partners who need detailed information about our APIs.
 
-1. [IT Tech Writer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Documentation Manager)
+1. <span style='text-decoration:line-through'>[IT Tech Writer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Documentation Specialist)</span> &ndash; no longer accepting applications
 
 ## Community Engagement Manager
 
