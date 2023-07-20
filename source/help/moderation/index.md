@@ -43,7 +43,7 @@ For information about submissions other than research articles please see the [s
 <span id="format"></span>
 #### Format requirements
 
-For information about submission format requirements please see [specific content type policies](/help/policies/content-types.md)
+For information about submission format requirements please see [specific format requirements](help/policies/format_requirements.html)
 
 
 ##### Images
