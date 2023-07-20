@@ -38,7 +38,7 @@ Submissions that do not contain original or substantive research may be declined
 
 Research articles are the primary content-type submitted to arXiv.
 
-For information about submissions other than research articles please see the [specific content type policies](/help/policies/content-types.md
+For information about submissions other than research articles please see the [specific content type policies](/help/policies/content-types.md)
 
 <span id="format"></span>
 #### Format requirements
