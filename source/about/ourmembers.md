@@ -29,6 +29,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Los Alamos National Laboratory (USA)
 1. Massachusetts Institute of Technology (MIT) (USA)
 1. University College London (UK)
+1. University of Sheffield (UK) _Jisc_
 
 ## Top 100 Submitters Members
 1. Arizona State University (USA)
@@ -198,7 +199,6 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. University of Oregon (USA)
 1. University of Queensland (Australia)
 1. University of Rochester (USA)
-1. University of Sheffield (UK) _Jisc_
 1. University of Technology Sydney (Australia)
 1. University of Tsukuba (Japan) _NII Japan Consortium_
 1. University of Turku (Finland) _FinELib_
