@@ -1,17 +1,17 @@
 # Accessibility at arXiv
 
-Accessibility and access are not the same. Accessibility *ensures access regardless of disability*. arXiv is committed to making our platform and the research we host as accessible as we can. Because if it is not accessible, we can't call it open science.
+Accessibility and access are not the same. Accessibility *ensures access regardless of disability*, and research is not truly open without it.
 { .intro }
 
-Accessibility is a robust field with a tremendous foundation of research at its core and active practitioners around the globe. At arXiv, we can contribute to these efforts in several ways:  We can lead by example and make the content we host accessible; we can promote and support discussions in the scientific community around the accessibility of research outputs; and we can help elevate the voices of scientists who directly face these barriers. Our current projects reflect these goals.
+arXiv can contribute to making academic publishing more accessible in several ways:  We can make the content we host readable by screen readers and other technologies; we can promote and support discussions in the scientific community around the accessibility of research outputs; and we can help elevate the voices of scientists who directly face these barriers. Our current projects reflect these goals.
 
 ## Our Accessibility Projects
 
 ### Papers in HTML Format
-The effort to offer arXiv-hosted papers in HTML format comes directly from our community: from scientists with disabilities and experts in accessibility. Learn more about how arXiv will add [papers in HTML format](accessible_HTML.md) to our existing PDF and source options.
+The request to offer arXiv-hosted papers in HTML format comes directly from scientists with disabilities who face barriers to accessing the research they need. Learn more about how arXiv will add [papers in HTML format](accessible_HTML.md) to our existing PDF and source options.
 
 ### Accessibility Research Report
-The research content hosted by arXiv is not fully accessible to everyone due to disabilities and other barriers. In this paper, we describe the issues, review current mitigations, share the results of our user research, and present arXiv’s proposed next steps. Read the [Accessibility Report](accessibility_research_report.md).
+The research content hosted by arXiv is not fully accessible to everyone due to disabilities and other barriers. In this report, we describe the issues, review current mitigations, share the results of our user research, and present arXiv’s proposed next steps. Read the [Accessibility Report](accessibility_research_report.md).
 
 ### Accessibility Forum 2023
 On April 17th arXiv hosted a forum to delve into how we can make accessible research papers a reality. Because if it is not accessible, can we really call it "open" science? Meet the presenters and watch the recordings from the [Accessibility Forum](https://accessibility2023.arxiv.org/).
