@@ -20,9 +20,7 @@ Did you know that 90% of submissions to arXiv are in TeX format, mostly LaTeX? T
 - Either click on the button to open an issue, or use **Shift+b** to toggle accessible reporting buttons per paragraph.
 - You can also reference a quick glossary of keyboard commands and instructions in the footer of the HTML paper page.
 
-Please do not create reports that the HTML paper doesn't look just like the PDF paper. However, if you find an HTML layout that is incorrect, or just not very good, please report those.
-
-Our goal is not to match the PDF display, and we expect the HTML papers to present differently than the same paper rendered in PDF. Line breaks will occur in different places, for example, and intricate typographic layouts will not be rendered so intricately. In general, the HTML paper won't present as compactly. This is by design. HTML is a different medium, and brings its own advantages versus PDF: aside from being much more friendly to screen readers, screen magnifiers, and other technologies, HTML does a far better job adapting to the characteristics of the device you are reading on—whether that is your particular monitor geometry or your smartphone.
+We expect the HTML papers to present differently than the same paper rendered in PDF. Line breaks will occur in different places and there is likely to be more white space. In general, the HTML paper won't present as compactly. Intricate typographic layouts will not be rendered so intricately. This is by design. HTML is a different medium, and brings its own advantages versus PDF -- aside from being much more friendly to screen readers and the like, HTML does a far better job adapting to the characteristics of the device you're reading on -- whether that's your particular monitor geometry or your smartphone. Please do not create reports that the HTML paper doesn't look just like the PDF paper. However, if you HTML layout that's incorrect, or just not very good, please report those.
 
 ## Project collaborators
 First, we want to share a special thank you to all of the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
