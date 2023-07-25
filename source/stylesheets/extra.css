@@ -490,8 +490,10 @@ ol.color-blocks li img {
     align-items: center;
     flex-wrap: nowrap;
   }
+  .block img {
+    width: 150px;
+  }
   .block.primary img {
-    width: 200px;
     margin-right: 0.5em;
     max-width: none;
   }

@@ -5,7 +5,7 @@
 
 <div markdown="1">
 
-![Image of Ramin Zabih](../images/ramin.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Ramin Zabih' role="presentation"}
+![Image of Ramin Zabih](../images/portrait-Ramin-Zabih.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Ramin Zabih' role="presentation"}
 
 </div>
 
@@ -14,7 +14,7 @@
 ## Ramin Zabih
 **Faculty Director**
 
-As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science and Mathematics from Stanford University.
+As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
 </div>
 
 </div>
@@ -25,7 +25,7 @@ As arXiv faculty director, Ramin guides arXiv’s strategic vision and technolog
 
 <div markdown="1">
 
-![Image of Yoav Artzi](../images/yoav.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Yoav Artzi' role="presentation"}
+![Image of Yoav Artzi](../images/portrait-Yoav-Artzi.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Yoav Artzi' role="presentation"}
 
 </div>
 
@@ -44,7 +44,7 @@ In his role as associate faculty director at arXiv, Yoav assists the faculty dir
 <div class="grid-blocks" markdown="1">
 <div class="block" markdown="1">
 
-![Image of Stephanie Orphan](../images/stephanie.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
+![Image of Stephanie Orphan](../images/portrait-Stephanie-Orphan.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
 
 ## Stephanie Orphan ## {align="center"}
 
@@ -56,7 +56,7 @@ Stephanie’s role at arXiv spans administrative management, operational oversig
 </div>
 <div class="block" markdown="1">
 
-![Image of Steinn Sigurdsson](../images/steinn.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Steinn Sigurdsson' role="presentation"}
+![Image of Steinn Sigurdsson](../images/portrait-Steinn-Sigurdsson.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Steinn Sigurdsson' role="presentation"}
 
 ## Steinn Sigurdsson ## {align="center"}
 
@@ -69,7 +69,7 @@ Steinn is Professor of Astrophysics at Penn State University. His research inter
 
 </div>
 <div class="block" markdown="1">
-![Image of Charles Frankston](../images/charles.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Charles Frankston' role="presentation"}
+![Image of Charles Frankston](../images/portrait-Charles-Frankston.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Charles Frankston' role="presentation"}
 
 ## Charles Frankston ## {align="center"}
 
