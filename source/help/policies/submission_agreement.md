@@ -6,13 +6,13 @@ arXiv is a curated research-sharing platform emphasizing openness, collaboration
 
 ​​​I make the following representations and warranties: 
 
-- I am the original author of the Work, or a proxy pre-approved by arXiv administrators acting on behalf of an original author. 
+- I am the original author of the Work or a proxy pre-approved by arXiv administrators acting on behalf of an original author. 
 - I am completing this agreement on behalf of and binding upon all author(s).  
 - I have full authority to enter into and make this Agreement and to grant the rights contained in this Agreement. If the Work was created by multiple authors, I affirm that my co-author(s) have consented to the submission of the Work to arXiv under the Agreement terms with me acting on my co-author(s)’ behalf.  
 - I have the right to include any third-party materials used in the Work. 
 - The use of any third-party materials is consistent with scholarly and academic standards of proper citation and acknowledgement of sources. 
 - The Work is not subject to any agreement, license or other claim that could interfere with the rights granted to arXiv herein. 
-- The distribution of the Work by arXiv will not violate any rights of any person or entity, including without limitation any rights of copyright, patent, trade secret, privacy, or any other rights, and it contains no defamatory, obscene, or other unlawful matter. 
+- The distribution of the Work by arXiv will not violate any rights of any person or entity, including, without limitation, any rights of copyright, patent, trade secret, privacy, or any other rights, and it contains no defamatory, obscene, or other unlawful matter. 
 - I will not enter into other agreements or make other commitments that would conflict with the rights granted to arXiv. 
 - I have the authority to make the statements, grant the rights, and take the actions described above. 
 
@@ -26,7 +26,7 @@ arXiv is a moderated repository for scholarly material, and, as such, maintains 
 
 - arXiv reserves the right to reclassify, reject, or remove any submission.  
 - Submissions will be automatically compared with other arXiv articles and detected text ​​​​overlap may be noted. 
-- In cases where public papers are found to violate arXiv policy that we may withdraw the paper and indicate the concern in the Comments metadata. 
+- In cases where public papers are found to violate arXiv policy, arXiv may withdraw the paper and indicate the concern in the Comments metadata. 
 - Metadata may be corrected to conform to arXiv standards​​​​. 
   
 ## Grant of the License to arXiv
@@ -65,7 +65,7 @@ You may elect to make the Work available under one of the following ​​​​
 -  arXiv license (https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html); or 
 -  Creative Commons Public Domain Dedication (CC0 1.0) (https://creativecommons.org/share-your-work/public-domain/cc0/).
     
-If you wish to use a different CC license, then select arXiv’s non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article.  
+If you wish to use a different CC license, select arXiv’s non-exclusive license to distribute in the arXiv submission process and indicate the desired Creative Commons license in the actual article.  
 
 The Creative Commons licenses are explained here: https://creativecommons.org/licenses/. 
 
