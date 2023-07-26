@@ -121,7 +121,6 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 1. Hiroshima University (Japan) _NII Japan Consortium_
 1. Hokkaido University  (Japan) _NII Japan Consortium_
 1. Iowa State University (USA)
-1. Joint Institute for Nuclear Research (JINR) (Russia)
 1. Keio University (Japan) _NII Japan Consortium_
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. King Abdullah University of Science and Technology (KAUST) (Saudi Arabia)
