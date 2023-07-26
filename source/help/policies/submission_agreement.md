@@ -7,12 +7,13 @@ arXiv is a curated research-sharing platform emphasizing openness, collaboration
 ​​​I make the following representations and warranties: 
 
 - I am the original author of the Work or a proxy pre-approved by arXiv administrators acting on behalf of an original author. 
-- I am completing this agreement on behalf of and binding upon all author(s).  
+- I am completing this Agreement on behalf of and binding upon all author(s).  
 - I have full authority to enter into and make this Agreement and to grant the rights contained in this Agreement. If the Work was created by multiple authors, I affirm that my co-author(s) have consented to the submission of the Work to arXiv under the Agreement terms with me acting on my co-author(s)’ behalf.  
 - I have the right to include any third-party materials used in the Work. 
 - The use of any third-party materials is consistent with scholarly and academic standards of proper citation and acknowledgement of sources. 
-- The Work is not subject to any agreement, license or other claim that could interfere with the rights granted to arXiv herein. 
-- The distribution of the Work by arXiv will not violate any rights of any person or entity, including, without limitation, any rights of copyright, patent, trade secret, privacy, or any other rights, and it contains no defamatory, obscene, or other unlawful matter. 
+- The Work is not subject to any agreement, license, or other claim that could interfere with the rights granted to arXiv herein. 
+- The distribution of the Work by arXiv will not violate any rights of any person or entity, including, without limitation, any rights of copyright, patent, trade secret, privacy, or any other rights.
+- The work contains no defamatory, obscene, or other unlawful matter.
 - I will not enter into other agreements or make other commitments that would conflict with the rights granted to arXiv. 
 - I have the authority to make the statements, grant the rights, and take the actions described above. 
 
