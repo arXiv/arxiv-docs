@@ -27,7 +27,7 @@
     submission?](../../help/availability.md)
   - [I am registered author, and my e-mail address changed. What do I
     do?](../../help/registerhelp.md#emailchange)
-  - [How can I submit a paper if I don't use TeX?](../../help/otherformats.md)
+  - [How can I submit a paper if I don't use TeX?](../../help/submit_pdf.md)
   - [How do I submit a paper in a language other than English, or with
     versions in more than one language?](multilang.md)
   - [Why doesn't my paper have the arXiv id stamped on the side of the
