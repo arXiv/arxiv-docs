@@ -8,9 +8,9 @@ The [moderators for math are listed here](https://arxiv.org/moderators#math#math
 
 <span id="AdvisoryCommittee"></span>
 
-## The arXiv Math Advisory Committee:
+## The arXiv Math Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - [Doug Arnold](http://www.ima.umn.edu/~arnold/)
 - [Ioana Dumitriu](http://www.math.washington.edu/~dumitriu/)

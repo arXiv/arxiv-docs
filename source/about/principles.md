@@ -1,8 +1,12 @@
 # arXiv Operating Principles
 
-March 28, 2012
+July 1, 2023
 
-_Note: This document has not been revised since 2012 and thus, is out of date and needs be revised to reflect the current organization._
+_Note: New [bylaws](source/about/arXiv_bylaws.md) have been adopted; this page is thus out of date and reflects revisions made in 2012._
+
+{.intro}
+
+March 28, 2012
 
 ## 1. General & Editorial Principles
 

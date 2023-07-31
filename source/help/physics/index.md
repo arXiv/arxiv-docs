@@ -21,9 +21,9 @@ You can browse articles and view categories at the individual archive pages:
 The [moderators for physics are listed here](https://arxiv.org/moderators#physics#physics).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Physics Advisory Committee:
+## The arXiv Physics Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
 *   [Jacques Distler](https://ph.utexas.edu/component/cobalt/item/18-physics/422-distler-jacques?Itemid=1264) (Texas): high-energy theory
@@ -39,7 +39,7 @@ The advisory committee members serve as consultants to Cornell University and to
 
 
 ## Historical notes
-
+- 2023-07: new arXiv bylaws adopted, by which Physics Advisory Committee renamed Physics Editorial Committee
 - 2013-07 - Advisory committee re-organized.
 - 2009-01 - We have implemented the long-awaited division of the **astro-ph** archive, see [astro-ph archive details](https://arxiv.org/archive/astro-ph). All new astro-ph submissions must be placed within a sub-category. It is intended that existing astro-ph articles will be machine classified according to this new scheme when enough training data has been collected from new submissions.
 - 2008-12 - We have launched a the Quantitative Finance ([q-fin](../../new/q-fin_announce.md)) archive to house articles that have historically been submitted to **cond-mat** or **physics.soc-ph**.

@@ -8,9 +8,9 @@ The [moderators for economics are listed here](https://arxiv.org/moderators#econ
 
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Economics Advisory Committee
+## The arXiv Economics Editorial Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Committee](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Federico Echenique (California Institute of Technology)
 - Drew Fudenberg (Massachusetts Institute of Technology)

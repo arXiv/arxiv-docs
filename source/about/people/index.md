@@ -11,10 +11,10 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
 - [arXiv Leadership Team](leadership_team.md)
 - [arXiv Staff](staff.md)
 - [Moderators](https://arxiv.org/moderators/)
-- [Volunteer Developers](developers.md)
-- [Scientific Advisory Board and Subject Advisory Committees](scientific_ad_board.md)
+- [Volunteer Developers](developers.md) 
+- [Editorial Advisory Council and Section Editorial Committees](editorial_advisory_council.md)
  
-    - Section Advisory Committees
+    Section Editorial Committees
     - [Physics](../../help/physics/index.md#AdvisoryCommittee)
     - [Mathematics](../../help/math/index.md#AdvisoryCommittee)
     - [Computer science (CoRR)](../../help/cs/index.md)
@@ -23,7 +23,9 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
     - [Statistics](../../help/statistics/index.md#AdvisoryCommittee)
     - [Electrical engineering and systems science](../../help/eess/index.md#AdvisoryCommittee)
     - [Economics](../../help/econ/index.md#AdvisoryCommittee)
-  
-- [Member Advisory Board](member_ad_board.md)
-- [Technical Advisory Group](technical_ad_group.md)
-- [Organizational Chart](../../about/governance.md)
+
+
+- [Institutions Advisory Council](institutions_advisory_council.md)
+- [Science Advisory Council](science_advisory_council.md)
+
+- [Governance](../../about/governance.md) 

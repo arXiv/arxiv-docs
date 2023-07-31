@@ -6,9 +6,9 @@ You can view the subject category descriptions and browse papers from the [main 
 
 The [moderators for cs are listed here](https://arxiv.org/moderators/#cs).
 
-### CoRR Advisory Committee
+### CoRR Editorial Committee
 
-The advisory committee members serve as consultants to Cornell University and to the arXiv [Scientific Advisory Board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Krzysztof Apt, CWI, Amsterdam  
 - Ron Boisvert, NIST  
