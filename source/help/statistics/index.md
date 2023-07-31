@@ -7,9 +7,9 @@ You can browse articles and view categories at the [main statistics archive page
 The [moderators for statistics are listed here](https://arxiv.org/moderators#statistics#statistics).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Statistics Advisory Committee:
+## The arXiv Statistics Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 *  [Robert B. Gramacy](http://bobby.gramacy.com/)
 *  [Susan Holmes](http://www-stat.stanford.edu/~susan/)

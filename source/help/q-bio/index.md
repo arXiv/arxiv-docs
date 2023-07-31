@@ -8,9 +8,9 @@ The [moderators for q-bio are listed here](https://arxiv.org/moderators#q-bio#q-
 
 <span id="AdvisoryCommittee"></span>
 
-## The arXiv Quantitative Biology Advisory Committee:
+## The arXiv Quantitative Biology Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 *   [Ralf Bundschuh](http://bioserv.mps.ohio-state.edu/~rbund/) (Ohio State): **coordinator and appellate moderator**.
 *   [Michael Lässig](http://www.thp.Uni-Koeln.DE/~lassig/) (Köln): **coordinator and appellate moderator**.
