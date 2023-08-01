@@ -18,7 +18,6 @@ reproducible procedures for arXiv, that leave room for editorial judgement of co
 
 Each arXiv section has an editorial committe that is overseen by the  Editorial Advisory Council:
 
-
 - [Physics](/help/physics/index.md#AdvisoryCommittee)
 - [Mathematics](/help/math/index.md#AdvisoryCommittee)
 - [Computer science (CoRR)](/help/cs/index.md)
