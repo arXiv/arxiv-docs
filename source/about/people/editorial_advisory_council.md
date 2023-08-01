@@ -6,10 +6,6 @@ arXiv’s moderation/editorial system and the boards and committees that execute
 govern it. Its purpose is to establish an orderly process of submission, moderation, and
 discussion of content to serve arXiv’s mission. It provides transparent, fair, and
 reproducible procedures for arXiv, that leave room for editorial judgement of content.
-Detailed implementation of the standards and rules will be given in (a) separate
-document(s).
-
-
 
 ## Current Council Members
 
