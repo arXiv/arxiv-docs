@@ -2,9 +2,7 @@
 
 July 1, 2023
 
-_Note: New [bylaws](source/about/arXiv_bylaws.md) have been adopted; this page is thus out of date and reflects revisions made in 2012._
-
-{.intro}
+_Note: New [bylaws](arXiv_bylaws.md) have been adopted; this page is thus out of date and reflects revisions made in 2012._
 
 March 28, 2012
 
