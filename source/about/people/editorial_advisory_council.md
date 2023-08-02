@@ -18,11 +18,11 @@ reproducible procedures for arXiv, that leave room for editorial judgement of co
 
 Each arXiv section has an editorial committe that is overseen by the  Editorial Advisory Council:
 
-- [Physics](../../help/physics/index.md#AdvisoryCommittee)
-- [Mathematics](../../help/math/index.md#AdvisoryCommittee)
-- [Computer science (CoRR)](../../help/cs/index.md)
-- [Quantitative biology](../../help/q-bio/index.md#AdvisoryCommittee)
-- [Quantitative finance](../../help/q-fin/index.md#AdvisoryCommittee)
-- [Statistics](../../help/statistics/index.md#AdvisoryCommittee)
-- [Electrical engineering and systems science](../../help/eess/index.md#AdvisoryCommittee)
-- [Economics](../../help/econ/index.md#AdvisoryCommittee)
+- [Physics](../../help/physics/index.html#AdvisoryCommittee)
+- [Mathematics](../../help/math/index.html#AdvisoryCommittee)
+- [Computer science (CoRR)](../../help/cs/index.html)
+- [Quantitative biology](../../help/q-bio/index.html#AdvisoryCommittee)
+- [Quantitative finance](../../help/q-fin/index.html#AdvisoryCommittee)
+- [Statistics](../../help/statistics/index.html#AdvisoryCommittee)
+- [Electrical engineering and systems science](../../help/eess/index.html#AdvisoryCommittee)
+- [Economics](../../help/econ/index.html#AdvisoryCommittee)
