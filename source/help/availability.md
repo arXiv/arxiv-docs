@@ -34,6 +34,7 @@ On the occasion that arXiv defers a mailing (either for locally celebrated holid
 - Wed 14 June
 - Mon 19 June
 - Tues 4 July
+- Thrs 17 August
 - Mon 4 September
 - Thrs 23 November
 - Mon 25 December
