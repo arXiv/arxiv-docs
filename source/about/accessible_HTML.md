@@ -17,7 +17,7 @@ Did you know that 90% of submissions to arXiv are in TeX format, mostly LaTeX? T
 
 - Go to the abstract page for a paper you are interested in reading.
 - Look in the section where you find the link to the PDF download, and click the new link for HTML.
-- Either click on the button to open an issue, or use **Shift+b** to toggle accessible reporting buttons per paragraph.
+- Either click on the button to open an issue or click **Ctrl+?**, or if you are using a screenreader use **Alt+y** to toggle accessible reporting buttons per paragraph.
 - You can also reference a quick glossary of keyboard commands and instructions in the footer of the HTML paper page.
 
 We expect the HTML papers to present differently than the same paper rendered in PDF. Line breaks will occur in different places and there is likely to be more white space. In general, the HTML paper won't present as compactly. Intricate typographic layouts will not be rendered so intricately. This is by design. HTML is a different medium, and brings its own advantages versus PDF -- aside from being much more friendly to screen readers and the like, HTML does a far better job adapting to the characteristics of the device you're reading on -- whether that's your particular monitor geometry or your smartphone. Please do not create reports that the HTML paper doesn't look just like the PDF paper. However, if you HTML layout that's incorrect, or just not very good, please report those.

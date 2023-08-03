@@ -48,6 +48,8 @@ In his role as associate faculty director at arXiv, Yoav assists the faculty dir
 **Program Director**
 {align="center"}
 
+- ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0009-0001-1240-9992](https://orcid.org/0009-0001-1240-9992){target="_blank"}
+
 Stephanie’s role at arXiv spans administrative management, operational oversight, and implementation of arXiv’s short- and long-term strategic goals. She also serves as a liaison between arXiv, its advisors, and the international open access community. She holds an M.S. in library and information science from the University of Illinois at Urbana-Champaign.
 </div>
 
