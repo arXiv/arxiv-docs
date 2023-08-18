@@ -4,7 +4,7 @@ All submissions to arXiv must meet the standards for [moderation and scholarly i
 
 Research articles are the primary content-type submitted to arXiv. 
   
-## Content types that are typically not accepted include
+## Content types that are typically NOT accepted include
 
 - Undergraduate research
 - Course projects
