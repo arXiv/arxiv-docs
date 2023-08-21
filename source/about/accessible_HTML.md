@@ -29,3 +29,6 @@ We are working closely with two organizations on this effort: The [LaTeX Project
 
 ## Get involved
 Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [https://github.com/brucemiller/LaTeXML/issues](list of issues in github) related to packages that need conversion, and welcome both feedback and developer contributions.
+
+## HTML testing papers
+HTML testing papers are now avaible for the public. You can access them [http://info.arxiv.org/about/accessibility_html_papers.html](here). 
