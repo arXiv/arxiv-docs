@@ -2,34 +2,38 @@
 
 All submissions to arXiv must meet the standards for [moderation and scholarly interest](/help/moderation/index.html).
 
-Research articles are the primary content-type submitted to arXiv. 
   
 ## Content types that are typically NOT accepted include
 
-- Undergraduate or high school research
-- Course projects
-- Research proposals
-- News items or opinion pieces
-- Information about political causes (even those with potential special interest to the academic community)
 - Abstract-only submissions
-- Presentation slides
-- Posters
 - Book announcements
 - Book reviews
 - Calls for papers
+- Course projects
+- Information about political causes (even those with potential special interest to the academic community)
+- News items or opinion pieces
 - Patent applications
+- Posters
+- Presentation slides
+- Proposals for future research
 - Supplemental material that is not embedded in the full article
 - Wokshop or conference summaries
+- Undergraduate or high school research
 - Very short work
 
 ## Content types that may be accepted by moderators include:
 
+- [Articles](#Articles)
 - [Thesis](#Thesis)
 - [Conference proceedings](/help/submit_index.html)
 - [Books or book chapters](#Books)
 - [Lecture notes](#Lecture%20notes)
 - [Translations](/help/translations.html)
 - [Comments and Reply to Comments](#Comments)
+
+## Articles
+
+Research articles are the primary content-type submitted to arXiv. Articles should be complete final drafts.
 
 ## Thesis
 
