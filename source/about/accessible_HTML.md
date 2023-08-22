@@ -4,7 +4,7 @@ The message we have heard from our community is that arXiv can have the most imp
 { .intro }
 
 ## Latest updates
-The HTML papers project is in Closed Experimental stage, soon to enter the Public Experimental stage and be shared with the entire community. We will be making links to HTML papers available on abstract pages, list pages, and (at a later phase) as a review step in the submission process.
+The HTML papers project has reached a milestone: with a functional prototype, we have entered the Public Experimental stage with [this list of html papers](accessibility_html_papers.md) for feedback. We plan to soon make the links to HTML papers available on abstract pages, list pages, and as a review step for authors in the submission process.
 
 We know at this experimental stage there will be bugs, so why not wait until it is perfect?
 
@@ -30,5 +30,5 @@ We are working closely with two organizations on this effort: The [LaTeX Project
 ## Get involved
 Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [https://github.com/brucemiller/LaTeXML/issues](list of issues in github) related to packages that need conversion, and welcome both feedback and developer contributions.
 
-## HTML testing papers
-HTML testing papers are now avaible for the public. You can access them [http://info.arxiv.org/about/accessibility_html_papers.html](here). 
+## HTML papers
+HTML papers are now available for public-facing beta testing. You can [access the html papers here](accessibility_html_papers.md). 
