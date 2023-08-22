@@ -1,4 +1,4 @@
-# HTML testing papers
+# HTML papers for beta testing
 
 Here is a list of HTML papers by subject area for user testing.
 
