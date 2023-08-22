@@ -94,11 +94,11 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 <span id="policies-after"></span>
 ## What policies guide moderation after public announcement?
 
-Once a paper is announced it becomes part of the permanent scholarly record. While arXiv reserves the right to remove any content, arXiv will only consider requests for removal if the submitter did not have the legal right to agree to the license.
+Once a paper is announced it becomes part of the permanent scholarly record. arXiv will only consider requests for removal if the submitter did not have the legal right to agree to the license.
 
 In cases where public papers are found to violate arXiv policy, we may [withdraw the paper](../../help/withdraw.md). arXiv may also indicate the concern in the Comments metadata.
 
-arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
+arXiv reserves the right to remove any content. arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
 
 
 <span id="appeal"></span>
