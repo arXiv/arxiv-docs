@@ -4,7 +4,7 @@ The message we have heard from our community is that arXiv can have the most imp
 { .intro }
 
 ## Latest updates
-The HTML papers project has reached a major milestone: with a functional prototype, we have entered the Public Experimental stage with [this list of html papers](accessibility_html_papers.md) for feedback. We plan to soon make the links to HTML papers available on abstract pages, list pages, and as a review step for authors in the submission process.
+The HTML papers project has reached a milestone: with a functional prototype, we have entered the Public Experimental stage with [this list of html papers](accessibility_html_papers.md) for feedback. We plan to soon make the links to HTML papers available on abstract pages, list pages, and as a review step for authors in the submission process.
 
 We know at this experimental stage there will be bugs, so why not wait until it is perfect?
 

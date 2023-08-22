@@ -1,39 +1,24 @@
 # HTML papers for beta testing
 
-Here is a list of HTML papers by subject area for user testing.
+Here is a list of HTML papers by subject area.
 
 ## Physics
-
-### Astrophysics
 - <a href="https://browse.arxiv.org/latexml/2308.05590v2/2308.05590v2.html">Budget equations and astrophysical nonlinear mean-field dynamos</a>
 - <a href="https://browse.arxiv.org/latexml/2210.09945v5/2210.09945v5.html">Tidal Stripping of a White Dwarf by an Intermediate-Mass Black Hole</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06247v1/2308.06247v1.html">A new simulation framework for IceCube Upgrade calibration using IceCube Upgrade Camera system</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06236v1/2308.06236v1.html">Forming rocky exoplanets around K-dwarf stars</a>
 - <a href="https://browse.arxiv.org/latexml/2308.01066v2/2308.01066v2.html">Non-modulated pyramid wavefront sensor: Use in sensing and correcting atmospheric turbulence</a>
-- <a href="https://browse.arxiv.org/latexml/2205.01700v4/2205.01700v4.html">C2-GaMe: Classification of Cluster Galaxy Membership with Machine Learning</a>
-
-### Condensed Matter
 - <a href="https://browse.arxiv.org/latexml/2308.06256v1/2308.06256v1.html">Single crystal synthesis, structure, and magnetism of Pb$_{10-x}$Cu$_x$(PO$_4$)$_6$O</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06240v1/2308.06240v1.html">Superconducting nitridized-aluminum thin films</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06237v1/2308.06237v1.html">The reshape of three-body interactions: Observation of the survival of an Efimov state in the atom-dimer continuum</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06222v1/2308.06222v1.html">High-temperature superconductivity induced by the Su-Schrieffer-Heeger electron-phonon coupling</a>
-
-### General Relativity and Quantum Cosmology
 - <a href="https://browse.arxiv.org/latexml/2308.03284v2/2308.03284v2.html">Exploring Non--commutativity as a Perturbation in the Schwarzschild Black Hole: Quasinormal Modes, Scattering, and Shadows</a>
-
-### High Energy Physics
 - <a href="https://browse.arxiv.org/latexml/2210.16932v2/2210.16932v2.html">Spin Density Matrix Elements in Exclusive $\rho ^0$ Meson Muoproduction</a>
 - <a href="https://browse.arxiv.org/latexml/2208.05923v3/2208.05923v3.html">Lepton Flavor Violating $B\to K^*_2(1430)\mu^{\pm}\tau^{\mp}$ Decays</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06226v1/2308.06226v1.html">Positivity and the Electroweak Hierarchy</a>
-
-### Mathematical Physics
 <a href="https://browse.arxiv.org/latexml/2207.09583v2/2207.09583v2.html">The Blume-Emery-Griffiths model at the FAD and AD interfaces</a>
-
-### Nonlinear Sciences
 - <a href="https://browse.arxiv.org/latexml/2308.06251v1/2308.06251v1.html">Mixing Property of Symmetrical Polygonal Billiards</a>
 - <a href="https://browse.arxiv.org/latexml/2307.16571v2/2307.16571v2.html">Thermodynamics of Dissipative Solitons</a>
-
-### Physics 
 - <a href="https://browse.arxiv.org/latexml/2308.06257v1/2308.06257v1.html">Capillary imbibition in a diverging flexible channel</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06252v1/2308.06252v1.html">Fundamental Limits on Subwavelength Range Resolution</a>
 - <a href="https://browse.arxiv.org/latexml/2206.14722v2/2206.14722v2.html">Large Neutrino Asymmetry from TeV Scale Leptogenesis</a>
@@ -41,14 +26,10 @@ Here is a list of HTML papers by subject area for user testing.
 - <a href="https://browse.arxiv.org/latexml/2306.04726v2/2306.04726v2.html">Variational Formulation of Higher-order Guiding-center Vlasov-Maxwell Theory</a>
 - <a href="https://browse.arxiv.org/latexml/1908.00279v21/1908.00279v21.html">Identifying the occurrence time of an impending mainshock: A very recent case</a>
 - <a href="https://browse.arxiv.org/latexml/2305.03597v2/2305.03597v2.html">A Thru-free Multiline Calibration</a>
-
-### Quantum Physics 
 - <a href="https://browse.arxiv.org/latexml/2308.06245v1/2308.06245v1.html">Minimum Hilbert-Schmidt distance and the Closest Separable state to arbitrary $2 \times 2$ and $2 \times 3$ states</a>
 - <a href="https://browse.arxiv.org/latexml/2308.06244v1/2308.06244v1.html">Generation of phonon quantum states and quantum correlations among single photon emitters in hexagonal boron nitride</a>
 - <a href="https://browse.arxiv.org/latexml/2308.05403v2/2308.05403v2.html">Fault Tolerant Quantum Error Mitigation</a>
 - <a href="https://browse.arxiv.org/latexml/2304.02295v2/2304.02295v2.html">Enabling CV-MDI-QKD for low squeezed states using non-Gaussian operations</a>
-
-
 
 
 ## Mathematics
