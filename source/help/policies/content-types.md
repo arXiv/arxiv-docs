@@ -40,7 +40,7 @@ A thesis, like all other content types, should have novel results and be of plau
 Please refer to [Submission of indexes for conference proceedings](/help/submit_index.html)
 
 
-<a name="Books">/a>
+<a name="Books"></a>
 
 ## Books
 
