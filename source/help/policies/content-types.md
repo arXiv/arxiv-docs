@@ -6,10 +6,10 @@ Research articles are the primary content-type submitted to arXiv.
   
 ## Content types that are typically NOT accepted include
 
-- Undergraduate research
+- Undergraduate or high school research
 - Course projects
 - Research proposals
-- News items
+- News items or opinion pieces
 - Information about political causes (even those with potential special interest to the academic community)
 - Abstract-only submissions
 - Presentation slides
@@ -19,6 +19,8 @@ Research articles are the primary content-type submitted to arXiv.
 - Calls for papers
 - Patent applications
 - Supplemental material that is not embedded in the full article
+- Wokshop or conference summaries
+- Very short work
 
 ## Content types that may be accepted by moderators include:
 
@@ -27,19 +29,18 @@ Research articles are the primary content-type submitted to arXiv.
 - [Books or book chapters](#Books)
 - [Lecture notes](#Lecture%20notes)
 - [Translations](/help/translations.html)
+- [Comments and Reply to Comments](#Comments)
 
 ## Thesis
-Thesis, like all other content types, should have novel results and be of plausible interest to professional researchers. Undergraduate or masters level researchers should consult their advisor before submitting to arXiv.
+
+A thesis, like all other content types, should have novel results and be of plausible interest to professional researchers. Undergraduate or masters level researchers should consult their advisor before submitting to arXiv.
   
 ## Conference proceedings
 
 Please refer to [Submission of indexes for conference proceedings](/help/submit_index.html)
 
 
-## Translations
-
-Please refer to the page on [Translations](/help/translations.html)
-
+<a name="Books">/a>
 
 ## Books
 
@@ -64,6 +65,12 @@ The front matter, introductory chapters, appendices, etc. are combined into a su
 Lecture notes, like all other content types, should have novel results and be of plausible interest to professional researchers. In some fields lecture notes are developed around novel research and written in a format similar to research articles that may be acceptable to submit to arXiv. 
 
 Lecture notes that are pedagogical or that cover standard material should not be submitted.
+
+## Translations
+
+Please refer to the page on [Translations](/help/translations.html)
+
+<a name="Comments">/a>
 
 ## Comments and Reply to Comments
 
