@@ -31,4 +31,4 @@ We are working closely with two organizations on this effort: The [LaTeX Project
 Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [https://github.com/brucemiller/LaTeXML/issues](list of issues in github) related to packages that need conversion, and welcome both feedback and developer contributions.
 
 ## HTML papers
-HTML papers are now available for public-facing beta testing. You can access them(http://info.arxiv.org/about/accessibility_html_papers.html)[here]. 
+HTML papers are now available for public-facing beta testing. You can [access the html papers here](accessibility_html_papers.md). 
