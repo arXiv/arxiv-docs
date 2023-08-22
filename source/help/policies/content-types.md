@@ -70,7 +70,7 @@ Lecture notes that are pedagogical or that cover standard material should not be
 
 Please refer to the page on [Translations](/help/translations.html)
 
-<a name="Comments">/a>
+<a name="Comments"></a>
 
 ## Comments and Reply to Comments
 
