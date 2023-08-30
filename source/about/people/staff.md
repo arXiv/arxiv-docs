@@ -2,6 +2,7 @@
 
 - Yoav Artzi, Associate Faculty Director
 - Amanda Bartley, Senior Moderation & User Support Specialist
+- Kat Boboris, Community Engagement Manager
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Lead Developer
@@ -12,6 +13,7 @@
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
 - Maria Rahman, arXiv Moderation Administrator
+- Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Jake Weiskoff, arXiv Technical Support Manager
