@@ -28,7 +28,7 @@ First, we want to share a special thank you to all of the scientists with disabi
 We are working closely with two organizations on this effort: The [LaTeX Project](https://www.latex-project.org/), and the [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/) team from NIST. We deeply thank each member of these teams for their knowledge, incredible work, and commitment to accessibility.
 
 ## Get involved
-Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [https://github.com/brucemiller/LaTeXML/issues](list of issues in github) related to packages that need conversion, and welcome both feedback and developer contributions.
+Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [list of issues in github](https://github.com/brucemiller/LaTeXML/issues) related to packages that need conversion, and welcome both feedback and developer contributions.
 
 ## HTML papers
 HTML papers are now available for public-facing beta testing. You can [access the html papers here](accessibility_html_papers.md). 
