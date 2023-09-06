@@ -34,9 +34,8 @@ See also [journal reference](prep.md#journal) formatting details.
 
 DOIs are identifiers that provide access to electronic versions of
 journal articles. They will be linked from the arXiv abstract page. They
-have the form `digits.digit(s)/something`  or `digits.digit(s).digits(s)/something`.
-You should not include any prefix such as `doi:` or `https://doi.org/`.
-For example:
+have the form `number.number/something` and you should not include any
+prefix such as `doi:`. For example:
 
 > **10.1016/S0550-3213(01)00405-9**
 
