@@ -2,9 +2,9 @@
 
 All submissions to arXiv must meet the standards for [moderation and scholarly interest](/help/moderation/index.html).
 
-In addition there are a limited set of specific format requirements.
+Authors should use the following format requirements. As part of moderation we may ask for other requirements on an individual basis.
 
-## Submissions must have:
+## Submissions should have:
 
 - Complete references
 - Author list (no anonymous submissions)
@@ -13,7 +13,7 @@ In addition there are a limited set of specific format requirements.
 - 10 to 14 point type
 - Minimum 1" page margin
 
-## Submissions may not have:
+## Submissions should not have:
 - Line numbers
 - Watermarks that obstruct the text
 - Advertisements of any kind
