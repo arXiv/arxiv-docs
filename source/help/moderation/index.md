@@ -22,16 +22,14 @@ arXiv, in its sole discretion, may decline to post works submitted to the platfo
 <span id="scholarly-standards"></span>
 #### Scholarly Standards
 
-Submissions to arXiv must meet appropriate scholarly standards. arXiv will decline submissions that do not meet these scholarly standards.  
+Submissions to arXiv must comply with appropriate standards of scholarly communication both in form (including appropriate and sufficiently carefully prepared sections, figures, tables, references, etc.), language (professional communication, see also [Code of Conduct](../../help/policies/code_of_conduct.md)), sufficiently neutral tone, and general scrupulousness and care of preparation.
 
 <span id="scholarly-interest"></span>
 #### Scholarly interest
 
-arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance. 
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance and/or contains falsified or plagiarised content or serious misrepresentations. 
 
-Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined.
-
-Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
+Submissions that do not contain original or substantive research, including course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Submissions in need of significant review and revision may also be declined.
 
 #### Content types
 
@@ -98,7 +96,7 @@ Once a paper is announced it becomes part of the permanent scholarly record. arX
 
 In cases where public papers are found to violate arXiv policy, we may [withdraw the paper](../../help/withdraw.md). arXiv may also indicate the concern in the Comments metadata.
 
-arXiv reserves the right to remove any content. arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
+arXiv reserves the right to decline or remove any content. arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
 
 
 <span id="appeal"></span>
