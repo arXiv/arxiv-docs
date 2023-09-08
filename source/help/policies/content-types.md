@@ -1,6 +1,7 @@
 # Policies for specific content types
 
-All submissions to arXiv must meet the standards for [moderation and scholarly interest](/help/moderation/index.html).
+The standards for [moderation and scholarly interest](/help/moderation/index.html) are the basis for
+acceptance (or not) of submissions. However, from experience with comparing different types of content to that standard we give the guidelines below on what types of content typically are and are not accepted.
 
   
 ## Content types that are typically NOT accepted include
@@ -21,10 +22,10 @@ All submissions to arXiv must meet the standards for [moderation and scholarly i
 - Undergraduate or high school research
 - Very short work
 
-## Content types that may be accepted by moderators include:
+## Content types that typically are accepted include
 
 - [Articles](#Articles)
-- [Thesis](#Thesis)
+- [Theses](#Theses)
 - [Conference proceedings](/help/submit_index.html)
 - [Books or book chapters](#Books)
 - [Lecture notes](#Lecture%20notes)
@@ -35,7 +36,7 @@ All submissions to arXiv must meet the standards for [moderation and scholarly i
 
 Research articles are the primary content-type submitted to arXiv. Articles should be complete final drafts.
 
-## Thesis
+## Theses
 
 A thesis, like all other content types, should have novel results and be of plausible interest to professional researchers. Undergraduate or masters level researchers should consult their advisor before submitting to arXiv.
   
