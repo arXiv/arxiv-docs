@@ -22,14 +22,14 @@ arXiv, in its sole discretion, may decline to post works submitted to the platfo
 <span id="scholarly-standards"></span>
 #### Scholarly Standards
 
-Submissions to arXiv must comply with appropriate standards of scholarly communication both in form (including appropriate and sufficiently carefully prepared sections, figures, tables, references, etc.), language (professional communication, see also [Code of Conduct](../../help/policies/code_of_conduct.md)), sufficiently neutral tone, and general scrupulousness and care of preparation.
+Submissions to arXiv must comply with appropriate standards of scholarly communication in form, including appropriate and carefully prepared sections, figures, tables, references, etc. Language standards require professional communication, and sufficiently neutral tone (see also [Code of Conduct](../../help/policies/code_of_conduct.md)). General scrupulousness and care of preparation are required.
 
 <span id="scholarly-interest"></span>
 #### Scholarly interest
 
-arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance and/or contains falsified or plagiarised content or serious misrepresentations. 
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, significance, and/or contains falsified, plagiarized content or serious misrepresentations of data, affiliation, or content.
 
-Submissions that do not contain original or substantive research, including course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Submissions in need of significant review and revision may also be declined.
+Submissions that do not contain original or substantive research, including course projects, research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Submissions in need of significant review and revision may also be declined.
 
 #### Content types
 
