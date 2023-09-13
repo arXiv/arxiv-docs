@@ -38,4 +38,4 @@ address and will send an e-mail with a verification code to your new
 address to make sure that your new address is correct. Please allow up to an hour
 for delivery of the verification code, before requesting a new one. If you try two
 times and still haven't recieved a verification code, or your verification code 
-doesn't work, please contact [arXiv user support](https://arxiv.org/support).
+does not work, please contact [arXiv user support](https://arxiv.org/support).
