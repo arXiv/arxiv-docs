@@ -4,7 +4,7 @@ The Electrical Engineering and Systems Science (eess) archive formed 18 Septembe
 
 You can browse articles and view categories at the [main eess archive page](https://arxiv.org/archive/eess).
 
-The [moderators for are listed here](https://arxiv.org/moderators#eess#eess).
+The [moderators for are listed here](https://arxiv.org/moderators#eess).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Electrical Engineering and Systems Editorial Committee

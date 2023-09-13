@@ -7,7 +7,7 @@ explanation of the objectives, see the original q-fin announcement.
 
 You can browse articles and view categories at the [main quantitative finance archive page](https://arxiv.org/archive/q-fin).
 
-The [moderators are listed here](https://arxiv.org/moderators#q-fin#q-fin).
+The [moderators are listed here](https://arxiv.org/moderators#q-fin).
 
 
 ## The arXiv Quantitative Finance Editorial Committee:
