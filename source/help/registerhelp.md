@@ -35,4 +35,7 @@ If you need to change your preferred e-mail address, for example because
 you have changed institutions, then you should visit the [e-mail change
 form](https://arxiv.org/auth/email-change-form). This will ask for your new e-mail
 address and will send an e-mail with a verification code to your new
-address to make sure that your new address is correct.
+address to make sure that your new address is correct. Please allow up to an hour
+for delivery of the verification code, before requesting a new one. If you try two
+times and still haven't recieved a verification code, or your verification code 
+doesn't work, please contact [arXiv user support](https://arxiv.org/support).
