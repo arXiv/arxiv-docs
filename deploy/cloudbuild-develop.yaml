@@ -8,5 +8,5 @@ steps:
         mkdocs build
 
   - name: 'gcr.io/cloud-builders/gsutil'
-    args: ['-m', 'rsync', '-r', '-d', 'site/', 'gs://arxiv-docs-prs/develop/']
+    args: ['-m', 'rsync', '-r', '-d', 'site/', 'gs://docs-develop/']
 
