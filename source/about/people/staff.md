@@ -9,6 +9,7 @@
 - Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
+- Alison Hofer, Documentation Specialist
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
