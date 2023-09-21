@@ -6,7 +6,9 @@ Accessibility barriers in research are not new, but they are urgent. The message
 ## Latest updates
 The HTML papers project has reached a milestone: having completed our targeted public experimental testing phase, *we will be rolling out a beta of HTML papers for all readers later in October.*
 
-The link to the experimental HTML format will appear on all abstract pages below the existing PDF download link. In addition, authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
+Initially, only newly submitted papers will have HTML, along with a small number of older ones. We plan to backfill HTML for arXiv's corpus of over 2 million papers over time.
+
+The link to the experimental HTML format will appear on abstract pages below the existing PDF download link. In addition, authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
 
 The beta rollout is just the beginning. We have a long way to go to improve HTML papers and will continue to solicit feedback from authors, readers, and the entire arXiv community to improve conversions from LaTeX.
 
