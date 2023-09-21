@@ -1,34 +1,44 @@
 # HTML as an accessible format for papers
 
-The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML alongside the existing PDF and source files. Accessible research papers is a goal within reach!
+Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF. Though not easy, accessible research papers is a goal within reach.
 { .intro }
 
 ## Latest updates
-The HTML papers project has reached a milestone: with a functional prototype, we have entered the Public Experimental stage with [this list of html papers](accessibility_html_papers.md) for feedback. We plan to soon make the links to HTML papers available on abstract pages, list pages, and as a review step for authors in the submission process.
+The HTML papers project has reached a milestone: having completed our targeted public experimental testing phase, *we will be rolling out a beta of HTML papers for all readers later in October.*
 
-We know at this experimental stage there will be bugs, so why not wait until it is perfect?
+The link to the experimental HTML format will appear on all abstract pages below the existing PDF download link. In addition, authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
 
-1. First, because our community has asked us not to wait. We heard: "We need HTML now. Do not let perfect be the enemy of good."
-2. And second, because we need your help identifying rendering issues. The low hanging fruit is done. Now we need to identify issues we can track back to specific LaTeX packages that are not converting correctly. Reports from the community will help.
+The beta rollout is just the beginning. We have a long way to go to improve HTML papers and will continue to solicit feedback from authors, readers, and the entire arXiv community to improve conversions from LaTeX.
 
-Did you know that 90% of submissions to arXiv are in TeX format, mostly LaTeX? That poses a unique accessibility challenge: to accurately convert from TeX, a very extensible language used in myriad unique ways by authors. We invite you to report on the accessibility and accuracy of the HTML by following the simple steps below.
+## Why "experimental" HTML?
 
-## How to provide feedback
+Did you know that 90% of submissions to arXiv are in TeX format, mostly LaTeX? That poses a unique accessibility challenge: to accurately convert from TeX—a very extensible language used in myriad unique ways by authors—to HTML, a language that is much more accessible to screen readers and text-to-speech software, screen magnifiers, and mobile devices. In addition to the technical challenges, the conversion must be both rapid and automated in order to maintain arXiv’s core service of free and fast dissemination.
 
+Because of these challenges we know there will be some conversion and rendering issues. We have decided to launch in beta with “experimental” HTML because:
+
+1. Accessible papers are needed now. We have talked to the arXiv community, especially researchers with accessibility needs, and they overwhelmingly asked us not to wait.
+2. We need your help. The obvious work is done. Reports from the community will help us identify issues we can track back to specific LaTeX packages that are not converting correctly.
+
+## Ways to help
+
+### Read HTML papers and report issues
+Once this feature is live in October we encourage the community to try out HTML papers in your field:
 - Go to the abstract page for a paper you are interested in reading.
 - Look in the section where you find the link to the PDF download, and click the new link for HTML.
-- Either click on the button to open an issue or click **Ctrl+?**, or if you are using a screenreader use **Alt+y** to toggle accessible reporting buttons per paragraph.
-- You can also reference a quick glossary of keyboard commands and instructions in the footer of the HTML paper page.
+- Report issues by either *a)* clicking on the Open Issue button b) selecting text and clicking on the Open Issue for Selection button or c) use Ctrl+? on your keyboard. If you are using a screen reader, use Alt+y to toggle accessible reporting buttons per paragraph.
 
-We expect the HTML papers to present differently than the same paper rendered in PDF. Line breaks will occur in different places and there is likely to be more white space. In general, the HTML paper won't present as compactly. Intricate typographic layouts will not be rendered so intricately. This is by design. HTML is a different medium, and brings its own advantages versus PDF -- aside from being much more friendly to screen readers and the like, HTML does a far better job adapting to the characteristics of the device you're reading on -- whether that's your particular monitor geometry or your smartphone. Please do not create reports that the HTML paper doesn't look just like the PDF paper. However, if you HTML layout that's incorrect, or just not very good, please report those.
+**Please do not create reports that the HTML paper doesn't look exactly like the PDF paper**
 
-## Project collaborators
-First, we want to share a special thank you to all of the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
+Our primary goal for this project is to make papers more accessible, so the focus during the beta phase will value function over form. HTML layouts that are incorrect or are illegible are important to report. But we do expect the HTML papers to present differently than the same paper rendered in PDF. Line breaks will occur in different places and there is likely to be more white space. In general, the HTML paper won't present as compactly. Intricate typographic layouts will not be rendered so intricately. This is by design.
 
-We are working closely with two organizations on this effort: The [LaTeX Project](https://www.latex-project.org/), and the [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/) team from NIST. We deeply thank each member of these teams for their knowledge, incredible work, and commitment to accessibility.
+HTML is a different medium and brings its own advantages versus PDF. In addition to being much more compatible with assistive technologies, HTML does a far better job adapting to the characteristics of the device you are reading on, including mobile devices.
 
-## Get involved
-Conversion to HTML is complicated by the extensibility of LaTeX. Our collaborators at LaTeXML maintain a [list of issues in github](https://github.com/brucemiller/LaTeXML/issues) related to packages that need conversion, and welcome both feedback and developer contributions.
+### Help improve the conversion from LaTeX
+- Once a package issue is identified, it still needs to be corrected to improve accessibility
+- If you are a developer and have free development cycles, help us improve conversions!
+- Our collaborators at LaTeXML maintain a list of issues related to packages that need conversion, and welcome feedback and developer contributions.
 
-## HTML papers
-HTML papers are now available for public-facing beta testing. You can [access the html papers here](accessibility_html_papers.md). 
+## Thank you to our collaborators
+First, we want to share a special thank you to all the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
+
+We want to thank two organizations without which HTML papers on arXiv would not be possible: The [LaTeX Project](https://www.latex-project.org/), and the [LaTeXML](https://math.nist.gov/~BMiller/LaTeXML/) team from NIST. We deeply thank each member of these teams for their knowledge, incredible work, and commitment to accessibility.
