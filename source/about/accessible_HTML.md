@@ -35,8 +35,7 @@ HTML is a different medium and brings its own advantages versus PDF. In addition
 
 ### Help improve the conversion from LaTeX
 - Once a package issue is identified, it still needs to be corrected to improve accessibility
-- If you are a developer and have free development cycles, help us improve conversions!
-- Our collaborators at LaTeXML maintain a list of issues related to packages that need conversion, and welcome feedback and developer contributions.
+- If you are a developer and have free development cycles, help us improve conversions! Our collaborators at LaTeXML maintain a [list of issues](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML) and welcome feedback and developer contributions.
 
 ## Thank you to our collaborators
 First, we want to share a special thank you to all the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
