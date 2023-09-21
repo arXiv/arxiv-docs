@@ -21,11 +21,12 @@ Because of these challenges we know there will be some conversion and rendering 
 
 ## Ways to help
 
-### Read HTML papers and report issues
+### 1) Read HTML papers and report issues
 Once this feature is live in October we encourage the community to try out HTML papers in your field:
+
 - Go to the abstract page for a paper you are interested in reading.
 - Look in the section where you find the link to the PDF download, and click the new link for HTML.
-- Report issues by either *a)* clicking on the Open Issue button b) selecting text and clicking on the Open Issue for Selection button or c) use Ctrl+? on your keyboard. If you are using a screen reader, use Alt+y to toggle accessible reporting buttons per paragraph.
+- Report issues by either **a)** clicking on the Open Issue button **b)** selecting text and clicking on the Open Issue for Selection button or **c)** use ```Ctrl+?``` on your keyboard. If you are using a screen reader, use ```Alt+y``` to toggle accessible reporting buttons per paragraph.
 
 **Please do not create reports that the HTML paper doesn't look exactly like the PDF paper**
 
@@ -33,9 +34,8 @@ Our primary goal for this project is to make papers more accessible, so the focu
 
 HTML is a different medium and brings its own advantages versus PDF. In addition to being much more compatible with assistive technologies, HTML does a far better job adapting to the characteristics of the device you are reading on, including mobile devices.
 
-### Help improve the conversion from LaTeX
-- Once a package issue is identified, it still needs to be corrected to improve accessibility
-- If you are a developer and have free development cycles, help us improve conversions! Our collaborators at LaTeXML maintain a [list of issues](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML) and welcome feedback and developer contributions.
+### 2) Help improve the conversion from LaTeX
+If you are a developer and have free development cycles, help us improve conversions! Our collaborators at LaTeXML maintain a [list of issues](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML) and welcome feedback and developer contributions.
 
 ## Thank you to our collaborators
 First, we want to share a special thank you to all the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
