@@ -18,6 +18,6 @@
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
-- Jake Weiskoff, arXiv Technical Support Manager
+- Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
