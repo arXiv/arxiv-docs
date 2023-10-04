@@ -19,5 +19,6 @@
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
 - Jake Weiskoff, Project Manager
+- William Yao, Developer
 - Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
