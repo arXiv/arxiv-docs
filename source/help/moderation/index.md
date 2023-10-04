@@ -17,7 +17,7 @@ Reclassification by our moderators ensures that submissions are posted to the mo
 <span id="declined"></span>
 ### Declined submissions
 
-arXiv, in its sole discretion, may decline to post works submitted to the platform. The following list includes example topics that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by another journal may still be declined at arXiv’s discretion. 
+arXiv, in its sole discretion, may decline to post works submitted to the platform. The following list includes example topics that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion. 
 
 <span id="scholarly-standards"></span>
 #### Scholarly Standards
@@ -45,7 +45,7 @@ For information about submission format requirements please see [specific format
 
 ##### Images
 
-Authors should be aware that the use of some images may cause offense. Examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
+Authors should be aware that the use of some images may cause offense. Examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause egregious offense may be declined or removed.
 
 
 <span id="AI-language-tools"></span>
@@ -54,7 +54,7 @@ Authors should be aware that the use of some images may cause offense. Examples 
 
 arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
 
-In view of this, we 
+In view of this, we: 
 
 1. continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
 
