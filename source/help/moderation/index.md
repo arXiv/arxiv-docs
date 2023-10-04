@@ -1,6 +1,6 @@
 # arXiv moderation
 
-arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research. As part of the service all submissions are subject to moderation. Material submitted to arXiv is expected to be of interest, relevance, and value to the disciplines we serve.
+arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research. As part of the service all submissions are subject to moderation. Material submitted to arXiv is expected to be self-contained and of interest, relevance, and value to the disciplines we serve.
 
 Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators cannot give feedback on the submission. 
  
