@@ -1,3 +1,5 @@
+#HTML as an accessible format for papers
+
 Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF. Though not easy, accessible research papers is a goal within reach.
 { .intro }
 
