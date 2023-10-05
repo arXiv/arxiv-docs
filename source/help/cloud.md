@@ -5,5 +5,5 @@ For approximately the last 20 years, arXiv's services have been hosted on a set 
 
 We are doing this process little by little, starting with the browsing activities &ndash; serving the home page, listings, abstracts, and most importantly, article downloads (PDF and other formats). The portions of the arXiv site that enable users to change things (account creation and mainteance, submiting and updating articles) will transition later.
 
-While we are in the initial shakedown phase of this transition, which may last several months, you may see a small "Servied from the cloud" banner on some pages you're looking at. This indicates the page you was served from our cloud infrastructure, rather than the servers at Cornell. We're showing this indicator so, in case there are issues, we will know whether a particular page came from the cloud host or Cornell.
+While we are in the initial shakedown phase of this transition, which may last several months, you may see a small "Servied from the cloud" banner on some pages you're looking at. This indicates the page was served from our cloud infrastructure, rather than the servers at Cornell. We're showing this indicator so, in case there are issues, we will know whether a particular page came from the cloud host or Cornell.
 
