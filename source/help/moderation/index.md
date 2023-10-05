@@ -1,6 +1,6 @@
 # arXiv moderation
 
-arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. For more general information about the moderation process please [see our 2019 blog post](https://blog.arxiv.org/2019/08/29/our-moderation-process/).
+arXiv is a forum for professional members of the scientific community, providing rapid distribution of new research and maintaining a permanent collection of scientific work. As part of the service all submissions are subject to moderation. Material submitted to arXiv is expected to be self-contained and of interest, relevance, and value to the disciplines we serve.
 
 <span id="why-moderate"></span>
 ## Why does arXiv moderate submissions?
