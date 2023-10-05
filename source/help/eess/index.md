@@ -4,12 +4,12 @@ The Electrical Engineering and Systems Science (eess) archive formed 18 Septembe
 
 You can browse articles and view categories at the [main eess archive page](https://arxiv.org/archive/eess).
 
-The [moderators for are listed here](https://arxiv.org/moderators#eess#eess).
+The [moderators for are listed here](https://arxiv.org/moderators#eess).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Electrical Engineering and Systems Advisory Committee
+## The arXiv Electrical Engineering and Systems Editorial Committee
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Chair: Jarvis Haupt, University of Minnesota
 - Al Bovik, U. Texas Austin
