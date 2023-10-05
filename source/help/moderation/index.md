@@ -20,17 +20,18 @@ Reclassification by our moderators helps make sure that submissions are posted t
 <span id="declined"></span>
 ### Declined submissions
 
-Some works submitted to arXiv may not be accepted. What follows are some example arXiv policies that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion.
+arXiv, in its sole discretion, may decline to post works submitted to the platform. The following list includes example topics that could lead to a submission being declined. This is not an exhaustive list, and some works that have been published or accepted by a journal may still be declined at arXiv’s discretion. 
 
 Please note that the arXiv moderation process is not a peer-review process. arXiv staff and moderators cannot give feedback on the submission.
 
+Submissions to arXiv must comply with appropriate standards of scholarly communication in form, including appropriate and carefully prepared sections, figures, tables, references, etc. Language standards require professional communication, and sufficiently neutral tone (see also [Code of Conduct](../../help/policies/code_of_conduct.md)). General scrupulousness and care of preparation are required.
 
 <span id="scholarly-interest"></span>
 #### Scholarly interest
 
-arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, or significance.
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, significance, and/or contains falsified, plagiarized content or serious misrepresentations of data, affiliation, or content.
 
-Submissions that do not contain original or substantive research, including undergraduate research, course projects, and research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Papers that contain inflammatory or fictitious content (see also [Code of Conduct](../../help/policies/code_of_conduct.md)), or papers that use highly dramatic and misrepresentative titles/abstracts/introductions may be declined. Papers in need of significant review and revision may also be declined.
+Submissions that do not contain original or substantive research, including course projects, research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Submissions in need of significant review and revision may also be declined.
 
 <span id="format"></span>
 #### Inappropriate format
@@ -63,8 +64,7 @@ If an author has a back catalog of work to submit to arXiv, we ask that they sub
 
 #### Images
 
-Authors should be aware that the use of some images may cause offense. Simple examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause offense may be declined or removed.
-
+Authors should be aware that the use of some images may cause offense. Examples include: obscenity; sexualized images; and images of violence or its results.  There are more complex examples: images with checkered histories, (including the “Lena” image — a crop from an image published in a magazine that specialized in female nudes); politically controversial images; covertly sexual images; and the like. The use of essentially any image can be justified by appropriate circumstances, but authors should think carefully about what images they use. Papers that are identified as using images likely to cause egregious offense may be declined or removed.
 
 <span id="AI-language-tools"></span>
 
@@ -72,7 +72,7 @@ Authors should be aware that the use of some images may cause offense. Simple ex
 
 arXiv recognizes that authors of scientific works use a variety of tools to do the science on which they report, and to prepare the report itself, from simple ones to very sophisticated ones. Community opinion on the appropriateness of such tools may be varied and evolving; AI powered language tools have in particular led to significant debate. We note that tools may generate useful and helpful results, but also errors or misleading results; therefore, knowing which tools were used is relevant to evaluating and interpreting scientific works. 
 
-In view of this, we 
+In view of this, we: 
 
 1. continue to require authors to report in their work any significant use of sophisticated tools, such as instruments and software; we now include in particular text-to-text generative AI among those that should be reported consistent with subject standards for methodology.
 
@@ -88,8 +88,7 @@ Once a paper is announced it becomes part of the permanent scholarly record. Whi
 
 In cases where public papers are found to violate arXiv policy, we may [withdraw the paper](../../help/withdraw.md). arXiv may also indicate the concern in the Comments metadata.
 
-arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
-
+arXiv reserves the right to decline or remove any content. arXiv may reclassify already announced papers if the moderators determine there is a more appropriate category.
 
 <span id="appeal"></span>
 ## Can I appeal a moderation decision?
