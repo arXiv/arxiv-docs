@@ -7,3 +7,4 @@ We are doing this process little by little, starting with the browsing activitie
 
 While we are in the initial shakedown phase of this transition, which may last several months, you may see a small "Servied from the cloud" banner on some pages you're looking at. This indicates the page was served from our cloud infrastructure, rather than the servers at Cornell. We're showing this indicator so, in case there are issues, we will know whether a particular page came from the cloud host or Cornell.
 
+
