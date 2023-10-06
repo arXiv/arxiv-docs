@@ -166,4 +166,4 @@ Please contact us with any questions, concerns, or if you wish to exercise any o
 
 For questions about arXiv privacy policies or technical support please contact: help@arxiv.org
 
-If you have general questions about Cornell University privacy practices, please contact: privacy@cornell.edu or visit https://privacy.cornell.edu.
+If you have general questions about Cornell University privacy practices, please visit [https://privacy.cornell.edu](https://privacy.cornell.edu).
