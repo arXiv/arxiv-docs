@@ -1,6 +1,6 @@
 # Error messages in HTML papers
 
-To produce accessible HTML papers we use a LaTeXML converter created and maintained by National Library of Standards and Technology (NIST).  
+HTML papers on arXiv.org will sometimes display errors. To produce accessible HTML papers we use a LaTeXML converter created and maintained by National Library of Standards and Technology (NIST). As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them.
 { .intro }
 
 The errors that you have seen when viewing papers in HTML after submission or on arXiv.org are caused when the LaTeXML converter is unable to translate certain TeX and LaTeX software packages. TeX and LaTeX, pronounced ‘tek’ and ‘LAH-tek’, are open source software packages used to accurately display complex mathematical formulae, symbols and tables in research papers. Due to the open source nature of TeX and LaTeX and its popularity, there are many packages available to choose from. This makes supporting all of them very difficult. NIST is routinely assessing and adding LaTeX packages in an effort to provide greater versatility to the LaTeXML converter.
@@ -10,15 +10,17 @@ The errors that you have seen when viewing papers in HTML after submission or on
 
 When browsing and reading HTML papers on arXiv.org, you may see formatting errors in red like below: 
 
-![HTML LaTeX processing error for online id](images/reader-error-01.png){.mkd-img-border}
-
-![HTML LaTeX processing error for tik Z library](images/reader-error-02.png){.mkd-img-border}
-
-![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-img-border}
-
-
-Please see an example of a HTML processing error below:
 ![html processing error](images/author_submssn_error.png){.mkd-img-full alt='Error message in a red box stating, This paper uses packages, listed below, that do not yet convert to HTML. These issues are known and are being worked on. View the list of unsupported packages.'}
+
+![HTML LaTeX processing error for online id](images/reader-error-01.png){.mkd-img-border alt='Errors are displayed in red markup interpersed with the text. Errors are: forward slash online ID, foward slash v.g.t.c. category, forward slash author footer, foward slash system name, foward slash system name, foward slasch author orcid.'}
+
+![HTML LaTeX processing error for tik Z library](images/reader-error-02.png){.mkd-img-border alt='Tik Z errors are displayed in red markup. Errors are: foward slash use tik z library, foward slash p.g.f. declare decorations simple line initial'}
+
+![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-img-border alt='System name errors are displayed in red markup. Errors are: forward slash system name, foward slash revision'
+}
+
+## Steps authors can take to minimize HTML errors
+Authors and proxies who submit papers to arXiv can help minimize HTML errors by formatting submissions using one of the LateX packages fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
 
 ## Frequently Asked Questions
 
@@ -33,29 +35,27 @@ TeXML is an open source XML vocabulary for TeX. Since TeX was designed for types
 
 ### What is LaTeXML?
 
-LaTeXML was developed for the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology). It's primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical forumulas as images or XHTML, HTML5, EPUB with formulas as MathML. 
+LaTeXML was developed at the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology) and is authored by Bruce Miller and Deyan Ginev. It's primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical forumulas as images or XHTML, HTML5, EPUB with formulas as MathML. 
 
 ### What is MathML?
+MathML is mathematical markup language and is an XML based application. MathML is used to describe and encode mathematical notation and scientific content for distribution on the web and other applications such as scientific software, print typesetting and voice synthesis. 
 
 ### Why are TeX and LaTeX so popular? 
-They are beloved by academic communities for their ability to easily display complex mathematical formulae, symbols, charts and graphs that common word processing programs have difficulty with. 
+They are beloved by academic communities for their ability to easily display complex mathematical formulae, symbols, charts and graphs that common word processing programs have difficulty rendering.
 
 TeX and LaTeX are open source software programs  that  are platform independent which allows for the ability to view documents regardless of the operating system or software set-up making collaboration simple. These programs are maintained and iterated upon by the communities that use them, and as a result, there are many packages available offering a myriad of features to format research papers. 
 
 ### Why are TeX and LaTeX so difficult to support?
-More to be written here --- Due to the robust open source community supporting and developing TeX and LaTeX packages, there are many packages in use. NIST is continuously reviewing which features and packages are most popular to add to the LaTeXML converter in an effort to provide error free, accessible HTML papers.
+In progress...
 
 ### Which TeX/LaTeX packages are supported?
-- Please see our list of supported packages
+- Please see our list of [supported packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file)
 - Please see our list of [unsupported packages](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML)
 
 ### Is TikZ supported?
-Sort of. See What are 'partially' supported packages?
+Partially, please see 'What are partially supported packages?' below.
 
 ### What are ‘partially’ supported packages? 
 
 A partially supported package is a package that has select features NIST has chosen to support in LaTeXML. For example, TikZ offers the ability to … (need to add list of features) and LaTeXML supports …. (add list of features supported) However, TikZ also provides the ability to… which LaTeXML does not support.
-
-### What is NIST?
-NIST is the [National Institute of Standards and Technology](https://www.nist.gov/), a United States government laboratory that develops, tests and recommends best practices for federal agencies and organizations relating to metrics, measurements and regulations to harden the reliability and security of technologies in development. 
 
