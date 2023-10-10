@@ -3,6 +3,8 @@
 HTML papers on arXiv.org are a work in progress and will sometimes display errors. As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them.
 { .intro }
 
+To produce accessible HTML papers we use a converter created and maintained by the LaTeXML team at the National Library of Standards and Technology (NIST). 
+
 The errors that you have seen when viewing papers in HTML after submission or on arXiv.org are caused when the LaTeXML converter is unable to translate certain TeX and LaTeX software packages. TeX and LaTeX, pronounced ‘tek’ and ‘LAH-tek’, are open source software packages used to accurately display complex mathematical formulae, symbols and tables in research papers. Due to the open source nature of TeX and LaTeX and its popularity, there are many packages available to choose from. This makes supporting all of them very difficult. NIST is routinely assessing and adding LaTeX packages in an effort to provide greater versatility to the LaTeXML converter.
 
 
@@ -20,7 +22,7 @@ When browsing and reading HTML papers on arXiv.org, you may see formatting error
 }
 
 ## Steps authors can take to minimize HTML errors
-Authors and proxies who submit papers to arXiv can help minimize HTML errors by formatting submissions using one of the LateX packages fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
+Authors who submit papers to arXiv can help minimize HTML errors by using LateX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
 
 ## Frequently Asked Questions
 
@@ -35,7 +37,7 @@ TeXML is an open source XML vocabulary for TeX. Since TeX was designed for types
 
 ### What is LaTeXML?
 
-LaTeXML was developed at the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology) and is authored by Bruce Miller and Deyan Ginev. It's primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical forumulas as images or XHTML, HTML5, EPUB with formulas as MathML. 
+LaTeXML was developed at the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology) and is authored by Bruce Miller and Deyan Ginev. It's primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical formulas as MathML. 
 
 ### What is MathML?
 MathML is mathematical markup language and is an XML based application. MathML is used to describe and encode mathematical notation and scientific content for distribution on the web and other applications such as scientific software, print typesetting and voice synthesis. 
@@ -49,7 +51,7 @@ TeX and LaTeX are open source software programs  that  are platform independent 
 In progress...
 
 ### Which TeX/LaTeX packages are supported?
-- Please see our list of [supported packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file)
+- Please see this list of [supported packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file)
 - Please see our list of [unsupported packages](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML)
 
 ### Is TikZ supported?
@@ -57,5 +59,5 @@ Partially, please see 'What are partially supported packages?' below.
 
 ### What are ‘partially’ supported packages? 
 
-A partially supported package is a package that has select features NIST has chosen to support in LaTeXML. For example, TikZ offers the ability to … (need to add list of features) and LaTeXML supports …. (add list of features supported) However, TikZ also provides the ability to… which LaTeXML does not support.
+A partially supported package has select features NIST has chosen to support in LaTeXML. For example, TikZ offers the ability to … (need to add list of features) and LaTeXML supports …. (add list of features supported) However, TikZ also provides the ability to… which LaTeXML does not support.
 
