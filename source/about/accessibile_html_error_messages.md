@@ -1,6 +1,6 @@
 # Error messages in HTML papers
 
-HTML papers on arXiv.org will sometimes display errors. To produce accessible HTML papers we use a LaTeXML converter created and maintained by National Library of Standards and Technology (NIST). As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them.
+HTML papers on arXiv.org are a work in progress and will sometimes display errors. As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them.
 { .intro }
 
 The errors that you have seen when viewing papers in HTML after submission or on arXiv.org are caused when the LaTeXML converter is unable to translate certain TeX and LaTeX software packages. TeX and LaTeX, pronounced ‘tek’ and ‘LAH-tek’, are open source software packages used to accurately display complex mathematical formulae, symbols and tables in research papers. Due to the open source nature of TeX and LaTeX and its popularity, there are many packages available to choose from. This makes supporting all of them very difficult. NIST is routinely assessing and adding LaTeX packages in an effort to provide greater versatility to the LaTeXML converter.
