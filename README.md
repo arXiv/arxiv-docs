@@ -87,6 +87,7 @@ python --version
 # 3.8.12
 python -m venv docs-venv
 source docs-venv/bin/activate
+ Please Note: If you using an M1 or M2 Mac, you will have to edit the requirements.txt file to update your PyYAML to 6.0.1
 pip install -r requirements.txt
 mkdocs serve
 google-chrome https://localhost:8000/index.html
