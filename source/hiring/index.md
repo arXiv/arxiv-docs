@@ -17,7 +17,7 @@ We are presently looking for a [Production Editor](#production-editor).
 
 ### Production Editor
 
-We are seeking a strong communicator with strong time management skills and keen attention to detail to join arXiv as a Production Editor. As part of the Content & User Support team the Production Editor will manage the manuscript submission, validation, and screening process, in addition to supporting author, reader, and moderator user groups. This is a fast-paced environment with 700-1,400 new papers per day being processed. 
+We are seeking a strong communicator with excellent time management skills and keen attention to detail to join arXiv as a Production Editor. As part of the Content & User Support team the Production Editor will manage the manuscript submission, validation, and screening process, in addition to supporting author, reader, and moderator user groups. This is a fast-paced environment with 700-1,400 new papers per day being processed. 
 Responsibilities include: 
 
  - Interpret arXiv policy for editorial style standards and interact with subject moderators worldwide as part of screening manuscripts for scholarly standards
