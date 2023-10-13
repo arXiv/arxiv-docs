@@ -159,8 +159,7 @@ These rights may include:
 6. Right to object to automated decision-making and profiling, where applicable
 7. Right to complain to a supervisory authority in your jurisdiction within the EU
 
-Please contact us with any questions, concerns, or if you wish to exercise any of these rights: gdpr@cornell.edu
-
+Please contact us with any questions, concerns. If you wish to exercise any of these rights please visit https://privacy.cornell.edu
 
 ## Contact Information
 
