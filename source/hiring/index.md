@@ -5,7 +5,6 @@ We are presently looking for a [Production Editor](#production-editor).
  - arXiv is part of Cornell University. All arXiv employees are Cornell University employees.
  - The positions listed on this page are all full time [staff positions with benefits (endowed)](https://hr.cornell.edu/understand-your-benefits).
  - Visa sponsorship is not available for these positions.
- - Unless otherwise stated, these are 3-year renewable appointments
  - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). There is a strong preference for candidates who can report to work at that location, but there are options for hybrid remote work.
 
 
