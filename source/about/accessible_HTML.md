@@ -18,8 +18,7 @@ Did you know that 90% of submissions to arXiv are in TeX format, mostly LaTeX? T
 
 Because of these challenges we know there will be some conversion and rendering issues. We have decided to launch in beta with “experimental” HTML because:
 
-1. Accessible papers are needed now. We have talked to the arXiv communit
-y, especially researchers with accessibility needs, and they overwhelmingly asked us not to wait.
+1. Accessible papers are needed now. We have talked to the arXiv community, especially researchers with accessibility needs, and they overwhelmingly asked us not to wait.
 2. We need your help. The obvious work is done. Reports from the community will help us identify issues we can track back to specific LaTeX packages that are not converting correctly.
 
 ## Error messages you may see in HTML papers
