@@ -21,6 +21,9 @@ Because of these challenges we know there will be some conversion and rendering 
 1. Accessible papers are needed now. We have talked to the arXiv community, especially researchers with accessibility needs, and they overwhelmingly asked us not to wait.
 2. We need your help. The obvious work is done. Reports from the community will help us identify issues we can track back to specific LaTeX packages that are not converting correctly.
 
+## Error messages you may see in HTML papers
+HTML papers on arXiv.org are a work in progress and will sometimes display errors. As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them. [Learn more about error messages you may see in HTML papers](accessibility_html_error_messages.md)
+
 ## Ways to help
 
 ### 1) Read HTML papers and report issues
