@@ -11,9 +11,7 @@ The [moderators for statistics are listed here](https://arxiv.org/moderators#sta
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-*  [Robert B. Gramacy](http://bobby.gramacy.com/)
-*  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
-*  [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
-*  [Zoltan Szabo](https://zoltansz.github.io/)
-*  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
-*  Martin Wells
+*  [Shane Jensen](https://statistics.wharton.upenn.edu/profile/stjensen/)
+*  [Betsy Ogburn](https://publichealth.jhu.edu/faculty/2877/elizabeth-l-ogburn)
+*  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (Chair)
+*  [Martin Wells](https://stat.cornell.edu/people/faculty/martin-wells) (Vice Chair)
