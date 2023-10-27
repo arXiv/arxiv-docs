@@ -48,7 +48,6 @@ slug: Help
 - [Bulk data access](bulk_data.md)
 - [API access](api/index.md) and [API User Manual](api/user-manual.md)
 - [DOI and journal reference updates to arXiv from publishers](bib_feed.md)
-- [ScienceWISE annotation and bookmarking](sciencewise.md)
 - [Usage statistics](stats/index.md)
 - [Obsolete Macros](macro_list.md)
 - [MathJax](mathjax.md)
