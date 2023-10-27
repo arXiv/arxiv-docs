@@ -12,14 +12,13 @@ The errors that you have seen when viewing papers in HTML after submission or on
 
 When browsing and reading HTML papers on arXiv.org, you may see formatting errors in red like below: 
 
-![html processing error](images/author_submssn_error.png){.mkd-img-full alt='Error message in a red box stating, This paper uses packages, listed below, that do not yet convert to HTML. These issues are known and are being worked on. View the list of unsupported packages.'}
+![html processing error](images/author_submssn_error.png){.mkd-border alt='Error message in a red box stating, This paper uses packages, listed below, that do not yet convert to HTML. These issues are known and are being worked on. View the list of unsupported packages.'}
 
-![HTML LaTeX processing error for online id](images/reader-error-01.png){.mkd-img-border alt='Errors are displayed in red markup interpersed with the text. Errors are: forward slash online ID, foward slash v.g.t.c. category, forward slash author footer, foward slash system name, foward slash system name, foward slasch author orcid.'}
+![HTML LaTeX processing error for online id](images/reader-error-01.png){.mkd-border alt='Errors are displayed in red markup interpersed with the text. Errors are: forward slash online ID, foward slash v.g.t.c. category, forward slash author footer, foward slash system name, foward slash system name, foward slasch author orcid.'}
 
-![HTML LaTeX processing error for tik Z library](images/reader-error-02.png){.mkd-img-border alt='Tik Z errors are displayed in red markup. Errors are: foward slash use tik z library, foward slash p.g.f. declare decorations simple line initial'}
+![HTML LaTeX processing error for tik Z library](images/reader-error-02.png){.mkd-border alt='Tik Z errors are displayed in red markup. Errors are: foward slash use tik z library, foward slash p.g.f. declare decorations simple line initial'}
 
-![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-img-border alt='System name errors are displayed in red markup. Errors are: forward slash system name, foward slash revision'
-}
+![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-border alt='System name errors are displayed in red markup. Errors are: forward slash system name, foward slash revision'}
 
 ## Steps authors can take to minimize HTML errors
 Authors who submit papers to arXiv can help minimize HTML errors by using LateX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
@@ -30,7 +29,7 @@ Authors who submit papers to arXiv can help minimize HTML errors by using LateX 
 TeX is a fully programmable layout system, and there are many ways to extend the capabilities of TeX by creating packages of TeX code and macros. In fact, LaTeX itself is simply a large package of TeX extensions. The LaTeX community provides a large number of packages that can be used in scientific papers for tasks like adding figures to articles, or following the publication template for a journal. Each such package has to be individually supported in LaTeXML for an article to convert perfectly. While LaTeXML supports nearly all of the most commonly used LaTeX packages, there is a long tail of less commonly used packages that are not presently supported. The LaTeXML team will continue adding packages, but it will take a very long time to support every package used by every paper on arXiv. 
 
 ### What is LaTeX?
-LaTeX is a software system for document layout and preparation developed in the early 1980s by [Leslie Lamport](https://en.wikipedia.org/wiki/LaTeX#cite_note-Lamport1986-4). LaTeX is designed to provide a descriptive markup language that harnesses the power of TeX in a more user-friendly way. It consists of a collection of TeX macros and a program to process LaTeX documents providing authors with convenient commands to format different layout requirements such as section headers, footnotes, graphics and bibliographies.
+LaTeX is a software system for document layout and preparation developed in the early 1980s by Leslie Lamport. LaTeX is designed to provide a descriptive markup language that harnesses the power of TeX in a more user-friendly way. It consists of a collection of TeX macros and a program to process LaTeX documents providing authors with convenient commands to format different layout requirements such as section headers, footnotes, graphics and bibliographies.
 
 ### What is LaTeXML?
 
