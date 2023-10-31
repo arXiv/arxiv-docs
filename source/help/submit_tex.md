@@ -7,6 +7,7 @@
 *   [Do not submit in double-spaced "referee" mode](#double)
 *   [Prepare the references carefully](#refs)
 *   [Include `.bbl` files if you use BibTeX](#bibtex)
+*   [Potential problems with biblatex `.bbl` files](#biblatex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
 *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
 *   [Supplemental material](#autoignore)
@@ -109,7 +110,6 @@ If you are submitting a group of `.tex` files, automated reference extraction by
 
 Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 
-
 <span id="bibtex"></span>
 
 ### Include `.bbl` files if you use BibTeX
@@ -121,6 +121,24 @@ The name of the `.bbl` file _must_ match the name of the main `.tex` file for th
 Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
 Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
+
+<span id="biblatex"></span>
+
+### Potential problems with biblatex `.bbl` files
+
+#### The `.bbl` file and paper submission were produced by different programs
+
+Biblatex can run on a dedicated Biber backend or BibTeX; however, when submitting a biblatex `.bbl` file, your paper and `.bbl` file must be created by the same program. e.g.
+
+- If you use biblatex with Biber as a backend to produce your document, then your document will expect a `.bbl` produced by Biber.
+
+- If you use biblatex with BibTeX as a backend to produce your document, then your document will expect a `.bbl` produced by BibTeX.
+
+Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or vice versa. This will only result in errors and frustration. [Lean more information about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
+
+#### The `.bbl` file version is not compatible with biblatex or Biber on arXiv
+
+When uploading the .bbl file for biblatex, it must be compatible with the version of biblatex or Biber on the arXiv at the present time. If your .bbl for biblatex is not compatible then your submission will have errors. [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
 <span id="makeindex"></span>
 

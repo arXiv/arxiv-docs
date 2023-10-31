@@ -1,4 +1,4 @@
-# HTML as an accessible format for papers
+#HTML as an accessible format for papers
 
 Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF. Though not easy, accessible research papers is a goal within reach.
 { .intro }
@@ -21,11 +21,15 @@ Because of these challenges we know there will be some conversion and rendering 
 1. Accessible papers are needed now. We have talked to the arXiv community, especially researchers with accessibility needs, and they overwhelmingly asked us not to wait.
 2. We need your help. The obvious work is done. Reports from the community will help us identify issues we can track back to specific LaTeX packages that are not converting correctly.
 
+## Error messages you may see in HTML papers
+HTML papers on arXiv.org are a work in progress and will sometimes display errors. As we work to improve accessibility we share with you the causes of these errors and what authors can do to help minimize them. [Learn more about error messages you may see in HTML papers](accessibility_html_error_messages.md)
+
 ## Ways to help
 
 ### 1) Read HTML papers and report issues
 Once this feature is live in October we encourage the community to try out HTML papers in your field:
 
+#### Report an issue
 - Go to the abstract page for a paper you are interested in reading.
 - Look in the section where you find the link to the PDF download, and click the new link for HTML.
 - Report issues by either **a)** clicking on the Open Issue button **b)** selecting text and clicking on the Open Issue for Selection button or **c)** use ```Ctrl+?``` on your keyboard. If you are using a screen reader, use ```Alt+y``` to toggle accessible reporting buttons per paragraph.
