@@ -14,8 +14,28 @@ and readers needs, etc.
 
 ## Current Council Members 
 
-**Licia Verde (Chair, 2023-2026)**, ICREA Research Professor, Universitat de Barcelona 
+**Licia Verde (Chair, 2023-2026)**, ICREA Research Professor of Physics and Astronomy, Universitat de Barcelona 
 
 
-**(We are finalizing the initial slate of members. This page will be updated in the coming months.)**
+**Mark Doyle (2023-2026)**, Chief Information Office, American Physical Society
+
+**Bill Freeman (2023-2026)**, Thomas and Gerd Perkins Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology
+
+**Tara Holm (2023-2026)**, Professor of Mathematics, Cornell University
+
+**Eiichiro Komatsu (2023-2026)**, Director of the Department of Physical Cosmology, Max-Planck-Institut für
+Astrophysik, Germany
+
+**Neil Lawrence (2023-2026)**, DeepMind Professor of Machine Learning, University of Cambridge
+
+**Marta Mazzocco (2023-2026)**, Professor of Mathematics, University of Birmingham
+
+**Prineha Narang (2023-2026)**, Professor in Physical Sciences, UCLA
+
+**Ronitt Rubinfeld (2023-2026)**, Edwin S. Webster Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology
+
+**Sumati Suruya (2023-2026)**, Professor of Theoretical Physics, Raman Research Institute
+
+**Sara del Valle (2023-2026)**, Deputy Group Leader, Los Alamos National Laboratory
+
 
