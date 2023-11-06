@@ -37,7 +37,7 @@ Robert is a member of the AMS leadership team, and has the overall responsibilit
 
 **Martin Kohler (Member, 2023-2026),** representing Consortium arXiv-DH and HGF, Germany
 
-Martin heads the DESY and European XFEL libraries including DESY’s institutional repository, open access and publishing house. He holds a doctorate in physics from the university of Hamburg.
+Martin heads the Deutsches Elektronen-Synchrotron and European X-Ray Free-Electron Laser libraries including DESY’s institutional repository, open access and publishing house. He holds a doctorate in physics from the university of Hamburg.
 
 
 **Hideaki Takeda (Member, 2023-2026),** representing Japan NII Consortia, Japan
