@@ -14,7 +14,7 @@ and readers needs, etc.
 
 ## Current Council Members 
 
-**Licia Verde (Chair, 2023-2026)**, ICREA Research Professor of Physics and Astronomy, Universitat de Barcelona 
+**Licia Verde (Chair, 2023-2026)**, ICREA Professor, Instituto de cienicas del cosmos, Universitat de Barcelona  
 
 
 **Mark Doyle (2023-2026)**, Chief Information Office, American Physical Society
