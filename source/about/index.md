@@ -13,19 +13,23 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 
 ## News
 
-- [arXiv Reports](reports/index.md)
 - [Usage Stats](https://arxiv.org/stats/main)
 - [arXiv Blog](https://blogs.cornell.edu/arxiv)
 - [arXiv Twitter](https://twitter.com/arxiv)
 
-## Funding, Membership, & Giving
+## Funding & Governance
 
 - [Funding Support](funding.md)
-- [Donate to arXiv](donate.md)
+- [Governance](governance.md)
+- [Business Model](reports-financials.md)
+- [Annual Reports and Financials](reports/index.md)
+
+## Membership & Giving
+
 - [Institutional Membership Program](membership.md)
 - [Our Members](ourmembers.md)
 - [Our Supporters](supporters.md)
-
+- [Donate to arXiv](donate.md)
 
 ## Who We Are
 
@@ -46,11 +50,5 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 - [Volunteer Moderators](https://arxiv.org/moderators)
 - [Volunteer Developers](people/developers.md)
 - [Join arXiv's User Testing Group](user-testing.md)
-
-
-## General Information
-
-- [Governance](governance.md)
-- [Business Model](reports-financials.md)
-- [Annual Reports and Financials](reports/index.md)
 - [Brand Guide and Logo Usage](../brand/index.md)
+
