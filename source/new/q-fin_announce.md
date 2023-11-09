@@ -36,7 +36,7 @@ applications are welcome, and subscription is freely accessible over the
 internet to all members of the scientific community. Instructions for
 registration, submission and subscription to the archive can be found at
 [http://arxiv.org/help/registerhelp](../help/registerhelp.md),
-[http://arxiv.org/help/uploads](http://arxiv.org/help/uploads), and
+[https://info.arxiv.org/help/submit](../help/submit), and
 [http://arxiv.org/help/subscribe](../help/subscribe.md).
 
 The q-fin archive has grown out of a well-established series of e-print
@@ -111,13 +111,7 @@ option for one or more secondary categories. Subscribers of the archive
 will receive by e-mail the title/abstracts of all submissions in their
 chosen categories on a regular basis.
 
-A [large number](/help/stats/2006_by_area/q-fin_monthly.png) of
-finance-related submissions to the arXiv.org e-Print archives during the
-past decade have already been identified and re-classified according to
-the above scheme. We thank Pierre-Alain Reigneron (CFM) for helping with
-this task. These earlier submissions will be accessible at
-[http://arxiv.org/archive/q-fin](https://arxiv.org/archive/q-fin) along with new
-Quantitative Finance submissions.
+A large number of finance-related submissions to the arXiv.org e-Print archives during the past decade have already been identified and re-classified according to the above scheme. We thank Pierre-Alain Reigneron (CFM) for helping with this task. These earlier submissions will be accessible at [http://arxiv.org/archive/q-fin](https://arxiv.org/archive/q-fin) along with new Quantitative Finance submissions.
 
 To further improve the flow of information within the quantitative
 finance community, the preprints posted in the q-fin archive will be
@@ -125,7 +119,7 @@ eligible for direct online submission for publication in the following
 print journals:
 
   - [Quantitative Finance](http://www.tandf.co.uk/journals/rquf)
-  - [Journal of Derivatives](http://www.iijournals.com/JOD/)
+  - [Journal of Derivatives](https://www.pm-research.com/content/iijderiv)
   - [International Journal of Theoretical and Applied
     Finance](http://www.worldscinet.com/ijtaf/)
   - [Journal of Risk](http://www.thejournalofrisk.com/)
