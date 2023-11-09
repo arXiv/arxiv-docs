@@ -13,7 +13,6 @@
 - Kim Laine, User & Membership Support Specialist
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
-- Maria Rahman, arXiv Moderation Administrator
 - Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Steinn Sigurdsson, Scientific Director
