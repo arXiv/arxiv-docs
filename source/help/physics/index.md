@@ -32,7 +32,7 @@ The advisory committee members serve as consultants to Cornell University and to
 *   [Daniel Gottesman](https://quics.umd.edu/people/daniel-gottesman) (University of Maryland): quantum physics
 *   [Dong Lai](https://astro.cornell.edu/dong-lai) (Cornell University): astrophysics
 *   [Michael Lawler](https://www.binghamton.edu/physics/research/profile.html?id=mlawler) (SUNY Binghamton): condensed-matter physics
-*   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (University of California San Diego): condensed-matter experiment
+*   [Brian Maple](https://mbmlab.ucsd.edu/personnel/) (University of California San Diego): condensed-matter experiment
 *   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (University of California Davis): mathematical physics
 *   [Chris Reynolds](https://www.ast.cam.ac.uk/people/Christopher.Reynolds) (University of Cambridge): astrophysics
 *   [Robert Seiringer](https://www.ist.ac.at/en/research/seiringer-group/) (Institute of Science and Technology Austria): mathematical physics
