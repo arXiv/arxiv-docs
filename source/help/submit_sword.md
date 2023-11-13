@@ -219,7 +219,7 @@ and the general structure of the returned servicedocument is
              xmlns:atom="https://www.w3.org/2005/Atom"
              xmlns:sword="https://purl.org/net/sword/"
              xmlns:dcterms="https://purl.org/dc/terms/"
-             xmlns:arxiv="https://arxiv.org/schemas/atom/">
+             xmlns:arxiv="http://arxiv.org/schemas/atom/">
       <sword:version>1.3</sword:version>
       <sword:maxUploadSize>10000</sword:maxUploadSize>
       <sword:verbose>true</sword:verbose>
@@ -377,7 +377,7 @@ author’s workspace at arXiv.
       <sword:treatment>stored in author's workspace</sword:treatment>
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <arxiv:primary_category xmlns:arxiv="https://arxiv.org/schemas/atom/"
+      <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
        scheme="https://arxiv.org/terms/arXiv/"
        term="https://arxiv.org/terms/arXiv/cs">Computer Science</arxiv:primary_category>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/........"/>
@@ -400,7 +400,7 @@ message](#errors)
     ?xml version="1.0" encoding="utf-8"?>
     <sword:error xmlns="https://www.w3.org/2005/Atom"
            xmlns:sword="https://purl.org/net/sword/"
-           xmlns:arxiv="https://arxiv.org/schemas/atom/"
+           xmlns:arxiv="http://arxiv.org/schemas/atom/"
            href="https://purl.org/net/sword/error/ErrorChecksumMismatch">
       <author>
         <name>SWORD@arXiv</name>
@@ -582,7 +582,7 @@ physics collection
       <category term="https://arxiv.org/terms/arXiv/physics.hist-ph"
                 scheme="https://arxiv.org/terms/arXiv/"
                 label="Physics - History of Physics"/>
-      <arxiv:primary_category xmlns:arxiv="https://arxiv.org/schemas/atom/"
+      <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
                 scheme="https://arxiv.org/terms/arXiv/" label="Physics - Classical Physics"
                 term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
       <link href="https://arxiv.org/sword-app/edit/........" type="application/pdf" rel="related"/>
@@ -619,7 +619,7 @@ The returned atom entry confirms the acceptance
       <sword:treatment>atom wrapper used to initiate ingestion into arXiv</sword:treatment>
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <arxiv:primary_category xmlns:arxiv="https://arxiv.org/schemas/atom/"
+      <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
          scheme="https://arxiv.org/terms/arXiv/"
          term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
       <category scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
@@ -864,7 +864,7 @@ and the response content is
     <?xml version="1.0" encoding="utf-8"?>
     <sword:error xmlns="https://www.w3.org/2005/Atom"
             xmlns:sword="https://purl.org/net/sword/"
-            xmlns:arxiv="https://arxiv.org/schemas/atom/"
+            xmlns:arxiv="http://arxiv.org/schemas/atom/"
             href="https://purl.org/net/sword/error/ErrorContent">
       <author>
         <name>SWORD@arXiv</name>
@@ -932,7 +932,7 @@ and the full atom entry returned by the server is:
       <sword:noOp>false</sword:noOp>
       <sword:packaging>https://purl.org/net/sword-types/bagit</sword:packaging>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <arxiv:primary_category xmlns:arxiv="https://arxiv.org/schemas/atom/"
+      <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
              scheme="https://arxiv.org/terms/arXiv/"
              term="https://arxiv.org/terms/arXiv/physics">Physics</arxiv:primary_category>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/08050001"/>
@@ -972,7 +972,7 @@ namely the zip file previously deposited and referenced via the URI
       </contributor>
       <contributor>
         <name>Tatsuya Tokunaga</name>
-        <arxiv:affiliation xmlns:arxiv="https://arxiv.org/schemas/atom/">Kyoto Univ.</arxiv:affiliation>
+        <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom/">Kyoto Univ.</arxiv:affiliation>
       </contributor>
       <content type="xhtml">
         <div xmlns="https://www.w3.org/1999/xhtml">SWORD/APP arXiv submission wrapper</div>
@@ -991,11 +991,11 @@ namely the zip file previously deposited and referenced via the URI
                 scheme="https://arxiv.org/terms/arXiv/"
                 label="High Energy Physics - Theory"
                 term="https://arxiv.org/terms/arXiv/hep-th"/>
-      <arxiv:comment xmlns:arxiv="https://arxiv.org/schemas/atom/">24 pages, 2 figures</arxiv:comment>
-      <arxiv:journal_ref xmlns:arxiv="https://arxiv.org/schemas/atom/">Nucl.Phys. B753 (2006) 295-312</arxiv:journal_ref>
-      <arxiv:report_no xmlns:arxiv="https://arxiv.org/schemas/atom/">KUNS-2018</arxiv:report_no>
-      <arxiv:report_no xmlns:arxiv="https://arxiv.org/schemas/atom/">YITP-06-19</arxiv:report_no>
-      <arxiv:doi xmlns:arxiv="https://arxiv.org/schemas/atom/">10.1016/j.nuclphysb.2006.07.013</arxiv:doi>
+      <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom/">24 pages, 2 figures</arxiv:comment>
+      <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom/">Nucl.Phys. B753 (2006) 295-312</arxiv:journal_ref>
+      <arxiv:report_no xmlns:arxiv="http://arxiv.org/schemas/atom/">KUNS-2018</arxiv:report_no>
+      <arxiv:report_no xmlns:arxiv="http://arxiv.org/schemas/atom/">YITP-06-19</arxiv:report_no>
+      <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom/">10.1016/j.nuclphysb.2006.07.013</arxiv:doi>
       <link href="https://arxiv.org/sword-app/edit/08050001" type="application/zip" rel="related"/>
     </entry>
 
@@ -1038,7 +1038,7 @@ The full atom entry response is
       <sword:treatment>atom wrapper used to initiate ingestion into arXiv</sword:treatment>
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <arxiv:primary_category xmlns:arxiv="https://arxiv.org/schemas/atom/"
+      <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
              scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/hep-th"/>
       <category scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/hep-th"/>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/08050007"/>
