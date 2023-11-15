@@ -40,14 +40,14 @@ Robert is a member of the AMS leadership team, and has the overall responsibilit
 Martin heads the Deutsches Elektronen-Synchrotron and European X-Ray Free-Electron Laser libraries including DESY’s institutional repository, open access and publishing house. He holds a doctorate in physics from the university of Hamburg.
 
 
-**Hideaki Takeda (Member, 2023-2026),** representing Japan NII Consortia, Japan
-
 
 **Alex Kohls (Member, 2023-2026),** representing CERN, Switzerland
 
 Alex heads the CERN Scientific Information Service, a central unit for the management and dissemination of the laboratories‘ research output. His responsibilities include the CERN Library and CERN's historical archives as well as a portfolio of institutional and international open science activities, such as SCOAP3. In collaboration with other institutions, Alex‘ team also develops and operates some of the key digital repository solutions for particle physics and participates in international policy efforts. He joined CERN initially as the SCOAP3 Operations Manager coordinating the world’s largest Open Access collaborative over its initial 5 years. 
 Alex holds a degree in business administration and joined CERN with 20 years experience from the financial industry where he worked in various senior roles primarily in operations, controlling, and project management.
 Hideaki Takeda (Member, 2023-2026), representing Japan NII Consortia, Japan
+
+**Hideaki Takeda (Member, 2023-2026),** representing Japan NII Consortia, Japan
 
 **Amberyn Thomas (Member, 2023-2026),** representing the Group of Eight, Australia
 
