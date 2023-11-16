@@ -23,7 +23,6 @@ The editorial committee members serve as consultants to Cornell University and t
 - Steve Minton, ISI  
 - Andrew Odlyzko, U. Minnesota  
 - Michael O'Donnell, U. Chicago  
-- Jerome Saltzer, MIT  
 - Erik Sandewall, Linkoping, Sweden  
 - Stuart Shieber, Harvard  
 - Jeff Ullman, Stanford  
