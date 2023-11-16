@@ -3,6 +3,7 @@
     * [Who we are](about/people/index.md)
     * [Governance](about/governance.md)
           * [Bylaws](about/arXiv_bylaws.md)
+          * [arXiv Advisory Board](about/people/arxiv_advisory_board.md)
           * [Science Advisory Council](about/people/science_advisory_council.md)
           * [Editorial Advisory Council](about/people/editorial_advisory_council.md)
           * [Institutions Advisory Council](about/people/institutions_advisory_council.md)
