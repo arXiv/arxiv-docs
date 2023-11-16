@@ -35,6 +35,7 @@ Registered users may [submit articles](../help/submit.md) to be announced by arX
 
 - [arXiv Staff](people/staff.md)
 - [Leadership Team](people/leadership_team.md)
+- [arXiv Advisory Board](arxiv_advisory_board.md)
 - [Science Advisory Council](people/science_advisory_council.md)
 - [Editorial Advisory Council](people/editorial_advisory_council.md)
 - Section Editorial Committees

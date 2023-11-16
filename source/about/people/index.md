@@ -6,12 +6,14 @@ slug: People
 
 arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by our staff at Cornell University.
 
-**For more information about who is arXiv:**
 
 - [arXiv Leadership Team](leadership_team.md)
 - [arXiv Staff](staff.md)
-- [Moderators](https://arxiv.org/moderators/)
-- [Volunteer Developers](developers.md) 
+
+
+- [arXiv Advisory Board](arxiv_advisory_board.md)
+- [Institutions Advisory Council](institutions_advisory_council.md)
+- [Science Advisory Council](science_advisory_council.md)
 - [Editorial Advisory Council and Section Editorial Committees](editorial_advisory_council.md)
  
     Section Editorial Committees
@@ -24,8 +26,10 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
     - [Electrical engineering and systems science](../../help/eess/index.md#AdvisoryCommittee)
     - [Economics](../../help/econ/index.md#AdvisoryCommittee)
 
+- [Moderators](https://arxiv.org/moderators/)
+- [Volunteer Developers](developers.md) 
 
-- [Institutions Advisory Council](institutions_advisory_council.md)
-- [Science Advisory Council](science_advisory_council.md)
 
-- [Governance](../../about/governance.md) 
+
+
+
