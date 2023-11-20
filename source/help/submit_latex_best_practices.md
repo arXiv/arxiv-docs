@@ -6,17 +6,17 @@ To help authors achieve well formatted HTML, and to avoid errors during conversi
 
 To improve conversion from LaTeX to HTML, use packages that are supported by the LaTeXML converter. [Please view the list of currently supported packages.](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file)
 
-## What if my publisher requires me to use a package that is not supported?
+### What if my publisher requires me to use a package that is not supported?
 
 If the package currently does not have support, we encourage you to reach out to your publisher and ask them to contribute a mapping to HTML for LaTeXML. A ‘mapping’ of LaTeX to HTML is an interpretation that allows the LaTeX converter to successfully translate the LaTeX package into functional HTML. LaTeXML is public domain software and is open to third-party contributions. Publishers can contribute directly to the [github project](https://github.com/brucemiller/LaTeXML/issues), or work with the [LaTeXML team](https://github.com/brucemiller/LaTeXML/blob/master/README.pod) on building support for their materials.
 
-## Request support for your preferred packages
+### Request support for your preferred packages
 
 [Open new Github issue for the LaTeXML team](https://github.com/brucemiller/LaTeXML/issues), or add to an existing issue. 
 
 ## Use Macros that support accessibility
 
-## Use a standardized front matter block
+### Use a standardized front matter block
 
 There are many ways that publishers build their front matter, but most packages follow a standard (if limited) layout such as: 
 
@@ -29,7 +29,7 @@ There are many ways that publishers build their front matter, but most packages 
 ```
 Following a standard layout is one step that can improve how your paper converts to HTML.
 
-## Alt text for images
+### Alt text for images
 
 The popular package [graphicx.sty](https://ctan.org/pkg/graphicx) supports alt text which enhances accessibility by giving screen readers and other assistive technologies a description of the image. The alt style is straightforward to use: 
 ```
