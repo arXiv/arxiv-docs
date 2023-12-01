@@ -8,9 +8,7 @@ scientists and interested readers. Our APIs include our [OAI-PMH
 interface](../../help/oa/index.md), [RSS feeds](../../help/rss.md), the [legacy arXiv API](index.md), [bulk
 data downloads](../../help/bulk_data_s3.md), and [SWORD bulk deposit API](../../help/submit_sword.md).
 Understanding and observing the following terms of use will help us to ensure
-that arXiv continues to be able to fulfill its mission. For more information,
-see arXiv’s [Operating
-Principles](https://confluence.cornell.edu/display/arxivpub/arXiv+Public+Wiki?preview=/340902451/340902455/arXivPrinciplesMarch12.pdf).
+that arXiv continues to be able to fulfill its mission. 
 
 By using arXiv APIs, you are agreeing to the terms and conditions outlined on
 this page.
