@@ -70,7 +70,6 @@
      * [Privacy policy](help/policies/privacy_policy.md)
      * [Identity, affiliation, and registration](help/registerhelp.md)
      * [Submission terms and agreement](help/policies/submission_agreement.md)
-     * [Instructions for submission](help/policies/instructions_for_submission.md)
      * [Paper ownership](help/authority.md)
      * [General submission policies](help/submit.md)
      * [Submission schedule and cutoff time](help/availability.md)

@@ -6,18 +6,19 @@ You can view the subject category descriptions and browse papers from the [main 
 
 The [moderators for cs are listed here](https://arxiv.org/moderators/#cs).
 
-### CoRR Editorial Committee
+### Computer Science Editorial Committee
 
 The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Krzysztof Apt, CWI, Amsterdam  
-- Ron Boisvert, NIST  
+- Ron Boisvert, NIST
+- Thomas Dietterich, University of Oregon (chair) 
 - Carol Hutchins, NYU  
 - Scott Delman, ACM  
 - Jon Doyle, North Carolina State  
 - Ed Fox, Virginia Tech  
 - Lee Giles, Penn State  
-- Joseph Halpern, Cornell (chair)  
+- Joseph Halpern, Cornell  
 - Michael Lesk, Rutgers  
 - Andrew McCallum, U. Massachusetts  
 - Steve Minton, ISI  

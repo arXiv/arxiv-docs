@@ -32,7 +32,6 @@ slug: Help
 - [Submit an Article](submit.md)
 - [Submission schedule and cutoff time](availability.md)
 - [Submission terms and agreement](policies/submission_agreement.md)
-- [Instructions for submission](policies/instructions_for_submission.md)
 - [Replace an Article](replace.md)
 - [Withdraw an Article](withdraw.md)
 - [Add a Journal Reference, DOI or Report Number to an Article](jref.md)
