@@ -3,14 +3,12 @@
 Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF. Though not easy, accessible research papers is a goal within reach.
 { .intro }
 
-## Latest updates
-The HTML papers project has reached a milestone: having completed our targeted public experimental testing phase, *we will be rolling out a beta of HTML papers for all readers later in October.*
+The HTML papers project has launched its beta release providing HTML for nearly all newly submitted papers on arXiv along with a number of older ones. We are gradually backfilling HTML for arXiv's corpus of over 2 million papers over time. Not every paper can be successfully converted, so a small percentage of papers will not have an HTML version. We will work to improve conversion over time.
 
-Initially, only newly submitted papers will have HTML, along with a small number of older ones. We plan to backfill HTML for arXiv's corpus of over 2 million papers over time. Not every paper can be successfully converted, so a small percentage of papers will not have an html version. We will work to improve the conversion rate over time.
-
-The link to the experimental HTML format will appear on abstract pages below the existing PDF download link. In addition, authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
+The link to the HTML format will appear on abstract pages below the existing PDF download link. Authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
 
 The beta rollout is just the beginning. We have a long way to go to improve HTML papers and will continue to solicit feedback from authors, readers, and the entire arXiv community to improve conversions from LaTeX.
+
 
 ## Why "experimental" HTML?
 
@@ -27,7 +25,7 @@ HTML papers on arXiv.org are a work in progress and will sometimes display error
 ## Ways to help
 
 ### 1) Read HTML papers and report issues
-Once this feature is live in October we encourage the community to try out HTML papers in your field:
+We encourage the community to try out HTML papers in your field:
 
 #### Report an issue
 - Go to the abstract page for a paper you are interested in reading.
@@ -41,7 +39,11 @@ Our primary goal for this project is to make papers more accessible, so the focu
 HTML is a different medium and brings its own advantages versus PDF. In addition to being much more compatible with assistive technologies, HTML does a far better job adapting to the characteristics of the device you are reading on, including mobile devices.
 
 ### 2) Help improve the conversion from LaTeX
+If you are an author you can help us improve conversions to HTML by following our guide to [LaTeX Markup Best Practices for Successful HTML Papers](../help/submit_latex_best_practices.md).
+
 If you are a developer and have free development cycles, help us improve conversions! Our collaborators at LaTeXML maintain a [list of issues](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML) and welcome feedback and developer contributions.
+
+If you are a publisher, member of a society, or conference organizer you can help us improve conversions to HTML by reviewing the .cls files your organization recommends to authors for unsupported packages. Providing .cls files that use supported packages is an easy way to support and sow accessibility in the scientific community. 
 
 ## Thank you to our collaborators
 First, we want to share a special thank you to all the scientists with disabilities who have generously shared their insights, expertise, and guidance throughout this project.
