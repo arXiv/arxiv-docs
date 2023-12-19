@@ -39,3 +39,16 @@ On the occasion that arXiv defers a mailing (either for locally celebrated holid
 - Thrs 23 November
 - Mon 25 December
 - Wed 27 December
+
+### 2024 Holidays 
+- Mon 15 January
+- Wed 19 June
+- Thrs 4 July
+- Mon 2 September
+- Thrs 28 November
+- Wed 25 December
+- Thrs 26 December
+- Tues 31 December
+
+### 2025 Holidays 
+- Wed 1 January
