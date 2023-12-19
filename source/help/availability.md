@@ -46,9 +46,9 @@ On the occasion that arXiv defers a mailing (either for locally celebrated holid
 - Thrs 4 July
 - Mon 2 September
 - Thrs 28 November
-- Wed 25 Dec
-- Thrs 26 Dec
-- Tues 31 Dec
+- Wed 25 December
+- Thrs 26 December
+- Tues 31 December
 
 ### 2025 Holidays 
 - Wed 1 January
