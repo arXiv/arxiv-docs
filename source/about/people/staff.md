@@ -11,10 +11,12 @@
 - Charles Frankston, Technical Director
 - Alison Hofer, Documentation Specialist
 - Kim Laine, User & Membership Support Specialist
+- Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
 - Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
+- Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
 - Jake Weiskoff, Project Manager
