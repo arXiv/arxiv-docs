@@ -32,7 +32,7 @@ Tracey was formerly the Associate Director (Digital) at the University of Sheffi
 
 **Robert Harington (Member, 2023-2026),** representing the Society Group
 
-Robert is Associate Executive Director, Publishing at the American Mathematical Society (AMS).
+Robert is Chief Publishing Officer at the American Mathematical Society (AMS).
 Robert is a member of the AMS leadership team, and has the overall responsibility for publishing at the AMS, including books, journals and electronic products. Robert is a "Chef" for the Society for Scholarly Publishing (SSP) blog, The Scholarly Kitchen. Robert serves on the Board of Directors of CHOR Inc., (CHORUS). Robert has worked in non-profit and commercial settings, internationally, with particular experience across the United States, Europe, and Asia (focus on China and Japan). Robert holds a doctorate in biochemistry from the University of Oxford, and a first-class honors degree in chemistry from the University of London.
 
 **Martin Kohler (Member, 2023-2026),** representing Consortium arXiv-DH and HGF, Germany
