@@ -51,8 +51,6 @@
   - [Which AMS-LaTeX versions are supported?](amslatex2000.md)
   - [Do you have the latest Astronomy & Astrophysics class
     file?](aaclass.md)
-  - [Do you support LaTeX hyphenation patterns for languages other than
-    American English?](texhyphenation.md)
   - [Why did my submission fail the automatic TeXing
     procedure?](mistakes.md)
   - [Why doesn't my processed TeX submission look the way I expected
