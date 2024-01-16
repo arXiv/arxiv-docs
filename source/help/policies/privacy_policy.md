@@ -50,7 +50,7 @@ User-controlled subscriptions for announcements of daily papers include instruct
 
 _Article Submission:_
 
-In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/policies/instructions_for_submission; https://arxiv.org/help/moderation  
+In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/moderation  
 
 
 Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.
