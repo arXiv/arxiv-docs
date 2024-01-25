@@ -33,6 +33,8 @@ Changes from the old RSS feed:
  
  - categorization and order of new, cross, replace and replace-cross now matches listings
 
+ - An author list is now provided for each paper
+
 The RSS output complies with the [RSS 2.0 specification](https://www.rssboard.org/rss-specification). RSS 0.91, and 1.0 are no longer supported. Atom format is still supported -- for example [http://rss.arxiv.org/atom/math]().
 
 Looking for search results in an *RSS-like* format? See the [arXiv search
