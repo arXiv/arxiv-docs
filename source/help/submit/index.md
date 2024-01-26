@@ -39,6 +39,7 @@ Accepted submission formats
 (in order of preference):
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](../submit_tex.md)
+    - [(La)TeX Markup Best Practices for Successful HTML Papers](../submit_latex_best_practices.md)
 -   [PDF](../submit_pdf.md)
 -   [HTML with JPEG/PNG/GIF images](../submit_index.md)
 
