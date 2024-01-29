@@ -21,11 +21,11 @@ Changes from the old RSS feed:
 
  - New base URL of rss.arxiv.org, instead of arxiv.org (arxiv.org/rss will redirect to rss.arxiv.org)
 
- - Status page at /feed/status
+ - Status page at [https://rss.arxiv.org/feed/status]()
 
  - New content updated at arXiv since midnight
 
- - Can request multiple categories with plus sign &mdash; for example, `hep-lat+math.C`
+ - Can request multiple categories with plus sign &ndash; for example, `https://rss.arxiv.org/rss/hep-lat+math.CV`
 
  - Limit of 2000 items
  
