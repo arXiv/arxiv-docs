@@ -19,19 +19,17 @@ arXiv RSS feeds.
 
 Changes from the old RSS feed:
 
- - new base URL of rss.arxiv.org, instead of just arxiv.org (arxiv.org/rss will redirect to rss.arxiv.org)
+ - New base URL of rss.arxiv.org, instead of arxiv.org (arxiv.org/rss will redirect to rss.arxiv.org)
 
- - status page at /feed/status
+ - Status page at /feed/status
 
- - new content updated at arxiv midnight
+ - New content updated at arXiv since midnight
 
- - categories are no longer case sensitive, cs.ai==cs.AI==CS.AI==CS.ai
+ - Can request multiple categories with plus sign &mdash; for example, `hep-lat+math.C`
 
- - can request multiple categories with + hep-lat+math.CO
-
- - limit of 2000 items
+ - Limit of 2000 items
  
- - categorization and order of new, cross, replace and replace-cross now matches listings
+ - Categorization and order of new, cross, replace and replace-cross now matches listings
 
  - An author list is now provided for each paper
 
