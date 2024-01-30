@@ -13,6 +13,7 @@
 - Kim Laine, User & Membership Support Specialist
 - Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
+- Mark Nazzaro, Developer
 - Stephanie Orphan, Program Director
 - Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
