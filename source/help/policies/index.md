@@ -9,7 +9,7 @@ Please note this page is a work in progress. We are working towards a comprehens
 - [Paper ownership](../../help/authority.md)
 
 ## Submission Policies
-- [General submission policies](../../help/submit.md)
+- [General submission policies](../../help/submit/index.md)
 - [Submission terms and agreement](submission_agreement.md)
 - [Submission schedule and cutoff time](../../help/availability.md)
 - [Moderation](../../help/moderation/index.md)
