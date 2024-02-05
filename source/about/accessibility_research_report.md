@@ -1048,6 +1048,9 @@ Adding HTML will allow all researchers to experience its benefits, try new workf
 
 It is not an easy goal, but it is an achievable one. And because of arXiv’s reach across many fields and control over the submission pipeline we are positioned to leverage HTML in an impactful way.
 
+## Acknowledgements
+This material is based upon work supported by the National Science Foundation under Award No. OAC-2311521 and by NASA under award No. 20-OSTFL20-0053. Any opinions, findings and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation or of NASA.
+
 ## References
 <div class="a11y-citations" markdown='1'>
 <div id="1"></div>
