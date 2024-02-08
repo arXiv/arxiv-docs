@@ -57,27 +57,17 @@ remove it from this status, and return it to [incomplete](submit_status.md#incom
 On Hold
 -------
 
-Your submission was identified by arXiv staff or
-[moderators](moderation/index.md) as needing further attention.
+Your submission was identified by arXiv staff or [moderators](moderation/index.md) as needing further attention.
 
 Submissions may be put on hold for a variety of reasons, ranging from
-questions about proper classification, pending moderator approval,
-presentation issues, copyrighted PDF, etc., to editorial concerns. Most
+questions about proper classification, presentation issues, copyrighted PDF, or editorial concerns. Most
 of these do not require any further input from the submitter and will be
 dealt with in due course. arXiv urges submitters to be patient. Due to
-the large volume of submissions, it may take several days before a
-resolution is reached.
+the large volume of submissions, it may take several days before a resolution is reached.
 
-Note that [oversize](sizes.md) submissions are automatically put on
-hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv User Support team](contact.md#contacting-arxiv).
+Authors *must not* create a new submission with the same content when a pending submission is on hold. This will also lead to further delays.
 
-Submissions in this status will not expire. Authors *must not* create a
-new submission with the same content when a pending submission is on
-hold.
-
-Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting the User Support team](contact.md#contacting-arxiv).
+Submissions in this status will not expire. 
 
 <span id="expired"></span>
 
