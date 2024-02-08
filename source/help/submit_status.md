@@ -68,16 +68,10 @@ dealt with in due course. arXiv urges submitters to be patient. Due to
 the large volume of submissions, it may take several days before a
 resolution is reached.
 
-Note that [oversize](sizes.md) submissions are automatically put on
-hold, and this is one particular circumstance in which submitters should
-follow up with [arXiv User Support team](contact.md#contacting-arxiv).
+Submissions in this status will not expire. 
 
-Submissions in this status will not expire. Authors *must not* create a
-new submission with the same content when a pending submission is on
-hold.
+Authors *must not* create a new submission with the same content when a pending submission is on hold as this will lead to further delays and deletion of duplicate content.
 
-Please be sure to include the submission identifier of the form
-*submit/NNNNNNN* when [contacting the User Support team](contact.md#contacting-arxiv).
 
 <span id="expired"></span>
 
