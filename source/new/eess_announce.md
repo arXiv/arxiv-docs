@@ -44,7 +44,7 @@ respective areas. We anticipate that additional categories will be added and/or
 cross-listed under EESS -- from information theory, control, and dynamical systems 
 in the foreseeable future. 
 
-Please see the descriptions of the subject categories and access papers from <a href="/archive/eess">https://arxiv.org/archive/eess</a>. New readers and authors to arXiv should see our help pages for [registration](../help/registerhelp.md), [submission](../help/submit.md) and [subscription](../help/subscribe.md).
+Please see the descriptions of the subject categories and access papers from <a href="/archive/eess">https://arxiv.org/archive/eess</a>. New readers and authors to arXiv should see our help pages for [registration](../help/registerhelp.md), [submission](../help/submit/index.md) and [subscription](../help/subscribe.md).
 
 We hope that this new archive will facilitate the rapid exchange of exciting signals, 
 systems, communication, and information theory ideas; catalyze cross-disciplinary 

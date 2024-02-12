@@ -71,7 +71,7 @@
      * [Identity, affiliation, and registration](help/registerhelp.md)
      * [Submission terms and agreement](help/policies/submission_agreement.md)
      * [Paper ownership](help/authority.md)
-     * [General submission policies](help/submit.md)
+     * [General submission policies](help/submit/index.md)
      * [Submission schedule and cutoff time](help/availability.md)
      * [Content Moderation](help/moderation/index.md)
      * [License and copyright](help/license/index.md)
