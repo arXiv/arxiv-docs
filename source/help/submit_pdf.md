@@ -7,7 +7,7 @@ guidelines:
     efficiently include photographs imported in JPEG format. We do not
     permit submissions that include multiple PDF files, or PDF files in
     combination with other file types.
--   You must ensure that all non-standard fonts are included and that
+-   You must ensure that all standard and non-standard fonts are included and that
     outline (TrueType/Type1) rather than bitmap (Type3) fonts are used.
     In Adobe Distiller and many other products this is referred to as
     *compatibility mode* and will ensure that the PDF document is as
@@ -51,6 +51,19 @@ one of these free conversion utilities:
 
 (Please contact us if this information is out of date or if you can
 suggest other free tools that are better.)
+
+<span id="fonts"></span>Fonts within PDF
+-------------------------------------------------------
+
+**Caution when using pre-unicode fonts**  
+In order to increase the accessibility of our papers, we attempt to detect PDFs that contain non-standard character encoding for ligatures. Ligatures are when a sequence of characters are combined into a single character or glyph to improve their appearance. Characters that have features that would visually run into one another when used next to each other in the process of typesetting, such as ff, ffi, ffl, fi and fl, are commonly converted to ligatures.
+
+![Example of ligatures](../about/images/ligatureExampleResized.png){mkd-border alt='The letters f and i are displayed as individual characters typeset next to one another and then displayed as a ligature combined into one character. The letters f and l are displayed as individual characters typeset next to one another and then displayed as a ligature combined into one character.'}
+
+Ligatures in PDFs may also not encode properly which may cause the ligatures not to display correctly or not at all. This can impact the ability of assistive technology to read or pronounce words correctly. You can check your PDF by asking a screen reader (there is one built into the Microsoft Edge browser) to read your paper aloud; if words like "different", "first", or "official" are pronounced incorrectly, your PDF uses a font which has this issue. Another way to check your paper is by copying and pasting sections of text from the PDF into a text editor, and look for missing strings such as “ff”, “fi”, “fl”, etc.  If you enable spell checking in your text editor, words with missing glyphs should be highlighted as spelling errors.
+
+**Embedding non-standard fonts**  
+Fonts used in PDF files may be embedded or non-embedded. PDF viewers silently attempt to render non-embedded fonts, potentially resulting in documents looking different for different users. Non-embedded fonts, especially fonts with non-standard characters,  may render differently on different machines. To avoid errors in text rendering, we recommend using PDF tools which embed all of the fonts used in your PDF. arXiv may reject PDF submissions because of non-standard, non-embedded fonts. For more information, see [https://helpx.adobe.com/acrobat/using/pdf-fonts.html](https://helpx.adobe.com/acrobat/using/pdf-fonts.html).
 
 <span id="readable"></span>PDF must be machine readable
 -------------------------------------------------------
