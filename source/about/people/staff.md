@@ -15,6 +15,7 @@
 - Brian Maltzan, Backend Python Developer
 - Mark Nazzaro, Developer
 - Stephanie Orphan, Program Director
+- Norbert Preining, Principal Software Engineer
 - Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
 - Jessica Schriver, Production Editor
