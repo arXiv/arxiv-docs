@@ -44,7 +44,7 @@ Registered users may [submit articles](../help/submit/index.md) to be announced 
 	- [Computer science (CoRR)](../help/cs/index.md)
 	- [Quantitative biology](../help/q-bio/index.md#AdvisoryCommittee)
 	- [Quantitative finance](../help/q-fin/index.md#AdvisoryCommittee)
-	- [Statistics](../help/statistics/index.md#AdvisoryCommittee)
+	- [Statistics](../help/stat/index.md#AdvisoryCommittee)
 	- [Electrical engineering and systems science](../help/eess/index.md#AdvisoryCommittee)
 	- [Economics](../help/econ/index.md#AdvisoryCommittee)
 - [Institutions Advisory Council](people/institutions_advisory_council.md)
