@@ -232,7 +232,7 @@ More information about the service outage is available [here](https://itservicea
 
 02 Jan 2018
 
-The [1991-2017 submission rate statistics](../help/stats/2017_by_area/index.md) are now available.
+The [1991-2017 submission rate statistics](../help/usage_data/2017_by_area/index.md) are now available.
 
 #### Nov 2017
 
@@ -362,7 +362,7 @@ Our sincere gratitude to outgoing SAB member Karen Vogtmann. Thank you from all 
 
 02 Jan 2017
 
-The [1991-2016 submission rate statistics](../help/stats/2016_by_area/index.md) are now available.
+The [1991-2016 submission rate statistics](../help/usage_data/2016_by_area/index.md) are now available.
 
 #### Nov 2016
 

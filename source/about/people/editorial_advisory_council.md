@@ -39,6 +39,6 @@ Each arXiv section has an editorial committe that is overseen by the  Editorial 
 - [Computer science (CoRR)](../../help/cs/index.html)
 - [Quantitative biology](../../help/q-bio/index.html#AdvisoryCommittee)
 - [Quantitative finance](../../help/q-fin/index.html#AdvisoryCommittee)
-- [Statistics](../../help/statistics/index.html#AdvisoryCommittee)
+- [Statistics](../../help/stat/index.html#AdvisoryCommittee)
 - [Electrical engineering and systems science](../../help/eess/index.html#AdvisoryCommittee)
 - [Economics](../../help/econ/index.html#AdvisoryCommittee)
