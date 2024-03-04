@@ -9,7 +9,7 @@ RSS 2.0 and ATOM news feed pages are available for all active subject areas with
 - [arXiv feed status page](https://rss.arxiv.org/feed/status)
 
 ## Subscribe by category
-The URL for each category (whole archive or subject class) is constructed by appending the category name to [http://rss.arxiv.org/rss/]() or [http://rss.arxiv.org/atom/](). For example, the following URLs are for the RSS and ATOM pages for the Computer Science archive:
+The URL for each category (whole archive or subject class) is constructed by appending the category name to [https://rss.arxiv.org/rss/]() or [https://rss.arxiv.org/atom/](). For example, the following URLs are for the RSS and ATOM pages for the Computer Science archive:
 
 - RSS:  [https://rss.arxiv.org/rss/cs](https://rss.arxiv.org/rss/cs)
 - ATOM: [https://rss.arxiv.org/atom/cs](https://rss.arxiv.org/atom/cs)
