@@ -9,16 +9,16 @@ RSS 2.0 and ATOM news feed pages are available for all active subject areas with
 - [arXiv feed status page](https://rss.arxiv.org/feed/status)
 
 ## Subscribe by category
-The URL for each category (whole archive or subject class) is constructed by appending the category name to [http://rss.arxiv.org/rss/]() or [http://rss.arxiv.org/atom/](). For example, the following URLs are for the RSS and ATOM pages for the Computer Science archive:
+The URL for each category (whole archive or subject class) is constructed by appending the category name to [https://rss.arxiv.org/rss/]() or [https://rss.arxiv.org/atom/](). For example, the following URLs are for the RSS and ATOM pages for the Computer Science archive:
 
-- RSS:  [http://rss.arxiv.org/rss/cs](http://rss.arxiv.org/rss/cs)
-- ATOM: [http://rss.arxiv.org/atom/cs](http://rss.arxiv.org/atom/cs)
+- RSS:  [https://rss.arxiv.org/rss/cs](https://rss.arxiv.org/rss/cs)
+- ATOM: [https://rss.arxiv.org/atom/cs](https://rss.arxiv.org/atom/cs)
 
 ## Subscribe by individual subject class
 News feeds are available for individual subject classes of archives that have subject classes. A specific subject class is selected by appending a period (.) and the subject class letters to the URL. For example, the following URLs are for the RSS and ATOM pages for  Mathematics -- Quantum Algebra:
 
-- RSS:  [http://rss.arxiv.org/rss/math.QA](http://rss.arxiv.org/rss/math.QA)
-- ATOM: [http://rss.arxiv.org/atom/math.QA](http://rss.arxiv.org/atom/math.QA)
+- RSS:  [https://rss.arxiv.org/rss/math.QA](https://rss.arxiv.org/rss/math.QA)
+- ATOM: [https://rss.arxiv.org/atom/math.QA](https://rss.arxiv.org/atom/math.QA)
 
 ## Subscribe by multiple categories
 Request multiple categories by appending a plus sign and another category to your end of your URL. Limit 2000 results.
