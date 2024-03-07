@@ -106,7 +106,7 @@ The cloud build YAML files combined with CloudBuild triggers in
 
 PRs that will merge to the branch `develop` on the github repo
 `arxiv-docs` will deploy previews at
-https://storage.googleapis.com/arxiv-docs-prs/YOUR_PR_NAME/about/index.html
+https://storage.googleapis.com/arxiv-docs-prs/YOUR_BRANCH_NAME/about/index.html
 
 Note that the home page specifically does not exist, but any other page can be accessed with its URL path.
 This preview can been seen by the public, everything in the github
