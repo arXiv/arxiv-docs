@@ -111,7 +111,7 @@ If you disagree with a moderation decision, you may appeal. Please be sure to ca
 <span id="who-are-the-moderators"></span>
 ## Who are arXiv moderators?
 
-arXiv moderators are volunteer subject matter experts with terminal degrees in their field. They evaluate each submission’s content and category, following arXiv policies. [arXiv moderators](https://arxiv.org/moderators) are approved by their discipline-level [advisory committees](../../about/people/scientific_ad_board.md#advisory_committees) and by arXiv staff.
+arXiv moderators are volunteer subject matter experts with terminal degrees in their field. They evaluate each submission’s content and category, following arXiv policies. [arXiv moderators](https://arxiv.org/moderators) are approved by their discipline-level [advisory committees](../../about/people/editorial_advisory_council.md#section-editorial-committees) and by arXiv staff.
 
 Moderation is a professional responsibility. Moderators consider the submissions to arXiv as privileged information, as they would with a paper being refereed for a journal. We respect the confidentiality of the process and refrain from sharing information gathered during submission review.
 
