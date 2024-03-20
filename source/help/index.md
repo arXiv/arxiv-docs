@@ -29,7 +29,7 @@ slug: Help
 - [Subscribe to E-Mail Listings](subscribe.md)
 
 ## Submission and Revision
-- [Submit an Article](submit.md)
+- [Submit an Article](submit/index.md)
 - [Submission schedule and cutoff time](availability.md)
 - [Submission terms and agreement](policies/submission_agreement.md)
 - [Replace an Article](replace.md)
