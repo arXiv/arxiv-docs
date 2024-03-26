@@ -1,6 +1,6 @@
 # Volunteer Moderators
 
-(Content moderation)[/help/moderation/index.html] ensures that arXiv is a valuable resource for researchers. Submissions are checked that they appear in relevant subject areas and are of likely interest to professional researchers. arXiv relies on hundreds of volunteers, who are subject matter experts, to achieve its mission.
+(Content moderation)[/help/moderation/index.html] ensures that arXiv is a valuable resource for researchers. arXiv moderators check that submissions appear in relevant subject areas and are of likely interest to professional researchers. arXiv relies on hundreds of volunteers, who are subject matter experts, to achieve its mission.
 
 ## What moderators do
 
@@ -10,7 +10,7 @@ Moderators are not referees and are not doing detailed checks or providing feedb
 
 ## Benefits of moderation are:
 
-- Keeping up to date with newest research in the field
+- Keeping up to date with the newest research in the field
 - Service to your colleagues in support of arXiv’s mission
 - Recognition for that service may count towards professional responsibilities
 - Community - our moderators, advisory board members, and staff are a collegial, engaged, and fun group
