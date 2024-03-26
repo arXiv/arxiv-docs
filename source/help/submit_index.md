@@ -56,6 +56,7 @@ HTML is:
 
     <html>
     <head>
+    <meta charset="UTF-8">
     <title>UAI 2010</title>
     </head>
     <body>
@@ -125,6 +126,7 @@ leading whitespace. For example:
 
     <html>
     <head>
+    <meta charset="UTF-8">
     <title>AI World Conference 2003</title>
     </head>
     <body>
