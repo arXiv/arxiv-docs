@@ -4,9 +4,9 @@
 
 ## What moderators do
 
-Moderators provide quick checks on submissions. If a submission looks acceptable, the moderator does nothing and the submission gets posted. The vast majority of submissions meet the requirements set by arXiv and can be posted quickly. Only if there is an issue of classification or scholarly content does the moderator need to take action either to change the classification or indicate an issue.
+Moderators provide quick checks on submissions. If a submission looks acceptable, the moderator does nothing and the submission gets posted. The vast majority of submissions meet the requirements set by arXiv and can be posted quickly. Only if there are issues related to classification or the scholarly nature of the content does the moderator need to take action either to change the classification or indicate an issue.
 
-Moderators are not referees and are not doing detailed checks or providing feedback. A typical day may include 10 papers to screen and may take about 10 minutes of time.
+Moderators are not referees and are not doing detailed checks or providing feedback. A typical day may include screening 10 papers and may take about 10 minutes of time.
 
 ## Benefits of moderation are:
 
@@ -27,4 +27,4 @@ Moderation of arXiv is a team effort, with multiple moderators in each category 
 
 ## Current moderators
 
-All of [arXiv moderators](https://arxiv.org/moderators) are approved by their [Section Editorial Committees](../../about/people/editorial_advisory_council.md#section-editorial-committees) and by arXiv staff.
+All [arXiv moderators](https://arxiv.org/moderators) are approved by their [Section Editorial Committees](../../about/people/editorial_advisory_council.md#section-editorial-committees) and by arXiv staff.
