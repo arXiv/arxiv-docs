@@ -84,13 +84,12 @@ arXiv encourages dialogue and debate about scientific matters. Normally this occ
 
 Requirements for Comments and Replies:
 
-- "Comments-on" content type must have a Title: "Comment(s) on '<title-of-original-paper>'" and the Comments field must contain "comment(s) on <arXiv-ID>".
-- A response from the original authors is always permitted and must have a Title "Reply to comment(s) on '<title-of-original-paper>'" and the Comments field must contain "reply to comment(s) on <arXiv-ID>" in the comment field.
+- "Comments-on" content type must have a Title: "Comment(s) on '<title-of-original-paper>'" and the metadata Comments field must contain "comment(s) on <arXiv-ID>".
+- A response from the original authors is always permitted and must have a Title: "Reply to comment(s) on '<title-of-original-paper>'" and the Comments field must contain "reply to comment(s) on <arXiv-ID>" in the comment field.
 - In rare cases where the original paper is not on arXiv (see content rules) the arXiv-ID is replaced by a DOI.
-- A further chain of responses and counter-responses is allowed as version updates of the original two above; these will not be accepted as new papers with new arXiv-IDs. A given author or co-author may submit only one Comment on a particular paper. Any subsequent issues the author wishes to raise must be done through version updates of the original Comment.
+- A chain of continued responses and counterresponses is allowed only as new versions of the initial Comment and Reply; these will not be accepted as new papers with new arXiv-IDs. A given author or co-author may submit only one Comment on a particular paper. Any subsequent issues the author wishes to raise must be done through version updates of the original Comment.
 
-  * Using a replacement to create a new version of under the same arXivID could either be done by:
-  * posting just the new work with a note in the Comments metadata explaining to readers major differences between versions. References to versions in the form of arXiv:YYMM.NNNNNvX that are included in the Comments metadata will automatically link to those versions. If you need help correcting Comments metadata after posting let [our user support team know](http://arxiv.org/support/general_help).
-  * combine the new work and previous versions into a single document that has a cover page that describes each section and can clearly indicate to readers the differences in authorship between sections. In this case all authors can be included in the metadata.
-
+  * A replacement can be used two ways to create a new version under the same arXiv-ID:
+  * Submit the new work as a replacement and include a note to readers in the metadata Comments field explaining the major differences in between versions. References to versions in the form of arXiv:YYMM.NNNNNvX that are included in the Comments metadata will automatically link to those versions. If you need help correcting the metadata Comments field after posting let [our user support team know](http://arxiv.org/support/general_help).
+  * Combine the new work and previous versions into a single document. If the authorship has changed across versions, include a cover page that clearly indicates to readers which authors were involved in each section of the work. In this case, all authors can be included in the metadata Author field for the most recent version.
 
