@@ -84,9 +84,9 @@ arXiv encourages dialogue and debate about scientific matters. Normally this occ
 
 Requirements for Comments and Replies:
 
-- "Comments-on" content type must have a Title: "Comment(s) on '<title-of-original-paper>'" and the metadata Comments field must contain "comment(s) on <arXiv-ID>".
-- A response from the original authors is always permitted and must have a Title: "Reply to comment(s) on '<title-of-original-paper>'" and the Comments field must contain "reply to comment(s) on <arXiv-ID>" in the comment field.
-- In rare cases where the original paper is not on arXiv (see content rules) the arXiv-ID is replaced by a DOI.
+- "Comments-on" content type must have a Title: "Comment(s) on 'title-of-original-paper'" and the metadata Comments field must contain "comment(s) on arXiv-ID-of-the-original-paper".
+- A response from the original authors is always permitted and must have a Title: "Reply to comment(s) on 'title-of-original-paper'" and the Comments metadata field must contain "reply to comment(s) on arXiv-ID".
+- In rare cases where the original paper is not on arXiv (see content rules) the arXiv-ID is replaced by the external DOI.
 - A chain of continued responses and counterresponses is allowed only as new versions of the initial Comment and Reply; these will not be accepted as new papers with new arXiv-IDs. A given author or co-author may submit only one Comment on a particular paper. Any subsequent issues the author wishes to raise must be done through version updates of the original Comment.
 
   * A replacement can be used two ways to create a new version under the same arXiv-ID:
