@@ -1,6 +1,6 @@
 # Volunteer Moderators
 
-(Content moderation)[/help/moderation/index.html] ensures that arXiv is a valuable resource for researchers. arXiv moderators check that submissions appear in relevant subject areas and are of likely interest to professional researchers. arXiv relies on hundreds of volunteers, who are subject matter experts, to achieve its mission.
+[Content moderation](/help/moderation/) ensures that arXiv is a valuable resource for researchers. arXiv moderators check that submissions appear in relevant subject areas and are of likely interest to professional researchers. arXiv relies on hundreds of volunteers, who are subject matter experts, to achieve its mission.
 
 ## What moderators do
 
