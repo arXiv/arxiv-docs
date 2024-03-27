@@ -17,7 +17,7 @@ The editorial committee members serve as consultants to Cornell University and t
 - [Angela Gibney](https://www.angelagibney.org/)
 - [Paul Gunnells (chair)](http://people.math.umass.edu/~gunnells/)
 - [Alex Iosevich](http://www.math.rochester.edu/people/faculty/iosevich/) 
-- [Greg Kuperberg (chair)](http://www.math.ucdavis.edu/~greg/)
+- [Greg Kuperberg](http://www.math.ucdavis.edu/~greg/)
 - [David R. Morrison](http://www.math.ucsb.edu/~drm/)
 
 ## Historical notes
