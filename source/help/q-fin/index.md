@@ -26,10 +26,6 @@ Jean-Philippe Bouchaud
 
 #### Advisory committee:
 
-Peter Carr
-:   Global Head of Market Modeling, Morgan Stanley & Co.  
-    Director of Math Finance Program, NYU Courant Institute
-
 J. Doyne Farmer
 :   Professor, Santa Fe Institute  
     Founder, Prediction Company
