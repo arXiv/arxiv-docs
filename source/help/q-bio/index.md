@@ -12,4 +12,4 @@ The [moderators for q-bio are listed here](https://arxiv.org/moderators#q-bio#q-
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-*   [Ralf Bundschuh](http://bioserv.mps.ohio-state.edu/~rbund/) (Ohio State): **coordinator and appellate moderator**.
+- Ralf Bundschuh, Ohio State (chair)

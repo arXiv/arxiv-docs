@@ -11,8 +11,8 @@ The [moderators for are listed here](https://arxiv.org/moderators#eess).
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-- Chair: Jarvis Haupt, University of Minnesota
-- Al Bovik, U. Texas Austin
-- Yonina Eldar, Technion
-- Babab Hassibi, Caltech
-- Robert Heath, U. Texas Austin
+- Jarvis Haupt, University of Minnesota (chair)
+- Al Bovik, University of Texas, Austin
+- Yonina Eldar, Weizmann Institute of Science
+- Babak Hassibi, Caltech
+- Robert Heath, University of Texas, Austin

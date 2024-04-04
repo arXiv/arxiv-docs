@@ -12,13 +12,13 @@ The [moderators for math are listed here](https://arxiv.org/moderators#math#math
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-- [Doug Arnold](http://www.ima.umn.edu/~arnold/)
-- [Ioana Dumitriu](http://www.math.washington.edu/~dumitriu/)
-- [Angela Gibney](https://www.angelagibney.org/)
-- [Paul Gunnells (chair)](http://people.math.umass.edu/~gunnells/)
-- [Alex Iosevich](http://www.math.rochester.edu/people/faculty/iosevich/) 
-- [Greg Kuperberg](http://www.math.ucdavis.edu/~greg/)
-- [David R. Morrison](http://www.math.ucsb.edu/~drm/)
+- Paul Gunnels, University of Massachusetts, Amherst (chair)
+- Doug Arnold, University of Minnesota
+- Ioana Dumitriu, University of California, San Diego
+- Angela Gibney, University of Pennsylvania
+- Alex Iosevich, University of Rochester
+- Greg Kuperberg, University of California, San Diego
+- David R. Morrison, University of California, Santa Barbara
 
 ## Historical notes
 
