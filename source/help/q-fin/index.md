@@ -14,28 +14,8 @@ The [moderators are listed here](https://arxiv.org/moderators#q-fin).
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-#### Coordinators:
-
-Arthur M. Berd
-:   Founder and CEO, General Quantitative  
-    Editor-in-Chief, Journal of Investment Strategies
-
-Jean-Philippe Bouchaud
-:   Chairman and Chief Scientist, Capital Fund Management  
-    Editor-in-Chief, Quantitative Finance
-
-#### Advisory committee:
-
-J. Doyne Farmer
-:   Professor, Santa Fe Institute  
-    Founder, Prediction Company
-
-Robert A. Jarrow
-:   Ronald and Susan Lynch Professor of Investment Management, Johnson
-    School of Business, Cornell University  
-    Co-Founder and Board Member, Kamakura Corp
-
-Alex Lipton
-:   Managing Director, Mathematical Finance Executive, Bank of America
-    Merrill Lynch  
-    Visiting Professor, Department of Mathematics, Imperial College
+- Arthur M. Berd, General Quantitative (co-chair)
+- Jean-Philippe Bouchaud, Capital Fund Management (co-chair)
+- J. Doyne Farmer, University of Oxford
+- Robert A. Jarrow, Cornell University
+- Alex Lipton, Abu Dhabi Investment Authority

@@ -10,20 +10,20 @@ The [moderators for cs are listed here](https://arxiv.org/moderators/#cs).
 
 The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-- Krzysztof Apt, CWI, Amsterdam  
-- Ron Boisvert, NIST
-- Thomas Dietterich, University of Oregon (chair) 
-- Carol Hutchins, NYU  
-- Scott Delman, ACM  
-- Jon Doyle, North Carolina State  
-- Ed Fox, Virginia Tech  
-- Lee Giles, Penn State  
-- Joseph Halpern, Cornell  
-- Michael Lesk, Rutgers  
-- Andrew McCallum, U. Massachusetts  
-- Steve Minton, ISI  
-- Andrew Odlyzko, U. Minnesota  
-- Michael O'Donnell, U. Chicago  
-- Erik Sandewall, Linkoping, Sweden  
-- Stuart Shieber, Harvard  
-- Jeff Ullman, Stanford  
+- Thomas Dietterich, University of Oregon (chair)
+- Krzysztof Apt, Centrum Wiskunde & Informatica, and University of Amsterdam
+- Ron Boisvert, National Institute of Standards and Technology
+- Carol Hutchins, New York University
+- Scott Delman, Association for Computing Machinery
+- Jon Doyle, North Carolina State
+- Ed Fox, Virginia Tech
+- Lee Giles, The Pennsylvania State University
+- Joseph Halpern, Cornell University
+- Michael Lesk, Rutgers University
+- Andrew McCallum, University of Massachusetts, Amherst
+- Steve Minton, InferLink
+- Andrew Odlyzko, University of Minnesota
+- Michael O'Donnell, University of Chicago
+- Erik Sandewall, Linköping University, Sweden
+- Stuart Shieber, Harvard University
+- Jeff Ullman, Stanford University
