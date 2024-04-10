@@ -24,36 +24,35 @@ group of edits or changes, please use a process like git flow. If you are not
 familiar with this ask a dev or an admin to help you.
 
 ### 1st: Make your edit on github
-To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
+- To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
+
+- There click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
 ![gzip page](non-info/help-info-page.png)
 
-There click on the pencil icon to edit the page. That will take you to the corresponding page in github.
+- On the page you want to edit in github, click the dropdown arrow next to the pencil and select `Edit in place` and you can edit the page contents right in github.
+
+- After you have made changes, click preview to see how it will look when completed. 
+**Please note:** There are slight differences between the markdown we use and what github uses.
 
 ![gzip page](non-info/help-github1.png)
 
-There click "edit" and you can edit contents of the page in github. Once you
-have made changes you can click preview to see how it will look when completed
-There are slight differences between the markdown we use and what
-github uses.
+- Once you are happy with your changes you can save by clicking on the blue `Commit changes` button in the upper right hand corner.
+Commit is the term github and git use for saving. 
+
+- Add a brief note in the first text area summarizing your edit. You may add longer
+note in the larger text area if you have more to say about your changes.
 
 ![gzip page](non-info/help-github2.png)
 
-Once you are happy with your changes you can save the by going to the bottom of
-the edit and "Commit changes". Commit is the term github and git use for
-saving. You should put a brief note in the first text area. You may add longer
-note in the larger text area if you have more to say about your changes. Then
-you can commit your changes to the branch `develop`.
+- Next commit your changes to the branch `develop`.
 
-The above step will not put your changes live on info.arxiv.org. At that point
-you have only saved the edit in github.
+- **Please note:** The above step will not put your changes live on info.arxiv.org. At this point you have only saved the edit in github.
 
-If you have more changes that are grouped with this change make them in github
-and commit them.
+If you have more changes to make at this time you may make and commit them in github. The additional changes you commit will be grouped together when you make your Pull Request in the next step.
 
 ### 2nd: Make a Pull Request from `develop` to `master`
-Once you have done all the changes you wanted you need to get your changes
-reviewed. This is done by "creating a PR." PR stands for pull request.
+Once you have done all the changes you wanted you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
 To make a new PR click the "Pull Requests" tab on the top of a github page. Then
 click the green "New Pull Request." You want changes from the branch `develop` to get put
