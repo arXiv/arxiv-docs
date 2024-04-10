@@ -52,12 +52,14 @@ note in the `Extended description` area if you have more to say about your chang
 - Create a `new branch for this request and start a pull request` will be selected
 - Name your branch after your JIRA ticket to link it. Ex arxivce-1503-update-arxiv-docs-readme
 
+![gzip page](05-help-newBranch.png)
+
 - **Please note:** The above step will only put your changes on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
 
 If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your Pull Request in the next step.
 
 ### 2nd: Make a Pull Request from `develop` to `master`
-Once you have done all the changes you wanted you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
+Once you have completed all of your changes you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
 To make a new PR click the "Pull Requests" tab on the top of a github page. Then
 click the green "New Pull Request." You want changes from the branch `develop` to get put
