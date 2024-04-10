@@ -26,11 +26,11 @@ familiar with this ask a dev or an admin to help you.
 ### 1st: Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
-- There click on the pencil icon to edit the page. That will take you to the corresponding page in github.
+- Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
 ![gzip page](02-help-info-page.png)
 
-- On the page you want to edit in github, click the dropdown arrow next to the pencil and select `Edit in place` and you can edit the page contents right in github.
+- On the page you want to edit in github, click the pencil to edit the page contents right in github.
 
 ![gzip page](01-help-github1a.png)
 
@@ -39,38 +39,42 @@ familiar with this ask a dev or an admin to help you.
 
 ![gzip page](03-help-preview-github.png)
 
-- Once you are happy with your changes you can save by clicking on the blue `Commit changes` button in the upper right hand corner.
+- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
 Commit is the term github and git use for saving.
 
 ![gzip page](04-help-commit-github.png)
 
-- Add a brief note in the `Commit message` area summarizing your edit. You may add longer
+- Add a brief note in the "Commit message" area summarizing your edit. You may add longer
 note in the `Extended description` area if you have more to say about your changes.
 
 - Make sure you have an email associated with your commits.
 
-- Create a `new branch for this request and start a pull request` will be selected
-- Name your branch after your JIRA ticket to link it. Ex arxivce-1503-update-arxiv-docs-readme
+- Create a "new branch for this request and start a pull request" will be selected
+- Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`
 
 ![gzip page](05-help-newBranch.png)
 
 - **Please note:** The above step will only put your changes on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
 
-If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your Pull Request in the next step.
+If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2nd: Make a Pull Request from `develop` to `master`
 Once you have completed all of your changes you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-To make a new PR click the "Pull Requests" tab on the top of a github page. Then
-click the green "New Pull Request." You want changes from the branch `develop` to get put
-into the branch called `master`.
+- To make a new PR click the "Pull Requests" link in the header of the github page.
 
-![gzip page](non-info/help-pr1.png)
+- Your pull request will appear at the top of the page in a yellow box. Click on the blue button "Compare & pull request".
 
-From there you can give your PR a title and add a note about it. Also add
-reviewers on the left. Then click the green "Create Pull Request"
+![gzip page](07-help-comparePR.png)
 
-Github will email all the reviewers.
+- Add a title for your pull request and a description if the title is not self explanatory.
+- To the right, click on the gear icon to the right of "Reviewers"
+- A dropdown will appear and you can request people to review your PR.
+
+![gzip page](08-help-openPR.png)
+
+- After selecting reviewers, click the blue "Create pull request" button.
+- Reviewers will receive an email from Github prompting them to review your PR.
 
 ### 3rd: Merge the PR to `master` to Deploy Changes
 
