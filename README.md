@@ -28,21 +28,21 @@ familiar with this ask a dev or an admin to help you.
 
 - Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
-![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)
+<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
 
 - On the page you want to edit in github, click the pencil to edit the page contents right in github.
 
-![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)
+<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
 
 - After you have made changes, click preview to see how it will look when completed. 
-**Please note:** There are slight differences between the markdown we use and what github uses.
+**Please note:** Github uses "Github flavored markdown" which is different from the markdown that we use to create our documentation. There may be small variation in how the markdown appears due to these differences.
 
-![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)
+<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
 
 - Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
 Commit is the term github and git use for saving.
 
-![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)
+<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd>
 
 - Add a brief note in the "Commit message" area summarizing your edit. You may add longer
 note in the `Extended description` area if you have more to say about your changes.
@@ -52,7 +52,7 @@ note in the `Extended description` area if you have more to say about your chang
 - Create a "new branch for this request and start a pull request" will be selected
 - Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`
 
-![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)
+<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
 
 - **Please note:** The above step will only put your changes on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
 
@@ -65,13 +65,13 @@ Once you have completed all of your changes you need to get your changes reviewe
 
 - Your pull request will appear at the top of the page in a yellow box. Click on the blue button "Compare & pull request".
 
-![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd>
 
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers"
 - A dropdown will appear and you can request people to review your PR.
 
-![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)
+<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
 
 - After selecting reviewers, click the blue "Create pull request" button.
 - Reviewers will receive an email from Github prompting them to review your PR.
