@@ -24,47 +24,57 @@ group of edits or changes, please use a process like git flow. If you are not
 familiar with this ask a dev or an admin to help you.
 
 ### 1st: Make your edit on github
-To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
+- To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
-![gzip page](non-info/help-info-page.png)
+- Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
-There click on the pencil icon to edit the page. That will take you to the corresponding page in github.
+![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)
 
-![gzip page](non-info/help-github1.png)
+- On the page you want to edit in github, click the pencil to edit the page contents right in github.
 
-There click "edit" and you can edit contents of the page in github. Once you
-have made changes you can click preview to see how it will look when completed
-There are slight differences between the markdown we use and what
-github uses.
+![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)
 
-![gzip page](non-info/help-github2.png)
+- After you have made changes, click preview to see how it will look when completed. 
+**Please note:** There are slight differences between the markdown we use and what github uses.
 
-Once you are happy with your changes you can save the by going to the bottom of
-the edit and "Commit changes". Commit is the term github and git use for
-saving. You should put a brief note in the first text area. You may add longer
-note in the larger text area if you have more to say about your changes. Then
-you can commit your changes to the branch `develop`.
+![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)
 
-The above step will not put your changes live on info.arxiv.org. At that point
-you have only saved the edit in github.
+- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
+Commit is the term github and git use for saving.
 
-If you have more changes that are grouped with this change make them in github
-and commit them.
+![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)
+
+- Add a brief note in the "Commit message" area summarizing your edit. You may add longer
+note in the `Extended description` area if you have more to say about your changes.
+
+- Make sure you have an email associated with your commits.
+
+- Create a "new branch for this request and start a pull request" will be selected
+- Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`
+
+![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)
+
+- **Please note:** The above step will only put your changes on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
+
+If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2nd: Make a Pull Request from `develop` to `master`
-Once you have done all the changes you wanted you need to get your changes
-reviewed. This is done by "creating a PR." PR stands for pull request.
+Once you have completed all of your changes you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-To make a new PR click the "Pull Requests" tab on the top of a github page. Then
-click the green "New Pull Request." You want changes from the branch `develop` to get put
-into the branch called `master`.
+- To make a new PR click the "Pull Requests" link in the header of the github page.
 
-![gzip page](non-info/help-pr1.png)
+- Your pull request will appear at the top of the page in a yellow box. Click on the blue button "Compare & pull request".
 
-From there you can give your PR a title and add a note about it. Also add
-reviewers on the left. Then click the green "Create Pull Request"
+![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)
 
-Github will email all the reviewers.
+- Add a title for your pull request and a description if the title is not self explanatory.
+- To the right, click on the gear icon to the right of "Reviewers"
+- A dropdown will appear and you can request people to review your PR.
+
+![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)
+
+- After selecting reviewers, click the blue "Create pull request" button.
+- Reviewers will receive an email from Github prompting them to review your PR.
 
 ### 3rd: Merge the PR to `master` to Deploy Changes
 
