@@ -65,13 +65,13 @@ Once you have completed all of your changes you need to get your changes reviewe
 
 - Your pull request will appear at the top of the page in a yellow box. Click on the blue button "Compare & pull request".
 
-![Screenshot how to compare changes in the pull request in github](/non-info/07-help-comparePR.png)
+![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)
 
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers"
 - A dropdown will appear and you can request people to review your PR.
 
-![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/08-help-openPR.png)
+![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)
 
 - After selecting reviewers, click the blue "Create pull request" button.
 - Reviewers will receive an email from Github prompting them to review your PR.
