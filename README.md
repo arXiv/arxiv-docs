@@ -21,10 +21,6 @@ To do a quick edit, use this is a 4 step process:
 
 4th: Create a PR to deploy your changes to master.
 
-This commits directly to the `develop` branch. If you are doing a more involved
-group of edits or changes, please use a process like git flow. If you are not
-familiar with this ask a dev or an admin to help you.
-
 ### 1st: Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
