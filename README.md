@@ -75,16 +75,23 @@ Once you have completed all of your changes, you need to have your changes revie
 
 - After selecting reviewers, click the blue "Create pull request" button.
 
-<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/08-help-createPR.png)</kbd>
+<kbd>![Screenshot of the location of the create pull request button in Github](/non-info/08-help-createPR.png)</kbd>
 
 - Reviewers will receive an email from Github prompting them to review your PR.
+  
 
-### 3rd: Merge the PR to 'develop'
+### 3rd: Merge the PR to `develop`
 - Once your PR has been reviewed and approved you can merge your PR to 'develop'.
-- 
+- Open your PR and scroll down and click on "Merge pull request".
+
+<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/09-help-mergePR.png)</kbd>
+
+- You will be prompted to confirm you decision, click "Confirm merge".
+
+  <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
 
 
-
+### 4th: Deploy your changes to `master`
 To get your changes deployed, merge it to the branch called `master`. This will
 cause automated scripts to deploy the changes to info.arxiv.org.  If you are
 unsure how to do this, ask a dev or admin to do it for you.
