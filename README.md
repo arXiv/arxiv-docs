@@ -56,8 +56,6 @@ note in the `Extended description` area if you have more to say about your chang
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
 
-- **Please note:** The above step will only put your changes on a branch on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
-
 If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2nd: Make a Pull Request from your branch to `develop`
@@ -72,6 +70,7 @@ Once you have completed all of your changes, you need to have your changes revie
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
+- If you are unsure who to ask to review your chagnes, check with your manager.
 
 <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
 
@@ -91,6 +90,8 @@ Once you have completed all of your changes, you need to have your changes revie
 - You will be prompted to confirm you decision, click "Confirm merge".
 
   <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
+
+- **Please note:** The above step will only put your changes on `develop` and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
 
 
 ### 4th: Create a PR to deploy your changes to `master`
