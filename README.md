@@ -66,7 +66,7 @@ Once you have completed all of your changes, you need to have your changes revie
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
-- If you are unsure who to ask to review your chagnes, check with your manager.
+- If you are unsure who to ask to review your changes, check with your manager.
 
 <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
 
