@@ -21,7 +21,7 @@ You can browse articles and view categories at the individual archive pages:
 The [moderators for physics are listed here](https://arxiv.org/moderators#physics#physics).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Physics Editorial Committee:
+## The arXiv Physics Section Editorial Committee:
 
 The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
