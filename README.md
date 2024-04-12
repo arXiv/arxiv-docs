@@ -11,9 +11,9 @@ pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 ## How to do a Quick Edit on github
 
-To do a quick edit, use this is a 3 step process:
+To do a quick edit, use this is a 4 step process:
 
-1st: Make your edit and commit to the develop branch
+1st: Make your edit and commit to a new branch
 
 2nd: Make a PR from develop to master, get that reviewed
 
@@ -47,19 +47,19 @@ Commit is the term github and git use for saving.
 - Add a brief note in the "Commit message" area summarizing your edit. You may add longer
 note in the `Extended description` area if you have more to say about your changes.
 
-- Make sure you have an email associated with your commits.
+- Make sure you have your email associated with your commits.
 
 - Create a "new branch for this request and start a pull request" will be selected
-- Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`
+- Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
 
-- **Please note:** The above step will only put your changes on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
+- **Please note:** The above step will only put your changes on a branch on develop and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
 
 If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
-### 2nd: Make a Pull Request from `develop` to `master`
-Once you have completed all of your changes you need to get your changes reviewed. This is done by "creating a PR." PR stands for pull request.
+### 2nd: Make a Pull Request from your branch to `develop`
+Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
 - To make a new PR click the "Pull Requests" link in the header of the github page.
 
@@ -68,15 +68,22 @@ Once you have completed all of your changes you need to get your changes reviewe
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd>
 
 - Add a title for your pull request and a description if the title is not self explanatory.
-- To the right, click on the gear icon to the right of "Reviewers"
+- To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and you can request people to review your PR.
 
 <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
 
 - After selecting reviewers, click the blue "Create pull request" button.
+
+<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/08-help-createPR.png)</kbd>
+
 - Reviewers will receive an email from Github prompting them to review your PR.
 
-### 3rd: Merge the PR to `master` to Deploy Changes
+### 3rd: Merge the PR to 'develop'
+- Once your PR has been reviewed and approved you can merge your PR to 'develop'.
+- 
+
+
 
 To get your changes deployed, merge it to the branch called `master`. This will
 cause automated scripts to deploy the changes to info.arxiv.org.  If you are
