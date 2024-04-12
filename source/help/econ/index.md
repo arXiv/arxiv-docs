@@ -8,7 +8,7 @@ The [moderators for economics are listed here](https://arxiv.org/moderators#econ
 
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Economics Editorial Committee
+## The arXiv Economics Section Editorial Committee
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Committee](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
