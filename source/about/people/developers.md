@@ -1,4 +1,4 @@
-#Volunteer Developers
+# Volunteer Developers
 
 The technical infrastructure and software behind arXiv.org is operated and
 maintained by a core team of dedicated IT staff at Cornell University. However,
