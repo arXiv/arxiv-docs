@@ -6,7 +6,7 @@ You can view the subject category descriptions and browse papers from the [main 
 
 The [moderators for cs are listed here](https://arxiv.org/moderators/#cs).
 
-### Computer Science Editorial Committee
+### Computer Science Section Editorial Committee
 
 The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
