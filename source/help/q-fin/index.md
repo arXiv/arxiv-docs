@@ -10,7 +10,7 @@ You can browse articles and view categories at the [main quantitative finance ar
 The [moderators are listed here](https://arxiv.org/moderators#q-fin).
 
 
-## The arXiv Quantitative Finance Editorial Committee:
+## The arXiv Quantitative Finance Section Editorial Committee:
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
