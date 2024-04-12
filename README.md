@@ -13,11 +13,13 @@ pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 To do a quick edit, use this is a 4 step process:
 
-1st: Make your edit and commit to a new branch
+1st: Make your edit and commit to a new branch.
 
-2nd: Make a PR from develop to master, get that reviewed
+2nd: Make a PR from your branch to develop, get that reviewed.
 
-3rd: Merge the PR to master
+3rd: Merge the PR to develop.
+
+4th: Create a PR to deploy your changes to master.
 
 This commits directly to the `develop` branch. If you are doing a more involved
 group of edits or changes, please use a process like git flow. If you are not
@@ -35,7 +37,7 @@ familiar with this ask a dev or an admin to help you.
 <kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
 
 - After you have made changes, click preview to see how it will look when completed. 
-**Please note:** Github uses "Github flavored markdown" which is different from the markdown that we use to create our documentation. There may be small variation in how the markdown appears due to these differences.
+**Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
 
 <kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
 
@@ -50,7 +52,7 @@ note in the `Extended description` area if you have more to say about your chang
 - Make sure you have your email associated with your commits.
 
 - Create a "new branch for this request and start a pull request" will be selected
-- Name your branch after your JIRA ticket to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
+- Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
 
@@ -69,7 +71,7 @@ Once you have completed all of your changes, you need to have your changes revie
 
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
-- A dropdown will appear and you can request people to review your PR.
+- A dropdown will appear and request people to review your PR.
 
 <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
 
@@ -105,13 +107,13 @@ Once you have completed all of your changes, you need to have your changes revie
 
 
 - Now you can compare and review the changes between the "master" and "develop" branches.
-- **Please note:** If you see there are other commits waiting to be merged to "master" when you plan to create your PR, check in with the owners of those commits to make sure
+- **Please note:** If you see there are other commits _that are not your own_ waiting to be merged to "master", check in with the owners of those commits before you make a PR to make sure
 the commits are ready to go into production.
 - If you only your changes are there, go ahead and click on "Create pull request".
 
- <kbd>![Screenshot of how to compare differences between develop and production environments in Github](/non-info/13-help-compare-changes-create-PR.png)</kbd>
+ <kbd>![Screenshot of how to compare differences between develop and production environments in Github](/non-info/13-help-compare-changes-createPR.png)</kbd>
 
-- You have seen this before with your previous PR.
+- You have seen the following steps before with your previous PR.
 - Add your title (referencing your ticket if applicable).
 - In the description add any additional details.
 - Select your reviewers.
@@ -119,9 +121,9 @@ the commits are ready to go into production.
 
  <kbd>![Screenshot of how to compare differences between develop and production environments in Github](/non-info/14-help-PR-master-deploy.png)</kbd>
 
-- When your PR is approved.
-- You may deploy your changes by merging it to the branch called `master`. This will
+- When your PR is approved, you may deploy your changes by merging it to the branch called `master`. This will
 cause automated scripts to deploy the changes to info.arxiv.org.
+
 - If you are unsure how to do this, ask a dev or admin to do it for you.
 
 ## Authoring Markdown
