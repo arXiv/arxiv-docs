@@ -18,7 +18,7 @@ inline (<span class="ignore_mathjax">$-enclosed</span>) <span
 class="mathjax">$\\TeX$</span> only. For example, the expression
 <span class="ignore_mathjax">`$P(E) = {n \choose k} p^k (1-p)^{ n-k}$`</span>
 will be rendered as <span class="mathjax">$P(E) = {n \choose k} p^k (1-p)^{ n-k}$</span>. 
-On arXiv's articles rendered in HTML, both MathJax and MathML is used, but in all other
+On arXiv's articles rendered in HTML, both MathJax and MathML are used, but in all other
 places only MathJax is used.
 
 In general, outside of HTML articles MathJax will only attempt to render
