@@ -69,8 +69,6 @@ Once you have completed all of your changes, you need to have your changes revie
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd>
 
-- 
--
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
