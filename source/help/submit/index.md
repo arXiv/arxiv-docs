@@ -55,9 +55,14 @@ do not accept scanned documents, regardless of format.
 We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. These changes shouldn't be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX' system that we've used for decades in favor of a simpler, more straight-foward process of convering (La)TeX submissions to PDFs..
 
  1. The AutoTeX would try different versions of TeX to see which one successfully builds a PDF. Going forward we will only use the version of TeX currently used by arXiv
-     - Our plan is that arXivs "current" version closely tracck the annual TeX Live releases. In the past, we've often gone a few years between TeX updates
+    - Our plan is that arXivs "current" version closely tracck the annual TeX Live releases. In the past, we've often gone a few years between TeX updates
  1. The AutoTeX system would attempt to detect image files that were not referenced in the (La)TeX source for the paper and append those images to the end of the PDF for the paper. Based on recent feedback, we find that most authors are surprised by this behvior, and we will thus be discontinuing this practice. If an author wants images at the end of their paper, just use the normal TeX procedures for this (see https://latex-tutorial.com/tutorials/figures/).
-1. The AutoTeX system would apply the [LaTeX hyperref package](https://ctan.org/pkg/hyperref) to LaTeX submissions that did not include `\use {hyperref}`
+1. The AutoTeX system would apply the [LaTeX hyperref package](https://ctan.org/pkg/hyperref) to LaTeX submissions that did not include `\use {hyperref}`. We will no longer do that. (Note &ndash; before you add a `\use {hyperref}` to your main.tex, check to see if the template you're using already has a reference; most do).
+1. The AutoTeX system would look for any string in a paper that looked like a reference to an arXiv paper (such as 	arXiv:2402.08954, or even just 2402.08954), and turn the into a hyperlink to the paper on arXiv. 
+We won't do that beforee. Authors can just write Why did we do this?
+   - This sometimes resulted in floating point numbers being hyperelinked to random arXiv papers.
+   - While hacks like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
+
 1. arXiv presently has about 70 LaTeX packages that we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
    - We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission
  
