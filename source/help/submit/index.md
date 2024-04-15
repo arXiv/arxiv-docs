@@ -19,7 +19,7 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. These changes shouldn't be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX' system that we've used for decades in favor of a simpler, more straightforward process of converting (La)TeX submissions to PDFs.
 
  * The AutoTeX would try different versions of TeX to see which one successfully builds a PDF. Going forward we will only use the version of TeX currently used by arXiv
-   * Our plan is that arXivs "current" version closely tracck the annual TeX Live releases. In the past, we've often gone a few years between TeX updates
+   * Our plan is that arXivs "current" version closely track the annual TeX Live releases. In the past, we've often gone a few years between TeX updates
  * arXiv presently has about 70 LaTeX packages that we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
    * We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission
 
