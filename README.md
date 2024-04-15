@@ -59,11 +59,18 @@ Once you have completed all of your changes, you need to have your changes revie
 
 - To make a new PR click the "Pull Requests" link in the header of the github page.
 
-- Your pull request will appear at the top of the page in a yellow box. Click on the blue button "Compare & pull request".
+- On the right hand side, click the blue button that says "New pull request"
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
-- Add a title for your pull request and a description if the title is not self explanatory.
+- Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
+- This will compare your branch to the develop branch.
+- Click "Create pull request"
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd>
+
+- 
+-
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
