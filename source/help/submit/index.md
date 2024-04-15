@@ -13,7 +13,6 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 -   Authors are expected to self-submit. Submissions by a third party are only accepted under limited conditions. See instructions for [third-party submissions](../third_party_submission.md) and [index submissions](../submit_index.md) for conference proceedings.
 -   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](../availability.md). Also see [versions help pages](../versions.md).
 
-
 ## Submission Preparation
 
 -   [Formats for text submission](#text)
