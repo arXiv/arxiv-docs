@@ -37,6 +37,10 @@ To do a quick edit, use this is a 4 step process:
 
 <kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
 
+- Review your work in preview mode. To return to editing, click on "edit" in the header.
+
+<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd>
+
 - Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
 Commit is the term github and git use for saving.
 
