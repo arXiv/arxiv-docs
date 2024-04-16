@@ -47,12 +47,12 @@ note in the `Extended description` area if you have more to say about your chang
 
 - Make sure you have your email associated with your commits.
 
-- Create a "new branch for this request and start a pull request" will be selected
+- Note that a "new branch for this request and start a pull request" will be selected.
 - Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
 
-If you have more changes to make at this time you may make and commit them all on the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
+If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2nd: Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
