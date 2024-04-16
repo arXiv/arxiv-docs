@@ -57,7 +57,7 @@ If you have more changes to make at this time you may make and commit them all t
 ### 2nd: Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- To make a new PR click the "Pull Requests" link in the header of the github page.
+- To make a PR click the "Pull Requests" link in the header of the github page.
 
 - On the right hand side, click the blue button that says "New pull request"
 
