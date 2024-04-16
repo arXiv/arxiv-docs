@@ -16,6 +16,7 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 ## Submission Preparation
 
 -   [Formats for text submission](#text)
+-   [Changes  to (La)TeX processing](#newtex)
 -   [Formats for figures](#figures)
 -   [File names and case sensitivity](#files)
 -   [Inclusion of data sets and ancillary files (data, programs,
@@ -50,6 +51,7 @@ from TeX/LaTeX source](../faq/whytex.md), and we
 do not accept scanned documents, regardless of format.
 
 
+<span id="newtex"></span>
 ## (La)TeX processing changes &mdash; April 2024
 
 We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. These changes shouldn't be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX' system that we've used for decades in favor of a simpler, more straight-foward process of convering (La)TeX submissions to PDFs..
