@@ -19,8 +19,6 @@ To do a quick edit, use this is a 4 step process:
 
 3rd: Merge the PR to develop.
 
-4th: Create a PR to deploy your changes to master.
-
 ### 1st: Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
@@ -96,41 +94,8 @@ Once you have completed all of your changes, you need to have your changes revie
 
   <kbd>![Screenshot of how to confirm merging your PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
 
-- **Please note:** The above step will only put your changes on `develop` and they will not be viewable on info.arxiv.org. At this point you have only saved the edit in github.
-
-
-### 4th: Create a PR to deploy your changes to `master`
-
-- Once you have merged your PR into `develop`, click on the "Pull Requests" link in the header of the github page.
-- Next click on the "New pull request" button.
-
-<kbd>![Screenshot of how create a new PR to deploy your changes in Github](/non-info/11-help-newPR-compare.png)</kbd>
-
-- Next you will compare the changes between the `master` branch and the `develop` branch so you can create a PR to merge your changes into production.
-- Click on "base:develop" and a dropdown will open, type in "master" and select "master".
-
-  <kbd>![Screenshot of how to compare differences between develop and production branches in Github](/non-info/12-help-compare-master.png)</kbd>
-
-
-- Now you can compare and review the changes between the "master" and "develop" branches.
-- **Please note:** If you see there are other commits _that are not your own_ waiting to be merged to "master", check in with the owners of those commits before you make a PR to make sure
-the commits are ready to go into production.
-- If you only your changes are there, go ahead and click on "Create pull request".
-
- <kbd>![Screenshot of how to create your PR in Github](/non-info/13-help-compare-changes-createPR.png)</kbd>
-
-- You have seen the following steps before with your previous PR.
-- Add your title (referencing your ticket if applicable).
-- In the description add any additional details.
-- Select your reviewers.
-- Click "Create pull request".
-
- <kbd>![Screenshot of how to fill out the information in your PR and create the PR in Github](/non-info/14-help-PR-master-deploy.png)</kbd>
-
-- When your PR is approved, you may deploy your changes by merging it to the branch called `master`. This will
-cause automated scripts to deploy the changes to info.arxiv.org.
-
-- If you are unsure how to do this, ask a dev or admin to do it for you.
+- **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
+- You can review your changes on the develop site at [info.dev.arxiv.org](info.dev.arxiv.org).
 
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
