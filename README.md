@@ -11,15 +11,15 @@ pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 ## How to do a Quick Edit on github
 
-To do a quick edit, use this is a 4 step process:
+To make a quick edit, use this is a 3 step process:
 
-1st: Make your edit and commit to a new branch.
+1. Make your edit and commit to a new branch.
 
-2nd: Make a PR from your branch to develop, get that reviewed.
+2. Make a PR from your branch to develop, get that reviewed.
 
-3rd: Merge the PR to develop.
+3. Merge the PR to develop.
 
-### 1st: Make your edit on github
+### 1. Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
 - Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
@@ -56,7 +56,7 @@ note in the `Extended description` area if you have more to say about your chang
 
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
-### 2nd: Make a Pull Request from your branch to `develop`
+### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
 - To make a PR click the "Pull Requests" link in the header of the github page.
@@ -84,7 +84,7 @@ Once you have completed all of your changes, you need to have your changes revie
 - Reviewers will receive an email from Github prompting them to review your PR.
   
 
-### 3rd: Merge the PR to `develop`
+### 3. Merge the PR to `develop`
 - Once your PR has been reviewed and approved you can merge your PR to 'develop'.
 - Open your PR and scroll down and click on "Merge pull request".
 
