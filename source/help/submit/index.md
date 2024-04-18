@@ -61,13 +61,13 @@ We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. T
  1. The AutoTeX system would attempt to detect image files that were not referenced in the (La)TeX source for the paper and append those images to the end of the PDF for the paper. Based on recent feedback, we find that most authors are surprised by this behvior, and we will thus be discontinuing this practice. If an author wants images at the end of their paper, just use the normal TeX procedures for this (see https://latex-tutorial.com/tutorials/figures/).
   1. The AutoTeX system would pre-load the LaTeX hyperref package to LaTeX submissions that do not already include it. This package adds changes various references to active links in the PDF document (eg, clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try do add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you're using already has a reference by checking the PDF for clickable links; most do).
 1. The AutoTeX system would look for any references in a paper that looked like an arXiv paper ID (such as 	arXiv:2402.08954, or 2402.08954), and turn the into a hyperlink to the paper on arXiv. 
-We won't do that anymore. Authors should just write out \hyperref{https://arxiv.org/abs/2402.08954}.
+We won't do that anymore. Authors should just write out `\href{https://arxiv.org/abs/2402.08954}{2402.08954}`.
    - While hacks like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
 
 1. arXiv presently has about 70 LaTeX packages that we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
    - We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission
  
-t present, the documentation below is still completely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, pelase respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
+At present, the documentation below is still largely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, pelase respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
 
 <span id="figures"></span>
 
