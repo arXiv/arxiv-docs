@@ -64,10 +64,10 @@ We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. T
 We won't do that anymore. Authors should just write out `\href{https://arxiv.org/abs/2402.08954}{2402.08954}`. See the [Hyperref documentation for more info](https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/hyperref/doc/hyperref-doc.html).
    - While changes like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
 
-1. arXiv presently has about 70 LaTeX packages that we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
+1. arXiv presently has about 70 LaTeX packages we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
    - We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission
  
-At present, the documentation below is still largely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, pelase respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
+At present, the documentation below is still largely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, please respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
 
 <span id="figures"></span>
 
