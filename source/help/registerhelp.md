@@ -2,7 +2,7 @@
 
 To begin registration, visit the [registration form](https://arxiv.org/user/register).
 First, we will ask for your e-mail and you will get to pick a user name
-and password. Your user name must be unique and cannot be changed. It is for internal purposes only and does not display to the public. 
+and password. Your user name must be unique and cannot be changed.  
 Recommendations for arXiv password:
 
     8 characters or more in length
