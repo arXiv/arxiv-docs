@@ -13,10 +13,10 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 -   Authors are expected to self-submit. Submissions by a third party are only accepted under limited conditions. See instructions for [third-party submissions](../third_party_submission.md) and [index submissions](../submit_index.md) for conference proceedings.
 -   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](../availability.md). Also see [versions help pages](../versions.md).
 
-
 ## Submission Preparation
 
 -   [Formats for text submission](#text)
+-   [Changes  to (La)TeX processing](#newtex)
 -   [Formats for figures](#figures)
 -   [File names and case sensitivity](#files)
 -   [Inclusion of data sets and ancillary files (data, programs,
@@ -49,6 +49,25 @@ stable over time. Currently, the best choice is TeX/LaTeX.
 We do not accept [dvi, PS, or PDF created
 from TeX/LaTeX source](../faq/whytex.md), and we
 do not accept scanned documents, regardless of format.
+
+
+<span id="newtex"></span>
+## (La)TeX processing changes &mdash; April 2024
+
+We will soon be rolling out changes to how arXiv process (La)TeX subbmissions. These changes shouldn't be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX' system that we've used for decades in favor of a simpler, more straight-foward process of convering (La)TeX submissions to PDFs..
+
+ 1. The AutoTeX would try different versions of TeX to see which one successfully builds a PDF. Going forward we will only use the version of TeX currently used by arXiv
+    - Our plan is that arXiv's "current" version closely track the annual TeX Live releases. In the past, we've often gone a few years between TeX updates
+ 1. The AutoTeX system would attempt to detect image files that were not referenced in the (La)TeX source for the paper and append those images to the end of the PDF for the paper. Based on recent feedback, we find that most authors are surprised by this behvior, and we will thus be discontinuing this practice. If an author wants images at the end of their paper, just use the normal TeX procedures for this (see https://latex-tutorial.com/tutorials/figures/).
+  1. The AutoTeX system would pre-load the LaTeX hyperref package to LaTeX submissions that do not already include it. This package adds changes various references to active links in the PDF document (eg, clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try do add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you're using already has a reference by checking the PDF for clickable links; most do).
+1. The AutoTeX system would look for any references in a paper that looked like an arXiv paper ID (such as 	arXiv:2402.08954, or 2402.08954), and turn the into a hyperlink to the paper on arXiv. 
+We won't do that anymore. Authors should just write out `\href{https://arxiv.org/abs/2402.08954}{2402.08954}`. See the [Hyperref documentation for more info](https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/hyperref/doc/hyperref-doc.html).
+   - While changes like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
+
+1. arXiv presently has about 70 LaTeX packages we supply that papers can use without needing to upload their own copies. But we've found that only 0.65% of recent submissions depend on this. In some cases these packages are woefully out of date
+   - We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission
+ 
+At present, the documentation below is still largely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, please respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
 
 <span id="figures"></span>
 
