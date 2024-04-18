@@ -2,9 +2,16 @@
 
 To begin registration, visit the [registration form](https://arxiv.org/user/register).
 First, we will ask for your e-mail and you will get to pick a user name
-and password. Your user name must be unique and cannot be changed. Your
-password must be at least 8 characters long and contain one character
-that is not a letter.
+and password. Your user name must be unique and cannot be changed. It is for internal purposes only and does not display to the public. 
+Recommendations for arXiv password:
+
+    8 characters or more in length
+
+    may contain upper/lowercase letters, numbers, and one or more underscores (_) - one underscore is required
+
+    may not contain any other special characters besides underscore - no other punctuation or symbols are allowed (ex. $, ., -,@)
+
+Some successful examples could be: “Pass_Word_2024” or “pAssWoRd_2024”
 
 Second, we will ask you for some personal information such as your name,
 your institution (or organization) and which archives you are most
