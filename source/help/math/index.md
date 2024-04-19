@@ -8,7 +8,7 @@ The [moderators for math are listed here](https://arxiv.org/moderators#math#math
 
 <span id="AdvisoryCommittee"></span>
 
-## The arXiv Math Editorial Committee:
+## The arXiv Math Section Editorial Committee:
 
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
