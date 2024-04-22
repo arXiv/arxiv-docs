@@ -97,6 +97,21 @@ Once you have completed all of your changes, you need to have your changes revie
 - **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
 - You can review your changes on the develop site at [info.dev.arxiv.org](info.dev.arxiv.org).
 
+### 4. Make a Pull Request from `develop` to `master`
+- Now that your PR has been merged to develop, you need to deploy these changes to 'master'. 
+- To make a new PR click the "Pull Requests" link in the header of the github page.
+
+
+
+- Add a title for your pull request and a description if the title is not self explanatory.
+- To the right, click on the gear icon to the right of "Reviewers"
+- A dropdown will appear and you can request people to review your PR.
+
+
+
+- After selecting reviewers, click the blue "Create pull request" button.
+- Reviewers will receive an email from Github prompting them to review your PR.
+
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
 
