@@ -19,6 +19,8 @@ To make a quick edit, use this is a 3 step process:
 
 3. Merge the PR to develop.
 
+4. Merge changes on develop to master.
+
 ### 1. Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
@@ -59,18 +61,23 @@ If you have more changes to make at this time you may make and commit them all t
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- To make a PR click the "Pull Requests" link in the header of the github page.
+- To make a PR click the "Pull requests" link in the header of the github page.
 
 - On the right hand side, click the blue button that says "New pull request"
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
-- This will compare your branch to the develop branch.
-- Click "Create pull request"
+- This will compare your branch to the `develop` branch.
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd>
 
+- Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into master.
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareFiles.png)</kbd>
+
+- Click "Create pull request"
+- Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
@@ -85,7 +92,7 @@ Once you have completed all of your changes, you need to have your changes revie
   
 
 ### 3. Merge the PR to `develop`
-- Once your PR has been reviewed and approved you can merge your PR to 'develop'.
+- Once your PR has been reviewed and approved you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
 
 <kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd>
@@ -95,22 +102,37 @@ Once you have completed all of your changes, you need to have your changes revie
   <kbd>![Screenshot of how to confirm merging your PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
 
 - **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
-- You can review your changes on the develop site at [info.dev.arxiv.org](info.dev.arxiv.org).
+- You can review your changes on the `develop` site at [info.dev.arxiv.org](info.dev.arxiv.org).
 
 ### 4. Make a Pull Request from `develop` to `master`
-- Now that your PR has been merged to develop, you need to deploy these changes to 'master'. 
-- To make a new PR click the "Pull Requests" link in the header of the github page.
+- **Please note:** Once you have merged your changes to `develop`, it is important to deploy them as soon as possible. Lingering commits on on the `develop` branch can cause unintentional problems when they are deployed with other code. If you notice commits other than your own in the PR you make, please be sure to check in with the owners of those commits to ensure they are ready to go live. 
 
+- Now that your PR has been merged to `develop`, you need to deploy these changes to `master`. 
+- To make a new PR click the "Pull requests" link in the header of the github page.
+- On the right hand side, click the blue button that says "New pull request"
 
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
+
+- Compare your changes by clicking on the "compare:develop" dropdown and type in "master" and then select it.
+- This will compare your branch to the `develop` branch.
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareToMaster.png)</kbd>
+
+- Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into `master`.
+
+<kbd>![Screenshot how to compare changes between the develop branch and the master branch in github](/non-info/filesChanged-createPR.png)</kbd>
+- Click "Create pull request"
 
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers"
 - A dropdown will appear and you can request people to review your PR.
-
-
-
 - After selecting reviewers, click the blue "Create pull request" button.
-- Reviewers will receive an email from Github prompting them to review your PR.
+- Ping your reviewers in slack with a link to your PR and ask them to review it.
+
+- Once your PR has been reviewed and approved you can merge your PR to `master`.
+- Open your PR and scroll down and click on "Merge pull request".
+- You will be prompted to confirm you decision, click "Confirm merge".
+- You will see your changes on production about 15 minutes after you have confirmed your merge.
 
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
