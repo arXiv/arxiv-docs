@@ -18,6 +18,7 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 -   [Formats for text submission](#text)
 -   [Changes  to (La)TeX processing](#newtex)
 -   [Formats for figures](#figures)
+-   [Policies for format requirements](help/policies/format_requirements.md)
 -   [File names and case sensitivity](#files)
 -   [Inclusion of data sets and ancillary files (data, programs,
     etc.)](#datasets)
