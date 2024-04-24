@@ -11,8 +11,7 @@ pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 ## How to do a Quick Edit on github
 
-To make a quick edit, use this is a 3 step process:
-To make a quick edit, use this is a 3 step process:
+To make a quick edit, use this is a 4 step process:
 
 1. Make your edit and commit to a new branch.
 
@@ -90,8 +89,6 @@ note in the `Extended description` area if you have more to say about your chang
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
-### 2. Make a Pull Request from your branch to `develop`
-Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
