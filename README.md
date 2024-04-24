@@ -11,7 +11,7 @@ pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
 
 ## How to do a Quick Edit on github
 
-To make a quick edit, use this is a 3 step process:
+To make a quick edit, use this is a 4 step process:
 
 1. Make your edit and commit to a new branch.
 
@@ -19,9 +19,12 @@ To make a quick edit, use this is a 3 step process:
 
 3. Merge the PR to develop.
 
+4. Merge changes on develop to master.
+
 ### 1. Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
 
+- Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 - Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
 <kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
@@ -53,24 +56,59 @@ note in the `Extended description` area if you have more to say about your chang
 - Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
+<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
 
+- On the page you want to edit in github, click the pencil to edit the page contents right in github.
+
+<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
+
+- After you have made changes, click preview to see how it will look when completed. 
+**Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
+
+<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
+
+- Review your work in preview mode. To return to editing, click on "edit" in the header.
+
+<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd>
+
+- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
+Commit is the term github and git use for saving.
+
+<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd>
+
+- Add a brief note in the "Commit message" area summarizing your edit. You may add longer
+note in the `Extended description` area if you have more to say about your changes.
+
+- Make sure you have your email associated with your commits.
+
+- Note that a "new branch for this request and start a pull request" will be selected.
+- Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
+
+<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
+
+If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- To make a PR click the "Pull Requests" link in the header of the github page.
+- To make a PR click the "Pull requests" link in the header of the github page.
 
 - On the right hand side, click the blue button that says "New pull request"
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
-- This will compare your branch to the develop branch.
-- Click "Create pull request"
+- This will compare your branch to the `develop` branch.
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd>
 
+- Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into master.
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareFiles.png)</kbd>
+
+- Click "Create pull request"
+- Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
@@ -85,7 +123,7 @@ Once you have completed all of your changes, you need to have your changes revie
   
 
 ### 3. Merge the PR to `develop`
-- Once your PR has been reviewed and approved you can merge your PR to 'develop'.
+- Once your PR has been reviewed and approved you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
 
 <kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd>
@@ -95,7 +133,37 @@ Once you have completed all of your changes, you need to have your changes revie
   <kbd>![Screenshot of how to confirm merging your PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
 
 - **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
-- You can review your changes on the develop site at [info.dev.arxiv.org](info.dev.arxiv.org).
+- You can review your changes on the `develop` site at [info.dev.arxiv.org](info.dev.arxiv.org).
+
+### 4. Make a Pull Request from `develop` to `master`
+- **Please note:** Once you have merged your changes to `develop`, it is important to deploy them as soon as possible. Lingering commits on on the `develop` branch can cause unintentional problems when they are deployed with other code. If you notice commits other than your own in the PR you make, please be sure to check in with the owners of those commits to ensure they are ready to go live. 
+
+- Now that your PR has been merged to `develop`, you need to deploy these changes to `master`. 
+- To make a new PR click the "Pull requests" link in the header of the github page.
+- On the right hand side, click the blue button that says "New pull request"
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
+
+- Compare your changes by clicking on the "compare:develop" dropdown and type in "master" and then select it.
+- This will compare your branch to the `develop` branch.
+
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareToMaster.png)</kbd>
+
+- Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into `master`.
+
+<kbd>![Screenshot how to compare changes between the develop branch and the master branch in github](/non-info/filesChanged-createPR.png)</kbd>
+- Click "Create pull request"
+
+- Add a title for your pull request and a description if the title is not self explanatory.
+- To the right, click on the gear icon to the right of "Reviewers"
+- A dropdown will appear and you can request people to review your PR.
+- After selecting reviewers, click the blue "Create pull request" button.
+- Ping your reviewers in slack with a link to your PR and ask them to review it.
+
+- Once your PR has been reviewed and approved you can merge your PR to `master`.
+- Open your PR and scroll down and click on "Merge pull request".
+- You will be prompted to confirm you decision, click "Confirm merge".
+- You will see your changes on production about 15 minutes after you have confirmed your merge.
 
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
