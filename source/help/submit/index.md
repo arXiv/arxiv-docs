@@ -55,7 +55,7 @@ do not accept scanned documents, regardless of format.
 <span id="newtex"></span>
 ## (La)TeX processing changes &mdash; April 2024
 
-We will soon be rolling out changes to how arXiv process (La)TeX submissions. These changes shouldn't be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX" system that we've used for decades in favor of a simpler, more straight-foward process of converting (La)TeX submissions to PDFs.
+We will soon be rolling out changes to how arXiv process (La)TeX submissions. These changes should not be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX" system that we have used for decades in favor of a simpler, more straight-foward process of converting (La)TeX submissions to PDFs.
 
  1. The AutoTeX system would try different versions of TeX to see which one successfully builds a PDF. Going forward we will only use the version of TeX currently used by arXiv.
     - Our plan is that arXiv's "current" version closely track the annual TeX Live releases. In the past, we have often gone a few years between TeX updates.
