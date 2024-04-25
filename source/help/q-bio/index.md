@@ -4,7 +4,7 @@ The Quantitative Biology (q-bio) archive formed on 15 Sep 2003 and you can read 
 
 You can browse articles and view categories at the [main quantitative biology archive page](https://arxiv.org/archive/q-bio).
 
-The [moderators for q-bio are listed here](https://arxiv.org/moderators#q-bio#q-bio).
+The [moderators for the quantitative biology archive are listed here](https://arxiv.org/moderators#q-bio#q-bio).
 
 <span id="AdvisoryCommittee"></span>
 

@@ -18,7 +18,7 @@ You can browse articles and view categories at the individual archive pages:
 - Physics [physics](https://arxiv.org/archive/physics)
 - Quantum Physics [quant-ph](https://arxiv.org/archive/quant-ph)
 
-The [moderators for physics are listed here](https://arxiv.org/moderators#physics#physics).
+The [moderators for the physics archive are listed here](https://arxiv.org/moderators#physics#physics).
 
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Section Editorial Committee:
