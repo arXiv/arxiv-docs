@@ -36,4 +36,4 @@ If your submission does not meet these requirements, it may be returned to you f
 ## Guidelines
 
 ### Large Sections of Non-Text Content
-- Papers with long sections that are not article text, like code, images, or tables we encourage authors to use [ancillary files](/help/ancillary_files) rather than append them to the end of the document.
+- Papers with long sections that are not article text, like code, images, or tables we encourage authors to use [ancillary files](/help/ancillary_files.md) rather than append them to the end of the document.
