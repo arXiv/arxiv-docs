@@ -56,7 +56,6 @@ where `myMainTexFile.tex` is the name of the parent TeX file. Note that this doe
 Multiple toplevelfile declarations can be used to combine multiple .tex files, each containing a `\documentlcass` command into a single PDF ouput file. For example:
 
 ```
-Preamable.tex toplevelfile
 myMainTexFile.tex toplevelfile
 AppendixSupplement.tex toplevelfile
 ```
