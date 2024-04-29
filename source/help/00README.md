@@ -43,7 +43,7 @@ This will stop detection of unknown file type and will thus stop the file being 
 
 ## Declaring the top-level (parent) TeX file
 
-It is very rarely necessary to do this explicitly because arXiv employs a series of heuristics which can usually determine the top-level file. For example, if only one of a set of LaTeX files contains a `\documentclass` command, that file is very likely the top-level file.
+It is very rarely necessary to do this explicitly because arXiv employs a series of heuristics which can usually determine the top-level file. For example, if only one of a set of LaTeX files contains a `\documentclass` command, that file is very likely the top-level file. (Note -- We intend to cease using these hueristics in April 2024. Extra .tex files containing `\documentclass` commands will be ignored, and the only way to get the old behavior will be the method documented here.)
 
 If it is necessary (e.g., if you are using the `subfiles.cls` class in your document's structure), include a line that says:
 
@@ -51,7 +51,16 @@ If it is necessary (e.g., if you are using the `subfiles.cls` class in your docu
 myMainTexFile.tex toplevelfile
 ```
 
-where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order.
+`myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order.
+
+Multiple toplevelfile declarations can be used to combine multiple .tex files, each containing a `\documentlcass` command into a single PDF ouput file. For example:
+
+```
+myMainTexFile.tex toplevelfile
+AppendixSupplement.tex toplevelfile
+```
+
+will produce a single PDF called myMainTexFile.pdf containing the Preamble, myMainTexFile, and AppendixSupplement, in that order.
 
 <a name="landscape" id="landscape"></a>
 
