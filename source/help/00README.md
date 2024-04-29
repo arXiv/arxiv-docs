@@ -51,7 +51,7 @@ If it is necessary (e.g., if you are using the `subfiles.cls` class in your docu
 myMainTexFile.tex toplevelfile
 ```
 
-where `myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order.
+`myMainTexFile.tex` is the name of the parent TeX file. Note that this does not affect the final assembly order of the final pdf, which is always assembled in alphanumeric order.
 
 Multiple toplevelfile declarations can be used to combine multiple .tex files, each containing a `\documentlcass` command into a single PDF ouput file. For example:
 
