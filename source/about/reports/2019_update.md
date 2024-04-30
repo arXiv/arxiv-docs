@@ -4,7 +4,7 @@ _Published January 29, 2019_
 
 Since its inception in 1991 with a focus on the high energy physics community, arXiv has significantly expanded both its subject coverage and user base. It provides open access to about 1.5 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics.  
 
-In 2018, the repository received 140,616 [new submissions](../../help/stats/2018_by_area/index.md), a 14% increase from 2017. The subject distribution is evolving as Computer Science represented about 26% of overall submissions, and Math 24%. There were about 228 million downloads from all over the world. arXiv is truly a global resource, with almost 90% of supporting funds coming from sources other than Cornell and 70% of institutional use coming from countries other than the U.S.
+In 2018, the repository received 140,616 new submissions, a 14% increase from 2017. The subject distribution is evolving as Computer Science represented about 26% of overall submissions, and Math 24%. There were about 228 million downloads from all over the world. arXiv is truly a global resource, with almost 90% of supporting funds coming from sources other than Cornell and 70% of institutional use coming from countries other than the U.S.
 
 ## We’ve Moved!
 
