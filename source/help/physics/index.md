@@ -27,15 +27,10 @@ The advisory committee members serve as consultants to Cornell University and to
 
 - Ralph Wijers, University of Amsterdam (chair)
 - Jacques Distler, University of Texas, Austin
-- Paul Fendley, University of Oxford
-- Paul Ginsparg, Cornell University
 - Daniel Gottesman, University of Maryland
-- Dong Lai, Cornell University
 - Michael Lawler, Cornell University
-- Brian Maple, University of California, San Diego
-- Bruno Nachtergaele, University of California, Davis
 - Chris Reynolds, University of Maryland
-- Robert Seiringer, Institute of Science and Technology Austria
+- Rena Zieve, University of California, Davis
 
 ## Historical notes
 - 2023-07: new arXiv bylaws adopted, by which Physics Advisory Committee renamed Physics Editorial Committee

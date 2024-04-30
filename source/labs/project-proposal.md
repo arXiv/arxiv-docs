@@ -1,4 +1,4 @@
-# Submit your project to arXivLabs
+<h1> Submit your project to arXivLabs</h1>
 
 We are now open for reviewing new proposals. Please [use our support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6) to fill out a proposal, or ask questions.
 
