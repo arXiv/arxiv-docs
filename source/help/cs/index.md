@@ -4,7 +4,7 @@ Welcome to the Computing Research Repository (CoRR) in arXiv. The Computer Scien
 
 You can view the subject category descriptions and browse papers from the [main CS archive page](https://arxiv.org/archive/cs). New readers and authors to arXiv should see our help pages for [registration](../registerhelp.md), [submission](../submit/index.md) and [subscription](../subscribe.md).
 
-The [moderators for cs are listed here](https://arxiv.org/moderators/#cs).
+The [moderators for the computer science archive are listed here](https://arxiv.org/moderators/#cs).
 
 ### Computer Science Section Editorial Committee
 
