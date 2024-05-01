@@ -2,7 +2,7 @@
 
 _Published January 16, 2020_
 
-arXiv’s free distribution service and open archive continues to grow annually and hosts over 1.6 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics. In 2019, the repository received 155,866 new submissions, an 11% increase from 2018, and about 260 million downloads from all over the world.
+arXiv’s free distribution service and open archive continues to grow annually and hosts over 1.6 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics. In 2019, the repository received 155,866 [new submissions](../../help/stats/2019_by_area/index.md), an 11% increase from 2018, and about 260 million downloads from all over the world.
 
 ## Leadership and Staffing Changes
 
@@ -44,7 +44,9 @@ arXiv relies on a wide network of individuals who contribute their expertise and
 
 Our moderators are an essential component of arXiv&#39;s success. Our 180 subject experts verify that submissions are topical and of interest to the scientific community, follow accepted standards of scholarly communication, and are classified in the appropriate subject categories. _We salute them!_
 
+
 We also thank the members of the arXiv advisory groups ([Scientific Advisory Board](../people/science_advisory_council.md), Member Advisory Board, and IT Advisory Group for their consistent and essential contributions as representatives of scientific and library communities. We remain grateful for strong support from [our member organizations](../../about/ourmembers.md) and the [Simons Foundation](https://www.simonsfoundation.org/). We also thank the [Sloan Foundation](https://sloan.org/), [Heising-Simons Foundation](https://www.hsfoundation.org/), and [Allen Institute for Artificial Intelligence](https://allenai.org/) for their generous support of arXiv.
+
 
 ***
 
