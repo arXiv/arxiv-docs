@@ -170,7 +170,7 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 
 ## 5.	Code of Conduct 
-All arXiv staff, arXiv Advisory Board and Council members, moderators and users must abide by the [arXiv Code of Conduct](/help/policies/code_of_conduct.md)
+All arXiv staff, arXiv Advisory Board and Council members, moderators and users must abide by the [arXiv Code of Conduct](../help/policies/code_of_conduct.md)
 
 
 
