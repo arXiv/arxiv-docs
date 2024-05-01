@@ -1,4 +1,4 @@
-# The 00README.XXX file
+# The `00README.XXX` file
 
 A file of this name can used to specify special handling for the submission and/or for individual files. The name of the file is spelled "zero-zero-README-dot-X-X-X".
 
