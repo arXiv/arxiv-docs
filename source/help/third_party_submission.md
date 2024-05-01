@@ -52,7 +52,7 @@ the requirements below will be met.
     submission (provide details from, or links to, arXiv [preparation
     instructions](prep.md)).
 -   Submissions may be made either manually via arXiv's normal
-    submission interface (see [submission help](../submit/index.md)) or via our
+    submission interface (see [submission help](submit/index.md)) or via our
     automated SWORD interface (see [SWORD help](submit_sword.md) and
     [contact arXiv administrators](contact.md) for permission).
 -   An email address for the corresponding author must be provided with

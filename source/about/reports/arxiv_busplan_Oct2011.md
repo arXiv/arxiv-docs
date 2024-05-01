@@ -17,8 +17,7 @@ for more information.
 
 On September 23, 2011, we commemorated the 20th anniversary of arXiv
 with a local celebration that included two meetings and a public talk by
-Paul Ginsparg. [arXiv Scientific Advisory
-Board](../people/scientific_ad_board.md) members met to discuss the role,
+Paul Ginsparg. arXiv Scientific Advisory Board members met to discuss the role,
 structure, and composition of the Board; moderation issues such as new
 moderator recruitment and submission quality criteria; and the ongoing
 business modeling and organizational streamlining efforts. We also
