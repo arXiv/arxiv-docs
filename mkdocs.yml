@@ -15,7 +15,6 @@ theme:
   name: material
   features:
     - content.tooltips
-        - navigation.expand    
         - navigation.path
         - navigation.indexes
   palette:
