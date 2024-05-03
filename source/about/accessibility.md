@@ -8,13 +8,19 @@ arXiv can contribute to making academic publishing more accessible in several wa
 ## Our Accessibility Projects
 
 ### Papers in HTML Format
-The request to offer arXiv-hosted papers in HTML format comes directly from scientists with disabilities who face barriers to accessing the research they need. Learn more about how arXiv will add [papers in HTML format](accessible_HTML.md) to our existing PDF and source options.
+The request to offer arXiv-hosted papers in HTML format comes directly from scientists with disabilities who face barriers to accessing the research they need. Learn why adding [papers in HTML format](accessible_HTML.md) to our existing PDF and source options is important for accessibility.
 
-### Accessibility Research Report
-The research content hosted by arXiv is not fully accessible to everyone due to disabilities and other barriers. In this report, we describe the issues, review current mitigations, share the results of our user research, and present arXiv’s proposed next steps. Read the [Accessibility Report](accessibility_research_report.md).
 
-### Accessibility Forum 2023
-On April 17th arXiv hosted a forum to delve into how we can make accessible research papers a reality. Because if it is not accessible, can we really call it "open" science? Meet the presenters and watch the recordings from the [Accessibility Forum](https://accessibility2023.arxiv.org/).
+### Accessibility Research
+The research content hosted by arXiv is not fully accessible to everyone due to disabilities and other barriers. Learn about the steps arXiv is taking to make open science truly open and accessible.
+
+- Read the [Accessibility Report](accessibility_research_report.md) that led to the development of HTML formatted papers.
+- Read our paper ["HTML papers on arXiv -- why it is important, and how we made it happen"](https://arxiv.org/abs/2402.08954).
+
+### arXiv Annual Accessibility Forum
+Every year arXiv hosts an accessibility forum in an effort to make accessible research papers a reality. Because if it is not accessible, can we really call it "open" science? 
+- [Accessibility 2024](https://accessibility2024.arxiv.org/)
+- [Accessibility 2023](https://accessibility2023.arxiv.org/)
 
 ## Further Reading
 As arXiv continues on this journey to make our platform and the content we host as accessible as possible, we rely on the enormous contributions and foundational research of the accessibility community, as well as the insights of our users with disabilities who have so generously shared their knowledge and time. Below is further reading from our community, and some internal resources that we hope you find as useful as we have.
