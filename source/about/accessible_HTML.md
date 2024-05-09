@@ -1,9 +1,9 @@
 #HTML as an accessible format for papers
 
-Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF. Though not easy, accessible research papers is a goal within reach.
+Accessibility barriers in research are not new, but they are urgent. The message we have heard from our community is that arXiv can have the most impact in the shortest time by offering HTML papers alongside the existing PDF.
 { .intro }
 
-The HTML papers project has launched its beta release providing HTML for nearly all newly submitted papers on arXiv along with a number of older ones. We are gradually backfilling HTML for arXiv's corpus of over 2 million papers over time. Not every paper can be successfully converted, so a small percentage of papers will not have an HTML version. We will work to improve conversion over time.
+arXiv has successfully launched papers in HTML format. We are gradually backfilling HTML for arXiv's corpus of over 2 million papers over time. Not every paper can be successfully converted, so a small percentage of papers will not have an HTML version. We will work to improve conversion over time.
 
 The link to the HTML format will appear on abstract pages below the existing PDF download link. Authors will have the opportunity to preview their paper’s HTML as a part of the submission process.
 
