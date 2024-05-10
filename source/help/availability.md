@@ -27,7 +27,7 @@ The final [arXiv identifier](arxiv_identifier.md) cannot be assigned until the p
 <a name="holiday"></a>
 ## On Deferred Mailings
 
-On the occasion that arXiv defers a mailing (either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons), this information may also be found on the [arXiv status](https://status.arxiv.org), or on the [arXiv blog](https://blog.arxiv.org).  
+Occasionally, arXiv defers a mailing, either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons. Information about deferred mailings may be found on the [arXiv status](https://status.arxiv.org) page, or on the [arXiv blog](https://blog.arxiv.org).  
 
 ### 2024 Holidays 
 - Mon 15 January
