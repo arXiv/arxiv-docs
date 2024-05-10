@@ -102,13 +102,14 @@ Once you have completed all of your changes, you need to have your changes revie
 - After selecting reviewers, click the blue "Create pull request" button.
 
 <kbd>![Screenshot of the location of the create pull request button in Github](/non-info/08-help-createPR.png)</kbd>
-- Reviewers will receive an email from Github prompting them to review your PR.
-- Additionally, you can slack your reviewers to give them a heads up to your PR.
+- Reviewers will receive an email from Github with a link to the PR to review.
+- Additionally, you can slack your reviewers with a link to your PR to give them a heads up.
 
 <br>
 
 ### 3. Merge the PR to `develop`
-- Once your PR has been reviewed and approved you can merge your PR to `develop`.
+- Once your PR has been reviewed and approved you will receive an email notification with a link to your PR. 
+- Now you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
 
 <kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd><br><br>
