@@ -73,7 +73,7 @@ Once you have completed all of your changes, you need to have your changes revie
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
 
->> In the event that you have made a commit and was unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
+>> In the event that you have made a commit and were unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
 >>
 >>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
 >>>Next, click the button to the right that says "New pull request"
