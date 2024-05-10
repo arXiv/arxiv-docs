@@ -62,11 +62,18 @@ If you have more changes to make at this time you may make and commit them all t
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- To make a PR click the "Pull requests" link in the header of the github page.
+- At the top of your page you will notice a yellow box that will have the name of your commit and a box to the right of it that says "Compare & pull request".
 
-- On the right hand side, click the blue button that says "New pull request"
+- Click on Compare & pull request
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
+
+>> In the event that you have made a commit and was unable to complete to create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
+>>
+>>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
+>>>Next, click the button to the right that says "New pull request"
+>>
+>><kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
 - This will compare your branch to the `develop` branch.
