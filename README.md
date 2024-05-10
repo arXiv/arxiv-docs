@@ -56,47 +56,24 @@ note in the `Extended description` area if you have more to say about your chang
 - Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
-<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
 
-- On the page you want to edit in github, click the pencil to edit the page contents right in github.
-
-<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
-
-- After you have made changes, click preview to see how it will look when completed. 
-**Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
-
-<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
-
-- Review your work in preview mode. To return to editing, click on "edit" in the header.
-
-<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd>
-
-- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
-Commit is the term github and git use for saving.
-
-<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd>
-
-- Add a brief note in the "Commit message" area summarizing your edit. You may add longer
-note in the `Extended description` area if you have more to say about your changes.
-
-- Make sure you have your email associated with your commits.
-
-- Note that a "new branch for this request and start a pull request" will be selected.
-- Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
-
-<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
-
-If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- To make a PR click the "Pull requests" link in the header of the github page.
+- At the top of your page you will notice a yellow box that will have the name of your commit and a box to the right of it that says "Compare & pull request".
 
-- On the right hand side, click the blue button that says "New pull request"
+- Click on Compare & pull request
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
+
+>> In the event that you have made a commit and was unable to complete to create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
+>>
+>>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
+>>>Next, click the button to the right that says "New pull request"
+>>
+>><kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
 - This will compare your branch to the `develop` branch.
