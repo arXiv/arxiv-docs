@@ -56,37 +56,7 @@ note in the `Extended description` area if you have more to say about your chang
 - Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
-<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
 
-- On the page you want to edit in github, click the pencil to edit the page contents right in github.
-
-<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
-
-- After you have made changes, click preview to see how it will look when completed. 
-**Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
-
-<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
-
-- Review your work in preview mode. To return to editing, click on "edit" in the header.
-
-<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd>
-
-- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
-Commit is the term github and git use for saving.
-
-<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd>
-
-- Add a brief note in the "Commit message" area summarizing your edit. You may add longer
-note in the `Extended description` area if you have more to say about your changes.
-
-- Make sure you have your email associated with your commits.
-
-- Note that a "new branch for this request and start a pull request" will be selected.
-- Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
-
-<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
-
-If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
 
 ### 2. Make a Pull Request from your branch to `develop`
