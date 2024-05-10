@@ -19,70 +19,77 @@ To make a quick edit, use this is a 4 step process:
 
 3. Merge the PR to develop.
 
-4. Merge changes on develop to master.
+4. Merge changes on develop to master.<br><br>
 
 ### 1. Make your edit on github
-- To edit a page first go to the info.arxiv.org page you want to edit. Ex https://info.arxiv.org/help/gzip.html
+- To edit a page first go to the info.arxiv.org page you want to edit.  
+Example: https://info.arxiv.org/help/gzip.html
 
 - Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
-- Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
 
-<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/02-help-info-page.png)</kbd>
+<kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/01-help-info-page.png)</kbd><br><br>
 
 - On the page you want to edit in github, click the pencil to edit the page contents right in github.
 
-<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/01-help-github1a.png)</kbd>
+<kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/02-help-github-edit-page.png)</kbd><br><br>
 
-- After you have made changes, click preview to see how it will look when completed. 
+- After you have made changes, click preview to see how it will look when completed.  
 **Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
 
-<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd>
+<kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd><br><br>
 
 - Review your work in preview mode. To return to editing, click on "edit" in the header.
 
-<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd>
+<kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd><br><br>
 
-- Once you are happy with your changes you can save by clicking on the blue "Commit changes" button in the upper right hand corner.
+- Once you are happy with your changes you can save by clicking on the "Commit changes" button in the upper right hand corner.
 Commit is the term github and git use for saving.
 
-<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd>
+<kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd><br><br>
 
 - Add a brief note in the "Commit message" area summarizing your edit. You may add longer
-note in the `Extended description` area if you have more to say about your changes.
+note in the "Extended description" area if you have more to say about your changes.
 
 - Make sure you have your email associated with your commits.
 
 - Note that a "new branch for this request and start a pull request" will be selected.
-- Name your branch after your JIRA ticket (if applicable) to link it. Ex `arxivce-1503-update-arxiv-docs-readme`.
+- Name your branch after your JIRA ticket (if applicable) or after your github username and brief description.  
+Examples:  
+ `arxivce-1503-update-arxiv-docs-readme`  
+ `alisonhofer-update-arxiv-docs-readme`
 
-<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd>
+<kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd><br><br>
 
-If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
+>If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
+
+<br>
 
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
 
-- At the top of your page you will notice a yellow box that will have the name of your commit and a box to the right of it that says "Compare & pull request".
+- At the top of your page you will notice a yellow box that will have the name of your commit and a button to the right of it that says "Compare & pull request".
 
 - Click on Compare & pull request
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
 
->> In the event that you have made a commit and was unable to complete to create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
+>> In the event that you have made a commit and was unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
 >>
 >>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
 >>>Next, click the button to the right that says "New pull request"
 >>
 >><kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
 
+<br>
+
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
 - This will compare your branch to the `develop` branch.
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd><br><br>
 
 - Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into master.
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareFiles.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareFiles.png)</kbd><br><br>
 
 - Click "Create pull request"
 - Add a title for your pull request and a description if the title is not self explanatory.
@@ -90,20 +97,21 @@ Once you have completed all of your changes, you need to have your changes revie
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
 
-<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd>
+<kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd><br><br>
 
 - After selecting reviewers, click the blue "Create pull request" button.
 
 <kbd>![Screenshot of the location of the create pull request button in Github](/non-info/08-help-createPR.png)</kbd>
-
 - Reviewers will receive an email from Github prompting them to review your PR.
-  
+- Additionally, you can slack your reviewers to give them a heads up to your PR.
+
+<br>
 
 ### 3. Merge the PR to `develop`
 - Once your PR has been reviewed and approved you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
 
-<kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd>
+<kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd><br><br>
 
 - You will be prompted to confirm you decision, click "Confirm merge".
 
@@ -112,23 +120,25 @@ Once you have completed all of your changes, you need to have your changes revie
 - **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
 - You can review your changes on the `develop` site at [info.dev.arxiv.org](info.dev.arxiv.org).
 
+<br>
+
 ### 4. Make a Pull Request from `develop` to `master`
-- **Please note:** Once you have merged your changes to `develop`, it is important to deploy them as soon as possible. Lingering commits on on the `develop` branch can cause unintentional problems when they are deployed with other code. If you notice commits other than your own in the PR you make, please be sure to check in with the owners of those commits to ensure they are ready to go live. 
+> **Please note:** Once you have merged your changes to `develop`, it is important to deploy them as soon as possible. Lingering commits on on the `develop` branch can cause unintentional problems when they are deployed with other code. If you notice commits other than your own in the PR you make, please be sure to check in with the owners of those commits to ensure they are ready to go live. 
 
 - Now that your PR has been merged to `develop`, you need to deploy these changes to `master`. 
 - To make a new PR click the "Pull requests" link in the header of the github page.
 - On the right hand side, click the blue button that says "New pull request"
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd><br><br>
 
-- Compare your changes by clicking on the "compare:develop" dropdown and type in "master" and then select it.
+- Compare your changes by clicking on the "base:develop" dropdown on the left and type in "master" and then select it.
 - This will compare your branch to the `develop` branch.
 
-<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareToMaster.png)</kbd>
+<kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareToMaster.png)</kbd><br><br>
 
 - Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into `master`.
 
-<kbd>![Screenshot how to compare changes between the develop branch and the master branch in github](/non-info/filesChanged-createPR.png)</kbd>
+<kbd>![Screenshot how to compare changes between the develop branch and the master branch in github](/non-info/filesChanged-createPR.png)</kbd><br><br>
 - Click "Create pull request"
 
 - Add a title for your pull request and a description if the title is not self explanatory.
@@ -141,6 +151,8 @@ Once you have completed all of your changes, you need to have your changes revie
 - Open your PR and scroll down and click on "Merge pull request".
 - You will be prompted to confirm you decision, click "Confirm merge".
 - You will see your changes on production about 15 minutes after you have confirmed your merge.
+
+<br>
 
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
