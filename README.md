@@ -73,7 +73,7 @@ Once you have completed all of your changes, you need to have your changes revie
 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
 
->> In the event that you have made a commit and was unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
+>> In the event that you have made a commit and were unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
 >>
 >>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
 >>>Next, click the button to the right that says "New pull request"
@@ -102,13 +102,14 @@ Once you have completed all of your changes, you need to have your changes revie
 - After selecting reviewers, click the blue "Create pull request" button.
 
 <kbd>![Screenshot of the location of the create pull request button in Github](/non-info/08-help-createPR.png)</kbd>
-- Reviewers will receive an email from Github prompting them to review your PR.
-- Additionally, you can slack your reviewers to give them a heads up to your PR.
+- Reviewers will receive an email from Github with a link to the PR to review.
+- Additionally, you can slack your reviewers with a link to your PR to give them a heads up.
 
 <br>
 
 ### 3. Merge the PR to `develop`
-- Once your PR has been reviewed and approved you can merge your PR to `develop`.
+- Once your PR has been reviewed and approved you will receive an email notification with a link to your PR. 
+- Now you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
 
 <kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd><br><br>
