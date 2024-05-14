@@ -4,7 +4,7 @@ The Economics archive formed 26 September 2017 and you can read about the [annou
 
 You can browse articles and view categories at the [main economics archive page](https://arxiv.org/archive/econ).
 
-The [moderators for the economics archive are listed here](https://arxiv.org/moderators#economics#economics).
+The [moderators for the economics archive are listed here](https://arxiv.org/moderators#econ).
 
 
 <span id="AdvisoryCommittee"></span>
