@@ -75,6 +75,13 @@ The most flexible and robust figure inclusion is provided by the `graphics` and 
 
 Note that some software will permit you to include a mix of PostScript and PDFLaTeX-compatible figures and will perform the conversions to the appropriate format for you on the fly. arXiv does not permit such software to run during the AutoTeX processing. Why? It is possible for conversion issues to arise that can alter the scientific meaning or interpretation of your figure. Rather than invite such possibilities, we require that you use a unified figure format.
 
+#### Avoid embedding JavaScript in your PDF files
+
+Do not include embedded JavaScript such as animated gifs, movies, HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
+- Submit all movies and animated GIFS as separate ancillary files. 
+- Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller. 
+
+
 #### Separate figures with LaTeX submissions
 
 Figures in **jpeg**, **png**, or **gif** format may be submitted alongside native (La)TeX submissions provided that they are **not** included in the source file.. PDF or other formats not listed above are not permitted with (La)TeX submission; use [PDFLaTeX](#pdflatex) instead for PDF, jpeg, or png figures.

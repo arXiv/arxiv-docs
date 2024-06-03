@@ -17,7 +17,15 @@ files might include:
 -   Workbooks and spreadsheets
 
 arXiv accepts ancillary material only in support of research articles
-submitted. Note that tex files should not be included in this directory. Additionally, no pointers inside your codebase should reference this directory (it will change upon announcement, and any linking may be lost). Full text placed in the ancillary directory will *not* be indexed in searches. For information on submitting supplemental text that can be indexed, please see [this tex help page](submit_tex.md#autoignore).
+submitted. Please take note of the following submission tips:
+ 
+- TeX files should not be included in the ancillary file directory. 
+- Pointers inside your codebase should not reference this directory (linking may be lost upon announcement). 
+- Full text placed in the ancillary directory will not be indexed in searches.
+- PDF files with embedded JavaScript will cause your submission to fail (embedded JavaScript is a security risk to arXiv’s systems).
+    - Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
+    - Submit all movies and animated GIFS as separate ancillary files. 
+
 
 Submission of ancillary files
 -----------------------------
