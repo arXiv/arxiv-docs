@@ -52,6 +52,13 @@ one of these free conversion utilities:
 (Please contact us if this information is out of date or if you can
 suggest other free tools that are better.)
 
+Avoid Embedded JavaScript
+-------------------------------------------------------
+Do not include embedded JavaScript such as animated gifs, movies, HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
+
+- Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
+- Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller or one of the free conversion utilities mentioned above. 
+
 <span id="fonts"></span>Fonts within PDF
 -------------------------------------------------------
 
