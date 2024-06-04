@@ -77,7 +77,7 @@ Note that some software will permit you to include a mix of PostScript and PDFLa
 
 #### Avoid embedding JavaScript in your PDF files
 
-Do not include embedded JavaScript such as animated gifs, movies, HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
+Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
 - Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files. 
 - Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller. 
 
