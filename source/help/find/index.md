@@ -11,22 +11,17 @@ https://arxiv.org/list/archive/YYYY
 ### Browse Lists by Archive, Year and Month
 https://arxiv.org/list/archive/YYYY-MM
 
-
 - Example - Computer Science articles from January 2019: [https://arxiv.org/list/cs/2019-01](https://arxiv.org/list/cs/2019-01)
-
 
 ### Browse Lists by Archive, Category, and Year
 https://arxiv.org/list/archive.SUBCATEGORY/YYYY
-
 
 - Example -  Computer Science, Human-Computer Interaction articles from 2019: [https://arxiv.org/list/cs.HC/2019](https://arxiv.org/list/cs.HC/2019) 
 
 ### Browse Lists by Archive, Category, Year and Month
 https://arxiv.org/list/archive.SUBCATEGORY/YYYY-MM
 
-
 - Example -  Computer Science, Human-Computer Interaction articles from January, 2019: [https://arxiv.org/list/cs.HC/2019-01](https://arxiv.org/list/cs.HC/2019-01) 
-
 
 ## Search
 Enter a few title words and/or author names and/or abstract words into
