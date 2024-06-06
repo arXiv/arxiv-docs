@@ -1,6 +1,6 @@
 # Cond-mat archive reorganization
 
-Because of the continued growth of the cond-mat e-print archive (see the [monthly totals](http://xxx.lanl.gov/year/cond-mat/1996)), many people have desired a bit of reorganization. This is now implemented.
+Due to the continued growth of the cond-mat e-print archive (see the [monthly totals](http://xxx.lanl.gov/year/cond-mat/1996)), many people have desired a bit of reorganization. This is now implemented.
 
 Now on cond-mat you can include a **Subj-class:** header with submissions. This is most easily done with a select menu for [web submissions](/uploads), or alternatively it can be included in e-mail submissions; see our [abstract preparation help](../help/prep.md). Subject classes must be chosen from the list below. People who subscribe to cond-mat as is would see no difference, except the listings can be sorted by the subject classification. You may, however, subscribe to any subset of classifications; see our [physics subscription help](http://xxx.lanl.gov/new/physsub.html). In this sense, each subject class is like a new archive.
 
