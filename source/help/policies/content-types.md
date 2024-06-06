@@ -78,7 +78,7 @@ Please refer to the page on [Translations](/help/translations.html)
 
 <a name="Comments"></a>
 
-## Comments and Reply to Comments
+## Comments and Replies to Comments
 
 arXiv encourages dialogue and debate about scientific matters. Normally this occurs via a series of papers that build on or critically examine each other. These are moderated each individually as standalone papers. Sometimes, a remark on or note about another paper that is not a full standalone paper is of sufficient interest to arXiv readers. These can be put on arXiv as so-called "comments-on" papers. All normal moderation criteria apply to these, except that they need not be complete standalone papers.
 
