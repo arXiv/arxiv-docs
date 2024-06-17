@@ -39,7 +39,7 @@ this page.
   something illegal or unethical, we may further limit or block your access.
 - You understand that we will make changes to arXiv APIs that may lead to
   compatibility issues with your code. We will do our best to provide advance
-  notice of such changes via our [website](https://api.arxiv.org) and the
+  notice of such changes via our [website](https://arxiv.org/) under arXiv News and the
   [arXiv API group](https://groups.google.com/forum/#!forum/arxiv-api). It is
   up to you to keep track of changes that might affect your use of arXiv APIs
   and to make any required changes.
