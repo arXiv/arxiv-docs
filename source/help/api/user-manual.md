@@ -251,16 +251,16 @@ the query. For example, if wanted to step through the results of a
 Detailed examples of how to perform paging in a variety of programming
 languages can be found in the [examples](#detailed_examples) section.
 
-<sup>In cases where the API needs to be called multiple times in a row, we encourage you to play nice and incorporate a 3 second delay in your code. The [detailed examples](#detailed_examples) below illustrate how to do this in a variety of languages. </sup>
+In cases where the API needs to be called multiple times in a row, we encourage you to play nice and incorporate a 3 second delay in your code. The [detailed examples](#detailed_examples) below illustrate how to do this in a variety of languages. 
 
 
-<sup>Because of speed limitations in our implementation of the API, the
+Because of speed limitations in our implementation of the API, the
 maximum number of results returned from a single call (`max_results`) is
 limited to 30000 in slices of at most 2000 at a time, using the
 `max_results` and `start` query parameters. For example to retrieve
 matches 6001-8000:
-http://export.arxiv.org/api/query?search_query=all:electron&start=6000&max_results=8000
-</sup>
+http://export.arxiv.org/api/query?search_query=all:electron&start=6000&max_results=2000
+
 
 Large result sets put considerable load on the server and also take a
 long time to render. We recommend to refine queries which return more
