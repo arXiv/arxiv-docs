@@ -19,7 +19,7 @@ In general, the guidelines below represent what types of content typically are a
 - Presentation slides
 - Proposals for future research
 - Supplemental material that is not embedded in the full article
-- Wokshop or conference summaries
+- Workshop or conference summaries
 - Undergraduate or high school research
 - Very short work
 
@@ -85,7 +85,8 @@ arXiv encourages dialogue and debate about scientific matters. Normally this occ
 Requirements for Comments and Replies:
 
 - “Comments-on” papers must include the arXiv-ID of the original paper in the Title and/or Comments metadata fields (e.g., “comment(s) on arXiv:YYMM.NNNNN").
-- When a “comments-on” paper is posted on arXiv, a reply from the authors of the original paper is permitted (subject to the same moderation criteria as comments). Reply submissions should include the arXiv-ID of the “comments-on” paper to which they respond in the Title and/or Comments metadata fields (e.g., “reply to arXiv: YYMM.NNNNN”).
+- When a “comments-on” paper is posted on arXiv, a reply from the authors of the original paper is permitted (subject to the same moderation criteria as comments). Reply submissions should include the arXiv-ID of the “comments-on” paper to which they respond in the Title and/or Comments metadata fields (e.g., “reply to arXiv:YYMM.NNNNN”).
+- With rare exceptions, arXiv only accepts “comments-on” papers in response to works that have appeared on arXiv. It is OK to refer to a version of the article posted elsewhere (such as a published journal version), but please make sure the arXiv-ID is still given in the metadata.
 - In rare cases where the original paper is not on arXiv, the DOI of the original paper should be used to identify it in the metadata in place of an arXiv-ID.
 - A chain of continued responses and counterresponses is allowed only as new versions of the initial Comment and Reply; these will not be accepted as new papers with new arXiv-IDs. A given author or co-author may submit only one Comment on a particular paper. Any subsequent issues the author wishes to raise must be done through version updates of the original Comment.
 
