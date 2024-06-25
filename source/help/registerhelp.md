@@ -5,13 +5,13 @@ First, we will ask for your e-mail and you will get to pick a user name
 and password. Your user name must be unique and cannot be changed.  
 Recommendations for arXiv password:
 
-    8 characters or more in length
+-  8 characters or more in length
 
-    may contain upper/lowercase letters, numbers, and one or more underscores (_) - one underscore is required
+- May contain upper/lowercase letters, numbers, and one or more underscores (_) - one underscore is required
 
-    may not contain any other special characters besides underscore - no other punctuation or symbols are allowed (ex. $, ., -,@)
+- May not contain any other special characters besides underscore - no other punctuation or symbols are allowed (ex. $, ., -,@)
 
-Some successful examples could be: “Pass_Word_2024” or “pAssWoRd_2024”
+Some successful examples could be: “Pass_Word_123” or “pAssWoRd_123”
 
 Second, we will ask you for some personal information such as your name,
 your institution (or organization) and which archives you are most
