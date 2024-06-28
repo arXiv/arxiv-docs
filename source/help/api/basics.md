@@ -252,7 +252,7 @@ The API [User's Manual](user-manual.md) discusses the API interface and
 returned Atom format in detail, and gives code examples in the languages
 listed above. The [API FAQ](faq.md) has answers to common questions, or
 feel free to ask the [arxiv-api discussion
-list](http://groups.google.com/group/arxiv-api).
+list](https://groups.google.com/a/arxiv.org/g/api).
 
 ## Community
 
