@@ -15,7 +15,7 @@ Please review the [Terms of Use for arXiv APIs](tou.md) before using the arXiv
 API.
 
 For more news and questions about the arXiv API, please see our [arxiv-api
-group](http://groups.google.com/group/arxiv-api). Additional information is also in the [API FAQ](faq.md).
+group](https://groups.google.com/a/arxiv.org/g/api). Additional information is also in the [API FAQ](faq.md).
 
   - [About the arXiv API](#about)
 
