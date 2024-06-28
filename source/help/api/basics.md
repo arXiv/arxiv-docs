@@ -257,13 +257,13 @@ list](http://groups.google.com/group/arxiv-api).
 ## Community
 
 We would love to know how you are using the arXiv API. Please send us an
-email to the [mailing list](http://groups.google.com/group/arxiv-api) to
+email to the [mailing list](https://groups.google.com/a/arxiv.org/g/api) to
 tell us about your project, and what language/library you are using.
 Please include a url of your project, and we will post a link to it from
 this page.
 
 The best way to learn about the arXiv API, and to get help from others
-is to join our [mailing list](http://groups.google.com/group/arxiv-api).
+is to join our [mailing list](https://groups.google.com/a/arxiv.org/g/api).
 It is better to ask your questions in this forum for all to see. More
 often than not, someone else has the same question, or can provide an
 answer. Questions and feedback are the primary information channel that
@@ -310,11 +310,11 @@ The following projects use the arXiv API:
 We love to hear from you. If you have changes to the documentation, code
 examples, example applications that use the API, and general comments,
 please send them to the [mailing
-list](http://groups.google.com/group/arxiv-api). We value all of your
+list](https://groups.google.com/a/arxiv.org/g/api). We value all of your
 discussion.
 
 ### Mailing List
 
 To join the mailing list, please visit our [arxiv-api groups
-page](http://groups.google.com/group/arxiv-api). Anyone can join, and we
+page](https://groups.google.com/a/arxiv.org/g/api). Anyone can join, and we
 encourage you to do so.
