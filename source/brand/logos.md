@@ -6,7 +6,7 @@ Our identifying mark, vetted and approved by Cornell University, achieves the *l
 
 The arXiv logo nods to the past with a font that pays homage to arXiv’s birth in the 90’s, while also being boldly forward looking. The arms of the ‘X’ retain stylistic elements of the ‘chi’ in our name, with a lengthened top left and lower right branch. Symbolically, the intertwining of the arms at the heart of the logo captures the spirit of arXiv’s core value as a place of connection.
 
-Using our logo consistently over time will build up rich layers of meaning with our community, and it’s value to arXiv will increase exponentially. The legal protection we have over the logo will help us also protect the arXiv service that we all love.
+Using our logo consistently over time will build up rich layers of meaning with our community, and its value to arXiv will increase exponentially. The legal protection we have over the logo will help us also protect the arXiv service that we all love.
 
 > **The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition.** Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.
 
@@ -58,6 +58,6 @@ arXiv's logomark is for use where space is at a premium, for example mobile appl
 
 
 ##Supergraphic
-arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and it's rebellious nature, with a modern homage. For fun, here is a [brief history](https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon) of the original icon. The smileybones supergraphic should be used in applications where it can display on a large enough scale for impact, and where a bit of informality is appropriate
+arXiv's supergraphic provides a new twist on an old favorite: the arXiv "smileybones". Quirky, scrappy, inscrutable, and whaaaat? are just some of the ways this icon has been described over the years. The updated icon celebrates the pixelation of the original 90's image, and its rebellious nature, with a modern homage. For fun, here is a [brief history](https://www.quora.com/Whats-the-story-behind-the-arXiv-org-favicon) of the original icon. The smileybones supergraphic should be used in applications where it can display on a large enough scale for impact, and where a bit of informality is appropriate
 
 ![Smileybones supergraphic](images/brand-supergraphic.jpg){.mkd-img-60 alt='A large yellow smiley face over highly pixelated crossed bones'}
