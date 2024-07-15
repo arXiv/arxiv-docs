@@ -1,16 +1,13 @@
 Automated DOI and journal reference updates from publishers
 ===========================================================
 
-We believe that linkage between arXiv and publisher versions of articles is of benefit to both arXiv users and publishers. Prospective users should contact arXiv
-administrators to discuss possible use of this facility, *after* making 
-the XML feed available on their site for ingestion. 
+arXiv believes that linkage between arXiv and publisher versions of articles benefits the community. To facilitate this, we accept feeds of DOI and journal reference metadata from publishers and other trusted third-parties. Organizations that are interested in providing a feed to arXiv should contact us through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1)
 
 DOI and journal reference update data format
 --------------------------------------------
 
-The update information uses a simple XML format to convey DOI and/or
-journal reference information for a published version of the arXiv
-article. The XML should use the following schema:
+The metadata feeds use a simple XML format to convey DOI and/or journal reference information for a published version of the arXiv article. The XML should use the following schema:
+
 
 -   <http://arxiv.org/schemas/doi_feed.xsd>
 
@@ -35,31 +32,25 @@ attributes:
     notes](prep.md#doi)).
 -   `journal_ref` - One or more full bibliographic references to a
     published version of the article. Multiple references should be
-    separated with a semi-colon and a space. Addition human-readable
+    separated with a semicolon and a space. Additional human-readable
     qualifiers such as "Erratum" may be used (e.g.
     `Phys.Lett. B541 (2002) 273-280; Erratum-ibid. B562 (2003) 367`, see
     also [journal reference metadata notes](prep.md#journal)).
 
-The XML format has a few historical oddities. The `identifier` attribute
-on the root element is used to check we have the feed we expect and should not change for a given publisher/source. The contents of the
-`<date>` element are not used during updates. It is useful for human
+-   The XML format has a few historical irregularities. The `identifier` attribute
+on the root element is used to check we have the feed we expect and should not change for a given publisher/source.
+-   The contents of the `<date>` element are not used during updates. It is useful for human
 debugging however, and should be set to the date the feed was generated.
 
 Update protocol
 ---------------
 
-After establishing that an update source has reliable and correctly
-formatted metadata we arrange to poll a particular URL on a
-weekly or monthly schedule. Updates that appear in more than one polling
-are ignored. For very small feeds (up to 1000 entries) it is
-reasonable to simply append them to a growing list of updates. For most feeds
-only recent updates should be included. We recommend that two
-polling-periods worth of updates are included so that updates won't be
-missed if something goes wrong with one of the polling cycles.
+After establishing that an update source has reliable and correctly formatted metadata we arrange to poll a particular URL on a weekly or monthly schedule. Updates that appear in more than one polling are ignored. For very small feeds (up to 1,000 entries) it is reasonable to simply append them to a growing list of updates. For most feeds only recent updates should be included. We recommend that two polling periods worth of updates are included so that updates won't be missed if something goes wrong with one of the polling cycles.
+
 
 Problems or errors
 -------------------
 
-Updates are automatic so it is vital that feeds contain reliable data.
+Updates are automatic so it is important that feeds contain reliable data.
 Details of errors or other problems should be [communicated to arXiv
 administrators](https://info.arxiv.org/help/contact.html) as soon as possible. 
