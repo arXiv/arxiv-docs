@@ -40,13 +40,10 @@ If your appeal is accepted, the message you receive from arXiv staff will have i
 *Note:* Articles that have already been made public and have been reclassified will not receive an announcement within the new category. 
 
 <span id="denied"></span>
+<span id="final"></span>
 ## What if my appeal is denied?
 
-If your appeal is denied you will receive a message from arXiv staff regarding the decision. Detailed feedback about moderation decisions or appeals will not be provided.
+If your appeal is denied you will receive a message from arXiv staff regarding the decision. Detailed feedback about moderation decisions or appeals will not be provided. 
 
-<span id="final"></span>
-## Can all decisions be appealed? 
-
-When an appeal is denied by appellate moderators, no further appeal is possible. arXiv staff will not provide detailed feedback regarding the decision and will not enter into extended back and forth regarding a denied appeal. Extreme cases may be addressed to The arXiv [Leadership Team](../../about/people/leadership_team.md), who may consult the appellate moderators or subject area advisory committees as needed. 
-
+When an appeal is denied by appellate moderators, no further appeal is possible. arXiv will not provide detailed feedback regarding the decision and will not enter into extended back and forth regarding a denied appeal. Unusual cases may be addressed to the Chair of the appropriate Section Editorial Committee by raising a ticket in our [user support portal](https://arxiv.org/support/moderation_help) and indicating that it should go to the Section Chair. Please note that is highly unlikely that a section chairs will override a moderator on a decision related to the content of an article; however they will review procedural issues.
 The decision to decline a submission, or the article's ultimate classification within our corpus, lies wholly with arXiv.
