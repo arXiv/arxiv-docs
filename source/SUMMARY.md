@@ -13,7 +13,7 @@
     * [Accessibility](about/accessibility.md)
     * [arXiv Blog](https://blog.arxiv.org/)
 * [Help](help/index.md)
-    * [Submit an Article]
+    * Submit an Article
           * [Submission Overview](help/submit/index.md)
           * [Submit TeX/LaTeX](help/submit_tex.md)
           * [Submit a PDF](help/submit_pdf.md)
