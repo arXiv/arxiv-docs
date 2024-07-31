@@ -26,7 +26,7 @@ Proposed features must provide added value to arXiv content, the scientific comm
 
 [arXiv’s API](../help/api/index.md) is free and open to the public. You may use the arXiv API to retrieve arXiv metadata, full text, or source files for your project. 
 
-If you wish to submit a proposal for an arXIvLabs project, please review our proposal criteria below before doing so. As part of your proposal, you will need to submit a Pull Request (PR). The final decision for approving an arXivLabs project is made by the arXiv management and teams. See more information about submission criteria in [Proposal Criteria](criteria.md).
+If you wish to submit a proposal for an arXIvLabs project, please review our proposal criteria below before doing so. As part of your proposal, you will need to submit a Pull Request (PR). The final decision for approving an arXivLabs project is made by the arXiv management and teams. 
 
 Learn more about previous [arXivLabs’ projects](https://blog.arxiv.org/?s=labs).
 
