@@ -6,7 +6,7 @@ arXivLabs provides useful services to our readers such as bibliographic and cont
 
 ![arXiv Labs features](images/arXivLabs-tabs.png)
 
-Proposed features must provide added value to arXiv content, the scientific community, and should be free of charge or operate on a freemium model. Please note that Labs projects may be removed at any time at the sole discretion of arXiv. As a courtesy, arXiv will notify the creator, when possible, that their integration has been removed.
+Proposed features must provide added value to arXiv content, the scientific community, and should be free of charge or operate on a freemium model. Please note that Labs projects may be removed at any time at the sole discretion of arXiv. As a courtesy, arXiv will notify the creator when possible, that their integration has been removed.
 
 
 ### arXivLabs is:
@@ -23,8 +23,6 @@ Proposed features must provide added value to arXiv content, the scientific comm
 - A place to tell us about your latest scientific breakthrough. (Please write a proper academic paper and submit it to use through the usual process) 
 - A place to request endorsement [see the arXiv endorsement system](../help/endorsement.md)
 - A place to submit your articles for posting on arXiv (see [General submission policies - arXiv info](../help/submit/index.md) for the relevant information)
-
-[arXiv’s API](../help/api/index.md) is free and open to the public. You may use the arXiv API to retrieve arXiv metadata, full text, or source files for your project. 
 
 If you wish to submit a proposal for an arXIvLabs project, please review our proposal criteria below before doing so. As part of your proposal, you will need to submit a Pull Request (PR). The final decision for approving an arXivLabs project is made by the arXiv management and teams. 
 
