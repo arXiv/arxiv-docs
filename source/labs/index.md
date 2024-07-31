@@ -4,7 +4,7 @@
 
 arXivLabs provides useful services to our readers such as bibliographic and contextual features, which are made available on the abstract page through a series of tabs at the bottom of the page. 
 
-![arXiv Labs features](images/arXivLabs-tabs.png)
+![arXiv Labs features](images/arXivLabsFeatures-01.png)
 
 Proposed features must provide added value to arXiv content, the scientific community, and should be free of charge or operate on a freemium model. Please note that Labs projects may be removed at any time at the sole discretion of arXiv. As a courtesy, arXiv will notify the creator when possible, that their integration has been removed.
 
