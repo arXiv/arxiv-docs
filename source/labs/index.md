@@ -13,7 +13,7 @@ Proposed features must provide added value to arXiv content, the scientific comm
 
 - A way to contribute to arXiv
 - A way to benefit the scientific community
-- A way to enhance open science [learn how arXiv is contributing to open science](https://info.arxiv.org/about/accessibility.html)
+- A way to enhance open science [learn how arXiv is contributing to open science](../about/accessibility.md)
 
 ### arXivLabs is not:
 
@@ -21,10 +21,10 @@ Proposed features must provide added value to arXiv content, the scientific comm
 - A place for proposals to have arXiv collaborate with your research.
 - A laboratory that you can ask to use for your scientific research.
 - A place to tell us about your latest scientific breakthrough. (Please write a proper academic paper and submit it to use through the usual process) 
-- A place to request endorsement [see the arXiv endorsement system](https://info.arxiv.org/help/endorsement.html)
-- A place to submit your articles for posting on arXiv (see [General submission policies - arXiv info](https://info.arxiv.org/help/submit/index.html) for the relevant information)
+- A place to request endorsement [see the arXiv endorsement system](../help/endorsement.md)
+- A place to submit your articles for posting on arXiv (see [General submission policies - arXiv info](../help/submit/index.md) for the relevant information)
 
-[arXiv’s API](https://arxiv.org/help/api/) is free and open to the public. You may use the arXiv API to retrieve arXiv metadata, full text, or source files for your project. 
+[arXiv’s API](../help/api/index.md) is free and open to the public. You may use the arXiv API to retrieve arXiv metadata, full text, or source files for your project. 
 
 If you wish to submit a proposal for an arXIvLabs project, please review our proposal criteria below before doing so. As part of your proposal, you will need to submit a Pull Request (PR). The final decision for approving an arXivLabs project is made by the arXiv management and teams. See more information about submission criteria in [Proposal Criteria](criteria.md).
 
@@ -32,7 +32,7 @@ Learn more about previous [arXivLabs’ projects](https://blog.arxiv.org/?s=labs
 
 ## arXivLabs Proposal Criteria
 
-All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](/source/help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier.
+All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](../help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier.
 Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, advertising and other promotional vehicles.
 
 
@@ -55,7 +55,7 @@ We encourage all Labs partners to continue to update and maintain their code. Ho
 
 - Projects with user-facing components must adopt [WCAG 2.0](http://www.w3.org/TR/2008/REC-WCAG20-20081211/) Level A (Web Content Accessibility Guidelines). Higher levels of accessibility (i.e. AA, AAA) are encouraged and welcome.
 - Any user-facing or promotional content must clearly indicate that the project is an arXivLabs project.
-- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Code of Conduct and [Brand and Style Guide](/source/brand/index.md).
+- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Code of Conduct and [Brand and Style Guide](../brand/index.md).
   - Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, advertising and other promotional vehicles.
 - When practical, a quick-to-use Likert-style or cardinal feedback mechanism should be made available.
 
