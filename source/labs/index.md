@@ -7,7 +7,7 @@ arXivLabs allows the community to contribute to arXiv by integrating code into t
 ![arXiv Labs features](images/arXivLabsFeatures-01.png)
 
 <ol class="color-blocks">
-  <li>Learn more about previous [arXivLabs’ projects](https://blog.arxiv.org/?s=labs).</li>
+  <li>Learn more about previous <a href="https://blog.arxiv.org/?s=labs">arXivLabs’ projects</a>.</li>
 
 We welcome proposals from the community for arXivLabs integrations. Proposed features must add value to arXiv content, benefit the scientific community, and be based on underlying services that are free of charge or operate on a freemium model. Please note that Labs projects may be removed at any time at the sole discretion of arXiv. As a courtesy, arXiv will notify the creator when possible that their integration has been removed.
 
