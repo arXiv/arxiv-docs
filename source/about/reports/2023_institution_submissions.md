@@ -7,9 +7,8 @@
 
 _See more [arXiv in Numbers](2023_usage.md)_
 
-Submissions by Institution will be made available to members only by June 2023.
+Submissions by Institution will be made available to members only by June 2023. [To learn how this information is used in the membership program, see here](../../about/membership.md). The following table shows submissions by institution in 2021, 2022, and 2023. Don't see your institution? Contact [membership@arxiv.org](mailto:membership.arxiv.org). 
 
-The following table shows submissions by institution in 2021, 2022, and 2023. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](../../about/membership.md).  
 
 <style>
 
@@ -53,18 +52,19 @@ The following table shows submissions by institution in 2021, 2022, and 2023. To
 
 <div class="filters-wrapper">
     <div class="filter-item">
-        <h3>Institution</h3> 
+        <h4>Institution Name</h4> 
         <div class="filters-container" id="institution-filter-container">
             <div id="institution-filter"></div>
         </div>
     </div>
     <div class="filter-item">
-        <h3>Country</h3>
+        <h4>Country</h4>
         <div class="filters-container" id="country-filter-container">
             <div id="country-filter"></div>
         </div>
     </div>
 </div>
+
 <div id="institution_rank_wrapper" style="max-width: 1200px;">
     <table id="institution_rank" class="display compact"></table>
 </div>
