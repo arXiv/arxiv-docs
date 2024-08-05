@@ -14,33 +14,46 @@ Submissions by Institution will be made available to members only by June 2023. 
 
     .filters-wrapper {
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
         margin-bottom: 20px;
-    }
-
-    /* Clear floats after the columns */
-    .filters-wrapper:after {
-    content: "";
-    display: table;
-    clear: both;
-    }
-
-    .filters-container {
-        max-height: 200px;
-        overflow-y: auto;
-        border: 1px solid #ccc;
-        padding: 10px;
-        font-size: .9em;
-        float: left;
+        width: 100%;
     }
 
     .filter-item {
-        margin-right: 20px;
-        width: 50%;
+        box-sizing: border-box;
+    }
+
+    .filter-item:first-child {
+        width: calc(65% - 20px);
+    }
+
+    .filter-item:last-child {
+        width: 35%;
+    }
+
+.filters-container {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: .9em;
+}
+
+    #institution_rank_wrapper {
+        width: 100%;
+    }
+
+    .dataTables_wrapper {
+        width: 100%;
+    }
+
+    .dataTables_filter {
+        width: 30%;
+        float: right;
     }
 
     table.dataTable {
-        margin: 0 auto;
+        width: 100% !important;
         font-size: .9em; 
     }
 
@@ -48,30 +61,65 @@ Submissions by Institution will be made available to members only by June 2023. 
         white-space: nowrap;
     }
 
+    #institution-filter br,
+    #country-filter br {
+        display: none;
+    }
+
+    #institution-filter label,
+    #country-filter label {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 5px;
+        line-height: 1.2;
+    }
+
+    #institution-filter input[type="checkbox"],
+    #country-filter input[type="checkbox"] {
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+
+    #institution-filter label span,
+    #country-filter label span {
+        display: inline-block;
+        padding-left: 20px;
+        text-indent: -20px;
+    }
+
+    .filter-item input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
 </style>
 
 <div class="filters-wrapper">
     <div class="filter-item">
-        <h4>Institution Name</h4> 
+        <h4 style="margin-bottom: 0px;">Institution Name</h4>
+        <input type="text" id="institution-search" placeholder="Search institutions...">
         <div class="filters-container" id="institution-filter-container">
             <div id="institution-filter"></div>
         </div>
     </div>
     <div class="filter-item">
-        <h4>Country</h4>
+        <h4 style="margin-bottom: 0px;">Country</h4>
+        <input type="text" id="country-search" placeholder="Search countries...">
         <div class="filters-container" id="country-filter-container">
             <div id="country-filter"></div>
         </div>
     </div>
 </div>
 
-<div id="institution_rank_wrapper" style="max-width: 1200px;">
+<div id="institution_rank_wrapper">
     <table id="institution_rank" class="display compact"></table>
 </div>
 
 
-<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_top_filter_v10.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_top_filter_v11.js"></script>
 
 Data provided by
-<img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>  
-
+<img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
