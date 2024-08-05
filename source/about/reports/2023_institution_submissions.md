@@ -24,20 +24,20 @@ Submissions by Institution will be made available to members only by June 2023. 
     }
 
     .filter-item:first-child {
-        width: calc(70% - 20px);
+        width: calc(65% - 20px);
     }
 
     .filter-item:last-child {
-        width: 30%;
+        width: 35%;
     }
 
-    .filters-container {
-        max-height: 200px;
-        overflow-y: auto;
-        border: 1px solid #ccc;
-        padding: 10px;
-        font-size: .9em;
-    }
+.filters-container {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: .9em;
+}
 
     #institution_rank_wrapper {
         width: 100%;
@@ -86,17 +86,28 @@ Submissions by Institution will be made available to members only by June 2023. 
         padding-left: 20px;
         text-indent: -20px;
     }
+
+    .filter-item input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
 </style>
 
 <div class="filters-wrapper">
     <div class="filter-item">
-        <h4 style="margin-bottom: 0px;">Institution Name</h4> 
+        <h4 style="margin-bottom: 0px;">Institution Name</h4>
+        <input type="text" id="institution-search" placeholder="Search institutions...">
         <div class="filters-container" id="institution-filter-container">
             <div id="institution-filter"></div>
         </div>
     </div>
     <div class="filter-item">
         <h4 style="margin-bottom: 0px;">Country</h4>
+        <input type="text" id="country-search" placeholder="Search countries...">
         <div class="filters-container" id="country-filter-container">
             <div id="country-filter"></div>
         </div>
@@ -111,5 +122,4 @@ Submissions by Institution will be made available to members only by June 2023. 
 <script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_top_filter_v10.js"></script>
 
 Data provided by
-<img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>  
-
+<img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
