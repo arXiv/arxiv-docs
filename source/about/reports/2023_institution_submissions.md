@@ -119,7 +119,7 @@ Submissions by Institution will be made available to members only by June 2023. 
 </div>
 
 
-<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_top_filter_v10.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_top_filter_v11.js"></script>
 
 Data provided by
 <img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
