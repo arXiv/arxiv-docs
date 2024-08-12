@@ -11,7 +11,7 @@ We welcome proposals from the community for arXivLabs integrations. Proposed fea
 
 If you wish to submit a proposal for an arXivLabs project, please review our proposal criteria below before doing so. After you have reviewed our criteria, follow the steps provided at the end of this page for submitting a proposal. As part of your proposal, you will need to submit a Pull Request (PR). The final decision for approving an arXivLabs project is made by the arXiv management and teams.
 
-### arXivLabs is not:
+**arXivLabs is not:**
 
 - A source of research funding.
 - The venue for proposing formal collaboration with arXiv.
@@ -59,7 +59,7 @@ We encourage all contributors to Labs to continue to update and maintain their c
 The following steps will guide you in submitting an arXivLabs proposal: 
 
 - Submit an arXivLabs proposal in the [Labs support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6).
-- Next, [submit your Pull Request (PR) to an arXiv repo](https://github.com/arXiv) using GitHub. 
+- Next, [submit your Pull Request (PR) to the arXiv-browse repository](https://github.com/arXiv/arxiv-browse) using GitHub. 
   - Request a review of your PR by selecting arXiv/labs-moderators as your reviewer.
   - Create a fork to your organization, create a branch on the fork, and then create a PR against arXiv’s repository. This is a standard practice for creating a PR to suggest a change to other organizations. Please [consult this documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) if you’d like more detailed information. 
 - Your PR should only make changes in the labs area. Any changes in other parts of the abstract page will likely result in rejection of the PR.
