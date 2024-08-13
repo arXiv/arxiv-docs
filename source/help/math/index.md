@@ -13,12 +13,11 @@ The [moderators for the math archive are listed here](https://arxiv.org/moderato
 The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Paul Gunnels, University of Massachusetts, Amherst (chair)
-- Doug Arnold, University of Minnesota
 - Ioana Dumitriu, University of California, San Diego
 - Angela Gibney, University of Pennsylvania
 - Alex Iosevich, University of Rochester
 - Greg Kuperberg, University of California, San Diego
-- David R. Morrison, University of California, Santa Barbara
+
 
 ## Historical notes
 
