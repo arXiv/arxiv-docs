@@ -2,8 +2,9 @@
 
 You can replace a publicly announced article by selecting the Replace
 (![replace icon](../assets/replace.png)) icon for the article you want to
-replace on your [user page](replace.md). We ask that articles be replaced no more than once
-per week.
+replace on your [user page](replace.md). 
+
+We ask that articles be replaced no more than once per week. After version 5 replacements are limited to no more than once per week.
 
 Note that if your article or replacement has not yet been publicly
 announced you may select the Unsubmit (![unsubmit
