@@ -100,6 +100,12 @@ Subject classifications. Articles can be classified under more than one category
 <category>math.OC</category>
 ```
 
+**&lt;pubDate&gt;**
+Publish date for the update on the article. For new announcements this is the date the paper was officially announced on arXiv, for all other its the date of the official announcement of the update.  
+```
+<pubDate>Fri, 23 Aug 2024 00:00:00 -0400</pubDate>
+```
+
 **&lt;arxiv:announce_type&gt;**  
 Announce types defined: 
 
