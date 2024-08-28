@@ -35,6 +35,7 @@ Occasionally, arXiv defers a mailing, either for locally celebrated holidays suc
 - Wed 19 June
 - Thrs 4 July
 - Mon 2 September
+- Tues 8 October
 - Thrs 28 November
 - Wed 25 December
 - Thrs 26 December
