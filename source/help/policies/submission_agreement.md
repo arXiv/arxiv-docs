@@ -19,7 +19,7 @@ arXiv is a curated research-sharing platform emphasizing openness, collaboration
 
 ## Compliance with arXiv Policies 
 
-I agree to comply with all arXiv policies, including but not limited to, those related to the [code of conduct](https://info.arxiv.org/help/policies/code_of_conduct.html), [moderation](https://info.arxiv.org/help/moderation/index.html), and [privacy](https://info.arxiv.org/help/policies/privacy_policy.html). My failure to so comply may result in arXiv suspending access, removing Works, or otherwise taking action it determines is necessary. I understand and agree that arXiv reserves the right, in its sole discretion, to take any action that arXiv determines is required in order to comply with applicable arXiv policies and any applicable laws, including but not limited to removal of a Work or blocking access to it.  
+I agree to comply with all arXiv policies, including but not limited to, those related to the [code of conduct](/help/policies/code_of_conduct.html), [moderation](/help/moderation/index.html), and [privacy](/help/policies/privacy_policy.html). My failure to so comply may result in arXiv suspending access, removing Works, or otherwise taking action it determines is necessary. I understand and agree that arXiv reserves the right, in its sole discretion, to take any action that arXiv determines is required in order to comply with applicable arXiv policies and any applicable laws, including but not limited to removal of a Work or blocking access to it.  
 
 ## Curation of Content
 
