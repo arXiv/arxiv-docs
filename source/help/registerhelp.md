@@ -2,9 +2,16 @@
 
 To begin registration, visit the [registration form](https://arxiv.org/user/register).
 First, we will ask for your e-mail and you will get to pick a user name
-and password. Your user name must be unique and cannot be changed. Your
-password must be at least 8 characters long and contain one character
-that is not a letter.
+and password. Your user name must be unique and cannot be changed.  
+Recommendations for arXiv password:
+
+-  8 characters or more in length
+
+- May contain upper/lowercase letters, numbers, and one or more underscores (_) - one underscore is required
+
+- May not contain any other special characters besides underscore - no other punctuation or symbols are allowed (ex. $, ., -,@)
+
+Some successful examples could be: “Pass_Word_123” or “pAssWoRd_123”
 
 Second, we will ask you for some personal information such as your name,
 your institution (or organization) and which archives you are most
@@ -35,4 +42,7 @@ If you need to change your preferred e-mail address, for example because
 you have changed institutions, then you should visit the [e-mail change
 form](https://arxiv.org/auth/email-change-form). This will ask for your new e-mail
 address and will send an e-mail with a verification code to your new
-address to make sure that your new address is correct.
+address to make sure that your new address is correct. Please allow up to an hour
+for delivery of the verification code, before requesting a new one. If you try two
+times and still have not received a verification code, or your verification code 
+does not work, please contact [arXiv user support](https://arxiv.org/support).

@@ -30,14 +30,3 @@ which may trigger one of our [robot-tripwires](robots.md) and
 block your access. Please download all PDFs to your local machine and
 open them with the full Adobe Acrobat Reader application.
 
-Xpdf
-----
-
-[Xpdf](http://www.foolabs.com/xpdf/) is an open source viewer for PDF
-files. The Xpdf project also includes a PDF text extractor,
-PDF-to-PostScript converter, and various other utilities.
-
-This viewer will only display rotated fonts if using `t1lib`, or if your
-X server is capable (most are not). If fonts can't be rotated, the paper
-identifier printed at the left side of the page is displayed strangely,
-but otherwise most papers will be fine.

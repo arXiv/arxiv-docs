@@ -6,15 +6,15 @@
 
 The arXiv **SWORD Deposit API** allows programmatic submission of
 material for ingestion into the arXiv database hosted at
-[arXiv.org](http://arxiv.org/).
+[arXiv.org](https://arxiv.org/).
 
-[SWORD](http://www.swordapp.org/) defines a web service for repository
+[SWORD](https://www.swordapp.org/) defines a web service for repository
 deposit based on the Atom Publishing Protocol (**APP**),
-[RFC5023](http://tools.ietf.org/html/rfc5023).
+[RFC5023](https://tools.ietf.org/html/rfc5023).
 
 The implementation of SWORD/APP at arXiv closely follows the [**SWORD
 APP Profile version
-1.3**](http://www.swordapp.org/docs/sword-profile-1.3.html) (SWORD/APP)
+1.3**](https://www.swordapp.org/docs/sword-profile-1.3.html) (SWORD/APP)
 and is intended to be interoperable with all SWORD client
 implementations to the extent possible.
 
@@ -59,9 +59,9 @@ A SWORD/APP deposit to arXiv consists of two steps.
 At this point the SWORD/APP communication is complete.
 
 Problems or errors with a deposit are signified by a [`HTTP
-4xx`](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) status
+4xx`](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) status
 code and accompanied by a
-[`<sword:error>`](http://www.swordapp.org/docs/sword-profile-1.3.html#a.5)
+[`<sword:error>`](https://www.swordapp.org/docs/sword-profile-1.3.html#a.5)
 response from arXiv providing further information on the particular
 error.
 
@@ -134,7 +134,7 @@ system and general metadata requirements in order to correctly and
 usefully describe their submission in terms of arXiv metadata or to
 determine a good mapping of their metadata format to arXiv’s metadata
 format. This is best accomplished by browsing (the relevant
-subcategories of) [arXiv.org](http://arxiv.org/).
+subcategories of) [arXiv.org](https://arxiv.org/).
 
 <span id="authentication"></span>
 ### 3.4. SSL/TLS and HTTP Basic Authentication 
@@ -215,10 +215,10 @@ to
 and the general structure of the returned servicedocument is
 
     <?xml version="1.0" encoding="utf-8"?>
-    <service xmlns="http://www.w3.org/2007/app"
-             xmlns:atom="http://www.w3.org/2005/Atom"
-             xmlns:sword="http://purl.org/net/sword/"
-             xmlns:dcterms="http://purl.org/dc/terms/"
+    <service xmlns="https://www.w3.org/2007/app"
+             xmlns:atom="https://www.w3.org/2005/Atom"
+             xmlns:sword="https://purl.org/net/sword/"
+             xmlns:dcterms="https://purl.org/dc/terms/"
              xmlns:arxiv="http://arxiv.org/schemas/atom/">
       <sword:version>1.3</sword:version>
       <sword:maxUploadSize>10000</sword:maxUploadSize>
@@ -240,9 +240,9 @@ the (mediated) user has submission privileges along with collection
 specific information, like accepted media-types (`<accept>`), accepted
 packaging format (`<acceptPackaging>`), collection policy
 (`<collectionPolicy>`), etc. declarations. See
-[RFC5023](http://tools.ietf.org/html/rfc5023) for specification and the
+[RFC5023](https://tools.ietf.org/html/rfc5023) for specification and the
 SWORD specific extensions described in [SWORD APP Profile version
-1.3](http://www.swordapp.org/docs/sword-profile-1.3.html).
+1.3](https://www.swordapp.org/docs/sword-profile-1.3.html).
 
 <span id="collections"></span>
 #### 4.1.1. Collections and arXiv Classification
@@ -250,7 +250,7 @@ SWORD specific extensions described in [SWORD APP Profile version
 Each collection comes with its own arXiv specific list of “*primary
 categories*”. These are regular atom **category** elements. However to
 distinguish them from categories denoting secondary classification, they
-are specified via the arXiv extension element `<primary_category xmlns="http://arxiv.org/schemas/atom/">`.
+are specified via the arXiv extension element `<primary_category xmlns="https://arxiv.org/schemas/atom/">`.
 
 There is also a long list of (optional) secondary categories, which are
 regular atom category elements. Specifying appropriate secondary
@@ -277,16 +277,16 @@ primary\_categories for the *Statistics collection*:
           <atom:title>The Statistics archive</atom:title>
           ....
           <arxiv:primary_categories fixed="yes">
-            <arxiv:primary_category term="http://arxiv.org/terms/arXiv/stat.AP"
-             scheme="http://arxiv.org/terms/arXiv/" label="Statistics - Applications"/>
-            <arxiv:primary_category term="http://arxiv.org/terms/arXiv/stat.CO"
-             scheme="http://arxiv.org/terms/arXiv/" label="Statistics - Computation"/>
-            <arxiv:primary_category term="http://arxiv.org/terms/arXiv/stat.ML"
-             scheme="http://arxiv.org/terms/arXiv/" label="Statistics - Machine Learning"/>
-            <arxiv:primary_category term="http://arxiv.org/terms/arXiv/stat.ME"
-             scheme="http://arxiv.org/terms/arXiv/" label="Statistics - Methodology"/>
-            <arxiv:primary_category term="http://arxiv.org/terms/arXiv/stat.TH"
-             scheme="http://arxiv.org/terms/arXiv/" label="Statistics - Theory"/>
+            <arxiv:primary_category term="https://arxiv.org/terms/arXiv/stat.AP"
+             scheme="https://arxiv.org/terms/arXiv/" label="Statistics - Applications"/>
+            <arxiv:primary_category term="https://arxiv.org/terms/arXiv/stat.CO"
+             scheme="https://arxiv.org/terms/arXiv/" label="Statistics - Computation"/>
+            <arxiv:primary_category term="https://arxiv.org/terms/arXiv/stat.ML"
+             scheme="https://arxiv.org/terms/arXiv/" label="Statistics - Machine Learning"/>
+            <arxiv:primary_category term="https://arxiv.org/terms/arXiv/stat.ME"
+             scheme="https://arxiv.org/terms/arXiv/" label="Statistics - Methodology"/>
+            <arxiv:primary_category term="https://arxiv.org/terms/arXiv/stat.TH"
+             scheme="https://arxiv.org/terms/arXiv/" label="Statistics - Theory"/>
           </arxiv:primary_categories>
           ...
         </collection>
@@ -300,11 +300,11 @@ categories are added. It is therefore recommended to periodically
 re-check the servicedocument for additions or modifications (note that
 arXiv returns a HTTP Expires header of 1 day).
 
-The Perl script [servicedoc.pl](http://arxiv.org/sword/servicedoc.pl)
+The Perl script [servicedoc.pl](https://arxiv.org/sword/servicedoc.pl)
 provides a sample implementation of arXiv servicedocument retrieval.
 With option “*--verbose*” it uses the
-[XML::Atom::Service](http://search.cpan.org/perldoc?XML::Atom::Service)
-module from [CPAN](http://search.cpan.org/) to demonstrate parsing of
+[XML::Atom::Service](https://search.cpan.org/perldoc?XML::Atom::Service)
+module from [CPAN](https://search.cpan.org/) to demonstrate parsing of
 the returned XML. Unless provided on the command-line, user-name and
 password will be prompted for.
 
@@ -362,7 +362,7 @@ The response content is the associated media link entry created in the
 author’s workspace at arXiv.
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom" xmlns:sword="http://purl.org/net/sword/">
+    <entry xmlns="https://www.w3.org/2005/Atom" xmlns:sword="https://purl.org/net/sword/">
       <author>
         <name>A. Editor</name>
       </author>
@@ -378,8 +378,8 @@ author’s workspace at arXiv.
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
       <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
-       scheme="http://arxiv.org/terms/arXiv/"
-       term="http://arxiv.org/terms/arXiv/cs">Computer Science</arxiv:primary_category>
+       scheme="https://arxiv.org/terms/arXiv/"
+       term="https://arxiv.org/terms/arXiv/cs">Computer Science</arxiv:primary_category>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/........"/>
       <link rel="edit" href="https://arxiv.org/sword-app/edit/.........atom"/>
     </entry>
@@ -388,7 +388,7 @@ author’s workspace at arXiv.
 *Note:* The `term` attribute of the primary_category in the response reflects the collection to which the media was posted. It doesn’t have the full classification, because it is not yet known which subject category of the Computer Science collection the submission will go to.
 
 Failure to verify the MD5 checksum will result in status `412 Precondition Failed` and a SWORD `<sword:error>` entry with attribute
-`href="http://purl.org/net/sword/error/ErrorChecksumMismatch"`:
+`href="https://purl.org/net/sword/error/ErrorChecksumMismatch"`:
 
     HTTP/1.1 412 Precondition Failed
     Date: Tue, 29 Apr 2008 19:38:05 GMT
@@ -398,10 +398,10 @@ and a corresponding atom entry with human readable [error
 message](#errors)
 
     ?xml version="1.0" encoding="utf-8"?>
-    <sword:error xmlns="http://www.w3.org/2005/Atom"
-           xmlns:sword="http://purl.org/net/sword/"
+    <sword:error xmlns="https://www.w3.org/2005/Atom"
+           xmlns:sword="https://purl.org/net/sword/"
            xmlns:arxiv="http://arxiv.org/schemas/atom/"
-           href="http://purl.org/net/sword/error/ErrorChecksumMismatch">
+           href="https://purl.org/net/sword/error/ErrorChecksumMismatch">
       <author>
         <name>SWORD@arXiv</name>
       </author>
@@ -409,11 +409,11 @@ message](#errors)
       <id>info:arxiv/79652319-FB86-3C12-AC51-46D44EF5A410</id>
       <updated>2008-04-29T19:38:05Z</updated>
       <source>
-        <generator uri="http://arxiv.org/sword-app/" version="0.9">SWORD@arXiv.org</generator>
+        <generator uri="https://arxiv.org/sword-app/" version="0.9">SWORD@arXiv.org</generator>
       </source>
       <sword:treatment>processing failed</sword:treatment>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <link rel="alternate" href="http://arxiv.org/help" type="text/html"/>
+      <link rel="alternate" href="https://arxiv.org/help" type="text/html"/>
       <arxiv:errorcode>1048576</arxiv:errorcode>
       <summary>MD5 sum did not match</summary>
     </sword:error>
@@ -424,7 +424,7 @@ media. The entry has a link of `rel=“edit-media`, which will be used to
 reference the deposited material.
 
 The Perl script
-[media-deposit.pl](http://arxiv.org/sword/media-deposit.pl) demonstrates
+[media-deposit.pl](https://arxiv.org/sword/media-deposit.pl) demonstrates
 how individual files can be deposited in the user’s SWORD/APP workspace
 at arXiv. The simplest invocation is
 
@@ -464,18 +464,18 @@ previously posted media entries.
 
 The “wrapper” entry is an *atom entry*, as defined by the Atom
 Syndication Format ([RFC
-4287](http://tools.ietf.org/html/rfc4287#section-4.1.2)), with certain
+4287](https://tools.ietf.org/html/rfc4287#section-4.1.2)), with certain
 mandatory and some optional extension elements.
 
-Most arXiv [metadata elements](http://arxiv.org/help/prep) have a direct
+Most arXiv [metadata elements](https://arxiv.org/help/prep) have a direct
 mapping to standard atom entry elements, and these are used where
 possible. However arXiv metadata is richer than what the standard atom
 entry provides for. A detailed description of all arXiv entry elements
 can be found in the [arXiv Atom
-API](http://export.arxiv.org/api_help/docs/user-manual.html#_entry_metadata)
+API](https://export.arxiv.org/api_help/docs/user-manual.html#_entry_metadata)
 documentation.
 
-*Note*: A good way to understand the mapping of metadata between arXiv and atom is to look at examples. Compare the rendering of metadata for an arXiv paper as [atom feed (XML)](http://export.arxiv.org/api/query?id_list=0803.2365) with the rendering as [web page (XHTML)](https://arxiv.org/abs/0803.2365)
+*Note*: A good way to understand the mapping of metadata between arXiv and atom is to look at examples. Compare the rendering of metadata for an arXiv paper as [atom feed (XML)](https://export.arxiv.org/api/query?id_list=0803.2365) with the rendering as [web page (XHTML)](https://arxiv.org/abs/0803.2365)
 
 Apart from other requirements for an atom entry (id, updated, etc), the
 wrapper for a arXiv submission must contain
@@ -555,7 +555,7 @@ physics collection
     Authorization: Basic .......................=
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
+    <entry xmlns="https://www.w3.org/2005/Atom">
       <title>A strangely unique title</title>
       <id>A8A725C2-10E7-11DD-A667-67C33A33DA4A</id>
       <updated>2008-04-23T03:45:04Z</updated>
@@ -570,21 +570,21 @@ physics collection
       <contributor>
         <name>S. Clown</name>
         <email>clown@example.com</email>
-        <uri>http://example.com/~clown</uri>
+        <uri>https://example.com/~clown</uri>
       </contributor>
       <content type="xhtml">
-        <div xmlns="http://www.w3.org/1999/xhtml">SWORD/APP arXiv submission wrapper</div>
+        <div xmlns="https://www.w3.org/1999/xhtml">SWORD/APP arXiv submission wrapper</div>
       </content>
       <summary>A concise abstract of the important findings herein</summary>
-      <category term="http://arxiv.org/terms/arXiv/physics.class-ph"
-                scheme="http://arxiv.org/terms/arXiv/"
+      <category term="https://arxiv.org/terms/arXiv/physics.class-ph"
+                scheme="https://arxiv.org/terms/arXiv/"
                 label="Physics - Classical Physics"/>
-      <category term="http://arxiv.org/terms/arXiv/physics.hist-ph"
-                scheme="http://arxiv.org/terms/arXiv/"
+      <category term="https://arxiv.org/terms/arXiv/physics.hist-ph"
+                scheme="https://arxiv.org/terms/arXiv/"
                 label="Physics - History of Physics"/>
       <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
-                scheme="http://arxiv.org/terms/arXiv/" label="Physics - Classical Physics"
-                term="http://arxiv.org/terms/arXiv/physics.class-ph"/>
+                scheme="https://arxiv.org/terms/arXiv/" label="Physics - Classical Physics"
+                term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
       <link href="https://arxiv.org/sword-app/edit/........" type="application/pdf" rel="related"/>
     </entry>
 
@@ -604,7 +604,7 @@ etc..
 The returned atom entry confirms the acceptance
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom" xmlns:sword="http://purl.org/net/sword/">
+    <entry xmlns="https://www.w3.org/2005/Atom" xmlns:sword="https://purl.org/net/sword/">
       <author>
         <name>B. Editor</name>
       </author>
@@ -620,13 +620,13 @@ The returned atom entry confirms the acceptance
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
       <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
-         scheme="http://arxiv.org/terms/arXiv/"
-         term="http://arxiv.org/terms/arXiv/physics.class-ph"/>
-      <category scheme="http://arxiv.org/terms/arXiv/" term="http://arxiv.org/terms/arXiv/physics.class-ph"/>
-      <category scheme="http://arxiv.org/terms/arXiv/" term="http://arxiv.org/terms/arXiv/physics.hist-ph"/>
+         scheme="https://arxiv.org/terms/arXiv/"
+         term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
+      <category scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/physics.class-ph"/>
+      <category scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/physics.hist-ph"/>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/........"/>
       <link rel="edit" href="https://arxiv.org/sword-app/edit/.........atom"/>
-      <link rel="alternate" href="http://arxiv.org/resolve/app/........"/>
+      <link rel="alternate" href="https://arxiv.org/resolve/app/........"/>
     </entry>
 
 and contains an “alternate” link, which can be used to look up the
@@ -661,15 +661,15 @@ The status of a SWORD deposit may be tracked using the tracking URI
 returned in the Atom `<link>` element with `rel="alternate"`, for
 example:
 
-    <link rel="alternate" href="http://arxiv.org/resolve/app/10030146"/>
+    <link rel="alternate" href="https://arxiv.org/resolve/app/10030146"/>
 
-The response to `GET <http://arxiv.org/resolve/app/10030146>` will be a
+The response to `GET <https://arxiv.org/resolve/app/10030146>` will be a
 short XML report on the status of this SWORD submission in the arXiv
 workflow. An example initial response is:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <deposit>
-     <tracking_id>http://arxiv.org/resolve/app/10030146</tracking_id>
+     <tracking_id>https://arxiv.org/resolve/app/10030146</tracking_id>
      <status>submitted</status>
     </deposit>
 
@@ -677,7 +677,7 @@ An example after publication is:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <deposit>
-     <tracking_id>http://arxiv.org/resolve/app/10030146</tracking_id>
+     <tracking_id>https://arxiv.org/resolve/app/10030146</tracking_id>
      <status>published</status>
      <arxiv_id>1003.9876</arxiv_id>
     </deposit>
@@ -721,9 +721,9 @@ accessible.
 For a replacement of a previously created resource via SWORD/APP arXiv
 uses the “Editing Resources with *PUT*” functionality as outlined in the
 [SWORD
-specification](http://www.swordapp.org/docs/sword-profile-1.3.html#b.9.3)
+specification](https://www.swordapp.org/docs/sword-profile-1.3.html#b.9.3)
 and specifically [RFC5023 section
-9.3](http://tools.ietf.org/html/rfc5023#section-9.3) applied to the
+9.3](https://tools.ietf.org/html/rfc5023#section-9.3) applied to the
 metadata wrapper of the original deposit.
 
 A replacement via SWORD can only be made by a registered [paper
@@ -790,13 +790,13 @@ Steps for a replacement
 -----------------------------------
 
 Error handling is outlined in Part A.5 of the [SWORD
-specification](http://www.swordapp.org/docs/sword-profile-1.3.html#a.5),
+specification](https://www.swordapp.org/docs/sword-profile-1.3.html#a.5),
 where a SWORD extension element to AtomPub called `sword:error` is
 introduced.
 
 This allows for a much more informative error message in addition to the
 regular HTTP 4xx and 5xx [status
-codes](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) which
+codes](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) which
 are part of the base protocol.
 
 arXiv uses this mechanism to provide informative error messages in the
@@ -809,7 +809,7 @@ the error, a human readable error presented in the `summary` element
 and the numeric error code in the `arxiv:errorcode` extension element.
 
 The HTTP status for all errors not otherwise defined in the [SWORD
-spec](http://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) is
+spec](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) is
 `400 Bad Request`.
 
 The numerical error codes are powers of 2 (for convenient bitmasking,
@@ -862,10 +862,10 @@ will produce
 and the response content is
 
     <?xml version="1.0" encoding="utf-8"?>
-    <sword:error xmlns="http://www.w3.org/2005/Atom"
-            xmlns:sword="http://purl.org/net/sword/"
+    <sword:error xmlns="https://www.w3.org/2005/Atom"
+            xmlns:sword="https://purl.org/net/sword/"
             xmlns:arxiv="http://arxiv.org/schemas/atom/"
-            href="http://purl.org/net/sword/error/ErrorContent">
+            href="https://purl.org/net/sword/error/ErrorContent">
       <author>
         <name>SWORD@arXiv</name>
       </author>
@@ -873,12 +873,12 @@ and the response content is
       <id>info:arxiv/B48008EB-F5BF-3827-8ABA-8AB5F04EAAAA</id>
       <updated>2008-05-08T21:45:44Z</updated>
       <source>
-        <generator uri="http://arxiv.org/sword-app/" version="0.9">SWORD@arXiv.org</generator>
+        <generator uri="https://arxiv.org/sword-app/" version="0.9">SWORD@arXiv.org</generator>
       </source>
       <sword:treatment>processing failed</sword:treatment>
-      <sword:packaging>http://purl.org/net/sword-types/bagit</sword:packaging>
+      <sword:packaging>https://purl.org/net/sword-types/bagit</sword:packaging>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
-      <link rel="alternate" href="http://arxiv.org/help" type="text/html"/>
+      <link rel="alternate" href="https://arxiv.org/help" type="text/html"/>
       <arxiv:errorcode>16</arxiv:errorcode>
       <summary>invalid collection: foobar</summary>
     </sword:error>
@@ -889,7 +889,7 @@ and the response content is
 
 As a practical example, we demonstrate what the submission of an
 existing article,
-[arXiv:hep-th/0605021](http://arxiv.org/abs/hep-th/0605021) via
+[arXiv:hep-th/0605021](https://arxiv.org/abs/hep-th/0605021) via
 SWORD/APP would look like.
 
 The article consists of 3 individual files, a TeX source file and 2
@@ -916,7 +916,7 @@ The response status and reference link are displayed
 and the full atom entry returned by the server is:
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom" xmlns:sword="http://purl.org/net/sword/">
+    <entry xmlns="https://www.w3.org/2005/Atom" xmlns:sword="https://purl.org/net/sword/">
       <author>
         <name>schwande</name>
       </author>
@@ -930,11 +930,11 @@ and the full atom entry returned by the server is:
       <summary>A media deposit of type "application/zip" was stored in the author's workspace</summary>
       <sword:treatment>stored in author's workspace</sword:treatment>
       <sword:noOp>false</sword:noOp>
-      <sword:packaging>http://purl.org/net/sword-types/bagit</sword:packaging>
+      <sword:packaging>https://purl.org/net/sword-types/bagit</sword:packaging>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
       <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
-             scheme="http://arxiv.org/terms/arXiv/"
-             term="http://arxiv.org/terms/arXiv/physics">Physics</arxiv:primary_category>
+             scheme="https://arxiv.org/terms/arXiv/"
+             term="https://arxiv.org/terms/arXiv/physics">Physics</arxiv:primary_category>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/08050001"/>
       <link rel="edit" href="https://arxiv.org/sword-app/edit/08050001.atom"/>
     </entry>
@@ -955,7 +955,7 @@ namely the zip file previously deposited and referenced via the URI
 *https://arxiv.org/sword-app/edit/08050001*
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom">
+    <entry xmlns="https://www.w3.org/2005/Atom">
       <title>Superconformal Symmetry in Linear Sigma Model on Supermanifolds</title>
       <id>E102241E-1BA8-11DD-81A6-69C93A33DA4A</id>
       <updated>2008-05-06T20:13:23Z</updated>
@@ -975,7 +975,7 @@ namely the zip file previously deposited and referenced via the URI
         <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom/">Kyoto Univ.</arxiv:affiliation>
       </contributor>
       <content type="xhtml">
-        <div xmlns="http://www.w3.org/1999/xhtml">SWORD/APP arXiv submission wrapper</div>
+        <div xmlns="https://www.w3.org/1999/xhtml">SWORD/APP arXiv submission wrapper</div>
       </content>
       <summary>We consider a gauged linear sigma model in two dimensions
     with Grassmann odd chiral superfields. We investigate the Konishi anomaly of
@@ -984,13 +984,13 @@ namely the zip file previously deposited and referenced via the URI
     expected to flow into conformal theory in the infrared limit. We construct
     superconformal currents explicitly and study some properties of this
     world-sheet theory from the point of view of conformal field theories.</summary>
-      <category term="http://arxiv.org/terms/arXiv/hep-th"
-                scheme="http://arxiv.org/terms/arXiv/"
+      <category term="https://arxiv.org/terms/arXiv/hep-th"
+                scheme="https://arxiv.org/terms/arXiv/"
                 label="High Energy Physics - Theory"/>
-      <arxiv:primary_category xmlns:arXiv="http://arxiv.org/schemas/atom/"
-                scheme="http://arxiv.org/terms/arXiv/"
+      <arxiv:primary_category xmlns:arXiv="https://arxiv.org/schemas/atom/"
+                scheme="https://arxiv.org/terms/arXiv/"
                 label="High Energy Physics - Theory"
-                term="http://arxiv.org/terms/arXiv/hep-th"/>
+                term="https://arxiv.org/terms/arXiv/hep-th"/>
       <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom/">24 pages, 2 figures</arxiv:comment>
       <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom/">Nucl.Phys. B753 (2006) 295-312</arxiv:journal_ref>
       <arxiv:report_no xmlns:arxiv="http://arxiv.org/schemas/atom/">KUNS-2018</arxiv:report_no>
@@ -1012,12 +1012,12 @@ The important pieces of the response are:
     Location:       https://arxiv.org/sword-app/getid/app/08050007
 
     The submission can be tracked via:
-            http://arxiv.org/resolve/app/08050007
+            https://arxiv.org/resolve/app/08050007
 
 The full atom entry response is
 
     <?xml version="1.0" encoding="utf-8"?>
-    <entry xmlns="http://www.w3.org/2005/Atom" xmlns:sword="http://purl.org/net/sword/">
+    <entry xmlns="https://www.w3.org/2005/Atom" xmlns:sword="https://purl.org/net/sword/">
       <author>
         <name>schwande</name>
       </author>
@@ -1039,11 +1039,11 @@ The full atom entry response is
       <sword:noOp>false</sword:noOp>
       <sword:userAgent>arXiv SWORD demo 1.1</sword:userAgent>
       <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom/"
-             scheme="http://arxiv.org/terms/arXiv/" term="http://arxiv.org/terms/arXiv/hep-th"/>
-      <category scheme="http://arxiv.org/terms/arXiv/" term="http://arxiv.org/terms/arXiv/hep-th"/>
+             scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/hep-th"/>
+      <category scheme="https://arxiv.org/terms/arXiv/" term="https://arxiv.org/terms/arXiv/hep-th"/>
       <link rel="edit-media" href="https://arxiv.org/sword-app/edit/08050007"/>
       <link rel="edit" href="https://arxiv.org/sword-app/edit/08050007.atom"/>
-      <link rel="alternate" href="http://arxiv.org/resolve/app/08050007"/>
+      <link rel="alternate" href="https://arxiv.org/resolve/app/08050007"/>
     </entry>
 
 This completes the SWORD/APP process. The submission is now being
@@ -1054,7 +1054,7 @@ primary contact author and the user initiating the submission. If the
 submission was successful the URI from the “alternate” link from the
 returned atom entry
 
-    <link rel="alternate" href="http://arxiv.org/resolve/app/08050007"/>
+    <link rel="alternate" href="https://arxiv.org/resolve/app/08050007"/>
 
 can be used to find out what arXiv identifier was assigned to the
 submission.
@@ -1079,7 +1079,7 @@ entry threshold low.
 2013-01-11
 :   In 2012-12 the *https://arxiv.org/sword-app/nlin-collection* was
     removed and all *nlin* (Nonlinear Sciences) categories (e.g.
-    *http://arxiv.org/terms/arXiv/nlin.AO*) were reorganized within the
+    *https://arxiv.org/terms/arXiv/nlin.AO*) were reorganized within the
     *https://arxiv.org/sword-app/physics-collection* collection. This
     change is reflected in the [Servicedocument](#Servicedocument). This
     corresponds with moving the nlin archive into the physics group in

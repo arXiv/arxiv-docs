@@ -735,7 +735,7 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 **New Submission System:** We are pleased to announce that arXiv has a new submission system. We hope that this will improve the submission process for users and streamline administrative operations to help us keep pace with the [ever increasing submission rate](http://arxiv.org/stats/monthly_submissions).
 
-Note that with the new submission system permanent identifiers are assigned only at the time articles are publicly announced. Submitters may edit, delay or remove submissions up until that point but this may affect the announcement order. Those interested in the [announcement order](../help/submit.md#availability) should be aware that policies have changes such that:
+Note that with the new submission system permanent identifiers are assigned only at the time articles are publicly announced. Submitters may edit, delay or remove submissions up until that point but this may affect the announcement order. Those interested in the [announcement order](../help/submit/index.md#availability) should be aware that policies have changes such that:
 
 *   An update before announcement will reset any article's position in the queue. Announcement order is based on the last "Submit" action.
 *   An update after 16:00 EST/EDT will delay an article to the next day.

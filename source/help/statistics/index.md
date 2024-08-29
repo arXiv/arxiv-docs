@@ -4,16 +4,14 @@ The Statistics archive formed on 1 April 2007 and you can read about the [announ
 
 You can browse articles and view categories at the [main statistics archive page](https://arxiv.org/archive/stat).
 
-The [moderators for statistics are listed here](https://arxiv.org/moderators#statistics#statistics).
+The [moderators for the statistics archive are listed here](https://arxiv.org/moderators#statistics#stat).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Statistics Advisory Committee:
+## The arXiv Statistics Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-*  [Robert B. Gramacy](http://bobby.gramacy.com/)
-*  [Susan Holmes](http://www-stat.stanford.edu/~susan/)
-*  [Shane Jensen](http://stat.wharton.upenn.edu/~stjensen/)
-*  [Zoltan Szabo](https://zoltansz.github.io/)
-*  [Larry Wasserman](http://www.stat.cmu.edu/~larry/) (coordinator)
-*  Martin Wells
+- Larry Wasserman, Carnegie Mellon University (chair)
+- Martin Wells, Cornell University (vice chair)
+- Shane Jensen, University of Pennsylvania
+- Betsy Ogburn, Johns Hopkins University

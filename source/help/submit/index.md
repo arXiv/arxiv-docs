@@ -9,15 +9,15 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 -   We only accept submissions from [registered authors](../registerhelp.md). If you are a new user or are submitting to a new category, you may be required to find [endorsements](../endorsement.md).
 -   All submissions are subject to a [moderation process](../moderation/index.md) that verifies material is appropriate and topical. Material that contains offensive language, non-scientific content, or is plagiarized may be removed.  
 -   Authors must grant arXiv.org an [irrevocable license to distribute](../license/index.md) the work.
--   Authors must agree to the [Submission Terms and Agreement](../policies/submission_agreement.md) and [Instructions for Submission](../policies/instructions_for_submission.md).
+-   Authors must agree to the [Submission Terms and Agreement](../policies/submission_agreement.md).
 -   Authors are expected to self-submit. Submissions by a third party are only accepted under limited conditions. See instructions for [third-party submissions](../third_party_submission.md) and [index submissions](../submit_index.md) for conference proceedings.
 -   New submissions received by 14:00 (Eastern Daylight/Standard Time Zone) are generally made available at 20:00 (Eastern) based on the [schedule for availability](../availability.md). Also see [versions help pages](../versions.md).
-
 
 ## Submission Preparation
 
 -   [Formats for text submission](#text)
 -   [Formats for figures](#figures)
+-   [Policies for format requirements](help/policies/format_requirements.md)
 -   [File names and case sensitivity](#files)
 -   [Inclusion of data sets and ancillary files (data, programs,
     etc.)](#datasets)
@@ -39,6 +39,7 @@ Accepted submission formats
 (in order of preference):
 
 -   [(La)TeX, AMS(La)TeX, PDFLaTeX](../submit_tex.md)
+    - [(La)TeX Markup Best Practices for Successful HTML Papers](../submit_latex_best_practices.md)
 -   [PDF](../submit_pdf.md)
 -   [HTML with JPEG/PNG/GIF images](../submit_index.md)
 
@@ -48,6 +49,7 @@ stable over time. Currently, the best choice is TeX/LaTeX.
 We do not accept [dvi, PS, or PDF created
 from TeX/LaTeX source](../faq/whytex.md), and we
 do not accept scanned documents, regardless of format.
+
 
 <span id="figures"></span>
 

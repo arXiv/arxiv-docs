@@ -50,7 +50,7 @@ User-controlled subscriptions for announcements of daily papers include instruct
 
 _Article Submission:_
 
-In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/policies/instructions_for_submission; https://arxiv.org/help/moderation  
+In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/moderation  
 
 
 Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.
@@ -159,11 +159,10 @@ These rights may include:
 6. Right to object to automated decision-making and profiling, where applicable
 7. Right to complain to a supervisory authority in your jurisdiction within the EU
 
-Please contact us with any questions, concerns, or if you wish to exercise any of these rights: gdpr@cornell.edu
-
+Please contact us with any questions, concerns. If you wish to exercise any of these rights please visit [https://privacy.cornell.edu](https://privacy.cornell.edu)
 
 ## Contact Information
 
-For questions about arXiv privacy policies or technical support please contact: help@arxiv.org
+For questions about arXiv privacy policies or technical support please contact [arXiv User Support](https://arxiv.org/support)
 
-If you have general questions about Cornell University privacy practices, please contact: privacy@cornell.edu or visit https://privacy.cornell.edu.
+If you have general questions about Cornell University privacy practices, please visit [https://privacy.cornell.edu](https://privacy.cornell.edu).

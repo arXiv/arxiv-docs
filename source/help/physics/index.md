@@ -18,28 +18,22 @@ You can browse articles and view categories at the individual archive pages:
 - Physics [physics](https://arxiv.org/archive/physics)
 - Quantum Physics [quant-ph](https://arxiv.org/archive/quant-ph)
 
-The [moderators for physics are listed here](https://arxiv.org/moderators#physics#physics).
+The [moderators for the physics archive are listed here](https://arxiv.org/moderators#nucl-ex).
 
 <span id="AdvisoryCommittee"></span>
-## The arXiv Physics Advisory Committee:
+## The arXiv Physics Section Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv scientific advisory board](../../about/people/scientific_ad_board.md). All arXiv policy decisions are ultimately made by Cornell University.
+The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
-*   Chair: [Ralph Wijers](https://www.uva.nl/en/profile/w/i/r.a.m.j.wijers/r.a.m.j.wijers.html) (University of Amsterdam): astrophysics
-*   [Jacques Distler](https://ph.utexas.edu/component/cobalt/item/18-physics/422-distler-jacques?Itemid=1264) (Texas): high-energy theory
-*   Vice-Chair: [Paul Fendley](https://www.physics.ox.ac.uk/our-people/fendley) (Oxford University): high-energy and condensed-matter theory
-*   [Paul Ginsparg](https://physics.cornell.edu/paul-ginsparg) (Cornell University): high-energy theory
-*   [Daniel Gottesman](https://quics.umd.edu/people/daniel-gottesman) (University of Maryland): quantum physics
-*   [Dong Lai](https://astro.cornell.edu/dong-lai) (Cornell University): astrophysics
-*   [Michael Lawler](https://www.binghamton.edu/physics/research/profile.html?id=mlawler) (SUNY Binghamton): condensed-matter physics
-*   [Brian Maple](http://mbmlab.ucsd.edu/people/maple.html) (University of California San Diego): condensed-matter experiment
-*   [Bruno Nachtergaele](http://www.math.ucdavis.edu/~bxn/) (University of California Davis): mathematical physics
-*   [Chris Reynolds](https://www.ast.cam.ac.uk/people/Christopher.Reynolds) (University of Cambridge): astrophysics
-*   [Robert Seiringer](https://www.ist.ac.at/en/research/seiringer-group/) (Institute of Science and Technology Austria): mathematical physics
-
+- Ralph Wijers, University of Amsterdam (chair)
+- Jacques Distler, University of Texas, Austin
+- Daniel Gottesman, University of Maryland
+- Michael Lawler, Cornell University
+- Chris Reynolds, University of Maryland
+- Rena Zieve, University of California, Davis
 
 ## Historical notes
-
+- 2023-07: new arXiv bylaws adopted, by which Physics Advisory Committee renamed Physics Editorial Committee
 - 2013-07 - Advisory committee re-organized.
 - 2009-01 - We have implemented the long-awaited division of the **astro-ph** archive, see [astro-ph archive details](https://arxiv.org/archive/astro-ph). All new astro-ph submissions must be placed within a sub-category. It is intended that existing astro-ph articles will be machine classified according to this new scheme when enough training data has been collected from new submissions.
 - 2008-12 - We have launched a the Quantitative Finance ([q-fin](../../new/q-fin_announce.md)) archive to house articles that have historically been submitted to **cond-mat** or **physics.soc-ph**.

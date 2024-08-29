@@ -34,7 +34,7 @@ We expect members of the arXiv community to foster a safe environment for commun
 If you have questions or concerns regarding the arXiv Code of Conduct please contact:
 
 - [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
-- [Ralph Wijers](mailto:r.a.m.j.wijers@uva.nl), Chair of arXiv Scientific Advisory Board, or
+- [Ralph Wijers](mailto:r.a.m.j.wijers@uva.nl), Chair of arXiv Science Advisory Council, or
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
 - [Cornell University Ombuds](https://ombuds.cornell.edu)
 
@@ -51,7 +51,6 @@ Policies related to authors:
 - [Moderation](../../help/moderation/index.md) 
 - [Privacy](privacy_policy.md)
 - [Submission terms and agreement](submission_agreement.md)
-- [Instructions for submission](instructions_for_submission.md)
 - [Authorship policy](../../help/registerhelp.md)
 
 Policies related to moderators:

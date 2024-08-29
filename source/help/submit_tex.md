@@ -1,5 +1,6 @@
 # TeX Submissions
 
+*   [Changes  to (La)TeX processing](#newtex)
 *   [Submissions are automatically processed](#autoproc)
 *   [Considerations for (La)TeX submissions](#latex)
 *   [Considerations for PDFLaTeX submissions](#pdflatex)
@@ -7,6 +8,7 @@
 *   [Do not submit in double-spaced "referee" mode](#double)
 *   [Prepare the references carefully](#refs)
 *   [Include `.bbl` files if you use BibTeX](#bibtex)
+*   [Potential problems with biblatex `.bbl` files](#biblatex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
 *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
 *   [Supplemental material](#autoignore)
@@ -15,6 +17,29 @@
 *   [Hidden files will be deleted upon announcement](#hidden)
 
 * * *
+
+<span id="newtex"></span>
+### (La)TeX processing changes &mdash; ~~April~~ May 2024
+
+We will soon be rolling out changes to how arXiv process (La)TeX submissions. These changes should not be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX" system that we have used for decades in favor of a simpler, more straight-foward process of converting (La)TeX submissions to PDFs.
+
+ 1. The AutoTeX system would try different versions of TeX to see which one successfully builds a PDF. Going forward we will only use the version of TeX currently used by arXiv.
+    - Our plan is that arXiv's "current" version closely track the annual TeX Live releases. In the past, we have often gone a few years between TeX updates.
+ 1. The AutoTeX system would attempt to determine which files in a submission were part of the main document, and which weren't. We're no longer going to do this.
+      - If there were multiple files ending in `.tex`, it would create PDFs for those extra files and append them to main paper's PDF. Now, if authors want a .tex file to be part of their main paper, they should use \include or \input commands to include the file. See https://www.baeldung.com/cs/latex-include-vs-input.
+      - If authors need the previous apppend behavior for a submission with multiple `.tex` files, please follow the instructions here: https://info.arxiv.org/help/00README.html.
+      - If image files (JPG, PNG, PDF) files were found, they would be rendered and appended verbatim to the main paper's PDF. If authors want to include images anywhere in their paper, they should use the normal TeX contructs for this. See https://latex-tutorial.com/tutorials/figures/. 
+  
+  1. The AutoTeX system would pre-load the LaTeX hyperref package to LaTeX submissions that do not already include it. This package add changes various references to active links in the PDF document (eg, clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try to add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you are using already has a reference by checking the PDF for clickable links; most do).
+ 1. The AutoTeX system would look for any references in a paper that looked like an arXiv paper ID (such as 	arXiv:2402.08954, or 2402.08954), and turn the ID into a hyperlink to the paper on arXiv.
+We will not do that anymore. Authors should just write out `\href{https://doi.org/10.48550/arXiv.2402.08954}{2402.08954}`. See the [Hyperref documentation for more info](https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/hyperref/doc/hyperref-doc.html).
+      - While changes like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
+
+1. arXiv presently has about 70 LaTeX packages we supply that papers can use without needing to upload their own copies. We have found that only 0.65% of recent submissions depend on this and, in some cases these packages are woefully out of date.
+      - We are going to eliminate these packages, and provide only those packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of Tex Live, please upload them with your submission.
+ 
+At present, the documentation below is still largely accurate, but we are actively re-examining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, please respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
+
 <span id="autoproc"></span>
 
 ### Submissions are automatically processed
@@ -49,6 +74,13 @@ The most flexible and robust figure inclusion is provided by the `graphics` and 
 
 
 Note that some software will permit you to include a mix of PostScript and PDFLaTeX-compatible figures and will perform the conversions to the appropriate format for you on the fly. arXiv does not permit such software to run during the AutoTeX processing. Why? It is possible for conversion issues to arise that can alter the scientific meaning or interpretation of your figure. Rather than invite such possibilities, we require that you use a unified figure format.
+
+#### Avoid embedding JavaScript in your PDF files
+
+Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
+- Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files. 
+- Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller. 
+
 
 #### Separate figures with LaTeX submissions
 
@@ -107,8 +139,7 @@ If you use BibTeX there are some BibTeX styles which support e-print identifiers
 
 If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be more accurate and faster if your references are all in one file. This file should have the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond to a given `foo.tex` source file.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv.
-
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 
 <span id="bibtex"></span>
 
@@ -120,7 +151,25 @@ The name of the `.bbl` file _must_ match the name of the main `.tex` file for th
 
 Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv.
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
+
+<span id="biblatex"></span>
+
+### Potential problems with biblatex `.bbl` files
+
+#### The `.bbl` file and paper submission were produced by different programs
+
+Biblatex can run on a dedicated Biber backend or BibTeX; however, when submitting a biblatex `.bbl` file, your paper and `.bbl` file must be created by the same program. e.g.
+
+- If you use biblatex with Biber as a backend to produce your document, then your document will expect a `.bbl` produced by Biber.
+
+- If you use biblatex with BibTeX as a backend to produce your document, then your document will expect a `.bbl` produced by BibTeX.
+
+Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or vice versa. This will only result in errors and frustration. [Lean more information about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
+
+#### The `.bbl` file version is not compatible with biblatex or Biber on arXiv
+
+When uploading the .bbl file for biblatex, it must be compatible with the version of biblatex or Biber on the arXiv at the present time. If your .bbl for biblatex is not compatible then your submission will have errors. [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
 <span id="makeindex"></span>
 
@@ -130,7 +179,7 @@ We do not run `makeindex` in the auto-TeXing procedure. If you use it, include i
 
 It is difficult to automatically perform `makeindex` processing to the authors' expectations because of the multiple optional arguments and optional style selections. Therefore arXiv asks authors to provide their pre-processed `.ind` file(s) along with their (La)TeX source file(s).
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv.
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 
 
 <span id="glossary"></span>
@@ -139,7 +188,7 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 Similar to [index](#makeindex) files, we do not process `.glo` or `.nlo` into the resultant `.gls` or `.nls` files. You must provide these files if you have any special nomenclature in your document.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv.
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 
 
 <span id="autoignore"></span>
@@ -168,7 +217,7 @@ This ensures that they will be ignored by the auto-postscript generator.
 
 **NOTE**: `pdflatex` users who submit using the above formatting recommendations will have any final hyperlinking removed due to a [known issue](http://mirrors.ctan.org/macros/latex/contrib/pdfpages/pdfpages.pdf#page=2) in the `pdfpages.sty` package.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare you document for submission to arXiv.
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 
 
 <span id="mistakes"></span>

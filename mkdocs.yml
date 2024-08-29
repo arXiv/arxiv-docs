@@ -15,7 +15,8 @@ theme:
   name: material
   features:
     - content.tooltips
-    - navigation.indexes
+        - navigation.path
+        - navigation.indexes
   palette:
     - media: "(prefers-color-scheme)"
       toggle:

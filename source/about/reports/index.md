@@ -1,6 +1,8 @@
 # arXiv Reports
 
 ## Annual Reports
+[2023 Annual Report](2023_arXiv_annual_report.pdf)
+
 [2022 Annual Report](2022_arXiv_annual_report.pdf)
 
 [2022 arXiv in Numbers](2022_usage.md)
@@ -45,29 +47,31 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
-[Current Budget](/about/reports/FY23_Budget_External.pdf)
+[FY2024 Budget](/about/reports/FY24_Budget_External.pdf)
 
-[2020 Budget](/about/reports/2020_arXiv_Budget.pdf)
+[FY2023 Budget](/about/reports/FY23_Budget_External.pdf)
 
-[2019 Budget](/about/reports/arXiv_CY19_midyear.pdf)
+[CY2020 Budget](/about/reports/2020_arXiv_Budget.pdf)
 
-[2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
+[CY2019 Budget](/about/reports/arXiv_CY19_midyear.pdf)
 
-[2017 Budget](/about/reports/2017_CY_arXiv_budget.pdf)
+[CY2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
 
-[2016 Budget](/about/reports/2016_CY_arXiv_budget.pdf)
+[CY2017 Budget](/about/reports/2017_CY_arXiv_budget.pdf)
 
-[2015 Budget](/about/reports/2015_CY_arXiv_budget.pdf)
+[CY2016 Budget](/about/reports/2016_CY_arXiv_budget.pdf)
 
-[2014 Budget](/about/reports/2014_CY_arXiv_budget.pdf)
+[CY2015 Budget](/about/reports/2015_CY_arXiv_budget.pdf)
 
-[2013 Budget](/about/reports/2013_CY_arXiv_budget.pdf)
+[CY2014 Budget](/about/reports/2014_CY_arXiv_budget.pdf)
 
-[2012 Budget](/about/reports/2012_CY_arXiv_budget.pdf)
+[CY2013 Budget](/about/reports/2013_CY_arXiv_budget.pdf)
 
-[2011 Budget](/about/reports/2011_CY_arXiv_budget.pdf)
+[CY2012 Budget](/about/reports/2012_CY_arXiv_budget.pdf)
 
-[2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
+[CY2011 Budget](/about/reports/2011_CY_arXiv_budget.pdf)
+
+[CY2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
 [2020 Roadmap](2020_roadmap.md)

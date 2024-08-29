@@ -2,18 +2,24 @@
 
 - Yoav Artzi, Associate Faculty Director
 - Amanda Bartley, Senior Moderation & User Support Specialist
+- Kat Boboris, Community Engagement Manager
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist
 - Brian Caruso, Lead Developer
 - Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
+- Alison Hofer, Documentation Specialist
 - Kim Laine, User & Membership Support Specialist
+- Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
-- Maria Rahman, arXiv Moderation Administrator
+- Norbert Preining, Principal Software Engineer
+- Erin Reddy, Developer
 - Rebecca Rich Goldweber, Senior Production Editor
+- Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
-- Jake Weiskoff, arXiv Technical Support Manager
+- Naoyuki Tai, Senior Software Engineer
+- Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director

@@ -108,7 +108,7 @@ This type of content has information regularly added to keep it current and rele
 
 <span id="comments"></span>
 ### Comments and Reply to Comments
-arXiv will assign one arXiv identifier per "Comment" and per “Reply to Comment”. After that, further discussion must be done through replacements, creating versions of the original Comment or Reply.
+arXiv will assign one arXiv identifier per "Comment" and per “Reply to Comment”. After that, further discussion must be done through replacements, creating versions of the original Comment or Reply. Please refer to our [requirements for "Comment on" content types](/help/policies/content-types.html#comments-and-reply-to-comments).
 
 
 

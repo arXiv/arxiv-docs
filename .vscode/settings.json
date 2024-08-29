@@ -1,5 +1,8 @@
 {
     "cSpell.words": [
         "funder"
+    ],
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "develop"
     ]
 }
