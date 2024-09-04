@@ -9,6 +9,7 @@
 - Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
+- Deyan Ginev, Software Engineer
 - Alison Hofer, Documentation Specialist
 - Kim Laine, User & Membership Support Specialist
 - Jamie Magyar, Production Editor
@@ -20,6 +21,7 @@
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
+- Annie Wagner, Software Engineer
 - Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
