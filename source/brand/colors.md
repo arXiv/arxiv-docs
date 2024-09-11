@@ -95,7 +95,7 @@ To maintain a strong and consistent communication system, and to ensure accessib
 
 **Access Lime:** This retro color harkens back to arXiv's smileybones favicon from the 90s. It is used sparingly and in more casual communications. It also used for code blocks and code highlighting.
 
-**A note about Cornell Red:** *In web interfaces red signals errors. It’s also a color that causes visibility issues for those with color blindness. Therefore red should rarely be used as a text color on the web. However Cornell Red makes a bold statement, further connects us to Cornell University’s brand, and is a powerful stylistic element when used appropriately. Please visit the ‘Web Element Patterns’ section of this guide for examples of it’s use.*
+**A note about Cornell Red:** *In web interfaces red signals errors. It’s also a color that causes visibility issues for those with color blindness. Therefore red should rarely be used as a text color on the web. However Cornell Red makes a bold statement, further connects us to Cornell University’s brand, and is a powerful stylistic element when used appropriately. Please visit the ‘Web Element Patterns’ section of this guide for examples of its use.*
 
 | Use                | Light Theme        | Dark Theme          |
 | ------------------ | ------------------ | ------------------- |
