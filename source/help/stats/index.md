@@ -9,8 +9,7 @@
 
 ## Access and download statistics
 
--   [Today's usage for arXiv.org](https://arxiv.org/stats/today) (not
-    including mirrors)
+-   [Today's usage for arXiv.org](https://arxiv.org/stats/today)
 -   [Monthly download rates](https://arxiv.org/stats/monthly_downloads)
 -   [Annual institutional downloads](../../about/reports/2020_usage.md)
 
