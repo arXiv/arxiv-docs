@@ -27,8 +27,11 @@ The advisory committee members serve as consultants to Cornell University and to
 
 - Ralph Wijers, University of Amsterdam (chair)
 - Jacques Distler, University of Texas, Austin
+- Victor Galitski, University of Maryland
 - Daniel Gottesman, University of Maryland
 - Michael Lawler, Cornell University
+- Axel Naumann, CERN
+- Susan Ramlo, University of Akron
 - Chris Reynolds, University of Maryland
 - Rena Zieve, University of California, Davis
 
