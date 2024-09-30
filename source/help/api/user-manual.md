@@ -801,7 +801,7 @@ languages above, as well as to the libraries used to parse Atom.
 |:---------|:-------------------------------------------------------------|:-----------------------------------------------------|:---------------------------------------------------|
 | Language | Library                                                      | Parsing Example                                      | Paging Example                                     |
 | Perl     | [XML::Atom](http://search.cpan.org/~miyagawa/XML-Atom-0.27/) | [parsing](examples/perl_arXiv_parsing_example.txt)   | [paging](examples/perl_arXiv_paging_example.txt)   |
-| Python   | [feedparser](http://feedparser.org/)                         | [parsing](examples/python_arXiv_parsing_example.txt) | [paging](examples/python_arXiv_paging_example.txt) |
+| Python   | [feedparser](https://github.com/kurtmckee/feedparser)                          | [parsing](examples/python_arXiv_parsing_example.txt) | [paging](examples/python_arXiv_paging_example.txt) |
 | Ruby     | [feedtools](http://sporkmonger.com/2005/08/11/tutorial)      | [parsing](examples/ruby_arXiv_parsing_example.txt)   | [paging](examples/ruby_arXiv_paging_example.txt)   |
 | PHP      | [SimplePie](http://simplepie.org/)                           | [parsing](examples/php_arXiv_parsing_example.txt)    | [paging](examples/php_arXiv_paging_example.txt)    |
 
