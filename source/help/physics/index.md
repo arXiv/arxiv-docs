@@ -33,6 +33,7 @@ The advisory committee members serve as consultants to Cornell University and to
 - Axel Naumann, CERN
 - Susan Ramlo, University of Akron
 - Chris Reynolds, University of Maryland
+- Sakura Schafer-Nameki, University of Oxford
 - Rena Zieve, University of California, Davis
 
 ## Historical notes
