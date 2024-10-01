@@ -36,7 +36,7 @@ The popular package [graphicx.sty](https://ctan.org/pkg/graphicx) supports alt t
 \includegraphics[alt={plain-text description of image}]{example-image-a}
 ```
 
-Without alt text, images are essentially invisible to screen readers. Additionally, alt text improves discoverability of your content within full-text searches. Dr. Cynthia Bennett has written [this excellent guide](https://docs.google.com/document/d/1P62YxEDDfG4DAofnaPiO4Y665eK4rCCD_EwjtF87iBk/edit?usp=sharing) to image descriptions and alt text.
+Without alt text, images are essentially invisible to screen readers. Additionally, alt text improves discoverability of your content within full-text searches. Dr. Cynthia Bennett has written [this excellent guide](https://dis.acm.org/2023/creating-accessible-figures-and-tables/) to image descriptions and alt text.
 
 ## Select macros that describe structures
 

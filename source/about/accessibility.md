@@ -25,7 +25,7 @@ Every year arXiv hosts an accessibility forum in an effort to make accessible re
 ## Further Reading
 As arXiv continues on this journey to make our platform and the content we host as accessible as possible, we rely on the enormous contributions and foundational research of the accessibility community, as well as the insights of our users with disabilities who have so generously shared their knowledge and time. Below is further reading from our community, and some internal resources that we hope you find as useful as we have.
 
-- A wonderfully clear [guide to alt-text](https://docs.google.com/document/d/1P62YxEDDfG4DAofnaPiO4Y665eK4rCCD_EwjtF87iBk/edit?usp=sharing) from Dr. Cynthia Bennett
+- A wonderfully clear [guide to alt-text](https://dis.acm.org/2023/creating-accessible-figures-and-tables/) from Dr. Cynthia Bennett
 - Shared by Breanne Kisselstein and Anne Logan, this guide has advice for [creating accessible oral and poster presentations](https://www.ismpmi.org/Community/Interactions/Lists/Posts/Post.aspx?List=12f06e9b%2D9922%2D498e%2Da11b%2Da42e98ba0e81&ID=412&Web=ee471bbf%2Dac80%2D48f6%2D883d%2Da3981c7cc59b) for all scientists, including those who are deaf and hard-of-hearing.
 - A 2022 paper from Wanda Diaz-Merced and colleagues looks at the [accessibility of Astronomy Journal papers](https://drive.google.com/file/d/1kYjCzch1HZKIlD0vmLmI0voTvDa5zokG/view?usp=sharing). Wanda also shared this simple (but not easy) advice for all of us: *"Take concrete actions with no fears."*
 - Prepared by Sonja Edler and her colleagues from the Network of Repository Managers at the University of Vienna, these [guidelines on preparing accessible content](https://phaidra.univie.ac.at/detail/o:1594525) address content from images to video and more.
