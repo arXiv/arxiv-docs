@@ -47,6 +47,8 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 ## Budgets
 [arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
 
+[FY2025 Budget](/about/reports/FY25_Budget_Public.pdf)
+
 [FY2024 Budget](/about/reports/FY24_Budget_External.pdf)
 
 [FY2023 Budget](/about/reports/FY23_Budget_External.pdf)
