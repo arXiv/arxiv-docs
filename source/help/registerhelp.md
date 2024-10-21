@@ -10,7 +10,7 @@ Select which archives you are most likely to submit to. This will filter the cat
 
 We will then verify the email for your account.
 
-Please [review account related policies](policies/identity_and_affiliation).
+Please [review account related policies](policies/identity_and_affiliation.md).
 
 
 ## Account Password
