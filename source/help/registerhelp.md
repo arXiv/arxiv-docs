@@ -30,7 +30,9 @@ password can be changed from your [personal information page](https://arxiv.org/
 If you forget your password, you can [recover your
 password](https://arxiv.org/user/lost_password) using your registered e-mail address.
 
-## <span id="emailchange"></span>Email
+<span id="emailchange"></span>
+
+## Email
 
 If you need to change your preferred e-mail address, for example because
 you have changed institutions, then you should visit the [e-mail change
