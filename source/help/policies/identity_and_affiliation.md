@@ -11,7 +11,7 @@
 -   It is a violation of our policies to misrepresent your identity or
     organizational affiliation. Misrepresentation of identity or affiliation, for any
     reason, is possible grounds for immediate and permanent suspension.
--   Users must comply with arXiv's [Code of conduct](policies/code_of_conduct.md).
+-   Users must comply with arXiv's [Code of conduct](code_of_conduct.md).
 
 ## Managing your identity
 
