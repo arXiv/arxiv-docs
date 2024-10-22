@@ -19,7 +19,7 @@ arXiv recommends a consistent representation of your name to aid search and disc
 
 Linking your ORCID to your arXiv account is recommended to connect your arXiv papers to your scholarly record.
 
-![ORCID logo](../assets/orcid-logo.png){.margin5 align="left" width="20" role="presentation"}
+![ORCID logo](../../assets/orcid-logo.png){.margin5 align="left" width="20" role="presentation"}
 
 **[Link my arXiv account with ORCID](https://arxiv.org/user/confirm_orcid_id)**
 
