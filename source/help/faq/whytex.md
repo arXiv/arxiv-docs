@@ -22,11 +22,9 @@ Why doesn't arXiv Accept Preprocessed Submissions?
 -------------------------------------------------------------
 
 1.  arXiv cannot easily process pre-processed documents into more accessible formats such as HTML. 
-2.  Occasionally PDF from TeX contain bitmapped fonts at a fixed resolution. Your favorite resolution is inappropriate for other users and may make your paper difficult or impossible to read. We will make available many versions of the Postscript including 300 dpi, 400 dpi, or 600 dpi bitmapped fonts, as well as Postscript with (un-embedded) Type 1 fonts.
-3.  Different dvi to PS drivers produce Postscript that ranges from completely non-compliant with Adobe's Document Structuring Comments to only marginally compliant. We will always have modern dvi to PS software installed and will produce DSC compliant PS.
-4.  Postscript loses contextual information that is implicit in the TeX. This information is required to provide hyperlinked overlays to papers (so that users with the proper viewers can, for example, click on a reference number and jump to the reference \[which can also include a web URL which can be automatically passed off to a web browser\]). To do the hyperlinking, we use HyperTeX macros. The Postscript we produce is HyperPostscript which can be distilled into Adobe's Portable Document Format (PDF). Our software makes web URL's out of all references of the form YYMM.NNNNN or arch-ive/yymmnnn (e.g., 1510.00322 will be converted to a hyperlink for https://arxiv.org/abs/1510.00322, hep-th/9511053 will be converted to a hyperlink for https://arxiv.org/abs/hep-th/9511053).
-5.  TeX source is more compact and space-efficient.
-
+2.  TeX source is more compact and space-efficient.
+3.  Source files are of higher archival value than converted documents because we can offer future services built upon them.
+4.  Source files can offer greater insight than just the full text that they extract, including "how did the author do `x` within their code?", which can offer learning opportunities to the next generation of scientists without having to re-invent macros that may be well written in your code. 
 
 
 Frequent Red Herring Concerns:
