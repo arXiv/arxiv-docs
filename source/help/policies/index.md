@@ -5,7 +5,7 @@ Please note this page is a work in progress. We are working towards a comprehens
 ## User Policies
 - [Code of conduct](code_of_conduct.md)
 - [Privacy policy](privacy_policy.md)
-- [Identity, affiliation, and registration](../../help/registerhelp.md)
+- [Identity, affiliation, and registration](identity_and_affiliation.md)
 - [Paper ownership](../../help/authority.md)
 
 ## Submission Policies

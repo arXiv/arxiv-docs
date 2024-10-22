@@ -68,7 +68,7 @@
 * [Policies](help/policies/index.md)
      * [Code of conduct](help/policies/code_of_conduct.md)
      * [Privacy policy](help/policies/privacy_policy.md)
-     * [Identity, affiliation, and registration](help/registerhelp.md)
+     * [Identity, affiliation, and registration](help/policies/identity_and_affiliation.md)
      * [Submission terms and agreement](help/policies/submission_agreement.md)
      * [Paper ownership](help/authority.md)
      * [General submission policies](help/submit/index.md)
