@@ -4,8 +4,8 @@
     It is thus more likely to be a good source from which to generate newer formats, e.g., MathML (namely HTML, or more specifically XML, that handles mathematics correctly -- note that the MathML people plan a LaTeX to MathML translator, but dvi/ps/pdf lack the necessary document structuring concepts). Possession of the source thus provides many additional options for future document migrations.
 2.  Using packages such as `hyperref`, generated pdf and postscript from the source contains [hyperlinks](../../help/hypertex/index.md), so that using most standard modern pdf viewers will allow following hyperlinks directly within the text.
     By archiving the source, we maximize the potential for seamless adoption of future technological improvements. Archived papers can be repeatedly rejuvenated by automated reprocessing.
-3.  We distill the source into PDF format. The hyperlinks can then be [viewed using Acroread or an equivalent reader](../../help/pdf.md). In addition, this means that the hyperlink overlay will be directly available to web browsers. 
-4.  Using [LaTeXML](../../about/accessibility_html_error_messages.html#what-is-latexml), we distill LaTeX source into HTML. This provides greater accessibility, and provides readers with altenative formats which would be otherwise challenging for some screen readers (for example). As this project continues to mature, we expect that this may become more widely used than downloading the pdf directly. 
+3.  We distill the source into PDF format. The hyperlinks can then be [viewed using Acrobat Reader or an equivalent reader](../../help/pdf.md). In addition, this means that the hyperlink overlay will be directly available to web browsers. 
+4.  Using [LaTeXML](../../about/accessibility_html_error_messages.html#what-is-latexml), we distill LaTeX source into HTML. This provides greater accessibility, and provides readers with altenative formats which may be otherwise challenging for some screen readers. As this project continues to mature, we expect that this may become more widely used than downloading the pdf directly. 
 5.  There is no single Postscript standard! We provide Postscript in many formats; this is not possible if the author submits a single Postscript file. For a historical example, Preview.app under NeXTstep displayed bitmapped fonts poorly, and for historical reasons (TeX predated common use of Postscript) these fonts are still most commonly used by TeX and dvips. By requesting type 1 fonts from the "More options" page, screen readability is improved.
 6.  Cross-referencing within arXiv is added automatically with hyperlinked Postscript. Authors should specify [**arXiv:YYMM.NNNNN**](../../help/arxiv_identifier.md) or the older format of **arch-ive/papernum** (e.g., hep-ph/9503456) references whenever available, and these strings will be pattern-matched and replaced with suitable hyperlinks back to arXiv. Similarly, any occurrences of **http://...** or **ftp://...** url's are detected and converted to hyperlinks.
 
@@ -22,8 +22,8 @@ Why doesn't arXiv Accept Preprocessed Submissions?
 -------------------------------------------------------------
 
   *  arXiv cannot easily process pre-processed documents into more accessible formats such as HTML. 
-  *  Source files are of higher archival value than converted documents because we can offer future services built upon them.
-  *  Source files can offer greater insight than just the full text that they extract, including "how did the author do `x` within their code?", which can offer learning opportunities to the next generation of scientists without having to re-invent macros that may be well written in your code. 
+  *  Source files are of higher archival value than converted documents because they can provide a foundation upon which we can develop future services and applications to maintain access and readability of papers indefinitely.
+  *  Source files can offer greater insight than just the full text that they extract, such as understanding the techniques the author used to implement specific functions or features in their code, which can offer learning opportunities to the next generation of scientists without having to re-invent macros that may be well written in your code.
 
 
 Frequent Red Herring Concerns:
