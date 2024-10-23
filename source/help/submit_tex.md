@@ -19,7 +19,7 @@
 * * *
 
 <span id="newtex"></span>
-### (La)TeX processing changes &mdash; ~~April~~ May 2024
+### (La)TeX processing changes &mdash; coming November 2024
 
 We will soon be rolling out changes to how arXiv process (La)TeX submissions. These changes should not be noticable to most of our users. We will be retiring the arXiv-developed "AutoTeX" system that we have used for decades in favor of a simpler, more straight-foward process of converting (La)TeX submissions to PDFs.
 
