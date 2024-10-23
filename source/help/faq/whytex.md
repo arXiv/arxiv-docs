@@ -21,10 +21,9 @@ We mean by this the relationship between equations and their labels, references 
 Why doesn't arXiv Accept Preprocessed Submissions?
 -------------------------------------------------------------
 
-1.  arXiv cannot easily process pre-processed documents into more accessible formats such as HTML. 
-2.  TeX source is more compact and space-efficient.
-3.  Source files are of higher archival value than converted documents because we can offer future services built upon them.
-4.  Source files can offer greater insight than just the full text that they extract, including "how did the author do `x` within their code?", which can offer learning opportunities to the next generation of scientists without having to re-invent macros that may be well written in your code. 
+  *  arXiv cannot easily process pre-processed documents into more accessible formats such as HTML. 
+  *  Source files are of higher archival value than converted documents because we can offer future services built upon them.
+  *  Source files can offer greater insight than just the full text that they extract, including "how did the author do `x` within their code?", which can offer learning opportunities to the next generation of scientists without having to re-invent macros that may be well written in your code. 
 
 
 Frequent Red Herring Concerns:
