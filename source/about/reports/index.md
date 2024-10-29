@@ -3,6 +3,8 @@
 ## Annual Reports
 [2023 Annual Report](2023_arXiv_annual_report.pdf)
 
+[2023 arXiv in Numbers](2023_usage.md)
+
 [2022 Annual Report](2022_arXiv_annual_report.pdf)
 
 [2022 arXiv in Numbers](2022_usage.md)
