@@ -56,7 +56,7 @@
     * [Bulk Access to Metadata and Full Text](help/bulk_data/index.md)
           * [arXiv Identifier for Interacting Services](help/arxiv_identifier_for_services.md)
           * [Full Text via S3](help/bulk_data_s3.md)
-          * [API for Metadata](help/api/)
+          * [API for Metadata](help/api/index.md)
           * [RSS Feeds](help/rss.md)
           * [Institutional Repository Interoperability](help/ir.md)
           * [Automated DOI and journal reference updates from publishers](help/bib_feed.md)
