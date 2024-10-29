@@ -4,8 +4,8 @@ RSS 2.0 and ATOM news feed pages are available for all active subject areas with
 
 ## Feed specifications and status
 
-- [RSS feed specifications](../../help/rss_specifications)
-- [ATOM feed specifications](../../help/atom_specifications) 
+- [RSS feed specifications](rss_specifications.md)
+- [ATOM feed specifications](atom_specifications.md) 
 - [arXiv feed status page](https://rss.arxiv.org/feed/status)
 
 ## Subscribe by category

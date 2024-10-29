@@ -53,4 +53,4 @@ Problems or errors
 
 Updates are automatic so it is important that feeds contain reliable data.
 Details of errors or other problems should be [communicated to arXiv
-administrators](https://info.arxiv.org/help/contact.html) as soon as possible. 
+administrators](../help/contact.md) as soon as possible. 

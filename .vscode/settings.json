@@ -4,5 +4,6 @@
     ],
     "githubPullRequests.ignoredPullRequestBranches": [
         "develop"
-    ]
+    ],
+    "search.useIgnoreFiles": false
 }

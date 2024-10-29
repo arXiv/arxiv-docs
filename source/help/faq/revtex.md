@@ -3,11 +3,11 @@
 <span class="note">Update 3/15/2010:</span> [revtex4.1 (patch
 level 1)](http://authors.aps.org/revtex4/) is now fully supported by
 arXiv and all its mirrors. Please report problems you may find with it,
-see [contact](http://arxiv.org/help/contact)
+see [contact](../../help/contact.md)
 
 <span class="note">Update 8/9/01:</span> revtex4 is now fully supported
 by arXiv and all its mirrors. Please report problems you may find with
-it, see [contact](http://arxiv.org/help/contact), in particular if you
+it, see [contact](../../help/contact.md), in particular if you
 spot problems with older papers (papernum \< 0108001) that may be using
 one of the beta versions so that we can fix them.
 

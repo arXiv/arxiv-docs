@@ -4,7 +4,7 @@ _Published January 29, 2019_
 
 Since its inception in 1991 with a focus on the high energy physics community, arXiv has significantly expanded both its subject coverage and user base. It provides open access to about 1.5 million e-prints in Physics, Mathematics, Computer Science, Quantitative Biology, Quantitative Finance, Statistics, Electrical Engineering and Systems Science, and Economics.  
 
-In 2018, the repository received 140,616 [new submissions](../../help/stats/2018_by_area/index.md), a 14% increase from 2017. The subject distribution is evolving as Computer Science represented about 26% of overall submissions, and Math 24%. There were about 228 million downloads from all over the world. arXiv is truly a global resource, with almost 90% of supporting funds coming from sources other than Cornell and 70% of institutional use coming from countries other than the U.S.
+In 2018, the repository received 140,616 new submissions, a 14% increase from 2017. The subject distribution is evolving as Computer Science represented about 26% of overall submissions, and Math 24%. There were about 228 million downloads from all over the world. arXiv is truly a global resource, with almost 90% of supporting funds coming from sources other than Cornell and 70% of institutional use coming from countries other than the U.S.
 
 ## We’ve Moved!
 
@@ -30,7 +30,7 @@ We remain grateful for the support from the [Simons Foundation](https://www.simo
 
 ## Key Accomplishments and Plans for 2019
 
-Since we started the arXiv sustainability initiative in 2010, an integral part of our work has been assessing the services, technologies, standards, and policies that constitute arXiv. Here are some of our key accomplishments from 2018 to illustrate the range of issues we have been trying to tackle. Please see the [2018 Roadmap](/about/reports/2018report.pdf) for a full account of our work.
+Since we started the arXiv sustainability initiative in 2010, an integral part of our work has been assessing the services, technologies, standards, and policies that constitute arXiv. Here are some of our key accomplishments from 2018 to illustrate the range of issues we have been trying to tackle. Please see the [2018 Roadmap](/about/reports/2018_roadmap.pdf) for a full account of our work.
 
 - Our development team has improved various search, browse, and accounts features as we [reimplement](https://blogs.cornell.edu/arxiv/2018/04/17/new-release-arxiv-search-v0-1/), test, [refine](https://blogs.cornell.edu/arxiv/2018/05/04/release-search-v0-2-some-notes-on-names/) and [continue to improve](https://blogs.cornell.edu/arxiv/2018/07/18/search-v0-4-bug-fixes-date-related-searches/) the arXiv platform. We also made significant progress reimplementing the submission user interface, API, and backend services with a new data architecture. Wherever possible, new software components are developed in [public repositories](https://confluence.cornell.edu/display/arxivpub/arXiv-NG+Public+Repositories) and released under permissive open source licenses. Information about software releases can be found [here](https://confluence.cornell.edu/display/arxivpub/arXiv+Software+Releases).
 
