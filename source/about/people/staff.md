@@ -17,7 +17,7 @@
 - Stephanie Orphan, Program Director
 - Norbert Preining, Principal Software Engineer
 - Erin Reddy, Developer
-- Rebecca Rich Goldweber, Senior Production Editor
+- Rebecca Rich Goldweber, Lead Production Editor
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
