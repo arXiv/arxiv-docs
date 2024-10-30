@@ -14,7 +14,7 @@
   - [Does arXiv support OpenURL linking services?](../../help/openurl.md)
   - [Does arXiv support RSS news feeds?](../../help/rss.md)
   - [Does arXiv support the Open Archives Initiative?](../../help/oa/index.md)
-  - [How do I establish an arXiv mirror site?](cache.md)
+  - [How do I establish an arXiv mirror site?](../../help/mirrors.md)
 
 ## Information for Submitters
 
