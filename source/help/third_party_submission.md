@@ -1,6 +1,6 @@
 # Third party submission
 
-In general [author self-submission](submit.md) is preferred because our
+In general [author self-submission](../help/submit/index.md) is preferred because our
 experience shows that there are far fewer errors and misunderstandings
 than with submissions made by third-parties. However, arXiv does permit
 and provide special facilities for third party submission by trusted

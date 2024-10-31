@@ -48,7 +48,7 @@ Related documents: [arXiv software releases](https://confluence.cornell.edu/disp
 
 **Code of Conduct**: We are developing a Code of Conduct, based on shared values and shared responsibility within the arXiv community. Throughout our process, we will engage with stakeholders, including staff, advisors, moderators and authors. The Code of Conduct is intended to complement arXiv’s [Operating Principles(/about/principles) as a broader set of community values.
 
-  > Status: Complete https://arxiv.org/help/policies/code_of_conduct
+  > Status: Complete [https://arxiv.org/help/policies/code_of_conduct](https://arxiv.org/help/policies/code_of_conduct)
 
 **Help Page Updates**: We plan to update and organize our help pages and other reference content to improve the user’s access and experience. We will first migrate help pages to a new repository, making future updates easier, then we will then re-organize and update the site map and help search.
 

@@ -655,7 +655,7 @@ When applicable the email contains the permanent arXiv identifier and
 paper password. It is important that the author/submitter closely
 inspect the representation of the submission at arXiv and take
 corrective action where necessary, see
-[checking](submit.md#correct).
+[checking](../help/submit/index.md#verify-and-correct-your-submission).
 
 The status of a SWORD deposit may be tracked using the tracking URI
 returned in the Atom `<link>` element with `rel="alternate"`, for
