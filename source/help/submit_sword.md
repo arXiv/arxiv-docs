@@ -93,7 +93,7 @@ process into authoring tools for efficient upload from the desktop.
 In accordance with general arXiv submission policy, SWORD/APP deposits
 require a valid **author registration** with arXiv. Help on how to
 obtain a registration is available at
-[registerhelp](registerhelp.md).
+[registerhelp](../help/registerhelp.md).
 
 In addition, prospective users of the deposit API must request
 authorization to do so via email to arXiv administrators

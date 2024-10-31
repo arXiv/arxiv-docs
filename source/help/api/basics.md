@@ -250,7 +250,7 @@ The file\_get\_contents() function is part of the PHP core language:
 
 The API [User's Manual](user-manual.md) discusses the API interface and
 returned Atom format in detail, and gives code examples in the languages
-listed above. The [API FAQ](faq.md) has answers to common questions, or
+listed above. The [API Basics](../api/basics.md) offers an introduction to using the API, answers basic questions, and includes links to developer documentation, or
 feel free to ask the [arxiv-api discussion
 list](https://groups.google.com/a/arxiv.org/g/api).
 
