@@ -35,7 +35,7 @@ automatic endorsement is given to authors from known academic
 institutions and research facilities. arXiv submitters are therefore
 encouraged to associate an institutional email address, if they have
 one, with their arXiv account (see [author registration
-help](registerhelp.md)). This will expedite the endorsement process.
+help](../help/registerhelp.md)). This will expedite the endorsement process.
 
 During the submission process, however, we may require authors who are
 submitting papers to a subject category for the first time to get an

@@ -73,7 +73,7 @@ Information Fields
     address, etc. Misrepresentation of identity or affiliation, for any
     reason, is possible grounds for immediate and permanent suspension.
 -   It is the responsibility of the submitter to ensure that all authors
-    [consent to the article being submitted](authority.md#coauthor).
+    [consent to the article being submitted](../help/authority.md).
 -   It is the responsibility of the submitter to ensure that any author's information is correct prior to submission.
 -   Anonymous submissions are not accepted. Complete, and accurate author information is required.
     -   For named collaborations, it is acceptable to only use the collaboration name within the metadata, however a complete list of all authors and their affiliations must be contained in the full printed text.
@@ -324,7 +324,7 @@ Please carefully review the [descriptions of categories](https://arxiv.org/categ
     changes to the article, such as replacing it or adding a
     cross-reference. Other people can become owners if they supply the
     paper password, or request ownership. See our [authority
-    records](authority.md) help page for more information.
+    records](../help/authority.md) help page for more information.
 -   When someone is registered as an *owner* of an article, they have a
     chance to specify if they are also an *author* — to get all of their
     rights and privileges, authors of arXiv articles should take

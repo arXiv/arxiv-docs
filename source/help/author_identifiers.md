@@ -9,7 +9,7 @@ done only approximately with text-based searches. It would also permit
 construction of an author-article graph which is useful for relevance
 assessment and bibliometric analysis.
 
-Since 2005 arXiv has used [authority records](authority.md) that associate
+Since 2005 arXiv has used [authority records](../help/authority.md) that associate
 user accounts with articles authored by that user. These records support
 the [endorsement system](endorsement.md). The use of public author
 identifiers as a way to build services upon this data is new in 2009.

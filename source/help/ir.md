@@ -104,7 +104,7 @@ Unfortunately, most arXiv articles do not have any affiliation
 information included by submitters, and when it is present there is wide
 variation in the writing of institution names which makes matching
 difficult. However, arXiv does maintain [authority
-records](authority.md) linking articles to author accounts. This
+records](../help/authority.md) linking articles to author accounts. This
 linkage is automatic for the submitting author but co-authors must
 claim-ownership after announcement in order to be linked. Additionally,
 user accounts may be linked with [ORCID iDs](orcid.md) and then a
