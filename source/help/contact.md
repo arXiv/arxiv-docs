@@ -39,7 +39,7 @@ see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
 
 ## Authorship Disputes
 
-arXiv will not adjudicate [authorship disputes](authority.md#coauthor) within a collaboration of authors.
+arXiv will not adjudicate [authorship disputes](../help/authority.md) within a collaboration of authors.
 
 ## Code of Conduct concerns
 

@@ -19,7 +19,7 @@ papers they have written or own.
 When you submit a paper, you will automatically be registered as an *owner* of
 that paper. At submission time, we will ask if you are an author, and if you
 say yes, you will automatically be registered as an *author*. Your co-authors
-can become authors by giving them the [paper password](passwords) for the
+can become authors by giving them the [paper password](../help/passwords.md) for the
 paper, which you received in a confirmation e-mail, if you expressed being an
 author of the submitted paper during the submission phase. They can then enter
 the arXiv identifier and paper password on the [claim

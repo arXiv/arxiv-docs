@@ -21,10 +21,10 @@ slug: Help
 - [Web Accessibility Assistance](web_accessibility.md)
 
 ## User Accounts
-- [Register a User Account](registerhelp.md)
+- [Register a User Account](../help/registerhelp.md)
 - [The Endorsement System](endorsement.md)
 - [Protecting your Privacy](email-protection.md)
-- [Authority Records](authority.md)
+- [Authority Records](../help/authority.md)
 - [The User-ID/Password System](passwords.md)
 - [Subscribe to E-Mail Listings](subscribe.md)
 
