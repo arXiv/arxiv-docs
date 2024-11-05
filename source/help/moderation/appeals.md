@@ -33,7 +33,7 @@ When a decision is made by the appellate moderators, you will receive a follow-u
 <span id="accepted"></span>
 ## What happens if my appeal is accepted? 
 
-If your appeal is accepted, the message you receive from arXiv staff will have furhter instructiuons. In some instances, you may be asked to make changes to the submission as directed by appellate moderators. 
+If your appeal is accepted, the message you receive from arXiv staff will have further instructiuons. In some instances, you may be asked to make changes to the submission as directed by appellate moderators. 
 
 *Note:* Articles that have already been made public and have been reclassified will not receive an announcement within the new category. 
 
