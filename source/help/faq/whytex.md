@@ -3,7 +3,7 @@
 1. TeX has many advantages that make it ideal as a format for the archives: It is plain text, it is compact, it is freely available for all platforms, it produces extremely high-quality output, and it retains [contextual information](#contextual).
 2. It is thus more likely to be a good source from which to generate newer formats, e.g., HTML, MathML, various ePub formats, etc.. Possession of the source thus provides many additional options for future document formats and other uses.
 3. Having TeX source allowed us to introduce packages such as `hyperref`, which brought clickable hyperlinks to PDF (and HTML).
-4. We recently started creating HTML versions of all papers. This was done primarly to make arXiv's content availble to the visually impaired, but it also has benefits for sighted people who might be reading an article from a mobile phone, or other non-traditional devices. We expect continuous improvements in the HTML conversion process and this format to become predominant. It also makes arXiv ready to comply with legal requirements around acesssbility.
+4. We recently started creating HTML versions of all papers. This was done primarily to make arXiv's content available to the visually impaired, but it also has benefits for sighted people who might be reading an article from a mobile phone, or other non-traditional devices. We expect continuous improvements in the HTML conversion process and this format to become predominant. It also makes arXiv ready to comply with legal requirements around accessibility.
 
 <span id="contextual"></span>
 
