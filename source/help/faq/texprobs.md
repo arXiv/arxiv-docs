@@ -6,13 +6,14 @@ locally. In most cases there are fixes that can be applied and the
 submission replaced to correct the problems.
  
 
-   ## Lines in the table of contents don't wrap
-   By default, papers are processed with the automatic addition of
-  hyperlinks using the [HyperTeX](http://arxiv.org/hypertex) package.
-  Hyperlinks in the table of contents can create a problem with
-  latex's ability to break lines. This problem can be solved by passing the option `linktocpage` to hyperref. Include the line
+## Lines in the table of contents don't wrap
+
+By default, papers are processed with the automatic addition of
+hyperlinks using the [HyperTeX](http://arxiv.org/hypertex) package.
+Hyperlinks in the table of contents can create a problem with
+latex's ability to break lines. This problem can be solved by passing the option `linktocpage` to hyperref. Include the line
     
-   ``` 
+  ``` 
        \PassOptionsToPackage{linktocpage}{hyperref}
   ```
     
@@ -25,7 +26,7 @@ submission replaced to correct the problems.
        \usepackage[hyperindex,breaklinks]{hyperref}
    ```
     
-  ## Hyperlinks overrun the page or column boundaries
+## Hyperlinks overrun the page or column boundaries
   
 arXiv's default behavior for [hyperref](../../help/hypertex/index.md) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
 
@@ -46,8 +47,9 @@ doesn't provide the functionality you seek (e.g. in dvi mode), you may wish to u
 of these same features. Consult [the package documentation](https://ctan.org/pkg/breakurl) for usage instructions.
 
     
-  ## Fuzzy fonts in PDF 
-  If you use the `fontenc` package and `T1` fonts you may find that the fonts appear fuzzy in PDF output from arXiv. Our suggested solution in most cases is to include packages `ae` and `aecompl` in the latex source. To do this add 2 additional lines after the `fontenc` inclusion:
+## Fuzzy fonts in PDF 
+
+If you use the `fontenc` package and `T1` fonts you may find that the fonts appear fuzzy in PDF output from arXiv. Our suggested solution in most cases is to include packages `ae` and `aecompl` in the latex source. To do this add 2 additional lines after the `fontenc` inclusion:
 
   ``` 
       \usepackage[T1]{fontenc}
@@ -71,12 +73,13 @@ Here are some pointers to entries in the TeX FAQ that address this issue:
     output](https://texfaq.org/FAQ-charshift)
     
 
- ## PostScript figures lose quality in arXiv-generated PDFs
-  arXiv uses Ghostscripts's PDF Writer device to generate the PDF versions of TeX submissions. A variety of parameters affects the conversion of PostScript to PDF. In particular bitmap figures are frequently downsampled to the target device resolution, and color spaces are converted as necessary. While arXiv's default settings, the defaults of Ghostscript's PDF Writer device, usually give reasonable quality, some figures may require individual parameter fine tuning for optimal quality of display and/or printout.
+## PostScript figures lose quality in arXiv-generated PDFs
+
+arXiv uses Ghostscripts's PDF Writer device to generate the PDF versions of TeX submissions. A variety of parameters affects the conversion of PostScript to PDF. In particular bitmap figures are frequently downsampled to the target device resolution, and color spaces are converted as necessary. While arXiv's default settings, the defaults of Ghostscript's PDF Writer device, usually give reasonable quality, some figures may require individual parameter fine tuning for optimal quality of display and/or printout.
   
   To ensure the best display quality for your figures, please refer to the [Ghostscript documentation](https://www.ghostscript.com/documentation/index.html) for detailed information on output devices and image file formats.
 
-  ## Extra white space around figures covers up some of the text   
+## Extra white space around figures covers up some of the text   
   These problems are characteristic of PostScript figures that have
   been created from PowerPoint. Microsoft PowerPoint does not generate
   appropriate PostScript code. If you must use PowerPoint to generate
