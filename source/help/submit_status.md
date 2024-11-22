@@ -43,7 +43,8 @@ relatively short time period.
 Submitted
 ---------
 
-Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](availability.md).
+Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. 
+Your submission is currently set to be posted based on [automated announcement schedule](availability.md). Note that all submissions to arXiv go through a series of automated and human checks as [part of moderation](moderation/index.md) that may result in a delay.
 
 **New submissions and replacements**: Once you have verified that your
 intended submission appears in the format you desire, and you have
