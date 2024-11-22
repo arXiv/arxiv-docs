@@ -60,7 +60,7 @@ On Hold
 
 All submissions to arXiv go through a series of automated and human checks as [part of moderation](moderation/index.md). 
 
-When a submission goes on hold, arXiv editors will either send you an email with instructions on resolving the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account with any changes to your submission status.
+When a submission goes on hold, arXiv editors will either send you an email with instructions on resolving the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
 No action is required on your part at this time. 
 
