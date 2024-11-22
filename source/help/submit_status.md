@@ -43,7 +43,8 @@ relatively short time period.
 Submitted
 ---------
 
-Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. Your submission will be posted based on the [automated announcement schedule](availability.md).
+Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. 
+Your submission is currently set to be posted based on [automated announcement schedule](availability.md). Note that all submissions to arXiv go through a series of automated and human checks as [part of moderation](moderation/index.md) that may result in a delay.
 
 **New submissions and replacements**: Once you have verified that your
 intended submission appears in the format you desire, and you have
@@ -57,17 +58,16 @@ remove it from this status, and return it to [incomplete](submit_status.md#incom
 On Hold
 -------
 
-Your submission was identified by arXiv staff or [moderators](moderation/index.md) as needing further attention.
+All submissions to arXiv go through a series of automated and human checks as [part of moderation](moderation/index.md). 
 
-Submissions may be put on hold for a variety of reasons, ranging from
-questions about proper classification, presentation issues, copyrighted PDF, or editorial concerns. Most
-of these do not require any further input from the submitter and will be
-dealt with in due course. arXiv urges submitters to be patient. Due to
-the large volume of submissions, it may take several days before a resolution is reached.
+When a submission goes on hold, arXiv editors will either send you an email with instructions on resolving the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
-Authors *must not* create a new submission with the same content when a pending submission is on hold. This will also lead to further delays.
+No action is required on your part at this time. 
 
-Submissions in this status will not expire. 
+Due to the large volume of submissions the process may take several days. We appreciate your patience.
+
+Please do not make a duplicate submission while your work is on hold. Deleting and resubmitting your work will lead to further delays.
+
 
 <span id="expired"></span>
 
