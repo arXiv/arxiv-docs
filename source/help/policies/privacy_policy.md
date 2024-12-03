@@ -5,164 +5,211 @@ The following privacy notice describes what information we collect from you when
 
 ## Effective Date of Privacy Notice
 
-The privacy notice was last revised on 2019-02-08.
+The privacy notice was last revised on 2024-12-03.
 
-## What information we gather during your visit
+## Introduction
 
-_Information we gather for anonymous browsing:_
+arXiv, a service of Cornell University, creates, hosts, and permanently preserves a free, open-access archive of scholarly articles in specific fields of research. Articles posted to arXiv are made publicly available for review and use by the academic community, and beyond. Articles hosted on arXiv are assigned Digital Object Identifiers (DOIs), are indexed in third-party search engines, and may be cited in other works. In addition, arXiv takes steps to ensure research integrity and originality of submitted content. Therefore, each version of a paper (including rejected papers) is considered a permanent part of the scientific record and may not be removed.
 
-We automatically collect certain information from you when you visit arXiv. This data is used to gather metrics on site usage including geographic location of visitors (IP address), pathways navigated through the website, what type of internet browser is used (user-agent). No attempt is made to deanonymize information we collect.
+Consistent with arXiv’s purpose and mission, when you choose to submit an article to arXiv, you acknowledge and agree that it is worthy of archival preservation as described herein, has lasting value for research as well as for understanding current and historical trends, and that the article,_including the names and affiliations of authors and co-authors, if provided,and the submitter’s email address_ will be permanently preserved online for the purpose of fulfilling arXiv’s legitimate interests in archiving, research, and statistical recordkeeping in the public interest. In doing so, we make reasonable efforts, taking into account the content and condition of the material, to avoid putting personal information online that may cause damage or distress to living individuals.
 
-_Information you may provide as registered user:_
+The following privacy notice describes the Personal Data we collect from you when you visit arXiv.org and how we use this information. For the purposes of this notice, Personal Data is defined as information relating to an identified or identifiable individual; an identifiable individual is one who can be identified, directly or indirectly, by use of any identifier or characteristic specific to that individual. Please read this privacy notice carefully so that you understand our privacy practices. For additional information concerning Cornell University’s privacy practices, please visit the University Privacy [website](https://privacy.cornell.edu/). We reserve the right to change this policy at any time to reflect changes in the law, our data collection and use practices, the features of our services, or advances in technology. Please check this page periodically for changes. Your continued use of arXiv following the posting of changes to this policy will be deemed to mean you understand the applicability of those changes.
 
-We may also collect other information as described in this notice or other specific Cornell University privacy notices. In order to take full advantage of some of our services, including article submission, we may request name, email, username, ORCID, past emails, affiliation, country, additional contact information and/or online identifiers. We may also request a record of affiliation and publication record be provided via email. When a user submits an article to arXiv we also collect author names, affiliation of co-authors (if provided), submitter IP address and submitter remote host.
+## Types of Personal Data arXiv May Collect About You
 
-Information associated with your user account can be viewed on your [user dashboard](https://arxiv.org/user/).
+When you use our site to access our online content, create a user account, upload material to our website, submit feedback or initiate a help request, contribute to our mission by donating to arXiv, participate in our webinars, or sign up to receive arXiv news or participate in other activities sponsored or hosted by arXiv, we collect personal information about you, as described below.
 
-_Information you may provide when submitting feedback or help request:_
+We may collect the following information based on how you engage with arXiv:
 
-Users who email [arXiv administrators](../../help/contact.md) for technical help or moderation requests should include information relevant to the request.
+- **Browsing of the website by unregistered users** – IP address, pathways navigated through the website, type of internet browser used. We do not make any attempt to identify you from the information collected.
 
-Users who choose to fill out a feedback form on the website can do so anonymously or by providing personal information, such as name, email, and information about your operating environment.
+- **Registered users** – name, email address, ORCID, past email addresses, affiliation, country, additional contact information and/or online identifiers. We may also request a record of affiliation and publication record. Information associated with your user account can be viewed on your user dashboard. When registered users take actions such as initiating submissions or making ownership requests, arXiv will collect their IP address.
 
-_Information provided by others:_
+- **Users who submit articles** – author names, author affiliations, submitter email address, and submitter IP address. Note: Users who submit articles or other content to arXiv must ensure that they have the right to distribute the work and that inclusion of the article in arXiv does not violate the rights of any person or entity, including privacy rights, or the submission may be removed.
 
-Users who submit articles or other content to arXiv must ensure that they have the consent to share personal data contained within the content or the submission may be removed.
+- **Users who submit feedback or help requests** – name, email address, and information pertaining to operating environment.
 
+- **Donors** – name, address, email address, institutional affiliation (if provided), and financial information to enable the processing of the donation. This information is processed in accordance with Cornell’s University Privacy Statement.
 
-## How we use your information
+- **Email subscribers** – arXiv maintains mailing lists for those who subscribe to notifications concerning papers posted on arXiv, information about arXiv (for example, our blog updates), and other such communication, for which we will collect your email address.
 
-We use gathered information to track user trends and site usage with the goal of improving our visitors’ experience and optimizing our websites. We also use the information to administer this website and prevent abuse.
+- **Participants in public events arXiv may host** – contact information for those who sign up for forums, conferences, or webinars we host.
 
-_Customer support:_
+## How arXiv May Use Your Personal Data
 
-We use your information to resolve technical and moderation issues you encounter, to respond to your requests for assistance, to analyze crash information, and to repair and improve the services.
+arXiv uses the Personal Data collected for the following purposes:
 
-_For safety and security:_
+- **Scholarly paper and article submission, hosting, and archiving** – In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions, as follows:
+    - Article metadata provided by submitter, including author list, author affiliation (if provided), and submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.
+    - Users who submit articles or other content to arXiv must ensure that they have the right to distribute the work and that inclusion of the article in arXiv does not violate the rights of any person or entity, including privacy rights, or the submission may be removed.
+    - The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users [contact eligible arXiv endorsers](https://arxiv.org/help/endorsement#request) in order to make their own submissions.
+    - For more information, see [Submission Guidelines](https://arxiv.org/help/submit), [Author Registration](https://arxiv.org/help/registerhelp), [arXiv Submittal Agreement](https://arxiv.org/help/policies/submission_agreement), and [arXiv Moderation](https://arxiv.org/help/moderation).
 
-We use information about you and your service use to verify accounts and activity, to monitor suspicious or fraudulent activity and to identify violations of service policies.
+- **Improving user experience on the arXiv website** – When you select certain preferences, we may store information to remember your choices while using the site (see the "Collection of Cookies and Use of Other Technologies” section of this document).
 
+- **Providing user support** – Users have the option to provide name, email, and information about their current operating environment, and this information will be used in the process of providing user support.
 
-_Daily mailings:_
+- **Safety and security** – We verify accounts and activity, monitor for suspicious or fraudulent activity and identify violations of service policies.
 
-User-controlled subscriptions for announcements of daily papers include instructions to unsubscribe. More information at: https://arxiv.org/help/subscribe
+- **Sending email announcements** – Users who subscribe to receive daily email announcements of arXiv papers provide arXiv with their email address and full name and indicate the archive whose listings they want to receive. For more information see [Email subscriptions for new papers](https://info.arxiv.org/help/subscribe.html).
 
+- **Fundraising** – Should you decide to donate to arXiv through the Donate page, you will be directed to Cornell University’s giving website and the information you provide will be used to process your donation in accordance with Cornell’s [Information Use at Cornell](https://privacy.cornell.edu/information-use-cornell) statement.
 
-_Article Submission:_
+- **Providing member institution information** – For users who visit arXiv from the IP address range of an arXiv member institution, you will see the institution acknowledged on the arXiv.org website. arXiv member institutions also receive anonymous statistics on usage from within their IP address range.
 
-In the content submission and moderation process we link user accounts, authorship, and submitted content to track and process submissions. More information is at: https://arxiv.org/help/submit; https://arxiv.org/help/registerhelp; https://arxiv.org/help/policies/submission_agreement; https://arxiv.org/help/moderation  
+- **Conducting research in the public interest** – Certain information we gather, including your IP address, information about your browser, the date and time of your visit, the referer field (if present), your personal preferences, and the pages on our website that you accessed, is pseudonymized and used for secondary research purposes, including to allow and facilitate individuals to perform research in the public interest, and activities related to such research. For example, we count the overall visits per hour and per day and display this information on our usage stats page. When using information for research purposes, we will put in place reasonable physical, technical, and administrative safeguards designed to prevent unauthorized disclosure of your information.
 
+- **Testing** – We collect a variety of types of information for user testing purposes such as: your name, email, country, primary research field, and your opinions on various aspects of the website. This information helps us improve the functionality of arXiv for more people and across geographic areas.
 
-Article metadata provided by submitter, including author list, author affiliation (if provided), submitter name is displayed with the article posting, email announcement of articles, and bulk metadata access via API.
-
-
-The email address that was used to upload each submission is viewable by registered arXiv users to give users the ability to send feedback on papers to the submitter and to help users [contact eligible arXiv endorsers](https://arxiv.org/help/endorsement#request) in order to make their own submissions.
-
-_Fundraising:_
-
-Should you decide to donate to arXiv through the donate page you will be directed to the Cornell giving website and the information you provide will be used to process your donation. Please also see the [Cornell giving privacy policy](https://giving.cornell.edu/privacy-policy/).
-
-_Membership:_
-
-For users who visit arXiv from the IP range of an arXiv member institution, you will see the institution acknowledged on the arXiv.org website. arXiv member institutions also receive anonymous statistics on usage from within their IP range.
+## Collection of Cookies and Use of Other Technologies
 
 
-## With whom we share your information
+arXiv may gather information to track user trends and site usage with the goal of improving our website users’ experience and optimizing our website. We also use the information to administer the website and prevent abuse.
 
-Information we gather is shared with vendors we use to support the infrastructure, submission, moderation, and archival requirements of arXiv. However, we will not sell this data to third-parties for their use in direct marketing, advertising, or for the promotion of their products and services.
+**Cookies** – Like most other website operators, we may collect Personal Data via cookies and similar technologies. Cookies are small text files stored on your computer and accessible only to the websites that create them. They are stored locally by the browser you are using. If you switch browsers, or use a different computer, your cookies will not follow you.
 
-_Info we share with third party services:_
+arXiv uses cookies to save preferences you may have chosen for your use of arXiv. This includes, but is not limited to:
 
-Atlassian is used for user support to notify and respond to users about issues with their submissions or accounts. Atlassian is also used to collect feedback about development features that are sent in voluntarily by users. Users can optionally provide name, email, and information about their current operating environment.
+- That you have dismissed a banner we have shown you.
 
-iThenticate is used by arXiv administrators for text analysis on submissions. The name of the submitter is included in the iThenticate report for tracking purposes.
+- The Labs integrations you want to see on each abstract page.
 
-GMail is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.
+- Whether you want MathJax to be used when rendering article abstracts. 
 
-Slack is used for email communication of submission and moderator emails that may contain submission metadata, including author names, affiliations, submitter name and email.
-
-Amazon Web Services is used for server infrastructure for components of the arXiv system.
-
-Google Cloud Platform is used for server infrastructure for components of the arXiv system.
+- Search preferences, such as the sort order of the results.
 
 
-[Astrophysics Data System](http://ads.harvard.edu/) (ADS) is a trusted partner with arXiv who we share anonymized browsing logs associated with arXiv papers for use in ADS search and discovery tools.
+Cookies are also used when you log in to your arXiv account, in order to store your user identification and session authentication information.
 
-_Info we share with moderators as part of submission and moderation:_
+We do not use cookies to track your use of arXiv. Our website may use cookies to keep you logged into secure areas of the website and/or to keep track of your preferences as you interact with certain services. It is not necessary to use/permit cookies to read articles on arXiv.org; if you do not wish to permit cookies, you can modify the settings in your web browser, but you will not be able to login or set preferences.
 
-As part of the article submission and moderation process arXiv moderators can view author list, submitter name, submitter email, and if the submitter was endorsed by another user moderators can view the name of the endorser.
-
-_Info we share publicly:_
-
-Users with registered arXiv accounts can view the email address that was used to upload each submission to arXiv. Please see the [email protection page](https://arxiv.org/help/email-protection) for more information.
-
-The metadata for arXiv articles is freely accessible and available to any third-party use.
+For more information about cookies on arXiv, see: [https://arxiv.org/cookies](https://arxiv.org/cookies).
 
 
-## Cookies
+**Social media** – If you share our content through social media, those social networks will record that you have done so and may set a cookie for this purpose.
+If you wish to opt-out of any of these social interactions, please refer to the specific social media platform for instructions on how to do so.
 
-Cookies are text files stored on your computer and accessible only to the websites which create them.
+**External websites** – From time to time, we will link to external websites that we neither own nor control. Cornell University is not responsible for the content, privacy practices, or web accessibility needs on these websites.
 
-Our websites may use cookies to keep you logged into secure areas of the website and/or to keep track of your preferences as you interact with certain services. It is not necessary to use/permit cookies to read articles on arXiv.org.
+Contributions to the arXiv website, including article submissions and metadata, may contain links as well. We are not responsible for the content, privacy practices, or web accessibility needs on these websites.
 
-To manage cookies in arXiv please see: https://arxiv.org/cookies
+## How We Share and Disclose Personal Data
 
+Information we gather may be shared with service providers we use to support the infrastructure, submission, moderation, and archival requirements of arXiv, and, subject to appropriate safeguards, with researchers conducting research in the public interest. However, we will not sell this data to third parties. 
 
-## Protecting your information
+**Service providers** – Provide the following services which require the sharing of Personal Data:
+
+- Server, database, and web hosting infrastructure
+
+- Customer relationship management
+
+- Customer support and feedback
+
+- Text analysis of submissions
+
+- Email communications
+
+- Donation processing
+
+**Moderators** – As part of the article submission and moderation process, arXiv moderators can view the author list, submitter name, submitter email, and, if the submitter was endorsed by another user, moderators can view the name of the endorser.
+
+**Trusted Partners** – We share anonymized data with trusted partners (for example, NASA Astrophysics Data System) for use in search and discovery tools.
+
+**Researchers** – In such cases, your information will be handled and processed only by persons who are responsible for the necessary activities for the research study, which may include Cornell, its employees, and its Office of Sponsored Programs & Research Development; research collaborators; funding agencies; and sponsors, as well as external researchers unaffiliated with Cornell.
+
+**Legal and contract enforcement** – We may disclose your personal information to legal or government regulatory authorities as required by applicable law. We may also disclose your Personal Data to third parties in connection with claims, disputes, or litigation, or when we believe, in good faith, that such release is reasonably necessary to:
+
+- Comply with applicable law; 
+
+- Enforce or apply the terms of any of our user agreements; 
+
+- Protect the rights, property, or safety and security of Cornell University, arXiv, our users, or others; or 
+
+- Enforce our legal rights or contractual commitments that you have made.
+
+**Public** – Users with registered arXiv accounts can view the email address that was used to upload each submission to arXiv. Please see the [email protection page](https://info.arxiv.org/help/email-protection.html) for more information.
+
+The metadata for arXiv articles is freely accessible and available to any third-party use under a [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+
+## How We Protect and Store Your Personal Data
 
 No method of transmitting over the internet or storing electronic data is 100% secure, but arXiv follows standard practices to protect against the loss, misuse, or alteration of the information that is under our control.
 
-##Fundraising, Update, User Testing, and other notifications
-This section explains the choices you have when it comes to receiving email communications from arXiv.
+## Choices You May Have
 
-Donors to arXiv may receive future fundraising emails from Cornell University. Those emails will contain options to unsubscribe.
+**Fundraising emails** – Donors to arXiv may receive future fundraising emails from Cornell University. Those emails contain a link at the bottom of the email to unsubscribe.
 
-arXiv members will receive annual update emails and direct correspondence relating to membership. Those emails will contain options to unsubscribe.
+**Membership emails** – arXiv members will receive annual update emails and direct correspondence relating to membership. Those emails contain a link at the bottom of the email to unsubscribe.
 
-Sorry™ App is used to notify users about arXiv's operational status. Read [Sorry's privacy page](https://help.sorryapp.com/en/articles/1929467-privacy-and-cookies-policy) for more information. When you sign up for status notifications arXiv will share your contact information with Sorry™ to keep you informed about changes in the availability of our service. You'll have the option to unsubscribe at any time.
+**Opt in and event emails** – Users who opt in to receive general information about arXiv or who register for arXiv events will receive emails from arXiv updating them on our activities. Those emails contain a link at the bottom of the email to unsubscribe.
 
-If you have joined the user testing list you will receive occasional survey links and other relevant opportunities to review and offer feedback on website changes. We use Mailchimp to manage user testing lists and send emails to our testing groups. Read [Mailchimp’s privacy policy](https://mailchimp.com/legal/privacy/) for more information. You can make changes to your email preferences by utilizing the relevant links noted in our email communications. You may opt out of user testing emails at any time.
 
-We collect a variety of types of information for user testing purposes such as:
-Your name and email
-Your country
-Your primary research field
-Your opinions on various aspects of the website.
+## Additional Privacy Disclosures for Individuals Located Outside of the United States
 
-This information helps us improve the functionality of arXiv for more people and across geographic areas.
+These supplemental disclosures (“Disclosures”) provide additional information concerning arXiv’s collection and use of data about individuals located in a Relevant Country (as defined below). These Disclosures apply to In-Scope Processing by any means, including hard copy and electronic means.
 
-Your information is never shared with third party marketing services.
+For purposes of these Disclosures, 
 
-## Social Media Presence
+- “Relevant Law” means any non-U.S. jurisdiction’s Personal Data protection law that applies to the processing of Personal Data by arXiv.
 
-If you share our content through social media, such as tweeting about us on Twitter, those social networks will record that you have done so and may set a cookie for this purpose.
+- “Relevant Country” means a country which has enacted a Relevant Law.
 
-If you wish to opt-out of any of these social interactions please refer to the specific social media platform for instructions on how to do so.
+- “In-scope Processing” means the collection, use, handling, processing, or sharing of Personal Data by arXiv when those activities are within the scope of any Relevant Law.
 
-## External Website Links
+Where the words “we,” “us,” or “our” are used in these Disclosures, they shall refer to arXiv.
 
-From time-to-time, we will link to external websites that we neither own nor control. Cornell University is not responsible for the content, privacy practices, or web accessibility needs on these websites.
+Please note that these Disclosures apply only to In-scope Processing, and that, depending on the situation, some of arXiv’s activities described above may, in the given case, not constitute In-scope Processing as that term is used in these Disclosures. 
 
-Contributors to the site, including article submissions and metadata may contain links as well. We are not responsible for the content, privacy practices, or web accessibility needs on these websites.
+Please carefully read and understand these Disclosures before using our services and contact us using the details at the bottom of these Disclosures if you have any questions or concerns about the manner in which your Personal Data is processed.
 
-## Special Notice for EU Residents
+### Legal Bases for Processing
 
-If you are located within the European Economic Area (European Union, Norway, Liechtenstein, and Iceland), we acknowledge the rights granted to you under the General Data Protection Regulation (GDPR).
+The bases arXiv relies on for processing your Personal Data are set forth below. Please note that we may process your Personal Data for more than one legal basis, depending on the specific purpose for which we are using each element of data. 
 
-These rights may include:
+- **Legitimate interest** – We have a legitimate interest in processing Personal Data contained in article submissions, and of site visitors and submitters, to carry out our archiving, research and educational mission, vision, and values; provide you with core archival, research and educational services in the public interest, including the dissemination of, and open access to, scholarly articles in specific fields of research; implement our policies and procedures; and meet our community’s expectations. We also have legitimate interests in processing your Personal Data for providing access to our site, testing and improving site functionality and user experiences on our site, providing user support, and maintaining safety and security on our site.
 
-1. Right to access your information held by us
-2. Right to correct inaccurate or incorrect information about you
-3. Right to the erasure of your information when it is no longer necessary for us to retain it
-4. Right to restrict processing of your personal information in specific situations
-5. Right to object to processing your information, including sending you communications that may be considered direct-marketing materials
-6. Right to object to automated decision-making and profiling, where applicable
-7. Right to complain to a supervisory authority in your jurisdiction within the EU
+- **Contract** – We need your Personal Data to provide you with our services and respond to your inquiries.
 
-Please contact us with any questions, concerns. If you wish to exercise any of these rights please visit [https://privacy.cornell.edu](https://privacy.cornell.edu)
+- **Legal** – We may have a legal obligation to handle your Personal Data when necessary to comply with applicable law, or to enforce legal rights or contractual commitments you have made, or terms of use to which you have agreed.
 
-## Contact Information
+- **Public interest** – We may handle your Personal Data when necessary to protect the rights, property, or safety and security of Cornell University, arXiv, our users, or others.
 
-For questions about arXiv privacy policies or technical support please contact [arXiv User Support](https://arxiv.org/support)
+- Your **consent**, in limited circumstances where other bases are not recognized. Generally, we do not rely on consent as a legal basis for processing your Personal Data, unless it is specifically required by your jurisdiction, such as for sending fundraising, marketing, or other optional communications or for collecting special category or sensitive information on an optional basis for research purposes. When we process your Personal Data on the basis of consent, you are able to remove your consent at any time. You can do this by contacting: [privacy@arxiv.org]. 
 
-If you have general questions about Cornell University privacy practices, please visit [https://privacy.cornell.edu](https://privacy.cornell.edu).
+We will retain your Personal Data for as long as needed to meet these objectives and to ensure compliance with our legal obligations.
+
+### Location of Processing and International Data Transfers
+
+Cornell University is located in the United States and is subject to U.S. and New York law, which may not provide the same level of protection as the laws in your jurisdiction. If you use arXiv, you understand and agree that you will be transmitting your Personal Data to personnel in the United States and your data generally will be hosted on U.S. servers, and might be transmitted to or accessed from the United States or other jurisdictions outside of the Relevant Country when necessary for business or other valid purposes, and you consent to the transfer of such data to the U.S. for processing by us in accordance with this Privacy Policy.
+
+### Rights You May Have and How to Exercise Them
+
+Upon your reasonable and good faith request, we will provide you with information about whether we hold any of your Personal Data as part of our In-scope Processing, to the extent required and in accordance with Relevant Law. In certain cases, you may also have a right under Relevant Law, with respect to your Personal Data collected and used in our In-scope Processing, to:
+
+- obtain a copy of your Personal Data in an easily accessible format;
+
+- request that we correct or update any of your Personal Data that is inaccurate; 
+
+- restrict or limit the ways in which we use your Personal Data;
+
+- object to the processing of your Personal Data;
+
+- request the deletion of your Personal Data; and
+
+- request that we transmit your Personal Data to another party.
+
+If you wish to exercise your rights or have other questions or concerns related to your rights under Relevant Law, please fill out a data privacy Request Form. To avoid taking action regarding your Personal Data at the direction of someone other than you, we may ask you for information verifying your identity.
+
+If our In-scope Processing as to your Personal Data is solely based on your consent, in certain cases you may also have the right under a Relevant Law to withdraw your consent to our processing. If you withdraw your consent to the use or sharing of your Personal Data for the purposes set out in these Disclosures, or otherwise limit our use of your Personal Data or request its deletion, we may no longer be able to provide you some or all of the related services.
+
+Please note that, in certain cases, we may continue to process your Personal Data after you have withdrawn consent or requested that we delete your Personal Data, if we have a legal basis to do so. For example, we may retain certain data if we need to do so to comply with an independent legal obligation, if we still need the data for the lawful purposes for which we obtained the data, or if it is necessary to do so to pursue our legitimate interest in conducting research in the public interest, subject to appropriate privacy safeguards.
+
+If you have any complaints regarding our privacy practices, please contact us at [Contact Us | University Privacy (cornell.edu)](https://privacy.cornell.edu/webform/contact-us).  If you are not satisfied with our response, you also may be able to make a complaint to your national data protection authority, supervisory authority, or other legal authority to the extent such authority has jurisdiction over the processing at issue.
+
+## Contacts
+
+For questions about arXiv privacy policies or technical support, please contact [arXiv User Support](https://arxiv.org/support).
+
+If you have general questions about Cornell University privacy practices, please visit [https://privacy.cornell.edu](https://privacy.cornell.edu/) or use the [Contact Us form](https://privacy.cornell.edu/webform/contact-us).
+
+Revision Date:
