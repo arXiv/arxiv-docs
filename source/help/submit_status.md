@@ -68,6 +68,8 @@ Due to the large volume of submissions the process may take several days. We app
 
 Please do not make a duplicate submission while your work is on hold. Deleting and resubmitting your work will lead to further delays.
 
+On Hold submissions will not expire.
+
 
 <span id="expired"></span>
 
