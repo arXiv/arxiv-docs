@@ -1,3 +1,7 @@
+---
+hide:
+  - toc
+---
 # Submissions by Institution (2022)
 
 _See more [arXiv in Numbers](2022_usage.md)_
