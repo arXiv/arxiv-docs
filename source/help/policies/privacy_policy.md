@@ -211,5 +211,3 @@ If you have any complaints regarding our privacy practices, please contact us at
 For questions about arXiv privacy policies or technical support, please contact [arXiv User Support](https://arxiv.org/support).
 
 If you have general questions about Cornell University privacy practices, please visit [https://privacy.cornell.edu](https://privacy.cornell.edu/) or use the [Contact Us form](https://privacy.cornell.edu/webform/contact-us).
-
-Revision Date:
