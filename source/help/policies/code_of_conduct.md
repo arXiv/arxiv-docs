@@ -38,7 +38,7 @@ If you have questions or concerns regarding the arXiv Code of Conduct please con
 - [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
 - [Cornell University Ombuds](https://ombuds.cornell.edu)
 
-In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
+In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://arxiv.org/support/code_of_conduct_report).
 
 <span id="policies"></span>
 
