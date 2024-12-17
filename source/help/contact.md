@@ -43,4 +43,4 @@ arXiv will not adjudicate [authorship disputes](../help/authority.md) within a c
 
 ## Code of Conduct concerns
 
-If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct.md) please complete the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ).
+If you believe that a particular submission violates arXiv's [code of conduct](policies/code_of_conduct.md) please complete the [Code of Conduct reporting form](https://arxiv.org/support/code_of_conduct_report).
