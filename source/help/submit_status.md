@@ -5,11 +5,11 @@ journal reference or DOI addition, or withdrawal) may traverse several
 status values while it is in process. The meanings of these status
 values are described below:
 
--   [incomplete](#incomplete) - in process but not submitted
+-   [incomplete](#incomplete) - not submitted
 -   [processing](#processing) - already submitted and being analyzed by
     arXiv
 -   [submitted](#submitted) - in the queue to be announced
--   [on hold](#on_hold) - delayed pending moderation attention
+-   [on hold](#on_hold) - undergoing checks
 
 All submissions and updates associated with your arXiv user account are
 shown on the [user page](https://arxiv.org/user). Upon announcement articles will move
