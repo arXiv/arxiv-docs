@@ -7,7 +7,8 @@ Our valued community of authors, readers, moderators, advisors, staff, collabora
 There are several actions that if taken, may result in a Code of Conduct violation. Such actions include but are not limited to utilizing inappropriate means of communication, abusive emails directed toward staff, repeatedly submitting inappropriate material, and may occur on any of arXiv’s channels. The Code of Conduct does not address issues concerning the acceptance of research articles. Any issues concerning moderation can utilize the appeals process described on the [arXiv moderation page](../../help/moderation/index.md#appeal). 
 
 ## Reporting
-If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting form](https://cornell.ca1.qualtrics.com/jfe/form/SV_6FgHTrYs5JT30wZ). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 
+
+If a community member feels that a violation has occurred, the violation can be reported via the [Code of Conduct reporting form](https://arxiv-org.atlassian.net/servicedesk/customer/portal/12/group/19/create/109). Please note that any communication received through this form is treated confidentially in keeping with arXiv’s privacy policies. 
 
 A committee formed of a combination of arXiv staff, leadership, and/or advisors will then determine whether or not a violation has occurred. 
 
