@@ -2,7 +2,7 @@
 
 ![arXiv Labs icon](images/smileybones-labs-icon.png){.mkd-img-thumb align=right alt='a bubbling beaker with a smiling face and crossedbones behind it' role=presentation}
 
-We welcome proposals from the community for arXivLabs integrations. Proposed features must **add value to arXiv content, benefits the scientific community,** and be based on underlying services that are **free of charge** or operate on a freemium model.
+We welcome proposals from the community for arXivLabs integrations. Proposed features must **add value to arXiv content, benefit the scientific community,** and be based on underlying services that are **free of charge** or operate on a freemium model.
 
 ![arXiv Labs features](images/arXivLabsFeatures-01.png)
 
