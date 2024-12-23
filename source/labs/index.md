@@ -8,12 +8,12 @@ We welcome proposals from the community for arXivLabs integrations. Proposed fea
 
 > ### How does it work ###
 > arXiv Labs lets the community contribute new, useful features to arXiv. These integrations are available to readers through a series of tabs at the bottom of the abstract page. 
-> <img src="images/arXivLabsFeatures-01.png" width="300" align="left">
+> <img src="images/arXivLabsFeatures-01.png" width="400" align="left">
 > 
 > Useful feature include bibliographic info, demos, and links to code. Explore arXiv abstract pages or the [Labs Showcase](/source/labs/showcase.md) to see examples.
 > 
 > To submit, review our proposal criteria below and then follow the steps at the end of this page. Note that the final decision for approving an arXivLabs project is made by arXiv management and teams.
->
+><p></p>
 >
 
 ### arXivLabs is not: ###
