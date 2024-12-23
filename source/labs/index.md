@@ -44,11 +44,11 @@ We encourage all contributors to Labs to continue to update and maintain their c
 
 #### UI/UX
 
-- Projects with user-facing components must adopt [WCAG 2.1, level AA](https://www.w3.org/TR/WCAG21/) Level A (Web Content Accessibility Guidelines). Higher levels of accessibility (i.e. AAA) are encouraged and welcome.
+- Projects with user-facing components must adopt [WCAG 2.1](https://www.w3.org/TR/WCAG21/) Level AA (Web Content Accessibility Guidelines). Higher levels of accessibility (i.e. AAA) are encouraged and welcome.
 - Any user-facing or promotional content must clearly indicate that the project is an arXivLabs project.
 - As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Code of Conduct and [Brand and Style Guide](../brand/index.md).
-  - The use of the name “arXiv”, “arXiv.org”, and our logo are prohibited and protected by copyright and registered trademarks. Use of our name and logo, except to acknowledge arXiv, is prohibited - except when specifically authorized in writing.
-  - When Labs projects use arXiv’s logo or name in an unauthorized manner it confuses users and adds to arXiv’s heavy user feedback load.
+  - The use of the name “arXiv”, “arXiv.org”, and our logo are protected by copyright and registered trademarks. Use of our name and logo, except to acknowledge arXiv, is prohibited.
+  - When Labs projects use arXiv’s name or logo in an unauthorized manner it confuses users and adds to arXiv’s heavy user feedback load.
 
 #### Security & Privacy
 - Projects with UI components are reviewed for vulnerabilities that might put users or the arXiv platform itself at risk or leak user information. In cases where vulnerabilities are discovered, Labs partners will be responsible for correcting the issue or risk having their project rejected or terminated.
