@@ -4,16 +4,19 @@
 
 We welcome proposals from the community for arXivLabs integrations. Proposed features must **add value to arXiv content, benefit the scientific community,** and be based on underlying services that are **free of charge** or operate on a freemium model.
 
-![arXiv Labs features](images/arXivLabsFeatures-01.png)
+<a class="button-reg" href="#arxivlabs-proposal-criteria">Review Proposal Criteria</a>
 
+> ### How does it work ###
+> arXiv Labs lets the community contribute new, useful features to arXiv. These integrations are available to readers through a series of tabs at the bottom of the abstract page. 
+> <img src="images/arXivLabsFeatures-01.png" width="400" align="left">
+> 
+> Useful feature include bibliographic info, demos, and links to code. Explore arXiv abstract pages or the [Labs Showcase](/source/labs/showcase.md) to see examples.
+> 
+> To submit, review our proposal criteria below and then follow the steps at the end of this page. Note that the final decision for approving an arXivLabs project is made by arXiv management and teams.
+><p></p>
+>
 
-arXiv Labs lets the community contribute new, useful features to arXiv. These integrations are available to readers through a series of tabs at the bottom of the abstract page. 
-
-Useful feature include bibliographic info, demos, and links to code. Explore arXiv abstract pages or the Labs Showcase to see examples.
-
-To submit, review our proposal criteria below and then follow the steps at the end of this page. Note that the final decision for approving an arXivLabs project is made by arXiv management and teams.
-
-#### arXivLabs is not: ####
+### arXivLabs is not: ###
 
 - A source of research funding.
 - The venue for proposing formal collaboration with arXiv.
@@ -21,11 +24,11 @@ To submit, review our proposal criteria below and then follow the steps at the e
 - A place to tell us about your latest scientific breakthrough. 
 - Part of the standard arXiv workflow, including submitting a paper and getting endorsed.
 
-If you have questions about collaborating with arXiv on something that is not aligned with arXivLabs, contact us through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6). If you need information on how to submit a paper to arXiv, please visit our [help pages](https://info.arxiv.org/help/submit/index.html). 
+If you have questions about collaborating with arXiv on something that is not aligned with arXivLabs, contact us through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6). If you need information on how to submit a paper to arXiv, please visit our [help pages](../../source/help/submit_index.md). 
 
 ## arXivLabs Proposal Criteria
 
-All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](../help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier. Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, [advertising and other promotional vehicles](https://info.arxiv.org/brand/brand-guidelines.html).
+All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](../help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier. Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, [advertising and other promotional vehicles](../brand/brand-guidelines.html).
 
 
 ### Responsibilities
