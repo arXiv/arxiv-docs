@@ -11,7 +11,7 @@ reproducible procedures for arXiv, that leave room for editorial judgement of co
 
 **Ralph Wijers (Chair, 2023-2026)**, Professor of High-Energy Astrophysics, University of Amsterdam (chair of arXiv Physics Editorial Committee)
 
-**Thomas Dietterich (Vice Chair, 2023-2026)**, Distinguished Professor Emeritus and CoRIS Associate Director of Policy, University of Oregon (chair of arXiv Computer Science Editorial Committee)
+**Thomas Dietterich (Vice Chair, 2025-2026)**, Distinguished Professor Emeritus and CoRIS Associate Director of Policy, University of Oregon (chair of arXiv Computer Science Editorial Committee)
 
 **Arthur M. Berd (2023-2026)**, Founder and CEO, General Quantitative and 
 Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitative Finance Editorial Committee)
