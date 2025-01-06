@@ -25,7 +25,7 @@ Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitativ
 
 **Jarvis Haupt (2023-2026)**, Associate Professor of Electrical and Computer Engineering, University of Minnesota (chair of arXiv Electrical Engineering and System Science Editorial Committee)
 
-**Joerg Stoye (2023-2026)**, Professor of Economics, Cornell University (chair of the arXiv Economics Editorial Committee)
+**Marc Henry (2025-2027)**, Professor of Economics, The Pennsylvania State University (chair of the arXiv Economics Editorial Committee)
 
 **Larry Wasserman (2023-2026)**, Professor, Department of Statistics and Machine Learning Department, Carnegie Mellon University (chair of arXiv Statistics Editorial Committee)
 
