@@ -32,7 +32,6 @@ Occasionally, arXiv defers a mailing, either for locally celebrated holidays suc
 ### 2025 Holidays 
 - Wed 1 January
 - Mon 20 January
-- Mon 26 May 
 - Thu 19 June 
 - Sun 6 July 
 - Mon 1 September 
