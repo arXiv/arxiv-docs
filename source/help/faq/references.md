@@ -16,6 +16,8 @@ You should use references of the form:
     or  
     `arXiv:math/9910001v1 [math.AT]`.
 
+- For information regarding arXiv’s automatic DOI assignment to papers, see [Understanding arXiv's Assigned DOI's](../doi.md)
+
 These forms are shown on the abstract web pages labeled `Cite as:`, and
 the identifier part is linked to the correct URL for the abstract page.
 
