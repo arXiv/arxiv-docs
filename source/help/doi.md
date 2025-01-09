@@ -5,7 +5,6 @@ All articles submitted to arXiv are automatically assigned DOIs that correspond 
 ## Why assign a DOI when my article has an arXiv ID?
 DOIs are unique and persistent, just like the original arXiv ID number already assigned to every arXiv article. However, DOIs are used across many different platforms and they enable greater interoperability with other services.
 
-
 ## Will I still be able to provide an external DOI and/or journal reference with my article?
 
 Yes, we will continue to support the existing journal reference and DOI metadata fields for linking to versions of an article outside arXiv. We strongly encourage authors to provide them when they become available.
