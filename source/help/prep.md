@@ -274,15 +274,24 @@ Please carefully review the [descriptions of categories](https://arxiv.org/categ
 
 -   This field is **only** for a DOI ([Digital Object
     Identifier](http://doi.org/)) that resolves (links) to another
-    version of the article, in a journal for example.
--   DOIs have the form `10.1016/S0550-3213(01)00405-9`
+    version of the article, such as a journal article. Do not add the arXiv assigned DOI to this field.
+
 -   If there are multiple DOIs associated with an article, separate them
     with a space.
+    
 -   Do not include any other information in this field. In most cases,
     submissions are not yet published, and so `DOI` information will be
     added by the author at a later date. A facility is provided for
-    [adding a Journal-ref and DOI](jref.md) to a previously submitted
-    article.
+    [adding a Journal-ref and DOI](jref.md) to an already public arXiv-ID.
+
+-   Articles submitted to arXiv are automatically assigned DOIs that correspond 
+    to their arXiv ID, and the associated article metadata is submitted to 
+    DataCite at no cost to the authors. [Read more about understanding arXiv assigned DOIs](doi.md).
+
+    
+-   DOIs have the form `10.48550/arXiv.2202.01037`
+
+
 
 ### <span id="msc"></span>MSC-class:
 
