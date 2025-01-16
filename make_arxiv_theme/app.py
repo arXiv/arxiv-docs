@@ -5,9 +5,10 @@ import sys
 import logging
 logger = logging.getLogger(__file__)
 
-if sys.version_info.major != 3 and sys.version_info.minor < 10:
+if sys.version_info.major != 3 and sys.version_info.minor < 11:
     logger.error("****************************** ERROR ******************************")
-    logger.error("You must use python version 3.10 to match the version used by arxiv-base")
+    logger.error("You must use python version 3.11 to match the version used by arxiv-base")
+    logger.error("Changed from 3.10 to 3.11 2025-01-15 by Brian Caruso")
     logger.error("****************************** ERROR ******************************")
     sys.exit(1)
 
