@@ -8,13 +8,13 @@ The arXiv **SWORD Deposit API** allows programmatic submission of
 material for ingestion into the arXiv database hosted at
 [arXiv.org](https://arxiv.org/).
 
-[SWORD](https://www.swordapp.org/) defines a web service for repository
+[SWORD](https://sword.cottagelabs.com/) defines a web service for repository
 deposit based on the Atom Publishing Protocol (**APP**),
 [RFC5023](https://tools.ietf.org/html/rfc5023).
 
 The implementation of SWORD/APP at arXiv closely follows the [**SWORD
 APP Profile version
-1.3**](https://www.swordapp.org/docs/sword-profile-1.3.html) (SWORD/APP)
+1.3**](https://sword.cottagelabs.com/previous-versions-of-sword/sword-v1/the-specification/) (SWORD/APP)
 and is intended to be interoperable with all SWORD client
 implementations to the extent possible.
 
@@ -58,10 +58,10 @@ A SWORD/APP deposit to arXiv consists of two steps.
 
 At this point the SWORD/APP communication is complete.
 
-Problems or errors with a deposit are signified by a [`HTTP
-4xx`](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) status
+Problems or errors with a deposit are signified by a `HTTP
+4xx` status
 code and accompanied by a
-[`<sword:error>`](https://www.swordapp.org/docs/sword-profile-1.3.html#a.5)
+`<sword:error>`
 response from arXiv providing further information on the particular
 error.
 
@@ -240,9 +240,7 @@ the (mediated) user has submission privileges along with collection
 specific information, like accepted media-types (`<accept>`), accepted
 packaging format (`<acceptPackaging>`), collection policy
 (`<collectionPolicy>`), etc. declarations. See
-[RFC5023](https://tools.ietf.org/html/rfc5023) for specification and the
-SWORD specific extensions described in [SWORD APP Profile version
-1.3](https://www.swordapp.org/docs/sword-profile-1.3.html).
+[RFC5023](https://tools.ietf.org/html/rfc5023) for specification.
 
 <span id="collections"></span>
 #### 4.1.1. Collections and arXiv Classification
@@ -472,8 +470,8 @@ mapping to standard atom entry elements, and these are used where
 possible. However arXiv metadata is richer than what the standard atom
 entry provides for. A detailed description of all arXiv entry elements
 can be found in the [arXiv Atom
-API](https://export.arxiv.org/api_help/docs/user-manual.html#_entry_metadata)
-documentation.
+feed](https://info.arxiv.org/help/atom_specifications.html#atom-entry-elements)
+specifications.
 
 *Note*: A good way to understand the mapping of metadata between arXiv and atom is to look at examples. Compare the rendering of metadata for an arXiv paper as [atom feed (XML)](https://export.arxiv.org/api/query?id_list=0803.2365) with the rendering as [web page (XHTML)](https://arxiv.org/abs/0803.2365)
 
@@ -719,10 +717,7 @@ published versions](replace.md#versions) remain
 accessible.
 
 For a replacement of a previously created resource via SWORD/APP arXiv
-uses the “Editing Resources with *PUT*” functionality as outlined in the
-[SWORD
-specification](https://www.swordapp.org/docs/sword-profile-1.3.html#b.9.3)
-and specifically [RFC5023 section
+uses the “Editing Resources with *PUT*” functionality as outlined in the [RFC5023 section
 9.3](https://tools.ietf.org/html/rfc5023#section-9.3) applied to the
 metadata wrapper of the original deposit.
 
@@ -789,15 +784,11 @@ Steps for a replacement
 ## 7. Error Conditions and Error Codes
 -----------------------------------
 
-Error handling is outlined in Part A.5 of the [SWORD
-specification](https://www.swordapp.org/docs/sword-profile-1.3.html#a.5),
-where a SWORD extension element to AtomPub called `sword:error` is
-introduced.
+Error handling is managed by a SWORD extension element in AtomPub called `sword:error`.
 
 This allows for a much more informative error message in addition to the
-regular HTTP 4xx and 5xx [status
-codes](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) which
-are part of the base protocol.
+regular HTTP 4xx and 5xx status
+codes which are part of the base protocol.
 
 arXiv uses this mechanism to provide informative error messages in the
 body of the error response along with a corresponding numeric error code
@@ -809,7 +800,7 @@ the error, a human readable error presented in the `summary` element
 and the numeric error code in the `arxiv:errorcode` extension element.
 
 The HTTP status for all errors not otherwise defined in the [SWORD
-spec](https://www.swordapp.org/docs/sword-profile-1.3.html#b.5.5) is
+protocol](https://www.ukoln.ac.uk/repositories/digirep/index/SWORD_APP_Profile_1.2#5._Protocol_Operations) is
 `400 Bad Request`.
 
 The numerical error codes are powers of 2 (for convenient bitmasking,
