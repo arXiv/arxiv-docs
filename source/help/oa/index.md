@@ -10,11 +10,11 @@ Notes for harvesters
 
 **Base URL**
 
-arXiv supports [OAI\_PMH v2.0](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) at the baseURL [http://export.arxiv.org/oai2?verb=Identify](http://export.arxiv.org/oai2?verb=Identify).
+arXiv supports [OAI\_PMH v2.0](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) at the baseURL [https://arxiv.org/oai?verb=Identify](https://arxiv.org/oai?verb=Identify).
 
 **Identify response and policies**
 
-Policy links and various other details are included in the [Identify](http://export.arxiv.org/oai2?verb=Identify) response.
+Policy links and various other details are included in the [Identify](https://arxiv.org/oai?verb=Identify) response.
 
 **Item = Article**
 
@@ -24,11 +24,11 @@ Each article in arXiv is modeled as an Item in the OAI-PMH interface. Only the m
 
 Metadata for each item (article) is available in several formats, all formats are supported for all articles. The available formats include:
 
-*   `oai_dc` - Simple Dublin Core. See [example in `oai_dc` format](http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=oai_dc).
-*   `arXiv` - arXiv specific metadata format which includes author names separated out, category and license information. See [example in `arXiv` format](http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
-*   `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes version history. See [example in `arXivRaw` format](http://export.arxiv.org/oai2?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
+*   `oai_dc` - Simple Dublin Core. See [example in `oai_dc` format](https://arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=oai_dc).
+*   `arXiv` - arXiv specific metadata format which includes author names separated out, category and license information. See [example in `arXiv` format](https://arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
+*   `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes version history. See [example in `arXivRaw` format](https://arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
 
-You may request a list of all the metadata formats supported with the [ListMetadataFormats](http://export.arxiv.org/oai2?verb=ListMetadataFormats) verb.
+You may request a list of all the metadata formats supported with the [ListMetadataFormats](https://arxiv.org/oai?verb=ListMetadataFormats) verb.
 
 **Datestamps**
 
@@ -40,7 +40,7 @@ Once an initial harvest has been completed, the copy may be maintained by making
 
 **Sets**
 
-Each archive is available for selective harvesting as a separate set. This means that there are sets for `math`, `cs`, `nlin` and `q-bio`. All the physics archives are exposed as sub-sets of a `physics` set. For example, just `hep-th` can be harvested by harvesting the set `physics:hep-th`. Alternatively, all physics archives can be harvested via the set `physics`, or all of arXiv can be harvested by not specifying a `setSpec`. You may request a list of all the sets supported with the [ListSets](http://export.arxiv.org/oai2?verb=ListSets) verb.
+Each archive is available for selective harvesting as a separate set. This means that there are sets for `math`, `cs`, `nlin` and `q-bio`. All the physics archives are exposed as sub-sets of a `physics` set. For example, just `hep-th` can be harvested by harvesting the set `physics:hep-th`. Alternatively, all physics archives can be harvested via the set `physics`, or all of arXiv can be harvested by not specifying a `setSpec`. You may request a list of all the sets supported with the [ListSets](https://arxiv.org/oai?verb=ListSets) verb.
 
 **Update schedule**
 
