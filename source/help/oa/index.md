@@ -39,18 +39,32 @@ _The OAI-PMH interface does not support selective harvesting based on submission
 Once an initial harvest has been completed, the copy may be maintained by making incremental harvesting requests with the `from` date set to the date of last harvest (`from` is best taken from the last server response; don't set the `until` date).
 
 **Sets**
-
-Each archive is available for selective harvesting as a separate set. This means that there are sets for `math`, `cs`, `nlin` and `q-bio`. All the physics archives are exposed as sub-sets of a `physics` set. For example, just `hep-th` can be harvested by harvesting the set `physics:hep-th`. Alternatively, all physics archives can be harvested via the set `physics`, or all of arXiv can be harvested by not specifying a `setSpec`. You may request a list of all the sets supported with the [ListSets](https://arxiv.org/oai?verb=ListSets) verb.
+Specific categories, archives, and groups are available for selective harvesting. Archives are subsets of groups and categories are subsets of archives. This means that a single catgory can be selected for harvesting with the set `cs:cs:AI`, a whole archive with the set `physics:hep-th`, or all physics archives with the set `physics`. Alternatively all of arXiv can be harvested by not specifying a `setSpec`. You may request a list of all the sets supported with the [ListSets](https://arxiv.org/oai?verb=ListSets) verb.
 
 **Update schedule**
 
-New papers are accepted daily and metadata is made available via the OAI-PMH interface by 10pm EST Sunday through Thursday.
-
-**Play nice**
-
-arXiv uses `503 Retry-After` replies to implement flow control, be sure to abide by these responses (see [OAI-PMH: 3.5 Flow Control](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#FlowControl)).
+New papers are accepted daily and metadata is made available via the OAI-PMH interface once they are announced, typically around 10pm EST Sunday through Thursday.
 
 ### Chronology
+February 2025
+A total rewrite of the system.
+
+Major differences:
+	• base URL  updated from `http://export.arxiv.org/oai2` to `https://arxiv.org/oai`
+	• Earliest start date: from 2007-05-23 to 2005-09-16
+		○ All papers modified before 2005 are now included, but all share the same earliest modified date
+	• Change to historical modified dates for a small number of papers
+	• Set expansion
+		○ The set structure has become more precise to include group, archive, and category specification
+    ○ All previous set memberships are still valid, but sets can be requested and will be identified more specifically now
+    ○ Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
+    ○ Full list can be found at [ListSets](https://arxiv.org/oai?verb=ListSets)
+    
+Minor differences:
+	• Papers in alias categories included in both sets
+	• Resumption token no long counts total items in list, or cursor. Expires daily
+	• Increased limit on results
+	• Source flags appear more consistently in arXivRaw format
 
 12 April 2007
 
