@@ -10,7 +10,7 @@ We welcome proposals from the community for arXivLabs integrations. Proposed fea
 > arXiv Labs lets the community contribute new, useful features to arXiv. These integrations are available to readers through a series of tabs at the bottom of the abstract page. 
 > <img src="images/arXivLabsFeatures-01.png" width="400" align="left">
 > 
-> Useful feature include bibliographic info, demos, and links to code. Explore arXiv abstract pages or the [Labs Showcase](/source/labs/showcase.md) to see examples.
+> Useful feature include bibliographic info, demos, and links to code. Explore arXiv abstract pages or the [Labs Showcase](/showcase.md) to see examples.
 > 
 > To submit, review our proposal criteria below and then follow the steps at the end of this page. Note that the final decision for approving an arXivLabs project is made by arXiv management and teams.
 ><p></p>
@@ -24,11 +24,11 @@ We welcome proposals from the community for arXivLabs integrations. Proposed fea
 - A place to tell us about your latest scientific breakthrough. 
 - Part of the standard arXiv workflow, including submitting a paper and getting endorsed.
 
-If you have questions about collaborating with arXiv on something that is not aligned with arXivLabs, contact us through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6). If you need information on how to submit a paper to arXiv, please visit our [help pages](../../source/help/submit_index.md). 
+If you have questions about collaborating with arXiv on something that is not aligned with arXivLabs, contact us through our [user support portal](https://arxiv-org.atlassian.net/servicedesk/customer/portal/6). If you need information on how to submit a paper to arXiv, please visit our [help pages](/help/submit_index.md). 
 
 ## arXivLabs Proposal Criteria
 
-All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](../help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier. Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, [advertising and other promotional vehicles](../brand/brand-guidelines.html).
+All arXiv-affiliated projects are expected to abide by the [arXiv Community Code of Conduct](/help/policies/code_of_conduct.md). The project must align with the overall arXiv mission and values of openness, community, excellence, and user data privacy. Commercial projects may be considered as long as they provide useful services in a permanently free tier. Except when specifically authorized in writing, the use of the name “arXiv” or “arXiv.org” is prohibited in non-arXiv organization names or projects, [advertising and other promotional vehicles](/brand/brand-guidelines.html).
 
 
 ### Responsibilities
@@ -49,7 +49,7 @@ We encourage all contributors to Labs to continue to update and maintain their c
 
 - Projects with user-facing components must adopt [WCAG 2.1](https://www.w3.org/TR/WCAG21/) Level AA (Web Content Accessibility Guidelines). Higher levels of accessibility (i.e. AAA) are encouraged and welcome.
 - Any user-facing or promotional content must clearly indicate that the project is an arXivLabs project.
-- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Code of Conduct and [Brand and Style Guide](../brand/index.md).
+- As an arXiv-affiliated project, naming, content, and graphical elements must be consistent with the norms of professional conduct, including the arXiv Code of Conduct and [Brand and Style Guide](/brand/index.md).
   - The use of the name “arXiv”, “arXiv.org”, and our logo are protected by copyright and registered trademarks. Use of our name and logo, except to acknowledge arXiv, is prohibited.
   - When Labs projects use arXiv’s name or logo in an unauthorized manner it confuses users and adds to arXiv’s heavy user feedback load.
 
