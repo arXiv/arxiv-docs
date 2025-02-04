@@ -232,7 +232,7 @@ More information about the service outage is available [here](https://itservicea
 
 02 Jan 2018
 
-The [1991-2017 submission rate statistics](../help/stats/2021_by_area/index.md) are now available.
+The 1991-2017 submission rate statistics are now available.
 
 #### Nov 2017
 
