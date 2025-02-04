@@ -54,7 +54,7 @@ That said, it is important that you do not include extraneous files (including u
 
 You must submit any figures that go along with your paper. We recommend that you use appropriate TeX commands to include the figures inline with your paper (see below), as this is more readable than separate or appended figures.
 
-_Note:_ arXiv recommends against using the `\today` macro in the standard `\date` field. Because pdf are occasionally rebuilt this date will change and may cause confusion, as outlined in our [FAQ page for this topic](faq/today.html). To avoid this issue, do not use it unless you are comfortable with the displayed date changing periodically. 
+_Note:_ arXiv recommends against using the `\today` macro in the standard `\date` field. Because pdf are occasionally rebuilt this date will change and may cause confusion, as outlined in our [FAQ page for this topic](faq/today.md). To avoid this issue, do not use it unless you are comfortable with the displayed date changing periodically. 
 
 <span id="latex"></span>
 
