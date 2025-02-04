@@ -4,7 +4,7 @@ To begin registration, visit the [registration form](https://arxiv.org/user/regi
 
 Your username must be unique and cannot be changed.  
 
-arXiv registration also asks for your name and your organization. If you are unaffiliated you may enter "Indepdendent" as your organization.
+arXiv registration also asks for your name and your organization. If you are unaffiliated you may enter "Independent" as your organization.
 
 Select which archives you are most likely to submit to. This will filter the category options available if you submit an article in the future. 
 

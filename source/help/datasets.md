@@ -11,4 +11,4 @@ of modest size with articles.  If you are including multiple page datasets or co
 source package on arXiv and facilities are available to download either
 the entire source package or individual files. The ability to add
 ancillary files is available as part of the normal arXiv [submission
-process](submit.md).
+process](submit/index.md#inclusion-of-ancillary-files).
