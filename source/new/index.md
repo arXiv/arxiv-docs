@@ -232,7 +232,7 @@ More information about the service outage is available [here](https://itservicea
 
 02 Jan 2018
 
-The [1991-2017 submission rate statistics](../help/stats/2017_by_area/index.md) are now available.
+The 1991-2017 submission rate statistics are now available.
 
 #### Nov 2017
 
@@ -352,7 +352,7 @@ The update includes a significantly upgraded TeX tree based on [TeX Live](https:
 
 10 Jan 2017
 
-New members join arXiv Scientific Advisory Board: As of 2017, arXiv's [Scientific Advisory Board](../about/people/scientific_ad_board.md) has two new members:
+New members join arXiv Scientific Advisory Board: As of 2017, arXiv's Scientific Advisory Board has two new members:
 
 *   Tara Holm, Professor of Mathematics, Cornell University
 *   Nicholas Read, the Henry Ford II Professor of Physics, Yale University  
@@ -362,7 +362,7 @@ Our sincere gratitude to outgoing SAB member Karen Vogtmann. Thank you from all 
 
 02 Jan 2017
 
-The [1991-2016 submission rate statistics](../help/stats/2016_by_area/index.md) are now available.
+The [1991-2016 submission rate statistics](../help/stats/2021_by_area/index.md) are now available.
 
 #### Nov 2016
 
@@ -476,7 +476,7 @@ We are pleased to share with you the [key findings of the arXiv user survey](htt
 
 1 Jan 2016
 
-**New members join arXiv Scientific Advisory Board:** As of 2016, arXiv's [Scientific Advisory Board](../about/people/scientific_ad_board.md) has three new members:
+**New members join arXiv Scientific Advisory Board:** As of 2016, arXiv's Scientific Advisory Board has three new members:
 
 *   David Eppstein, Chancellor's Professor of Computer Science, University of California, Irvine
 *   Licia Verde, ICREA Research Professor, Universitat de Barcelona | University of Oslo
@@ -516,7 +516,7 @@ The Japan mirror (jp.arXiv.org) has been discontinued. We thank the [Yukawa Inst
 
 1 Jan 2015
 
-**New members join arXiv Scientific Advisory Board:** As of 2015, arXiv's [Scientific Advisory Board](../about/people/scientific_ad_board.md) has two new members:
+**New members join arXiv Scientific Advisory Board:** As of 2015, arXiv's Scientific Advisory Board has two new members:
 
 *   Shude Mao, Professor of Astrophysics, Tsinghua University | National Astronomical Observatories of China | Jodrell Bank Centre for Astrophysics, Manchester
 *   Jennifer Ross, Associate Professor of Physics, University of Massachusetts, Amherst
@@ -709,7 +709,7 @@ The [Cultural Observatory](http://www.culturomics.org/cultural-observatory-at-ha
 
 **Data sets accepted as part of Data Conservancy pilot project:** In addition to the existing facilities for uploading [ancillary files](../help/ancillary_files.md) alongside articles submitted to arXiv, it is now possible to upload datasets of up to 1GB (100MB per file) for storage in the [Data Conservancy data repository](../help/data_conservancy.md). Data sets uploaded in this way will be linked from the arXiv article. This is a pilot project in collaboration with the US National Science Foundation (NSF) Data Conservancy project.
 
-**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the [ScienceWISE service](../help/sciencewise.md). Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides social bookmarking facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
+**ScienceWISE provides article annotation and social bookmarking:** Authors may now create annotated versions of their arXiv articles using the ScienceWISE service. Annotated PDF versions are linked from the arXiv abstract page. See, for example, [arXiv:1103.5989v1](http://arxiv.org/abs/1103.5989v1). ScienceWISE also provides social bookmarking facilities and a link and icon have been added to the set of bookmarking providers displayed on all abstract pages.
 
 #### Jan 2011
 
@@ -1301,7 +1301,7 @@ Renovated FAQ area has more workarounds for Windows and Macintosh browsers (link
 
 Brazil users: note new Brazilian mirror, [http://xxx.if.usp.br/](http://xxx.if.usp.br/), at the [Instituto de Física da Universidade de São Paulo](http://www.if.usp.br/).
 
-Added the question _[How can I submit a paper if I don't use TeX?](../help/otherformats.md)_ to the FAQ.
+Added the question [How can I submit a paper if I don't use TeX?](../help/submit/index.md#formats-for-text-of-submission) to the FAQ.
 
 We are now using Thomas Esser's [teTeX distribution](http://www.tug.org/tetex/) as the base of our tex system.
 
