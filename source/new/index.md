@@ -362,7 +362,7 @@ Our sincere gratitude to outgoing SAB member Karen Vogtmann. Thank you from all 
 
 02 Jan 2017
 
-The [1991-2016 submission rate statistics](../help/stats/2021_by_area/index.md) are now available.
+The 1991-2016 submission rate statistics are now available.
 
 #### Nov 2016
 
