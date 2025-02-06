@@ -304,6 +304,3 @@ Regular Submitters are members whose researchers regularly submit scholarly arti
 1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _CSAL_
 
 </div>
-
-
-#
