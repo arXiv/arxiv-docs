@@ -50,21 +50,21 @@ February 2025
 A total rewrite of the system.
 
 Major differences:
-	• base URL  updated from `http://export.arxiv.org/oai2` to `https://arxiv.org/oai`
-	• Earliest start date: from 2007-05-23 to 2005-09-16
-		○ All papers modified before 2005 are now included, but all share the same earliest modified date
-	• Change to historical modified dates for a small number of papers
-	• Set expansion
-		○ The set structure has become more precise to include group, archive, and category specification
-    ○ All previous set memberships are still valid, but sets can be requested and will be identified more specifically now
-    ○ Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
-    ○ Full list can be found at [ListSets](https://arxiv.org/oai?verb=ListSets)
+*   base URL  updated from `http://export.arxiv.org/oai2` to `https://arxiv.org/oai`
+*   Earliest start date: from 2007-05-23 to 2005-09-16
+	*   All papers modified before 2005 are now included, but all share the same earliest modified date
+*   Change to historical modified dates for a small number of papers
+*    Set expansion
+	*   The set structure has become more precise to include group, archive, and category specification
+	*   All previous set memberships are still valid, but sets can be requested and will be identified more specifically now
+	*   Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
+	*   Full list can be found at [ListSets](https://arxiv.org/oai?verb=ListSets)
     
 Minor differences:
-	• Papers in alias categories included in both sets
-	• Resumption token no long counts total items in list, or cursor. Expires daily
-	• Increased limit on results
-	• Source flags appear more consistently in arXivRaw format
+*   Papers in alias categories included in both sets
+*   Resumption token no long counts total items in list, or cursor. Expires daily
+*   Increased limit on results
+*   Source flags appear more consistently in arXivRaw format
 
 12 April 2007
 
