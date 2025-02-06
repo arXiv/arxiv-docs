@@ -1,23 +1,17 @@
 # Our Members: 2023 - 2024
 
-We are so thankful for our members – arXiv would not be possible without their support. arXiv members are universities, research labs, libraries, and consortia that contribute funding to arXiv to help advance the cause of open science.
+We gratefully acknowledge the support of the following members, which contribute expertise and funding that complements support from [foundations, affiliates, and sponsors](supporters.md).
 {.intro}
-
-Other funding for arXiv comes from [foundations, affiliates, and sponsors](funding.md)
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
 
 <div class="mkd-ordered-list-blocks" markdown="1">
 
 ## Champion Consortia Members
-Champion consortia support arXiv by giving above and beyond in the name of open science.
-
 1. Big Ten Academic Alliance (USA)
 1. California Digital Libraries (USA)
 
 ## Consortia Members
-arXiv gratefully acknowledges the consortia across the globe who represent the best interests of their constituents by collectively supporting arXiv and open science. 
-
 1. arXiv DH and HGF Consortium (Germany)
 1. Canadian Research Knowledge Network (Canada)
 1. Consortium of Swiss Academic Libraries (Switzerland)
@@ -28,9 +22,6 @@ arXiv gratefully acknowledges the consortia across the globe who represent the b
 1. NII Japan Consortium (Japan)
 
 ## Champion Members
-### $10,000
-Champion members with arXiv are institutions whose researchers are top users of arXiv and whose goal is to lead the global research community in innovation, education, and promoting open science.
-
 1. California Institute of Technology (USA)
 1. CERN-European Organization for Nuclear Research (Switzerland)
 1. Georgia Institute of Technology (USA)
@@ -40,10 +31,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 1. University College London (UK)
 1. University of Sheffield (UK) _Jisc_
 
-## Top Submitters Members
-### $5,000
-Top Submitters are institutions who are globally ranked as the top users of arXiv. 
-
+## Top 100 Submitters Members
 1. Arizona State University (USA)
 1. Australian National University (Australia)
 1. Brookhaven National Laboratory (USA)
@@ -113,9 +101,6 @@ Top Submitters are institutions who are globally ranked as the top users of arXi
 1. York University (Canada) _CRKN_
 
 ## Frequent Submitters Members
-### $2,500
-Frequent Submitters are members whose researchers frequently submit scholarly articles to arXiv.
-
 1. Aalto University (Finland)
 1. Argonne National Lab (USA)
 1. Boston University (USA)
@@ -228,9 +213,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 1. Western University (Canada)
 1. Wilfrid Laurier University (Canada) _CRKN_
 
-## Regular Submitters & Community Members
-### $1,000
-Regular Submitters are members whose researchers regularly submit scholarly articles to arXiv. Community members are institutions who primarily use arXiv for reading articles, rather than submitting, or who may be resource-limited, but would still like to give to arXiv.
+## Regular Submitters & Community Contributors Members
 1. Abo Akademi University (Finland) _FinELib_
 1. Ames Laboratory (USA)
 1. Bibliothèque Diderot de Lyon - École Normale Supérieure de Lyon - ENS Lyon (France)
