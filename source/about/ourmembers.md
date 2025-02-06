@@ -231,6 +231,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 ## Regular Submitters & Community Members
 ### $1,000
 Regular Submitters are members whose researchers regularly submit scholarly articles to arXiv. Community members are institutions who primarily use arXiv for reading articles, rather than submitting, or who may be resource-limited, but would still like to give to arXiv.
+
 1. Abo Akademi University (Finland) _FinELib_
 1. Ames Laboratory (USA)
 1. Bibliothèque Diderot de Lyon - École Normale Supérieure de Lyon - ENS Lyon (France)
