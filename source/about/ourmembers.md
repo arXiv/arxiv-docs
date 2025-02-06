@@ -9,13 +9,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 
 <div class="mkd-ordered-list-blocks" markdown="1">
 
-## Champion Consortia Members
-Champion consortia support arXiv by giving above and beyond in the name of open science.
-
-1. Big Ten Academic Alliance (USA)
-1. California Digital Libraries (USA)
-
-## Consortia Members
+## Consortia
 arXiv gratefully acknowledges the consortia across the globe who represent the best interests of their constituents by collectively supporting arXiv and open science. 
 
 1. arXiv DH and HGF Consortium (Germany)
@@ -27,7 +21,13 @@ arXiv gratefully acknowledges the consortia across the globe who represent the b
 1. Jisc (UK)
 1. NII Japan Consortium (Japan)
 
-## Champion Members
+## Champion Consortia
+Champion consortia support arXiv by giving above and beyond in the name of open science.
+
+1. Big Ten Academic Alliance (USA)
+1. California Digital Libraries (USA)
+
+## Champion
 ### $10,000
 Champion members with arXiv are institutions whose researchers are top users of arXiv and whose goal is to lead the global research community in innovation, education, and promoting open science.
 
@@ -40,7 +40,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 1. University College London (UK)
 1. University of Sheffield (UK) _Jisc_
 
-## Top Submitters Members
+## Top Submitters
 ### $5,000
 Top Submitters are institutions who are globally ranked as the top users of arXiv. 
 
@@ -112,7 +112,7 @@ Top Submitters are institutions who are globally ranked as the top users of arXi
 1. Yale University (USA)
 1. York University (Canada) _CRKN_
 
-## Frequent Submitters Members
+## Frequent Submitters
 ### $2,500
 Frequent Submitters are members whose researchers frequently submit scholarly articles to arXiv.
 
@@ -228,7 +228,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 1. Western University (Canada)
 1. Wilfrid Laurier University (Canada) _CRKN_
 
-## Regular Submitters & Community Members
+## Regular Submitters & Community
 ### $1,000
 Regular Submitters are members whose researchers regularly submit scholarly articles to arXiv. Community members are institutions who primarily use arXiv for reading articles, rather than submitting, or who may be resource-limited, but would still like to give to arXiv.
 
