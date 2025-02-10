@@ -3,7 +3,7 @@
 We are so thankful for our members – arXiv would not be possible without their support. arXiv members are universities, research labs, libraries, and consortia that contribute funding to arXiv to help advance the cause of open science.
 {.intro}
 
-Other funding for arXiv comes from [foundations, affiliates, and sponsors](funding.md)
+Other funding for arXiv comes from [foundations, affiliates, and sponsors](funding.md).
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
 
