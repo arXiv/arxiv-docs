@@ -65,6 +65,7 @@ Minor differences:
 *   Resumption token no long counts total items in list, or cursor. Expires daily
 *   Increased limit on results
 *   Source flags appear more consistently in arXivRaw format
+*   Change in order of record items to match schema
 
 12 April 2007
 
