@@ -502,7 +502,8 @@ programs that rely on proper DSC structure when two or more such files
 are included in each other.
 
 
-<span id="mixed"></span> ## Mixed figure file formats
+<span id="mixed"></span>
+## Mixed figure file formats
 
 arXiv does not perform any "on the fly" figure file conversions from PostScript to PDF, so your
 figure files must be in the same format expected for your processing engine. This means PDFLATeX would accept any combination of `.pdf`, `.jpg`, and/or `.png`, and that (La)TeX accepts `.ps` and/or `.eps` only. You can tell this has been done locally because the converted figures will typically appear with names like "`-eps-converted-to.pdf`" in addition to the original `.eps` file.
