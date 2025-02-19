@@ -502,7 +502,7 @@ programs that rely on proper DSC structure when two or more such files
 are included in each other.
 
 
-<span id="mixed"></span>
+<span id="mixed"></span> 
 ## Mixed figure file formats
 
 arXiv does not perform any "on the fly" figure file conversions from PostScript to PDF, so your
