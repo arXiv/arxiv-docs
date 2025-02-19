@@ -102,8 +102,6 @@ See [separate instructions for preparing the title and abstract](../prep.md) for
 abstract pages, in announcements, in RSS feeds, and to support
 searching.
 
-<span id="correct"></span>
-
 ## Verify and correct your submission
 
 Before you make the final "Submit Article" step in the submission
