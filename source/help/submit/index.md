@@ -26,10 +26,6 @@ Submissions to arXiv should be topical and refereeable scientific contributions 
 -   [Edit or replace your submission](#replace)
 
 
-To submit an article, use the [submit form](http://arxiv.org/submit)
-    or select "START NEW SUBMISSION" from your [user
-    page](http://arxiv.org/user).
-
 <span id="text"></span>
 
 ## Formats for text of submission
@@ -101,6 +97,8 @@ and ancillary files.
 See [separate instructions for preparing the title and abstract](../prep.md) for inclusion in metadata. This information is used on the
 abstract pages, in announcements, in RSS feeds, and to support
 searching.
+
+<span id="correct"></span>
 
 ## Verify and correct your submission
 
