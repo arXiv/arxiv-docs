@@ -853,7 +853,7 @@ for all the fields that can be searched.
 
 The API provides one date filter, `submittedDate`, that allow you to select data within a given date range of when the data was submitted to arXiv. The expected format is `[YYYYMMDDTTTT+TO+YYYYMMDDTTTT]` were the `TTTT` is provided in 24 hour time to the minute, in GMT. We could construct the following query using `submittedDate`.
 
-<https://export.arxiv.org/api/query?search_query=au:del_maestro&submittedDate:[202301010600+TO+202401010600]>
+<https://export.arxiv.org/api/query?search_query=au:del_maestro+AND+submittedDate:[202301010600+TO+202401010600]>
 
 The API allows advanced query construction by combining these search
 fields with Boolean operators. For example, suppose we want to find all
