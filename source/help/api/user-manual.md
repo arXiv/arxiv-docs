@@ -279,7 +279,7 @@ fewer results are much faster and correspondingly smaller.
 There are two options for for the result set to the API search, `sortBy`
 and `sortOrder`.
 
-`sortBy` can be "relevance", "lastUpdatedDate", "submittedDate"
+`sortBy` can be "relevance" (Apache Lucene's default <a href="https://lucene.apache.org/core/3_0_3/api/core/org/apache/lucene/search/Sort.html">RELEVANCE</a> ordering), "lastUpdatedDate", "submittedDate"
 
 `sortOrder` can be either "ascending" or "descending"
 
