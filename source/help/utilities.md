@@ -44,8 +44,7 @@ site](http://ctan.org).
 RevTeX and other APS-related TeX information can be found at
 <http://aps.org/>.
 
-See <https://arxiv.org/hypertex/> for HyperTeX utilities and Hyperdvi
-viewers.
+For detailed information on the current HyperTeX utilities and Hyperdvi viewers, please refer to the [CTAN website](http://ctan.org/).
 
 <span id="taretc"></span>
 ### tar and gzip
