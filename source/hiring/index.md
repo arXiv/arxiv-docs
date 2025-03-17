@@ -43,7 +43,7 @@ This person should be a software generalist, who can work in a variety of enviro
 
 ### Scientist/Software Developer
 
-We're looking for someone with seroius software developmenet skills who has also used arXiv for scientific research, and preferably someone who has authorized arXiv submissions. We expect this person to represent and be an advocate for the interests all scientists, within the arXiv software development team (no pressure!). We believe there are lots of you scientists-turned-software-developers out there. Please apply!
+We're looking for someone with seroius software developmenet skills who has also used arXiv for scientific research, and preferably someone who has authored arXiv submissions. We expect this person to represent and be an advocate for the interests all scientists, within the arXiv software development team (no pressure!). We believe there are lots of you scientists-turned-software-developers out there. Please apply!
 
 - [Software Engineer Scientist](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
