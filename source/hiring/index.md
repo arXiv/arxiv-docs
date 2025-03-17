@@ -1,7 +1,5 @@
 # Careers at arXiv
 
-There are no positions available at this time. 
-
  arXiv is part of Cornell Tech, the graduate campus and research center of Cornell University. All arXiv employees are Cornell University employees.
 
  - Positions at arXiv are [staff positions with benefits (endowed)](https://hr.cornell.edu/understand-your-benefits).
