@@ -43,12 +43,12 @@ There is one opening for a "general" software engineer. This person should be a 
  to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops), as well as Google Cloud Platform tools. The devops lead will also put in place a robust CI/CD pipeline, and may also be asked to help fill in test cases.
  itions.
 
- - [DevOps Software Engineer](http://tbd)
+ - [DevOps Software Engineer](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
 ### Scientist/Software Developer
 
 We're looking for someone with seroius software developmenet skills who has also used arXiv for scientific research, and preferably someone who has authorized arXiv submissions. We believe there are lots of you scientists-turned-software-developers out there. Please apply!
 
-- [Software Engineer Scientist](http://tbd)
+- [Software Engineer Scientist](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
 
