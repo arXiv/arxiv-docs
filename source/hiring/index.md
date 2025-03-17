@@ -26,9 +26,9 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
 
 We have three SWE openings, one general and two specialized
 
-### General Software Engineering role
+###  Software Engineer
 
-There is one opening for a "general" software engineer. This person should be a software generalist, who can work in a variety of environments, programming languages, first-end and backend. The job is listed at three different levels. Candidates should examine each job descriptions, in terms of education and experience required, to determine the appropriate level to apply at. Please avoid applying at more than one level. If you othewise qualfied for the position, but applied at the wrong level, we'll still consider your application, but might suggest switching levels.
+This person should be a software generalist, who can work in a variety of environments, programming languages, first-end and backend. This job is listed at three different levels. Candidates should examine each job descriptions, in terms of education and experience required, to determine the appropriate level to apply at. Please avoid applying at more than one level. If you othewise qualfied for the position, but applied at the wrong level, we'll still consider your application, but might suggest switching levels.
 
  - [Software Engineer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
  - [Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Software Engineer)
@@ -43,7 +43,7 @@ There is one opening for a "general" software engineer. This person should be a 
 
 ### Scientist/Software Developer
 
-We're looking for someone with seroius software developmenet skills who has also used arXiv for scientific research, and preferably someone who has authorized arXiv submissions. We believe there are lots of you scientists-turned-software-developers out there. Please apply!
+We're looking for someone with seroius software developmenet skills who has also used arXiv for scientific research, and preferably someone who has authorized arXiv submissions. We expect this person to represent and be an advocate for the interests all scientists, within the arXiv software development team (no pressure!). We believe there are lots of you scientists-turned-software-developers out there. Please apply!
 
 - [Software Engineer Scientist](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
 
