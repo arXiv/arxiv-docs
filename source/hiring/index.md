@@ -38,9 +38,7 @@ There is one opening for a "general" software engineer. This person should be a 
 
 ### DevOps specialist
 
- We are looking for a developer with Cloud DevOps experience
- 
- to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops), as well as Google Cloud Platform tools. The devops lead will also put in place a robust CI/CD pipeline, and may also be asked to help fill in test cases.
+ We are looking for a developer with Cloud DevOps experience to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops), as well as Google Cloud Platform tools. The devops lead will also put in place a robust CI/CD pipeline, and may also be asked to help fill in test cases.
  itions.
 
  - [DevOps Software Engineer](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
