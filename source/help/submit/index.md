@@ -101,7 +101,7 @@ searching.
 
 To submit an article, select the "START NEW SUBMISSION" button. 
 
-### Submission v1.5
+### Submission v1.5 Coming April 2025
 
 The following instructions will guide you through version 1.5 of our submission system when you select “START NEW SUBMISSION v1.5" from your [user page](https://arxiv.org/user).
 
