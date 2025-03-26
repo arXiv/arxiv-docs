@@ -107,7 +107,7 @@ The following instructions will guide you through version 1.5 of our submission 
 
 1. On the **Prepare Files** page click on **Choose File**.
     - Select the file(s) you wish to upload. You can use zip or tar.gz to upload multiple files, uploading source that uses subfolders, and source that includes ancillary files. 
-        - Please note: The option to drag files from your computer into the submission window in the browser is not currently available.
+     - Please note: The option to drag files from your computer into the submission window in the browser is not currently available.
 
     - Click **Upload**.
     - The screen will refresh and will display the files that have been uploaded. 
@@ -127,8 +127,8 @@ The following instructions will guide you through version 1.5 of our submission 
 
 5. Carefully review the Auto-detected Notes for the files.
     - Note which files are recommended for deletion.
-        - Uncheck if the file should not be deleted.
-        - If at any point you would like to start over with your submission, you may click on the **Return to Upload Step**.
+     - Uncheck if the file should not be deleted.
+     - If at any point you would like to start over with your submission, you may click on the **Return to Upload Step**.
 
 6. **Click Accept and Continue**.
     - A pop up window will prompt you to confirm the files you want to delete.
@@ -139,13 +139,13 @@ The following instructions will guide you through version 1.5 of our submission 
     - If your file compiled successfully, you may **Preview your PDF**.
     - Click **Continue** to proceed to the Metadata page. 
     - If your file does not compile successfully and you receive an error, please review your submission for the five most common mistakes made when submitting papers: 
-        - Mixed figure file formats. If you are using PDFLaTeX then all figures must be .pdf, .jpg, or .png formats. If your document uses (La)TeX all figures must be .ps or .eps. arXiv does not perform figure file conversion for you, please [ensure your files are converted to the appropriate format](../faq/mistakes.md#mixed) before uploading.
-        - File-name [upper/lower-case mismatch](../faq/mistakes.md#case_filenames) between TeX source and figure or included files. arXiv's file system is case sensitive.
-        - Default hyperref failures ("Option clash for package hyperref") are not a reason to report a failure to arXiv. Continue scrolling in the log to find the specific errors that are being flagged.
-        - Missing customized or differing version of [style files](../faq/mistakes.md#missing_macro).
-        - Missing, misnamed, or local complete paths to [figure files](../faq/mistakes.md#abs_filenames). arXiv's file system is case sensitive.
+    - Mixed figure file formats. If you are using PDFLaTeX then all figures must be .pdf, .jpg, or .png formats. If your document uses (La)TeX all figures must be .ps or .eps. arXiv does not perform figure file conversion for you, please [ensure your files are converted to the appropriate format](../faq/mistakes.md#mixed) before uploading.
+     - File-name [upper/lower-case mismatch](../faq/mistakes.md#case_filenames) between TeX source and figure or included files. arXiv's file system is case sensitive.       - Default hyperref failures ("Option clash for package hyperref") are not a reason to report a failure to arXiv. Continue scrolling in the log to find the specific errors that are being flagged.
+     - Missing customized or differing version of [style files](../faq/mistakes.md#missing_macro).
+     - Missing, misnamed, or local complete paths to [figure files](../faq/mistakes.md#abs_filenames). arXiv's file system is case sensitive.
 
 <span id="correct"></span>
+
 
 ## Verify and correct your submission
 

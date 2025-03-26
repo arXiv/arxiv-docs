@@ -35,6 +35,7 @@ The advisory committee members serve as consultants to Cornell University and to
 - Chris Reynolds, University of Maryland
 - Sakura Schafer-Nameki, University of Oxford
 - Rena Zieve, University of California, Davis
+- Doris Kim, Soongsil University
 
 ## Historical notes
 - 2023-07: new arXiv bylaws adopted, by which Physics Advisory Committee renamed Physics Editorial Committee
