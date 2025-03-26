@@ -130,7 +130,7 @@ The following instructions will guide you through version 1.5 of our submission 
      - Uncheck if the file should not be deleted.
      - If at any point you would like to start over with your submission, you may click on the **Return to Upload Step**.
 
-6. **Click Accept and Continue**.
+6. Click **Accept and Continue**.
     - A pop up window will prompt you to confirm the files you want to delete.
 
 7. Click **Confirm**.
