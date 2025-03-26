@@ -436,7 +436,7 @@ https://www.ctan.org/pkg/ifpdf
 You can download the ifpdf macro from the above link as well, if it
 is not already a part of your tex tree.
 
-In the extremely rare event that your submision still does not
+In the extremely rare event that your submission still does not
 correctly identify itself as latex, and you are absolutely sure, you
 can add the line:    
 ``` 

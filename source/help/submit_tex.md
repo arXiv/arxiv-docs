@@ -230,8 +230,7 @@ Common mistakes can be avoided by following some simple [guidelines](faq/mistake
 
 ### Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls
 
-If hyperlinks for URLs containing '#' appear as '\\#' in arXiv generated PDF, the macro package being used to generate these hyperlinks does not properly escape special characters in pdf strings. Either use the [hyperref package](hypertex/index.md) or define the URLs with the following workaround:
-instead of _e.g._:
+If hyperlinks for URLs containing '#' appear as '\\#' in arXiv generated PDF, the macro package being used to generate these hyperlinks does not properly escape special characters in pdf strings. Either refer to the [CTAN website](https://ctan.org/) for detailed information about the current hyperTeX or define the URLs with the following workaround: instead of _e.g._:
 
 > `\href{http://example.com/some-page.html\#destination}{destination}`
 
