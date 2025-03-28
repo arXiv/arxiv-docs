@@ -43,7 +43,7 @@ Specific categories, archives, and groups are available for selective harvesting
 
 **Update schedule**
 
-New papers are accepted daily and metadata is made available via the OAI-PMH interface once they are announced, typically around 10:30pm EST Sunday through Thursday. Occasional small changes to paper data may happen intermittently throughout the day. 
+New papers are accepted daily and metadata is made available via the OAI-PMH interface once they are announced, typically around 10:30pm ET Sunday through Thursday. Occasional small changes to paper data may happen intermittently throughout the day. 
 
 ### Chronology
 March 2025
