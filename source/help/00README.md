@@ -1,5 +1,8 @@
 # The `00README.XXX` file
 
+>[!NOTE]
+>If you have opted in to try the updated submission system, please see the corresponding 00README JSON file format.
+
 A file of this name can used to specify special handling for the submission and/or for individual files. The name of the file is spelled "zero-zero-README-dot-X-X-X".
 
 The `00README.XXX` file is read line-by-line before files are processed by AutoTeX. The order of lines is unimportant.
@@ -127,3 +130,201 @@ myfonts.map fontmap
 ```
 
 which identifies your private font map file as a `dvips` fontmap. For map file syntax consult the dvips info pages. Many font bundles from [CTAN](http://www.ctan.org/) come with their custom font map files, and you can use these as is with this directive. The file name of the font map file must have extension "`.map`" and it must consist of letters `A-Z, a-z` only.
+
+## 00README JSON file format
+
+The updated 00README file drops any ambiguity of automatic detection (of the correct compiler, or the correct file to be compiled) and requires a submission to provide sufficient and complete information for the LaTeX compilation process. The submission process will ensure that a complete 00README is included, even if you didn’t provide one initially.
+
+### Supported 00README formats
+
+Besides the current 00README format, we now also support a more expressive format that can be written in either json or yaml format. The new format as it is described below will be the default, and old-style 00README will be converted. 
+
+Let’s start with a few examples that highlight common cases, before we get into the full, formal specification. 
+
+One simple case is where the submission contains a tex file and an image file, for example: `my_super_paper.tex`  and `appendix.jpg`. The `my_super_paper.tex` is a top-level file which should be compiled with `pdflatex` and the image `appendix.jpg` file should be included in the final pdf.
+
+```
+{
+  "process": {
+     "compiler": "pdflatex'
+  },
+  "sources": [
+    { "filename": "my_super_paper.tex", "usage": "toplevel" },
+    { "filename": "appendix.jpg", "usage": "append" }
+  ]
+} 
+```
+
+The same information can be expressed in a YAML file:
+
+```
+process:
+  compiler: pdflatex
+sources:
+  - filename: my_super_paper.tex
+    usage: toplevel
+  - filename: appendix.jpg
+    usage: append
+```
+
+Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated 00README files will contain it, but parsing allows for leaving out the toplevel specification.
+
+Let us look at another example where the paper includes an Encapsulated PostScript (eps) file, an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
+
+```process:
+  compiler: latex
+sources:
+  - filename: my_super_paper.tex
+```
+
+Here the `compiler: latex` is actually shorthand for `compiler: latex+dvips_ps2pdf` because this is the only path we are currently supporting.
+
+Furthermore, note that we have not included the `usage: toplevel` line for `my_super_paper.tex`, since this will be automatically added.
+
+In the next example, let us explore some options that are rarely used but supported in the original 00README: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
+
+```
+process:
+  compiler: tex+dvips_ps2pdf
+  fontmaps:
+    - special1-fontmap.map
+    - special2-fontmap.map
+sources:
+  - filename: my_super_paper.tex
+    usage: toplevel
+  - filename: my_super_paper.dvi
+    orientation: landscape
+    keep_comments: true
+```
+
+The above example should be enough to write well-specified 00README files in the new format as yaml or json files, covering most common cases.
+
+### Formal specification
+
+The examples above should suffice for most cases. But if you need more specific knowledge or want to dive deeper into the details, here is a more formal specification.
+```
+{
+  "process": {
+    "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>,
+    "bibliography": {
+      "processor": "bibtex" | "biber" | ...,
+      "pre_generated": true
+    },
+    "index": {
+      "processor": "makeindex",
+      "pre_generated": true
+    },
+    "fontmaps": [ "<FILENAME>", ... ]
+  },
+  "sources": [
+    {
+      "filename": "<FILENAME>",
+      "usage": "toplevel" | "append" | "include" | "ignore",
+      "orientation": "landscape" | "portrait",
+      "keep_comments: <BOOL>,
+      "fontmaps": [ "<FILENAME>", ... ]
+    },
+    ...
+  ],
+  "stamp: <BOOL>,
+  "nohyperref": <BOOL>
+}
+```
+or as YAML:
+
+```
+process:
+  compiler: <COMPILER_STRING> | <COMPILER_SPEC>
+  bibliography:
+    processor: bibtex | biber | ...
+    pre_generated: true
+  index:
+    processor: makeindex
+    pre_generated: true
+  fontmaps:
+    - <FILENAME>
+    - ...
+sources:
+  - filename: <FILENAME>
+    usage: toplevel | append | include | ignore
+    orientation: landscape | portrait
+    keep_comments: <BOOL>
+    fontmaps:
+      - <FILENAME>
+      - ...
+stamp: <BOOL>
+nohyperref: <BOOL>
+```
+The `COMPILER_SPEC` allows configuring the single stages from TeX source code to the final output:
+
+```
+{
+  "engine": "etex",
+  "lang": "tex" | "latex" | "pdf" | "html",
+  "output": "dvi" | "pdf",
+  "postp": "dvips_ps2pdf"| "none"
+}
+```
+
+The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only submissions.
+
+We are currently supporting the following `COMPILER_SPEC`s. In the following we also list the `COMPILER_STRING` equivalents. The `COMPILER_STRING` provides a “stringy” representation of the compilation paths.
+
+- #### plain tex
+    ```
+    COMPILER_SPEC  
+    {
+    "engine": "etex",  
+    "lang": "tex",  
+    "output": "dvi",  
+    "postp": "dvips_ps2pdf"  
+    }
+    ```
+    Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
+
+- #### LaTeX with dvips/ps2pdf 
+    ```
+    COMPILER_SPEC  
+    {  
+    "engine": "etex",  
+    "lang": "latex",  
+    "output": "dvi",  
+    "postp": "dvips_ps2pdf"  
+    }
+    ```
+    Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
+
+- #### LaTeX with pdflatex
+    ```
+    COMPILER_SPEC  
+    {  
+    "engine": "etex",  
+    "lang": "latex",  
+    "output": "pdf",  
+    "postp": "none"  
+    } 
+    ```
+    Equivalent `COMPILER_STRING: pdflatex`
+
+### Additional notes  
+- `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
+
+- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.  
+
+- `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
+
+### Compilation process
+One of the aims of the [new submission process](submit/index.md) is that we remove all guessing and provide a unique compilation and post-processing path as specified in the 00README file.
+
+We have already mentioned how the compiler is specified. Now, let's explain which files are compiled and how they're combined, based on the following rules:
+
+- any file tagged as `usage: toplevel` will be compiled with the specified compiler (including postprocessing, and in the future bibliography and index creation).
+
+- any file tagged as `usage: append` is appended, and only image types and pdf files are supported.
+
+- the order of files is determined by the order given in the 00README file.
+
+- the arXiv watermark is applied to the final pdf top page if `stamp: true` (which is the default).
+
+Note that as of now, all toplevel files are compiled with the same compiler. 
+
