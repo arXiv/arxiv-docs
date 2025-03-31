@@ -2,11 +2,12 @@
 
 This historical FAQ maintained by [Kasper Peeters](http://maths.dur.ac.uk/users/kasper.peeters/index.html) <kasper.peeters@durham.ac.uk>, with contributions from Tanmoy Bhattacharya, David Carlisle, Mark Doyle, Paul Ginsparg, Alan Jeffrey, Hiroshi Kubo, Sebastian Rahtz and Arthur Smith.
 
-###### For detailed information on the current `hypertex`, please refer to the [CTAN website](https://ctan.org/pkg/hyperref).
+>NOTE:
+>Submission version 1.5, no longer automatically applies `hyperref`, nor the custom hooks described below. The information as follows only applies to AutoTeX based submissions (1.0 or any submissions made prior to [date of decision to deploy]). For information on how to use `hyperref`, see [CTAN website](https://ctan.org/pkg/hyperref).
 
 April 13th, 2008.
 
-> HyperTeX is a defacto standard for inclusion of hyperlink information in TeX and LaTeX documents, which can then be used to generated PDF or DVI files with embedded links. These links enable easy navigation inside documents as well as between documents, just as in HTML, using standard PDF, Postscript and DVI viewers. Various TeX, LaTeX and BibTeX style sheets and macro packages exist which facilitate the construction of hyperlinked documents.
+HyperTeX is a defacto standard for inclusion of hyperlink information in TeX and LaTeX documents, which can then be used to generated PDF or DVI files with embedded links. These links enable easy navigation inside documents as well as between documents, just as in HTML, using standard PDF, Postscript and DVI viewers. Various TeX, LaTeX and BibTeX style sheets and macro packages exist which facilitate the construction of hyperlinked documents.
 
 Adding hyperlinks to a LaTeX document
 -------------------------------------
