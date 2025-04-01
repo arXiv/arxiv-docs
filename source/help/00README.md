@@ -1,7 +1,7 @@
 # The `00README.XXX` file
 
 >NOTE:
->If you have opted in to try the updated submission system, please see the corresponding [`00README` JSON file format](#00readme-json-file-format).
+>If you have opted in to try the updated Submission 1.5 system, please see the corresponding [`00README` JSON file format](#00readme-json-file-format).
 
 A file of this name can used to specify special handling for the submission and/or for individual files. The name of the file is spelled "zero-zero-README-dot-X-X-X".
 
