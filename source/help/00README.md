@@ -133,11 +133,11 @@ which identifies your private font map file as a `dvips` fontmap. For map file s
 
 ## `00README` JSON file format
 
-The updated 00README file drops any ambiguity of automatic detection (of the correct compiler, or the correct file to be compiled) and requires a submission to provide sufficient and complete information for the LaTeX compilation process. The submission process will ensure that a complete `00README` is included, even if you didn’t provide one initially.
+The updated `00README` file drops any ambiguity of automatic detection (of the correct compiler or the correct file to be compiled) and requires a submission to provide sufficient and complete information for the LaTeX compilation process. The submission process will ensure that a complete `00README` is included, even if you did not provide one initially.
 
 ### Supported `00README` formats
 
-Besides the current `00README` format, we now also support a more expressive format that can be written in either json or yaml format. The new format as it is described below will be the default, and old-style `00README` will be converted. 
+Besides the current `00README` format, we now also support a more expressive format that can be written in either JSON or YAML format. The new format as it is described below will be the default, and old-style `00README` will be converted. 
 
 Let’s start with a few examples that highlight common cases, before we get into the full, formal specification. 
 
@@ -167,9 +167,9 @@ sources:
     usage: append
 ```
 
-Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated `00README` files will contain it, but parsing allows for leaving out the toplevel specification.
+Note: as long as there is no other tag, the usage `toplevel` is not necessary. Generated `00README` files will contain it, but parsing allows for leaving out the toplevel specification.
 
-Let us look at another example where the paper includes an Encapsulated PostScript (eps) file, an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
+Let us look at another example where the paper includes an Encapsulated PostScript (EPS) file, an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
 
 ```
 process:
@@ -182,7 +182,7 @@ Here the `compiler: latex` is actually shorthand for `compiler: latex+dvips_ps2p
 
 Furthermore, note that we have not included the `usage: toplevel` line for `my_super_paper.tex`, since this will be automatically added.
 
-In the next example, let us explore some options that are rarely used but supported in the original `00README`: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
+In the next example, let us explore some options that are rarely used but supported in the original `00README`: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel TeX file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
 
 ```
 process:
@@ -198,7 +198,7 @@ sources:
     keep_comments: true
 ```
 
-The above example should be enough to write well-specified `00README` files in the new format as yaml or json files, covering most common cases.
+The above example should be enough to write well-specified `00README` files in the new format as YAML or JSON files, covering most common cases.
 
 ### Formal specification
 
