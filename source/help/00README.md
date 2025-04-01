@@ -315,7 +315,7 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
 - `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
 
 ### Compilation process
-The goal of the [submission 1.5](/source/help/submit_tex.md#latex-processing-changes-coming-early-2025) process is to eliminate any guesswork by providing a clear and unique compilation and post-processing path, as outlined in the `00README` file.
+The goal of the [submission 1.5](submit_tex.md#latex-processing-changes-coming-early-2025) process is to eliminate any guesswork by providing a clear and unique compilation and post-processing path, as outlined in the `00README` file.
 
 We have already mentioned how the compiler is specified. Now, let's explain which files are compiled and how they're combined, based on the following rules:
 
