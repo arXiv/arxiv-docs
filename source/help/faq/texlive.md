@@ -1,5 +1,7 @@
 # Notes about arXiv's TeXLive Version
 
+>NOTE: arXiv has switched from AutoTeX to a plain instance of TeX Live 2023. This means any package not included in the TeX Live 2023 release should have its style files included with your submission.
+
 ## Update to TeX Live 2023
 
 *Update 2023-05-22: arXiv updated to TeXLive 2023* arXiv is now running under [TeXLive 2023](http://tug.org/texlive), with a new, updated and

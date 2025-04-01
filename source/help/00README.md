@@ -1,7 +1,7 @@
 # The `00README.XXX` file
 
->[!NOTE]
->If you have opted in to try the updated submission system, please see the corresponding [00README JSON file format](#00readme-json-file-format).
+>NOTE:
+>If you have opted in to try the updated submission system, please see the corresponding [`00README` JSON file format](#00readme-json-file-format).
 
 A file of this name can used to specify special handling for the submission and/or for individual files. The name of the file is spelled "zero-zero-README-dot-X-X-X".
 
@@ -123,7 +123,7 @@ You can bundle non-standard or custom fonts with your submission and instruct `d
 
 `dvips -u+./myfonts.map`
 
-by adding a file called 00README.XXX to your submission with the directive:
+by adding a file called `00README.XXX` to your submission with the directive:
 
 ```
 myfonts.map fontmap
@@ -131,13 +131,13 @@ myfonts.map fontmap
 
 which identifies your private font map file as a `dvips` fontmap. For map file syntax consult the dvips info pages. Many font bundles from [CTAN](http://www.ctan.org/) come with their custom font map files, and you can use these as is with this directive. The file name of the font map file must have extension "`.map`" and it must consist of letters `A-Z, a-z` only.
 
-## 00README JSON file format
+## `00README` JSON file format
 
-The updated 00README file drops any ambiguity of automatic detection (of the correct compiler, or the correct file to be compiled) and requires a submission to provide sufficient and complete information for the LaTeX compilation process. The submission process will ensure that a complete 00README is included, even if you didn’t provide one initially.
+The updated 00README file drops any ambiguity of automatic detection (of the correct compiler, or the correct file to be compiled) and requires a submission to provide sufficient and complete information for the LaTeX compilation process. The submission process will ensure that a complete `00README` is included, even if you didn’t provide one initially.
 
-### Supported 00README formats
+### Supported `00README` formats
 
-Besides the current 00README format, we now also support a more expressive format that can be written in either json or yaml format. The new format as it is described below will be the default, and old-style 00README will be converted. 
+Besides the current `00README` format, we now also support a more expressive format that can be written in either json or yaml format. The new format as it is described below will be the default, and old-style `00README` will be converted. 
 
 Let’s start with a few examples that highlight common cases, before we get into the full, formal specification. 
 
@@ -167,11 +167,12 @@ sources:
     usage: append
 ```
 
-Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated 00README files will contain it, but parsing allows for leaving out the toplevel specification.
+Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated `00README` files will contain it, but parsing allows for leaving out the toplevel specification.
 
 Let us look at another example where the paper includes an Encapsulated PostScript (eps) file, an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
 
-```process:
+```
+process:
   compiler: latex
 sources:
   - filename: my_super_paper.tex
@@ -181,7 +182,7 @@ Here the `compiler: latex` is actually shorthand for `compiler: latex+dvips_ps2p
 
 Furthermore, note that we have not included the `usage: toplevel` line for `my_super_paper.tex`, since this will be automatically added.
 
-In the next example, let us explore some options that are rarely used but supported in the original 00README: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
+In the next example, let us explore some options that are rarely used but supported in the original `00README`: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
 
 ```
 process:
@@ -197,7 +198,7 @@ sources:
     keep_comments: true
 ```
 
-The above example should be enough to write well-specified 00README files in the new format as yaml or json files, covering most common cases.
+The above example should be enough to write well-specified `00README` files in the new format as yaml or json files, covering most common cases.
 
 ### Formal specification
 
@@ -314,7 +315,7 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
 - `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
 
 ### Compilation process
-One of the aims of the [new submission process](submit/index.md) is that we remove all guessing and provide a unique compilation and post-processing path as specified in the 00README file.
+The goal of the [submission 1.5](/source/help/submit_tex.md#latex-processing-changes-coming-early-2025) process is to eliminate any guesswork by providing a clear and unique compilation and post-processing path, as outlined in the `00README` file.
 
 We have already mentioned how the compiler is specified. Now, let's explain which files are compiled and how they're combined, based on the following rules:
 
@@ -322,7 +323,7 @@ We have already mentioned how the compiler is specified. Now, let's explain whic
 
 - any file tagged as `usage: append` is appended, and only image types and pdf files are supported.
 
-- the order of files is determined by the order given in the 00README file.
+- the order of files is determined by the order given in the `00README` file.
 
 - the arXiv watermark is applied to the final pdf top page if `stamp: true` (which is the default).
 
