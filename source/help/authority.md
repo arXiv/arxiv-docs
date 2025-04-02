@@ -11,8 +11,7 @@ arXiv can also record third-party *paper owners*, users with rights to
 update or replace a paper but who are not authors. All users recorded as
 authors are automatically paper owners too. This status is used to
 support third-party submission by approved conference organizers and
-journals. Users may log-in to see [a list](https://arxiv.org/user/) of
-papers they have written or own.
+journals. Users may log-in to see [a list  of papers they have written or own](https://arxiv.org/user/#owned-articles).
 
 ## For submitters
 
