@@ -1,6 +1,6 @@
 # Notes about arXiv's TeXLive Version
 
->NOTE: arXiv has switched from AutoTeX to a plain instance of TeX Live 2023 for [Submission v1.5](../submit_tex.md#latex-processing-changes-coming-early-2025).
+>NOTE: arXiv has switched from AutoTeX to a plain instance of TeX Live 2023 for [Submission v1.5](../submit_tex.md#newtex).
 This means any package not included in the TeX Live 2023 release should have its style files included with your submission.
 
 ## Update to TeX Live 2023
