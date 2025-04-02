@@ -1,7 +1,9 @@
 # LaTeX2e class for Astronomy & Astrophysics
 
+LaTeX2e class only applies to submissions made using submission system 1.0. In submission system 1.5 and later you will need to include this file manually within your submission's source package.
+
 arXiv uses **aa.cls version 9.0**. This version requires a flag for
-backward compatibility between earlier versions (7.x, and below) of the
+backward compatibility between earlier versions (8.x, and below) of the
 aa.cls file. This looks like:
 
 ``` 
@@ -24,8 +26,7 @@ You must use the **letterpaper** class option to ensure proper printout
 on standard US letter paper.
 
 The `sidecaption` layout conflicts with our automatic use of HyperTeX.
-If you use the `sidecaption` layout you must [disable HyperTeX for your
-submission](http://arxiv.org/help/faq/mistakes#nohypertex).
+If you use the `sidecaption` layout, you may not use hyperref in your submission.
 
 ## Don't Forget to Check the PDF\!
 
