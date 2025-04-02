@@ -9,7 +9,7 @@ We ask that articles be replaced no more than once per week. After version 5 rep
 Note that if your article or replacement has not yet been publicly
 announced you may select the Unsubmit (![unsubmit
 icon](../assets/unsubmit.png)) icon next to the submission on your [user
-page](http://arxiv.org/user) to return it to the [incomplete
+page](http://arxiv.org/user#owned-articles) to return it to the [incomplete
 status](submit_status.md#incomplete) allowing modification and later
 resubmission via the Update (![update icon](../assets/update.png)) icon.
 
