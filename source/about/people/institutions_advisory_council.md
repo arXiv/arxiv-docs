@@ -46,10 +46,6 @@ Martin heads the Deutsches Elektronen-Synchrotron and European X-Ray Free-Electr
 
 **Hideaki Takeda (Member, 2023-2026),** representing Japan NII Consortia, Japan
 
-**Amberyn Thomas (Member, 2023-2026),** representing the Group of Eight, Australia
-
-Amberyn Thomas is Director, Learning and Research Services at The University of Queensland Library, with direct responsibility for the provision of faculty librarian services and specialist research services including the institutional repository UQ eSpace, open access, scholarly communication and publishing, research data management, and research impact and evaluation services. Amberyn has been immersed in the university sector for more than 30 years across a range of areas.
-
 **Lidia Uziel (Member, 2023-2026),** representing the University of California System, United States
 
 Lidia Uziel is the Associate University Librarian for Research Resources and Scholarly Communication at the University of California, Santa Barbara, and a member of the Shared Content Leadership Group at the California Digital Library, a leadership group that provides coordination of shared UC-system-wide collections and open-access activities. Prior to UCSB, Lidia held several leadership positions at Harvard and Yale University Libraries.  She is actively involved in several national and international open-access and publishing initiatives, such as a member of the COPIM project, the chair of the Board of Stewards of the Open Book Collective, a member of the COAPI/SPARC U.S., a member of the IFLA’s Publishing SIG, and a member of the International Collections and Content Group at the CRL.

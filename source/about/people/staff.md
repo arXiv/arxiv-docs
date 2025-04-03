@@ -21,7 +21,6 @@
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
-- Annie Wagner, Software Engineer
 - Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
 - Ramin Zabih, Faculty Director
