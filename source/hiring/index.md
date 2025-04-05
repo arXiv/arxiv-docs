@@ -28,11 +28,9 @@ We have three SWE openings, one general and two specialized
 
 ###  Software Engineer
 
-This person should be a software generalist, who can work in a variety of environments, programming languages, frontend and backend. This job is listed at three different levels. Candidates should examine each job description, in terms of education and experience required, to determine the appropriate level to apply at. Please avoid applying at more than one level. If you are otherwise qualified for the position, but applied at the wrong level, we'll still consider your application, but might suggest switching levels.
+This person should be a software generalist, who can work in a variety of environments, programming languages, frontend and backend. Should have web development and SQL experience.
 
- - [Software Engineer III](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
  - [Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Software Engineer)
- - [Software Engineer V](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Senior Software Engineer)
 
 ### DevOps Specialist
 
