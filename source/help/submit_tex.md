@@ -1,6 +1,8 @@
 # TeX Submissions
 
 *   [Changes  to (La)TeX processing](#newtex)
+*   [Submission 1.0 and 1.5 Comparison](#comparison)
+*   [Submission 1.0 and 1.5 differences in detail](#detail)
 *   [Submissions are automatically processed](#autoproc)
 *   [Considerations for (La)TeX submissions](#latex)
 *   [Considerations for PDFLaTeX submissions](#pdflatex)
@@ -23,11 +25,32 @@
 
 We will soon be rolling out changes to how arXiv process (La)TeX submissions. These changes should not be noticable to most of our users. We will retire the long-used "AutoTeX" (Submission 1.0) system that we have used for decades in favor of a simpler, more straightfoward process of converting (La)TeX submissions to PDFs in Submission 1.5.
 
+<span id="comparison"></span>
+### Submission 1.0 and 1.5 Comparison
+For a quick overview of the changes to our Submission system view our chart below. 
+
+| **Feature** | **Submission System 1.0** | **Submission System 1.5** |
+| :---------  | :-----------------------  | :------------------------ |
+|**PDF Compilation**| Tried multiple TeX processors to compile | Uses only the specific TeX version set in the Review Files step |
+|**TeX Versioning**| Infrequent updates (years between updates) | Follows annual TeX Live releases going forward dependent upon arXiv resources |
+|**File Detection**| Detects toplevel files by looking for `\documentclass` or `\bye`. All `.tex` files attempted, if none found. | Scan for toplevel files using standard commands: `\documentclass`,  `\include`, `\input`, `\includegraphics`, `\bye`|
+|**Extraneous  File Detection**| Did not detect files unrelated to the submission | Detects potentially unused files; flagging them for review |
+|**Handling Multiple .tex Files**| Compiled all `.tex` files with `\documentationclass` and appended extraneous postscripts figures at the end. Plain TeX, processed by looking for `\bye.` | At the start, assumes just one top-level TeX file.  Submitter can add additional top-level TeX file in the Review Files interface. These will be compiled and the results appended to the output document.  It is preferred that the submitter use `\include` or `\input` directives to embed other TeX files in a document.  For special cases not supported by either of those options please refer to: [The `00README.XXX` file format](00README.md). |
+|**Image Files (JPG, PNG, PDF)**| Appended image files verbatim to final PDF in postscript mode, otherwise image files remain in source directory | Images must be included using standard [TeX commands](https://latex-tutorial.com/tutorials/figures/).|
+|**hyperref Package**| Automatically added if not present, skipped if there is an error |  No longer modifies IDs; authors should use `\href{}` explicitly, or packages that define it. |
+|**Bundled LaTeX Packages**| Supplied ~70 LaTeX packages and class files (many outdated) | Only provides packages included in the current [TeX Live release](faq/texlive.md). Authors with journal style files must now include them with their TeX source. |
+|**Maintenance**| Complex, opaque process | Simpler, more transparent and maintainable system |
+|**Transparency**| Opaque and convoluted. It was nearly impossible for authors to build the documents locally in the same manner as arXiv. | The 00README.json file documents all the details used to build a paper, and other services can make use of this format. |
+
+<span id="detail">
+
+### Submission 1.0 and 1.5 differences in detail
+
  1. Submission 1.0 would try different versions of TeX to see which one successfully builds a PDF. From this point on, we will only use the version of TeX currently in use by arXiv.
     - Our plan is for arXiv's "current" version to closely follow the annual TeX Live releases. In the past, we often went several years between TeX updates.
  1. Submission 1.0 would attempt to determine which files in a submission were part of the main document and which were not. We are no longer going to do this.
       - If there were multiple files ending in `.tex`, it would create PDFs for those extra files and append them to main paper's PDF. Now, if authors want a .tex file to be part of their main paper, they should use \include or \input commands to include the file. See [https://www.baeldung.com/cs/latex-include-vs-input](https://www.baeldung.com/cs/latex-include-vs-input).
-      - If authors need the previous apppend behavior for a submission with multiple `.tex` files, please follow the instructions here: [https://info.arxiv.org/help/00README.html](https://info.arxiv.org/help/00README.html).
+      - If authors need the previous apppend behavior for a submission with multiple `.tex` files, please follow the instructions here: [The `00README` File Format](https://info.arxiv.org/help/00README.html).
       - If image files (JPG, PNG, PDF) were found, they would be rendered and appended verbatim to the main paper's PDF. If authors want to include images anywhere in their paper, they should use the normal TeX contructs for this. See [https://latex-tutorial.com/tutorials/figures/](https://latex-tutorial.com/tutorials/figures/). 
   
   1. Submission 1.0 would preload the LaTeX hyperref package to LaTeX submissions that did not already include it. This package adds various references to active links in the PDF document (e.g., clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try to add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you are using already has a reference by checking the PDF for clickable links; most do).
