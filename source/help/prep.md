@@ -34,7 +34,7 @@ conveted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
 [accents](#accents)).
 
 A common problem experienced during submission, *Bad character(s) in
-field...*, is reporting UTF chracters being entered into a field that
+field...*, is reporting UTF characters being entered into a field that
 expects ASCII character entry. This is usually caused by the UTF
 characters being copied from your pdf viewer and then pasted as such
 during this step, rather than being entered as ASCII text. The most
