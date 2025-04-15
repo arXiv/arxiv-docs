@@ -24,9 +24,9 @@ Each article in arXiv is modeled as an Item in the OAI-PMH interface. Only the m
 
 Metadata for each item (article) is available in several formats, all formats are supported for all articles. The available formats include:
 
-*   `oai_dc` - Simple Dublin Core. See [example in `oai_dc` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=oai_dc).
-*   `arXiv` - arXiv specific metadata format which includes author names separated out, category and license information. See [example in `arXiv` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
-*   `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes version history. See [example in `arXivRaw` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
+- `oai_dc` - Simple Dublin Core. See [example in `oai_dc` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=oai_dc).
+-  `arXiv` - arXiv specific metadata format which includes author names separated out, category and license information. See [example in `arXiv` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
+- `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes version history. See [example in `arXivRaw` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
 
 You may request a list of all the metadata formats supported with the [ListMetadataFormats](https://oaipmh.arxiv.org/oai?verb=ListMetadataFormats) verb.
 
@@ -50,22 +50,22 @@ March 2025
 A total rewrite of the system.
 
 Major differences:  
-*   base URL  updated from `http://export.arxiv.org/oai2` to `https://oaipmh.arxiv.org/oai`
-*   Earliest start date: from 2007-05-23 to 2005-09-16
-	*   All papers modified before 2005 are now included, but all share the same earliest modified date
-*   Change to historical modified dates for a small number of papers
-*   Set expansion
-	*    The set structure has become more precise to include group, archive, and category specification
-	*   All previous set memberships are still valid, but sets can be requested and will be identified more specifically now
-	*   Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
-	*   Full list can be found at [ListSets](https://oaipmh.arxiv.org/oai?verb=ListSets)
+- Base URL  updated from `http://export.arxiv.org/oai2` to `https://oaipmh.arxiv.org/oai`
+- Earliest start date: from 2007-05-23 to 2005-09-16
+	- All papers modified before 2005 are now included, but all share the same earliest modified date
+- Change to historical modified dates for a small number of papers
+- Set expansion
+	- The set structure has become more precise to include group, archive, and category specification
+	- All previous set memberships are still valid, but sets can be requested and will be identified more specifically now
+	- Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
+	- Full list can be found at [ListSets](https://oaipmh.arxiv.org/oai?verb=ListSets)
     
 Minor differences:  
-*   Papers in alias categories included in both sets
-*   Resumption token no long counts total items in list, or cursor. Expires daily
-*   Increased limit on results
-*   Source flags appear more consistently in arXivRaw format
-*   Change in order of record items to match schema
+- Papers in alias categories included in both sets
+- Resumption token no long counts total items in list, or cursor. Expires daily
+- Increased limit on results
+- mSource flags appear more consistently in arXivRaw format
+- Change in order of record items to match schema
 
 12 April 2007
 
