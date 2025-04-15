@@ -49,7 +49,7 @@ New papers are accepted daily and metadata is made available via the OAI-PMH int
 March 2025
 A total rewrite of the system.
 
-Major differences:
+Major differences:  
 *   base URL  updated from `http://export.arxiv.org/oai2` to `https://oaipmh.arxiv.org/oai`
 *   Earliest start date: from 2007-05-23 to 2005-09-16
 	*   All papers modified before 2005 are now included, but all share the same earliest modified date
@@ -60,7 +60,7 @@ Major differences:
 	*   Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
 	*   Full list can be found at [ListSets](https://oaipmh.arxiv.org/oai?verb=ListSets)
     
-Minor differences:
+Minor differences:  
 *   Papers in alias categories included in both sets
 *   Resumption token no long counts total items in list, or cursor. Expires daily
 *   Increased limit on results
