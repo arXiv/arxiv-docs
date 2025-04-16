@@ -35,10 +35,12 @@ You may request a list of all the metadata formats supported with the [ListMetad
 
 Every OAI-PMH metadata record has a [`datestamp`](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Datestamp) associated with it, which is the last modification time of that record. Because arXiv has updated metadata records in bulk on several occasions, the OAI-PMH `datestamp` values do not correspond with the original submission or replacement times for older articles, and may not for newer articles because of administrative and bibliographic updates. The earliest datestamp is given then the `<earliestDatestamp>` element of the [Identify](http://oaipmh.arxiv.org/oai?verb=Identify) response.
 
->**Please Note:** The OAI-PMH interface does not support selective harvesting based on submission date. The datestamps are designed to support incremental harvesting of updates on an ongoing basis. It is not possible to selectively harvest articles such as articles submitted in February 2001. With the exception of selective subject area harvesting [(see description of Sets below)](###Sets) the interface is designed to support copying and synchronization of a complete set of arXiv metadata. To harvest metadata for all articles:
->	- Make requests without a datestamp range (recommended)
->	- Make requests from the `<earliestDatestamp>` through to the present
-(Beware: due to bulk updates, some dates contain large numbers of updates).
+>**Please Note:** The OAI-PMH interface does not support selective harvesting based on submission date. The datestamps are designed to support incremental harvesting of updates on an ongoing basis. It is not possible to selectively harvest articles such as articles submitted in February 2001. With the exception of selective subject area harvesting [(see description of Sets below)](###Sets) the interface is designed to support copying and synchronization of a complete set of arXiv metadata. To harvest metadata for all articles:  
+>
+>	• Make requests without a datestamp range (recommended)  
+>	• Make requests from the `<earliestDatestamp>` through to the present  
+>
+>(Beware: due to bulk updates, some dates contain large numbers of updates).
 
 Once an initial harvest has been completed, the copy may be maintained by making incremental harvesting requests with the `from` date set to the date of last harvest (`from` is best taken from the last server response; don't set the `until` date).
 
