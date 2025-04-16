@@ -37,8 +37,8 @@ Every OAI-PMH metadata record has a [`datestamp`](http://www.openarchives.org/OA
 
 >**Please Note:** The OAI-PMH interface does not support selective harvesting based on submission date. The datestamps are designed to support incremental harvesting of updates on an ongoing basis. It is not possible to selectively harvest articles such as articles submitted in February 2001. With the exception of selective subject area harvesting [(see description of Sets below)](###Sets) the interface is designed to support copying and synchronization of a complete set of arXiv metadata. To harvest metadata for all articles:  
 >
->	• Make requests without a datestamp range (recommended)  
->	• Make requests from the `<earliestDatestamp>` through to the present  
+>	- Make requests without a datestamp range (recommended)  
+>	- Make requests from the `<earliestDatestamp>` through to the present  
 >
 >(Beware: due to bulk updates, some dates contain large numbers of updates).
 
