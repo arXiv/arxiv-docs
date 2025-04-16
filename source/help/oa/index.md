@@ -36,8 +36,8 @@ You may request a list of all the metadata formats supported with the [ListMetad
 Every OAI-PMH metadata record has a [`datestamp`](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Datestamp) associated with it, which is the last modification time of that record. Because arXiv has updated metadata records in bulk on several occasions, the OAI-PMH `datestamp` values do not correspond with the original submission or replacement times for older articles, and may not for newer articles because of administrative and bibliographic updates. The earliest datestamp is given then the `<earliestDatestamp>` element of the [Identify](http://oaipmh.arxiv.org/oai?verb=Identify) response.
 
 >**Please Note:** The OAI-PMH interface does not support selective harvesting based on submission date. The datestamps are designed to support incremental harvesting of updates on an ongoing basis. It is not possible to selectively harvest articles such as articles submitted in February 2001. With the exception of selective subject area harvesting [(see description of Sets below)](###Sets) the interface is designed to support copying and synchronization of a complete set of arXiv metadata. To harvest metadata for all articles:
->- Make requests without a datestamp range (recommended)
->- Make requests from the `<earliestDatestamp>` through to the present
+>	- Make requests without a datestamp range (recommended)
+>	- Make requests from the `<earliestDatestamp>` through to the present
 (Beware: due to bulk updates, some dates contain large numbers of updates).
 
 Once an initial harvest has been completed, the copy may be maintained by making incremental harvesting requests with the `from` date set to the date of last harvest (`from` is best taken from the last server response; don't set the `until` date).
@@ -54,7 +54,7 @@ New papers are accepted daily and metadata is made available via the OAI-PMH int
 
 A total rewrite of the system.
 
-Major differences:
+### Major differences:
 
 - Base URL  updated from `http://export.arxiv.org/oai2` to `https://oaipmh.arxiv.org/oai`
 - Earliest start date: from 2007-05-23 to 2005-09-16
@@ -66,46 +66,46 @@ Major differences:
 	- Follows structure group:archive:CATEGORY Example math:math:NA or physics:hep-lat
 	- Full list can be found at [ListSets](https://oaipmh.arxiv.org/oai?verb=ListSets)
     
-Minor differences:
+### Minor differences:
 
 - Papers in alias categories included in both sets
-- Resumption token no long counts total items in list, or cursor. Expires daily
+- Resumption token no longer counts total items in list, or cursor, and expires daily
 - Increased limit on results
 - mSource flags appear more consistently in arXivRaw format
 - Change in order of record items to match schema
 
-12 April 2007
+#### 12 April 2007
 
 The arXiv OAI baseURL changed to `http://export.arxiv.org/oai2` from `http://arxiv.org/oai2`. The old URL will issue a redirect for some time but please update your harvester to use the new baseURL.
 
-1 April 2007
+#### 1 April 2007
 
 Support for the long-deprecated [OAI\_PMH v1.1](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) at baseURL `http://arXiv.org/oai1` has been discontinued. Please use our v2.0 interface instead.
 
-29 December 2006
+#### 29 December 2006
 
 arXiv Dienst interface disabled. The Dienst protocol was replaced by the OAI-PMH and arXiv's interface hasn't been used regularly by any service for a few years and not at all in the last few months.
 
-2 July 2003
+#### 2 July 2003
 
 [Open Archives Initiative Protocol for Metadata Harvester v2.0](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm) is released. arXiv supports both OAI-PMH v1.1 and v2.0; v1.1 is deprecated.
 
-20 June 2001
+#### 20 June 2001
 
 Minor update of the OAI protocol to follow changes in the XML Schema specification, arXiv updated to support [OAI-PMH v1.1](http://www.openarchives.org/OAI/1.1/openarchivesprotocol.htm).
 
-21 January 2001
+#### 21 January 2001
 
 [Open Archives Initiative Protocol for Metadata Harvester v1.0](http://www.openarchives.org/OAI/1.0/openarchivesprotocol.htm) released, the Santa Fe Convention is discontinued. See [OAI website](http://www.openarchives.org/) for details of the latest protocol.
 
-15 February 2000
+#### 15 February 2000
 
 [The Santa Fe Convention](http://www.openarchives.org/sfc/sfc_entry.htm) officially released, arXiv is compliant.
 
-27 January 2000
+#### 27 January 2000
 
 arXiv Dienst implementation for Santa Fe Convention compliance announced to participants in the Open Archives initiative.
 
-21-22 October 1999
+#### 21-22 October 1999
 
 [The Santa Fe Convention](http://www.openarchives.org/sfc/sfc_entry.htm) was the result of a meeting of the Open Archives initiative held in Santa Fe, New Mexico, USA.
