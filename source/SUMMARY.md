@@ -61,7 +61,7 @@
           * [Institutional Repository Interoperability](help/ir.md)
           * [Automated DOI and journal reference updates from publishers](help/bib_feed.md)
 * [Brand](brand/index.md)
-    - [Logo Use](brand/brand-guidelines.md)
+    - [Name and logo use](brand/brand-guidelines.md)
     - brand/*.md
 * [Labs](labs/index.md)
     - labs/*.md
