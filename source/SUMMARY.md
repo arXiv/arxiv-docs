@@ -17,6 +17,7 @@
           * [Submission Overview](help/submit/index.md)
           * [Submit TeX/LaTeX](help/submit_tex.md)
           * [Submit a PDF](help/submit_pdf.md)
+          * [Legacy Submission System](help/submit_legacy_differences.md)
           * [FAQ](help/faq/)
           * [Status Information](help/submit_status.md)
           * [Ancillary Files (data, code, images)](help/ancillary_files.md)
