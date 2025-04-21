@@ -5,7 +5,7 @@ As we evolve to meet the diverse needs of researchers around the globe and prote
 
 Strengthening arXiv’s brand is one way we can protect an open pre-print culture and keep arXiv free for everyone. From communicating with our global community, to how to use the logo, our guidelines for brand use allow us to maintain consistent quality and build a unified message without limiting creativity.
 
-Researchers depend on arXiv. Many authors have their life’s work hosted on the platform. Our website is not just a tool, it’s personal. While we recognize the pressing need to modernize the arXiv website and brand, all changes will be done thoughtfully and with respect for our users. Consistently referencing our brand guidelines will help us achieve this balance.
+Researchers depend on arXiv. While we recognize the pressing need to modernize the arXiv website and brand, all changes will be done thoughtfully and with respect for our users. Consistently referencing our brand guidelines will help us achieve this balance.
 
 <div class="brand-toc">
   <div class="card"><a href="brand-pillars.html">
