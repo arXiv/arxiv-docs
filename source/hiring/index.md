@@ -23,24 +23,4 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
  - improve accessibility to support users with impairments, particularly visual impairments
  - improve usability for the entire arXiv community
 
-We have three SWE openings, one general and two specialized
-
-###  Software Engineer
-
-This person should be a software generalist, who can work in a variety of environments, programming languages, frontend and backend. Should have web development and SQL experience.
-
- - [Software Engineer IV](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv) (Software Engineer)
-
-### DevOps Specialist
-
- We are looking for a developer with Cloud DevOps experience to lead the effort of modernizing our devops system so we can efficiently, reliably, and securely deploy new code, using Infrastructure as code principles. This task will likely involve a fair amount of automation via [gitops](https://github.com/readme/featured/defining-gitops), as well as Google Cloud Platform tools. The devops lead will also put in place a robust CI/CD pipeline, and may also be asked to help fill in test cases.
-
- - [DevOps Software Engineer](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
-
-### Scientist/Software Developer
-
-We're looking for someone with serious software development skills who has also used arXiv for scientific research, and preferably someone who has authored arXiv submissions. We expect this person to represent and be an advocate for the interests of all scientists, within the arXiv software development team (no pressure!). We believe there are lots of you scientists-turned-software-developers out there. Please apply!
-
-- [Software Engineer Scientist](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
-
-
+There are no openings at present
