@@ -5,7 +5,6 @@ For information about our current TeX installation please see [Notes about arXiv
 ### Look through these common mistakes if your TeX/LaTeX submission failed:
 
   - [Absolute filenames](#abs_filenames)
-  - [Upper-case vs Lower-case filenames](#case_filenames)
   - [Spaces and other inappropriate characters in filenames](#space_filenames)
   - [Missing style/macro files](#missing_macro)
   - [Last minute untested changes](#untested)
@@ -66,28 +65,6 @@ same directory structure as ours, then our automated processing will
 fail.
     
       
-
-<span id="case_filenames"></span>
-## Upper-case vs Lower-case filenames
-
-If you use a computer with case-insensitive filenames (e.g.,
-Windows), be sure that the case of any filenames referred to in your
-TeX file matches exactly the files that are uploaded. For example,
-the command:
-
-``` 
-      \includegraphics{figure1.eps}
-```
-
-will not work if the file is uploaded as
-
-``` 
-      FIGURE1.EPS
-```
-
-because filenames are case-sensitive on our system.
-
-  
 <span id="space_filenames"></span>
 ## Spaces and other inappropriate characters in filenames
 
