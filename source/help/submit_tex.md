@@ -161,7 +161,8 @@ arXiv fully supports and automatically recognizes PDFLaTeX.
 
 We don't provide any further packages besides what is provided by the TeX Live system.
 That means in particular that some publisher styles will not be available. Please check
-the list of TeX Live provided packages.
+the list of TeX Live packages provided by arXiv at the current time is
+[here](texlive_package_list.md).
 
 <span id="double"></span>
 
