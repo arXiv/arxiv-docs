@@ -3,6 +3,7 @@
 This page explains our older legacy submission system (Submissions 1.0) and how it differs from our current practices in Submission 1.5. While arXiv's submission process has since been updated, this information can still be useful for understanding older submissions or resolving specific issues related to them. Keep in mind that the guidelines and behaviors described here apply mainly to the legacy system and may not be relevant to the current arXiv submission workflow.
 
  
+ *   [Submission 1.0 and 1.5 Comparison](#comparison)
  *   [Submission 1.0 and 1.5 differences in detail](#detail)
  *   [Submissions are automatically processed](#autoproc)
  *   [Considerations for (La)TeX submissions](#latex)
@@ -21,8 +22,27 @@ This page explains our older legacy submission system (Submissions 1.0) and how 
  
  * * *
 
- ### Submission 1.0 and 1.5 differences in detail
- <span id="detail"></span>
+<span id="comparison"></span>
+### Submission 1.0 and 1.5 Comparison
+For a quick overview of the changes to our Submission system view our chart below.
+
+| **Feature** | **Submission System 1.0** | **Submission System 1.5** |
+| :---------  | :-----------------------  | :------------------------ |
+|**Bundled LaTeX Packages**| Supplied ~70 LaTeX packages and class files (many outdated) | Only provides packages included in the current [TeX Live release](faq/texlive.md). Authors with journal style files must now include them with their TeX source. |
+|**PDF Compilation**| Tried multiple TeX processors to compile | Uses only the specific TeX processor set in the Review Files step |
+|**TeX Versioning**| Infrequent updates (years between updates) | Follows annual TeX Live releases going forward dependent upon arXiv resources |
+|**File Detection**| Detects toplevel files by looking for `\documentclass` or `\bye`. All `.tex` files attempted, if none found. | Scan for toplevel files using upt to 40 standard commands.|
+|**Extraneous  File Detection**| Did not detect files unrelated to the submission | Detects potentially unused files; flagging them for review |
+|**Handling Multiple .tex Files**| Compiled all `.tex` files with `\documentclass` and appended extraneous postscripts figures at the end. Plain TeX, processed by looking for `\bye.` | At the start, assumes just one top-level TeX file.  Submitter can add additional top-level TeX files in the Review Files interface. These will be compiled and the results appended to the output document.  It is preferred that the submitter use `\include` or `\input` directives to embed other TeX files in a document.  For special cases not supported by either of those options please refer to: [The `00README.XXX` file format](00README.md). |
+|**Image Files (JPG, PNG, PDF)**| Appended image files verbatim to final PDF in postscript mode, otherwise image files remain in source directory | Images must be included using standard [TeX commands](https://latex-tutorial.com/tutorials/figures/).|
+|**hyperref Package**| Automatically added if not present, skipped if there is an error |  No longer modifies IDs; authors should use `\href{}` explicitly, or packages that define it. |
+|**Maintenance**| Complex, opaque process | Simpler, more transparent and maintainable system |
+|**Transparency**| Opaque and convoluted. It was nearly impossible for authors to build the documents locally in the same manner as arXiv. | The 00README.json file documents all the details used to build a paper, and other services can make use of this format. |
+
+
+<span id="detail"></span>
+### Submission 1.0 and 1.5 differences in detail
+ 
 
  1. Submission 1.0 would try different versions of TeX to see which one successfully builds a PDF. From this point on, we will only use the version of TeX currently in use by arXiv.
     - Our plan is for arXiv's "current" version to closely follow the annual TeX Live releases. In the past, we often went several years between TeX updates.
