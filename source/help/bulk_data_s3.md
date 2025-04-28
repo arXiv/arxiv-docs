@@ -45,10 +45,9 @@ predictable cost, and avoids putting any additional load on our servers
 that might impact interactive performance. Note that arXiv's buckets are
 located in the Eastern US (N. Virginia) region.
 
-The complete set of files as of March 2023 is about 5.6 TB. With an estimated growth rate
+The complete set of files as of April 2025 is about 9.2 TB. With an estimated growth rate
 of around 100 GB per month, we expect increased growth as the submission rate continues to
-[increase over time](https://arxiv.org/stats/monthly_submissions). The PDF files are about
-2.7 TB, with the source files making up the remaining 2.9 TB of the estimate.
+[increase over time](https://arxiv.org/stats/monthly_submissions).
 
 Bulk PDF Access
 ---------------
