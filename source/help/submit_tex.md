@@ -6,7 +6,7 @@
 *   [Submissions are automatically processed](#autoproc)
 *   [Considerations for LaTeX submissions](#latex)
 *   [Considerations for PDFLaTeX submissions](#pdflatex)
-*   [We don't have your style files or macros](#wedontgotem)
+*   [We don't have your style files or macros](#wedonthavethem)
 *   [Do not submit in double-spaced "referee" mode](#double)
 *   [Prepare the references carefully](#refs)
 *   [Include `.bbl` files if you use BibTeX](#bibtex)
@@ -66,7 +66,7 @@ important for you, the author/submitter, to carefully check and verify the resul
 to view the PDF during the submission process before you will be able to complete your submission.
 
 You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and
-custom macros ([see below](#wegotem)) packaged in a (possibly compressed) `.tar` or `.zip` file. Main files
+custom macros ([see below](#wedonthavethem)) packaged in a (possibly compressed) `.tar` or `.zip` file. Main files
 (or "Toplevel files") can be in the root or in a subdirectory, but note that compilation is **always** done
 from the root of your submission directory, even if the main file is in a subdirectory. This is important
 when you use `\include` or `\input` or any other command that includes data from external files.
@@ -155,7 +155,7 @@ arXiv fully supports and automatically recognizes PDFLaTeX.
     Thus, these formats are _not_ available for download for PDFLaTeX submissions.
 
 
-<span id="wedontgotem"></span>
+<span id="wedonthavethem"></span>
 
 ### We do **not** have your style files or macros
 
