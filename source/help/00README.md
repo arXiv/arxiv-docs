@@ -17,7 +17,7 @@ We support more expressive formats that can be written in either JSON or YAML fo
 
 #### JSON format
 
-A common case is where the submission contains a TeX file and an image file, for example: `my_super_paper.tex`  and `appendix.jpg`. The `my_super_paper.tex` is a top-level file which should be compiled with `pdflatex` and the image `appendix.jpg` file should be included in the final pdf.
+A common case is where the submission contains only a TeX file, for example: `my_super_paper.tex`. This `my_super_paper.tex` is a top-level file which should be compiled with `pdflatex`.
 
 ```
 {
@@ -25,8 +25,7 @@ A common case is where the submission contains a TeX file and an image file, for
      "compiler": "pdflatex'
   },
   "sources": [
-    { "filename": "my_super_paper.tex", "usage": "toplevel" },
-    { "filename": "appendix.jpg", "usage": "append" }
+    { "filename": "my_super_paper.tex", "usage": "toplevel" }
   ]
 } 
 ```
@@ -39,15 +38,13 @@ process:
 sources:
   - filename: my_super_paper.tex
     usage: toplevel
-  - filename: appendix.jpg
-    usage: append
 ```
 
 Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated `00README` files will contain it, but parsing allows for leaving out the toplevel specification.
 
 #### EPS file with alternative compilation path
 
-In the following example, the paper includes an Encapsulated PostScript (eps) file, an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
+In the following example, the paper includes an Encapsulated PostScript (eps) file; thus an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
 
 ```
 process:
@@ -62,14 +59,11 @@ We have not included the `usage: toplevel` line for `my_super_paper.tex`, since 
 
 #### Additional functionality
 
-Additional functionality supported in the original `00README`include: the `landscape`, `keep_comments`, and `fontmaps` entry. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`). Furthermore, `dvips` should use additional font map files `special1-fontmap.map` and `special2-fontmap.map`.
+Additional functionality supported in the original `00README`include: the `landscape` and `keep_comments`. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`).
 
 ```
 process:
   compiler: tex+dvips_ps2pdf
-  fontmaps:
-    - special1-fontmap.map
-    - special2-fontmap.map
 sources:
   - filename: my_super_paper.tex
     usage: toplevel
@@ -94,16 +88,14 @@ If you need more specific information, here is a more formal specification.
     "index": {
       "processor": "makeindex",
       "pre_generated": true
-    },
-    "fontmaps": [ "<FILENAME>", ... ]
+    }
   },
   "sources": [
     {
       "filename": "<FILENAME>",
-      "usage": "toplevel" | "append" | "include" | "ignore",
+      "usage": "toplevel" | "include" | "ignore",
       "orientation": "landscape" | "portrait",
-      "keep_comments: <BOOL>,
-      "fontmaps": [ "<FILENAME>", ... ]
+      "keep_comments: <BOOL>
     },
     ...
   ],
@@ -122,17 +114,11 @@ process:
   index:
     processor: makeindex
     pre_generated: true
-  fontmaps:
-    - <FILENAME>
-    - ...
 sources:
   - filename: <FILENAME>
-    usage: toplevel | append | include | ignore
+    usage: toplevel | include | ignore
     orientation: landscape | portrait
     keep_comments: <BOOL>
-    fontmaps:
-      - <FILENAME>
-      - ...
 stamp: <BOOL>
 nohyperref: <BOOL>
 ```
@@ -195,8 +181,6 @@ The final output is assembled based on the following rules:
 
 - any file tagged as `usage: toplevel` will be compiled with the specified compiler (including postprocessing, and in the future bibliography and index creation).
 
-- any file tagged as `usage: append` is appended, and only image types and pdf files are supported.
-
 - the order of files is determined by the order given in the `00README` file.
 
 - the arXiv watermark is applied to the final pdf top page if `stamp: true` (which is the default).
@@ -225,7 +209,6 @@ The `00README.XXX` file is read line-by-line before files are processed by AutoT
 *   [Disabling HyperTeX for your submission](#nohypertex)
 *   [Keep comments within figures during `dvips`](#keepcomments)
 *   [Turn off the arXiv stamp on the generated PostScript and PDF files](#nostamp)
-*   [Defining a custom fontmap file](#fontmap)
 
 <a name="ignoring" id="ignoring"></a>
 
@@ -325,20 +308,4 @@ nostamp
 ```
 
 This tells AutoTeX not to add the arXiv stamp to the left-hand edge of the page. No filename is specified.
-
-<a name="fontmap" id="fontmap"></a>
-
-### Defining a custom font mapping
-
-You can bundle non-standard or custom fonts with your submission and instruct `dvips` to use an additional font map file, e.g. `myfonts.map`, so that `dvips` is executed with the fontmap option:
-
-`dvips -u+./myfonts.map`
-
-by adding a file called `00README.XXX` to your submission with the directive:
-
-```
-myfonts.map fontmap
-```
-
-which identifies your private font map file as a `dvips` fontmap. For map file syntax consult the dvips info pages. Many font bundles from [CTAN](http://www.ctan.org/) come with their custom font map files, and you can use these as is with this directive. The file name of the font map file must have extension "`.map`" and it must consist of letters `A-Z, a-z` only.
 

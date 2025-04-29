@@ -208,11 +208,6 @@ potential readers of their work won't have them installed.
 Because it would require significant admin time to install and
 maintain non-standard fonts, we do not generally support such fonts.
 
-It is, however, possible to include your local metafont `.mf` files
-as well as your local `fontmap.map` file. This will require special
-handling with a `00README.XXX` file with the appropriate **fontmap**
-directive.
-
 
 
 <span id="protect"></span> 
