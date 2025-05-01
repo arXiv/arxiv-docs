@@ -6,46 +6,10 @@ locally. In most cases there are fixes that can be applied and the
 submission replaced to correct the problems.
  
 
-## Lines in the table of contents don't wrap
+## HyperLink related issues
 
-By default, papers are processed with the automatic addition of
-hyperlinks using the [HyperTeX](http://arxiv.org/hypertex) package.
-Hyperlinks in the table of contents can create a problem with
-latex's ability to break lines. This problem can be solved by passing the option `linktocpage` to hyperref. Include the line
-    
-  ``` 
-       \PassOptionsToPackage{linktocpage}{hyperref}
-  ```
-    
-  in the preamble. This will create a hyperlink for the the page numbers instead of the whole table of contents line, and thus avoid the line break problem.
-    
-  An alternative solution is to allow hyperref to break links and thus
-  wrap lines. To enable this, add the following to the preamble:
-    
-   ``` 
-       \usepackage[hyperindex,breaklinks]{hyperref}
-   ```
-    
-## Hyperlinks overrun the page or column boundaries
-  
-arXiv's default behavior for [hyperref](../../help/hypertex/index.md) is to have hyperlinks (and any other clickable link) to remain on a single line. This means that any URL or linked text longer than the available `\columnwidth` or `\textwidth` values will not break into the next line. To disable this behavior, you must set the hyperref option `breaklinks` to be `true`. We recommend using a `\hypersetup` block, as this makes keeping your options easier to see. For example: 
-
-```TeX
-        \hypersetup{
-           breaklinks=true,   % splits links across lines
-           colorlinks=true,   % displays links as colored text instead of blocks
-           pdfusetitle=true,  % \title and \author values into pdf metadata
-                              % etc.
-        }
-```
-
-For more information please consult the [hyperref manual](https://ctan.org/pkg/hyperref). 
-
-Note that this primarily impacts links that are created with the `\href` construct. If you are trying to make use of long
-URL with the `\url` construct, we recommend that you make use of the `url` package with the `[hyphens]` option ([see its documentation](https://ctan.org/pkg/url)). This package typically has to be loaded before hyperref. If this 
-doesn't provide the functionality you seek (e.g. in dvi mode), you may wish to use the `breakurl` package, which performs some 
-of these same features. Consult [the package documentation](https://ctan.org/pkg/breakurl) for usage instructions.
-
+The current submission system does not automatically add hypertex, so any
+layout problems due to the usage of hypertex are induced by your code.
     
 ## Fuzzy fonts in PDF 
 

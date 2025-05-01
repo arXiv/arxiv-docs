@@ -1,5 +1,9 @@
 # Status of REVTeX 4 and REVTeX 4.1 support
 
+<span class="note">Update April 2025:</span> All versions of REVTeX
+that are available in TeX Live 2023 and onward are supported, this includes
+REVTeX 4 and REVTeX 4.1.
+
 <span class="note">Update 3/15/2010:</span> [revtex4.1 (patch
 level 1)](http://authors.aps.org/revtex4/) is now fully supported by
 arXiv and all its mirrors. Please report problems you may find with it,

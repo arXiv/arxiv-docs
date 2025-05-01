@@ -1,6 +1,6 @@
 # LaTeX2e class for Astronomy & Astrophysics
 
-LaTeX2e class only applies to submissions made using submission system 1.0. In submission system 1.5 and later you will need to include this file manually within your submission's source package.
+This document only applies to submissions made using submission system 1.0. In submission system 1.5 and later you will need to include this file manually within your submission's source package.
 
 arXiv uses **aa.cls version 9.0**. This version requires a flag for
 backward compatibility between earlier versions (8.x, and below) of the
