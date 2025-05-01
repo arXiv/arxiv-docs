@@ -45,13 +45,9 @@ example:
 
 ## Articles with multiple versions in different languages—TeX submissions
 
-Name the main TeX files for each version something obvious; english.tex,
-and italian.tex or italiano.tex would be good choices for a paper
-submitted in English and Italian. If the reader selects PostScript, then
-they will see the different versions listed. Sensible naming will allow
-them to select the version they want. Note that the compiled PDF will
-combine the different versions into a single PDF file for readers to
-download.
+There is no specific utility set up to provide different versions for
+different language. If both versions should be included in the final PDF,
+please add both versions as toplevel file during the submission.
 
 ## Articles with multiple versions in different languages—PDF submissions
 

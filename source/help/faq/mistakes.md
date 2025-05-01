@@ -19,7 +19,6 @@ For information about our current TeX installation please see [Notes about arXiv
     commands, "`line too long`" error](#protect)
   - [Marking files to be ignored](#auto_ignore)
   - ["`! Missing number, treated as zero`" error](#bbox)
-  - [To disable HyperTeX](#nohypertex)
   - ["`Can't write subdir/file.aux`" and other problems with write
     permissions during TeX processing](#include_subdir)
   - ["`! Double subscript/superscript`" errors](#double_subscript)
@@ -29,8 +28,6 @@ For information about our current TeX installation please see [Notes about arXiv
     which are regular latex](#ifpdf)
   - [Why does my submission fail the automatic TeXing procedure when I
     use Feynmf?](feynmf.md#overwrite)
-  - [Why does my submission fail to recognize the main tex
-    file?](#wrongtex)
   - [Problems with inclusion of binary or other bitmap figures; `PS BAD`
     warnings](#psbad)
   - [Mixed figure file types](#mixed)
@@ -223,27 +220,9 @@ the reference has been defined.
 <span id="auto_ignore"></span> 
 ## Marking files to be ignored 
 If you need to include files in the source that should not be
-processed by the automated system, you may do either of the
-following:
-
-1.  Add an `%auto-ignore` near the top of the file. This directive can be anywhere in the
-    first 10 lines of the file, and anywhere on the line. It should
-  appear before any TeX or LaTeX commands, since otherwise they
-  would be recognized first. For example:
-  
-        %auto-ignore
-        This is a README file for paper hep-ex/9901003
-
-        More data for our experiment is available at http://www.some.where/else
-  
-2.  Include a file [`00README.XXX`](../../help/00README.md#ignore) with your submission that includes
-  the line:
-  
-    
-        filename ignore
-    
-  
-  for each file that should be ignored.
+processed by the automated system, you need to include a
+[`00README file`](../../help/00README.md#ignore) with your submission.
+See the previous link for the correct format to ignore files.
 
 
 
@@ -280,28 +259,6 @@ then simply move the `%%BoundingBox` line to the top:
     %%EOF
 ```
 
-
-
-<span id="nohypertex"></span> 
-## To disable HyperTeX
-By default, our TeX system uses [HyperTeX](../../help/hypertex/index.md) to add
-hyperlinks between references, sections and equations within your
-paper. These show up in the PDF (and in the PostScript with some
-viewers).
-
-HyperTeX conflicts with a few style and class files. If you think
-this is a problem, you can disable HyperTeX for your submission by
-including a file `00README.XXX`. It should contain the line:
-
-``` 
-    nohypertex
-```
-
-Note that HyperTeX changes the way citations appear in some styles
--- ranges will be represented as \[11, 12, 13\] instead of
-\[11-13\]. This is necessary for HyperTeX to be able to make
-individual links to each citation. Unless you feel very strongly
-about this we recommend leaving HyperTeX on.
 
 <span id="include_subdir"></span> 
 ## "`Can't write subdir/file.aux`" and other problems with write permissions during TeX processing
@@ -416,21 +373,6 @@ can add the line:
 
 ```
 as the very first line of your tex file.
-
-
-
-<span id="wrongtex"></span> 
-## Why does arXiv's system fail to recognize the main tex file?
-It is possible in writing your latex code to include your
-`\documentclass` directive in a file other than the main .tex file.
-While this is perfectly reasonable for a human who's compling to
-know which of the tex files is the main one (even when using
-something obvious as the filename, such as `ms.tex`), our AutoTeX
-system will attempt to process whichever file has the
-`\documentclass` directive as the main tex file.
-
-Note that the system does not process using `Makefile` or any other
-manifest-type files.
 
 
 
