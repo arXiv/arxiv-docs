@@ -8,8 +8,8 @@ submission replaced to correct the problems.
 
 ## HyperLink related issues
 
-The current submission system does not automatically add hypertex, so any
-layout problems due to the usage of hypertex are induced by your code.
+The current submission system does not automatically add hypertex, any
+layout problems due to the usage of hypertex are produced by your code.
     
 ## Fuzzy fonts in PDF 
 
