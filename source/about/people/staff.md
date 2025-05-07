@@ -2,6 +2,7 @@
 
 - Yoav Artzi, Associate Faculty Director
 - Amanda Bartley, Senior Moderation & User Support Specialist
+- Kai Beavers, User Support Specialist
 - Kat Boboris, Community Engagement Manager
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist

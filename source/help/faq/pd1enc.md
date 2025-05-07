@@ -4,7 +4,7 @@ title: Why do my user defined symbols display incorrectly
 
 # Why do my user defined symbols (e.g., `\i, \l, \L, \o, \ae,` etc.) display incorrectly in the processed document?
 
-Papers submitted before arXiv Submission version 1.5 will retain the hyperlink behavior as outlined below. For submissions made using the version 1.5 system that include the hyperref package, the default hyperlink behavior will follow the TeXlive default version of hyperref.
+Papers submitted before arXiv Submission version 1.5 will retain the hyperlink behavior as outlined below. For submissions made using the version 1.5 system that include the hyperref package, the default hyperlink behavior will follow the TeX Live default version of hyperref.
 
 By default, our system processes documents using
 [HyperTeX](http://arXiv.org/hypertex), which includes the `pd1enc.def`

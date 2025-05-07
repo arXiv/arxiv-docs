@@ -1,7 +1,7 @@
 # Why are there Problems with my PostScript File?
 
 When processing TeX submissions with PostScript (PS/EPS) figures, or
-submissions comprised of only PostScript files, arXiv's AutoTeX system
+submissions comprised of only PostScript files, arXiv's TeX system
 will attempt to convert the resulting PostScript file to PDF (which is
 by far the most common download format). Submissions that can be
 processed fine to this point may fail PostScript to PDF conversion for a
@@ -27,7 +27,7 @@ Any lines of binary data indicate a problem. Proper PostScript comments
 should be human readable, or at least contain only printable characters
 (`0-9, A-Z, a-z`).
 
-To work around this, you can [pass a special flag to our AutoTeX
+To work around this, you can [pass a special flag to our TeX
 processor](mistakes.md#psbad) to keep all lines beginning with
 '`%`' (at the cost of portability). To do this, include a file
 `00README.XXX` which includes an instruction specific to the filename of
