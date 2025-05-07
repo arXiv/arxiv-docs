@@ -1,7 +1,7 @@
 # AMS LaTeX packages and AMS Journal styles
 
 arXiv uses the versions of **AMS-TeX**, **AMS-LaTeX**, and **AMSFonts**
-which are included in the currently uses TeX Live. These are used to process new
+which are included in the current version of TeX Live. These are used to process new
 submissions and replacements received after the end of September 2002.
 If you use older style files you may have to include them with your
 submission.
