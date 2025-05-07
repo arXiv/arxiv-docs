@@ -45,12 +45,12 @@ example:
 
 ## Articles with multiple versions in different languages—TeX submissions
 
-There is no specific utility set up to provide different versions for
-different language. If both versions should be included in the final PDF,
-please add both versions as toplevel file during the submission.
+A specific utility is not available to provide alternate TeX versions for
+different languages. If multiple language versions should be included in the final PDF,
+please add all versions as toplevel files during the submission.
 
 ## Articles with multiple versions in different languages—PDF submissions
 
-For PDF submissions, we can currently accept only a single PDF file.
+For PDF submissions, we currently only accept a single PDF file.
 Please combine your different language versions of the paper into a
 single PDF file for upload to arXiv.
