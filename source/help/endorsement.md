@@ -3,6 +3,8 @@ The arXiv endorsement system
 
 arXiv requires that users be *endorsed*
 before submitting their first paper to a category.
+UNLESS, their paper was referenced or cited in a conference seminar like IEEE, or published in a verified Academic Journal, recommended prior to submission.
+
 
 Why does arXiv require endorsement?
 -----------------------------------
