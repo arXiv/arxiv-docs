@@ -23,7 +23,7 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
  - improve accessibility to support users with impairments, particularly visual impairments
  - improve usability for the entire arXiv community
 
-### DevOps Specialist
+### DevOps Specialist (offered extended)
 
  We are looking for a software developer with Cloud DevOps experience to lead the effort of modernizing
  our devops system so we can efficiently, reliably, and securely deploy new code, using
@@ -33,3 +33,6 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
  and may also be asked to help fill in test cases.
 
  - [DevOps Software Engineer](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
+ - This position has been taken by Josef Kurk Edwards (@DrQSatoshin). Already went have emailed and communciated to Evelyn after showing some boilerplate php automation stacking on 
+   her with profile on Cornell. Email will be jke95@cornell.edu once the IT help desk gets that emailed over later today. 
+  - I'll be getting around to the the .tex/.latex failure that seems to be occuring in the pipeline no matter what computer I use and check for in the developer console. Instead of doing a plug in, I'll get that render for us in  Kuberenetes. 
