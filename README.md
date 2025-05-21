@@ -166,9 +166,10 @@ your laptop to edit and preview.
 ```bash
 git clone git@github.com:arXiv/arxiv-docs.git
 cd arxiv-docs
-python --version
-# 3.8.12
-python -m venv docs-venv
+# install python 3.11.x however works well for you on your system (uv, pyenv, manually)
+python3.11 --version 
+# 3.11.4 (any 3.11 is fine)
+python3.11 -m venv docs-venv
 source docs-venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve

@@ -11,7 +11,7 @@ python3 -m venv $TMPVENV
 . $TMPVENV/bin/activate
 echo "Made temp venv and activated"
 
-pip3 install git+https://github.com/arXiv/arxiv-base.git@ARXIVNG-5185
+pip3 install git+https://github.com/arXiv/arxiv-base.git@656c8e841a2c610019f19fff8cc8d13d0983e377
 
 echo "Installed arxiv-base"
 
