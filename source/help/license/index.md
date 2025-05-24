@@ -1,7 +1,7 @@
 # arXiv License Information
 
 <style>
-.mkd-img-left {
+.mkd-img-left {https://abc.xyz/investor/
   float:left;
   width:10%;
   margin-top:0;
