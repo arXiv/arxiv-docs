@@ -23,13 +23,5 @@ The cloud transition is a pre-requisite to modernizing arXiv as a service. The m
  - improve accessibility to support users with impairments, particularly visual impairments
  - improve usability for the entire arXiv community
 
-### DevOps Specialist
+There are no job openings at this time.
 
- We are looking for a software developer with Cloud DevOps experience to lead the effort of modernizing
- our devops system so we can efficiently, reliably, and securely deploy new code, using
- Infrastructure as Code principles. This task will likely involve a fair amount of automation
- via [gitops](https://github.com/readme/featured/defining-gitops), as well as Google Cloud
- Platform tools. The devops lead will also put in place a robust CI/CD pipeline,
- and may also be asked to help fill in test cases.
-
- - [DevOps Software Engineer](https://cornell.wd1.myworkdayjobs.com/en-US/CornellCareerPage/?q=arxiv)
