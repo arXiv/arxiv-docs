@@ -37,6 +37,7 @@ please see [Legacy Submission System](submit_legacy_differences.md).
 ### Supported TeX processors
 
 As with the legacy system, we are currently only supporting the following types of TeX submissions:
+
 *   plain TeX submissions: those are converted using `etex` followed by `dvips` and `ps2pdf`;
 *   LaTeX submissions in DVI mode: those are converted using `latex` followed by `dvips` and `ps2pdf`;
 *   LaTeX submissions in PDF mode: those are converted using `pdflatex`.
@@ -48,6 +49,7 @@ submission.
 
 Selecting the correct processor is generally an easy task, because we will offer you the hopefully correct
 one automatically during submission. If you want to decide by yourself, here is a quick guide:
+
 *   if it is plain TeX, select it;
 *   if it is a LaTeX document that includes `eps` files, use "LaTeX in DVI mode";
 *   if it is a LaTeX document that includes `jpg`, `png` (and some more) files, use "LaTeX in PDF mode";
@@ -98,6 +100,7 @@ your TeX file. Index (`.ind`) and processed bibtex (`.bbl`) files are an excepti
 
 Depending on the selected processor (see above), only certain types of images can be included without
 conversion:
+
 *   for plain TeX, and for "LaTeX in DVI mode", only (encapsulated) PostScript (**.ps** or **.eps**) are supported;
 *   for "LaTeX in PDF mode", you may embed your `.pdf, .png, .jpg` figures using the same mechanisms.
 
