@@ -247,6 +247,12 @@ at the present time. If your .bbl for biblatex is not compatible, then your subm
 During submission, you should see a warning about incompatible bbl versions.
 [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
+To be more specific: arXiv uses TeX Live 2023, which includes biblatex 3.19, Biber 2.19, and uses
+the bbl format 3.2. TeX Live 2024 and 2025 include biblatex 3.20, Biber 2.20, and use bbl format 3.3.
+
+We have taken steps to ensure that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2024 and 2025),
+are supported by arXiv.
+
 <span id="makeindex"></span>
 
 ### Include `.ind` files if you use `makeindex`

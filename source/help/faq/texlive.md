@@ -339,8 +339,8 @@ An incomplete list of common symptoms, errors, and fixes follows:
     regenerate your .bbl
         file.
     
-        Package biblatex Warning: File 'Constraints.bbl' is wrong format version - expected 2.7.
-    
+        Package biblatex Warning: File 'Constraints.bbl' is wrong format version - expected 3.2.
+
     fix: the author needs to regenerate their .bbl file.
 
 2.  TikZ and PGF graphics packages.
