@@ -58,13 +58,15 @@ remove it from this status, and return it to [incomplete](submit_status.md#incom
 On Hold
 -------
 
-When a user submits a work, it undergoes a series of automated  and human quality assurance checks as [part of moderation](moderation/index.md). When works fail to meet one of our requirements for submission, they are put on what is called an “auto hold” and a message is sent to the submitter immediately describing the issue. The submitter can choose to correct the issue and submit the paper again, if the submitter feels the hold was incorrect they can contact user support to check if they can resolve the reason for the hold. 
+When a user submits a work it undergoes a series of automated and human quality assurance checks as [part of moderation](moderation/index.md). When works fail to meet one of our requirements for submission they are put "on hold". arXiv editors will either send you an email with instructions on how to resolve the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
-Due to the large volume of submissions the process may take several days. We appreciate your patience.
+- If you notice your submission is on hold, no action is required on your part at this time.
 
-Please do not make a duplicate submission while your work is on hold. Deleting and resubmitting your work will lead to further delays.
+- Due to the large volume of submissions the process may take several days. We appreciate your patience.
 
-On Hold submissions will not expire.
+- Please do not make a duplicate submission while your work is on hold. Deleting and resubmitting your work will lead to further delays.
+
+- On Hold submissions will not expire.
 
 
 <span id="expired"></span>
