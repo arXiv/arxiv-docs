@@ -37,9 +37,10 @@ please see [Legacy Submission System](submit_legacy_differences.md).
 ### Supported TeX processors
 
 As with the legacy system, we are currently only supporting the following types of TeX submissions:
-*   plain TeX submissions: those are converted using `etex` followed by `dvips` and `ps2pdf`;
-*   LaTeX submissions in DVI mode: those are converted using `latex` followed by `dvips` and `ps2pdf`;
-*   LaTeX submissions in PDF mode: those are converted using `pdflatex`.
+
+  * plain TeX submissions: those are converted using `etex` followed by `dvips` and `ps2pdf`;
+  * LaTeX submissions in DVI mode: those are converted using `latex` followed by `dvips` and `ps2pdf`;
+  * LaTeX submissions in PDF mode: those are converted using `pdflatex`.
 
 During the submission process, you will be asked which of the processor you want to use for your
 submission. 
@@ -48,10 +49,11 @@ submission.
 
 Selecting the correct processor is generally an easy task, because we will offer you the hopefully correct
 one automatically during submission. If you want to decide by yourself, here is a quick guide:
-*   if it is plain TeX, select it;
-*   if it is a LaTeX document that includes `eps` files, use "LaTeX in DVI mode";
-*   if it is a LaTeX document that includes `jpg`, `png` (and some more) files, use "LaTeX in PDF mode";
-*   if you don't know, use "LaTeX in PDF mode"
+
+  * if it is plain TeX, select it;
+  * if it is a LaTeX document that includes `eps` files, use "LaTeX in DVI mode";
+  * if it is a LaTeX document that includes `jpg`, `png` (and some more) files, use "LaTeX in PDF mode";
+  * if you don't know, use "LaTeX in PDF mode"
 
 Note that at the moment, the processor type is fixed for all parts of a multi-file submission.
 
@@ -98,8 +100,9 @@ your TeX file. Index (`.ind`) and processed bibtex (`.bbl`) files are an excepti
 
 Depending on the selected processor (see above), only certain types of images can be included without
 conversion:
-*   for plain TeX, and for "LaTeX in DVI mode", only (encapsulated) PostScript (**.ps** or **.eps**) are supported;
-*   for "LaTeX in PDF mode", you may embed your `.pdf, .png, .jpg` figures using the same mechanisms.
+
+  * for plain TeX, and for "LaTeX in DVI mode", only (encapsulated) PostScript (**.ps** or **.eps**) are supported;
+  * for "LaTeX in PDF mode", you may embed your `.pdf, .png, .jpg` figures using the same mechanisms.
 
 Please note that arXiv does not perform "on the fly" figure file conversion during tex processing
 (i.e. "`-eps-converted-to.pdf`" files being present in your source directory). You must perform such conversion
@@ -126,8 +129,8 @@ we require that you use a unified figure format.
 
 Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with
 embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems.
--   Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
--   Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
+- Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
+- Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
 
 #### Figure inclusion in plain TeX
 
@@ -246,6 +249,12 @@ When uploading the .bbl file for biblatex, it must be compatible with the versio
 at the present time. If your .bbl for biblatex is not compatible, then your submission will have errors.
 During submission, you should see a warning about incompatible bbl versions.
 [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
+
+To be more specific: arXiv uses TeX Live 2023, which includes biblatex 3.19, Biber 2.19, and uses
+the bbl format 3.2. TeX Live 2024 and 2025 include biblatex 3.20, Biber 2.20, and use bbl format 3.3.
+
+We have taken steps to ensure that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2024 and 2025),
+are supported by arXiv.
 
 <span id="makeindex"></span>
 
