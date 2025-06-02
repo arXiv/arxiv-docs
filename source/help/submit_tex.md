@@ -129,8 +129,9 @@ we require that you use a unified figure format.
 
 Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with
 embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems.
-- Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
-- Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
+
+-   Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
+-   Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
 
 #### Figure inclusion in plain TeX
 
