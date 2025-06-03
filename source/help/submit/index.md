@@ -96,14 +96,12 @@ See [separate instructions for preparing the title and abstract](../prep.md) for
 abstract pages, in announcements, in RSS feeds, and to support
 searching.
 
-<span id="upload"></span>
+span id="upload"></span>
 ## Upload and prepare your submission file
 
-To submit an article, select the "START NEW SUBMISSION" button. 
+To submit an article, select the "START NEW SUBMISSION" button from your [user page](https://arxiv.org/user).. 
 
-### Submission v1.5 Coming April 2025
-
-The following instructions will guide you through version 1.5 of our submission system when you select “START NEW SUBMISSION v1.5" from your [user page](https://arxiv.org/user).
+The following instructions will guide you through version 1.5 of our submission system. Learn more about the updates to the [submission system](https://info.arxiv.org/help/submit_legacy_differences.html#submission-10-and-15-comparison).
 
 1. On the **Prepare Files** page click on **Choose File**.
     - Select the file(s) you wish to upload. You can use zip or tar.gz to upload multiple files, uploading source that uses subfolders, and source that includes ancillary files. 
