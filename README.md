@@ -167,16 +167,22 @@ your laptop to edit and preview.
 git clone git@github.com:arXiv/arxiv-docs.git
 cd arxiv-docs
 python --version
-# 3.8.12
+# 3.11.12
 python -m venv docs-venv
 source docs-venv/bin/activate
 pip install -r requirements.txt
 mkdocs serve
 google-chrome https://localhost:8000/index.html
 ```
-
 Then you will have the site served locally with hot reloading on edits. In your
 browser, go to http://localhost:8000/index.html
+
+To clean up when you're done: 
+```bash
+deactivate
+python -m venv docs-venv --clear
+```
+
 
 # Deployment to info.arxiv.org
 
