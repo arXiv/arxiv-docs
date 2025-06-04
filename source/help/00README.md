@@ -22,7 +22,7 @@ A common case is where the submission contains only a TeX file, for example: `my
 ```
 {
   "process": {
-     "compiler": "pdflatex'
+     "compiler": "pdflatex"
   },
   "sources": [
     { "filename": "my_super_paper.tex", "usage": "toplevel" }
@@ -99,7 +99,7 @@ If you need more specific information, here is a more formal specification.
     },
     ...
   ],
-  "stamp: <BOOL>,
+  "stamp": <BOOL>,
   "nohyperref": <BOOL>
 }
 ```
