@@ -99,7 +99,7 @@ If you need more specific information, here is a more formal specification.
     },
     ...
   ],
-  "stamp: <BOOL>,
+  "stamp": <BOOL>,
   "nohyperref": <BOOL>
 }
 ```
