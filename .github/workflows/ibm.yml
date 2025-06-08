@@ -1,3 +1,128 @@
+# 
+# A descriptive name for your GitHub Actions workflow.
+# This will appear in the "Actions" tab of your repository.
+name: Build and Deploy Static Sites
+
+# --- Triggers ---
+# This section defines when the workflow will run.
+on:
+  # Run on pushes to the 'main' and 'develop' branches.
+  push:
+    branches:
+      - "main"
+      - "develop"
+      
+  # Run on pull requests targeting the 'develop' branch.
+  pull_request:
+    branches:
+      - "develop"
+
+# --- Jobs ---
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+jobs:
+  # --- Jekyll Build Job ---
+  # This job handles the Jekyll site build. You can add deployment steps here as well.
+  build_jekyll:
+    name: Build Jekyll Site
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository's code so the workflow can access it.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up the official Jekyll GHA for building.
+      # This action handles setting up Ruby, caching dependencies, and building the site.
+      - name: Build the site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./ # Assuming the Jekyll site is at the root. Change if it's in a subdirectory.
+          destination: ./_site
+
+      # Step 3: (Optional) Upload the built site as an artifact.
+      # This allows other jobs in the workflow to download and use the built site files.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+            path: ./_site
+
+      # --- Optional Deployment Step for Jekyll ---
+      # You would add steps here to deploy the './_site' directory.
+      # For example, to GitHub Pages or a separate GCS bucket.
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
+
+
+  # --- MkDocs Build and Deploy Job ---
+  # This job builds the MkDocs site and deploys it to different GCS buckets
+  # based on the triggering event (push to main, push to develop, or PR).
+  build_and_deploy_mkdocs:
+    name: Build and Deploy MkDocs Site
+    runs-on: ubuntu-latest
+    # This job needs permissions to write to Google Cloud.
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      # Step 1: Check out the repository's code.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python environment.
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' # Using Python 3.9 as specified in the snippet
+
+      # Step 3: Install Python dependencies from requirements.txt.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # Step 4: Build the MkDocs site.
+      # This command converts your Markdown files into a static HTML site in the 'site/' directory.
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      # Step 5: Authenticate to Google Cloud.
+      # This action uses Workload Identity Federation to securely authenticate without needing a long-lived service account key.
+      # You must set up WIF in your GCP project and add the 'WIF_PROVIDER' and 'SERVICE_ACCOUNT' as secrets in your GitHub repository.
+      - name: Authenticate to Google Cloud
+        id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }} # e.g., projects/12345/locations/global/workloadIdentityPools/my-pool/providers/my-provider
+          service_account: ${{ secrets.SERVICE_ACCOUNT }} # e.g., my-service-account@my-project.iam.gserviceaccount.com
+
+      # Step 6: Set up the Google Cloud SDK (for gsutil).
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      # --- Conditional Deployments to Google Cloud Storage ---
+
+      # Step 7a: Deploy to the PRODUCTION bucket on a push to 'main'.
+      - name: Deploy to Production (main)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |-
+          gsutil -m rsync -r -d site/ gs://arxiv-docs/
+        
+      # Step 7b: Deploy to the DEVELOPMENT bucket on a push to 'develop'.
+      - name: Deploy to Development (develop)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        run: |-
+          gsutil -m rsync -r -d site/ gs://docs-develop/
+
+      # Step 7c: Deploy a PREVIEW version for a pull request.
+      # The site is deployed to a subdirectory named after the pull request's source branch.
+      - name: Deploy PR Preview
+        if: github.event_name == 'pull_request'
+        run: |-
+          # The branch name is available in the 'github.head_ref' context variable for PRs.
+          gsutil -m rsync -r -d site/ "gs://arxiv-docs-prs/${{ github.head_ref }}/"
+
 # This workflow will build a docker container, publish it to IBM Container Registry, and deploy it to IKS when there is a push to the "develop" branch.
 #
 # To configure this workflow:
@@ -5,9 +130,6 @@
 # 1. Ensure that your repository contains a Dockerfile
 # 2. Setup secrets in your repository by going to settings: Create ICR_NAMESPACE and IBM_CLOUD_API_KEY
 # 3. Change the values for the IBM_CLOUD_REGION, REGISTRY_HOSTNAME, IMAGE_NAME, IKS_CLUSTER, DEPLOYMENT_NAME, and PORT
-
-name: Build and Deploy to IKS
-
 on:
   push:
     branches: [ "develop" ]
@@ -73,3 +195,204 @@ jobs:
         kubectl create service loadbalancer $DEPLOYMENT_NAME --tcp=80:$PORT --dry-run -o yaml > service.yaml
         kubectl apply -f service.yaml
         kubectl get services -o wide
+
+ent by adding problem matchers and optionally downloading and adding it to the PATH
+
+View full Marketplace listing
+Installation
+Copy and paste the following snippet into your .yml file.
+
+Version: v3.9.1 
+            - name: Setup Node.js environment
+  uses: actions/setup-node@v3.9.1
+  with:
+    # Set always-auth in npmrc.
+    always-auth: # optional, default is false
+    # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
+    node-version: # optional
+    # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
+    node-version-file: # optional
+    # Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.
+    architecture: # optional
+    # Set this option if you want the action to check for the latest available version that satisfies the version spec.
+    check-latest: # optional
+    # Optional registry to set up for auth. Will set the registry in a project level .npmrc and .yarnrc file, and set up auth to read in from env.NODE_AUTH_TOKEN.
+    registry-url: # optional
+    # Optional scope for authenticating against scoped registries. Will fall back to the repository owner when using the GitHub Packages registry (https://npm.pkg.github.com/).
+    scope: # optional
+    # Used to pull node distributions from node-versions. Since there's a default, this is typically not supplied by the user. When running this action on github.com, the default value is sufficient. When running on GHES, you can pass a personal access token for github.com if you are experiencing rate limiting.
+    token: # optional, default is ${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # Used to specify a package manager for caching in the default directory. Supported values: npm, yarn, pnpm.
+    cache: # optional
+    # Used to specify the path to a dependency file: package-lock.json, yarn.lock, etc. Supports wildcards or a list of file names for caching multiple dependencies.
+    cache-dependency-path: # optional
+# A descriptive name for your GitHub Actions workflow.
+# This will appear in the "Actions" tab of your repository.
+name: Comprehensive Build and Deploy Workflow
+
+# --- Triggers ---
+# This section defines when the workflow will run. It's configured to run on pushes 
+# to 'main' and 'develop', and on pull requests targeting the 'develop' branch.
+on:
+  push:
+    branches:
+      - "main"
+      - "develop"
+  pull_request:
+    branches:
+      - "develop"
+
+# --- Environment Variables ---
+# Environment variables available to all jobs and steps in this workflow.
+# This section is taken from your IBM Cloud deployment snippet.
+# NOTE: Sensitive values like API keys should always be stored in GitHub Secrets.
+env:
+  GITHUB_SHA: ${{ github.sha }}
+  IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
+  IBM_CLOUD_REGION: us-south
+  ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
+  REGISTRY_HOSTNAME: us.icr.io
+  IMAGE_NAME: iks-test
+  IKS_CLUSTER: example-iks-cluster-name-or-id
+  DEPLOYMENT_NAME: iks-test
+  PORT: 5001
+
+# --- Jobs ---
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+# These jobs will run in parallel as they don't have a 'needs' dependency on each other.
+jobs:
+  # --- Job 1: Jekyll Site Build ---
+  build_jekyll_site:
+    name: Build Jekyll Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build the site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./ # Assuming Jekyll site is at the root
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  # --- Job 2: MkDocs Site Build and Deploy ---
+  build_and_deploy_mkdocs:
+    name: Build and Deploy MkDocs Site
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write' # Required for authenticating to Google Cloud
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Authenticate to Google Cloud
+        id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      - name: Deploy MkDocs to Production (on main branch push)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: gsutil -m rsync -r -d site/ gs://arxiv-docs/
+        
+      - name: Deploy MkDocs to Development (on develop branch push)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        run: gsutil -m rsync -r -d site/ gs://docs-develop/
+
+      - name: Deploy MkDocs PR Preview
+        if: github.event_name == 'pull_request'
+        run: gsutil -m rsync -r -d site/ "gs://arxiv-docs-prs/${{ github.head_ref }}/"
+
+  # --- Job 3: Node.js App Build (Demonstration) ---
+  # This job is based on the 'setup-node' documentation you provided.
+  # It shows how you would build a typical Node.js frontend application.
+  build_nodejs_app:
+    name: Build Node.js App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4 # Using v4, which is the latest
+        with:
+          node-version: '20.x' # Specify the Node.js version you need
+          cache: 'npm' # Enable caching for npm dependencies to speed up subsequent runs
+
+      - name: Install dependencies
+        run: npm ci # 'ci' is generally recommended for CI environments for clean, reproducible installs
+        
+      - name: Build application
+        run: npm run build --if-present # Runs the 'build' script from your package.json if it exists
+        
+      - name: Run tests
+        run: npm test --if-present # Runs the 'test' script from your package.json if it exists
+
+  # --- Job 4: Build, Publish, and Deploy Docker Container to IBM Cloud ---
+  build_and_deploy_docker_to_ibm_cloud:
+    name: Build & Deploy Docker to IKS
+    runs-on: ubuntu-latest
+    # This environment is optional but can be used to protect secrets and set approval rules
+    environment: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install IBM Cloud CLI
+        run: |
+          curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+          ibmcloud --version
+          ibmcloud config --check-version=false
+          ibmcloud plugin install -f kubernetes-service container-registry
+
+      - name: Authenticate with IBM Cloud CLI
+        run: |
+          ibmcloud login --apikey "${IBM_CLOUD_API_KEY}" -r "${IBM_CLOUD_REGION}" -g default
+          ibmcloud cr region-set "${IBM_CLOUD_REGION}"
+          ibmcloud cr login
+
+      - name: Build Docker image
+        run: |
+          docker build -t "$REGISTRY_HOSTNAME/$ICR_NAMESPACE/$IMAGE_NAME:$GITHUB_SHA" \
+            --build-arg GITHUB_SHA="$GITHUB_SHA" \
+            --build-arg GITHUB_REF="$GITHUB_REF" .
+
+      - name: Push image to IBM Container Registry
+        run: docker push "$REGISTRY_HOSTNAME/$ICR_NAMESPACE/$IMAGE_NAME:$GITHUB_SHA"
+
+      - name: Deploy to IBM Kubernetes Service
+        run: |
+          ibmcloud ks cluster config --cluster $IKS_CLUSTER
+          # Use 'kubectl apply' to enable declarative updates. This is more robust than 'create'.
+          # It creates the resource if it doesn't exist, and updates it if it does.
+          kubectl apply -f deployment.yaml
+          kubectl rollout status deployment/$DEPLOYMENT_NAME
+          kubectl apply -f service.yaml
+          kubectl get services -o wide
+        # Note: This step assumes you have deployment.yaml and service.yaml files in your repo.
+        # If you don't, you can generate them on the fly as in your original script,
+        # but maintaining them in git is a best practice (GitOps).
+
