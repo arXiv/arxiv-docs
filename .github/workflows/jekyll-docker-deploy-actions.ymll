@@ -1,0 +1,124 @@
+# A descriptive name for your GitHub Actions workflow.
+# This will appear in the "Actions" tab of your repository.
+name: Build and Deploy Static Sites
+
+# --- Triggers ---
+# This section defines when the workflow will run.
+on:
+  # Run on pushes to the 'main' and 'develop' branches.
+  push:
+    branches:
+      - "main"
+      - "develop"
+      
+  # Run on pull requests targeting the 'develop' branch.
+  pull_request:
+    branches:
+      - "develop"
+
+# --- Jobs ---
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+jobs:
+  # --- Jekyll Build Job ---
+  # This job handles the Jekyll site build. You can add deployment steps here as well.
+  build_jekyll:
+    name: Build Jekyll Site
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository's code so the workflow can access it.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up the official Jekyll GHA for building.
+      # This action handles setting up Ruby, caching dependencies, and building the site.
+      - name: Build the site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./ # Assuming the Jekyll site is at the root. Change if it's in a subdirectory.
+          destination: ./_site
+
+      # Step 3: (Optional) Upload the built site as an artifact.
+      # This allows other jobs in the workflow to download and use the built site files.
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+            path: ./_site
+
+      # --- Optional Deployment Step for Jekyll ---
+      # You would add steps here to deploy the './_site' directory.
+      # For example, to GitHub Pages or a separate GCS bucket.
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
+
+
+  # --- MkDocs Build and Deploy Job ---
+  # This job builds the MkDocs site and deploys it to different GCS buckets
+  # based on the triggering event (push to main, push to develop, or PR).
+  build_and_deploy_mkdocs:
+    name: Build and Deploy MkDocs Site
+    runs-on: ubuntu-latest
+    # This job needs permissions to write to Google Cloud.
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      # Step 1: Check out the repository's code.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python environment.
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9' # Using Python 3.9 as specified in the snippet
+
+      # Step 3: Install Python dependencies from requirements.txt.
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # Step 4: Build the MkDocs site.
+      # This command converts your Markdown files into a static HTML site in the 'site/' directory.
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      # Step 5: Authenticate to Google Cloud.
+      # This action uses Workload Identity Federation to securely authenticate without needing a long-lived service account key.
+      # You must set up WIF in your GCP project and add the 'WIF_PROVIDER' and 'SERVICE_ACCOUNT' as secrets in your GitHub repository.
+      - name: Authenticate to Google Cloud
+        id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }} # e.g., projects/12345/locations/global/workloadIdentityPools/my-pool/providers/my-provider
+          service_account: ${{ secrets.SERVICE_ACCOUNT }} # e.g., my-service-account@my-project.iam.gserviceaccount.com
+
+      # Step 6: Set up the Google Cloud SDK (for gsutil).
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      # --- Conditional Deployments to Google Cloud Storage ---
+
+      # Step 7a: Deploy to the PRODUCTION bucket on a push to 'main'.
+      - name: Deploy to Production (main)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |-
+          gsutil -m rsync -r -d site/ gs://arxiv-docs/
+        
+      # Step 7b: Deploy to the DEVELOPMENT bucket on a push to 'develop'.
+      - name: Deploy to Development (develop)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        run: |-
+          gsutil -m rsync -r -d site/ gs://docs-develop/
+
+      # Step 7c: Deploy a PREVIEW version for a pull request.
+      # The site is deployed to a subdirectory named after the pull request's source branch.
+      - name: Deploy PR Preview
+        if: github.event_name == 'pull_request'
+        run: |-
+          # The branch name is available in the 'github.head_ref' context variable for PRs.
+          gsutil -m rsync -r -d site/ "gs://arxiv-docs-prs/${{ github.head_ref }}/"
+
