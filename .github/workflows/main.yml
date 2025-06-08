@@ -1,0 +1,169 @@
+# A descriptive name for your GitHub Actions workflow.
+# This will appear in the "Actions" tab of your repository.
+name: Comprehensive Build and Deploy Workflow
+
+# --- Triggers ---
+# This section defines when the workflow will run. It's configured to run on pushes 
+# to 'main' and 'develop', and on pull requests targeting the 'develop' branch.
+on:
+  push:
+    branches:
+      - "main"
+      - "develop"
+  pull_request:
+    branches:
+      - "develop"
+
+# --- Environment Variables ---
+# Environment variables available to all jobs and steps in this workflow.
+# This section is taken from your IBM Cloud deployment snippet.
+# NOTE: Sensitive values like API keys should always be stored in GitHub Secrets.
+env:
+  GITHUB_SHA: ${{ github.sha }}
+  IBM_CLOUD_API_KEY: ${{ secrets.IBM_CLOUD_API_KEY }}
+  IBM_CLOUD_REGION: us-south
+  ICR_NAMESPACE: ${{ secrets.ICR_NAMESPACE }}
+  REGISTRY_HOSTNAME: us.icr.io
+  IMAGE_NAME: iks-test
+  IKS_CLUSTER: example-iks-cluster-name-or-id
+  DEPLOYMENT_NAME: iks-test
+  PORT: 5001
+
+# --- Jobs ---
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel.
+# These jobs will run in parallel as they don't have a 'needs' dependency on each other.
+jobs:
+  # --- Job 1: Jekyll Site Build ---
+  build_jekyll_site:
+    name: Build Jekyll Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build the site with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./ # Assuming Jekyll site is at the root
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  # --- Job 2: MkDocs Site Build and Deploy ---
+  build_and_deploy_mkdocs:
+    name: Build and Deploy MkDocs Site
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write' # Required for authenticating to Google Cloud
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Build MkDocs site
+        run: mkdocs build
+
+      - name: Authenticate to Google Cloud
+        id: 'auth'
+        uses: 'google-github-actions/auth@v2'
+        with:
+          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
+          service_account: ${{ secrets.SERVICE_ACCOUNT }}
+
+      - name: Set up Cloud SDK
+        uses: 'google-github-actions/setup-gcloud@v2'
+
+      - name: Deploy MkDocs to Production (on main branch push)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: gsutil -m rsync -r -d site/ gs://arxiv-docs/
+        
+      - name: Deploy MkDocs to Development (on develop branch push)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/develop'
+        run: gsutil -m rsync -r -d site/ gs://docs-develop/
+
+      - name: Deploy MkDocs PR Preview
+        if: github.event_name == 'pull_request'
+        run: gsutil -m rsync -r -d site/ "gs://arxiv-docs-prs/${{ github.head_ref }}/"
+
+  # --- Job 3: Node.js App Build (Demonstration) ---
+  # This job is based on the 'setup-node' documentation you provided.
+  # It shows how you would build a typical Node.js frontend application.
+  build_nodejs_app:
+    name: Build Node.js App
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4 # Using v4, which is the latest
+        with:
+          node-version: '20.x' # Specify the Node.js version you need
+          cache: 'npm' # Enable caching for npm dependencies to speed up subsequent runs
+
+      - name: Install dependencies
+        run: npm ci # 'ci' is generally recommended for CI environments for clean, reproducible installs
+        
+      - name: Build application
+        run: npm run build --if-present # Runs the 'build' script from your package.json if it exists
+        
+      - name: Run tests
+        run: npm test --if-present # Runs the 'test' script from your package.json if it exists
+
+  # --- Job 4: Build, Publish, and Deploy Docker Container to IBM Cloud ---
+  build_and_deploy_docker_to_ibm_cloud:
+    name: Build & Deploy Docker to IKS
+    runs-on: ubuntu-latest
+    # This environment is optional but can be used to protect secrets and set approval rules
+    environment: production
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install IBM Cloud CLI
+        run: |
+          curl -fsSL https://clis.cloud.ibm.com/install/linux | sh
+          ibmcloud --version
+          ibmcloud config --check-version=false
+          ibmcloud plugin install -f kubernetes-service container-registry
+
+      - name: Authenticate with IBM Cloud CLI
+        run: |
+          ibmcloud login --apikey "${IBM_CLOUD_API_KEY}" -r "${IBM_CLOUD_REGION}" -g default
+          ibmcloud cr region-set "${IBM_CLOUD_REGION}"
+          ibmcloud cr login
+
+      - name: Build Docker image
+        run: |
+          docker build -t "$REGISTRY_HOSTNAME/$ICR_NAMESPACE/$IMAGE_NAME:$GITHUB_SHA" \
+            --build-arg GITHUB_SHA="$GITHUB_SHA" \
+            --build-arg GITHUB_REF="$GITHUB_REF" .
+
+      - name: Push image to IBM Container Registry
+        run: docker push "$REGISTRY_HOSTNAME/$ICR_NAMESPACE/$IMAGE_NAME:$GITHUB_SHA"
+
+      - name: Deploy to IBM Kubernetes Service
+        run: |
+          ibmcloud ks cluster config --cluster $IKS_CLUSTER
+          # Use 'kubectl apply' to enable declarative updates. This is more robust than 'create'.
+          # It creates the resource if it doesn't exist, and updates it if it does.
+          kubectl apply -f deployment.yaml
+          kubectl rollout status deployment/$DEPLOYMENT_NAME
+          kubectl apply -f service.yaml
+          kubectl get services -o wide
+        # Note: This step assumes you have deployment.yaml and service.yaml files in your repo.
+        # If you don't, you can generate them on the fly as in your original script,
+        # but maintaining them in git is a best practice (GitOps).
