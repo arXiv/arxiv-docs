@@ -6,6 +6,7 @@
 - Kat Boboris, Community Engagement Manager
 - Shamsi Brinn, User Experience Manager
 - Christopher Cameron, Computational Social Scientist
+- Josef Edwards, Junior Developer
 - Brian Caruso, Lead Developer
 - Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
