@@ -1,0 +1,202 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["develop"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+push: "  "zen": "Speak like a human.",
+  "hook_id": 551047673,
+  "hook": {
+    "type": "Repository",
+    "id": 551047673,
+    "name": "web",
+    "active": true,
+    "events": [
+      "*"
+    ],
+    "config": {
+      "content_type": "json",
+      "insecure_ssl": "0",
+      "secret": "********",
+      "url": "https://shell.cloud.google.com/?project=1090350072932&invt=Abzh1Q&inv=1&show=ide%2Cterminal"
+    },
+    "updated_at": "2025-06-08T03:20:35Z",
+    "created_at": "2025-06-08T03:20:35Z",
+    "url": "https://api.github.com/repos/Qchains/arxiv-docs/hooks/551047673",
+    "test_url": "https://api.github.com/repos/Qchains/arxiv-docs/hooks/551047673/test",
+    "ping_url": "https://api.github.com/repos/Qchains/arxiv-docs/hooks/551047673/pings",
+    "deliveries_url": "https://api.github.com/repos/Qchains/arxiv-docs/hooks/551047673/deliveries",
+    "last_response": {
+      "code": null,
+      "status": "unused",
+      "message": null
+    }
+  },
+  "repository": {
+    "id": 991071928,
+    "node_id": "R_kgDOOxKOuA",
+    "name": "arxiv-docs",
+    "full_name": "Qchains/arxiv-docs",
+    "private": false,
+    "owner": {
+      "login": "Qchains",
+      "id": 213266729,
+      "node_id": "U_kgDODLYxKQ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/213266729?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Qchains",
+      "html_url": "https://github.com/Qchains",
+      "followers_url": "https://api.github.com/users/Qchains/followers",
+      "following_url": "https://api.github.com/users/Qchains/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Qchains/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Qchains/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Qchains/subscriptions",
+      "organizations_url": "https://api.github.com/users/Qchains/orgs",
+      "repos_url": "https://api.github.com/users/Qchains/repos",
+      "events_url": "https://api.github.com/users/Qchains/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Qchains/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Qchains/arxiv-docs",
+    "description": "Help, about and other static pages",
+    "fork": true,
+    "url": "https://api.github.com/repos/Qchains/arxiv-docs",
+    "forks_url": "https://api.github.com/repos/Qchains/arxiv-docs/forks",
+    "keys_url": "https://api.github.com/repos/Qchains/arxiv-docs/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Qchains/arxiv-docs/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Qchains/arxiv-docs/teams",
+    "hooks_url": "https://api.github.com/repos/Qchains/arxiv-docs/hooks",
+    "issue_events_url": "https://api.github.com/repos/Qchains/arxiv-docs/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Qchains/arxiv-docs/events",
+    "assignees_url": "https://api.github.com/repos/Qchains/arxiv-docs/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Qchains/arxiv-docs/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Qchains/arxiv-docs/tags",
+    "blobs_url": "https://api.github.com/repos/Qchains/arxiv-docs/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Qchains/arxiv-docs/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Qchains/arxiv-docs/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Qchains/arxiv-docs/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Qchains/arxiv-docs/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Qchains/arxiv-docs/languages",
+    "stargazers_url": "https://api.github.com/repos/Qchains/arxiv-docs/stargazers",
+    "contributors_url": "https://api.github.com/repos/Qchains/arxiv-docs/contributors",
+    "subscribers_url": "https://api.github.com/repos/Qchains/arxiv-docs/subscribers",
+    "subscription_url": "https://api.github.com/repos/Qchains/arxiv-docs/subscription",
+    "commits_url": "https://api.github.com/repos/Qchains/arxiv-docs/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Qchains/arxiv-docs/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Qchains/arxiv-docs/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Qchains/arxiv-docs/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Qchains/arxiv-docs/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Qchains/arxiv-docs/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Qchains/arxiv-docs/merges",
+    "archive_url": "https://api.github.com/repos/Qchains/arxiv-docs/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Qchains/arxiv-docs/downloads",
+    "issues_url": "https://api.github.com/repos/Qchains/arxiv-docs/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Qchains/arxiv-docs/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Qchains/arxiv-docs/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Qchains/arxiv-docs/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Qchains/arxiv-docs/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Qchains/arxiv-docs/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Qchains/arxiv-docs/deployments",
+    "created_at": "2025-05-27T04:54:51Z",
+    "updated_at": "2025-06-08T03:08:25Z",
+    "pushed_at": "2025-06-08T03:09:35Z",
+    "git_url": "git://github.com/Qchains/arxiv-docs.git",
+    "ssh_url": "git@github.com:Qchains/arxiv-docs.git",
+    "clone_url": "https://github.com/Qchains/arxiv-docs.git",
+    "svn_url": "https://github.com/Qchains/arxiv-docs",
+    "homepage": "",
+    "size": 78913,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "BibTeX Style",
+    "has_issues": false,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 0,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 1,
+    "license": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "public",
+    "forks": 0,
+    "open_issues": 1,
+    "watchers": 1,
+    "default_branch": "develop"
+  },
+  "sender": {
+    "login": "Qchains",
+    "id": 213266729,
+    "node_id": "U_kgDODLYxKQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/213266729?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Qchains",
+    "html_url": "https://github.com/Qchains",
+    "followers_url": "https://api.github.com/users/Qchains/followers",
+    "following_url": "https://api.github.com/users/Qchains/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Qchains/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Qchains/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Qchains/subscriptions",
+    "organizations_url": "https://api.github.com/users/Qchains/orgs",
+    "repos_url": "https://api.github.com/users/Qchains/repos",
+    "events_url": "https://api.github.com/users/Qchains/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Qchains/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  }
+}
+        uses: actions/deploy-pages@v4
