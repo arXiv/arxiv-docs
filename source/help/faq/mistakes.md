@@ -34,6 +34,7 @@ For information about our current TeX installation please see [Notes about arXiv
   - ["`! LaTeX Error: Command \Bbbk already defined.`"](#Bbbk)
   - [Notes for using `minted.sty` in arXiv](#minted)
   - [bbl file version mismach](#bblmismatch)
+  - [breqn and Labels might have changed problem](#breqn)
 -----
 
   
@@ -468,3 +469,29 @@ The _only_ solution to this state is to compile your BibLaTeX with the _same ver
 we recommend that you use their system to up or downgrade your proecessing engine, recompile your pdf fully, and then [download the .bbl file again](
 https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission). 
 
+<span id="breqn"></span>
+## breqn and Labels might have changed problem
+
+When the `breqn` package is combined with `hyperref` package, and math code is embedded in
+caption of formulas or images, LaTeX might report at the end of **every** compilation, even if
+running many times in a row, the following warning:
+
+```
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+```
+
+This is a known issue (see this [SX entry](https://tex.stackexchange.com/a/331220)) and can be fixed by
+adding the following code immediaetely after the `\usepackage{breqn}` line in the preamble:
+
+```
+\makeatletter
+\AtBeginDocument{%
+    \catcode`_=12
+    \begingroup\lccode`~=`_
+    \lowercase{\endgroup\let~}\sb
+    \mathcode`_="8000
+    \immediate\write\@auxout{\catcode`_=12 }%
+    \immediate\write\@auxout{\catcode`^=12 }%
+}
+\makeatother
+```
