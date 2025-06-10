@@ -99,7 +99,7 @@ searching.
 span id="upload"></span>
 ## Upload and prepare your submission file
 
-To submit an article, select the "START NEW SUBMISSION" button from your [user page](https://arxiv.org/user).. 
+To submit an article, select the "START NEW SUBMISSION" button from your [user page](https://arxiv.org/user).
 
 The following instructions will guide you through version 1.5 of our submission system. Learn more about the updates to the [submission system](https://info.arxiv.org/help/submit_legacy_differences.html#submission-10-and-15-comparison).
 
