@@ -16,7 +16,7 @@ file size. For figures produced from programs like this, it is more
 efficient to use a bitmap to describe the entire image.
 
 **Note:**  
-If you have **eps** figures, which have been flagged by the arXiv system
+If you have **EPS** figures, which have been flagged by the arXiv system
 as inefficient, one of the first things you should consider is to use
 [`pdflatex`](http://arxiv.org/help/submit_tex#pdflatex) instead of
 `latex`.  
