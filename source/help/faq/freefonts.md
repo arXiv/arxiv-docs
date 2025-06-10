@@ -7,7 +7,7 @@ be used within arXiv's TeX system.
 There are partial solutions for some popular fonts, in particular some
 from Adobe, either via use of free subsets thereof, via substitutions,
 or via a combination of both. This applies in particular to Minion Pro,
-Myriad Pro, Utopia, Garamond, and possibly others
+Myriad Pro, Utopia, Garamond, and possibly others.
 
 ## MinonPro Fonts
 
