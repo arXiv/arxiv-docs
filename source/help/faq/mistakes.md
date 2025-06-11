@@ -313,7 +313,7 @@ the numbering of appendix sections. The result is failure of ps2pdf
 conversion due to ambiguous pdfmarks or conflicting subsection count
 in the pdfmarks.
 
-The simple cure is to [disable HyperTex](#nohypertex) but a better
+The simple cure is to disable HyperTex but a better
 work-around is to simply switch off bookmarks (i.e. document
 outline) while leaving normal document linking on. You can do this
 by adding the following line to the
