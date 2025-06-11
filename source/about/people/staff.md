@@ -17,7 +17,7 @@
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
 - Norbert Preining, Principal Software Engineer
-- Erin Reddy, Developer
+- Erin Aster, Developer
 - Rebecca Rich Goldweber, Lead Production Editor
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
