@@ -1,6 +1,6 @@
 # TeX Submissions
 
-*   [(La)TeX processing changes &mdash; April 2025](#newtex)
+*   [(La)TeX processing changes in Submission System 1.5](#newtex)
 *   [Comparison between the Legacy Submission System and the current one](#comparison)
 *   [Supported TeX processors](#supported-processors)
 *   [Submissions are automatically processed](#autoproc)
@@ -20,12 +20,9 @@
 * * *
 
 <span id="newtex"></span>
-### (La)TeX processing changes &mdash; April 2025
+### (La)TeX processing changes in Submission System 1.5
 
-Beginning with April 2025, we are rolling out changes to how arXiv process (La)TeX submissions. These changes
-should not be noticeable to most of our users. We will retire the long-used "AutoTeX" (Submission 1.0) system
-that we have used for decades in favor of a simpler, more straightforward process of converting (La)TeX
-submissions to PDFs in Submission 1.5.
+In April of 2025 we  we rolled out changes to how arXiv process (La)TeX submissions. We retired the long-used "AutoTeX" (Submission 1.0) system that we have used for decades in favor of a simpler, more straightforward process of converting (La)TeX submissions to PDFs in Submission 1.5.
 
 <span id="comparison"></span>
 ### Comparison between the Legacy Submission System and the current one
@@ -36,7 +33,7 @@ please see [Legacy Submission System](submit_legacy_differences.md).
 <span id="supported-processors"></span>
 ### Supported TeX processors
 
-As with the legacy system, we are currently only supporting the following types of TeX submissions:
+We are currently only supporting the following types of TeX submissions:
 
 *   plain TeX submissions: those are converted using `etex` followed by `dvips` and `ps2pdf`;
 *   LaTeX submissions in DVI mode: those are converted using `latex` followed by `dvips` and `ps2pdf`;

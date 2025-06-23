@@ -25,8 +25,7 @@ replacements received after the end of September 2002.
 You must use the **letterpaper** class option to ensure proper printout
 on standard US letter paper.
 
-The `sidecaption` layout conflicts with our automatic use of HyperTeX.
-If you use the `sidecaption` layout, you may not use hyperref in your submission.
+
 
 ## Don't Forget to Check the PDF\!
 

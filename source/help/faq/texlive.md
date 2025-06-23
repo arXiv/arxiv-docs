@@ -1,15 +1,10 @@
 # Notes about arXiv's TeXLive Version
 
->NOTE: arXiv has switched from AutoTeX to a plain instance of TeX Live 2023 for [Submission v1.5](../submit_tex.md#newtex).
-This means any package not included in the TeX Live 2023 release should have its style files included with your submission.
-
 ## Update to TeX Live 2023
 
-*Update 2023-05-22: arXiv updated to TeXLive 2023* arXiv is now running under [TeXLive 2023](http://tug.org/texlive), with a new, updated and
-enhanced tree of local addons and support for newer font sets, and
-everything else contained within the standard distribution. As with
-previous updates, most of the TL2009/TL2011/TL2016/TL2020 advice below 
-still applies.
+*Update 2023-05-22:* arXiv  has updated its submission system to use a plain instance of[TeXLive 2023](http://tug.org/texlive) for [Submission v1.5](../submit_tex.md#newtex). This means if your submission uses any TeX packages not included in the TeX Live 2023 release, you will need to include their style files with your submission.
+
+TeX Live 2023 comes with an updated and improved collection of local add-ons, support for newer font sets, and everything else you'd expect in a standard TeX Live distribution. While there are enhancements, most of the advice provided for previous versions (TL2009, TL2011, TL2016, TL2020) still applies.
 
 The new tree is based on the official TeX Live 2023 release with an
 updated tree of local addons. While most documents developed under TeX
