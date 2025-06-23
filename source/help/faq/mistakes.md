@@ -28,8 +28,6 @@ For information about our current TeX installation please see [Notes about arXiv
     which are regular latex](#ifpdf)
   - [Why does my submission fail the automatic TeXing procedure when I
     use Feynmf?](feynmf.md#overwrite)
-  - [Problems with inclusion of binary or other bitmap figures; `PS BAD`
-    warnings](#psbad)
   - [Mixed figure file types](#mixed)
   - ["`! LaTeX Error: Command \Bbbk already defined.`"](#Bbbk)
   - [Notes for using `minted.sty` in arXiv](#minted)
@@ -74,7 +72,7 @@ During file upload these examples will be programmatically converted to an under
 ## Missing style/macro files
 Some authors write their own style/macro files (or modify standard
 ones), but forget to include them with the source. Be sure to
-include with the source any style/macro files that we don't have.
+include with the source any style/macro files that are not included in our current [TeX Live](texlive.md) release.
 
 **Note:** non-standard style/macro files provided along with the
 source must **NOT be attached** to a paper. Instead, submit them as
@@ -374,47 +372,6 @@ can add the line:
 
 ```
 as the very first line of your tex file.
-
-
-
-<span id="psbad"></span> 
-## Problems with inclusion of binary or other bitmap figures; `PS BAD` warnings
-
-*Update 2011-12-06: arXiv's default dvips configuration was changed to
-retain comments. The following does not apply to papers received since
-then.*
-
-By default, our TeX system tells `dvips` to strip comment lines from
-included PostScript figures. This is usually the correct thing to do
-because it prevents DSC (Document Structuring Comments) lines from being
-included from figures. If included, these would likely break the DSC
-structure of the final PostScript (the DSC structure is what allows
-viewers to display an index of page numbers).
-
-Lines starting with '`%`' in the included PostScript files are
-identified as comments, but sometimes PostScript figures include blocks
-of data with lines starting with '`%`' that are not comments. Removal of
-these lines may break the final PostScript. You can turn off the removal
-of comments from included figures for your submission by including a
-file `00README.XXX`. It should contain an instruction specific to the
-filename of the dvi file:
-
-``` 
-     filename.dvi keepcomments
-```
-
-You can test the effect of this yourself by comparing the output of
-
-``` 
-     $ dvips -R -K1 yourfile.dvi -o DSCstripped.ps
-     $ dvips -R -K0 yourfile.dvi -o DSCkept.ps
-```
-
-Note that this whole issue arises because Adobe decided to use the
-ignored "Comments" from the PostScript standard to provide additional
-structure to regular PostScript files, which leads to complications for
-programs that rely on proper DSC structure when two or more such files
-are included in each other.
 
 
 <span id="mixed"></span> 
