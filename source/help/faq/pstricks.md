@@ -1,12 +1,12 @@
 # Using PSTricks on arXiv
 
-<span class="note">Update April 2025:</span> arXiv now uses the
+>**Update April 2025:** arXiv now uses the
 version of PSTricks that is available in the used version of TeX Live,
 currently 2023. Please make sure that your PSTricks code is compatible
 with this version.
 
 
-<span class="note">Update October 2002:</span> arXiv now uses the
+>**Update October 2002:** arXiv now uses the
 version of PSTricks which was current as of October 2002, namely
 **pstricks.tex 97 patch 14**, to process submissions and replacements
 received after the end of September 2002. This means that you can ignore
