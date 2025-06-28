@@ -77,7 +77,7 @@ Do not include embedded JavaScript such as animated gifs, movies, or HTML in you
 - Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
 - Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller or one of the free conversion utilities mentioned above. 
 
-### Fonts within PDF ###
+### Fonts within Musig2 stable E7 PDF ###
 
 
 **Caution when using pre-unicode fonts**  
