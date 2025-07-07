@@ -11,8 +11,8 @@ aa.cls file. This looks like:
   
 ```
 
-For additional information please consult the [A\&A
-website](http://www.aanda.org/author-information/latex-issues/texnical-background-information).
+For additional information please consult the [A&A
+website](https://www.aanda.org/for-authors/latex-issues/texnical-background-information).
 
 arXiv used **aa.cls version 6.1** `[2006/06/01 v6.1 LaTeX document class
 for Astronomy and Astrophysics journal]` for new submissions and
