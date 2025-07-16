@@ -12,11 +12,11 @@
 <div markdown="1">
 
 ## Ramin Zabih
-**Faculty Director**
+**Executive Director**
 
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8769-5666](https://orcid.org/0000-0001-8769-5666){target="_blank"}
 
-As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
+As arXiv executive director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
 </div>
 </div>
 </div>
