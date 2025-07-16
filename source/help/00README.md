@@ -190,7 +190,9 @@ Note that as of now, all toplevel files are compiled with the same compiler.
 #### Additional notes  
 - `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
 
-- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.  
+- `process.bibliography` - we now allow `pre_generated: false` in case all required `.bib` files are included in the submission, and the `process.bibliography.processor` is set to one of the supported bibliography processors, such as `bibtex` or `biber`. If `pre_generated: true`, then we require that the `.bbl` file is included in the submission. 
+
+- `process.index` – we still require a pre-generated .idx be included, meaning, we require that `pre_generated: true`.  
 
 - `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
 

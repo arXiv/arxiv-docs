@@ -9,7 +9,7 @@
 *   [We don't have your style files or macros](#wedonthavethem)
 *   [Do not submit in double-spaced "referee" mode](#double)
 *   [Prepare the references carefully](#refs)
-*   [Include `.bbl` files if you use BibTeX](#bibtex)
+*   [Include `.bib` or `bbl` files if you use BibTeX/Biber](#bibtex)
 *   [Potential problems with biblatex `.bbl` files](#biblatex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
 *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
@@ -203,25 +203,15 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 <span id="bibtex"></span>
 
-### Include `.bbl` files if you use BibTeX
+### Include `.bib` or `bbl` files if you use BibTeX/Biber
 
-We do not run BibTeX in the auto-TeXing procedure. If you use it, include in your submission the `.bbl` file that
-BibTeX produces on your own machine; otherwise your references will not come out correctly. We do not run BibTeX
-because the `.bib` database files can be quite large, and the only thing necessary to resolve the references for
-a given paper is the `.bbl` file. You may still include them if you wish, but they must also match your .tex file name.
+arXiv now provides support for bib file processing using various processors like `bibtex` and `biber`.
 
-The name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references
-correctly.
+It is also possible to upload a pre-generated `.bbl` file for your paper. In this case, the name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
 
-Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv.
-They require the presence of a `.aux` file in order to set up their linking structure. Since our TeX system
-deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly,
-and will not report any critical error during processing. Instead, we require that you update your `.bbl` files to
-include the appropriate references for both documents.
+Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare
-your document for submission to arXiv.
-
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 <span id="biblatex"></span>
 
 ### Potential problems with biblatex `.bbl` files
