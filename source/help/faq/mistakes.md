@@ -31,7 +31,6 @@ For information about our current TeX installation please see [Notes about arXiv
   - [Mixed figure file types](#mixed)
   - ["`! LaTeX Error: Command \Bbbk already defined.`"](#Bbbk)
   - [Notes for using `minted.sty` in arXiv](#minted)
-  - [bbl file version mismach](#bblmismatch)
   - [breqn and Labels might have changed problem](#breqn)
 -----
 
@@ -412,19 +411,6 @@ Authors who make use of `minted.sty`'s syntax highlighting are warned against us
   \usepackage[frozencache=true,cachedir=minted-cache]{minted} 
 ```
 This assumes that you've already correctly created the cache first using their `[finalizecache]` option. Consult the [package manual](http://mirrors.ctan.org/macros/latex/contrib/minted/minted.pdf#page=11) for further details (at time of this writing, the package options begin on page 12 in section 5).
-
-<span id="bblmismatch"></span>
-## .bbl version mismatch
-
-arXiv's TeX Processing system is built on a specific version of [TeX Live](texlive.md). This means that as new versions of software are released, arXiv may fall
-behind with the state of the art  for systems like BibLaTeX. As such, one may recieve an error from the submission system or tex processor which indicates a version 
-mismatch. This error may look something like: 
-```
-bbl version mismatch: Expected 3.2 but got 3.3, at file [mydoc.bbl]
-```
-The _only_ solution to this state is to compile your BibLaTeX with the _same version of TeX Live_ that arXiv uses. If you built your submission using overleaf
-we recommend that you use their system to up or downgrade your proecessing engine, recompile your pdf fully, and then [download the .bbl file again](
-https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission). 
 
 <span id="breqn"></span>
 ## breqn and Labels might have changed problem
