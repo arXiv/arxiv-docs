@@ -33,7 +33,7 @@ As arXiv executive director, Ramin guides arXiv’s strategic vision and technol
 - [@yoavartzi](https://twitter.com/@yoavartzi){target="_blank"}
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0002-4605-6144](https://orcid.org/0000-0002-4605-6144){target="_blank"}
 
-In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech. Yoav holds a Ph.D. in Computer Science from the University of Washington.
+In his role as associate faculty director at arXiv, Yoav assists the Executive Director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech. Yoav holds a Ph.D. in Computer Science from the University of Washington.
 </div>
 </div>
 </div>
