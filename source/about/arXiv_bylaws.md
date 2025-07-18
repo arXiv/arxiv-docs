@@ -11,7 +11,7 @@ The **arXiv Steward**, who is Dean and Provost of Cornell Tech, holds the final 
 
 **arXiv Executive Director**
 
-The arXiv Executive Director (FD) is appointed by and reports to the Steward, who may consult broadly with arXiv stakeholders (e.g., advisory committee members) on matters related to appointment, reappointment, and performance of the FD. The Executive Director holds responsibility and decision-making authority for all day-to-day operations, functions and activities of arXiv, including supervising arXiv staff and managing the arXiv budget. The FD leads the Executive Committee (EC) and is presiding chair of the arXiv Advisory Board (AAB). Upon recommendation of the Executive Director, the Steward appoints an Associate Executive Director to assist the Executive Director and broaden the faculty support base of arXiv.
+The arXiv Executive Director (ED) is appointed by and reports to the Steward, who may consult broadly with arXiv stakeholders (e.g., advisory committee members) on matters related to appointment, reappointment, and performance of the ED. The Executive Director holds responsibility and decision-making authority for all day-to-day operations, functions and activities of arXiv, including supervising arXiv staff and managing the arXiv budget. The ED leads the Executive Committee (EC) and is presiding chair of the arXiv Advisory Board (AAB). Upon recommendation of the Executive Director, the Steward appoints an Associate Executive Director to assist the Executive Director and broaden the faculty support base of arXiv.
 
 
 
