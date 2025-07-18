@@ -24,4 +24,4 @@
 - Naoyuki Tai, Senior Software Engineer
 - Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
-- Ramin Zabih, Faculty Director
+- Ramin Zabih, Executive Director
