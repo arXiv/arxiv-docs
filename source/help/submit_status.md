@@ -58,7 +58,7 @@ remove it from this status, and return it to [incomplete](submit_status.md#incom
 On Hold
 -------
 
-When a user submits a work it undergoes a series of automated and human quality assurance checks as [part of moderation](moderation/index.md). When works fail to meet one of our requirements for submission they are put "on hold". arXiv editors will either send you an email with instructions on how to resolve the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
+When a user submits a work it undergoes a series of automated and human quality assurance checks as [part of moderation](moderation/index.md). During these checks, a submission may be put “on hold”. arXiv editors will either send you an email with instructions on how to resolve the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
 - If you notice your submission is on hold, no action is required on your part at this time.
 
