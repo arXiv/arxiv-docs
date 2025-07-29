@@ -2,7 +2,7 @@
 
 See more [arXiv reports](index.md) and [Usage stats](https://arxiv.org/stats/main)
 
-The following tables show submissions to arXiv by [category](https://arxiv.org/category_taxonomy). Explore different views of the data by toggling between sheets.
+The following tables show submissions to arXiv by [category](https://arxiv.org/category_taxonomy). Mouse over each plot to see more detailed information. Click or double click the legend to filter what is displayed.
 
 <div>
     <script type="text/javascript">window.PlotlyConfig = { MathJaxConfig: 'local' };</script>
