@@ -4,8 +4,8 @@ It is possible to appeal the classification of an announced article or the decis
 
 If you disagree with a [moderation](index.md) decision, you may appeal for your desired outcome. The appeals process allows moderators time to reconsider a submission, but repeated requests with no additional information cannot be considered.
 
-!!! note
-Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help).  
+> !!! note
+> Appeals should be sent through our [user support portal](https://arxiv.org/support/moderation_help).  
 
 - [What is a moderation appeal?](#what-is)
 - [What happens when I appeal?](#what-happens)
