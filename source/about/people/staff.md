@@ -12,7 +12,7 @@
 - Charles Frankston, Technical Director
 - Deyan Ginev, Software Engineer
 - Alison Hofer, Documentation Specialist
-- Kim Laine, User & Membership Support Specialist
+- Kim Laine, Senior User & Membership Support Specialist
 - Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
