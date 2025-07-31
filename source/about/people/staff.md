@@ -11,8 +11,11 @@
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
 - Deyan Ginev, Software Engineer
+- Mike Greco, DevOps Engineer
 - Alison Hofer, Documentation Specialist
-- Kim Laine, User & Membership Support Specialist
+- Carly Jones, Software Engineer
+- Kim Laine, Senior User & Membership Support Specialist
+- Lauren Niu, Scientist Software Engineer
 - Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
 - Stephanie Orphan, Program Director
