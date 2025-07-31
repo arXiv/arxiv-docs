@@ -12,6 +12,7 @@
 - Charles Frankston, Technical Director
 - Deyan Ginev, Software Engineer
 - Alison Hofer, Documentation Specialist
+- Carly Jones, Software Engineer
 - Kim Laine, Senior User & Membership Support Specialist
 - Jamie Magyar, Production Editor
 - Brian Maltzan, Backend Python Developer
