@@ -11,6 +11,7 @@
 - David Fielding, Senior Developer
 - Charles Frankston, Technical Director
 - Deyan Ginev, Software Engineer
+- Mike Greco, DevOps Engineer
 - Alison Hofer, Documentation Specialist
 - Carly Jones, Software Engineer
 - Kim Laine, Senior User & Membership Support Specialist
