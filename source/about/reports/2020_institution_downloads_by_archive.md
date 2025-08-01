@@ -110,13 +110,6 @@ The following table shows institutions' downloads across [subject archives](http
             <div id="domain-filter"></div>
         </div>
     </div>
-    <div class="filter-item">
-        <h4 style="margin-bottom: 0px;">Year</h4>
-        <input type="text" id="year-search" placeholder="Search years...">
-        <div class="filters-container" id="year-filter-container">
-            <div id="year-filter"></div>
-        </div>
-    </div>
 </div>
 
 <div id="domain_rank_wrapper">
@@ -124,4 +117,4 @@ The following table shows institutions' downloads across [subject archives](http
 </div>
 
 
-<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/downloads_by_category_by_institution.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/2020_downloads_by_subject.js"></script>
