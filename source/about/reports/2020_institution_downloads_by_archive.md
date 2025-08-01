@@ -124,4 +124,4 @@ The following table shows institutions' downloads across [subject archives](http
 </div>
 
 
-<script type='text/javascript' src="downloads_by_category_by_institution.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/downloads_by_category_by_institution.js"></script>
