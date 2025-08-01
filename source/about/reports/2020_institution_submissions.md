@@ -105,13 +105,13 @@ The following table shows submissions by institution in 2018, 2019, and 2020. [T
             <div id="institution-filter"></div>
         </div>
     </div>
-    <div class="filter-item">
+    <!-- <div class="filter-item">
         <h4 style="margin-bottom: 0px;">Country</h4>
         <input type="text" id="country-search" placeholder="Search countries...">
         <div class="filters-container" id="country-filter-container">
             <div id="country-filter"></div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 <div id="institution_rank_wrapper">
@@ -119,7 +119,7 @@ The following table shows submissions by institution in 2018, 2019, and 2020. [T
 </div>
 
 
-<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/2020_institution_submissions.js"></script>
+<script type='text/javascript' src="2020_institution_submissions.js"></script>
 
 Data provided by
 <img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
