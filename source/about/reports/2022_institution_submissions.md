@@ -6,7 +6,7 @@
 
 _See more [arXiv in Numbers](2022_usage.md)_
 
-The following table shows submissions by institution in 2020, 2021, and 2022. To search for a specific institution, hover your mouse over the right hand corner of the list of institutions to reveal the search icon. [To learn how this information is used in the membership program, see here](../../about/membership.md).
+The following table shows submissions by institution in 2020, 2021, and 2022. [To learn how this information is used in the membership program, see here](../../about/membership.md).
 
 
 

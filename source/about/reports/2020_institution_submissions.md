@@ -119,7 +119,7 @@ The following table shows submissions by institution in 2018, 2019, and 2020. [T
 </div>
 
 
-<script type='text/javascript' src="2020_institution_submissions.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/2020_institution_submissions.js"></script>
 
 Data provided by
 <img width="44" style="vertical-align:middle" src='https://arxiv.org/scopus.png'/>
