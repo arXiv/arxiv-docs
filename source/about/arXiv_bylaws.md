@@ -9,13 +9,13 @@ The **arXiv Steward**, who is Dean and Provost of Cornell Tech, holds the final 
 
 
 
-**arXiv Faculty Director**
+**arXiv Executive Director**
 
-The arXiv Faculty Director (FD) is appointed by and reports to the Steward, who may consult broadly with arXiv stakeholders (e.g., advisory committee members) on matters related to appointment, reappointment, and performance of the FD. The Faculty Director holds responsibility and decision-making authority for all day-to-day operations, functions and activities of arXiv, including supervising arXiv staff and managing the arXiv budget. The FD leads the Executive Committee (EC) and is presiding chair of the arXiv Advisory Board (AAB). Upon recommendation of the Faculty Director, the Steward appoints an Associate Faculty Director to assist the Faculty Director and broaden the faculty support base of arXiv.
+The arXiv Executive Director (ED) is appointed by and reports to the Steward, who may consult broadly with arXiv stakeholders (e.g., advisory committee members) on matters related to appointment, reappointment, and performance of the ED. The Executive Director holds responsibility and decision-making authority for all day-to-day operations, functions and activities of arXiv, including supervising arXiv staff and managing the arXiv budget. The ED leads the Executive Committee (EC) and is presiding chair of the arXiv Advisory Board (AAB). Upon recommendation of the Executive Director, the Steward appoints an Associate Executive Director to assist the Executive Director and broaden the faculty support base of arXiv.
 
 
 
-The Faculty Director will engage in activities such as:
+The Executive Director will engage in activities such as:
 
 
 <ul>
@@ -33,7 +33,7 @@ The Faculty Director will engage in activities such as:
 
 **arXiv Executive Committee**
 
-The Executive Committee is the leadership team within arXiv that supports the Faculty Director in executing their responsibilities. The Executive committee consists of the Faculty Director, Associate Faculty Director and leadership within arXiv staff selected by the Faculty Director.
+The Executive Committee is the leadership team within arXiv that supports the Executive Director in executing their responsibilities. The Executive committee consists of the Executive Director, Associate Faculty Director and leadership within arXiv staff selected by the Executive Director.
 
 
 
@@ -41,7 +41,7 @@ The Executive Committee is the leadership team within arXiv that supports the Fa
 
 **arXiv Advisory Board**
 
-The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expertise and guidance in support of the mission of arXiv; the Faculty Director is the presiding chair of the AAB. The arXiv Advisory Board includes members of the Executive Committee and the Advisory Council Chairs, and may be augmented by experts (see 6.5.4). The arXiv Advisory Board is the main point of contact between Executive Committee and the Advisory Councils, tasked with:
+The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expertise and guidance in support of the mission of arXiv; the Executive Director is the presiding chair of the AAB. The arXiv Advisory Board includes members of the Executive Committee and the Advisory Council Chairs, and may be augmented by experts (see 6.5.4). The arXiv Advisory Board is the main point of contact between Executive Committee and the Advisory Councils, tasked with:
 
 
 <ul>
@@ -55,7 +55,7 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 ## 1.	arXiv Advisory Councils
 
-1.1.	Each arXiv Advisory Council is a consultative body that advises the arXiv Faculty Director and provides input to the arXiv Advisory Board.
+1.1.	Each arXiv Advisory Council is a consultative body that advises the arXiv Executive Director and provides input to the arXiv Advisory Board.
 
 1.2.	There are three Advisory Councils within arXiv: the Science Advisory Council (SAC), the Institutions Advisory Council (IAC), and the Editorial Advisory Council (EAC). Each Advisory Council has a chair, and these chairs are members of the arXiv Advisory Board.
 
@@ -71,7 +71,7 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 <ul>2.1.1.	Recommendations for Advisory Council Members are made by their respective currently serving arXiv Advisory Council Chairs.</ul>
 
-<ul>2.1.2.	All recommendations for new Advisory Council Members must be approved by the arXiv Faculty Director. New Members are appointed at the discretion of the arXiv Faculty Director. </ul>
+<ul>2.1.2.	All recommendations for new Advisory Council Members must be approved by the arXiv Executive Director. New Members are appointed at the discretion of the arXiv Executive Director. </ul>
 
 2.2.	Advisory Council qualifications for members
 
@@ -87,13 +87,13 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 <ul>2.3.2.	Liaisons - Councils - to support cross-Council communication, each Advisory Council will appoint members to serve as Liaisons to the other Advisory Councils. Each Advisory Council shall designate a primary liaison to each of the other councils; for each liaison an alternate may be appointed. </ul>
 
-<ul>2.3.3.	Liaisons - Staff - to support communication across Councils and arXiv staff, Faculty Director shall select arXiv staff members to attend each Advisory Council meeting. At least two arXiv staff members should attend each Council meeting; staff will not attend executive sessions. </ul>
+<ul>2.3.3.	Liaisons - Staff - to support communication across Councils and arXiv staff, Executive Director shall select arXiv staff members to attend each Advisory Council meeting. At least two arXiv staff members should attend each Council meeting; staff will not attend executive sessions. </ul>
 
-<ul>2.3.4.	Emeritus - after consultation with the relevant Chair, the Faculty Director may award emeritus status to an Advisory Council member who has served the maximum allowable term. Each Advisory Council will determine the role that Emeritus members will have in the Council.</ul>
+<ul>2.3.4.	Emeritus - after consultation with the relevant Chair, the Executive Director may award emeritus status to an Advisory Council member who has served the maximum allowable term. Each Advisory Council will determine the role that Emeritus members will have in the Council.</ul>
 
 2.4.	Advisory Council Chairs
 
-<ul>2.4.1.	Advisory Council Chairs preside over their Advisory Councils. Each Advisory Council will recommend a Chair and a Vice Chair, who are then appointed with the approval of the arXiv Faculty Director. Nominations for the Chair and Vice Chair will be presented in accordance with the operating manual for the Council.</ul>
+<ul>2.4.1.	Advisory Council Chairs preside over their Advisory Councils. Each Advisory Council will recommend a Chair and a Vice Chair, who are then appointed with the approval of the arXiv Executive Director. Nominations for the Chair and Vice Chair will be presented in accordance with the operating manual for the Council.</ul>
 
 <ul>2.4.2.	Each Advisory Council chair will define their council operations independently.</ul>
 
@@ -107,9 +107,9 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 <ul>2.6.1.	Advisory Council members will serve staggered 3-year terms, renewable once, for a maximum of 6 consecutive years served. The term starts at the beginning of the calendar year.</ul>
 
-<ul>2.6.2.	Advisory Council members’ terms will be renewable once, for a maximum of 6 consecutive years served, upon the recommendation of their respective Advisory Council Chair and with the approval of the Faculty Director.</ul>
+<ul>2.6.2.	Advisory Council members’ terms will be renewable once, for a maximum of 6 consecutive years served, upon the recommendation of their respective Advisory Council Chair and with the approval of the Executive Director.</ul>
 
-<ul>2.6.3.	The Faculty Director may choose to extend an Advisory Council member’s term in exceptional circumstances. Faculty Director determines that such service is in the best interest of Cornell Tech and arXiv.</ul>
+<ul>2.6.3.	The Executive Director may choose to extend an Advisory Council member’s term in exceptional circumstances. Executive Director determines that such service is in the best interest of Cornell Tech and arXiv.</ul>
 
 
 
@@ -163,7 +163,7 @@ The arXiv Advisory Board (AAB) is a group of experts who lend their skills, expe
 
 4.5.	Special meetings of the Advisory Councils may be called at any time by the Advisory Council Chairs or by a majority of Advisory Council members.
 
-4.6.	arXiv will provide travel funding for in-person meetings subject to the approval of the Faculty Director.
+4.6.	arXiv will provide travel funding for in-person meetings subject to the approval of the Executive Director.
 
 4.7.	arXiv staff shall provide support for preparation of agendas and taking minutes for the Advisory Councils as appropriate.
 
@@ -176,11 +176,11 @@ All arXiv staff, arXiv Advisory Board and Council members, moderators and users 
 
 ## 6.	Selecting and replacing Advisory Council Chairs
 
-6.1.	Inaugural Advisory Council Chair positions will be appointed by the arXiv Faculty Director.
+6.1.	Inaugural Advisory Council Chair positions will be appointed by the arXiv Executive Director.
 
-6.2.	The process for selecting and replacing Advisory Council Chairs will be included in each Councils’ operations manual. Recommendations for these positions must be approved by the Faculty Director.
+6.2.	The process for selecting and replacing Advisory Council Chairs will be included in each Councils’ operations manual. Recommendations for these positions must be approved by the Executive Director.
 
-6.3.	Recommendations should be received by the Faculty Director a minimum of 4 weeks prior to the annual fall meeting.
+6.3.	Recommendations should be received by the Executive Director a minimum of 4 weeks prior to the annual fall meeting.
 
 6.4.	Advisory Council Chairs must meet the same qualifications as Advisory Council  Members in Clause 2.2.
 
@@ -188,11 +188,11 @@ All arXiv staff, arXiv Advisory Board and Council members, moderators and users 
 
 <ul>6.5.1.	Advisory Council Chairs will serve 3-year terms.</ul>
 
-<ul>6.5.2.	At the discretion of the Faculty Director, Advisory Council Chairs will have the option to extend their term by an additional 1 year if the Faculty Director determines that such service is in the best interest of Cornell Tech and arXiv.</ul>
+<ul>6.5.2.	At the discretion of the Executive Director, Advisory Council Chairs will have the option to extend their term by an additional 1 year if the Executive Director determines that such service is in the best interest of Cornell Tech and arXiv.</ul>
 
 <ul>6.5.3.	Amongst Advisory Council Chairs, representation by an individual consortium, institution or organization should rotate to ensure diverse voices and representation.</ul>
 
-<ul>6.5.4.	The Faculty Director can appoint additional members with specific expertise to the arXiv Advisory Board as needed.</ul>
+<ul>6.5.4.	The Executive Director can appoint additional members with specific expertise to the arXiv Advisory Board as needed.</ul>
 
 
 
@@ -200,19 +200,19 @@ All arXiv staff, arXiv Advisory Board and Council members, moderators and users 
 
 7.1.	Each Advisory Council will determine and codify criteria for removal of Council members as they see fit.
 
-7.2.	All recommendations for replacements, deemed resignations or vacancies of Advisory Council Member positions must be approved by the Faculty Director.
+7.2.	All recommendations for replacements, deemed resignations or vacancies of Advisory Council Member positions must be approved by the Executive Director.
 
 
 
 ## 8.	Annual Fees 
-To be considered an arXiv member institution for the purposes of Advisory Council membership, annual fees must be paid by March 1 of each calendar year. Fees may be waived at the discretion of the Faculty Director.
+To be considered an arXiv member institution for the purposes of Advisory Council membership, annual fees must be paid by March 1 of each calendar year. Fees may be waived at the discretion of the Executive Director.
 
 
 
 ## 9.	Amendments 
-These Bylaws were established in 2023 and may be amended, or new Clauses adopted, by consensus agreement of the arXiv Advisory Board with approval from the Faculty Director. 
+These Bylaws were established in 2023 and may be amended, or new Clauses adopted, by consensus agreement of the arXiv Advisory Board with approval from the Executive Director. 
 
 
 
 ## 10.	Exceptional circumstances
-In situations that are either not foreseen by these Bylaws or in which acting in accordance with these Bylaws has unforeseen negative effects, the Faculty Director may take necessary action. Depending on the urgency, they will consult with the arXiv Advisory Board prior to that action, or discuss the action and its implications as soon as possible thereafter.
+In situations that are either not foreseen by these Bylaws or in which acting in accordance with these Bylaws has unforeseen negative effects, the Executive Director may take necessary action. Depending on the urgency, they will consult with the arXiv Advisory Board prior to that action, or discuss the action and its implications as soon as possible thereafter.
