@@ -60,6 +60,7 @@ On Hold
 
 When a user submits a work it undergoes a series of automated and human quality assurance checks as [part of moderation](moderation/index.md). These checks may put a submission "on hold". arXiv editors will either send you an email with instructions on how to resolve the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
+
 - If you notice your submission is on hold, no action is required on your part at this time.
 
 - Due to the large volume of submissions the process may take several days. We appreciate your patience.
