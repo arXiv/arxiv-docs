@@ -82,7 +82,7 @@ If you need more specific information, here is a more formal specification.
   "process": {
     "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>,
     "bibliography": {
-      "processor": "bibtex" | "biber" | ...,
+      "processor": "bibtex" | "biber",
       "pre_generated": true
     },
     "index": {
@@ -99,6 +99,7 @@ If you need more specific information, here is a more formal specification.
     },
     ...
   ],
+  "texlive_version": <YYYY>,
   "stamp": <BOOL>,
   "nohyperref": <BOOL>
 }
@@ -109,7 +110,7 @@ or as YAML:
 process:
   compiler: <COMPILER_STRING> | <COMPILER_SPEC>
   bibliography:
-    processor: bibtex | biber | ...
+    processor: bibtex | biber
     pre_generated: true
   index:
     processor: makeindex
@@ -120,6 +121,7 @@ sources:
     orientation: landscape | portrait
     keep_comments: <BOOL>
 stamp: <BOOL>
+texlive_version: <YYYY>
 nohyperref: <BOOL>
 ```
 The `COMPILER_SPEC` allows configuring the single stages from TeX source code to the final output:
@@ -151,14 +153,26 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     ```
     Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
 
+- #### plain tex with pdfetex
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "pdfetex",
+    "lang": "tex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+  Equivalent `COMPILER_STRING: pdftex` or `pdfetex`
+
 - #### LaTeX with dvips/ps2pdf 
     ```
-    COMPILER_SPEC  
-    {  
-    "engine": "etex",  
-    "lang": "latex",  
-    "output": "dvi",  
-    "postp": "dvips_ps2pdf"  
+    COMPILER_SPEC
+    {
+    "engine": "etex",
+    "lang": "latex",
+    "output": "dvi",
+    "postp": "dvips_ps2pdf"
     }
     ```
     Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
@@ -175,6 +189,18 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     ```
     Equivalent `COMPILER_STRING: pdflatex`
 
+- #### LaTeX with XeLaTeX
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "xetex",
+    "lang": "latex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+  Equivalent `COMPILER_STRING: xelatex`
+
 #### Compilation order
 
 The final output is assembled based on the following rules:
@@ -190,9 +216,13 @@ Note that as of now, all toplevel files are compiled with the same compiler.
 #### Additional notes  
 - `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
 
-- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.  
+- `process.bibliography` - arXiv now supports processing .bib files to .bbl using either `bibtex` or `biber`.
+
+- `process.index` – we still require a pre-generated .idx be included, meaning, we require that `pre_generated: true`.
 
 - `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
+
+- `texlive_version` - we provide the last two version of TeX Live that have been used by arXiv. At the moment this is `2025` (the current version) and `2023` (this is the previous version in use at arXiv).
 
 
 
