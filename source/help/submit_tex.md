@@ -192,8 +192,6 @@ about [references to and in arXiv documents](faq/references.md) and [collection 
 Use of e-print identifiers is a significant aid to the INSPIRE database. It also facilitates automatic
 network hyperlinks of references from within papers.
 
-If you use BibTeX there are some BibTeX styles which support e-print identifiers (see [BibTeX and Eprints](hypertex/bibstyles/index.md)).
-
 If you are submitting a group of `.tex` files, automated reference extraction by INSPIRE and others will be
 more accurate and faster if your references are all in one file. This file should have
 the `\begin{thebibliography}` or similar command within it, and should be called `foo.bbl` to correspond

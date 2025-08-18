@@ -52,7 +52,6 @@ There are various BibTeX style files which automatically create hyperlinks to ep
      SLACcitation  = "%%CITATION = HEP-TH/9711200;%%"
 }
 ```
- Style files which handle both the old-style and new-style preprint numbers include [utphys.bst](http://golem.ph.utexas.edu/~distler/TeXstuff/utphys.bst) and [kp.bst](bibstyles/kp.bst). For more information see [the BibTeX page on arXiv.org](bibstyles/index.md).
 
 Example
 -------
