@@ -328,17 +328,7 @@ distribution.
 
 An incomplete list of common symptoms, errors, and fixes follows:
 
-1.  Wrong biblatex format version
-    
-    If you have been developing with an older biblatex you will need to
-    regenerate your .bbl
-        file.
-    
-        Package biblatex Warning: File 'Constraints.bbl' is wrong format version - expected 3.2.
-
-    fix: the author needs to regenerate their .bbl file.
-
-2.  TikZ and PGF graphics packages.
+1. TikZ and PGF graphics packages.
     
     Reports from users indicate there are problems with these packages
     in our older TeX Live 2011 system. We observed improvements to
