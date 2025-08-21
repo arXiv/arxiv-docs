@@ -40,7 +40,7 @@ this page.
 - You understand that we will make changes to arXiv APIs that may lead to
   compatibility issues with your code. We will do our best to provide advance
   notice of such changes via our [website](https://arxiv.org/) under arXiv News and the
-  [arXiv API group](https://groups.google.com/forum/#!forum/arxiv-api). It is
+  [arXiv API group](https://groups.google.com/a/arxiv.org/g/api). It is
   up to you to keep track of changes that might affect your use of arXiv APIs
   and to make any required changes.
 - In order to provide support and improvements for developers who use arXiv
