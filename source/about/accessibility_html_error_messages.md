@@ -21,7 +21,7 @@ When browsing and reading HTML papers on arXiv.org, you may see formatting error
 ![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-border alt='System name errors are displayed in red markup. Errors are: forward slash system name, foward slash revision'}
 
 ## Steps authors can take to minimize HTML errors
-Authors who submit papers to arXiv can help minimize HTML errors by using LateX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
+Authors who submit papers to arXiv can help minimize HTML errors by using LateX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://github.com/brucemiller/LaTeXML/tree/master/lib/LaTeXML/Package).
 
 ## Frequently Asked Questions
 
@@ -44,10 +44,9 @@ They are beloved by academic communities for their ability to easily display com
 TeX and LaTeX are open source software programs  that  are platform independent which allows for the ability to view documents regardless of the operating system or software set-up making collaboration simple. These programs are maintained and iterated upon by the communities that use them, and as a result, there are many packages available offering a myriad of features to format research papers. 
 
 ### Which TeX/LaTeX packages are supported?
-- Please see this list of [supported packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file)
+- Please see this list of [supported packages](https://github.com/brucemiller/LaTeXML/tree/master/lib/LaTeXML/Package)
 - Please see our list of [unsupported packages](https://github.com/brucemiller/LaTeXML/wiki/Porting-LaTeX-packages-for-LaTeXML)
 
 ### What are ‘partially’ supported packages? 
 
 A partially supported package has select features NIST has chosen to support in LaTeXML. 
-
