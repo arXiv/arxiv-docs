@@ -10,7 +10,7 @@
 
 # Submissions by Institution (2024)
 
-_See more [arXiv in Numbers](2024_usage.md)_
+_See more [arXiv submission statistics](https://arxiv.org/stats/main)._
 
 Institutional members can view annual reports on their membership dashboard. [To learn how this information is used in the membership program, see here](../../about/membership.md). The following table shows submissions by institution in 2022, 2023, and 2024. Don't see your institution? Contact [membership@arxiv.org](mailto:membership.arxiv.org). 
 
