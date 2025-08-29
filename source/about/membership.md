@@ -11,7 +11,7 @@ Membership offers your institution a high value, low-risk, budget-conscious opti
 
 Is arXiv an essential resource for your researchers? If yes, then we invite you to become a member according to the structure described here.  Annual fees are based on submissions by institution, averaged over three years.
 
-First, [find your institution's overall submission rank](reports/2024_institution_submissions_all.md).
+First, [find your institution's overall submission rank](reports/2024_institution_submissions.md).
 
 Then, match your rank to the fee using this table:
 
