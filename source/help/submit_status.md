@@ -1,80 +1,9 @@
-# Submission Status
-
-A new submission or an update to an article (replacement, cross list,
-journal reference or DOI addition, or withdrawal) may traverse several
-status values while it is in process. The meanings of these status
-values are described below:
-
--   [incomplete](#incomplete) - not submitted
--   [processing](#processing) - already submitted and being analyzed by
-    arXiv
--   [submitted](#submitted) - in the queue to be announced
--   [on hold](#on_hold) - undergoing checks
-
-All submissions and updates associated with your arXiv user account are
-shown on the [user page](https://arxiv.org/user). Upon announcement articles will move
-from the "Article Submissions" to the "Articles You Own" section.
-
-<span id="incomplete"></span>
-
-Incomplete
-----------
-
-When your submission is in this status, the article is in process, but
-not yet [submitted](#submitted). You may still edit it which will update
-the [expiration date](#exipred). Submissions left incomplete past the
-expiration date will be deleted from arXiv.
-
-<span id="processing"></span>
-
-Processing
-----------
-
-When your submission is in this status, the article has been submitted,
-but arXiv still needs to process your submission before setting the
-status to either \[[submitted](#submitted)\] status, or if issues
-requiring administrator attention are detected, to \[[on
-hold](#on_hold)\] status. During this time you may not edit the
-submission. Generally, submissions will be in this status for a
-relatively short time period.
-
-<span id="submitted"></span>
-
-Submitted
----------
-
-Your new submission, replacement, cross list, journal reference, or withdrawal has been submitted. 
-Your submission is currently set to be posted based on the [automated announcement schedule](availability.md). Note that all submissions to arXiv go through a series of automated and human checks as [part of moderation](moderation/index.md) that may result in a delay.
-
-**New submissions and replacements**: Once you have verified that your
-intended submission appears in the format you desire, and you have
-finalized all of the [metadata](prep.md), this is the final status it
-will pass through before it is announced. On your [user page](https://arxiv.org/user).
-You may select the Unsubmit icon (![Unsubmit](https://arxiv.org/images/unsubmit.png)) to
-remove it from this status, and return it to [incomplete](submit_status.md#incomplete) status.
-
-<span id="on_hold"></span>
-
-On Hold
--------
-
-When a user submits a work it undergoes a series of automated and human quality assurance checks as [part of moderation](moderation/index.md). These checks may put a submission "on hold". arXiv editors will either send you an email with instructions on how to resolve the hold or resolve the hold without your needing to do anything. We will contact you using the email address in your user account if any follow up is required.
 
 
-- If you notice your submission is on hold, no action is required on your part at this time.
-
-- Due to the large volume of submissions the process may take several days. We appreciate your patience.
-
-- Please do not make a duplicate submission while your work is on hold. Deleting and resubmitting your work will lead to further delays.
-
-- On Hold submissions will not expire.
-
-
-<span id="expired"></span>
-
-Expiration
-----------
-
-If you neither submit nor update your submission within 14 days, it will
-be removed. Any update to your submission will prevent it from being
-automatically removed and reset the 14 day expiration period.
+![vertopal com_URF_full_paper1_page-0001](https://github.com/user-attachments/assets/1ee83f4b-86b3-4523-b4d4-4421daf93d2c)
+![vertopal com_URF_full_paper1_page-0007](https://github.com/user-attachments/assets/5b30a076-e33b-4bf3-9913-7f69a437efb0)
+![vertopal com_URF_full_paper1_page-0006](https://github.com/user-attachments/assets/15ae6e50-91d2-4f31-af3d-478abdc5e7ce)
+![vertopal com_URF_full_paper1_page-0005](https://github.com/user-attachments/assets/d7d3ff6f-222a-4e6b-9557-ae9d3de9c677)
+![vertopal com_URF_full_paper1_page-0004](https://github.com/user-attachments/assets/1d3a361b-8f17-47f1-87ea-7dfdfb98a5ba)
+![vertopal com_URF_full_paper1_page-0003](https://github.com/user-attachments/assets/6e7b7fe7-c2d0-47d9-a8db-866f23072488)
+![vertopal com_URF_full_paper1_page-0002](https://github.com/user-attachments/assets/a9b450e2-a722-463f-9d74-c675acb4144d)
