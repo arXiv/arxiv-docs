@@ -7,7 +7,6 @@ arXiv’s goal is to provide our members with the data they need to evaluate arX
 Learn more about the data arXiv collects and how we share it with the public and our members in the frequently asked questions below.
 
 Still have questions? Reach out to us at [membership@arxiv.org](mailto:membership@arxiv.org).
-{.intro}
 
 ## What data does arXiv collect to share with members?
 
