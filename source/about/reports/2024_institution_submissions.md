@@ -8,18 +8,22 @@
 <script type='text/javascript' src="https://cdn.datatables.net/2.3.2/js/dataTables.min.js"></script>  
 <link href="https://cdn.datatables.net/2.3.2/css/dataTables.dataTables.css" rel="stylesheet" type="text/css">  
 
-# Submissions by Institution (2024)
+# Submissions by Institution
 
 _See more [arXiv submission statistics](https://arxiv.org/stats/main)._
 
-Institutional members can view annual reports on their membership dashboard. [To learn how this information is used in the membership program, see here](../../about/membership.md). The following table shows submissions by institution in 2022, 2023, and 2024. Don't see your institution? Contact [membership@arxiv.org](mailto:membership.arxiv.org). 
+Submissions by Institution is a important metric that arXiv shares to help institutions understand how their researchers use arXiv. The table below ranks institutions globally by the number of papers their researchers submit to arXiv, averaged over the past three years (2022, 2023, 2024).
+
+Members of arXiv can view more detailed submission data for their institutions in their membership dashboard. [To learn how this information is used in the membership program, see here](../../about/membership.md).
 
 ---
-**NOTE**
+**ABOUT THIS TABLE**
 
-  - Please allow 20-30 seconds for the table to fully load. The filter UI may be unresponsive until the data is fully loaded. 
-  - The filter options are combined with a <strong>logical AND</strong>. In general, you will want to Select All on at least one column.
-
+  - For the best search experience, please allow the table to fully load (about 5 seconds).
+  - To bring up your search in the table: first <strong>deselect all</strong> in the column you are searching in, then <strong>type in your search term</strong>. Finally, <strong>select your country or institutions</strong> to filter the table.
+  - This table includes all institutions that submit <strong>at least 5</strong> papers to arXiv a year, on average.
+  - Can't find your institution? Contact [membership@arxiv.org](mailto:membership.arxiv.org).
+    
 ---
 
 
