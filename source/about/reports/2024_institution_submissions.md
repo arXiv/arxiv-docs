@@ -12,7 +12,7 @@
 
 _See more [arXiv submission statistics](https://arxiv.org/stats/main)._
 
-Submissions by Institution is a important metric that arXiv shares to help institutions understand how their researchers use arXiv. The table below ranks institutions globally by the amount of papers their researchers submit to arXiv, averaged over the past three years (2022, 2023, 2024).
+Submissions by Institution is a important metric that arXiv shares to help institutions understand how their researchers use arXiv. The table below ranks institutions globally by the number of papers their researchers submit to arXiv, averaged over the past three years (2022, 2023, 2024).
 
 Members of arXiv can view more detailed submission data for their institutions in their membership dashboard. [To learn how this information is used in the membership program, see here](../../about/membership.md).
 
