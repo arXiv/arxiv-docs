@@ -79,10 +79,11 @@ The above example should be enough to write well-specified `00README` files in t
 If you need more specific information, here is a more formal specification.
 ```
 {
+  "spec_version": <N>,
   "process": {
     "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>,
     "bibliography": {
-      "processor": "bibtex" | "biber" | ...,
+      "processor": "bibtex" | "biber",
       "pre_generated": true
     },
     "index": {
@@ -99,6 +100,7 @@ If you need more specific information, here is a more formal specification.
     },
     ...
   ],
+  "texlive_version": <YYYY>,
   "stamp": <BOOL>,
   "nohyperref": <BOOL>
 }
@@ -106,10 +108,11 @@ If you need more specific information, here is a more formal specification.
 or as YAML:
 
 ```
+spec_version: <N>
 process:
   compiler: <COMPILER_STRING> | <COMPILER_SPEC>
   bibliography:
-    processor: bibtex | biber | ...
+    processor: bibtex | biber
     pre_generated: true
   index:
     processor: makeindex
@@ -120,8 +123,23 @@ sources:
     orientation: landscape | portrait
     keep_comments: <BOOL>
 stamp: <BOOL>
+texlive_version: <YYYY>
 nohyperref: <BOOL>
 ```
+
+#### Toplevel keys
+
+- `spec_version`: At the moment only the value `1` is allowed. As the format of the 00README file evolves, we will increase this value to indicate different levels.
+
+- `texlive_version`: The TeX Live version requested for compilation. When uploading a submission to arXiv, this is set during the upload process. We provide the last two version of TeX Live that have been used by arXiv. At the moment this is `2025` (the current version) and `2023` (this is the previous version in use at arXiv).
+
+- `stamp` controls whether the arXiv watermark is placed on the first page of the submission. Defaults to `true`.
+
+- `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
+
+
+#### Structured keys
+
 The `COMPILER_SPEC` allows configuring the single stages from TeX source code to the final output:
 
 ```
@@ -135,7 +153,7 @@ The `COMPILER_SPEC` allows configuring the single stages from TeX source code to
 
 The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only submissions.
 
-### Compilation Specifications
+#### Supported values for compiler specs
 
 We are currently supporting the following `COMPILER_SPEC`s. In the following we also list the `COMPILER_STRING` equivalents. The `COMPILER_STRING` provides a “stringy” representation of the compilation paths.
 
@@ -153,12 +171,12 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
 
 - #### LaTeX with dvips/ps2pdf 
     ```
-    COMPILER_SPEC  
-    {  
-    "engine": "etex",  
-    "lang": "latex",  
-    "output": "dvi",  
-    "postp": "dvips_ps2pdf"  
+    COMPILER_SPEC
+    {
+    "engine": "etex",
+    "lang": "latex",
+    "output": "dvi",
+    "postp": "dvips_ps2pdf"
     }
     ```
     Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
@@ -190,9 +208,7 @@ Note that as of now, all toplevel files are compiled with the same compiler.
 #### Additional notes  
 - `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
 
-- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.  
-
-- `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
+- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.
 
 
 
