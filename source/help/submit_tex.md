@@ -14,6 +14,7 @@
 *   [Potential problems with biblatex `.bbl` files](#biblatex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
 *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
+*   [Usage of `xr`, `subfiles`, and external documents](#xr)
 *   [Avoid mistakes in the text](#mistakes)
 *   [Problems with special TeX characters in hyperlinks (URLs) -- in particular JHEP3.cls](#jhep3)
 *   [Hidden files will be deleted upon announcement](#hidden)
@@ -328,6 +329,30 @@ You must provide these files if you have any special nomenclature in your docume
 Note for submitters who use Overleaf: Please refer to
 [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission)
 regarding how to prepare your document for submission to arXiv.
+
+<span id="xr"></span>
+
+### Usage of `xr`, `subfiles`, and external documents
+
+In general, usage of the `xr` (and the deprecated `xr-hyper`, which is subsumed by `xr`), is problematic
+and we advise against the usage of it on arXiv. `xr` provides a way to link to **external documents**, but
+renaming of files, file locations etc will be different on the arXiv servers, and thus links to external
+documents will **not** work.
+
+In particular, if a submission consists of two separately compiled PDFs, and one contains `xr` based links
+to the other, these links will not function in the final document. We concatenate the single PDFs, and thus
+the external file will be lost.
+
+In such a case, there is an option to reformat the two documents into main and subfile(s) and use the `subfiles`
+package. Using `xr` and `subfiles` with multiple documents can work when the setup is correctly done:
+
+- Assume that the main file is called `my-submission`
+- The main document loads `xr` and `subfiles`, and declares `\externaldocument[M-]{my-submission}[]`
+- The sub-document uses `subfiles` document class, loads `xr`, and also declares the same `\externaldocument...` as above
+- The prefix `M-` is arbitrary and can be choosen, please see the documentation of `xr`
+
+This should resolve all links within any of the subfiles or links across files as
+internal document links.
 
 <span id="mistakes"></span>
 
