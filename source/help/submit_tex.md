@@ -347,7 +347,7 @@ In such a case, there is an option to reformat the two documents into main and s
 package. Using `xr` and `subfiles` with multiple documents can work when the setup is correctly done:
 
 - Assume that the main file is called `my-submission`
-- The main document loads `xr` and `subfiles`, and declares `\externaldocument[M-]{my-submission}[]`
+- The main document loads `xr` and `subfiles`, and declares `\externaldocument[M-]{my-submission}[]` -- the empty optional argument at the end ensures that hyperref creates internal links.
 - The sub-document uses `subfiles` document class, loads `xr`, and also declares the same `\externaldocument...` as above
 - The prefix `M-` is arbitrary and can be choosen, please see the documentation of `xr`
 
