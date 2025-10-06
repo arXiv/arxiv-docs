@@ -19,7 +19,7 @@ Policy links and various other details are included in the [Identify](https://oa
 
 Each article in arXiv is modeled as an Item in the OAI-PMH interface. Only the most recent version of each article is exposed via this interface (some metadata formats include the version history).
 
-### Metedata formats
+### Metadata formats
 
 Metadata for each item (article) is available in several formats, all formats are supported for all articles. The available formats include:
 
