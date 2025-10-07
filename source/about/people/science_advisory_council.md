@@ -2,7 +2,7 @@
 
 The Science Advisory Council represents the scientific and research community of arXiv, 
 that is, those who create valuable content and who systematically read this content. The 
-Science Advisory Council provides advice and guidance to the Faculty Director on 
+Science Advisory Council provides advice and guidance to the Executive Director on 
 issues guiding the sustainability and success of arXiv, including those pertaining to the 
 intellectual oversight of arXiv. Examples include: mission, vision, strategy, budget, 
 significant expansions, high-level issues related to standards, expansion in new 
