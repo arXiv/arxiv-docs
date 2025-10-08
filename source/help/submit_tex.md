@@ -75,6 +75,27 @@ We suggest either selecting TeX Live 2023, or requesting an older version or the
 \usepackage{array}[=2016-10-06]
 ```
 
+##### Usage of `cleveref` package
+
+The `cleveref` package has not been updated to work with TeX Live 2025. When using it in a submission
+with TeX Live 2025, references will all include the same name (i.e., all `\cref{...}` will have the
+same "name" like "Proposition").
+
+Either select TeX Live 2023 for your submission, or add, for each definition of a theorem-like environment
+you use, the necessary `\crefalias`.
+
+Example: If there is
+
+```
+\newtheorem{theorem}{Theorem}[section]
+```
+
+then a line as follows needs to be added:
+
+```
+\AddToHook{env/theorem/begin}{\crefalias{section}{theorem}}
+```
+
 ##### Loading of packages outside the toplevel
 
 Loading packages using `\usepackage` or `\RequirePackage` will now fail when happening in a group `{...}`.
