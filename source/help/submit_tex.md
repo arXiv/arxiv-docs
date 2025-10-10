@@ -295,11 +295,9 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 ### Include `.bib` or `bbl` files if you use BibTeX/Biber
 
-arXiv now provides support for bib file processing using various processors like `bibtex` and `biber`.
+arXiv now provides support for bib file processing using various processors like `biblatex` (with auto-selection of the correct backend) and `bibtex`.
 
 It is also possible to upload a pre-generated `.bbl` file for your paper. In this case, the name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
-
-Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
 Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 <span id="biblatex"></span>
@@ -328,11 +326,13 @@ at the present time. If your .bbl for biblatex is not compatible, then your subm
 During submission, you should see a warning about incompatible bbl versions.
 [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
-To be more specific: arXiv uses TeX Live 2023, which includes biblatex 3.19, Biber 2.19, and uses
-the bbl format 3.2. TeX Live 2024 and 2025 include biblatex 3.20, Biber 2.20, and use bbl format 3.3.
+To be more specific: arXiv offers currently TeX Live 2023 and 2025 (the default).
+TeX Live 2025 includes biblatex 3.20, Biber 2.20, and uses bbl format 3.3.
+TeX Live 2023 included biblatex 3.19, Biber 2.19, and uses bbl format 3.2.
 
-We have taken steps to ensure that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2024 and 2025),
+For TeX Live 2023, we have taken steps that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2025),
 are supported by arXiv.
+For TeX Live 2025, only bbl format 3.3 is supported.
 
 <span id="makeindex"></span>
 
