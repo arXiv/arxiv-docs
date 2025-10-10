@@ -19,21 +19,21 @@ Policy links and various other details are included in the [Identify](https://oa
 
 Each article in arXiv is modeled as an Item in the OAI-PMH interface. Only the most recent version of each article is exposed via this interface (some metadata formats include the version history).
 
-### Metedata formats
+### Metadata formats
 
 Metadata for each item (article) is available in several formats, all formats are supported for all articles. The available formats include:
 
 - `oai_dc` - Simple Dublin Core. See [example in `oai_dc` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=oai_dc).
 
--  `arXiv` - arXiv specific metadata format which includes author names separated out, category and license information. See [example in `arXiv` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
+-  `arXiv` - arXiv specific metadata format for the latest version of a paper. Includes author names separated out, category and license information. See [example in `arXiv` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXiv).
 
-- `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes version history. See [example in `arXivRaw` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
+- `arXivRaw` - arXiv specific metadata format which is very close the internal format stored at arXiv. Includes history for previous versions of the paper. See [example in `arXivRaw` format](https://oaipmh.arxiv.org/oai?verb=GetRecord&identifier=oai:arXiv.org:0804.2273&metadataPrefix=arXivRaw).
 
 You may request a list of all the metadata formats supported with the [ListMetadataFormats](https://oaipmh.arxiv.org/oai?verb=ListMetadataFormats) verb.
 
 ### Datestamps
 
-Every OAI-PMH metadata record has a [`datestamp`](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Datestamp) associated with it, which is the last modification time of that record. Because arXiv has updated metadata records in bulk on several occasions, the OAI-PMH `datestamp` values do not correspond with the original submission or replacement times for older articles, and may not for newer articles because of administrative and bibliographic updates. The earliest datestamp is given then the `<earliestDatestamp>` element of the [Identify](http://oaipmh.arxiv.org/oai?verb=Identify) response.
+Every OAI-PMH metadata record has a [`datestamp`](http://www.openarchives.org/OAI/2.0/openarchivesprotocol.htm#Datestamp) associated with it, which is the last modification time of that record. To view dates for previous versions of a paper use the arXivRaw metadat format. Because arXiv has updated metadata records in bulk on several occasions, the OAI-PMH `datestamp` values do not correspond with the original submission or replacement times for older articles, and may not for newer articles because of administrative and bibliographic updates. The earliest datestamp is given then the `<earliestDatestamp>` element of the [Identify](http://oaipmh.arxiv.org/oai?verb=Identify) response.
 
 >**Please Note:** The OAI-PMH interface does not support selective harvesting based on submission date. The datestamps are designed to support incremental harvesting of updates on an ongoing basis. It is not possible to selectively harvest articles such as articles submitted in February 2001. With the exception of selective subject area harvesting [(see description of Sets below)](###Sets) the interface is designed to support copying and synchronization of a complete set of arXiv metadata. To harvest metadata for all articles:  
 >

@@ -17,6 +17,8 @@ The editorial committee members serve as consultants to Cornell University and t
 - Angela Gibney, University of Pennsylvania
 - Alex Iosevich, University of Rochester
 - Greg Kuperberg, University of California, Davis
+- Nilima Nigam, Simon Fraser University
+- Stefan Steinerberger, University of Washington, Seattle
 
 
 ## Historical notes

@@ -12,11 +12,11 @@
 <div markdown="1">
 
 ## Ramin Zabih
-**Faculty Director**
+**Executive Director**
 
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8769-5666](https://orcid.org/0000-0001-8769-5666){target="_blank"}
 
-As arXiv faculty director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
+As arXiv executive director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
 </div>
 </div>
 </div>
@@ -33,7 +33,7 @@ As arXiv faculty director, Ramin guides arXiv’s strategic vision and technolog
 - [@yoavartzi](https://twitter.com/@yoavartzi){target="_blank"}
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0002-4605-6144](https://orcid.org/0000-0002-4605-6144){target="_blank"}
 
-In his role as associate faculty director at arXiv, Yoav assists the faculty director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech. Yoav holds a Ph.D. in Computer Science from the University of Washington.
+In his role as associate faculty director at arXiv, Yoav assists the Executive Director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech. Yoav holds a Ph.D. in Computer Science from the University of Washington.
 </div>
 </div>
 </div>

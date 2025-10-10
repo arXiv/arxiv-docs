@@ -10,7 +10,7 @@ Note that all submissions are subject to [moderation](moderation/index.md) which
 <a name="id-before"></a>
 ## A note about arXiv-id assignments
 
-The final [arXiv identifier](arxiv_identifier.md) cannot be assigned until the paper is announced, so please do not ask for it ahead of announcement. It is not possible to make exceptions, nor accelerate the announcement schedule regardless of your circumstance. 
+The final [arXiv identifier](arxiv_identifier.md) is assigned as part of the automated process when the work is announced. It is not possible to generate or to be provided with the arXiv identifier or DOI in advance. Submitting authors will receive an email when the work is announced and it will appear on their account dashboard.
 
 **Note:** The arXiv identifier cannot be back-dated, so identifiers will be assigned in the month of first announcement. It may be the case that a submission appears in a different identifier month than its original submission date due to various factors.
 
@@ -30,10 +30,14 @@ The final [arXiv identifier](arxiv_identifier.md) cannot be assigned until the p
 Occasionally, arXiv defers a mailing, either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons. Information about deferred mailings may be found on the [arXiv status](https://status.arxiv.org) page, or on the [arXiv blog](https://blog.arxiv.org).  
 
 ### 2025 Holidays 
-- Wed 1 January
-- Mon 20 January
-- Thu 19 June 
-- Sun 6 July 
-- Mon 1 September 
-- Thu 27 November 
-- December Holidays are not yet scheduled
+- Wednesday 1 January
+- Monday 20 January
+- Thursday 19 June 
+- Sunday 6 July 
+- Monday 1 September 
+- Thursday 27 November 
+- Thursday 25 December
+- Tuesday 30 December
+
+### 2026 Holidays
+- Thursday 1 January

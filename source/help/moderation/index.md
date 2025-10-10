@@ -27,7 +27,7 @@ Submissions to arXiv must comply with appropriate standards of scholarly communi
 <span id="scholarly-interest"></span>
 #### Scholarly interest
 
-arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, significance, and/or contains falsified, plagiarized content or serious misrepresentations of data, affiliation, or content.
+arXiv moderators expect submissions to be of scholarly archival interest to the communities they represent. A submission may be declined if the moderators determine it lacks originality, novelty, significance, and/or contains falsified, plagiarized content or serious misrepresentations of data, affiliation, or content. Submissions should focus entirely on the scientific research and avoid extraneous personal or political statements.
 
 Submissions that do not contain original or substantive research, including course projects, research proposals, news, or information about political causes (even those with potential special interest to the academic community) may be declined. Submissions in need of significant review and revision may also be declined.
 
