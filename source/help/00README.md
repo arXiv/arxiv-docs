@@ -83,7 +83,7 @@ If you need more specific information, here is a more formal specification.
   "process": {
     "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>,
     "bibliography": {
-      "processor": "bibtex" | "biber",
+      "processor": "bibtex" | "biblatex" | "biber" | "bibtex8" | "bibtexu" | "upbibtex",
       "pre_generated": true
     },
     "index": {
@@ -112,7 +112,7 @@ spec_version: <N>
 process:
   compiler: <COMPILER_STRING> | <COMPILER_SPEC>
   bibliography:
-    processor: bibtex | biber
+    processor: bibtex | biblatex | biber | bibtex8 | bibtexu | upbibtex
     pre_generated: true
   index:
     processor: makeindex
@@ -205,11 +205,25 @@ The final output is assembled based on the following rules:
 
 Note that as of now, all toplevel files are compiled with the same compiler. 
 
+#### bib to bbl conversion
+
+Since late 2025, we allow uploading submissions without `.bbl` files, if all necessary `.bib` files are included.
+To activate this, set `process.bibliography.pre_generated: false` in your uploaded `00README.json`.
+Our system will detect either `bibtex` or `biblatex` as selected bib/bbl compilers, but you can
+override this by setting `process.bibliography.processor` to one of the following values:
+
+- `bibtex` - the default
+- `biblatex` - if you use the `biblatex` package. The backend will be automatically detected
+- `biber`, `bibtex8`, `bibtexu`, `upbibtex` - really only if you know what you are doing!!
+
+If `process.bibliography.pre_generated` is set ot `true`, then we require that the `.bbl` file is included in the submission.
+
 #### Additional notes  
-- `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
+- `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.
 
-- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.
+- `process.index` – we still require a pre-generated .idx be included, meaning, we require that `pre_generated: true`.  
 
+- `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
 
 
 ## `00README.XXX`
