@@ -156,6 +156,8 @@ This is a complex task, and the processing does not always lead to the desired o
 important for you, the author/submitter, to carefully check and verify the resulting PDF. You will be required
 to view the PDF during the submission process before you will be able to complete your submission.
 
+Some aspects of the conversion can be controlled by uploading a [00README](00README.md) file, see the page for further details.
+
 You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and
 custom macros ([see below](#wedonthavethem)) packaged in a (possibly compressed) `.tar` or `.zip` file. Main files
 (or "Toplevel files") can be in the root or in a subdirectory, but note that compilation is **always** done
