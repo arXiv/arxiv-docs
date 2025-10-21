@@ -1,4 +1,4 @@
-# Our Members: 2023 - 2024
+# Our Members: 2024 - 2025
 
 We are so thankful for our members – arXiv would not be possible without their support. arXiv members are universities, research labs, libraries, and consortia that contribute funding to arXiv to help advance the cause of open science.
 {.intro}
@@ -133,7 +133,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 1. Indian Institute of Technology (IIT) - Bombay (India)
 1. Indiana University (USA) _BTAA_
 1. Institute for Advanced Study (USA)
-1. Institute of Science Tokyo (formerly Tokyo Institute of Technology) (Japan) _NII Japan Consortium_
+1. Institute of Science Tokyo (Japan) _NII Japan Consortium_
 1. KEK High Energy Accelerator Research Organization (Japan) _NII Japan Consortium_
 1. KU Leuven (Belgium)
 1. Kyoto University (Japan) _NII Japan Consortium_
@@ -271,6 +271,6 @@ Regular Submitters are members whose researchers regularly submit scholarly arti
 1. Villanova (USA)
 1. Vrije Universiteit Amsterdam	(Netherlands)
 1. Washington State University (USA)
-1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _CSAL_
+1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _SLSP-CSAL_
 
 </div>
