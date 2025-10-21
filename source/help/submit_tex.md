@@ -296,7 +296,7 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 <span id="bibtex"></span>
 
-### Include `.bib` or `bbl` files if you use BibTeX/Biber
+### Include `.bib` or `.bbl` files if you use BibTeX/Biber
 
 arXiv now provides support for bib file processing using various processors like `biblatex` (with auto-selection of the correct backend) and `bibtex`.
 
