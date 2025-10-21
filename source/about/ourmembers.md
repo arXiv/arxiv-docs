@@ -22,7 +22,7 @@ arXiv gratefully acknowledges the consortia across the globe who represent the b
 1. NII Japan Consortium (Japan)
 
 ## Champion
-
+### $10,000
 Champion members with arXiv are institutions whose researchers are top users of arXiv and whose goal is to lead the global research community in innovation, education, and promoting open science.
 
 1. California Institute of Technology (USA)
@@ -53,7 +53,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 
 ## All Star
 
-"All Star" membership with arXiv is a new option for institutions who would like to support open access science and arXiv above and beyond their standard membership rate. 
+"All Star" membership with arXiv is for institutions who would like to support open access science and arXiv above and beyond their standard membership rate. 
 
 1. Brock University (Canada) _CRKN_
 1. Indian Institute of Science (India) 
