@@ -143,7 +143,7 @@ The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only s
 
 We are currently supporting the following `COMPILER_SPEC`s. In the following we also list the `COMPILER_STRING` equivalents. The `COMPILER_STRING` provides a “stringy” representation of the compilation paths.
 
-- #### plain tex
+- #### Plain TeX with dvips/ps2pdf
     ```
     COMPILER_SPEC  
     {
@@ -154,6 +154,18 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     }
     ```
     Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
+
+- #### Plain TeX with PDFTeX
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "pdfetex",
+    "lang": "tex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+    Equivalent `COMPILER_STRING: pdftex` or `pdfetex`
 
 - #### LaTeX with dvips/ps2pdf 
     ```
@@ -178,6 +190,18 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     } 
     ```
     Equivalent `COMPILER_STRING: pdflatex`
+
+- #### LaTeX with XeLaTeX
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "xetex",
+    "lang": "latex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+    Equivalent `COMPILER_STRING: xelatex`
 
 #### Compilation order
 
