@@ -11,7 +11,7 @@ This page explains our older legacy submission system (Submissions 1.0) and how 
  *   [We probably have your style files or macros](#wegotem)
  *   [Do not submit in double-spaced "referee" mode](#double)
  *   [Prepare the references carefully](#refs)
- *   [Include `.bib` or `bbl` files if you use BibTeX/Biber](#bibtex)
+ *   [Include `.bbl` files if you use BibTeX](#bibtex)
  *   [Potential problems with biblatex `.bbl` files](#biblatex)
  *   [Include `.ind` files if you used `makeindex`](#makeindex)
  *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
@@ -82,7 +82,7 @@ _Note:_ arXiv recommends against using the `\today` macro in the standard `\date
 
 By default, LaTeX files are processed using LaTeX2e (the current version of LaTeX). Although there is a LaTeX2.09 compatibility mode, it is highly recommended that you use LaTeX2e whenever possible, to take advantage of all its features and improvements and to avoid complications which may arise in compatibility mode (note that LaTeX2e has been the default latex version for many years).
 
-If you have a file named foo.tex, then do not include any associated auxiliary file or intermediate or resulting output file, e.g. foo.ps (or foo.aux, foo.log, foo.toc, foo.lot, foo.lof, foo.dvi, foo.pdf) in your submission. These will be automatically removed to allow the creation of an output file from your TeX file. Index (`.ind`) files are an exception, [see below](#bibtex).
+If you have a file named foo.tex, then do not include any associated auxiliary file or intermediate or resulting output file, e.g. foo.ps (or foo.aux, foo.log, foo.toc, foo.lot, foo.lof, foo.dvi, foo.pdf) in your submission. These will be automatically removed to allow the creation of an output file from your TeX file. Index (`.ind`) and processed bibtex (`.bbl`) files are an exception, [see below](#bibtex).
 
 <span id="figures"></span>
 #### Figure inclusion in LaTeX submissions
@@ -161,11 +161,11 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 <span id="bibtex"></span>
 
-### Include `.bib` or `bbl` files if you use BibTeX/Biber
+### Include `.bbl` files if you use BibTeX
 
-arXiv now provides support for bib file processing using various processors like `bibtex` and `biber`.
+We do not run BibTeX in the auto-TeXing procedure. If you use it, include in your submission the `.bbl` file that BibTeX produces on your own machine; otherwise your references will not come out correctly. We do not run BibTeX because the `.bib` database files can be quite large, and the only thing necessary to resolve the references for a given paper is the `.bbl` file. You may still include them if you wish, but they must also match your .tex file name.
 
-It is also possible to upload a pre-generated `.bbl` file for your paper. In this case, the name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
+The name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
 
 Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv. They require the presence of a `.aux` file in order to set up their linking structure. Since our AutoTeX system deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly, and will not report any critical error during processing. Instead we require that you update your `.bbl` files to include the appropriate references for both documents.
 
@@ -187,7 +187,7 @@ Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or 
 
 #### The `.bbl` file version is not compatible with biblatex or Biber on arXiv
 
-We are currently supporting `.bbl` files generated from `biber` in format 3.2 and 3.3, which spans TeX Live 2022 to TeX Live 2025. Do not upload `.bbl` files in older or newer formats.
+When uploading the .bbl file for biblatex, it must be compatible with the version of biblatex or Biber on the arXiv at the present time. If your .bbl for biblatex is not compatible then your submission will have errors. [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
 <span id="makeindex"></span>
 
