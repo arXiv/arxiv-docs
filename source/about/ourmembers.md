@@ -1,4 +1,4 @@
-# Our Members: 2024 - 2025
+# Our Members
 
 We are so thankful for our members – arXiv would not be possible without their support. arXiv members are universities, research labs, libraries, and consortia that contribute funding to arXiv to help advance the cause of open science.
 {.intro}
@@ -272,5 +272,7 @@ Regular Submitters are members whose researchers regularly submit scholarly arti
 1. Vrije Universiteit Amsterdam	(Netherlands)
 1. Washington State University (USA)
 1. Zürcher Hochschule der Angewandten Wissenschaften (Switzerland) _SLSP-CSAL_
-
+---
 </div>
+
+_Last updated October 21, 2025_
