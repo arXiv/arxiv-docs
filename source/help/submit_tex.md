@@ -240,6 +240,7 @@ arXiv fully supports and automatically recognizes PDFLaTeX.
 *   Should you need conditional branching in your source, use the [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) package. Do not re-invent the wheel.
     [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) provides a robust and well tested mechanism to distinguish between pdflatex in pdf mode and other
     modes or engines.
+*   You should not use `\pdfoutput` to change the output format.
 *   Some packages may require a particular back-end driver, in the form of a package option, 
     e.g. `\usepackage[pdftex]{...}`. However, the graphics and hyperref packages determine the proper driver
     automatically; you do not have to make this explicit choice and should not do so to avoid conflicts.
@@ -300,6 +301,12 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 arXiv now provides support for bib file processing using various processors like `biblatex` (with auto-selection of the correct backend) and `bibtex`.
 
 It is also possible to upload a pre-generated `.bbl` file for your paper. In this case, the name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
+
+Our system will use the `.bbl` file if it is present, and otherwise will automatically detect the usage of bibliography and select the bib-compiler accordingly. In case the `.bbl` file is not uploaded, and at least one necessary `.bib` file is missing, the submission system will block you from proceeding with your submission.
+
+We detect `biblatex` usage and will run the program selected as backend in the `biblatex` configuration (that is, one of `biber`, `bibtex`, `bibtex8`), and otherwise use `bibtex`.
+
+In the non-`biblatex` case, we use `bibtex`. If you need to use another bib-processor (like e.g., `bibtex8` or `upbibtex`), you must pre-compile the bibliography, upload the `.bbl` and preserve the `.bbl`.
 
 Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 <span id="biblatex"></span>

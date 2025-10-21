@@ -2,6 +2,9 @@
 
 ## Update to TeX Live 2025
 
+*Update October 2025:* The submission system has been updated to support bib to bbl conversion,
+as well as support for `xelatex` and `pdftex` compilers.
+
 *Update September 2025:* arXiv has updated its submission system to use a plain instance of [TeXLive 2025](http://tug.org/texlive) for [Submission v1.5](../submit_tex.md#newtex). This means if your submission uses any TeX packages not included in the TeX Live 2025 release, you will need to include their style files with your submission.
 
 TeX Live 2025 is changing daily, arXiv uses the state of 2025-08-03.
