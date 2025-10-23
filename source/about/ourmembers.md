@@ -22,7 +22,7 @@ arXiv gratefully acknowledges the consortia across the globe who represent the b
 1. NII Japan Consortium (Japan)
 
 ## Champion
-### $10,000
+
 Champion members with arXiv are institutions whose researchers are top users of arXiv and whose goal is to lead the global research community in innovation, education, and promoting open science.
 
 1. California Institute of Technology (USA)
@@ -113,7 +113,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 1. University Paris-Saclay (France) _Couperin_
 
 ## Frequent Submitters
-### $2,500
+
 Frequent Submitters are members whose researchers frequently submit scholarly articles to arXiv.
 
 1. Aalto University (Finland) _FinELib_
@@ -212,7 +212,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 1. Weizmann Institute of Science (Israel)
 
 ## Regular Submitters & Community
-### $1,000
+
 Regular Submitters are members whose researchers regularly submit scholarly articles to arXiv. Community members are institutions who primarily use arXiv for reading articles, rather than submitting, or who may be resource-limited, but would still like to give to arXiv.
 
 1. Abo Akademi University (Finland) _FinELib_
