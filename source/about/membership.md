@@ -31,7 +31,7 @@ Standard and All Star memberships are based on [your institution’s global arXi
 
 _All membership rates are in USD and can be paid by wire, credit card, or check. [See payment instructions here](arXiv-payment-instructions-2025.pdf)._
 
-Is your institution part of a consortia? Email [arXiv Membership](membership@arxiv.org) to learn more about how your consortia can support arXiv and receive a 10% membership rate discount for all consortia members.
+Is your institution part of a consortia? Email [arXiv Membership](mailto:membership@arxiv.org) to learn more about how your consortia can support arXiv and receive a 10% membership rate discount for all consortia members.
 
 ## Supporting arXiv above and beyond: arXiv Champions and All Stars
 
@@ -75,6 +75,6 @@ You can fill out our membership form ([Join, renew, or confirm your membership](
 - [Blog](https://blog.arxiv.org/)
 - [Twitter](https://x.com/arxiv)
 - [Status Updates](https://status.arxiv.org/)
-- [Questions? We're happy to help](membership@arxiv.org)
+- [Questions? We're happy to help](mailto:membership@arxiv.org)
 
 </div>
