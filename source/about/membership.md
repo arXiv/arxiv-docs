@@ -22,7 +22,7 @@ Standard and All Star memberships are based on [your institution’s global arXi
 
 | Membership Tier | Rank | All Star Membership Rate |
 
-|-----------------------------|:--------------------|
+|-----------------|:----------|:--------------------|
 | Top 100 | 1 - 100 | $6,500 |
 | Frequent | 101 - 500 | $3,250 |
 | Regular | 501 + | $1,400 |
