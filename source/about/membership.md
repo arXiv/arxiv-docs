@@ -1,12 +1,11 @@
 # Membership
 
-Who makes arXiv possible? You - our members.  
 As the world’s premier open access research sharing platform, arXiv was founded for scientists, by scientists. arXiv will always be for research and for education - not for profit. That’s why we rely on our members - universities, libraries, research institutes, and labs - to support our mission with funding, expertise, and advocacy.
 {.intro}
 
 <ol class="color-blocks">
   <li>
-  <a href="ourmembers.html">Thank you to the member institutes that are supporting their researchers, open science, and arXiv!</a>.</li>
+  <a href="ourmembers.html"><b>Thank you to all our members!</a> Your support makes arXiv - and open science - possible.</b></a></li>
 </ol>
 
 ## How does arXiv membership work?
@@ -45,7 +44,7 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 <ol class="color-blocks">
   <li>
-  Thank you to all our <a href="ourmembers.md#champion.html">Champions</a> and All Star members.
+  <b>Thank you to all our <a href="ourmembers.md#champion.html">Champions</a> and <a href="ourmembers.md#all-star">All Star members</a>.</b>
   </li>
 </ol>
 
@@ -53,11 +52,7 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 Is your institution using arXiv primarily for downloading and reading papers, rather than submitting? Or, is your institution significantly resource-limited, but you would still like to support arXiv and open science? Maybe your budget this year is a little tighter than usual. Become an arXiv Community member! Join the arXiv community by giving what you can and choosing your contribution level.
 
-## Become an arXiv member today! 
-
-You can fill out our membership form ([Join, renew, or confirm your membership](membership_confirm.md)) or contact us directly at <membership@arxiv.org>.
-
-### Member Benefits
+## Member Benefits
 
 - Public acknowledgement on [arXiv](ourmembers.md)
 - Public recognition locally to the institution via an IP generated banner
@@ -66,6 +61,10 @@ You can fill out our membership form ([Join, renew, or confirm your membership](
 - The opportunity to provide feedback via surveys
 - Annual reports and regular newsletters
 - Increase the sustainability of academic publishing and push the boundaries of open science
+
+## Become an arXiv member today! 
+
+You can fill out our membership form ([Join, renew, or confirm your membership](membership_confirm.md)) or contact us directly at <membership@arxiv.org>.
 
 ## Stay in Touch
 
