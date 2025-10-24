@@ -32,7 +32,7 @@ Is your institution part of a consortia? Email [arXiv Membership](mailto:members
 
 ## Supporting arXiv above and beyond: arXiv Champions and All Stars
 
-Is your institution an advocate of open access and a thought leader in scholarly communications? Choose to support arXiv with an upgraded membership! 
+Is your institution an advocate of open access and a thought leader in scholarly communications? Choose to support arXiv with an upgraded membership!
 
 **arXiv Champions**
 
@@ -44,7 +44,7 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 <ol class="color-blocks">
   <li>
-  <b>Thank you to all our <a href="ourmembers.md#champion.html">Champions</a> and <a href="ourmembers.md#all-star">All Star members</a>.</b>
+  <b>Thank you to all our <a href="ourmembers.html#champion">Champions</a> and <a href="ourmembers.html#all-star">All Star members</a>.</b>
   </li>
 </ol>
 
@@ -62,7 +62,7 @@ Is your institution using arXiv primarily for downloading and reading papers, ra
 - Annual reports and regular newsletters
 - Increase the sustainability of academic publishing and push the boundaries of open science
 
-## Become an arXiv member today! 
+## Become an arXiv member today!
 
 You can fill out our membership form ([Join, renew, or confirm your membership](membership_confirm.md)) or contact us directly at <membership@arxiv.org>.
 
