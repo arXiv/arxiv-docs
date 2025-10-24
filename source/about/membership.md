@@ -4,8 +4,11 @@ Who makes arXiv possible? You - our members.
 As the world’s premier open access research sharing platform, arXiv was founded for scientists, by scientists. arXiv will always be for research and for education - not for profit. That’s why we rely on our members - universities, libraries, research institutes, and labs - to support our mission with funding, expertise, and advocacy.
 {.intro}
 
+---
 
->[Thank you to the member institutes that are supporting their researchers, open science, and arXiv!](ourmembers.md)
+[Thank you to the member institutes that are supporting their researchers, open science, and arXiv!](ourmembers.md)
+
+---
 
 ## How does arXiv membership work?
 
@@ -21,7 +24,8 @@ Standard and All Star memberships are based on [your institution’s global arXi
 
 
 | Membership Tier | Rank | All Star Membership Rate |
-|-----------------|:----------|:--------------------|
+
+|-----------------------------|:--------------------|
 | Top 100 | 1 - 100 | $6,500 |
 | Frequent | 101 - 500 | $3,250 |
 | Regular | 501 + | $1,400 |
@@ -42,7 +46,11 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 "All Star" membership with arXiv is a new option for institutions who would like to support arXiv above and beyond their standard membership rate. By giving an extra percentage above standard membership, All Star members support arXiv, their researchers and scientific discovery by giving above and beyond to open access initiatives. arXiv All Star members are highlighted on arXiv's membership page and featured more prominently in arXiv digital communications and newsletters.
 
->Thank you to all our [Champion](ourmembers.md#champion) and All Star members.
+---
+
+Thank you to all our [Champion](ourmembers.md#champion) and All Star members.
+
+---
 
 ## Give what you can: arXiv Community members
 
