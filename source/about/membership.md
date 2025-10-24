@@ -1,14 +1,14 @@
-<div class="grid-blocks" markdown="1">
-
 # Membership
 
 Who makes arXiv possible? You - our members.  
 As the world’s premier open access research sharing platform, arXiv was founded for scientists, by scientists. arXiv will always be for research and for education - not for profit. That’s why we rely on our members - universities, libraries, research institutes, and labs - to support our mission with funding, expertise, and advocacy.
 {.intro}
 
-<div markdown="1">
+---
+
 [Thank you to the member institutes that are supporting their researchers, open science, and arXiv!](ourmembers.md)
-</div>
+
+---
 
 ## How does arXiv membership work?
 
@@ -24,9 +24,9 @@ Standard and All Star memberships are based on [your institution’s global arXi
 
 
 | Membership Tier | Rank | All Star Membership Rate |
-|-----------------------------|:--------------------|
-| Top 100 | 1 - 100 | $6,500 |
-| Frequent | 101 - 500 | $3,250 |
+|-----------------|:----------|:--------------------|   
+| Top 100 | 1 - 100 | $6,500 |   
+| Frequent | 101 - 500 | $3,250 |   
 | Regular | 501 + | $1,400 |
 
 _All membership rates are in USD and can be paid by wire, credit card, or check. [See payment instructions here](arXiv-payment-instructions-2025.pdf)._
@@ -45,9 +45,11 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 "All Star" membership with arXiv is a new option for institutions who would like to support arXiv above and beyond their standard membership rate. By giving an extra percentage above standard membership, All Star members support arXiv, their researchers and scientific discovery by giving above and beyond to open access initiatives. arXiv All Star members are highlighted on arXiv's membership page and featured more prominently in arXiv digital communications and newsletters.
 
-<div markdown="1">
+---
+
 Thank you to all our [Champion](ourmembers.md#champion) and All Star members.
-</div>
+
+---
 
 ## Give what you can: arXiv Community members
 
@@ -56,8 +58,6 @@ Is your institution using arXiv primarily for downloading and reading papers, ra
 ## Become an arXiv member today! 
 
 You can fill out our membership form ([Join, renew, or confirm your membership](membership_confirm.md)) or contact us directly at <membership@arxiv.org>.
-
-
 
 ### Member Benefits
 
