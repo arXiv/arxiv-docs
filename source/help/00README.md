@@ -63,7 +63,7 @@ As of now, arXiv supports the following settings for `compiler`:
 
 *    `tex` or `tex+dvips_ps2pdf` -- for plain TeX compiled with `etex` and then converted with `dvips` and `ps2pdf`
 *    `latex` or `latex+dvips_ps2pdf` -- for LaTeX compiled with `latex` and then converted with `dvips` and `ps2pdf`
-*    `pdflatex -- for LaTeX compiled with `pdflatex`
+*    `pdflatex` -- for LaTeX compiled with `pdflatex`
 
 
 #### Additional functionality
