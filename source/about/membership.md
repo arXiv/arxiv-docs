@@ -24,7 +24,8 @@ Standard and All Star memberships are based on [your institution’s global arXi
 
 | Membership Tier | Rank | All Star Membership Rate | Standard Membership Rate
 
-|-----------------------------|:--------------------|   
+|-----------------|:----------|:--------------------|:------------------------|
+  
 | Top 100 | 1 - 100 | $6,500 | $5,000 |   
 | Frequent | 101 - 500 | $3,250 | $2,500 |   
 | Regular | 501 + | $1,400 | $1,000 |
@@ -76,5 +77,3 @@ You can fill out our membership form ([Join, renew, or confirm your membership](
 - [Twitter](https://x.com/arxiv)
 - [Status Updates](https://status.arxiv.org/)
 - [Questions? We're happy to help](mailto:membership@arxiv.org)
-
-</div>
