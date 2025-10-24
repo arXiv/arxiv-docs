@@ -5,7 +5,7 @@ As the world’s premier open access research sharing platform, arXiv was founde
 
 <ol class="color-blocks">
   <li>
-  <a href="ourmembers.html"><b>Thank you to all our members!</a> Your support makes arXiv - and open science - possible.</b></a></li>
+  <a href="ourmembers.html"><b>Thank you to all our members!</a> <br /> Your support makes arXiv - and open science - possible.</b></a></li>
 </ol>
 
 ## How does arXiv membership work?
@@ -44,7 +44,7 @@ Champion memberships with arXiv are for top research institutions whose goal is 
 
 <ol class="color-blocks">
   <li>
-  <b>Thank you to all our <a href="ourmembers.html#champion">Champions</a> and <a href="ourmembers.html#all-star">All Star members</a>.</b>
+  <b>Thank you to all our <a href="ourmembers.html#champion">Champions</a> and <a href="ourmembers.html#all-star">All Star</a> members.</b>
   </li>
 </ol>
 
