@@ -57,6 +57,15 @@ The `compiler: latex` is actually shorthand for `compiler: latex+dvips_ps2pdf` b
 
 We have not included the `usage: toplevel` line for `my_super_paper.tex`, since this will be automatically added.
 
+#### Currently supported compiler settings
+
+As of now, arXiv supports the following settings for `compiler`:
+
+*    `tex` or `tex+dvips_ps2pdf` -- for plain TeX compiled with `etex` and then converted with `dvips` and `ps2pdf`
+*    `latex` or `latex+dvips_ps2pdf` -- for LaTeX compiled with `latex` and then converted with `dvips` and `ps2pdf`
+*    `pdflatex -- for LaTeX compiled with `pdflatex`
+
+
 #### Additional functionality
 
 Additional functionality supported in the original `00README`include: the `landscape` and `keep_comments`. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`).
