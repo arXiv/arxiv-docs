@@ -67,7 +67,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 1. University of Saskatchewan (Canada) _CRKN_
 1. University of Victoria (Canada) _CRKN_
 1. Wilfrid Laurier University (Canada) _CRKN_
-1. York Uniersity (Canada) _CRKN_
+1. York University (Canada) _CRKN_
 
 ## Top 100 Submitters
 
