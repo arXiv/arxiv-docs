@@ -16,6 +16,7 @@ The editorial committee members serve as consultants to Cornell University and t
 - Martin Weidner, University of Oxford (vice chair)
 - Federico Echenique, University of California, Berkeley
 - Drew Fudenberg, Massachusetts Institute of Technology
+- Jiaying Gu (顾佳颖), University of Toronto
 - Adam Guren, Boston University
 - Pascal Michaillat, University of California, Santa Cruz
 - Fabien Postel-Vinay, University College London
