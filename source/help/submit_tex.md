@@ -145,6 +145,10 @@ needs to be converted to
 \hypersetup{pdfauthor={...},...}
 ```
 
+##### Other packages and classes that are known to have problems
+
+*  `aastex` version 6 and 7: similar to the array problem mentioned above, but the fix does not work.
+*  `revtex`: problems with array package mentioned above. Can usually be fixed as mentioned above.
 
 #### Selecting the correct processor
 
