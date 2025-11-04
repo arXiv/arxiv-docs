@@ -1,8 +1,17 @@
 # Notes about arXiv's TeXLive Version
 
+## Update to TeX Live 2025
+
+*Update October 2025:* The submission system has been updated to support bib to bbl conversion,
+as well as support for `xelatex` and `pdftex` compilers.
+
+*Update September 2025:* arXiv has updated its submission system to use a plain instance of [TeXLive 2025](http://tug.org/texlive) for [Submission v1.5](../submit_tex.md#newtex). This means if your submission uses any TeX packages not included in the TeX Live 2025 release, you will need to include their style files with your submission.
+
+TeX Live 2025 is changing daily, arXiv uses the state of 2025-08-03.
+
 ## Update to TeX Live 2023
 
-*Update 2023-05-22:* arXiv  has updated its submission system to use a plain instance of[TeXLive 2023](http://tug.org/texlive) for [Submission v1.5](../submit_tex.md#newtex). This means if your submission uses any TeX packages not included in the TeX Live 2023 release, you will need to include their style files with your submission.
+*Update 2023-05-22:* arXiv  has updated its submission system to use a plain instance of [TeXLive 2023](http://tug.org/texlive) for [Submission v1.5](../submit_tex.md#newtex). This means if your submission uses any TeX packages not included in the TeX Live 2023 release, you will need to include their style files with your submission.
 
 TeX Live 2023 comes with an updated and improved collection of local add-ons, support for newer font sets, and everything else you'd expect in a standard TeX Live distribution. While there are enhancements, most of the advice provided for previous versions (TL2009, TL2011, TL2016, TL2020) still applies.
 
@@ -328,17 +337,7 @@ distribution.
 
 An incomplete list of common symptoms, errors, and fixes follows:
 
-1.  Wrong biblatex format version
-    
-    If you have been developing with an older biblatex you will need to
-    regenerate your .bbl
-        file.
-    
-        Package biblatex Warning: File 'Constraints.bbl' is wrong format version - expected 3.2.
-
-    fix: the author needs to regenerate their .bbl file.
-
-2.  TikZ and PGF graphics packages.
+1. TikZ and PGF graphics packages.
     
     Reports from users indicate there are problems with these packages
     in our older TeX Live 2011 system. We observed improvements to

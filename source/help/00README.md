@@ -90,15 +90,7 @@ If you need more specific information, here is a more formal specification.
 {
   "spec_version": <N>,
   "process": {
-    "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>,
-    "bibliography": {
-      "processor": "bibtex" | "biber",
-      "pre_generated": true
-    },
-    "index": {
-      "processor": "makeindex",
-      "pre_generated": true
-    }
+    "compiler": "<COMPILER STRING>" | <COMPILER_SPEC>
   },
   "sources": [
     {
@@ -120,12 +112,6 @@ or as YAML:
 spec_version: <N>
 process:
   compiler: <COMPILER_STRING> | <COMPILER_SPEC>
-  bibliography:
-    processor: bibtex | biber
-    pre_generated: true
-  index:
-    processor: makeindex
-    pre_generated: true
 sources:
   - filename: <FILENAME>
     usage: toplevel | include | ignore
@@ -166,7 +152,7 @@ The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only s
 
 We are currently supporting the following `COMPILER_SPEC`s. In the following we also list the `COMPILER_STRING` equivalents. The `COMPILER_STRING` provides a “stringy” representation of the compilation paths.
 
-- #### plain tex
+- #### Plain TeX with dvips/ps2pdf
     ```
     COMPILER_SPEC  
     {
@@ -177,6 +163,18 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     }
     ```
     Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
+
+- #### Plain TeX with PDFTeX
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "pdfetex",
+    "lang": "tex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+    Equivalent `COMPILER_STRING: pdftex` or `pdfetex`
 
 - #### LaTeX with dvips/ps2pdf 
     ```
@@ -202,6 +200,18 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
     ```
     Equivalent `COMPILER_STRING: pdflatex`
 
+- #### LaTeX with XeLaTeX
+    ```
+    COMPILER_SPEC
+    {
+    "engine": "xetex",
+    "lang": "latex",
+    "output": "pdf",
+    "postp": "none"
+    }
+    ```
+    Equivalent `COMPILER_STRING: xelatex`
+
 #### Compilation order
 
 The final output is assembled based on the following rules:
@@ -214,11 +224,18 @@ The final output is assembled based on the following rules:
 
 Note that as of now, all toplevel files are compiled with the same compiler. 
 
+#### bib to bbl conversion
+
+Since late 2025, we allow uploading submissions without `.bbl` files, if all necessary `.bib` files are included. Our system will use the `.bbl` file if it is present, and otherwise will automatically detect the usage of bibliography and select the bib-compiler accordingly.
+
+We detect `biblatex` usage and will run the program selected as backend in the `biblatex` configuration (that is, one of `biber`, `bibtex`, `bibtex8`), and otherwise use `bibtex`.
+
+In the non-`biblatex` case, we use `bibtex`. If you need to use another bib-processor (like e.g., `bibtex8` or `upbibtex`), you must pre-compile the bibliography, upload the `.bbl` and preserve the `.bbl`.
+
 #### Additional notes  
-- `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.  
+- `process.compiler` – only those combinations listed above are currently supported. Other values will make the submission fail.
 
-- `process.bibliography` and `process.index` – we still require a pre-generated .bbl ssh file (or .idx) be included, meaning, we require that `pre_generated: true`.
-
+- `nohyperref` – this is only for backward compatibility and is completely ignored during compilation. We no longer add hyperref by default, and leave it to the document to load the hyperref package.
 
 
 ## `00README.XXX`
