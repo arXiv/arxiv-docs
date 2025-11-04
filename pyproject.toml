@@ -1,0 +1,18 @@
+[project]
+name = "arxiv-docs"
+version = "0.1.0"
+description = "arxiv.org help pages"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "arxiv-base",
+    "importlib-metadata==5.0.0",
+    "markupsafe==2.1.1",
+    "mkdocs==1.4.1",
+    "mkdocs-literate-nav==0.5.0",
+    "mkdocs-material==8.5.6",
+    "mkdocs-material-extensions==1.0.3",
+]
+
+[tool.uv.sources]
+arxiv-base = { git = "https://github.com/arXiv/arxiv-base.git", rev = "develop" }

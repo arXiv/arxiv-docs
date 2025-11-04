@@ -19,7 +19,7 @@ s3 = FlaskS3()
 config.FLASKS3_ACTIVE = True
 config.FLASKS3_DEBUG = False
 config.FLASKS3_BUCKET_NAME = 'arxiv-web-static1'
-config.FLASKS3_CDN_DOMAIN = 'static.arxiv.org'
+config.FLASKS3_CDN_DOMAIN = 'arxiv.org'
 config.FLASKS3_USE_HTTPS = True
 config.BASE_SERVER = 'arxiv.org'
 
