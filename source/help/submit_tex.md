@@ -10,7 +10,7 @@
 *   [We don't have your style files or macros](#wedonthavethem)
 *   [Do not submit in double-spaced "referee" mode](#double)
 *   [Prepare the references carefully](#refs)
-*   [Include `.bbl` files if you use BibTeX](#bibtex)
+*   [Include `.bib` or `bbl` files if you use BibTeX/Biber](#bibtex)
 *   [Potential problems with biblatex `.bbl` files](#biblatex)
 *   [Include `.ind` files if you used `makeindex`](#makeindex)
 *   [Include `.gls` or `.nls` files if you have a glossary or nomenclature section](#glossary)
@@ -145,6 +145,10 @@ needs to be converted to
 \hypersetup{pdfauthor={...},...}
 ```
 
+##### Other packages and classes that are known to have problems
+
+*  `aastex` version 6 and 7: similar to the array problem mentioned above, but the fix does not work.
+*  `revtex`: problems with array package mentioned above. Can usually be fixed as mentioned above.
 
 #### Selecting the correct processor
 
@@ -167,6 +171,8 @@ Your submission will be processed automatically according to the processor selec
 This is a complex task, and the processing does not always lead to the desired or expected results. It is
 important for you, the author/submitter, to carefully check and verify the resulting PDF. You will be required
 to view the PDF during the submission process before you will be able to complete your submission.
+
+Some aspects of the conversion can be controlled by uploading a [00README](00README.md) file, see the page for further details.
 
 You can submit a collection of TeX input/include files, e.g. separate chapters, foreword, appendix, etc, and
 custom macros ([see below](#wedonthavethem)) packaged in a (possibly compressed) `.tar` or `.zip` file. Main files
@@ -250,6 +256,7 @@ arXiv fully supports and automatically recognizes PDFLaTeX.
 *   Should you need conditional branching in your source, use the [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) package. Do not re-invent the wheel.
     [ifpdf](ftp://tug.ctan.org/pub/tex-archive/macros/latex/contrib/oberdiek/ifpdf.pdf) provides a robust and well tested mechanism to distinguish between pdflatex in pdf mode and other
     modes or engines.
+*   You should not use `\pdfoutput` to change the output format.
 *   Some packages may require a particular back-end driver, in the form of a package option, 
     e.g. `\usepackage[pdftex]{...}`. However, the graphics and hyperref packages determine the proper driver
     automatically; you do not have to make this explicit choice and should not do so to avoid conflicts.
@@ -305,25 +312,19 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 <span id="bibtex"></span>
 
-### Include `.bbl` files if you use BibTeX
+### Include `.bib` or `.bbl` files if you use BibTeX/Biber
 
-We do not run BibTeX in the auto-TeXing procedure. If you use it, include in your submission the `.bbl` file that
-BibTeX produces on your own machine; otherwise your references will not come out correctly. We do not run BibTeX
-because the `.bib` database files can be quite large, and the only thing necessary to resolve the references for
-a given paper is the `.bbl` file. You may still include them if you wish, but they must also match your .tex file name.
+arXiv now provides support for bib file processing using various processors like `biblatex` (with auto-selection of the correct backend) and `bibtex`.
 
-The name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references
-correctly.
+It is also possible to upload a pre-generated `.bbl` file for your paper. In this case, the name of the `.bbl` file _must_ match the name of the main `.tex` file for the system to process the references correctly.
 
-Note that packages such as `xr` and `xref` that rely on the `\externaldocument` command will not work in arXiv.
-They require the presence of a `.aux` file in order to set up their linking structure. Since our TeX system
-deletes the `.aux` files between tex runs, packages that need these files to be present will not function correctly,
-and will not report any critical error during processing. Instead, we require that you update your `.bbl` files to
-include the appropriate references for both documents.
+Our system will use the `.bbl` file if it is present, and otherwise will automatically detect the usage of bibliography and select the bib-compiler accordingly. In case the `.bbl` file is not uploaded, and at least one necessary `.bib` file is missing, the submission system will block you from proceeding with your submission.
 
-Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare
-your document for submission to arXiv.
+We detect `biblatex` usage and will run the program selected as backend in the `biblatex` configuration (that is, one of `biber`, `bibtex`, `bibtex8`), and otherwise use `bibtex`.
 
+In the non-`biblatex` case, we use `bibtex`. If you need to use another bib-processor (like e.g., `bibtex8` or `upbibtex`), you must pre-compile the bibliography, upload the `.bbl` and preserve the `.bbl`.
+
+Note for submitters who use Overleaf: Please refer to [their help documentation](https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission) regarding how to prepare your document for submission to arXiv.
 <span id="biblatex"></span>
 
 ### Potential problems with biblatex `.bbl` files
@@ -350,11 +351,13 @@ at the present time. If your .bbl for biblatex is not compatible, then your subm
 During submission, you should see a warning about incompatible bbl versions.
 [View arXiv's current version of TeXLive.](https://info.arxiv.org/help/faq/texlive.html)
 
-To be more specific: arXiv uses TeX Live 2023, which includes biblatex 3.19, Biber 2.19, and uses
-the bbl format 3.2. TeX Live 2024 and 2025 include biblatex 3.20, Biber 2.20, and use bbl format 3.3.
+To be more specific: arXiv offers currently TeX Live 2023 and 2025 (the default).
+TeX Live 2025 includes biblatex 3.20, Biber 2.20, and uses bbl format 3.3.
+TeX Live 2023 included biblatex 3.19, Biber 2.19, and uses bbl format 3.2.
 
-We have taken steps to ensure that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2024 and 2025),
+For TeX Live 2023, we have taken steps that both bbl formats, 3.2 (TeX Live 2023) and 3.3 (TeX Live 2025),
 are supported by arXiv.
+For TeX Live 2025, only bbl format 3.3 is supported.
 
 <span id="makeindex"></span>
 
