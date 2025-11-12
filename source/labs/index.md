@@ -2,7 +2,7 @@
 
 ![arXiv Labs icon](images/smileybones-labs-icon.png){.mkd-img-thumb align=right alt='a bubbling beaker with a smiling face and crossedbones behind it' role=presentation}
 
-<a class="button-reg" href="#arXiv-Labs-Hiatus">arXiv Labs is pausing new proposals</a>
+<a class="button-reg" href="#arXiv-Labs-Hiatus">Attention arXiv Users: arXiv Labs is pausing new proposals</a>
 
 
 ## What are arXiv Labs?
@@ -15,4 +15,4 @@ If you have questions about collaborating with arXiv on something that is not al
 
 ## arXiv Labs Hiatus
 
-We are temporarily pausing new arXiv Labs proposals at the moment while our dev team focuses on our current top priority - modernizing and moving arXiv’s systems to the cloud. Please note that this “hiatus” does not affect any current arXiv Labs or Labs proposals that have already been submitted through the arXiv Labs support portal and are awaiting approval. Please read our blog post for more information.
+We are temporarily pausing new arXiv Labs proposals at the moment while our dev team focuses on our current top priority - modernizing and moving arXiv’s systems to the cloud. Please note that this “hiatus” does not affect any current arXiv Labs or Labs proposals that have already been submitted through the arXiv Labs support portal and are awaiting approval. [Please read our blog post for more information](https://blogs.cornell.edu/arxiv/2025/11/12/arxiv-labs-is-pausing-new-proposals).
