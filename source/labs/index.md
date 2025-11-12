@@ -1,6 +1,6 @@
 # arXiv Labs
 
-<a class="button-large" href="#arXiv-Labs-Hiatus">Attention arXiv Users: arXiv Labs is pausing new proposalss</a>
+<a class="button-large" href="#arXiv-Labs-Hiatus">Attention arXiv Users: arXiv Labs is pausing new proposals</a>
 
 ![arXiv Labs icon](images/smileybones-labs-icon.png){.mkd-img-thumb align=right alt='a bubbling beaker with a smiling face and crossedbones behind it' role=presentation}
 
