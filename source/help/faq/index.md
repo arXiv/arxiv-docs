@@ -43,6 +43,7 @@
   - [What is TeX?](../../help/tex.md)
   - [Why do I need to submit my TeX source?](whytex.md)
   - [How can I submit my TeX source?](../../help/submit_tex.md)
+  - [TeX Live at arXiv](../../help/texlive.md)
   - [How do I make bitmaps of some of my figures to reduce the size of
     the submission?](../../help/bitmap/index.md)
   - [How can I prepare tables or figures for landscape printout? (Not
