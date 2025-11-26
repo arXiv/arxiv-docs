@@ -154,61 +154,71 @@ We are currently supporting the following `COMPILER_SPEC`s. In the following we 
 
 - #### Plain TeX with dvips/ps2pdf
 
-    COMPILER_SPEC  
-    {
-    "engine": "etex",  
-    "lang": "tex",  
-    "output": "dvi",  
-    "postp": "dvips_ps2pdf"  
-    }
+```
+COMPILER_SPEC  
+{
+  "engine": "etex",  
+  "lang": "tex",  
+  "output": "dvi",  
+  "postp": "dvips_ps2pdf"  
+}
+```
 
   Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
 
 - #### Plain TeX with PDFTeX
 
-    COMPILER_SPEC
-    {
-    "engine": "pdfetex",
-    "lang": "tex",
-    "output": "pdf",
-    "postp": "none"
-    }
+```
+COMPILER_SPEC
+{
+  "engine": "pdfetex",
+  "lang": "tex",
+  "output": "pdf",
+  "postp": "none"
+}
+```
 
   Equivalent `COMPILER_STRING`: `pdftex` or `pdfetex`
 
 - #### LaTeX with dvips/ps2pdf 
 
-    COMPILER_SPEC
-    {
-      "engine": "etex",
-      "lang":   "latex",
-      "output": "dvi",
-      "postp":  "dvips_ps2pdf"
-    }
+```
+COMPILER_SPEC
+{
+  "engine": "etex",
+  "lang":   "latex",
+  "output": "dvi",
+  "postp":  "dvips_ps2pdf"
+}
+```
 
   Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
 
 - #### LaTeX with PDFLaTeX
 
-    COMPILER_SPEC  
-    {  
-      "engine": "etex",
-      "lang": "latex",
-      "output": "pdf",
-      "postp": "none"
-    } 
+```
+COMPILER_SPEC  
+{  
+  "engine": "etex",
+  "lang": "latex",
+  "output": "pdf",
+  "postp": "none"
+} 
+```
 
   Equivalent `COMPILER_STRING`: `pdflatex`
 
 - #### LaTeX with XeLaTeX
 
-    COMPILER_SPEC
-    {
-      "engine": "xetex",
-      "lang": "latex",
-      "output": "pdf",
-      "postp": "none"
-    }
+```
+COMPILER_SPEC
+{
+  "engine": "xetex",
+  "lang": "latex",
+  "output": "pdf",
+  "postp": "none"
+}
+```
 
   Equivalent `COMPILER_STRING`: `xelatex`
 
