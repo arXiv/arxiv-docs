@@ -70,11 +70,11 @@ Example for the `TeX Gyre Pagella` font:
 
 Correct: Lookup via filename
 
-    \setmainfont{TeX Gyre Pagella}[...]
+    \setmainfont{texgyrepagella-regular.otf}[...]
 
 Incorrect/will not work: Lookup via font name
 
-    \setmainfont{texgyrepagella-regular.otf}[...]
+    \setmainfont{TeX Gyre Pagella}[...]
 
 For more details see the [documentation of the fontspec](https://mirrors.ctan.org/macros/unicodetex/latex/fontspec/fontspec.pdf) package.
 
