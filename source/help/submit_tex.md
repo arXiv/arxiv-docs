@@ -26,7 +26,7 @@
 In April of 2025 we rolled out changes to how arXiv process (La)TeX submissions. We retired the long-used "AutoTeX" (Submission 1.0) system that we have used for decades in favor of a simpler, more straightforward process of converting (La)TeX submissions to PDFs in Submission 1.5.
 
 For details concerning the TeX Live system in use, and notes concerning the current TeX Live version,
-please consult [TeX Live at arXiv](texlive.md).
+please consult [TeX Live at arXiv](faq/texlive.md).
 
 <span id="comparison"></span>
 ### Comparison between the Legacy Submission System and the current one
@@ -41,7 +41,7 @@ please see [Legacy Submission System](submit_legacy_differences.md).
 During the submission process, you will be asked which of the processor you want to use for your
 submission. Selecting the correct processor is generally an easy task, because we will offer you
 the hopefully correct one automatically during submission. If you want to decide by yourself,
-see [TeX Live - Supported TeX processors](texlive.md#supported-processors).
+see [TeX Live - Supported TeX processors](faq/texlive.md#supported-processors).
 
 <span id="autoproc"></span>
 
