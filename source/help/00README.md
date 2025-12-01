@@ -62,8 +62,10 @@ We have not included the `usage: toplevel` line for `my_super_paper.tex`, since 
 As of now, arXiv supports the following settings for `compiler`:
 
 *    `tex` or `tex+dvips_ps2pdf` -- for plain TeX compiled with `etex` and then converted with `dvips` and `ps2pdf`
+*    `pdftex` or `pdfetex` -- for plain TeX compiled with `pdfetex`
 *    `latex` or `latex+dvips_ps2pdf` -- for LaTeX compiled with `latex` and then converted with `dvips` and `ps2pdf`
 *    `pdflatex` -- for LaTeX compiled with `pdflatex`
+*    `xelatex` -- for LaTeX compiled with `xelatex`
 
 
 #### Additional functionality
@@ -137,14 +139,12 @@ nohyperref: <BOOL>
 
 The `COMPILER_SPEC` allows configuring the single stages from TeX source code to the final output:
 
-```
-{
-  "engine": "etex",
-  "lang": "tex" | "latex" | "pdf" | "html",
-  "output": "dvi" | "pdf",
-  "postp": "dvips_ps2pdf"| "none"
-}
-```
+    {
+      "engine": "etex",
+      "lang": "tex" | "latex" | "pdf" | "html",
+      "output": "dvi" | "pdf",
+      "postp": "dvips_ps2pdf"| "none"
+    }
 
 The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only submissions.
 
@@ -153,64 +153,74 @@ The `lang: pdf` is for pdf-only submissions, and `lang: html` is for html-only s
 We are currently supporting the following `COMPILER_SPEC`s. In the following we also list the `COMPILER_STRING` equivalents. The `COMPILER_STRING` provides a “stringy” representation of the compilation paths.
 
 - #### Plain TeX with dvips/ps2pdf
-    ```
-    COMPILER_SPEC  
-    {
-    "engine": "etex",  
-    "lang": "tex",  
-    "output": "dvi",  
-    "postp": "dvips_ps2pdf"  
-    }
-    ```
-    Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
+
+```
+COMPILER_SPEC  
+{
+  "engine": "etex",  
+  "lang": "tex",  
+  "output": "dvi",  
+  "postp": "dvips_ps2pdf"  
+}
+```
+
+  Equivalent `COMPILER_STRING: tex` or `etex+dvips_ps2pdf`
 
 - #### Plain TeX with PDFTeX
-    ```
-    COMPILER_SPEC
-    {
-    "engine": "pdfetex",
-    "lang": "tex",
-    "output": "pdf",
-    "postp": "none"
-    }
-    ```
-    Equivalent `COMPILER_STRING: pdftex` or `pdfetex`
+
+```
+COMPILER_SPEC
+{
+  "engine": "pdfetex",
+  "lang": "tex",
+  "output": "pdf",
+  "postp": "none"
+}
+```
+
+  Equivalent `COMPILER_STRING`: `pdftex` or `pdfetex`
 
 - #### LaTeX with dvips/ps2pdf 
-    ```
-    COMPILER_SPEC
-    {
-    "engine": "etex",
-    "lang": "latex",
-    "output": "dvi",
-    "postp": "dvips_ps2pdf"
-    }
-    ```
-    Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
+
+```
+COMPILER_SPEC
+{
+  "engine": "etex",
+  "lang":   "latex",
+  "output": "dvi",
+  "postp":  "dvips_ps2pdf"
+}
+```
+
+  Equivalent `COMPILER_STRING`: `latex` or `latex+dvips_ps2pdf`
 
 - #### LaTeX with PDFLaTeX
-    ```
-    COMPILER_SPEC  
-    {  
-    "engine": "etex",  
-    "lang": "latex",  
-    "output": "pdf",  
-    "postp": "none"  
-    } 
-    ```
-    Equivalent `COMPILER_STRING: pdflatex`
+
+```
+COMPILER_SPEC  
+{  
+  "engine": "etex",
+  "lang": "latex",
+  "output": "pdf",
+  "postp": "none"
+} 
+```
+
+  Equivalent `COMPILER_STRING`: `pdflatex`
 
 - #### LaTeX with XeLaTeX
-    ```
-    COMPILER_SPEC
-    {
-    "engine": "xetex",
-    "lang": "latex",
-    "output": "pdf",
-    "postp": "none"
-    }
-    ```
-    Equivalent `COMPILER_STRING: xelatex`
+
+```
+COMPILER_SPEC
+{
+  "engine": "xetex",
+  "lang": "latex",
+  "output": "pdf",
+  "postp": "none"
+}
+```
+
+  Equivalent `COMPILER_STRING`: `xelatex`
 
 #### Compilation order
 
