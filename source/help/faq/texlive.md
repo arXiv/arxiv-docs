@@ -68,6 +68,9 @@ set of system fonts).
 Thus, to use any of the long list of TrueType or OpenType fonts shipped by TeX Live, one needs use the file name
 lookup method.
 
+See [Truetype and Opentype fonts available at arXiv's TeX Live 2025](font-info-tl2025.md) for the
+complete list of fonts and their respective file names provided by arXiv's TeX Live.
+
 Example for the `TeX Gyre Pagella` font:
 
 Correct: Lookup via filename
