@@ -4,7 +4,7 @@ To help authors achieve well formatted HTML, and to avoid errors during conversi
 
 ## Use LaTeX Packages that will lead to good HTML 
 
-To improve conversion from LaTeX to HTML, use packages that are supported by the LaTeXML converter. [Please view the list of currently supported packages (ending in .ltxml)](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
+To improve conversion from LaTeX to HTML, use packages that are supported by the LaTeXML converter. [Please view the list of currently supported packages (ending in .ltxml)](https://github.com/brucemiller/LaTeXML/tree/master/lib/LaTeXML/Package).
 
 ### What if my publisher requires me to use a package that is not supported?
 
