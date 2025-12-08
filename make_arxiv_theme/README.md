@@ -12,6 +12,7 @@ cd arxiv-docs
 
 That will recreate the `overrides/main.html` with the changes.
 
-
-
-
+# IMPORTANT: mkdocs and mkdocs-material are different
+`mkdocs` and `mkdocs-material` use different themes and these themes are
+organized differently. Make sure you are looking at the documentation for
+`mkdocs-material` when you are looking for features or solutions.
