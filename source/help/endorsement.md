@@ -1,97 +1,65 @@
-The arXiv endorsement system
-============================
+# The arXiv endorsement system
 
 arXiv requires that users be *endorsed*
 before submitting their first paper to a category.
 
-Why does arXiv require endorsement?
+## Why does arXiv require endorsement?
 -----------------------------------
 
-arXiv is distinct from the web as a whole, because arXiv contains
-exclusively scientific content. The endorsement system verifies that
-arXiv contributors belong to the scientific community in a fair and
-sustainable way that can scale with arXiv's future growth.
+The endorsement system verifies that arXiv contributors belong to the scientific community in a fair and sustainable way that can scale with arXiv's growth. 
 
-*arXiv is an openly accessible, moderated repository for scholarly
-papers in specific scientific disciplines. Material submitted to arXiv
-is expected to be of interest, relevance, and value to those
-disciplines. Endorsement is a necessary but not sufficient condition to
-have papers accepted in arXiv; arXiv reserves the right to reject or
-reclassify any submission.*
+Please read our [blog post](https://blogs.cornell.edu/arxiv/2025/12/10/updated-endorsement-policy-for-arxiv-mathematics) about recent changes to the Math section endorsement process. 
 
-The endorsement system ensures that arXiv content is relevant to current
-research at much lower cost than conventional peer-reviewed journals, so
-we can continue to offer free access to the scientific community and the
-general public. Although our system may be imperfect, people who fail to
-get endorsement are still free to post articles on their web site or to
-submit their publications to peer-reviewed journals.
 
-How can I get endorsed?
+## How can I get endorsed?
 -----------------------
 
-arXiv may give some people automatic endorsements based on subject area,
-topic, previous submissions, and academic affiliation. In most cases,
-automatic endorsement is given to authors from known academic
-institutions and research facilities. arXiv submitters are therefore
-encouraged to associate an institutional email address, if they have
-one, with their arXiv account (see [author registration
-help](../help/registerhelp.md)). This will expedite the endorsement process.
+---
+**Looking for endorsement in Math?**
 
-During the submission process, however, we may require authors who are
-submitting papers to a subject category for the first time to get an
-*endorsement* from an established arXiv author. Detailed instructions on
-how to proceed with the endorsement request are provided at that time.
+Please read the updated [Math endorsement](endorsement-math.md) process.
 
-<span id="request"></span> If you need to be endorsed by someone, it is
-best for you to find an endorser who
+---
 
-1.  you know personally and
-2.  is knowledgeable in the subject area of your paper.
+arXiv may give some people automatic endorsements based on subject area, topic, previous submissions, and institutional affiliation. In most cases, automatic endorsement is given to authors from known academic institutions and research facilities who are an author or owner of at least one submission in arXiv. 
 
-A good choice for graduate students would be your thesis advisor or
-another professor in your department/institution working in your field.
+First time submitters to arXiv are encouraged to associate an institutional email address if they have one (see [author registration](registerhelp.md) help). This will expedite the endorsement process.
+
+Authors who are submitting papers to a subject category for the first time are required to get an endorsement from an established arXiv author. Detailed instructions on how to proceed with the endorsement request are provided at that time.
+
+If you need to be endorsed by someone, it is best for you to find an endorser who
+
+- you know personally and 
+
+- is knowledgeable in the subject area of your work.
+
+A good choice for graduate students would be your thesis advisor or another professor in your department/institution working in your field who is also an active author on arXiv.
 
 Alternatively this is the recommended way to proceed.
 
-1.  Start by finding related articles in your field. Your preprint
-    surely has cited works that are already posted in the arXiv, some of
-    these works will be particularly relevant.
-2.  Bring up these abstracts from the arXiv page.
-3.  You can find somebody qualified to endorse by clicking on the link
-    titled "Which of these authors are endorsers?" at the bottom of
-    every abstract page.
-4.  Using that information, you can then find the email address of the
-    submitter on the abstract page just under the "Submission history"
-    heading.
+1. Start a new submission and select the category you wish to submit to.
 
-It is a good idea to send eligible endorsers a copy of your proposed
-submission along with the endorsement request. Please note, however,
-that it is inappropriate to email large numbers of potential endorsers
-at once, or to repeatedly email the same endorser with a request for
-endorsement.
+2. Check your email for an 'endorsement request email'. This will include a link you can provide to prospective endorsers.
 
-At least one positive endorsement is required per *endorsement domain*
-to be considered endorsed for that domain.
+3. Next, look for related articles in your field. If your article has citations to recent papers in arXiv, look for those papers in arXiv to find an endorser.
 
-arXiv reserves the right to revoke any submitter's endorsement if that
-submitter has violated arXiv policies.
+4. Bring up these abstracts from the arXiv page.
 
-Who can endorse?
-----------------
+5. You can find somebody qualified to endorse by clicking on the link titled "Which of these authors are endorsers?" at the bottom of every abstract page.
 
-Endorsers must have authored a certain number of papers within the
-*endorsement domain* of a subject area. The number of papers depends on
-the particular subject area, but has been set so that any active
-scientist who has been working in their field for a few years should be
-able to endorse if their work has been submitted to arXiv and if they are
-registered as an author of their papers. **Endorsement domains** have been
-chosen to reflect related subject areas and ensure that it will be easy
-for people to find endorsements: most high-level subject areas (e.g.,
-hep-th, cond-mat, q-bio) are currently endorsement domains, with the
-notable exception of physics, in which individual subject classes (e.g.,
-phys.acc-phys, phys.med-ph) are endorsement domains. To ensure that
-endorsers are active members of the community, we only count papers that
-have been submitted between three months and five years ago.\*
+6. Using that information, you can then find the email address of the potential endorser on the abstract page just under the "Submission history" heading.
+
+7. Contact eligible endorsers and send them the ‘endorsement request email’. You may include a link to your ORCID profile, other scholarly profile, or a copy of your intended submission if you are comfortable doing so. Please note, however, that it is inappropriate to email large numbers of potential endorsers at once, or to repeatedly email the same endorser with a request for endorsement.
+
+8. At least one positive endorsement is required per endorsement category to be considered endorsed for that category.
+
+arXiv reserves the right to revoke any submitter's endorsement if that submitter has violated arXiv policies.
+
+
+## Who can endorse?
+
+Endorsers must have authored a certain number of papers within the *endorsement domain* of a subject area. The number of papers depends on the particular subject area, but has been set so that any active scientist who has been working in their field for a few years should be able to endorse if their work has been submitted to arXiv and if they are registered as an author of their papers. **Endorsement domains** have been chosen to reflect related subject areas and ensure that it will be easy for people to find endorsements: most high-level subject areas (e.g.,
+hep-th, cond-mat, q-bio) are currently endorsement domains, with the notable exception of physics, in which individual subject classes (e.g., phys.acc-phys, phys.med-ph) are endorsement domains. To ensure that endorsers are active members of the community, we only count papers that have been submitted between three months and five years ago.\*
 
 If you would like to be able to endorse, the most important thing that
 you can do is make sure that you are registered as an author of your
@@ -104,8 +72,7 @@ endorse for that subject classification.
 
 \* We reserve the right to suspend a person's ability to endorse.
 
-What are my responsibilities as an endorser?
---------------------------------------------
+## What are my responsibilities as an endorser?
 
 **The endorsement process is not peer review.** You should know the
 person that you endorse **or** you should see the paper that the person
