@@ -2,7 +2,7 @@
 
 The endorsement system verifies that arXiv contributors belong to the scientific community in a fair and sustainable way that can scale with arXiv's growth. 
 
-We have changed the endorsement policy for the Math archive, read more in our [blog post](https://blogs.cornell.edu/arxiv/2025/12/10/updated-endorsement-policy-for-arxiv-mathematics).
+We have changed the endorsement process for the Math archive, read more in our [blog post](https://blogs.cornell.edu/arxiv/2025/12/10/updated-endorsement-policy-for-arxiv-mathematics).
 
 Your account may receive automatic endorsement if:
 

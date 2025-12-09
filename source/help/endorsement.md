@@ -8,7 +8,7 @@ before submitting their first paper to a category.
 
 The endorsement system verifies that arXiv contributors belong to the scientific community in a fair and sustainable way that can scale with arXiv's growth. 
 
-Please read more about recent changes to the Math section endorsement policy. 
+Please read our [blog post](https://blogs.cornell.edu/arxiv/2025/12/10/updated-endorsement-policy-for-arxiv-mathematics) about recent changes to the Math section endorsement process. 
 
 
 ## How can I get endorsed?
