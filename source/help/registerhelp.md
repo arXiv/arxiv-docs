@@ -2,15 +2,20 @@
 
 To begin registration, visit the [registration form](https://arxiv.org/user/register).
 
-Your username must be unique and cannot be changed.  
+- Your username must be unique and cannot be changed.  
 
-arXiv registration also asks for your name and your organization. If you are unaffiliated you may enter "Independent" as your organization.
+- arXiv registration also asks for the following information:
 
-Select which archives you are most likely to submit to. This will filter the category options available if you submit an article in the future. 
+    - Your name
+    - Organization affiliation
+    - Email affiliated with the organization
+    - If you are unaffiliated you may enter "Independent" as your organization.
 
-We will then verify the email for your account.
+- Select which archives you are most likely to submit to. This will filter the category options available if you submit an article in the future. 
 
-Please [review account related policies](policies/identity_and_affiliation.md).
+- We will then verify the email for your account.
+
+- Please [review account related policies](policies/identity_and_affiliation.md).
 
 
 ## Account Password
