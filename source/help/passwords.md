@@ -2,8 +2,7 @@
 
 arXiv uses two types of passwords:
 
--   User account passwords for accessing your user account page
-    ([https://arxiv.org/user](https://arxiv.org/user))
+-   User account passwords for accessing [your user account page](https://arxiv.org/user)
 -   Paper passwords for claiming ownership of an announced article submitted by
     co-authors or a proxy
 
