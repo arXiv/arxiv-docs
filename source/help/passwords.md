@@ -27,7 +27,7 @@ how co-authors may become an owner.
 If you have not received the paper password for your article after its announcement, 
 please contact arXiv administration through the [user support portal](http://arxiv.org/support/general_help) to request the password. 
 
-You can retrieve your paper password in the “articles you own” section of your account. Simply click on the “share” icon in the “actions” column next to your paper to obtain the password. 
+You can retrieve your paper password in the **articles you own** section of your account. Simply click on the **share** icon in the **actions** column next to your paper to obtain the password. 
 
 
 -   [Claim ownership of a paper using a paper
