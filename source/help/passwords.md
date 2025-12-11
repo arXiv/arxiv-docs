@@ -2,8 +2,7 @@
 
 arXiv uses two types of passwords:
 
--   User account passwords for accessing your user account page
-    ([https://arxiv.org/user](https://arxiv.org/user))
+-   User account passwords for accessing [your user account page](https://arxiv.org/user)
 -   Paper passwords for claiming ownership of an announced article submitted by
     co-authors or a proxy
 
@@ -24,10 +23,7 @@ They receive the **paper password** as part of the announcement e-mail when the 
 arXiv-id is assigned. See [authority records](../help/authority.md) for more information regarding 
 how co-authors may become an owner. 
 
-If you have not received the paper password for your article after its announcement, 
-please contact arXiv administration through the [user support portal](http://arxiv.org/support/general_help) to request the password. 
-
-You can retrieve your paper password in the **articles you own** section of your account. Simply click on the **share** icon in the **actions** column next to your paper to obtain the password. 
+You can also retrieve your paper password in the [**articles you own**](https://arxiv.org/user/#owned-articles) section of your account. Click on the **share** icon (<img alt="replace icon" src="https://arxiv.org/images/fa-icon-share.svg" />) in the **actions** column next to your paper and the password will be emailed to you. 
 
 
 -   [Claim ownership of a paper using a paper
