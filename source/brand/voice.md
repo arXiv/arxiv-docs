@@ -7,10 +7,10 @@ arXiv’s voice, tone, and language reflect our identity, both current and aspir
 arXiv’s communication style is **conversational, professional, and direct.** We communicate in as few words as possible, using clear language and avoiding jargon.
 
 ##How we describe arXiv
-arXiv is a place of connection, where people around the world can read and contribute cutting edge work quickly. As a pioneer in digital open access, arXiv.org now hosts more than 1.8 million scholarly works in eight subject areas, curated by our strong community of volunteer moderators who balance content quality and distribution speed. arXiv offers solutions for a broad range of services: from submission, compilation, production, retrieval, search and discovery, web distribution, and machine-readability, together with moderation, content curation, and preservation. Our emphasis on openness, collaboration, and scholarship provide the strong foundation on which arXiv thrives.  
+arXiv is a place of connection, where scientists and experts around the world can read and contribute cutting edge work quickly. As a pioneer in digital open access, arXiv.org now hosts more than 2.9 million scholarly works in eight subject areas, curated by our strong community of volunteer moderators who balance content quality and distribution speed. arXiv offers solutions for a broad range of services: from submission, compilation, production, retrieval, search and discovery, web distribution, and machine-readability, together with moderation, content curation, and preservation. Our emphasis on openness, collaboration, and scholarship provide the strong foundation on which arXiv thrives.  
 
 ##One Liner
-arXiv is a curated research-sharing platform, open to all.
+arXiv is a curated research-sharing platform, free and open to all scientists.
 
 ##Our relationship to Cornell and Cornell Tech
 arXiv is organized exclusively for educational and scientific purposes. It is part of Cornell University and reports organizationally to the Dean of Cornell Tech, who acts as arXiv’s steward.
