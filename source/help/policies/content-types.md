@@ -8,6 +8,8 @@ In general, the guidelines below represent what types of content typically are a
 ## Content types that are typically NOT accepted include
 
 - Abstract-only submissions
+- Abstracts of system demonstrations
+- Research abstracts for Doctoral Consortiums
 - Book announcements
 - Book reviews
 - Calls for papers
