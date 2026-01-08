@@ -29,15 +29,14 @@ The final [arXiv identifier](arxiv_identifier.md) is assigned as part of the aut
 
 Occasionally, arXiv defers a mailing, either for locally celebrated holidays such as Thanksgiving or for ad hoc reasons. Information about deferred mailings may be found on the [arXiv status](https://status.arxiv.org) page, or on the [arXiv blog](https://blog.arxiv.org).  
 
-### 2025 Holidays 
-- Wednesday 1 January
-- Monday 20 January
-- Thursday 19 June 
-- Sunday 6 July 
-- Monday 1 September 
-- Thursday 27 November 
-- Thursday 25 December
-- Tuesday 30 December
 
 ### 2026 Holidays
-- Thursday 1 January
+- Thursday 2026-01-01
+- Monday 2026-01-19
+- Friday 2026-06-19
+- Friday 2026-07-03
+- Monday 2026-09-07
+- Thursday 2026-11-26
+- Friday 2026-12-25
+- Tuesday 2026-12-29
+- Thursday 2026-12-31
