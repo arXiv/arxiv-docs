@@ -99,7 +99,7 @@ Engineering) = **cs.SE**, and nlin (Chaotic Dynamics) = **nlin.CD**.
 Motivation for 2007 change of identifier scheme
 -----------------------------------------------
 
-Some change to the arXiv identifier scheme was needs to permit
+Some change to the arXiv identifier scheme was needed to permit
 submissions expected to exceed 1000 articles per month in some archives
 in 2007 (likely `math`, `cond-mat` and `astro-ph`). The [old identifier
 scheme](#old) imposed a limit of 999 submissions per month in any one
@@ -114,7 +114,7 @@ classifications of individual articles as necessary (for example, it has
 long been possible to adjust classification of articles *within* the
 `cs` and `math` archives and we see this as beneficial). It also makes
 it easier to adjust our classification schemes as disciplines and arXiv
-usage evolve (for example, we need to sub-divide astro-ph since it
+usage evolve (for example, we need to sub-divide astro-ph since it is
 currently too large). Various schemes with optional or redundant
 classification information in the identifier were considered (extending
 from the redundant [2-letter subject classes in `math`](https://arxiv.org/list/math/info)
@@ -123,7 +123,7 @@ identifier-to-article means that interacting services cannot compare
 identifiers and know whether they refer to the same arXiv article
 without local knowledge of arXiv's identifier scheme.
 
-We feel that is a useful to have a single canonical form for identifiers
+We feel that is useful to have a single canonical form for identifiers
 within a month, with the same number of digits following the period.
 Thus identifiers from 0704 through 1412 have the sequence number (the
 number following the period) padded to 4-digits. The use of 4-digits
