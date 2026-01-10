@@ -13,7 +13,7 @@ Since 2005 arXiv has used [authority records](../help/authority.md) that associa
 user accounts with articles authored by that user. These records support
 the [endorsement system](endorsement.md). The use of public author
 identifiers as a way to build services upon this data is new in 2009.
-Initially, users must opt-in to have a public author identifier and to
+Initially, users must opt in to have a public author identifier and to
 expose the record of their articles on arXiv for use in other services.
 At some later date we hope to be able to improve our authority records
 to the point where we can create public author identifiers for all
