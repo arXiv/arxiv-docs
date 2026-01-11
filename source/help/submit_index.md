@@ -4,7 +4,7 @@ We encourage conference organizers to use arXiv as a way to distribute
 and archive conference papers. Conference proceedings may be made as a
 single submission (which is handled in the normal way), or as a set of
 individual papers with an index submission. **Note** individual papers
-within a proceedings must still conform to arXiv content polices and are
+within a proceedings must still conform to arXiv content policies and are
 moderated, as usual. Ideally, an index or overlay should provide
 information beyond what would be available from a keyword search on the
 [`Report-no`](prep.md#report) metadata field.
