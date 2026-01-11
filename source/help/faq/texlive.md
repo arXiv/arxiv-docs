@@ -41,7 +41,7 @@ We are currently only supporting the following types of TeX submissions:
 *   LaTeX submissions in PDF mode named `pdflatex` during the submission: those are converted using `pdflatex`.
 *   LaTeX submissions in PDF mode named `xelatex` during the submission: those are converted using `xelatex`.
 
-During the submission process, you will be asked which of the processor you want to use for your
+During the submission process, you will be asked which of the processors you want to use for your
 submission.
 
 
@@ -54,7 +54,7 @@ one automatically during submission. If you want to decide by yourself, here is 
 *   if it is a LaTeX document that includes `eps` files, select `latex`;
 *   if it is a LaTeX document that includes `jpg`, `png` (and some more) files, select `pdflatex`;
 *   if it is a LaTeX document that includes both `eps` and `jpg`/`png`/`pdf` files, select `xelatex`;
-*   if you don't know, select `pdflatex`
+*   if you don't know, select `pdflatex`.
 
 Note that at the moment, the processor type is fixed for all parts of a multi-file submission.
 
@@ -63,7 +63,7 @@ Note that at the moment, the processor type is fixed for all parts of a multi-fi
 ## Notes concerning the use of `xelatex`
 
 XeLaTeX ([TUG page](https://tug.org/xetex/), [Wikipedia entry](https://en.wikipedia.org/wiki/XeTeX)) has been
-introduce as possible processor option in November 2025. The main changes compared to `pdflatex` are:
+introduced as possible processor option in November 2025. The main changes compared to `pdflatex` are:
 
 * Unicode support
 * Support for TrueType and OpenType fonts
@@ -76,7 +76,7 @@ and using the **File Name**. For lookups using the font name, `fontconfig` suppo
 to be registered with `fontconfig`. At arXiv, practically no fonts are registered with `fontconfig` (only a small
 set of system fonts).
 
-Thus, to use any of the long list of TrueType or OpenType fonts shipped by TeX Live, one needs use the file name
+Thus, to use any of the long list of TrueType or OpenType fonts shipped by TeX Live, one needs to use the file name
 lookup method.
 
 See [Truetype and Opentype fonts available at arXiv's TeX Live 2025](font-info-tl2025.md) for the
@@ -111,7 +111,7 @@ Uploaded fonts will be part of the submission package and thus distributed. Duri
 the submission, authors need to select a correct license that applies to all of
 their submitted material, **including** uploaded fonts.
 
-We thus strongly suggest to use only fonts that are available in the TeX Llive
+We thus strongly suggest to use only fonts that are available in the TeX Live
 distributions, see [this document](font-info-tl2025.md) for a complete list of font names and file names.
 
 <span id="changes-2025"></span>
@@ -235,7 +235,7 @@ of large disciplines.
 
 We do not anticipate significant issues for articles developed under TeX 
 Live 2023. If you are submitting articles developed under older TeX Live
-releases you may experinece some of the issues below. We ran some tests 
+releases you may experience some of the issues below. We ran some tests 
 against TeX Live 2020 articles to get a sense for common problems 
 with older TeX Live releases.
 
@@ -246,7 +246,7 @@ under TL2020 using the new TL2023 release.
 The primary objective is to identify any potential issues that our 
 existing authors may encounter with the new TeX Live 2023 release.
 
-In general terms, 95% of TL2020 articles compile successfuly under TL2023. 
+In general terms, 95% of TL2020 articles compile successfully under TL2023. 
 Nearly 35% of recompiled article PDFs are identical or vary by
 a single page (often due to date). Nearly 60% of older TL2020 article source 
 resulted in changes to multiple page of the resulting TL2023 PDF. 
@@ -389,15 +389,15 @@ extremely cautious when it comes to updates.
 
 TeX Live Packages: Updating commonly used packages in the main TL2020
 distribution is time consuming since we need to guarantee that existing
-papers are not adversly impacted by such a change. New packages: Adding
+papers are not adversely impacted by such a change. New packages: Adding
 new packages not included in TeX Live is possible by adding the package
 to our local tree. Updating existing packages in the distribution or
-local tree is difficult. Options for updating existing packages. One
+local tree is difficult. Options for updating existing packages: One
 option is to include the modified package with your submission. Another
 option, for packages expected to be used by many authors, is to provide
 a modified version (that does not conflict with existing packages) that
 may be added to our local tree. If you see the need to include a large
-package hierarchy with you submission please contact us before including
+package hierarchy with your submission please contact us before including
 significant portions of a TeX Live tree.
 
 Our goal is to update our TeX Live distribution every few years. Since
@@ -633,3 +633,4 @@ An incomplete list of common symptoms, errors, and fixes
         dvips: ! premature end of file in binary section
     
     fix: figure must be corrected
+
