@@ -1,7 +1,7 @@
 # PostScript Fonts
 
-Computer Modern Postscript Fonts in Adobe Type I Format are device-independent and
-resolution-independent outline fonts for use in Postscript documents.
+Computer Modern PostScript Fonts in Adobe Type I Format are device-independent and
+resolution-independent outline fonts for use in PostScript documents.
 There are four sets of Type I fonts of interest to users of the archives
 and TeX users in general. These are the Bakoma, Blue-Sky, AMSFonts, and
 Paradissa font sets. Depending on your software, they may also display
@@ -27,7 +27,7 @@ server for more information on the Blue-Sky font deal.
 The Paradissa fonts are extra fonts, including the AMS fonts and some
 Cyrillic fonts. The AMSFonts set includes the Euler, "extra symbol" and
 cyrillic fonts in selected sizes; these were produced by Blue Sky
-Research and made freely available in late 1997. See the [the
+Research and made freely available in late 1997. See [the
 discussion](http://www.ams.org/tex/type1-cm-fonts.html) on the AMS
 server and the [AMS ftp site](ftp://ftp.ams.org/pub/tex/psfonts/ams/)
 for the AMSFonts.
@@ -39,15 +39,15 @@ With two font sets of different origin some compatibility questions
 arise, especially for documents with non-embedded fonts.
 
 First of all, the two font sets are basically interchangeable.
-Postscript or PDF documents with non-embedded fonts, which were created
+PostScript or PDF documents with non-embedded fonts, which were created
 based on one font set, can be displayed using either of the two font
 sets.
 
 There is a minor problem with naming conventions for case sensitive
 operating systems. The Bakoma font names are all lowercase, while
 Blue-Sky font names are all uppercase. If your fontfiles don't match the
-font names in the Postscript or PDF file, you will have to translate the
-font names in the document (note that we offer Postscript and PDF files
+font names in the PostScript or PDF file, you will have to translate the
+font names in the document (note that we offer PostScript and PDF files
 with a [choice of naming convention](psvariants.md); for example Macintosh
 use fonts with upper case NAMES), or translate the case of your
 fontfiles or make symbolic links from uppercase to lowercase names.
@@ -56,7 +56,7 @@ Blue-Sky fonts cover Knuth's 75 CM fonts (plus the extra LaTeX and
 SliTeX fonts) *exactly*, but no others, while the combination of Bakoma
 and Paradissa contains in addition the AMS fonts and some Cyrillic
 fonts. You will need these additional fonts from Bakoma and Paradissa if
-you want to read type 1 Postscript or PDF documents produced by arXiv.
+you want to read type 1 PostScript or PDF documents produced by arXiv.
 You will see incorrect symbols especially in math formulas without them.
 
 Which look better?
