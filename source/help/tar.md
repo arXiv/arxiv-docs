@@ -6,7 +6,7 @@ are [tar](#tar) and [zip](#zip).
 
 Note that arXiv does not currently support `rar` archives, or `bz` or
 `bz2` compression. Also, you must not simply concatenate files together
-since arXiv will have no way of sensibly unpack them.
+since arXiv will have no way of sensibly unpacking them.
 
 ### <span id="tar">`tar` files</span>
 
