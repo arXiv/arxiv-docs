@@ -118,7 +118,7 @@ we require that you use a unified figure format.
 Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with
 embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems.
 
--   Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files.
+-   Submit all movies and animated GIFs as separate (non-JavaScript) ancillary files.
 -   Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
 
 #### Figure inclusion in plain TeX
@@ -168,7 +168,7 @@ Readers prefer to have a compact single-spaced version, as it would appear in a 
 
 ### Prepare the references carefully
 
-We strongly encourage you to include arXiv's `YYMM.NNNNN`, [identifiers](arxiv_identifier.md) in your reference list for both
+We strongly encourage you to include arXiv's `YYMM.NNNNN` [identifiers](arxiv_identifier.md) in your reference list for both
 published and unpublished papers. Note also that many publishers allow e-print identifiers to appear in the
 references of papers submitted.
 
@@ -213,7 +213,7 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 #### The `.bbl` file and paper submission were produced by different programs
 
 Biblatex can run on a dedicated Biber backend or BibTeX; however, when submitting a biblatex `.bbl` file,
-your paper and `.bbl` file must be created by the same program. e.g.
+your paper and `.bbl` file must be created by the same program. E.g.:
 
 -   If you use biblatex with Biber as a backend to produce your document, then your document will expect
   a `.bbl` produced by Biber.
@@ -223,7 +223,7 @@ your paper and `.bbl` file must be created by the same program. e.g.
 
 Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or vice versa. This will only
 result in errors and frustration.
-[Lean more information about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
+[Learn more about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
 
 #### The `.bbl` file version is not compatible with biblatex or Biber on arXiv
 
@@ -271,7 +271,7 @@ regarding how to prepare your document for submission to arXiv.
 
 ### Usage of `xr`, `subfiles`, and external documents
 
-In general, usage of the `xr` (and the deprecated `xr-hyper`, which is subsumed by `xr`), is problematic
+In general, usage of the `xr` (and the deprecated `xr-hyper`, which is subsumed by `xr`) is problematic
 and we advise against the usage of it on arXiv. `xr` provides a way to link to **external documents**, but
 renaming of files, file locations etc will be different on the arXiv servers, and thus links to external
 documents will **not** work.
@@ -286,7 +286,7 @@ package. Using `xr` and `subfiles` with multiple documents can work when the set
 - Assume that the main file is called `my-submission`
 - The main document loads `xr` and `subfiles`, and declares `\externaldocument[M-]{my-submission}[]` -- the empty optional argument at the end ensures that hyperref creates internal links.
 - The sub-document uses `subfiles` document class, loads `xr`, and also declares the same `\externaldocument...` as above
-- The prefix `M-` is arbitrary and can be choosen, please see the documentation of `xr`
+- The prefix `M-` is arbitrary and can be chosen, please see the documentation of `xr`
 
 This should resolve all links within any of the subfiles or links across files as
 internal document links.
