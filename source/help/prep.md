@@ -29,7 +29,7 @@ Bad character(s)
 ----------------
 
 Our metadata fields only accept ASCII input. Unicode characters should be
-conveted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
+converted to its <span class="mathjax">$\\TeX$</span> equivalent (either through
 [MathJax](mathjax.md) entry or for proper names use the appropriate
 [accents](#accents)).
 
@@ -83,7 +83,7 @@ Information Fields
 **Usage:**
 
 -   In order to automate indexing and searching, it is required that
-    authors to be listed in a standard format across arXiv. It is not required for author names to be in order of contribution, as this is occasionally field and target journal dependent. Names must be given in
+    authors be listed in a standard format across arXiv. It is not required for author names to be in order of contribution, as this is occasionally field and target journal dependent. Names must be given in
     the order: Firstname Lastname or Firstname Middlename Lastname
     (where Lastname is your family name). Do not include honorifics, such as "Dr.", "Professor", etc.
 -   Include the names of *all authors* instead of truncating the list
@@ -214,7 +214,7 @@ announcement, it will be wrapped to 80 characters.
     article's abstract.
 -   This is the proper field for "to be published in" or "submitted to"
     information, including inclusion in conference proceedings. Please
-    note that such entries will be frozen into this version, and is [not
+    note that such entries will be frozen into this version, and are [not
     editable](replace.md#minorchanges) after announcement.
 -   This is the proper field for author roles, such as "Appendix by" or
     "Editor" information.
@@ -325,7 +325,7 @@ Please carefully review the [descriptions of categories](https://arxiv.org/categ
     articles may be submitted by [third
     parties](third_party_submission.md) (co-workers, administrative
     assistants, overlay journals, etc.). Prior authorization is required
-    for such submissions. If you are not the author this work you must
+    for such submissions. If you are not the author of this work you must
     [contact](contact.md) arXiv administrators for permission.
     Submissions without prior authorization will be removed.
 -   The submitter of an article is automatically registered as an
