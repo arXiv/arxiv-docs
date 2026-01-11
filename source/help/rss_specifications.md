@@ -87,7 +87,7 @@ arXiv ID (the article’s canonical name); Announce Type describing if the paper
 Abstract: We consider first order local minimization problems of the form $\min \int_{\mathbb{R}^N}f(u,\nabla u)$ under a mass constraint $\int_{\mathbb{R}^N}u=m$. We prove that the minimal energy function $H(m)$ is always concave, and that relevant rescalings of the energy, depending on a small parameter $\varepsilon$, $\Gamma$-converge towards the $H$-mass, defined for atomic measures $\sum_i m_i\delta_{x_i}$ as $\sum_i H(m_i)$. We also consider Lagrangians depending on $\varepsilon$, as well as space-inhomogeneous Lagrangians and $H$-masses. Our result holds under mild assumptions on $f$, and covers in particular $\alpha$-masses in any dimension $N\geq 2$ for exponents $\alpha$ above a critical threshold, and all concave $H$-masses in dimension $N=1$. Our result yields in particular the concentration of Cahn-Hilliard fluids into droplets, and is related to the approximation of branched transport by elliptic energies.</description>
 ```
 
-**&lt;guid isPermaLink="false'&gt;**  
+**&lt;guid isPermaLink="false"&gt;**  
 Unique Identifier of the article  
 ```
 <guid isPermaLink="false">oai:arXiv.org:2203.01250v3</guid>
@@ -101,7 +101,7 @@ Subject classifications. Articles can be classified under more than one category
 ```
 
 **&lt;pubDate&gt;**
-Publish date for the update on the article. For new announcements this is the date the paper was officially announced on arXiv, for all other its the date of the official announcement of the update.  
+Publish date for the update on the article. For new announcements this is the date the paper was officially announced on arXiv, for all others it’s the date of the official announcement of the update.  
 ```
 <pubDate>Fri, 23 Aug 2024 00:00:00 -0400</pubDate>
 ```
@@ -135,7 +135,7 @@ Name, date, issue of journal if the paper is already published
 ```
 
 **&lt;dc:creator&gt;**  
-List of the paper's author orauthors separated by comma  
+List of the paper's author or authors separated by comma  
 ```
 <dc:creator>Antonin Monteil, Paul Pegon</dc:creator>
 ```
