@@ -1,7 +1,7 @@
 # TeX, LaTeX, etc.
 
 TeX is a text formatting and markup language developed by D. Knuth in
-the late 1970s and early 1980s. It has become the defacto standard for
+the late 1970s and early 1980s. It has become the de facto standard for
 document preparation in mathematics and certain areas of the physical
 sciences because of its unsurpassed utility in typesetting mathematical
 formulae. TeX allows extension through user-provided or
