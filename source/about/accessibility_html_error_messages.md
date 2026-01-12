@@ -5,7 +5,7 @@ HTML papers on arXiv.org are a work in progress and will sometimes display error
 
 To produce accessible HTML papers we use a converter created and maintained by the LaTeXML team at the National Library of Standards and Technology (NIST). 
 
-The errors that you have seen when viewing papers in HTML after submission or on arXiv.org are caused when the LaTeXML converter is unable to translate certain TeX and LaTeX software constructs. TeX and LaTeX, pronounced ‘tech’ and ‘LAH-tech’, are open source software packages used to typeset science and math papers. TeX and LaTeX made it possible accurately display complex mathematical formulae, symbols and tables in research papers. TeX is a fully programmable layout system, and there are many ways to extend the capabilities of TeX by creating packages of TeX code and macros. In fact, LaTeX itself is simply a large package of TeX extensions. The LaTeX community uses a large number of freely-available packages that are used by the scientific community for tasks like adding figures to articles, or following the publication template for a journal. All of the packages have to be individually supported in LaTeXML. While LaTeXML supports nearly all of the most commonly used LaTeX packages, there is a long tail of less commonly used packages that are not presently supported. The LaTeXML team will continue adding packages, but it will take a very long time to support every package used by every paper on arXiv.
+The errors that you have seen when viewing papers in HTML after submission or on arXiv.org are caused when the LaTeXML converter is unable to translate certain TeX and LaTeX software constructs. TeX and LaTeX, pronounced ‘tech’ and ‘LAH-tech’, are open source software packages used to typeset science and math papers. TeX and LaTeX made it possible to accurately display complex mathematical formulae, symbols and tables in research papers. TeX is a fully programmable layout system, and there are many ways to extend the capabilities of TeX by creating packages of TeX code and macros. In fact, LaTeX itself is simply a large package of TeX extensions. The LaTeX community uses a large number of freely-available packages that are used by the scientific community for tasks like adding figures to articles, or following the publication template for a journal. All of the packages have to be individually supported in LaTeXML. While LaTeXML supports nearly all of the most commonly used LaTeX packages, there is a long tail of less commonly used packages that are not presently supported. The LaTeXML team will continue adding packages, but it will take a very long time to support every package used by every paper on arXiv.
 
 
 ## HTML errors you may see:
@@ -21,7 +21,7 @@ When browsing and reading HTML papers on arXiv.org, you may see formatting error
 ![HTML LaTeX processing error for system name and revision](images/reader-error-03.png){.mkd-border alt='System name errors are displayed in red markup. Errors are: forward slash system name, foward slash revision'}
 
 ## Steps authors can take to minimize HTML errors
-Authors who submit papers to arXiv can help minimize HTML errors by using LateX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
+Authors who submit papers to arXiv can help minimize HTML errors by using LaTeX packages that are fully supported by LaTeXML. [Please view the list of fully supported LaTeX packages](https://corpora.mathweb.org/corpus/arxmliv/tex_to_html/info/loaded_file).
 
 ## Frequently Asked Questions
 
@@ -33,7 +33,7 @@ LaTeX is a software system for document layout and preparation developed in the 
 
 ### What is LaTeXML?
 
-LaTeXML was developed at the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology) and is authored by Bruce Miller and Deyan Ginev. It's primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical formulas as MathML. 
+LaTeXML was developed at the [Digital Library of Mathematical Functions at NIST](https://math.nist.gov/) (National Institute of Standards and Technology) and is authored by Bruce Miller and Deyan Ginev. Its primary output is XML and a postprocessor can convert these XML documents into HTML with mathematical formulas as MathML. 
 
 ### What is MathML?
 MathML is mathematical markup language and is an XML based application. MathML is used to describe and encode mathematical notation and scientific content for distribution on the web and other applications such as scientific software, print typesetting and voice synthesis. 
