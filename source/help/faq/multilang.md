@@ -1,6 +1,6 @@
 # Submissions in Languages Other Than English and Multiple-Language Submissions
 
-We accept submissions in languages other than English but require that all submissions have an English version of the paper. By providing the entire paper in both languages — rather than the full paper being in a language other than English, with an English translation of only the abstract included — we make it possible for more people around the world to read and engage with your work. Please see our blog post about the [policy change to non-English paper submissions](https://blog.arxiv.org/2026/01/13/non-english-paper-submission-guidelines).
+We accept submissions in languages other than English but require that all submissions have an English version of the paper. By providing the entire paper in both languages — rather than the full paper being in a language other than English, with an English translation of only the abstract included — we make it possible for more people around the world to read and engage with your work. Please see our blog post about the [policy change to non-English paper submissions](https://blog.arxiv.org/2025/11/21/upcoming-policy-change-to-non-english-language-paper-submissions/).
 
 
 ## Preparation of a multilingual paper
