@@ -59,12 +59,12 @@ the requirements below will be met.
     each submission (this will be requested in addition to other
     metadata when submissions are made via proxy submission accounts; it
     is a separate metadata field for SWORD deposits).
--   Proxy submitters must not make more that 10 submissions in a day
+-   Proxy submitters must not make more than 10 submissions in a day
     without prior approval from arXiv administrators (this rule avoids
     overloading arXiv administrators and moderators; excessive numbers
     of submissions may simply be removed from the queue *en masse*).
 -   When submitting TeX source, the complete source files (see [TeX
-    source help](submit_tex.md)) must be provided to enable processing .
+    source help](submit_tex.md)) must be provided to enable processing.
     When author-produced PDF is submitted, *only* the PDF file should be
     uploaded ([PDF submission help](submit_pdf.md)).
 -   There are some test facilities for those developing new SWORD upload

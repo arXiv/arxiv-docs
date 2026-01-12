@@ -11,7 +11,7 @@ You should use references of the form:
   - `arXiv:arch-ive/YYMMNNNv#` or `arXiv:arch-ive/YYMMNNNv# [category]`
     for papers submitted before April 2007. The second form should be
     used for archives that have subject classes (`math.XX`, `cs.XX`
-    etc.), e.g..  
+    etc.), e.g.  
     `arXiv:hep-th/9901001v3`  
     or  
     `arXiv:math/9910001v1 [math.AT]`.

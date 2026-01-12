@@ -62,7 +62,7 @@ This command will convert all the files matching filenames ending with
 `ps` (which will cover both `.eps` as well as `.ps` figures). Please
 check the resultant figures carefully, as we are not responsible for any
 errors that may occur. However, this mechanism has proven quite
-effective for rapidly converting whole directores into PDF files, using
+effective for rapidly converting whole directories into PDF files, using
 the same file names.
 
 Note that you may have to update the figure inclusion commands.

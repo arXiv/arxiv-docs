@@ -13,7 +13,7 @@ arXiv is committed to creating an accessible experience for all users. Below are
 
 ## Accessible arXiv
 
-The arXiv community is diverse in every way and includes users with visual or other impairments, those who use assistive technology, and many other factors that can affect one's ability navigate the internet. Maintaining, expanding, and improving access for all users is our goal and must necessarily include accessibility.
+The arXiv community is diverse in every way and includes users with visual or other impairments, those who use assistive technology, and many other factors that can affect one's ability to navigate the internet. Maintaining, expanding, and improving access for all users is our goal and must necessarily include accessibility.
 
 The reasons for prioritizing accessibility are vast but below are the top ten we have identified for our platform and users:
 

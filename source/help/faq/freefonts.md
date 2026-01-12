@@ -9,7 +9,7 @@ from Adobe, either via use of free subsets thereof, via substitutions,
 or via a combination of both. This applies in particular to Minion Pro,
 Myriad Pro, Utopia, Garamond, and possibly others.
 
-## MinonPro Fonts
+## MinionPro Fonts
 
 Update: Due to lack of demand in the past 3 years we do no longer
 support MinionPro. arxiv switched to a **texlive 2009** based system on
@@ -21,3 +21,4 @@ the "semi", "mid", or "optical" shapes are not available. Thus in
 particular the class option `[opticals]` is not supported at arXiv.
 
 See <http://www.ctan.org/tex-archive/fonts/minionpro/> for more details.
+

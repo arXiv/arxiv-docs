@@ -24,7 +24,7 @@ submitted. Please take note of the following submission tips:
 - Full text placed in the ancillary directory will not be indexed in searches.
 - PDF files with embedded JavaScript will cause your submission to fail (embedded JavaScript is a security risk to arXiv’s systems).
     - Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller.
-    - Submit all movies and animated GIFS as separate (non-JavaScript) ancillary files. 
+    - Submit all movies and animated GIFs as separate (non-JavaScript) ancillary files. 
 
 
 Submission of ancillary files

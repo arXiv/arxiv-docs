@@ -116,7 +116,7 @@ submit an article to arXiv, the submitter must
     Attribution-Noncommercial-ShareAlike license, and that they have the
     right to grant this license, or
 -   certify that the work is in the public domain (we will store this
-    information by associating the Create Commons Public Domain
+    information by associating the Creative Commons Public Domain
     Declaration with the submission)
 
 Since license negotiation is outside of the SWORD protocol, arXiv
@@ -597,7 +597,7 @@ This means that the wrapper passed checks for presence of all mandatory
 elements, proper classification, ownership of the referenced media
 entries, authorization to post to the specified collection, presence of
 a contact email for at least one of the authors of the contribution,
-etc..
+etc.
 
 The returned atom entry confirms the acceptance
 
@@ -643,7 +643,7 @@ automatically queued for ingestion into the arXiv system.
 Acceptance of the wrapper does not imply that ingestion will be
 successful. Among other things there could be problems with moderator
 approval, classification, format conversion (e.g. TeX → PS, .docx → PDF,
-etc.), duplication detection, etc..
+etc.), duplication detection, etc.
 
 The eventual success or failure of ingestion will be communicated by
 email to the primary contact author (and optionally to the
@@ -701,7 +701,7 @@ Status Values
     submissions. The submission is in process but not yet submitted and
     queued.
 
--   `unknown` - The tracking URI is not know. More information may be
+-   `unknown` - The tracking URI is not known. More information may be
     given in an `<error>` element.
 
 <span id="replacement"></span>
@@ -777,8 +777,8 @@ Steps for a replacement
 *Notes*: 
 
  - To replace a paper using the permanent arXiv identifier (`<id>`), submit the metadata wrapper via **PUT** to `https://arxiv.org/sword-app/edit/<id>` e.g. for `arXiv:0708.0123` use **PUT** to `https://arxiv.org/sword-app/edit/0708.0123` and for `arXiv:cond-mat/9904123` use **PUT** to `https://arxiv.org/sword-app/edit/cond-mat/9904123`
- - arXiv does not permit the classification of an article to be changed during a replacement operation. The `arxiv:primary_category` element must match the existing primary category. The replacment metadata may contain either no `category` elements, or a set of `category` elements that matches the existing categories.
- - The authenticated user **must**> be the paper owner. Ownership can be [claimed with the paper password](https://arxiv.org/auth/need-paper-password.php).
+ - arXiv does not permit the classification of an article to be changed during a replacement operation. The `arxiv:primary_category` element must match the existing primary category. The replacement metadata may contain either no `category` elements, or a set of `category` elements that matches the existing categories.
+ - The authenticated user **must** be the paper owner. Ownership can be [claimed with the paper password](https://arxiv.org/auth/need-paper-password.php).
 
 <span id="errors"></span>
 ## 7. Error Conditions and Error Codes

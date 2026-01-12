@@ -57,7 +57,7 @@ represented in the `arXiv` format metadata as:
       <license>http://creativecommons.org/licenses/publicdomain/</license>
     ...
 
-The Public Domain Dedication allows and article to be copied to another
+The Public Domain Dedication allows an article to be copied to another
 repository without the need to ask for permission. Most submissions to
 arXiv use the default license however, expressed with the URI:
 
@@ -109,7 +109,7 @@ linkage is automatic for the submitting author but co-authors must
 claim-ownership after announcement in order to be linked. Additionally,
 user accounts may be linked with [ORCID iDs](orcid.md) and then a
 public display of all arXiv articles linked to that ORCID iD is
-available on arXiv in both human an machine-readable forms. With these
+available on arXiv in both human and machine-readable forms. With these
 linkages in place, if you know the ORCID iDs of your institutions'
 researchers it is then possible to find all their articles on arXiv.
 

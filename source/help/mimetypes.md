@@ -39,7 +39,7 @@ Source files
 arXiv supports two different URI patterns for accessing source files,
 `/e-print/ID` and `/src/ID`. The `/e-print/ID` form delivers a single
 file with the appropriate content type for single-file submission, or a
-gzipped tar file for multiple source files (most TeX s ubmissions or
+gzipped tar file for multiple source files (most TeX submissions or
 multi-file PS). The `/src/ID` form always delivers a gzipped tar file.
 
 ### Multiple source files example
@@ -86,7 +86,7 @@ file, it is delivered as a gzipped dvi file:
       Content-Type: application/x-dvi
       Content-Encoding: x-gzip
 
-In the case of multiple files (dvi file + figures), is delivered as a
+In the case of multiple files (dvi file + figures), it is delivered as a
 gzipped tar file:
 
       > curl -# -I http://arxiv.org/dvi/hep-lat/9107001v1 | grep -p 'Content-[TE]'

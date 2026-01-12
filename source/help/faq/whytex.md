@@ -1,7 +1,7 @@
 # Why Submit the TeX/LaTeX Source?
 
 1. TeX has many advantages that make it ideal as a format for the archives: It is plain text, it is compact, it is freely available for all platforms, it produces extremely high-quality output, and it retains [contextual information](#contextual).
-2. It is thus more likely to be a good source from which to generate newer formats, e.g., HTML, MathML, various ePub formats, etc.. Possession of the source thus provides many additional options for future document formats and other uses.
+2. It is thus more likely to be a good source from which to generate newer formats, e.g., HTML, MathML, various EPUB formats, etc. Possession of the source thus provides many additional options for future document formats and other uses.
 3. Having TeX source allowed us to introduce packages such as `hyperref`, which brought clickable hyperlinks to PDF (and HTML).
 4. We recently started creating HTML versions of all papers. This was done primarily to make arXiv's content available to the visually impaired, but it also has benefits for sighted people who might be reading an article from a mobile phone, or other non-traditional devices. We expect continuous improvements in the HTML conversion process and this format to become predominant. It also makes arXiv ready to comply with legal requirements around accessibility.
 
@@ -10,7 +10,7 @@
 What is "Contextual" Information, and Why is it Important?
 ----------------------------------------------------------
 
-We mean by this the relationship between equations and their labels, references and their numbers, subsection headings and their entries in the table of contents, and so on. While ordinarily readily available in TeX/LaTex source, conversion to Postscript irretrievably loses this structural information. The loss is unfortunate because with new formats such as PDF, the information can be used to provide active hyperlinks: e.g., in a PDF viewer you can click on an equation number and jump back to the specified equation. Moreover TeX itself can be processed as HyperTeX and, with the proper dvi previewer, clicking on equation numbers will bring up the desired equation in a separate window, or even retrieve other papers specified by their proper arch-ive/papernum identifier. HyperTeX works by redefining the standard macros and works retroactively for pre-existing TeX/LaTeX source -- HyperTeX conversion is accomplished by merely re-TeXing with the modified macros. Since information is ordinarily lost in each stage of processing, TeX source contains (close to) the maximal amount of contextual information that can be retroactively processed into any future format which can take advantage of it. For detailed information on the current `hypertex`, please refer to the [CTAN website](https://ctan.org/pkg/hyperref).
+We mean by this the relationship between equations and their labels, references and their numbers, subsection headings and their entries in the table of contents, and so on. While ordinarily readily available in TeX/LaTeX source, conversion to PostScript irretrievably loses this structural information. The loss is unfortunate because with new formats such as PDF, the information can be used to provide active hyperlinks: e.g., in a PDF viewer you can click on an equation number and jump back to the specified equation. Moreover TeX itself can be processed as HyperTeX and, with the proper dvi previewer, clicking on equation numbers will bring up the desired equation in a separate window, or even retrieve other papers specified by their proper arch-ive/papernum identifier. HyperTeX works by redefining the standard macros and works retroactively for pre-existing TeX/LaTeX source -- HyperTeX conversion is accomplished by merely re-TeXing with the modified macros. Since information is ordinarily lost in each stage of processing, TeX source contains (close to) the maximal amount of contextual information that can be retroactively processed into any future format which can take advantage of it. For detailed information on the current `hypertex`, please refer to the [CTAN website](https://ctan.org/pkg/hyperref).
 
 
 Why doesn't arXiv Accept Preprocessed Submissions?
@@ -30,11 +30,11 @@ Frequent Red Herring Concerns:
 
 *   **Won't TeX source make it easy to plagiarize?**
 
-    There is no file format or other technological device that can protect you from this. At the very least, unscrupulous re-typers would always remain a threat. Postscript does not provide a barrier in any event: it is quite simple for someone with a little knowledge to extract any text from a Postscript file. Moreover a plagiarist who cuts-and-pastes directly from your TeX source is all the more easily detected, since the source is easily identified. We archive all versions of papers so that we can assist in any priority or plagiarism disputes.
+    There is no file format or other technological device that can protect you from this. At the very least, unscrupulous re-typers would always remain a threat. PostScript does not provide a barrier in any event: it is quite simple for someone with a little knowledge to extract any text from a PostScript file. Moreover a plagiarist who cuts-and-pastes directly from your TeX source is all the more easily detected, since the source is easily identified. We archive all versions of papers so that we can assist in any priority or plagiarism disputes.
 
 *   **I worked hard to make my figures and I don't want people to steal them. Shouldn't I hide them by embedding them?**
 
-    As with the above question, it is quite easy for someone with a little knowledge to extract anything they like from the output PDF or Posctript file. Furthermore, unauthorized or un-attributed use of figures counts as plagiarism, just as above, so the rest of the above discussion applies here as well.
+    As with the above question, it is quite easy for someone with a little knowledge to extract anything they like from the output PDF or PostScript file. Furthermore, unauthorized or un-attributed use of figures counts as plagiarism, just as above, so the rest of the above discussion applies here as well.
 
 <span id="comments"></span>
 

@@ -2,7 +2,7 @@
 
 Upon loading the abstract page for an article, you will find a number of
 choices for download formats. These selections appear in the top right
-of the after the text of the abstract and look like:
+of the page and look like:
 
 Download:
 ---------
@@ -14,7 +14,7 @@ Download:
 For most articles **PDF** (Portable Document Format) will be available
 as the top link. There may also be links to **PostScript**, **HTML**,
 **Source** and **Other formats** depending on formats supplied by the
-submitted of the article. See also [browser configuration
+submitter of the article. See also [browser configuration
 help](config_browser.md).
 
 <span id="other"></span>
@@ -27,7 +27,7 @@ available for an article, including a link to download the source files
 for TeX/LaTeX articles. Look here if you would like to download in
 formats such as
 
--   [PostScript](psvariants.md) at different resolutions (300dpi, 600 dpi)
+-   [PostScript](psvariants.md) at different resolutions (300 dpi, 600 dpi)
 -   [PostScript using scalable fonts](type1linux.md)
 -   DVI
 -   Source files

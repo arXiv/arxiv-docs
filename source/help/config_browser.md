@@ -21,7 +21,7 @@ downloaded file(s) automatically. This may present a problem if the
 browser does not then properly rename the formerly gunzipped file. In
 these cases, users will complain that the downloaded file will not
 gunzip. See [Downloaded .gz Files that are not
-Gzipped](faq/browsergunzip.md) for a explanation of the problem.
+Gzipped](faq/browsergunzip.md) for an explanation of the problem.
 
 <span id="ps"></span>
 
@@ -32,7 +32,7 @@ As stated above, arXiv delivers PostScript in gzipped format. We
 sometimes receive complaints that the compressed PostScript articles do
 not uncompress, or that is, it seems they do not, as the downloaded
 files can be viewed unproblematically if first saved to disk. See
-[Downloaded .gz Files that are not Gzipped](faq/browsergunzip.md) for a
+[Downloaded .gz Files that are not Gzipped](faq/browsergunzip.md) for an
 explanation of the problem.
 
 There are many standard programs available to view PostScript documents.

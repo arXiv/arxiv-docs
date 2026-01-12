@@ -39,7 +39,7 @@ Here are some pointers to entries in the TeX FAQ that address this issue:
 
 ## PostScript figures lose quality in arXiv-generated PDFs
 
-arXiv uses Ghostscripts's PDF Writer device to generate the PDF versions of TeX submissions. A variety of parameters affects the conversion of PostScript to PDF. In particular bitmap figures are frequently downsampled to the target device resolution, and color spaces are converted as necessary. While arXiv's default settings, the defaults of Ghostscript's PDF Writer device, usually give reasonable quality, some figures may require individual parameter fine tuning for optimal quality of display and/or printout.
+arXiv uses Ghostscript's PDF Writer device to generate the PDF versions of TeX submissions. A variety of parameters affects the conversion of PostScript to PDF. In particular bitmap figures are frequently downsampled to the target device resolution, and color spaces are converted as necessary. While arXiv's default settings, the defaults of Ghostscript's PDF Writer device, usually give reasonable quality, some figures may require individual parameter fine tuning for optimal quality of display and/or printout.
   
   To ensure the best display quality for your figures, please refer to the [Ghostscript documentation](https://www.ghostscript.com/documentation/index.html) for detailed information on output devices and image file formats.
 

@@ -44,7 +44,7 @@ author:
     this procedure should only be a last resort if you absolutely cannot
     get the paper password.
 
-3.  **The user might not have claimed authorship of the papers;**
+3.  **The user might not have claimed authorship of the papers:**
     Although we encourage authors to submit their own papers, some
     papers are submitted by persons other than the authors. For
     instance, at some research institutes, an administrative assistant
