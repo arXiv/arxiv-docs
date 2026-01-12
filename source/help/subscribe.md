@@ -47,7 +47,7 @@ distribution list. Here is an example:
 To: quant-ph@arxiv.org
 Subject: subscribe John Smith
 ```
-(note that subscribing to subdivided archivies, such as `cond-mat`, in this way will subscribe you to all
+(Note that subscribing to subdivided archives, such as `cond-mat`, in this way will subscribe you to all
 subject classes within that archive.)
 
 4.  **<span id="physics">Handling subscriptions to all physics archives

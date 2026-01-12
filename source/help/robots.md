@@ -10,8 +10,8 @@ documentation. There are also facilities for [bulk
 data](bulk_data.md) download, as well as guidelines for programmatic
 [harvesting](bulk_data.md#harvest).
 
-Millions and billions of distinct URL's
----------------------------------------
+Millions and billions of distinct URLs
+--------------------------------------
 
 This website is under all-too-frequent attack from
 [robots](http://www.robotstxt.org/faq/what.html), spiders and
@@ -27,7 +27,7 @@ ignorant of common sense
 Following the de-facto [standard for robot
 exclusion](http://www.robotstxt.org/orig.html), this site has maintained
 since early 1994 a file /[robots.txt](https://arxiv.org/robots.txt) that specifies those
-URL's that are off-limits to robots (and this "Robots Beware" page was
+URLs that are off-limits to robots (and this "Robots Beware" page was
 originally posted March 1994).
 
 Mindlessly downloading all of the URLs on this site will return

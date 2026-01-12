@@ -64,7 +64,7 @@ fail.
 <span id="space_filenames"></span>
 ## Spaces and other inappropriate characters in filenames
 
-Do not use spaces in filenames, in either your figure inclusion commands or directory names. Do not use common filesystem delimiters in file names (*i.e* `/`, `\`, `:`, etc.). Certain symbols such as the ampersand (`&`) can cause problems as well, and should be avoided. 
+Do not use spaces in filenames, in either your figure inclusion commands or directory names. Do not use common filesystem delimiters in file names (*i.e.* `/`, `\`, `:`, etc.). Certain symbols such as the ampersand (`&`) can cause problems as well, and should be avoided. 
 
 During file upload these examples will be programmatically converted to an underscore character (the `_` character) in the file names only. You are responsible for updating any inclusion or input commands in your source.  
 
@@ -378,7 +378,7 @@ as the very first line of your tex file.
 ## Mixed figure file formats
 
 arXiv does not perform any "on the fly" figure file conversions from PostScript to PDF, so your
-figure files must be in the same format expected for your processing engine. This means PDFLATeX would accept any combination of `.pdf`, `.jpg`, and/or `.png`, and that (La)TeX accepts `.ps` and/or `.eps` only. You can tell this has been done locally because the converted figures will typically appear with names like "`-eps-converted-to.pdf`" in addition to the original `.eps` file.
+figure files must be in the same format expected for your processing engine. This means PDFLaTeX would accept any combination of `.pdf`, `.jpg`, and/or `.png`, and that (La)TeX accepts `.ps` and/or `.eps` only. You can tell this has been done locally because the converted figures will typically appear with names like "`-eps-converted-to.pdf`" in addition to the original `.eps` file.
 
 One could convert all PostScript figures in a directory to PDF simply by running from a BASH prompt: 
 ```
@@ -417,13 +417,13 @@ This assumes that you've already correctly created the cache first using their `
 ## .bbl version mismatch
 
 arXiv's TeX Processing system is built on a specific version of [TeX Live](texlive.md). This means that as new versions of software are released, arXiv may fall
-behind with the state of the art  for systems like BibLaTeX. As such, one may recieve an error from the submission system or tex processor which indicates a version 
+behind with the state of the art  for systems like BibLaTeX. As such, one may receive an error from the submission system or tex processor which indicates a version 
 mismatch. This error may look something like: 
 ```
 bbl version mismatch: Expected 3.3 but got 3.2, at file [mydoc.bbl]
 ```
 The _only_ solution to this state is to compile your BibLaTeX with the _same version of TeX Live_ that arXiv uses. If you built your submission using overleaf
-we recommend that you use their system to up or downgrade your proecessing engine, recompile your pdf fully, and then [download the .bbl file again](
+we recommend that you use their system to up- or downgrade your processing engine, recompile your pdf fully, and then [download the .bbl file again](
 https://www.overleaf.com/learn/how-to/How_do_I_download_the_automatically_generated_files_(e.g._.bbl%2C_.aux%2C_.ind%2C_.gls)_for_my_project%3F_My_publisher_asked_me_to_include_them_in_my_submission). 
 
 For TeX Live 2023, we support both bbl version 3.2 (normal TL2023) and bbl version 3.3 (TL2025). 
@@ -441,7 +441,7 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ```
 
 This is a known issue (see this [SX entry](https://tex.stackexchange.com/a/331220)) and can be fixed by
-adding the following code immediaetely after the `\usepackage{breqn}` line in the preamble:
+adding the following code immediately after the `\usepackage{breqn}` line in the preamble:
 
 ```
 \makeatletter

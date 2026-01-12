@@ -87,7 +87,7 @@ v2</td>
 </table>
 
 The highlighted areas show information that is not available from the
-identifier. In the new scheme it is not be possible to tell the original
+identifier. In the new scheme it is not possible to tell the original
 primary classification from the identifier. However, both the primary
 and secondary classifications are given (definitively) for all articles
 by the `Categories:` in the metadata.
@@ -96,7 +96,7 @@ by the `Categories:` in the metadata.
 different identifier schemes. An identifier with a version number
 appended refers to that specific version. An identifier without a
 version number refers to the *article* (a trackback, for example, is to
-a article and not to a particular version), and in appropriate contexts
+an article and not to a particular version), and in appropriate contexts
 will resolve to the latest version (if supplied in an `/abs/` URL for
 example).
 

@@ -112,7 +112,7 @@ envelope, e.g.:
 
 This is perfectly legal to do, however the arXiv version of `dvips`
 cannot handle the `0x04` characters (i.e., `^D`) in the JPEG stream. In
-this case, it is not the format that needs to be changed, but the the
+this case, it is not the format that needs to be changed, but the
 encoding of the image data within the EPS file.
 
 One way around this is to convert the JPEG to EPS format using

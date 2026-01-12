@@ -2,7 +2,7 @@
 
 ## Information About Downloading and Viewing Files
 
-  - [How do I get Postscript files and what do I do with
+  - [How do I get PostScript files and what do I do with
     them?](../../help/ps.md)
   - [How do I get PDF files and what do I do with them?](../../help/pdf.md)
   - [I just received a file from arXiv; what do I do with
@@ -10,7 +10,7 @@
   - [Why are my downloaded .gz files not gzipped? Why can't I gunzip
     them?](browsergunzip.md)
   - [What MIME types does arXiv use for delivery?](../../help/mimetypes.md)
-  - [What are Type I computer modern fonts?](../../help/pscm.md)
+  - [What are Type I Computer Modern fonts?](../../help/pscm.md)
   - [Does arXiv support OpenURL linking services?](../../help/openurl.md)
   - [Does arXiv support RSS news feeds?](../../help/rss.md)
   - [Does arXiv support the Open Archives Initiative?](../../help/oa/index.md)

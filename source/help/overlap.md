@@ -44,7 +44,7 @@ addition, certain classes of articles naturally encompass other source
 articles, either in part or in full, such as review articles, theses,
 conference proceedings, and book contributions. Articles that are marked
 by authors in the ["Comments" field](prep.md#comments)
-as belonging to this class (i.e.,being identified as review articles, theses, 
+as belonging to this class (i.e., being identified as review articles, theses, 
 conference proceedings, book contributions, etc.) are not noted as having text 
 overlaps with their source articles, even though they may still be marked as
 having overlap with other documents.

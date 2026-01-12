@@ -21,7 +21,7 @@ Measures are now in place at arXiv to protect the e-mail addresses of
 submitters from abuse. For example, submitter addresses are no longer
 visible on the abstract page of a paper; the submitter's address is
 instead available on a link that says **\[view email\]**. Access to this
-link requires one to logon, or first to
+link requires one to log on, or first to
 [register](https://arxiv.org/user/register). For this function, users of
 mirror sites will be redirected to the main site, since only the main
 site currently supports authentication. The intent of this and other
@@ -43,7 +43,7 @@ upload each submission to arXiv. There are two intended purposes:
 
 arXiv monitors each user's requests to view email addresses. If a large
 number of email addresses are viewed by a single user in a short amount
-of time, an *irrevocable* block will be placed on the users account that
+of time, an *irrevocable* block will be placed on the user's account that
 will prevent them from viewing any additional email address. Users that
 view a large number of email addresses in a short period of time are
 typically collecting email addresses for the promotion of an event,

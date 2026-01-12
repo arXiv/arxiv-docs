@@ -24,14 +24,14 @@ This page explains our older legacy submission system (Submissions 1.0) and how 
 
 <span id="comparison"></span>
 ### Submission 1.0 and 1.5 Comparison
-For a quick overview of the changes to our Submission system view our chart below.
+For a quick overview of the changes to our submission system view our chart below.
 
 | **Feature** | **Submission System 1.0** | **Submission System 1.5** |
 | :---------  | :-----------------------  | :------------------------ |
 |**Bundled LaTeX Packages**| Supplied ~70 LaTeX packages and class files (many outdated) | Only provides packages included in the current [TeX Live release](faq/texlive.md). Authors with journal style files must now include them with their TeX source. |
 |**PDF Compilation**| Tried multiple TeX processors to compile | Uses only the specific TeX processor set in the Review Files step |
 |**TeX Versioning**| Infrequent updates (years between updates) | Follows annual TeX Live releases going forward dependent upon arXiv resources |
-|**File Detection**| Detects toplevel files by looking for `\documentclass` or `\bye`. All `.tex` files attempted, if none found. | Scan for toplevel files using upt to 40 standard commands.|
+|**File Detection**| Detects toplevel files by looking for `\documentclass` or `\bye`. All `.tex` files attempted, if none found. | Scan for toplevel files using up to 40 standard commands.|
 |**Extraneous  File Detection**| Did not detect files unrelated to the submission | Detects potentially unused files; flagging them for review |
 |**Handling Multiple .tex Files**| Compiled all `.tex` files with `\documentclass` and appended extraneous postscripts figures at the end. Plain TeX, processed by looking for `\bye.` | At the start, assumes just one top-level TeX file.  Submitter can add additional top-level TeX files in the Review Files interface. These will be compiled and the results appended to the output document.  It is preferred that the submitter use `\include` or `\input` directives to embed other TeX files in a document.  For special cases not supported by either of those options please refer to: [The `00README.XXX` file format](00README.md). |
 |**Image Files (JPG, PNG, PDF)**| Appended image files verbatim to final PDF in postscript mode, otherwise image files remain in source directory | Images must be included using standard [TeX commands](https://latex-tutorial.com/tutorials/figures/).|
@@ -49,13 +49,13 @@ For a quick overview of the changes to our Submission system view our chart belo
  1. Submission 1.0 would attempt to determine which files in a submission were part of the main document and which were not. We are no longer going to do this.
       - If there were multiple files ending in `.tex`, it would create PDFs for those extra files and append them to main paper's PDF. Now, if authors want a .tex file to be part of their main paper, they should use \include or \input commands to include the file. See [https://www.baeldung.com/cs/latex-include-vs-input](https://www.baeldung.com/cs/latex-include-vs-input).
       - If authors need the previous apppend behavior for a submission with multiple `.tex` files, please follow the instructions here: [The `00README` File Format](https://info.arxiv.org/help/00README.html).
-      - If image files (JPG, PNG, PDF) were found, they would be rendered and appended verbatim to the main paper's PDF. If authors want to include images anywhere in their paper, they should use the normal TeX contructs for this. See [https://latex-tutorial.com/tutorials/figures/](https://latex-tutorial.com/tutorials/figures/). 
+      - If image files (JPG, PNG, PDF) were found, they would be rendered and appended verbatim to the main paper's PDF. If authors want to include images anywhere in their paper, they should use the normal TeX constructs for this. See [https://latex-tutorial.com/tutorials/figures/](https://latex-tutorial.com/tutorials/figures/). 
   
-  1. Submission 1.0 would preload the LaTeX hyperref package to LaTeX submissions that did not already include it. This package adds various references to active links in the PDF document (e.g., clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try to add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you are using already has a reference by checking the PDF for clickable links; most do).
+  1. Submission 1.0 would preload the LaTeX hyperref package to LaTeX submissions that did not already include it. This package adds various references to active links in the PDF document (e.g., clicking on a reference jumps to the entry in the bibliography section). We will no longer automatically try to add this package. (Note – before you add a \usepackage{hyperref} to your main TeX file, check to see if the template you are using already has a reference by checking the PDF for clickable links; most do.)
  1. Submission 1.0 would look for any references in a paper that looked like an arXiv paper ID (such as arXiv:2402.08954, or 2402.08954) and turn the ID into a hyperlink to the paper on arXiv. We will not do that anymore. Authors should just write out `\href{https://doi.org/10.48550/arXiv.2402.08954}{2402.08954}`. See the [Hyperref documentation for more info](https://mirror.math.princeton.edu/pub/CTAN/macros/latex/contrib/hyperref/doc/hyperref-doc.html).
       - While changes like these arguably made for a better viewing experience, they also made our TeX processing complex and opaque. When we make modifications to user source like this, the paper on arXiv presents differently than the paper on the user's local machine.
 
-1. arXiv presently has about 70 LaTeX packages we supply that papers can use without needing to upload their own copies. We have found that only 0.65% of recent submissions depend on this and, in some cases these packages are woefully out of date.
+1. arXiv presently has about 70 LaTeX packages we supply that papers can use without needing to upload their own copies. We have found that only 0.65% of recent submissions depend on this and, in some cases, these packages are woefully out of date.
       - We are eliminating these packages and providing only packages that are distributed with each annual TeX Live release. If you use any packages or style files that are not part of arXiv's current version of TeX Live, please upload them with your submission.
  
 At present, the documentation below is still largely accurate, however we are actively reexamining our (La)TeX processing, and there may be more changes in the future. If you have suggestions for changes we should make, please respond to the post about this change on the [arXiv Blog](https://blog.arxiv.org/).
@@ -87,7 +87,7 @@ If you have a file named foo.tex, then do not include any associated auxiliary f
 <span id="figures"></span>
 #### Figure inclusion in LaTeX submissions
 
-Note that TeX/LaTeX can only include (encapsulated) PostScript (**.ps** or **.eps**), figures directly. Other formats are not supported in native (La)TeX. See [Useful Software](bitmap/software.md) for figure conversion tools. If you are making use of [PDFLaTeX](#pdftex) you may embed your `.pdf, .png, .jpg` figures using the same mechanisms. Please note that arXiv does not perform "on the fly" figure file conversion during tex processing (i.e. "`-eps-converted-to.pdf`" files being present in your source directory). You must perform such conversion yourself, before uploading, updating any effected inclusion command. This process ensures that you have examined the results of any figure conversion to ensure that the figures still contain scientifically correct information and that arXiv is not responsible for the scientific accuracy of your figures.
+Note that TeX/LaTeX can only include (encapsulated) PostScript (**.ps** or **.eps**) figures directly. Other formats are not supported in native (La)TeX. See [Useful Software](bitmap/software.md) for figure conversion tools. If you are making use of [PDFLaTeX](#pdftex) you may embed your `.pdf, .png, .jpg` figures using the same mechanisms. Please note that arXiv does not perform "on the fly" figure file conversion during tex processing (i.e. "`-eps-converted-to.pdf`" files being present in your source directory). You must perform such conversion yourself, before uploading, updating any affected inclusion command. This process ensures that you have examined the results of any figure conversion to ensure that the figures still contain scientifically correct information and that arXiv is not responsible for the scientific accuracy of your figures.
 
 The most flexible and robust figure inclusion is provided by the `graphics` and `graphicx` packages and the `\includegraphics` command defined therein. We highly recommend you use them for your figure inclusion. arXiv does not support the `psfig` package any longer. You may not include your own `psfig.sty`, as this will cause your source to fail. The functionality it required was deprecated prior to
 [TeXLive 2016](http://tug.org/pipermail/texhax/2016-October/022493.html) and this is not something we can control. Older submissions that have already been announced with the `psfig` package will still work. Please update your source to a more modern inclusion command.
@@ -98,13 +98,13 @@ Note that some software will permit you to include a mix of PostScript and PDFLa
 #### Avoid embedding JavaScript in your PDF files
 
 Do not include embedded JavaScript such as animated gifs, movies, or HTML in your PDF. Submissions with embedded JavaScript are automatically rejected due to the potential security risks posed to arXiv systems. 
-- Submit all movies and animated GIFS as separate(non-JavaScript) ancillary files. 
+- Submit all movies and animated GIFs as separate (non-JavaScript) ancillary files. 
 - Remove or disable JavaScript when building your PDF or generate PDFs using standard tools such as Adobe Distiller. 
 
 
 #### Separate figures with LaTeX submissions
 
-Figures in **jpeg**, **png**, or **gif** format may be submitted alongside native (La)TeX submissions provided that they are **not** included in the source file.. PDF or other formats not listed above are not permitted with (La)TeX submission; use [PDFLaTeX](#pdflatex) instead for PDF, jpeg, or png figures.
+Figures in **jpeg**, **png**, or **gif** format may be submitted alongside native (La)TeX submissions provided that they are **not** included in the source file. PDF or other formats not listed above are not permitted with (La)TeX submission; use [PDFLaTeX](#pdflatex) instead for PDF, jpeg, or png figures.
 
 Figures which are not incorporated in the main body of the paper will be listed separately. They should be given names of the form `figure<number><optional letter>.ext`, e.g. `figure1.jpg`, `figure2a.gif`, `figure2b.png`, so that they can be automatically sorted into the correct order for the "combined figures" link.
 
@@ -132,7 +132,7 @@ arXiv fully supports and automatically recognizes PDFLaTeX. You can ensure pdfla
 
 You probably do not need to submit any style files since we have copies of all the common scientific style files. Try submitting without style files. If you find that this does not work because we do not have the style file you need, then you can include the necessary style file in your submission and resubmit.
 
-_Note:_ A&A, pstricks, elsart, and by now to a lesser degree [AMSLaTeX](faq/amslatex2000.md), iopart, and revtex4 users, you may need to include your own version of those style/class files with your submission. arXiv can process standard `zip` and `tar` files. Simply bundle the necessary files together with your (La-)TeX file(s) in the same directory (or do a less convenient multi-file submission).
+_Note:_ A&A, pstricks, elsart, and by now to a lesser degree [AMSLaTeX](faq/amslatex2000.md), iopart, and revtex4 users, you may need to include your own version of those style/class files with your submission. arXiv can process standard `zip` and `tar` files. Simply bundle the necessary files together with your (La)TeX file(s) in the same directory (or do a less convenient multi-file submission).
 
 Do not ask us to update those particular style and class files in our installation. They are not backwards compatible.
 
@@ -146,7 +146,7 @@ Avoid inadvertently submitting your paper in double-spaced referee mode, since i
 
 ### Prepare the references carefully
 
-We strongly encourage you to include arXiv's `YYMM.NNNNN`, [identifiers](arxiv_identifier.md) in your reference list for both published and unpublished papers. Note also that many publishers allow e-print identifiers to appear in the references of papers submitted.
+We strongly encourage you to include arXiv's `YYMM.NNNNN` [identifiers](arxiv_identifier.md) in your reference list for both published and unpublished papers. Note also that many publishers allow e-print identifiers to appear in the references of papers submitted.
 
 If you use standard identifiers of the form 1510.00322, arXiv:1510.00322, 0901.0512, arXiv:0901.0512, hep-ph/9409201 or arXiv:hep-ph/9409201, they can be easily harvested by automatic software. For example,
 
@@ -177,13 +177,13 @@ Note for submitters who use Overleaf: Please refer to [their help documentation]
 
 #### The `.bbl` file and paper submission were produced by different programs
 
-Biblatex can run on a dedicated Biber backend or BibTeX; however, when submitting a biblatex `.bbl` file, your paper and `.bbl` file must be created by the same program. e.g.
+Biblatex can run on a dedicated Biber backend or BibTeX; however, when submitting a biblatex `.bbl` file, your paper and `.bbl` file must be created by the same program. E.g.:
 
 - If you use biblatex with Biber as a backend to produce your document, then your document will expect a `.bbl` produced by Biber.
 
 - If you use biblatex with BibTeX as a backend to produce your document, then your document will expect a `.bbl` produced by BibTeX.
 
-Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or vice versa. This will only result in errors and frustration. [Lean more information about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
+Do not mix and match papers produced by Biber with a .bbl produced by BibTeX or vice versa. This will only result in errors and frustration. [Learn more about biblatex, BibTeX and Biber.](https://tex.stackexchange.com/questions/429436/making-the-arxiv-accept-a-bibtex-bbl-may-2018/429445#429445)
 
 #### The `.bbl` file version is not compatible with biblatex or Biber on arXiv
 

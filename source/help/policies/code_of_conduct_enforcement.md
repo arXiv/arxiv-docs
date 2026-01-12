@@ -39,7 +39,7 @@ If legal issues arise from a violation, Cornell’s Office of University Counsel
 
 If a user disagrees with arXiv’s enforcement decision, there may be an opportunity to appeal. However, the option to appeal will not always be available depending on the type of infraction and limited staff time.
 
-The vast majority of arXiv’s community is engaged and respectful, and for that we are grateful. The above enforcement actions are available to ensure that arxiv remains safe and productive for all. 
+The vast majority of arXiv’s community is engaged and respectful, and for that we are grateful. The above enforcement actions are available to ensure that arXiv remains safe and productive for all. 
 
 
 

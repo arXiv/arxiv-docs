@@ -22,7 +22,7 @@ News feeds are available for individual subject classes of archives that have su
 
 ## Subscribe by multiple categories
 Request multiple categories by appending a plus sign and another category to your end of your URL. Limit 2000 results.
-For example, the following URLs are for the RSS and ATOM pages for Computer Science  -- AI and Quantitative Biology -- Neurons  and Cognition is:
+For example, the following URLs are for the RSS and ATOM pages for Computer Science  -- AI and Quantitative Biology -- Neurons  and Cognition:
 
 - RSS: [https://rss.arxiv.org/rss/cs.ai+q-bio.NC](https://rss.arxiv.org/rss/cs.ai+q-bio.NC)
 - ATOM: [https://rss.arxiv.org/atom/cs.ai+q-bio.NC](https://rss.arxiv.org/atom/cs.ai+q-bio.NC)

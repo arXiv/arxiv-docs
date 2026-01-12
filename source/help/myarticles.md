@@ -7,7 +7,7 @@ right of this paragraph you should see an example of what this provides
 for arXiv user [Simeon Warner](https://arxiv.org/a/0000-0002-7970-7855).
 If you would like to use this functionality, you will need to [link an
 ORCID identifier](https://arxiv.org/user/confirm_orcid_id) to your arXiv user account
-**or** create an arXiv public [author identifier](author_identifiers.md)
+**or** create an arXiv public [author identifier](author_identifiers.md).
 The quickstart section below will get you up and running rapidly;
 complete details follow the quickstart.
 
@@ -33,7 +33,7 @@ var arxiv_authorid = "yourauthorid";
 
 either in between the `<head>` and `</head>` tags or soon after the
 `<body>` tag in your web page. The first script entry provides
-configuration variables that controls what information is rendered on
+configuration variables that control what information is rendered on
 your web page. The only required element is the **local** part of your
 author id variable shown above as `yourauthorid`, such as
 0000-0002-7970-7855 or warner\_s\_1. Make sure you leave the semicolon
@@ -125,9 +125,9 @@ arXiv provides an Atom feed for your author identifier which includes
 information about all of the articles claimed under that author
 identifier. Those Atom documents are available by appending `.atom` to
 your author identifier, e.g. `https://arxiv.org/a/yourauthorid.atom`. We
-have installed some server-side scripts that processes these feeds into
+have installed some server-side scripts that process these feeds into
 a [JSON](http://www.json.org/) feed which can then be processed using
-Javascript and Direct Script Attachment (DSA). This is one of the data
+JavaScript and Direct Script Attachment (DSA). This is one of the data
 formats used by Flickr and Yahoo and allows easy embedding of remote
 content into a dynamic page. You can take a look at the
 [JSONP](https://en.wikipedia.org/wiki/JSONP) feed used by myarticles.js
@@ -135,7 +135,7 @@ by going to `https://arxiv.org/a/yourauthorid.js`. If you take a look at
 that datastream, you can see that it calls a function called
 `jsonarXivFeed` with the contents of feed in an associative array. Our
 JavaScript `myarticles.js` include provides the `jsonarXivFeed` function
-which processes the HTML into the displayed format.If you prefer to use
+which processes the HTML into the displayed format. If you prefer to use
 unpadded JSON (without the `jsonarXivFeed` function call embedded in the
 feed), you can use the following URI instead:
 `https://arxiv.org/a/yourauthorid.json`. If you have a unique way you'd

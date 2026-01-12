@@ -36,10 +36,10 @@ in requester pays buckets (i.e. the downloader pays Amazon for the
 download based on bandwidth used, see [Requester Pays
 Buckets](http://docs.amazonwebservices.com/AmazonS3/latest/dev/RequesterPaysBuckets.html)
 in the [Amazon S3
-Guide](http://docs.amazonwebservices.com/AmazonS3/latest/dev/). Please
+Guide](http://docs.amazonwebservices.com/AmazonS3/latest/dev/); please
 consult Amazon's aws S3 pricing page for their current rates for Data
-Retrival, available at [Amazon S3
-pricing](https://aws.amazon.com/s3/pricing/).) Our use of Amazon
+Retrieval, available at [Amazon S3
+pricing](https://aws.amazon.com/s3/pricing/)). Our use of Amazon
 requester pays means that we can open downloads to anyone with
 predictable cost, and avoids putting any additional load on our servers
 that might impact interactive performance. Note that arXiv's buckets are
@@ -57,7 +57,7 @@ grouped into `.tar` files of ~500MB each (which we've found is a good
 size chunk). The complete set of PDF as of March 2023 is about 2.7 TB,
 with an estimated growth rate of around 100 GB per month, which we expect
 will increase as the [submission rate](https://arxiv.org/stats/monthly_submissions) increases 
-over time. Examples keys for these files with the arxiv bucket are:
+over time.
 Examples keys for these files with the `arxiv` bucket are:
 
     pdf/arXiv_pdf_1001_001.tar         (s3://arxiv/pdf/arXiv_pdf_1001_001.tar in s3cmd URI style)

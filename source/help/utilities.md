@@ -59,7 +59,7 @@ and supports a very wide range of platforms.
 To avoid unnecessary confusion, you are strongly urged to use the
 standard file name extensions when submitting your files. In most cases
 arXiv can detect the file type without recourse to the extension but
-following convention makes life easier, and is necessary in a some cases
+following convention makes life easier, and is necessary in some cases
 (for example, to tell between a .zip and a .docx). Here are some
 conventions you should use:
 

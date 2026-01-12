@@ -6,7 +6,7 @@ PostScript is not an ideal submission format, for several reasons:
 -   PostScript loses portability by fixing the page size and resolution.
 -   Many broken programs on PCs and Macs produce PostScript which does
     not conform to the Adobe specification.
--   Level II Postscript cannot always be printed on Level I printers.
+-   Level II PostScript cannot always be printed on Level I printers.
 -   <span class="note">Note:</span> a PostScript file created from a
     TeX/LaTeX file will be rejected. There are [good
     reasons](faq/whytex.md) for insisting on LaTeX source if it is
