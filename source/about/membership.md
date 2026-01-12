@@ -20,7 +20,7 @@ The arXiv membership program consists of Standard membership, All Star membershi
 
 Standard and All Star memberships are based on [your institution’s global arXiv rank](reports/2024_institution_submissions.md), which is based on how many submissions to arXiv researchers affiliated with your institutions make every year, averaged over the past three years.
 
-| Membership Tier      | Rank      | All Star Memberhip Rate      | Standard Membership Rate      |
+| Membership Tier      | Rank      | All Star Membership Rate     | Standard Membership Rate      |
 |----------------------|-----------|------------------------------|-------------------------------|
 | Top 100              | 1 - 100   | $6,500                       | $5,000                        |
 | Frequent             | 101 - 500 | $3,250                       | $2,500                        |
