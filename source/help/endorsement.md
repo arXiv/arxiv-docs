@@ -67,14 +67,14 @@ arXiv reserves the right to revoke any submitter's endorsement if that submitter
 
 Endorsers must have authored a certain number of papers within the *endorsement domain* of a subject area. The number of papers depends on the particular subject area, but has been set so that any active scientist who has been working in their field for a few years should be able to endorse if their work has been submitted to arXiv and if they are registered as an author of their papers. **Endorsement domains** have been chosen to reflect related subject areas and ensure that it will be easy for people to find endorsements: most high-level subject areas (e.g., hep-th, cond-mat, q-bio) are currently endorsement domains, with the notable exception of physics, in which individual subject classes (e.g., phys.acc-phys, phys.med-ph) are endorsement domains. To ensure that endorsers are active members of the community, we only count papers that have been submitted between three months and five years ago.\*
 
-If you would like to be able to endorse, the most important thing that you can do is make sure that you are registered as an author of your papers. If you can get the *paper password* for a paper you can [claim ownership](https://arxiv.org/auth/need-paper-password) of a paper immediately. If you don't have the paper password, you can [request
+If you would like to be able to endorse, the most important thing that you can do is make sure that you are registered as an author of your papers. If you can get the *paper password* for a paper you can [claim ownership](https://arxiv.org/auth/need-paper-password) of a paper immediately. If you do not have the paper password, you can [request
 ownership](https://arxiv.org/auth/request-ownership) of a paper. Note that you must also have an active positive endorsement to that area yourself before you may endorse for that subject classification.
 
 \* We reserve the right to suspend a person's ability to endorse.
 
 ## What are my responsibilities as an endorser?
 
-**The endorsement process is not peer review.** You should know the person that you endorse **or** you should see the paper that the person intends to submit. We don't expect you to read the paper in detail, or verify that the work is correct, but you should check that the paper is appropriate for the subject area. You should not endorse the author if
+**The endorsement process is not peer review.** You should know the person that you endorse **or** you should see the paper that the person intends to submit. We do not expect you to read the paper in detail, or verify that the work is correct, but you should check that the paper is appropriate for the subject area. You should not endorse the author if
 the author is unfamiliar with the basic facts of the field, or if the work is entirely disconnected with current work in the area. If you are sent a paper to read, you should treat that content as privileged information and respect its confidentiality as you would if you were asked to review it for a journal.
 
 If an author asks you for endorsement, they will send you a
