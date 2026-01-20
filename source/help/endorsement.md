@@ -11,7 +11,7 @@ The endorsement system verifies that arXiv contributors belong to the scientific
 
 Please read our [blog post](https://blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy) about changes to the endorsement process. 
 
-Your account may receive automatic endorsement if:
+Your account may receive endorsement if:
 
 - you have [claimed ownership](authority.md#for-other-authors) of a paper submitted by a co-author
 
