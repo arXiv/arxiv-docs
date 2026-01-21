@@ -14,6 +14,8 @@ Please read our [blog post](https://blog.arxiv.org/2026/01/21/attention-authors-
 
 ## How can I get endorsed?
 
+First time submitters to arXiv are encouraged to associate an institutional email address if they have one (see [author registration help](registerhelp.md)). This will expedite the endorsement process.
+
 Your account may receive endorsement if:
 
 - you have [claimed ownership](authority.md#for-other-authors) of a paper submitted by a co-author
@@ -29,12 +31,7 @@ If you are the submitting author or have claimed papers but do not have an insti
 
 - you will need to update your email address to an institutional email.
 
-### First time submissions 
-arXiv requires that users be endorsed before submitting their first paper to arXiv or a new category.
-
-First time submitters to arXiv are encouraged to associate an institutional email address if they have one (see [author registration help](registerhelp.md)). This will expedite the endorsement process.
-
-Authors who are submitting papers to a subject category for the first time are required to get an endorsement from an established arXiv author. Detailed instructions on how to proceed with the endorsement request are provided at that time.
+Alternatively you can seek personal endorsement from an established arXiv author. Detailed instructions on how to proceed with the endorsement request are provided at that time.
 
 If you need to be endorsed by someone, it is best for you to find an endorser who
 
@@ -44,7 +41,7 @@ If you need to be endorsed by someone, it is best for you to find an endorser wh
 
 A good choice for graduate students would be your thesis advisor or another professor in your department/institution working in your field who is also an active author on arXiv.
 
-Alternatively this is the recommended way to proceed.
+To seek personal endorsement: 
 
 1. Start a new submission and select the category you wish to submit to.
 
