@@ -11,6 +11,9 @@ The endorsement system verifies that arXiv contributors belong to the scientific
 
 Please read our [blog post](https://blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy) about changes to the endorsement process. 
 
+
+## How can I get endorsed?
+
 Your account may receive endorsement if:
 
 - you have [claimed ownership](authority.md#for-other-authors) of a paper submitted by a co-author
@@ -26,10 +29,8 @@ If you are the submitting author or have claimed papers but do not have an insti
 
 - you will need to update your email address to an institutional email.
 
+### First time submissions 
 arXiv requires that users be endorsed before submitting their first paper to arXiv or a new category.
-
-
-## How can I get endorsed?
 
 First time submitters to arXiv are encouraged to associate an institutional email address if they have one (see [author registration help](registerhelp.md)). This will expedite the endorsement process.
 
