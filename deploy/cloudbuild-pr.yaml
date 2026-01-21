@@ -1,13 +1,11 @@
-
 steps:
-  - name: 'python:3.9-bullseye'
+  - name: 'astral/uv:python3.11-bookworm'
     entrypoint: 'bash'
     args:
       - "-c"
       - |
-        pip install -r requirements.txt
-        mkdocs build
+        ./make_arxiv_theme/prep_for_mkdocs.sh
+        uv run mkdocs build
 
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['-m', 'rsync', '-r', '-d', 'site/', 'gs://arxiv-docs-prs/$BRANCH_NAME/']
-

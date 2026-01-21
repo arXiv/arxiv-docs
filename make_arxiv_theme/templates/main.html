@@ -57,19 +57,46 @@ Avaiable blocks from mkdocs:
 {% raw %}{% extends "base.html" %}{% endraw %}
 
 {# ========== extrahead ========== #}
-{% raw %}{% block extrahead %}{% endraw %}
-{% raw %}{{ super() }}{% endraw %}
-{# The following line will expand to all of the arxiv-base head.html #}
-{% include "base/head.html" %}
+{% raw %}{% block extrahead %}{% endraw %}{# <head> element extensions #}
+{% include "base/head.html" %}{# This expands to arxiv-base head.html #}
+{# FYI google analytics is handled in mkdocs.yaml #}
+<link rel="stylesheet" href="https://use.typekit.net/kkn2tyz.css">
 {% raw %}{% endblock extrahead %}{% endraw %}
 
 {# ========== header ========== #}
 {% raw %}{% block header %}{% endraw %}
-{% include "base/header.html" %}
-{% raw %}{{ super() }}{% endraw %}
+{% include "base/header.html" %}{# This expands to arxiv-base header.html #}
+{% raw %}{{ super() }}{% endraw %}{# This expands to mkdocs header block #}
 {% raw %}{% endblock header %}{% endraw %}
 
 {# ========== footer ========== #}
 {% raw %}{% block footer %}{% endraw %}
-{% include "base/footer.html" %}
+{% include "base/footer.html" %}{# This expands to arxiv-base footer.html #}
+<script>
+  for (var link of document.getElementsByClassName("md-nav__link")) {
+    link.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        e.target.click();
+        e.target.setAttribute('aria-hidden', e.target.getAttribute('aria-hidden') === 'true' ? 'false' : 'true');
+        e.target.setAttribute('aria-expanded', e.target.getAttribute('aria-expanded') === 'true' ? 'false' : 'true');
+      }
+    });
+  }
+</script>
+<script>
+    var search = document.getElementsByClassName('md-search__input')[0];
+    var searchResults = document.getElementsByClassName('md-search-result__list')[0];
+    searchResults.setAttribute('role', 'presentation');
+    search.addEventListener('focus', (e) => {
+        document.getElementsByClassName('md-search-result__list')[0]
+            .setAttribute('role', 'list');
+    });
+
+    search.addEventListener('focusout', (e) => {
+        document.getElementsByClassName('md-search-result__list')[0]
+            .setAttribute('role', 'presentation');
+    });
+</script>
+
 {% raw %}{% endblock footer %}{% endraw %}
