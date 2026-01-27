@@ -67,18 +67,4 @@ Stephanie’s role at arXiv spans administrative management, operational oversig
 Steinn is Professor of Astrophysics at Penn State University. His research interests include astrophysics and related areas, ranging from cosmology, large scale dynamics and black holes, to the prospects for discovering non-terrestrial life. Steinn holds a Ph.D. in Theoretical Physics from the California Institute of Technology.
 </div>
 
-<div class="bio-block" markdown="1">
-![Image of Charles Frankston](../images/portrait-Charles-Frankston-warmtone.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Charles Frankston' role="presentation"}
-
-## Charles Frankston {align="center"}
-
-**Technical Director**
-{align="center"}
-
-- [@arxivcto](https://twitter.com/@arxivcto){target="_blank"}
-- ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0003-3878-5387](https://orcid.org/0000-0003-3878-5387){target="_blank"}
-
-Charles is focused on helping ready arXiv for it's next 30 years of stable support of open science and will shepherd arXiv's move to the cloud. He brings his wealth of expertise in a wide range of platforms and languages, systems architecture, and data privacy. Charles holds a B.S. in Computer Science and Engineering from the Massachusetts Institute of Technology.
-</div>
-
 </div>
