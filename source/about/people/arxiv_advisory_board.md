@@ -11,8 +11,6 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 **Yoav Artzi**, Associate Faculty Director
 
-**Charles Frankston**, Technical Director
-
 **Ivan Oransky**, Simons Foundation, New York University, Retraction Watch
 
 **Stephanie Orphan**, Program Director

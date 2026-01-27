@@ -9,7 +9,6 @@
 - Brian Caruso, Lead Developer
 - Jim R-B Entwood, Head of Content & User Support
 - David Fielding, Senior Developer
-- Charles Frankston, Technical Director
 - Deyan Ginev, Software Engineer
 - Mike Greco, DevOps Engineer
 - Alison Hofer, Documentation Specialist
