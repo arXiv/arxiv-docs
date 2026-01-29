@@ -34,7 +34,7 @@ Astrophysik, Germany
 
 **Ronitt Rubinfeld (2023-2026)**, Edwin S. Webster Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology
 
-**Sumati Suruya (Vice Chair, 2023-2026)**, Professor of Theoretical Physics, Raman Research Institute
+**Sumati Surya (Vice Chair, 2023-2026)**, Professor of Theoretical Physics, Raman Research Institute
 
 **Sara del Valle (2023-2026)**, Deputy Group Leader, Los Alamos National Laboratory
 
