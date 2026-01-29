@@ -41,7 +41,7 @@ If you need to be endorsed by someone, it is best for you to find an endorser wh
 
 A good choice for graduate students would be your thesis advisor or another professor in your department/institution working in your field who is also an active author on arXiv.
 
-To seek personal endorsement: 
+### To seek personal endorsement: 
 
 1. Start a new submission and select the category you wish to submit to.
 
