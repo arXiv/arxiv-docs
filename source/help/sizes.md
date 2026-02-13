@@ -78,17 +78,9 @@ Note that you may have to update the figure inclusion commands.
 Optimizing PNG Images for Fast Processing
 ------------------------------------------
 
-PNG images with certain features can slow down TeX compilation because pdfTeX must
-recompress them during processing. The [`png-pdftex-tool`](https://github.com/norbusan/png-pdftex-tool)
-utility checks PNG files for compatibility with pdfTeX's fast copy optimization
-and converts incompatible images to an efficient format.
-
-NOTE: This does **not** reduce the size of the image. PDF viewers will still have
-to decompress the embedded PNG which will make page loading speed slow.
-
-### Incompatible PNG Features
-
-The following PNG features prevent fast copy optimization and should be removed:
+PNG image can be embedded by `pdflatex` without re-encoding and thus
+very quickly assuming that the PDF does not contain one of the following
+incompatible features:
 
 - Palette/indexed color type
 - Alpha channels (RGBA or transparency)
@@ -96,40 +88,20 @@ The following PNG features prevent fast copy optimization and should be removed:
 - Metadata chunks: sBIT, bKGD, hIST, tRNS, sPLT
 - Interlacing (Adam7)
 
-### Checking PNG Compatibility
+Authors should check for these settings in the software used to originally
+create the images.
 
-Check a single PNG file:
+Note that images that do not contain any of the above incompatible features
+will not be flagged as oversized, but the size will still put a burden
+on PDF **viewers** which need to decompress the embedded PNGs, which will
+make page loading speed slow.
 
-         png-pdftex-tool check image.png
 
-Check all PNG files in a directory:
+### Checking and converting images
 
-         png-pdftex-tool check --directory figures/
+The tool [`png-pdftex-tool`](https://github.com/norbusan/png-pdftex-tool)
+(developed by an arXiv developer and TeX Live Team member), allows for
+checking and converting images into an efficient format.
 
-### Converting PNG Files
+See the linked page for details and usage examples.
 
-The tool provides three conversion methods:
-
-- **ImageMagick** (requires one of `convert` or `magick` program):
-  Converts palette images to RGB, removes alpha channels
-  by compositing on white background, and strips color profiles
-- **pngcrush**: Removes problematic chunks and optimizes file size (cannot convert palette images)
-- **PNM conversion** (requires `pngtopnm` and `pnmtopng` programs):
-  Most reliable method that strips all metadata
-  by converting through an intermediate format
-
-Convert a single PNG in-place (creates a backup):
-
-         png-pdftex-tool convert image.png
-
-Convert using a specific method:
-
-         png-pdftex-tool convert image.png --method imagemagick
-
-Convert all PNGs in a directory:
-
-         png-pdftex-tool convert --directory figures/
-
-The tool automatically tries methods in order (ImageMagick, pngcrush, PNM) when
-using the default `auto` method, and verifies that the converted output is compatible
-with fast copy optimization.
