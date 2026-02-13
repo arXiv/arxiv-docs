@@ -38,6 +38,13 @@ It is possible that you will receive a notification message asking you
 to take a few simple steps to convert your biggest files into more
 suitable formats before resubmitting.
 
+Starting with February 2026, we will issue a warning during the submission
+process if images larger than 34 Megapixel (this is about the size of a
+full size A4 image at 600dpi) are found.
+
+For PNG files that can be embedded into the resulting PDF without reencoding,
+these warnings are suppressed.
+
 Additional Policy Information
 -----------------------------
 
@@ -66,3 +73,63 @@ effective for rapidly converting whole directories into PDF files, using
 the same file names.
 
 Note that you may have to update the figure inclusion commands.
+
+
+Optimizing PNG Images for Fast Processing
+------------------------------------------
+
+PNG images with certain features can slow down TeX compilation because pdfTeX must
+recompress them during processing. The [`png-pdftex-tool`](https://github.com/norbusan/png-pdftex-tool)
+utility checks PNG files for compatibility with pdfTeX's fast copy optimization
+and converts incompatible images to an efficient format.
+
+NOTE: This does **not** reduce the size of the image. PDF viewers will still have
+to decompress the embedded PNG which will make page loading speed slow.
+
+### Incompatible PNG Features
+
+The following PNG features prevent fast copy optimization and should be removed:
+
+- Palette/indexed color type
+- Alpha channels (RGBA or transparency)
+- Color profile chunks: gAMA, sRGB, cHRM, iCCP
+- Metadata chunks: sBIT, bKGD, hIST, tRNS, sPLT
+- Interlacing (Adam7)
+
+### Checking PNG Compatibility
+
+Check a single PNG file:
+
+         png-pdftex-tool check image.png
+
+Check all PNG files in a directory:
+
+         png-pdftex-tool check --directory figures/
+
+### Converting PNG Files
+
+The tool provides three conversion methods:
+
+- **ImageMagick** (requires one of `convert` or `magick` program):
+  Converts palette images to RGB, removes alpha channels
+  by compositing on white background, and strips color profiles
+- **pngcrush**: Removes problematic chunks and optimizes file size (cannot convert palette images)
+- **PNM conversion** (requires `pngtopnm` and `pnmtopng` programs):
+  Most reliable method that strips all metadata
+  by converting through an intermediate format
+
+Convert a single PNG in-place (creates a backup):
+
+         png-pdftex-tool convert image.png
+
+Convert using a specific method:
+
+         png-pdftex-tool convert image.png --method imagemagick
+
+Convert all PNGs in a directory:
+
+         png-pdftex-tool convert --directory figures/
+
+The tool automatically tries methods in order (ImageMagick, pngcrush, PNM) when
+using the default `auto` method, and verifies that the converted output is compatible
+with fast copy optimization.
