@@ -8,27 +8,32 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 <div class="mkd-ordered-list-blocks" markdown="1">
 
 ## Major Funding
-1. Cornell University (USA)
-1. Simons Foundation (USA)
-
-## Gold Affiliates
-1. American Physical Society (USA)
-1. Computer Vision Foundation (USA)
+1. Cornell University
+1. Schmidt Sciences
+1. Simons Foundation
 
 ## Gold Sponsors
-1. Google, Inc (USA)
+
+1. Fastly
+1. Google
+1. Qube Research & Technology (QRT)
+
+## Silver Sponsors
+
+1. Greycroft
+1. Microsoft Research
+
+## Gold Affiliates
+
+1. American Physical Society
+1. Computer Vision Foundation
 
 ## Silver Affiliates
 
-1. American Astronomical Society (USA)
-1. American Institute of Physics Publishing (USA)
-1. American Mathematical Society (USA)
-1. Association for Computing Machinery (USA)
-1. Austrian Science Fund (Austria)
-1. Institute of Physics Publishing (UK)
-1. NWO Dutch Reseach Council (Netherlands)
-
-## Silver Sponsors
-1. Kepler Science, Inc. (USA)
-1. Microsoft Research (USA)
+1. American Institute of Physics Publishing
+1. American Mathematical Society
+1. Association for Computing Machinery
+1. Austrian Science Fund
+1. Institute of Physics Publishing
+1. NWO Dutch Reseach Council
 </div>
