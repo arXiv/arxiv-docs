@@ -38,6 +38,13 @@ It is possible that you will receive a notification message asking you
 to take a few simple steps to convert your biggest files into more
 suitable formats before resubmitting.
 
+Starting with February 2026, we will issue a warning during the submission
+process if images larger than 34 Megapixel (this is about the size of a
+full size A4 image at 600dpi) are found.
+
+For PNG files that can be embedded into the resulting PDF without reencoding,
+these warnings are suppressed.
+
 Additional Policy Information
 -----------------------------
 
@@ -66,3 +73,35 @@ effective for rapidly converting whole directories into PDF files, using
 the same file names.
 
 Note that you may have to update the figure inclusion commands.
+
+
+Optimizing PNG Images for Fast Processing
+------------------------------------------
+
+PNG image can be embedded by `pdflatex` without re-encoding and thus
+very quickly assuming that the PNG does not contain one of the following
+incompatible features:
+
+- Palette/indexed color type
+- Alpha channels (RGBA or transparency)
+- Color profile chunks: gAMA, sRGB, cHRM, iCCP
+- Metadata chunks: sBIT, bKGD, hIST, tRNS, sPLT
+- Interlacing (Adam7)
+
+Authors should check for these settings in the software used to originally
+create the images.
+
+Note that images that do not contain any of the above incompatible features
+will not be flagged as oversized, but the size will still put a burden
+on PDF **viewers** which need to decompress the embedded PNGs, which will
+make page loading speed slow.
+
+
+### Checking and converting images
+
+The tool [`png-pdftex-tool`](https://github.com/norbusan/png-pdftex-tool)
+(developed by an arXiv developer and TeX Live Team member), allows for
+checking and converting images into an efficient format.
+
+See the linked page for details and usage examples.
+
