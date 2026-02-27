@@ -79,7 +79,7 @@ Optimizing PNG Images for Fast Processing
 ------------------------------------------
 
 PNG image can be embedded by `pdflatex` without re-encoding and thus
-very quickly assuming that the PDF does not contain one of the following
+very quickly assuming that the PNG does not contain one of the following
 incompatible features:
 
 - Palette/indexed color type
