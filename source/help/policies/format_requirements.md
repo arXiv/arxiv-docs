@@ -8,7 +8,7 @@ Authors should use the following format requirements. As part of moderation we m
 
 ### Submissions should have:
 
-- Title, author, and affiliation (no anonymous submissions)
+- Title and authorship (no anonymous submissions)
 - Complete references
 - Links to code or data sets must resolve to a publicly available repository
 - Machine readability
