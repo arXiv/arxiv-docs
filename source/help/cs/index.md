@@ -11,19 +11,16 @@ The [moderators for the computer science archive are listed here](https://arxiv.
 The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
 
 - Thomas Dietterich, Oregon State University (chair)
-- Krzysztof Apt, Centrum Wiskunde & Informatica, and University of Amsterdam
-- Ron Boisvert, National Institute of Standards and Technology
-- Carol Hutchins, New York University
+- Terrance Boult, University of Colorado, Colorado Springs
+- Julien Corman, Free University of Bozen-Bolzano
 - Scott Delman, Association for Computing Machinery
-- Jon Doyle, North Carolina State
-- Ed Fox, Virginia Tech
 - Lee Giles, The Pennsylvania State University
-- Joseph Halpern, Cornell University
-- Michael Lesk, Rutgers University
+- Seth Lazar, Johns Hopkins University
 - Andrew McCallum, University of Massachusetts, Amherst
 - Steve Minton, InferLink
-- Andrew Odlyzko, University of Minnesota
-- Michael O'Donnell, University of Chicago
-- Erik Sandewall, Linköping University, Sweden
+- Cheng Soon Ong, Australia National University
+- Nihar Shah, Carnegie Mellon University
 - Stuart Shieber, Harvard University
+- David Shmoys, Cornell University
 - Jeff Ullman, Stanford University
+- William Waite, University of Colorado
