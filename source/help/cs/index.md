@@ -15,7 +15,7 @@ The editorial committee members serve as consultants to Cornell University and t
 - Julien Corman, Free University of Bozen-Bolzano
 - Scott Delman, Association for Computing Machinery
 - Lee Giles, The Pennsylvania State University
-- Seth Lazar, Penn State University
+- Seth Lazar, Johns Hopkins University
 - Andrew McCallum, University of Massachusetts, Amherst
 - Steve Minton, InferLink
 - Cheng Soon Ong, Australia National University
