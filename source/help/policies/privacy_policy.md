@@ -174,7 +174,7 @@ The bases arXiv relies on for processing your Personal Data are set forth below.
 
 - **Public interest** – We may handle your Personal Data when necessary to protect the rights, property, or safety and security of Cornell University, arXiv, our users, or others.
 
-- Your **consent**, in limited circumstances where other bases are not recognized. Generally, we do not rely on consent as a legal basis for processing your Personal Data, unless it is specifically required by your jurisdiction, such as for sending fundraising, marketing, or other optional communications or for collecting special category or sensitive information on an optional basis for research purposes. When we process your Personal Data on the basis of consent, you are able to remove your consent at any time. You can do this by contacting: [privacy@arxiv.org]. 
+- Your **consent**, in limited circumstances where other bases are not recognized. Generally, we do not rely on consent as a legal basis for processing your Personal Data, unless it is specifically required by your jurisdiction, such as for sending fundraising, marketing, or other optional communications or for collecting special category or sensitive information on an optional basis for research purposes. When we process your Personal Data on the basis of consent, you are able to remove your consent at any time. You can do this by contacting <a href="mailto:privacy@arxiv.org">privacy@arxiv.org</a>.
 
 We will retain your Personal Data for as long as needed to meet these objectives and to ensure compliance with our legal obligations.
 
