@@ -51,7 +51,7 @@ A good choice for graduate students would be your thesis advisor or another prof
 
 4. Bring up these abstracts from the arXiv page.
 
-5. You can find somebody qualified to endorse by clicking on the link titled, **Which of these authors are endorsers?**, at the bottom of every abstract page.
+5. You can find somebody qualified to endorse by clicking on the link titled, **Which authors of this paper are endorsers?**, at the bottom of every abstract page.
 
 6. Using that information, you can then find the email address of the potential endorser on the abstract page just under the **Submission history** heading.
 
