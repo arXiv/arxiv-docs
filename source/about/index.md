@@ -5,7 +5,7 @@ arXiv is a curated research-sharing platform open to anyone. As a pioneer in dig
 
 <ol class="color-blocks">
   <li>
-  <b>After decades of productive partnership with Cornell University, arXiv is establishing itself as an independent nonprofit organization, marking the next stage in its 35-year history as a pioneer of open-access science. <a href="https://tech.cornell.edu/arxiv/">Read more.</a></b>
+  <b>After decades of productive partnership with Cornell University, arXiv is establishing itself as an independent nonprofit organization, marking the next stage in its 35-year history as a pioneer of open-access science. <br> <a href="https://tech.cornell.edu/arxiv/">Read more.</a></b>
   </li>
   </ol>
 
