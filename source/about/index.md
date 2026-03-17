@@ -1,7 +1,10 @@
 # About arXiv
+---
+**ANNOUNCEMENT**
 
-arXiv is a curated research-sharing platform open to anyone. As a pioneer in digital open access, arXiv.org now hosts more than two million scholarly articles in eight subject areas, curated by our strong community of volunteer moderators.
-{.intro}
+After decades of productive partnership with Cornell University, arXiv is establishing itself as an independent nonprofit organization, marking the next stage in its 35-year history as a pioneer of open-access science. Read more.
+
+---
 
 arXiv offers researchers a broad range of services: article submission, compilation, production, retrieval, search and discovery, web distribution for human readers, and API access for machines, together with content curation and preservation. Our emphasis on openness, collaboration, and scholarship provide the strong foundation on which arXiv thrives.
 
