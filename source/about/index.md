@@ -2,7 +2,7 @@
 ---
 **ANNOUNCEMENT**
 
-After decades of productive partnership with Cornell University, arXiv is establishing itself as an independent nonprofit organization, marking the next stage in its 35-year history as a pioneer of open-access science. Read more.
+After decades of productive partnership with Cornell University, arXiv is establishing itself as an independent nonprofit organization, marking the next stage in its 35-year history as a pioneer of open-access science. [Read more.](https://tech.cornell.edu/arxiv/)
 
 ---
 
