@@ -7,7 +7,7 @@ Please note that the arXiv moderation process is not a peer-review process. arXi
 <span id="what-policies"></span>
 ## What policies guide moderation before public announcement?
 
-The moderation process primarily occurs after a user submits a work and before the work is made public. Each work is evaluated based on its content. arXiv moderation decisions may be influenced by the publication status of the submission, but prior publication does not guarantee acceptance in arXiv. Submitters who have had works previously delayed or declined by arXiv should anticipate closer scrutiny on future submissions and in some cases authors may be required to establish a conventional publication record and limit their submissions to works that are published in conventional journals. arXiv reserves the right to reclassify or decline any submission.
+The moderation process primarily occurs after a user submits a work and before the work is made public. Each work is evaluated based on its content. arXiv moderation decisions may be influenced by the publication status of the submission, but prior publication does not guarantee acceptance in arXiv. Submitters who have had works previously delayed or declined by arXiv should anticipate closer scrutiny on future submissions. In some cases, authors may be required to establish a conventional publication record and limit their submissions to works that are published in conventional journals. arXiv reserves the right to reclassify or decline any submission.
 
 <span id="reclassification"></span>
 ### Reclassification of works
