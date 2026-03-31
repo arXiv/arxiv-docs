@@ -1,6 +1,6 @@
 
 steps:
-  - name: 'python:3.9-bullseye'
+  - name: 'python:3.11.8-bookworm'
     entrypoint: 'bash'
     args:
       - "-c"
