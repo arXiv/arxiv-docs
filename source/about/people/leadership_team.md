@@ -41,6 +41,18 @@ In his role as associate faculty director at arXiv, Yoav assists the Executive D
 <div class="grid-blocks" markdown="1">
 
 <div class="bio-block" markdown="1">
+![Image of Jeff Sank](../images/portrait-Jeff-Sank.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Jeff Sank' role="presentation"}
+
+## Jeff Sank {align="center"}
+
+**Engineering Director**
+{align="center"}
+
+
+As Engineering Director, Jeff leads the arXiv engineering teams building technology that supports arXiv's valuable Open Science mission. With over 20 years of experience in software development, digital strategy, and team building, Jeff has spent much of his career in the nonprofit sector, including a decade in digital publishing at NPR. Jeff is a graduate of The George Washington University.
+</div>
+
+<div class="bio-block" markdown="1">
 ![Image of Stephanie Orphan](../images/portrait-Stephanie-Orphan-warmtone.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Stephanie Orphan' role="presentation"}
 
 ## Stephanie Orphan {align="center"}

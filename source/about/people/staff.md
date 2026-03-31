@@ -21,6 +21,7 @@
 - Norbert Preining, Principal Software Engineer
 - Erin Aster, Developer
 - Rebecca Rich Goldweber, Lead Production Editor
+- Jeff Sank, Engineering Director
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
 - Naoyuki Tai, Senior Software Engineer
