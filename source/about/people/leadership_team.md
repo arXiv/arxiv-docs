@@ -43,7 +43,7 @@ In his role as associate faculty director at arXiv, Yoav assists the Executive D
 <div class="bio-block" markdown="1">
 ![Image of Jeff Sank](../images/portrait-Jeff-Sank.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Jeff Sank' role="presentation"}
 
-## Jeff Sank{align="center"}
+## Jeff Sank {align="center"}
 
 **Engineering Director**
 {align="center"}
