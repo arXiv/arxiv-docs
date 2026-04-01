@@ -1,6 +1,6 @@
 # About arXiv
 
-arXiv is a curated research-sharing platform open to anyone. As a pioneer in digital open access, arXiv.org now hosts more than two million scholarly articles in eight subject areas, curated by our strong community of volunteer moderators.
+arXiv is a curated research-sharing platform open to anyone. As a pioneer in digital open access, arXiv.org now hosts more than three million scholarly articles in eight subject areas, curated by our strong community of volunteer moderators.
 {.intro}
 
 <ol class="color-blocks">
