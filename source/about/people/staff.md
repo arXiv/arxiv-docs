@@ -24,6 +24,7 @@
 - Jeff Sank, Engineering Director
 - Jessica Schriver, Production Editor
 - Steinn Sigurdsson, Scientific Director
+- Valpuri Sovero, User Support & Editorial Assistant
 - Naoyuki Tai, Senior Software Engineer
 - Jake Weiskoff, Project Manager
 - Jonathan Young, Lead ML Engineer
