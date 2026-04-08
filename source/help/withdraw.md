@@ -43,17 +43,18 @@ Example Withdrawal
 
 The withdrawn version
 
-- As shown in the example below, the withdrawal has created a new version (version 2). 
-- The new withdrawn v2 becomes the default view of the paper. 
-- The reason for the withdrawal is displayed in the Comments field. 
+- The withdrawal creates a new version (version 2) which becomes the default view of the paper.
+- The page will state that the paper has been withdrawn, and by whom.
+- The reason for the withdrawal is displayed in the Comments field.
 - Under the Download options on the right there is no option to download the PDF or TeX.
 
-![withdarawal version 2](Withdraw-sample-v2-2023-05-15.png "withdarawal version 2")
+![Screenshot of a withdrawn paper showing version 2 as the default view. The page displays "This paper has been withdrawn" with the withdrawal reason in the Comments field. The Download section shows no PDF or source options available.](Withdraw-sample-v2-2023-05-15.png "Withdrawn paper - version 2 view")
 
 Previous versions remain accessible.
 
-- All previous versions are still accessible through the links below the Submission History as shown in the example below.
-- A notification that the new version is withdrawn is displayed.
-- The full text can be accessed under the Download options.
+- All previous versions are still accessible through the version links in the Submission History section.
+- The submission history will state "(withdrawn)" alongside the new version of the paper.
+- A notification banner indicates that a newer version has been withdrawn.
+- The full text of previous versions can still be accessed under the Download options.
 
-![withdarawal version 1](Withdraw-sample-v1-2023-05-15.png "withdarawal version 1")
+![Screenshot of version 1 of a withdrawn paper. The page shows a banner stating "The current version of this paper has been withdrawn". The Submission History section shows links to both v1 and v2, with v2 marked as withdrawn. Download options for PDF and source are available for this earlier version.](Withdraw-sample-v1-2023-05-15.png "Withdrawn paper - previous version view")
