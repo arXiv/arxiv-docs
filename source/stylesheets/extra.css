@@ -74,6 +74,29 @@ a:hover, a:focus {
   outline-color: var(--md-accent-fg-color);
   outline-offset: 2px;
 }
+
+/* Skip link - ensure proper contrast when focused */
+.md-skip {
+  background: var(--md-primary-fg-color);
+  color: white !important;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-weight: 600;
+}
+.md-skip:focus {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+/* Hide empty overlay labels from accessibility tree */
+.md-overlay {
+  /* This label is used for click-to-close, not for form control */
+}
+
+/* Ensure search magnify icon in search box is decorative */
+.md-search__magnify {
+  pointer-events: none;
+}
 .md-content a {
   text-decoration: underline;
   text-underline-offset: 2px;
