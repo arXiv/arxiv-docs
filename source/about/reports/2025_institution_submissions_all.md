@@ -139,7 +139,7 @@ Institutional members can view annual reports on their membership dashboard. [To
 </div>
 
 
-<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_2024_all.js"></script>
+<script type='text/javascript' src="https://storage.googleapis.com/info-arxiv-org-stats/institution_submissions_2025_all.js"></script>
 
 <script type='text/javascript'>
     let institutions = [];
