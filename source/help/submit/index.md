@@ -96,8 +96,7 @@ See [separate instructions for preparing the title and abstract](../prep.md) for
 abstract pages, in announcements, in RSS feeds, and to support
 searching.
 
-<span id="upload"></span>
-
+span id="upload"></span>
 ## Upload and prepare your submission file
 
 To submit an article, select the "START NEW SUBMISSION" button from your [user page](https://arxiv.org/user).
