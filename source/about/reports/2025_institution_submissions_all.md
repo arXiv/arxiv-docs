@@ -1,3 +1,8 @@
+---
+hide:
+ - toc
+---
+
 <meta charset="UTF-8">
 <!--
 <script type='text/javascript' src="https://code.jquery.com/jquery-3.7.1.js"></script>  
