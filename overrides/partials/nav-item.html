@@ -55,6 +55,8 @@
   {% endif %}
 {% endmacro %}
 {% macro render(nav_item, path, level, parent) %}
+
+  <!-- Determine class according to state -->
   {% set class = "md-nav__item" %}
   {% if nav_item.active %}
     {% set class = class ~ " md-nav__item--active" %}
@@ -64,7 +66,11 @@
       {% set nav_item = page %}
     {% endif %}
   {% endif %}
+
+  <!-- Main navigation item with nested items -->
   {% if nav_item.children %}
+
+    <!-- Determine all nested items that are index pages -->
     {% set _ = namespace(index = none) %}
     {% if "navigation.indexes" in features %}
       {% for item in nav_item.children %}
@@ -74,6 +80,8 @@
       {% endfor %}
     {% endif %}
     {% set index = _.index %}
+
+    <!-- Determine whether to render item as a section -->
     {% if "navigation.tabs" in features %}
       {% if level == 1 and nav_item.active %}
         {% set class = class ~ " md-nav__item--section" %}
@@ -97,25 +105,35 @@
         {% set is_pruned = true %}
       {% endif %}
     {% endif %}
+
+    <!-- Render item with nested items -->
     <li class="{{ class }} md-nav__item--nested">
       {% if not is_pruned %}
+
+        <!-- Active checkbox expands items contained within nested section -->
         {% set checked = "checked" if nav_item.active %}
         {% if "navigation.expand" in features and not checked %}
           {% set indeterminate = "md-toggle--indeterminate" %}
         {% endif %}
         <input class="md-nav__toggle md-toggle {{ indeterminate }}" type="checkbox" id="{{ path }}" {{ checked }}>
+
+        <!-- Render toggle to expand nested items -->
         {% if not index %}
           {% set tabindex = "0" if not is_section %}
           <label class="md-nav__link" for="{{ path }}" id="{{ path }}_label" tabindex="{{ tabindex }}">
             {{ render_content(nav_item) }}
             <span class="md-nav__icon md-icon"></span>
           </label>
+
+        <!-- Render link to index page + toggle -->
         {% else %}
           {% set class = "md-nav__link--active" if index == page %}
           <div class="md-nav__link md-nav__container">
             <a href="{{ index.url | url }}" class="md-nav__link {{ class }}">
               {{ render_content(index, nav_item) }}
             </a>
+
+            <!-- Only render toggle if there's at least one more page -->
             {% if nav_item.children | length > 1 %}
               {% set tabindex = "0" if not is_section %}
               <label class="md-nav__link {{ class }}" for="{{ path }}" id="{{ path }}_label" tabindex="{{ tabindex }}">
@@ -124,12 +142,16 @@
             {% endif %}
           </div>
         {% endif %}
+
+        <!-- Render nested navigation -->
         <nav class="md-nav" data-md-level="{{ level }}" aria-labelledby="{{ path }}_label" aria-expanded="{{ nav_item.active | tojson }}">
           <label class="md-nav__title" for="{{ path }}">
             <span class="md-nav__icon md-icon"></span>
             {{ render_title(nav_item) }}
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+
+            <!-- Render nested item list -->
             {% for item in nav_item.children %}
               {% if not index or item != index %}
                 {{ render(item, path ~ "_" ~ loop.index, level + 1, nav_item) }}
@@ -141,14 +163,22 @@
         {{ render_pruned(nav_item) }}
       {% endif %}
     </li>
+
+  <!-- Currently active page -->
   {% elif nav_item == page %}
     <li class="{{ class }}">
       {% set toc = page.toc %}
+
+      <!-- Active checkbox expands items contained within nested section -->
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+
+      <!-- Hack: see partials/toc.html for more information -->
       {% set first = toc | first %}
       {% if first and first.level == 1 %}
         {% set toc = first.children %}
       {% endif %}
+
+      <!-- Render table of contents, if not empty -->
       {% if toc %}
         <label class="md-nav__link md-nav__link--active" for="__toc" tabindex="0">
           {{ render_content(nav_item) }}
@@ -162,6 +192,8 @@
         {% include "partials/toc.html" %}
       {% endif %}
     </li>
+
+  <!-- Main navigation item -->
   {% else %}
     <li class="{{ class }}">
       <a href="{{ nav_item.url | url }}" class="md-nav__link">
