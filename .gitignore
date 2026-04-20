@@ -85,7 +85,6 @@ celerybeat-schedule
 # virtualenv
 .venv
 venv/
-docs-venv/
 ENV/
 docs-venv/
 
