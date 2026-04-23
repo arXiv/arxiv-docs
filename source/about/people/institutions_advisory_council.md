@@ -21,7 +21,7 @@ responds to such input.
 
 **Maureen P. Walsh (Chair, 2023-2026),** representing the Big Ten Academic Alliance, United States
 
-Maureen P. Walsh is the Scholarly Sharing Strategist and an Associate Professor at The Ohio State University Libraries. She has been actively involved with the open repository community for 17 years and is currently the Chair of the DSpace Steering and Leadership Groups and a standing member of the Open Repositories Steering Committee.
+Maureen P. Walsh is the Scholarly Sharing Strategist and an Associate Professor at The Ohio State University Libraries. She has been actively involved with the open repository community for 20 years and is a standing member of the Open Repositories Steering Committee. Maureen is a full custodian of the Open Book Collective and a member of the DSpace Leadership and Steering Groups, the Open Library of Humanities Library Board, the NISO Open Access Business Processes Working Group, the Royal Society Library Advisory Panel, and the OA2020 Working Group on Transparency to Steward the OA Transition. Locally, she serves on OhioLINK’s Open Access Analysis Project Team and Ohio State’s Public Access to Sponsored Research Data Working Group.
 
 **Alex Kohls (Vice Chair, 2025-2027),** representing CERN, Switzerland
 
@@ -34,6 +34,15 @@ Alex holds a degree in business administration and joined CERN with 20 years exp
 
 Tracey was formerly the Associate Director (Digital) at the University of Sheffield (UK) Library having held a number of posts with digital, open access, publishing, research support, collection development, copyright and faculty engagement responsibilities for over 25 years. Tracey has led for the university with regard to open access, research data management and digital preservation. Since 2019 Tracey has been active as a specialist consultant with an international outlook, retaining a strong interest in research ecosystems and innovation in the scholarly communications paradigm.
 
+**Caroline Dean (Member, 2026-2028),** representing University of Cape Town, South Africa
+
+**Anouk D'Hont (2026-2028),** representing KU Leuven, Belgium
+
+Anouk is an information specialist at KU Leuven Libraries, where she provides research support to researchers in the fields of science, engineering and technology, and biomedical sciences. Her main area of expertise is scholarly publishing and various open access options. She supports researchers through training sessions and one-on-one consultations, and contributes her expertise to the university’s policy development. She holds a doctorate in marine biology, which provides her with a strong background in academic research and scholarly communication.  
+
+**Laurence El Khouri (2026-2028),** representing French National Centre for Scientific Research (CNRS), France
+
+Laurence El Khouri is deputy head of Open Research Data Department (DDOR) at the CNRS, France which is responsible, with the CNRS 10 disciplinary Institutes, for establishing CNRS open science roadmap. The CNRS has developped, in the early 2000s, HAL the French national open archive which is a trusted channel for arXiv. Laurence is, since 2013, strongly involved in open science initiatives at CNRS and at a national level (including SCOAP3 CERN initiative, and the French National Open Science Fund). She is involved in the coalition for advancing research assessment (CoARA) since its creation in 2022, and she serves as a member of Open Research Europe executive committee. She co-leads the French national node for the Research Data Alliance.  Laurence holds a PhD in Fluid mechanics from Sorbonne University in Paris.  
 
 **Robert Harington (Member, 2023-2026),** representing the Society Group
 
@@ -43,6 +52,10 @@ Robert is a member of the AMS leadership team, and has the overall responsibilit
 **Martin Kohler (Member, 2023-2026),** representing Consortium arXiv-DH and HGF, Germany
 
 Martin heads the Deutsches Elektronen-Synchrotron and European X-Ray Free-Electron Laser libraries including DESY’s institutional repository, open access and publishing house. He holds a doctorate in physics from the university of Hamburg.
+
+**Cristiana Prever (Member, 2026-2028),** representing SISSA (Scuola Internazionale Superiore di Studi Avanzati), Italy
+
+Cristiana Prever is Head of Publishing at SISSA Medialab (Trieste, Italy), the in-house company of the International School for Advanced Studies (SISSA). She is responsible for the coordination of editorial operations across a portfolio of peer-reviewed journals, including the Journal of High Energy Physics (JHEP), Journal of Cosmology and Astroparticle Physics (JCAP), Journal of Statistical Mechanics (JSTAT), Journal of Instrumentation (JINST), and Journal of Science Communication (JCOM).  Her work focuses on the management of scholarly publishing workflows, peer review processes, and the development of community-led publishing initiatives in close collaboration with editors, scientific societies, and research communities.
 
 **Hideaki Takeda (Member, 2023-2026),** representing Japan NII Consortia, Japan
 
