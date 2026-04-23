@@ -11,14 +11,17 @@ plugins:
   - literate-nav:
       nav_file: SUMMARY.md
       implicit_index: true
+  - redirects:
+      redirect_maps:
+        about/governance.md: about/governance/index.md
 hooks:
   - hooks/a11y.py
 theme:
   name: material
   features:
     - content.tooltips
-        - navigation.path
-        - navigation.indexes
+    - navigation.path
+    - navigation.indexes
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
