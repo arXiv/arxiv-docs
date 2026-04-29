@@ -18,7 +18,7 @@ arXiv member institutions not only help support arXiv and open science for their
 
 The arXiv membership program consists of Standard membership, All Star membership (new in 2025!), Champion membership, and Community membership.
 
-Standard and All Star memberships are based on [your institution’s global arXiv rank](reports/2024_institution_submissions.md), which is based on how many submissions to arXiv researchers affiliated with your institutions make every year, averaged over the past three years.
+Standard and All Star memberships are based on [your institution’s global arXiv rank](reports/2025_institution_submissions.md), which is based on how many submissions to arXiv researchers affiliated with your institutions make every year, averaged over the past three years.
 
 | Membership Tier      | Rank      | All Star Membership Rate     | Standard Membership Rate      |
 |----------------------|-----------|------------------------------|-------------------------------|
