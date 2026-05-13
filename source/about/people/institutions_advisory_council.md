@@ -36,6 +36,8 @@ Tracey was formerly the Associate Director (Digital) at the University of Sheffi
 
 **Caroline Dean (Member, 2026-2028),** representing University of Cape Town, South Africa
 
+Caroline is Principal Librarian: Acquisitions at the University of Cape Town (UCT) Libraries and a member of the Libraries Management Team. She provides strategic leadership in the procurement of print and electronic information resources and is responsible for managing the Libraries’ acquisitions budget. She holds a Master’s degree in Library and Information Science (MBibl) from UCT.
+
 **Anouk D'Hont (2026-2028),** representing KU Leuven, Belgium
 
 Anouk is an information specialist at KU Leuven Libraries, where she provides research support to researchers in the fields of science, engineering and technology, and biomedical sciences. Her main area of expertise is scholarly publishing and various open access options. She supports researchers through training sessions and one-on-one consultations, and contributes her expertise to the university’s policy development. She holds a doctorate in marine biology, which provides her with a strong background in academic research and scholarly communication.  
