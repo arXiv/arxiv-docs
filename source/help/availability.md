@@ -1,11 +1,13 @@
 # Availability of submissions
 
-Submissions to arXiv are typically made public Sunday through
-Thursday, with no announcements Friday or Saturday. Check the [current
-time](https://arxiv.org/localtime) at the arXiv main site, with the
-amount of time remaining before the deadline. Submissions are made public as part of the scheduled announcement process. This includes new submissions as well as [replacements](replace.md), [withdrawal notices](withdraw.md), [cross listings](cross.md) and [journal reference](jref.md). Journal reference submissions do not appear in the mailings, but are still processed at that time. 
+Work submitted to arXiv undergoes a series of quality assurance checks as part of [moderation](moderation/index.md). This helps authors by ensuring their work will be discoverable and archivable and helps readers find relevant research that is in a consistent, readable format.
 
-Note that all submissions are subject to [moderation](moderation/index.md) which may result in delays.
+Quality assurance checks can take between one to four days to resolve, sometimes longer. Authors will be notified by email if any issues are found in the submission. Authors will also receive an email when the submission is posted publicly.
+
+Submissions to arXiv are typically posted publicly Sunday through
+Thursday, with no announcements Friday or Saturday. You can check the [current arXiv
+time](https://arxiv.org/localtime), which also shows the next deadline. Submissions are made public as part of the [scheduled announcement process](#announcement-schedule). This includes new submissions as well as [replacements](replace.md), [withdrawal notices](withdraw.md), [cross listings](cross.md) and [journal reference](jref.md). 
+
 
 <a name="id-before"></a>
 ## A note about arXiv-id assignments
