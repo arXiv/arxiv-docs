@@ -1,31 +1,49 @@
 # arXiv Staff
 
-- Yoav Artzi, Associate Faculty Director
-- Amanda Bartley, Senior Moderation & User Support Specialist
-- Kai Beavers, User Support Specialist
-- Kat Boboris, Community Engagement Manager
-- Shamsi Brinn, User Experience Manager
-- Christopher Cameron, Computational Social Scientist
-- Brian Caruso, Lead Developer
-- Jim R-B Entwood, Head of Content & User Support
-- David Fielding, Senior Developer
-- Deyan Ginev, Software Engineer
-- Mike Greco, DevOps Engineer
-- Alison Hofer, Documentation Specialist
-- Carly Jones, Software Engineer
-- Kim Laine, Senior User & Membership Support Specialist
-- Lauren Niu, Scientist Software Engineer
-- Jamie Magyar, Production Editor
-- Brian Maltzan, Backend Python Developer
-- Stephanie Orphan, Program Director
-- Norbert Preining, Principal Software Engineer
-- Erin Aster, Developer
-- Rebecca Rich Goldweber, Lead Production Editor
-- Jeff Sank, Engineering Director
-- Jessica Schriver, Production Editor
-- Steinn Sigurdsson, Scientific Director
-- Valpuri Sovero, User Support & Editorial Assistant
-- Naoyuki Tai, Senior Software Engineer
-- Jake Weiskoff, Project Manager
-- Jonathan Young, Lead ML Engineer
+## Leadership
+
 - Ramin Zabih, Executive Director
+- Stephanie Orphan, Program Director
+- Jeff Sank, Engineering Director
+- Steinn Sigurdsson, Scientific Director
+
+## Engineering
+
+- Erin Aster, Software Engineer
+- Brian Caruso, Lead Software Engineer
+- David Fielding, Senior Software Engineer
+- Deyan Ginev, Senior Software Engineer
+- Mike Greco, DevOps Engineer
+- Carly Jones, Senior Software Engineer
+- Brian Maltzan, Senior Software Engineer
+- Lauren Niu, Senior Software Engineer
+- Norbert Preining, Principal Software Engineer
+- Naoyuki Tai, Senior Software Engineer
+- Jonathan Young, Lead ML Engineer
+
+## Product & Design
+
+- Shamsi Beers Brinn, Senior Lead - Product Design & Strategy
+
+## User Support & Membership
+
+- Amanda Bartley, Senior User Support Specialist
+- Kai Beavers, User Support Specialist
+- Kim Laine, Senior User Support Specialist
+- Valpuri Sovero, User Support & Editorial Assistant
+
+## Content & Editorial
+
+- Jim R-B Entwood, Head of Content & User Support
+- Jamie Magyar, Production Editor
+- Rebecca Rich Goldweber, Lead Production Editor
+- Jessica Schriver, Production Editor
+
+## Communications & Membership
+
+- Kat Boboris, Communications and Membership Manager
+
+## Project Management
+
+- Alison Hofer, Project Manager
+- Jake Weiskoff, Lead Project Manager
