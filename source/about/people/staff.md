@@ -16,7 +16,6 @@
 - Mike Greco, DevOps Engineer
 - Carly Jones, Senior Software Engineer
 - Brian Maltzan, Senior Software Engineer
-- Lauren Niu, Senior Software Engineer
 - Norbert Preining, Principal Software Engineer
 - Naoyuki Tai, Senior Software Engineer
 - Jonathan Young, Lead ML Engineer
