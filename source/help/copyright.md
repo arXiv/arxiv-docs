@@ -2,10 +2,10 @@
 
 
 ## Related information
-- [Licenses applied](/help/license/index.md) to arXiv papers and metadata
-- [Copyright statements](/help/license/index.md#copyright-notices) within arXiv papers
-- [Reuse requests](/help/license/reuse.md) for images or content
-See our [help page regarding reuse of images](/help/license/reuse.md) or full text from arXiv.
+- [Licenses applied](license/index.md) to arXiv papers and metadata
+- [Copyright statements](license/index.md#copyright-notices) within arXiv papers
+- [Reuse requests](license/reuse.md) for images or content
+See our [help page regarding reuse of images](license/reuse.md) or full text from arXiv.
 
 ## Copyright infringement
 
