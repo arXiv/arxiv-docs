@@ -2,7 +2,7 @@
 
 ## Opening Statement 
 
-arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our core values outlined here.
+arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our Code of Conduct outlined here.
 
 Failure to comply with this Code of Conduct may result in a warning or suspension from participation in arXiv.
 
@@ -10,7 +10,7 @@ Failure to comply with this Code of Conduct may result in a warning or suspensio
 
 arXiv is an open access resource. We are dedicated to the permanent custodial preservation of the scholarly record and to the rapid dissemination of scholarly scientific research. We are sustained by a robust community of scientists from around the world who trust us with their work and ideas, and by the financial support of individuals and organizations. 
 
-arXiv looks to the needs of the international scientific community when setting priorities and engaging in development. We are a partner in ongoing open access development and are pleased to share our 30 years of experience.
+arXiv looks to the needs of the international scientific community when setting priorities and engaging in development. We are a partner in ongoing open access development and are pleased to share our 35 years of experience.
 
 ### Ethics and Responsibility
 
