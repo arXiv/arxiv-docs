@@ -8,8 +8,6 @@ The [moderators for the computer science archive are listed here](https://arxiv.
 
 ### Computer Science Section Editorial Committee
 
-The editorial committee members serve as consultants to Cornell University and to the arXiv [Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Thomas Dietterich, Oregon State University (chair)
 - Terrance Boult, University of Colorado, Colorado Springs
 - Julien Corman, Free University of Bozen-Bolzano

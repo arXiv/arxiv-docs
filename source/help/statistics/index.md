@@ -9,8 +9,6 @@ The [moderators for the statistics archive are listed here](https://arxiv.org/mo
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Statistics Editorial Committee:
 
-The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Larry Wasserman, Carnegie Mellon University (chair)
 - Martin Wells, Cornell University (vice chair)
 - Shane Jensen, University of Pennsylvania

@@ -12,8 +12,6 @@ The [moderators for the quantitative finance archive are listed here](https://ar
 
 ## The arXiv Quantitative Finance Section Editorial Committee:
 
-The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Arthur M. Berd, General Quantitative (co-chair)
 - Jean-Philippe Bouchaud, Capital Fund Management (co-chair)
 - J. Doyne Farmer, University of Oxford
