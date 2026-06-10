@@ -27,7 +27,7 @@ More information on [arXiv's leadership team](leadership_team.md).
 ## Technical Team
 
 - Erin Aster, Software Engineer
-- Shamsi Beers Brinn, Senior Lead - Product Design & Strategy
+- Shamsi Brinn, Senior Lead - Product Design & Strategy
 - Brian Caruso, Lead Software Engineer
 - David Fielding, Senior Software Engineer
 - Deyan Ginev, Senior Software Engineer
