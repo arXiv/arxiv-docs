@@ -56,14 +56,14 @@
   gtag('config', 'G-B1RR0QKWGQ');
 </script>
 -->
-<!-- Expire any Google Analytics cookies (_ga, _ga_*) left over from before GA was disabled.
-     Setting a cookie with a past expiry date is the standard way to delete a browser cookie.
+<!-- Expire any Google Analytics cookies (_ga*, _gid, _gat, __utm*) left over from before GA was disabled.
+     Max-Age=0 is the standard way to delete a browser cookie.
      The domain=.arxiv.org attribute ensures the deletion applies across all subdomains. -->
 <script>
   document.cookie.split(';').forEach(function(c) {
     var name = c.trim().split('=')[0];
-    if (name.match(/^_ga/)) {
-      document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.arxiv.org;';
+    if (/^(_ga|_gid|_gat|__utm)/.test(name)) {
+      document.cookie = name + '=; Max-Age=0; path=/; domain=.arxiv.org;';
     }
   });
 </script>
