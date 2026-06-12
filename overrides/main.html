@@ -45,7 +45,8 @@
   <img src="/assets/cornell-reduced-white.png" height="auto" width="200" title="Cornell logo" alt="Logo for Cornell University">
   <p class="sponsors"><a href="https://arxiv.org/about/funding">We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors.</a></p>
 </div>
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) - commented out to disable GA cookies -->
+<!--
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-B1RR0QKWGQ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -53,6 +54,18 @@
   gtag('js', new Date());
 
   gtag('config', 'G-B1RR0QKWGQ');
+</script>
+-->
+<!-- Expire any Google Analytics cookies (_ga*, _gid, _gat, __utm*) left over from before GA was disabled.
+     Max-Age=0 is the standard way to delete a browser cookie.
+     The domain=.arxiv.org attribute ensures the deletion applies across all subdomains. -->
+<script>
+  document.cookie.split(';').forEach(function(c) {
+    var name = c.trim().split('=')[0];
+    if (/^(_ga|_gid|_gat|__utm)/.test(name)) {
+      document.cookie = name + '=; Max-Age=0; path=/; domain=.arxiv.org;';
+    }
+  });
 </script>
 {{ super() }}
 {% endblock header %}
