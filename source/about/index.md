@@ -12,7 +12,7 @@ arXiv is a curated research-sharing platform open to anyone. As a pioneer in dig
 
 arXiv offers researchers a broad range of services: article submission, compilation, production, retrieval, search and discovery, web distribution for human readers, and API access for machines, together with content curation and preservation. Our emphasis on openness, collaboration, and scholarship provide the strong foundation on which arXiv thrives.
 
-arXiv currently serves the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. arXiv was founded by Paul Ginsparg in 1991 and, after decades of being hosted at Cornell University, is now establishing itself as an independent nonprofit organization.
+arXiv currently serves the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. arXiv was founded by Paul Ginsparg in 1991 and, after decades of being hosted at Cornell University, was established as an independent nonprofit organization in 2026.
 
 Operations are maintained by the [arXiv Leadership Team](people/leadership_team.md) and arXiv staff. Governance of arXiv is led by the Leadership Team with guidance from the arXiv [Editorial Advisory Council](people/editorial_advisory_council.md), [Institutions Advisory Council](people/institutions_advisory_council.md), and [Science Advisory Council](people/science_advisory_council.md). arXiv is a community-supported resource funded by the [Simons Foundation](https://www.simonsfoundation.org), [member institutions](ourmembers.md), and [donors](give.md).
 
