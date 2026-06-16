@@ -22,6 +22,7 @@ More information on [arXiv's leadership team](leadership_team.md).
 - Jamie Magyar, Production Editor
 - Rebecca Rich Goldweber, Lead Production Editor
 - Jessica Schriver, Production Editor
+- Ryan Shelley, Metadata Associate
 - Valpuri Sovero, Production Editor & User Support Specialist
 
 ## Technical Team
