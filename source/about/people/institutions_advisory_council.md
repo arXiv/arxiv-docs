@@ -3,7 +3,7 @@
 The Institutions Advisory Council represents the scholarly communications community, 
 including librarians and information science and publishing professionals. The overall 
 role of the Institutions Advisory Council is to represent the voice of the community and to 
-provide advice and guidance to the arXiv Advisory Board on issues guiding the 
+provide advice and guidance to the Executive Director on issues guiding the 
 sustainability and success of arXiv, including mission, vision, strategy and budget. 
 
 
