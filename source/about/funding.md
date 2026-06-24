@@ -16,6 +16,6 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
   <a href="supporters.html">Companies</a> that benefit from arXiv's services are encouraged to support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the in-kind equivalent. Interested in becoming a sponsor? [Email membership@arxiv.org](mailto:membership@arxiv.org)</li>
 </ol>
 
-Individuals who wish to give to arXiv can [Donate Today](https://info.arxiv.org/about/donate.html){.button-reg}
+Individuals who wish to give to arXiv can [Donate Today](donate.md){.button-reg}
 
 Questions about Supporting arXiv? [Email us. We're happy to help](mailto:membership@arxiv.org)
