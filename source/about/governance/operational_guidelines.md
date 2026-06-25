@@ -1,0 +1,5 @@
+# arXiv Operational Guidelines
+
+arXiv is governed by a Board of Directors, which holds final authority and responsibility for the business and affairs of arXiv. Day-to-day operations are led by the Chief Executive Officer, who is appointed by and reports to the Board. The CEO has general supervision over arXiv — directing day-to-day operations, supervising staff, and managing the budget — and leads the Executive Committee, the leadership team that supports the CEO in carrying out these responsibilities.
+
+Strategic guidance comes from three Advisory Councils, the Science, Institutions, and Editorial Advisory Councils, each a consultative body that serves as the voice of its community and advises on the issues that guide arXiv's sustainability and success, including mission, vision, strategy, and budget. Together with the Executive Committee, the Council Chairs form the arXiv Advisory Board, the main point of contact between arXiv's leadership and the Councils. All arXiv staff, board and council members, moderators, and users abide by the [arXiv Code of Conduct](../../help/policies/code_of_conduct.md).
