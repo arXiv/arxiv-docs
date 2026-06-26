@@ -9,7 +9,7 @@
 
 ## Copyright infringement
 
-In accordance with the Digital Millennium Copyright Act, arXiv has designated an agent to respond to alleged copyright infringements on arXiv. Any such allegations of copyright infringement should be sent to the Head of Content & User Support at <a href="mailto:copyright_abuse@arxiv.org">copyright_abuse@arxiv.org</a>.
+In accordance with the Digital Millennium Copyright Act, arXiv has designated an agent to respond to alleged copyright infringements on arXiv. Any such allegations of copyright infringement should be sent to the Head of Content & User Support at [copyright_abuse@arxiv.org](mailto:copyright_abuse@arxiv.org).
 
 The [Digital Millennium Copyright Act](https://www.copyright.gov/dmca/) specifies that all infringement claims must be in writing (either e-mail or paper letter) and must include the following elements:
 
@@ -26,4 +26,4 @@ Head of Content & User Support \
 arXiv \
 2 West Loop Road \
 New York, NY 10044 \
-copyright_abuse@arxiv.org
+[copyright_abuse@arxiv.org](mailto:copyright_abuse@arxiv.org)
