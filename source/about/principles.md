@@ -2,7 +2,7 @@
 
 July 1, 2023
 
-_Note: New [bylaws](arXiv_bylaws.md) have been adopted; this page is thus out of date and reflects revisions made in 2012._
+_Note: New [operational guidelines](governance/operational_guidelines.md) have been adopted; this page is thus out of date and reflects revisions made in 2012._
 
 March 28, 2012
 
@@ -96,11 +96,11 @@ provide background information.
 
 4.1. The Scientific Advisory Board is composed of scientists and researchers in areas covered by
 arXiv. Chairs of subject Advisory Committees serve as _ex officio_ members of the board. The
-selection process for the remaining members will be delineated in arXiv board bylaws.
+selection process for the remaining members will be delineated in the arXiv operational guidelines.
 
 4.2. The SAB selects a Chair from among its members. The Chair works with the arXiv director
 of user support to coordinate SAB activities. The roles of the Chair and the arXiv director of
-user support, with respect to the SAB, will be specified in arXiv board bylaws.
+user support, with respect to the SAB, will be specified in the arXiv operational guidelines.
 
 4.3. The SAB:
 
@@ -170,7 +170,7 @@ transition of arXiv to another institution.
  Funders may make their payment of membership fees for individual institutions conditional on those institutions designating the funder their proxy. However, monitoring such requirements would be beyond arXiv’s purview.
 
 Specifics of the composition, terms, selection, and goals of the Scientific Advisory Board and the Member
-Advisory Board will be articulated in the groups’ bylaws (to be developed).
+Advisory Board will be articulated in the arXiv operational guidelines.
 
 CUL’s indirect costs include library and departmental administration; staff support (finance/budget, human resources, facility staff, and staff IT); and maintenance, custodial, utility, and other facility related costs for the building.
 
