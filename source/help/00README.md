@@ -9,13 +9,11 @@ The `00README` is a JSON file built automatically during the submission process 
 
 The goal of the [submission 1.5](submit_tex.md#latex-processing-changes--coming-early-2025) process is to eliminate any guesswork by providing a clear and unique compilation and post-processing path, as outlined in the 00README file. It is not required (nor recommended) to manually create this file prior to submission, with some exceptions and caveats. The following is presented as technical specifications for submitters who need to customize functionality in their submissions or for interested readers. This is also presented as a way to guide programmatic submitters who would not otherwise have access to the UI submission pipeline (e.g. [SWORD](submit_sword.md)).
 
+The new JSON format described below is the default, and old-style `00README` will be converted.
 
-### Supported `00README` formats
+### Examples of 00README.json
 
-We support more expressive formats that can be written in either JSON or YAML format. The new formats described below will be the default, and old-style `00README` will be converted.
-
-
-#### JSON format
+#### Single TeX file
 
 A common case is where the submission contains only a TeX file, for example: `my_super_paper.tex`. This `my_super_paper.tex` is a top-level file which should be compiled with `pdflatex`.
 
@@ -30,16 +28,6 @@ A common case is where the submission contains only a TeX file, for example: `my
 } 
 ```
 
-#### YAML format
-
-```
-process:
-  compiler: pdflatex
-sources:
-  - filename: my_super_paper.tex
-    usage: toplevel
-```
-
 Note: as long as there is no other tag, the usage: `toplevel` is not necessary. Generated `00README` files will contain it, but parsing allows for leaving out the toplevel specification.
 
 #### EPS file with alternative compilation path
@@ -47,10 +35,14 @@ Note: as long as there is no other tag, the usage: `toplevel` is not necessary. 
 In the following example, the paper includes an Encapsulated PostScript (eps) file; thus an alternative compilation path is required via `latex` followed by `dvips` and `ps2pdf`. This can be specified in a simple method as:
 
 ```
-process:
-  compiler: latex
-sources:
-  - filename: my_super_paper.tex
+{
+  "process": {
+     "compiler": "latex"
+  },
+  "sources": [
+    { "filename": "my_super_paper.tex" }
+  ]
+}
 ```
 
 The `compiler: latex` is actually shorthand for `compiler: latex+dvips_ps2pdf` because this is the only path we are currently supporting.
@@ -70,20 +62,28 @@ As of now, arXiv supports the following settings for `compiler`:
 
 #### Additional functionality
 
-Additional functionality supported in the original `00README`include: the `landscape` and `keep_comments`. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`).
+Additional functionality supported in the original `00README` include: the `landscape` and `keep_comments`. The example uses a toplevel tex file `my_super_paper.tex`, but requests it be compiled with `tex` (not `latex`), and the postprocessing makes sure that the generated `dvi` file is converted in landscape mode, and keeps comments (by using `-K0`).
 
 ```
-process:
-  compiler: tex+dvips_ps2pdf
-sources:
-  - filename: my_super_paper.tex
-    usage: toplevel
-  - filename: my_super_paper.dvi
-    orientation: landscape
-    keep_comments: true
+{
+  "process": {
+     "compiler": "pdflatex"
+  },
+  "sources": [
+    { 
+      "filename": "my_super_paper.tex",
+      "usage": "toplevel"
+    },
+    {
+      "filename": "my_super_paper.dvi",
+      "orientation": "landscape",
+      "keep_comment": true
+    }
+  ]
+}
 ```
 
-The above example should be enough to write well-specified `00README` files in the new format as YAML or JSON files, covering most common cases.
+The above example should be enough to write well-specified `00README.json` files, covering most common cases.
 
 ### Formal specification
 
@@ -99,7 +99,7 @@ If you need more specific information, here is a more formal specification.
       "filename": "<FILENAME>",
       "usage": "toplevel" | "include" | "ignore",
       "orientation": "landscape" | "portrait",
-      "keep_comments: <BOOL>
+      "keep_comments": <BOOL>
     },
     ...
   ],
@@ -107,21 +107,6 @@ If you need more specific information, here is a more formal specification.
   "stamp": <BOOL>,
   "nohyperref": <BOOL>
 }
-```
-or as YAML:
-
-```
-spec_version: <N>
-process:
-  compiler: <COMPILER_STRING> | <COMPILER_SPEC>
-sources:
-  - filename: <FILENAME>
-    usage: toplevel | include | ignore
-    orientation: landscape | portrait
-    keep_comments: <BOOL>
-stamp: <BOOL>
-texlive_version: <YYYY>
-nohyperref: <BOOL>
 ```
 
 #### Toplevel keys
