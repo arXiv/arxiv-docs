@@ -193,7 +193,7 @@ To be considered an arXiv member institution for the purposes of Advisory Counci
 
 
 ## 9.	Amendments
-These Operation Guidelines were established in 2026 and may be amended, or new clauses adopted, by consensus agreement of the arXiv executive committee and the Chief Executive Officer.
+These Operational Guidelines were established in 2026 and may be amended, or new clauses adopted, by consensus agreement of the arXiv executive committee and the Chief Executive Officer.
 
 
 
