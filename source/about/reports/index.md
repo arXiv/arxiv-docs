@@ -1,6 +1,8 @@
 # arXiv Reports
 
 ## Annual Reports
+[2025 Annual Report](2025_arXiv_annual_report.pdf)
+
 [2024 Annual Report](2024_arXiv_annual_report.pdf)
 
 [2023 Annual Report](2023_arXiv_annual_report.pdf)
