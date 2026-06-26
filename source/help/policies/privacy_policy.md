@@ -143,8 +143,6 @@ The bases arXiv relies on for processing your Personal Data are set forth below.
 - **Legal** – We may have a legal obligation to handle your Personal Data when necessary to comply with applicable law or to enforce legal rights.
 - **Your consent** – Generally, we do not rely on consent as a legal basis for processing your Personal Data, unless it is specifically required by your jurisdiction, such as for sending fundraising, marketing, or other optional communications or for collecting special category or sensitive information on an optional basis for research purposes. When we process your Personal Data on the basis of consent, you are able to withdraw your consent at any time.  Consent for collection of Personal Data for research purposes can be withdrawn at [http://arxiv.org/research-opt-in](http://arxiv.org/research-opt-in).  Personal Data collected for use in research will be completely anonymized or deleted by arXiv after five years.  You can also request deletion of your Personal Data by completing our [Privacy Data Subject Rights Request Form](https://arxiv-org.atlassian.net/servicedesk/customer/portal/1/create/1246)
 
-## Change form link to https://arxiv.org/support/privacy_request after the redirect is deployed. 
-
 We will retain your Personal Data for as long as needed to meet these objectives and to ensure compliance with our legal obligations.
 
 ## Location of Processing and International Data Transfers
