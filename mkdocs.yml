@@ -19,6 +19,7 @@ hooks:
 theme:
   name: material
   features:
+    - content.action.edit
     - content.tooltips
     - navigation.path
     - navigation.indexes
