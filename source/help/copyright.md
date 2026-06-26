@@ -2,13 +2,14 @@
 
 
 ## Related information
+
+- [Reuse requests](license/reuse.md) for images or content
 - [Licenses applied](license/index.md) to arXiv papers and metadata
 - [Copyright statements](license/index.md#copyright-notices) within arXiv papers
-- [Reuse requests](license/reuse.md) for images or content
 
 ## Copyright infringement
 
-In accordance with the Digital Millennium Copyright Act, arXiv has designated an agent to respond to alleged copyright infringements on arXiv. Any such allegations of copyright infringement should be sent to the Head of Content & User Support at copyright_abuse@arxiv.org.
+In accordance with the Digital Millennium Copyright Act, arXiv has designated an agent to respond to alleged copyright infringements on arXiv. Any such allegations of copyright infringement should be sent to the Head of Content & User Support at <a href="mailto:copyright_abuse@arxiv.org">copyright_abuse@arxiv.org</a>.
 
 The [Digital Millennium Copyright Act](https://www.copyright.gov/dmca/) specifies that all infringement claims must be in writing (either e-mail or paper letter) and must include the following elements:
 
