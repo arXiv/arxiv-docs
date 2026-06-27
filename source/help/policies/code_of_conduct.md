@@ -34,7 +34,7 @@ We expect members of the arXiv community to foster a safe environment for commun
 If you have questions or concerns regarding the arXiv Code of Conduct please contact:
 
 - [Steinn Sigurdsson](mailto:steinn@arxiv.org), arXiv Scientific Director, or 
-- [Ralph Wijers](mailto:r.a.m.j.wijers@uva.nl), Chair of arXiv Science Advisory Council
+- [Thomas Dietterich](tgd@cs.orst.edu), Chair of arXiv Editorial Advisory Council
 
 In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://arxiv-org.atlassian.net/servicedesk/customer/portal/12/group/19/create/109).
 
