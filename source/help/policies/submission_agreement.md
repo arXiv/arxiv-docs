@@ -1,6 +1,6 @@
 # arXiv Submittal Agreement
 
-arXiv is a curated research-sharing platform emphasizing openness, collaboration, and scholarship. By submitting articles, comments, or other written work (the “Work”), you (including any other authors of the Work) are agreeing to comply with these terms, which is an agreement (the “Agreement”) between you and Cornell University on behalf of arXiv (“arXiv”). 
+arXiv is a curated research-sharing platform emphasizing openness, collaboration, and scholarship. By submitting articles, comments, or other written work (the “Work”), you (including any other authors of the Work) are agreeing to comply with these terms, which is an agreement (the “Agreement”) between you and arXiv, Inc. (“arXiv”). 
 
 ## Representations and Warranties 
 
@@ -43,7 +43,7 @@ By making this submission to arXiv:
 
 I waive the following claims on behalf of myself and all other authors of the Work with me acting on my co-author(s)’ behalf: 
 
-- Any claims against arXiv or Cornell University, or any officer, employee, or agent and their successors, assignees, or heirs (hereinafter “the indemnified parties”) thereof, based upon the use of the Work by arXiv consistent with the License. 
+- Any claims against arXiv, or any officer, director, employee, or agent, and their successors, assignees, or heirs thereof (hereinafter “the indemnified parties”), based upon the use of the Work by arXiv consistent with the License. 
 - Any claims against the indemnified parties based upon actions taken by any such party with respect to the Work, including without limitation decisions to include the Work in, or exclude the Work from, the repository; editorial decisions or changes affecting the Work, including the identification of myself and contributing co-author(s) and our affiliations or titles; the classification or characterization of the Work; the content of any metadata; the availability or lack of availability of the Work to researchers or other users of arXiv, including any decision to include the Work initially or remove or disable access. 
 - Any rights related to the integrity of the Work under ​​​​moral rights principles. 
 - Any claims against the indemnified parties based upon any technical failures that result in a loss of content or inadvertent disclosure of information provided in connection with a submission.  
@@ -80,5 +80,5 @@ To the extent that you or arXiv has a copyright interest in metadata accompanyin
 
 This Agreement will be governed by and construed in accordance with the substantive and procedural laws of the State of New York and the applicable federal law of the United States without reference to any conflicts of laws principles.  
 
-- By making this submission, I agree that any action, suit, arbitration, or other proceeding arising out of or related to this Agreement must be commenced in the state or federal courts serving Tompkins County, New York. 
+- By making this submission, I agree that any action, suit, arbitration, or other proceeding arising out of or related to this Agreement must be commenced in the state or federal courts in New York County, New York. 
 - I, and on behalf of any and all authors, hereby consent to the personal jurisdiction of such courts. 

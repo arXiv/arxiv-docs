@@ -23,8 +23,6 @@ The [moderators for the physics archive are listed here](https://arxiv.org/moder
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Section Editorial Committee:
 
-The advisory committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Ralph Wijers, University of Amsterdam (chair)
 - Jacques Distler, University of Texas, Austin
 - Victor Galitski, University of Maryland

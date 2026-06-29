@@ -10,6 +10,4 @@ The [moderators for the quantitative biology archive are listed here](https://ar
 
 ## The arXiv Quantitative Biology Editorial Committee:
 
-The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Ralf Bundschuh, Ohio State (chair)

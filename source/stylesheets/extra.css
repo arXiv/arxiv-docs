@@ -683,3 +683,107 @@ ul.brand-colors li .text {
     margin: .35em 10px 0 0 !important;
   }
 }
+
+/* ORG CHART (about/governance) — inline SVG
+   Drawn as SVG so connector lines are exact (no drift/gaps), the figure
+   stays self-contained, and it never fights mkdocs-material's list styles.
+   Colors come from the brand variables and adapt to dark mode below. */
+.org-chart {
+  margin: 1.5em 0;
+  /* connector + node colors */
+  --org-line: var(--color-open-blue);
+  --org-node-border: var(--color-open-blue);
+  --org-board-border: var(--color-open-blue);
+  --org-node-text: #1c1a17;
+  /* node blue gradient (subtle) */
+  --org-blue-0: #c2e2ff;
+  --org-blue-1: var(--color-open-blue);
+  /* Board of Directors: darker blue with white text */
+  --org-board-bg: var(--color-archival-blue);
+  --org-board-text: #ffffff;
+  /* councils band: light Open Blue gradient */
+  --org-councils-0: #c8e6ff;
+  --org-councils-1: #edf5ff;
+  --org-heading-text: #1c1a17;
+  /* background tint shared by the container fill and council boxes */
+  --org-tint: #ffffff;
+  /* enclosing container */
+  --org-container-fill: var(--org-tint);
+  --org-container-border: var(--color-open-blue);
+  /* council boxes */
+  --org-council-bg: var(--org-tint);
+  --org-council-border: #8b8680;
+}
+/* mkdocs-material sets .md-typeset figure { width: fit-content }, which
+   collapses the figure to the SVG's small intrinsic width. Override it so
+   the chart fills the content column and the labels scale up to a readable
+   size. Higher specificity (.md-typeset figure.org-chart) beats the theme. */
+.md-typeset figure.org-chart {
+  width: 100%;
+  max-width: 700px;
+  margin: 1.5em auto;
+}
+.org-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-family: inherit;
+}
+/* gradient stops (classed so they stay themeable in dark mode) */
+.org-svg__grad-blue-0 { stop-color: var(--org-blue-0); }
+.org-svg__grad-blue-1 { stop-color: var(--org-blue-1); }
+.org-svg__grad-councils-0 { stop-color: var(--org-councils-0); }
+.org-svg__grad-councils-1 { stop-color: var(--org-councils-1); }
+/* enclosing container */
+.org-svg__container { fill: var(--org-container-fill); }
+.org-svg__container-border {
+  fill: none;
+  stroke: var(--org-container-border);
+  stroke-width: 2.5;
+}
+/* nodes: blue gradient fill comes from the fill="url(#org-blue)" attribute;
+   this rule only sets stroke so it doesn't clobber the gradient. */
+.org-svg__node {
+  stroke: var(--org-node-border);
+  stroke-width: 2;
+}
+.org-svg__node--board {
+  fill: var(--org-board-bg);
+  stroke: var(--org-board-border);
+}
+.org-svg__node--council {
+  fill: var(--org-council-bg);
+  stroke: var(--org-council-border);
+  stroke-width: 1.5;
+}
+.org-svg__line {
+  fill: none;
+  stroke: var(--org-line);
+  stroke-width: 2;
+}
+.org-svg__label { fill: var(--org-node-text); }
+.org-svg__label--title { font-weight: 700; }
+.org-svg__label--role { font-style: italic; }
+/* must follow .org-svg__label so it wins the cascade at equal specificity */
+.org-svg__label--invert { fill: var(--org-board-text); }
+.org-svg__heading { fill: var(--org-heading-text); font-weight: 700; }
+
+/* dark mode */
+[data-md-color-scheme="slate"] .org-chart {
+  --org-line: var(--color-open-blue);
+  --org-node-border: var(--color-open-blue);
+  --org-board-border: var(--color-open-blue);
+  --org-node-text: var(--color-warm-wash);
+  --org-blue-0: #6f9fd8;
+  --org-blue-1: #4f7fb8;
+  --org-board-bg: var(--color-archival-blue);
+  --org-board-text: #ffffff;
+  --org-councils-0: #3f6a9c;
+  --org-councils-1: #294a73;
+  --org-heading-text: var(--color-warm-wash);
+  --org-container-fill: hsla(var(--md-hue), 10%, 12%, 1);
+  --org-container-border: var(--color-open-blue-dark);
+  --org-council-bg: hsla(var(--md-hue), 10%, 20%, 1);
+  --org-council-border: #8b8680;
+}

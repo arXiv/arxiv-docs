@@ -34,7 +34,7 @@ Withdrawal reasons must be appropriate for the withdrawal to be accepted.
 - Withdrawal reasons will be displayed publicly so when writing the withdrawal reason please keep in mind that you are explaining the withdrawal to the readers of arXiv
 - It is not appropriate to withdraw a paper because it is published or submitted to a journal. Instead you could submit a [journal-ref](jref.md).
 - It is not appropriate to withdraw a paper because it is being updated. Instead you could submit a [replacement](replace.md).
-- It is not appropriate to withdraw a paper due to copyright infringement. Please instead see [Copyright Infringements](http://www.cornell.edu/copyright-infringement.cfm)
+- It is not appropriate to withdraw a paper due to copyright infringement. Please instead see [Copyright Infringements](copyright.md)
 
 
 

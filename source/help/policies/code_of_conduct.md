@@ -2,7 +2,7 @@
 
 ## Opening Statement 
 
-arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our core values outlined here.
+arXiv is a community of authors, readers, moderators, advisory board members, supporting members (libraries, research institutions, etc.), donors, staff, and collaborators in scholarly communication and software development. arXiv is also the  platform where our community engages with one another. We expect all community members to act in accordance with our Code of Conduct outlined here.
 
 Failure to comply with this Code of Conduct may result in a warning or suspension from participation in arXiv.
 
@@ -10,7 +10,7 @@ Failure to comply with this Code of Conduct may result in a warning or suspensio
 
 arXiv is an open access resource. We are dedicated to the permanent custodial preservation of the scholarly record and to the rapid dissemination of scholarly scientific research. We are sustained by a robust community of scientists from around the world who trust us with their work and ideas, and by the financial support of individuals and organizations. 
 
-arXiv looks to the needs of the international scientific community when setting priorities and engaging in development. We are a partner in ongoing open access development and are pleased to share our 30 years of experience.
+arXiv looks to the needs of the international scientific community when setting priorities and engaging in development. We are a partner in ongoing open access development and are pleased to share our 35 years of experience.
 
 ### Ethics and Responsibility
 
@@ -33,11 +33,8 @@ We expect members of the arXiv community to foster a safe environment for commun
 
 If you have questions or concerns regarding the arXiv Code of Conduct please contact:
 
-- [Steinn Sigurdsson](mailto:ss3783@cornell.edu), arXiv Scientific Director, or 
-- [Ralph Wijers](mailto:r.a.m.j.wijers@uva.nl), Chair of arXiv Science Advisory Council, or
-- [Greg Morrisett](mailto:jgm19@cornell.edu), Dean and Vice Provost for Cornell Tech at Cornell University, or
-- [Cornell University Ombuds](https://ombuds.cornell.edu)
-
+- [Steinn Sigurdsson](mailto:steinn@arxiv.org), arXiv Scientific Director, or 
+- [Thomas Dietterich](tgd@cs.orst.edu), Chair of arXiv Editorial Advisory Council
 
 In order to report a violation of the arXiv Code of Conduct please use the [Code of Conduct reporting form](https://arxiv-org.atlassian.net/servicedesk/customer/portal/12/group/19/create/109).
 
@@ -58,10 +55,6 @@ Policies related to authors:
 Policies related to moderators:
 
 - All of the above, plus the moderator guidelines and policies linked from moderator user accounts.
-
-Policies related to arXiv staff:
-
-- All of the above, plus all policies of Cornell University, including the Cornell Code of Conduct http://www.dfa.cornell.edu/policy/policies/campus-code-conduct
 
 Policies related to advisory boards and groups:
 

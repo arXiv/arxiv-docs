@@ -35,7 +35,7 @@ The following are examples of possible enforcement actions, which may be taken a
 * If a submission (or the user’s related arXiv offense) violates arXiv policy or legal requirements, the submission may be removed, withdrawn, or redacted. Similarly, a violator’s ownership of a submission may be removed, or arXiv could require replacement of the submission. 
 * arXiv may edit the submission’s metadata, including adding metadata notes.
   
-If legal issues arise from a violation, Cornell’s Office of University Counsel and/or relevant law enforcement will be contacted.
+If legal issues arise from a violation, arXiv Counsel and/or relevant law enforcement will be contacted.
 
 If a user disagrees with arXiv’s enforcement decision, there may be an opportunity to appeal. However, the option to appeal will not always be available depending on the type of infraction and limited staff time.
 

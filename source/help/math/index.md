@@ -10,8 +10,6 @@ The [moderators for the math archive are listed here](https://arxiv.org/moderato
 
 ## The arXiv Math Section Editorial Committee:
 
-The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Council](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Paul Gunnels, University of Massachusetts, Amherst (chair)
 - Ioana Dumitriu, University of California, San Diego
 - Angela Gibney, University of Pennsylvania
