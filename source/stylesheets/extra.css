@@ -15,7 +15,11 @@
   --md-text-font: "freight-sans-pro";
   --md-code-font-family: "ibm-plex-mono", monospace;
   /*default theme colors*/
-  --md-primary-fg-color:  var(--color-cornell-red);
+  /* Spinout: was Cornell Red. The black .ds-site-header is now the brand bar, so
+     material's docs header (.md-header) is muted to a neutral — no heritage red
+     bar competing/duplicating directly below the black bar. Red stays available
+     as --color-cornell-red for heritage accents. */
+  --md-primary-fg-color:  var(--color-library-grey);
   --md-primary-fg-color--light: var(--color-access-lime);
   --md-primary-fg-color--lightest:  var(--color-warm-wash);
   --md-primary-fg-color--dark:  var(--color-library-grey);
@@ -50,18 +54,69 @@
   --shadow:           black;
 }
 
+/* Spinout chrome parity with arxiv-search. mkdocs-material inflates the root to
+   font-size:125% (→137.5%/150% on wide screens); the .ds-* chrome (and every other
+   surface: search, status, submit) is designed against a 16px base, so the fixed-px
+   header looked vertically thin and the 1200px footer grid looked narrow next to the
+   inflated material content. Resetting to 100% renders info.arxiv.org's chrome at the
+   same scale as arxiv-search — keeping the chrome uniform across repos with no
+   site-specific dimension overrides. */
+html { font-size: 100%; }
+
 body {
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-.md-header__button.md-logo {
+/* "arXiv info" subsite clarification, shown next to the brand in the black header. */
+.ds-site-header .ds-site-header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 16px;
+}
+.ds-site-header .ds-site-header-brand .ds-site-header-logo { margin-right: 0; }
+.ds-site-header-subsite {
+  color: var(--arxiv-grey-dis);            /* matches the chrome nav text on the dark bar */
+  font-weight: 600;
+  font-size: .95rem;
+  line-height: 1;
+  padding-left: 10px;
+  border-left: 1px solid #4a433d;          /* same hairline as .ds-site-header-divider (untokenized upstream) */
+  white-space: nowrap;
+}
+
+/* info.arxiv.org ONLY — full chrome unify (ARXIVCE-4426). A docs-only inline
+   script relocates material's color-theme toggle + internal docs search into the
+   single black .ds-site-header, then we hide the grey .md-header. Gated on
+   .ds-docs-unified so that without JS the .md-header stays visible and those
+   controls remain reachable (progressive enhancement). NB: the theme toggle +
+   internal search are docs-only carry-overs — never propagated to the shared
+   spinout chrome or the other repos. */
+.ds-site-header { position: relative; }
+/* Hide ONLY material's original header (it carries data-md-component="header");
+   our unified bar also has the md-header class, so it must NOT match this. */
+.ds-docs-unified .md-header[data-md-component="header"] { display: none !important; }
+
+.ds-site-header .ds-docs-controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+/* relocated color-theme toggle — light glyphs on the black bar */
+.ds-site-header [data-md-component="palette"] { display: flex; align-items: center; }
+.ds-site-header [data-md-component="palette"] .md-header__button {
+  color: var(--arxiv-card-grey);           /* canonical dark-bar control colour (matches .ds-site-header-login) */
   margin: 0;
-  padding: .35rem;
+  padding: 6px;
 }
-.md-header__button.md-logo img {
-  height: 2rem !important;
-}
+/* Internal docs search stays material-NATIVE: because .ds-site-header also carries
+   the `md-header` class, material's own .md-header search CSS keeps drawing the
+   input and its full-width results panel exactly as upstream — no custom panel CSS.
+   The search sits just after the brand and pushes the nav to the right. */
+.ds-site-header.md-header .md-search { margin-right: auto; }
 .md-header__source {
   display: none !important;
 }
