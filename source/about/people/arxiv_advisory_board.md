@@ -15,6 +15,8 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 **Stephanie Orphan**, Program Director
 
+**Jeff Sank**, Engineering Director
+
 **Steinn Sigurdsson**, Scientific Director
 
 **Licia Verde**, Chair, Science Editorial Council
