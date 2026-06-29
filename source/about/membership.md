@@ -64,11 +64,10 @@ Is your institution using arXiv primarily for downloading and reading papers, ra
 
 ## Become an arXiv member today!
 
-You can fill out our membership form ([Join, renew, or confirm your membership](membership_confirm.md)) or contact us directly at <membership@arxiv.org>.
+You can become a member or renew your membership by contacting us directly at <membership@arxiv.org>.
 
 ## Stay in Touch
 
-- [Newsletter Sign Up](email_sign_up.md)
 - [Blog](https://blog.arxiv.org/)
 - [Twitter](https://x.com/arxiv)
 - [Status Updates](https://status.arxiv.org/)
