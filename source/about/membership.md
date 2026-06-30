@@ -26,7 +26,7 @@ Standard and All Star memberships are based on [your institution’s global arXi
 | Frequent             | 101 - 500 | $3,250                       | $2,500                        |
 | Regular              | 501 +     | $1,400                       | $1,000                        |
 
-_All membership rates are in USD._
+_All membership rates are in USD and can be paid by wire, credit card, or check._
 
 Is your institution part of a consortia? Email [arXiv Membership](mailto:membership@arxiv.org) to learn more about how your consortia can support arXiv and receive a 10% membership rate discount for all consortia members.
 
