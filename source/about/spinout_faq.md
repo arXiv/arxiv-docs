@@ -1,4 +1,4 @@
-# arXiv is becoming an independent nonprofit organization on July 1, 2026 
+# arXiv is becoming an independent nonprofit organization on July 1, 2026
 
 Please see below for frequently asked questions about this change. This page will be updated promptly as more information becomes available.
 
