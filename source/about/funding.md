@@ -14,18 +14,21 @@ arXiv’s financial sustainability depends on maintaining funding sources that a
   <li><strong>Affiliates</strong><br>
   <a href="supporters.html">Professional societies, government agencies, and other nonprofits</a> are welcome to collaborate with arXiv in a variety of ways, from facilitating conference proceeding submissions to promoting open access compliance and more. Affiliates are also eligible to serve on an arXiv Advisory Council. Suggested contribution levels range from $5,000 to $100,000. Interested in becoming an affiliate? 
 
-  [Email membership@arxiv.org](mailto:membership@arxiv.org)
+  [Email arXiv Membership](membership@arxiv.org)
   </li>
 
   <li><strong>Sponsors</strong><br>
   <a href="supporters.html">Companies</a> that benefit from arXiv's services are encouraged to support the infrastructure with both funding and in-kind donations such as developer time and cloud services. Suggested contribution levels range from $10,000 to $200,000, or the in-kind equivalent. Interested in becoming a sponsor? 
   
-  [Email membership@arxiv.org](mailto:membership@arxiv.org)
+ [Email arXiv Membership](membership@arxiv.org)
+  
   </li>
 </ol>
 
 Individuals who wish to give to arXiv can 
 
+
 [Donate Today](donate.md){.button-reg}
+
 
 Questions about Supporting arXiv? [Email us. We're happy to help](mailto:membership@arxiv.org)
