@@ -2,6 +2,8 @@
 
 arXiv is becoming an independent nonprofit organization on July 1, 2026. Please see below for frequently asked questions about this change. This page will be updated promptly as more information becomes available.
 
+For general questions or media inquiries about arXiv’s establishment as an independent organization, please contact us at inquiries@arxiv.org
+
 ## Why is arXiv spinning out from Cornell University?
 
 In 1991, arXiv was founded, and was able to run, with little human interference, on a computer under a desk at arXiv founder Paul Ginsparg’s Los Alamos National Laboratory work station. Back then, arXiv received about 10 submissions a month. Now arXiv receives an average of 24,000 new submissions every month, with recent months frequently topping out at over 30,000 new submissions. It now takes nearly 30 staff to make sure arXiv’s operations run smoothly.
