@@ -415,6 +415,12 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
   border-radius:50%;
   width:120px;
 }
+.mkd-img-space {
+  padding:1em;
+}
+.mkd-img-small {
+  max-width:250px !important;
+}
 @media (min-width: 576px) {
   .mkd-img-left {
     width:calc(50% - 1.25em);
