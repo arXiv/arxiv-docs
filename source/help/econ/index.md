@@ -10,8 +10,6 @@ The [moderators for the economics archive are listed here](https://arxiv.org/mod
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Economics Section Editorial Committee
 
-The editorial committee members serve as consultants to Cornell University and to the [arXiv Editorial Advisory Committee](../../about/people/editorial_advisory_council.md). All arXiv policy decisions are ultimately made by Cornell University.
-
 - Marc Henry, The Pennsylvania State University (chair)
 - Martin Weidner, University of Oxford (vice chair)
 - Federico Echenique, University of California, Berkeley

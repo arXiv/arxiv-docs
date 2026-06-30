@@ -12,28 +12,11 @@
 <div markdown="1">
 
 ## Ramin Zabih
-**Executive Director**
+**Interim CEO**
 
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8769-5666](https://orcid.org/0000-0001-8769-5666){target="_blank"}
 
-As arXiv executive director, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
-</div>
-</div>
-</div>
-
-<div class="grid-blocks" markdown="1">
-<div class="bio-block primary" markdown="1">
-<div markdown="1">
-![Image of Yoav Artzi](../images/portrait-Yoav-Artzi-warmtone.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Yoav Artzi' role="presentation"}
-</div>
-<div markdown="1">
-## Yoav Artzi
-**Associate Faculty Director**
-
-- [@yoavartzi](https://twitter.com/@yoavartzi){target="_blank"}
-- ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0002-4605-6144](https://orcid.org/0000-0002-4605-6144){target="_blank"}
-
-In his role as associate faculty director at arXiv, Yoav assists the Executive Director in guiding arXiv's strategic vision and ensuring that arXiv continues to meet the needs of researchers. He is an associate professor in computer science at Cornell Tech. Yoav holds a Ph.D. in Computer Science from the University of Washington.
+As arXiv interim CEO, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
 </div>
 </div>
 </div>

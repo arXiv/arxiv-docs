@@ -15,7 +15,11 @@
   --md-text-font: "freight-sans-pro";
   --md-code-font-family: "ibm-plex-mono", monospace;
   /*default theme colors*/
-  --md-primary-fg-color:  var(--color-cornell-red);
+  /* Spinout: was Cornell Red. The black .ds-site-header is now the brand bar, so
+     material's docs header (.md-header) is muted to a neutral — no heritage red
+     bar competing/duplicating directly below the black bar. Red stays available
+     as --color-cornell-red for heritage accents. */
+  --md-primary-fg-color:  var(--color-library-grey);
   --md-primary-fg-color--light: var(--color-access-lime);
   --md-primary-fg-color--lightest:  var(--color-warm-wash);
   --md-primary-fg-color--dark:  var(--color-library-grey);
@@ -55,15 +59,106 @@ body {
   font-style: normal;
   font-weight: 400;
 }
-.md-header__button.md-logo {
+/* "arXiv info" subsite clarification, shown next to the brand in the black header. */
+.ds-site-header .ds-site-header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 16px;
+}
+.ds-site-header .ds-site-header-brand .ds-site-header-logo { margin-right: 0; }
+.ds-site-header-subsite {
+  color: var(--arxiv-grey-dis);            /* matches the chrome nav text on the dark bar */
+  font-weight: 600;
+  font-size: 14px;                         /* px-pinned like the rest of the chrome (was .95rem → 19px under material's inflated root) */
+  line-height: 1;
+  padding-left: 10px;
+  border-left: 1px solid #4a433d;          /* same hairline as .ds-site-header-divider (untokenized upstream) */
+  white-space: nowrap;
+}
+
+/* info.arxiv.org ONLY — full chrome unify (ARXIVCE-4426). A docs-only inline
+   script relocates material's color-theme toggle + internal docs search into the
+   single black .ds-site-header, then we hide the grey .md-header. Gated on
+   .ds-docs-unified so that without JS the .md-header stays visible and those
+   controls remain reachable (progressive enhancement). NB: the theme toggle +
+   internal search are docs-only carry-overs — never propagated to the shared
+   spinout chrome or the other repos. */
+.ds-site-header { position: relative; }
+/* Hide ONLY material's original header (it carries data-md-component="header");
+   our unified bar also has the md-header class, so it must NOT match this. */
+.ds-docs-unified .md-header[data-md-component="header"] { display: none !important; }
+
+.ds-site-header .ds-docs-controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+/* The controls cluster is appended after the nav so it lands at the far right on
+   desktop. On mobile the nav collapses behind the hamburger but the cluster stays
+   visible; the hamburger comes earlier in the DOM, so bump its flex order to keep it
+   rightmost — yielding [theme toggle][search][hamburger]. (≤599px = the chrome's
+   collapsible breakpoint.) */
+@media (max-width: 599px) {
+  .ds-site-header #ds-nav-toggle { order: 10; }
+}
+/* relocated color-theme toggle — light glyphs on the black bar */
+.ds-site-header [data-md-component="palette"] { display: flex; align-items: center; }
+.ds-site-header [data-md-component="palette"] .md-header__button {
+  color: var(--arxiv-card-grey);           /* canonical dark-bar control colour (matches .ds-site-header-login) */
   margin: 0;
-  padding: .35rem;
+  padding: 6px;
 }
-.md-header__button.md-logo img {
-  height: 2rem !important;
+/* relocated mobile search-toggle (the magnifying-glass) — light glyph on the black
+   bar, matching the other dark-bar controls. Material hides it ≥60em (where the
+   inline input is shown), so this only surfaces on mobile as the overlay trigger. */
+.ds-site-header .md-header__button[for="__search"] {
+  color: var(--arxiv-card-grey);
+  margin: 0;
+  padding: 6px;
 }
+/* Internal docs search stays material-NATIVE: because .ds-site-header also carries
+   the `md-header` class, material's own .md-header search CSS keeps drawing the
+   input and its full-width results panel exactly as upstream — no custom panel CSS.
+   The search sits just after the brand and pushes the nav to the right. */
+.ds-site-header.md-header .md-search { margin-right: auto; }
+/* The relocated .md-search lives inside .ds-site-header, which forms a z-index:4
+   stacking context — so its full-screen mobile modal is trapped below the announcement
+   banner (z-index:101). While search is open, lift the header above the banner so the
+   modal covers it instead of rendering behind it. */
+[data-md-toggle="search"]:checked ~ .ds-site-header { z-index: 102; }
 .md-header__source {
   display: none !important;
+}
+/* Spinout footer (docs-local override, mirrors arxiv-browse ARXIVCE-4426): span the
+   page width with minimal 10px side margins instead of the shared chrome's centred
+   1200px grid. Scoped via body/descendant so it beats the chrome rule regardless of
+   stylesheet order — docs has no .flex-wrap-footer wrapper to hang it on like browse. */
+body .ds-site-footer { padding-left: 10px; padding-right: 10px; }
+.ds-site-footer .ds-site-footer-grid { max-width: none; }
+
+/* Pin the shared chrome's font-sizes to arxiv-browse's resolved pixels. The chrome
+   declares them in rem against a 16px root (0.875rem→14px, 0.8125rem→13px), but
+   mkdocs-material inflates the root (125%, then 137.5%/150% past 1600/2000px), so the
+   chrome would render ~25–50% larger and drift per breakpoint. The chrome layout is
+   fixed-px, so px here matches browse at every width WITHOUT touching the global root
+   (which would re-shrink all docs content). body-prefixed because the chrome stylesheet
+   loads AFTER extra.css — an equal-specificity override would otherwise lose. */
+body .ds-announcement { font-size: 13px; }
+body .ds-announcement-close { font-size: 14px; }
+body .ds-site-header-nav a,
+body .ds-site-header-nav button { font-size: 13px; }
+body .ds-site-footer-ack { font-size: 14px; }
+body .ds-site-footer-ack a { font-size: 13px; }
+body .ds-site-footer-links { font-size: 13px; }
+body .ds-site-footer-links a { font-size: 13px; }
+body .ds-site-footer-funders-label { font-size: 14px; }
+@media (max-width: 599px) {
+  /* the collapsed mobile nav switches to 0.875rem in the chrome */
+  body .ds-site-header.is-collapsible .ds-site-header-nav a,
+  body .ds-site-header.is-collapsible .ds-site-header-nav button { font-size: 14px; }
 }
 p {
   font-family: freight-sans-pro, sans-serif;
@@ -319,6 +414,12 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
 .mkd-img-icon {
   border-radius:50%;
   width:120px;
+}
+.mkd-img-space {
+  padding:1em;
+}
+.mkd-img-small {
+  max-width:250px !important;
 }
 @media (min-width: 576px) {
   .mkd-img-left {
@@ -682,4 +783,108 @@ ul.brand-colors li .text {
     width: calc(25% - 10px);
     margin: .35em 10px 0 0 !important;
   }
+}
+
+/* ORG CHART (about/governance) — inline SVG
+   Drawn as SVG so connector lines are exact (no drift/gaps), the figure
+   stays self-contained, and it never fights mkdocs-material's list styles.
+   Colors come from the brand variables and adapt to dark mode below. */
+.org-chart {
+  margin: 1.5em 0;
+  /* connector + node colors */
+  --org-line: var(--color-open-blue);
+  --org-node-border: var(--color-open-blue);
+  --org-board-border: var(--color-open-blue);
+  --org-node-text: #1c1a17;
+  /* node blue gradient (subtle) */
+  --org-blue-0: #c2e2ff;
+  --org-blue-1: var(--color-open-blue);
+  /* Board of Directors: darker blue with white text */
+  --org-board-bg: var(--color-archival-blue);
+  --org-board-text: #ffffff;
+  /* councils band: light Open Blue gradient */
+  --org-councils-0: #c8e6ff;
+  --org-councils-1: #edf5ff;
+  --org-heading-text: #1c1a17;
+  /* background tint shared by the container fill and council boxes */
+  --org-tint: #ffffff;
+  /* enclosing container */
+  --org-container-fill: var(--org-tint);
+  --org-container-border: var(--color-open-blue);
+  /* council boxes */
+  --org-council-bg: var(--org-tint);
+  --org-council-border: #8b8680;
+}
+/* mkdocs-material sets .md-typeset figure { width: fit-content }, which
+   collapses the figure to the SVG's small intrinsic width. Override it so
+   the chart fills the content column and the labels scale up to a readable
+   size. Higher specificity (.md-typeset figure.org-chart) beats the theme. */
+.md-typeset figure.org-chart {
+  width: 100%;
+  max-width: 700px;
+  margin: 1.5em auto;
+}
+.org-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  font-family: inherit;
+}
+/* gradient stops (classed so they stay themeable in dark mode) */
+.org-svg__grad-blue-0 { stop-color: var(--org-blue-0); }
+.org-svg__grad-blue-1 { stop-color: var(--org-blue-1); }
+.org-svg__grad-councils-0 { stop-color: var(--org-councils-0); }
+.org-svg__grad-councils-1 { stop-color: var(--org-councils-1); }
+/* enclosing container */
+.org-svg__container { fill: var(--org-container-fill); }
+.org-svg__container-border {
+  fill: none;
+  stroke: var(--org-container-border);
+  stroke-width: 2.5;
+}
+/* nodes: blue gradient fill comes from the fill="url(#org-blue)" attribute;
+   this rule only sets stroke so it doesn't clobber the gradient. */
+.org-svg__node {
+  stroke: var(--org-node-border);
+  stroke-width: 2;
+}
+.org-svg__node--board {
+  fill: var(--org-board-bg);
+  stroke: var(--org-board-border);
+}
+.org-svg__node--council {
+  fill: var(--org-council-bg);
+  stroke: var(--org-council-border);
+  stroke-width: 1.5;
+}
+.org-svg__line {
+  fill: none;
+  stroke: var(--org-line);
+  stroke-width: 2;
+}
+.org-svg__label { fill: var(--org-node-text); }
+.org-svg__label--title { font-weight: 700; }
+.org-svg__label--role { font-style: italic; }
+/* must follow .org-svg__label so it wins the cascade at equal specificity */
+.org-svg__label--invert { fill: var(--org-board-text); }
+.org-svg__heading { fill: var(--org-heading-text); font-weight: 700; }
+
+/* dark mode */
+[data-md-color-scheme="slate"] .org-chart {
+  --org-line: var(--color-open-blue);
+  --org-node-border: var(--color-open-blue);
+  --org-board-border: var(--color-open-blue);
+  --org-node-text: var(--color-warm-wash);
+  --org-blue-0: #6f9fd8;
+  --org-blue-1: #4f7fb8;
+  --org-board-bg: var(--color-archival-blue);
+  --org-board-text: #ffffff;
+  --org-councils-0: #3f6a9c;
+  --org-councils-1: #294a73;
+  --org-heading-text: var(--color-warm-wash);
+  --org-container-fill: hsla(var(--md-hue), 10%, 12%, 1);
+  --org-container-border: var(--color-open-blue-dark);
+  --org-council-bg: hsla(var(--md-hue), 10%, 20%, 1);
+  --org-council-border: #8b8680;
 }

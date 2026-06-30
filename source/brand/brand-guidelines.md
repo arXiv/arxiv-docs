@@ -1,11 +1,11 @@
 #arXiv Name and Logo Use
 
-The arXiv<sup>&reg;</sup> name and logo are registered trademarks and the legal property of arXiv and Cornell University. Unauthorized use of our logo or name is prohibited.
+The arXiv<sup>&reg;</sup> name and logo are registered trademarks and the legal property of arXiv. Unauthorized use of our logo or name is prohibited.
 {.intro}
 
-Our logo and name are ready to help us share a consistent, intentional, and meaningful message about who we are with the world. Unauthorized use causes confusion about who we are. And when its use *is authorized* it is just as important that we follow consistent guidelines to preserve the legibility, memorability, and legal defensibility that arXiv needs to protect this vital scientific service.
+Our logo and name are ready to help us share a consistent, intentional, and meaningful message about who we are with the world. Unauthorized use causes confusion about who we are and which services are under our control. And when its use *is authorized* it is just as important that we follow consistent guidelines to preserve the legibility, memorability, and legal defensibility that arXiv needs to protect this vital scientific service.
 
-Using our logo and name consistently is important to present a unified message to the world about who we are. That message is: *arXiv is a place of connection, linking together people and ideas and connecting them with the world of open science.*
+Our unified message is: *arXiv is a place of connection, linking together people and ideas and connecting them with the world of open science.*
 
 ##General guidelines that cover all logo and name use cases
 1. Use of the name arXiv and associated logos, web addresses, and colors are only allowed for the purpose of acknowledging use of arXiv's API or data from the arXiv corpus.
@@ -44,4 +44,4 @@ If your project and usage needs meet the criteria outlined in our use guidelines
 | Large Logomark | ![arXiv logomark](images/brand-logomark-primary-large.jpg){.mkd-img-thumb}  | [SVG](https://cornell.box.com/v/arxiv-logomark-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-png){target='_blank'} |
 | Small Logomark   |  ![arXiv logomark](images/brand-logomark-primary.jpg){.mkd-img-thumb} | [SVG](https://cornell.box.com/v/arxiv-logomark-small-svg){target='_blank'}, [JPG](https://cornell.box.com/v/arxiv-logomark-small-jpg){target='_blank'}, [PNG](https://cornell.box.com/v/arxiv-logomark-small-png){target='_blank'} |
 
-> The arXiv<sup>&reg;</sup> name and logo are registered trademarks and the legal property of arXiv and Cornell University. Unauthorized use of our logo or name is prohibited. Please review the guidelines above to ensure proper use of the arXiv name and logo.
+> The arXiv<sup>&reg;</sup> name and logo are registered trademarks and the legal property of arXiv. Unauthorized use of our logo or name is prohibited. Please review the guidelines above to ensure proper use of the arXiv name and logo.

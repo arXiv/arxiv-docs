@@ -11,10 +11,3 @@ arXiv is a place of connection, where scientists and experts around the world ca
 
 ##One Liner
 arXiv is a curated research-sharing platform, free and open to all scientists.
-
-##Our relationship to Cornell and Cornell Tech
-arXiv is organized exclusively for educational and scientific purposes. It is part of Cornell University and reports organizationally to the Dean of Cornell Tech, who acts as arXiv’s steward.
-
-> **“I am honored to serve as the Cornell steward for arXiv because I so firmly believe in the mission: to serve science by making sharing of papers open, fast, reliable, and sustainable.”**
->
-> —Dr. Greg Morrisett, Dean of Cornell Tech

@@ -32,17 +32,9 @@ Researchers depend on arXiv. While we recognize the pressing need to modernize t
     <img src="images/brand-icon-voice.jpg" role="representation">
     <span>The arXiv Voice</span>
   </a></div>
-  <div class="card"><a href="images.html">
-    <img src="images/brand-icon-images.jpg" role="representation">
-    <span>Images</span>
-  </a></div>
   <div class="card"><a href="fonts.html">
     <img src="images/brand-icon-fonts.jpg" role="representation">
     <span>Fonts</span>
-  </a></div>
-  <div class="card"><a href="typography.html">
-    <img src="images/brand-icon-typography.jpg" role="representation">
-    <span>Typography</span>
   </a></div>
   <div class="card"><a href="quotes.html">
     <img src="images/brand-icon-quotes.jpg" role="representation">

@@ -14,11 +14,13 @@ plugins:
   - redirects:
       redirect_maps:
         about/governance.md: about/governance/index.md
+        about/arXiv_bylaws.md: about/governance/operational_guidelines.md
 hooks:
   - hooks/a11y.py
 theme:
   name: material
   features:
+    - content.action.edit
     - content.tooltips
     - navigation.path
     - navigation.indexes
@@ -43,7 +45,16 @@ theme:
 extra_css:
   - stylesheets/extra.css
 extra:
-  homepage: https://arxiv.org
+  # Per-environment roots for the spinout chrome (ARXIVCE-4426). Defaults are
+  # production; a dev build overrides them via env vars so info.dev.arxiv.org
+  # loads the dev static assets and keeps header/footer links inside dev, e.g.:
+  #   BASE_STATIC=https://static.dev.arxiv.org/static/base/1.0.1 \
+  #   ARXIV_HOST=https://dev.arxiv.org INFO_HOST=https://info.dev.arxiv.org \
+  #   mkdocs build
+  homepage: !ENV [ARXIV_HOST, 'https://arxiv.org']
+  base_static: !ENV [BASE_STATIC, 'https://static.arxiv.org/static/base/1.0.1']
+  arxiv_host: !ENV [ARXIV_HOST, 'https://arxiv.org']
+  info_host: !ENV [INFO_HOST, 'https://info.arxiv.org']
 markdown_extensions:
   - attr_list
   - md_in_html
