@@ -70,7 +70,7 @@
      * [Code of conduct](help/policies/code_of_conduct.md)
      * [Privacy policy](help/policies/privacy_policy.md)
      * [Identity, affiliation, and registration](help/policies/identity_and_affiliation.md)
-     * [Submission terms and agreement](help/policies/submission_agreement.md)
+     * [Submittal agreement](help/policies/submission_agreement.md)
      * [Paper ownership](help/authority.md)
      * [Submission Guidelines](help/submit/index.md)
      * [Submission schedule and cutoff time](help/availability.md)
