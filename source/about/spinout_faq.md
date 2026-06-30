@@ -14,7 +14,7 @@ This spin out will allow arXiv to make technology changes and improvements more 
 
 ## What is changing with the move to a standalone organization?
 
-While arXiv’s mission remains the same, there will be some changes that are important to note. The official name of the new organization is arXiv, Inc. arXiv, Inc. has been established as a nonprofit, nonstock Delaware Corporation and has been granted tax exempt status by the IRS. (All nonprofits of this type must be incorporated and therefore “Inc.,”does not mean they are commercial.)  For the near-term, arXiv will continue to be headquartered on Cornell Tech’s campus and New York City-based arXiv staff will continue to work out of Cornell Tech office space.arXiv’s business address will remain that of Cornell Tech (2 West Loop Road, New York, NY 10044).
+While arXiv’s mission remains the same, there will be some changes that are important to note. The official name of the new organization is arXiv, Inc. arXiv, Inc. has been established as a nonprofit, nonstock Delaware Corporation and has been granted tax exempt status by the IRS. (All nonprofits of this type must be incorporated and therefore “Inc.,”does not mean they are commercial.)  For the near-term, arXiv will continue to be headquartered on Cornell Tech’s campus and New York City-based arXiv staff will continue to work out of Cornell Tech office space. arXiv’s business address will remain that of Cornell Tech (2 West Loop Road, New York, NY 10044).
 
 ## What is the governance model for the new arXiv organization?
 
