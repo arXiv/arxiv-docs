@@ -161,7 +161,6 @@
       var bar = document.querySelector('.ds-site-header');
       var md = document.querySelector('.md-header[data-md-component="header"]');
       if (!bar || !md) return;
-      var nav = bar.querySelector('.ds-site-header-nav') || bar;
       var brand = bar.querySelector('.ds-site-header-brand');
       // Our .ds-site-header ALSO carries material's `md-header` class, so material's
       // own .md-header search CSS keeps drawing the input + full-width results panel
@@ -169,14 +168,25 @@
       // its behaviour is unchanged — no custom panel CSS.
       var search = md.querySelector('.md-search');
       if (search && brand) brand.insertAdjacentElement('afterend', search);
-      // Color-theme toggle is small — it sits on the right with the nav.
+      // Group the docs controls — color-theme toggle + the relocated search-toggle —
+      // into one cluster appended to the END of the bar (after the nav), so on desktop
+      // they sit at the far right exactly as before. Order within the cluster: theme
+      // toggle, then the magnifying-glass to its right.
+      // Material's mobile search-toggle (the magnifying-glass) lives DIRECTLY in
+      // .md-header — not inside .md-search — so without relocating it, it stays in the
+      // hidden .md-header and mobile users lose the only control that opens the search
+      // overlay. Keeping the cluster OUTSIDE the collapsible nav means both controls
+      // stay visible on mobile (the nav collapses behind the hamburger); a CSS flex
+      // order rule keeps the hamburger itself rightmost there. Material hides the
+      // magnify ≥60em, so on desktop the inline search input remains the search
+      // affordance and only the toggle shows here — no duplicate.
+      var host = document.createElement('div');
+      host.className = 'ds-docs-controls';
       var palette = md.querySelector('[data-md-component="palette"]');
-      if (palette) {
-        var host = document.createElement('div');
-        host.className = 'ds-docs-controls';
-        host.appendChild(palette);
-        nav.appendChild(host);
-      }
+      if (palette) host.appendChild(palette);
+      var searchToggle = md.querySelector('.md-header__button[for="__search"]');
+      if (searchToggle) host.appendChild(searchToggle);
+      bar.appendChild(host);
       document.documentElement.classList.add('ds-docs-unified');
     }
     if (document.readyState !== 'loading') unify();

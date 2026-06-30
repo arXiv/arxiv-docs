@@ -54,15 +54,6 @@
   --shadow:           black;
 }
 
-/* Spinout chrome parity with arxiv-search. mkdocs-material inflates the root to
-   font-size:125% (→137.5%/150% on wide screens); the .ds-* chrome (and every other
-   surface: search, status, submit) is designed against a 16px base, so the fixed-px
-   header looked vertically thin and the 1200px footer grid looked narrow next to the
-   inflated material content. Resetting to 100% renders info.arxiv.org's chrome at the
-   same scale as arxiv-search — keeping the chrome uniform across repos with no
-   site-specific dimension overrides. */
-html { font-size: 100%; }
-
 body {
   font-family: freight-sans-pro, sans-serif;
   font-style: normal;
@@ -79,7 +70,7 @@ body {
 .ds-site-header-subsite {
   color: var(--arxiv-grey-dis);            /* matches the chrome nav text on the dark bar */
   font-weight: 600;
-  font-size: .95rem;
+  font-size: 14px;                         /* px-pinned like the rest of the chrome (was .95rem → 19px under material's inflated root) */
   line-height: 1;
   padding-left: 10px;
   border-left: 1px solid #4a433d;          /* same hairline as .ds-site-header-divider (untokenized upstream) */
@@ -105,10 +96,26 @@ body {
   flex-shrink: 0;
   margin-left: 8px;
 }
+/* The controls cluster is appended after the nav so it lands at the far right on
+   desktop. On mobile the nav collapses behind the hamburger but the cluster stays
+   visible; the hamburger comes earlier in the DOM, so bump its flex order to keep it
+   rightmost — yielding [theme toggle][search][hamburger]. (≤599px = the chrome's
+   collapsible breakpoint.) */
+@media (max-width: 599px) {
+  .ds-site-header #ds-nav-toggle { order: 10; }
+}
 /* relocated color-theme toggle — light glyphs on the black bar */
 .ds-site-header [data-md-component="palette"] { display: flex; align-items: center; }
 .ds-site-header [data-md-component="palette"] .md-header__button {
   color: var(--arxiv-card-grey);           /* canonical dark-bar control colour (matches .ds-site-header-login) */
+  margin: 0;
+  padding: 6px;
+}
+/* relocated mobile search-toggle (the magnifying-glass) — light glyph on the black
+   bar, matching the other dark-bar controls. Material hides it ≥60em (where the
+   inline input is shown), so this only surfaces on mobile as the overlay trigger. */
+.ds-site-header .md-header__button[for="__search"] {
+  color: var(--arxiv-card-grey);
   margin: 0;
   padding: 6px;
 }
@@ -119,6 +126,34 @@ body {
 .ds-site-header.md-header .md-search { margin-right: auto; }
 .md-header__source {
   display: none !important;
+}
+/* Spinout footer (docs-local override, mirrors arxiv-browse ARXIVCE-4426): span the
+   page width with minimal 10px side margins instead of the shared chrome's centred
+   1200px grid. Scoped via body/descendant so it beats the chrome rule regardless of
+   stylesheet order — docs has no .flex-wrap-footer wrapper to hang it on like browse. */
+body .ds-site-footer { padding-left: 10px; padding-right: 10px; }
+.ds-site-footer .ds-site-footer-grid { max-width: none; }
+
+/* Pin the shared chrome's font-sizes to arxiv-browse's resolved pixels. The chrome
+   declares them in rem against a 16px root (0.875rem→14px, 0.8125rem→13px), but
+   mkdocs-material inflates the root (125%, then 137.5%/150% past 1600/2000px), so the
+   chrome would render ~25–50% larger and drift per breakpoint. The chrome layout is
+   fixed-px, so px here matches browse at every width WITHOUT touching the global root
+   (which would re-shrink all docs content). body-prefixed because the chrome stylesheet
+   loads AFTER extra.css — an equal-specificity override would otherwise lose. */
+body .ds-announcement { font-size: 13px; }
+body .ds-announcement-close { font-size: 14px; }
+body .ds-site-header-nav a,
+body .ds-site-header-nav button { font-size: 13px; }
+body .ds-site-footer-ack { font-size: 14px; }
+body .ds-site-footer-ack a { font-size: 13px; }
+body .ds-site-footer-links { font-size: 13px; }
+body .ds-site-footer-links a { font-size: 13px; }
+body .ds-site-footer-funders-label { font-size: 14px; }
+@media (max-width: 599px) {
+  /* the collapsed mobile nav switches to 0.875rem in the chrome */
+  body .ds-site-header.is-collapsible .ds-site-header-nav a,
+  body .ds-site-header.is-collapsible .ds-site-header-nav button { font-size: 14px; }
 }
 p {
   font-family: freight-sans-pro, sans-serif;
