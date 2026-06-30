@@ -124,6 +124,11 @@ body {
    input and its full-width results panel exactly as upstream — no custom panel CSS.
    The search sits just after the brand and pushes the nav to the right. */
 .ds-site-header.md-header .md-search { margin-right: auto; }
+/* The relocated .md-search lives inside .ds-site-header, which forms a z-index:4
+   stacking context — so its full-screen mobile modal is trapped below the announcement
+   banner (z-index:101). While search is open, lift the header above the banner so the
+   modal covers it instead of rendering behind it. */
+[data-md-toggle="search"]:checked ~ .ds-site-header { z-index: 102; }
 .md-header__source {
   display: none !important;
 }
