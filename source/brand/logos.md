@@ -1,12 +1,12 @@
 #Logos
-Our identifying mark, vetted and approved by Cornell University, achieves the *legibility, memorability and legal defensibility* arXiv needs. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
+Our identifying mark is a protected registered trademark that achieves the *legibility, memorability and legal defensibility* that arXiv needs. Our logo is ready to help us share a consistent, intentional, and meaningful message about who we are with the world.
 {.intro}
 
 **That message is: arXiv is a place of connection, linking together people and ideas, and connecting them with the world of open science.**
 
 The arXiv logo nods to the past with a font that pays homage to arXiv’s birth in the 90’s, while also being boldly forward looking. The arms of the ‘X’ retain stylistic elements of the ‘chi’ in our name, with a lengthened top left and lower right branch. Symbolically, the intertwining of the arms at the heart of the logo captures the spirit of arXiv’s core value as a place of connection.
 
-Using our logo consistently over time will build up rich layers of meaning with our community, and its value to arXiv will increase exponentially. The legal protection we have over the logo will help us also protect the arXiv service that we all love.
+Using our logo consistently over time will build up rich layers of meaning with our community, and its value to arXiv will grow the more consistently it is maintained. The legal protection we have over the logo will also help us protect the arXiv service that we all love and rely on.
 
 > **The logo should not be altered in any way, redrawn, used in an unspecified color or reproduced on a background that will impair its visual recognition.** Use of the name arXiv and associated logos, web addresses, and colors are only allowed with explicit written permission from the arXiv management team.
 

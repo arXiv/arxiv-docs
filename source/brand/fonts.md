@@ -1,47 +1,38 @@
 #Fonts
 
-arXiv uses two main typefaces from the Freight family, and two accent typefaces. The Freight family draw from Cornell University’s branding and connect us stylistically with our parent organization. The accent typefaces add variation and interest, and are a bridge to our retro 90's roots.
+*Note: arXiv is transitioning to a new design and will be implementing the typographic changes below. Our legacy fonts will still be visible in many places until the transition is complete.*
+
+arXiv uses two main typefaces several accent typefaces from the IBM Plex family. All our typefaces are open source and self-hosted to reduce tracking and maintain greater privacy for our visitors.
 {.intro}
 
 ##Primary Typefaces
-FreightText pro is our primary typeface. With high legibility and a classic, sophisticated look it is the workhorse of the arXiv look and feel:
-![Freight Sans Pro](images/brand-fonts-freighttext.jpg){.mkd-full alt='An example of Freight Sans Pro font, it is arXiv's primary font used for body copy'}
 
-FreightSans Pro elegantly complements it's serif sibling font. The clean lines of this sans serif face lend themselves well to larger uses like titles, and special use cases like callouts, sidebars, and other secondary content.
-![Freight Text Pro](images/brand-fonts-freightsans.jpg){.mkd-full alt='An example of Freight Text Pro, it is used for headings, callouts, and other special uses'}
+###IBM Plex Sans
+Our primary typeface. With high legibility, versatility, and a classic, sophisticated look it is the workhorse of the arXiv platform:
 
-IBM Plex Sans Condensed is used for special cases where a bold face is called for. Special headings, annotations, limited horizontal space, or labels are all good candidates for IBM Plex Sans Condensed:
-![IBM Plex Sans Condensed](images/brand-fonts-IBM-plex.jpg){.mkd-full alt='An example of IBM Ples Sans font, it is used as an accent typeface'}
+![IBM Plex Sans](images/ibm-plex-sans.png){.mkd-border .mkd-img-space alt='An example of IBM Pleas Sans font'}
 
-Larabiefont, in combination with Xenara, is customized as the basis of our logo. These fonts are used in logo lockups, logo extensions, and in the identies for special partnerships.
-![Larabie + Xenara](images/brand-fonts-larabie.jpg){.mkd-full alt='An example of Larabie and Xenara's distinctive letterforms'}
+###IBM Plex Sans Condensed
+For space-limited applications such as labels, captions, and metadata:
 
-##Alternative Google Fonts
-When creating documents or slide decks in Google Docs, use the closest alternate font available, per the table below.
+![IBM Plex Sans Condensed](images/ibm-plex-sans-cond.png){.mkd-border .mkd-img-space alt='An example of IBM Plex Sans Condensed'}
 
-| Primary Font          | Google Font Substitute               |
-| --------------------- | ------------------------------------ |
-| Freight Text Pro      | Frank Ruhle Libre                    |
-| Freight Sans Pro      | Catamaran                            |
-| IBM Plex Sans         | IBM Plex Sans                        |
+###IBM Plex Mono
+Used for code, tables, and arXiv identifiers:
 
-##Examples
-1. **Title:** Freight Sans Pro, Medium, Black<br>
-**Body Copy:** Freight Text Pro, Book, Black<br>
-**Secondary copy:** IBM Plex Sans Condensed in Publishing Pink<br>
-![Freight Sans Pro](images/brand-fonts-example-1.jpg){.mkd-full .mkd-border alt='an example of Freight Text Pro and Freight Sans Pro fonts'}
+![IBM Plex Mono](images/ibm-plex-mono.png){.mkd-border .mkd-img-space .mkd-img-small alt='An example of IBM Plex Mono'}
 
-1. **Callout:** Freight Sans Pro, Book & Bold, in Library Grey<br>
-**Highlight:** IBM Sans Plex Condensed in Publishing Pink<br>
-Over a Light Blue background<br>
-![Freight Sans Pro with IBM Plax Sans Condensed](images/brand-fonts-example-2.jpg){.mkd-full .mkd-border alt='an example of IBM Sans Plex Condensed and Freight Sans Pro fonts'}
+###IBM Plex Serif Italic
+Captions and marginalia use this font:
 
-1. **Quotation:** Freight Sans Pro, Book, in Library Grey with Light Grey highlighting<br>
-**Attribution:** Freight Sans Pro, Medium, in Library Grey
-![Freight Sans Pro](images/brand-fonts-example-3.jpg){.mkd-full .mkd-border alt='an example of Freight Sans Pro font in several weights'}
+![IBM Plex Serif Italic](images/ibm-plex-serif.png){.mkd-border .mkd-img-space alt='An example of IBM Plex Serif Italic'}
 
-1. **30th Anniversary identity:** FreightText Pro, Bold in Cornell Red and Black
-![Freight Text Pro](images/brand-fonts-example-4.jpg){.mkd-full .mkd-border alt='an example of Freight Text Pro in Cornell Red'}
+###STIX Two Math
+Applied to all formula throughout our HTML papers and other locations:
 
-1. **Infographic:** FreightSans Pro, Bold and Medium, in Library Grey
-![Freight Sans Pro](images/brand-fonts-example-5.jpg){.mkd-full .mkd-border alt='an example of Freight Sans Pro font'}
+![STIX Two Math](images/stix-two.png){.mkd-border .mkd-img-space .mkd-img-small alt='An example of STIX Two Math'}
+
+###Larabie + Xenara
+Larabiefont, in combination with Xenara and highly customized, form the foundational typography in our logo. These fonts are used in logo lockups, logo extensions, or in the identities for special partnerships:
+
+![Larabie + Xenara](images/brand-fonts-larabie.jpg){.mkd-border style="padding-left: 1em;" alt='An example of Larabie and Xenara'}
