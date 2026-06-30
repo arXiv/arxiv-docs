@@ -2,6 +2,7 @@
 * [About](about/index.md)
     * [Who we are](about/people/index.md)
     * [Governance](about/governance/index.md)
+          * [Board of Directors](about/governance/board_of_directors.md)
           * [Operational Guidelines](about/governance/operational_guidelines.md)
           * [arXiv Advisory Board](about/people/arxiv_advisory_board.md)
           * [Science Advisory Council](about/people/science_advisory_council.md)
