@@ -1,11 +1,11 @@
+
 ---
 slug: People
 ---
 
 # Who We Are
 
-arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by our staff at Cornell University.
-
+arXiv is a community of volunteer authors, readers, moderators, advisory board members, supporting members, donors, and third-party collaborators that are supported by the arXiv staff. arXiv is governed by a Board of Directors, with day-to-day management led by the Chief Executive Officer. 
 
 - [arXiv Leadership Team](leadership_team.md)
 - [arXiv Staff](staff.md)
@@ -27,9 +27,3 @@ arXiv is a community of volunteer authors, readers, moderators, advisory board m
     - [Economics](../../help/econ/index.md#AdvisoryCommittee)
 
 - [Moderators](https://arxiv.org/moderators/)
-- [Volunteer Developers](developers.md) 
-
-
-
-
-
