@@ -96,13 +96,11 @@ body {
   flex-shrink: 0;
   margin-left: 8px;
 }
-/* The controls cluster is appended after the nav so it lands at the far right on
-   desktop. On mobile the nav collapses behind the hamburger but the cluster stays
-   visible; the hamburger comes earlier in the DOM, so bump its flex order to keep it
-   rightmost — yielding [theme toggle][search][hamburger]. (≤599px = the chrome's
-   collapsible breakpoint.) */
-@media (max-width: 599px) {
-  .ds-site-header #ds-nav-toggle { order: 10; }
+/* Show the header hamburger below 1220px, where material's primary sidebar is a
+   slide-in drawer (see the unify script in main.html). body prefix beats the chrome
+   default (display:none, loaded later); order keeps it rightmost after the controls. */
+@media (max-width: 1219.98px) {
+  body .ds-site-header .ds-site-header-nav-toggle { display: inline-flex; order: 10; }
 }
 /* relocated color-theme toggle — light glyphs on the black bar */
 .ds-site-header [data-md-component="palette"] { display: flex; align-items: center; }
