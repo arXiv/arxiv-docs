@@ -69,18 +69,13 @@
     {#- info.arxiv.org subsite clarification (docs-only), uniform with the brand. -#}
     <span class="ds-site-header-subsite">arXiv info</span>
   </span>
-  <button type="button" id="ds-nav-toggle" class="ds-site-header-nav-toggle" aria-label="Open menu" aria-controls="ds-site-header-nav" aria-expanded="false">
+  {#- The header hamburger drives material's site-nav drawer on mobile/tablet (see the
+      unify script below). The shared Submit/Donate/Log in nav is dropped on the docs
+      site, so the shared arxiv-header.js hamburger wiring is a no-op. Shown below 1220px
+      (drawer) and hidden at/above (permanent sidebar), via extra.css. -#}
+  <button type="button" id="ds-nav-toggle" class="ds-site-header-nav-toggle" aria-label="Open navigation" aria-expanded="false">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
   </button>
-  <nav class="ds-site-header-nav" id="ds-site-header-nav" aria-label="Main navigation">
-    {#- On info.arxiv.org the spinout paper-search button is omitted to avoid
-        confusion with the site's own internal docs search, which is relocated
-        into this bar (see the unify script below). -#}
-    <a href="{{ config.extra.arxiv_host }}/user/create">Submit</a>
-    <a href="{{ config.extra.info_host }}/about/donate.html">Donate</a>
-    <span class="ds-site-header-divider" aria-hidden="true"></span>
-    <a href="{{ config.extra.arxiv_host }}/login" class="ds-site-header-login">Log in</a>
-  </nav>
 </header>
 
 {#- The spinout paper-search overlay is intentionally omitted on info.arxiv.org
@@ -187,6 +182,27 @@
       var searchToggle = md.querySelector('.md-header__button[for="__search"]');
       if (searchToggle) host.appendChild(searchToggle);
       bar.appendChild(host);
+      // Drive material's site-nav drawer (#__drawer, a pure-CSS toggle) from the header
+      // hamburger, and mirror aria-state however the drawer is toggled. Esc closes it.
+      var drawer = document.getElementById('__drawer');
+      var navToggle = document.getElementById('ds-nav-toggle');
+      if (drawer && navToggle) {
+        var setDrawer = function (open) {
+          drawer.checked = open;
+          drawer.dispatchEvent(new Event('change'));
+        };
+        navToggle.addEventListener('click', function (e) {
+          e.stopPropagation();
+          setDrawer(!drawer.checked);
+        });
+        drawer.addEventListener('change', function () {
+          navToggle.setAttribute('aria-expanded', drawer.checked);
+          navToggle.setAttribute('aria-label', drawer.checked ? 'Close navigation' : 'Open navigation');
+        });
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && drawer.checked) { setDrawer(false); navToggle.focus(); }
+        });
+      }
       document.documentElement.classList.add('ds-docs-unified');
     }
     if (document.readyState !== 'loading') unify();
