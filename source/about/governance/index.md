@@ -1,6 +1,6 @@
 # arXiv Governance Model
 
-arXiv is governed by a Board of Directors. Day-to-day operations are led by the Chief Executive Officer and executed by [our staff](../people/staff.md), with the help of numerous volunteer subject moderators and guidance from the arXiv [Editorial Advisory Council](../people/editorial_advisory_council.md), [Institutions Advisory Council](../people/institutions_advisory_council.md), and [Science Advisory Council](../people/science_advisory_council.md).
+arXiv is governed by a [Board of Directors](board_of_directors.md). Day-to-day operations are led by the Chief Executive Officer and executed by [our staff](../people/staff.md), with the help of numerous volunteer subject moderators and guidance from the arXiv [Editorial Advisory Council](../people/editorial_advisory_council.md), [Institutions Advisory Council](../people/institutions_advisory_council.md), and [Science Advisory Council](../people/science_advisory_council.md).
 {.intro}
 
 <figure class="org-chart">
