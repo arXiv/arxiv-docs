@@ -13,6 +13,7 @@ plugins:
       implicit_index: true
   - redirects:
       redirect_maps:
+        about/give.md: about/donate.md
         about/governance.md: about/governance/index.md
         about/arXiv_bylaws.md: about/governance/operational_guidelines.md
 hooks:
