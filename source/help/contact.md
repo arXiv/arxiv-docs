@@ -27,7 +27,7 @@ If you cannot access the portal you can contact us by email at moderation@arxiv.
 
 ## Membership and Giving
 
-Information about institutional membership or contributions to arXiv can be found at [Membership & Giving](../about/give.md), or contact membership@arxiv.org.
+Information about institutional membership or contributions to arXiv can be found on our [Funding Support page](../about/funding.md), or contact membership@arxiv.org.
 
 ## Copyright infringement
 

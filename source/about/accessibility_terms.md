@@ -39,6 +39,6 @@ After extensive research with diverse arXiv users, we have shared our findings i
 
 A fully accessible arXiv is important, meaningful, and ambitious. Significant development resources and user testing are needed to reach our targets and the arXiv community may wish to help in the following ways:
 
-- [Donate](https://arxiv.org/about/give) and support creation of an accessible arXiv.
+- [Donate](donate.md) and support creation of an accessible arXiv.
 - Learn about [arXiv Labs](https://labs.arxiv.org) and developing tools that benefit the arXiv community.
 - Join the [arXiv usability testing list](user-testing.md) and share your feedback and insights.

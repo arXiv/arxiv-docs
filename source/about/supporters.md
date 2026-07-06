@@ -10,7 +10,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 ## Major Funding
 1. Cornell University
 1. Schmidt Sciences
-1. Simons Foundation
+1. Simons Foundation International
 
 ## Gold Sponsors
 

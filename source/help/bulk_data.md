@@ -90,7 +90,7 @@ at 4 requests per second with a 1 second `sleep`, per burst.
 
 arXiv already operates with limited resources, and mindlessly downloading 
 all of the URLs of this site will return terabytes of data. This represents
-both a [financial burden](../about/give.md) to arXiv, as well as a practical 
+both a financial burden to arXiv, as well as a practical 
 problem for the unwary. 
 
 *Please do not attempt to download the complete corpus programmatically.* 
