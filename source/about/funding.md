@@ -5,7 +5,7 @@ arXiv’s mission is to provide an open research sharing platform where scholars
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based. Our balanced funding model ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 
-**Together, the Simons Foundation, other donors, members, affiliates, sponsors, foundations, and individuals contribute to arXiv's operating budget.**
+**Together, Simons Foundation International, other donors, members, affiliates, sponsors, foundations, and individuals contribute to arXiv's operating budget.**
 
 <ol class="color-blocks">
   <li><strong>Members</strong><br>
