@@ -23,17 +23,18 @@ The [moderators for the physics archive are listed here](https://arxiv.org/moder
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Section Editorial Committee:
 
-- Ralph Wijers, University of Amsterdam (chair)
+- Chris Reynolds, University of Maryland (interim chair)
 - Jacques Distler, University of Texas, Austin
 - Victor Galitski, University of Maryland
 - Daniel Gottesman, University of Maryland
+- Doris Kim, Soongsil University
 - Michael Lawler, Cornell University
 - Axel Naumann, CERN
 - Susan Ramlo, University of Akron
-- Chris Reynolds, University of Maryland
 - Sakura Schafer-Nameki, University of Oxford
+- Ralph Wijers, University of Amsterdam 
 - Rena Zieve, University of California, Davis
-- Doris Kim, Soongsil University
+ 
 
 ## Historical notes
 - 2023-07: new arXiv bylaws adopted, by which Physics Advisory Committee renamed Physics Editorial Committee
