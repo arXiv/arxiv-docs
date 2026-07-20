@@ -22,8 +22,12 @@ The [Digital Millennium Copyright Act](https://www.copyright.gov/dmca/) specifie
 
 ### Designated Agent
 
-Head of Content & User Support \
-arXiv \
-2 West Loop Road \
-New York, NY 10044 \
+Head of Content & User Support
+
+arXiv
+
+2 West Loop Road
+
+New York, NY 10044
+
 [copyright_abuse@arxiv.org](mailto:copyright_abuse@arxiv.org)
