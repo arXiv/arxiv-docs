@@ -27,6 +27,8 @@ Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitativ
 
 **Marc Henry (2025-2027)**, Professor of Economics, The Pennsylvania State University (chair of the arXiv Economics Editorial Committee)
 
+**Chris Reynolds (2026-2026)**, Professor of Astronomy, University of Maryland (acting chair of arXiv Physics Editorial Committee)
+
 **Larry Wasserman (2023-2026)**, Professor, Department of Statistics and Machine Learning Department, Carnegie Mellon University (chair of arXiv Statistics Editorial Committee)
 
 **Ralph Wijers (on leave, 2023-2026)**, Professor of High-Energy Astrophysics, University of Amsterdam (chair of arXiv Physics Editorial Committee)
