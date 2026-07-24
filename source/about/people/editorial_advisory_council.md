@@ -31,8 +31,6 @@ Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitativ
 
 **Larry Wasserman (2023-2026)**, Professor, Department of Statistics and Machine Learning Department, Carnegie Mellon University (chair of arXiv Statistics Editorial Committee)
 
-**Ralph Wijers (on leave, 2023-2026)**, Professor of High-Energy Astrophysics, University of Amsterdam (chair of arXiv Physics Editorial Committee)
-
 
 ## Section Editorial Committees
 
