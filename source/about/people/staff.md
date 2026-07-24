@@ -11,7 +11,7 @@ More information on [arXiv's leadership team](leadership_team.md).
 
 ## Communications and Membership
 
-- Kat Boboris, Communications and Membership Manager
+- Kat Boboris, Communications & Membership Manager
 
 ## Editorial & User Support Team
 

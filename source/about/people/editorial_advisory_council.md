@@ -9,9 +9,9 @@ reproducible procedures for arXiv, that leave room for editorial judgement of co
 
 ## Current Council Members
 
-**Ralph Wijers (Chair, 2023-2026)**, Professor of High-Energy Astrophysics, University of Amsterdam (chair of arXiv Physics Editorial Committee)
 
-**Thomas Dietterich (Vice Chair, 2025-2026)**, Distinguished Professor Emeritus and CoRIS Associate Director of Policy, University of Oregon (chair of arXiv Computer Science Editorial Committee)
+
+**Thomas Dietterich (Acting Chair, 2025-2026)**, Distinguished Professor Emeritus and CoRIS Associate Director of Policy, University of Oregon (chair of arXiv Computer Science Editorial Committee)
 
 **Arthur M. Berd (2023-2026)**, Founder and CEO, General Quantitative and 
 Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitative Finance Editorial Committee)
@@ -26,6 +26,8 @@ Editor-in-Chief, Journal of Investment Strategies (co-chair of arXiv Quantitativ
 **Jarvis Haupt (2023-2026)**, Associate Professor of Electrical and Computer Engineering, University of Minnesota (chair of arXiv Electrical Engineering and System Science Editorial Committee)
 
 **Marc Henry (2025-2027)**, Professor of Economics, The Pennsylvania State University (chair of the arXiv Economics Editorial Committee)
+
+**Chris Reynolds (2026-2026)**, Professor of Astronomy, University of Maryland (acting chair of arXiv Physics Editorial Committee)
 
 **Larry Wasserman (2023-2026)**, Professor, Department of Statistics and Machine Learning Department, Carnegie Mellon University (chair of arXiv Statistics Editorial Committee)
 
