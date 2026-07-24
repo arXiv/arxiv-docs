@@ -32,7 +32,6 @@ The [moderators for the physics archive are listed here](https://arxiv.org/moder
 - Axel Naumann, CERN
 - Susan Ramlo, University of Akron
 - Sakura Schafer-Nameki, University of Oxford
-- Ralph Wijers, University of Amsterdam (on leave)
 - Rena Zieve, University of California, Davis
  
 
