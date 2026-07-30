@@ -17,16 +17,21 @@ This spin out will allow arXiv to make technology changes and improvements more 
 While arXiv’s mission remains the same, there will be some changes that are important to note. The official name of the new organization is arXiv, Inc. arXiv, Inc. has been established as a nonprofit, nonstock Delaware Corporation and has been granted tax exempt status by the IRS. (All nonprofits of this type must be incorporated and therefore “Inc.,”does not mean they are commercial.)  For the near-term, arXiv will continue to be headquartered on Cornell Tech’s campus and New York City-based arXiv staff will continue to work out of Cornell Tech office space. arXiv’s business address will remain that of Cornell Tech (2 West Loop Road, New York, NY 10044).
 
 ## What is the governance model for the new arXiv organization?
-
 The new arXiv organization will be governed by a Board of Directors. As is standard in U.S. nonprofits organizations, the CEO will report to the Board of Directors, and the staff will report to the CEO.
 
 Under Delaware’ nonprofit law, arXiv, Inc. was legally established by two founding Members: the Simons Foundation and Cornell University who initiated the start-up activity, including, among other things, appointing the initial Board of Directors, establishing the IRS 501 (c) 3 tax exempt status, and signing legal agreements. The Simons Foundation and Cornell will fulfill the role of Member for up to five years. Designates of either may serve on the Board of Directors beyond that time.
 
-The full Board of Directors will consist of up to twelve members. Invitations to join the arXiv board have been enthusiastically received, and accepted by a range of scientists and nonprofit executives from around the world. When arXiv’s full Board of Directors are officially seated, they will be announced on the blog, updated on this FAQ page and on info.arxiv.org, along with updated bylaws.
-
+The inaugural Board of Directors consists of eight members, with the option for the full Board to appoint four additional directors in the future. Invitations to join the arXiv board were enthusiastically received, and we are pleased that so many leaders from research, higher education, and scholarly communications were willing to give their time and talents to provide strategic guidance to the new organization and support arXiv's mission and commitment to open science. [Meet arXiv’s Board of Directors](governance/board_of_directors.html).
+ 
 ## Who is leading the new arXiv organization?
+As a part of Cornell University, arXiv was stewarded by Greg Morrisett, the Jack and Rilla Neafsey Dean of Cornell Tech, and led by Ramin Zabih, professor of Computer Science at Cornell Tech, in the role of Executive Director of arXiv.
 
-As a part of Cornell University, arXiv was stewarded by Greg Morrisett, the Jack and Rilla Neafsey Dean of Cornell Tech, and led by Ramin Zabih, professor of Computer Science at Cornell Tech, in the role of Executive Director of arXiv. The new arXiv organization will be led by a Chief Executive Officer, who will report to the Board of Directors. Ramin Zabih will serve as Interim CEO in the short term and will help the incoming CEO transition into their new role. You can read more about the hiring process and executive search for arXiv’s inaugural CEO on [Cornell Tech’s page](https://tech.cornell.edu/arxiv/). There was an excellent pool of candidates, and the hiring process is nearing completion.
+As an independent nonprofit organization, arXiv will be led by a Chief Executive Officer, who will report to the Board of Directors.
+
+arXiv is pleased to announce the appointment of [Dr. Penelope Lewis as its inaugural Chief Executive Officer](https://blog.arxiv.org/2026/07/30/arxiv-welcomes-inaugural-ceo-and-board-of-directors/). Dr. Lewis will step into her role as arXiv CEO on August 17th, 2026.
+
+Ramin Zabih will serve as Interim CEO until that date and will provide guidance and support during the transition.
+
 
 ## Are there any other changes to arXiv staff, advisors, or governance?
 
