@@ -11,7 +11,7 @@ This partnership reflects a shared commitment to advancing arXiv's work and supp
 
 ## Board Membership
 
-The two founding members each appoint four directors, for a total of eight Board members. The full Board may also appoint up to four additional directors. This structure is designed to balance institutional leadership with broader expertise and perspectives. [See our board members](#board-member-bios)
+The two founding members each appoint four directors, for a total of eight Board members. The full Board may also appoint up to four additional directors. This structure is designed to balance institutional leadership with broader expertise and perspectives. [Meet the Board](#meet-the-board)
 
 ## Leadership and Continuity
 
@@ -29,7 +29,7 @@ arXiv's governance structure includes a planned transition designed to support l
 
 arXiv is committed to transparency, accountability, and thoughtful decision-making. Significant organizational actions—including major structural changes and strategic transactions—are subject to appropriate review and approval processes to ensure they serve the best interests of arXiv and its mission.
 
-## Board Member Bios
+## Meet the Board
 
 <div class="grid-blocks" markdown="1">
 <div class="bio-block" markdown="1">
