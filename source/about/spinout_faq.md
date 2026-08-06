@@ -1,6 +1,7 @@
-# arXiv is becoming an independent nonprofit organization on July 1, 2026
+arXiv is now an independent nonprofit organization.
+{.intro}
 
-Please see below for frequently asked questions about this change. This page will be updated promptly as more information becomes available.
+On July 1, 2026, arXiv established itself as an independent nonprofit organization. Please see below for frequently asked questions about this change. This page will be updated promptly as more information becomes available.
 
 For general questions or media inquiries about arXiv’s establishment as an independent organization, please contact us at inquiries@arxiv.org
 
@@ -33,17 +34,39 @@ arXiv is pleased to announce the appointment of [Dr. Penelope Lewis as its inaug
 Ramin Zabih will serve as Interim CEO until that date and will provide guidance and support during the transition.
 
 
-## Are there any other changes to arXiv staff, advisors, or governance?
-
-We are thankful that arXiv’s incredibly dedicated staff are all a part of the new arXiv organization, and we have recently made a new hire in tech leadership that will be announced here soon.
-
-arXiv is also pleased that our advisory councils, which include the [Science Advisory Council](people/science_advisory_council.md), the [Editorial Advisory Council](people/editorial_advisory_council.md), and the [Institutions Advisory Council](people/institutions_advisory_council.md), will all remain in place and continue to represent the diverse communities that make arXiv possible.
-
 ## Who is funding the new arXiv organization?
 
 One of the reasons arXiv made the decision to become an independent organization was so it could more easily pursue a diverse and sustainable funding model. While the “new” arXiv can solicit funding more easily, we are still supported by many of the funders we have been grateful to rely on in the past. Simons Foundation International will continue to generously support arXiv, and arXiv’s membership program, which allows libraries, academic institutions, and research labs to financially support arXiv, will continue to be an important part of arXiv’s funding. arXiv hopes to expand its member, affiliate, and sponsor programs to support operations, and to be representative of the many universities, companies, and other organizations that rely on arXiv every day.
 
 We are grateful for all this support, which will allow us to remain committed to being free to use, and remaining independent in our decisions as an organization.
+
+## How can I give to the new arXiv organization?
+
+arXiv still needs and appreciates your support! Previously, all donations to arXiv went through Cornell University. Now that arXiv is an independent nonprofit, all gifts must be given directly to arXiv.
+
+_If you previously set up a recurring gift to arXiv through Cornell University, you may need to take action to update your gift. Read below to learn how to give directly to the new organization._
+
+There are now several ways to give to arXiv, including online, through a matching gift program, and through donor advised funds.
+
+**For online donation by credit card or bank transfer:** To securely give a one-time or recurring donation to arXiv, [visit our new donation portal](donate.md). 100% of your donation goes directly to arXiv and helps fund critical operations, as well as new initiatives.
+
+_If you previously set up a recurring gift to arXiv set up through Cornell University’s giving portal, that recurring gift has now been stopped. To continue supporting arXiv with a recurring gift, [please visit arXiv's donation portal](donate.md) and input your desired recurring donation._
+
+**For corporate giving / matching gift programs:** If you would like to maximize your donation to arXiv through your employee matching gift program, arXiv is now set up as an independent nonprofit in Benevity. To give to arXiv through your payroll deduction / employee matching gift program, log in to your organization’s match / giving portal and search for arXiv by name, or by our new [Benevity Cause ID](https://causes.benevity.org/causes/840-414194836).
+
+_If you currently have a matching or corporate gift to arXiv set up through Cornell University’s Benevity, you will need to go to your employer’s giving portal and switch your recurring gift to arXiv’s new Benevity Cause ID._
+
+**For donation via donor-advised funds:** arXiv also accepts gifts through donor-advised funds (DAF). To give to arXiv through a DAF, simply log in to your DAF account portal, initiate a grant recommendation, and select arXiv, Inc (EIN: 41-4194836) as the recipient. If you plan to give to arXiv through a DAF, please notify arXiv's [Giving Team](mailto:giving@arxiv.org) for stewardship and support.
+
+_If you have been giving to arXiv through a DAF grant where Cornell University is the primary recipient, you will need to work with your fund to ensure that those transactions are stopped._
+
+**Thank you for your continued support of arXiv!** If you have any questions about giving to arXiv, contact us at [giving@arxiv.org](mailto:giving@arxiv.org)
+
+## Are there any other changes to arXiv staff, advisors, or governance?
+
+We are thankful that arXiv’s incredibly dedicated staff are all a part of the new arXiv organization, and we have recently made a new hire in tech leadership that will be announced here soon.
+
+arXiv is also pleased that our advisory councils, which include the [Science Advisory Council](people/science_advisory_council.md), the [Editorial Advisory Council](people/editorial_advisory_council.md), and the [Institutions Advisory Council](people/institutions_advisory_council.md), will all remain in place and continue to represent the diverse communities that make arXiv possible.
 
 ## How does this change affect arxiv.org?
 
