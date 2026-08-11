@@ -33,7 +33,7 @@ The overall annual growth rate in submissions for 2021 over 2020 was only about 
 
 Going further back, in calendar year 2005 the [astro-ph](#astro-ph_yearly) and [cond-mat](#cond-mat_yearly) submission rates each grew to exceed the [hep](#hep_yearly) rate (which appears to have flattened out in the late 1990s, suggesting 100% participation from that community, fluctuating about a mean of roughly 8800/year for 2000-2010, but then with a bit of a superluminal+higgs bump in 2011, plus another higgs bump in 2012, to over 9600/year for each of those two years, and staying at the 2011 level through 2021). A diminished cond-mat growth rate in 2004-2007 was due in part to the shift of biologically related submissions from cond-mat.soft to q-bio, and network/complex systems submissions from cond-mat.stat-mech to physics.soc-ph. The decreased rate for cond-mat.mes-hall in 2017 was due to the creation of physics.app-ph. [math(+math-ph)](#math_yearly) started growing very quickly in 2002 as arXiv was adopted an increasing percentage of the mathematics community. The [cs](#cs_yearly) rate started as well to ramp up in 2007, grew to exceed the hep rate in calendar year 2012, continued on a very fast growth rate 2011-2015, and on an even faster growth rate since 2015 (driven largely by the computer vision, machine learning, and computational linguistics communities).
 
-Submission data is available in bulk [via OAI](../../oa).
+Submission data is available in bulk [via OAI](../../oa/index.md).
 
 
 
@@ -58,6 +58,8 @@ The graphs above show the **cumulative** data as a function of time, where the c
 -   [econ](#econ_yearly) (3619): 0.2%
 
 ## Graphs of yearly submission rates by subject areas
+
+<span id="phys_yearly"></span>
 
 ![all physics submissions by year](phys_yearly.png)
 

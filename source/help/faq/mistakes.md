@@ -220,7 +220,7 @@ the reference has been defined.
 ## Marking files to be ignored 
 If you need to include files in the source that should not be
 processed by the automated system, you need to include a
-[`00README file`](../../help/00README.md#ignore) with your submission.
+[`00README file`](../../help/00README.md#ignoring) with your submission.
 See the previous link for the correct format to ignore files.
 
 

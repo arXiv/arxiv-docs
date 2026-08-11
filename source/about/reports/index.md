@@ -28,15 +28,15 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 
 [2019 Annual Update](2019_update.md)
 
-[2018 Annual Update](/about/reports/arXiv_update_January_2018.pdf)
+[2018 Annual Update](arXiv_update_January_2018.pdf)
 
-[2017 Annual Update](/about/reports/arXiv_update_January_2017.pdf)
+[2017 Annual Update](arXiv_update_January_2017.pdf)
 
-[2016 Annual Update](/about/reports/arXiv_update_January_2016.pdf)
+[2016 Annual Update](arXiv_update_January_2016.pdf)
 
-[2015 Annual Update](/about/reports/arXiv_update_January_2015.pdf)
+[2015 Annual Update](arXiv_update_January_2015.pdf)
 
-[2014 Annual Update](/about/reports/arXiv_update_January_2014.pdf)
+[2014 Annual Update](arXiv_update_January_2014.pdf)
 
 [2012 Business Plan Update](arxiv_busplan_Jan2012.md)
 
@@ -51,54 +51,54 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 [2010 July Business Plan Update](arxiv_busplan_July2010.md)
 
 ## Budgets
-[arXiv Reserve Funds Policy](/about/reports/arXiv_Reserve_Funds_Policy.pdf)
+[arXiv Reserve Funds Policy](arXiv_Reserve_Funds_Policy.pdf)
 
-[FY2026 Budget](/about/reports/FY26_Budget_Public.pdf)
+[FY2026 Budget](FY26_Budget_Public.pdf)
 
-[FY2025 Budget](/about/reports/FY25_Budget_Public.pdf)
+[FY2025 Budget](FY25_Budget_Public.pdf)
 
-[FY2024 Budget](/about/reports/FY24_Budget_External.pdf)
+[FY2024 Budget](FY24_Budget_External.pdf)
 
-[FY2023 Budget](/about/reports/FY23_Budget_External.pdf)
+[FY2023 Budget](FY23_Budget_External.pdf)
 
-[CY2020 Budget](/about/reports/2020_arXiv_Budget.pdf)
+[CY2020 Budget](2020_arXiv_Budget.pdf)
 
-[CY2019 Budget](/about/reports/arXiv_CY19_midyear.pdf)
+[CY2019 Budget](arXiv_CY19_midyear.pdf)
 
-[CY2018 Budget](/about/reports/2018_CY_arXiv_budget.pdf)
+[CY2018 Budget](2018_CY_arXiv_budget.pdf)
 
-[CY2017 Budget](/about/reports/2017_CY_arXiv_budget.pdf)
+[CY2017 Budget](2017_CY_arXiv_budget.pdf)
 
-[CY2016 Budget](/about/reports/2016_CY_arXiv_budget.pdf)
+[CY2016 Budget](2016_CY_arXiv_budget.pdf)
 
-[CY2015 Budget](/about/reports/2015_CY_arXiv_budget.pdf)
+[CY2015 Budget](2015_CY_arXiv_budget.pdf)
 
-[CY2014 Budget](/about/reports/2014_CY_arXiv_budget.pdf)
+[CY2014 Budget](2014_CY_arXiv_budget.pdf)
 
-[CY2013 Budget](/about/reports/2013_CY_arXiv_budget.pdf)
+[CY2013 Budget](2013_CY_arXiv_budget.pdf)
 
-[CY2012 Budget](/about/reports/2012_CY_arXiv_budget.pdf)
+[CY2012 Budget](2012_CY_arXiv_budget.pdf)
 
-[CY2011 Budget](/about/reports/2011_CY_arXiv_budget.pdf)
+[CY2011 Budget](2011_CY_arXiv_budget.pdf)
 
-[CY2010 Budget](/about/reports/2010_CY_arXiv_budget.pdf)
+[CY2010 Budget](2010_CY_arXiv_budget.pdf)
 
 ## Roadmaps
 [2020 Roadmap](2020_roadmap.md)
 
 [2019 Roadmap](2019_roadmap.md)
 
-[2018 Roadmap](/about/reports/2018_roadmap.pdf)
+[2018 Roadmap](2018_roadmap.pdf)
 
-[2017 Roadmap](/about/reports/2017_roadmap.pdf)
+[2017 Roadmap](2017_roadmap.pdf)
 
-[2016 Roadmap](/about/reports/2016_roadmap.pdf)
+[2016 Roadmap](2016_roadmap.pdf)
 
-[2015 Roadmap](/about/reports/2015_roadmap.pdf)
+[2015 Roadmap](2015_roadmap.pdf)
 
-[2014 Roadmap](/about/reports/2014_roadmap.pdf)
+[2014 Roadmap](2014_roadmap.pdf)
 
-[2013 Roadmap](/about/reports/2013_roadmap.pdf)
+[2013 Roadmap](2013_roadmap.pdf)
 
 ## Annual Institutional Usage (Downloads) Statistics
 [2019 Institutional Usage](2019_usage.md)
@@ -125,33 +125,33 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 
 ## Member-Supporters
 
-[Member-Supporters, December 2019](/about/reports/2019_supporters_Dec.pdf)
+[Member-Supporters, December 2019](2019_supporters_Dec.pdf)
 
-[Member-Supporters, July 2019](/about/reports/2019_supporters_July.pdf)
+[Member-Supporters, July 2019](2019_supporters_July.pdf)
 
-[Member-Supporters, May 2018](/about/reports/arXivfive-yearmemberpledges-May2018.pdf)
+[Member-Supporters, May 2018](arXivfive-yearmemberpledges-May2018.pdf)
 
-[5-year Member Pledges, December 2017](/about/reports/arXivfive-yearmemberpledges-Dec2017.pdf)
+[5-year Member Pledges, December 2017](arXivfive-yearmemberpledges-Dec2017.pdf)
 
-[5-year Member Pledges, December 2017](/about/reports/arXivfive-yearmemberpledges-May2017.pdf)
+[5-year Member Pledges, December 2017](arXivfive-yearmemberpledges-May2017.pdf)
 
-[5-year Member Pledges, May 2017](/about/reports/arXivfive-yearmemberpledges-May2017.pdf)
+[5-year Member Pledges, May 2017](arXivfive-yearmemberpledges-May2017.pdf)
 
-[5-year Member Pledges, February 2017](/about/reports/arXivfive-yearmemberpledges-Feb2017.pdf)
+[5-year Member Pledges, February 2017](arXivfive-yearmemberpledges-Feb2017.pdf)
 
-[5-year Member Pledges, December 2016](/about/reports/arXivfive-yearmemberpledges-December2016.pdf)
+[5-year Member Pledges, December 2016](arXivfive-yearmemberpledges-December2016.pdf)
 
-[5-year Member Pledges, August 2016](/about/reports/arXivfive-yearmemberpledges-August2016.pdf)
+[5-year Member Pledges, August 2016](arXivfive-yearmemberpledges-August2016.pdf)
 
-[5-year Member Pledges, January 2016](/about/reports/arXivfive-yearmemberpledges-January2016.pdf)
+[5-year Member Pledges, January 2016](arXivfive-yearmemberpledges-January2016.pdf)
 
-[5-year Member Pledges, August 2015](/about/reports/arXivfive-yearmemberpledges-August2015.pdf)
+[5-year Member Pledges, August 2015](arXivfive-yearmemberpledges-August2015.pdf)
 
-[5-year Member Pledges, March 2015](/about/reports/arXivfive-yearmemberpledges-March2015.pdf)
+[5-year Member Pledges, March 2015](arXivfive-yearmemberpledges-March2015.pdf)
 
-[5-year Member Pledges, January 2015](/about/reports/arXivfive-yearmemberpledges-Jan2015.pdf)
+[5-year Member Pledges, January 2015](arXivfive-yearmemberpledges-Jan2015.pdf)
 
-[5-year Member Pledges, January 2014](/about/reports/arXivfive-yearmemberpledges-Jan2014.pdf)
+[5-year Member Pledges, January 2014](arXivfive-yearmemberpledges-Jan2014.pdf)
 
 [2012 Supporters](2012_supporters.md)
 
@@ -160,7 +160,7 @@ _In 2020, arXiv began publishing annual reports in the first quarter of the cale
 [2010 Supporters](2010_supporters.md)
 
 ## Other Reports
-[arXiv User Survey Report, 2016](/about/reports/2016_UserSurveyReport.pdf)
+[arXiv User Survey Report, 2016](2016_UserSurveyReport.pdf)
 
 [2010 arXiv Sustainability Adivsory Group](sustainability_advisory_group.md)
 
