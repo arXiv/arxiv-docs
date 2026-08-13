@@ -1,6 +1,6 @@
 # Policies for specific content types
 
-The standards for [moderation and scholarly interest](/help/moderation/index.html) are the basis for
+The standards for [moderation and scholarly interest](../moderation/index.md) are the basis for
 acceptance (or not) of submissions. 
 In general, the guidelines below represent what types of content typically are and are not accepted.
 
@@ -27,12 +27,12 @@ In general, the guidelines below represent what types of content typically are a
 
 ## Content types that typically are accepted include
 
-- [Articles](#Articles)
-- [Theses](#Theses)
-- [Conference proceedings](/help/submit_index.html)
+- [Articles](#articles)
+- [Theses](#theses)
+- [Conference proceedings](../submit_index.md)
 - [Books or book chapters](#Books)
-- [Lecture notes](#Lecture%20notes)
-- [Translations](/help/translations.html)
+- [Lecture notes](#lecture-notes)
+- [Translations](../translations.md)
 - [Comments and Reply to Comments](#Comments)
 
 ## Articles
@@ -45,7 +45,7 @@ A thesis, like all other content types, should have novel results and be of plau
   
 ## Conference proceedings
 
-Please refer to [Submission of indexes for conference proceedings](/help/submit_index.html)
+Please refer to [Submission of indexes for conference proceedings](../submit_index.md)
 
 
 <a name="Books"></a>
@@ -76,7 +76,7 @@ Lecture notes that are pedagogical or that cover standard material should not be
 
 ## Translations
 
-Please refer to the page on [Translations](/help/translations.html)
+Please refer to the page on [Translations](../translations.md)
 
 <a name="Comments"></a>
 

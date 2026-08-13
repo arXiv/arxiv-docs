@@ -270,13 +270,13 @@ arXiv is raising funds for [new initiatives](https://confluence.cornell.edu/x/y9
 
 **A new "Economics" (econ) archive has been launched.**
 
-For more information, see the [announcement](/new/econ_announce.md).
+For more information, see the [announcement](econ_announce.md).
 
 18 Sep 2017
 
 **A new "Electrical Engineering and Systems Science" (eess) archive has been launched.**
 
-For more information, see the [announcement](/new/eess_announce.md).
+For more information, see the [announcement](eess_announce.md).
 
 11 Sep 2017
 
@@ -334,7 +334,7 @@ Our gratitude to outgoing MAB members Eva Isaksson, Philip Kent, Zhixiong Zhang 
 
 **DONATE to arXiv**
 
-arXiv will run an online fundraising campaign for one week, from February 26 to March 4, 2017, to help raise additional funds (see [Donations to arXiv](/about/donate.md). The baseline maintenance costs are sponsored by the 206 member organizations, the Simons Foundation, and Cornell University Library. This online campaign aims to garner additional resources from the program's active and supportive user base.
+arXiv will run an online fundraising campaign for one week, from February 26 to March 4, 2017, to help raise additional funds (see [Donations to arXiv](../about/donate.md). The baseline maintenance costs are sponsored by the 206 member organizations, the Simons Foundation, and Cornell University Library. This online campaign aims to garner additional resources from the program's active and supportive user base.
 
 Stewardship of resources such as arXiv involves not only covering the operational costs but also continuing to enhance their value based on the needs of the user community and the evolving patterns and modes of scholarly communication. It is essential to raise additional funds in order to [fund new initiatives](https://confluence.cornell.edu/x/y9ZRF) that are beyond the routine operational work, and to robustly support arXiv's Open Access [mission](https://arxiv.org/help/primer). Donations to arXiv are [tax deductible](https://arxiv.org/help/support/faq#7C), eligible for employer matches, and easy to schedule. Donations can be made [here](https://goo.gl/QIgRpr). We thank you for your support.
 
@@ -750,7 +750,7 @@ Note that with the new submission system permanent identifiers are assigned only
 
 21 Jan 2010
 
-**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](../about/governance.md).
+**Collaborative Support Plan Announced:** Cornell University Library is beginning an effort to expand funding sources for arXiv to ensure its stability and continued development. We are working to establish a collaborative business model that will engage the institutions that benefit most from arXiv — academic institutions, research centers and government labs — by asking them for voluntary contributions. Our plans are outlined in the [press release](http://news.library.cornell.edu/news/arxiv) and in the [arXiv support](../about/governance/index.md).
 
 #### Nov 2009
 
@@ -808,7 +808,7 @@ To subscribe to the daily e-mail notifications for only a set of subcategories, 
 
 4 Dec 2008
 
-**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](/new/q-fin_announce.html). It is partitioned into [7 subject categories](https://arxiv.org/archive/q-fin) and [e-mail subscriptions](../help/subscribe.md) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
+**A new "Quantitative Finance" (q-fin) archive has been launched.** For more information, see the [announcement](q-fin_announce.md). It is partitioned into [7 subject categories](https://arxiv.org/archive/q-fin) and [e-mail subscriptions](../help/subscribe.md) can be made to any combination of subject categories. It has been "[preseeded](http://arxiv.org/Stats/q-fin_monthly.png)" with roughly 1700 relevant cross-listings and reclassification of articles from existing subject categories.
 
 #### Nov 2008
 
@@ -1136,7 +1136,7 @@ The xxx Announcements Forum is no longer accepting new registrations, and will s
 
 17 Jun 1999
 
-Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "[security standdown](interruption)."
+Due to circumstances beyond our control, the Los Alamos e-Print Archive will suspend the ordinary database updates and mailings on Monday and Tuesday the 21,22 June 1999. For more information, see "security standdown."
 
 #### Apr 1999
 

@@ -262,7 +262,7 @@ the ACM and MSC subject classifications respectively.
 The servicedocument enumerates the available choices for each
 collection.
 
-As described below (see [Initiate Ingestion](#Ingestion)), the atom
+As described below (see [Initiate Ingestion](#ingestion)), the atom
 entry containing the metadata describing and completing a deposit to
 arXiv must have exactly one valid primary\_category and can have zero or
 more secondary categories selected from those listed in the
@@ -732,7 +732,7 @@ SWORD deposit.
 Steps for a replacement
 
 -   First all the **media resources** should be individually
-    [posted](#Deposit) or deposited packed together into a zip file.
+    [posted](#media) or deposited packed together into a zip file.
 
 -   Previously deposited media resources in the workspace of the
     authenticated user can be referenced via their `edit-media` links,
@@ -743,7 +743,7 @@ Steps for a replacement
     if they have not expired yet. arXiv retains individual media
     deposits via SWORD for at least 30 days.
 
--   Then a [metadata wrapper](#Ingestion) is *PUT* to the link with
+-   Then a [metadata wrapper](#ingestion) is *PUT* to the link with
     `rel="edit”` which was part of the atom entry response to the
     original wrapper deposit, e.g.
 
@@ -1072,6 +1072,6 @@ entry threshold low.
     removed and all *nlin* (Nonlinear Sciences) categories (e.g.
     *https://arxiv.org/terms/arXiv/nlin.AO*) were reorganized within the
     *https://arxiv.org/sword-app/physics-collection* collection. This
-    change is reflected in the [Servicedocument](#Servicedocument). This
+    change is reflected in the [Servicedocument](#servicedoc). This
     corresponds with moving the nlin archive into the physics group in
     the arXiv classification scheme and user-interface.
