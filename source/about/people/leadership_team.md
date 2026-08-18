@@ -5,18 +5,19 @@
 
 <div markdown="1">
 
-![Image of Ramin Zabih](../images/portrait-Ramin-Zabih-warmtone.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Ramin Zabih' role="presentation"}
+![Image of Penelope Lewis](../images/DrPenelopeLewis.jpg){.mkd-img-icon .mkd-img-center alt='Portrait of Penelope Lewis' role="presentation"}
 
 </div>
 
 <div markdown="1">
 
-## Ramin Zabih
-**Interim CEO**
+## Penelope Lewis
+**Chief Executive Officer**
 
-- ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8769-5666](https://orcid.org/0000-0001-8769-5666){target="_blank"}
+- ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8821-5169](https://orcid.org/0000-0001-8821-5169){target="_blank"}
 
-As arXiv interim CEO, Ramin guides arXiv’s strategic vision and technological modernization with input from the global research and scholarly communications communities. He is a computer science professor at Cornell Tech and president and founder of the Computer Vision Foundation. Ramin holds a Ph.D. in Computer Science from Stanford University.
+As the inaugural CEO of arXiv, Penelope is responsible for guiding arXiv's strategic vision, ensuring arXiv's long-term growth and sustainability, and maintaining the integrity of the platform as arXiv navigates its transition to an independent nonprofit organization. Penelope brings nearly two decades of strategic and transformational leadership in scholarly publishing and mission-driven scientific organizations, including Chief Publishing Officer at AIP Publishing and editorial and strategy leadership positions at the American Chemical Society Publications Division. A scientist by training, Penelope holds a Ph.D. in Chemistry from The Pennsylvania State University and a B.S. in Chemistry from Indiana University.
+
 </div>
 </div>
 </div>
