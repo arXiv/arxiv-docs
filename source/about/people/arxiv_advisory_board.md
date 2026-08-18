@@ -7,9 +7,7 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 ## Current arXiv Advisory Board Members
 
-**Ramin Zabih (presiding chair)**, Interim Chief Executive Officer
-
-**Yoav Artzi**, Associate Professor, Department of Computer Science, Cornell Tech
+**Penelope Lewis (presiding chair)**, Chief Executive Officer
 
 **Ivan Oransky**, Simons Foundation, New York University, Retraction Watch
 
@@ -23,5 +21,5 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 **Maureen Walsh**, Chair, Institutions Advisory Council 
 
-**Ralph Wijers**, Chair, Editorial Advisory Council
+**Thomas Dietterich**, Acting Chair, Editorial Advisory Council
 
