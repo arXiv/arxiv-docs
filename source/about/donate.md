@@ -17,6 +17,17 @@ onerror="document.querySelectorAll('[data-zeffy-embed-fallback]').forEach(functi
 </script>
 </div>
 
+**To donate to arXiv by check:** 
+
+Please make your check out to arXiv, Inc. and mail your check to:
+
+arXiv, Inc.
+417 Mace Blvd
+Suite J110
+Davis, CA 95618
+
+If your check is a Qualified Charitable Distribution (QCD) to arXiv, please email giving@arxiv.org so we can properly process your gift.
+
 **Corporate Employer Matching Funds** can be made through [Benevity](https://causes.benevity.org/causes/840-414194836).
 
 **Authors**: arXiv is always free to read and submit to. Donations have no impact on submission decisions.
