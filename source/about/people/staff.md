@@ -2,33 +2,33 @@
 
 ## Leadership
 
+- Penelope Lewis, Chief Executive Officer
 - Stephanie Orphan, Program Director
 - Jeff Sank, Engineering Director
 - Steinn Sigurdsson, Scientific Director
-- Ramin Zabih, Interim Chief Executive Officer
 
 More information on [arXiv's leadership team](leadership_team.md).
 
 ## Communications and Membership
 
-- Kat Boboris, Communications & Membership Manager
+- Kat Boboris, Communications and Membership Manager
 
 ## Editorial & User Support Team
 
 - Amanda Bartley, Senior User Support Specialist
 - Kai Beavers, User Support Specialist
-- Jim R-B Entwood, Head of Content & User Support
+- Jim R-B Entwood, Head of Content and User Support
 - Kim Laine, Senior User Support Specialist
 - Jamie Magyar, Production Editor
 - Rebecca Rich Goldweber, Lead Production Editor
 - Jessica Schriver, Production Editor
 - Ryan Shelley, Metadata Associate
-- Valpuri Sovero, Production Editor & User Support Specialist
+- Valpuri Sovero, Production Editor and User Support Specialist
 
 ## Technical Team
 
 - Erin Aster, Software Engineer
-- Shamsi Brinn, Senior Lead - Product Design & Strategy
+- Shamsi Brinn, Senior Lead - Product Design and Strategy
 - Brian Caruso, Lead Software Engineer
 - David Fielding, Senior Software Engineer
 - Deyan Ginev, Senior Software Engineer

@@ -22,7 +22,7 @@ Incomplete
 
 When your submission is in this status, the article is in process, but
 not yet [submitted](#submitted). You may still edit it which will update
-the [expiration date](#exipred). Submissions left incomplete past the
+the [expiration date](#expired). Submissions left incomplete past the
 expiration date will be deleted from arXiv.
 
 <span id="processing"></span>

@@ -10,6 +10,7 @@ You can browse articles and view categories at the [main quantitative finance ar
 The [moderators for the quantitative finance archive are listed here](https://arxiv.org/moderators#q-fin).
 
 
+<span id="AdvisoryCommittee"></span>
 ## The arXiv Quantitative Finance Section Editorial Committee:
 
 - Arthur M. Berd, General Quantitative (co-chair)
