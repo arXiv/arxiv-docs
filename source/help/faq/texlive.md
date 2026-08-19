@@ -140,7 +140,8 @@ The `cleveref` package has not been updated to work with TeX Live 2025. When usi
 with TeX Live 2025, references will all include the same name (i.e., all `\cref{...}` will have the
 same "name" like "Proposition").
 
-Either select TeX Live 2023 for your submission, or add, for each definition of a theorem-like environment
+There are three options to work around this problem: (1) switch to a supported package like `zref-clever`,
+(2) select TeX Live 2023 for your submission, or (3) add, for each definition of a theorem-like environment
 you use, the necessary `\crefalias`.
 
 Example: If there is
