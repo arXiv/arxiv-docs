@@ -9,8 +9,6 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 **Penelope Lewis (presiding chair)**, Chief Executive Officer
 
-**Ivan Oransky**, Simons Foundation, New York University, Retraction Watch
-
 **Stephanie Orphan**, Program Director
 
 **Jeff Sank**, Engineering Director

@@ -69,6 +69,10 @@ You can become a member or renew your membership by contacting us directly at <m
 ## Stay in Touch
 
 - [Blog](https://blog.arxiv.org/)
+- [LinkedIn](https://www.linkedin.com/company/arxiv/)
 - [Twitter](https://x.com/arxiv)
+- [Bluesky](https://bsky.app/profile/arxiv.bsky.social)
+- [Mastodon](https://mathstodon.xyz/@arXiv)
+- [Facebook](https://www.facebook.com/arXiv.official/)
 - [Status Updates](https://status.arxiv.org/)
 - [Questions? We're happy to help](mailto:membership@arxiv.org)
