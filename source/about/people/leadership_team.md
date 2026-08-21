@@ -16,7 +16,7 @@
 
 - ![ORCID icon](https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png){class="sm-icon" role="presentation"}[0000-0001-8821-5169](https://orcid.org/0000-0001-8821-5169){target="_blank"}
 
-As the inaugural CEO of arXiv, Penelope is responsible for guiding arXiv's strategic vision, ensuring arXiv's long-term growth and sustainability, and maintaining the integrity of the platform as arXiv navigates its transition to an independent nonprofit organization. Penelope brings nearly two decades of strategic and transformational leadership in scholarly publishing and mission-driven scientific organizations, including Chief Publishing Officer at AIP Publishing and editorial and strategy leadership positions at the American Chemical Society Publications Division. A scientist by training, Penelope holds a Ph.D. in Chemistry from The Pennsylvania State University and a B.S. in Chemistry from Indiana University.
+Penelope is responsible for guiding arXiv's strategic vision and  ensuring arXiv's long-term growth, sustainability, and platform integrity as essential infrastructure for the scientific community. Penelope brings nearly two decades of strategic and transformational leadership in scholarly publishing and mission-driven scientific organizations, including Chief Publishing Officer at AIP Publishing and editorial and strategy leadership positions at the American Chemical Society Publications Division. A scientist by training, Penelope holds a Ph.D. in Chemistry from The Pennsylvania State University and a B.S. in Chemistry from Indiana University.
 
 </div>
 </div>
