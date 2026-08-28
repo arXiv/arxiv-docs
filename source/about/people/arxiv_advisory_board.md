@@ -15,9 +15,13 @@ The arXiv Advisory Board is a group of experts who lend their skills, expertise 
 
 **Steinn Sigurdsson**, Scientific Director
 
-**Licia Verde**, Chair, Science Editorial Council
+**Thomas Dietterich**, Acting Chair, Editorial Advisory Council
+
+**Sumati Surya**, Chair, Science Advisory Council
 
 **Maureen Walsh**, Chair, Institutions Advisory Council 
 
-**Thomas Dietterich**, Acting Chair, Editorial Advisory Council
+**Ramin Zabih**, Professor of Computer Science, Cornell Tech
+
+
 
