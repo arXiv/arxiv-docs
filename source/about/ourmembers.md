@@ -25,14 +25,12 @@ arXiv gratefully acknowledges the consortia across the globe who represent the b
 
 Champion members with arXiv are institutions whose researchers are top users of arXiv and whose goal is to lead the global research community in innovation, education, and promoting open science.
 
-1. California Institute of Technology (USA)
 1. CERN-European Organization for Nuclear Research (Switzerland)
 1. French National Centre for Scientifc Research (France)
 1. Georgia Institute of Technology (USA)
 1. Harvard University (USA)
 1. Imperial College London (Science, Technology and Medicine) (UK) _Jisc_
 1. Johns Hopkins University (USA)
-1. Los Alamos National Laboratory (USA)
 1. Massachusetts Institute of Technology (MIT) (USA)
 1. Purdue University (USA) _BTAA_
 1. Penn State University (USA) _BTAA_
@@ -72,6 +70,7 @@ Champion members with arXiv are institutions whose researchers are top users of 
 ## Top 100 Submitters
 
 1. Brookhaven National Laboratory (USA)
+1. California Institute of Technology (USA)
 1. Carnegie Mellon University (USA)
 1. Columbia University (USA)
 1. CSIC - Spanish National Research Council (Spain)
@@ -140,6 +139,7 @@ Frequent Submitters are members whose researchers frequently submit scholarly ar
 1. Kyushu University (Japan) _NII Japan Consortium_
 1. Lancaster University (UK) _Jisc_
 1. Leiden University (Leiden Institute of Physics) (Netherlands)
+1. Los Alamos National Laboratory (USA)
 1. McGill University (Canada)
 1. Monash University (Australia)
 1. Nagoya University (Japan) _NII Japan Consortium_
