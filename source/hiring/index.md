@@ -1,27 +1,23 @@
-# Careers at arXiv
+# Jobs | Working at arXiv
 
- arXiv is part of Cornell Tech, the graduate campus and research center of Cornell University. All arXiv employees are Cornell University employees.
+Want to make an impact on open science? Join the team working on arxiv.org, one of the most integral websites for open scholarly communications and scientific discovery.
 
- - Positions at arXiv are [staff positions with benefits (endowed)](https://hr.cornell.edu/understand-your-benefits).
- - Visa sponsorship is not available. You must already possess the legal right to work in the US.
- - arXiv is headquartered at the [Cornell Tech campus on Roosevelt Island in New York City](https://tech.cornell.edu/). When hiring, there is a strong preference for candidates who can report to work at that location, but hybrid and/or remote work may be an option.
+arXiv is a curated research-sharing platform, free to use and open to all scientists. Founded in 1991, arXiv is one of the oldest and largest open scientific repositories, currently hosting over 3 million research articles. For the past 35 years, arXiv has grown in leaps and bounds, thanks in no small part to the talent and dedication of the arXiv staff.
 
-## Software development
+The arXiv staff is small but mighty. We are a team of dedicated arXiv enthusiasts and we share an important set of values:
 
-We are already underway on the arXiv CE ("Cloud Edition") project. This is a project to re-home all arXiv services from VMs at Cornell to a cloud provider ([Google Cloud](https://cloud.google.com/)). There are a number of reasons for this transition, including improving arXiv's scalability while modernizing our infrastructure. This will not be a simple port of the existing arXiv code base because this project will:
+ - arXiv is open, above all. The foundation of arXiv is based on open access, transparency, open mindedness, collaboration, and flexibility.
+ - arXiv is a community. Our staff, institutional members, collaborators, moderators, authors, and readers all make arXiv possible - together, we are arXiv.
+ - arXiv is passionate about science - and access to science. Science is for everyone, and arXiv makes sure it stays that way.
+ - arXiv does more with less. To best serve researchers and research, arXiv runs lean - everything we have goes into the work.
+ - arXiv values excellence. We meet the challenges of the future with a collective passion for our work and our community.
 
- - replace the portion of our backends still written in perl and PHP
- - re-architect our article processing to be fully asynchronous, and provide better insight into the processing workflows
- - containerize all, or nearly all arXiv services so we can deploy via Kubernetes or services like [Google Cloud Run](https://cloud.google.com/run/)
- - improve our monitoring and logging facilities so we can more quickly identify and manage production issues with arxiv.org
- - create a robust CI/CD pipeline to give us more confidence that changes we deploy will not cause services to regress
+Looking to grow your career with arXiv? We work together across several teams, which include Editorial and User Support, Development and Technical, Communications and Membership, and Consulting and Project Support. Open positions across all these teams will be announced on the arXiv blog and will appear in the arXiv job portal.
 
-The cloud transition is a pre-requisite to modernizing arXiv as a service. The modernization will enable:
- - arXiv to expand the subject areas that we cover
- - improve the metadata we collect and make available for articles, adding fields that the research community has requested such as funder identification
- - deal with the problem of ambiguous author identities
- - improve accessibility to support users with impairments, particularly visual impairments
- - improve usability for the entire arXiv community
+More about working at arXiv . . . 
 
-There are no job openings at this time.
+ - arXiv is an equal opportunity employer. Applicants will be judged on merit and every member of arXiv is expected to help create a respectful and collaborative environment. There is a high standard of work ethic, professionalism, and fair application of policies in service to the global arXiv community. 
+ - arXiv is headquartered in New York City, at the Tata Innovation Center on Roosevelt Island. arXiv staff may work remotely, in-office, or on a hybrid schedule, as appropriate for each position.
+ - Visa sponsorship is not available. Applicants must already possess the legal right to work in the United States to be considered for employment at arXiv.
 
+Please visit the [arXiv job portal](https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=2614d6bd-154b-4639-a487-211b2405515e&ccId=9201062958117_2&source=CC2&lang=en_US&selectedMenuKey=CareerCenter) to view and apply to any open positions.
