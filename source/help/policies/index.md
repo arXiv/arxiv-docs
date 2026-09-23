@@ -18,7 +18,6 @@ Please note this page is a work in progress. We are working towards a comprehens
 - [Cross listing](../../help/cross.md)
 - [Translations](../../help/translations.md)
 - [Non-English submissions](../../help/faq/multilang.md)
-- [Text Overlap](../../help/overlap.md)
 - [Requiring TeX when possible](../../help/faq/whytex.md)
 - [Third party submission](../../help/third_party_submission.md)
 
