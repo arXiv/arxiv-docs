@@ -9,7 +9,7 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 
 ## Major Funding
 1. Schmidt Sciences
-1. Siegel Family Foundation
+1. Siegel Family Endowment
 1. Simons Foundation International
 1. XTX Markets
 
