@@ -38,7 +38,6 @@ slug: Help
 - [Crosslist an Article](cross.md)
 - [The Moderation System](moderation/index.md)
 - [Oversized Submissions](sizes.md)
-- [Text Overlap Detection](overlap.md)
 
 ## Miscellaneous
 - [Understanding the arXiv Identifier](arxiv_identifier.md)
