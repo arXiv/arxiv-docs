@@ -8,9 +8,10 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 <div class="mkd-ordered-list-blocks" markdown="1">
 
 ## Major Funding
-1. Cornell University
 1. Schmidt Sciences
+1. Siegel Family Foundation
 1. Simons Foundation International
+1. XTX Markets
 
 ## Gold Sponsors
 
