@@ -28,7 +28,7 @@ should be human readable, or at least contain only printable characters
 (`0-9, A-Z, a-z`).
 
 To work around this, you can [pass a special flag to our TeX
-processor](mistakes.md#psbad) to keep all lines beginning with
+processor](../00README.md#keepcomments) to keep all lines beginning with
 '`%`' (at the cost of portability). To do this, include a file
 `00README.XXX` which includes an instruction specific to the filename of
 the dvi file for your submission, usually `filename.dvi` if your TeX

@@ -150,7 +150,7 @@ which would be rendered as
 
 **New developments in AI**
 :   Fred Bloggs, Bill Smith  
-    (paper [AIWorld/2003/01](#find_report_no_AIWorld/2003/01) )
+    (paper AIWorld/2003/01 )
 
 The report numbers themselves should be chosen so that they will be
 unique. This means that they should usually include the conference name

@@ -83,7 +83,7 @@ A free-text value that contains information outside the scope of other defined e
 A date relevant to the record that may aid the user trying to find the document.  A common example of such a date would be an original publication date of a record that was placed in an archive at a later time (i.e., its date of accession is later than its date of publication).  
 
 * * *
-<a name=oamsdtd"></a>
+<a name="oamsdtd"></a>
 XML DTD for the Open Archives Metadata Set
 ------------------------------------------
 

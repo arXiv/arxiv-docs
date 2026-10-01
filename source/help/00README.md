@@ -312,8 +312,6 @@ where `filename.dvi` is the name of the DVI file that TeX will produce when proc
 
 ### Disable attempt to use HyperTeX
 
-See also: [Disabling hypertex](faq/mistakes.md#nohypertex).
-
 ```
 nohypertex
 ```
@@ -324,7 +322,7 @@ This stops any attempt by arXiv to automatically augment a paper with hyperlinks
 
 ### Keep comments when doing `dvips`
 
-This is mostly needed when receiving a [`PS BAD` warning](faq/mistakes.md#psbad)
+This is mostly needed when receiving a [`PS BAD` warning](faq/psbad.md)
 
 ```
 filename.dvi keepcomments

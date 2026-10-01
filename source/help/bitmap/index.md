@@ -36,7 +36,6 @@ that they are easier for your readers to download:
     -   [What about other formats?](faq.md#other)
 -   [Basic bitmapping procedure](procedure.md)
     -   [ImageMagick](procedure.md#shortImageM) (most platforms)
-    -   [XV](procedure.md#shortXV) (unix/linux)
     -   [Macintosh](procedure.md#shortMac)
 -   [Advanced bitmapping](advanced.md)
 -   [Possible problems](problems.md)
