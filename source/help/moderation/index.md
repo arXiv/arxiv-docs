@@ -80,13 +80,13 @@ Submissions to arXiv must be the author’s original work, and/or submitters mus
 
 <span id="submission-rate"></span>
 
-#### Excessive submission rate
+#### Submission rate
 
-Articles submitted to arXiv must be of original, novel, and significant self-contained research. There is a practical limit to the rate at which appropriate, independent submissions can be produced by any one person. We may request that a particular author limit their submission rate.  
+Each author may submit up to two submissions per calendar month with a limit of three active submissions.
 
-If an author has a back catalog of work to submit to arXiv, we ask that they submit no more than three papers per day.
+arXiv may request that a particular author further limit their submission rate.
 
-
+For more information and frequently asked questions, please read [arXiv’s rate limit announcement](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/).
 
 
 <span id="policies-after"></span>
