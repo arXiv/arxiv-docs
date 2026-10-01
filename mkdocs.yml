@@ -16,6 +16,7 @@ plugins:
         about/give.md: about/donate.md
         about/governance.md: about/governance/index.md
         about/arXiv_bylaws.md: about/governance/operational_guidelines.md
+        help/hypertex/binaries/index.md: help/hypertex/index.md
 hooks:
   - hooks/a11y.py
 theme:

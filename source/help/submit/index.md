@@ -137,9 +137,9 @@ The following instructions will guide you through version 1.5 of our submission 
 8. The next page will display if your file compiled successfully and the compilation log. 
     - If your file compiled successfully, you may **Preview your PDF**.
     - Click **Continue** to proceed to the Metadata page. 
-    - If your file does not compile successfully and you receive an error, please review your submission for the five most common mistakes made when submitting papers: 
+    - If your file does not compile successfully and you receive an error, please review your submission for the four most common mistakes made when submitting papers: 
     - Mixed figure file formats. If you are using PDFLaTeX then all figures must be .pdf, .jpg, or .png formats. If your document uses (La)TeX all figures must be .ps or .eps. arXiv does not perform figure file conversion for you, please [ensure your files are converted to the appropriate format](../faq/mistakes.md#mixed) before uploading.
-     - File-name [upper/lower-case mismatch](../faq/mistakes.md#case_filenames) between TeX source and figure or included files. arXiv's file system is case sensitive.       - Default hyperref failures ("Option clash for package hyperref") are not a reason to report a failure to arXiv. Continue scrolling in the log to find the specific errors that are being flagged.
+     - Default hyperref failures ("Option clash for package hyperref") are not a reason to report a failure to arXiv. Continue scrolling in the log to find the specific errors that are being flagged.
      - Missing customized or differing version of [style files](../faq/mistakes.md#missing_macro).
      - Missing, misnamed, or local complete paths to [figure files](../faq/mistakes.md#abs_filenames). arXiv's file system is case sensitive.
 
