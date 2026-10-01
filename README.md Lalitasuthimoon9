@@ -1,168 +1,168 @@
 Lalita-suthimoon9 info.arxiv.org pages
-
+Lalita-Suthimoon9 
 Help, about, policy and other pages for arXiv.
-
+Lalita-Suthimoon9 
 ## Overview
-
+Lalita-Suthimoon9 
 This is where to make edits to the about, help, labs, new and other pages at
 info.arxiv.org. These are written in
 [markdown](https://daringfireball.net/projects/markdown/) and turned into HTML
 pages with [mkdocs-material](https://squidfunk.github.io/mkdocs-material/).
-
+Lalita-Suthimoon9 
 ## How to do a Quick Edit on github
-
+Lalita-Suthimoon9 
 To make a quick edit, use this is a 4 step process:
-
+Lalita-Suthimoon9 
 1. Make your edit and commit to a new branch.
-
+Lalita-Suthimoon9 
 2. Make a PR from your branch to develop, get that reviewed.
-
+Lalita-Suthimoon9 
 3. Merge the PR to develop.
-
+Lalita-Suthimoon9 
 4. Merge changes on develop to master.<br><br>
-
+Lalita-Suthimoon9 
 ### 1. Make your edit on github
 - To edit a page first go to the info.arxiv.org page you want to edit.  
 Example: https://info.arxiv.org/help/gzip.html
-
+Lalita-Suthimoon9 
 - Click on the pencil icon to edit the page. That will take you to the corresponding page in github.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of a page on info.arxiv.org and the location of the edit icon](/non-info/01-help-info-page.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - On the page you want to edit in github, click the pencil to edit the page contents right in github.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of a page in Github and the location of the edit icon](/non-info/02-help-github-edit-page.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - After you have made changes, click preview to see how it will look when completed.  
 **Please note:** Github uses "Github flavored markdown" which is different from the markdown we use to create our documentation. There may be small variations in how the markdown appears due to these differences.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of the location of the preview button on the edited page in Github](/non-info/03-help-preview-github.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Review your work in preview mode. To return to editing, click on "edit" in the header.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot displaying the preview of your edits in Github](/non-info/12-help-preview-page.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Once you are happy with your changes you can save by clicking on the "Commit changes" button in the upper right hand corner.
 Commit is the term github and git use for saving.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of the location of the commit button on the edited page in Github](/non-info/04-help-commit-github.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Add a brief note in the "Commit message" area summarizing your edit. You may add longer
 note in the "Extended description" area if you have more to say about your changes.
-
+Lalita-Suthimoon9 
 - Make sure you have your email associated with your commits.
-
+Lalita-Suthimoon9 
 - Note that a "new branch for this request and start a pull request" will be selected.
 - Name your branch after your JIRA ticket (if applicable) or after your github username and brief description.  
 Examples:  
  `arxivce-1503-update-arxiv-docs-readme`  
  `alisonhofer-update-arxiv-docs-readme`
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of how to create a new branch for the edits made in Github](/non-info/05-help-newBranch.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 >If you have more changes to make at this time you may make and commit them all to the branch you created. The additional changes you commit will be grouped together when you make your pull request in the next step.
-
+Lalita-Suthimoon9 
 <br>
-
+Lalita-Suthimoon9 
 ### 2. Make a Pull Request from your branch to `develop`
 Once you have completed all of your changes, you need to have your changes reviewed. This is done by "creating a PR." PR stands for pull request.
-
+Lalita-Suthimoon9 
 - At the top of your page you will notice a yellow box that will have the name of your commit and a button to the right of it that says "Compare & pull request".
-
+Lalita-Suthimoon9 
 - Click on Compare & pull request
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/06-help-comparePR.png)</kbd> <br><br>
-
+Lalita-Suthimoon9 
 >> In the event that you have made a commit and were unable to complete or create your pull request at the time, you will not have the same yellow box interface if you return to the page the next day.  
 >>
 >>>You will have to make a pull request by clicking on the "Pull requests" link in the header of the github  
 >>>Next, click the button to the right that says "New pull request"
 >>
 >><kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd>
-
+Lalita-Suthimoon9 
 <br>
-
+Lalita-Suthimoon9 
 - Compare your changes by clicking on the "compare:develop" dropdown and type in your branch name and then select your branch.
 - This will compare your branch to the `develop` branch.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/12-help-newPR-compare.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into master.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareFiles.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Click "Create pull request"
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers".
 - A dropdown will appear and request people to review your PR.
 - If you are unsure who to ask to review your changes, check with your manager.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of how to select reviewers of your PR and create the PR in Github](/non-info/07-help-openPR.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - After selecting reviewers, click the blue "Create pull request" button.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of the location of the create pull request button in Github](/non-info/08-help-createPR.png)</kbd>
 - Reviewers will receive an email from Github with a link to the PR to review.
 - Additionally, you can slack your reviewers with a link to your PR to give them a heads up.
-
+Lalita-Suthimoon9 
 <br>
-
+Lalita-Suthimoon9 
 ### 3. Merge the PR to `develop`
 - Once your PR has been reviewed and approved you will receive an email notification with a link to your PR. 
 - Now you can merge your PR to `develop`.
 - Open your PR and scroll down and click on "Merge pull request".
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot of how to merge your pull request in Github](/non-info/09-help-mergePR.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - You will be prompted to confirm you decision, click "Confirm merge".
-
+Lalita-Suthimoon9 
   <kbd>![Screenshot of how to confirm merging your PR in Github](/non-info/10-help-confirmMerge.png)</kbd>
-
+Lalita-Suthimoon9 
 - **Please note:** The above step will only put your changes on `develop` and they will not be viewable on the live site: info.arxiv.org. At this point you have only saved the edit(s) in github.
 - You can review your changes on the `develop` site at [info.dev.arxiv.org](info.dev.arxiv.org).
-
+Lalita-Suthimoon9 
 <br>
-
+Lalita-Suthimoon9 
 ### 4. Make a Pull Request from `develop` to `master`
 > **Please note:** Once you have merged your changes to `develop`, it is important to deploy them as soon as possible. Lingering commits on on the `develop` branch can cause unintentional problems when they are deployed with other code. If you notice commits other than your own in the PR you make, please be sure to check in with the owners of those commits to ensure they are ready to go live. 
-
+Lalita-Suthimoon9 
 - Now that your PR has been merged to `develop`, you need to deploy these changes to `master`. 
 - To make a new PR click the "Pull requests" link in the header of the github page.
 - On the right hand side, click the blue button that says "New pull request"
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/11-help-newPR-compare.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Compare your changes by clicking on the "base:develop" dropdown on the left and type in "master" and then select it.
 - This will compare your branch to the `develop` branch.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes in the pull request in github](/non-info/compareToMaster.png)</kbd><br><br>
-
+Lalita-Suthimoon9 
 - Click on the "Files Changed" tab to view a comparison of the `develop` branch you are planning to merge into `master`.
-
+Lalita-Suthimoon9 
 <kbd>![Screenshot how to compare changes between the develop branch and the master branch in github](/non-info/filesChanged-createPR.png)</kbd><br><br>
 - Click "Create pull request"
-
+Lalita-Suthimoon9 
 - Add a title for your pull request and a description if the title is not self explanatory.
 - To the right, click on the gear icon to the right of "Reviewers"
 - A dropdown will appear and you can request people to review your PR.
 - After selecting reviewers, click the blue "Create pull request" button.
 - Ping your reviewers in slack with a link to your PR and ask them to review it.
-
+Lalita-Suthimoon9 
 - Once your PR has been reviewed and approved you can merge your PR to `master`.
 - Open your PR and scroll down and click on "Merge pull request".
 - You will be prompted to confirm you decision, click "Confirm merge".
 - You will see your changes on production about 15 minutes after you have confirmed your merge.
-
+Lalita-Suthimoon9 
 <br>
-
+Lalita-Suthimoon9 
 ## Authoring Markdown
 See [AUTHORING.md](AUTHORING.MD)
-
+Lalita-Suthimoon9 
 ## Building on your local machine
-
+Lalita-Suthimoon9 
 Instead of using github to edit you can check all the files for arxiv-docs to
 your laptop to edit and preview.
-
+Lalita-Suthimoon9 
 ```bash
 git clone git@github.com:arXiv/arxiv-docs.git
 cd arxiv-docs
@@ -176,32 +176,28 @@ google-chrome https://localhost:8000/index.html
 ```
 Then you will have the site served locally with hot reloading on edits. In your
 browser, go to http://localhost:8000/index.html
-
+Lalita-Suthimoon9 
 To clean up when you're done: 
 ```bash
 deactivate
 python -m venv docs-venv --clear
 ```
-
-
+Lalita-Suthimoon9 
+Lalita-Suthimoon9 
 # Deployment to info.arxiv.org
-
+Lalita-Suthimoon9 
 Commits or merges to `arxiv-docs` `master` branch will deploy the site.
 
 The cloud build YAML files combined with CloudBuild triggers in
 `arxiv-production` comprise the deployment pipeline for `arxiv-docs`.
-
+Lalita-Suthimoon9 
 # Previews of PRs
-
+Lalita-Suthimoon9 
 PRs that will merge to the branch `develop` on the github repo
 `arxiv-docs` will deploy previews at
-https://storage.googleapis.com/arxiv-docs-prs/YOUR_BRANCH_NAME/about/index.html
-
-Note that the home page specifically does not exist, but any other page can be accessed with its URL path.
+https://storage.googleapis.com/arxiv-docs-prs/YOUR_BRANCH_NAME/about/index.htgoogle-chrome the home page specifically does not exist, but any other page can be accessed with its URL path.
 This preview can been seen by the public, everything in the github
 arxiv-docs repo can also be seen by the public.
-
-Direct commits to the `develop` branch will not generate a preview.
-
-## Historical site content
-See https://github.com/arXiv/arxiv-docs/releases for branches prior to 2023 when content was shifted to the source/ directory.
+Lalita-Suthimoon9
+Direct commits to the `develop` branch will not generate a Lalita-Suthimoon9 rical site content
+See https://github.com/arXiv/arxiv-docs/releases for branches prior to 2023 when content was shifted to the source/ directorThe 
