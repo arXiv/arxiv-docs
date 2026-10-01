@@ -86,7 +86,7 @@ Each author may submit up to two submissions per calendar month with a limit of 
 
 arXiv may request that a particular author further limit their submission rate.
 
-For more information and FAQ, please read [arXiv’s rate limit announcement](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/).
+For more information and frequently asked questions, please read [arXiv’s rate limit announcement](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/).
 
 
 <span id="policies-after"></span>
