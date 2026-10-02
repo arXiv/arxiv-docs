@@ -35,4 +35,4 @@ definitions using `\i, \l, \o, \ae,` and some common composites:
 
 To circumvent this problem, you should either avoid using the
 abbreviations above, or [disable
-HyperTeX](mistakes.md#nohypertex).
+HyperTeX](../00README.md#nohypertex).

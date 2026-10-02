@@ -82,7 +82,7 @@ Submissions to arXiv must be the author’s original work, and/or submitters mus
 
 #### Submission rate
 
-Each author may submit up to two submissions per calendar month with a limit of three active submissions.
+Each author may submit up to two new submissions per calendar month with a limit of three active submissions. For [replacements](../replace.md), there is a one per week rate limit after version 5.
 
 arXiv may request that a particular author further limit their submission rate.
 
