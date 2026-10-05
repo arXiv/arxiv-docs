@@ -54,11 +54,12 @@ or use the one line command
   perl -pe 's/(^|[^\\])%.*/\1%/' < old.tex > new.tex
 ```
 
-or use this third-party tool, [`arxiv-latex-cleaner`](https://github.com/google-research/arxiv-latex-cleaner)&mdash;which can remove comments, remove auxiliary files, and shrink images. Note that arXiv will provide no user support for this tool, so use with care.
+Here are additional third-party tools for sanitizing your TeX:
+- [arxiv-latex-cleaner](https://github.com/google-research/arxiv-latex-cleaner)
+- [ALC-NG](https://github.com/COMSYS/ALC-NG/)
 
-```bash
-  arxiv_latex_cleaner /path/to/tex/
-```
+Note that arXiv provides no user support for these tools, so use with care.
+
 
 *   **I use the Textures program. Won't the archive destroy my paper's beautiful formatting?**
 
