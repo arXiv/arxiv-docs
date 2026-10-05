@@ -55,8 +55,9 @@ or use the one line command
 ```
 
 Here are additional third-party tools for sanitizing your TeX:
-- [arxiv-latex-cleaner](https://github.com/google-research/arxiv-latex-cleaner)
-- [ALC-NG](https://github.com/COMSYS/ALC-NG/)
+
+  *  [arxiv-latex-cleaner](https://github.com/google-research/arxiv-latex-cleaner)
+  *  [ALC-NG](https://github.com/COMSYS/ALC-NG/)
 
 Note that arXiv provides no user support for these tools, so use with care.
 
