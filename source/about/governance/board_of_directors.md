@@ -34,6 +34,52 @@ arXiv is committed to transparency, accountability, and thoughtful decision-maki
 <div class="grid-blocks" markdown="1">
 <div class="bio-block" markdown="1">
 
+### Ivan Oransky, Chair
+**Special Advisor for Scientific Publishing, Simons Foundation**
+
+![Image of Ivan Oransky](../images/IvanO.jpg){.mkd-img-bio align="left" alt='Portrait of Ivan Oransky' role="presentation"} 
+Ivan Oransky is special advisor for scientific publishing at the Simons Foundation, where he also serves as editor in chief of The Transmitter. He is co-founder of Retraction Watch and executive director of its parent nonprofit, The Center For Scientific Integrity, as well as a distinguished journalist in residence at New York University's Arthur Carter Journalism Institute. Ivan previously was president of the Association of Health Care Journalists and vice president of editorial at Medscape. He has also held editorial leadership positions at MedPage Today, Reuters Health, Scientific American and The Scientist. He has received numerous awards for his work, including the 2015 John P. McGovern Medal for excellence in biomedical communication from the American Medical Writers Association and an honorary doctorate in civil laws from the University of the South (Sewanee) in 2017. In 2025 the Council of Science Editors gave Retraction Watch the Award for Meritorious Achievement, their highest honor.
+
+</div>
+</div>
+
+<div class="grid-blocks" markdown="1">
+<div class="bio-block" markdown="1">
+
+### Michael Weissman, Treasurer
+**Executive Director of Finance and Business Operations, Cornell Tech**
+
+![Image of Michael Weissman](../images/MichaelW.jpg){.mkd-img-bio align="left" alt='Portrait of Michael Weissman' role="presentation"} 
+As executive director of finance and business operations, Michael Weissman oversees the capital, operational, and sponsored financial portfolios for Cornell Tech. He is responsible for the full scope of financial operations, including budget development and campus financial reporting. He also supervises research administration, housing operations, and corporate and foundation relations.
+
+Weissman has more than 15 years of experience in higher education finance and administration. Before joining Cornell Tech, he held several financial positions at Stony Brook University, including in the Office of Student Accounts and the University Budget Office.
+
+He earned a bachelor’s degree in financial economics from Binghamton University, an MBA from Stony Brook University, and a master of science in legal studies from Cornell University.
+
+</div>
+</div>
+
+<div class="grid-blocks" markdown="1">
+<div class="bio-block" markdown="1">
+
+<div class="grid-blocks" markdown="1">
+<div class="bio-block" markdown="1">
+
+### Greg Morrisett, Secretary
+**Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech**
+
+![Image of Greg Morrisett](../images/GregM.jpg){.mkd-img-bio align="left" alt='Portrait of Greg Morrisett' role="presentation"} 
+Greg Morrisett is the Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech, Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. As the second dean of Cornell Tech, he has led the campus since 2019 and is responsible for the academic quality and direction of its degree programs as well as for efforts to recruit faculty, researchers, and students from around the world. His efforts have built pathways to expand access to the field as well as to engage industry partners and early-stage investors, further accelerating Cornell Tech’s contribution to New York City’s innovation economy.
+
+Under Morrisett’s leadership, the campus has undergone significant expansion. The number of Cornell Tech students and its full-time faculty has more than doubled, while the addition of a new hotel and conference center in 2021 brought the total number of campus buildings to five. In 2024, the campus celebrated the 100th company launched through its startup programs as well as the milestone of surpassing $1 billion in philanthropic support. External research funding during his tenure has exceeded $100 million. Spearheading Cornell Tech’s industry leadership as well as its responsiveness to workforce needs, Morrisett launched the Urban Tech Hub and the Empire AI Postdoc Fellows Program both within the Jacobs Technion-Cornell Institute; PiTech – a public interest tech initiative; new degree programs in design tech and data science; two part-time advanced degree programs, as well as a collaborative workspace for companies called The Bridge at Cornell Tech. All of these efforts have solidified Cornell Tech’s position as a major contributor to the New York City economy, with a reported annual impact of more than $768 million in 2024.
+
+Before joining Cornell Tech, Morrisett was Dean of Computing and Information Science at Cornell University from 2015 to 2019. Previously, he held the Allen B. Cutting Chair in Computer Science at Harvard University, where he also served as Associate Dean for Computer Science and Electrical Engineering as well as Director of its Center for Research on Computation and Society. Before Harvard, Morrisett was a visiting researcher at Microsoft and spent eight years on the faculty in Cornell’s computer science department, where he is currently a member of the faculty. He received his bachelor’s degree from the University of Richmond and both his master’s and doctoral degrees from Carnegie Mellon University.
+
+Morrisett’s research focuses on the application of programming language technology for building secure, reliable, and high-performance software systems. He is a fellow of the Association for Computing Machinery and has received several prestigious awards, including a Presidential Early Career Award for Scientists and Engineers, an IBM Faculty Fellowship, a National Science Foundation Career Award, and an Alfred P. Sloan Fellowship. He is currently a member of the Association for Computing Machinery’s A.M. Turing Award Committee, which determines recipients for the annual prize widely considered the highest distinction in the field of computer science. Morrisett received an honorary doctorate in 2023 from the University of Richmond, where he also serves as a member of the university’s Board of Trustees.
+
+</div>
+</div>
+
 ### Hiroaki Aihara
 **Provost, The University of Tokyo**
 
@@ -84,38 +130,6 @@ research in quantum field theory, theoretical particle physics, gravity and cosm
 </div>
 </div>
 
-
-<div class="grid-blocks" markdown="1">
-<div class="bio-block" markdown="1">
-
-### Greg Morrisett
-**Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech**
-
-![Image of Greg Morrisett](../images/GregM.jpg){.mkd-img-bio align="left" alt='Portrait of Greg Morrisett' role="presentation"} 
-Greg Morrisett is the Jack and Rilla Neafsey Dean and Vice Provost of Cornell Tech, Cornell University’s state-of-the-art campus in New York City that develops leaders and technologies for the AI era through foundational and applied research, graduate education, and new ventures. As the second dean of Cornell Tech, he has led the campus since 2019 and is responsible for the academic quality and direction of its degree programs as well as for efforts to recruit faculty, researchers, and students from around the world. His efforts have built pathways to expand access to the field as well as to engage industry partners and early-stage investors, further accelerating Cornell Tech’s contribution to New York City’s innovation economy.
-
-Under Morrisett’s leadership, the campus has undergone significant expansion. The number of Cornell Tech students and its full-time faculty has more than doubled, while the addition of a new hotel and conference center in 2021 brought the total number of campus buildings to five. In 2024, the campus celebrated the 100th company launched through its startup programs as well as the milestone of surpassing $1 billion in philanthropic support. External research funding during his tenure has exceeded $100 million. Spearheading Cornell Tech’s industry leadership as well as its responsiveness to workforce needs, Morrisett launched the Urban Tech Hub and the Empire AI Postdoc Fellows Program both within the Jacobs Technion-Cornell Institute; PiTech – a public interest tech initiative; new degree programs in design tech and data science; two part-time advanced degree programs, as well as a collaborative workspace for companies called The Bridge at Cornell Tech. All of these efforts have solidified Cornell Tech’s position as a major contributor to the New York City economy, with a reported annual impact of more than $768 million in 2024.
-
-Before joining Cornell Tech, Morrisett was Dean of Computing and Information Science at Cornell University from 2015 to 2019. Previously, he held the Allen B. Cutting Chair in Computer Science at Harvard University, where he also served as Associate Dean for Computer Science and Electrical Engineering as well as Director of its Center for Research on Computation and Society. Before Harvard, Morrisett was a visiting researcher at Microsoft and spent eight years on the faculty in Cornell’s computer science department, where he is currently a member of the faculty. He received his bachelor’s degree from the University of Richmond and both his master’s and doctoral degrees from Carnegie Mellon University.
-
-Morrisett’s research focuses on the application of programming language technology for building secure, reliable, and high-performance software systems. He is a fellow of the Association for Computing Machinery and has received several prestigious awards, including a Presidential Early Career Award for Scientists and Engineers, an IBM Faculty Fellowship, a National Science Foundation Career Award, and an Alfred P. Sloan Fellowship. He is currently a member of the Association for Computing Machinery’s A.M. Turing Award Committee, which determines recipients for the annual prize widely considered the highest distinction in the field of computer science. Morrisett received an honorary doctorate in 2023 from the University of Richmond, where he also serves as a member of the university’s Board of Trustees.
-
-</div>
-</div>
-
-
-<div class="grid-blocks" markdown="1">
-<div class="bio-block" markdown="1">
-
-### Ivan Oransky
-**Special Advisor for Scientific Publishing, Simons Foundation**
-
-![Image of Ivan Oransky](../images/IvanO.jpg){.mkd-img-bio align="left" alt='Portrait of Ivan Oransky' role="presentation"} 
-Ivan Oransky is special advisor for scientific publishing at the Simons Foundation, where he also serves as editor in chief of The Transmitter. He is co-founder of Retraction Watch and executive director of its parent nonprofit, The Center For Scientific Integrity, as well as a distinguished journalist in residence at New York University's Arthur Carter Journalism Institute. Ivan previously was president of the Association of Health Care Journalists and vice president of editorial at Medscape. He has also held editorial leadership positions at MedPage Today, Reuters Health, Scientific American and The Scientist. He has received numerous awards for his work, including the 2015 John P. McGovern Medal for excellence in biomedical communication from the American Medical Writers Association and an honorary doctorate in civil laws from the University of the South (Sewanee) in 2017. In 2025 the Council of Science Editors gave Retraction Watch the Award for Meritorious Achievement, their highest honor.
-
-</div>
-</div>
-
 <div class="grid-blocks" markdown="1">
 <div class="bio-block" markdown="1">
 
@@ -131,25 +145,6 @@ Alongside her research, Verde has taken on extensive scientific leadership and c
 
 </div>
 </div>
-
-
-<div class="grid-blocks" markdown="1">
-<div class="bio-block" markdown="1">
-
-### Michael Weissman
-**Executive Director of Finance and Business Operations, Cornell Tech**
-
-![Image of Michael Weissman](../images/MichaelW.jpg){.mkd-img-bio align="left" alt='Portrait of Michael Weissman' role="presentation"} 
-As executive director of finance and business operations, Michael Weissman oversees the capital, operational, and sponsored financial portfolios for Cornell Tech. He is responsible for the full scope of financial operations, including budget development and campus financial reporting. He also supervises research administration, housing operations, and corporate and foundation relations.
-
-Weissman has more than 15 years of experience in higher education finance and administration. Before joining Cornell Tech, he held several financial positions at Stony Brook University, including in the Office of Student Accounts and the University Budget Office.
-
-He earned a bachelor’s degree in financial economics from Binghamton University, an MBA from Stony Brook University, and a master of science in legal studies from Cornell University.
-
-</div>
-</div>
-
-
 
 <div class="grid-blocks" markdown="1">
 <div class="bio-block" markdown="1">
