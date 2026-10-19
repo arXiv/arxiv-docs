@@ -8,9 +8,9 @@ Interested in supporting arXiv and expanding the possibilities of open science? 
 <div class="mkd-ordered-list-blocks mkd-logo-blocks mkd-blocks-spacious" markdown="1">
 
 ## Major Funders
-1. ![arXiv forum logo](../assets/arxiv-lockup-forum.png){.mkd-funder-logo alt='arXiv forum logo'} Schmidt Sciences 
-1. ![arXiv forum logo](../assets/arxiv-lockup-forum.png){.mkd-funder-logo alt='arXiv forum logo'} Siegel Family Endowment
-1. Simons Foundation International
-1. XTX Markets
+1. ![](../assets/schmidt-sciences-logo.png){.mkd-funder-logo} Schmidt Sciences
+1. ![](../assets/siegel-family-endowment-logo.png){.mkd-funder-logo} Siegel Family Endowment
+1. ![](../assets/simons-foundation-international-logo.png){.mkd-funder-logo} Simons Foundation International
+1. ![](../assets/xtx-markets-logo.png){.mkd-funder-logo} XTX Markets
 
 </div>
