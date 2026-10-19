@@ -1,50 +1,41 @@
-"""Provides application for getting header and footer."""
+"""Generate the mkdocs theme override (overrides/main.html) with the design-system chrome.
 
+The shared head/header/footer come from the arxiv-brand-templates package, pinned by
+design-system SHA in prep_for_mkdocs.sh; mkdocs itself needs no design-system dependency.
+Two Jinja levels: this plain Jinja environment expands the chrome now, writing its hosts
+and asset route as mkdocs expressions; the `{% raw %}` blocks of templates/main.html are
+evaluated later, by mkdocs build.
+
+Usage (from make_arxiv_theme/):  python3 app.py > ../overrides/main.html
+"""
 import sys
+from pathlib import Path
 
-import logging
-logger = logging.getLogger(__file__)
+from jinja2 import Environment, FileSystemLoader
 
-if sys.version_info.major != 3 and sys.version_info.minor < 10:
-    logger.error("****************************** ERROR ******************************")
-    logger.error("You must use python version 3.10 to match the version used by arxiv-base")
-    logger.error("****************************** ERROR ******************************")
-    sys.exit(1)
+import arxiv_brand
 
-from flask import Flask, Blueprint, render_template, current_app
-from arxiv.base import Base, routes, config
-from flask_s3 import FlaskS3
 
-s3 = FlaskS3()
-config.FLASKS3_ACTIVE = True
-config.FLASKS3_DEBUG = False
-config.FLASKS3_BUCKET_NAME = 'arxiv-web-static1'
-config.FLASKS3_CDN_DOMAIN = 'static.arxiv.org'
-config.FLASKS3_USE_HTTPS = True
-config.BASE_SERVER = 'arxiv.org'
+def main() -> int:
+    env = Environment(loader=FileSystemLoader(Path(__file__).parent / "templates"))
+    # The site-wide values are mkdocs expressions, written verbatim (no autoescape) and
+    # resolved by each `mkdocs build` from mkdocs.yml's extras (ARXIV_HOST / INFO_HOST /
+    # BRAND_STATIC_BASE), so one committed override serves prod, dev and a local preview.
+    arxiv_brand.init_env(
+        env,
+        static_base="{{ config.extra.brand_static_base }}",
+        base_url="{{ config.extra.arxiv_host }}",
+        auth_url="{{ config.extra.arxiv_host }}",
+        help_url="{{ config.extra.info_host }}",
+    )
+    sys.stdout.write(env.get_template("main.html").render(**arxiv_brand.context(
+        # material's class keeps its search CSS working inside the shared header.
+        header_variant="md-header",
+        # info.arxiv.org has its own navigation and search.
+        hide_nav=True,
+    )))
+    return 0
 
-app = Flask('browse')
-app.config.from_object(config)
-app.config['RELATIVE_STATIC_PATHS'] = 0
-app.config['SERVER_NAME'] = 'arxiv.org'
-app.config['APP_VERSION'] = '0.3.4'  # Forces a version for the static cdn
-app.name = 'browse'
-Base(app)
-app.register_blueprint(routes.blueprint)
-blueprint = Blueprint('generate', __name__)
 
-@blueprint.cli.command('mkdocs_template')
-def mkdocs_template():
-    """Render the template for use in mkdocs from arxiv-base."""
-    try:
-        with app.test_request_context(''):
-            class fakemacros:
-                compactsearch = lambda a,b: ''
-
-            print(render_template('main.html', macros=fakemacros()))
-    except Exception:
-        logger.exception("Problem making template")
-        sys.exit(1)
-
-app.register_blueprint(blueprint)
-s3.init_app(app)
+if __name__ == "__main__":
+    sys.exit(main())

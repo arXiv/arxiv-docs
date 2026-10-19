@@ -60,15 +60,14 @@ Merge `develop`→`master` promptly; lingering commits get swept into others' de
 ## Theme / chrome architecture
 
 - **`overrides/main.html`** is the mkdocs-material template override carrying the arXiv
-  header/footer ("spinout chrome"). It is normally *generated* from `arxiv-base` via
-  `make_arxiv_theme/prep_for_mkdocs.sh` (a Flask CLI: `flask generate mkdocs_template`),
-  but is currently hand-maintained because the chrome-bearing arxiv-base isn't wired into
-  that generator yet. Chrome CSS/JS/images are **not vendored** — they load from the
-  shared versioned base-static route.
+  header/footer and announcement band from the design system. It is *generated*: edit
+  `make_arxiv_theme/templates/main.html` and run `make_arxiv_theme/prep_for_mkdocs.sh`
+  (`make_arxiv_theme/README.md`); never edit the override by hand. Chrome CSS/JS/images are
+  **not vendored** — they load from the design-system asset route.
 - **Per-environment roots** are set in `mkdocs.yml` `extra:` via `!ENV`. A dev build must
   override them so it stays inside dev:
   ```bash
-  BASE_STATIC=https://static.dev.arxiv.org/static/base/1.0.1 \
+  BRAND_STATIC_BASE=https://static.dev.arxiv.org/static/design-system/latest/ \
   ARXIV_HOST=https://dev.arxiv.org INFO_HOST=https://info.dev.arxiv.org mkdocs build
   ```
 - **`hooks/a11y.py`** is an `on_post_page` hook that string-patches WCAG fixes into
