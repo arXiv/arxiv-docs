@@ -15,6 +15,7 @@ More information on [arXiv's leadership team](leadership_team.md).
 
 ## Editorial & User Support Team
 
+- Talia Arthur, Associate Production Editor
 - Amanda Bartley, Senior User Support Specialist
 - Kai Beavers, User Support Specialist
 - Jim R-B Entwood, Head of Content and User Support
@@ -22,7 +23,6 @@ More information on [arXiv's leadership team](leadership_team.md).
 - Jamie Magyar, Production Editor
 - Rebecca Rich Goldweber, Lead Production Editor
 - Jessica Schriver, Production Editor
-- Ryan Shelley, Metadata Associate
 - Valpuri Sovero, Production Editor and User Support Specialist
 
 ## Technical Team
@@ -36,7 +36,6 @@ More information on [arXiv's leadership team](leadership_team.md).
 - Alison Hofer, Project Manager
 - Carly Jones, Senior Software Engineer
 - Brian Maltzan, Senior Software Engineer
-- Lauren Niu, Senior Software Engineer
 - Norbert Preining, Principal Software Engineer
 - Naoyuki Tai, Senior Software Engineer
 - Jake Weiskoff, Lead Project Manager
