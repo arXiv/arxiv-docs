@@ -6,7 +6,7 @@ steps:
       - "-c"
       - |
         pip install -r requirements.txt
-        mkdocs build
+        BRAND_STATIC_BASE=https://static.dev.arxiv.org/static/design-system/latest/ mkdocs build
 
   - name: 'gcr.io/cloud-builders/gsutil'
     args: ['-m', 'rsync', '-r', '-d', 'site/', 'gs://arxiv-docs-prs/$BRANCH_NAME/']

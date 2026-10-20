@@ -68,7 +68,7 @@ body {
 }
 .ds-site-header .ds-site-header-brand .ds-site-header-logo { margin-right: 0; }
 .ds-site-header-subsite {
-  color: var(--arxiv-grey-dis);            /* matches the chrome nav text on the dark bar */
+  color: var(--ds-hdr-fg);                 /* the design-system header text token (#b0aba6 on the dark bar) */
   font-weight: 600;
   font-size: 14px;                         /* px-pinned like the rest of the chrome (was .95rem → 19px under material's inflated root) */
   line-height: 1;
@@ -105,7 +105,7 @@ body {
 /* relocated color-theme toggle — light glyphs on the black bar */
 .ds-site-header [data-md-component="palette"] { display: flex; align-items: center; }
 .ds-site-header [data-md-component="palette"] .md-header__button {
-  color: var(--arxiv-card-grey);           /* canonical dark-bar control colour (matches .ds-site-header-login) */
+  color: var(--ds-hdr-fg-strong);          /* the design-system strong header token (#f0eeec), as Log in */
   margin: 0;
   padding: 6px;
 }
@@ -113,7 +113,7 @@ body {
    bar, matching the other dark-bar controls. Material hides it ≥60em (where the
    inline input is shown), so this only surfaces on mobile as the overlay trigger. */
 .ds-site-header .md-header__button[for="__search"] {
-  color: var(--arxiv-card-grey);
+  color: var(--ds-hdr-fg-strong);
   margin: 0;
   padding: 6px;
 }
@@ -122,6 +122,8 @@ body {
    input and its full-width results panel exactly as upstream — no custom panel CSS.
    The search sits just after the brand and pushes the nav to the right. */
 .ds-site-header.md-header .md-search { margin-right: auto; }
+/* material's 48px search fills the bar: no block padding keeps it 52px tall. */
+.ds-site-header.md-header { padding-block: 0; }
 /* The relocated .md-search lives inside .ds-site-header, which forms a z-index:4
    stacking context — so its full-screen mobile modal is trapped below the announcement
    banner (z-index:101). While search is open, lift the header above the banner so the
