@@ -23,7 +23,8 @@ The [moderators for the physics archive are listed here](https://arxiv.org/moder
 <span id="AdvisoryCommittee"></span>
 ## The arXiv Physics Section Editorial Committee:
 
-- Chris Reynolds, University of Maryland (acting chair)
+- Chris Reynolds, University of Maryland (chair)
+- Andrew Benson, Observatories of the Carnegie Institution for Science
 - Jacques Distler, University of Texas, Austin
 - Victor Galitski, University of Maryland
 - Daniel Gottesman, University of Maryland
