@@ -14,8 +14,7 @@ and readers needs, etc.
 
 ## Current Council Members 
 
-**Licia Verde (Chair, 2023-2026)**, ICREA Professor, Instituto de Ciencias del Cosmos, Universitat de Barcelona  
-
+**Sumati Surya (Chair, 2026-2029 | Vice Chair, 2023-2026)**, Professor of Theoretical Physics, Raman Research Institute
 
 **Mark Doyle (2023-2026)**, Chief Information Office, American Physical Society
 
@@ -33,8 +32,6 @@ Astrophysik, Germany
 **Prineha Narang (2023-2026)**, Professor in Physical Sciences, UCLA
 
 **Ronitt Rubinfeld (2023-2026)**, Edwin S. Webster Professor of Electrical Engineering and Computer Science, Massachusetts Institute of Technology
-
-**Sumati Surya (Vice Chair, 2023-2026)**, Professor of Theoretical Physics, Raman Research Institute
 
 **Sara del Valle (2023-2026)**, Deputy Group Leader, Los Alamos National Laboratory
 
