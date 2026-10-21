@@ -1,17 +1,11 @@
 # Our Supporters
 
-We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](ourmembers.md).
+We gratefully acknowledge the support of arXiv sponsors and affiliates, which are an essential piece of arXiv's sustainable funding model. Sponsors and affiliates contribute funding and in-kind contributions that complement support from [members](ourmembers.md).
 {.intro}
 
 Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
 
 <div class="mkd-ordered-list-blocks" markdown="1">
-
-## Major Funding
-1. Schmidt Sciences
-1. Siegel Family Endowment
-1. Simons Foundation International
-1. XTX Markets
 
 ## Gold Sponsors
 
