@@ -484,6 +484,25 @@ nav.md-nav.md-nav--primary .md-nav__list .md-nav__item nav.md-nav .md-nav__list 
     width: calc(50% - .5em);
   }
 }
+/*Logo above name, for list blocks with funder logos*/
+.mkd-logo-blocks ol li {
+  flex-direction: column;
+}
+.mkd-logo-blocks ol li img {
+  margin: 0 auto .5em auto;
+}
+/*Funder logos: same height for every logo; a logo too wide for its card scales down inside the same box*/
+.md-typeset img.mkd-funder-logo {
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+/*Larger list blocks with extra padding, for featured items*/
+.mkd-blocks-spacious ol li {
+  padding: 2.5em 1.5em;
+  min-height: 160px;
+}
 
 /*Pre and code blocks*/
 .md-typeset code{

@@ -5,9 +5,13 @@ arXiv’s mission is to provide an open research sharing platform where scholars
 
 arXiv’s financial sustainability depends on maintaining funding sources that are diverse, reliable, and community-based. Our balanced funding model ensures that funding responsibility is distributed fairly across arXiv’s dedicated global community.
 
-**Together, Simons Foundation International, other donors, members, affiliates, sponsors, foundations, and individuals contribute to arXiv's operating budget.**
+**Together, major funders, members, affiliates, sponsors, and individual donors contribute to arXiv's operating budget.**
 
 <ol class="color-blocks">
+
+   <li><strong>Major Funders</strong><br>
+  <a href="major_funders.html">Major funders</a> are companies, foundations, endowments which generously provide foundational support to arXiv operations and critical projects. </li>
+  
   <li><strong>Members</strong><br>
   <a href="ourmembers.html">Universities, libraries, laboratories, and research institutes</a> across the globe are invited to become members representing the scholars who use arXiv to read and share research. Members support arXiv with both scholarly communications expertise and funding, starting at just $1000. Members are eligible to serve in arXiv's governance. <a href="membership.html">Learn more about membership</a>.</li>
 
