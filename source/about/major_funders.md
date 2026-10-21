@@ -1,9 +1,11 @@
-# Our Supporters
+# Our Major Funders
 
-We gratefully acknowledge the support of the following organizations, which contribute funding and in-kind contributions that complement support from [members](ourmembers.md).
+We gratefully acknowledge the support of the following organizations, which contribute foundational funding to arXiv for operations and critical projects.
 {.intro}
 
-Interested in supporting arXiv and expanding the possibilities of open science? Learn more about [arXiv's funding](funding.md) and contact us at membership@arXiv.org.
+arXiv relies on support from the entire scientific community. Major funders are an important part of arXiv's [sustainable funding](funding.md) which includes [members](ourmembers.md), [affiliates](supporters.md), and [sponsors](supporters.md).
+
+Thank you for supporting arXiv and expanding the possibilities of open science.
 
 <div class="mkd-ordered-list-blocks mkd-logo-blocks mkd-blocks-spacious" markdown="1">
 
