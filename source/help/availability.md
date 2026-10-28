@@ -48,7 +48,7 @@ Occasionally, arXiv defers a mailing, either for locally celebrated holidays suc
 - Monday 2027-01-18
 - Monday 2027-02-15
 - Monday 2027-05-31
-- Friday 2027-06-19
+- Friday 2027-06-18
 - Monday 2027-07-05
 - Monday 2027-09-06
 - Monday 2027-10-11
