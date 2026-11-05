@@ -3,8 +3,12 @@
 Material renders five <label for="__drawer"|"__search"> elements that back a
 CSS-only disclosure pattern. Three are mouse-only click catchers / visual state
 indicators and should be hidden from the a11y tree; two are real icon buttons
-and need accessible names. Applied via an on_post_page hook so no template
-overrides are frozen against the theme.
+and need accessible names. Applied via MkDocs hooks so no template overrides
+are frozen against the theme:
+
+- on_post_page covers every page rendered from Markdown.
+- on_post_template covers 404.html. It's a theme static template, so
+  on_post_page never sees it (ARXIVCE-4570).
 """
 
 PATCHES = {
@@ -25,7 +29,17 @@ PATCHES = {
 }
 
 
-def on_post_page(output, page, config):
+def _patch(html):
     for old, new in PATCHES.items():
-        output = output.replace(old, new)
-    return output
+        html = html.replace(old, new)
+    return html
+
+
+def on_post_page(output, page, config):
+    return _patch(output)
+
+
+def on_post_template(output_content, template_name, config):
+    if template_name == "404.html":
+        return _patch(output_content)
+    return output_content
