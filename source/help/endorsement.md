@@ -22,6 +22,7 @@ Your account may receive endorsement if:
 
 - _and_ your email address meets the institutional email criteria
 
+Please note: some accounts with institutional email and claimed papers will still require personal endorsement. 
 
 If you have an institutional email but have not claimed ownership of work you have contributed to as an author:
 
@@ -53,7 +54,7 @@ A good choice for graduate students would be your thesis advisor or another prof
 
 5. You can find somebody qualified to endorse by clicking on the link titled, **Which authors of this paper are endorsers?**, at the bottom of every abstract page.
 
-6. Using that information, you can then find the email address of the potential endorser on the abstract page just under the **Submission history** heading.
+6. Using that information, you can then find the email address of the potential endorser on the abstract page just under the **Submission history** heading or the email may be in the full text article.
 
 7. Contact eligible endorsers and send them the **endorsement request email**. You may include a link to your ORCID profile, other scholarly profile, or a copy of your intended submission if you are comfortable doing so. Please note, however, that it is inappropriate to email large numbers of potential endorsers at once, or to repeatedly email the same endorser with a request for endorsement.
 
