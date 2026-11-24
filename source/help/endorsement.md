@@ -22,6 +22,7 @@ Your account may receive endorsement if:
 
 - _and_ your email address meets the institutional email criteria
 
+Please note: some accounts with institutional email and claimed papers will still require personal endorsement. 
 
 If you have an institutional email but have not claimed ownership of work you have contributed to as an author:
 
